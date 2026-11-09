@@ -1,0 +1,227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_occultism"
+	group: "46A9BB1E2D819F6E"
+	icon: {
+		id: "occultism:dictionary_of_spirits"
+	}
+	id: "3ECB85C6CD6AC214"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "4FDF2456FDC220B7"
+			rewards: [{
+				id: "7199067992260EA1"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "5BFD8FBAF99B11B2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4FDF2456FDC220B7"]
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "0CAF07650EBB57E6"
+			rewards: [{
+				id: "196E558D28FFF8CF"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "684A01B52185CC1D"
+					item: { count: 1, id: "occultism:datura_seeds" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "356A7B057FFDF1C7"
+					item: { count: 1, id: "occultism:datura" }
+					type: "item"
+				}
+				{
+					id: "4772E49457910977"
+					item: { count: 1, id: "occultism:dictionary_of_spirits" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FDF2456FDC220B7"]
+			icon: {
+				id: "occultism:large_candle"
+			}
+			id: "65DA011A0D7CBB42"
+			rewards: [{
+				id: "560D027EFB41F48E"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "0A1D063E48BD3F2A"
+					item: { count: 1, id: "occultism:silver_ingot" }
+					type: "item"
+				}
+				{
+					id: "5BE5600143D4A759"
+					item: { count: 1, id: "occultism:butcher_knife" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "78E2092EC090EA8C"
+					item: { count: 1, id: "occultism:tallow" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7DB6B6C7E8D0628F"
+					item: { count: 1, id: "occultism:large_candle" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["0CAF07650EBB57E6"]
+			id: "3AFBB65C230F7DE0"
+			rewards: [
+				{
+					id: "1F706B165B037BB5"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1B5447A5BAFC9CAF"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "0BF5D9B778A29680"
+					item: { count: 1, id: "occultism:otherstone" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "38919FFCB7393B6D"
+					item: { count: 1, id: "occultism:otherrock" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "59D265667683CB34"
+					item: { count: 1, id: "occultism:otherworld_essence" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AFBB65C230F7DE0"]
+			id: "2B002EBE2EB90D87"
+			rewards: [{
+				id: "28C9EB6D8E9B519A"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "759D987ACC78A8EF"
+					item: { count: 1, id: "occultism:otherworld_sapling_natural" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "338164669066C4C7"
+					item: { count: 1, id: "occultism:otherworld_log" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "11662ACFD8DB176D"
+					item: { count: 1, id: "occultism:otherworld_ashes" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B002EBE2EB90D87"]
+			id: "3ED8BFF02A311899"
+			optional: true
+			rewards: [
+				{
+					id: "5681F2AA3F88F6C0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "00D890E37B2AD1C9"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 16L
+					id: "58A96EEE55F8E2B8"
+					item: { count: 1, id: "occultism:otherstone_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5DAC86D6B8901E0D"
+					item: { count: 1, id: "occultism:otherplanks" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4DD1C1A02A89131C"
+					item: { count: 1, id: "occultism:spirit_torch" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0130D780C8702BFF"
+					item: { count: 1, id: "occultism:otherflower" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

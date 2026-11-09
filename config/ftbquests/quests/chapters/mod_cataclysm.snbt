@@ -1,0 +1,59 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cataclysm"
+	group: "0E0AC8A91F88F063"
+	icon: {
+		id: "cataclysm:mechanical_fusion_anvil"
+	}
+	id: "19360342866B4985"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cataclysm:mechanical_fusion_anvil"
+			}
+			id: "054FFD1D44FD6E4F"
+			rewards: [{
+				id: "329D4F199ED55B1B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "23F3DB1DDDE71BD7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["054FFD1D44FD6E4F"]
+			id: "4635BF63F94949B6"
+			rewards: [{
+				id: "1FD55A34A32F1DEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					advancement: "cataclysm:root"
+					criterion: ""
+					id: "44E040D3CB249788"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "63AF4270045E2337"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

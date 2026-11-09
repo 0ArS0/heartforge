@@ -1,0 +1,190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bosses_t4"
+	group: "1B6781BE25FE5814"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "07B133923A68BB3B"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "75778A68E6287ABF"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "0173B03478896892"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["75778A68E6287ABF"]
+			icon: {
+				id: "comamigos_balance:wither_heart"
+			}
+			id: "07E8765FDF4A9B9F"
+			rewards: [{
+				id: "782A8AFE86F33E52"
+				type: "xp"
+				xp: 560
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					count: 3L
+					id: "0B958B4C94B385D2"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:nether/summon_wither"
+					criterion: ""
+					id: "37176B00931596DA"
+					type: "advancement"
+				}
+				{
+					entity: "minecraft:wither"
+					id: "7928EF9C790B42B8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "minecraft:nether/create_beacon"
+					criterion: ""
+					id: "79F57A1021DCD163"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1C986091557ADA57"
+				"75778A68E6287ABF"
+			]
+			icon: {
+				id: "comamigos_balance:gauntlet_heart"
+			}
+			id: "7F539B48DED44B0D"
+			rewards: [
+				{
+					id: "2881F3AB0A4E7593"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "7AB673C45F4ED98B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					id: "1E06DA0AE15A35CB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1BD360CB97AB7660"
+					item: { count: 1, id: "bosses_of_mass_destruction:blazing_eye" }
+					type: "item"
+				}
+				{
+					id: "536E0BF131239689"
+					item: { count: 1, id: "bosses_of_mass_destruction:levitation_block" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["75778A68E6287ABF"]
+			icon: {
+				id: "comamigos_balance:ashlord_heart"
+			}
+			id: "70D08B61B1B5ADC5"
+			rewards: [{
+				id: "2A5980CB724571C6"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "block_factorys_bosses:infernal_dragon"
+					id: "238B90D5D4C74B64"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3D8E9EB0370B43E4"
+					item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+					type: "item"
+				}
+				{
+					id: "323061C081E4C931"
+					item: { count: 1, id: "block_factorys_bosses:dragon_bone" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"2AFDA2BD935F2B76"
+				"2B24EF1C195A5E7B"
+				"75778A68E6287ABF"
+			]
+			id: "638D8BCD4CD1FCF0"
+			rewards: [
+				{
+					id: "552FBE815B669239"
+					type: "xp"
+					xp: 280
+				}
+				{
+					id: "5C1F82BCAEC6CCCE"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70798B823A20819E"
+					item: { count: 1, id: "block_factorys_bosses:ice_gauntlet" }
+					type: "item"
+				}
+				{
+					id: "25FAD978FE4DAD27"
+					item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+	]
+}

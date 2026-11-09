@@ -1,0 +1,190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cozinha"
+	group: "4E6D0897A16A0238"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "79955026217BFF7A"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "454912634DAC2130"
+			rewards: [{
+				id: "16040BD773DA5F7C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "73938B806BB2D3B9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["454912634DAC2130"]
+			icon: {
+				id: "thirst:terracotta_water_bowl"
+			}
+			id: "06D9934D97FC106C"
+			rewards: [{
+				id: "54BD0608E81B6451"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "7FA3069B2602131A"
+					item: { count: 1, id: "thirst:clay_bowl" }
+					type: "item"
+				}
+				{
+					id: "6829A5AA6D6A2CBB"
+					item: { count: 1, id: "thirst:terracotta_bowl" }
+					type: "item"
+				}
+				{
+					id: "247FE26604B40142"
+					item: { count: 1, id: "thirst:terracotta_water_bowl" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["454912634DAC2130"]
+			id: "56D724E4311BA3DC"
+			rewards: [{
+				id: "49F1078E024EA47C"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "303AC73BC32823D8"
+					item: { count: 1, id: "farmersdelight:flint_knife" }
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/harvest_straw"
+					criterion: ""
+					id: "3EFF54B01B0961FA"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "1E07258E4AA8F77D"
+					item: { count: 1, id: "farmersdelight:straw" }
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/get_fd_seed"
+					criterion: ""
+					id: "1F3C367936B2C3CA"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["454912634DAC2130"]
+			id: "4E3FC9ED73CF4D0E"
+			rewards: [
+				{
+					id: "718CC5EE47C2907E"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "01DB11259CECFCE4"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "26C6F6CED15A1150"
+					item: { count: 1, id: "aquaculture:iron_fishing_rod" }
+					type: "item"
+				}
+				{
+					id: "79CA41AA49404477"
+					item: { count: 1, id: "aquaculture:tackle_box" }
+					type: "item"
+				}
+				{
+					id: "79676031DB8DB91F"
+					item: { count: 1, id: "aquaculture:fishing_line" }
+					type: "item"
+				}
+				{
+					id: "186E80981A2D7400"
+					item: { count: 1, id: "aquaculture:bobber" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3D40C631907E1733"
+					item: { count: 1, id: "aquaculture:worm" }
+					type: "item"
+				}
+				{
+					id: "02862DFB6DEB5866"
+					item: { count: 1, id: "aquaculture:iron_hook" }
+					type: "item"
+				}
+				{
+					id: "2D8D8B6540012EC4"
+					item: { count: 1, id: "aquaculture:gold_hook" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["454912634DAC2130"]
+			id: "43082E61A648EBB9"
+			rewards: [{
+				id: "01C4E96A900C7584"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "2C85FEAF0514D6C0"
+					item: { count: 1, id: "wildernature:bounty_board" }
+					type: "item"
+				}
+				{
+					id: "18E1B3506FC0285A"
+					item: { count: 1, id: "wildernature:field_guide" }
+					type: "item"
+				}
+				{
+					id: "534EC87A65C0E738"
+					item: { count: 1, id: "wildernature:loot_bag" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+	]
+}

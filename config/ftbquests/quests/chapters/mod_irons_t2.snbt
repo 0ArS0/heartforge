@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_irons_t2"
+	group: "5955ECC104DC966A"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "29D8D6D03AA54C07"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "6E688E5DFABDBDAB"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "7824249C65892667"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"530554AB7F09E8AA"
+				"6E688E5DFABDBDAB"
+			]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:wizard_chestplate"
+			}
+			id: "1D3354AB770F3BBC"
+			rewards: [{
+				id: "07B02E5A0EF254FB"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "178A6C6213EA3A59"
+					item: { count: 1, id: "irons_spellbooks:magic_cloth" }
+					type: "item"
+				}
+				{
+					id: "157AACCC684F7FB5"
+					item: { count: 1, id: "irons_spellbooks:wizard_hat" }
+					type: "item"
+				}
+				{
+					id: "4C955C39F540A581"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:wizard_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0BDD3CD4E1DE95E6"
+					item: { count: 1, id: "irons_spellbooks:wizard_leggings" }
+					type: "item"
+				}
+				{
+					id: "20BD650AEC0A6992"
+					item: { count: 1, id: "irons_spellbooks:wizard_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"530554AB7F09E8AA"
+				"6E688E5DFABDBDAB"
+			]
+			icon: {
+				id: "irons_spellbooks:graybeard_staff"
+			}
+			id: "1765739A41F9FE90"
+			rewards: [
+				{
+					id: "1D71ED7AA9B8E5B3"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "69902DE36E000363"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "3763EF3542DA0D17"
+					item: { count: 1, id: "irons_spellbooks:arcane_ingot" }
+					type: "item"
+				}
+				{
+					id: "1B2155D0FFB4F5E4"
+					item: { count: 1, id: "irons_spellbooks:mana_ring" }
+					type: "item"
+				}
+				{
+					id: "79858E437FA89877"
+					item: { count: 1, id: "irons_spellbooks:amethyst_resonance_charm" }
+					type: "item"
+				}
+				{
+					id: "36E683AF71DDF3F1"
+					item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
+					type: "item"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/staff_artificer"
+					criterion: ""
+					id: "2EBE23E3C5968DE5"
+					type: "advancement"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/staff_root"
+					criterion: ""
+					id: "753457DC72328CB6"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"504D2C256F3096CB"
+				"77294CE5EBCF0090"
+				"6E688E5DFABDBDAB"
+			]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:rotten_spell_book"
+			}
+			id: "4D316F3B5A75B34E"
+			rewards: [{
+				id: "7EA8771DE07B25F3"
+				type: "xp"
+				xp: 240
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "irons_spellbooks:pyromancer"
+					id: "5A71CD76542A8421"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "irons_spellbooks:cryomancer"
+					id: "2DAB7FC087714985"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_rotten"
+					criterion: ""
+					id: "5F2358960681240C"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"530554AB7F09E8AA"
+				"6E688E5DFABDBDAB"
+			]
+			icon: {
+				id: "irons_spellbooks:alchemist_cauldron"
+			}
+			id: "5CC5F2FDC9771550"
+			rewards: [{
+				id: "140B653676A8A1EF"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "53E797CA24C3184D"
+					item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "31853403845FA3E6"
+					item: { count: 1, id: "irons_spellbooks:uncommon_ink" }
+					type: "item"
+				}
+				{
+					id: "695B2ACE2752D3AB"
+					item: { count: 1, id: "irons_spellbooks:greater_healing_potion" }
+					type: "item"
+				}
+				{
+					id: "55B67B121A212832"
+					item: { count: 1, id: "irons_spellbooks:oakskin_elixir" }
+					type: "item"
+				}
+				{
+					id: "0DED89098A31ABE0"
+					item: { count: 1, id: "irons_spellbooks:greater_oakskin_elixir" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["1D3354AB770F3BBC"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:gold_spell_book"
+			}
+			id: "6E06DF291C66B2D7"
+			rewards: [{
+				id: "19E51FBA5FF3C7C0"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_iron"
+					criterion: ""
+					id: "6AFA15F49C59684B"
+					type: "advancement"
+				}
+				{
+					count: 6L
+					id: "752E5428B2E06A5D"
+					item: { count: 1, id: "irons_spellbooks:hogskin" }
+					type: "item"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_gold"
+					criterion: ""
+					id: "3260A9695094133D"
+					type: "advancement"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_villager"
+					criterion: ""
+					id: "7AC3393613B536D0"
+					type: "advancement"
+				}
+				{
+					id: "7768A3D0EFC4B3B2"
+					item: { count: 1, id: "irons_spellbooks:lesser_spell_slot_upgrade" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.53d
+		}
+		{
+			dependencies: ["1D3354AB770F3BBC"]
+			icon: {
+				id: "irons_spellbooks:pumpkin_helmet"
+			}
+			id: "530B4BD769CE629F"
+			optional: true
+			rewards: [
+				{
+					id: "0369A3F884B01F08"
+					type: "xp"
+					xp: 320
+				}
+				{
+					id: "00105E80CBAFFDE5"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5347000DC31EECF1"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_helmet" }
+					type: "item"
+				}
+				{
+					id: "1B6EC835C0B5E1B1"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3CAFE60FBCDCF3CB"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_leggings" }
+					type: "item"
+				}
+				{
+					id: "09FB2D4ED41CD880"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.07d
+		}
+		{
+			dependencies: [
+				"5CC5F2FDC9771550"
+				"477D1D74C4B9B265"
+			]
+			icon: {
+				id: "irons_spellbooks:evasion_elixir"
+			}
+			id: "2236F08691362BB6"
+			rewards: [{
+				id: "50A44AFD8DC9A326"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "irons_spellbooks:apothecarist"
+					id: "1C7E1D58F8E32193"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7CF3BFB3FDF802A2"
+					item: { count: 1, id: "irons_spellbooks:netherward_tincture" }
+					type: "item"
+				}
+				{
+					id: "44466DB93BE6A190"
+					item: { count: 1, id: "irons_spellbooks:invisibility_elixir" }
+					type: "item"
+				}
+				{
+					id: "5F0544835215D3F8"
+					item: { count: 1, id: "irons_spellbooks:greater_invisibility_elixir" }
+					type: "item"
+				}
+				{
+					id: "37334F734E5ABDAF"
+					item: { count: 1, id: "irons_spellbooks:evasion_elixir" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.27d
+		}
+	]
+}

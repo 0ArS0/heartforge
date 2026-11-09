@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_occultism_t7"
+	group: "46A9BB1E2D819F6E"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "7BC9CC63987512D0"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "6D5F0811B45051BE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "73A087B31BFB77E0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4BC7C871A2F32473"
+				"6D5F0811B45051BE"
+			]
+			icon: {
+				id: "occultism:dragonyst_dust"
+			}
+			id: "0F400D32C6FAAAB3"
+			rewards: [{
+				id: "4F440997215E0F5D"
+				type: "xp"
+				xp: 920
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 3L
+					id: "44B93ACB9D64691E"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+				{
+					id: "3076B2D54D6DF302"
+					item: { count: 1, id: "occultism:dragonyst_dust" }
+					type: "item"
+				}
+				{
+					id: "446F4B2739D0D85B"
+					item: { count: 1, id: "occultism:chalk_magenta" }
+					type: "item"
+				}
+				{
+					id: "7C09BE1E90493D26"
+					item: { count: 1, id: "occultism:miner_marid_master" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F400D32C6FAAAB3"
+				"317D8D08408053F7"
+				"7434C2EA43545265"
+			]
+			icon: {
+				id: "occultism:chalk_rainbow"
+			}
+			id: "100BFF314C6FECFC"
+			rewards: [{
+				id: "26C0B85BBBFA0803"
+				type: "xp"
+				xp: 920
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2447F1C07E0395D3"
+					item: { count: 1, id: "occultism:chalk_rainbow" }
+					type: "item"
+				}
+				{
+					id: "178C194541CCF8DD"
+					item: { count: 1, id: "occultism:chalk_void" }
+					type: "item"
+				}
+				{
+					id: "6B2D15C3881EF46E"
+					item: { count: 1, id: "occultism:trinity_gem" }
+					type: "item"
+				}
+				{
+					id: "117D1A47371AD746"
+					item: { count: 1, id: "occultism:storage_stabilizer_tier5" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["0F400D32C6FAAAB3"]
+			id: "3B9F74862565F855"
+			optional: true
+			rewards: [
+				{
+					id: "420650DAE4B4EDA6"
+					type: "xp"
+					xp: 690
+				}
+				{
+					id: "62F57E9146DA8371"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_marid_smelter"
+					criterion: ""
+					id: "0DAC36EEB681CA85"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/possess_shulker"
+					criterion: ""
+					id: "4E55EF5026A8D603"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "78D35C95FA6E2BAB"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"100BFF314C6FECFC"
+				"0376E714AB157DD5"
+				"664AFB50A92C9BED"
+			]
+			icon: {
+				id: "occultism:celestial_chalice"
+			}
+			id: "5338793A0AD50806"
+			rewards: [
+				{
+					id: "6C2EFF988D778A5A"
+					type: "xp"
+					xp: 690
+				}
+				{
+					id: "0839E95D0C8671BF"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F18A83D52A3B190"
+					item: { count: 1, id: "minecraft:heavy_core" }
+					type: "item"
+				}
+				{
+					id: "0DC1303C844A7935"
+					item: { count: 1, id: "minecraft:reinforced_deepslate" }
+					type: "item"
+				}
+				{
+					id: "6D58BB569A3FC1B7"
+					item: { count: 1, id: "occultism:celestial_chalice" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["100BFF314C6FECFC"]
+			id: "3F9BC12FB785BA7B"
+			optional: true
+			rewards: [
+				{
+					id: "3FF00C4CA7D18B2A"
+					type: "xp"
+					xp: 690
+				}
+				{
+					id: "2504E0E061140A28"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C16EBA284F8DE3F"
+					item: { count: 1, id: "occultism:mining_dim_core" }
+					type: "item"
+				}
+				{
+					id: "535F4445A05D4C06"
+					item: { count: 1, id: "occultism:miner_ancient_eldritch" }
+					type: "item"
+				}
+				{
+					id: "0DEFC48C85E0B76A"
+					item: { count: 1, id: "occultism:storage_controller_stabilized" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

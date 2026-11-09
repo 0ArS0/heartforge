@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create_addons_t7"
+	group: "3B08ACB5CE59F3E7"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "028E60178581EC35"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "4DCBC234F750BC18"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "5BF9F2EA331C768B"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"75284A0849724344"
+				"4DCBC234F750BC18"
+			]
+			id: "6510986A8F83BF8D"
+			optional: true
+			rewards: [
+				{
+					id: "300057B4E215C1B2"
+					type: "xp"
+					xp: 460
+				}
+				{
+					id: "787E3CBE1E0BD4C2"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "71034FC66FFF6BCC"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+				{
+					id: "0E86325D69ABA9F6"
+					item: { count: 1, id: "create_dragons_plus:dragon_breath_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

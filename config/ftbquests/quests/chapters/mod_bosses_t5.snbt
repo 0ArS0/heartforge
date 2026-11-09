@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bosses_t5"
+	group: "1B6781BE25FE5814"
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "2A8CEEF6E3406823"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "2DB8CE005B675E80"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "1EA4B8E7CDC564B5"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"1C986091557ADA57"
+				"2DB8CE005B675E80"
+			]
+			icon: {
+				id: "comamigos_balance:void_blossom_heart"
+			}
+			id: "4F28843ED2495D88"
+			rewards: [
+				{
+					id: "192468A5E7890487"
+					type: "xp"
+					xp: 850
+				}
+				{
+					id: "267F2B524F6B72A0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2A0178E5AE8F0695"
+					item: { count: 1, id: "bosses_of_mass_destruction:void_lily" }
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "1EEB76731AC565DB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "66FF10718F8AA7F3"
+					item: { count: 1, id: "bosses_of_mass_destruction:void_thorn" }
+					type: "item"
+				}
+				{
+					id: "20464646D22B9062"
+					item: { count: 1, id: "bosses_of_mass_destruction:crystal_fruit" }
+					type: "item"
+				}
+				{
+					id: "27565106EF896556"
+					item: { count: 1, id: "bosses_of_mass_destruction:charged_ender_pearl" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"70D08B61B1B5ADC5"
+				"2DB8CE005B675E80"
+			]
+			id: "78989FE66E6D7109"
+			rewards: [
+				{
+					id: "05C528044996DEA2"
+					type: "xp"
+					xp: 680
+				}
+				{
+					id: "53E259D88178F275"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "4EBCA784BA97A41E"
+					item: { count: 1, id: "block_factorys_bosses:dragon_bones_chestplate" }
+					type: "item"
+				}
+				{
+					id: "39FA4D9F5B5A579F"
+					item: { count: 1, id: "block_factorys_bosses:dragon_bones_leggings" }
+					type: "item"
+				}
+				{
+					id: "093A6B14D2DAC7CA"
+					item: { count: 1, id: "block_factorys_bosses:dragon_bones_boots" }
+					type: "item"
+				}
+				{
+					id: "16332A3546A23BBA"
+					item: { count: 1, id: "block_factorys_bosses:dragon_guard_shield" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+	]
+}

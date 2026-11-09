@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_occultism_t5"
+	group: "46A9BB1E2D819F6E"
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "3C247FF247BFFE8E"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "4993243FDB1F6D1D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "42EFD44B139BAB17"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"664AFB50A92C9BED"
+				"7434C2EA43545265"
+				"4993243FDB1F6D1D"
+			]
+			icon: {
+				id: "occultism:marid_essence"
+			}
+			id: "32CD1144D29DEE34"
+			rewards: [{
+				id: "68394E6FE573936A"
+				type: "xp"
+				xp: 680
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5D0AEF05498B1F1B"
+					item: { components: { "occultism:spirit_name": "Creolirlyr" }, count: 1, id: "occultism:book_of_binding_bound_marid" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/summon_unbound_marid"
+					criterion: ""
+					id: "43F040F84C365FFC"
+					type: "advancement"
+				}
+				{
+					entity: "occultism:marid_unbound"
+					id: "5F0C6D24E718D808"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "1BEBD7FAF066A462"
+					item: { count: 1, id: "occultism:marid_essence" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"32CD1144D29DEE34"
+				"36F3586485B49E21"
+			]
+			icon: {
+				id: "occultism:chalk_blue"
+			}
+			id: "72A7CBA9A7E21164"
+			rewards: [{
+				id: "0AD88F2F6A004F97"
+				type: "xp"
+				xp: 850
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "33F7D6B483BAF2C5"
+					item: { count: 1, id: "occultism:chalk_blue" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/summon_marid_crusher"
+					criterion: ""
+					id: "47FCC397AAC2A3FB"
+					type: "advancement"
+				}
+				{
+					id: "13FF972248FCE9BD"
+					item: { count: 1, id: "occultism:echo_dust" }
+					type: "item"
+				}
+				{
+					id: "217AC21A0275F9F2"
+					item: { count: 1, id: "occultism:iesnium_dust" }
+					type: "item"
+				}
+				{
+					id: "00DC735279CFE074"
+					item: { count: 1, id: "occultism:chalk_cyan" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"72A7CBA9A7E21164"
+				"1B0A08B27D53D9B0"
+			]
+			icon: {
+				id: "occultism:iesnium_anvil"
+			}
+			id: "4BC7C871A2F32473"
+			rewards: [{
+				id: "20336DF5D1023254"
+				type: "xp"
+				xp: 510
+			}]
+			tasks: [
+				{
+					id: "3B5501BE3C609C92"
+					item: { count: 1, id: "occultism:iesnium_anvil" }
+					type: "item"
+				}
+				{
+					id: "69436D7B70A35315"
+					item: { count: 1, id: "occultism:true_sight_staff" }
+					type: "item"
+				}
+				{
+					id: "744E46E54C734545"
+					item: { count: 1, id: "occultism:storage_stabilizer_tier4" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["72A7CBA9A7E21164"]
+			icon: {
+				id: "occultism:cruelty_essence"
+			}
+			id: "317D8D08408053F7"
+			rewards: [{
+				id: "78504121BE482280"
+				type: "xp"
+				xp: 510
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					entity: "occultism:mercy_goat"
+					id: "5CAFA717974B014E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5FF0B12BB528FD32"
+					item: { count: 1, id: "occultism:cruelty_essence" }
+					type: "item"
+				}
+				{
+					id: "24811378D49F254A"
+					item: { count: 1, id: "occultism:chalk_brown" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["317D8D08408053F7"]
+			id: "638D2B97E79C98AE"
+			optional: true
+			rewards: [
+				{
+					id: "055FD183F27FA690"
+					type: "xp"
+					xp: 510
+				}
+				{
+					id: "09BEABD32D9CCF68"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "1993832E7075E1B9"
+					item: { count: 1, id: "occultism:iesnium_block" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/possess_iesnium_golem"
+					criterion: ""
+					id: "453888122E2ABDF0"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/summon_marid_crystallizer"
+					criterion: ""
+					id: "343CEAD0E317D8C4"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.8d
+		}
+	]
+}

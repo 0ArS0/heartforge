@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_werewolves_t4"
+	group: "4420EA9AE6BA168A"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "07DB8603AE1E5D99"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "665F98EF60190E9D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "1C4772C26408D9F9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"33D5F8A352D22BCE"
+				"665F98EF60190E9D"
+			]
+			id: "68B770D996B98032"
+			rewards: [
+				{
+					id: "1FBA995DF0B72402"
+					type: "xp"
+					xp: 140
+				}
+				{
+					id: "277B9EFFA753E3A7"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "werewolves:lord_of_the_hunt"
+				criterion: ""
+				id: "28C32AA5FD7519B6"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_equip_t7"
+	group: "0011E6E41EF0DECD"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "3598F7AB97D6E549"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "79EAF877BEBE5A57"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "17C9984D6A3CF212"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"673E3FD7AF190BB3"
+				"79EAF877BEBE5A57"
+			]
+			icon: {
+				id: "simplyswords:tampered_remnant"
+			}
+			id: "2C09B0160765FBA6"
+			optional: true
+			rewards: [
+				{
+					id: "7B293A22FDC24A2D"
+					type: "xp"
+					xp: 230
+				}
+				{
+					id: "2F70096D89BB96EB"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79EA507D05B7565F"
+				item: { count: 1, id: "simplyswords:tampered_remnant" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create_t6"
+	group: "60FEF54FAB43A476"
+	icon: {
+		id: "comamigos_balance:tier_heart_6"
+	}
+	id: "040B899A4D9E6240"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_6"
+			}
+			id: "06B617500E34F7F9"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "6B77A5DCDADBF324"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"50B7449EFC8BC341"
+				"06B617500E34F7F9"
+			]
+			id: "0E72B9BB4689BC1F"
+			tasks: [{
+				id: "0FDDB371BA8A46F7"
+				item: { count: 1, id: "comamigos_balance:tier_heart_7" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

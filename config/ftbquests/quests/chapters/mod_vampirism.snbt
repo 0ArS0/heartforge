@@ -1,0 +1,216 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_vampirism"
+	group: "3147F27B282022B5"
+	icon: {
+		id: "vampirism:vampire_fang"
+	}
+	id: "7FF9C4B703E64E2F"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "vampirism:vampire_fang"
+			}
+			id: "419E736DAFB87A6D"
+			rewards: [{
+				id: "1AC86CB7ED115F2F"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "2FDF01E3F5A399C4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["419E736DAFB87A6D"]
+			id: "2185652AAB4F17D0"
+			rewards: [{
+				id: "2A64AD0F0354E6E4"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "vampirism:main/root"
+					criterion: ""
+					id: "71064EC5E68FA215"
+					type: "advancement"
+				}
+				{
+					id: "2C511D284F9EC6C9"
+					item: { count: 1, id: "vampirism:vampire_book" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7CCFC3BF2B5745F4"
+					item: { count: 1, id: "vampirism:vampire_fang" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "48C3037DA4DE8377"
+					item: { count: 1, id: "vampirism:garlic" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2185652AAB4F17D0"]
+			id: "28BEF2E097218D1C"
+			rewards: [{
+				id: "2F5803FD9352E51A"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "vampirism:main/vampire_forest"
+					criterion: ""
+					id: "2E89BF9EB92BE703"
+					type: "advancement"
+				}
+				{
+					id: "45941E5ABC9381E2"
+					item: { count: 1, id: "vampirism:vampire_orchid" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2AA308EE05E5E4BF"
+					item: { count: 1, id: "vampirism:cobbled_dark_stone" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["2185652AAB4F17D0"]
+			id: "52B0F0BE75D0CF07"
+			rewards: [{
+				id: "1B6E14D088B39960"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3631573013CF79FF"
+					item: { count: 1, id: "vampirism:injection_garlic" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:hunter/become_hunter"
+					criterion: ""
+					id: "57ACC2E5C81A17EC"
+					type: "advancement"
+				}
+				{
+					id: "3AA09BC719AA0736"
+					item: { count: 1, id: "vampirism:stake" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:hunter/stake"
+					criterion: ""
+					id: "04C8922627E33BB7"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2185652AAB4F17D0"]
+			id: "40EE7C6EF318FCA9"
+			optional: true
+			rewards: [
+				{
+					id: "31B1E50F09A3839E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "320ED98438A380CA"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63343B60D5B826FA"
+					item: { count: 1, id: "vampirism:altar_cleansing" }
+					type: "item"
+				}
+				{
+					id: "0488A7DA0D3FBA25"
+					item: { count: 1, id: "vampirism:injection_sanguinare" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"2185652AAB4F17D0"
+				"28BEF2E097218D1C"
+			]
+			id: "0AE3AA51BD3FC0D0"
+			rewards: [{
+				id: "06FF6F106C5757F1"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "vampirism:vampire/become_vampire"
+					criterion: ""
+					id: "3ACC6D18F11F0336"
+					type: "advancement"
+				}
+				{
+					advancement: "vampirism:vampire/first_blood"
+					criterion: ""
+					id: "064B5B86A612975B"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "48B63B8FC0811D37"
+					item: { count: 1, id: "vampirism:blood_bottle" }
+					type: "item"
+				}
+				{
+					id: "0477A713481DD91D"
+					item: { count: 1, id: "vampirism:umbrella" }
+					type: "item"
+				}
+				{
+					id: "27616E3A1688851C"
+					item: { count: 1, id: "vampirism:coffin_red" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+	]
+}

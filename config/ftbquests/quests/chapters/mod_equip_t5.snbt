@@ -1,0 +1,381 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_equip_t5"
+	group: "0011E6E41EF0DECD"
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "30CDCB0E50E10741"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "09594472B04DC004"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "612910152E40F45C"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"032A29D953157D12"
+				"09594472B04DC004"
+			]
+			icon: {
+				id: "simplyswords:runefused_gem"
+			}
+			id: "47DF1E33E23DC3D7"
+			rewards: [{
+				id: "0DECCAFC51AA1F51"
+				type: "xp"
+				xp: 510
+			}]
+			tasks: [
+				{
+					id: "451E454266429DAC"
+					item: { count: 1, id: "simplyswords:empowered_remnant" }
+					type: "item"
+				}
+				{
+					id: "02614C7C39FB2C18"
+					item: { count: 1, id: "simplyswords:runefused_gem" }
+					type: "item"
+				}
+				{
+					id: "6954BDE1648003C8"
+					item: { count: 1, id: "simplyswords:netherfused_gem" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"09594472B04DC004"
+			]
+			icon: {
+				id: "simplyswords:brimstone_claymore"
+			}
+			id: "0C65A658C0D76FB3"
+			optional: true
+			rewards: [
+				{
+					id: "181DFF68CAD041CB"
+					type: "xp"
+					xp: 1360
+				}
+				{
+					id: "1D4DFF317C4AA736"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "53BFC1E17161CF87"
+					item: { count: 1, id: "simplyswords:brimstone_claymore" }
+					type: "item"
+				}
+				{
+					id: "726BB451077B06D4"
+					item: { count: 1, id: "simplyswords:emberblade" }
+					type: "item"
+				}
+				{
+					id: "5F8FA504AE9AFDB8"
+					item: { count: 1, id: "simplyswords:emberlash" }
+					type: "item"
+				}
+				{
+					id: "0605AFFAC3E40882"
+					item: { count: 1, id: "simplyswords:flamewind" }
+					type: "item"
+				}
+				{
+					id: "61B39CD7EEF25E3D"
+					item: { count: 1, id: "simplyswords:hearthflame" }
+					type: "item"
+				}
+				{
+					id: "723C01099F2DFBFE"
+					item: { count: 1, id: "simplyswords:molten_edge" }
+					type: "item"
+				}
+				{
+					id: "4BD312FA93B4381E"
+					item: { count: 1, id: "simplyswords:waxweaver" }
+					type: "item"
+				}
+				{
+					id: "621BFB98272345B3"
+					item: { count: 1, id: "simplyswords:wickpiercer" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"09594472B04DC004"
+			]
+			icon: {
+				id: "simplyswords:frostfall"
+			}
+			id: "064B52FD6BC1CAAA"
+			optional: true
+			rewards: [
+				{
+					id: "5D5C0F5FC331AFB1"
+					type: "xp"
+					xp: 1020
+				}
+				{
+					id: "07F661BE98600F46"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2275372876CC4831"
+					item: { count: 1, id: "simplyswords:frostfall" }
+					type: "item"
+				}
+				{
+					id: "23C6E7FF32CA7499"
+					item: { count: 1, id: "simplyswords:icewhisper" }
+					type: "item"
+				}
+				{
+					id: "7F499CE4E8413104"
+					item: { count: 1, id: "simplyswords:stormscale" }
+					type: "item"
+				}
+				{
+					id: "639D74B9FA4269A8"
+					item: { count: 1, id: "simplyswords:whisperwind" }
+					type: "item"
+				}
+				{
+					id: "72F69E6E89B78FE9"
+					item: { count: 1, id: "simplyswords:dawnquiver" }
+					type: "item"
+				}
+				{
+					id: "620E27C4FAC680EF"
+					item: { count: 1, id: "simplyswords:arcanethyst" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"09594472B04DC004"
+			]
+			icon: {
+				id: "simplyswords:dreadwhisper"
+			}
+			id: "063F3B90121A120A"
+			optional: true
+			rewards: [
+				{
+					id: "465C6F6C367041F5"
+					type: "xp"
+					xp: 1360
+				}
+				{
+					id: "1465A4C69AF00797"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "0DB6550472ED6C7F"
+					item: { count: 1, id: "simplyswords:dreadwhisper" }
+					type: "item"
+				}
+				{
+					id: "12D0FC2A51118958"
+					item: { count: 1, id: "simplyswords:gloampiercer" }
+					type: "item"
+				}
+				{
+					id: "318691566B36B4BB"
+					item: { count: 1, id: "simplyswords:shadowsting" }
+					type: "item"
+				}
+				{
+					id: "334F8396F40CEF90"
+					item: { count: 1, id: "simplyswords:soulstalker" }
+					type: "item"
+				}
+				{
+					id: "48FAE641F9DD8C49"
+					item: { count: 1, id: "simplyswords:wraithfang" }
+					type: "item"
+				}
+				{
+					id: "79B788B848B9E52A"
+					item: { count: 1, id: "simplyswords:wraithmaw" }
+					type: "item"
+				}
+				{
+					id: "41DD040929A9BC5D"
+					item: { count: 1, id: "simplyswords:slumbering_lichblade" }
+					type: "item"
+				}
+				{
+					id: "4F461CAE8EA920ED"
+					item: { count: 1, id: "simplyswords:waking_lichblade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"09594472B04DC004"
+			]
+			icon: {
+				id: "simplyswords:bramblethorn"
+			}
+			id: "6FA10C5113EC205D"
+			optional: true
+			rewards: [
+				{
+					id: "49695712771D3D2C"
+					type: "xp"
+					xp: 1190
+				}
+				{
+					id: "4DF92089A7733DFD"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "153499AA360B8D32"
+					item: { count: 1, id: "simplyswords:bramblethorn" }
+					type: "item"
+				}
+				{
+					id: "09D1AC7CB4FC455D"
+					item: { count: 1, id: "simplyswords:chompolotl" }
+					type: "item"
+				}
+				{
+					id: "332CC96FC6FD9884"
+					item: { count: 1, id: "simplyswords:hiveheart" }
+					type: "item"
+				}
+				{
+					id: "7705F07303B4160C"
+					item: { count: 1, id: "simplyswords:bloodwake" }
+					type: "item"
+				}
+				{
+					id: "528701BC151FD0BA"
+					item: { count: 1, id: "simplyswords:ribboncleaver" }
+					type: "item"
+				}
+				{
+					id: "76846DD352F5ADA8"
+					item: { count: 1, id: "simplyswords:twisted_blade" }
+					type: "item"
+				}
+				{
+					id: "4199425270503414"
+					item: { count: 1, id: "simplyswords:toxic_longsword" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"4FCAA957A3DC4AE1"
+				"09594472B04DC004"
+			]
+			icon: {
+				id: "simplybows:ice_bow/ice_bow"
+			}
+			id: "4C69E6B6B3B0DEFB"
+			optional: true
+			rewards: [
+				{
+					id: "2972F4444281BB4F"
+					type: "xp"
+					xp: 510
+				}
+				{
+					id: "7C2C6EBCA7FF4EB5"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "094AAAFC1AB3CE78"
+					item: { count: 1, id: "simplybows:ice_bow/ice_bow" }
+					type: "item"
+				}
+				{
+					id: "638DEF5AA86C0505"
+					item: { count: 1, id: "simplybows:earth_bow/earth_bow" }
+					type: "item"
+				}
+				{
+					id: "4F6D8494D642FA43"
+					item: { count: 1, id: "simplybows:echo_bow/echo_bow" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+	]
+}

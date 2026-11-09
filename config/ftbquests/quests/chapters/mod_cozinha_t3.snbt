@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cozinha_t3"
+	group: "4E6D0897A16A0238"
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "6C6573F2362AA176"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "4DD0871E883FDC72"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "71C5C5AEDD7E207F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"6757E81C55EB8F60"
+				"6ECF615D2FCCF3E3"
+				"4DD0871E883FDC72"
+			]
+			icon: {
+				id: "aquaculture:neptunium_fishing_rod"
+			}
+			id: "0B84EF4A85C6B7E9"
+			rewards: [
+				{
+					id: "2BDFFA561BBB3604"
+					type: "xp"
+					xp: 660
+				}
+				{
+					id: "55B85BE29D1D4195"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "0F2476C0BC149808"
+					item: { count: 1, id: "aquaculture:neptunium_fishing_rod" }
+					type: "item"
+				}
+				{
+					id: "10C5653BE8F411EA"
+					item: { count: 1, id: "aquaculture:neptunium_sword" }
+					type: "item"
+				}
+				{
+					id: "29322403488CAA7E"
+					item: { count: 1, id: "aquaculture:neptunium_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "631E590235EBC870"
+					item: { count: 1, id: "aquaculture:neptunium_bow" }
+					type: "item"
+				}
+				{
+					id: "5861BE2E82FD736E"
+					item: { count: 1, id: "aquaculture:neptunium_fillet_knife" }
+					type: "item"
+				}
+				{
+					id: "30663BB4733CEC25"
+					item: { count: 1, id: "aquaculturedelight:neptunium_knife" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6757E81C55EB8F60"
+				"4DD0871E883FDC72"
+			]
+			icon: {
+				id: "aquaculture:neptunium_chestplate"
+			}
+			id: "37DFF49D505D9C41"
+			rewards: [
+				{
+					id: "1B305773ED2423D7"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "53A8801B61DD3C04"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "327DF557FD7FE04D"
+					item: { count: 1, id: "aquaculture:neptunium_helmet" }
+					type: "item"
+				}
+				{
+					id: "6C65E4B3C95E804B"
+					item: { count: 1, id: "aquaculture:neptunium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4CAAB53FD7C8AAAF"
+					item: { count: 1, id: "aquaculture:neptunium_leggings" }
+					type: "item"
+				}
+				{
+					id: "68BD3075584DD32E"
+					item: { count: 1, id: "aquaculture:neptunium_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+	]
+}

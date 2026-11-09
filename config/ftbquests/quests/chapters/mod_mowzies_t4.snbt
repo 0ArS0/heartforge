@@ -1,0 +1,109 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_mowzies_t4"
+	group: "3BC9864E9D9AF49B"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "495B6589E74A1252"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "545BDDC2E24C24F5"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "50C298A5BD0D65D1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"7C3CBDA00C6EAD4B"
+				"545BDDC2E24C24F5"
+			]
+			icon: {
+				id: "comamigos_balance:frostmaw_heart"
+			}
+			id: "150C4D2DBCC906F4"
+			rewards: [{
+				id: "42B4D38F74FBF312"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "mowziesmobs:steal_ice_crystal"
+					criterion: ""
+					id: "437FD5082502DD43"
+					type: "advancement"
+				}
+				{
+					id: "47CEAD1A29BAB4F1"
+					item: { count: 1, id: "mowziesmobs:ice_crystal" }
+					type: "item"
+				}
+				{
+					entity: "mowziesmobs:frostmaw"
+					id: "74910B2BC92B90D2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7C3CBDA00C6EAD4B"
+				"545BDDC2E24C24F5"
+			]
+			icon: {
+				id: "mowziesmobs:geomancer_robe"
+			}
+			id: "65D10F035C333F29"
+			rewards: [{
+				id: "02BD95C8A4798ED8"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3D7630C98D749114"
+					item: { count: 1, id: "mowziesmobs:geomancer_robe" }
+					type: "item"
+				}
+				{
+					id: "693C360306297401"
+					item: { count: 1, id: "mowziesmobs:geomancer_beads" }
+					type: "item"
+				}
+				{
+					id: "2C84D9FEAD7A1AB5"
+					item: { count: 1, id: "mowziesmobs:geomancer_belt" }
+					type: "item"
+				}
+				{
+					id: "18B8EF872BDEE026"
+					item: { count: 1, id: "mowziesmobs:geomancer_sandals" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+	]
+}

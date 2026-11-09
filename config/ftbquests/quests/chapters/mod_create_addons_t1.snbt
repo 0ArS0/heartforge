@@ -1,0 +1,342 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create_addons_t1"
+	group: "3B08ACB5CE59F3E7"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "30E0AA78735D3809"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "6D6F3B40635F0050"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "3D965563BB12B1BA"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"6D0973D7E090DE24"
+				"6D6F3B40635F0050"
+			]
+			id: "75284A0849724344"
+			rewards: [{
+				id: "55D4A010CAC12A28"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "60AE07CCFA157934"
+					item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+					type: "item"
+				}
+				{
+					id: "37C8B41639A1C66F"
+					item: { count: 1, id: "create_dragons_plus:blue_dye_bucket" }
+					type: "item"
+				}
+				{
+					id: "68FD379097B0E9C9"
+					item: { count: 1, id: "minecraft:powder_snow_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D6F3B40635F0050"]
+			id: "0E2C1DA15F9A14C0"
+			rewards: [
+				{
+					id: "3C01CDD7B532D10B"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "2986C8440B25B0BB"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "74FB2D71D719C477"
+					item: { count: 1, id: "createaddition:rolling_mill" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "47A75D9AA72C8FAD"
+					item: { count: 1, id: "createaddition:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3DB0FDB4B937BEDC"
+					item: { count: 1, id: "createaddition:copper_wire" }
+					type: "item"
+				}
+				{
+					id: "66AA2C0BB2EF018B"
+					item: { count: 1, id: "createaddition:spool" }
+					type: "item"
+				}
+				{
+					id: "61AE166891698744"
+					item: { count: 1, id: "createaddition:copper_spool" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0C91C2320F947D85"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5DDD4E26203BE280"
+					item: { count: 1, id: "createaddition:zinc_sheet" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "249B8D9258192563"
+					item: { count: 1, id: "createaddition:capacitor" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"6D0973D7E090DE24"
+				"6D6F3B40635F0050"
+			]
+			id: "192A2231D3BE9445"
+			rewards: [{
+				id: "348539346DEF42CF"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "0993B5FC62FACB81"
+					item: { count: 1, id: "sliceanddice:slicer" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3DECF61F209E9AAE"
+					item: { count: 1, id: "sliceanddice:sprinkler" }
+					type: "item"
+				}
+				{
+					id: "7B054049C60E5B60"
+					item: { count: 1, id: "sliceanddice:fertilizer_bucket" }
+					type: "item"
+				}
+				{
+					id: "4E487E7A6FCD3225"
+					item: { count: 1, id: "createaddition:seed_oil_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["6D6F3B40635F0050"]
+			id: "7A0858D97CC90AFF"
+			rewards: [
+				{
+					id: "5B0763A0977D5AA7"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3C68A4749DFDD706"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "279FA44B53F1FED9"
+					item: { count: 1, id: "create_connected:cross_connector" }
+					type: "item"
+				}
+				{
+					id: "2983ED67CA6D34A3"
+					item: { count: 1, id: "create_connected:parallel_gearbox" }
+					type: "item"
+				}
+				{
+					id: "6EC4635DA29467D6"
+					item: { count: 1, id: "create_connected:six_way_gearbox" }
+					type: "item"
+				}
+				{
+					id: "027D459FCA7F68F4"
+					item: { count: 1, id: "create_connected:crank_wheel" }
+					type: "item"
+				}
+				{
+					id: "6C3D0EB45C5BD929"
+					item: { count: 1, id: "create_connected:large_crank_wheel" }
+					type: "item"
+				}
+				{
+					id: "4A96F438009B7400"
+					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["75284A0849724344"]
+			id: "701B4F1CDC65512D"
+			rewards: [{
+				id: "0C008905FDAEA917"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "2A798069CE2C99E2"
+					item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:spirit_taking"
+					criterion: ""
+					id: "34139BC8840F80A3"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:spiritual_return"
+					criterion: ""
+					id: "54CE8B35E2B4C8E3"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E2C1DA15F9A14C0"]
+			id: "52F43DD67DA62725"
+			optional: true
+			rewards: [
+				{
+					id: "18A2374A5A9CAC27"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6B28AA5F51CBEA1B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "4D264B256E0E57EE"
+					item: { count: 1, id: "create_connected:copycat_slab" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1E87C4CFD91E3EA4"
+					item: { count: 1, id: "create_connected:copycat_beam" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "263E97CE8AF82B21"
+					item: { count: 1, id: "createaddition:barbed_wire" }
+					type: "item"
+				}
+				{
+					id: "5E32BFB03E221B3F"
+					item: { count: 1, id: "createaddition:honey_cake" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7A0858D97CC90AFF"]
+			id: "1714524AD173AA7D"
+			rewards: [{
+				id: "3B2EBF7BDEA80614"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "386B00B1790681AE"
+					item: { count: 1, id: "create_connected:freewheel_clutch" }
+					type: "item"
+				}
+				{
+					id: "15B2D96FD9171059"
+					item: { count: 1, id: "create_connected:centrifugal_clutch" }
+					type: "item"
+				}
+				{
+					id: "2E99C0A60A1C24BF"
+					item: { count: 1, id: "create_connected:brake" }
+					type: "item"
+				}
+				{
+					id: "4A5D41954DA93262"
+					item: { count: 1, id: "create_connected:shear_pin" }
+					type: "item"
+				}
+				{
+					advancement: "create_connected:shear_pin"
+					criterion: ""
+					id: "60E98BF18C83EE9B"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 4.8d
+		}
+	]
+}

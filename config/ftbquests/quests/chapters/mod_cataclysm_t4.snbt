@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cataclysm_t4"
+	group: "0E0AC8A91F88F063"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "71FE9BC9D058683F"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "07623111D15E32A5"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "7DCE0B31EABEC8D5"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"4635BF63F94949B6"
+				"07623111D15E32A5"
+			]
+			id: "0800E9D0B5EB9C2C"
+			rewards: [{
+				id: "00B066D6EC80BE25"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "1CB8C26A8BAE13D7"
+					item: { count: 1, id: "cataclysm:flame_eye" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_burning_arena"
+					criterion: ""
+					id: "20A42D00D99AA545"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_revenant"
+					criterion: ""
+					id: "6D55C5598425A716"
+					type: "advancement"
+				}
+				{
+					id: "7BCE908EFD8C8E75"
+					item: { count: 1, id: "cataclysm:burning_ashes" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4635BF63F94949B6"
+				"07623111D15E32A5"
+			]
+			icon: {
+				id: "comamigos_balance:monstrosity_heart"
+			}
+			id: "6BC6C7D751EFC9D3"
+			rewards: [{
+				id: "1C76D60965D8AFB7"
+				type: "xp"
+				xp: 700
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "28ECFC569AF2F8D6"
+					item: { count: 1, id: "cataclysm:monstrous_eye" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_soul_black_smith"
+					criterion: ""
+					id: "32D7E5E9920C3BF3"
+					type: "advancement"
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "4659C255BDBE3144"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "02EEB25B78CFD17D"
+					item: { count: 1, id: "cataclysm:infernal_forge" }
+					type: "item"
+				}
+				{
+					id: "65AEAEC6BCCDFA72"
+					item: { count: 1, id: "cataclysm:monstrous_helm" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"12C86E79E2414320"
+				"25509392190A304D"
+				"07623111D15E32A5"
+			]
+			id: "0AD0BF84742AFD45"
+			optional: true
+			rewards: [
+				{
+					id: "01B9345D83205C93"
+					type: "xp"
+					xp: 1120
+				}
+				{
+					id: "459B030AB50E1871"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "0B463B3108985FEC"
+					item: { count: 1, id: "cataclysm:unbreakable_skull" }
+					type: "item"
+				}
+				{
+					id: "730FAA4E485D68E3"
+					item: { count: 1, id: "cataclysm:vitality_ankh" }
+					type: "item"
+				}
+				{
+					id: "72219877C67DA4FF"
+					item: { count: 1, id: "cataclysm:ring_of_grudged" }
+					type: "item"
+				}
+				{
+					id: "6CBA3FAAEDF4399C"
+					item: { count: 1, id: "cataclysm:berserker_soul_amulet" }
+					type: "item"
+				}
+				{
+					id: "12D461FEB01856CC"
+					item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+					type: "item"
+				}
+				{
+					id: "356A857D717A5751"
+					item: { count: 1, id: "cataclysm:khopesh" }
+					type: "item"
+				}
+				{
+					id: "25EBDF4980F9FB70"
+					item: { count: 1, id: "cataclysm:sandstorm_in_a_bottle" }
+					type: "item"
+				}
+				{
+					id: "33795AF7AEBED8E0"
+					item: { count: 1, id: "cataclysm:bloom_stone_pauldrons" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["0800E9D0B5EB9C2C"]
+			icon: {
+				id: "comamigos_balance:ignis_heart"
+			}
+			id: "23229B6CC678D4DF"
+			rewards: [{
+				id: "4F1350055A291A37"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "3559949153F5B6DB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 3L
+					id: "7C0B8E0ABC304F19"
+					item: { count: 1, id: "cataclysm:ignitium_ingot" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ignited_berserker"
+					id: "684D6C83E743B2B6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23229B6CC678D4DF"]
+			id: "4E8D1EE016E1ACB2"
+			rewards: [{
+				id: "09A7812CC9E68064"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "49D222128F9B4703"
+					item: { count: 1, id: "cataclysm:ignitium_upgrade_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "46C76449F5D155FB"
+					item: { count: 1, id: "cataclysm:ignitium_helmet" }
+					type: "item"
+				}
+				{
+					id: "0F6FDE0056A62BF0"
+					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6A0F50310A621903"
+					item: { count: 1, id: "cataclysm:ignitium_leggings" }
+					type: "item"
+				}
+				{
+					id: "2A062F33FB51CD76"
+					item: { count: 1, id: "cataclysm:ignitium_boots" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["23229B6CC678D4DF"]
+			id: "14D4EB7F4C77EB6E"
+			rewards: [
+				{
+					id: "0A45EAD0C70321B0"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "03E2BDAF33DA5E3D"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "47E5B21CD085266B"
+					item: { count: 1, id: "cataclysm:the_incinerator" }
+					type: "item"
+				}
+				{
+					id: "55877073D290E4B0"
+					item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
+					type: "item"
+				}
+				{
+					id: "6ACE93D0AA616096"
+					item: { count: 1, id: "cataclysm:blazing_grips" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+	]
+}

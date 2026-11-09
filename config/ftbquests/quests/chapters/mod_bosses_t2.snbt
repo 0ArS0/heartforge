@@ -1,0 +1,82 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bosses_t2"
+	group: "1B6781BE25FE5814"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "2FED0C16C9555A92"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "6A5696C386D1D04F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "1AD9FE851D3021C0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["6A5696C386D1D04F"]
+			icon: {
+				id: "comamigos_balance:yeti_heart"
+			}
+			id: "2AFDA2BD935F2B76"
+			rewards: [{
+				id: "271A145777FFF53A"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				id: "0BE694D91EF39CD3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A5696C386D1D04F"]
+			id: "597767509D240159"
+			optional: true
+			rewards: [
+				{
+					id: "004A1BAB935C99C9"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "6C71608BA6A0FCFD"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "282BA8DFD25F501B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.6d
+		}
+	]
+}

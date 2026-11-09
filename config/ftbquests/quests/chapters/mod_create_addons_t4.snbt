@@ -1,0 +1,117 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create_addons_t4"
+	group: "3B08ACB5CE59F3E7"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "1868E00E7B97E606"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "2189BE44D0FB271B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "315C0BC3186F87A8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7E96AD240AF63CEF"
+				"2189BE44D0FB271B"
+			]
+			id: "3B34B49BD597D1FA"
+			rewards: [{
+				id: "4504816A32D78277"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "42FB6654EB0820F9"
+					item: { count: 1, id: "create_enchantment_industry:experience_cake" }
+					type: "item"
+				}
+				{
+					id: "5627BB2778E29975"
+					item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:lightning_catalysis"
+					criterion: ""
+					id: "051465321715AE59"
+					type: "advancement"
+				}
+				{
+					id: "1AEFB9C607CDEF4C"
+					item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:transcendent_overclock"
+					criterion: ""
+					id: "05095A77F0571101"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B34B49BD597D1FA"]
+			id: "7E08B6CA3C912367"
+			optional: true
+			rewards: [
+				{
+					id: "1ED882F319A92C2D"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "5B7A1BF37BCA8401"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "create_enchantment_industry:paradox_fusion"
+					criterion: ""
+					id: "0DAEF8749807FF3C"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:probability_spike"
+					criterion: ""
+					id: "2ABDE7D32F15A665"
+					type: "advancement"
+				}
+				{
+					id: "6BB61473386A387F"
+					item: { count: 1, id: "createaddition:bioethanol_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

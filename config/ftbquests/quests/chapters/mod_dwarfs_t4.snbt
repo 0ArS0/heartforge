@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_dwarfs_t4"
+	group: "7E685056D4C815C1"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "5826516F046D4389"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "369D83D33F226C7B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "5AB097F1639CDCDE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"14044642BD919658"
+				"3C25D7F2DCAC9754"
+				"369D83D33F226C7B"
+			]
+			icon: {
+				id: "dwarfs_tyranny:dwarf_netherite_armor_chestplate"
+			}
+			id: "4D6A87518601EF58"
+			rewards: [{
+				id: "44852867D1332D8E"
+				type: "xp"
+				xp: 420
+			}]
+			tasks: [
+				{
+					advancement: "dwarfs_tyranny:progression/forged_beyond_the_mountain"
+					criterion: ""
+					id: "17E1963123DA07FD"
+					type: "advancement"
+				}
+				{
+					id: "7D207829A1CD48F9"
+					item: { count: 1, id: "dwarfs_tyranny:king_dwarf_egg" }
+					type: "item"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/fighting_fire_with_fire"
+					criterion: ""
+					id: "28FCFCBF9AE5ADB4"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

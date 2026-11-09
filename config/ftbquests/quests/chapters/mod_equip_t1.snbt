@@ -1,0 +1,818 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_equip_t1"
+	group: "0011E6E41EF0DECD"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "542935D707158295"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "42B5F49DA8C98AE8"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "3DD9FB8E97D58823"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 10.4d
+		}
+		{
+			dependencies: [
+				"364D1CEA41B8A77E"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "sophisticatedbackpacks:gold_backpack"
+			}
+			id: "35B92A081AC21CDB"
+			rewards: [{
+				id: "1DE9236F335B558B"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "060592599CE8C3A5"
+					item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
+					type: "item"
+				}
+				{
+					id: "4A69A9CB37A9C820"
+					item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+					type: "item"
+				}
+				{
+					id: "583BBA7B74E95FBA"
+					item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+					type: "item"
+				}
+				{
+					id: "430FAD6A8FBA6F78"
+					item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"364D1CEA41B8A77E"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "sophisticatedbackpacks:crafting_upgrade"
+			}
+			id: "7EC23C363346E8C6"
+			optional: true
+			rewards: [
+				{
+					id: "07A9F4360F28154C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "54C42F7235B0F30E"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "0E98379458B4CEAD"
+					item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
+					type: "item"
+				}
+				{
+					id: "7B65389DC17C922D"
+					item: { count: 1, id: "sophisticatedbackpacks:smelting_upgrade" }
+					type: "item"
+				}
+				{
+					id: "0C6AC4CA7CE99B38"
+					item: { count: 1, id: "sophisticatedbackpacks:tool_swapper_upgrade" }
+					type: "item"
+				}
+				{
+					id: "121B7FBFE8C7412F"
+					item: { count: 1, id: "sophisticatedbackpacks:refill_upgrade" }
+					type: "item"
+				}
+				{
+					id: "244954560485A16E"
+					item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"364D1CEA41B8A77E"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "sophisticatedbackpacks:everlasting_upgrade"
+			}
+			id: "1AABEA202688B9D8"
+			optional: true
+			rewards: [
+				{
+					id: "1942F05F26D8C05F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2BBAFCF59EBA7922"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "10914A4595D98461"
+					item: { count: 1, id: "sophisticatedbackpacks:compacting_upgrade" }
+					type: "item"
+				}
+				{
+					id: "73C59BCA53A6AFB0"
+					item: { count: 1, id: "sophisticatedbackpacks:void_upgrade" }
+					type: "item"
+				}
+				{
+					id: "10DAFC5449D7FEFE"
+					item: { count: 1, id: "sophisticatedbackpacks:tank_upgrade" }
+					type: "item"
+				}
+				{
+					id: "354E29E2732459A7"
+					item: { count: 1, id: "sophisticatedbackpacks:xp_pump_upgrade" }
+					type: "item"
+				}
+				{
+					id: "2B35C59E4D03FEDB"
+					item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["42B5F49DA8C98AE8"]
+			icon: {
+				id: "sophisticatedstorage:controller"
+			}
+			id: "3F8A96B6736FEC99"
+			rewards: [
+				{
+					id: "6BD7D08CBFF172A3"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "211B22E5D875E121"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5F9AD6B5B143DC28"
+					item: { count: 1, id: "sophisticatedstorage:chest" }
+					type: "item"
+				}
+				{
+					id: "67989AE5E35524C6"
+					item: { count: 1, id: "sophisticatedstorage:barrel" }
+					type: "item"
+				}
+				{
+					id: "09D511473C637808"
+					item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+					type: "item"
+				}
+				{
+					id: "4BA222F438F179C4"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+				{
+					id: "0C38C73BD6124CAC"
+					item: { count: 1, id: "sophisticatedstorage:storage_link" }
+					type: "item"
+				}
+				{
+					id: "1244CD9B2E7F3C9D"
+					item: { count: 1, id: "supplementaries:safe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"7C458D634C348048"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "supplementaries:cannon"
+			}
+			id: "115AB8DEF203209D"
+			optional: true
+			rewards: [
+				{
+					id: "2560A97FEDF2F966"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1055EFDA4D37C4DA"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0E17BDCCC196DB86"
+					item: { count: 1, id: "supplementaries:bomb" }
+					type: "item"
+				}
+				{
+					id: "379367548A707912"
+					item: { count: 1, id: "supplementaries:cannon" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00C7C23636F40B7C"
+					item: { count: 1, id: "supplementaries:cannonball" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"7C458D634C348048"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "supplementaries:globe"
+			}
+			id: "00E936451383980F"
+			optional: true
+			rewards: [
+				{
+					id: "44EF928B6970535B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "073BF37884E4A29D"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "6654A064AC742E89"
+					item: { count: 1, id: "supplementaries:hourglass" }
+					type: "item"
+				}
+				{
+					id: "145D29CD8CFBF671"
+					item: { count: 1, id: "supplementaries:altimeter" }
+					type: "item"
+				}
+				{
+					id: "41B8A1CDDA433E3F"
+					item: { count: 1, id: "supplementaries:wrench" }
+					type: "item"
+				}
+				{
+					id: "18C1780A8799D52A"
+					item: { count: 1, id: "supplementaries:jar" }
+					type: "item"
+				}
+				{
+					id: "549BA11AFE975CEE"
+					item: { count: 1, id: "supplementaries:globe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["42B5F49DA8C98AE8"]
+			icon: {
+				id: "quark:pathfinders_quill"
+			}
+			id: "74CA191E277A6448"
+			optional: true
+			rewards: [
+				{
+					id: "051E5C4E7A6A82E3"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "41B5514CD3752514"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "18638B4868ED0517"
+					item: { count: 1, id: "quark:seed_pouch" }
+					type: "item"
+				}
+				{
+					id: "3E2B956CAD31613A"
+					item: { count: 1, id: "quark:trowel" }
+					type: "item"
+				}
+				{
+					id: "5D74B964F1921A8D"
+					item: { count: 1, id: "quark:abacus" }
+					type: "item"
+				}
+				{
+					id: "1759769D2ECA4E51"
+					item: { count: 1, id: "quark:pathfinders_quill" }
+					type: "item"
+				}
+				{
+					id: "7BA2E2B0C3517CD7"
+					item: { count: 1, id: "quark:ancient_tome" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.6d
+		}
+		{
+			dependencies: ["42B5F49DA8C98AE8"]
+			icon: {
+				id: "handcrafted:oak_chair"
+			}
+			id: "2494DEA15208CD78"
+			optional: true
+			rewards: [
+				{
+					id: "5C706FDDF3D63D65"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "3D168D8B1555069D"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "218C5B6471AE3F78"
+					item: { count: 1, id: "handcrafted:hammer" }
+					type: "item"
+				}
+				{
+					id: "2E898E23AAED2739"
+					item: { count: 1, id: "handcrafted:oak_table" }
+					type: "item"
+				}
+				{
+					id: "1F799FE63D746BFF"
+					item: { count: 1, id: "handcrafted:oak_chair" }
+					type: "item"
+				}
+				{
+					id: "15C0820CF68BBB99"
+					item: { count: 1, id: "furnish:furniture_workbench" }
+					type: "item"
+				}
+				{
+					id: "5E992B1BAE6A1E8F"
+					item: { count: 1, id: "furnish:oak_wardrobe" }
+					type: "item"
+				}
+				{
+					id: "70FA71D4E67487B7"
+					item: { count: 1, id: "rechiseled:chisel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "37C4F34578FD9352"
+					item: { count: 1, id: "mcwbridges:rope_oak_bridge" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 11.2d
+		}
+		{
+			dependencies: [
+				"5F9D9957C0912EEF"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "simplyswords:iron_katana"
+			}
+			id: "17883DDE10CC4F04"
+			optional: true
+			rewards: [
+				{
+					id: "5BC85F085786A4B7"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "3B4F9C3A4ABB0104"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "196DE0E1FED1C523"
+					item: { count: 1, id: "simplyswords:iron_sai" }
+					type: "item"
+				}
+				{
+					id: "6D1B2AC376A0380A"
+					item: { count: 1, id: "simplyswords:iron_cutlass" }
+					type: "item"
+				}
+				{
+					id: "65923AAB74897BAF"
+					item: { count: 1, id: "simplyswords:iron_katana" }
+					type: "item"
+				}
+				{
+					id: "1A56CABC476878D3"
+					item: { count: 1, id: "simplyswords:iron_twinblade" }
+					type: "item"
+				}
+				{
+					id: "6D417BC081C129C2"
+					item: { count: 1, id: "simplyswords:iron_chakram" }
+					type: "item"
+				}
+				{
+					id: "6EE1F550B3CFB9F9"
+					item: { count: 1, id: "simplyswords:iron_warglaive" }
+					type: "item"
+				}
+				{
+					id: "2BF20C89033EB614"
+					item: { count: 1, id: "simplyswords:sword_on_a_stick" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.8d
+		}
+		{
+			dependencies: [
+				"5F9D9957C0912EEF"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "simplyswords:iron_greathammer"
+			}
+			id: "21F59E36D6B4F298"
+			optional: true
+			rewards: [
+				{
+					id: "0D5180B9F05F1169"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1A49FDB98794459D"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5AA15C9BFD568FF8"
+					item: { count: 1, id: "simplyswords:iron_greataxe" }
+					type: "item"
+				}
+				{
+					id: "2495A974BA03A9E4"
+					item: { count: 1, id: "simplyswords:iron_greathammer" }
+					type: "item"
+				}
+				{
+					id: "351A6A6C78D7B9EA"
+					item: { count: 1, id: "simplyswords:iron_halberd" }
+					type: "item"
+				}
+				{
+					id: "3B0AF220ED33FEB4"
+					item: { count: 1, id: "simplyswords:iron_glaive" }
+					type: "item"
+				}
+				{
+					id: "7176C7308EEF6AC7"
+					item: { count: 1, id: "simplyswords:iron_scythe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 14.4d
+		}
+		{
+			dependencies: [
+				"5F9D9957C0912EEF"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "simplyswords:runic_forge"
+			}
+			id: "179B2B5E994ACC7B"
+			rewards: [{
+				id: "461A16FF2C7C83BA"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "5D8E32893DC137A9"
+					item: { count: 1, id: "minecraft:smithing_table" }
+					type: "item"
+				}
+				{
+					id: "7CB58CB6AEC21F68"
+					item: { count: 1, id: "simplyswords:runic_tablet" }
+					type: "item"
+				}
+				{
+					id: "75BA50694E2C6C51"
+					item: { count: 1, id: "simplyswords:runic_forge" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"7C458D634C348048"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "simplybows:upgrades/enchanted_bow_string"
+			}
+			id: "6218E95B0266DF3F"
+			optional: true
+			rewards: [
+				{
+					id: "244A6D86A357687F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6C830D33F3E4FB91"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "291EB9D863598F74"
+					item: { count: 1, id: "simplybows:upgrades/enchanted_bow_string" }
+					type: "item"
+				}
+				{
+					id: "71451891659CB4E8"
+					item: { count: 1, id: "simplybows:upgrades/reinforced_bow_frame" }
+					type: "item"
+				}
+				{
+					id: "0094A1CED8A3436A"
+					item: { count: 1, id: "simplybows:upgrades/rune_etching_pain" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 17.6d
+		}
+		{
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "artifacts:eternal_steak"
+			}
+			id: "191FFF55BFE8671D"
+			optional: true
+			rewards: [
+				{
+					id: "5F145D84412096A2"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "31A69188FDF387F0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2B891D3939884E22"
+					item: { count: 1, id: "artifacts:everlasting_beef" }
+					type: "item"
+				}
+				{
+					id: "37D10BF3C5FB26A4"
+					item: { count: 1, id: "artifacts:eternal_steak" }
+					type: "item"
+				}
+				{
+					advancement: "artifacts:adventurous_eater"
+					criterion: ""
+					id: "51938422D98EC4A9"
+					type: "advancement"
+				}
+				{
+					id: "4576765EC5A5684E"
+					item: { count: 1, id: "artifacts:plastic_drinking_hat" }
+					type: "item"
+				}
+				{
+					id: "3B9B623D791CABF8"
+					item: { count: 1, id: "artifacts:novelty_drinking_hat" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 19.2d
+		}
+		{
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"42B5F49DA8C98AE8"
+			]
+			icon: {
+				id: "artifacts:snorkel"
+			}
+			id: "4D418C46E7B5B2F1"
+			optional: true
+			rewards: [
+				{
+					id: "0785AA598B6C98DF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1574402F024817EF"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "6AADA109B4205F78"
+					item: { count: 1, id: "artifacts:snorkel" }
+					type: "item"
+				}
+				{
+					id: "2AAA5EBFEA5A9C73"
+					item: { count: 1, id: "artifacts:villager_hat" }
+					type: "item"
+				}
+				{
+					id: "769BA7CDC8B78DEE"
+					item: { count: 1, id: "artifacts:cowboy_hat" }
+					type: "item"
+				}
+				{
+					id: "1CBB6A5A1BFB56EA"
+					item: { count: 1, id: "artifacts:anglers_hat" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 20.8d
+		}
+		{
+			dependencies: ["3F8A96B6736FEC99"]
+			icon: {
+				id: "supplementaries:key"
+			}
+			id: "0F37E7B9A973D0F1"
+			optional: true
+			rewards: [
+				{
+					id: "26D19E6CFE99CEF3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4B9E53EA815E5B23"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3C94F58EA00B2506"
+					item: { count: 1, id: "supplementaries:key" }
+					type: "item"
+				}
+				{
+					id: "15CB580AB6324FC9"
+					item: { count: 1, id: "supplementaries:lock_block" }
+					type: "item"
+				}
+				{
+					id: "24DBAA7ACA14B992"
+					item: { count: 1, id: "sophisticatedstorage:limited_barrel_1" }
+					type: "item"
+				}
+				{
+					id: "64C1828A3757072B"
+					item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.8d
+		}
+	]
+}

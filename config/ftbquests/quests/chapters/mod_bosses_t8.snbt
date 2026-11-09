@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bosses_t8"
+	group: "1B6781BE25FE5814"
+	icon: {
+		id: "comamigos_balance:tier_heart_8"
+	}
+	id: "55C2ADCFF876AA0A"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_8"
+			}
+			id: "1EECA136084C89D2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_8"
+				criterion: ""
+				id: "2C62CF42EDFC287F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4964A081949D5932"
+				"1EECA136084C89D2"
+			]
+			icon: {
+				id: "comamigos_balance:obsidilith_heart"
+			}
+			id: "6628349A4933332C"
+			rewards: [{
+				id: "5896C7B6966D25B4"
+				type: "xp"
+				xp: 1040
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6F27D56687602797"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					id: "0F9A47FA56A5C4FA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2931BB82B76A59D4"
+					item: { count: 1, id: "bosses_of_mass_destruction:obsidian_heart" }
+					type: "item"
+				}
+				{
+					advancement: "comamigos_balance:tier/victory"
+					criterion: ""
+					id: "1A54781C3B8937E8"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6628349A4933332C"]
+			id: "51F372E0B115E3E1"
+			rewards: [
+				{
+					id: "23CBCD4889F51BF0"
+					type: "xp"
+					xp: 780
+				}
+				{
+					id: "07BE0413535497FA"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6FAED2F9E7AAB112"
+					item: { count: 1, id: "bosses_of_mass_destruction:earthdive_spear" }
+					type: "item"
+				}
+				{
+					id: "7CC527D8051E98DC"
+					item: { count: 1, id: "bosses_of_mass_destruction:mob_ward" }
+					type: "item"
+				}
+				{
+					id: "20FAFC8414922F76"
+					item: { count: 1, id: "bosses_of_mass_destruction:monolith_block" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

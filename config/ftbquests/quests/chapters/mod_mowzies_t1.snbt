@@ -1,0 +1,158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_mowzies_t1"
+	group: "3BC9864E9D9AF49B"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "1D76D57C76B86620"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "2E16075BC70285BC"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "0CC52C7D9C9111F6"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"052FA5D9043F1425"
+				"2E16075BC70285BC"
+			]
+			icon: {
+				id: "mowziesmobs:captured_grottol"
+			}
+			id: "204DF7B033FAEB9A"
+			rewards: [{
+				id: "18B57202BF143EB9"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "mowziesmobs:kill_grottol"
+					criterion: ""
+					id: "0C07A20717567E31"
+					type: "advancement"
+				}
+				{
+					advancement: "mowziesmobs:kill_grottol_fortune"
+					criterion: ""
+					id: "4D7BC774CFA714CC"
+					type: "advancement"
+				}
+				{
+					id: "2563979F8090B5FB"
+					item: { count: 1, id: "mowziesmobs:captured_grottol" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"052FA5D9043F1425"
+				"2E16075BC70285BC"
+			]
+			icon: {
+				id: "mowziesmobs:foliaath_seed"
+			}
+			id: "6838CE95DB097F9A"
+			rewards: [{
+				id: "6958FC04B94C500C"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "mowziesmobs:kill_foliaath"
+					criterion: ""
+					id: "252B38AC8A017E9C"
+					type: "advancement"
+				}
+				{
+					id: "1CFBF46E70F99AB8"
+					item: { count: 1, id: "mowziesmobs:foliaath_seed" }
+					type: "item"
+				}
+				{
+					advancement: "mowziesmobs:kill_elokosa_howler"
+					criterion: ""
+					id: "1B0E35A4016568B5"
+					type: "advancement"
+				}
+				{
+					id: "74B4EA651DED44A5"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_full" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["6838CE95DB097F9A"]
+			icon: {
+				id: "mowziesmobs:elokosa_paw_new"
+			}
+			id: "40C95CF2F1B0E55A"
+			optional: true
+			rewards: [
+				{
+					id: "6A2C49792A1DAE31"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7D2E234B20C120B2"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3D537A8D448A5860"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_new" }
+					type: "item"
+				}
+				{
+					id: "214771153CCDA573"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_crescent" }
+					type: "item"
+				}
+				{
+					id: "12FDB0D7D49E185A"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_half" }
+					type: "item"
+				}
+				{
+					id: "6D49CB7FD20DEA65"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_gibbous" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+	]
+}

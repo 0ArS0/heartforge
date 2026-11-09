@@ -1,0 +1,145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_botania_t8"
+	group: "0BD654FB0C580B11"
+	icon: {
+		id: "comamigos_balance:tier_heart_8"
+	}
+	id: "7656E1B34DE2D318"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_8"
+			}
+			id: "3D42429C586EAEDA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_8"
+				criterion: ""
+				id: "655A98C992EB2E3B"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"255D4948A81559F8"
+				"3D42429C586EAEDA"
+			]
+			icon: {
+				id: "botania:dice"
+			}
+			id: "7AEBBE6809694763"
+			rewards: [
+				{
+					id: "1D319AF6C9F70B4C"
+					type: "xp"
+					xp: 1820
+				}
+				{
+					id: "6A71E6211F6C8308"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5C644E95C727D814"
+					item: { count: 1, id: "botania:dice" }
+					type: "item"
+				}
+				{
+					advancement: "botania:challenge/thor_ring"
+					criterion: ""
+					id: "36A1FDA9CCD0AEC1"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/odin_ring"
+					criterion: ""
+					id: "43AF26A0EE9E09E5"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/loki_ring"
+					criterion: ""
+					id: "0836331A4AE89F15"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/flugel_eye"
+					criterion: ""
+					id: "40277498C4AEF66E"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/king_key"
+					criterion: ""
+					id: "4F85C58E278002D0"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/infinite_fruit"
+					criterion: ""
+					id: "293C4B45682CE629"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7AEBBE6809694763"
+				"0E5B2A770DDDEC7A"
+			]
+			icon: {
+				id: "botania:loki_ring"
+			}
+			id: "028CA2C9AC011A2E"
+			optional: true
+			rewards: [
+				{
+					id: "7B992803E47A939F"
+					type: "xp"
+					xp: 520
+				}
+				{
+					id: "65584AEF015E0211"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "botania:challenge/loki_ring_many"
+					criterion: ""
+					id: "5CEDE1446A77D0C5"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/super_corporea_request"
+					criterion: ""
+					id: "542F742C4456493B"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

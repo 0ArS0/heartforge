@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_aquamirae_t1"
+	group: "25796BB343F30024"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "37016135426FC574"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "73CA4D8DB6AB5132"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "669C172605CB47B9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			icon: {
+				id: "aquamirae:esca"
+			}
+			id: "6A771620FC437DDE"
+			rewards: [{
+				id: "13D69CF9CBA5641E"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "6897CD631652B1D5"
+					item: { count: 1, id: "aquamirae:esca" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5223B6B14DC9F459"
+					item: { count: 1, id: "aquamirae:fin" }
+					type: "item"
+				}
+				{
+					id: "2660D53D8C8B117D"
+					item: { count: 1, id: "aquamirae:angler_fang" }
+					type: "item"
+				}
+				{
+					id: "65C1F05B9215E9A2"
+					item: { count: 1, id: "aquamirae:luminescent_lamp" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			icon: {
+				id: "aquamirae:sharp_bones"
+			}
+			id: "60032A1D1D667DED"
+			rewards: [{
+				id: "04B20712685C1FFF"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "aquamirae:maw"
+					id: "5118B35B51C6DECD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "4C653B318A1C865A"
+					item: { count: 1, id: "aquamirae:sharp_bones" }
+					type: "item"
+				}
+				{
+					entity: "aquamirae:tortured_soul"
+					id: "4DEAEF48C877701B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aquamirae:golden_moth"
+					id: "095EC5953DD69031"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			icon: {
+				id: "aquamirae:sea_stew"
+			}
+			id: "306355B7B248426B"
+			rewards: [{
+				id: "00112AFCB8AEB14D"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "513D8EC762A52E97"
+					item: { count: 1, id: "aquamirae:cooked_spinefish" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2A1F2FA368FFD338"
+					item: { count: 1, id: "aquamirae:jellyfish_jelly" }
+					type: "item"
+				}
+				{
+					advancement: "aquamirae:adventure/tame_shellback"
+					criterion: ""
+					id: "149DFFF42EFC9C31"
+					type: "advancement"
+				}
+				{
+					id: "6D8A1FD86D2BE91A"
+					item: { count: 1, id: "aquamirae:sea_stew" }
+					type: "item"
+				}
+				{
+					id: "0FDC250553E66A61"
+					item: { count: 1, id: "aquamirae:esca_skewer" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			icon: {
+				id: "aquamirae:shell_horn"
+			}
+			id: "7BD66323DD45C80B"
+			rewards: [{
+				id: "59538F28BFCCE2BF"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "42589C354987D58A"
+					item: { count: 1, id: "aquamirae:logbook" }
+					type: "item"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_pirate_pouch"
+					criterion: ""
+					id: "3B634B0ED62D98E0"
+					type: "advancement"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_shell_horn"
+					criterion: ""
+					id: "23CEAD3B6B5BAF7A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			icon: {
+				id: "aquamirae:ship_graveyard_echo"
+			}
+			id: "2900F2C07B7B20FE"
+			rewards: [{
+				id: "2B492E2A3C97697D"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "5AA566B96165D057"
+					item: { count: 1, id: "aquamirae:ship_graveyard_echo" }
+					type: "item"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_ship_graveyard_echo"
+					criterion: ""
+					id: "4F6C804491B53583"
+					type: "advancement"
+				}
+				{
+					id: "4E6F25FB61F6FCEA"
+					item: { count: 1, id: "aquamirae:echo_compass" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+	]
+}

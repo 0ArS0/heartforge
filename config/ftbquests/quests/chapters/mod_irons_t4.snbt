@@ -1,0 +1,731 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_irons_t4"
+	group: "5955ECC104DC966A"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "19D916C682640455"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "7A0969FB2C695035"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "2A6F0E51D980AE34"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"6329E6C02C4E3000"
+				"7A0969FB2C695035"
+			]
+			icon: {
+				id: "irons_spellbooks:mithril_ingot"
+			}
+			id: "67A5105EEF8FEF76"
+			rewards: [{
+				id: "5CA7BC7F6FB55175"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "105D7D202C7486E7"
+					item: { count: 1, id: "irons_spellbooks:raw_mithril" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "067F5AD9281226D2"
+					item: { count: 1, id: "irons_spellbooks:mithril_scrap" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3EA82F2598606315"
+					item: { count: 1, id: "irons_spellbooks:mithril_ingot" }
+					type: "item"
+				}
+				{
+					id: "5F8D100F5C7D2953"
+					item: { count: 1, id: "irons_spellbooks:mithril_weave" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D3354AB770F3BBC"
+				"504D2C256F3096CB"
+				"7A0969FB2C695035"
+			]
+			icon: {
+				id: "irons_spellbooks:shadowwalker_helmet"
+			}
+			id: "01EFDD5361AE4BB2"
+			rewards: [
+				{
+					id: "4786FD93F1C35166"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "6FDBB4C863BB269E"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "238991DCA3D3AC93"
+					item: { count: 1, id: "irons_spellbooks:ender_rune" }
+					type: "item"
+				}
+				{
+					id: "2F004A3044180BF1"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_helmet" }
+					type: "item"
+				}
+				{
+					id: "20522DFA7A65618D"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:shadowwalker_chestplate" }
+					type: "item"
+				}
+				{
+					id: "16C995B2D5E76785"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_leggings" }
+					type: "item"
+				}
+				{
+					id: "54FA8B146A01CEE5"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"638F8545B950D073"
+				"7A0969FB2C695035"
+			]
+			icon: {
+				components: {
+					"irons_spellbooks:affinity_data": {
+						bonuses: {
+							"irons_spellbooks:raise_dead": 2
+						}
+					}
+					"irons_spellbooks:spell_container": {
+						data: [
+							{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blood_step"
+								index: 1
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 2
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blaze_storm"
+								index: 3
+								level: 5
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:necronomicon_spell_book"
+			}
+			id: "79B7FD4C3EBBA0F2"
+			rewards: [
+				{
+					id: "1B9748716B20AF7F"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "1EBD7C2D4914E8EF"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1CC30C7461A1D0FE"
+					item: { count: 1, id: "irons_spellbooks:dead_king_phylactery" }
+					type: "item"
+				}
+				{
+					id: "235734199CB65283"
+					item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:raise_dead": 2 } }, "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:blood_slash", index: 0, level: 5, locked: 1b }, { id: "irons_spellbooks:blood_step", index: 1, level: 5, locked: 1b }, { id: "irons_spellbooks:ray_of_siphoning", index: 2, level: 5, locked: 1b }, { id: "irons_spellbooks:blaze_storm", index: 3, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:necronomicon_spell_book" }
+					type: "item"
+				}
+				{
+					id: "384D1E3D09162774"
+					item: { count: 1, id: "irons_spellbooks:wicked_bone_ring" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"6329E6C02C4E3000"
+				"7A0969FB2C695035"
+			]
+			icon: {
+				id: "irons_spellbooks:cinder_essence"
+			}
+			id: "25922491DF4C355B"
+			rewards: [{
+				id: "0C54AD5DCDCA3B21"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "irons_spellbooks:citadel_keeper"
+					id: "1E5C878E4A505E52"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 8L
+					id: "1BA643BB812FF5A6"
+					item: { count: 1, id: "irons_spellbooks:cinder_essence" }
+					type: "item"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_blaze"
+					criterion: ""
+					id: "16DA63584470C8D6"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"67A5105EEF8FEF76"
+				"1765739A41F9FE90"
+			]
+			icon: {
+				id: "irons_spellbooks:cast_time_ring"
+			}
+			id: "369DBF99F301EF9B"
+			rewards: [{
+				id: "50142AEDF486EF4D"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "49F6541F9540E4AE"
+					item: { count: 1, id: "irons_spellbooks:cast_time_ring" }
+					type: "item"
+				}
+				{
+					id: "38B9B8F0312DDAFC"
+					item: { count: 1, id: "irons_spellbooks:cooldown_ring" }
+					type: "item"
+				}
+				{
+					id: "50234B77ED26AB03"
+					item: { count: 1, id: "irons_spellbooks:concentration_amulet" }
+					type: "item"
+				}
+				{
+					id: "3D0217CB02345BFF"
+					item: { count: 1, id: "irons_spellbooks:conjurers_talisman" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1788C4B58A1E711D"
+				"4D316F3B5A75B34E"
+				"55D0A3EC9F48C538"
+				"67A5105EEF8FEF76"
+			]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:netherite_spell_book"
+			}
+			id: "6E282DDCECD1C67E"
+			rewards: [{
+				id: "06EEBB76EC7F8409"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_netherite"
+					criterion: ""
+					id: "59D82284F189C74F"
+					type: "advancement"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_druidic"
+					criterion: ""
+					id: "4F1D262C78194E36"
+					type: "advancement"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_frostbranded"
+					criterion: ""
+					id: "2B2EA0F9FF08E778"
+					type: "advancement"
+				}
+				{
+					id: "61F7696B7B594E91"
+					item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.4d
+		}
+		{
+			dependencies: [
+				"67A5105EEF8FEF76"
+				"55D0A3EC9F48C538"
+			]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:counterspell"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:spellbreaker"
+			}
+			id: "6652964DC061A061"
+			rewards: [
+				{
+					id: "5F9D1C9887E3B1B0"
+					type: "xp"
+					xp: 840
+				}
+				{
+					id: "551165E896F32D0F"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "64918F1AE0680E43"
+					item: { count: 1, id: "irons_spellbooks:weapon_parts" }
+					type: "item"
+				}
+				{
+					id: "3080453FCDA06A4A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:echoing_strikes", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:amethyst_rapier" }
+					type: "item"
+				}
+				{
+					id: "531D36E0F540A628"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
+					type: "item"
+				}
+				{
+					id: "32222CE1FDF02B23"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:frostbite", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:boreal_blade" }
+					type: "item"
+				}
+				{
+					id: "5F4CE7DE4990C9E1"
+					item: { count: 1, id: "irons_spellbooks:frosted_helve" }
+					type: "item"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/staff_ice"
+					criterion: ""
+					id: "0530ED6B164F50A0"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"67A5105EEF8FEF76"
+				"25922491DF4C355B"
+				"477D1D74C4B9B265"
+			]
+			icon: {
+				id: "irons_spellbooks:upgrade_orb"
+			}
+			id: "121714D1C86D7B8A"
+			rewards: [{
+				id: "3072E76D3975E881"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5CD8C84D45687DE8"
+					item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "515F74D99661B96D"
+					item: { count: 1, id: "irons_spellbooks:mana_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "6CF3E75F367649A9"
+					item: { count: 1, id: "irons_spellbooks:cooldown_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "519CEE8C3A00F35A"
+					item: { count: 1, id: "irons_spellbooks:protection_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.8d
+		}
+		{
+			dependencies: [
+				"25922491DF4C355B"
+				"1788C4B58A1E711D"
+			]
+			icon: {
+				id: "irons_spellbooks:pyrium_staff"
+			}
+			id: "4F5C8E3017F995AF"
+			rewards: [{
+				id: "5DE6AA8C409B3B38"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "69B258B7AE52E73A"
+					item: { count: 1, id: "irons_spellbooks:furled_map_citadel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5C36B61D7F231C5A"
+					item: { count: 1, id: "irons_spellbooks:pyrium_ingot" }
+					type: "item"
+				}
+				{
+					id: "177F6212DA53D604"
+					item: { count: 1, id: "irons_spellbooks:keeper_flamberge" }
+					type: "item"
+				}
+				{
+					id: "23E0CDB89C134E75"
+					item: { count: 1, id: "irons_spellbooks:legionnaire_flamberge" }
+					type: "item"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/staff_pyrium"
+					criterion: ""
+					id: "20BEA07F61918AD8"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 4.4d
+		}
+		{
+			dependencies: [
+				"1D3354AB770F3BBC"
+				"25922491DF4C355B"
+			]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:netherite_mage_chestplate"
+			}
+			id: "60B541AAF7505CFC"
+			rewards: [
+				{
+					id: "6ACBF8307462E613"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "413C785D7B9A60A7"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "4A5E19297F226695"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_helmet" }
+					type: "item"
+				}
+				{
+					id: "0E78544C7B1DAC97"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4FD1A6DBDB41037C"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_leggings" }
+					type: "item"
+				}
+				{
+					id: "651DF3B2CD9699E9"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"369DBF99F301EF9B"
+				"25922491DF4C355B"
+			]
+			icon: {
+				id: "irons_spellbooks:fireward_ring"
+			}
+			id: "36FCC4949AE82CEA"
+			optional: true
+			rewards: [
+				{
+					id: "6F42D91C10C89FFD"
+					type: "xp"
+					xp: 980
+				}
+				{
+					id: "4C5C27C4B70904F5"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "38D1E5738FF94F4B"
+					item: { count: 1, id: "irons_spellbooks:fireward_ring" }
+					type: "item"
+				}
+				{
+					id: "6D9E4B3236B30EF6"
+					item: { count: 1, id: "irons_spellbooks:frostward_ring" }
+					type: "item"
+				}
+				{
+					id: "51A41653CC800139"
+					item: { count: 1, id: "irons_spellbooks:poisonward_ring" }
+					type: "item"
+				}
+				{
+					id: "6FF7A0C7BC2AB004"
+					item: { count: 1, id: "irons_spellbooks:emerald_stoneplate_ring" }
+					type: "item"
+				}
+				{
+					id: "67217FEB189003F7"
+					item: { count: 1, id: "irons_spellbooks:expulsion_ring" }
+					type: "item"
+				}
+				{
+					id: "0D3265A93C35E9F3"
+					item: { count: 1, id: "irons_spellbooks:heavy_chain_necklace" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "06AF1EA4E5E1B2E0"
+					item: { count: 1, id: "irons_spellbooks:portal_frame" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.73d
+		}
+		{
+			dependencies: [
+				"121714D1C86D7B8A"
+				"3B215ADB9CB4514C"
+				"4AA0CA3C4D941A72"
+				"49328EEE7AB27F31"
+			]
+			icon: {
+				id: "irons_spellbooks:fire_upgrade_orb"
+			}
+			id: "21D3BAF5CFE51E33"
+			rewards: [
+				{
+					id: "00143D611B21B0E5"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "093E57E95946C98E"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79BA522A80DEABE1"
+					item: { count: 1, id: "irons_spellbooks:fire_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "4C35F874FF32D226"
+					item: { count: 1, id: "irons_spellbooks:ice_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "11B7F0B816E24F4C"
+					item: { count: 1, id: "irons_spellbooks:lightning_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.33d
+		}
+		{
+			dependencies: ["121714D1C86D7B8A"]
+			icon: {
+				id: "irons_spellbooks:holy_upgrade_orb"
+			}
+			id: "2A9FCE2872CA778C"
+			optional: true
+			rewards: [
+				{
+					id: "33EF5BA2E51A4775"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "43FD62EF59BD9E13"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2790FC24B495B4F4"
+					item: { count: 1, id: "irons_spellbooks:holy_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "628C777E9CDADFBC"
+					item: { count: 1, id: "irons_spellbooks:blood_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "0DE25E46B0C25EAD"
+					item: { count: 1, id: "irons_spellbooks:evocation_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "6EA9E153FF544772"
+					item: { count: 1, id: "irons_spellbooks:nature_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "313695CEC49711F6"
+					item: { count: 1, id: "irons_spellbooks:ender_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.93d
+		}
+	]
+}

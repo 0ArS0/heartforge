@@ -1,0 +1,283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_botania_t5"
+	group: "0BD654FB0C580B11"
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "7BCF4172FD8E9C02"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "1F757BFAE7020D98"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "3830AF9F5F8A6C87"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4EE19D5B37E0ABE8"
+				"3BD4675C7A79FF3E"
+				"1F757BFAE7020D98"
+			]
+			icon: {
+				id: "botania:terrasteel_chestplate"
+			}
+			id: "4A8700B3FC575B2C"
+			rewards: [{
+				id: "18601C52281BBF96"
+				type: "xp"
+				xp: 680
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "560ADB3873B1D19B"
+					item: { count: 1, id: "botania:terrasteel_helmet" }
+					type: "item"
+				}
+				{
+					id: "64BB9123E1E36FCF"
+					item: { count: 1, id: "botania:terrasteel_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7D8D620F23943957"
+					item: { count: 1, id: "botania:terrasteel_leggings" }
+					type: "item"
+				}
+				{
+					id: "376F2458583AE6F2"
+					item: { count: 1, id: "botania:terrasteel_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A8700B3FC575B2C"
+				"2E78C088BCCC2A2E"
+				"6336C4A565DD85DE"
+			]
+			icon: {
+				id: "comamigos_balance:gaia_heart"
+			}
+			id: "4D322CEA04C69A3E"
+			rewards: [{
+				id: "3466336A5440DC34"
+				type: "xp"
+				xp: 680
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "27678386EFA6DDC7"
+					item: { count: 1, id: "botania:gaia_pylon" }
+					type: "item"
+				}
+				{
+					id: "2D0C1CB322F85DB1"
+					item: { count: 1, id: "minecraft:beacon" }
+					type: "item"
+				}
+				{
+					entity: "botania:doppleganger"
+					id: "4DE43BC25E72A781"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "botania:main/gaia_guardian_kill"
+					criterion: ""
+					id: "6692521D0468018E"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4D322CEA04C69A3E"
+				"1789A2BE97012336"
+			]
+			icon: {
+				id: "botania:life_essence"
+			}
+			id: "6983BDB8094AEFAC"
+			rewards: [{
+				id: "1902BA8AFC8E6CF3"
+				type: "xp"
+				xp: 510
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "2A9B28AEDA9EABE2"
+					item: { count: 1, id: "botania:life_essence" }
+					type: "item"
+				}
+				{
+					id: "3324A1638C5AED7A"
+					item: { count: 1, id: "botania:missile_rod" }
+					type: "item"
+				}
+				{
+					id: "467675A0FB560A37"
+					item: { count: 1, id: "botania:gaia_spreader" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6983BDB8094AEFAC"
+				"0BDF62E4C0A3230D"
+				"46FBEE71E1556C26"
+			]
+			icon: {
+				id: "botania:holy_cloak"
+			}
+			id: "15373B75C0248ABB"
+			optional: true
+			rewards: [
+				{
+					id: "5DE4365D9C630CB1"
+					type: "xp"
+					xp: 1190
+				}
+				{
+					id: "1B80EE090F2F5A34"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "545219F417B11763"
+					item: { count: 1, id: "botania:holy_cloak" }
+					type: "item"
+				}
+				{
+					id: "43942CAF3D9D138D"
+					item: { count: 1, id: "botania:unholy_cloak" }
+					type: "item"
+				}
+				{
+					id: "64B20190F66D235C"
+					item: { count: 1, id: "botania:balance_cloak" }
+					type: "item"
+				}
+				{
+					id: "5F34E3A3F7AE6D65"
+					item: { count: 1, id: "botania:pixie_ring" }
+					type: "item"
+				}
+				{
+					id: "2C8C64334F4E2849"
+					item: { count: 1, id: "botania:super_cloud_pendant" }
+					type: "item"
+				}
+				{
+					id: "2191B6777B039BCC"
+					item: { count: 1, id: "botania:super_lava_pendant" }
+					type: "item"
+				}
+				{
+					id: "51757D94C4CA8769"
+					item: { count: 1, id: "botania:super_travel_belt" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"6983BDB8094AEFAC"
+				"58527FFA9C8C1FFE"
+			]
+			icon: {
+				id: "botania:laputa_shard"
+			}
+			id: "1F14E1D02FFD5C33"
+			optional: true
+			rewards: [
+				{
+					id: "309A07C73809389B"
+					type: "xp"
+					xp: 1020
+				}
+				{
+					id: "68EF6905346E22C3"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "botania:main/mana_bomb_ignite"
+					criterion: ""
+					id: "359DB35396FF6F16"
+					type: "advancement"
+				}
+				{
+					id: "67FBE002289D0CE6"
+					item: { count: 1, id: "botania:dandelifeon" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/dandelifeon_pickup"
+					criterion: ""
+					id: "4C68799740C1C8D9"
+					type: "advancement"
+				}
+				{
+					id: "622532FA733BADA3"
+					item: { count: 1, id: "botania:shulk_me_not" }
+					type: "item"
+				}
+				{
+					id: "44953949FCF4D4C2"
+					item: { count: 1, id: "botania:laputa_shard" }
+					type: "item"
+				}
+				{
+					id: "1067725945AD92D7"
+					item: { count: 1, id: "botania:astrolabe" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.8d
+		}
+	]
+}

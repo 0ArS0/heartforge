@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create_t4"
+	group: "60FEF54FAB43A476"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "2BA51A810C76602F"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "7FB0190C8BA08C08"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "04DEDF6FD878E26B"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5B830FDABDC58062"
+				"741F498CCE5910B6"
+				"7FB0190C8BA08C08"
+			]
+			id: "24FFBA4172A65BE4"
+			rewards: [{
+				id: "5222E1BAB4AD0377"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "33B8D4863095E719"
+					item: { count: 1, id: "create:cinder_flour" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6653B07F244CF1BD"
+					item: { count: 1, id: "create:blaze_cake" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7CFD1DEC523BAF6C"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+				{
+					id: "36A3B85989DE304F"
+					item: { count: 1, id: "cataclysm:ignitium_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"24FFBA4172A65BE4"
+				"2355C79206470ECD"
+			]
+			id: "33D862B3DD53F654"
+			tasks: [{
+				id: "68BF9DE42AFC3BCB"
+				item: { count: 1, id: "comamigos_balance:tier_heart_5" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"24FFBA4172A65BE4"
+				"03BFED4BBE443A76"
+			]
+			id: "082F668C9D7A5E23"
+			rewards: [
+				{
+					id: "3ED9CCEF7E40A0D7"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "4CD61A2A2F176AF5"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "0FA64055C9060914"
+					item: { count: 1, id: "create:netherite_diving_helmet" }
+					type: "item"
+				}
+				{
+					id: "6FCCB40232324AA8"
+					item: { count: 1, id: "create:netherite_diving_boots" }
+					type: "item"
+				}
+				{
+					id: "21AF1F11A4CF0894"
+					item: { count: 1, id: "create:netherite_backtank" }
+					type: "item"
+				}
+				{
+					advancement: "create:diving_suit_lava"
+					criterion: ""
+					id: "2A6D3131A952CA0A"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"24FFBA4172A65BE4"
+				"2EC615293732D9D9"
+			]
+			id: "3EFB4AC2F5B61C1C"
+			rewards: [
+				{
+					id: "7ACDC3C3EFDDEA76"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "27699CDCF0AF9EEF"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "create:hose_pulley_lava"
+					criterion: ""
+					id: "22CE8AD39C932C88"
+					type: "advancement"
+				}
+				{
+					advancement: "create:train_portal"
+					criterion: ""
+					id: "174FDFEFB1CA737D"
+					type: "advancement"
+				}
+				{
+					advancement: "create:steam_engine_maxed"
+					criterion: ""
+					id: "4C61849A96C1E583"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+	]
+}

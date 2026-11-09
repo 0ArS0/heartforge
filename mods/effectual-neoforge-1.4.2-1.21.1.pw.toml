@@ -1,0 +1,13 @@
+name = "effectual-neoforge-1.4.2-1.21.1"
+filename = "effectual-neoforge-1.4.2-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OoF97Pto/versions/BM24IMvt/effectual-neoforge-1.4.2-1.21.1.jar"
+hash-format = "sha1"
+hash = "50d6b3346e703334fa796c00ddf28378703044da"
+
+[update]
+[update.modrinth]
+mod-id = "OoF97Pto"
+version = "BM24IMvt"

@@ -1,0 +1,434 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create_t3"
+	group: "60FEF54FAB43A476"
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "71B852DD458B2273"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "6CD1FD530B55FB55"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "4F4C17A62B986CD4"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"481FD9295FCF4889"
+				"6CD1FD530B55FB55"
+			]
+			id: "585B3ABED1A90C51"
+			rewards: [
+				{
+					id: "250CFE7D76AF7B8A"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "186D6DAB003D8081"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 16L
+					id: "29375E086841DD9D"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "22FB2090B8342377"
+					item: { count: 1, id: "create:powdered_obsidian" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "27D3D71523FF243F"
+					item: { count: 1, id: "create:sturdy_sheet" }
+					type: "item"
+				}
+				{
+					advancement: "create:sturdy_sheet"
+					criterion: ""
+					id: "1695E1DCF32C8448"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"585B3ABED1A90C51"
+				"5EF661194713BA19"
+			]
+			id: "18F7E347504FD9CD"
+			rewards: [
+				{
+					id: "7FF83748AA358AF1"
+					type: "xp"
+					xp: 660
+				}
+				{
+					id: "2AF3C75F51545806"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "3D89415C94D622F7"
+					item: { count: 1, id: "create:railway_casing" }
+					type: "item"
+				}
+				{
+					advancement: "create:train_casing_00"
+					criterion: ""
+					id: "308314B930EC8A92"
+					type: "advancement"
+				}
+				{
+					count: 64L
+					id: "75E629583A10A31F"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					advancement: "create:track_0"
+					criterion: ""
+					id: "7E3B6A68A9001BBD"
+					type: "advancement"
+				}
+				{
+					id: "4E37FFC4E5DC4449"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "4FC876FF926C08BC"
+					item: { count: 1, id: "create:controls" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["585B3ABED1A90C51"]
+			id: "2355C79206470ECD"
+			tasks: [{
+				id: "73AE3B6EA432656F"
+				item: { count: 1, id: "comamigos_balance:tier_heart_4" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"2BE05997E81E3C85"
+				"585B3ABED1A90C51"
+			]
+			id: "543D90EE90117231"
+			rewards: [
+				{
+					id: "6E9714E46F8C6574"
+					type: "xp"
+					xp: 880
+				}
+				{
+					id: "20A922D801E572E0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5A644586FEA30A48"
+					item: { count: 1, id: "create:stock_link" }
+					type: "item"
+				}
+				{
+					id: "2702A1E6ECDCA675"
+					item: { count: 1, id: "create:stock_ticker" }
+					type: "item"
+				}
+				{
+					advancement: "create:stock_ticker"
+					criterion: ""
+					id: "7929CD2473CD0A9C"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "5D5EF64D86F751A5"
+					item: { count: 1, id: "create:factory_gauge" }
+					type: "item"
+				}
+				{
+					advancement: "create:factory_gauge"
+					criterion: ""
+					id: "74285D0CEC163E97"
+					type: "advancement"
+				}
+				{
+					id: "0548A554C834EFC8"
+					item: { count: 1, id: "create:redstone_requester" }
+					type: "item"
+				}
+				{
+					id: "3CFE7F4AA69DA2AD"
+					item: { count: 1, id: "create:repackager" }
+					type: "item"
+				}
+				{
+					advancement: "create:table_cloth_shop"
+					criterion: ""
+					id: "37385FC5C704A6A8"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["585B3ABED1A90C51"]
+			id: "2D2D8842B93FDF23"
+			rewards: [
+				{
+					id: "00D28CB40A38C3DB"
+					type: "xp"
+					xp: 330
+				}
+				{
+					id: "483372F04A3C439D"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5E261AC27B77B1AD"
+					item: { count: 1, id: "minecraft:soul_campfire" }
+					type: "item"
+				}
+				{
+					id: "6BEF6534AEF823D2"
+					item: { count: 1, id: "create:haunted_bell" }
+					type: "item"
+				}
+				{
+					advancement: "create:haunted_bell"
+					criterion: ""
+					id: "0A12BF5A8A96687E"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["18F7E347504FD9CD"]
+			id: "2EC615293732D9D9"
+			rewards: [
+				{
+					id: "161FA64A78CBA62E"
+					type: "xp"
+					xp: 770
+				}
+				{
+					id: "44B968A7637E5BD0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "create:train"
+					criterion: ""
+					id: "719C0592C71A8438"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "6330675690E562D0"
+					item: { count: 1, id: "create:track_signal" }
+					type: "item"
+				}
+				{
+					advancement: "create:track_signal"
+					criterion: ""
+					id: "31CE82FF97360361"
+					type: "advancement"
+				}
+				{
+					id: "6E4468E70D19FBA8"
+					item: { count: 1, id: "create:schedule" }
+					type: "item"
+				}
+				{
+					advancement: "create:conductor"
+					criterion: ""
+					id: "2C94EC66513BC856"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "58BF9D75D148430F"
+					item: { count: 1, id: "create:train_door" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02D28CAF86E983FE"
+					item: { count: 1, id: "create:train_trapdoor" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.4d
+		}
+		{
+			dependencies: [
+				"2EC615293732D9D9"
+				"3D7A934BD49BBD8D"
+			]
+			id: "6752E00A71621D14"
+			rewards: [
+				{
+					id: "570EC74707097941"
+					type: "xp"
+					xp: 330
+				}
+				{
+					id: "2979A4B64B206ED0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "create:display_board_0"
+					criterion: ""
+					id: "710F26805230CCAA"
+					type: "advancement"
+				}
+				{
+					id: "588DD4C8E857A9C8"
+					item: { count: 1, id: "create:track_observer" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "79354FFC404D4114"
+					item: { count: 1, id: "create:portable_fluid_interface" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -3.2d
+		}
+		{
+			dependencies: ["2EC615293732D9D9"]
+			id: "3C87C8688B083C7E"
+			optional: true
+			rewards: [
+				{
+					id: "6FE9969A23A4BCAC"
+					type: "xp"
+					xp: 660
+				}
+				{
+					id: "2701C3D8734A988E"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "create:track_crafting_factory"
+					criterion: ""
+					id: "2C364D42C029BC1A"
+					type: "advancement"
+				}
+				{
+					advancement: "create:train_whistle"
+					criterion: ""
+					id: "4CF51925F7919B79"
+					type: "advancement"
+				}
+				{
+					advancement: "create:long_train"
+					criterion: ""
+					id: "6DB531ACF8F9DD61"
+					type: "advancement"
+				}
+				{
+					advancement: "create:long_travel"
+					criterion: ""
+					id: "508E6F93007BF15D"
+					type: "advancement"
+				}
+				{
+					advancement: "create:crusher_maxed_0000"
+					criterion: ""
+					id: "154E964FF5D9BD9C"
+					type: "advancement"
+				}
+				{
+					advancement: "create:self_deploying"
+					criterion: ""
+					id: "2225A579B671F0C2"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -1.6d
+		}
+	]
+}

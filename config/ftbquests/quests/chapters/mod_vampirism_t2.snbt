@@ -1,0 +1,235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_vampirism_t2"
+	group: "3147F27B282022B5"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "28A97920DA31776D"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "0DF4B038AE96B2EA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "22EDE5423BBD5F39"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"28BEF2E097218D1C"
+				"0DF4B038AE96B2EA"
+			]
+			icon: {
+				id: "vampirism:mother_core"
+			}
+			id: "34972E67FF805C4B"
+			rewards: [{
+				id: "587644D22523588D"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "223B51F6FF07A930"
+				item: { count: 1, id: "vampirism:mother_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A68794BF7EACA21"
+				"0DF4B038AE96B2EA"
+			]
+			id: "1031BB556ECCBEE1"
+			rewards: [
+				{
+					id: "618C5EA859D19D29"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "40B9BE567A5B9920"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "6E7242DE5FF4809C"
+					item: { count: 1, id: "vampirism:hunter_coat_head_normal" }
+					type: "item"
+				}
+				{
+					id: "7AD1E5EBFCD9E888"
+					item: { count: 1, id: "vampirism:hunter_coat_chest_normal" }
+					type: "item"
+				}
+				{
+					id: "2C23A6C3D5995189"
+					item: { count: 1, id: "vampirism:hunter_coat_legs_normal" }
+					type: "item"
+				}
+				{
+					id: "47BF8B56B75AA273"
+					item: { count: 1, id: "vampirism:hunter_coat_feet_normal" }
+					type: "item"
+				}
+				{
+					id: "04D60E9CD0CC0850"
+					item: { count: 1, id: "vampirism:armor_of_swiftness_chest_normal" }
+					type: "item"
+				}
+				{
+					id: "1FB0A19D76DB0BF7"
+					item: { count: 1, id: "vampirism:hunter_axe_normal" }
+					type: "item"
+				}
+				{
+					id: "0FED37CA5FA57C7D"
+					item: { count: 1, id: "vampirism:basic_double_crossbow" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"39B72B4ED34A33C2"
+				"34972E67FF805C4B"
+			]
+			id: "415E82F904596686"
+			rewards: [{
+				id: "4EA014CE07E4E039"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [
+				{
+					advancement: "vampirism:vampire/kill_mother"
+					criterion: ""
+					id: "3E15B0B577D09A42"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "1137E2A596E7FD70"
+					item: { count: 1, id: "vampirism:pure_blood_0" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"572B7C04F1CBC19C"
+				"34972E67FF805C4B"
+			]
+			id: "18F422D54E37240F"
+			rewards: [{
+				id: "552B4B2D6D299348"
+				type: "xp"
+				xp: 240
+			}]
+			tasks: [
+				{
+					advancement: "vampirism:hunter/kill_mother"
+					criterion: ""
+					id: "452EB5F74D6BA720"
+					type: "advancement"
+				}
+				{
+					id: "69288956BDF06249"
+					item: { count: 1, id: "vampirism:hunter_intel_1" }
+					type: "item"
+				}
+				{
+					id: "5B13A8D20C34F5E3"
+					item: { count: 1, id: "vampirism:garlic_diffuser_normal" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34972E67FF805C4B"
+				"7A68794BF7EACA21"
+			]
+			id: "43D4D6A9663D8BEC"
+			optional: true
+			rewards: [
+				{
+					id: "0B378CF74CECDB12"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "008BD7CD8D264CA8"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "vampirism:hunter/kill_resurrected_vampire"
+					criterion: ""
+					id: "5D338D485F436556"
+					type: "advancement"
+				}
+				{
+					id: "657365419A4839CC"
+					item: { count: 1, id: "vampirism:soul_orb_vampire" }
+					type: "item"
+				}
+				{
+					id: "3C1420D2BDD654D9"
+					item: { count: 1, id: "vampiricageing:blood_tester" }
+					type: "item"
+				}
+				{
+					id: "54EB3351CB9CFA71"
+					item: { count: 1, id: "vampiresdelight:spirit_lantern" }
+					type: "item"
+				}
+				{
+					id: "5B7D53E1284A0993"
+					item: { count: 1, id: "vampiresdelight:alchemical_cocktail" }
+					type: "item"
+				}
+				{
+					id: "4687C581CFD3A72D"
+					item: { count: 1, id: "vampirism:vampire_beacon" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+	]
+}

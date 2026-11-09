@@ -1,0 +1,253 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_botania"
+	group: "0BD654FB0C580B11"
+	icon: {
+		id: "botania:lexicon"
+	}
+	id: "0ABC69F79D6B204D"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "botania:lexicon"
+			}
+			id: "7300DD08C121A977"
+			rewards: [{
+				id: "3D2CDD6BE3DA25AB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "78C08E4C2B64FCE3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7300DD08C121A977"]
+			id: "6AE71DBF49D3C441"
+			rewards: [{
+				id: "477204CF6F432F8F"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "botania:main/flower_pickup"
+					criterion: ""
+					id: "1AE9D71C21217B0E"
+					type: "advancement"
+				}
+				{
+					id: "5B5DE09B3611BCB7"
+					item: { count: 1, id: "botania:lexicon" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/lexicon_use"
+					criterion: ""
+					id: "7266D2E09CACDAC9"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "5932C15498A1FF35"
+					item: { count: 1, id: "botania:white_petal" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AE71DBF49D3C441"]
+			id: "157DC6ED2175901C"
+			rewards: [
+				{
+					id: "26DBD12CF14CE84F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "211CE5BE19C1F712"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "698E3126C599FE8B"
+					item: { count: 1, id: "botania:apothecary_default" }
+					type: "item"
+				}
+				{
+					id: "0E158EC33D2E8B46"
+					item: { count: 1, id: "botania:pure_daisy" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6CBD8E882967D609"
+					item: { count: 1, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "538D9BF050BDFA12"
+					item: { count: 1, id: "botania:livingwood_log" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["6AE71DBF49D3C441"]
+			icon: {
+				id: "botania:yellow_mystical_flower"
+			}
+			id: "3991D0AA35DF9E5B"
+			optional: true
+			rewards: [
+				{
+					id: "1B98C654606DEE2B"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "64B3F2BCB57EE116"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3969C828C3C50CAC"
+					item: { count: 1, id: "botania:white_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "682C9490E5798896"
+					item: { count: 1, id: "botania:orange_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "4399A70E078A5CE9"
+					item: { count: 1, id: "botania:magenta_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "18CECFAD93CA096D"
+					item: { count: 1, id: "botania:yellow_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "48E335C7038A581B"
+					item: { count: 1, id: "botania:lime_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "1F8AE3846FEFC151"
+					item: { count: 1, id: "botania:pink_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "03A9BE8C4B632A9E"
+					item: { count: 1, id: "botania:red_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "368D63F847FDD36E"
+					item: { count: 1, id: "botania:brown_mystical_flower" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AE71DBF49D3C441"]
+			icon: {
+				id: "botania:light_blue_mystical_flower"
+			}
+			id: "4C4AF3920E558299"
+			optional: true
+			rewards: [
+				{
+					id: "397012764BFA99A4"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "6077A07907E533B5"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "474B62CA51484D3C"
+					item: { count: 1, id: "botania:light_blue_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "2F3E07A9A929B1D7"
+					item: { count: 1, id: "botania:gray_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "5C75AC1D31CD6658"
+					item: { count: 1, id: "botania:light_gray_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "3E7CFB580A00067A"
+					item: { count: 1, id: "botania:cyan_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "7D794020E139C77A"
+					item: { count: 1, id: "botania:purple_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "79EBA8B7F4A5D5A2"
+					item: { count: 1, id: "botania:blue_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "0D00D9B1296C9AA1"
+					item: { count: 1, id: "botania:green_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "40F39B76007D1AF2"
+					item: { count: 1, id: "botania:black_mystical_flower" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+	]
+}

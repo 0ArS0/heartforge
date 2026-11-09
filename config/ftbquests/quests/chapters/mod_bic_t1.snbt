@@ -1,0 +1,658 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bic_t1"
+	group: "13EF259E1ADFAB3C"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "645F796C47065A4A"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "1C80A4436F3FA0F8"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "786BA640FD961BC1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"415F9CC6559614A4"
+				"1C80A4436F3FA0F8"
+			]
+			id: "5481D386D057C81F"
+			rewards: [{
+				id: "06C843D9DD32CEA0"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:zombie_fisherman"
+					id: "134632730D8046AA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:zombie_lumberjack"
+					id: "667746B5623EE384"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:door_knight"
+					id: "0223A2E1A90E4CEB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:siamese_skeletons"
+					id: "23EB6699E6351FC9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "born_in_chaos_v1:good_demoman"
+					criterion: ""
+					id: "2DE80425AB99BE4A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"415F9CC6559614A4"
+				"1C80A4436F3FA0F8"
+			]
+			id: "266D4A32D75F321E"
+			rewards: [{
+				id: "2954DB3D018EF7BD"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:horrorofthe_depths"
+					criterion: ""
+					id: "3C7DF21C5C574DD9"
+					type: "advancement"
+				}
+				{
+					entity: "born_in_chaos_v1:corpse_fish"
+					id: "374D435A2CEB20FA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "born_in_chaos_v1:disgusting_lootbox"
+					criterion: ""
+					id: "40896BD2DAB3BC98"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:waste_recycler"
+					criterion: ""
+					id: "0F5966F16BDCFC67"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "282C1551D80E3AB8"
+					item: { count: 1, id: "born_in_chaos_v1:spiny_shell" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"415F9CC6559614A4"
+				"1C80A4436F3FA0F8"
+			]
+			id: "50BAEAD6786FA6BA"
+			rewards: [{
+				id: "63202D6206E68B05"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:dark_metallurgy"
+					criterion: ""
+					id: "7211DE8FF9C7BD2B"
+					type: "advancement"
+				}
+				{
+					entity: "born_in_chaos_v1:fallen_chaos_knight"
+					id: "7CFF1A8A6864CAFE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "56D2A1FBD0F01094"
+					item: { count: 1, id: "born_in_chaos_v1:pileof_dark_metal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "21D2D5965256F09B"
+					item: { count: 1, id: "born_in_chaos_v1:dark_metal_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "24B7D93F477E07DF"
+					item: { count: 1, id: "born_in_chaos_v1:fired_black_argillite" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"415F9CC6559614A4"
+				"1C80A4436F3FA0F8"
+			]
+			id: "42EE829680649A76"
+			rewards: [{
+				id: "16437757CB630E5D"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:dread_hound"
+					id: "23CBF2C6BAA2AA21"
+					type: "kill"
+					value: 3L
+				}
+				{
+					advancement: "born_in_chaos_v1:big_boy"
+					criterion: ""
+					id: "44AE8F4CA28E3326"
+					type: "advancement"
+				}
+				{
+					id: "4CB5D6F7AC508C6E"
+					item: { count: 1, id: "born_in_chaos_v1:hound_trap" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:arachnophobes_nightmare"
+					criterion: ""
+					id: "6E47DEE281CB8F0A"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:horror_underthe_mantle"
+					criterion: ""
+					id: "798438485253E276"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"415F9CC6559614A4"
+				"1C80A4436F3FA0F8"
+			]
+			id: "482800EE29693E75"
+			rewards: [
+				{
+					id: "76659EC69FB48122"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6794FD681D7CC167"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:corpse_fly"
+					id: "746CB6BA009806D3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:bloody_gadfly"
+					id: "4CF22A5CB3D7E489"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:swarmer"
+					id: "7D533A14F92903F5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "139257FC371CBF25"
+					item: { count: 1, id: "born_in_chaos_v1:fried_maggot" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:bypassingthe_expiration_date"
+					criterion: ""
+					id: "72EA430D2B8C72D3"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:freshen_your_breath"
+					criterion: ""
+					id: "34B308A53E23F9A0"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["50BAEAD6786FA6BA"]
+			id: "6CF570EABC5D894B"
+			rewards: [
+				{
+					id: "5D9A7F8801D77FFA"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1E84D5A982BE4E0E"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "517DA7A17BB7AEC7"
+					item: { count: 1, id: "born_in_chaos_v1:ethereal_spirit" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:the_wind_darkening"
+					criterion: ""
+					id: "074B6EE302223561"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "335D7E51A129FB69"
+					item: { count: 1, id: "born_in_chaos_v1:bone_handle" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:exorcism"
+					criterion: ""
+					id: "41AFD566BB07D89F"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "3BEAFC269CD6E39C"
+					item: { count: 1, id: "born_in_chaos_v1:seedof_chaos" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2C3248E0270A9071"
+					item: { count: 1, id: "born_in_chaos_v1:chaos_component" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["50BAEAD6786FA6BA"]
+			id: "49F0CDBA1137730D"
+			rewards: [{
+				id: "5C3AACD09C2972A2"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:junior_summoner"
+					criterion: ""
+					id: "439AFDEB7933A2F5"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:dark_creator"
+					criterion: ""
+					id: "01347B293E0DE781"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:guidetothenextworld"
+					criterion: ""
+					id: "240562DB6F8A6208"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"415F9CC6559614A4"
+				"6CF570EABC5D894B"
+			]
+			id: "2EB10FE247F4131F"
+			rewards: [{
+				id: "6AA3684CDD52BE53"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:mr_pumpkin"
+					id: "4E3791A6EA536627"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:pumpkin_dunce"
+					id: "4AB557A1EC2FE566"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:pumpkin_bruiser"
+					id: "5CC3D37E5349CD48"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "578C8036787C852C"
+					item: { count: 1, id: "born_in_chaos_v1:holiday_candy" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:scarecrow"
+					criterion: ""
+					id: "20D27D438D261363"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.03d
+		}
+		{
+			dependencies: ["6CF570EABC5D894B"]
+			id: "06805654D5066478"
+			rewards: [{
+				id: "706ADD063ADBBEFB"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:grave_ravager"
+					criterion: ""
+					id: "2485C1E4BDF30C40"
+					type: "advancement"
+				}
+				{
+					id: "27BB09AB2ACFB631"
+					item: { count: 1, id: "born_in_chaos_v1:evilometer" }
+					type: "item"
+				}
+				{
+					id: "2647137CF6DD4467"
+					item: { count: 1, id: "born_in_chaos_v1:fel_lamp" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.63d
+		}
+		{
+			dependencies: [
+				"50BAEAD6786FA6BA"
+				"6CF570EABC5D894B"
+			]
+			id: "346039B6F17ED8DD"
+			rewards: [
+				{
+					id: "3BE6C62C90BF9E05"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "59192517822058CA"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:lifeturnedouttobeacomedy"
+					criterion: ""
+					id: "7D33B6CD1CDE1D93"
+					type: "advancement"
+				}
+				{
+					id: "6107D42E70DBD9F1"
+					item: { count: 1, id: "born_in_chaos_v1:intoxicating_decoction" }
+					type: "item"
+				}
+				{
+					id: "4E8F9E10462493C5"
+					item: { count: 1, id: "born_in_chaos_v1:stimulating_decoction" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C94A22524A2927E"
+					item: { count: 1, id: "born_in_chaos_v1:fire_dust" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:mr_decoction"
+					criterion: ""
+					id: "56C3E7F89AFA647E"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:double_trouble"
+					criterion: ""
+					id: "3D91E6952082156E"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:one_explosion_is_good_two_is_better"
+					criterion: ""
+					id: "787BE3CE691C0190"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 3.23d
+		}
+		{
+			dependencies: ["49F0CDBA1137730D"]
+			icon: {
+				id: "comamigos_balance:bonescaller_heart"
+			}
+			id: "10C2C59F0570B1B2"
+			rewards: [
+				{
+					id: "204655CF42722E11"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "527EBD1CAD3C6C85"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
+				id: "313B050F9861B6B1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 4.83d
+		}
+		{
+			dependencies: [
+				"6CF570EABC5D894B"
+				"42EE829680649A76"
+				"482800EE29693E75"
+			]
+			id: "5830B3BDAC64D5A7"
+			rewards: [{
+				id: "24EE5A5C9E80364F"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:insect_repellent"
+					criterion: ""
+					id: "13572BE398E97726"
+					type: "advancement"
+				}
+				{
+					id: "456C55977C10280B"
+					item: { count: 1, id: "born_in_chaos_v1:potion_of_rampage" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:heart_thief"
+					criterion: ""
+					id: "3C95A0417989039A"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:protectedby_darkness"
+					criterion: ""
+					id: "794C7E8FF2849618"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 6.43d
+		}
+		{
+			dependencies: [
+				"06805654D5066478"
+				"346039B6F17ED8DD"
+				"42EE829680649A76"
+			]
+			id: "2ACD4352A23D80A6"
+			optional: true
+			rewards: [
+				{
+					id: "68CDF4C36DF717D9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "337615FE7B43FBE2"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:symphonyof_chaos"
+					criterion: ""
+					id: "69E3EAF404D12697"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:bury_them_all"
+					criterion: ""
+					id: "697F98A10FE8513E"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:soul_eater"
+					criterion: ""
+					id: "177F357FA38066B0"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:food_fight"
+					criterion: ""
+					id: "299F136BA7331803"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:shakeand_mix"
+					criterion: ""
+					id: "16CC49BBAF80D58B"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:unlucky_hunter"
+					criterion: ""
+					id: "2E9FD8BE7545A1D3"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 3.22d
+		}
+	]
+}

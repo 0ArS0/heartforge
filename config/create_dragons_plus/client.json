@@ -1,0 +1,18 @@
+{
+  "dyeVisionMultiplier": {
+    "comment": [
+      "Dye-fluid vision-distance multiplier",
+      "Default: 1.0",
+      "Range: 1.0 ~ 256.0"
+    ],
+    "value": 1.0
+  },
+  "dragonBreathVisionMultiplier": {
+    "comment": [
+      "Dragon's Breath vision-distance multiplier",
+      "Default: 1.0",
+      "Range: 1.0 ~ 256.0"
+    ],
+    "value": 1.0
+  }
+}

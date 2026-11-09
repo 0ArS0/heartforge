@@ -1,0 +1,44 @@
+{
+  "recipes": {
+    "comment": "Packmakers' recipe controls",
+    "enableBulkColoring": {
+      "comment": "Enable Bulk Coloring",
+      "value": true
+    },
+    "enableBulkFreezing": {
+      "comment": "Enable Bulk Freezing",
+      "value": true
+    },
+    "enableBulkSanding": {
+      "comment": "Enable Bulk Sanding",
+      "value": true
+    },
+    "enableBulkEnding": {
+      "comment": "Enable Bulk Ending",
+      "value": true
+    }
+  },
+  "dyeFluid": {
+    "comment": "Dye-fluid contact coloring",
+    "dyeFluidBlockContactColorsItems": {
+      "comment": "Color item entities touching a dye-fluid source",
+      "value": true
+    },
+    "dyeFluidBlockContactColorsLivingEntities": {
+      "comment": "Color living entities touching a dye-fluid source",
+      "value": true
+    },
+    "dyeFluidBlockContactConsumesSource": {
+      "comment": "Consume a dye-fluid source after a successful coloring",
+      "value": false
+    },
+    "dyeFluidOpenPipeColorsItems": {
+      "comment": "Color item entities sprayed by an open pipe",
+      "value": true
+    },
+    "dyeFluidOpenPipeColorsLivingEntities": {
+      "comment": "Color living entities sprayed by an open pipe",
+      "value": true
+    }
+  }
+}

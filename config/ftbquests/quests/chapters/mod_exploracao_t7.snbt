@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_exploracao_t7"
+	group: "48BF15FF65B85345"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "56F06920570C7947"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "2BA624636CEF25C4"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "07221BE65E3D66C5"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7681B1672044DCE5"
+				"2BA624636CEF25C4"
+			]
+			icon: {
+				id: "minecraft:end_stone_bricks"
+			}
+			id: "6130C188A723C3D7"
+			rewards: [{
+				id: "6A0ECC72D537905A"
+				type: "xp"
+				xp: 690
+			}]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_heavenly_rider"
+					criterion: ""
+					id: "39D76849C5DF2CF5"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_heavenly_challenger"
+					criterion: ""
+					id: "650DB79DFC25DDFA"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_heavenly_conqueror"
+					criterion: ""
+					id: "46DC214459A39838"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6130C188A723C3D7"]
+			icon: {
+				id: "minecraft:spire_armor_trim_smithing_template"
+			}
+			id: "26031DA43E786E1C"
+			optional: true
+			rewards: [
+				{
+					id: "3031C9E9C6FE57D3"
+					type: "xp"
+					xp: 1150
+				}
+				{
+					id: "546B990D549743FA"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "25FDC89D6851FA79"
+					item: { count: 1, id: "minecraft:spire_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "4A8C57F07B3EEE14"
+					item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "3AB8806777DBB953"
+					item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "0B4C8B65F562DF82"
+					item: { count: 1, id: "minecraft:snout_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
+					criterion: ""
+					id: "306F8EFDC9008B5F"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

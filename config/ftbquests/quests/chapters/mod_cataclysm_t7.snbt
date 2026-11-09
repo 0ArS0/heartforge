@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cataclysm_t7"
+	group: "0E0AC8A91F88F063"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "1F62945800F0C0E1"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "58FAB256B8E49AFB"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "04D9777C357B26AC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4635BF63F94949B6"
+				"58FAB256B8E49AFB"
+			]
+			id: "7B859BEBD1A1B850"
+			rewards: [
+				{
+					id: "0D8A1FFD42553722"
+					type: "xp"
+					xp: 1380
+				}
+				{
+					id: "0F6EC54B986FE6AE"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "1AD7B8F5E4DBF39B"
+					item: { count: 1, id: "cataclysm:void_eye" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_ruined_citadel"
+					criterion: ""
+					id: "05532442D6C908EB"
+					type: "advancement"
+				}
+				{
+					entity: "cataclysm:endermaptera"
+					id: "7B25C865119C8020"
+					type: "kill"
+					value: 5L
+				}
+				{
+					count: 4L
+					id: "5D375E495EB4CD3D"
+					item: { count: 1, id: "cataclysm:void_scatter_arrow" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ender_golem"
+					criterion: ""
+					id: "7395901B97D34B82"
+					type: "advancement"
+				}
+				{
+					id: "2D4225387673C29E"
+					item: { count: 1, id: "cataclysm:void_core" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B859BEBD1A1B850"]
+			icon: {
+				id: "comamigos_balance:ender_guardian_heart"
+			}
+			id: "74A0049EE9DCF250"
+			rewards: [{
+				id: "658D683F8B76F6B6"
+				type: "xp"
+				xp: 460
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "393B790EEFAB16D6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "71461DE279708D8B"
+					item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74A0049EE9DCF250"
+				"66DA84226E59DB5A"
+				"4E8D1EE016E1ACB2"
+			]
+			id: "6700F1D7C8BDE176"
+			rewards: [
+				{
+					id: "3CC606D70157FF1F"
+					type: "xp"
+					xp: 1150
+				}
+				{
+					id: "07316AD207A6D0ED"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2C660F8F791DBFD6"
+					item: { count: 1, id: "cataclysm:void_forge" }
+					type: "item"
+				}
+				{
+					id: "1A97732A8FFBF962"
+					item: { count: 1, id: "cataclysm:void_assault_shoulder_weapon" }
+					type: "item"
+				}
+				{
+					id: "7F765508CB5EA724"
+					item: { count: 1, id: "cataclysm:gauntlet_of_bulwark" }
+					type: "item"
+				}
+				{
+					id: "2254E66D478EC986"
+					item: { count: 1, id: "cataclysm:gauntlet_of_maelstrom" }
+					type: "item"
+				}
+				{
+					id: "5A94D774E892E0CA"
+					item: { count: 1, id: "cataclysm:ignitium_elytra_chestplate" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["74A0049EE9DCF250"]
+			id: "3A16E73B5DAFD6C0"
+			optional: true
+			rewards: [
+				{
+					id: "78261D1EB8101DCF"
+					type: "xp"
+					xp: 1840
+				}
+				{
+					id: "21439950064ADF83"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "49B910D17E31512D"
+					item: { count: 1, id: "cataclysm:music_disc_ancient_remnant" }
+					type: "item"
+				}
+				{
+					id: "4C20D4D83BE5C496"
+					item: { count: 1, id: "cataclysm:music_disc_ignis" }
+					type: "item"
+				}
+				{
+					id: "71DC5B1CF458DE24"
+					item: { count: 1, id: "cataclysm:music_disc_netherite_monstrosity" }
+					type: "item"
+				}
+				{
+					id: "788423C5A480D342"
+					item: { count: 1, id: "cataclysm:music_disc_maledictus" }
+					type: "item"
+				}
+				{
+					id: "560F4B84E7119C51"
+					item: { count: 1, id: "cataclysm:music_disc_the_harbinger" }
+					type: "item"
+				}
+				{
+					id: "242EAA38015C7BD3"
+					item: { count: 1, id: "cataclysm:music_disc_the_leviathan" }
+					type: "item"
+				}
+				{
+					id: "7DD8C81F88221888"
+					item: { count: 1, id: "cataclysm:music_disc_scylla" }
+					type: "item"
+				}
+				{
+					id: "75466CC38D2110C4"
+					item: { count: 1, id: "cataclysm:music_disc_ender_guardian" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74A0049EE9DCF250"
+				"641238FABF883C37"
+				"3008DBF1FD38D015"
+				"79575B5C3CEABB9B"
+				"4CDC09724947BA6E"
+				"23229B6CC678D4DF"
+				"6BC6C7D751EFC9D3"
+				"12C86E79E2414320"
+			]
+			id: "2EEF8CACD0BCA972"
+			rewards: [
+				{
+					id: "5A1168D2B1F7BC76"
+					type: "xp"
+					xp: 230
+				}
+				{
+					id: "4B776467312731C7"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				advancement: "cataclysm:kill_all_bosses"
+				criterion: ""
+				id: "5D2CE243189D99E8"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.6d
+		}
+	]
+}

@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_mowzies_t5"
+	group: "3BC9864E9D9AF49B"
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "7A86B1937AF3B23A"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "5EA72B1C106DBC19"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "5D75C3B99973B1C3"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"5423B114FB677DE7"
+				"5EA72B1C106DBC19"
+			]
+			icon: {
+				id: "minecraft:gold_block"
+			}
+			id: "62CCE1FFDAFC895E"
+			rewards: [{
+				id: "4B8C74D35E2AC8A9"
+				type: "xp"
+				xp: 510
+			}]
+			tasks: [
+				{
+					id: "5C466E978E61A281"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_fury" }
+					type: "item"
+				}
+				{
+					advancement: "mowziesmobs:sneak_grove"
+					criterion: ""
+					id: "376122FA1536330B"
+					type: "advancement"
+				}
+				{
+					advancement: "mowziesmobs:suns_blessing"
+					criterion: ""
+					id: "2D025C71B7B9F538"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7C3CBDA00C6EAD4B"
+				"65D10F035C333F29"
+				"5EA72B1C106DBC19"
+			]
+			icon: {
+				id: "comamigos_balance:sculptor_heart"
+			}
+			id: "37C94A7F2D6E817C"
+			rewards: [{
+				id: "43B723526F39FE57"
+				type: "xp"
+				xp: 680
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "mowziesmobs:sculptor_challenge"
+					criterion: ""
+					id: "512F49BC9248FA83"
+					type: "advancement"
+				}
+				{
+					id: "07DAE01910E79A8C"
+					item: { count: 1, id: "mowziesmobs:earthrend_gauntlet" }
+					type: "item"
+				}
+				{
+					entity: "mowziesmobs:sculptor"
+					id: "4CEB252525AC76F1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "03A7A9866FE44EE8"
+					item: { count: 1, id: "mowziesmobs:sculptor_staff" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["62CCE1FFDAFC895E"]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_misery"
+			}
+			id: "6BF90D0617568D71"
+			optional: true
+			rewards: [
+				{
+					id: "29C24AC12BD6AD0A"
+					type: "xp"
+					xp: 850
+				}
+				{
+					id: "25BBD9FEA8A3A6F7"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "53FE030D0C50FE6B"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_fear" }
+					type: "item"
+				}
+				{
+					id: "5F72378CFC859D76"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_rage" }
+					type: "item"
+				}
+				{
+					id: "5253B994B95A94D6"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_faith" }
+					type: "item"
+				}
+				{
+					id: "32E634877B03D2AC"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_bliss" }
+					type: "item"
+				}
+				{
+					id: "37B55D42AE2463CD"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_misery" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.07d
+		}
+		{
+			dependencies: ["62CCE1FFDAFC895E"]
+			icon: {
+				id: "comamigos_balance:umvuthi_heart"
+			}
+			id: "74CB677FF10AA83E"
+			rewards: [
+				{
+					id: "22F56467EC264ABF"
+					type: "xp"
+					xp: 340
+				}
+				{
+					id: "3E3ED5E2818AC749"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					id: "34F990311C67E454"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "32AFE58573CF791D"
+					item: { count: 1, id: "mowziesmobs:sol_visage" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.53d
+		}
+		{
+			dependencies: [
+				"150C4D2DBCC906F4"
+				"37C94A7F2D6E817C"
+			]
+			icon: {
+				id: "mowziesmobs:music_disc_petiole"
+			}
+			id: "0BB1FA474600D3DB"
+			optional: true
+			rewards: [
+				{
+					id: "09DF3F974313CA42"
+					type: "xp"
+					xp: 510
+				}
+				{
+					id: "05A5AD06061C516F"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mowziesmobs:kill_grottol_silk_touch"
+					criterion: ""
+					id: "0AF258B1AABA4EC9"
+					type: "advancement"
+				}
+				{
+					advancement: "mowziesmobs:sculptor_failure"
+					criterion: ""
+					id: "2D5867CE130B9632"
+					type: "advancement"
+				}
+				{
+					id: "3C077DB5EDA55DF7"
+					item: { count: 1, id: "mowziesmobs:music_disc_petiole" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.13d
+		}
+	]
+}

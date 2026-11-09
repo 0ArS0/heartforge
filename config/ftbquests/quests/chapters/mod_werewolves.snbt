@@ -1,0 +1,180 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_werewolves"
+	group: "4420EA9AE6BA168A"
+	icon: {
+		id: "werewolves:werewolf_tooth"
+	}
+	id: "7727B0296A76BC98"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "werewolves:werewolf_tooth"
+			}
+			id: "7E8062C09AFC0ED7"
+			rewards: [{
+				id: "10F6F44CD921788C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "76B6555201DC3797"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E8062C09AFC0ED7"]
+			id: "64512900CE999EEB"
+			rewards: [
+				{
+					id: "1CF741B3D06E42ED"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "5FE706A7E82DA55F"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "werewolves:dog_soldiers"
+					criterion: ""
+					id: "1D89E70F44AF0D88"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "1760A00BA656AED6"
+					item: { count: 1, id: "werewolves:jacaranda_log" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "394B176C7013A82B"
+					item: { count: 1, id: "werewolves:magic_log" }
+					type: "item"
+				}
+				{
+					id: "5C11FFB6429AC76A"
+					item: { count: 1, id: "werewolves:daffodil" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0B928F6F9A2E7A97"
+					item: { count: 1, id: "werewolves:wolf_berries" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "39B535EFDB51A1A7"
+					item: { count: 1, id: "werewolves:wolfsbane" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64512900CE999EEB"]
+			id: "70178554A92A0F61"
+			rewards: [
+				{
+					id: "1539074A19193F4D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0399C1919F790EDE"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "werewolves:teen_wolf"
+					criterion: ""
+					id: "3745B6CCCB277129"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:bad_moon_rising"
+					criterion: ""
+					id: "652C45BE24058E68"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:howling_moon"
+					criterion: ""
+					id: "5E9B4703F9BF34EF"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:another_one_bites_the_dust"
+					criterion: ""
+					id: "1DABBA0C354F32C4"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:insatiable_beast"
+					criterion: ""
+					id: "090BDA24E78E0EB1"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:standing_here_i_realize"
+					criterion: ""
+					id: "77DFD1CCC004448E"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70178554A92A0F61"]
+			id: "59AFB505BB321B1E"
+			optional: true
+			rewards: [
+				{
+					id: "5A65965CFE9D43C6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "70BD2CBE914F4D76"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28EB2A6B2F039670"
+				item: { count: 1, id: "werewolves:injection_un_werewolf" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

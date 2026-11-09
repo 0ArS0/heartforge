@@ -1,0 +1,490 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_exploracao_t1"
+	group: "48BF15FF65B85345"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "2AB8C7E61DAD51A6"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "6C30FC58C32E544F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "514689ECA3973279"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "5DAD70DC22E50855"
+			rewards: [{
+				id: "4EE5089BD6E7C677"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/trade"
+					criterion: ""
+					id: "39DDE2194FA597E8"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/voluntary_exile"
+					criterion: ""
+					id: "55CC3C402920CF36"
+					type: "advancement"
+				}
+				{
+					advancement: "quark:content/pathfinder_map_center"
+					criterion: ""
+					id: "3F9D736A507309E6"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "minecraft:rail"
+			}
+			id: "55B2E9D8A18C4E0C"
+			rewards: [
+				{
+					id: "5262A8F168231BE9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "21AD4BF37490078A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "mmr:root"
+					criterion: ""
+					id: "4F605AA708D2BC7D"
+					type: "advancement"
+				}
+				{
+					advancement: "hopo:minecraft/adventure/locate_mineshaft"
+					criterion: ""
+					id: "7DD26DCA33B78FFD"
+					type: "advancement"
+				}
+				{
+					advancement: "mmr:dark_oak_mineshaft"
+					criterion: ""
+					id: "3ED9820D6E534DAB"
+					type: "advancement"
+				}
+				{
+					id: "0D6BC4759086B0F4"
+					item: { count: 1, id: "minecraft:glow_berries" }
+					type: "item"
+				}
+				{
+					id: "1F54026DB29E879E"
+					item: { count: 1, id: "minecraft:pointed_dripstone" }
+					type: "item"
+				}
+				{
+					id: "1195934454E6EC46"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "minecraft:brush"
+			}
+			id: "2F9B060B7979BED5"
+			rewards: [{
+				id: "6B40F097B5023FE3"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "hopo:minecraft/adventure/locate_portal_ruined"
+					criterion: ""
+					id: "30607B1E95195EE1"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/salvage_sherd"
+					criterion: ""
+					id: "2C617D7B265A6343"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/trim_with_any_armor_pattern"
+					criterion: ""
+					id: "20361F697AB096F0"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "minecraft:goat_horn"
+			}
+			id: "42A063E686C44432"
+			rewards: [
+				{
+					id: "1409AB57A3A58C64"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "0996D7EA64E33D35"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "39EAEB36A9D88AEE"
+					item: { count: 1, id: "minecraft:goat_horn" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
+					criterion: ""
+					id: "5FF42AA4A678E0C0"
+					type: "advancement"
+				}
+				{
+					id: "671DED7BBAE97290"
+					item: { count: 1, id: "minecraft:cherry_sapling" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/play_jukebox_in_meadows"
+					criterion: ""
+					id: "784435AE0A18A2DE"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "minecraft:bamboo"
+			}
+			id: "26172E0D7B0E0067"
+			optional: true
+			rewards: [
+				{
+					id: "2F30B68805E777AB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "73F5DB396019B227"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "2C82A1864EF036E8"
+					item: { count: 1, id: "minecraft:cocoa_beans" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "577536C71E602881"
+					item: { count: 1, id: "minecraft:bamboo" }
+					type: "item"
+				}
+				{
+					id: "40AB18AEF8542256"
+					item: { count: 1, id: "minecraft:mangrove_propagule" }
+					type: "item"
+				}
+				{
+					id: "7449A3346BA46775"
+					item: { count: 1, id: "minecraft:mycelium" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "biomeswevegone:baobab_fruit"
+			}
+			id: "167F45E1A1AD7172"
+			rewards: [
+				{
+					id: "1E355D0E40AE54F0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "0BE8FCB7F8907F03"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 16L
+					id: "02C871CECC2055BC"
+					item: { count: 1, id: "minecraft:red_sand" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "40B28E17637F67FB"
+					item: { count: 1, id: "biomeswevegone:red_rock" }
+					type: "item"
+				}
+				{
+					id: "0CC7D8AB735BA0C7"
+					item: { count: 1, id: "biomeswevegone:baobab_fruit" }
+					type: "item"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/pale_in_comparison"
+					criterion: ""
+					id: "7A1BFCC845F504AC"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5DAD70DC22E50855"]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "568816798DEF8461"
+			rewards: [{
+				id: "5BFF703566FD7033"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_wishing_well"
+					criterion: ""
+					id: "2736293B6E37B86C"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_merchant_campsite"
+					criterion: ""
+					id: "237147F553B7D92F"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_illager_campsite"
+					criterion: ""
+					id: "000566C643E55A1C"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_greenwood_pub"
+					criterion: ""
+					id: "2FF5B5F5EC02EC0B"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_bathhouse"
+					criterion: ""
+					id: "42A0A458BBA3AD3F"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55B2E9D8A18C4E0C"]
+			icon: {
+				id: "minecraft:trial_key"
+			}
+			id: "26018DA8809EDC3E"
+			rewards: [{
+				id: "5E1806579D25DAB9"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/minecraft_trials_edition"
+					criterion: ""
+					id: "41750197C1D3647B"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/under_lock_and_key"
+					criterion: ""
+					id: "7690981569D10CB1"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/blowback"
+					criterion: ""
+					id: "1AC2B688AAC4A2AB"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/who_needs_rockets"
+					criterion: ""
+					id: "7B1009E588C02274"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["167F45E1A1AD7172"]
+			icon: {
+				id: "minecraft:apple"
+			}
+			id: "31E147B35E5DA844"
+			optional: true
+			rewards: [
+				{
+					id: "01E5D3B5EBFC920A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4EA85B0A44A08841"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "biomeswevegone:biomeswevegone/husbandry/berrily_alive"
+					criterion: ""
+					id: "2A526895360E9A28"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/husbandry/forager"
+					criterion: ""
+					id: "40C5B609166D0D50"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/husbandry/johnny_appleseed"
+					criterion: ""
+					id: "70A8E9B89423B2B0"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/little_house_on_the_prairie"
+					criterion: ""
+					id: "7591C3D221E64E04"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["568816798DEF8461"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "341BA500DB0E1E44"
+			rewards: [{
+				id: "5CDF1E9C77591A43"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_lighthouse"
+					criterion: ""
+					id: "377CB2E060912C5A"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_small_blimp"
+					criterion: ""
+					id: "558591A5675126B0"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_aviary"
+					criterion: ""
+					id: "568C81E0A073F16A"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_abandoned_temple"
+					criterion: ""
+					id: "1C4265304D4573ED"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

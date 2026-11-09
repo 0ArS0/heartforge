@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cataclysm_t1"
+	group: "0E0AC8A91F88F063"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "668C8ECD69305020"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "16AC9D558253563F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "04C6A1E685E4F8B2"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"4635BF63F94949B6"
+				"16AC9D558253563F"
+			]
+			id: "53E88B19CDC71AAA"
+			rewards: [{
+				id: "2B04276F48ACEF83"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "cataclysm:koboleton"
+					id: "1235F835244F79EC"
+					type: "kill"
+					value: 5L
+				}
+				{
+					count: 8L
+					id: "533A81766657E62D"
+					item: { count: 1, id: "cataclysm:koboleton_bone" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3009C6992E2DBE07"
+					item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+					type: "item"
+				}
+				{
+					id: "585E82787242E946"
+					item: { count: 1, id: "cataclysm:desert_eye" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4635BF63F94949B6"
+				"16AC9D558253563F"
+			]
+			id: "1823163690B0B5F7"
+			rewards: [{
+				id: "593F7FFFEED34FCC"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "cataclysm:draugr"
+					id: "1AF84D36DC112D3B"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "cataclysm:elite_draugr"
+					id: "01395E9E302C1226"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:royal_draugr"
+					id: "70AE0CF3957538E1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "2315B44720F2F8F1"
+					item: { count: 1, id: "cataclysm:black_steel_ingot" }
+					type: "item"
+				}
+				{
+					id: "1B81E54C2626F934"
+					item: { count: 1, id: "cataclysm:cursed_eye" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+	]
+}

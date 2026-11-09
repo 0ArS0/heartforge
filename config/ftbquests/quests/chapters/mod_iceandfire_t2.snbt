@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_iceandfire_t2"
+	group: "6BE2CA13D0D2A15E"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "1F3965BB3DB34E94"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "7DACB1BDF0567091"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "3ED713E31C00FD93"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"1F45BACDE440EA49"
+				"7DACB1BDF0567091"
+			]
+			icon: {
+				id: "iceandfire:troll_tusk"
+			}
+			id: "71B01F4847B3C618"
+			rewards: [{
+				id: "47B1BE794AD45A99"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/kill_troll"
+					criterion: ""
+					id: "5BF356B3649F5AB3"
+					type: "advancement"
+				}
+				{
+					count: 6L
+					id: "0B1D9ED129ABA7D3"
+					item: { count: 1, id: "iceandfire:troll_leather_mountain" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "080C1FC7FF3903A3"
+					item: { count: 1, id: "iceandfire:troll_tusk" }
+					type: "item"
+				}
+				{
+					id: "07568D557560492D"
+					item: { count: 1, id: "iceandfire:mountain_troll_leather_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2DF7743E072987F2"
+					item: { count: 1, id: "iceandfire:troll_weapon_axe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1F45BACDE440EA49"
+				"7DACB1BDF0567091"
+			]
+			icon: {
+				id: "iceandfire:deathworm_tounge"
+			}
+			id: "5D1D869D1E45378B"
+			rewards: [
+				{
+					id: "3777CE564F5FFB03"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "571D91DF90C22697"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/kill_deathworm"
+					criterion: ""
+					id: "3B404DCD99E1A67E"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "090A8B06014D1F55"
+					item: { count: 1, id: "iceandfire:deathworm_chitin_yellow" }
+					type: "item"
+				}
+				{
+					id: "5D8968B4F3CD36FB"
+					item: { count: 1, id: "iceandfire:deathworm_tounge" }
+					type: "item"
+				}
+				{
+					id: "2F2CB639C16A067C"
+					item: { count: 1, id: "iceandfire:deathworm_yellow_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0DB0FCC9ABFAD51D"
+					item: { count: 1, id: "iceandfire:deathworm_gauntlet_yellow" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/deathworm_egg"
+					criterion: ""
+					id: "3752A14FDC9EDB7F"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"2AC610017C1D80F1"
+				"77103A7D590F8527"
+				"134FFEF694BEF335"
+				"3E9AC6EE4BAA322A"
+				"632AFD56EAEB8B62"
+				"7DACB1BDF0567091"
+			]
+			icon: {
+				id: "iceandfire:pixie_wand"
+			}
+			id: "369E9A2859B87BD1"
+			rewards: [
+				{
+					id: "6FAE79B4DD4000B7"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "58999C1DABD7A39B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2934C7B2A76377CB"
+					item: { count: 1, id: "iceandfire:hippogryph_sword" }
+					type: "item"
+				}
+				{
+					id: "177741DC20FFFB7A"
+					item: { count: 1, id: "iceandfire:cockatrice_scepter" }
+					type: "item"
+				}
+				{
+					id: "575959350E59C3CD"
+					item: { count: 1, id: "iceandfire:stymphalian_bird_dagger" }
+					type: "item"
+				}
+				{
+					id: "2B54D1CEBE8F7B2D"
+					item: { count: 1, id: "iceandfire:pixie_wings" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/pixie_wand"
+					criterion: ""
+					id: "6C4F0F6FA6D2D452"
+					type: "advancement"
+				}
+				{
+					id: "031EA3692CDBF2F3"
+					item: { count: 1, id: "iceandfire:iron_hippogryph_armor" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"1F45BACDE440EA49"
+				"7DACB1BDF0567091"
+			]
+			icon: {
+				id: "iceandfire:gold_pile"
+			}
+			id: "2B379ECF5503BAA9"
+			rewards: [{
+				id: "7F0D17FD1CF8EFA2"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "568BD186F0E11B43"
+					item: { count: 1, id: "iceandfire:gold_pile" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0FF1B2A37EB117D8"
+					item: { count: 1, id: "iceandfire:silver_pile" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "58538B683182F8CC"
+					item: { count: 1, id: "iceandfire:copper_pile" }
+					type: "item"
+				}
+				{
+					id: "6F33F5011111E2BE"
+					item: { count: 1, id: "iceandfire:cannoli" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"0577BB6C64DC5268"
+				"7DACB1BDF0567091"
+			]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "7D18EEA0DC69B03B"
+			rewards: [{
+				id: "0E7740978A232078"
+				type: "xp"
+				xp: 240
+			}]
+			tasks: [
+				{
+					id: "011F1C669637C1EF"
+					item: { count: 1, id: "iceandfire:sheep_helmet" }
+					type: "item"
+				}
+				{
+					id: "285D72580E4C15CB"
+					item: { count: 1, id: "iceandfire:sheep_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3839EFF838FBF337"
+					item: { count: 1, id: "iceandfire:manuscript" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D18EEA0DC69B03B"]
+			icon: {
+				id: "comamigos_balance:cyclops_heart"
+			}
+			id: "22EB0B172252252D"
+			rewards: [
+				{
+					id: "26F4B2E147738329"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "7306C63E7FB23238"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "298DBFEA552DF42A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 6.4d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "AnimatedHearts-2.2.0-NeoForge"
+filename = "AnimatedHearts-2.2.0-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r6I4V7U1/versions/oxvSB4Fr/AnimatedHearts-2.2.0-NeoForge.jar"
+hash-format = "sha1"
+hash = "e1ea32a1bfb7fb42a5541dace1cc15c9fc6ed11f"
+
+[update]
+[update.modrinth]
+mod-id = "r6I4V7U1"
+version = "oxvSB4Fr"

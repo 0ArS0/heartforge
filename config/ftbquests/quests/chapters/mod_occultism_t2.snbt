@@ -1,0 +1,592 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_occultism_t2"
+	group: "46A9BB1E2D819F6E"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "43237298C5D8F6EE"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "1F10F12BDE5ECC39"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "456EBFFA279893E2"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"44080B90DDE41016"
+				"1F10F12BDE5ECC39"
+			]
+			icon: {
+				id: "occultism:spirit_attuned_gem"
+			}
+			id: "25A14528DEC54509"
+			rewards: [{
+				id: "57D44FFBA4F849B1"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 6L
+					id: "7EA03BB724E17306"
+					item: { count: 1, id: "occultism:spirit_attuned_gem" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "550C777FBAD78A22"
+					item: { count: 1, id: "occultism:spirit_attuned_crystal" }
+					type: "item"
+				}
+				{
+					id: "4536034088ACDFE9"
+					item: { count: 1, id: "occultism:divination_rod" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/summon_foliot_crystallizer"
+					criterion: ""
+					id: "0F82304B7CC75402"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"40035FB3D62CD07F"
+				"05330088B679682E"
+				"1F10F12BDE5ECC39"
+			]
+			icon: {
+				components: {
+					"occultism:spirit_name": "Aldvirzur"
+				}
+				id: "occultism:book_of_binding_bound_djinni"
+			}
+			id: "1C68A81561277361"
+			rewards: [{
+				id: "640E5705B7F78716"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "3EC4253F682FA6F9"
+					item: { count: 1, id: "occultism:emerald_dust" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "68B84051D1DEBABB"
+					item: { count: 1, id: "occultism:research_fragment_dust" }
+					type: "item"
+				}
+				{
+					id: "77387FC77969FD46"
+					item: { count: 1, id: "occultism:chalk_lime" }
+					type: "item"
+				}
+				{
+					id: "4F88E04759C82784"
+					item: { components: { "occultism:spirit_name": "Casorthork" }, count: 1, id: "occultism:book_of_binding_bound_djinni" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"25A14528DEC54509"
+				"40035FB3D62CD07F"
+			]
+			icon: {
+				id: "occultism:otherworld_goggles"
+			}
+			id: "6C5EC7E8689D9D06"
+			rewards: [{
+				id: "0A636BB4BA6B76CF"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "04AA1CE1754FBAAA"
+					item: { count: 1, id: "occultism:lenses" }
+					type: "item"
+				}
+				{
+					id: "65B2542160D2027D"
+					item: { count: 1, id: "occultism:infused_lenses" }
+					type: "item"
+				}
+				{
+					id: "19D97E353DBFE98E"
+					item: { count: 1, id: "occultism:lens_frame" }
+					type: "item"
+				}
+				{
+					id: "15D27CA7B899B016"
+					item: { count: 1, id: "occultism:otherworld_goggles" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1C68A81561277361"
+				"186F0E33D1230848"
+				"4BD28A695D974A77"
+			]
+			icon: {
+				components: {
+					"occultism:spirit_name": "Yngrinnaeus"
+				}
+				id: "occultism:book_of_binding_bound_djinni"
+			}
+			id: "1A303BE95E49478A"
+			rewards: [{
+				id: "7AA8A020864947BD"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_djinni_crusher"
+					criterion: ""
+					id: "48041070364986A7"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/summon_djinni_smelter"
+					criterion: ""
+					id: "162EF5505AA67FA7"
+					type: "advancement"
+				}
+				{
+					id: "06AF3521DBFB3AD2"
+					item: { count: 1, id: "occultism:crushed_blue_ice" }
+					type: "item"
+				}
+				{
+					id: "4A7954A0F110044A"
+					item: { count: 1, id: "occultism:chalk_light_blue" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"1A303BE95E49478A"
+				"25A14528DEC54509"
+			]
+			icon: {
+				id: "occultism:gray_paste"
+			}
+			id: "363AECA4F200A93D"
+			rewards: [{
+				id: "342437A90562DC0B"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "0AFEAF3D0C291F04"
+					item: { count: 1, id: "occultism:gray_paste" }
+					type: "item"
+				}
+				{
+					id: "626D1BC5514E5D96"
+					item: { count: 1, id: "occultism:chalk_gray" }
+					type: "item"
+				}
+				{
+					id: "6134FD81E7EFF0F8"
+					item: { count: 1, id: "occultism:infused_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "4136B3013246F860"
+					item: { count: 1, id: "occultism:soul_gem" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/repair_chalks"
+					criterion: ""
+					id: "72AE1DAE3D8FBBF0"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.4d
+		}
+		{
+			dependencies: ["1A303BE95E49478A"]
+			icon: {
+				id: "occultism:chalk_orange"
+			}
+			id: "59EC7D96ADE3A3C1"
+			rewards: [{
+				id: "2E04592E177E82F2"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "458C30F81596DD72"
+					item: { count: 1, id: "occultism:cursed_honey" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/possess_enderman"
+					criterion: ""
+					id: "1F5171C027EDC3DA"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/possess_ghast"
+					criterion: ""
+					id: "578ADA1E60ABF79C"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/possess_blaze"
+					criterion: ""
+					id: "3E415864E815B65D"
+					type: "advancement"
+				}
+				{
+					id: "274FAAA18AC7D988"
+					item: { count: 1, id: "occultism:chalk_orange" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"363AECA4F200A93D"
+				"1C68A81561277361"
+			]
+			id: "38070E474356C155"
+			optional: true
+			rewards: [
+				{
+					id: "54734D8193D68961"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "17E436357AF6C66A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "7103BE8CED21EE3E"
+					item: { count: 1, id: "occultism:satchel" }
+					type: "item"
+				}
+				{
+					id: "05E440FF01809B2A"
+					item: { count: 1, id: "occultism:ender_satchel" }
+					type: "item"
+				}
+				{
+					id: "2E1EAD9E01183BE0"
+					item: { count: 1, id: "occultism:knowledge_tablet" }
+					type: "item"
+				}
+				{
+					id: "6BCF9AD6D7230CAB"
+					item: { count: 1, id: "occultism:vitality_compass" }
+					type: "item"
+				}
+				{
+					id: "74CCE03CF0982DCB"
+					item: { count: 1, id: "occultism:spirit_grindstone" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.02d
+		}
+		{
+			dependencies: [
+				"363AECA4F200A93D"
+				"59EC7D96ADE3A3C1"
+			]
+			icon: {
+				id: "occultism:storage_controller"
+			}
+			id: "1878D8FF0E07B052"
+			rewards: [
+				{
+					id: "187FFE2B59B0B0DA"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "7F4618A9E89BE2C3"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5FB658DACA4A367D"
+					item: { count: 1, id: "occultism:dimensional_matrix" }
+					type: "item"
+				}
+				{
+					id: "7441E2CE7B4B65AA"
+					item: { count: 1, id: "occultism:storage_controller" }
+					type: "item"
+				}
+				{
+					id: "20385AA413D665AD"
+					item: { count: 1, id: "occultism:storage_stabilizer_tier1" }
+					type: "item"
+				}
+				{
+					id: "7B0433F946E391FA"
+					item: { count: 1, id: "occultism:storage_stabilizer_tier2" }
+					type: "item"
+				}
+				{
+					id: "5E090EFE0C8DFEE6"
+					item: { count: 1, id: "occultism:stable_wormhole" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/summon_djinni_manage_machine"
+					criterion: ""
+					id: "45701623A0D630B2"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.58d
+		}
+		{
+			dependencies: [
+				"1A303BE95E49478A"
+				"59EC7D96ADE3A3C1"
+				"363AECA4F200A93D"
+			]
+			id: "7395E87EB92A2337"
+			optional: true
+			rewards: [
+				{
+					id: "161F4D0344F9FE85"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "4F32D9B0308E49EF"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_djinni_day_time"
+					criterion: ""
+					id: "5895134769C44F72"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/summon_djinni_gambler"
+					criterion: ""
+					id: "3A740DAC6532899D"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/summon_wondering_trader"
+					criterion: ""
+					id: "4952416B978FE543"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/summon_demonic_wife"
+					criterion: ""
+					id: "3BE2A9A7B3BC3F06"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/summon_djinni_crystallizer"
+					criterion: ""
+					id: "5C55CDBEA38A6A64"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/possess_weak_shulker"
+					criterion: ""
+					id: "795658D050379F4F"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/possess_villager"
+					criterion: ""
+					id: "11C35C74205A6193"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 2.18d
+		}
+		{
+			dependencies: [
+				"59EC7D96ADE3A3C1"
+				"4F3750BCDFFC9357"
+			]
+			id: "2413D605BFDAECF8"
+			rewards: [{
+				id: "4453588CB2895F06"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "occultism:occultism/familiar_bat"
+					criterion: ""
+					id: "66C09692A62B5F45"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_beholder"
+					criterion: ""
+					id: "3CFC0C61DFF9A706"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_chimera"
+					criterion: ""
+					id: "5477F22AEB6DCA3E"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_devil"
+					criterion: ""
+					id: "0A252179C0596F7F"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 3.78d
+		}
+		{
+			dependencies: ["2413D605BFDAECF8"]
+			id: "3C50D10B0458BF5A"
+			optional: true
+			rewards: [
+				{
+					id: "2603866FAD5B49DD"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "0124236884D9F5B2"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "occultism:occultism/familiar/shub_niggurath_summon"
+					criterion: ""
+					id: "55374D070A1B096B"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_cthulhu"
+					criterion: ""
+					id: "4C26C7899C9A8164"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_dragon"
+					criterion: ""
+					id: "13153D47EBC4D7BD"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_fairy"
+					criterion: ""
+					id: "66864F51ABA180C7"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_headless"
+					criterion: ""
+					id: "49C6B4AAC2EB37BD"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_mummy"
+					criterion: ""
+					id: "629204C6C2B53EDD"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_otherworld_bird"
+					criterion: ""
+					id: "1BB282D71B778091"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 3.78d
+		}
+	]
+}

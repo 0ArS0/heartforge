@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_exploracao_t5"
+	group: "48BF15FF65B85345"
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "3E012C8CA691245A"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "40F66464546243FA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "1138C85DDA8E7E03"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53DF0506AF4BB28E"
+				"40F66464546243FA"
+			]
+			icon: {
+				id: "minecraft:mace"
+			}
+			id: "1CAC403B9E3BCF8D"
+			optional: true
+			rewards: [
+				{
+					id: "21687251ED82B334"
+					type: "xp"
+					xp: 510
+				}
+				{
+					id: "4B68CD64B1A7A0A6"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "36B88D67BF1E8390"
+					item: { count: 1, id: "minecraft:breeze_rod" }
+					type: "item"
+				}
+				{
+					id: "284AD2040FA78E13"
+					item: { count: 1, id: "minecraft:mace" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/overoverkill"
+					criterion: ""
+					id: "67295AFCC7DAE679"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

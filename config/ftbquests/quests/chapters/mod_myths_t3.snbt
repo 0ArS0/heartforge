@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_myths_t3"
+	group: "3DAD9C4C9DD26814"
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "5736D98EDE792EDD"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "579F3B618F3D1812"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "4C86B453922EA6EC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7875F1AD69594782"
+				"6E007357A106B35F"
+				"579F3B618F3D1812"
+			]
+			icon: {
+				id: "comamigos_balance:black_charro_heart"
+			}
+			id: "569C6B9043457A9D"
+			rewards: [{
+				id: "10790F7AD8B9C7B0"
+				type: "xp"
+				xp: 330
+			}]
+			tasks: [
+				{
+					id: "5BD62C533E314879"
+					item: { count: 1, id: "mythsandlegends:soulbinder_amulet" }
+					type: "item"
+				}
+				{
+					advancement: "mythsandlegends:rider_of_the_shadows"
+					criterion: ""
+					id: "3AF2C042EFB6CD1C"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "4EC8242EEC9F5334"
+					item: { count: 1, id: "mythsandlegends:tenebrite_shard" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"569C6B9043457A9D"
+				"005D8A08CF4353C6"
+			]
+			id: "585ADC9C690DE31B"
+			rewards: [{
+				id: "57C58F342C9A13E7"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "33C0BDE560C2257F"
+					item: { count: 1, id: "mythsandlegends:refined_tenebrite" }
+					type: "item"
+				}
+				{
+					id: "22AB87BFCF1A75BE"
+					item: { count: 1, id: "mythsandlegends:soulpiercer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "16CE5963A4F34FBA"
+					item: { count: 1, id: "mythsandlegends:soulpiercer_boots" }
+					type: "item"
+				}
+				{
+					advancement: "mythsandlegends:master_of_the_blade"
+					criterion: ""
+					id: "39D72AC010C56B9E"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["569C6B9043457A9D"]
+			id: "459A4E74EC1BB44A"
+			optional: true
+			rewards: [
+				{
+					id: "3DB775C590D3A158"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "14E867F63C30A8E5"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "105A920693E0BD88"
+					item: { count: 1, id: "mythsandlegends:candle_wall_sconce" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5DB4FF2D2892F472"
+					item: { count: 1, id: "mythsandlegends:wooden_barricade" }
+					type: "item"
+				}
+				{
+					id: "5A56F035B9FCDE2F"
+					item: { count: 1, id: "mythsandlegends:music_disc_bloody_remnants" }
+					type: "item"
+				}
+				{
+					id: "2FAEF3E26443ADD8"
+					item: { count: 1, id: "mythsandlegends:music_disc_cursed_rider" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+	]
+}

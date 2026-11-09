@@ -1,0 +1,363 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_myths_t1"
+	group: "3DAD9C4C9DD26814"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "2998EF3317C03E06"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "19ADDF76C4D3C4F2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "449FE6D0C62FE00D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"569FDAFB2800A00D"
+				"19ADDF76C4D3C4F2"
+			]
+			id: "5B9D5CC7503888BB"
+			rewards: [
+				{
+					id: "79106B2A8349F233"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2C31D6FE8A36D984"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "mythsandlegends:gargoyle"
+					id: "3576BA6924AA46CC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "mythsandlegends:shard_collector"
+					criterion: ""
+					id: "12975457EF444B17"
+					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "4AAE401B13E8D98A"
+					item: { count: 1, id: "mythsandlegends:gargoyle_fragment" }
+					type: "item"
+				}
+				{
+					id: "327F65199DCCB897"
+					item: { count: 1, id: "mythsandlegends:gargoyle_head" }
+					type: "item"
+				}
+				{
+					id: "4FD8117A264A9637"
+					item: { count: 1, id: "mythsandlegends:gargoyle_torso" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "37AB71905B37667D"
+					item: { count: 1, id: "mythsandlegends:gargoyle_wing" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"569FDAFB2800A00D"
+				"19ADDF76C4D3C4F2"
+			]
+			id: "1FA3332A0EEE28BD"
+			rewards: [
+				{
+					id: "6CC6D0AD509D582B"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "58E66B758202455B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "mythsandlegends:possessed_armor"
+					id: "3B037F0AA4E7CD48"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mythsandlegends:possessed_armor_lancer"
+					id: "38E7DA0608BB9DD8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mythsandlegends:possessed_armor_archer"
+					id: "672F0555D941CD80"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mythsandlegends:possessed_armor_inquisitor"
+					id: "32BD9C7171DEC45F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 8L
+					id: "510FDEA788D9C7A4"
+					item: { count: 1, id: "mythsandlegends:possessed_armor_fragment" }
+					type: "item"
+				}
+				{
+					advancement: "mythsandlegends:cursed_power"
+					criterion: ""
+					id: "36A61AB0EDE0D344"
+					type: "advancement"
+				}
+				{
+					advancement: "mythsandlegends:bound_soul_ingot"
+					criterion: ""
+					id: "1322C38AAA1C8459"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "20BE9C7D7803F77B"
+					item: { count: 1, id: "mythsandlegends:bound_soul_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"569FDAFB2800A00D"
+				"19ADDF76C4D3C4F2"
+			]
+			id: "7AC9F56BE4EAB307"
+			rewards: [{
+				id: "4047B3620FDEAA80"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "mythsandlegends:echo_in_the_frost"
+					criterion: ""
+					id: "440C0C8EF758D202"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "326C834FDD51220A"
+					item: { count: 1, id: "mythsandlegends:karakondjul_pelt" }
+					type: "item"
+				}
+				{
+					entity: "mythsandlegends:draugr"
+					id: "1ACFDA0CD5311832"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"569FDAFB2800A00D"
+				"19ADDF76C4D3C4F2"
+			]
+			id: "60F5FBCB7E9D14CE"
+			rewards: [
+				{
+					id: "1A1CF5B429363E41"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6CE51FF5BE0C36D0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mythsandlegends:alp"
+					id: "21778F3570B8763F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mythsandlegends:omecuaime"
+					id: "44F6F4EB6E48446E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mythsandlegends:shade_jelly"
+					id: "1C828168F830874B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"569FDAFB2800A00D"
+				"19ADDF76C4D3C4F2"
+			]
+			id: "7875F1AD69594782"
+			rewards: [{
+				id: "11B7CDBCB10F670E"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "mythsandlegends:abyss_stares_back"
+					criterion: ""
+					id: "596402F25AF24547"
+					type: "advancement"
+				}
+				{
+					id: "6DCE990DC8D586AC"
+					item: { count: 1, id: "mythsandlegends:altar_of_the_dead" }
+					type: "item"
+				}
+				{
+					id: "0ADA256D3F8873E4"
+					item: { count: 1, id: "mythsandlegends:tombstone" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"569FDAFB2800A00D"
+				"19ADDF76C4D3C4F2"
+			]
+			id: "6E007357A106B35F"
+			rewards: [{
+				id: "3E3776B324E750EF"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "mythsandlegends:payment_collected"
+					criterion: ""
+					id: "4E6FD3095A881F54"
+					type: "advancement"
+				}
+				{
+					id: "52428F68EBFEB800"
+					item: { count: 1, id: "mythsandlegends:tainted_bell" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1C0F3326FA24F443"
+					item: { count: 1, id: "mythsandlegends:ethereal_flame" }
+					type: "item"
+				}
+				{
+					id: "76058232497DF8DB"
+					item: { count: 1, id: "mythsandlegends:spirit_suppressing_bell" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5B9D5CC7503888BB"
+				"1FA3332A0EEE28BD"
+			]
+			id: "40C55FCF55670A4B"
+			rewards: [
+				{
+					id: "746303C469D0CB80"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7387E1409900F3FC"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D407EA9E8E87D37"
+					item: { count: 1, id: "mythsandlegends:stone_sanctum_table" }
+					type: "item"
+				}
+				{
+					advancement: "mythsandlegends:ars_lapidem"
+					criterion: ""
+					id: "1284683B4A1BFED1"
+					type: "advancement"
+				}
+				{
+					id: "36B45E8C928F89C7"
+					item: { count: 1, id: "mythsandlegends:antique_emblem" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+	]
+}

@@ -1,0 +1,642 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cozinha_t2"
+	group: "4E6D0897A16A0238"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "333BFD72C821F5D8"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "19592851A00465AF"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "50FF4AB1B27DFEB8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 7.2d
+		}
+		{
+			dependencies: [
+				"664CAD5152DCF2FD"
+				"2858750B97CCC3E7"
+				"555E326A08EACA1D"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "farmersdelight:diamond_knife"
+			}
+			id: "6ECF615D2FCCF3E3"
+			rewards: [
+				{
+					id: "0D6F57569EA9B9EF"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "048C078A86D557F4"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "6B1EEEABF20AEFD4"
+					item: { count: 1, id: "farmersdelight:diamond_knife" }
+					type: "item"
+				}
+				{
+					id: "69C45EBAD0E28D91"
+					item: { count: 1, id: "aquaculture:diamond_fillet_knife" }
+					type: "item"
+				}
+				{
+					id: "72BA005383DF5A90"
+					item: { count: 1, id: "aquaculture:diamond_fishing_rod" }
+					type: "item"
+				}
+				{
+					id: "2CA39D291AAAE832"
+					item: { count: 1, id: "aquaculture:diamond_hook" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6341A44AADD477B5"
+					item: { count: 1, id: "wildernature:diamond_ammunition" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"06D9934D97FC106C"
+				"6296715B711500BB"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "thirst:sand_filter"
+			}
+			id: "4853DBDC6F3A77EA"
+			rewards: [
+				{
+					id: "45C63040894E7886"
+					type: "xp"
+					xp: 320
+				}
+				{
+					id: "078844B7AD96E677"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "4D232DCC2C756824"
+					item: { count: 1, id: "thirst:sand_filter" }
+					type: "item"
+				}
+				{
+					id: "3B9B45EEB5A9ACFD"
+					item: { count: 1, id: "farmersdelight:apple_cider" }
+					type: "item"
+				}
+				{
+					id: "09B0E965F114CE7D"
+					item: { count: 1, id: "farmersdelight:hot_cocoa" }
+					type: "item"
+				}
+				{
+					id: "14F30576BB29ED1C"
+					item: { count: 1, id: "farmersdelight:melon_juice" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"6296715B711500BB"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "farmersdelight:roast_chicken_block"
+			}
+			id: "19829F724BD219E0"
+			rewards: [
+				{
+					id: "120FF2438FDDC726"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "3B3E99A2A0F84ABB"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "farmersdelight:main/place_feast"
+					criterion: ""
+					id: "1AB106326F99AF27"
+					type: "advancement"
+				}
+				{
+					id: "11BD51423D140BCF"
+					item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+					type: "item"
+				}
+				{
+					id: "3F1425B5A16E30CE"
+					item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" }
+					type: "item"
+				}
+				{
+					id: "57724500066B3B3B"
+					item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
+					type: "item"
+				}
+				{
+					id: "34045CC0DF0ABBA3"
+					item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake" }
+					type: "item"
+				}
+				{
+					id: "35B160329CD039D8"
+					item: { count: 1, id: "farmersdelight:chocolate_pie" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"6296715B711500BB"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "farmersdelight:beef_stew"
+			}
+			id: "4DC1A1D9AD7E94EE"
+			optional: true
+			rewards: [
+				{
+					id: "6809A61AC397D40D"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "39831995E87FC079"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "007ADD9F7C8484B4"
+					item: { count: 1, id: "farmersdelight:beef_stew" }
+					type: "item"
+				}
+				{
+					id: "43EFC98D66BE2A99"
+					item: { count: 1, id: "farmersdelight:fish_stew" }
+					type: "item"
+				}
+				{
+					id: "2AE0D9E4AD91FBB3"
+					item: { count: 1, id: "farmersdelight:pumpkin_soup" }
+					type: "item"
+				}
+				{
+					id: "6BFB01C9659EABAD"
+					item: { count: 1, id: "farmersdelight:fried_rice" }
+					type: "item"
+				}
+				{
+					id: "50B2E69BCB270F3C"
+					item: { count: 1, id: "farmersdelight:mushroom_rice" }
+					type: "item"
+				}
+				{
+					id: "355126C8338D27E4"
+					item: { count: 1, id: "farmersdelight:cabbage_rolls" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"6296715B711500BB"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "farmersdelight:hamburger"
+			}
+			id: "0F6482F73C0219C3"
+			optional: true
+			rewards: [
+				{
+					id: "0F34B0C3E0A44096"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "22DBF973615615B4"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "026DDDDD0EC8813B"
+					item: { count: 1, id: "farmersdelight:hamburger" }
+					type: "item"
+				}
+				{
+					id: "43271590B28CCE50"
+					item: { count: 1, id: "farmersdelight:bacon_sandwich" }
+					type: "item"
+				}
+				{
+					id: "202BFBA6BA9ACF1F"
+					item: { count: 1, id: "farmersdelight:mutton_wrap" }
+					type: "item"
+				}
+				{
+					id: "7F786DDC625C16EE"
+					item: { count: 1, id: "farmersdelight:kelp_roll" }
+					type: "item"
+				}
+				{
+					id: "77FBB4CA0841F41F"
+					item: { count: 1, id: "farmersdelight:salmon_roll" }
+					type: "item"
+				}
+				{
+					id: "2876E54AC33B2A14"
+					item: { count: 1, id: "farmersdelight:cod_roll" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"6296715B711500BB"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "farmersdelight:dog_food"
+			}
+			id: "3C14D09514D0079A"
+			optional: true
+			rewards: [
+				{
+					id: "6E56AE9DD47552EC"
+					type: "xp"
+					xp: 240
+				}
+				{
+					id: "751EA920068C49F4"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74E86FDB311AD8C1"
+					item: { count: 1, id: "farmersdelight:dog_food" }
+					type: "item"
+				}
+				{
+					id: "06035B38D8751D7F"
+					item: { count: 1, id: "farmersdelight:horse_feed" }
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/hit_raider_with_rotten_tomato"
+					criterion: ""
+					id: "41FF26D6B5F2FB9B"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2858750B97CCC3E7"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "aquaculturedelight:fish_chorba"
+			}
+			id: "064F313A2FA491BA"
+			optional: true
+			rewards: [
+				{
+					id: "269EAE1EBEE103AE"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "31C85823E4A89567"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "695880742CFF16C6"
+					item: { count: 1, id: "aquaculturedelight:fish_chorba" }
+					type: "item"
+				}
+				{
+					id: "091F816673465E81"
+					item: { count: 1, id: "aquaculturedelight:halaszle" }
+					type: "item"
+				}
+				{
+					id: "514B1B542975A951"
+					item: { count: 1, id: "aquaculturedelight:bass_stew" }
+					type: "item"
+				}
+				{
+					id: "173CE9E166A6A90F"
+					item: { count: 1, id: "aquaculturedelight:halibut_with_tartar_sauce" }
+					type: "item"
+				}
+				{
+					id: "4C32F73FE0630F98"
+					item: { count: 1, id: "aquaculturedelight:crispy_fried_perch" }
+					type: "item"
+				}
+				{
+					id: "5EB029D3C899D547"
+					item: { count: 1, id: "aquaculturedelight:baked_pollock_with_carrots" }
+					type: "item"
+				}
+				{
+					id: "7FEC43F8279219CD"
+					item: { count: 1, id: "aquaculturedelight:turtle_meat_dish" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.6d
+		}
+		{
+			dependencies: [
+				"18A39F44350325AF"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "aquaculture:tuna"
+			}
+			id: "53CEC067BE755836"
+			optional: true
+			rewards: [
+				{
+					id: "009D703307747801"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "6B952B2E476A3F83"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "462611739AD5DC28"
+					item: { count: 1, id: "aquaculture:atlantic_cod" }
+					type: "item"
+				}
+				{
+					id: "019F71820661223A"
+					item: { count: 1, id: "aquaculture:tuna" }
+					type: "item"
+				}
+				{
+					id: "6CD55A0853D84408"
+					item: { count: 1, id: "aquaculture:pollock" }
+					type: "item"
+				}
+				{
+					id: "7EBFADD19BA02A06"
+					item: { count: 1, id: "aquaculture:arapaima" }
+					type: "item"
+				}
+				{
+					id: "3D8CCD98F9CBEC70"
+					item: { count: 1, id: "aquaculture:piranha" }
+					type: "item"
+				}
+				{
+					id: "018D092CF9185B52"
+					item: { count: 1, id: "aquaculture:tambaqui" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 11.2d
+		}
+		{
+			dependencies: [
+				"18A39F44350325AF"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "aquaculture:box_turtle"
+			}
+			id: "4CAE54066C158DF5"
+			optional: true
+			rewards: [
+				{
+					id: "343769FE26F46BB7"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "21AFE089C58E0C47"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5E1CD1198BD6C0AF"
+					item: { count: 1, id: "aquaculture:bayad" }
+					type: "item"
+				}
+				{
+					id: "4E95E51C1E90ADA7"
+					item: { count: 1, id: "aquaculture:boulti" }
+					type: "item"
+				}
+				{
+					id: "4C9C951D44897674"
+					item: { count: 1, id: "aquaculture:capitaine" }
+					type: "item"
+				}
+				{
+					id: "6571D0420AA2D47F"
+					item: { count: 1, id: "aquaculture:synodontis" }
+					type: "item"
+				}
+				{
+					id: "5C79C327CCE15B15"
+					item: { count: 1, id: "aquaculture:box_turtle" }
+					type: "item"
+				}
+				{
+					id: "2CC4E1566DC4152B"
+					item: { count: 1, id: "aquaculture:turtle_soup" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.8d
+		}
+		{
+			dependencies: [
+				"3D50B9D3E64F47C6"
+				"19592851A00465AF"
+			]
+			icon: {
+				id: "aquaculture:neptunes_bounty"
+			}
+			id: "6757E81C55EB8F60"
+			rewards: [{
+				id: "687CE04C4310A37C"
+				type: "xp"
+				xp: 240
+			}]
+			tasks: [
+				{
+					id: "091FDB7D667341AB"
+					item: { count: 1, id: "aquaculture:neptunes_bounty" }
+					type: "item"
+				}
+				{
+					id: "22F8C025613E9371"
+					item: { count: 1, id: "aquaculture:neptunium_nugget" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "67E0B3B989A96CE3"
+					item: { count: 1, id: "aquaculture:neptunium_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 14.4d
+		}
+		{
+			dependencies: ["19829F724BD219E0"]
+			icon: {
+				id: "farmersdelight:honey_glazed_ham_block"
+			}
+			id: "6CEF29A9720B09B5"
+			optional: true
+			rewards: [
+				{
+					id: "2AF7947C8A310A0C"
+					type: "xp"
+					xp: 320
+				}
+				{
+					id: "75AEF4702228D6D0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "05D700BE9014D8FB"
+					item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" }
+					type: "item"
+				}
+				{
+					id: "01B9F27793D3F6CE"
+					item: { count: 1, id: "farmersdelight:rice_roll_medley_block" }
+					type: "item"
+				}
+				{
+					id: "25A8B1446FB5F055"
+					item: { count: 1, id: "aquaculturedelight:fish_roll_medley" }
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/master_chef"
+					criterion: ""
+					id: "4D1F51BD44B3405A"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 3.2d
+		}
+	]
+}

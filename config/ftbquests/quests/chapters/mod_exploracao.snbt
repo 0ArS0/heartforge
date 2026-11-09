@@ -1,0 +1,158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_exploracao"
+	group: "48BF15FF65B85345"
+	icon: {
+		id: "minecraft:filled_map"
+	}
+	id: "77CB699164809C84"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "025D09AAB40168DF"
+			rewards: [{
+				id: "394BADDF887185EB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "7B441FE9C447F660"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["025D09AAB40168DF"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "5698C3AA6FE9D790"
+			rewards: [
+				{
+					id: "5F16340EAF63A756"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "38A41E06F50C0E4F"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/root"
+					criterion: ""
+					id: "17D993E30C984A6F"
+					type: "advancement"
+				}
+				{
+					id: "0FE295116DDE993B"
+					item: { count: 1, id: "minecraft:filled_map" }
+					type: "item"
+				}
+				{
+					id: "03CB2CC7DCB0936E"
+					item: { count: 1, id: "minecraft:spyglass" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "02F2144D055C9323"
+					item: { count: 1, id: "supplementaries:rope" }
+					type: "item"
+				}
+				{
+					id: "45B6F848D2BFB210"
+					item: { count: 1, id: "supplementaries:altimeter" }
+					type: "item"
+				}
+				{
+					id: "49FA600FDFC415D4"
+					item: { count: 1, id: "supplementaries:globe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5698C3AA6FE9D790"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "446388A57CCC6F36"
+			rewards: [
+				{
+					id: "099037AB2119723C"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "5D128F7DEEE68FEB"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "07E7C17611839F82"
+					item: { count: 1, id: "waystones:warp_dust" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4FEABD8034806F09"
+					item: { count: 1, id: "waystones:return_scroll" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "19F0DD96ECA117EE"
+					item: { count: 1, id: "waystones:warp_scroll" }
+					type: "item"
+				}
+				{
+					id: "50149364E1EFF10D"
+					item: { count: 1, id: "waystones:warp_stone" }
+					type: "item"
+				}
+				{
+					id: "30CBE4D503BA7BA6"
+					item: { count: 1, id: "waystones:waystone" }
+					type: "item"
+				}
+				{
+					id: "14632B416AF4FAF3"
+					item: { count: 1, id: "waystones:purple_sharestone" }
+					type: "item"
+				}
+				{
+					id: "4E0B8733E2A493EA"
+					item: { count: 1, id: "waystones:warp_plate" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

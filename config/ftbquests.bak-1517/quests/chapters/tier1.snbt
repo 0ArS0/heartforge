@@ -1,0 +1,478 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier1"
+	group: ""
+	icon: {
+		count: 1
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "1DA32494D47A12BE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20E796F357403DF2"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.25d
+			dependencies: [
+				"22ACB16E3BB57B38"
+			]
+			tasks: [
+				{
+					id: "3B673D542019D19A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "623B27B0D9955104"
+					type: "xp"
+					xp: 100
+				}
+			]
+			title: "Começo do Tier I"
+			description: [
+				"O grupo está no &7Tier I - Andarilho&r."
+				"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+			]
+		}
+		{
+			id: "2E39DCE9262A21D9"
+			x: 2.0d
+			y: -2.4000000000000004d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "3924FB29FB081623"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "165F6842066AEC34"
+					type: "item"
+					item: {
+						count: 8
+						id: "create:cogwheel"
+					}
+				}
+			]
+			title: "Liga de Andesito"
+			description: [
+				"A base de toda máquina do Create."
+			]
+		}
+		{
+			id: "567093696FAF5491"
+			x: 3.6d
+			y: -2.4000000000000004d
+			dependencies: [
+				"2E39DCE9262A21D9"
+			]
+			tasks: [
+				{
+					id: "450A69FC4175F3D5"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_mixer"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4ED88AA425C40933"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "O Mixer"
+			description: [
+				"O primeiro coração é forjado num &6Mechanical Mixer&r (sem calor)."
+			]
+		}
+		{
+			id: "015D5B59A18712EF"
+			x: 2.0d
+			y: -0.8d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "7BAAA0C5B0DAB84F"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lexicon"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0CD60835D893EB88"
+					type: "xp"
+					xp: 80
+				}
+			]
+			title: "Lexica Botania"
+			description: [
+				"O livro da Botânica explica tudo."
+			]
+		}
+		{
+			id: "36165EEC9BE9AD64"
+			x: 3.6d
+			y: -0.8d
+			dependencies: [
+				"015D5B59A18712EF"
+			]
+			tasks: [
+				{
+					id: "436338BFA024032C"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:mana_pool"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5605946705D5A454"
+					type: "xp"
+					xp: 120
+				}
+			]
+			title: "Mana"
+			description: [
+				"Uma Mana Pool cheia e uma Pure Daisy levam ao &bManasteel&r."
+			]
+		}
+		{
+			id: "0FC1DB6776AEB8DD"
+			x: 5.2d
+			y: -0.8d
+			dependencies: [
+				"36165EEC9BE9AD64"
+			]
+			tasks: [
+				{
+					id: "5F70F507DA9B57CB"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manasteel_ingot"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "7FB66C97132091B9"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Manasteel"
+			description: [
+				"Ingrediente do Coração II."
+			]
+		}
+		{
+			id: "1BB41468E12100DB"
+			x: 2.0d
+			y: 0.8d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "367DC3A066B379E2"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:inscription_table"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2C25E69E8AAE4916"
+					type: "xp"
+					xp: 80
+				}
+			]
+			title: "Mesa de Inscrição"
+			description: [
+				"Iron's Spells: aprenda a escrever pergaminhos."
+			]
+		}
+		{
+			id: "717145DFA5D697D8"
+			x: 3.6d
+			y: 0.8d
+			dependencies: [
+				"1BB41468E12100DB"
+			]
+			tasks: [
+				{
+					id: "460375876E2020DD"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "00625523D424F18F"
+					type: "xp"
+					xp: 120
+				}
+			]
+			title: "Tinta Comum"
+			description: [
+				"Ingrediente do Coração II."
+			]
+		}
+		{
+			id: "100E4AF8E871BDB0"
+			x: 5.2d
+			y: 0.8d
+			dependencies: [
+				"717145DFA5D697D8"
+			]
+			tasks: [
+				{
+					id: "65BEA04E780955DC"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:silver_ingot"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "06E2F046558A77B1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			title: "Prata do Ocultismo"
+			description: [
+				"Occultism: a prata abre os rituais. Ingrediente do Coração II."
+			]
+		}
+		{
+			id: "1B173011839FC25E"
+			x: 2.0d
+			y: 2.4000000000000004d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "63157DDA9482A739"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "1E88AF76D4401776"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Mythril dos Anões"
+			description: [
+				"Fundido do minério das fortalezas anãs. Ingrediente do Coração II."
+			]
+		}
+		{
+			id: "3D950DE8885DE435"
+			x: 3.6d
+			y: 2.4000000000000004d
+			dependencies: [
+				"1B173011839FC25E"
+			]
+			tasks: [
+				{
+					id: "4B31F40553039F86"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "5875F4A40A194171"
+					type: "xp"
+					xp: 100
+				}
+			]
+			title: "Escolha seu lado"
+			description: [
+				"Vampiro, caçador ou lobisomem: um item da sua facção (presa de vampiro, coração humano ou dente de lobisomem) entra no coração."
+			]
+		}
+		{
+			id: "6674E7F2C4266BDC"
+			x: 5.2d
+			y: 2.4000000000000004d
+			dependencies: [
+				"3D950DE8885DE435"
+			]
+			tasks: [
+				{
+					id: "2FC903DB6E7126C2"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:apple_pie"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "497F3B411922D7F7"
+					type: "item"
+					item: {
+						count: 8
+						id: "minecraft:bread"
+					}
+				}
+			]
+			title: "Torta de Maçã"
+			description: [
+				"Farmer's Delight: até o coração precisa de um toque de comida."
+			]
+		}
+		{
+			id: "3B98D4797C00C492"
+			x: 6.800000000000001d
+			y: -3.2d
+			shape: "diamond"
+			size: 1.5d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "006508827B13A259"
+					type: "kill"
+					entity: "dwarfs_tyranny:skeleton_dwarf_king"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2303099EB4AE6D56"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "O Rei Anão Esqueleto"
+			description: [
+				"O &eRei Anão Esqueleto&r governa as fortalezas subterrâneas dos anões."
+				"Derrote-o para obter o &cCoração do Rei Anão&r."
+			]
+		}
+		{
+			id: "3CAB53366B184275"
+			x: 8.8d
+			y: 0.0d
+			shape: "gear"
+			size: 1.75d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			dependencies: [
+				"567093696FAF5491"
+				"0FC1DB6776AEB8DD"
+				"100E4AF8E871BDB0"
+				"6674E7F2C4266BDC"
+				"3B98D4797C00C492"
+			]
+			tasks: [
+				{
+					id: "382669AB095CA82E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "53C0EFF631CA0EA0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			title: "Forjar o Coração do Tier II"
+			description: [
+				"No &6Mixer&r: Coração do Rei Anão, liga de andesito, mythril, manasteel, tinta comum, prata do Occultism, item de facção e torta de maçã."
+			]
+		}
+		{
+			id: "1CABC71AF09A60B7"
+			x: 10.8d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			dependencies: [
+				"3CAB53366B184275"
+			]
+			tasks: [
+				{
+					id: "58097D2FD3C7E8D2"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "044E9C164EC76601"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			title: "Comer o Coração: Tier II"
+			description: [
+				"Alguém do grupo come o coração e todos sobem para o &aTier II - Aprendiz&r."
+				"Lembre: quem come carrega a maldição."
+			]
+		}
+	]
+	title: "&7Tier I - Andarilho"
+	subtitle: [
+		"Objetivo: forjar e comer o Coração do Tier II"
+	]
+}

@@ -1,0 +1,201 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_equip"
+	group: "0011E6E41EF0DECD"
+	icon: {
+		id: "artifacts:crystal_heart"
+	}
+	id: "06635019A3F4606B"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "artifacts:crystal_heart"
+			}
+			id: "5039410908A9C256"
+			rewards: [{
+				id: "07AAD2A2EDC11A6A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "773E46570B26C84D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["5039410908A9C256"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "63C9F7FE8A4493C3"
+			rewards: [{
+				id: "6327E3C97EA11119"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "artifacts:mimic"
+					id: "3179C5FC68C48540"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "artifacts:amateur_archaeologist"
+					criterion: ""
+					id: "5782DD5B5A3DC425"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5039410908A9C256"]
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "364D1CEA41B8A77E"
+			rewards: [{
+				id: "2639C156612402D8"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "54F3157FD2BFE439"
+					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "24221DA4DB817C7A"
+					item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+					type: "item"
+				}
+				{
+					id: "3A20B420A4BB5AE1"
+					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+					type: "item"
+				}
+				{
+					id: "52DD0509579ED3E6"
+					item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" }
+					type: "item"
+				}
+				{
+					id: "3A2971D274D458AD"
+					item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["5039410908A9C256"]
+			icon: {
+				id: "simplyswords:iron_longsword"
+			}
+			id: "5F9D9957C0912EEF"
+			rewards: [{
+				id: "0E10E50AA6A67117"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "06200EBCA36FA744"
+					item: { count: 1, id: "simplyswords:iron_longsword" }
+					type: "item"
+				}
+				{
+					id: "3DC9FC6F2AF39504"
+					item: { count: 1, id: "simplyswords:iron_rapier" }
+					type: "item"
+				}
+				{
+					id: "558EB8ED3FFE2B88"
+					item: { count: 1, id: "simplyswords:iron_claymore" }
+					type: "item"
+				}
+				{
+					id: "4BAAE6F2D5C1627B"
+					item: { count: 1, id: "simplyswords:iron_spear" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["5039410908A9C256"]
+			icon: {
+				id: "supplementaries:quiver"
+			}
+			id: "7C458D634C348048"
+			rewards: [
+				{
+					id: "4CC4403A9CCF5E3F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "555AD61F46E3647A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2B64FE96E0BC806E"
+					item: { count: 1, id: "supplementaries:sack" }
+					type: "item"
+				}
+				{
+					id: "57C2D0C445DDF0B0"
+					item: { count: 1, id: "supplementaries:quiver" }
+					type: "item"
+				}
+				{
+					id: "7D7709A948F69F6D"
+					item: { count: 1, id: "supplementaries:slingshot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "06EDDE145711E5AF"
+					item: { count: 1, id: "supplementaries:rope" }
+					type: "item"
+				}
+				{
+					id: "5B7A55657EDB7276"
+					item: { count: 1, id: "supplementaries:rope_arrow" }
+					type: "item"
+				}
+				{
+					id: "33301BE05A9B707E"
+					item: { count: 1, id: "supplementaries:lunch_basket" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+	]
+}

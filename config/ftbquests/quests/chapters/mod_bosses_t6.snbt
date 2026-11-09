@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bosses_t6"
+	group: "1B6781BE25FE5814"
+	icon: {
+		id: "comamigos_balance:tier_heart_6"
+	}
+	id: "24EC5FB4746F1DA4"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_6"
+			}
+			id: "5C7C27E4D441A08A"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "66F44A0675048D2F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C7C27E4D441A08A"]
+			icon: {
+				id: "comamigos_balance:kraken_heart"
+			}
+			id: "284065F2FB386D03"
+			rewards: [{
+				id: "6680EB9334E89EDD"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "block_factorys_bosses:pirate_captain"
+					id: "73AE8EEC0DAFC541"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "block_factorys_bosses:kraken"
+					id: "6A67D5EFEE2D5D37"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "609E10F6A9CF8FAB"
+					item: { count: 1, id: "block_factorys_bosses:kraken_trident" }
+					type: "item"
+				}
+				{
+					id: "62929AE742456E94"
+					item: { count: 1, id: "block_factorys_bosses:undying_tentacle" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["284065F2FB386D03"]
+			id: "2D143BAA98CD1E09"
+			optional: true
+			rewards: [
+				{
+					id: "59DBBA09E372A6E3"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "1BB640ACD5B4CFF1"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7AB86DCB4E394A69"
+					item: { count: 1, id: "block_factorys_bosses:pirate_saber" }
+					type: "item"
+				}
+				{
+					id: "3501C0C46780D745"
+					item: { count: 1, id: "block_factorys_bosses:kraken_cannon_item" }
+					type: "item"
+				}
+				{
+					id: "76094DE02C732FA3"
+					item: { count: 1, id: "block_factorys_bosses:anchor" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

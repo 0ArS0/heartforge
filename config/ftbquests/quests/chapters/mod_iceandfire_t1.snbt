@@ -1,0 +1,384 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_iceandfire_t1"
+	group: "6BE2CA13D0D2A15E"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "4B735863A58C4291"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "6A409DD8B610126E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "2E7B9B43C5C391C1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 5.6d
+		}
+		{
+			dependencies: [
+				"0577BB6C64DC5268"
+				"6A409DD8B610126E"
+			]
+			icon: {
+				id: "iceandfire:armor_silver_metal_chestplate"
+			}
+			id: "1F45BACDE440EA49"
+			rewards: [{
+				id: "25C8933C64955ED0"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "185966B9120D436E"
+					item: { count: 1, id: "iceandfire:armor_silver_metal_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2493B119D6A62E43"
+					item: { count: 1, id: "iceandfire:armor_copper_metal_chestplate" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2BBDCC5D3F719325"
+					item: { count: 1, id: "iceandfire:sapphire_gem" }
+					type: "item"
+				}
+				{
+					id: "28F56DF9D24B4FAF"
+					item: { count: 1, id: "iceandfire:chain" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0577BB6C64DC5268"
+				"6A409DD8B610126E"
+			]
+			icon: {
+				id: "iceandfire:dragonbone"
+			}
+			id: "632AFD56EAEB8B62"
+			rewards: [{
+				id: "49B2767532F19910"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "6059BDAED6F163E3"
+					item: { count: 1, id: "iceandfire:dragonbone" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "483A4CAD6DC873F9"
+					item: { count: 1, id: "iceandfire:witherbone" }
+					type: "item"
+				}
+				{
+					id: "222D7C4E8048E095"
+					item: { count: 1, id: "iceandfire:fire_lily" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"0577BB6C64DC5268"
+				"6A409DD8B610126E"
+			]
+			icon: {
+				id: "iceandfire:pixie_jar_0"
+			}
+			id: "3E9AC6EE4BAA322A"
+			rewards: [{
+				id: "114B3E230BE602B1"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "1D3D4515810A93CB"
+					item: { count: 1, id: "iceandfire:pixie_dust" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/tame_pixie"
+					criterion: ""
+					id: "4023301D45DCAD40"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/jar_pixie"
+					criterion: ""
+					id: "4AC9B046CCC730FA"
+					type: "advancement"
+				}
+				{
+					id: "29E0B363BAC88567"
+					item: { count: 1, id: "iceandfire:pixie_house_oak" }
+					type: "item"
+				}
+				{
+					id: "14E1C09AEBB30815"
+					item: { count: 1, id: "iceandfire:ambrosia" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"0577BB6C64DC5268"
+				"6A409DD8B610126E"
+			]
+			icon: {
+				id: "minecraft:rabbit_foot"
+			}
+			id: "2AC610017C1D80F1"
+			rewards: [{
+				id: "4166F9A70B3BDA5B"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/tame_hippogryph"
+					criterion: ""
+					id: "2F50561B0CA2D5B5"
+					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "007165F64BD8686E"
+					item: { count: 1, id: "iceandfire:amphithere_feather" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/tame_amphithere"
+					criterion: ""
+					id: "10327766FDBD426D"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "406B47FB1C4FE2A9"
+					item: { count: 1, id: "iceandfire:amphithere_arrow" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"0577BB6C64DC5268"
+				"6A409DD8B610126E"
+			]
+			icon: {
+				id: "iceandfire:siren_tear"
+			}
+			id: "5DAF885DA7249F96"
+			rewards: [
+				{
+					id: "255EAA2BEBB327E6"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "7C06716E9D78888D"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "7D418FE0F170E824"
+					item: { count: 1, id: "iceandfire:earplugs" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/kill_siren"
+					criterion: ""
+					id: "19C0C712CCCB28FD"
+					type: "advancement"
+				}
+				{
+					count: 6L
+					id: "207D291E0E17E544"
+					item: { count: 1, id: "iceandfire:shiny_scales" }
+					type: "item"
+				}
+				{
+					id: "4D0945A62771CBBA"
+					item: { count: 1, id: "iceandfire:siren_tear" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/tame_hippocampus"
+					criterion: ""
+					id: "586EEB2086D577EE"
+					type: "advancement"
+				}
+				{
+					id: "6BEEC93A19AD52C2"
+					item: { count: 1, id: "iceandfire:hippocampus_fin" }
+					type: "item"
+				}
+				{
+					id: "6758CD0DC3288258"
+					item: { count: 1, id: "iceandfire:fishing_spear" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"0577BB6C64DC5268"
+				"6A409DD8B610126E"
+			]
+			icon: {
+				id: "iceandfire:cockatrice_eye"
+			}
+			id: "77103A7D590F8527"
+			rewards: [{
+				id: "69A916AE00FDFC66"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/rotten_egg"
+					criterion: ""
+					id: "45B7558608F09AB9"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/tame_cockatrice"
+					criterion: ""
+					id: "4EF7004CE479BFD4"
+					type: "advancement"
+				}
+				{
+					id: "496F66E9B489D397"
+					item: { count: 1, id: "iceandfire:cockatrice_eye" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0577BB6C64DC5268"
+				"6A409DD8B610126E"
+			]
+			icon: {
+				id: "iceandfire:stymphalian_bird_feather"
+			}
+			id: "134FFEF694BEF335"
+			rewards: [{
+				id: "2F3C668B3725C4D9"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
+					criterion: ""
+					id: "11D064631D0FB2C8"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/stymphalian_arrow"
+					criterion: ""
+					id: "62AF37BE11486C4D"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "02DB725057FE4822"
+					item: { count: 1, id: "iceandfire:stymphalian_feather_bundle" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.6d
+		}
+		{
+			dependencies: [
+				"0577BB6C64DC5268"
+				"6A409DD8B610126E"
+			]
+			icon: {
+				id: "iceandfire:ectoplasm"
+			}
+			id: "48362BCF60A51A13"
+			rewards: [{
+				id: "447128044B4ED392"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "02D58A524CCF73E2"
+					item: { count: 1, id: "iceandfire:ectoplasm" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/kill_ghost"
+					criterion: ""
+					id: "4612888447D53004"
+					type: "advancement"
+				}
+				{
+					id: "746061E9FCEEB54E"
+					item: { count: 1, id: "iceandfire:ghost_ingot" }
+					type: "item"
+				}
+				{
+					id: "69EC9F0066C30D91"
+					item: { count: 1, id: "iceandfire:graveyard_soil" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 11.2d
+		}
+	]
+}

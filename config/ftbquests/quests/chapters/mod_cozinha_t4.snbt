@@ -1,0 +1,71 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cozinha_t4"
+	group: "4E6D0897A16A0238"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "28F97022EF7D660C"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "05E09178F676FF4B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "655B585E6E71F408"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6ECF615D2FCCF3E3"
+				"05E09178F676FF4B"
+			]
+			icon: {
+				id: "farmersdelight:netherite_knife"
+			}
+			id: "7A5EFCFF8F1FCAC5"
+			rewards: [
+				{
+					id: "5EC5043F42A32EA6"
+					type: "xp"
+					xp: 280
+				}
+				{
+					id: "578A9E6C9CA58353"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "744282DC7E4ACE45"
+					item: { count: 1, id: "farmersdelight:netherite_knife" }
+					type: "item"
+				}
+				{
+					id: "0BFA832F54F94E6F"
+					item: { count: 1, id: "aquaculture:nether_star_hook" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

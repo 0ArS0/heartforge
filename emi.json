@@ -1,0 +1,78 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:comamigos_balance:respec_tome",
+    "item:quark:cherry_post",
+    "item:neoorigins:orb_of_origin",
+    "item:occultism:datura_seeds",
+    {
+      "type": "fluid",
+      "id": "irons_spellbooks:legendary_ink",
+      "amount": 250
+    },
+    "item:irons_spellbooks:legendary_ink",
+    "item:comamigos_balance:tier_heart_7",
+    "item:comamigos_balance:purifying_elixir_7",
+    "item:comamigos_balance:purifying_elixir_6",
+    "item:comamigos_balance:purifying_elixir_5",
+    "item:comamigos_balance:purifying_elixir_4",
+    "item:comamigos_balance:purifying_elixir_3",
+    "item:comamigos_balance:purifying_elixir_2",
+    "item:comamigos_balance:purifying_elixir_1",
+    "item:comamigos_balance:boss_compass",
+    [
+      "item:comamigos_balance:boss_compass",
+      "item:comamigos_balance:boss_compass_attuned"
+    ],
+    "item:comamigos_balance:tier_heart_3",
+    "item:dwarfs_tyranny:rusty_dwarf_armor_helmet",
+    "item:create:golden_sheet",
+    "item:create:wrench",
+    "item:iceandfire:dragon_skull_ice{\"iceandfire:dragon_skull\":{dragonAge:71,stage:3}}",
+    "item:iceandfire:ambrosia",
+    {
+      "type": "fluid",
+      "id": "irons_spellbooks:greater_oakskin_elixir",
+      "amount": 0
+    },
+    "item:comamigos_balance:tier_heart_6",
+    "item:born_in_chaos_v1:spiny_shell",
+    "item:botania:gaia_head",
+    "item:comamigos_balance:tier_heart_8",
+    "item:cataclysm:void_core",
+    "item:cataclysm:ignitium_ingot",
+    "item:comamigos_balance:tier_heart_5",
+    "item:comamigos_balance:tier_heart_4",
+    "item:comamigos_balance:tier_heart_2",
+    "item:wildernature:truffle_bag",
+    "item:wildernature:truffle",
+    "item:minecraft:netherite_scrap",
+    "item:minecraft:netherite_ingot",
+    "item:sophisticatedbackpacks:netherite_backpack",
+    "item:bosses_of_mass_destruction:blazing_eye",
+    "item:aquamirae:abyssal_heaume",
+    "item:iceandfire:silver_ingot",
+    "item:iceandfire:silver_ore",
+    "item:mythsandlegends:cursed_core",
+    "item:mythsandlegends:bound_soul_ingot",
+    "item:mythsandlegends:possessed_armor_fragment",
+    "item:minecraft:netherite_sword",
+    "item:minecraft:iron_ingot",
+    "item:iceandfire:dragonsteel_fire_ingot",
+    "item:iceandfire:dragonsteel_fire_sword"
+  ],
+  "craft_history": [
+    "minecraft:oak_planks",
+    "minecraft:stick",
+    "minecraft:crafting_table",
+    "minecraft:acacia_planks",
+    "minecraft:birch_planks"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

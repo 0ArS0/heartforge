@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_myths"
+	group: "3DAD9C4C9DD26814"
+	icon: {
+		id: "mythsandlegends:blood_moon"
+	}
+	id: "344AEC3F0F749177"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mythsandlegends:blood_moon"
+			}
+			id: "03ACC43F27B88043"
+			rewards: [{
+				id: "41846AF00DC8B8CD"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "449577AA37AC563B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03ACC43F27B88043"]
+			icon: {
+				id: "mythsandlegends:research_notes"
+			}
+			id: "569FDAFB2800A00D"
+			rewards: [{
+				id: "37DF4F90414565A7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "414053709284C945"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["569FDAFB2800A00D"]
+			id: "64C404964D17772E"
+			rewards: [
+				{
+					id: "68A7832CDC8FAA49"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5DA34A0D1DD5CF08"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "mythsandlegends:adventure/dawn_of_the_living"
+					criterion: ""
+					id: "3444B334F98264DB"
+					type: "advancement"
+				}
+				{
+					entity: "mythsandlegends:jiangshi"
+					id: "61BAF739D3DB086A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_botania_t4"
+	group: "0BD654FB0C580B11"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "1D2FBE3CBC8B2743"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "28A1A3E61790FC35"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "03E17C72892A9980"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"6E1F5ABA6D0AB5CB"
+				"6336C4A565DD85DE"
+				"28A1A3E61790FC35"
+			]
+			icon: {
+				id: "botania:orechid_ignem"
+			}
+			id: "27B3EB82892E1D44"
+			rewards: [
+				{
+					id: "7E3E4E672C312994"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "790EE79CA3084E80"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D6EBD0B0183CB0B"
+					item: { count: 1, id: "botania:orechid_ignem" }
+					type: "item"
+				}
+				{
+					id: "00BBA1B3D1869E31"
+					item: { count: 1, id: "botania:incense_stick" }
+					type: "item"
+				}
+				{
+					id: "2C1190B724E0C5DE"
+					item: { count: 1, id: "botania:incense_plate" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E78C088BCCC2A2E"
+				"4EE19D5B37E0ABE8"
+				"28A1A3E61790FC35"
+			]
+			icon: {
+				id: "botania:mana_gun"
+			}
+			id: "30A6CE9F6C875CBE"
+			rewards: [{
+				id: "362BF48F33E6EB34"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "28BB1CF47E982652"
+					item: { count: 1, id: "botania:mana_gun" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/mana_blaster_shoot"
+					criterion: ""
+					id: "2AA221CA04C0344F"
+					type: "advancement"
+				}
+				{
+					id: "2C6F857C7DE05EBE"
+					item: { count: 1, id: "botania:crystal_bow" }
+					type: "item"
+				}
+				{
+					id: "2E379B3FCDEE555C"
+					item: { count: 1, id: "botania:tornado_rod" }
+					type: "item"
+				}
+				{
+					id: "1DB816C81DFAFDA4"
+					item: { count: 1, id: "botania:fire_rod" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"76694CA9DD54D6B2"
+				"3BD4675C7A79FF3E"
+				"28A1A3E61790FC35"
+			]
+			icon: {
+				id: "botania:mana_ring_greater"
+			}
+			id: "3B2274673298E97A"
+			rewards: [
+				{
+					id: "347CA15F36357AE9"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "03DD479FFBC91A97"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A70C02AEB81C09A"
+					item: { count: 1, id: "botania:mana_ring_greater" }
+					type: "item"
+				}
+				{
+					id: "6656E5DB8FB30D4E"
+					item: { count: 1, id: "botania:aura_ring_greater" }
+					type: "item"
+				}
+				{
+					id: "5DDF39C186F10429"
+					item: { count: 1, id: "botania:magnet_ring_greater" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["30A6CE9F6C875CBE"]
+			icon: {
+				id: "botania:invisibility_cloak"
+			}
+			id: "331167492B8ADFA9"
+			optional: true
+			rewards: [
+				{
+					id: "23E7B7C00A120011"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "4B35B9916BD0BBE5"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "41DAD99BDA6934FB"
+					item: { count: 1, id: "botania:blood_pendant" }
+					type: "item"
+				}
+				{
+					id: "5C30C9BA41CD7513"
+					item: { count: 1, id: "botania:invisibility_cloak" }
+					type: "item"
+				}
+				{
+					id: "71AD93C7D357F416"
+					item: { count: 1, id: "botania:stormy_sea_rod" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+	]
+}

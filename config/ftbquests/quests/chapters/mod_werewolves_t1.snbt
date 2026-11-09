@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_werewolves_t1"
+	group: "4420EA9AE6BA168A"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "79BE6B30CBA88151"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "339E9151BDF1EA17"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "1091BCE75617245F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["339E9151BDF1EA17"]
+			id: "7675B165BA7A63C1"
+			rewards: [
+				{
+					id: "440D6CEA2F28B743"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "60DF6819B9681341"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "199D4DA7B0EDF11B"
+					item: { count: 1, id: "werewolves:silver_ingot" }
+					type: "item"
+				}
+				{
+					advancement: "werewolves:dont_touch_that"
+					criterion: ""
+					id: "011DBE8955B99A05"
+					type: "advancement"
+				}
+				{
+					id: "5D344BBDD161EDF7"
+					item: { count: 1, id: "werewolves:silver_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "2EF566AF848DE12D"
+					item: { count: 1, id: "werewolves:silver_axe" }
+					type: "item"
+				}
+				{
+					id: "211A0BCA98E53256"
+					item: { count: 1, id: "werewolves:silver_helmet" }
+					type: "item"
+				}
+				{
+					id: "33415CB2B956814B"
+					item: { count: 1, id: "werewolves:silver_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2648337E2986A200"
+					item: { count: 1, id: "werewolves:silver_leggings" }
+					type: "item"
+				}
+				{
+					id: "3955DF1A5ACF3921"
+					item: { count: 1, id: "werewolves:silver_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"64512900CE999EEB"
+				"339E9151BDF1EA17"
+			]
+			icon: {
+				id: "comamigos_balance:alpha_werewolf_heart"
+			}
+			id: "64D94840DBDC6F34"
+			rewards: [{
+				id: "3EBDC706552AFF5D"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "werewolves:alpha_werewolf"
+					id: "6A5F7D2282F1CC6B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "werewolves:natural_succession"
+					criterion: ""
+					id: "72C200A60374FB3F"
+					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "6E9DA6E587764699"
+					item: { count: 1, id: "werewolves:werewolf_tooth" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"70178554A92A0F61"
+				"339E9151BDF1EA17"
+			]
+			id: "56EC85E63EB14296"
+			rewards: [{
+				id: "0A45A4DC0A1081A8"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "7F4574112C5823B8"
+					item: { count: 1, id: "werewolves:liver" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7227DB55B845EA1D"
+					item: { count: 1, id: "werewolves:cracked_bone" }
+					type: "item"
+				}
+				{
+					id: "1A8DDF2861F8974A"
+					item: { count: 1, id: "werewolves:stone_altar" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "769C1A2BB1F4EE7A"
+					item: { count: 1, id: "werewolves:stone_altar_fire_bowl" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"70178554A92A0F61"
+				"339E9151BDF1EA17"
+			]
+			id: "1A420B499C137101"
+			rewards: [{
+				id: "32AC657819ED2E62"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "72422AEB41EA5298"
+					item: { count: 1, id: "werewolves:pelt" }
+					type: "item"
+				}
+				{
+					advancement: "werewolves:hairy_situation"
+					criterion: ""
+					id: "719779F1186A78F5"
+					type: "advancement"
+				}
+				{
+					id: "715C9B0C05D98075"
+					item: { count: 1, id: "werewolves:pelt_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0BC41602580B00C2"
+					item: { count: 1, id: "werewolves:bone_necklace" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7675B165BA7A63C1"]
+			id: "0FDBB3E4C38789B3"
+			rewards: [
+				{
+					id: "7F8B529BA3D118A2"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "26BC6907435A08E0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5A6B2B5CAE407DCA"
+					item: { count: 1, id: "werewolves:silver_sword" }
+					type: "item"
+				}
+				{
+					advancement: "werewolves:silver_hand"
+					criterion: ""
+					id: "37AC51A60A4E95C3"
+					type: "advancement"
+				}
+				{
+					count: 6L
+					id: "25DDB02A7243F941"
+					item: { count: 1, id: "werewolves:crossbow_arrow_silver_bolt" }
+					type: "item"
+				}
+				{
+					id: "30001B723E2C3043"
+					item: { count: 1, id: "vampirism:oil_bottle" }
+					type: "item"
+				}
+				{
+					id: "21837B07357D27EA"
+					item: { count: 1, id: "werewolves:wolfsbane_diffuser_core" }
+					type: "item"
+				}
+				{
+					id: "6EC722B348F24241"
+					item: { count: 1, id: "werewolves:wolfsbane_diffuser_long" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"70178554A92A0F61"
+				"7675B165BA7A63C1"
+			]
+			id: "2B70BCF7FB110B84"
+			rewards: [{
+				id: "39465AFE238A793E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4828BF4070288443"
+					item: { count: 1, id: "werewolves:wolfsbane_finder" }
+					type: "item"
+				}
+				{
+					advancement: "werewolves:beast_of_gevauden"
+					criterion: ""
+					id: "130DA2E20E60713C"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+	]
+}

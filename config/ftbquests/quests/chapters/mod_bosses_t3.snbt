@@ -1,0 +1,215 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bosses_t3"
+	group: "1B6781BE25FE5814"
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "02E015951B17EBC1"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "605CA2DA263E9324"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "78E8355C7FBE9AA5"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["605CA2DA263E9324"]
+			icon: {
+				id: "comamigos_balance:night_lich_heart"
+			}
+			id: "1C986091557ADA57"
+			rewards: [{
+				id: "272C09E270B5BE88"
+				type: "xp"
+				xp: 330
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "6F92C7AF89CCD9EA"
+					item: { count: 1, id: "bosses_of_mass_destruction:soul_star" }
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "67003598678B715F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "0948CDB98455C169"
+					item: { count: 1, id: "bosses_of_mass_destruction:ancient_anima" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["605CA2DA263E9324"]
+			icon: {
+				id: "comamigos_balance:sandworm_heart"
+			}
+			id: "2B24EF1C195A5E7B"
+			rewards: [{
+				id: "5BF90F5D7BB0431A"
+				type: "xp"
+				xp: 110
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				id: "760F2DBCCCF0F743"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["605CA2DA263E9324"]
+			icon: {
+				id: "comamigos_balance:helvar_heart"
+			}
+			id: "4631D9B94D147A7A"
+			rewards: [{
+				id: "04FB6FB410DDA78A"
+				type: "xp"
+				xp: 330
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "79ABB911A9424185"
+					item: { count: 1, id: "block_factorys_bosses:underworld_arena_key" }
+					type: "item"
+				}
+				{
+					entity: "block_factorys_bosses:underworld_knight"
+					id: "31A80D84D006DEC4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "31CB0E916C83F85B"
+					item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["4631D9B94D147A7A"]
+			id: "038E7BDAED11F60F"
+			rewards: [
+				{
+					id: "0974104F2B443835"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "7AD1B3A1174A4C36"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "326228AB0BB03C4D"
+					item: { count: 1, id: "block_factorys_bosses:ancient_trial_key" }
+					type: "item"
+				}
+				{
+					id: "08582FBE20BA4F6E"
+					item: { count: 1, id: "block_factorys_bosses:knight_helmet" }
+					type: "item"
+				}
+				{
+					id: "1A849F90E8DC3D54"
+					item: { count: 1, id: "block_factorys_bosses:knight_chestplate" }
+					type: "item"
+				}
+				{
+					id: "45216DA030756F38"
+					item: { count: 1, id: "block_factorys_bosses:knight_leggings" }
+					type: "item"
+				}
+				{
+					id: "70B990ACAE4DA522"
+					item: { count: 1, id: "block_factorys_bosses:knight_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4631D9B94D147A7A"]
+			id: "32D68BFB758FAFCA"
+			optional: true
+			rewards: [
+				{
+					id: "5B6ED42B610042E3"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "3DF36B3806790844"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2F675EE387C811F8"
+					item: { count: 1, id: "block_factorys_bosses:large_sword" }
+					type: "item"
+				}
+				{
+					id: "20F30909C4A59451"
+					item: { count: 1, id: "block_factorys_bosses:warrior_sword" }
+					type: "item"
+				}
+				{
+					id: "63767950D63B1001"
+					item: { count: 1, id: "block_factorys_bosses:dagger" }
+					type: "item"
+				}
+				{
+					id: "235703067D9CC50C"
+					item: { count: 1, id: "block_factorys_bosses:enhanced_shield" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+}

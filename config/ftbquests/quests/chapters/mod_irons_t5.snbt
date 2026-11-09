@@ -1,0 +1,217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_irons_t5"
+	group: "5955ECC104DC966A"
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "5F27B6635CBF470A"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "2A47D8A9991BA850"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "6F427903DFE84EF0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5CC5F2FDC9771550"
+				"7B5DD188F20AB4CB"
+				"1788C4B58A1E711D"
+				"2A47D8A9991BA850"
+			]
+			icon: {
+				id: "irons_spellbooks:epic_ink"
+			}
+			id: "6752CA2CC8AB08E0"
+			rewards: [{
+				id: "08C3E010B7C662D8"
+				type: "xp"
+				xp: 510
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "07D2F4FF03F3DD91"
+					item: { count: 1, id: "irons_spellbooks:epic_ink" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7D23F393B30EC598"
+					item: { count: 1, id: "irons_spellbooks:bloody_vellum" }
+					type: "item"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_blood"
+					criterion: ""
+					id: "51223A58101DF033"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4F5C8E3017F995AF"
+				"6752CA2CC8AB08E0"
+			]
+			icon: {
+				id: "comamigos_balance:tyros_heart"
+			}
+			id: "47E891FACE65906E"
+			rewards: [{
+				id: "1A53C3B77253D683"
+				type: "xp"
+				xp: 680
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "irons_spellbooks:fire_boss"
+					id: "62AE3A6600E4FA28"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1C27F486DC760C53"
+					item: { count: 1, id: "irons_spellbooks:divine_soulshard" }
+					type: "item"
+				}
+				{
+					id: "4273E042D33646E2"
+					item: { count: 1, id: "irons_spellbooks:decrepit_key" }
+					type: "item"
+				}
+				{
+					id: "39E2A48803004844"
+					item: { count: 1, id: "irons_spellbooks:decrepit_scythe" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"47E891FACE65906E"
+				"3B215ADB9CB4514C"
+				"3297DFE2E5C883F5"
+				"0BA05EA8A0FEB631"
+				"369DBF99F301EF9B"
+			]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:paladin_chestplate"
+			}
+			id: "45FC91953F6E8102"
+			rewards: [
+				{
+					id: "75B75378B12C179B"
+					type: "xp"
+					xp: 680
+				}
+				{
+					id: "286CD1F1C39B9174"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3D7119D2298DD619"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:infernal_sorcerer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3694B83B01C544E6"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:paladin_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4AAF2D2890F5D02C"
+					item: { count: 1, id: "irons_spellbooks:speed_boots" }
+					type: "item"
+				}
+				{
+					id: "2B78AA661BD51022"
+					item: { count: 1, id: "irons_spellbooks:greater_conjurers_talisman" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["47E891FACE65906E"]
+			icon: {
+				id: "irons_spellbooks:tyros_statue"
+			}
+			id: "639D9ADC88933004"
+			optional: true
+			rewards: [
+				{
+					id: "22C16C7C919C5DDD"
+					type: "xp"
+					xp: 510
+				}
+				{
+					id: "6C214F5DB680EC6E"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "0C4E77614C2E19C0"
+					item: { count: 1, id: "irons_spellbooks:disc_fragment_flame_still_burns" }
+					type: "item"
+				}
+				{
+					id: "68C032DF009906D9"
+					item: { count: 1, id: "irons_spellbooks:music_disc_flame_still_burns" }
+					type: "item"
+				}
+				{
+					id: "06575C2384A49A48"
+					item: { count: 1, id: "irons_spellbooks:tyros_statue" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+	]
+}

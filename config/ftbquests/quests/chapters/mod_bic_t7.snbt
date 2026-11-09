@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bic_t7"
+	group: "13EF259E1ADFAB3C"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "2C8A56D2BEA3EA06"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "7FDF4C823FC17BF6"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "2629ADFBE6FB0D26"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2EB10FE247F4131F"
+				"5830B3BDAC64D5A7"
+				"7FDF4C823FC17BF6"
+			]
+			id: "2BB3C5FEA0061EDE"
+			rewards: [
+				{
+					id: "29F4C58E2A2C7A52"
+					type: "xp"
+					xp: 1150
+				}
+				{
+					id: "01C74A5439AA953A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:transmutalogy"
+					criterion: ""
+					id: "7A944AA7097E0CBC"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:infernal_medicine"
+					criterion: ""
+					id: "52D4F464DEB9064F"
+					type: "advancement"
+				}
+				{
+					id: "00D344A1811A769D"
+					item: { count: 1, id: "born_in_chaos_v1:transforming_easter_cake" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:trickor_treat"
+					criterion: ""
+					id: "1A0BF79B39A1C29E"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:yoursatietywillbe_eternal"
+					criterion: ""
+					id: "5570F661C2594B2B"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

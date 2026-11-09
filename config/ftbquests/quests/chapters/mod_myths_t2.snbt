@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_myths_t2"
+	group: "3DAD9C4C9DD26814"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "5A82DEC3DE47661A"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "2AB87FAF87121B27"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "11A9F8D5EEC256C3"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"1FA3332A0EEE28BD"
+				"7AC9F56BE4EAB307"
+				"5B9D5CC7503888BB"
+				"2AB87FAF87121B27"
+			]
+			id: "005D8A08CF4353C6"
+			rewards: [{
+				id: "68CE32BC0C8ACFC0"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "mythsandlegends:bound_by_darkness"
+					criterion: ""
+					id: "776CED1FC91F0F9D"
+					type: "advancement"
+				}
+				{
+					id: "66879C2C30EC07BC"
+					item: { count: 1, id: "mythsandlegends:ironshade_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2189E590DAB32EA3"
+					item: { count: 1, id: "mythsandlegends:winter_stalker_chestplate" }
+					type: "item"
+				}
+				{
+					id: "29DC9B3D99ABB81C"
+					item: { count: 1, id: "mythsandlegends:winter_stalker_helmet" }
+					type: "item"
+				}
+				{
+					advancement: "mythsandlegends:the_stonewall"
+					criterion: ""
+					id: "2619823F65A4FA16"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1FA3332A0EEE28BD"
+				"2AB87FAF87121B27"
+			]
+			icon: {
+				id: "comamigos_balance:warborn_aegis_heart"
+			}
+			id: "1320F1AA53769DFF"
+			optional: true
+			rewards: [
+				{
+					id: "56810BBA079E4940"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "65412F2EF557A807"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "mythsandlegends:warborn_aegis"
+				id: "548B2B69542C37B7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.6d
+		}
+	]
+}

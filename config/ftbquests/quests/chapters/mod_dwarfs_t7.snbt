@@ -1,0 +1,79 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_dwarfs_t7"
+	group: "7E685056D4C815C1"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "1026D08E280F2808"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "336E43652D3E5258"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "0B7820D7C4DCCA6C"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"75CEBEFF7A647313"
+				"2B36702355613601"
+				"22C321C84BE4F5E0"
+				"31235FD0F0E55CE2"
+				"4D6A87518601EF58"
+				"758668FE35999A4E"
+				"3AFA1F709923C4DE"
+				"336E43652D3E5258"
+			]
+			icon: {
+				id: "dwarfs_tyranny:mythril_block"
+			}
+			id: "00C4464B4824377E"
+			rewards: [
+				{
+					id: "72FA22C5533C98A2"
+					type: "xp"
+					xp: 460
+				}
+				{
+					id: "3009F536E534F7DE"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "dwarfs_tyranny:progression/geologists_best_friend"
+					criterion: ""
+					id: "42FB6D26F449B7DD"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/master_of_dwarfs_tyranny"
+					criterion: ""
+					id: "58D42CF767A7FBC6"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

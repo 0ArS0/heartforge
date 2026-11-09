@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create_addons"
+	group: "3B08ACB5CE59F3E7"
+	icon: {
+		id: "create_enchantment_industry:blaze_enchanter"
+	}
+	id: "7D111C157DCB10B7"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			id: "66907F98F427F762"
+			rewards: [{
+				id: "39A65DF647ACB2C4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "2E4B94EC837FC25D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66907F98F427F762"]
+			id: "6D0973D7E090DE24"
+			rewards: [
+				{
+					id: "7EF4C93530FAAE68"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3F6417CE24656B80"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "6FACD5D87B081563"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+				{
+					id: "3D6E20BD1070386E"
+					item: { count: 1, id: "create_enchantment_industry:grindstone_drain" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:experienced_engineer"
+					criterion: ""
+					id: "7498F84E2B85BFB4"
+					type: "advancement"
+				}
+				{
+					id: "79C87F604D665034"
+					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "610C58254D8732FC"
+					item: { count: 1, id: "create:experience_block" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:grind_to_polish"
+					criterion: ""
+					id: "151094ACC4025BD2"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

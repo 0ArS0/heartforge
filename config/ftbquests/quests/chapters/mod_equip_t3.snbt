@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_equip_t3"
+	group: "0011E6E41EF0DECD"
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "45768733FF55A702"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "0A085DDDBD3158BE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "49911C790E223D70"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"21648039ED2797F1"
+				"0A085DDDBD3158BE"
+			]
+			icon: {
+				id: "artifacts:cross_necklace"
+			}
+			id: "4C1B850B5F43DD2D"
+			optional: true
+			rewards: [
+				{
+					id: "2F24CF342C644EE5"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "0278E67DB1263E3D"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "103848BC6897B343"
+					item: { count: 1, id: "artifacts:cross_necklace" }
+					type: "item"
+				}
+				{
+					id: "08EB36105E8496A7"
+					item: { count: 1, id: "artifacts:panic_necklace" }
+					type: "item"
+				}
+				{
+					id: "535F8AC95D9DBA0D"
+					item: { count: 1, id: "artifacts:shock_pendant" }
+					type: "item"
+				}
+				{
+					id: "715A21DAEA8261AF"
+					item: { count: 1, id: "artifacts:flame_pendant" }
+					type: "item"
+				}
+				{
+					id: "78B32D7CFFE239CC"
+					item: { count: 1, id: "artifacts:thorn_pendant" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B827454B2445C22"
+				"0A085DDDBD3158BE"
+			]
+			icon: {
+				id: "artifacts:power_glove"
+			}
+			id: "726964B8B998309E"
+			optional: true
+			rewards: [
+				{
+					id: "556BC4491B714365"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "0842A0BD67988B81"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "42EA11B967BA950F"
+					item: { count: 1, id: "artifacts:power_glove" }
+					type: "item"
+				}
+				{
+					id: "0F180979EAA12548"
+					item: { count: 1, id: "artifacts:fire_gauntlet" }
+					type: "item"
+				}
+				{
+					id: "5B7A0FAF5BB21BB3"
+					item: { count: 1, id: "artifacts:withered_bracelet" }
+					type: "item"
+				}
+				{
+					id: "4D3697FF95230429"
+					item: { count: 1, id: "artifacts:obsidian_skull" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"21648039ED2797F1"
+				"0A085DDDBD3158BE"
+			]
+			icon: {
+				id: "artifacts:superstitious_hat"
+			}
+			id: "777BF2A11EEA285C"
+			optional: true
+			rewards: [
+				{
+					id: "3CD230C59B6E8963"
+					type: "xp"
+					xp: 660
+				}
+				{
+					id: "2EA4CF6B58342A67"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "388B39400D62BF96"
+					item: { count: 1, id: "artifacts:superstitious_hat" }
+					type: "item"
+				}
+				{
+					id: "43BB5FDE65361460"
+					item: { count: 1, id: "artifacts:lucky_scarf" }
+					type: "item"
+				}
+				{
+					id: "131ED3E79FFACFF1"
+					item: { count: 1, id: "artifacts:golden_hook" }
+					type: "item"
+				}
+				{
+					id: "1EEF710FB2CC2D9D"
+					item: { count: 1, id: "artifacts:scarf_of_invisibility" }
+					type: "item"
+				}
+				{
+					id: "7E2E75288658A3A4"
+					item: { count: 1, id: "artifacts:crystal_heart" }
+					type: "item"
+				}
+				{
+					id: "56121F391C774E6F"
+					item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"6218E95B0266DF3F"
+				"0A085DDDBD3158BE"
+			]
+			icon: {
+				id: "simplybows:vine_bow/vine_bow"
+			}
+			id: "4FCAA957A3DC4AE1"
+			optional: true
+			rewards: [
+				{
+					id: "5BF0A2C449838365"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "389AA8CD7D328CF7"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "1C019FD7C72D7C5E"
+					item: { count: 1, id: "simplybows:vine_bow/vine_bow" }
+					type: "item"
+				}
+				{
+					id: "5C69A535108A6B7B"
+					item: { count: 1, id: "simplybows:bubble_bow/bubble_bow" }
+					type: "item"
+				}
+				{
+					id: "329EE9E387C3C258"
+					item: { count: 1, id: "simplybows:bee_bow/bee_bow" }
+					type: "item"
+				}
+				{
+					id: "4E960704836DB89C"
+					item: { count: 1, id: "simplybows:blossom_bow/blossom_bow" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+	]
+}

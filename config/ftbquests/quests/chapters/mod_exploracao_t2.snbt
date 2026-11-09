@@ -1,0 +1,214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_exploracao_t2"
+	group: "48BF15FF65B85345"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "09241AD3054D5B1F"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "1431CBD833E3345D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "5A4AE9C6C7BF0C1F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"167F45E1A1AD7172"
+				"1431CBD833E3345D"
+			]
+			icon: {
+				id: "minecraft:red_sand"
+			}
+			id: "286F5F454A3AA690"
+			rewards: [
+				{
+					id: "56CA557BD5709149"
+					type: "xp"
+					xp: 320
+				}
+				{
+					id: "3EE1E9BC1F9EC96B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_bandit_towers"
+					criterion: ""
+					id: "6CD141162E6F4ACE"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_bandit_village"
+					criterion: ""
+					id: "55DC8440E86285A9"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_desert_hall"
+					criterion: ""
+					id: "0AD74B6A4338B6BE"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_ceryneian_hind"
+					criterion: ""
+					id: "53F1B77ECFA124AA"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"341BA500DB0E1E44"
+				"1431CBD833E3345D"
+			]
+			icon: {
+				id: "minecraft:mossy_stone_bricks"
+			}
+			id: "6905AE658E6B7C19"
+			rewards: [{
+				id: "63E7A5397618EF40"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_kisegi_sanctuary"
+					criterion: ""
+					id: "228583A2690C57F3"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_infested_temple"
+					criterion: ""
+					id: "788B35EA31155B99"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_mining_complex"
+					criterion: ""
+					id: "4CECEC43711782D8"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_keep_kayra"
+					criterion: ""
+					id: "36CA443F0D8B3C1E"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/witches_road"
+					criterion: ""
+					id: "57791EAD2903F416"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"5DAD70DC22E50855"
+				"1431CBD833E3345D"
+			]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "3A5C10D6F970926B"
+			rewards: [
+				{
+					id: "50950078B172BF1F"
+					type: "xp"
+					xp: 240
+				}
+				{
+					id: "7428B7EE2574C6E8"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5477563FA9C892D2"
+					item: { count: 1, id: "minecraft:totem_of_undying" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/totem_of_undying"
+					criterion: ""
+					id: "2AAEC68C0078D807"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/hero_of_the_village"
+					criterion: ""
+					id: "0E5A2A6C978DDFA4"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["1431CBD833E3345D"]
+			icon: {
+				id: "minecraft:heart_of_the_sea"
+			}
+			id: "285290788BC1442F"
+			rewards: [{
+				id: "727B0A7E6B93BC27"
+				type: "xp"
+				xp: 240
+			}]
+			tasks: [
+				{
+					id: "73D7360CE7F9FA78"
+					item: { count: 1, id: "minecraft:heart_of_the_sea" }
+					type: "item"
+				}
+				{
+					advancement: "hopo:minecraft/adventure/locate_underwater_city"
+					criterion: ""
+					id: "19C3706D64F4FCCB"
+					type: "advancement"
+				}
+				{
+					id: "7DE39E5228DABFA0"
+					item: { count: 1, id: "minecraft:wet_sponge" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+	]
+}

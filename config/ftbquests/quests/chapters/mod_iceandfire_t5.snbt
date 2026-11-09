@@ -1,0 +1,598 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_iceandfire_t5"
+	group: "6BE2CA13D0D2A15E"
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "59BC7F4D45EDFD8F"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "4018BE9B89E55AA3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "5F2CBA40E0E1E679"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"0C56988A1EE3853A"
+				"4018BE9B89E55AA3"
+			]
+			icon: {
+				id: "iceandfire:fire_dragon_heart"
+			}
+			id: "56ADB5730C8B92FF"
+			rewards: [
+				{
+					id: "34709EA4FD0A69B6"
+					type: "xp"
+					xp: 340
+				}
+				{
+					id: "650ABFD79B2979E6"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					count: 32L
+					id: "77091F2F06385905"
+					item: { count: 1, id: "iceandfire:gold_pile" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/kill_if_dragon"
+					criterion: ""
+					id: "1EC4EE81C2D1ED7F"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3836D08B94670D55"
+				"4018BE9B89E55AA3"
+			]
+			icon: {
+				id: "comamigos_balance:dread_lich_heart"
+			}
+			id: "6EF2E68FC22C360A"
+			rewards: [{
+				id: "374A2B085E38F924"
+				type: "xp"
+				xp: 340
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "iceandfire:dread_lich"
+					id: "3ADDE50A89E244BB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "608BB03E0E2AF2A9"
+					item: { count: 1, id: "iceandfire:dread_key" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["56ADB5730C8B92FF"]
+			icon: {
+				id: "iceandfire:fire_dragon_blood"
+			}
+			id: "14B8DBF40C1C5A0E"
+			rewards: [{
+				id: "673CE070E93A7EF3"
+				type: "xp"
+				xp: 850
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "65DFD0BE8F92C4EC"
+					item: { count: 1, id: "iceandfire:fire_dragon_flesh" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "680596AAA4F7C29B"
+					item: { count: 1, id: "iceandfire:fire_dragon_blood" }
+					type: "item"
+				}
+				{
+					id: "02EFD8FACDBF9240"
+					item: { count: 1, id: "iceandfire:dragonscale_red" }
+					type: "item"
+				}
+				{
+					id: "262A170A068E393A"
+					item: { count: 1, id: "iceandfire:armor_red_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0749193756C8BAC3"
+					item: { count: 1, id: "iceandfire:cooked_rice_with_fire_dragon_meat" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["56ADB5730C8B92FF"]
+			icon: {
+				id: "iceandfire:dragonforge_fire_core"
+			}
+			id: "080644218B32824C"
+			rewards: [
+				{
+					id: "0F8165D4F2EEAC74"
+					type: "xp"
+					xp: 850
+				}
+				{
+					id: "29B4B4A4D530720F"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragon_forge_brick"
+					criterion: ""
+					id: "2CDB63A055BF4987"
+					type: "advancement"
+				}
+				{
+					count: 17L
+					id: "03EAEDA5AAADC06A"
+					item: { count: 1, id: "iceandfire:dragonforge_fire_brick" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_forge_core"
+					criterion: ""
+					id: "6064A333005418FA"
+					type: "advancement"
+				}
+				{
+					id: "73A9C1E732A62FC2"
+					item: { count: 1, id: "iceandfire:dragonforge_fire_input" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1EE8E0301F61959A"
+					item: { count: 1, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.4d
+		}
+		{
+			dependencies: ["56ADB5730C8B92FF"]
+			icon: {
+				id: "iceandfire:dragonegg_red"
+			}
+			id: "69038147C161306C"
+			rewards: [{
+				id: "3CE9DDB347454239"
+				type: "xp"
+				xp: 680
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragon_egg"
+					criterion: ""
+					id: "4289A49CF648745E"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_meal"
+					criterion: ""
+					id: "26167A87A3AB83A2"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_staff"
+					criterion: ""
+					id: "63CFCF81C173F178"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_horn"
+					criterion: ""
+					id: "73AD2CCE734D2068"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"6EF2E68FC22C360A"
+				"215C3030C11A7FD7"
+			]
+			icon: {
+				id: "iceandfire:podium_oak"
+			}
+			id: "46C5C6B8B668359A"
+			optional: true
+			rewards: [
+				{
+					id: "142CF32BD374F1D4"
+					type: "xp"
+					xp: 1020
+				}
+				{
+					id: "2EE11CDBEB6BE289"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "76D775B3E838C9E1"
+					item: { count: 1, id: "iceandfire:cyclops_eye" }
+					type: "item"
+				}
+				{
+					id: "755A6978D84E8B30"
+					item: { count: 1, id: "iceandfire:deathworm_egg_giant" }
+					type: "item"
+				}
+				{
+					id: "0A48D80DF002EA97"
+					item: { count: 1, id: "iceandfire:banner_pattern_fire" }
+					type: "item"
+				}
+				{
+					id: "3FE1077B39E4ECFB"
+					item: { count: 1, id: "iceandfire:stone_statue" }
+					type: "item"
+				}
+				{
+					id: "4D807F70D56661A0"
+					item: { count: 1, id: "iceandfire:lich_staff" }
+					type: "item"
+				}
+				{
+					id: "1CBD4EF91936E8A7"
+					item: { count: 1, id: "iceandfire:dragon_skull_fire" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.8d
+		}
+		{
+			dependencies: [
+				"14B8DBF40C1C5A0E"
+				"48362BCF60A51A13"
+			]
+			icon: {
+				id: "iceandfire:dragonbone_sword_fire"
+			}
+			id: "0A8C77C62CAA52BB"
+			rewards: [
+				{
+					id: "7D0C90272516B687"
+					type: "xp"
+					xp: 1020
+				}
+				{
+					id: "36174357ADB675B4"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragonbone_tool"
+					criterion: ""
+					id: "495B6199364DB615"
+					type: "advancement"
+				}
+				{
+					id: "5D3658231DBB9823"
+					item: { count: 1, id: "iceandfire:dragonbone_sword" }
+					type: "item"
+				}
+				{
+					id: "49EB15DC9ED067E3"
+					item: { count: 1, id: "iceandfire:dragonbone_bow" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2D01ADE5032B339D"
+					item: { count: 1, id: "iceandfire:dragonbone_arrow" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
+					criterion: ""
+					id: "729C5A18B035911F"
+					type: "advancement"
+				}
+				{
+					id: "16229133E8EA6438"
+					item: { count: 1, id: "iceandfire:ghost_sword" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.27d
+		}
+		{
+			dependencies: [
+				"080644218B32824C"
+				"14B8DBF40C1C5A0E"
+			]
+			icon: {
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+			id: "2758EDE522679D60"
+			rewards: [
+				{
+					id: "3D91DD54EF6DE812"
+					type: "xp"
+					xp: 1020
+				}
+				{
+					id: "10DCAFA181FD039A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragonsteel"
+					criterion: ""
+					id: "72EA5BD62023E763"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "6AF023160E49DF7E"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+					criterion: ""
+					id: "5A5AC0172AF3356C"
+					type: "advancement"
+				}
+				{
+					id: "5E77B75177F7F2B7"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4941B95FFEB260D8"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "52A7231CDE9BB986"
+					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_fire_body" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.67d
+		}
+		{
+			dependencies: ["69038147C161306C"]
+			icon: {
+				id: "iceandfire:dragonegg_blue"
+			}
+			id: "3880DEB4359EE0D5"
+			optional: true
+			rewards: [
+				{
+					id: "41E0D4B32733C369"
+					type: "xp"
+					xp: 680
+				}
+				{
+					id: "415D7C703C1C01EE"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "70B30AAE0A377030"
+					item: { count: 1, id: "iceandfire:dragonegg_red" }
+					type: "item"
+				}
+				{
+					id: "36BB49A4C213D0AF"
+					item: { count: 1, id: "iceandfire:dragonegg_blue" }
+					type: "item"
+				}
+				{
+					id: "42F1C120FF0435A4"
+					item: { count: 1, id: "iceandfire:dragonegg_electric" }
+					type: "item"
+				}
+				{
+					id: "422477B89A81A151"
+					item: { count: 1, id: "iceandfire:sickly_dragon_meal" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.93d
+		}
+		{
+			dependencies: [
+				"2758EDE522679D60"
+				"0A8C77C62CAA52BB"
+			]
+			icon: {
+				id: "iceandfire:ice_dragon_heart"
+			}
+			id: "65D9CEE07F6BE60D"
+			optional: true
+			rewards: [
+				{
+					id: "7E2557CFBFC8750E"
+					type: "xp"
+					xp: 1190
+				}
+				{
+					id: "7539122D736071A2"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "09C7BE3502490242"
+					item: { count: 1, id: "iceandfire:fire_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "5C8F878AC8550FAD"
+					item: { count: 1, id: "iceandfire:ice_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "38ABC30585664DAE"
+					item: { count: 1, id: "iceandfire:lightning_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "787FAF6A7B7ABA27"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_ingot" }
+					type: "item"
+				}
+				{
+					id: "621601EE6496956A"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_ingot" }
+					type: "item"
+				}
+				{
+					id: "0DBA8F4BC8FACA8E"
+					item: { count: 1, id: "iceandfire:dragonbone_sword_ice" }
+					type: "item"
+				}
+				{
+					id: "4A485B4BA09C37DB"
+					item: { count: 1, id: "iceandfire:dragonbone_sword_lightning" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.47d
+		}
+		{
+			dependencies: [
+				"69038147C161306C"
+				"2758EDE522679D60"
+			]
+			icon: {
+				id: "iceandfire:dragonarmor_iron_body"
+			}
+			id: "5535AD39631B59A8"
+			rewards: [
+				{
+					id: "008BC24741290E96"
+					type: "xp"
+					xp: 680
+				}
+				{
+					id: "30DD9592EA65E742"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "6093BC7197175056"
+					item: { count: 1, id: "iceandfire:dragonarmor_iron_head" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragonarmor"
+					criterion: ""
+					id: "17F38F5B39BE7D20"
+					type: "advancement"
+				}
+				{
+					id: "455BB290B6F17CCE"
+					item: { count: 1, id: "iceandfire:summoning_crystal_fire" }
+					type: "item"
+				}
+				{
+					id: "753E0E44439C1B3F"
+					item: { count: 1, id: "iceandfire:legendary_dragon_seeker" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.27d
+		}
+	]
+}

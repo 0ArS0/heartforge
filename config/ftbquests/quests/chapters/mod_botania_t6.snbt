@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_botania_t6"
+	group: "0BD654FB0C580B11"
+	icon: {
+		id: "comamigos_balance:tier_heart_6"
+	}
+	id: "04CABB776E072A3C"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_6"
+			}
+			id: "7A5BCAC396C612CA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "6EE8F7AF133AD2FA"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"3BD4675C7A79FF3E"
+				"7CB650DFEA659CFD"
+				"7A5BCAC396C612CA"
+			]
+			icon: {
+				id: "botania:terra_sword"
+			}
+			id: "58F7B86FFA38F404"
+			rewards: [{
+				id: "17A934BA51407FA4"
+				type: "xp"
+				xp: 800
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "44FBB9F6EC84AA8F"
+					item: { count: 1, id: "botania:terra_sword" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/terrasteel_weapon_craft"
+					criterion: ""
+					id: "3541286FADD7A770"
+					type: "advancement"
+				}
+				{
+					id: "5DF4ADE60EAFF5B5"
+					item: { count: 1, id: "botania:terra_axe" }
+					type: "item"
+				}
+				{
+					id: "6B42172AFCCA0175"
+					item: { count: 1, id: "botania:terra_pick" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6983BDB8094AEFAC"
+				"7A5BCAC396C612CA"
+			]
+			icon: {
+				id: "botania:gaia_ingot"
+			}
+			id: "3FC82BD8620C48BC"
+			rewards: [{
+				id: "136825FD21532130"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "27EA488A9BFD2CC7"
+				item: { count: 1, id: "botania:gaia_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"58F7B86FFA38F404"
+				"1F14E1D02FFD5C33"
+			]
+			icon: {
+				id: "botania:diva_charm"
+			}
+			id: "01E5AA41EFB44014"
+			optional: true
+			rewards: [
+				{
+					id: "2AEDA0FD401417EB"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "127BC94BFC20C1FE"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "botania:challenge/gaia_guardian_no_armor"
+					criterion: ""
+					id: "73C116532B5F4A59"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/rank_ss_pick"
+					criterion: ""
+					id: "6EF329DF562F292E"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/l20_shard_use"
+					criterion: ""
+					id: "0880DA3876326DC9"
+					type: "advancement"
+				}
+				{
+					id: "3DD71E9D3F2CDE7B"
+					item: { count: 1, id: "botania:diva_charm" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

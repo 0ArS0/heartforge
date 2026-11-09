@@ -1,0 +1,693 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_stellarity_t7"
+	group: "1D5EF08E4C981320"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "457F73D43F2BF5A0"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "7D2E0954A2C89E3F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "00425B1F36E68B7F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"38685298A1A0CBB6"
+				"7D2E0954A2C89E3F"
+			]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "371301DF0E0A32D3"
+			rewards: [{
+				id: "43C5FD08E679F6E6"
+				type: "xp"
+				xp: 920
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "stellarity:story/journeys_end"
+					criterion: ""
+					id: "600FB33F7E4DF5F4"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:story/enter_the_end"
+					criterion: ""
+					id: "445F4661160F8A3A"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:nether/charge_anchor_end"
+					criterion: ""
+					id: "3740B22EB16D0C99"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:adventure/champions_ballad"
+					criterion: ""
+					id: "4EAE5A17BCFADA22"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["371301DF0E0A32D3"]
+			icon: {
+				id: "comamigos_balance:ender_dragon_heart"
+			}
+			id: "1BFB685530358E4A"
+			rewards: [{
+				id: "2BA253E90F648058"
+				type: "xp"
+				xp: 920
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6ED3819B42087EDB"
+					item: { count: 1, id: "minecraft:end_crystal" }
+					type: "item"
+				}
+				{
+					advancement: "stellarity:dragons_den/sacrificial_ritual"
+					criterion: ""
+					id: "07378A1D12914B7D"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:dragons_den/final_showdown"
+					criterion: ""
+					id: "5EED1329918C0D3D"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "39EF2ED25580723F"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BFB685530358E4A"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "213347D1E2B6C676"
+			rewards: [{
+				id: "196A20D81E636796"
+				type: "xp"
+				xp: 690
+			}]
+			tasks: [
+				{
+					advancement: "stellarity:aota/an_introduction_to_dark_magic"
+					criterion: ""
+					id: "792C0A13BAFB02C9"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:aota/cursed_crafting"
+					criterion: ""
+					id: "72769D43F9E71F72"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:pandoras_barrel/place"
+					criterion: ""
+					id: "22949343BE54DBAC"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["1BFB685530358E4A"]
+			icon: {
+				id: "minecraft:end_crystal"
+			}
+			id: "3A8382176892D603"
+			rewards: [{
+				id: "1A22D0F975405F60"
+				type: "xp"
+				xp: 690
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "4E2940BA38414F9D"
+					item: { count: 1, id: "minecraft:end_crystal" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/respawn_dragon"
+					criterion: ""
+					id: "3B71782263DF9358"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:dragons_den/god_slayer"
+					criterion: ""
+					id: "29385CCB41E8AF2A"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["1BFB685530358E4A"]
+			icon: {
+				id: "minecraft:chorus_fruit"
+			}
+			id: "6BD5006517EE4E19"
+			rewards: [
+				{
+					id: "2E6716FB01009430"
+					type: "xp"
+					xp: 920
+				}
+				{
+					id: "5C2182E9580D4B51"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+					id: "7BD56DCAC8A9B5E7"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:exploration/find_end_village"
+					criterion: ""
+					id: "78F51D4168AB152E"
+					type: "advancement"
+				}
+				{
+					count: 16L
+					id: "43DE6B678AE56975"
+					item: { count: 1, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+				{
+					advancement: "stellarity:cauldron/eat_golden_chorus_fruit"
+					criterion: ""
+					id: "52B19D2FC841A7B5"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["1BFB685530358E4A"]
+			icon: {
+				id: "minecraft:dragon_breath"
+			}
+			id: "4B43E1B3751C3C4D"
+			rewards: [{
+				id: "7191F57D9826D9F2"
+				type: "xp"
+				xp: 1150
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5EAD28EBBEF5CD9F"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/dragon_breath"
+					criterion: ""
+					id: "41470735D35B6718"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:imbuements"
+					criterion: ""
+					id: "07D8ED017650647E"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:cauldron/dilute_breath"
+					criterion: ""
+					id: "6AC1BDE97BF9E28C"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:dragons_den/obtain_dragonblade"
+					criterion: ""
+					id: "16363F17FEED8D74"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["6BD5006517EE4E19"]
+			icon: {
+				id: "minecraft:purpur_block"
+			}
+			id: "49F9D9F7A225DE8C"
+			rewards: [
+				{
+					id: "1CEF4D6C702479FB"
+					type: "xp"
+					xp: 1380
+				}
+				{
+					id: "2EB712B0A0AA4F74"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+					id: "44CF4BCABBBD4834"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:end_city/defeat_shulker"
+					criterion: ""
+					id: "5903DFF0D6B9CAB1"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "4933594D13FCE464"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/levitate"
+					criterion: ""
+					id: "7C1EEC280FA9E320"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:end_city/crystal_crusher"
+					criterion: ""
+					id: "0A203FCCCD7B6625"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:end_city/conqueror"
+					criterion: ""
+					id: "2FA6E886871A8A92"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["6BD5006517EE4E19"]
+			icon: {
+				id: "minecraft:chorus_flower"
+			}
+			id: "42A95B3C8812D2B5"
+			optional: true
+			rewards: [
+				{
+					id: "0E04460497E6AA12"
+					type: "xp"
+					xp: 690
+				}
+				{
+					id: "334E239E1E236414"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "stellarity:exploration/discover_all_biomes"
+					criterion: ""
+					id: "2F5B50C8B3E56B7E"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:exploration/keep_warm"
+					criterion: ""
+					id: "356E21D0BACD7090"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:husbandry/otherwordly_botanist"
+					criterion: ""
+					id: "6DD9C9186009A8F2"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BD5006517EE4E19"]
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "59247486A1DB7267"
+			rewards: [{
+				id: "5E1EA52AE6264C57"
+				type: "xp"
+				xp: 920
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "stellarity:void_fishing/void_reels"
+					criterion: ""
+					id: "2B034EA774624634"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:void_fishing/the_void_provides"
+					criterion: ""
+					id: "6422DB248FDA8B48"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:void_fishing/topped_off"
+					criterion: ""
+					id: "5F519F2D377258FF"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:adventure/postmortal_2"
+					criterion: ""
+					id: "7C34FE84D8ABC145"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["6BD5006517EE4E19"]
+			icon: {
+				id: "minecraft:glow_berries"
+			}
+			id: "17B55D1CEFE83737"
+			rewards: [{
+				id: "50CB2992E2E70994"
+				type: "xp"
+				xp: 1150
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "stellarity:exploration/enter_hallow"
+					criterion: ""
+					id: "326474AC644789E3"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:exploration/shimmer/transmute_item"
+					criterion: ""
+					id: "385DADBEE92615F4"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:exploration/shimmer/ambrosia"
+					criterion: ""
+					id: "1777679AE4DD76E1"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:exploration/duskberry/discover"
+					criterion: ""
+					id: "7F896E496781B45B"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:exploration/enter_chapel"
+					criterion: ""
+					id: "67D61850F86BE9A3"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"49F9D9F7A225DE8C"
+				"213347D1E2B6C676"
+			]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "3F369CB0D83A724B"
+			rewards: [{
+				id: "36BA6E4A0689B539"
+				type: "xp"
+				xp: 690
+			}]
+			tasks: [
+				{
+					advancement: "minecraft:end/elytra"
+					criterion: ""
+					id: "6BE0B2DC7EF4BECE"
+					type: "advancement"
+				}
+				{
+					id: "3E82DC78BE46BB53"
+					item: { count: 1, id: "minecraft:elytra" }
+					type: "item"
+				}
+				{
+					advancement: "stellarity:aota/dye_elytra"
+					criterion: ""
+					id: "11D514457245E3B1"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -2.6d
+		}
+		{
+			dependencies: [
+				"49F9D9F7A225DE8C"
+				"213347D1E2B6C676"
+			]
+			icon: {
+				id: "minecraft:shulker_box"
+			}
+			id: "7A599A16D3808754"
+			rewards: [{
+				id: "49DEC6CF5FE34DC7"
+				type: "xp"
+				xp: 690
+			}]
+			tasks: [
+				{
+					advancement: "stellarity:end_city/portable_storage"
+					criterion: ""
+					id: "55DB0D8967D51EF7"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:end_city/color_a_shulker_box"
+					criterion: ""
+					id: "1A651241081BD089"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:aota/craft_full_shulker_armor"
+					criterion: ""
+					id: "2AC119F38BAE11CF"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"17B55D1CEFE83737"
+				"213347D1E2B6C676"
+			]
+			icon: {
+				id: "minecraft:sweet_berries"
+			}
+			id: "7A337C28531ABF81"
+			optional: true
+			rewards: [
+				{
+					id: "6A36728363B15190"
+					type: "xp"
+					xp: 690
+				}
+				{
+					id: "106E867C16E66225"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "stellarity:exploration/duskberry/poor_life_choices"
+					criterion: ""
+					id: "78D20D834D35323C"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:pandoras_barrel/gloop_de_gloop"
+					criterion: ""
+					id: "277A6A46618D416B"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:pandoras_barrel/open_in_deep_dark"
+					criterion: ""
+					id: "273C79EBA0BAC21A"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.6d
+		}
+		{
+			dependencies: ["17B55D1CEFE83737"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "75ED702A9FA022A3"
+			rewards: [{
+				id: "765EDF9D261F0CF7"
+				type: "xp"
+				xp: 230
+			}]
+			tasks: [{
+				advancement: "stellarity:eol/summon_empress"
+				criterion: ""
+				id: "5C41DCF0DBBECBF5"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 2.6d
+		}
+		{
+			dependencies: [
+				"3F369CB0D83A724B"
+				"7A599A16D3808754"
+				"4B43E1B3751C3C4D"
+			]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "730020287343EDD1"
+			optional: true
+			rewards: [
+				{
+					id: "1AA99C42CA8C46F4"
+					type: "xp"
+					xp: 1610
+				}
+				{
+					id: "4344569E8D341FEF"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "stellarity:exploration/max_out_aery_sword"
+					criterion: ""
+					id: "5650D50CEEC991E9"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:exploration/spirit_assasin"
+					criterion: ""
+					id: "6A704C5E0B7963B4"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:dragons_den/disassembly"
+					criterion: ""
+					id: "787B6B57FD71D053"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:adventure/electrified"
+					criterion: ""
+					id: "6446028719A519B0"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:dragons_den/kaliyah"
+					criterion: ""
+					id: "70A1A873402C93F4"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:end_city/super_sonic"
+					criterion: ""
+					id: "6D5C0E59FE7A12AC"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:end_city/jeb_"
+					criterion: ""
+					id: "3D48F478EE2388D9"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -0.4d
+		}
+	]
+}

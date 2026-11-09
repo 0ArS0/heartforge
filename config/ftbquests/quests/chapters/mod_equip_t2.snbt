@@ -1,0 +1,301 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_equip_t2"
+	group: "0011E6E41EF0DECD"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "0C83CF2E0C7C4E19"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "4DC88D7680E8FD32"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "0142BADC8ACE4794"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"5F9D9957C0912EEF"
+				"35B92A081AC21CDB"
+				"4DC88D7680E8FD32"
+			]
+			icon: {
+				id: "simplyswords:diamond_longsword"
+			}
+			id: "1BDB4D8B64DD1618"
+			rewards: [{
+				id: "3CA4C36D87A4A376"
+				type: "xp"
+				xp: 240
+			}]
+			tasks: [
+				{
+					id: "712E7F7E4C910B91"
+					item: { count: 1, id: "simplyswords:diamond_longsword" }
+					type: "item"
+				}
+				{
+					id: "195E50B6739D6934"
+					item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+					type: "item"
+				}
+				{
+					id: "51724C3B7BC3FBF7"
+					item: { count: 1, id: "quark:pickarang" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"4DC88D7680E8FD32"
+			]
+			icon: {
+				id: "artifacts:aqua_dashers"
+			}
+			id: "50551A3C63EFE003"
+			optional: true
+			rewards: [
+				{
+					id: "54AEABD764F5A690"
+					type: "xp"
+					xp: 640
+				}
+				{
+					id: "5DB70EBE4212EFCD"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "0C03B9A97BE98DF3"
+					item: { count: 1, id: "artifacts:aqua_dashers" }
+					type: "item"
+				}
+				{
+					id: "165D9832BED10E95"
+					item: { count: 1, id: "artifacts:bunny_hoppers" }
+					type: "item"
+				}
+				{
+					id: "6D731C5FBAA73835"
+					item: { count: 1, id: "artifacts:running_shoes" }
+					type: "item"
+				}
+				{
+					id: "12260EA8117B808B"
+					item: { count: 1, id: "artifacts:snowshoes" }
+					type: "item"
+				}
+				{
+					id: "2171A0E7097F8359"
+					item: { count: 1, id: "artifacts:steadfast_spikes" }
+					type: "item"
+				}
+				{
+					id: "25B21B25845E218E"
+					item: { count: 1, id: "artifacts:flippers" }
+					type: "item"
+				}
+				{
+					id: "3A63FAF2B2F377CF"
+					item: { count: 1, id: "artifacts:rooted_boots" }
+					type: "item"
+				}
+				{
+					id: "0AED895BCF0B43FD"
+					item: { count: 1, id: "artifacts:strider_shoes" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"4DC88D7680E8FD32"
+			]
+			icon: {
+				id: "artifacts:digging_claws"
+			}
+			id: "1B827454B2445C22"
+			optional: true
+			rewards: [
+				{
+					id: "7CDF1AE6E908DAAD"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "6E5E26E710FC57B1"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "393E4E1C3B7ACFEA"
+					item: { count: 1, id: "artifacts:digging_claws" }
+					type: "item"
+				}
+				{
+					id: "1612283D8D3246FD"
+					item: { count: 1, id: "artifacts:feral_claws" }
+					type: "item"
+				}
+				{
+					id: "66903A3328506EBF"
+					item: { count: 1, id: "artifacts:pocket_piston" }
+					type: "item"
+				}
+				{
+					id: "2EB96FEEDD24CAAB"
+					item: { count: 1, id: "artifacts:onion_ring" }
+					type: "item"
+				}
+				{
+					id: "2EB1989DA8EDF21F"
+					item: { count: 1, id: "artifacts:pickaxe_heater" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"4DC88D7680E8FD32"
+			]
+			icon: {
+				id: "artifacts:antidote_vessel"
+			}
+			id: "21648039ED2797F1"
+			optional: true
+			rewards: [
+				{
+					id: "1480B3A8852FF7B7"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0894ED0C5132B6D8"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2253FFEE06096AC7"
+					item: { count: 1, id: "artifacts:antidote_vessel" }
+					type: "item"
+				}
+				{
+					id: "4CF804FFA7A0771A"
+					item: { count: 1, id: "artifacts:universal_attractor" }
+					type: "item"
+				}
+				{
+					id: "775859EB5EA1D480"
+					item: { count: 1, id: "artifacts:helium_flamingo" }
+					type: "item"
+				}
+				{
+					id: "37843E273420E977"
+					item: { count: 1, id: "artifacts:night_vision_goggles" }
+					type: "item"
+				}
+				{
+					id: "1CABD8B71AF0ABC9"
+					item: { count: 1, id: "artifacts:charm_of_sinking" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"4DC88D7680E8FD32"
+			]
+			icon: {
+				id: "artifacts:charm_of_shrinking"
+			}
+			id: "0DA297ED3244D66D"
+			optional: true
+			rewards: [
+				{
+					id: "08CC4B19EEF05254"
+					type: "xp"
+					xp: 320
+				}
+				{
+					id: "23E54261680C8414"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "784EAEC95539CC25"
+					item: { count: 1, id: "artifacts:charm_of_shrinking" }
+					type: "item"
+				}
+				{
+					id: "22006283E3AE0CA8"
+					item: { count: 1, id: "artifacts:kitty_slippers" }
+					type: "item"
+				}
+				{
+					id: "49527212843E34F6"
+					item: { count: 1, id: "artifacts:umbrella" }
+					type: "item"
+				}
+				{
+					id: "68B1A8AB8CB1B41B"
+					item: { count: 1, id: "artifacts:whoopee_cushion" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+	]
+}

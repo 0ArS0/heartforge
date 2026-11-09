@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_myths_t6"
+	group: "3DAD9C4C9DD26814"
+	icon: {
+		id: "comamigos_balance:tier_heart_6"
+	}
+	id: "04D6AFA9CB277EC1"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_6"
+			}
+			id: "19EA3BE559D4507C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "44704A58FA489899"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"7AC9F56BE4EAB307"
+				"19EA3BE559D4507C"
+			]
+			icon: {
+				id: "comamigos_balance:amarok_heart"
+			}
+			id: "16EBD1E21262CDD5"
+			rewards: [{
+				id: "49A6897C9E6C3A10"
+				type: "xp"
+				xp: 800
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "mythsandlegends:howl_of_the_lonely_end"
+					criterion: ""
+					id: "4EE089CE446C5B86"
+					type: "advancement"
+				}
+				{
+					advancement: "mythsandlegends:forged_by_frost"
+					criterion: ""
+					id: "6221B7B33E39D988"
+					type: "advancement"
+				}
+				{
+					id: "6651DCE22BFD9261"
+					item: { count: 1, id: "mythsandlegends:nightfrost_dagger" }
+					type: "item"
+				}
+				{
+					advancement: "mythsandlegends:whisper_of_the_northern_spirit"
+					criterion: ""
+					id: "657B3DA208C9D485"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5A79EBB09EF2D768"
+				"4248424CBBCE697D"
+				"19EA3BE559D4507C"
+			]
+			icon: {
+				id: "comamigos_balance:abaddon_heart"
+			}
+			id: "0C9E518CE94E7679"
+			rewards: [{
+				id: "4BF121ED53E0FA8C"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mythsandlegends:abaddon"
+					id: "2D82158644D510C2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "76F3CDE5A84D239C"
+					item: { count: 1, id: "mythsandlegends:core_of_abaddon" }
+					type: "item"
+				}
+				{
+					id: "155416844949CA51"
+					item: { count: 1, id: "mythsandlegends:molten_fist" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"16EBD1E21262CDD5"
+				"0C9E518CE94E7679"
+				"6E007357A106B35F"
+				"585ADC9C690DE31B"
+			]
+			id: "37F7C1102B3855F0"
+			rewards: [
+				{
+					id: "7376B65C24602994"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "4B41A564F51D735E"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "124BD15E31E2D3B1"
+					item: { count: 1, id: "mythsandlegends:higa_amulet" }
+					type: "item"
+				}
+				{
+					advancement: "mythsandlegends:misc/arcane_knowledge"
+					criterion: ""
+					id: "74D94BFBC2A85FDA"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+	]
+}

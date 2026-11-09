@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_iceandfire_t4"
+	group: "6BE2CA13D0D2A15E"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "0EEA59BD1E338AF1"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "55C3AD489A0A30F0"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "2CB5E3721AAC1E32"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"48362BCF60A51A13"
+				"55C3AD489A0A30F0"
+			]
+			icon: {
+				id: "iceandfire:gorgon_head"
+			}
+			id: "215C3030C11A7FD7"
+			rewards: [{
+				id: "4AE2F9A8B74D7CA6"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5D955AAA4F2B3E03"
+					item: { count: 1, id: "iceandfire:blindfold" }
+					type: "item"
+				}
+				{
+					entity: "iceandfire:gorgon"
+					id: "0B06261D2414E14C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "iceandfire:iceandfire/gorgon_head"
+					criterion: ""
+					id: "70DF02AA6DB5C25B"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48362BCF60A51A13"
+				"55C3AD489A0A30F0"
+			]
+			icon: {
+				id: "iceandfire:dread_shard"
+			}
+			id: "3836D08B94670D55"
+			rewards: [{
+				id: "7B9ACF7BAA6C636C"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "7E5F1B121908E6F0"
+					item: { count: 1, id: "iceandfire:dread_shard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C155BDDA3D38DE3"
+					item: { count: 1, id: "iceandfire:dread_torch" }
+					type: "item"
+				}
+				{
+					id: "66760F55C8A85773"
+					item: { count: 1, id: "iceandfire:dread_sword" }
+					type: "item"
+				}
+				{
+					id: "7A39839BC4E93793"
+					item: { count: 1, id: "iceandfire:dread_knight_sword" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"40E1326D51A244F7"
+				"369E9A2859B87BD1"
+				"55C3AD489A0A30F0"
+			]
+			icon: {
+				id: "iceandfire:dragon_seeker"
+			}
+			id: "0C56988A1EE3853A"
+			rewards: [{
+				id: "3F6915633B3CBC36"
+				type: "xp"
+				xp: 420
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "3349C6AB64CC293B"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+				{
+					id: "0E823DFACFF1AE0A"
+					item: { count: 1, id: "iceandfire:dragon_seeker" }
+					type: "item"
+				}
+				{
+					id: "52F59FE496188A6D"
+					item: { count: 1, id: "iceandfire:netherite_hippogryph_armor" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+	]
+}

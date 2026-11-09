@@ -1,0 +1,448 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_occultism_t4"
+	group: "46A9BB1E2D819F6E"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "3F2BE2674941973F"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "4C1FD836349BC7C1"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "240051378317CCDC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59EC7D96ADE3A3C1"
+				"363AECA4F200A93D"
+				"61B372EAFAF2F1E0"
+				"4C1FD836349BC7C1"
+			]
+			icon: {
+				id: "occultism:afrit_essence"
+			}
+			id: "7B0226D09B54908B"
+			rewards: [{
+				id: "488194DB8745195D"
+				type: "xp"
+				xp: 560
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5B5F96DB94B8476B"
+					item: { components: { "occultism:spirit_name": "Valkeller" }, count: 1, id: "occultism:book_of_binding_bound_afrit" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/summon_unbound_afrit"
+					criterion: ""
+					id: "0A6537B2429C0585"
+					type: "advancement"
+				}
+				{
+					entity: "occultism:afrit_wild"
+					id: "5CC4954F75DD542A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "6D9D39235902BAED"
+					item: { count: 1, id: "occultism:afrit_essence" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B0226D09B54908B"]
+			icon: {
+				id: "occultism:chalk_red"
+			}
+			id: "74FD8A8D221A1950"
+			rewards: [{
+				id: "64A9E2D118B09136"
+				type: "xp"
+				xp: 420
+			}]
+			tasks: [
+				{
+					id: "5C1AECF183786FA1"
+					item: { count: 1, id: "occultism:chalk_red" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/summon_afrit_crusher"
+					criterion: ""
+					id: "2C0AE6185B57EF26"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/summon_afrit_smelter"
+					criterion: ""
+					id: "1BA869D783558471"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74FD8A8D221A1950"]
+			icon: {
+				id: "occultism:demonic_meat"
+			}
+			id: "36F3586485B49E21"
+			rewards: [
+				{
+					id: "006D4C4D3E586657"
+					type: "xp"
+					xp: 840
+				}
+				{
+					id: "1B4B38D3C7591FA8"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "occultism:occultism/possess_zombie_piglin"
+					criterion: ""
+					id: "7453D6E175BC80F8"
+					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "5E6A5B99587BB02B"
+					item: { count: 1, id: "occultism:demonic_meat" }
+					type: "item"
+				}
+				{
+					id: "7B6464852012B0C1"
+					item: { count: 1, id: "occultism:chalk_pink" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/possess_hoglin"
+					criterion: ""
+					id: "1A48D710F7299371"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/possess_warden"
+					criterion: ""
+					id: "45E8033690BF13F5"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_guardian"
+					criterion: ""
+					id: "04EE5DE823FEF698"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["74FD8A8D221A1950"]
+			icon: {
+				id: "occultism:iesnium_sacrificial_bowl"
+			}
+			id: "664AFB50A92C9BED"
+			rewards: [{
+				id: "0956D2D5429A4534"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "654B322E1939BF53"
+					item: { count: 1, id: "occultism:iesnium_sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					id: "303CC36287890CC9"
+					item: { count: 1, id: "occultism:netherite_dust" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "081F2A68AECF8146"
+					item: { count: 1, id: "occultism:witherite_dust" }
+					type: "item"
+				}
+				{
+					id: "4CFB072CD206AA12"
+					item: { count: 1, id: "occultism:chalk_black" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/repair_tools"
+					criterion: ""
+					id: "6FE084E571D20B21"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["36F3586485B49E21"]
+			id: "44365CC79B889630"
+			optional: true
+			rewards: [
+				{
+					id: "60FA1A8147B84B14"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "0916FA8BD6328DBA"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_afrit_rain_weather"
+					criterion: ""
+					id: "243247360B4098F9"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/summon_afrit_crystallizer"
+					criterion: ""
+					id: "509A52E566DD698E"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/possess_guardian"
+					criterion: ""
+					id: "6D9E723E5567A487"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/possess_elder_guardian"
+					criterion: ""
+					id: "05779B1992B380D0"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -2.13d
+		}
+		{
+			dependencies: [
+				"36F3586485B49E21"
+				"1A303BE95E49478A"
+				"40035FB3D62CD07F"
+			]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "7434C2EA43545265"
+			rewards: [{
+				id: "7A0DC8DA45AFB33C"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "occultism:occultism/wild_hunt"
+					criterion: ""
+					id: "106F96E158C35B67"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "0EECEFB09DB24444"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/wild_horde_illager"
+					criterion: ""
+					id: "3AB0BD2FFC8D5AAB"
+					type: "advancement"
+				}
+				{
+					id: "3A20BF4ECC36A83E"
+					item: { count: 1, id: "minecraft:totem_of_undying" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.53d
+		}
+		{
+			dependencies: [
+				"664AFB50A92C9BED"
+				"0AB4579CA0C63A42"
+				"1878D8FF0E07B052"
+				"36F3586485B49E21"
+			]
+			icon: {
+				id: "occultism:dimensional_battlefield"
+			}
+			id: "1B0A08B27D53D9B0"
+			rewards: [{
+				id: "1A3E7114F8EB2DFD"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5826EF039D7BCA16"
+					item: { count: 1, id: "occultism:ritual_satchel_t2" }
+					type: "item"
+				}
+				{
+					id: "49F606CC7CE7679D"
+					item: { count: 1, id: "occultism:iesnium_butcher_knife" }
+					type: "item"
+				}
+				{
+					id: "04A765501F99F681"
+					item: { count: 1, id: "occultism:storage_stabilizer_tier3" }
+					type: "item"
+				}
+				{
+					id: "395E20196243086E"
+					item: { count: 1, id: "occultism:miner_afrit_deeps" }
+					type: "item"
+				}
+				{
+					id: "4B0B1ED2AE7A65E9"
+					item: { count: 1, id: "occultism:dimensional_battlefield" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.07d
+		}
+		{
+			dependencies: ["7434C2EA43545265"]
+			id: "0376E714AB157DD5"
+			optional: true
+			rewards: [
+				{
+					id: "45C64F38B112B0B0"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "49C5714011549416"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "occultism:occultism/wild_weak_breeze"
+					criterion: ""
+					id: "59FC4A05B2EA5B5E"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/wild_strong_breeze"
+					criterion: ""
+					id: "1D0B310B9E32CBDF"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/misc_reinforced_deepslate"
+					criterion: ""
+					id: "5F6D92BBAF5F0165"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -1.33d
+		}
+		{
+			dependencies: ["7434C2EA43545265"]
+			id: "026F4124DEEFAD76"
+			optional: true
+			rewards: [
+				{
+					id: "121E75E903BC869A"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "16359E28B6F46819"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "occultism:occultism/wild_husk"
+					criterion: ""
+					id: "12008A0A699B4F6E"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/misc_iron_horse_armor"
+					criterion: ""
+					id: "59848807CC8653D9"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/wild_random_animal_common"
+					criterion: ""
+					id: "29C133625F9F8DA3"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/misc_budding_amethyst"
+					criterion: ""
+					id: "53777EB1FD7A5FC2"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.27d
+		}
+	]
+}

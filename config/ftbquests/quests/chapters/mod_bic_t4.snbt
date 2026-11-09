@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bic_t4"
+	group: "13EF259E1ADFAB3C"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "18374CE8605B41BA"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "7549FAD10778F2AD"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "2F6E3D8C8750F088"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"50BAEAD6786FA6BA"
+				"7549FAD10778F2AD"
+			]
+			id: "260D9C335AC3B79F"
+			rewards: [
+				{
+					id: "302F44EAE2128E1E"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "5ED088AA456F3A14"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "05232C07D92AAFA6"
+					item: { count: 1, id: "born_in_chaos_v1:dark_upgrade" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "21142D5DE4264255"
+					item: { count: 1, id: "born_in_chaos_v1:armor_plate_from_dark_metal" }
+					type: "item"
+				}
+				{
+					id: "1424B22A7AB78CDC"
+					item: { count: 1, id: "born_in_chaos_v1:dark_metal_armor_chestplate" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:chaos_knight"
+					criterion: ""
+					id: "695C4503AE131D9F"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"502479F134CE6795"
+				"7549FAD10778F2AD"
+			]
+			id: "513B0BFE29339ADC"
+			rewards: [
+				{
+					id: "105888510F867E17"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "5D772D55F1CD2755"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:bone_imp"
+					id: "4EE468B2C657AD63"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:firelight"
+					id: "442F810BECF13ECE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "12B8BA1860EBD630"
+					item: { count: 1, id: "born_in_chaos_v1:soulbane" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"06805654D5066478"
+				"7549FAD10778F2AD"
+			]
+			icon: {
+				id: "comamigos_balance:krampus_heart"
+			}
+			id: "4247BE113531A88E"
+			rewards: [
+				{
+					id: "17290A43008FDD78"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "5C5FB614289FE33C"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:naughty_child"
+					criterion: ""
+					id: "6AA084741E6866D8"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:wrong_santa"
+					criterion: ""
+					id: "128F4A5FFE9BC515"
+					type: "advancement"
+				}
+				{
+					id: "4542F2F58B506B37"
+					item: { count: 1, id: "born_in_chaos_v1:stormcallers_horn" }
+					type: "item"
+				}
+				{
+					id: "55CDFD8B8CAED18A"
+					item: { count: 1, id: "born_in_chaos_v1:elixirof_ice_barrier" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+	]
+}

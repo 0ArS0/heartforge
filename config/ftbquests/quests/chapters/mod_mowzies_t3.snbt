@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_mowzies_t3"
+	group: "3BC9864E9D9AF49B"
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "5001C19688AAA4E1"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "5EAC5025A873BF53"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "1A7BA4E1DF20168F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"204DF7B033FAEB9A"
+				"5EAC5025A873BF53"
+			]
+			icon: {
+				id: "comamigos_balance:wroughtnaut_heart"
+			}
+			id: "1825F5DD85056D5E"
+			rewards: [
+				{
+					id: "0CD3C2566B7235A8"
+					type: "xp"
+					xp: 330
+				}
+				{
+					id: "382BDF8CFE9106DD"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "0CB6E829211F3E19"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5C2780CB16297288"
+					item: { count: 1, id: "mowziesmobs:wrought_axe" }
+					type: "item"
+				}
+				{
+					id: "7546F77D950C77BC"
+					item: { count: 1, id: "mowziesmobs:wrought_helmet" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6838CE95DB097F9A"
+				"5EAC5025A873BF53"
+			]
+			icon: {
+				id: "mowziesmobs:naga_fang"
+			}
+			id: "35DD9F2EF17A0208"
+			rewards: [
+				{
+					id: "71616179373CAEF2"
+					type: "xp"
+					xp: 330
+				}
+				{
+					id: "65293E68DDC9920A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mowziesmobs:kill_naga"
+					criterion: ""
+					id: "36385E7BF2369EDF"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "4F4EA52AFE91A6F8"
+					item: { count: 1, id: "mowziesmobs:naga_fang" }
+					type: "item"
+				}
+				{
+					id: "4DE2429D1EDE78D1"
+					item: { count: 1, id: "mowziesmobs:naga_fang_dagger" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"052FA5D9043F1425"
+				"5EAC5025A873BF53"
+			]
+			icon: {
+				id: "mowziesmobs:bluff_rod"
+			}
+			id: "7C3CBDA00C6EAD4B"
+			rewards: [{
+				id: "384E8FBE17D7F2FC"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "mowziesmobs:kill_bluff"
+					criterion: ""
+					id: "37DF860A8651C657"
+					type: "advancement"
+				}
+				{
+					id: "43BED54BC702FA91"
+					item: { count: 1, id: "mowziesmobs:bluff_rod" }
+					type: "item"
+				}
+				{
+					id: "0C5DBFE01736D99C"
+					item: { count: 1, id: "mowziesmobs:sand_rake" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "456D26AD8F065871"
+					item: { count: 1, id: "mowziesmobs:raked_sand" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+	]
+}

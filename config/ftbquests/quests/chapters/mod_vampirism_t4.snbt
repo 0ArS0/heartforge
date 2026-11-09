@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_vampirism_t4"
+	group: "3147F27B282022B5"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "0884371BEF8C8DC3"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "56B355942F67E66D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "7B3E302BA5C7E5B6"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"5D9615D12D75EA10"
+				"56B355942F67E66D"
+			]
+			id: "34E06C5191F110B7"
+			rewards: [
+				{
+					id: "51F59A764DB98A95"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "787DC3B9BBBCA2E3"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "372D250BBE3C68CF"
+					item: { count: 1, id: "vampirism:heart_seeker_ultimate" }
+					type: "item"
+				}
+				{
+					id: "095B9AD1DA016F3C"
+					item: { count: 1, id: "vampirism:heart_striker_ultimate" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:vampire/max_lord"
+					criterion: ""
+					id: "6DEF64EC50DEC07A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"00989E0EBBF7BC05"
+				"40AFA827B348878A"
+				"56B355942F67E66D"
+			]
+			id: "66EC12370C4C7E9F"
+			rewards: [
+				{
+					id: "1FD4034035EBE944"
+					type: "xp"
+					xp: 840
+				}
+				{
+					id: "607D79845B9CD475"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "685B92BD9FAA71E1"
+					item: { count: 1, id: "vampirism:hunter_axe_ultimate" }
+					type: "item"
+				}
+				{
+					id: "15F040CEB1101F48"
+					item: { count: 1, id: "vampirism:hunter_coat_head_ultimate" }
+					type: "item"
+				}
+				{
+					id: "2C5F051EBF292322"
+					item: { count: 1, id: "vampirism:hunter_coat_chest_ultimate" }
+					type: "item"
+				}
+				{
+					id: "6B3D5B34367A06A3"
+					item: { count: 1, id: "vampirism:hunter_coat_legs_ultimate" }
+					type: "item"
+				}
+				{
+					id: "50A7CE0764920A2C"
+					item: { count: 1, id: "vampirism:hunter_coat_feet_ultimate" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:hunter/max_lord"
+					criterion: ""
+					id: "0FCDF320F62928EE"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "Glowing-Trims-NeoForge-1.0.0+1.21.1"
+filename = "Glowing-Trims-NeoForge-1.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/i0bWsYUA/versions/N2p0R9hn/Glowing-Trims-NeoForge-1.0.0%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "bb72b102cb102575c83615d4f6e96929497ab5bf"
+
+[update]
+[update.modrinth]
+mod-id = "i0bWsYUA"
+version = "N2p0R9hn"

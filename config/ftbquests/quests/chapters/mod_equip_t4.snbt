@@ -1,0 +1,207 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_equip_t4"
+	group: "0011E6E41EF0DECD"
+	icon: {
+		id: "comamigos_balance:tier_heart_4"
+	}
+	id: "5E2F2B52E1542E59"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "00DD63009B07231A"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "1C310A361F7AEB6F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"1BDB4D8B64DD1618"
+				"00DD63009B07231A"
+			]
+			icon: {
+				id: "simplyswords:netherite_longsword"
+			}
+			id: "032A29D953157D12"
+			rewards: [{
+				id: "583F83DEDCEB869A"
+				type: "xp"
+				xp: 420
+			}]
+			tasks: [
+				{
+					id: "27E2BCB87D5324F8"
+					item: { count: 1, id: "simplyswords:netherite_longsword" }
+					type: "item"
+				}
+				{
+					id: "6F4893867FDBF70F"
+					item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+					type: "item"
+				}
+				{
+					id: "3D63F65E9121A270"
+					item: { count: 1, id: "quark:flamerang" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"777BF2A11EEA285C"
+				"00DD63009B07231A"
+			]
+			icon: {
+				id: "artifacts:vampiric_glove"
+			}
+			id: "11181940DD2C74CF"
+			optional: true
+			rewards: [
+				{
+					id: "0B8F21E2E27E5A6C"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "7F4CAF79E9E47409"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71F97D4851725FC0"
+					item: { count: 1, id: "artifacts:vampiric_glove" }
+					type: "item"
+				}
+				{
+					id: "2E635904FC2318F7"
+					item: { count: 1, id: "artifacts:chorus_totem" }
+					type: "item"
+				}
+				{
+					id: "7B45FAFEFFF30836"
+					item: { count: 1, id: "artifacts:warp_drive" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"00DD63009B07231A"
+			]
+			icon: {
+				id: "simplyswords:decaying_relic"
+			}
+			id: "6AE7FAD50FA4E1C3"
+			optional: true
+			rewards: [
+				{
+					id: "08BE835D1931B517"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "709F84A5814BC1DC"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "6D1FD730028CDBD4"
+					item: { count: 1, id: "simplyswords:decaying_relic" }
+					type: "item"
+				}
+				{
+					id: "5FB9979DB4A47924"
+					item: { count: 1, id: "simplyswords:magiblade" }
+					type: "item"
+				}
+				{
+					id: "6F8E6A944905F61F"
+					item: { count: 1, id: "simplyswords:magiscythe" }
+					type: "item"
+				}
+				{
+					id: "5D4B6D62A35F1E47"
+					item: { count: 1, id: "simplyswords:magispear" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"00DD63009B07231A"
+			]
+			icon: {
+				id: "simplyswords:dormant_relic"
+			}
+			id: "03F6464A8E9D7C2B"
+			optional: true
+			rewards: [
+				{
+					id: "6F946FC933B94319"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "1D903A1807F660CD"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3891C7C933371AE7"
+					item: { count: 1, id: "simplyswords:dormant_relic" }
+					type: "item"
+				}
+				{
+					id: "52AC7DCD7F6EB68C"
+					item: { count: 1, id: "simplyswords:righteous_relic" }
+					type: "item"
+				}
+				{
+					id: "05B7AEE53DAAD918"
+					item: { count: 1, id: "simplyswords:tainted_relic" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+	]
+}

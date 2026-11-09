@@ -1,0 +1,359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_botania_t7"
+	group: "0BD654FB0C580B11"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "16FA91479CD6DF67"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "16470F5BAEC32446"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "637E574441254946"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"263E934345438682"
+				"2E78C088BCCC2A2E"
+				"16470F5BAEC32446"
+			]
+			icon: {
+				id: "botania:corporea_index"
+			}
+			id: "3B6B12E014D9A67E"
+			rewards: [
+				{
+					id: "37397128364EA23B"
+					type: "xp"
+					xp: 1380
+				}
+				{
+					id: "22C1B61D89B80A27"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "41B1705615E3362F"
+					item: { count: 1, id: "botania:ender_air_bottle" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/ender_air_make"
+					criterion: ""
+					id: "31238C1777B1D9B1"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "3EBB47186328A8C7"
+					item: { count: 1, id: "botania:corporea_spark" }
+					type: "item"
+				}
+				{
+					id: "769FBAA76150DD76"
+					item: { count: 1, id: "botania:corporea_spark_master" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/corporea_craft"
+					criterion: ""
+					id: "6861BD4BB7B23B47"
+					type: "advancement"
+				}
+				{
+					id: "02FA474DC61FE883"
+					item: { count: 1, id: "botania:corporea_index" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3FC82BD8620C48BC"
+				"4D322CEA04C69A3E"
+				"16470F5BAEC32446"
+			]
+			icon: {
+				id: "botania:ancient_will_ahrim"
+			}
+			id: "255D4948A81559F8"
+			rewards: [{
+				id: "166DF03A0CE7718A"
+				type: "xp"
+				xp: 230
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "botania:challenge/gaia_guardian_hardmode"
+				criterion: ""
+				id: "48D79B6D002B4D59"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"3B6B12E014D9A67E"
+				"58F7B86FFA38F404"
+				"6983BDB8094AEFAC"
+			]
+			icon: {
+				id: "botania:flight_tiara"
+			}
+			id: "3DA86C9D72D11555"
+			rewards: [
+				{
+					id: "032C828FBC117E4E"
+					type: "xp"
+					xp: 920
+				}
+				{
+					id: "1905491CC6851A85"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "487C21AAC13AA9E7"
+					item: { count: 1, id: "botania:flight_tiara" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/tiara_wings"
+					criterion: ""
+					id: "3F2D08C4900A5037"
+					type: "advancement"
+				}
+				{
+					id: "33453F148EFD8D3C"
+					item: { count: 1, id: "botania:star_sword" }
+					type: "item"
+				}
+				{
+					id: "7E96A161A177ADDA"
+					item: { count: 1, id: "botania:thunder_sword" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.88d
+		}
+		{
+			dependencies: ["3B6B12E014D9A67E"]
+			icon: {
+				id: "botania:corporea_crystal_cube"
+			}
+			id: "0E5B2A770DDDEC7A"
+			optional: true
+			rewards: [
+				{
+					id: "745AFD565C0F0872"
+					type: "xp"
+					xp: 920
+				}
+				{
+					id: "1EDA20B770781FC6"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "354EDD9C674A23AE"
+					item: { count: 1, id: "botania:corporea_funnel" }
+					type: "item"
+				}
+				{
+					id: "0EFB872304AD7618"
+					item: { count: 1, id: "botania:corporea_retainer" }
+					type: "item"
+				}
+				{
+					id: "2CF45A460B9D28BE"
+					item: { count: 1, id: "botania:corporea_interceptor" }
+					type: "item"
+				}
+				{
+					id: "7C2A39D2D8B63923"
+					item: { count: 1, id: "botania:corporea_crystal_cube" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.28d
+		}
+		{
+			dependencies: ["3B6B12E014D9A67E"]
+			icon: {
+				id: "botania:light_relay"
+			}
+			id: "6DD6D8B35BB18E9A"
+			optional: true
+			rewards: [
+				{
+					id: "133C66EABD06B1B8"
+					type: "xp"
+					xp: 920
+				}
+				{
+					id: "217A1267EF8808C0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "078FE56DD154A5B0"
+					item: { count: 1, id: "botania:red_string" }
+					type: "item"
+				}
+				{
+					id: "25C90BD75E6D6407"
+					item: { count: 1, id: "botania:red_string_container" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4150D13B3201E09C"
+					item: { count: 1, id: "botania:light_relay" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/luminizer_ride"
+					criterion: ""
+					id: "1AF231AE315B7724"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.32d
+		}
+		{
+			dependencies: [
+				"3B6B12E014D9A67E"
+				"6983BDB8094AEFAC"
+			]
+			icon: {
+				id: "botania:black_hole_talisman"
+			}
+			id: "60D606AC93E577EB"
+			optional: true
+			rewards: [
+				{
+					id: "61C13A2B97C06086"
+					type: "xp"
+					xp: 690
+				}
+				{
+					id: "652F6A04224CDBFE"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13566E5FA1C2C2C7"
+					item: { count: 1, id: "botania:black_hole_talisman" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/spawner_mover_use"
+					criterion: ""
+					id: "2EEE3483B54ABAB0"
+					type: "advancement"
+				}
+				{
+					id: "025D0977B7A33C06"
+					item: { count: 1, id: "botania:keep_ivy" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.92d
+		}
+		{
+			dependencies: [
+				"255D4948A81559F8"
+				"1BA49C53223F4120"
+			]
+			icon: {
+				id: "botania:gaia_head"
+			}
+			id: "5A50EE4FE6974A8F"
+			optional: true
+			rewards: [
+				{
+					id: "539D56CB3B995610"
+					type: "xp"
+					xp: 460
+				}
+				{
+					id: "32E9647EEAD04B14"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D186A0D0FF1A2CE"
+					item: { count: 1, id: "botania:gaia_head" }
+					type: "item"
+				}
+				{
+					advancement: "botania:challenge/pinkinator"
+					criterion: ""
+					id: "2DC898F82E521CF5"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 3.52d
+		}
+	]
+}

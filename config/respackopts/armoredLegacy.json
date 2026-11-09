@@ -1,0 +1,6 @@
+{
+    defaultIronHelmet: "noVisor",
+    defaultDiamondHelmet: "noVisor",
+    defaultNetheriteHelmet: "noVisor",
+    defaultLeatherCap: "noGoggles"
+}

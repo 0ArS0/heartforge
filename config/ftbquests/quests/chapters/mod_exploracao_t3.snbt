@@ -1,0 +1,215 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_exploracao_t3"
+	group: "48BF15FF65B85345"
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "77BCFD03866A0B5B"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "5F6132A097733C71"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "6019CCD06A57D159"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"55B2E9D8A18C4E0C"
+				"5F6132A097733C71"
+			]
+			icon: {
+				id: "minecraft:sculk_sensor"
+			}
+			id: "7F3D2E313FF91689"
+			rewards: [{
+				id: "0E999DAE824054F3"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/avoid_vibration"
+					criterion: ""
+					id: "61061D5D7206BFCA"
+					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "3B5DB58F6665DE9C"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+				{
+					id: "67B2BAFB7E383646"
+					item: { count: 1, id: "minecraft:recovery_compass" }
+					type: "item"
+				}
+				{
+					advancement: "dungeons_arise:find_plague_asylum"
+					criterion: ""
+					id: "256634B4047E6024"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6905AE658E6B7C19"
+				"285290788BC1442F"
+				"5F6132A097733C71"
+			]
+			icon: {
+				id: "minecraft:iron_bars"
+			}
+			id: "6381000109BACD57"
+			rewards: [
+				{
+					id: "3588DD8C0AF7727C"
+					type: "xp"
+					xp: 330
+				}
+				{
+					id: "69CD608655C011BA"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_thornborn_towers"
+					criterion: ""
+					id: "2738C0A82A381851"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_mechanical_nest"
+					criterion: ""
+					id: "3BFA81CAE0349B79"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_typhon"
+					criterion: ""
+					id: "191BC64814872FBB"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"26018DA8809EDC3E"
+				"5DAD70DC22E50855"
+				"5F6132A097733C71"
+			]
+			icon: {
+				id: "minecraft:heavy_core"
+			}
+			id: "53DF0506AF4BB28E"
+			rewards: [{
+				id: "48609BBD6462C908"
+				type: "xp"
+				xp: 330
+			}]
+			tasks: [
+				{
+					id: "0A6757734531D802"
+					item: { count: 1, id: "minecraft:ominous_bottle" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/revaulting"
+					criterion: ""
+					id: "3A60C249EF34464A"
+					type: "advancement"
+				}
+				{
+					id: "36AA86ED2AD48F60"
+					item: { count: 1, id: "minecraft:heavy_core" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"31E147B35E5DA844"
+				"285290788BC1442F"
+				"5F6132A097733C71"
+			]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "0770BC4A276D2870"
+			optional: true
+			rewards: [
+				{
+					id: "04F088FE551D6E43"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "0E4C91305AE0C999"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/adventuring_time"
+					criterion: ""
+					id: "1F0AB3A3A2B99C1A"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/true_traveler"
+					criterion: ""
+					id: "1AC3AC1C13E21DB2"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone"
+					criterion: ""
+					id: "3FDBC6AC2C2F9265"
+					type: "advancement"
+				}
+				{
+					advancement: "hopo:minecraft/adventure/locate_all_underwater_structures"
+					criterion: ""
+					id: "33CAC8675BBD0361"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+	]
+}

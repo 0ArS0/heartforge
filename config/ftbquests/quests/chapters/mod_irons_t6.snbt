@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_irons_t6"
+	group: "5955ECC104DC966A"
+	icon: {
+		id: "comamigos_balance:tier_heart_6"
+	}
+	id: "75FD80B12404FDDC"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_6"
+			}
+			id: "422D477AF8A2CBB1"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "0977E54E2E52485E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6752CA2CC8AB08E0"
+				"6652964DC061A061"
+				"422D477AF8A2CBB1"
+			]
+			icon: {
+				id: "irons_spellbooks:legendary_ink"
+			}
+			id: "4BFBBBB75822254A"
+			rewards: [{
+				id: "41ECA8B9D0758684"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/ink_legendary"
+					criterion: ""
+					id: "10D0B6FCC91A0CA3"
+					type: "advancement"
+				}
+				{
+					id: "731779DE10E01C64"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:volt_strike", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:twilight_gale" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

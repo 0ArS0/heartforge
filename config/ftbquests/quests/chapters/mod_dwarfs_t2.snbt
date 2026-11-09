@@ -1,0 +1,304 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_dwarfs_t2"
+	group: "7E685056D4C815C1"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "5560B7D11DEB46F8"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "51660FEE081F6EC2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "72DCB3A5128677F0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"79274920DF264641"
+				"51660FEE081F6EC2"
+			]
+			icon: {
+				id: "dwarfs_tyranny:mythril_armor_chestplate"
+			}
+			id: "3AFA1F709923C4DE"
+			rewards: [{
+				id: "5C4E748AE59AA054"
+				type: "xp"
+				xp: 240
+			}]
+			tasks: [
+				{
+					id: "2DC13C12D1E34285"
+					item: { count: 1, id: "dwarfs_tyranny:mythril_sword" }
+					type: "item"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/tools_of_the_deep"
+					criterion: ""
+					id: "7ED1DF27BF70FE02"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/clad_in_mythril"
+					criterion: ""
+					id: "0403BD0C523D4131"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"56B87FA85FC88CF2"
+				"51660FEE081F6EC2"
+			]
+			icon: {
+				id: "dwarfs_tyranny:dwarf_armor_helmet"
+			}
+			id: "14044642BD919658"
+			rewards: [{
+				id: "4ED206289B1638FB"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "dwarfs_tyranny:progression/hard_labor"
+					criterion: ""
+					id: "1F19B5B39AFAE575"
+					type: "advancement"
+				}
+				{
+					id: "17EE98D132DE33C8"
+					item: { count: 1, id: "dwarfs_tyranny:jeweler_dwarf_egg" }
+					type: "item"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/reliable_hands"
+					criterion: ""
+					id: "0768290C5285FDCF"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/dressed_like_a_dwarf"
+					criterion: ""
+					id: "4E6F4BD1E1335B36"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/friend_of_the_dwarves"
+					criterion: ""
+					id: "0D7FC8B3B8492B34"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"3C25D7F2DCAC9754"
+				"51660FEE081F6EC2"
+			]
+			icon: {
+				id: "dwarfs_tyranny:nail_gun"
+			}
+			id: "49B003070EF503F6"
+			rewards: [{
+				id: "5D53CD27AE5EAE82"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "dwarfs_tyranny:progression/nailed_it"
+					criterion: ""
+					id: "2C956C044930D561"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/return_to_sender"
+					criterion: ""
+					id: "6D1CC7E139AE9523"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/live_wire"
+					criterion: ""
+					id: "0CD02CF80BDA0B84"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/armed_to_the_teeth"
+					criterion: ""
+					id: "56D38A4EAA3F4FBE"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"0F1BE509DA10D4EB"
+				"56B87FA85FC88CF2"
+				"51660FEE081F6EC2"
+			]
+			icon: {
+				id: "dwarfs_tyranny:broken_crown"
+			}
+			id: "48F0287250D3DB83"
+			optional: true
+			rewards: [
+				{
+					id: "02CC57130EE0952E"
+					type: "xp"
+					xp: 240
+				}
+				{
+					id: "0A5FD1BE72E3295B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "dwarfs_tyranny:skeleton_dwarf_king"
+					id: "5287B76128F5B47F"
+					type: "kill"
+					value: 3L
+				}
+				{
+					id: "743B818E3027F730"
+					item: { count: 1, id: "dwarfs_tyranny:broken_crown" }
+					type: "item"
+				}
+				{
+					id: "72DE0B3A7B8B852F"
+					item: { count: 1, id: "dwarfs_tyranny:heart_of_the_stone_music_disc" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"54DC893C93BA29EE"
+				"51660FEE081F6EC2"
+			]
+			icon: {
+				id: "dwarfs_tyranny:golden_cacaillouxe"
+			}
+			id: "758668FE35999A4E"
+			optional: true
+			rewards: [
+				{
+					id: "540FA3C50464820B"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "64CFE94A712DE440"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2FF9D75B9024002F"
+					item: { count: 1, id: "dwarfs_tyranny:lumite" }
+					type: "item"
+				}
+				{
+					id: "3D9DCC4D7F3967D5"
+					item: { count: 1, id: "dwarfs_tyranny:gravialite" }
+					type: "item"
+				}
+				{
+					id: "24E4310D0158A2B6"
+					item: { count: 1, id: "dwarfs_tyranny:nitrolite" }
+					type: "item"
+				}
+				{
+					id: "18EDD990531F7E42"
+					item: { count: 1, id: "dwarfs_tyranny:teminite" }
+					type: "item"
+				}
+				{
+					id: "70358B511DBCDFCF"
+					item: { count: 1, id: "dwarfs_tyranny:golden_cacaillouxe" }
+					type: "item"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/pocket_full_of_rocks"
+					criterion: ""
+					id: "10D410761BEF3623"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"49B003070EF503F6"
+				"0DD8B8A3C607A66A"
+				"396DEF059D50562C"
+				"7CD6B5E1B306B84D"
+			]
+			icon: {
+				id: "dwarfs_tyranny:mythril_pipe"
+			}
+			id: "2B36702355613601"
+			rewards: [{
+				id: "33FD24088BEE636F"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [
+				{
+					advancement: "dwarfs_tyranny:progression/dwarven_infrastructure"
+					criterion: ""
+					id: "3B3F7C28DC82D0AC"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/they_have_a_system_for_everything"
+					criterion: ""
+					id: "5EA990E10B4B1305"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 3.2d
+		}
+	]
+}

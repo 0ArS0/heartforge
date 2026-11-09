@@ -1,0 +1,23 @@
+{
+	chapter_groups: [
+		{ icon: { id: "create:cogwheel" }, id: "60FEF54FAB43A476" }
+		{ icon: { id: "create_enchantment_industry:blaze_enchanter" }, id: "3B08ACB5CE59F3E7" }
+		{ icon: { id: "botania:lexicon" }, id: "0BD654FB0C580B11" }
+		{ icon: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, id: "irons_spellbooks:gold_spell_book" }, id: "5955ECC104DC966A" }
+		{ icon: { id: "occultism:dictionary_of_spirits" }, id: "46A9BB1E2D819F6E" }
+		{ icon: { id: "vampirism:vampire_fang" }, id: "3147F27B282022B5" }
+		{ icon: { id: "werewolves:werewolf_tooth" }, id: "4420EA9AE6BA168A" }
+		{ icon: { id: "iceandfire:dragonsteel_fire_ingot" }, id: "6BE2CA13D0D2A15E" }
+		{ icon: { id: "mowziesmobs:wrought_helmet" }, id: "3BC9864E9D9AF49B" }
+		{ icon: { id: "aquamirae:shell_horn" }, id: "25796BB343F30024" }
+		{ icon: { id: "cataclysm:mechanical_fusion_anvil" }, id: "0E0AC8A91F88F063" }
+		{ icon: { id: "born_in_chaos_v1:dark_metal_ingot" }, id: "13EF259E1ADFAB3C" }
+		{ icon: { id: "mythsandlegends:blood_moon" }, id: "3DAD9C4C9DD26814" }
+		{ icon: { id: "comamigos_balance:obsidilith_heart" }, id: "1B6781BE25FE5814" }
+		{ icon: { id: "dwarfs_tyranny:mythril_ingot" }, id: "7E685056D4C815C1" }
+		{ icon: { id: "minecraft:filled_map" }, id: "48BF15FF65B85345" }
+		{ icon: { id: "minecraft:ender_eye" }, id: "1D5EF08E4C981320" }
+		{ icon: { id: "farmersdelight:cooking_pot" }, id: "4E6D0897A16A0238" }
+		{ icon: { id: "artifacts:crystal_heart" }, id: "0011E6E41EF0DECD" }
+	]
+}

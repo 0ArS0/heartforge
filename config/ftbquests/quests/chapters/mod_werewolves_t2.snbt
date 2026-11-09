@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_werewolves_t2"
+	group: "4420EA9AE6BA168A"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "60EC04229AE40EEC"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "281AE13ADA47F090"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "0374F9ABE735B24F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"64D94840DBDC6F34"
+				"1A420B499C137101"
+				"281AE13ADA47F090"
+			]
+			id: "7647C604E6B9AA2C"
+			rewards: [{
+				id: "5FE55FEEAB589173"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "61481C0FD60C16B8"
+					item: { count: 1, id: "werewolves:dark_pelt" }
+					type: "item"
+				}
+				{
+					id: "10E07D35FE9B4329"
+					item: { count: 1, id: "werewolves:dark_pelt_helmet" }
+					type: "item"
+				}
+				{
+					id: "5713B1FCE51FE607"
+					item: { count: 1, id: "werewolves:dark_pelt_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0D82FA42848496B5"
+					item: { count: 1, id: "werewolves:dark_pelt_leggings" }
+					type: "item"
+				}
+				{
+					id: "4D763BE979D258C2"
+					item: { count: 1, id: "werewolves:dark_pelt_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B70BCF7FB110B84"
+				"281AE13ADA47F090"
+			]
+			id: "683FD9592D2D9304"
+			rewards: [
+				{
+					id: "7B480672EC7C51E4"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "0E81AC13034AA673"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "werewolves:bite_the_evil_in_the_bud"
+				criterion: ""
+				id: "26BC26C399C3B120"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.6d
+		}
+	]
+}

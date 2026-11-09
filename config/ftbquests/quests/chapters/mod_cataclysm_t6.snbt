@@ -1,0 +1,321 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cataclysm_t6"
+	group: "0E0AC8A91F88F063"
+	icon: {
+		id: "comamigos_balance:tier_heart_6"
+	}
+	id: "2F30B9AC3D259312"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_6"
+			}
+			id: "5FD5BD0C525EA09C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "57C23C9319B3AFDE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"5366AA3B09908D02"
+				"5FD5BD0C525EA09C"
+			]
+			icon: {
+				id: "comamigos_balance:harbinger_heart"
+			}
+			id: "79575B5C3CEABB9B"
+			rewards: [{
+				id: "2456F5B26A93C4DF"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2ADAECA237927F5D"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "6816627235D7C030"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 9L
+					id: "0148AA45657BE002"
+					item: { count: 1, id: "cataclysm:witherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6990E8C44B6CA722"
+				"5FD5BD0C525EA09C"
+			]
+			icon: {
+				id: "comamigos_balance:leviathan_heart"
+			}
+			id: "3008DBF1FD38D015"
+			rewards: [{
+				id: "505367B98107FA70"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "69C4D167C29BF422"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "5990129D2E7829FC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "21A0F7B48914952B"
+					item: { count: 1, id: "cataclysm:tidal_claws" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"792374CCF6411BFF"
+				"5FD5BD0C525EA09C"
+			]
+			id: "2BDD35DD5B78DDA7"
+			rewards: [{
+				id: "2AD8B89552CC7BC0"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [
+				{
+					advancement: "cataclysm:kill_clawdian"
+					criterion: ""
+					id: "036A06395714553C"
+					type: "advancement"
+				}
+				{
+					id: "070522A97E606DC2"
+					item: { count: 1, id: "cataclysm:chitin_claw" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3F9487959C1F4A65"
+					item: { count: 1, id: "cataclysm:lacrima" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"792374CCF6411BFF"
+				"5FD5BD0C525EA09C"
+			]
+			icon: {
+				id: "comamigos_balance:scylla_heart"
+			}
+			id: "641238FABF883C37"
+			rewards: [{
+				id: "617C60765F6F167D"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					id: "054A023236EF8CEB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "1BEC0B10879B613D"
+					item: { count: 1, id: "cataclysm:essence_of_the_storm" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["79575B5C3CEABB9B"]
+			id: "6951DE5A0B03E8E7"
+			rewards: [{
+				id: "6FE515FFF8156CA5"
+				type: "xp"
+				xp: 800
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "23704A35CFE807E4"
+					item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
+					type: "item"
+				}
+				{
+					id: "120611EBAAF022C4"
+					item: { count: 1, id: "cataclysm:laser_gatling" }
+					type: "item"
+				}
+				{
+					id: "65B8E2FA3CE50E52"
+					item: { count: 1, id: "cataclysm:meat_shredder" }
+					type: "item"
+				}
+				{
+					id: "2F12309AD672C5BD"
+					item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3008DBF1FD38D015"]
+			id: "049C5E6393AD864F"
+			optional: true
+			rewards: [
+				{
+					id: "406C8E4A36D349E1"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "3EA7DAEF4CC68FA8"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2591DC4074040F26"
+					item: { count: 1, id: "cataclysm:remnant_skull" }
+					type: "item"
+				}
+				{
+					id: "0A3A55D8222ADFFF"
+					item: { count: 1, id: "cataclysm:netherite_effigy" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "594088B3B52F0DF6"
+					item: { count: 1, id: "cataclysm:lava_power_cell" }
+					type: "item"
+				}
+				{
+					id: "27BD86744D137FB2"
+					item: { count: 1, id: "cataclysm:abyssal_egg" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"641238FABF883C37"
+				"2BDD35DD5B78DDA7"
+			]
+			id: "5F369ABC5270D5FB"
+			rewards: [{
+				id: "1DDE5B32EAF796E4"
+				type: "xp"
+				xp: 800
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "779B7486A95AE27A"
+					item: { count: 1, id: "cataclysm:astrape" }
+					type: "item"
+				}
+				{
+					id: "45E23B69337BF79E"
+					item: { count: 1, id: "cataclysm:ceraunus" }
+					type: "item"
+				}
+				{
+					id: "5B3AC9B48FE0676E"
+					item: { count: 1, id: "cataclysm:azure_sea_shield" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1E169CF313813FB9"
+					item: { count: 1, id: "cataclysm:azure_seastone" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6951DE5A0B03E8E7"
+				"5F369ABC5270D5FB"
+				"6DB2F6FAFCC6174B"
+				"6BC6C7D751EFC9D3"
+			]
+			id: "66DA84226E59DB5A"
+			rewards: [{
+				id: "43115C524AB457B2"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [
+				{
+					id: "07789ADE5615B23E"
+					item: { count: 1, id: "cataclysm:brontes" }
+					type: "item"
+				}
+				{
+					id: "3C4C47BFD73925EE"
+					item: { count: 1, id: "cataclysm:the_immolator" }
+					type: "item"
+				}
+				{
+					id: "5244BDDF3413319E"
+					item: { count: 1, id: "cataclysm:wrath_of_the_desert" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+}

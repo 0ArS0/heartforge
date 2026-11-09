@@ -1,0 +1,600 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_vampirism_t1"
+	group: "3147F27B282022B5"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "26B5632B37FDFC1E"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "40FF1F3A6D96E950"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "6536F488FCB4B71D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"28BEF2E097218D1C"
+				"40FF1F3A6D96E950"
+			]
+			icon: {
+				id: "comamigos_balance:vampire_baron_heart"
+			}
+			id: "34A1260A5FB16403"
+			rewards: [{
+				id: "4B2FFF4222F60AAF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "vampirism:vampire_baron"
+					id: "6FEF69DCD8154E90"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "vampirism:main/regicide"
+					criterion: ""
+					id: "425A060DEA581F2E"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0AE3AA51BD3FC0D0"
+				"40FF1F3A6D96E950"
+			]
+			id: "4777558829C011E6"
+			rewards: [
+				{
+					id: "540E75688EF12F02"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0B647DE29180E31B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "vampirism:vampire/extra_storage"
+					criterion: ""
+					id: "5533D53ACB5AFF39"
+					type: "advancement"
+				}
+				{
+					id: "5B97ACDD0883CE80"
+					item: { count: 1, id: "vampirism:altar_inspiration" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "63362515E1C663BD"
+					item: { count: 1, id: "vampirism:human_heart" }
+					type: "item"
+				}
+				{
+					id: "76071E41B3FBC1B2"
+					item: { count: 1, id: "vampirism:blood_grinder" }
+					type: "item"
+				}
+				{
+					id: "6365AF70A2E95D3B"
+					item: { count: 1, id: "vampirism:blood_sieve" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "42828133369F1411"
+					item: { count: 1, id: "vampirism:blood_bottle" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"52B0F0BE75D0CF07"
+				"40FF1F3A6D96E950"
+			]
+			id: "7A68794BF7EACA21"
+			rewards: [
+				{
+					id: "6C3BE34D32C9A08E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1A4C113F54A6B4EC"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "10F4D655522F4140"
+					item: { count: 1, id: "vampirism:weapon_table" }
+					type: "item"
+				}
+				{
+					id: "354274BEFE31F40E"
+					item: { count: 1, id: "vampirism:basic_crossbow" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "00DFBD6C0893D13A"
+					item: { count: 1, id: "vampirism:crossbow_arrow_normal" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "360A14A4C4FF7E00"
+					item: { count: 1, id: "vampirism:crossbow_arrow_vampire_killer" }
+					type: "item"
+				}
+				{
+					id: "54671929F9B22291"
+					item: { count: 1, id: "vampirism:hunter_hat_head_0" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"28BEF2E097218D1C"
+				"40FF1F3A6D96E950"
+			]
+			id: "197841025ABA682B"
+			optional: true
+			rewards: [
+				{
+					id: "4CF7E8FD24487E4C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0458A02F69C38313"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "7C8A86514AC805AD"
+					item: { count: 1, id: "vampiresdelight:dark_stone_stove" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E12C75AD9726BB3"
+					item: { count: 1, id: "vampiresdelight:orchid_petals" }
+					type: "item"
+				}
+				{
+					id: "2DEBA3B785012C75"
+					item: { count: 1, id: "vampiresdelight:orchid_tea" }
+					type: "item"
+				}
+				{
+					id: "4E672CE25A4E17BB"
+					item: { count: 1, id: "vampiresdelight:cursed_cupcake" }
+					type: "item"
+				}
+				{
+					id: "312A7C01F9E7EF24"
+					item: { count: 1, id: "vampiresdelight:weird_jelly" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"0AE3AA51BD3FC0D0"
+				"40FF1F3A6D96E950"
+			]
+			id: "5C748E49951F2002"
+			optional: true
+			rewards: [
+				{
+					id: "5CF15EB171554DE9"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "70695FDF6693742C"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 3L
+					id: "2EFB1BB6DDE2B67C"
+					item: { count: 1, id: "vampiresdelight:blood_syrup" }
+					type: "item"
+				}
+				{
+					id: "1D367869E37B604C"
+					item: { count: 1, id: "vampiresdelight:blood_wine_bottle" }
+					type: "item"
+				}
+				{
+					advancement: "vampiresdelight:main/pour_blood_wine"
+					criterion: ""
+					id: "70E838F8CF058EE1"
+					type: "advancement"
+				}
+				{
+					advancement: "vampiresdelight:main/place_blood_wine_bottle_on_shelf"
+					criterion: ""
+					id: "3DBFA6A063314D9B"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"52B0F0BE75D0CF07"
+				"40FF1F3A6D96E950"
+			]
+			id: "572B7C04F1CBC19C"
+			rewards: [{
+				id: "57E30BCF1A3A9E26"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "6CD742D1A84FCC62"
+					item: { count: 1, id: "vampirism:vampire_blood_bottle" }
+					type: "item"
+				}
+				{
+					id: "73FFF9520D0C03E3"
+					item: { count: 1, id: "vampirism:hunter_table" }
+					type: "item"
+				}
+				{
+					id: "19D090409071B917"
+					item: { count: 1, id: "vampirism:hunter_intel_0" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"52B0F0BE75D0CF07"
+				"40FF1F3A6D96E950"
+			]
+			id: "0DAB96358A574DC2"
+			rewards: [
+				{
+					id: "719D8F0CFE1077A8"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "43EDE33F5DA24D40"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "75BB97C3E197DBF8"
+					item: { count: 1, id: "vampirism:alchemical_cauldron" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "147042CFAB85D73B"
+					item: { count: 1, id: "vampirism:pure_salt" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1CE1E97668B57BEC"
+					item: { count: 1, id: "vampirism:holy_water_bottle_normal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E4DF3674DA4E4E4"
+					item: { count: 1, id: "vampirism:purified_garlic" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "02909DDDC307F1D0"
+					item: { count: 1, id: "vampirism:item_alchemical_fire" }
+					type: "item"
+				}
+				{
+					id: "02A649FE92129B42"
+					item: { count: 1, id: "vampirism:crucifix_normal" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.6d
+		}
+		{
+			dependencies: [
+				"4777558829C011E6"
+				"34A1260A5FB16403"
+			]
+			id: "39B72B4ED34A33C2"
+			rewards: [{
+				id: "1CF8BF03E20E0D7C"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "28300ADB77264A62"
+					item: { count: 1, id: "vampirism:altar_infusion" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3AF5D648165F9C76"
+					item: { count: 1, id: "vampirism:altar_pillar" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "179C4B56426B997C"
+					item: { count: 1, id: "vampirism:altar_tip" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:vampire/blood_cult"
+					criterion: ""
+					id: "7892950FDA14658E"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -0.96d
+		}
+		{
+			dependencies: [
+				"4777558829C011E6"
+				"34A1260A5FB16403"
+			]
+			id: "1BAF8B15C237D1FB"
+			rewards: [{
+				id: "01BC9E1BFD026429"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 3L
+					id: "58A432B881CACE41"
+					item: { count: 1, id: "vampirism:blood_infused_iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "020723351CFEB3AA"
+					item: { count: 1, id: "vampirism:blood_pedestal" }
+					type: "item"
+				}
+				{
+					id: "3C9F50ECD1636796"
+					item: { count: 1, id: "vampirism:heart_seeker_normal" }
+					type: "item"
+				}
+				{
+					id: "5993D2BC6951288E"
+					item: { count: 1, id: "vampirism:heart_striker_normal" }
+					type: "item"
+				}
+				{
+					id: "6C16A1EA5CF3E332"
+					item: { count: 1, id: "vampirism:garlic_finder" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.64d
+		}
+		{
+			dependencies: [
+				"4777558829C011E6"
+				"34A1260A5FB16403"
+			]
+			id: "0C9FC4628508248A"
+			optional: true
+			rewards: [
+				{
+					id: "54DA5191E11CC989"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0039F1DA1567B1AA"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "57C8A5667E195693"
+					item: { count: 1, id: "vampirism:vampire_clothing_hat" }
+					type: "item"
+				}
+				{
+					id: "7D84479FB337D3F3"
+					item: { count: 1, id: "vampirism:vampire_cloak_red_black" }
+					type: "item"
+				}
+				{
+					id: "2DD7E37071D0AE94"
+					item: { count: 1, id: "vampirism:ring" }
+					type: "item"
+				}
+				{
+					id: "4F63520BD5E29552"
+					item: { count: 1, id: "vampirism:throne" }
+					type: "item"
+				}
+				{
+					id: "05775AC95A95FDC3"
+					item: { count: 1, id: "vampirism:chandelier" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.24d
+		}
+		{
+			dependencies: ["4777558829C011E6"]
+			id: "696304569808AD8E"
+			rewards: [
+				{
+					id: "5EBD944812B4726D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6D9DCCA02EEA75EC"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "428873B7721D8C5A"
+					item: { count: 1, id: "vampirism:oblivion_potion" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:vampire/bat"
+					criterion: ""
+					id: "62850128F7F60E60"
+					type: "advancement"
+				}
+				{
+					advancement: "vampirism:vampire/resurrect"
+					criterion: ""
+					id: "5965DAF49AABDDE6"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 3.84d
+		}
+		{
+			dependencies: [
+				"572B7C04F1CBC19C"
+				"0DAB96358A574DC2"
+			]
+			id: "4014C6FE05AD8547"
+			rewards: [
+				{
+					id: "2227CB0BA7E52067"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5518992387D3750B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "416E69CA4EF386ED"
+					item: { count: 1, id: "vampirism:alchemy_table" }
+					type: "item"
+				}
+				{
+					id: "0E6712990FFC2453"
+					item: { count: 1, id: "vampirism:oil_bottle" }
+					type: "item"
+				}
+				{
+					id: "24D77A1217820771"
+					item: { count: 1, id: "vampirism:potion_table" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:hunter/cure_vampire_villager"
+					criterion: ""
+					id: "529245BC0DE86A94"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 7.04d
+		}
+	]
+}

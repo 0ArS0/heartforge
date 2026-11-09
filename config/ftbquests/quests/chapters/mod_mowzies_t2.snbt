@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_mowzies_t2"
+	group: "3BC9864E9D9AF49B"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "4525964D8EC363FD"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "7AB254D209160064"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "645D4D5F0387F4AF"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"052FA5D9043F1425"
+				"7AB254D209160064"
+			]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_fury"
+			}
+			id: "5423B114FB677DE7"
+			rewards: [
+				{
+					id: "36C9BF7C46D062F0"
+					type: "xp"
+					xp: 320
+				}
+				{
+					id: "2A4628BABA47B9E4"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "mowziesmobs:kill_umvuthana_raptor"
+					criterion: ""
+					id: "25267AC78E16F088"
+					type: "advancement"
+				}
+				{
+					count: 16L
+					id: "14725C7904C6189D"
+					item: { count: 1, id: "mowziesmobs:dart" }
+					type: "item"
+				}
+				{
+					id: "3DB0160F16313652"
+					item: { count: 1, id: "mowziesmobs:blowgun" }
+					type: "item"
+				}
+				{
+					id: "563EA8DAD83674AF"
+					item: { count: 1, id: "mowziesmobs:spear" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

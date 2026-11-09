@@ -1,0 +1,263 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_aquamirae_t2"
+	group: "25796BB343F30024"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "566DC765F2E0BEEB"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "77B6539DC8430A3B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "539084420FC2FEBC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"7BD66323DD45C80B"
+				"2900F2C07B7B20FE"
+				"77B6539DC8430A3B"
+			]
+			icon: {
+				id: "comamigos_balance:cornelia_heart"
+			}
+			id: "760368A8A586216B"
+			rewards: [{
+				id: "718E029F63F492C9"
+				type: "xp"
+				xp: 240
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					entity: "aquamirae:captain_cornelia"
+					id: "6E585211A6BACA34"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_frozen_key"
+					criterion: ""
+					id: "2F22B24807C5D8D4"
+					type: "advancement"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_all_salvager_armor"
+					criterion: ""
+					id: "65DBF4274AA4007E"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"60032A1D1D667DED"
+				"306355B7B248426B"
+				"77B6539DC8430A3B"
+			]
+			icon: {
+				id: "aquamirae:treasure_pouch"
+			}
+			id: "2FBB46CCB20EC89D"
+			rewards: [{
+				id: "37F41328BDF375A3"
+				type: "xp"
+				xp: 240
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "2CAD96D7D82F8878"
+					item: { count: 1, id: "aquamirae:treasure_pouch" }
+					type: "item"
+				}
+				{
+					id: "2D2B960EDBD339A9"
+					item: { count: 1, id: "aquamirae:void_squid" }
+					type: "item"
+				}
+				{
+					id: "6EDD58DF0D1DC8F2"
+					item: { count: 1, id: "aquamirae:poseidon_breakfast" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"6A771620FC437DDE"
+				"7BD66323DD45C80B"
+				"77B6539DC8430A3B"
+			]
+			icon: {
+				id: "aquamirae:terrible_chestplate"
+			}
+			id: "37A726F96110E342"
+			rewards: [{
+				id: "1E1173C5AFD9D3A6"
+				type: "xp"
+				xp: 240
+			}]
+			tasks: [
+				{
+					advancement: "aquamirae:adventure/obtain_terrible_upgrade_smithing_template"
+					criterion: ""
+					id: "253FDD12AB2D6030"
+					type: "advancement"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_all_terrible_armor"
+					criterion: ""
+					id: "4FD6FD6738304088"
+					type: "advancement"
+				}
+				{
+					id: "796A4BAAB7260572"
+					item: { count: 1, id: "aquamirae:terrible_blade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["760368A8A586216B"]
+			icon: {
+				id: "aquamirae:rune_of_the_storm"
+			}
+			id: "5787500722BAE4FB"
+			rewards: [{
+				id: "0B33C580B09CAC2B"
+				type: "xp"
+				xp: 240
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "aquamirae:eel"
+					id: "4F0624B48B0FBBA0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_rune_of_the_storm"
+					criterion: ""
+					id: "3A091CAC5A9C743A"
+					type: "advancement"
+				}
+				{
+					id: "2CF9798D66CF1891"
+					item: { count: 1, id: "aquamirae:dead_sea_scroll" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.53d
+		}
+		{
+			dependencies: ["760368A8A586216B"]
+			icon: {
+				id: "comamigos_balance:maze_mother_heart"
+			}
+			id: "201A4EB5C5E7FC88"
+			rewards: [{
+				id: "4A83BEA234F7FAD7"
+				type: "xp"
+				xp: 160
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "aquamirae:maze_mother"
+					id: "55C742DFC4EABF7A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0EB76DFCA7737397"
+					item: { count: 1, id: "aquamirae:abyssal_amethyst" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.07d
+		}
+		{
+			dependencies: [
+				"37A726F96110E342"
+				"60032A1D1D667DED"
+				"2900F2C07B7B20FE"
+			]
+			icon: {
+				id: "aquamirae:terrible_fang"
+			}
+			id: "4E9D7E2BFE6A6C2B"
+			rewards: [
+				{
+					id: "021A8DCA1070E50B"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "42D40C6A2FB721A0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "7B04E99B04C3E260"
+					item: { count: 1, id: "aquamirae:remnant_saber" }
+					type: "item"
+				}
+				{
+					id: "3A30E2BC0FE8058F"
+					item: { count: 1, id: "aquamirae:terrible_cleaver" }
+					type: "item"
+				}
+				{
+					id: "5F1B7160DC62EEF5"
+					item: { count: 1, id: "aquamirae:terrible_fang" }
+					type: "item"
+				}
+				{
+					id: "0B8BB4083400E2A7"
+					item: { count: 1, id: "aquamirae:terrible_chakram" }
+					type: "item"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_all_terrible_weapons"
+					criterion: ""
+					id: "319E27732C230FF6"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 2.67d
+		}
+	]
+}

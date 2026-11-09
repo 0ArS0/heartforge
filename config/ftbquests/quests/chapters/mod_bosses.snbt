@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bosses"
+	group: "1B6781BE25FE5814"
+	icon: {
+		id: "comamigos_balance:obsidilith_heart"
+	}
+	id: "68AB395BBB8ADD4B"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "comamigos_balance:obsidilith_heart"
+		}
+		id: "4C92F85B977167DD"
+		rewards: [{
+			id: "497C42C8362213C4"
+			type: "xp"
+			xp: 5
+		}]
+		shape: "square"
+		size: 1.75d
+		tasks: [{
+			id: "12AB5740C442B9AF"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

@@ -1,0 +1,920 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_botania_t2"
+	group: "0BD654FB0C580B11"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "76C6BBC27D67BAF3"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "0B1683E462E3E0EB"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "498E45D13FF97245"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"7CB650DFEA659CFD"
+				"0B1683E462E3E0EB"
+			]
+			icon: {
+				id: "botania:manasteel_chestplate"
+			}
+			id: "4EE19D5B37E0ABE8"
+			rewards: [
+				{
+					id: "5DC37BFF76F23D31"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "2ECFCFAA0ECF9C38"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3E7D73999D744587"
+					item: { count: 1, id: "botania:manasteel_helmet" }
+					type: "item"
+				}
+				{
+					id: "2D0369B633BDDA97"
+					item: { count: 1, id: "botania:manasteel_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3E0341E593284FFD"
+					item: { count: 1, id: "botania:manasteel_leggings" }
+					type: "item"
+				}
+				{
+					id: "649CD1D64A6DF505"
+					item: { count: 1, id: "botania:manasteel_boots" }
+					type: "item"
+				}
+				{
+					id: "1DDD638081512A9B"
+					item: { count: 1, id: "botania:manasteel_sword" }
+					type: "item"
+				}
+				{
+					id: "518AC54AAAC8789C"
+					item: { count: 1, id: "botania:manasteel_axe" }
+					type: "item"
+				}
+				{
+					id: "3761ABF65D14BD08"
+					item: { count: 1, id: "botania:livingwood_bow" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4B84CE167F4C4FA7"
+				"0B1683E462E3E0EB"
+			]
+			icon: {
+				id: "botania:runic_altar"
+			}
+			id: "50C3CC2949A54B80"
+			rewards: [
+				{
+					id: "64E8F07D4A3FFDB0"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "1F172489739C0D7B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "190F56A3D7A6BC9B"
+					item: { count: 1, id: "botania:runic_altar" }
+					type: "item"
+				}
+				{
+					id: "45E68A56719986BB"
+					item: { count: 1, id: "botania:rune_water" }
+					type: "item"
+				}
+				{
+					id: "4BFD5A9196932849"
+					item: { count: 1, id: "botania:rune_fire" }
+					type: "item"
+				}
+				{
+					id: "5ABD46DA801F6751"
+					item: { count: 1, id: "botania:rune_earth" }
+					type: "item"
+				}
+				{
+					id: "4A5A8F29B24DCFD8"
+					item: { count: 1, id: "botania:rune_air" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/rune_pickup"
+					criterion: ""
+					id: "7621652306B977FC"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"4B84CE167F4C4FA7"
+				"0B1683E462E3E0EB"
+			]
+			icon: {
+				id: "botania:manaweave_chestplate"
+			}
+			id: "45042893B7B16B1E"
+			rewards: [
+				{
+					id: "2419BE626C50FBC4"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "62DD2187AE2E2440"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "310AB32F95AE1EB7"
+					item: { count: 1, id: "botania:manaweave_cloth" }
+					type: "item"
+				}
+				{
+					id: "588A4222FFF3279B"
+					item: { count: 1, id: "botania:manaweave_helmet" }
+					type: "item"
+				}
+				{
+					id: "36DA3C647AD660EE"
+					item: { count: 1, id: "botania:manaweave_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3E0AF738B87ECD74"
+					item: { count: 1, id: "botania:manaweave_leggings" }
+					type: "item"
+				}
+				{
+					id: "5110A9D069A7D2CF"
+					item: { count: 1, id: "botania:manaweave_boots" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/manaweave_armor_craft"
+					criterion: ""
+					id: "772702B43F4089F2"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["50C3CC2949A54B80"]
+			icon: {
+				id: "botania:dirt_rod"
+			}
+			id: "4F782ADB8B50FB06"
+			rewards: [{
+				id: "3E6B01D7996947D2"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5BEF90BDA3B8CBBF"
+					item: { count: 1, id: "botania:dirt_rod" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/dirt_rod_craft"
+					criterion: ""
+					id: "5D4486941F7D12DD"
+					type: "advancement"
+				}
+				{
+					id: "3ECD550B5D9DD809"
+					item: { count: 1, id: "botania:water_rod" }
+					type: "item"
+				}
+				{
+					id: "454DDEF9776E294E"
+					item: { count: 1, id: "botania:cobble_rod" }
+					type: "item"
+				}
+				{
+					id: "41299B38188C5543"
+					item: { count: 1, id: "botania:smelt_rod" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50C3CC2949A54B80"]
+			icon: {
+				id: "botania:rune_spring"
+			}
+			id: "436A719A31B1AFAE"
+			rewards: [{
+				id: "5A7B89B947859F5C"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "482F72F76D162F99"
+					item: { count: 1, id: "botania:rune_mana" }
+					type: "item"
+				}
+				{
+					id: "4F97B1385825BD51"
+					item: { count: 1, id: "botania:rune_spring" }
+					type: "item"
+				}
+				{
+					id: "51DDCC006E2749A6"
+					item: { count: 1, id: "botania:rune_summer" }
+					type: "item"
+				}
+				{
+					id: "0C5200310803C0A5"
+					item: { count: 1, id: "botania:rune_autumn" }
+					type: "item"
+				}
+				{
+					id: "6FC7135B091F16F1"
+					item: { count: 1, id: "botania:rune_winter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"50C3CC2949A54B80"
+				"263E934345438682"
+			]
+			icon: {
+				id: "botania:lens_power"
+			}
+			id: "05B2350AF59B7B00"
+			rewards: [{
+				id: "4EFDDD106228B2A7"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3AC7BEBA961CC085"
+					item: { count: 1, id: "botania:lens_speed" }
+					type: "item"
+				}
+				{
+					id: "04B6630DD441701F"
+					item: { count: 1, id: "botania:lens_power" }
+					type: "item"
+				}
+				{
+					id: "4131F27D35D2A53C"
+					item: { count: 1, id: "botania:lens_time" }
+					type: "item"
+				}
+				{
+					id: "1C906553BBC840F7"
+					item: { count: 1, id: "botania:lens_efficiency" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["436A719A31B1AFAE"]
+			icon: {
+				id: "botania:rune_pride"
+			}
+			id: "58527FFA9C8C1FFE"
+			rewards: [
+				{
+					id: "7214F992C0707AB3"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "705946D34F3F314A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "77A8F00153735F14"
+					item: { count: 1, id: "botania:rune_lust" }
+					type: "item"
+				}
+				{
+					id: "68646560097F6806"
+					item: { count: 1, id: "botania:rune_gluttony" }
+					type: "item"
+				}
+				{
+					id: "07C9C8C470B396AC"
+					item: { count: 1, id: "botania:rune_greed" }
+					type: "item"
+				}
+				{
+					id: "3DCDD1C20E2A6255"
+					item: { count: 1, id: "botania:rune_sloth" }
+					type: "item"
+				}
+				{
+					id: "1C80049D689E1857"
+					item: { count: 1, id: "botania:rune_wrath" }
+					type: "item"
+				}
+				{
+					id: "69BC180DCCF719EC"
+					item: { count: 1, id: "botania:rune_envy" }
+					type: "item"
+				}
+				{
+					id: "027B61015EB67CD1"
+					item: { count: 1, id: "botania:rune_pride" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.44d
+		}
+		{
+			dependencies: [
+				"436A719A31B1AFAE"
+				"66CEDBF42A77821C"
+			]
+			icon: {
+				id: "botania:agricarnation"
+			}
+			id: "7CDB8AF1D3F8219D"
+			rewards: [
+				{
+					id: "666A04F873E20D39"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "4DE11CB48AD8A96E"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "1317850E7725C8D1"
+					item: { count: 1, id: "botania:agricarnation" }
+					type: "item"
+				}
+				{
+					id: "7F783C328248789E"
+					item: { count: 1, id: "botania:hopperhock" }
+					type: "item"
+				}
+				{
+					id: "555C7B233DC0B8A1"
+					item: { count: 1, id: "botania:rannuncarpus" }
+					type: "item"
+				}
+				{
+					id: "079FAB59C71938DB"
+					item: { count: 1, id: "botania:jaded_amaranthus" }
+					type: "item"
+				}
+				{
+					id: "52CD6F333CE7AF3C"
+					item: { count: 1, id: "botania:exoflame" }
+					type: "item"
+				}
+				{
+					id: "718ADBD3D8DB83DF"
+					item: { count: 1, id: "botania:tigerseye" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.16d
+		}
+		{
+			dependencies: [
+				"436A719A31B1AFAE"
+				"66CEDBF42A77821C"
+			]
+			icon: {
+				id: "botania:bellethorn"
+			}
+			id: "6032FD2B7732324A"
+			optional: true
+			rewards: [
+				{
+					id: "0DB9D97D3E9DC9EE"
+					type: "xp"
+					xp: 640
+				}
+				{
+					id: "1918AEDAA25267C3"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2BD47D7C1BE3BEEE"
+					item: { count: 1, id: "botania:bellethorn" }
+					type: "item"
+				}
+				{
+					id: "7A2358AA2246733B"
+					item: { count: 1, id: "botania:dreadthorn" }
+					type: "item"
+				}
+				{
+					id: "650CF692CBD5733D"
+					item: { count: 1, id: "botania:bergamute" }
+					type: "item"
+				}
+				{
+					id: "6A7B1C39A476E539"
+					item: { count: 1, id: "botania:solegnolia" }
+					type: "item"
+				}
+				{
+					id: "1D45598A3C372D7E"
+					item: { count: 1, id: "botania:jiyuulia" }
+					type: "item"
+				}
+				{
+					id: "7B9E527F556B0E57"
+					item: { count: 1, id: "botania:medumone" }
+					type: "item"
+				}
+				{
+					id: "7E01B88E981C0A18"
+					item: { count: 1, id: "botania:tangleberrie" }
+					type: "item"
+				}
+				{
+					id: "01BEF771453EF672"
+					item: { count: 1, id: "botania:hyacidus" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.76d
+		}
+		{
+			dependencies: [
+				"436A719A31B1AFAE"
+				"7CB650DFEA659CFD"
+				"263E934345438682"
+			]
+			icon: {
+				id: "botania:mana_ring"
+			}
+			id: "76694CA9DD54D6B2"
+			rewards: [
+				{
+					id: "18080DBCE9B79900"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "72D105AAD755BB1C"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "4B78066DE2E1D4DD"
+					item: { count: 1, id: "botania:bauble_box" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/bauble_wear"
+					criterion: ""
+					id: "053DC579E88FFAA1"
+					type: "advancement"
+				}
+				{
+					id: "1DCAB4F323952B2E"
+					item: { count: 1, id: "botania:mana_ring" }
+					type: "item"
+				}
+				{
+					id: "0BD23564A102DA49"
+					item: { count: 1, id: "botania:aura_ring" }
+					type: "item"
+				}
+				{
+					id: "256261880554C650"
+					item: { count: 1, id: "botania:magnet_ring" }
+					type: "item"
+				}
+				{
+					id: "2492D08AC3AAE780"
+					item: { count: 1, id: "botania:swap_ring" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.36d
+		}
+		{
+			dependencies: [
+				"436A719A31B1AFAE"
+				"45042893B7B16B1E"
+			]
+			icon: {
+				id: "botania:brewery"
+			}
+			id: "6336C4A565DD85DE"
+			rewards: [
+				{
+					id: "6E66FC6E848AF065"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "15FBAFB0D17177EA"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "366E67BFCF1B2D29"
+					item: { count: 1, id: "botania:mana_pylon" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/enchanter_make"
+					criterion: ""
+					id: "4F9B38F7364BE680"
+					type: "advancement"
+				}
+				{
+					id: "4ADAE36456AADA61"
+					item: { count: 1, id: "botania:spell_cloth" }
+					type: "item"
+				}
+				{
+					id: "6CA9E913ADDF7343"
+					item: { count: 1, id: "botania:brewery" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "15B553F83741FB27"
+					item: { count: 1, id: "botania:vial" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/brew_pickup"
+					criterion: ""
+					id: "4AE392D761D05A4F"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 4.96d
+		}
+		{
+			dependencies: ["58527FFA9C8C1FFE"]
+			icon: {
+				id: "botania:entropinnyum"
+			}
+			id: "11205E7A800EEB47"
+			rewards: [
+				{
+					id: "456A61582F3D2824"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "06A000AABE7DEFF3"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "17D711189DD0F6F0"
+					item: { count: 1, id: "botania:thermalily" }
+					type: "item"
+				}
+				{
+					id: "4C6F71525853C50C"
+					item: { count: 1, id: "botania:gourmaryllis" }
+					type: "item"
+				}
+				{
+					id: "0293D3A332486759"
+					item: { count: 1, id: "botania:rosa_arcana" }
+					type: "item"
+				}
+				{
+					id: "37D26AE9F1B4D56B"
+					item: { count: 1, id: "botania:munchdew" }
+					type: "item"
+				}
+				{
+					id: "6FCE23D701F31D28"
+					item: { count: 1, id: "botania:narslimmus" }
+					type: "item"
+				}
+				{
+					id: "33D4D330BFEC44A7"
+					item: { count: 1, id: "botania:entropinnyum" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.66d
+		}
+		{
+			dependencies: [
+				"58527FFA9C8C1FFE"
+				"66CEDBF42A77821C"
+			]
+			icon: {
+				id: "botania:fallen_kanade"
+			}
+			id: "0EFB0FDC5F747A8D"
+			optional: true
+			rewards: [
+				{
+					id: "71D29ACCB8F5C6FE"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "2C4ADEEB993B139A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "4585E1A867DA366B"
+					item: { count: 1, id: "botania:clayconia" }
+					type: "item"
+				}
+				{
+					id: "429B774C23DFDC00"
+					item: { count: 1, id: "botania:marimorphosis" }
+					type: "item"
+				}
+				{
+					id: "0ACBDFECE3E23340"
+					item: { count: 1, id: "botania:daffomill" }
+					type: "item"
+				}
+				{
+					id: "7EF4CDAE4A19B196"
+					item: { count: 1, id: "botania:fallen_kanade" }
+					type: "item"
+				}
+				{
+					id: "72509CB941008899"
+					item: { count: 1, id: "botania:pollidisiac" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/pollidisiac_pickup"
+					criterion: ""
+					id: "19CB4FD446B04C95"
+					type: "advancement"
+				}
+				{
+					id: "479CD02504DB1F5A"
+					item: { count: 1, id: "botania:vinculotus" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.06d
+		}
+		{
+			dependencies: [
+				"05B2350AF59B7B00"
+				"58527FFA9C8C1FFE"
+			]
+			icon: {
+				id: "botania:lens_damage"
+			}
+			id: "6E2F10552D615226"
+			optional: true
+			rewards: [
+				{
+					id: "60511AE06058B639"
+					type: "xp"
+					xp: 640
+				}
+				{
+					id: "3BED40FF443DB0CD"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2A54B309BDCC0C64"
+					item: { count: 1, id: "botania:lens_bounce" }
+					type: "item"
+				}
+				{
+					id: "1E5945272171ECAC"
+					item: { count: 1, id: "botania:lens_gravity" }
+					type: "item"
+				}
+				{
+					id: "74760C2EEB741D38"
+					item: { count: 1, id: "botania:lens_influence" }
+					type: "item"
+				}
+				{
+					id: "20A6002C5623892E"
+					item: { count: 1, id: "botania:lens_weight" }
+					type: "item"
+				}
+				{
+					id: "5A358D18753A9DDB"
+					item: { count: 1, id: "botania:lens_damage" }
+					type: "item"
+				}
+				{
+					id: "47CD9B1B41C329EA"
+					item: { count: 1, id: "botania:lens_explosive" }
+					type: "item"
+				}
+				{
+					id: "7CE4AA863AE556FB"
+					item: { count: 1, id: "botania:piston_relay" }
+					type: "item"
+				}
+				{
+					id: "19B12A4767EDE487"
+					item: { count: 1, id: "botania:lens_piston" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.54d
+		}
+		{
+			dependencies: [
+				"58527FFA9C8C1FFE"
+				"76694CA9DD54D6B2"
+			]
+			icon: {
+				id: "botania:third_eye"
+			}
+			id: "27ACF008C393D23B"
+			optional: true
+			rewards: [
+				{
+					id: "61EA52D56F1E01AA"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "46179B6DB5B01D21"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "232F178D05521FD5"
+					item: { count: 1, id: "botania:exchange_rod" }
+					type: "item"
+				}
+				{
+					id: "7D16E632FF99EB4C"
+					item: { count: 1, id: "botania:slingshot" }
+					type: "item"
+				}
+				{
+					id: "784E0E962B7C9984"
+					item: { count: 1, id: "botania:temperance_stone" }
+					type: "item"
+				}
+				{
+					id: "62794F398A81DB6F"
+					item: { count: 1, id: "botania:third_eye" }
+					type: "item"
+				}
+				{
+					id: "47CB70AD5BD0DD55"
+					item: { count: 1, id: "botania:tiny_planet" }
+					type: "item"
+				}
+				{
+					id: "7D2A9DCF4E2BBB96"
+					item: { count: 1, id: "botania:bellows" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.14d
+		}
+	]
+}

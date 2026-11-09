@@ -1,0 +1,476 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create_addons_t2"
+	group: "3B08ACB5CE59F3E7"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "50B1572FB7658585"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "2A579AB36109DE81"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "629620DBC735C650"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1714524AD173AA7D"
+				"2A579AB36109DE81"
+			]
+			id: "5F470AB9A2C43D25"
+			rewards: [
+				{
+					id: "783FB25C1A7977AA"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "09AA8CDA59B052D4"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "19B2863F0D161B7A"
+					item: { count: 1, id: "create_connected:overstress_clutch" }
+					type: "item"
+				}
+				{
+					advancement: "create_connected:overstress_clutch"
+					criterion: ""
+					id: "5375F2ABAB05C186"
+					type: "advancement"
+				}
+				{
+					id: "519CED6E53CDF46F"
+					item: { count: 1, id: "create_connected:brass_gearbox" }
+					type: "item"
+				}
+				{
+					advancement: "create_connected:brass_gearbox"
+					criterion: ""
+					id: "437BE43AB5397541"
+					type: "advancement"
+				}
+				{
+					id: "57A33D9A91397CC8"
+					item: { count: 1, id: "create_connected:kinetic_battery" }
+					type: "item"
+				}
+				{
+					advancement: "create_connected:kinetic_battery"
+					criterion: ""
+					id: "524F875F5F05FF91"
+					type: "advancement"
+				}
+				{
+					id: "1B6BD5E7F81555FB"
+					item: { count: 1, id: "create_connected:kinetic_bridge" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A0858D97CC90AFF"
+				"2A579AB36109DE81"
+			]
+			id: "61C88F31C3210015"
+			rewards: [
+				{
+					id: "70363F07345ACDA5"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "11F0FCADE8509AA2"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5B2AFA1773FFF73A"
+					item: { count: 1, id: "create_connected:item_silo" }
+					type: "item"
+				}
+				{
+					id: "16954D394A1C7D0F"
+					item: { count: 1, id: "create_connected:fluid_vessel" }
+					type: "item"
+				}
+				{
+					id: "46887EF3D71B3791"
+					item: { count: 1, id: "create_connected:inventory_access_port" }
+					type: "item"
+				}
+				{
+					id: "0C0E4C54CCADBBF4"
+					item: { count: 1, id: "create_connected:inventory_bridge" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00B75C0BAC86FEED"
+					item: { count: 1, id: "create_connected:brass_chute" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"1714524AD173AA7D"
+				"2A579AB36109DE81"
+			]
+			id: "53F2BAA9619E37E3"
+			rewards: [
+				{
+					id: "1E81C21FA43B35E1"
+					type: "xp"
+					xp: 240
+				}
+				{
+					id: "7210B62F62064D4D"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5BE7ED0BC068DE14"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "2F6AEBA056085656"
+					item: { count: 1, id: "create_connected:empty_fan_catalyst" }
+					type: "item"
+				}
+				{
+					id: "43D6448F6B1DB969"
+					item: { count: 1, id: "create_connected:fan_blasting_catalyst" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"192A2231D3BE9445"
+				"2A579AB36109DE81"
+			]
+			id: "581AA114CC28855D"
+			optional: true
+			rewards: [
+				{
+					id: "6F374E85AFD12F87"
+					type: "xp"
+					xp: 240
+				}
+				{
+					id: "5C10FC7D8BEED0E0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5CFA640753E8B60F"
+					item: { count: 1, id: "createaddition:straw" }
+					type: "item"
+				}
+				{
+					id: "2A78CAA301ED3F31"
+					item: { count: 1, id: "createaddition:seed_oil_bucket" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A9A45C6B850CCE6"
+					item: { count: 1, id: "createaddition:biomass_pellet" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"701B4F1CDC65512D"
+				"2A579AB36109DE81"
+			]
+			id: "227ABDE581CE8DCB"
+			rewards: [
+				{
+					id: "66E4326F570BEEFE"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "0C58DD559B95B555"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "484AA6AFA486FC36"
+					item: { count: 1, id: "create_enchantment_industry:printer" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:brand_registry"
+					criterion: ""
+					id: "381D684D29A154C0"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:copiable_mystery"
+					criterion: ""
+					id: "372CB2BC526B9B49"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "5F6A6D6B68C00024"
+					item: { count: 1, id: "create_enchantment_industry:enchanting_template" }
+					type: "item"
+				}
+				{
+					id: "00743A722C1908DB"
+					item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:lumen_nexus"
+					criterion: ""
+					id: "1A461673C2FF3996"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"0E2C1DA15F9A14C0"
+				"2A579AB36109DE81"
+			]
+			id: "7577EF8743550BC9"
+			rewards: [
+				{
+					id: "5D549E8B4A16EF33"
+					type: "xp"
+					xp: 640
+				}
+				{
+					id: "35A0527BD32CED5B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "001D53F7568762E8"
+					item: { count: 1, id: "createaddition:electrum_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4EA135E0DBC6C672"
+					item: { count: 1, id: "createaddition:electrum_wire" }
+					type: "item"
+				}
+				{
+					id: "089A31B5FBAB5978"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "4675D1B0BB2087DC"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+				{
+					id: "31611EE5FDCC14F4"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
+					type: "item"
+				}
+				{
+					id: "622E46432279E1BD"
+					item: { count: 1, id: "createaddition:large_connector" }
+					type: "item"
+				}
+				{
+					id: "4FF12CF718C47BDC"
+					item: { count: 1, id: "createaddition:electrum_spool" }
+					type: "item"
+				}
+				{
+					id: "3F921C0C70D1DC3E"
+					item: { count: 1, id: "createaddition:tesla_coil" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F470AB9A2C43D25"]
+			id: "635B96652F3EE323"
+			rewards: [
+				{
+					id: "6FBB9B8719732EAD"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "6DBD74BBCF16236B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "194CE0FF670DAFDD"
+					item: { count: 1, id: "create_connected:control_chip" }
+					type: "item"
+				}
+				{
+					advancement: "create_connected:control_chip"
+					criterion: ""
+					id: "1EDBDFC064937F11"
+					type: "advancement"
+				}
+				{
+					id: "07B44E5075580EFA"
+					item: { count: 1, id: "create_connected:sequenced_pulse_generator" }
+					type: "item"
+				}
+				{
+					advancement: "create_connected:sequenced_pulse_generator"
+					criterion: ""
+					id: "54B03073B1FF5E43"
+					type: "advancement"
+				}
+				{
+					id: "4E6829CE9A17F09C"
+					item: { count: 1, id: "create_connected:linked_transmitter" }
+					type: "item"
+				}
+				{
+					id: "162A14C62DCA07B3"
+					item: { count: 1, id: "create_connected:dashboard" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7577EF8743550BC9"]
+			id: "7AE94C21FDDE112C"
+			optional: true
+			rewards: [
+				{
+					id: "07EEB47619A4813C"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "5D8492C0760F8E91"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "15B2385D8BDAEA54"
+					item: { count: 1, id: "createaddition:portable_energy_interface" }
+					type: "item"
+				}
+				{
+					id: "4C680CFB9565F7D5"
+					item: { count: 1, id: "createaddition:electric_pump" }
+					type: "item"
+				}
+				{
+					id: "4882283E1CC7AE13"
+					item: { count: 1, id: "createaddition:servo_motor" }
+					type: "item"
+				}
+				{
+					id: "79022F2F9C8E73D1"
+					item: { count: 1, id: "createaddition:redstone_relay" }
+					type: "item"
+				}
+				{
+					id: "5C4F526A3F97D1BC"
+					item: { count: 1, id: "createaddition:electrum_amulet" }
+					type: "item"
+				}
+				{
+					id: "64296BF0C62D1D7C"
+					item: { count: 1, id: "createaddition:diamond_grit_sandpaper" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+	]
+}

@@ -1,0 +1,631 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier4"
+	group: ""
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "1DF09911BFB2DB44"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E964B6088155040"]
+			id: "3AF83DB296D42789"
+			rewards: [{
+				id: "5059EEFE5213A713"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4C523653F7FB4FDF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			id: "26838CCADA0B3647"
+			rewards: [{
+				id: "0A2EFAEB1BBF495A"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "316071E73C23761A"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26838CCADA0B3647"]
+			id: "00715189257F156B"
+			rewards: [{
+				id: "14772575555525D9"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "04654FCAAA3857B6"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00715189257F156B"]
+			id: "1F41AA82C98B574E"
+			rewards: [{
+				id: "63FC036F2EFC7AAF"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "022D09B86A0108EA"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			id: "434F23D48EE2DA18"
+			rewards: [{
+				id: "7C17C7B57FE5FE9F"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "0AB7AFE8602B4A80"
+				item: { count: 1, id: "occultism:afrit_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["434F23D48EE2DA18"]
+			id: "0565AC7F751304BA"
+			rewards: [{
+				id: "5831FAD708E16EF6"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "36148AF882FB5353"
+				item: { count: 1, id: "irons_spellbooks:epic_ink" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 1.6d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			id: "2E652BB32277527D"
+			rewards: [
+				{
+					id: "14ACF42FDD32D17D"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "09E333E2302D147A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "71D021569CD6D974"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["2E652BB32277527D"]
+			id: "26FBA9C4509FB205"
+			rewards: [{
+				id: "06EEEAD8B4D16E9C"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "64814804A0FB4F89"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 3.2d
+		}
+		{
+			dependencies: ["26FBA9C4509FB205"]
+			id: "65283C24B3F94AE0"
+			rewards: [
+				{
+					id: "15D71B025AF32456"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4D23C8439B41D3B0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "36F3285FCFAA6BDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.2d
+			y: 3.2d
+		}
+		{
+			dependencies: ["65283C24B3F94AE0"]
+			id: "06A287756F226726"
+			rewards: [{
+				id: "115C8D1B075D8D54"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "63F8AA5C9357FB3E"
+				item: { count: 1, id: "born_in_chaos_v1:krampus_horn" }
+				type: "item"
+			}]
+			x: 6.800000000000001d
+			y: 3.2d
+		}
+		{
+			dependencies: ["06A287756F226726"]
+			id: "4BB56356426B119D"
+			rewards: [{
+				id: "1EA8D1394551429B"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "42874EE7511F1E89"
+				item: { count: 1, id: "mythsandlegends:infernum_ingot" }
+				type: "item"
+			}]
+			x: 8.4d
+			y: 3.2d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
+			id: "3D58FFD6591DE8F0"
+			rewards: [
+				{
+					id: "1980BAB4B9ADE4BC"
+					type: "xp"
+					xp: 1200
+				}
+				{
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					icon: {
+						id: "comamigos_balance:tier_heart_5"
+					}
+					id: "7EBF21752A2D4717"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "561959877A7B436A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "6FD67ED0025DF761"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -1.8d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
+			id: "442776AE09B63766"
+			rewards: [
+				{
+					id: "7206F250676D82AA"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0424AF3C04215392"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5F836DF03459DE57"
+				item: { count: 1, id: "comamigos_balance:purifying_elixir_3" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.200000000000001d
+		}
+		{
+			dependencies: [
+				"1F41AA82C98B574E"
+				"0565AC7F751304BA"
+				"4BB56356426B119D"
+				"3D58FFD6591DE8F0"
+			]
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "0BDF6EE846E0F704"
+			rewards: [
+				{
+					id: "509207AA3FF29922"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "4493CBF1A17E79C6"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				id: "67221CD9932D212F"
+				item: { count: 1, id: "comamigos_balance:tier_heart_5" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["0BDF6EE846E0F704"]
+			id: "1C979661703F338B"
+			rewards: [{
+				id: "220D25C5E2345A56"
+				type: "xp"
+				xp: 4000
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "5625B76B02F92790"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
+			icon: {
+				id: "comamigos_balance:ignis_heart"
+			}
+			id: "3EBC268EA4DF79AA"
+			rewards: [
+				{
+					id: "46B66F95DACC8621"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					icon: {
+						id: "comamigos_balance:tier_heart_5"
+					}
+					id: "6202143D2CC80DB4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "3E43433B9A5210BE"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "1B60229A9DAE0B1D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 7.000000000000001d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
+			icon: {
+				id: "comamigos_balance:monstrosity_heart"
+			}
+			id: "35FC8118FF207F59"
+			rewards: [
+				{
+					id: "5359CB40E331FD68"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					icon: {
+						id: "comamigos_balance:tier_heart_5"
+					}
+					id: "273E6E3030625E60"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "13D531FF765E43A7"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "1488499AB0E3009E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.6d
+			y: 7.000000000000001d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
+			icon: {
+				id: "comamigos_balance:gauntlet_heart"
+			}
+			id: "4E38D98ADA452B09"
+			rewards: [
+				{
+					id: "3D8880745C95A0EE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					icon: {
+						id: "comamigos_balance:tier_heart_5"
+					}
+					id: "360841BDDB397737"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "51EEB7F6F26C8CF0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "5652EB66606588A0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.2d
+			y: 7.000000000000001d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
+			icon: {
+				id: "comamigos_balance:frostmaw_heart"
+			}
+			id: "6FD8D5E9F0432D44"
+			rewards: [
+				{
+					id: "2B61341664CBDAE2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					icon: {
+						id: "comamigos_balance:tier_heart_5"
+					}
+					id: "175D7035BDF6328D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "60ADB4995B1D6F6C"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "1B59C7D59B250B6D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.800000000000001d
+			y: 7.000000000000001d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
+			icon: {
+				id: "comamigos_balance:krampus_heart"
+			}
+			id: "517634A75BC2A3EF"
+			rewards: [
+				{
+					id: "4F8B6656BC67DA19"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					icon: {
+						id: "comamigos_balance:tier_heart_5"
+					}
+					id: "1A3FF4C4916CA052"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "423D0C833A250C6B"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus"
+				id: "770BAFE11D5C5ED0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.4d
+			y: 7.000000000000001d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
+			icon: {
+				id: "comamigos_balance:scorched_sentinel_heart"
+			}
+			id: "618FE5FFE8994B67"
+			rewards: [
+				{
+					id: "4331278A332DC491"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					icon: {
+						id: "comamigos_balance:tier_heart_5"
+					}
+					id: "5D6E4FC5330017D4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "31F4FDD77D72FD13"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "mythsandlegends:scorched_sentinel"
+				id: "6D0246EE95E5A498"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 7.000000000000001d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
+			icon: {
+				id: "comamigos_balance:ashlord_heart"
+			}
+			id: "44020034C3154FF9"
+			rewards: [
+				{
+					id: "27E6D02ED9F4E45D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					icon: {
+						id: "comamigos_balance:tier_heart_5"
+					}
+					id: "0E8D44F0FDFFF0C7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "53DF06CC043AB294"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				id: "7E5DFF3491691021"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 8.600000000000001d
+		}
+	]
+}

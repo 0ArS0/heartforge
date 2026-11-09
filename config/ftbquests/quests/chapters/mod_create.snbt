@@ -1,0 +1,268 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create"
+	group: "60FEF54FAB43A476"
+	icon: {
+		id: "create:cogwheel"
+	}
+	id: "1DAC0C05C5E35017"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "75742C0F61E62491"
+			rewards: [{
+				id: "17E5AE6992B5CD92"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "1CC2843E5A737FAA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75742C0F61E62491"]
+			id: "342274A810C316AE"
+			rewards: [
+				{
+					id: "03EE53588F9CA484"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "48F8382D8372C4FD"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 16L
+					id: "2F439975E911C826"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+				{
+					id: "1D203EF17059112D"
+					item: { count: 1, id: "create:wrench" }
+					type: "item"
+				}
+				{
+					id: "4F16E9E4CCFF093B"
+					item: { count: 1, id: "create:goggles" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "13EA10C92EB265D0"
+					item: { count: 1, id: "create:andesite_casing" }
+					type: "item"
+				}
+				{
+					advancement: "create:andesite_casing"
+					criterion: ""
+					id: "753FD9F81A3BF544"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["342274A810C316AE"]
+			id: "400761B7AB052EE6"
+			rewards: [
+				{
+					id: "0DA3FEAF7DE6855C"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "43D0737DC663FC92"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 16L
+					id: "520392486267AEE7"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					id: "3B8B431AC0EF1E3A"
+					item: { count: 1, id: "create:hand_crank" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1447DC0B1ED35659"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2A6FAA96322AC924"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+				{
+					advancement: "create:shifting_gears"
+					criterion: ""
+					id: "3CCEE60196B38DE6"
+					type: "advancement"
+				}
+				{
+					id: "6E13C4594224AA5D"
+					item: { count: 1, id: "create:speedometer" }
+					type: "item"
+				}
+				{
+					id: "6534D2C9A50B27F7"
+					item: { count: 1, id: "create:stressometer" }
+					type: "item"
+				}
+				{
+					advancement: "create:stressometer"
+					criterion: ""
+					id: "511B2713CE37E87A"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["400761B7AB052EE6"]
+			id: "70E447707F82D656"
+			rewards: [
+				{
+					id: "265FDC6EF4C24223"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1863F8C5FB4F2646"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "16E48FE0F556D15E"
+					item: { count: 1, id: "create:gearbox" }
+					type: "item"
+				}
+				{
+					id: "08625BEEC5DE73F0"
+					item: { count: 1, id: "create:vertical_gearbox" }
+					type: "item"
+				}
+				{
+					id: "28C6C2B355D9957A"
+					item: { count: 1, id: "create:clutch" }
+					type: "item"
+				}
+				{
+					id: "7596676D4184E0BB"
+					item: { count: 1, id: "create:gearshift" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7AEC6623C55B860A"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+				{
+					id: "76D95BF05D65A066"
+					item: { count: 1, id: "create:adjustable_chain_gearshift" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["400761B7AB052EE6"]
+			id: "30194407060A452E"
+			rewards: [
+				{
+					id: "7A5CD246AE8B7C98"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "4187E7DF686E7749"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "2363B0F58BA2F06D"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+				{
+					advancement: "create:water_wheel"
+					criterion: ""
+					id: "6D12AF8DF9AD3D26"
+					type: "advancement"
+				}
+				{
+					id: "21E95892AD322273"
+					item: { count: 1, id: "create:large_water_wheel" }
+					type: "item"
+				}
+				{
+					id: "21E6FD290F5775EB"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "04EF0D4D68483559"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					advancement: "create:windmill"
+					criterion: ""
+					id: "27EA9D42915F5741"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+	]
+}

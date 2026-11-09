@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_dwarfs"
+	group: "7E685056D4C815C1"
+	icon: {
+		id: "dwarfs_tyranny:mythril_ingot"
+	}
+	id: "2CCFDE2E773E8453"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "dwarfs_tyranny:mythril_ingot"
+			}
+			id: "1E7412D5921F48BA"
+			rewards: [{
+				id: "1A923FB4473392B9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "633A017088938A39"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E7412D5921F48BA"]
+			icon: {
+				id: "dwarfs_tyranny:colony_drum"
+			}
+			id: "250350228C2E80A4"
+			rewards: [{
+				id: "1320BCC3310A0DC3"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "dwarfs_tyranny:progression/down_where_the_stone_sings"
+					criterion: ""
+					id: "09B384BE3625563A"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/meet_the_locals"
+					criterion: ""
+					id: "2F19C07094E7D8CF"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/drums_in_the_deep"
+					criterion: ""
+					id: "7F4D3A43FEFBB161"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/a_living_city"
+					criterion: ""
+					id: "4B01C9E6178B61A7"
+					type: "advancement"
+				}
+				{
+					count: 9L
+					id: "61473AEDC59D7CF0"
+					item: { count: 1, id: "dwarfs_tyranny:mossthril" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["250350228C2E80A4"]
+			id: "65A424A3F5755A29"
+			rewards: [{
+				id: "1017852BAE0E4062"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "dwarfs_tyranny:progression/mind_your_reputation"
+					criterion: ""
+					id: "23269A017F69A9CF"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/a_fair_trade"
+					criterion: ""
+					id: "4D6AD9D9C79B2A62"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/travelling_salesdwarves"
+					criterion: ""
+					id: "243C960C9EBBE0A2"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["250350228C2E80A4"]
+			id: "0DD8FDA0DAFA858B"
+			optional: true
+			rewards: [
+				{
+					id: "517CD46B1515B8DD"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1B7C50D21D2480D0"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "dwarfs_tyranny:progression/sound_the_alarm"
+					criterion: ""
+					id: "1765FE0B80BCDCA6"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/enemy_of_the_mountain"
+					criterion: ""
+					id: "30A238F55AA88C6A"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/everybody_hates_you"
+					criterion: ""
+					id: "73E58C4C5AE7ACD7"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/you_asked_for_this"
+					criterion: ""
+					id: "594A103356E8D5E8"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+	]
+}

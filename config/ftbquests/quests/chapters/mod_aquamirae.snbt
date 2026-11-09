@@ -1,0 +1,68 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_aquamirae"
+	group: "25796BB343F30024"
+	icon: {
+		id: "aquamirae:shell_horn"
+	}
+	id: "6DF4F2F779424ABC"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "aquamirae:shell_horn"
+			}
+			id: "16D6ABF55B90DB5F"
+			rewards: [{
+				id: "411EFFFE0E70DF73"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "0C80A445EE4BFFDD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16D6ABF55B90DB5F"]
+			icon: {
+				id: "minecraft:packed_ice"
+			}
+			id: "3CB9F9FBB8551617"
+			rewards: [{
+				id: "291080A2E0323E83"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					advancement: "aquamirae:adventure/find_ice_maze"
+					criterion: ""
+					id: "69732114CEB4DD76"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "786B8A06A9AA1947"
+					item: { count: 1, id: "aquamirae:wisteria_niveis" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3852D89ED3D5F9CF"
+					item: { count: 1, id: "aquamirae:oxyhelium" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cataclysm_t2"
+	group: "0E0AC8A91F88F063"
+	icon: {
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "77B0CE12AE327BB7"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "3A5632CF088470B6"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "153DE4798A59D4E0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"53E88B19CDC71AAA"
+				"3A5632CF088470B6"
+			]
+			id: "4FBEFC5DEB2882BE"
+			rewards: [{
+				id: "33315E8F543EED1A"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "42EB93B8DB8E3B87"
+					item: { count: 1, id: "cataclysm:sticky_gloves" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_cursed_pyramid"
+					criterion: ""
+					id: "089A4F3C87648B8A"
+					type: "advancement"
+				}
+				{
+					entity: "cataclysm:wadjet"
+					id: "7DEDBEB0F59F1B12"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:kobolediator"
+					id: "233ACDC403337748"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4B7B0DE781EBAE0A"
+					item: { count: 1, id: "cataclysm:kobolediator_skull" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1823163690B0B5F7"
+				"3A5632CF088470B6"
+			]
+			id: "2DF47478AB1E9945"
+			rewards: [
+				{
+					id: "0FC6D40B041764E8"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "33671DA0A6F5F8D3"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "59DA44997361A4AD"
+					item: { count: 1, id: "cataclysm:black_steel_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "3C67C86523ED6FB1"
+					item: { count: 1, id: "cataclysm:black_steel_sword" }
+					type: "item"
+				}
+				{
+					id: "67C8C803A0A804BA"
+					item: { count: 1, id: "cataclysm:black_steel_axe" }
+					type: "item"
+				}
+				{
+					id: "692EECE2ABEA54CF"
+					item: { count: 1, id: "cataclysm:black_steel_targe" }
+					type: "item"
+				}
+				{
+					id: "1980FF6D7D52722A"
+					item: { count: 1, id: "cataclysm:belt_of_beginner" }
+					type: "item"
+				}
+				{
+					id: "64BE7049E680A518"
+					item: { count: 1, id: "cataclysm:sturdy_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"1823163690B0B5F7"
+				"3A5632CF088470B6"
+			]
+			id: "744D887EEAAF42FF"
+			rewards: [{
+				id: "30D67160519A71FE"
+				type: "xp"
+				xp: 240
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "cataclysm:find_frosted_prison"
+					criterion: ""
+					id: "0530F79438ECEDB8"
+					type: "advancement"
+				}
+				{
+					entity: "cataclysm:aptrgangr"
+					id: "4F81B26EF2A1E2AD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4C2B5E23E0D406C9"
+					item: { count: 1, id: "cataclysm:strange_key" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+	]
+}

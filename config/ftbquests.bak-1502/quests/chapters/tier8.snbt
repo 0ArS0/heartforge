@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier8"
+	group: ""
+	icon: {
+		id: "minecraft:dragon_egg"
+	}
+	id: "61DC426C1D42893F"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DC7ED3CB1245DBE"]
+			id: "43077CF3E4CFEA1F"
+			rewards: [{
+				id: "2344F183A5A1ABA8"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "39A24BE3EA728DD5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43077CF3E4CFEA1F"]
+			id: "5198DB6539E0C7C3"
+			rewards: [{
+				id: "3202B34A28DB27E0"
+				type: "xp"
+				xp: 2000
+			}]
+			tasks: [{
+				id: "3D0E2E7AC9582BC5"
+				item: { count: 1, id: "comamigos_balance:purifying_elixir_7" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43077CF3E4CFEA1F"]
+			id: "0179B488D5D00F0D"
+			rewards: [{
+				id: "27EBEC31C9041C63"
+				type: "xp"
+				xp: 2400
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "5B940E74129940C7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.6d
+			y: -3.2d
+		}
+		{
+			dependencies: ["0179B488D5D00F0D"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "70DF3AEAD18C83B0"
+			rewards: [{
+				id: "7CEB63CC3942EDB3"
+				type: "xp"
+				xp: 10000
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				advancement: "comamigos_balance:tier/victory"
+				criterion: ""
+				id: "772783A0E82B5E52"
+				type: "advancement"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+	]
+}

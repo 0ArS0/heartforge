@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bosses_t7"
+	group: "1B6781BE25FE5814"
+	icon: {
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "32822D61D8EF3A8C"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "70DD3CF99F0C23F1"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "4F9C9088935CC230"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["70DD3CF99F0C23F1"]
+			icon: {
+				id: "comamigos_balance:ender_dragon_heart"
+			}
+			id: "4964A081949D5932"
+			rewards: [
+				{
+					id: "1FBE889311F7D9E7"
+					type: "xp"
+					xp: 1380
+				}
+				{
+					id: "7BE5AFB957A2E02C"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					id: "4FE40D79B0A60892"
+					type: "advancement"
+				}
+				{
+					entity: "minecraft:ender_dragon"
+					id: "055DA6CF01C7FF9A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "363F3A3835D00423"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/dragon_egg"
+					criterion: ""
+					id: "3917126910D220E4"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:end/respawn_dragon"
+					criterion: ""
+					id: "24BB03F995ACC2B7"
+					type: "advancement"
+				}
+				{
+					id: "5D2FB7ADD028B087"
+					item: { count: 1, id: "bosses_of_mass_destruction:brimstone_nectar" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70DD3CF99F0C23F1"]
+			icon: {
+				id: "comamigos_balance:warden_heart"
+			}
+			id: "20CB057C125A1308"
+			rewards: [{
+				id: "4731C1B8628056A2"
+				type: "xp"
+				xp: 460
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "6E20F4AD95CC42BF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "287B737E8AF80A3D"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"4964A081949D5932"
+				"20CB057C125A1308"
+				"07E8765FDF4A9B9F"
+			]
+			icon: {
+				id: "comamigos_balance:doppelganger_heart"
+			}
+			id: "49BBC4EC2F05EC26"
+			rewards: [{
+				id: "3728DD62590F5B39"
+				type: "xp"
+				xp: 690
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "600A2A3A0E2BD63D"
+					item: { count: 1, id: "darkdoppelganger:shadow_altar" }
+					type: "item"
+				}
+				{
+					id: "6C53FB575FE2CCA3"
+					item: { count: 1, id: "darkdoppelganger:shadow_orb" }
+					type: "item"
+				}
+				{
+					entity: "darkdoppelganger:dark_doppelganger"
+					id: "25D98372FDB183BE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["49BBC4EC2F05EC26"]
+			id: "6678912199199404"
+			optional: true
+			rewards: [
+				{
+					id: "6EED0363CBFB3853"
+					type: "xp"
+					xp: 690
+				}
+				{
+					id: "7301B95E37EF5ED2"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1969E041F4B1F7C4"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "darkdoppelganger:doppel_portal", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "darkdoppelganger:doppelganger_ring" }
+					type: "item"
+				}
+				{
+					id: "04A4774EF0052D99"
+					item: { count: 1, id: "darkdoppelganger:elder_necklace" }
+					type: "item"
+				}
+				{
+					id: "34C499683990ABB4"
+					item: { count: 1, id: "darkdoppelganger:summons_necklace" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+	]
+}

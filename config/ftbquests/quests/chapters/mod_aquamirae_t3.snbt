@@ -1,0 +1,260 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_aquamirae_t3"
+	group: "25796BB343F30024"
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "2014F9A8B4D227E0"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "5440D4534FFAE557"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "0FA064B9167AE0C2"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"760368A8A586216B"
+				"5787500722BAE4FB"
+				"5440D4534FFAE557"
+			]
+			icon: {
+				id: "aquamirae:tidepiercer"
+			}
+			id: "50F422C84B80372F"
+			rewards: [{
+				id: "398ED3C566309BE5"
+				type: "xp"
+				xp: 330
+			}]
+			tasks: [
+				{
+					advancement: "aquamirae:adventure/obtain_tidepiercer"
+					criterion: ""
+					id: "5FAB87691C2CA02E"
+					type: "advancement"
+				}
+				{
+					id: "59019ACCF576D57C"
+					item: { count: 1, id: "aquamirae:jawbreaker" }
+					type: "item"
+				}
+				{
+					id: "13C544BFC150D982"
+					item: { count: 1, id: "aquamirae:dagger_of_greed" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"201A4EB5C5E7FC88"
+				"37A726F96110E342"
+				"5440D4534FFAE557"
+			]
+			icon: {
+				id: "aquamirae:abyssal_brigandine"
+			}
+			id: "7AB7B5F2C0390D81"
+			rewards: [{
+				id: "38619496865DB73B"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 6L
+					id: "5AF0950A15817B4B"
+					item: { count: 1, id: "aquamirae:abyssal_amethyst" }
+					type: "item"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_abyssal_upgrade_smithing_template"
+					criterion: ""
+					id: "3511D2503358C791"
+					type: "advancement"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_all_abyssal_armor"
+					criterion: ""
+					id: "30473412CE488209"
+					type: "advancement"
+				}
+				{
+					id: "10E8D1512E8F5E3A"
+					item: { count: 1, id: "aquamirae:abyssal_tiara" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["50F422C84B80372F"]
+			icon: {
+				id: "aquamirae:music_disc_horizon"
+			}
+			id: "39B32CDF2BAF4BBE"
+			optional: true
+			rewards: [
+				{
+					id: "7AE6F30A35E040FB"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "3886E81C5AA1BE17"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5A1DF30E3E5C70F8"
+					item: { count: 1, id: "aquamirae:music_disc_forsaken_drownage" }
+					type: "item"
+				}
+				{
+					id: "0F0B65CE4D2E88C5"
+					item: { count: 1, id: "aquamirae:music_disc_horizon" }
+					type: "item"
+				}
+				{
+					id: "5F51E1C8F3C86414"
+					item: { count: 1, id: "aquamirae:painting_anglerfish" }
+					type: "item"
+				}
+				{
+					id: "119106C4893AF019"
+					item: { count: 1, id: "aquamirae:painting_aurora" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.53d
+		}
+		{
+			dependencies: ["7AB7B5F2C0390D81"]
+			icon: {
+				id: "aquamirae:shatterblade"
+			}
+			id: "132D05BAE1C12C33"
+			rewards: [
+				{
+					id: "693A7DCE3C169AFB"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "684FAD2256AF4D6D"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "0D0284FDC6076148"
+					item: { count: 1, id: "aquamirae:shatterblade" }
+					type: "item"
+				}
+				{
+					id: "04FFCF79EB0BFCB3"
+					item: { count: 1, id: "aquamirae:shatterspike" }
+					type: "item"
+				}
+				{
+					id: "47B8B7F249B1253D"
+					item: { count: 1, id: "aquamirae:maze_rose" }
+					type: "item"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_all_abyssal_weapons"
+					criterion: ""
+					id: "3DA041CFE7B79829"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.07d
+		}
+		{
+			dependencies: [
+				"7AB7B5F2C0390D81"
+				"2FBB46CCB20EC89D"
+			]
+			icon: {
+				id: "aquamirae:maelstrom_vestige"
+			}
+			id: "5FB0748C9E0610EA"
+			rewards: [
+				{
+					id: "5DF2C7124BEB0DF2"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "13C2C9E59E6DA4B3"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "aquamirae:adventure/encounter_the_shipbreaker"
+					criterion: ""
+					id: "3C6BFA6E8BA19187"
+					type: "advancement"
+				}
+				{
+					advancement: "aquamirae:adventure/survive_the_shipbreaker"
+					criterion: ""
+					id: "33817906F2097422"
+					type: "advancement"
+				}
+				{
+					id: "25D59D0AB19FECD6"
+					item: { count: 1, id: "aquamirae:maelstrom_vestige" }
+					type: "item"
+				}
+				{
+					id: "2BB12A69EF0DE277"
+					item: { count: 1, id: "aquamirae:dreadwake" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.67d
+		}
+	]
+}

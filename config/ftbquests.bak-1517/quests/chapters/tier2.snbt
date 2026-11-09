@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier2"
+	group: ""
+	icon: {
+		count: 1
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "55665AA5ECC6F688"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "47FF0B2D7185F617"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.25d
+			dependencies: [
+				"1CABC71AF09A60B7"
+			]
+			tasks: [
+				{
+					id: "6D0BD8220D263627"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "578F467751186B74"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Começo do Tier II"
+			description: [
+				"O grupo está no &aTier II - Aprendiz&r."
+				"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+			]
+		}
+		{
+			id: "0E885F597F41B8C0"
+			x: 2.0d
+			y: -2.4000000000000004d
+			dependencies: [
+				"47FF0B2D7185F617"
+			]
+			tasks: [
+				{
+					id: "761BE0772D3EA7F4"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "0C1C1A87B75546B9"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Latão"
+			description: [
+				"Misture cobre e zinco aquecidos no mixer."
+			]
+		}
+		{
+			id: "671BD4E1392266A3"
+			x: 3.6d
+			y: -2.4000000000000004d
+			dependencies: [
+				"0E885F597F41B8C0"
+			]
+			tasks: [
+				{
+					id: "66646C647B5B0EB9"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4D769844781D3A4B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Precision Mechanism"
+			description: [
+				"Sua primeira linha de montagem sequencial."
+			]
+		}
+		{
+			id: "20A3640DB58E167D"
+			x: 5.2d
+			y: -2.4000000000000004d
+			dependencies: [
+				"create_mecanismo"
+			]
+			tasks: [
+				{
+					id: "0412162BADA30168"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
+					count: 9L
+				}
+			]
+			rewards: [
+				{
+					id: "0F4E2EB900AE874D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Mechanical Crafter"
+			description: [
+				"O Coração III e os equipamentos avançados nascem aqui."
+			]
+		}
+		{
+			id: "1D81A4A503A9EB37"
+			x: 2.0d
+			y: -0.8d
+			dependencies: [
+				"47FF0B2D7185F617"
+			]
+			tasks: [
+				{
+					id: "70D114F0FE1DC040"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:runic_altar"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3593910B2074C969"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Altar Rúnico"
+			description: [
+				"Runas são a linguagem da Botânica."
+			]
+		}
+		{
+			id: "18236F78CCBF739D"
+			x: 3.6d
+			y: -0.8d
+			dependencies: [
+				"1D81A4A503A9EB37"
+			]
+			tasks: [
+				{
+					id: "48E68708C223E377"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_water"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "60AD038A6C1106AD"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Uma Runa"
+			description: [
+				"Qualquer runa serve no coração (exemplo: Água)."
+			]
+		}
+		{
+			id: "38F122B21B6E51CC"
+			x: 2.0d
+			y: 0.8d
+			dependencies: [
+				"47FF0B2D7185F617"
+			]
+			tasks: [
+				{
+					id: "2F2D65357AA0BF7A"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0098F43C5A622533"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Tinta Incomum"
+			description: [
+				"Ingrediente do Coração III."
+			]
+		}
+		{
+			id: "1E1DF71DE8206BCA"
+			x: 3.6d
+			y: 0.8d
+			dependencies: [
+				"38F122B21B6E51CC"
+			]
+			tasks: [
+				{
+					id: "1C527B9A0F8DAA9C"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_gem"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "41957055BABE635A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Gema Sintonizada"
+			description: [
+				"Occultism: uma gema que ouve os espíritos."
+			]
+		}
+		{
+			id: "6C9CB1287D415BE6"
+			x: 2.0d
+			y: 2.4000000000000004d
+			dependencies: [
+				"47FF0B2D7185F617"
+			]
+			tasks: [
+				{
+					id: "329FC6B2F99F01A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "iceandfire:troll_tusk"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3A640D4F878B843B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Presa de Troll"
+			description: [
+				"Trolls vivem em florestas, montanhas e neve. Ingrediente do Coração III."
+			]
+		}
+		{
+			id: "32E56D57387FA8A5"
+			x: 3.6d
+			y: 2.4000000000000004d
+			dependencies: [
+				"6C9CB1287D415BE6"
+			]
+			tasks: [
+				{
+					id: "139BC7AC381B716E"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "716F47EF26B1958C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Metal Sombrio"
+			description: [
+				"Born in Chaos: arrancado das criaturas da noite."
+			]
+		}
+		{
+			id: "326F030CFD7BB4A5"
+			x: 5.2d
+			y: 2.4000000000000004d
+			dependencies: [
+				"32E56D57387FA8A5"
+			]
+			tasks: [
+				{
+					id: "234D548E151CA3A1"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:ship_graveyard_echo"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "69C97B7FBF282FEF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Eco do Cemitério de Navios"
+			description: [
+				"Aquamirae: o mar gelado guarda ecos de navios afundados."
+			]
+		}
+		{
+			id: "0B0D6CAF2F6BB19E"
+			x: 6.800000000000001d
+			y: -3.2d
+			shape: "diamond"
+			size: 1.5d
+			dependencies: [
+				"47FF0B2D7185F617"
+			]
+			tasks: [
+				{
+					id: "4BA043905A46CE73"
+					type: "kill"
+					entity: "aquamirae:captain_cornelia"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0AB815769A67A604"
+					type: "xp"
+					xp: 600
+				}
+			]
+			title: "O Fantasma da Capitã Cornelia"
+			description: [
+				"No mar gelado do Aquamirae, a &bCapitã Cornelia&r ainda comanda seu navio."
+				"Derrote-a para obter o &cCoração da Cornelia&r."
+			]
+		}
+		{
+			id: "2820CCA849119B77"
+			x: 6.800000000000001d
+			y: 3.2d
+			shape: "rsquare"
+			dependencies: [
+				"47FF0B2D7185F617"
+			]
+			tasks: [
+				{
+					id: "5A12989440069CE9"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:purifying_elixir_1"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "47129015B8901DE3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Elixir Purificador I"
+			description: [
+				"Cura a &cIndigestão&r de quem comeu o Coração II."
+				"No &6Suporte de Poções&r: Poção Estranha + garrafa de mel."
+			]
+		}
+		{
+			id: "7F1988C32BAA160D"
+			x: 8.8d
+			y: 0.0d
+			shape: "gear"
+			size: 1.75d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			dependencies: [
+				"20A3640DB58E167D"
+				"18236F78CCBF739D"
+				"1E1DF71DE8206BCA"
+				"326F030CFD7BB4A5"
+				"0B0D6CAF2F6BB19E"
+			]
+			tasks: [
+				{
+					id: "52D471754152F956"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4FACB41CA9AB39A0"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			title: "Forjar o Coração do Tier III"
+			description: [
+				"No &6Mechanical Crafter&r: Coração da Cornelia, latão, precision mechanism, runas, tinta incomum, gema sintonizada, metal sombrio, presa de troll, eco do cemitério e item de facção II."
+			]
+		}
+		{
+			id: "31B1521C66801A23"
+			x: 10.8d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			dependencies: [
+				"7F1988C32BAA160D"
+			]
+			tasks: [
+				{
+					id: "6393F897FE8AF9F9"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "46FD050C09ACE685"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			title: "Comer o Coração: Tier III"
+			description: [
+				"Alguém do grupo come o coração e todos sobem para o &9Tier III - Cavaleiro&r."
+				"Lembre: quem come carrega a maldição."
+			]
+		}
+	]
+	title: "&aTier II - Aprendiz"
+	subtitle: [
+		"Objetivo: forjar e comer o Coração do Tier III"
+	]
+}

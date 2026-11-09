@@ -1,0 +1,266 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_irons_t1"
+	group: "5955ECC104DC966A"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "5AADFD2F070768CC"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "50FA7F526C0D8B8C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "0286BA14C4DBF03E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"530554AB7F09E8AA"
+				"50FA7F526C0D8B8C"
+			]
+			icon: {
+				id: "irons_spellbooks:lightning_bottle"
+			}
+			id: "504D2C256F3096CB"
+			rewards: [{
+				id: "2C4563E0ADF8D997"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "507E6F60E7082047"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4BB80384654AE515"
+					item: { count: 1, id: "irons_spellbooks:frozen_bone" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "468B4B9683CD4E16"
+					item: { count: 1, id: "irons_spellbooks:lightning_bottle" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1A27268CDAF9F51B"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"530554AB7F09E8AA"
+				"50FA7F526C0D8B8C"
+			]
+			icon: {
+				id: "irons_spellbooks:blood_vial"
+			}
+			id: "7B5DD188F20AB4CB"
+			rewards: [{
+				id: "01BCB331BA37F1A7"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "6AD77E38A1A74AE7"
+					item: { count: 1, id: "irons_spellbooks:divine_pearl" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "441769053EC93FC0"
+					item: { count: 1, id: "irons_spellbooks:blood_vial" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "20978F5C93557854"
+					item: { count: 1, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6830FB64A7E8C3C0"
+					item: { count: 1, id: "minecraft:poisonous_potato" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"25843D46F0C5DEEB"
+				"50FA7F526C0D8B8C"
+			]
+			icon: {
+				id: "irons_spellbooks:blank_rune"
+			}
+			id: "477D1D74C4B9B265"
+			rewards: [{
+				id: "51C152F26BB3A09D"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "76FBDD9E0A03F6AD"
+					item: { count: 1, id: "irons_spellbooks:blank_rune" }
+					type: "item"
+				}
+				{
+					id: "2882DE40751F12B7"
+					item: { count: 1, id: "irons_spellbooks:arcane_rune" }
+					type: "item"
+				}
+				{
+					id: "657B62AADEEAEE44"
+					item: { count: 1, id: "irons_spellbooks:protection_rune" }
+					type: "item"
+				}
+				{
+					id: "477CBA9AC22FE819"
+					item: { count: 1, id: "irons_spellbooks:cooldown_rune" }
+					type: "item"
+				}
+				{
+					id: "3BB4BB42DF478845"
+					item: { count: 1, id: "irons_spellbooks:shriving_stone" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"25843D46F0C5DEEB"
+				"50FA7F526C0D8B8C"
+			]
+			icon: {
+				id: "irons_spellbooks:wayward_compass"
+			}
+			id: "77294CE5EBCF0090"
+			rewards: [{
+				id: "26EE446D98E1DBC5"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/make_wayward_compass"
+					criterion: ""
+					id: "47956181CC22DC30"
+					type: "advancement"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
+					criterion: ""
+					id: "7ABF475790E63BF1"
+					type: "advancement"
+				}
+				{
+					entity: "irons_spellbooks:necromancer"
+					id: "484D8E266AE63E16"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"25843D46F0C5DEEB"
+				"50FA7F526C0D8B8C"
+			]
+			icon: {
+				id: "irons_spellbooks:wisewood_bookshelf"
+			}
+			id: "0D0D0A67AD5E1801"
+			optional: true
+			rewards: [
+				{
+					id: "113B7F784C3D1FBB"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0398741A6D5E86DE"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/steal_from_wizard"
+					criterion: ""
+					id: "7D30B3A77E5A51A0"
+					type: "advancement"
+				}
+				{
+					id: "58AC0AA6C5E5D20C"
+					item: { count: 1, id: "irons_spellbooks:wisewood_bookshelf" }
+					type: "item"
+				}
+				{
+					id: "5D0D7EA63E0E1339"
+					item: { count: 1, id: "irons_spellbooks:book_stack" }
+					type: "item"
+				}
+				{
+					id: "02F75730B5DCC41C"
+					item: { count: 1, id: "irons_spellbooks:brazier" }
+					type: "item"
+				}
+				{
+					id: "0447E073AD2E5799"
+					item: { count: 1, id: "irons_spellbooks:firefly_jar" }
+					type: "item"
+				}
+				{
+					id: "6CBED388CB76897E"
+					item: { count: 1, id: "irons_spellbooks:pedestal" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+	]
+}

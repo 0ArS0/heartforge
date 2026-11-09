@@ -1,0 +1,241 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_occultism_t3"
+	group: "46A9BB1E2D819F6E"
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "1FF3CC63377F6C36"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "1AF63B76627C9477"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "4017BD2FE6F3BB5E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"363AECA4F200A93D"
+				"6C5EC7E8689D9D06"
+				"1AF63B76627C9477"
+			]
+			icon: {
+				id: "occultism:iesnium_ingot"
+			}
+			id: "61B372EAFAF2F1E0"
+			rewards: [{
+				id: "28993A7311C43167"
+				type: "xp"
+				xp: 330
+			}]
+			tasks: [
+				{
+					id: "4A77393E72ADBA3A"
+					item: { count: 1, id: "occultism:raw_iesnium" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7D5C5911487DD44D"
+					item: { count: 1, id: "occultism:iesnium_ingot" }
+					type: "item"
+				}
+				{
+					id: "1D7C3D0A083EA051"
+					item: { count: 1, id: "occultism:iesnium_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"363AECA4F200A93D"
+				"2413D605BFDAECF8"
+				"1AF63B76627C9477"
+			]
+			icon: {
+				id: "occultism:familiar_ring"
+			}
+			id: "7E002D720DB08BC8"
+			rewards: [
+				{
+					id: "00F3BA3B79C31946"
+					type: "xp"
+					xp: 330
+				}
+				{
+					id: "1CA9C2CAC4B612E9"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4D729BFCA2C53AF5"
+					item: { count: 1, id: "occultism:soul_gem" }
+					type: "item"
+				}
+				{
+					id: "369C879D80A61EB2"
+					item: { count: 1, id: "occultism:familiar_ring" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/familiar/capture"
+					criterion: ""
+					id: "3DE29216C1F9655E"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["61B372EAFAF2F1E0"]
+			icon: {
+				id: "occultism:dimensional_mineshaft"
+			}
+			id: "0AB4579CA0C63A42"
+			rewards: [{
+				id: "7DE6EED0FA0F9E1E"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2B0AC3C3865AC96A"
+					item: { count: 1, id: "occultism:magic_lamp_empty" }
+					type: "item"
+				}
+				{
+					id: "3BD58FDD8B1F571E"
+					item: { count: 1, id: "occultism:dimensional_mineshaft" }
+					type: "item"
+				}
+				{
+					id: "34A81634B7561D4C"
+					item: { count: 1, id: "occultism:miner_foliot_unspecialized" }
+					type: "item"
+				}
+				{
+					id: "25E3D5DB81C59558"
+					item: { count: 1, id: "occultism:miner_djinni_ores" }
+					type: "item"
+				}
+				{
+					id: "5E6ABC705E6D6D1A"
+					item: { count: 1, id: "occultism:dimensional_extractor" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"61B372EAFAF2F1E0"
+				"1878D8FF0E07B052"
+			]
+			icon: {
+				id: "occultism:storage_remote"
+			}
+			id: "65DA0195461EC628"
+			rewards: [
+				{
+					id: "49B9E6D4AA8E7868"
+					type: "xp"
+					xp: 330
+				}
+				{
+					id: "262F2BCC17E4AE0A"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4ECBAFE530D00BE6"
+					item: { count: 1, id: "occultism:iesnium_nugget" }
+					type: "item"
+				}
+				{
+					id: "4023440B705EC2E5"
+					item: { count: 1, id: "occultism:otherstone_tablet" }
+					type: "item"
+				}
+				{
+					id: "02B828E046AF9710"
+					item: { count: 1, id: "occultism:storage_remote" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61B372EAFAF2F1E0"]
+			id: "7440365D4AA36B41"
+			optional: true
+			rewards: [
+				{
+					id: "6BA8A62C4A4B63CE"
+					type: "xp"
+					xp: 330
+				}
+				{
+					id: "668841DCCBAEC431"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2812BB312BDA5D1A"
+					item: { count: 1, id: "occultism:otherstone_frame" }
+					type: "item"
+				}
+				{
+					id: "477F89586356E852"
+					item: { count: 1, id: "occultism:entity_wormhole" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6EED1830203EE22C"
+					item: { count: 1, id: "occultism:otherglass_natural" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+	]
+}
