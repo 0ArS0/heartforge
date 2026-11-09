@@ -4,43 +4,69 @@
 	filename: "mod_create_t5"
 	group: "60FEF54FAB43A476"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_5"
 	}
 	id: "6518125589A68D53"
-	images: [ ]
-	order_index: 5
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_5"
-			}
 			id: "7931CA7FB816D052"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_5"
-				criterion: ""
-				id: "62D7B18F52E6887D"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_5"
+			}
+			tasks: [
+				{
+					id: "62D7B18F52E6887D"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_5"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&cTier V"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &cTier V&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "50B7449EFC8BC341"
+			x: 2.0d
+			y: 0.0d
 			dependencies: [
 				"33D862B3DD53F654"
 				"7931CA7FB816D052"
 			]
-			id: "50B7449EFC8BC341"
-			tasks: [{
-				id: "4B1DD30552CC6DE9"
-				item: { count: 1, id: "comamigos_balance:tier_heart_6" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "4B1DD30552CC6DE9"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
+					count: 1L
+				}
+			]
+			rewards: [ ]
+			title: "O Coração do Dragão"
+			description: [
+				"&7Um coração de dragão adulto ainda quente na esteira, e as mãos de latão não tremem."
+				""
+				"&6Objetivo:&r 1. Montagem sequencial com base num &6coração de dragão&r (fogo, gelo ou raio)."
+				"&f2. Deployers com terrasteel, essência de marid, cursium, aço de dragão e tinta épica; por fim, a Press."
+			]
 		}
+	]
+	title: "&cTier V&7 - O Coração do Dragão"
+	subtitle: [
+		"&6Engrenagens e Vapor&7, &cTier V"
 	]
 }

@@ -175,21 +175,21 @@
 		""
 		"&6Objetivo:&r Asse uma &6Torta de Maçã&r. Ingrediente do Coração II."
 	]
-	"quest.3B98D4797C00C492.title": "O Rei Anão Esqueleto"
+	"quest.3B98D4797C00C492.title": "O Colosso Ferroso"
 	"quest.3B98D4797C00C492.quest_desc": [
-		"&7Quando a última fortaleza anã caiu, seu rei se recusou a deixar o trono."
-		"&7Os ossos ainda vestem a coroa, e o salão inteiro ainda obedece."
+		"&7Sob a terra há salas trancadas por portas de ferro. Em cada uma, uma armadura vazia segura um machado do tamanho de uma porta."
+		"&7Ninguém lembra quem a vestia. Ela só lembra de guardar."
 		""
-		"&6Objetivo:&r Derrote o &eRei Anão Esqueleto&r nas fortalezas subterrâneas dos anões e pegue o &cCoração do Rei Anão&r."
+		"&6Objetivo:&r Encontre a &6Câmara Forjada&r, derrote o &eColosso Ferroso&r e pegue o &cCoração do Colosso Ferroso&r."
 		""
-		"&8Levem armadura de ferro, escudo e comida de sobra: ele não luta sozinho."
+		"&8Golpes de frente não fazem nada: quando o machado cravar no chão, ataquem pelas costas. Escudo e espaço para correr."
 	]
 	"quest.3CAB53366B184275.title": "A Forja do Coração II"
 	"quest.3CAB53366B184275.quest_desc": [
-		"&7Tudo o que a companhia aprendeu cabe numa bacia: o metal dos anões, a mana das flores, a tinta dos magos e o sangue de um rei."
+		"&7Tudo o que a companhia aprendeu cabe numa bacia: o metal dos anões, a mana das flores, a tinta dos magos e o ferro vivo de um colosso."
 		""
 		"&6Objetivo:&r No &6Mechanical Mixer&r (sem calor), forje o &cCoração do Tier II&r com:"
-		"&fCoração do Rei Anão, liga de andesito, mythril, manasteel, tinta comum, prata, item de facção e torta de maçã."
+		"&fCoração do Colosso Ferroso, liga de andesito, mythril, manasteel, tinta comum, prata, item de facção e torta de maçã."
 		""
 		"&8Quantidades exatas no livro de receitas."
 	]
@@ -361,14 +361,6 @@
 		"&7O metal das civilizações esquecidas resiste ao martelo. Só cede ao calor."
 		""
 		"&6Objetivo:&r Junte &62 Lingotes de Metal Antigo&r; neste mundo eles só saem do &6Mixer aquecido&r. Ingrediente do Coração IV."
-	]
-	"quest.1AFB2AEBA65B7A3B.title": "O Ferrous Wroughtnaut"
-	"quest.1AFB2AEBA65B7A3B.quest_desc": [
-		"&7Nas câmaras subterrâneas, uma armadura vazia caminha com um machado do tamanho de uma porta. Ninguém lembra quem a vestia."
-		""
-		"&6Objetivo:&r &7(Opcional)&r Derrote o &6Ferrous Wroughtnaut&r."
-		""
-		"&8Golpeie as costas dele quando o machado ficar preso no chão."
 	]
 	"quest.48B95C90608F35DE.title": "O Rei Morto"
 	"quest.48B95C90608F35DE.quest_desc": [
@@ -790,6 +782,15 @@
 		""
 		"&6Objetivo:&r Derrotem o &8Obsidilith&r. Depois disso, a jornada está completa: &6parabéns à companhia!"
 	]
+	"quest.44056650B19C5EB6.title": "Caçada: Rei Anão Esqueleto"
+	"quest.44056650B19C5EB6.quest_desc": [
+		"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+		"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+		""
+		"&6Objetivo:&r &7(Opcional)&r Derrote &eRei Anão Esqueleto&r e guarde o coração dele como troféu."
+		""
+		"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+	]
 	"quest.157AABB59D2DA7DC.title": "Caçada: Invocador de Ossos Supremo"
 	"quest.157AABB59D2DA7DC.quest_desc": [
 		"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
@@ -868,15 +869,6 @@
 		"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
 		""
 		"&6Objetivo:&r &7(Opcional)&r Derrote &eMãe do Labirinto&r e guarde o coração dele como troféu."
-		""
-		"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-	]
-	"quest.16F1275229DC1191.title": "Caçada: Ferrous Wroughtnaut"
-	"quest.16F1275229DC1191.quest_desc": [
-		"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-		"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-		""
-		"&6Objetivo:&r &7(Opcional)&r Derrote &eFerrous Wroughtnaut&r e guarde o coração dele como troféu."
 		""
 		"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
 	]
@@ -1397,8 +1389,8 @@
 		"&7Dentro da bacia, oferendas de oito povos viram uma só batida."
 		"&7Quem o come sobe com o grupo inteiro ao Tier II, e carrega uma maldição que só o Elixir Purificador desfaz."
 		""
-		"&6Objetivo:&r 1. Derrote o Rei Anão Esqueleto e guarde o coração dele."
-		"&f2. No &6Mechanical Mixer&r sobre uma Basin (sem calor), misture: Coração do Rei Anão Esqueleto, Andesite Alloy,"
+		"&6Objetivo:&r 1. Derrote o Colosso Ferroso na Câmara Forjada e guarde o coração dele."
+		"&f2. No &6Mechanical Mixer&r sobre uma Basin (sem calor), misture: Coração do Colosso Ferroso, Andesite Alloy,"
 		"&flingote de mythril, lingote de manasteel, tinta comum (Common Ink), lingote de prata,"
 		"&fpresa de vampiro, coração humano ou dente de lobisomem, e uma torta de maçã."
 		""
@@ -5253,6 +5245,20 @@
 		""
 		"&8Use arco contra o foliaath. Cada pata de elokosa quebra depois de alguns usos."
 	]
+	"quest.2798A85C515C936A.title": "O Colosso Ferroso"
+	"quest.2798A85C515C936A.quest_desc": [
+		"&7Sob a terra, uma sala trancada por uma porta de ferro. Lá dentro, uma armadura vazia segura um machado."
+		"&7Vazia, até você entrar. Ferro sobre ferro, golpes que racham a pedra,"
+		"&7e um único ponto fraco: as costas."
+		""
+		"&6Objetivo:&r 1. Encontre a &6Câmara Forjada&r: uma sala subterrânea de pedra com uma grande porta de ferro."
+		"&f2. Desvie dos golpes de machado do &cFerrous Wroughtnaut&r: quando ele crava o machado no chão, fica preso por um instante. Ataque as &6costas&r."
+		"&f3. Recolha o &6Machado dos Mil Metais&r e o &6Elmo Forjado&r: pesados demais por enquanto, só obedecem a quem já rompeu o terceiro selo."
+		"&f4. O &ccoração de troféu&r dele dá resistência e força, mas peso nos ombros."
+		""
+		"&8As câmaras aparecem em quase todo bioma terrestre, enterradas não muito fundo. Golpes de frente não fazem nada."
+		"&8O coração dele é o primeiro selo da Forja: entra no Coração do Tier II."
+	]
 	"quest.40C95CF2F1B0E55A.title": "Todas as Luas"
 	"quest.40C95CF2F1B0E55A.quest_subtitle": "&8Opcional"
 	"quest.40C95CF2F1B0E55A.quest_desc": [
@@ -5284,19 +5290,6 @@
 	"quest.5EAC5025A873BF53.title": "&9Tier III"
 	"quest.5EAC5025A873BF53.quest_desc": [
 		"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
-	]
-	"quest.1825F5DD85056D5E.title": "O Colosso Ferroso"
-	"quest.1825F5DD85056D5E.quest_desc": [
-		"&7Sob a terra, uma sala trancada por uma porta de ferro. Lá dentro, uma armadura vazia segura um machado."
-		"&7Vazia, até você entrar. Ferro sobre ferro, golpes que racham a pedra,"
-		"&7e um único ponto fraco: as costas."
-		""
-		"&6Objetivo:&r 1. Encontre a &6Câmara Forjada&r: uma sala subterrânea de pedra com uma grande porta de ferro."
-		"&f2. Desvie dos golpes de machado do &cFerrous Wroughtnaut&r: quando ele crava o machado no chão, fica preso por um instante. Ataque as &6costas&r."
-		"&f3. Recolha o &6Machado dos Mil Metais&r (golpes fortes atingem em área) e o &6Elmo Forjado&r."
-		"&f4. O &ccoração de troféu&r dele dá resistência e força, mas peso nos ombros."
-		""
-		"&8As câmaras aparecem em quase todo bioma terrestre, enterradas não muito fundo. Golpes de frente não fazem nada."
 	]
 	"quest.35DD9F2EF17A0208.title": "Serpente dos Penhascos"
 	"quest.35DD9F2EF17A0208.quest_desc": [
@@ -9227,6 +9220,7 @@
 		"&f2. Explore até que o remanescente mude de forma: &6Remanescente Adulterado&r."
 	]
 	"reward.64D3B296FF58286A.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+	"reward.3F824230FDDAE8E8.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.0B537DD7DFF4591B.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.28B0402D5C96C6D2.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.267AE7162C824392.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
@@ -9238,7 +9232,6 @@
 	"reward.0CEAB7827327B8FC.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.03689A71438A779F.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.5966BDDF43C887E2.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
-	"reward.01A8A4DDC1FB3A07.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.47DA228C143CF5E4.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.51BC5274A77E1F11.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.04CCB064DEEFDBFD.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"

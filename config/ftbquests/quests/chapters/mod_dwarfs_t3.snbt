@@ -4,72 +4,101 @@
 	filename: "mod_dwarfs_t3"
 	group: "7E685056D4C815C1"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "40F6F34FD1F77224"
-	images: [ ]
-	order_index: 3
+	order_index: 106
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_3"
-			}
 			id: "05806E9E53D84C49"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_3"
-				criterion: ""
-				id: "53157D102ABDAA98"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.8d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			tasks: [
+				{
+					id: "53157D102ABDAA98"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "22C321C84BE4F5E0"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:lumite"
+			}
 			dependencies: [
 				"14044642BD919658"
 				"54DC893C93BA29EE"
 				"05806E9E53D84C49"
 			]
-			icon: {
-				id: "dwarfs_tyranny:lumite"
-			}
-			id: "22C321C84BE4F5E0"
-			rewards: [{
-				id: "178AA80C35B800B1"
-				type: "xp"
-				xp: 220
-			}]
 			tasks: [
 				{
-					advancement: "dwarfs_tyranny:progression/a_kings_ransom"
-					criterion: ""
 					id: "129E40B8D6035A8C"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/a_kings_ransom"
+					criterion: ""
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/legendary_contract"
-					criterion: ""
 					id: "08783BE41B97C11B"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/legendary_contract"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "178AA80C35B800B1"
+					type: "xp"
+					xp: 220
+				}
+			]
+			title: "O Resgate de um Rei"
+			description: [
+				"&7Os contratos épicos falam de dragões e de Withers. O rei sabe que você voltará com glória, ou não voltará."
+				"&7Ao mesmo tempo, um anão comum pede uma gema épica. Alguém está planejando um casamento real, ou uma guerra."
+				""
+				"&6Objetivo:&r 1. Atenda um pedido de gema &5épica&r."
+				"&f2. Conclua um contrato &5épico&r do rei (alguns pedem caçar o Wither ou o Dragão do Fim: esses podem esperar o tier certo)."
+			]
 		}
 		{
+			id: "31235FD0F0E55CE2"
+			x: 2.0d
+			y: 1.6d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:deepbrew_bottle"
+			}
 			dependencies: [
 				"0FC0E3A1E0783BC4"
 				"05806E9E53D84C49"
 			]
-			icon: {
-				id: "dwarfs_tyranny:deepbrew_bottle"
-			}
-			id: "31235FD0F0E55CE2"
-			optional: true
+			tasks: [
+				{
+					id: "320AACA07247EB7D"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/master_brewer"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "71D75FF0E51CF98E"
@@ -78,21 +107,31 @@
 				}
 				{
 					id: "677AAFFEADD648E9"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "dwarfs_tyranny:progression/master_brewer"
-				criterion: ""
-				id: "320AACA07247EB7D"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: 1.6d
+			title: "Mestre Cervejeiro"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Vinte e quatro ingredientes, vinte e quatro cervejas. Uma delas faz levitar, outra deixa a pele de pedra."
+				"&7Só um mestre conhece todas, e os anões brindam o nome dele por gerações."
+				""
+				"&6Objetivo:&r 1. Prepare Cerveja das Profundezas com &6todos&r os ingredientes de infusão:"
+				"&fpedra, lã, ovo, cacau, tinta de lula, lápis, cobre, amoras brilhantes, bola de slime, olho de aranha, creme de magma, obsidiana,"
+				"&fpeixe tropical, baiacu, ensopado suspeito, casco de tatu, mossthril, membrana de phantom, fragmento de eco, lágrima de ghast,"
+				"&fbastão de breeze, núcleo pesado, fruta do coro e casca de shulker."
+				""
+				"&8O taverneiro anão vende quase tudo, inclusive fruta do coro e casca de shulker: não é preciso ir ao End."
+			]
+			optional: true
 		}
+	]
+	title: "&9Tier III&7 - Contratos Lendários"
+	subtitle: [
+		"&7Os Reinos Anões&7, &9Tier III"
 	]
 }

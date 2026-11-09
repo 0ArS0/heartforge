@@ -4,36 +4,82 @@
 	filename: "mod_create_t3"
 	group: "60FEF54FAB43A476"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "71B852DD458B2273"
-	images: [ ]
-	order_index: 3
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_3"
-			}
 			id: "6CD1FD530B55FB55"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_3"
-				criterion: ""
-				id: "4F4C17A62B986CD4"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			tasks: [
+				{
+					id: "4F4C17A62B986CD4"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "585B3ABED1A90C51"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
 			dependencies: [
 				"481FD9295FCF4889"
 				"6CD1FD530B55FB55"
 			]
-			id: "585B3ABED1A90C51"
+			tasks: [
+				{
+					id: "29375E086841DD9D"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					count: 16L
+				}
+				{
+					id: "22FB2090B8342377"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:powdered_obsidian"
+					}
+					count: 8L
+				}
+				{
+					id: "27D3D71523FF243F"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:sturdy_sheet"
+					}
+					count: 8L
+				}
+				{
+					id: "1695E1DCF32C8448"
+					type: "advancement"
+					advancement: "create:sturdy_sheet"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "250CFE7D76AF7B8A"
@@ -42,49 +88,86 @@
 				}
 				{
 					id: "186D6DAB003D8081"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 16L
-					id: "29375E086841DD9D"
-					item: { count: 1, id: "create:precision_mechanism" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "22FB2090B8342377"
-					item: { count: 1, id: "create:powdered_obsidian" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "27D3D71523FF243F"
-					item: { count: 1, id: "create:sturdy_sheet" }
-					type: "item"
-				}
-				{
-					advancement: "create:sturdy_sheet"
-					criterion: ""
-					id: "1695E1DCF32C8448"
-					type: "advancement"
-				}
+			title: "A Linha que Nunca Para"
+			description: [
+				"&7Nenhuma armadura de Cavaleiro sai de uma bancada comum. A partir daqui, toda arma e armadura de Tier III"
+				"&7ou maior é montada nos Mechanical Crafters, com um Precision Mechanism no meio da receita."
+				"&7Os mestres deixam uma linha de montagem rodando dia e noite, e ao lado dela outra, mais pesada:"
+				"&7obsidiana em pó, banhada em lava e prensada duas vezes, vira a chapa que aguenta um trem."
+				""
+				"&6Objetivo:&r 1. Deixe uma linha sequencial rodando e junte um estoque de &6Precision Mechanisms&r."
+				"&f2. Triture obsidiana nas Crushing Wheels: &6Powdered Obsidian&r."
+				"&f3. Montagem sequencial: Powdered Obsidian → Spout com 500 mB de lava → Press → Press = &6Sturdy Sheet&r."
+				""
+				"&8Cada peça de equipamento de Tier III+ consome um Precision Mechanism no Mechanical Crafter."
 			]
-			x: 2.0d
-			y: 0.0d
 		}
 		{
+			id: "18F7E347504FD9CD"
+			x: 4.0d
+			y: -2.4d
+			size: 1.25d
 			dependencies: [
 				"585B3ABED1A90C51"
 				"5EF661194713BA19"
 			]
-			id: "18F7E347504FD9CD"
+			tasks: [
+				{
+					id: "3D89415C94D622F7"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					count: 8L
+				}
+				{
+					id: "308314B930EC8A92"
+					type: "advancement"
+					advancement: "create:train_casing_00"
+					criterion: ""
+				}
+				{
+					id: "75E629583A10A31F"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					count: 64L
+				}
+				{
+					id: "7E3B6A68A9001BBD"
+					type: "advancement"
+					advancement: "create:track_0"
+					criterion: ""
+				}
+				{
+					id: "4E37FFC4E5DC4449"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:track_station"
+					}
+					count: 1L
+				}
+				{
+					id: "4FC876FF926C08BC"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:controls"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "7FF83748AA358AF1"
@@ -93,70 +176,132 @@
 				}
 				{
 					id: "2AF3C75F51545806"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 8L
-					id: "3D89415C94D622F7"
-					item: { count: 1, id: "create:railway_casing" }
-					type: "item"
-				}
-				{
-					advancement: "create:train_casing_00"
-					criterion: ""
-					id: "308314B930EC8A92"
-					type: "advancement"
-				}
-				{
-					count: 64L
-					id: "75E629583A10A31F"
-					item: { count: 1, id: "create:track" }
-					type: "item"
-				}
-				{
-					advancement: "create:track_0"
-					criterion: ""
-					id: "7E3B6A68A9001BBD"
-					type: "advancement"
-				}
-				{
-					id: "4E37FFC4E5DC4449"
-					item: { count: 1, id: "create:track_station" }
-					type: "item"
-				}
-				{
-					id: "4FC876FF926C08BC"
-					item: { count: 1, id: "create:controls" }
-					type: "item"
-				}
+			title: "Uma Nova Bitola"
+			description: [
+				"&7Latão por dentro, obsidiana por fora: a casca das máquinas que cruzam continentes."
+				"&7Os trilhos novos fazem curvas largas, sobem morros e atravessam portais, e cada viagem começa numa plataforma."
+				""
+				"&6Objetivo:&r 1. Aplique uma Sturdy Sheet sobre Brass Casing: &6Train Casing&r."
+				"&f2. &6Train Tracks&r por montagem sequencial: laje de pedra → Deployer com pepita de ferro ou zinco (2x) → Press."
+				"&f3. Faça uma &6Train Station&r ao lado do trilho e &6Train Controls&r."
+				""
+				"&8Clique de um trilho a outro para fazer curvas e rampas."
 			]
-			x: 4.0d
-			y: -2.4d
 		}
 		{
-			dependencies: ["585B3ABED1A90C51"]
 			id: "2355C79206470ECD"
-			tasks: [{
-				id: "73AE3B6EA432656F"
-				item: { count: 1, id: "comamigos_balance:tier_heart_4" }
-				type: "item"
-			}]
 			x: 4.0d
 			y: -0.8d
+			dependencies: [
+				"585B3ABED1A90C51"
+			]
+			tasks: [
+				{
+					id: "73AE3B6EA432656F"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
+					count: 1L
+				}
+			]
+			rewards: [ ]
+			title: "A Linha dos Corações"
+			description: [
+				"&7Do terceiro Coração em diante, a forja é uma linha de montagem: o coração de um rei morto passa"
+				"&7de mão em mão de latão, recebe metal, tinta e experiência, e sai batendo sob a prensa."
+				""
+				"&6Objetivo:&r 1. Montagem sequencial com base no &6Coração do Rei Morto&r."
+				"&f2. Deployers, em ordem: lingote de elementium, tinta rara, lingote de metal antigo, lingote de iesnium e"
+				"&fsangue puro/inteligência de caçador/pele branca."
+				"&f3. Um &6Spout&r com 100 mB de &bexperiência líquida&r e, por fim, uma &6Mechanical Press&r."
+				""
+				"&8A experiência líquida vem da Indústria de Encantamento."
+				"&8O metal antigo é fundido no Mixer aquecido."
+			]
 		}
 		{
+			id: "543D90EE90117231"
+			x: 4.0d
+			y: 0.8d
+			size: 1.25d
 			dependencies: [
 				"2BE05997E81E3C85"
 				"585B3ABED1A90C51"
 			]
-			id: "543D90EE90117231"
+			tasks: [
+				{
+					id: "5A644586FEA30A48"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:stock_link"
+					}
+					count: 1L
+				}
+				{
+					id: "2702A1E6ECDCA675"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:stock_ticker"
+					}
+					count: 1L
+				}
+				{
+					id: "7929CD2473CD0A9C"
+					type: "advancement"
+					advancement: "create:stock_ticker"
+					criterion: ""
+				}
+				{
+					id: "5D5EF64D86F751A5"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:factory_gauge"
+					}
+					count: 2L
+				}
+				{
+					id: "74285D0CEC163E97"
+					type: "advancement"
+					advancement: "create:factory_gauge"
+					criterion: ""
+				}
+				{
+					id: "0548A554C834EFC8"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:redstone_requester"
+					}
+					count: 1L
+				}
+				{
+					id: "3CFE7F4AA69DA2AD"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:repackager"
+					}
+					count: 1L
+				}
+				{
+					id: "37385FC5C704A6A8"
+					type: "advancement"
+					advancement: "create:table_cloth_shop"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "6E9714E46F8C6574"
@@ -165,66 +310,58 @@
 				}
 				{
 					id: "20A922D801E572E0"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "5A644586FEA30A48"
-					item: { count: 1, id: "create:stock_link" }
-					type: "item"
-				}
-				{
-					id: "2702A1E6ECDCA675"
-					item: { count: 1, id: "create:stock_ticker" }
-					type: "item"
-				}
-				{
-					advancement: "create:stock_ticker"
-					criterion: ""
-					id: "7929CD2473CD0A9C"
-					type: "advancement"
-				}
-				{
-					count: 2L
-					id: "5D5EF64D86F751A5"
-					item: { count: 1, id: "create:factory_gauge" }
-					type: "item"
-				}
-				{
-					advancement: "create:factory_gauge"
-					criterion: ""
-					id: "74285D0CEC163E97"
-					type: "advancement"
-				}
-				{
-					id: "0548A554C834EFC8"
-					item: { count: 1, id: "create:redstone_requester" }
-					type: "item"
-				}
-				{
-					id: "3CFE7F4AA69DA2AD"
-					item: { count: 1, id: "create:repackager" }
-					type: "item"
-				}
-				{
-					advancement: "create:table_cloth_shop"
-					criterion: ""
-					id: "37385FC5C704A6A8"
-					type: "advancement"
-				}
+			title: "Pedido na Mesa!"
+			description: [
+				"&7Um balcão onde se pede qualquer coisa do armazém, e um funcionário que obedece."
+				"&7A fábrica que se reabastece sozinha: medidores pedem ingredientes pela rede quando falta,"
+				"&7alavancas puxadas aqui fazem pacotes saírem lá longe, e uma toalha sobre a mesa abre o mercado."
+				""
+				"&6Objetivo:&r 1. Faça um &6Stock Link&r (num Packager ligado ao armazém) e um &6Stock Ticker&r com uma criatura presa atrás do balcão."
+				"&f2. Faça &6Factory Gauges&r em painéis de Packagers: definem estoque mínimo e pedem ingredientes."
+				"&f3. Faça um &6Redstone Requester&r (pede uma lista fixa ao receber sinal) e um &6Re-Packager&r (junta pacotes fragmentados)."
+				"&f4. Coloque uma &6Table Cloth&r ligada ao Stock Ticker e ponha itens à venda."
 			]
-			x: 4.0d
-			y: 0.8d
 		}
 		{
-			dependencies: ["585B3ABED1A90C51"]
 			id: "2D2D8842B93FDF23"
+			x: 4.0d
+			y: 2.4d
+			dependencies: [
+				"585B3ABED1A90C51"
+			]
+			tasks: [
+				{
+					id: "5E261AC27B77B1AD"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:soul_campfire"
+					}
+					count: 1L
+				}
+				{
+					id: "6BEF6534AEF823D2"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:haunted_bell"
+					}
+					count: 1L
+				}
+				{
+					id: "0A12BF5A8A96687E"
+					type: "advancement"
+					advancement: "create:haunted_bell"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "00D28CB40A38C3DB"
@@ -233,37 +370,86 @@
 				}
 				{
 					id: "483372F04A3C439D"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
+			]
+			title: "Vento de Almas"
+			description: [
+				"&7O vento que passa pelo fogo azul leva um pouco da alma de tudo o que toca."
+				"&7Um sino estranho, assombrado assim, passa a tocar onde a escuridão pode parir monstros."
+				""
+				"&6Objetivo:&r 1. Faça uma &6Soul Campfire&r e ponha-a na frente de um ventilador."
+				"&f2. Assombre um &6Peculiar Bell&r no fluxo para obter o &6Haunted Bell&r: ao tocar, revela onde monstros podem nascer."
+			]
+		}
+		{
+			id: "2EC615293732D9D9"
+			x: 6.0d
+			y: -2.4d
+			size: 1.25d
+			dependencies: [
+				"18F7E347504FD9CD"
 			]
 			tasks: [
 				{
-					id: "5E261AC27B77B1AD"
-					item: { count: 1, id: "minecraft:soul_campfire" }
-					type: "item"
-				}
-				{
-					id: "6BEF6534AEF823D2"
-					item: { count: 1, id: "create:haunted_bell" }
-					type: "item"
-				}
-				{
-					advancement: "create:haunted_bell"
-					criterion: ""
-					id: "0A12BF5A8A96687E"
+					id: "719C0592C71A8438"
 					type: "advancement"
+					advancement: "create:train"
+					criterion: ""
+				}
+				{
+					id: "6330675690E562D0"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:track_signal"
+					}
+					count: 4L
+				}
+				{
+					id: "31CE82FF97360361"
+					type: "advancement"
+					advancement: "create:track_signal"
+					criterion: ""
+				}
+				{
+					id: "6E4468E70D19FBA8"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:schedule"
+					}
+					count: 1L
+				}
+				{
+					id: "2C94EC66513BC856"
+					type: "advancement"
+					advancement: "create:conductor"
+					criterion: ""
+				}
+				{
+					id: "58BF9D75D148430F"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:train_door"
+					}
+					count: 2L
+				}
+				{
+					id: "02D28CAF86E983FE"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:train_trapdoor"
+					}
+					count: 2L
 				}
 			]
-			x: 4.0d
-			y: 2.4d
-		}
-		{
-			dependencies: ["18F7E347504FD9CD"]
-			id: "2EC615293732D9D9"
 			rewards: [
 				{
 					id: "161FA64A78CBA62E"
@@ -272,66 +458,60 @@
 				}
 				{
 					id: "44B968A7637E5BD0"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "create:train"
-					criterion: ""
-					id: "719C0592C71A8438"
-					type: "advancement"
-				}
-				{
-					count: 4L
-					id: "6330675690E562D0"
-					item: { count: 1, id: "create:track_signal" }
-					type: "item"
-				}
-				{
-					advancement: "create:track_signal"
-					criterion: ""
-					id: "31CE82FF97360361"
-					type: "advancement"
-				}
-				{
-					id: "6E4468E70D19FBA8"
-					item: { count: 1, id: "create:schedule" }
-					type: "item"
-				}
-				{
-					advancement: "create:conductor"
-					criterion: ""
-					id: "2C94EC66513BC856"
-					type: "advancement"
-				}
-				{
-					count: 2L
-					id: "58BF9D75D148430F"
-					item: { count: 1, id: "create:train_door" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "02D28CAF86E983FE"
-					item: { count: 1, id: "create:train_trapdoor" }
-					type: "item"
-				}
+			title: "Todos a Bordo!"
+			description: [
+				"&7O apito, o vapor, o chão tremendo: o primeiro trem de Heartforge."
+				"&7Dois trens no mesmo trilho, só um pode passar, por isso os sinais. E um aldeão sentado nos controles,"
+				"&7com um papel de destinos na mão, nunca se atrasa."
+				""
+				"&6Objetivo:&r 1. Na estação, ponha Train Casings sobre o trilho, cole tudo e ponha Train Controls virados para a frente."
+				"&f2. Clique na estação, entre no modo de montagem e monte o trem. Sente-se e dirija."
+				"&f3. Faça &6Train Signals&r junto aos trilhos: dividem a linha em blocos e evitam colisões."
+				"&f4. Faça um &6Train Schedule&r com paradas e condições e entregue-o a uma criatura sentada nos controles."
+				"&f5. Faça &6Train Doors&r e &6Train Trapdoors&r para os vagões."
 			]
-			x: 6.0d
-			y: -2.4d
 		}
 		{
+			id: "6752E00A71621D14"
+			x: 8.0d
+			y: -3.2d
 			dependencies: [
 				"2EC615293732D9D9"
 				"3D7A934BD49BBD8D"
 			]
-			id: "6752E00A71621D14"
+			tasks: [
+				{
+					id: "710F26805230CCAA"
+					type: "advancement"
+					advancement: "create:display_board_0"
+					criterion: ""
+				}
+				{
+					id: "588DD4C8E857A9C8"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:track_observer"
+					}
+					count: 1L
+				}
+				{
+					id: "79354FFC404D4114"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:portable_fluid_interface"
+					}
+					count: 2L
+				}
+			]
 			rewards: [
 				{
 					id: "570EC74707097941"
@@ -340,39 +520,70 @@
 				}
 				{
 					id: "2979A4B64B206ED0"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
+			]
+			title: "A Estação Viva"
+			description: [
+				"&7A plataforma anuncia: próximo trem em dois minutos."
+				"&7Um vigia de latão conta quem passa, e o trem-tanque leva lava sobre trilhos,"
+				"&7o sonho de todo engenheiro e o pesadelo de todo bombeiro."
+				""
+				"&6Objetivo:&r 1. Ligue um Display Link a uma estação e mostre a previsão de chegada num Display Board."
+				"&f2. Faça um &6Train Observer&r junto ao trilho: emite redstone quando um trem passa (filtra pela carga)."
+				"&f3. Faça &6Portable Fluid Interfaces&r: transferem fluidos entre o trem e tanques fixos."
+			]
+		}
+		{
+			id: "3C87C8688B083C7E"
+			x: 8.0d
+			y: -1.6d
+			size: 1.25d
+			dependencies: [
+				"2EC615293732D9D9"
 			]
 			tasks: [
 				{
-					advancement: "create:display_board_0"
-					criterion: ""
-					id: "710F26805230CCAA"
+					id: "2C364D42C029BC1A"
 					type: "advancement"
+					advancement: "create:track_crafting_factory"
+					criterion: ""
 				}
 				{
-					id: "588DD4C8E857A9C8"
-					item: { count: 1, id: "create:track_observer" }
-					type: "item"
+					id: "4CF51925F7919B79"
+					type: "advancement"
+					advancement: "create:train_whistle"
+					criterion: ""
 				}
 				{
-					count: 2L
-					id: "79354FFC404D4114"
-					item: { count: 1, id: "create:portable_fluid_interface" }
-					type: "item"
+					id: "6DB531ACF8F9DD61"
+					type: "advancement"
+					advancement: "create:long_train"
+					criterion: ""
+				}
+				{
+					id: "508E6F93007BF15D"
+					type: "advancement"
+					advancement: "create:long_travel"
+					criterion: ""
+				}
+				{
+					id: "154E964FF5D9BD9C"
+					type: "advancement"
+					advancement: "create:crusher_maxed_0000"
+					criterion: ""
+				}
+				{
+					id: "2225A579B671F0C2"
+					type: "advancement"
+					advancement: "create:self_deploying"
+					criterion: ""
 				}
 			]
-			x: 8.0d
-			y: -3.2d
-		}
-		{
-			dependencies: ["2EC615293732D9D9"]
-			id: "3C87C8688B083C7E"
-			optional: true
 			rewards: [
 				{
 					id: "6FE9969A23A4BCAC"
@@ -381,54 +592,30 @@
 				}
 				{
 					id: "2701C3D8734A988E"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "create:track_crafting_factory"
-					criterion: ""
-					id: "2C364D42C029BC1A"
-					type: "advancement"
-				}
-				{
-					advancement: "create:train_whistle"
-					criterion: ""
-					id: "4CF51925F7919B79"
-					type: "advancement"
-				}
-				{
-					advancement: "create:long_train"
-					criterion: ""
-					id: "6DB531ACF8F9DD61"
-					type: "advancement"
-				}
-				{
-					advancement: "create:long_travel"
-					criterion: ""
-					id: "508E6F93007BF15D"
-					type: "advancement"
-				}
-				{
-					advancement: "create:crusher_maxed_0000"
-					criterion: ""
-					id: "154E964FF5D9BD9C"
-					type: "advancement"
-				}
-				{
-					advancement: "create:self_deploying"
-					criterion: ""
-					id: "2225A579B671F0C2"
-					type: "advancement"
-				}
+			title: "Lendas da Ferrovia"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Mil trilhos da mesma prensa, seis vagões, cinco mil blocos de paisagem pela janela."
+				"&7Um carrinho que deixa trilhos à frente de si mesmo. Um par de rodas a 256 rotações que faz o chão tremer."
+				"&7Os ferroviários de Heartforge colecionam essas histórias como medalhas."
+				""
+				"&6Objetivo:&r 1. Produza mais de 1000 trilhos com a mesma Mechanical Press."
+				"&f2. Monte um Steam Whistle no trem e acione-o dirigindo; monte um trem com 6+ vagões."
+				"&f3. Viaje mais de 5000 blocos num assento de trem sem descer."
+				"&f4. Opere Crushing Wheels na velocidade máxima; monte um carrinho que coloca trilhos à frente (Deployer com trilhos)."
 			]
-			x: 8.0d
-			y: -1.6d
+			optional: true
 		}
+	]
+	title: "&9Tier III&7 - Trilhos e Linhas de Montagem"
+	subtitle: [
+		"&6Engrenagens e Vapor&7, &9Tier III"
 	]
 }

@@ -4,39 +4,116 @@
 	filename: "mod_botania_t2"
 	group: "0BD654FB0C580B11"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "76C6BBC27D67BAF3"
-	images: [ ]
-	order_index: 2
+	order_index: 25
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_2"
-			}
 			id: "0B1683E462E3E0EB"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_2"
-				criterion: ""
-				id: "498E45D13FF97245"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 1.6d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			tasks: [
+				{
+					id: "498E45D13FF97245"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&aTier II"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "4EE19D5B37E0ABE8"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:manasteel_chestplate"
+			}
 			dependencies: [
 				"7CB650DFEA659CFD"
 				"0B1683E462E3E0EB"
 			]
-			icon: {
-				id: "botania:manasteel_chestplate"
-			}
-			id: "4EE19D5B37E0ABE8"
+			tasks: [
+				{
+					id: "3E7D73999D744587"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manasteel_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "2D0369B633BDDA97"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manasteel_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "3E0341E593284FFD"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manasteel_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "649CD1D64A6DF505"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manasteel_boots"
+					}
+					count: 1L
+				}
+				{
+					id: "1DDD638081512A9B"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manasteel_sword"
+					}
+					count: 1L
+				}
+				{
+					id: "518AC54AAAC8789C"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manasteel_axe"
+					}
+					count: 1L
+				}
+				{
+					id: "3761ABF65D14BD08"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:livingwood_bow"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "5DC37BFF76F23D31"
@@ -45,63 +122,93 @@
 				}
 				{
 					id: "2ECFCFAA0ECF9C38"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "3E7D73999D744587"
-					item: { count: 1, id: "botania:manasteel_helmet" }
-					type: "item"
-				}
-				{
-					id: "2D0369B633BDDA97"
-					item: { count: 1, id: "botania:manasteel_chestplate" }
-					type: "item"
-				}
-				{
-					id: "3E0341E593284FFD"
-					item: { count: 1, id: "botania:manasteel_leggings" }
-					type: "item"
-				}
-				{
-					id: "649CD1D64A6DF505"
-					item: { count: 1, id: "botania:manasteel_boots" }
-					type: "item"
-				}
-				{
-					id: "1DDD638081512A9B"
-					item: { count: 1, id: "botania:manasteel_sword" }
-					type: "item"
-				}
-				{
-					id: "518AC54AAAC8789C"
-					item: { count: 1, id: "botania:manasteel_axe" }
-					type: "item"
-				}
-				{
-					id: "3761ABF65D14BD08"
-					item: { count: 1, id: "botania:livingwood_bow" }
-					type: "item"
-				}
+			title: "O Arsenal de Aço-Mana"
+			description: [
+				"&7Leve como couro, firme como ferro, e se remenda sozinho se houver mana por perto."
+				"&7A guarda do jardim veste aço-mana, empunha lâminas azuis que nunca veem bigorna e caça com arcos"
+				"&7de madeira viva parecidos com os que os elfos usavam."
+				""
+				"&6Objetivo:&r 1. Forje as 4 peças da &6Armadura de Aço-Mana&r (formato normal de armadura)."
+				"&f2. Forje a &6Espada&r e o &6Machado de Aço-Mana&r."
+				"&f3. Crie o &6Arco de Madeira Viva&r: gravetos vivos e linhas infundidas."
+				""
+				"&8O conjunto completo reduz o custo de mana das suas ferramentas."
+				"&8Mais tarde, esta armadura vira a de aço-terra (Tier V)."
 			]
-			x: 2.0d
-			y: 0.0d
 		}
 		{
+			id: "50C3CC2949A54B80"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:runic_altar"
+			}
 			dependencies: [
 				"4B84CE167F4C4FA7"
 				"0B1683E462E3E0EB"
 			]
-			icon: {
-				id: "botania:runic_altar"
-			}
-			id: "50C3CC2949A54B80"
+			tasks: [
+				{
+					id: "190F56A3D7A6BC9B"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:runic_altar"
+					}
+					count: 1L
+				}
+				{
+					id: "45E68A56719986BB"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_water"
+					}
+					count: 1L
+				}
+				{
+					id: "4BFD5A9196932849"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_fire"
+					}
+					count: 1L
+				}
+				{
+					id: "5ABD46DA801F6751"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_earth"
+					}
+					count: 1L
+				}
+				{
+					id: "4A5A8F29B24DCFD8"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_air"
+					}
+					count: 1L
+				}
+				{
+					id: "7621652306B977FC"
+					type: "advancement"
+					advancement: "botania:main/rune_pickup"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "64E8F07D4A3FFDB0"
@@ -110,59 +217,96 @@
 				}
 				{
 					id: "1F172489739C0D7B"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "190F56A3D7A6BC9B"
-					item: { count: 1, id: "botania:runic_altar" }
-					type: "item"
-				}
-				{
-					id: "45E68A56719986BB"
-					item: { count: 1, id: "botania:rune_water" }
-					type: "item"
-				}
-				{
-					id: "4BFD5A9196932849"
-					item: { count: 1, id: "botania:rune_fire" }
-					type: "item"
-				}
-				{
-					id: "5ABD46DA801F6751"
-					item: { count: 1, id: "botania:rune_earth" }
-					type: "item"
-				}
-				{
-					id: "4A5A8F29B24DCFD8"
-					item: { count: 1, id: "botania:rune_air" }
-					type: "item"
-				}
-				{
-					advancement: "botania:main/rune_pickup"
-					criterion: ""
-					id: "7621652306B977FC"
-					type: "advancement"
-				}
+			title: "As Runas dos Elementos"
+			description: [
+				"&7Os elfos gravavam a natureza em pedra, e cada runa é um elemento domado. O altar que as talha"
+				"&7bebe mana como uma piscina e só desperta quando recebe uma pedra viva como oferenda."
+				"&7Água, fogo, terra e ar: toda magia verde avançada começa por estas quatro."
+				""
+				"&6Objetivo:&r 1. Crie o &6Altar Rúnico&r: 5 rochas vivas e uma pérola ou diamante de mana. Abasteça-o com um dispersor."
+				"&f2. Coloque os itens, depois uma &frocha viva&r, e use a Varinha. Cada runa custa 5.200 de mana e rende 2."
+				"&f3. Todas levam pó de mana e aço-mana, mais: &bÁgua&r: farinha de osso, cana, vara de pesca."
+				"&f&cFogo&r: tijolo do Nether, pólvora, verruga do Nether. &aTerra&r: pedra, bloco de carvão, cogumelo."
+				"&f&fAr&r: tapete, pena, linha."
+				""
+				"&8Uma runa qualquer é ingrediente do &6Coração do Tier III&r (Mechanical Crafter)."
+				"&8Tijolo e verruga do Nether: uma incursão curta, antes que o Ar Escaldante aperte."
+				"&8Clique no altar com a mão vazia para retirar o último item colocado."
 			]
-			x: 2.0d
-			y: 1.6d
 		}
 		{
+			id: "45042893B7B16B1E"
+			x: 2.0d
+			y: 3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:manaweave_chestplate"
+			}
 			dependencies: [
 				"4B84CE167F4C4FA7"
 				"0B1683E462E3E0EB"
 			]
-			icon: {
-				id: "botania:manaweave_chestplate"
-			}
-			id: "45042893B7B16B1E"
+			tasks: [
+				{
+					id: "310AB32F95AE1EB7"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manaweave_cloth"
+					}
+					count: 4L
+				}
+				{
+					id: "588A4222FFF3279B"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manaweave_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "36DA3C647AD660EE"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manaweave_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "3E0AF738B87ECD74"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manaweave_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "5110A9D069A7D2CF"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manaweave_boots"
+					}
+					count: 1L
+				}
+				{
+					id: "772702B43F4089F2"
+					type: "advancement"
+					advancement: "botania:main/manaweave_armor_craft"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "2419BE626C50FBC4"
@@ -171,182 +315,319 @@
 				}
 				{
 					id: "62DD2187AE2E2440"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 4L
-					id: "310AB32F95AE1EB7"
-					item: { count: 1, id: "botania:manaweave_cloth" }
-					type: "item"
-				}
-				{
-					id: "588A4222FFF3279B"
-					item: { count: 1, id: "botania:manaweave_helmet" }
-					type: "item"
-				}
-				{
-					id: "36DA3C647AD660EE"
-					item: { count: 1, id: "botania:manaweave_chestplate" }
-					type: "item"
-				}
-				{
-					id: "3E0AF738B87ECD74"
-					item: { count: 1, id: "botania:manaweave_leggings" }
-					type: "item"
-				}
-				{
-					id: "5110A9D069A7D2CF"
-					item: { count: 1, id: "botania:manaweave_boots" }
-					type: "item"
-				}
-				{
-					advancement: "botania:main/manaweave_armor_craft"
-					criterion: ""
-					id: "772702B43F4089F2"
-					type: "advancement"
-				}
+			title: "As Vestes de Tecemana"
+			description: [
+				"&7Os magos da flor preferem tecido a metal. A trama de linha infundida guarda a mana como uma"
+				"&7esponja, e quem a veste sente as varas ficarem mais leves na mão."
+				""
+				"&6Objetivo:&r 1. Teça &6Tecido de Mana&r: 4 linhas infundidas."
+				"&f2. Costure as 4 peças das &6Vestes de Tecemana&r (capuz, túnica, calças, botas) e vista-as."
+				""
+				"&8Elas tornam as varas mais baratas e, às vezes, as usam sem gastar mana nenhuma."
 			]
-			x: 2.0d
-			y: 3.2d
 		}
 		{
-			dependencies: ["50C3CC2949A54B80"]
+			id: "4F782ADB8B50FB06"
+			x: 4.0d
+			y: -0.0d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "botania:dirt_rod"
 			}
-			id: "4F782ADB8B50FB06"
-			rewards: [{
-				id: "3E6B01D7996947D2"
-				type: "xp"
-				xp: 400
-			}]
-			size: 1.25d
+			dependencies: [
+				"50C3CC2949A54B80"
+			]
 			tasks: [
 				{
 					id: "5BEF90BDA3B8CBBF"
-					item: { count: 1, id: "botania:dirt_rod" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:dirt_rod"
+					}
+					count: 1L
 				}
 				{
-					advancement: "botania:main/dirt_rod_craft"
-					criterion: ""
 					id: "5D4486941F7D12DD"
 					type: "advancement"
+					advancement: "botania:main/dirt_rod_craft"
+					criterion: ""
 				}
 				{
 					id: "3ECD550B5D9DD809"
-					item: { count: 1, id: "botania:water_rod" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:water_rod"
+					}
+					count: 1L
 				}
 				{
 					id: "454DDEF9776E294E"
-					item: { count: 1, id: "botania:cobble_rod" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:cobble_rod"
+					}
+					count: 1L
 				}
 				{
 					id: "41299B38188C5543"
-					item: { count: 1, id: "botania:smelt_rod" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:smelt_rod"
+					}
+					count: 1L
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "3E6B01D7996947D2"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "As Varas dos Elementos"
+			description: [
+				"&7Cada elemento domado cabe num cajado. Terra tirada do nada, água que nunca acaba, pedregulho"
+				"&7para tapar buracos e uma chama domada que derrete blocos à distância: o kit de todo andarilho da flor."
+				""
+				"&6Objetivo:&r 1. &6Vara das Terras&r (graveto vivo, terra, runa da terra): coloca terra gastando mana."
+				"&f2. &6Vara do Oceano Sem Fim&r (runa de água + poção de água): coloca água."
+				"&f3. &6Vara da Profundidade&r (runas de fogo e água + pedregulho): coloca pedregulho."
+				"&f4. &6Vara da Chama Domada&r (runa de fogo + vara de blaze): derrete blocos à distância, como uma fornalha."
+			]
 		}
 		{
-			dependencies: ["50C3CC2949A54B80"]
+			id: "436A719A31B1AFAE"
+			x: 4.0d
+			y: 1.6d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "botania:rune_spring"
 			}
-			id: "436A719A31B1AFAE"
-			rewards: [{
-				id: "5A7B89B947859F5C"
-				type: "xp"
-				xp: 400
-			}]
-			size: 1.25d
+			dependencies: [
+				"50C3CC2949A54B80"
+			]
 			tasks: [
 				{
 					id: "482F72F76D162F99"
-					item: { count: 1, id: "botania:rune_mana" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_mana"
+					}
+					count: 1L
 				}
 				{
 					id: "4F97B1385825BD51"
-					item: { count: 1, id: "botania:rune_spring" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_spring"
+					}
+					count: 1L
 				}
 				{
 					id: "51DDCC006E2749A6"
-					item: { count: 1, id: "botania:rune_summer" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_summer"
+					}
+					count: 1L
 				}
 				{
 					id: "0C5200310803C0A5"
-					item: { count: 1, id: "botania:rune_autumn" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_autumn"
+					}
+					count: 1L
 				}
 				{
 					id: "6FC7135B091F16F1"
-					item: { count: 1, id: "botania:rune_winter" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_winter"
+					}
+					count: 1L
 				}
 			]
-			x: 4.0d
-			y: 1.6d
+			rewards: [
+				{
+					id: "5A7B89B947859F5C"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Ano Gravado em Pedra"
+			description: [
+				"&7Dois elementos que se encontram fazem um ano girar. Os elfos marcavam o tempo com quatro runas"
+				"&7de estação, e acima delas punham a Runa da Mana, que não pertence a elemento algum porque pertence a todos."
+				""
+				"&6Objetivo:&r 1. &6Runa da Mana&r (8.000): 5 lingotes de aço-mana e uma pérola de mana."
+				"&f2. Runas de estação (8.000 cada): &aPrimavera&r: água + fogo, 3 mudas, trigo."
+				"&f&eVerão&r: terra + ar, 2 areias, slime, melancia. &6Outono&r: fogo + ar, 3 folhas, olho de aranha."
+				"&f&bInverno&r: água + terra, 2 blocos de neve, lã, bolo."
+			]
 		}
 		{
+			id: "05B2350AF59B7B00"
+			x: 4.0d
+			y: 3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:lens_power"
+			}
 			dependencies: [
 				"50C3CC2949A54B80"
 				"263E934345438682"
 			]
-			icon: {
-				id: "botania:lens_power"
-			}
-			id: "05B2350AF59B7B00"
-			rewards: [{
-				id: "4EFDDD106228B2A7"
-				type: "xp"
-				xp: 320
-			}]
-			size: 1.25d
 			tasks: [
 				{
 					id: "3AC7BEBA961CC085"
-					item: { count: 1, id: "botania:lens_speed" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_speed"
+					}
+					count: 1L
 				}
 				{
 					id: "04B6630DD441701F"
-					item: { count: 1, id: "botania:lens_power" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_power"
+					}
+					count: 1L
 				}
 				{
 					id: "4131F27D35D2A53C"
-					item: { count: 1, id: "botania:lens_time" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_time"
+					}
+					count: 1L
 				}
 				{
 					id: "1C906553BBC840F7"
-					item: { count: 1, id: "botania:lens_efficiency" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_efficiency"
+					}
+					count: 1L
 				}
 			]
-			x: 4.0d
-			y: 3.2d
+			rewards: [
+				{
+					id: "4EFDDD106228B2A7"
+					type: "xp"
+					xp: 320
+				}
+			]
+			title: "Lentes Rúnicas"
+			description: [
+				"&7Gravar uma runa no vidro muda a alma do feixe. Os elfos ajustavam cada dispersor como um músico"
+				"&7afina um alaúde: mais rápido, mais forte, mais longe, mais econômico."
+				""
+				"&6Objetivo:&r 1. Combine uma lente com uma runa: &6Velocidade&r (ar), &6Potência&r (fogo; carrega mais mana),"
+				"&f&6Resistência&r (terra; vai mais longe) e &6Eficiência&r (água; perde menos mana no caminho)."
+			]
 		}
 		{
-			dependencies: ["436A719A31B1AFAE"]
+			id: "58527FFA9C8C1FFE"
+			x: 6.0d
+			y: -1.44d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "botania:rune_pride"
 			}
-			id: "58527FFA9C8C1FFE"
+			dependencies: [
+				"436A719A31B1AFAE"
+			]
+			tasks: [
+				{
+					id: "77A8F00153735F14"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_lust"
+					}
+					count: 1L
+				}
+				{
+					id: "68646560097F6806"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_gluttony"
+					}
+					count: 1L
+				}
+				{
+					id: "07C9C8C470B396AC"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_greed"
+					}
+					count: 1L
+				}
+				{
+					id: "3DCDD1C20E2A6255"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_sloth"
+					}
+					count: 1L
+				}
+				{
+					id: "1C80049D689E1857"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_wrath"
+					}
+					count: 1L
+				}
+				{
+					id: "69BC180DCCF719EC"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_envy"
+					}
+					count: 1L
+				}
+				{
+					id: "027B61015EB67CD1"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rune_pride"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "7214F992C0707AB3"
@@ -355,63 +636,94 @@
 				}
 				{
 					id: "705946D34F3F314A"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "77A8F00153735F14"
-					item: { count: 1, id: "botania:rune_lust" }
-					type: "item"
-				}
-				{
-					id: "68646560097F6806"
-					item: { count: 1, id: "botania:rune_gluttony" }
-					type: "item"
-				}
-				{
-					id: "07C9C8C470B396AC"
-					item: { count: 1, id: "botania:rune_greed" }
-					type: "item"
-				}
-				{
-					id: "3DCDD1C20E2A6255"
-					item: { count: 1, id: "botania:rune_sloth" }
-					type: "item"
-				}
-				{
-					id: "1C80049D689E1857"
-					item: { count: 1, id: "botania:rune_wrath" }
-					type: "item"
-				}
-				{
-					id: "69BC180DCCF719EC"
-					item: { count: 1, id: "botania:rune_envy" }
-					type: "item"
-				}
-				{
-					id: "027B61015EB67CD1"
-					item: { count: 1, id: "botania:rune_pride" }
-					type: "item"
-				}
+			title: "Os Sete Pecados"
+			description: [
+				"&7Os elfos temiam estas runas. Cada uma guarda um vício, e todo vício tem força."
+				"&7Gravá-las custa caro, mas as flores mais poderosas não aceitam outra coisa como semente."
+				""
+				"&6Objetivo:&r 1. No altar (12.000 cada): 2 diamantes de mana e duas runas de estação/elemento."
+				"&f2. &6Luxúria&r (verão + ar), &6Gula&r (inverno + fogo), &6Ganância&r (primavera + água),"
+				"&f&6Preguiça&r (outono + ar), &6Ira&r (inverno + terra), &6Inveja&r (inverno + água), &6Orgulho&r (verão + fogo)."
+				""
+				"&8Faça primeiro as que suas flores pedem: Gula e Ira (geradoras), Orgulho e Ganância (Orquídea, Tier III)."
 			]
-			x: 6.0d
-			y: -1.44d
 		}
 		{
+			id: "7CDB8AF1D3F8219D"
+			x: 6.0d
+			y: 0.16d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:agricarnation"
+			}
 			dependencies: [
 				"436A719A31B1AFAE"
 				"66CEDBF42A77821C"
 			]
-			icon: {
-				id: "botania:agricarnation"
-			}
-			id: "7CDB8AF1D3F8219D"
+			tasks: [
+				{
+					id: "1317850E7725C8D1"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:agricarnation"
+					}
+					count: 1L
+				}
+				{
+					id: "7F783C328248789E"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:hopperhock"
+					}
+					count: 1L
+				}
+				{
+					id: "555C7B233DC0B8A1"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rannuncarpus"
+					}
+					count: 1L
+				}
+				{
+					id: "079FAB59C71938DB"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:jaded_amaranthus"
+					}
+					count: 1L
+				}
+				{
+					id: "52CD6F333CE7AF3C"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:exoflame"
+					}
+					count: 1L
+				}
+				{
+					id: "718ADBD3D8DB83DF"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:tigerseye"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "666A04F873E20D39"
@@ -420,59 +732,116 @@
 				}
 				{
 					id: "4DE11CB48AD8A96E"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "1317850E7725C8D1"
-					item: { count: 1, id: "botania:agricarnation" }
-					type: "item"
-				}
-				{
-					id: "7F783C328248789E"
-					item: { count: 1, id: "botania:hopperhock" }
-					type: "item"
-				}
-				{
-					id: "555C7B233DC0B8A1"
-					item: { count: 1, id: "botania:rannuncarpus" }
-					type: "item"
-				}
-				{
-					id: "079FAB59C71938DB"
-					item: { count: 1, id: "botania:jaded_amaranthus" }
-					type: "item"
-				}
-				{
-					id: "52CD6F333CE7AF3C"
-					item: { count: 1, id: "botania:exoflame" }
-					type: "item"
-				}
-				{
-					id: "718ADBD3D8DB83DF"
-					item: { count: 1, id: "botania:tigerseye" }
-					type: "item"
-				}
+			title: "O Jardim Operário"
+			description: [
+				"&7Plantações que crescem sozinhas, chão que se recolhe, mudas que se plantam, fornalhas que não"
+				"&7precisam de carvão. Um botânico maduro deixa as flores fazerem o serviço e só passa para admirar."
+				""
+				"&6Objetivo:&r 1. &6Agricravo&r (lima, verde, amarela, primavera, raiz): acelera plantas e mudas ao redor."
+				"&f2. &6Funilária&r (cinzas, cinza-claras, ar, raiz): recolhe itens do chão para baús próximos."
+				"&f3. &6Rannuncarpus&r (laranja, amarela, terra, raiz): planta blocos e mudas soltos no chão."
+				"&f4. &6Amaranto Jade&r (roxa, lima, verde, primavera, raiz): faz brotar flores místicas ao redor."
+				"&f5. &6Exochama&r (vermelhas, cinzas, fogo + verão): mantém fornalhas próximas acesas e mais rápidas."
+				"&f6. &6Olho-de-Tigre&r (amarela, marrom, laranja, lima, outono): afasta creepers."
+				""
+				"&8Molduras com itens ao lado do baú servem de filtro para a Funilária."
+				"&8Com sinal de redstone, a força do sinal escolhe a cor das flores do Amaranto Jade."
 			]
-			x: 6.0d
-			y: 0.16d
 		}
 		{
+			id: "6032FD2B7732324A"
+			x: 6.0d
+			y: 1.76d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:bellethorn"
+			}
 			dependencies: [
 				"436A719A31B1AFAE"
 				"66CEDBF42A77821C"
 			]
-			icon: {
-				id: "botania:bellethorn"
-			}
-			id: "6032FD2B7732324A"
-			optional: true
+			tasks: [
+				{
+					id: "2BD47D7C1BE3BEEE"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:bellethorn"
+					}
+					count: 1L
+				}
+				{
+					id: "7A2358AA2246733B"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:dreadthorn"
+					}
+					count: 1L
+				}
+				{
+					id: "650CF692CBD5733D"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:bergamute"
+					}
+					count: 1L
+				}
+				{
+					id: "6A7B1C39A476E539"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:solegnolia"
+					}
+					count: 1L
+				}
+				{
+					id: "1D45598A3C372D7E"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:jiyuulia"
+					}
+					count: 1L
+				}
+				{
+					id: "7B9E527F556B0E57"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:medumone"
+					}
+					count: 1L
+				}
+				{
+					id: "7E01B88E981C0A18"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:tangleberrie"
+					}
+					count: 1L
+				}
+				{
+					id: "01BEF771453EF672"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:hyacidus"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "0DB9D97D3E9DC9EE"
@@ -481,69 +850,95 @@
 				}
 				{
 					id: "1918AEDAA25267C3"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "2BD47D7C1BE3BEEE"
-					item: { count: 1, id: "botania:bellethorn" }
-					type: "item"
-				}
-				{
-					id: "7A2358AA2246733B"
-					item: { count: 1, id: "botania:dreadthorn" }
-					type: "item"
-				}
-				{
-					id: "650CF692CBD5733D"
-					item: { count: 1, id: "botania:bergamute" }
-					type: "item"
-				}
-				{
-					id: "6A7B1C39A476E539"
-					item: { count: 1, id: "botania:solegnolia" }
-					type: "item"
-				}
-				{
-					id: "1D45598A3C372D7E"
-					item: { count: 1, id: "botania:jiyuulia" }
-					type: "item"
-				}
-				{
-					id: "7B9E527F556B0E57"
-					item: { count: 1, id: "botania:medumone" }
-					type: "item"
-				}
-				{
-					id: "7E01B88E981C0A18"
-					item: { count: 1, id: "botania:tangleberrie" }
-					type: "item"
-				}
-				{
-					id: "01BEF771453EF672"
-					item: { count: 1, id: "botania:hyacidus" }
-					type: "item"
-				}
+			title: "Flores de guarda"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Um jardim bem guardado não precisa de muralhas. Há flores que mordem, flores que calam, flores"
+				"&7que desligam ímãs, e outras que empurram, paralisam, prendem e envenenam quem não foi convidado."
+				""
+				"&6Objetivo:&r 1. &6Bellethorne&r (fere criaturas, exceto pessoas) e &6Dreadthorne&r (só animais adultos): vermelhas ou pretas, ciano, raiz."
+				"&f2. &6Bergamuta&r (laranja, verdes, raiz): abafa os sons. &6Solegnólia&r (marrons, vermelha, azul, raiz): bloqueia ímãs."
+				"&f3. &6Jiyuulia&r (rosa, roxa, cinza-clara, água + ar): empurra monstros."
+				"&f&6Medumona&r (marrons, cinzas, terra, raiz): paralisa criaturas (não pessoas nem bosses)."
+				"&f4. &6Enroscamora&r (ciano, cinzas, ar + terra): prende criaturas."
+				"&f&6Hiácido&r (roxas, magenta, verde, água + outono, raiz): envenena quem passa."
 			]
-			x: 6.0d
-			y: 1.76d
+			optional: true
 		}
 		{
+			id: "76694CA9DD54D6B2"
+			x: 6.0d
+			y: 3.36d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:mana_ring"
+			}
 			dependencies: [
 				"436A719A31B1AFAE"
 				"7CB650DFEA659CFD"
 				"263E934345438682"
 			]
-			icon: {
-				id: "botania:mana_ring"
-			}
-			id: "76694CA9DD54D6B2"
+			tasks: [
+				{
+					id: "4B78066DE2E1D4DD"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:bauble_box"
+					}
+					count: 1L
+				}
+				{
+					id: "053DC579E88FFAA1"
+					type: "advancement"
+					advancement: "botania:main/bauble_wear"
+					criterion: ""
+				}
+				{
+					id: "1DCAB4F323952B2E"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:mana_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "0BD23564A102DA49"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:aura_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "256261880554C650"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:magnet_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "2492D08AC3AAE780"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:swap_ring"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "18080DBCE9B79900"
@@ -552,59 +947,89 @@
 				}
 				{
 					id: "72D105AAD755BB1C"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "4B78066DE2E1D4DD"
-					item: { count: 1, id: "botania:bauble_box" }
-					type: "item"
-				}
-				{
-					advancement: "botania:main/bauble_wear"
-					criterion: ""
-					id: "053DC579E88FFAA1"
-					type: "advancement"
-				}
-				{
-					id: "1DCAB4F323952B2E"
-					item: { count: 1, id: "botania:mana_ring" }
-					type: "item"
-				}
-				{
-					id: "0BD23564A102DA49"
-					item: { count: 1, id: "botania:aura_ring" }
-					type: "item"
-				}
-				{
-					id: "256261880554C650"
-					item: { count: 1, id: "botania:magnet_ring" }
-					type: "item"
-				}
-				{
-					id: "2492D08AC3AAE780"
-					item: { count: 1, id: "botania:swap_ring" }
-					type: "item"
-				}
+			title: "Anéis de Mana"
+			description: [
+				"&7Anéis, amuletos e cintos: pequenas coisas que carregam grandes encantos. Os primeiros anéis do"
+				"&7botânico são práticos: um guarda mana, outro a produz, outro chama os itens caídos e outro escolhe"
+				"&7a ferramenta certa sem que ninguém precise pensar."
+				""
+				"&6Objetivo:&r 1. Crie a &6Caixa de Berloques&r (aço-mana, baú, ouro) e equipe um berloque nos espaços de acessório."
+				"&f2. &6Anel de Mana&r: aço-mana com uma Tabuleta de Mana. Guarda mana sem ocupar o inventário."
+				"&f3. &6Anel de Aura&r: aço-mana e Runa da Mana. Gera mana lentamente para seus itens."
+				"&f4. &6Anel da Magnetização&r: aço-mana e Lente Magnetizante. Puxa itens próximos (agache para suspender)."
+				"&f5. &6Anel da Correção&r (aço-mana e argila): troca sozinho para a ferramenta adequada ao bloco."
 			]
-			x: 6.0d
-			y: 3.36d
 		}
 		{
+			id: "6336C4A565DD85DE"
+			x: 6.0d
+			y: 4.96d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:brewery"
+			}
 			dependencies: [
 				"436A719A31B1AFAE"
 				"45042893B7B16B1E"
 			]
-			icon: {
-				id: "botania:brewery"
-			}
-			id: "6336C4A565DD85DE"
+			tasks: [
+				{
+					id: "366E67BFCF1B2D29"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:mana_pylon"
+					}
+					count: 2L
+				}
+				{
+					id: "4F9B38F7364BE680"
+					type: "advancement"
+					advancement: "botania:main/enchanter_make"
+					criterion: ""
+				}
+				{
+					id: "4ADAE36456AADA61"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:spell_cloth"
+					}
+					count: 1L
+				}
+				{
+					id: "6CA9E913ADDF7343"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:brewery"
+					}
+					count: 1L
+				}
+				{
+					id: "15B553F83741FB27"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:vial"
+					}
+					count: 2L
+				}
+				{
+					id: "4AE392D761D05A4F"
+					type: "advancement"
+					advancement: "botania:main/brew_pickup"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "6E66FC6E848AF065"
@@ -613,59 +1038,99 @@
 				}
 				{
 					id: "15FBAFB0D17177EA"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 2L
-					id: "366E67BFCF1B2D29"
-					item: { count: 1, id: "botania:mana_pylon" }
-					type: "item"
-				}
-				{
-					advancement: "botania:main/enchanter_make"
-					criterion: ""
-					id: "4F9B38F7364BE680"
-					type: "advancement"
-				}
-				{
-					id: "4ADAE36456AADA61"
-					item: { count: 1, id: "botania:spell_cloth" }
-					type: "item"
-				}
-				{
-					id: "6CA9E913ADDF7343"
-					item: { count: 1, id: "botania:brewery" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "15B553F83741FB27"
-					item: { count: 1, id: "botania:vial" }
-					type: "item"
-				}
-				{
-					advancement: "botania:main/brew_pickup"
-					criterion: ""
-					id: "4AE392D761D05A4F"
-					type: "advancement"
-				}
+			title: "Encantos e Infusões"
+			description: [
+				"&7Os elfos encantavam sem gastar livros e preparavam poções sem caldeirão. Bastavam um círculo de"
+				"&7obsidiana com pilares de mana, um pano para desfazer o que deu errado e uma cervejaria alimentada"
+				"&7por feixes. São os dois ofícios mais finos da magia verde."
+				""
+				"&6Objetivo:&r 1. Crie 2 &6Pilones de Mana&r (ouro, aço-mana, diamante de mana); ao lado de uma mesa de encantamento já dão nível 30."
+				"&f2. Monte o &6Encantador de Mana&r: bloco de lápis no centro, 17 obsidianas, 10 flores místicas e 6 pilones no"
+				"&fformato do Lexicon; use a Varinha no lápis. Ponha o item, jogue livros encantados no círculo e alimente com mana."
+				"&f3. &6Pano do Desencanto&r (tecemana e pérola de mana): na bancada, remove os encantamentos de um item."
+				"&f4. Crie a &6Cervejaria Botânica&r (rocha viva, suporte de poções, Runa da Mana, bloco de aço-mana)."
+				"&f5. Ponha um &6Frasco de Vidro de Mana&r, os ingredientes, alimente com mana e pegue a infusão pronta."
+				""
+				"&8Os livros do encantador não são consumidos; cada livro só contribui com o primeiro encantamento dele."
+				"&8Toda infusão leva verruga do Nether. Ex.: Velocidade = verruga, açúcar, redstone."
+				"&8Sobrecarga (Overload) junta força, velocidade e pressa num gole só."
 			]
-			x: 6.0d
-			y: 4.96d
 		}
 		{
-			dependencies: ["58527FFA9C8C1FFE"]
+			id: "11205E7A800EEB47"
+			x: 8.0d
+			y: -2.66d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "botania:entropinnyum"
 			}
-			id: "11205E7A800EEB47"
+			dependencies: [
+				"58527FFA9C8C1FFE"
+			]
+			tasks: [
+				{
+					id: "17D711189DD0F6F0"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:thermalily"
+					}
+					count: 1L
+				}
+				{
+					id: "4C6F71525853C50C"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:gourmaryllis"
+					}
+					count: 1L
+				}
+				{
+					id: "0293D3A332486759"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:rosa_arcana"
+					}
+					count: 1L
+				}
+				{
+					id: "37D26AE9F1B4D56B"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:munchdew"
+					}
+					count: 1L
+				}
+				{
+					id: "6FCE23D701F31D28"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:narslimmus"
+					}
+					count: 1L
+				}
+				{
+					id: "33D4D330BFEC44A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:entropinnyum"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "456A61582F3D2824"
@@ -674,59 +1139,104 @@
 				}
 				{
 					id: "06A000AABE7DEFF3"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "17D711189DD0F6F0"
-					item: { count: 1, id: "botania:thermalily" }
-					type: "item"
-				}
-				{
-					id: "4C6F71525853C50C"
-					item: { count: 1, id: "botania:gourmaryllis" }
-					type: "item"
-				}
-				{
-					id: "0293D3A332486759"
-					item: { count: 1, id: "botania:rosa_arcana" }
-					type: "item"
-				}
-				{
-					id: "37D26AE9F1B4D56B"
-					item: { count: 1, id: "botania:munchdew" }
-					type: "item"
-				}
-				{
-					id: "6FCE23D701F31D28"
-					item: { count: 1, id: "botania:narslimmus" }
-					type: "item"
-				}
-				{
-					id: "33D4D330BFEC44A7"
-					item: { count: 1, id: "botania:entropinnyum" }
-					type: "item"
-				}
+			title: "A Usina das Flores"
+			description: [
+				"&7A Endochama é só o começo. Com runas, os botânicos criaram flores que bebem lava, devoram"
+				"&7banquetes, sugam experiência, roem florestas, engolem slimes e até absorvem explosões inteiras."
+				"&7Um jardim com todas elas nunca mais fica sem mana."
+				""
+				"&6Objetivo:&r 1. &6Termolírio&r (vermelha, laranja, terra + fogo): absorve lava ao redor e gera mana por meio minuto."
+				"&f2. &6Gourmarílis&r (cinza-claras, amarelas, vermelha, fogo + verão): come comida jogada perto; variar o prato rende mais."
+				"&f3. &6Rosa Arcana&r (rosa, roxas, lima, runa da mana): suga experiência, orbes e itens encantados."
+				"&f4. &6Orvalhívora&r (lima, vermelhas, verde, gula): come folhas próximas."
+				"&f5. &6Narslimmus&r (lima, verdes, preta, verão + água): num chunk de slime, absorve os slimes que nascem."
+				"&f6. &6Entropínio&r (vermelhas, cinzas, brancas, ira + fogo): absorve a explosão de TNT acesa perto, sem estragos."
+				""
+				"&8O Entropínio precisa estar vazio para absorver. TNT duplicada ou \"falsa\" não rende nada."
 			]
-			x: 8.0d
-			y: -2.66d
 		}
 		{
+			id: "0EFB0FDC5F747A8D"
+			x: 8.0d
+			y: -1.06d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:fallen_kanade"
+			}
 			dependencies: [
 				"58527FFA9C8C1FFE"
 				"66CEDBF42A77821C"
 			]
-			icon: {
-				id: "botania:fallen_kanade"
-			}
-			id: "0EFB0FDC5F747A8D"
-			optional: true
+			tasks: [
+				{
+					id: "4585E1A867DA366B"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:clayconia"
+					}
+					count: 1L
+				}
+				{
+					id: "429B774C23DFDC00"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:marimorphosis"
+					}
+					count: 1L
+				}
+				{
+					id: "0ACBDFECE3E23340"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:daffomill"
+					}
+					count: 1L
+				}
+				{
+					id: "7EF4CDAE4A19B196"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:fallen_kanade"
+					}
+					count: 1L
+				}
+				{
+					id: "72509CB941008899"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:pollidisiac"
+					}
+					count: 1L
+				}
+				{
+					id: "19CB4FD446B04C95"
+					type: "advancement"
+					advancement: "botania:main/pollidisiac_pickup"
+					criterion: ""
+				}
+				{
+					id: "479CD02504DB1F5A"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:vinculotus"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "71D29ACCB8F5C6FE"
@@ -735,65 +1245,115 @@
 				}
 				{
 					id: "2C4ADEEB993B139A"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "4585E1A867DA366B"
-					item: { count: 1, id: "botania:clayconia" }
-					type: "item"
-				}
-				{
-					id: "429B774C23DFDC00"
-					item: { count: 1, id: "botania:marimorphosis" }
-					type: "item"
-				}
-				{
-					id: "0ACBDFECE3E23340"
-					item: { count: 1, id: "botania:daffomill" }
-					type: "item"
-				}
-				{
-					id: "7EF4CDAE4A19B196"
-					item: { count: 1, id: "botania:fallen_kanade" }
-					type: "item"
-				}
-				{
-					id: "72509CB941008899"
-					item: { count: 1, id: "botania:pollidisiac" }
-					type: "item"
-				}
-				{
-					advancement: "botania:main/pollidisiac_pickup"
-					criterion: ""
-					id: "19CB4FD446B04C95"
-					type: "advancement"
-				}
-				{
-					id: "479CD02504DB1F5A"
-					item: { count: 1, id: "botania:vinculotus" }
-					type: "item"
-				}
+			title: "Flores da lavoura"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Areia que vira barro, pedra que ganha a cor do bioma, um sopro que varre o chão, uma flor que cura"
+				"&7quem passa e outra que aproxima os animais. Há até uma que desvia os atalhos dos endermen para si."
+				""
+				"&6Objetivo:&r 1. &6Argilônia&r (cinza, ciano, terra): areia vira argila."
+				"&f2. &6Marimorfose&r (cinza, amarela, verde, vermelha, terra + fogo, raiz): pedra vira pedra metamórfica."
+				"&f3. &6Narcimoinho&r (brancas, marrom, amarela, ar, raiz): sopra itens soltos numa direção."
+				"&f4. &6Kanade Caída&r (brancas, amarelas, laranja, primavera): Regeneração para quem está perto."
+				"&f5. &6Polidisíaca&r (vermelhas, rosas, laranja, luxúria + fogo): usa comida do chão para acasalar animais."
+				"&f6. &6Vinculótus&r (pretas, roxas, verde, água, preguiça, luxúria, raiz): atrai teleportes de endermen."
 			]
-			x: 8.0d
-			y: -1.06d
+			optional: true
 		}
 		{
+			id: "6E2F10552D615226"
+			x: 8.0d
+			y: 0.54d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:lens_damage"
+			}
 			dependencies: [
 				"05B2350AF59B7B00"
 				"58527FFA9C8C1FFE"
 			]
-			icon: {
-				id: "botania:lens_damage"
-			}
-			id: "6E2F10552D615226"
-			optional: true
+			tasks: [
+				{
+					id: "2A54B309BDCC0C64"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_bounce"
+					}
+					count: 1L
+				}
+				{
+					id: "1E5945272171ECAC"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_gravity"
+					}
+					count: 1L
+				}
+				{
+					id: "74760C2EEB741D38"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_influence"
+					}
+					count: 1L
+				}
+				{
+					id: "20A6002C5623892E"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_weight"
+					}
+					count: 1L
+				}
+				{
+					id: "5A358D18753A9DDB"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_damage"
+					}
+					count: 1L
+				}
+				{
+					id: "47CD9B1B41C329EA"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_explosive"
+					}
+					count: 1L
+				}
+				{
+					id: "7CE4AA863AE556FB"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:piston_relay"
+					}
+					count: 1L
+				}
+				{
+					id: "19B12A4767EDE487"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lens_piston"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "60511AE06058B639"
@@ -802,69 +1362,96 @@
 				}
 				{
 					id: "3BED40FF443DB0CD"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "2A54B309BDCC0C64"
-					item: { count: 1, id: "botania:lens_bounce" }
-					type: "item"
-				}
-				{
-					id: "1E5945272171ECAC"
-					item: { count: 1, id: "botania:lens_gravity" }
-					type: "item"
-				}
-				{
-					id: "74760C2EEB741D38"
-					item: { count: 1, id: "botania:lens_influence" }
-					type: "item"
-				}
-				{
-					id: "20A6002C5623892E"
-					item: { count: 1, id: "botania:lens_weight" }
-					type: "item"
-				}
-				{
-					id: "5A358D18753A9DDB"
-					item: { count: 1, id: "botania:lens_damage" }
-					type: "item"
-				}
-				{
-					id: "47CD9B1B41C329EA"
-					item: { count: 1, id: "botania:lens_explosive" }
-					type: "item"
-				}
-				{
-					id: "7CE4AA863AE556FB"
-					item: { count: 1, id: "botania:piston_relay" }
-					type: "item"
-				}
-				{
-					id: "19B12A4767EDE487"
-					item: { count: 1, id: "botania:lens_piston" }
-					type: "item"
-				}
+			title: "Lentes do movimento e da guerra"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Feixes que quicam, caem, empurram e derrubam; feixes que ferem e que explodem. Alguns botânicos"
+				"&7aprenderam a defender o jardim com a própria luz, e outros a mover montanhas com um pistão encantado."
+				""
+				"&6Objetivo:&r 1. &6Ricochete&r (verão) e &6Gravidade&r (inverno)."
+				"&f2. &6Influência&r (prismarinho + ar; empurra itens e criaturas) e &6Peso&r (prismarinho + água; faz blocos caírem)."
+				"&f3. &6Lente Danosa&r (ira; fere criaturas) e &6Lente Entrópica&r (inveja; explode ao tocar)."
+				"&f4. Infunda um &fpistão&r (15.000) para obter o &6Relé de Força&r: vinculado a um bloco distante, move-o junto."
+				"&f5. Combine o relé com uma lente para a &6Lente do Pistão&r, que empurra blocos atingidos."
 			]
-			x: 8.0d
-			y: 0.54d
+			optional: true
 		}
 		{
+			id: "27ACF008C393D23B"
+			x: 8.0d
+			y: 2.14d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "botania:third_eye"
+			}
 			dependencies: [
 				"58527FFA9C8C1FFE"
 				"76694CA9DD54D6B2"
 			]
-			icon: {
-				id: "botania:third_eye"
-			}
-			id: "27ACF008C393D23B"
-			optional: true
+			tasks: [
+				{
+					id: "232F178D05521FD5"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:exchange_rod"
+					}
+					count: 1L
+				}
+				{
+					id: "7D16E632FF99EB4C"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:slingshot"
+					}
+					count: 1L
+				}
+				{
+					id: "784E0E962B7C9984"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:temperance_stone"
+					}
+					count: 1L
+				}
+				{
+					id: "62794F398A81DB6F"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:third_eye"
+					}
+					count: 1L
+				}
+				{
+					id: "47CB70AD5BD0DD55"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:tiny_planet"
+					}
+					count: 1L
+				}
+				{
+					id: "7D2A9DCF4E2BBB96"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:bellows"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "61EA52D56F1E01AA"
@@ -873,48 +1460,32 @@
 				}
 				{
 					id: "46179B6DB5B01D21"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "232F178D05521FD5"
-					item: { count: 1, id: "botania:exchange_rod" }
-					type: "item"
-				}
-				{
-					id: "7D16E632FF99EB4C"
-					item: { count: 1, id: "botania:slingshot" }
-					type: "item"
-				}
-				{
-					id: "784E0E962B7C9984"
-					item: { count: 1, id: "botania:temperance_stone" }
-					type: "item"
-				}
-				{
-					id: "62794F398A81DB6F"
-					item: { count: 1, id: "botania:third_eye" }
-					type: "item"
-				}
-				{
-					id: "47CB70AD5BD0DD55"
-					item: { count: 1, id: "botania:tiny_planet" }
-					type: "item"
-				}
-				{
-					id: "7D2A9DCF4E2BBB96"
-					item: { count: 1, id: "botania:bellows" }
-					type: "item"
-				}
+			title: "Truques de bolso"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Reformar uma muralha bloco a bloco é coisa de pedreiro; botânicos trocam tudo de uma vez."
+				"&7Um estilingue de criança elfa, uma pedra que freia o poder, um olho que vê através das paredes, um"
+				"&7pequeno planeta que faz a luz orbitar e um fole que faz a mana correr mais depressa."
+				""
+				"&6Objetivo:&r 1. &6Vara da Troca&r (preguiça, pedra, gravetos): agachado, escolha um bloco e troque os iguais numa área."
+				"&f2. &6Estilingue de Madeira Viva&r (runa do ar): arremessa garrafas de ar e projéteis leves."
+				"&f3. &6Pedra da Temperança&r (pedra e runa da terra): ferramentas de área passam a quebrar um bloco só."
+				"&f4. &6Terceiro Olho&r (cenouras douradas, quartzo, olho do Ender, terra, diamante de mana): monstros brilham."
+				"&f5. &6Pequeno Planeta&r (pedra, rocha viva, pérola de mana): feixes próximos orbitam você."
+				"&f6. &6Foles da Maré de Mana&r (madeira viva, couro, runa do ar): aceleram a carga na piscina e avivam fornalhas."
 			]
-			x: 8.0d
-			y: 2.14d
+			optional: true
 		}
+	]
+	title: "&aTier II&7 - O Altar das Runas"
+	subtitle: [
+		"&aA Magia das Flores&7, &aTier II"
 	]
 }

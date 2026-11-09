@@ -4,189 +4,302 @@
 	filename: "mod_stellarity_t7"
 	group: "1D5EF08E4C981320"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_7"
 	}
 	id: "457F73D43F2BF5A0"
-	images: [ ]
-	order_index: 2
+	order_index: 118
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_7"
-			}
 			id: "7D2E0954A2C89E3F"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_7"
-				criterion: ""
-				id: "00425B1F36E68B7F"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_7"
+			}
+			tasks: [
+				{
+					id: "00425B1F36E68B7F"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_7"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&dTier VII"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &dTier VII&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "371301DF0E0A32D3"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "minecraft:end_portal_frame"
+			}
 			dependencies: [
 				"38685298A1A0CBB6"
 				"7D2E0954A2C89E3F"
 			]
-			icon: {
-				id: "minecraft:end_portal_frame"
-			}
-			id: "371301DF0E0A32D3"
-			rewards: [{
-				id: "43C5FD08E679F6E6"
-				type: "xp"
-				xp: 920
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					advancement: "stellarity:story/journeys_end"
-					criterion: ""
 					id: "600FB33F7E4DF5F4"
 					type: "advancement"
+					advancement: "stellarity:story/journeys_end"
+					criterion: ""
 				}
 				{
-					advancement: "minecraft:story/enter_the_end"
-					criterion: ""
 					id: "445F4661160F8A3A"
 					type: "advancement"
+					advancement: "minecraft:story/enter_the_end"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:nether/charge_anchor_end"
-					criterion: ""
 					id: "3740B22EB16D0C99"
 					type: "advancement"
+					advancement: "stellarity:nether/charge_anchor_end"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:adventure/champions_ballad"
-					criterion: ""
 					id: "4EAE5A17BCFADA22"
 					type: "advancement"
+					advancement: "stellarity:adventure/champions_ballad"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "43C5FD08E679F6E6"
+					type: "xp"
+					xp: 920
+				}
+			]
+			title: "O Fim da Jornada"
+			description: [
+				"&7Doze olhos encaixados, um a um. Quando o último se fecha na moldura, o vazio enfim responde."
+				"&7Do outro lado não há volta fácil: os veteranos fincam uma âncora de renascimento na ilha central antes de qualquer coisa."
+				"&7E não se luta contra um dragão sem uma boa música de fundo."
+				""
+				"&6Objetivo:&r 1. Encaixe os 12 olhos e ative o &6Portal do End&r."
+				"&f2. Atravesse o portal."
+				"&f3. Carregue uma &6Âncora de Renascimento&r no End para renascer ali."
+				"&f4. Toque um disco numa &6Jukebox&r no End."
+				""
+				"&8Levem blocos, comida, água e baldes. Morrer no End sem âncora é perder a viagem inteira."
+			]
 		}
 		{
-			dependencies: ["371301DF0E0A32D3"]
-			icon: {
-				id: "comamigos_balance:ender_dragon_heart"
-			}
 			id: "1BFB685530358E4A"
-			rewards: [{
-				id: "2BA253E90F648058"
-				type: "xp"
-				xp: 920
-			}]
-			size: 1.25d
-			tasks: [
-				{
-					count: 4L
-					id: "6ED3819B42087EDB"
-					item: { count: 1, id: "minecraft:end_crystal" }
-					type: "item"
-				}
-				{
-					advancement: "stellarity:dragons_den/sacrificial_ritual"
-					criterion: ""
-					id: "07378A1D12914B7D"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:dragons_den/final_showdown"
-					criterion: ""
-					id: "5EED1329918C0D3D"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:end/kill_dragon"
-					criterion: ""
-					id: "39EF2ED25580723F"
-					type: "advancement"
-				}
-			]
 			x: 4.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["1BFB685530358E4A"]
+			size: 1.25d
 			icon: {
-				id: "minecraft:enchanted_book"
+				count: 1
+				id: "comamigos_balance:ender_dragon_heart"
 			}
-			id: "213347D1E2B6C676"
-			rewards: [{
-				id: "196A20D81E636796"
-				type: "xp"
-				xp: 690
-			}]
+			dependencies: [
+				"371301DF0E0A32D3"
+			]
 			tasks: [
 				{
-					advancement: "stellarity:aota/an_introduction_to_dark_magic"
-					criterion: ""
-					id: "792C0A13BAFB02C9"
-					type: "advancement"
+					id: "6ED3819B42087EDB"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:end_crystal"
+					}
+					count: 4L
 				}
 				{
-					advancement: "stellarity:aota/cursed_crafting"
-					criterion: ""
-					id: "72769D43F9E71F72"
+					id: "07378A1D12914B7D"
 					type: "advancement"
+					advancement: "stellarity:dragons_den/sacrificial_ritual"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:pandoras_barrel/place"
-					criterion: ""
-					id: "22949343BE54DBAC"
+					id: "5EED1329918C0D3D"
 					type: "advancement"
+					advancement: "stellarity:dragons_den/final_showdown"
+					criterion: ""
+				}
+				{
+					id: "39EF2ED25580723F"
+					type: "advancement"
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
 				}
 			]
+			rewards: [
+				{
+					id: "2BA253E90F648058"
+					type: "xp"
+					xp: 920
+				}
+			]
+			title: "&cO Confronto Final"
+			description: [
+				"&7O dragão deste End não espera visitas: dorme até que alguém ofereça quatro cristais sobre os altares de rocha-mãe."
+				"&7O dragão das histórias antigas era só um aviso. Este voa mais rápido, cospe nuvens que corroem e chama shulkers para a batalha."
+				"&7Seu coração de troféu é o sétimo selo: o boss-chave do Tier VII."
+				""
+				"&6Objetivo:&r 1. Fabrique &64 Cristais do End&r (vidro, olho do Ender e lágrima de ghast)."
+				"&f2. Coloque um sobre cada um dos 4 blocos elevados de rocha-mãe do &6Covil do Dragão&r para despertá-lo."
+				"&f3. Derrote o &cDragão do Fim&r e guarde seu &ccoração&r de troféu."
+				""
+				"&8Destruam os cristais das torres antes de tudo. Arcos e bestas são essenciais; levem poções de cura e de resistência ao fogo."
+			]
+		}
+		{
+			id: "213347D1E2B6C676"
 			x: 6.0d
 			y: -2.4d
-		}
-		{
-			dependencies: ["1BFB685530358E4A"]
 			icon: {
-				id: "minecraft:end_crystal"
+				count: 1
+				id: "minecraft:enchanted_book"
 			}
-			id: "3A8382176892D603"
-			rewards: [{
-				id: "1A22D0F975405F60"
-				type: "xp"
-				xp: 690
-			}]
+			dependencies: [
+				"1BFB685530358E4A"
+			]
 			tasks: [
 				{
-					count: 4L
-					id: "4E2940BA38414F9D"
-					item: { count: 1, id: "minecraft:end_crystal" }
-					type: "item"
+					id: "792C0A13BAFB02C9"
+					type: "advancement"
+					advancement: "stellarity:aota/an_introduction_to_dark_magic"
+					criterion: ""
 				}
 				{
-					advancement: "minecraft:end/respawn_dragon"
-					criterion: ""
-					id: "3B71782263DF9358"
+					id: "72769D43F9E71F72"
 					type: "advancement"
+					advancement: "stellarity:aota/cursed_crafting"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:dragons_den/god_slayer"
-					criterion: ""
-					id: "29385CCB41E8AF2A"
+					id: "22949343BE54DBAC"
 					type: "advancement"
+					advancement: "stellarity:pandoras_barrel/place"
+					criterion: ""
 				}
 			]
-			x: 6.0d
-			y: -0.8d
+			rewards: [
+				{
+					id: "196A20D81E636796"
+					type: "xp"
+					xp: 690
+				}
+			]
+			title: "O Altar dos Amaldiçoados"
+			description: [
+				"&7No Covil há um altar selado por uma fera. Com a fera morta, ele aceita oferendas, e devolve coisas que não deveriam existir."
+				"&7Um livro encantado vira o Enquirídio Amaldiçoado, que descreve todos os itens do End. Netherite e um molde de enderite viram equipamento ainda pior para os inimigos."
+				"&7E há o Barril de Pandora: ninguém sabe o que tem dentro. É exatamente por isso que se abre."
+				""
+				"&6Objetivo:&r 1. Jogue qualquer &6Livro Encantado&r sobre o &6Altar dos Amaldiçoados&r para criar o &6Enquirídio Amaldiçoado&r."
+				"&f2. Forje um equipamento no altar jogando os ingredientes juntos sobre ele (ex.: &6Revestimento de Coro&r = ferro + 2 frutas do coro estouradas). O &6Molde de Enderite&r usa &6Fragmentos de Enderite&r, que saem ao minerar pedra do End."
+				"&f3. Forje um &6Barril de Pandora&r (barril, bloco de ferro, bloco de ouro), coloque-o e abra-o."
+				""
+				"&8O altar fica mais forte a cada vez que o dragão é derrotado; receitas novas se abrem com isso. O Enquirídio lista todas."
+			]
 		}
 		{
-			dependencies: ["1BFB685530358E4A"]
+			id: "3A8382176892D603"
+			x: 6.0d
+			y: -0.8d
 			icon: {
+				count: 1
+				id: "minecraft:end_crystal"
+			}
+			dependencies: [
+				"1BFB685530358E4A"
+			]
+			tasks: [
+				{
+					id: "4E2940BA38414F9D"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:end_crystal"
+					}
+					count: 4L
+				}
+				{
+					id: "3B71782263DF9358"
+					type: "advancement"
+					advancement: "minecraft:end/respawn_dragon"
+					criterion: ""
+				}
+				{
+					id: "29385CCB41E8AF2A"
+					type: "advancement"
+					advancement: "stellarity:dragons_den/god_slayer"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1A22D0F975405F60"
+					type: "xp"
+					xp: 690
+				}
+			]
+			title: "Matador de Deuses"
+			description: [
+				"&7Uma vez pode ser sorte. Duas vezes é lenda."
+				"&7E cada nova queda do dragão desperta um pouco mais o altar amaldiçoado."
+				""
+				"&6Objetivo:&r 1. Fabrique mais &64 Cristais do End&r."
+				"&f2. Coloque-os sobre o portal de saída para &6ressuscitar&r o dragão."
+				"&f3. Derrote-o pela &csegunda vez&r."
+			]
+		}
+		{
+			id: "6BD5006517EE4E19"
+			x: 6.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
 				id: "minecraft:chorus_fruit"
 			}
-			id: "6BD5006517EE4E19"
+			dependencies: [
+				"1BFB685530358E4A"
+			]
+			tasks: [
+				{
+					id: "7BD56DCAC8A9B5E7"
+					type: "advancement"
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+				}
+				{
+					id: "78F51D4168AB152E"
+					type: "advancement"
+					advancement: "stellarity:exploration/find_end_village"
+					criterion: ""
+				}
+				{
+					id: "43DE6B678AE56975"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					count: 16L
+				}
+				{
+					id: "52B19D2FC841A7B5"
+					type: "advancement"
+					advancement: "stellarity:cauldron/eat_golden_chorus_fruit"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "2E6716FB01009430"
@@ -195,95 +308,146 @@
 				}
 				{
 					id: "5C2182E9580D4B51"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "minecraft:end/enter_end_gateway"
-					criterion: ""
-					id: "7BD56DCAC8A9B5E7"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:exploration/find_end_village"
-					criterion: ""
-					id: "78F51D4168AB152E"
-					type: "advancement"
-				}
-				{
-					count: 16L
-					id: "43DE6B678AE56975"
-					item: { count: 1, id: "minecraft:chorus_fruit" }
-					type: "item"
-				}
-				{
-					advancement: "stellarity:cauldron/eat_golden_chorus_fruit"
-					criterion: ""
-					id: "52B19D2FC841A7B5"
-					type: "advancement"
-				}
+			title: "Para Além das Ilhas"
+			description: [
+				"&7Um portal pequeno de rocha-mãe flutua no vazio; uma pérola jogada nele leva às terras de fora."
+				"&7No meio do nada, uma vila. Ninguém sabe como os aldeões chegaram ali, e eles não querem falar sobre isso."
+				"&7Em volta crescem as plantas do coro: a fruta teletransporta quem a come, e a versão dourada é um banquete raro."
+				""
+				"&6Objetivo:&r 1. Atravesse um &6Portal de Passagem do End&r (aparece a cada dragão derrotado) jogando uma pérola nele."
+				"&f2. Encontre uma &6Vila&r perdida no End."
+				"&f3. Junte 16 &6Frutas do Coro&r."
+				"&f4. Coma uma &6Fruta do Coro Dourada&r."
 			]
-			x: 6.0d
-			y: 0.8d
 		}
 		{
-			dependencies: ["1BFB685530358E4A"]
+			id: "4B43E1B3751C3C4D"
+			x: 6.0d
+			y: 2.4d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "minecraft:dragon_breath"
 			}
-			id: "4B43E1B3751C3C4D"
-			rewards: [{
-				id: "7191F57D9826D9F2"
-				type: "xp"
-				xp: 1150
-			}]
-			size: 1.25d
+			dependencies: [
+				"1BFB685530358E4A"
+			]
 			tasks: [
 				{
 					id: "5EAD28EBBEF5CD9F"
-					item: { count: 1, id: "minecraft:dragon_egg" }
 					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					count: 1L
 				}
 				{
-					advancement: "minecraft:end/dragon_breath"
-					criterion: ""
 					id: "41470735D35B6718"
 					type: "advancement"
+					advancement: "minecraft:end/dragon_breath"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:imbuements"
-					criterion: ""
 					id: "07D8ED017650647E"
 					type: "advancement"
+					advancement: "stellarity:imbuements"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:cauldron/dilute_breath"
-					criterion: ""
 					id: "6AC1BDE97BF9E28C"
 					type: "advancement"
+					advancement: "stellarity:cauldron/dilute_breath"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:dragons_den/obtain_dragonblade"
-					criterion: ""
 					id: "16363F17FEED8D74"
 					type: "advancement"
+					advancement: "stellarity:dragons_den/obtain_dragonblade"
+					criterion: ""
 				}
 			]
-			x: 6.0d
-			y: 2.4d
+			rewards: [
+				{
+					id: "7191F57D9826D9F2"
+					type: "xp"
+					xp: 1150
+				}
+			]
+			title: "Despojos do Dragão"
+			description: [
+				"&7Do dragão caído sobram um ovo que ainda bate em silêncio, nuvens roxas de bafo e uma espada de origem desconhecida, que soca como um aríete."
+				"&7O bafo do dragão, engarrafado, é o ingrediente mais cobiçado da alquimia do vazio: fermenta poções persistentes e, diluído num caldeirão, abre uma alquimia nova."
+				""
+				"&6Objetivo:&r 1. Pegue o &6Ovo do Dragão&r (ele teleporta ao ser tocado: empurre-o com um pistão ou quebre o bloco embaixo)."
+				"&f2. Colete &6Bafo do Dragão&r com garrafas de vidro nas nuvens roxas."
+				"&f3. Use-o para fermentar uma &6Poção Persistente&r."
+				"&f4. Jogue bafo do dragão num caldeirão com água para diluí-lo."
+				"&f5. Obtenha a &6Lâmina do Dragão&r."
+				""
+				"&8Na Lâmina do Dragão, Repulsão aumenta o dano do soco. Arremesse os inimigos contra paredes."
+			]
 		}
 		{
-			dependencies: ["6BD5006517EE4E19"]
+			id: "49F9D9F7A225DE8C"
+			x: 8.0d
+			y: -1.6d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "minecraft:purpur_block"
 			}
-			id: "49F9D9F7A225DE8C"
+			dependencies: [
+				"6BD5006517EE4E19"
+			]
+			tasks: [
+				{
+					id: "44CF4BCABBBD4834"
+					type: "advancement"
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+				}
+				{
+					id: "5903DFF0D6B9CAB1"
+					type: "advancement"
+					advancement: "stellarity:end_city/defeat_shulker"
+					criterion: ""
+				}
+				{
+					id: "4933594D13FCE464"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					count: 4L
+				}
+				{
+					id: "7C1EEC280FA9E320"
+					type: "advancement"
+					advancement: "minecraft:end/levitate"
+					criterion: ""
+				}
+				{
+					id: "0A203FCCCD7B6625"
+					type: "advancement"
+					advancement: "stellarity:end_city/crystal_crusher"
+					criterion: ""
+				}
+				{
+					id: "2FA6E886871A8A92"
+					type: "advancement"
+					advancement: "stellarity:end_city/conqueror"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "1CEF4D6C702479FB"
@@ -292,62 +456,61 @@
 				}
 				{
 					id: "2EB712B0A0AA4F74"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "minecraft:end/find_end_city"
-					criterion: ""
-					id: "44CF4BCABBBD4834"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:end_city/defeat_shulker"
-					criterion: ""
-					id: "5903DFF0D6B9CAB1"
-					type: "advancement"
-				}
-				{
-					count: 4L
-					id: "4933594D13FCE464"
-					item: { count: 1, id: "minecraft:shulker_shell" }
-					type: "item"
-				}
-				{
-					advancement: "minecraft:end/levitate"
-					criterion: ""
-					id: "7C1EEC280FA9E320"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:end_city/crystal_crusher"
-					criterion: ""
-					id: "0A203FCCCD7B6625"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:end_city/conqueror"
-					criterion: ""
-					id: "2FA6E886871A8A92"
-					type: "advancement"
-				}
+			title: "A Cidade no Fim do Mundo"
+			description: [
+				"&7Torres roxas no horizonte do vazio. Ninguém sabe quem as construiu, mas os shulkers continuam de guarda: parecem caixas, até abrir a tampa e atirar."
+				"&7As cidades são protegidas por cristais que impedem quebrar e colocar blocos. Cada um derrubado entrega seu tesouro."
+				"&7Quando o último cristal cai, a cidade é sua: salas, cofres e navio."
+				""
+				"&6Objetivo:&r 1. Encontre uma &6Cidade do End&r nas ilhas exteriores."
+				"&f2. Derrote um &6Shulker&r e junte 4 &6Cascas de Shulker&r."
+				"&f3. Sobreviva à levitação: suba 50 blocos com o efeito."
+				"&f4. Destrua um &6Cristal Protetor&r e pegue o saque."
+				"&f5. Destrua &6todos os cristais&r e conquiste a cidade por completo."
+				""
+				"&8&6Chaves de Púrpura&r abrem os cofres das cidades; &6Chaves Douradas&r, os cofres sinistros; a &6Chave Alada&r, o cofre do navio."
+				"&8Nos baús há grimórios do vazio (Luz, Corrente Ascendente, Transporte, Azar, Retorno, Ira da Natureza): botão direito para conjurar."
+				"&8Um balde de água ou uma Poção de Queda Lenta salvam vidas quando a levitação acaba."
 			]
-			x: 8.0d
-			y: -1.6d
 		}
 		{
-			dependencies: ["6BD5006517EE4E19"]
+			id: "42A95B3C8812D2B5"
+			x: 8.0d
+			y: 0.0d
 			icon: {
+				count: 1
 				id: "minecraft:chorus_flower"
 			}
-			id: "42A95B3C8812D2B5"
-			optional: true
+			dependencies: [
+				"6BD5006517EE4E19"
+			]
+			tasks: [
+				{
+					id: "2F5B50C8B3E56B7E"
+					type: "advancement"
+					advancement: "stellarity:exploration/discover_all_biomes"
+					criterion: ""
+				}
+				{
+					id: "356E21D0BACD7090"
+					type: "advancement"
+					advancement: "stellarity:exploration/keep_warm"
+					criterion: ""
+				}
+				{
+					id: "6DD9C9186009A8F2"
+					type: "advancement"
+					advancement: "stellarity:husbandry/otherwordly_botanist"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "0E04460497E6AA12"
@@ -356,207 +519,286 @@
 				}
 				{
 					id: "334E239E1E236414"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					advancement: "stellarity:exploration/discover_all_biomes"
-					criterion: ""
-					id: "2F5B50C8B3E56B7E"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:exploration/keep_warm"
-					criterion: ""
-					id: "356E21D0BACD7090"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:husbandry/otherwordly_botanist"
-					criterion: ""
-					id: "6DD9C9186009A8F2"
-					type: "advancement"
-				}
+			title: "Viajante Atemporal"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Florestas de ametista, colinas de fogo, dunas prismáticas, pântanos distorcidos, tundras de gelo e de carne: o End é um continente."
+				"&7O vazio também tem inverno; nas terras geladas, até o fôlego congela."
+				"&7E o jardineiro mais teimoso da crônica planta uma flor do vazio em cada mundo, só para provar que pode."
+				""
+				"&6Objetivo:&r 1. Descubra &6todos os biomas&r do End."
+				"&f2. Vista um conjunto completo de &6armadura de couro&r num dos biomas mais frios do End."
+				"&f3. Plante uma &6Flor do Coro&r em cada dimensão (sobre pedra do End levada para lá)."
 			]
-			x: 8.0d
-			y: 0.0d
+			optional: true
 		}
 		{
-			dependencies: ["6BD5006517EE4E19"]
-			icon: {
-				id: "minecraft:fishing_rod"
-			}
 			id: "59247486A1DB7267"
-			rewards: [{
-				id: "5E1EA52AE6264C57"
-				type: "xp"
-				xp: 920
-			}]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "stellarity:void_fishing/void_reels"
-					criterion: ""
-					id: "2B034EA774624634"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:void_fishing/the_void_provides"
-					criterion: ""
-					id: "6422DB248FDA8B48"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:void_fishing/topped_off"
-					criterion: ""
-					id: "5F519F2D377258FF"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:adventure/postmortal_2"
-					criterion: ""
-					id: "7C34FE84D8ABC145"
-					type: "advancement"
-				}
-			]
 			x: 8.0d
 			y: 1.6d
-		}
-		{
-			dependencies: ["6BD5006517EE4E19"]
-			icon: {
-				id: "minecraft:glow_berries"
-			}
-			id: "17B55D1CEFE83737"
-			rewards: [{
-				id: "50CB2992E2E70994"
-				type: "xp"
-				xp: 1150
-			}]
 			size: 1.25d
+			icon: {
+				count: 1
+				id: "minecraft:fishing_rod"
+			}
+			dependencies: [
+				"6BD5006517EE4E19"
+			]
 			tasks: [
 				{
-					advancement: "stellarity:exploration/enter_hallow"
-					criterion: ""
-					id: "326474AC644789E3"
+					id: "2B034EA774624634"
 					type: "advancement"
+					advancement: "stellarity:void_fishing/void_reels"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:exploration/shimmer/transmute_item"
-					criterion: ""
-					id: "385DADBEE92615F4"
+					id: "6422DB248FDA8B48"
 					type: "advancement"
+					advancement: "stellarity:void_fishing/the_void_provides"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:exploration/shimmer/ambrosia"
-					criterion: ""
-					id: "1777679AE4DD76E1"
+					id: "5F519F2D377258FF"
 					type: "advancement"
+					advancement: "stellarity:void_fishing/topped_off"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:exploration/duskberry/discover"
-					criterion: ""
-					id: "7F896E496781B45B"
+					id: "7C34FE84D8ABC145"
 					type: "advancement"
-				}
-				{
-					advancement: "stellarity:exploration/enter_chapel"
+					advancement: "stellarity:adventure/postmortal_2"
 					criterion: ""
-					id: "67D61850F86BE9A3"
-					type: "advancement"
 				}
 			]
-			x: 8.0d
-			y: 3.2d
+			rewards: [
+				{
+					id: "5E1EA52AE6264C57"
+					type: "xp"
+					xp: 920
+				}
+			]
+			title: "Molinetes do Vazio"
+			description: [
+				"&7Na borda das ilhas, o vazio parece não ter fundo. Mas alguma coisa morde a isca."
+				"&7Caixotes de ametista, de gelo, de fogo, sagrados, sanguíneos: cada bioma pesca o seu. E o Peixe da Vitalidade tem um coração de cristal: quem o come ganha um coração a mais, para sempre."
+				"&7Cair no vazio e voltar segurando um totem é a única maneira de rir da morte no End."
+				""
+				"&6Objetivo:&r 1. Lance a vara de pesca na escuridão aberta abaixo das ilhas."
+				"&f2. Pesque um &6Caixote&r do vazio, coloque-o no chão e abra-o."
+				"&f3. Coma &610 Peixes da Vitalidade&r para ganhar 10 corações extras."
+				"&f4. Salve-se da morte no vazio com um &6Totem da Imortalidade&r."
+				""
+				"&8Pesque de um ponto alto: fundo demais, nada morde. Perto do Covil do Dragão, nenhum peixe se aproxima."
+			]
 		}
 		{
+			id: "17B55D1CEFE83737"
+			x: 8.0d
+			y: 3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+			dependencies: [
+				"6BD5006517EE4E19"
+			]
+			tasks: [
+				{
+					id: "326474AC644789E3"
+					type: "advancement"
+					advancement: "stellarity:exploration/enter_hallow"
+					criterion: ""
+				}
+				{
+					id: "385DADBEE92615F4"
+					type: "advancement"
+					advancement: "stellarity:exploration/shimmer/transmute_item"
+					criterion: ""
+				}
+				{
+					id: "1777679AE4DD76E1"
+					type: "advancement"
+					advancement: "stellarity:exploration/shimmer/ambrosia"
+					criterion: ""
+				}
+				{
+					id: "7F896E496781B45B"
+					type: "advancement"
+					advancement: "stellarity:exploration/duskberry/discover"
+					criterion: ""
+				}
+				{
+					id: "67D61850F86BE9A3"
+					type: "advancement"
+					advancement: "stellarity:exploration/enter_chapel"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "50CB2992E2E70994"
+					type: "xp"
+					xp: 1150
+				}
+			]
+			title: "A Terra Sagrada"
+			description: [
+				"&7\"Uma vez dentro da terra sagrada, verá um arco-íris no céu.\" A água do Hallow brilha como óleo ao sol, e tudo que cai nela sai diferente."
+				"&7Batatas, cenouras, frutas e raízes banhadas ali viram comida divina: quem as come nunca mais é o mesmo."
+				"&7Nos navios do Hallow há bagas do crepúsculo, e no coração dele, uma capela de luz cercada de fadas como mariposas."
+				""
+				"&6Objetivo:&r 1. Encontre e entre no &6Hallow&r."
+				"&f2. Jogue um item na água do Hallow para transmutá-lo (é assim que se fazem os &6Lingotes Sagrados&r)."
+				"&f3. Transmute uma comida em sua &6versão divina&r e coma-a: bônus permanente (veneno, defesa, velocidade, ataque, sorte, regeneração ou força)."
+				"&f4. Pegue uma &6Baga do Crepúsculo&r de um baú de navio do Hallow."
+				"&f5. Entre na &6Capela da Luz&r."
+				""
+				"&8O Altar do Sagrado, na capela, aceita minérios como sacrifício e devolve bônus longos. Nunca sacrifique o que ele proíbe."
+			]
+		}
+		{
+			id: "3F369CB0D83A724B"
+			x: 10.0d
+			y: -2.6d
+			icon: {
+				count: 1
+				id: "minecraft:elytra"
+			}
 			dependencies: [
 				"49F9D9F7A225DE8C"
 				"213347D1E2B6C676"
 			]
-			icon: {
-				id: "minecraft:elytra"
-			}
-			id: "3F369CB0D83A724B"
-			rewards: [{
-				id: "36BA6E4A0689B539"
-				type: "xp"
-				xp: 690
-			}]
 			tasks: [
 				{
-					advancement: "minecraft:end/elytra"
-					criterion: ""
 					id: "6BE0B2DC7EF4BECE"
 					type: "advancement"
+					advancement: "minecraft:end/elytra"
+					criterion: ""
 				}
 				{
 					id: "3E82DC78BE46BB53"
-					item: { count: 1, id: "minecraft:elytra" }
 					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					count: 1L
 				}
 				{
-					advancement: "stellarity:aota/dye_elytra"
-					criterion: ""
 					id: "11D514457245E3B1"
 					type: "advancement"
+					advancement: "stellarity:aota/dye_elytra"
+					criterion: ""
 				}
 			]
-			x: 10.0d
-			y: -2.6d
+			rewards: [
+				{
+					id: "36BA6E4A0689B539"
+					type: "xp"
+					xp: 690
+				}
+			]
+			title: "Asas de Ninguém"
+			description: [
+				"&7No navio que flutua ao lado da cidade, um cofre guarda um par de asas. A Chave Alada o abre."
+				"&7Cada um voa com a cor que quiser: o altar amaldiçoado tinge até o rastro do voo."
+				""
+				"&6Objetivo:&r 1. Abra o cofre do &6Navio do End&r com a &6Chave Alada&r."
+				"&f2. Obtenha um &6Élitro&r."
+				"&f3. Combine o élitro com um corante no &6Altar dos Amaldiçoados&r para mudar o rastro."
+				""
+				"&8Foguetes desgastam o élitro bem rápido. As asas do Dragão, da Imperatriz e dos Phantoms são variantes melhores (ou piores)."
+			]
 		}
 		{
+			id: "7A599A16D3808754"
+			x: 10.0d
+			y: -1.0d
+			icon: {
+				count: 1
+				id: "minecraft:shulker_box"
+			}
 			dependencies: [
 				"49F9D9F7A225DE8C"
 				"213347D1E2B6C676"
 			]
-			icon: {
-				id: "minecraft:shulker_box"
-			}
-			id: "7A599A16D3808754"
-			rewards: [{
-				id: "49DEC6CF5FE34DC7"
-				type: "xp"
-				xp: 690
-			}]
 			tasks: [
 				{
-					advancement: "stellarity:end_city/portable_storage"
-					criterion: ""
 					id: "55DB0D8967D51EF7"
 					type: "advancement"
+					advancement: "stellarity:end_city/portable_storage"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:end_city/color_a_shulker_box"
-					criterion: ""
 					id: "1A651241081BD089"
 					type: "advancement"
+					advancement: "stellarity:end_city/color_a_shulker_box"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:aota/craft_full_shulker_armor"
-					criterion: ""
 					id: "2AC119F38BAE11CF"
 					type: "advancement"
+					advancement: "stellarity:aota/craft_full_shulker_armor"
+					criterion: ""
 				}
 			]
-			x: 10.0d
-			y: -1.0d
+			rewards: [
+				{
+					id: "49DEC6CF5FE34DC7"
+					type: "xp"
+					xp: 690
+				}
+			]
+			title: "Sou de Titânio!"
+			description: [
+				"&7Um baú que se carrega no bolso, sem perder nada lá dentro: os mercadores de Heartforge pagam fortunas por um."
+				"&7E das mesmas cascas, no altar, sai uma armadura imune à fraqueza e à levitação, que dispara projéteis contra quem a ataca."
+				""
+				"&6Objetivo:&r 1. Fabrique uma &6Caixa de Shulker&r (2 cascas + 1 baú)."
+				"&f2. Pinte-a de alguma cor."
+				"&f3. Forje o conjunto completo de &6Armadura de Shulker&r no Altar dos Amaldiçoados."
+			]
 		}
 		{
+			id: "7A337C28531ABF81"
+			x: 10.0d
+			y: 0.6d
+			icon: {
+				count: 1
+				id: "minecraft:sweet_berries"
+			}
 			dependencies: [
 				"17B55D1CEFE83737"
 				"213347D1E2B6C676"
 			]
-			icon: {
-				id: "minecraft:sweet_berries"
-			}
-			id: "7A337C28531ABF81"
-			optional: true
+			tasks: [
+				{
+					id: "78D20D834D35323C"
+					type: "advancement"
+					advancement: "stellarity:exploration/duskberry/poor_life_choices"
+					criterion: ""
+				}
+				{
+					id: "277A6A46618D416B"
+					type: "advancement"
+					advancement: "stellarity:pandoras_barrel/gloop_de_gloop"
+					criterion: ""
+				}
+				{
+					id: "273C79EBA0BAC21A"
+					type: "advancement"
+					advancement: "stellarity:pandoras_barrel/open_in_deep_dark"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "6A36728363B15190"
@@ -565,67 +807,121 @@
 				}
 				{
 					id: "106E867C16E66225"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
-					type: "item"
 				}
+			]
+			title: "Péssimas Escolhas"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Uma baga escura que dá força e visão a quem a segura. Comê-la, plantá-la ou dá-la a uma raposa é outra história; os sábios avisaram."
+				"&7O Barril de Pandora, aberto no pântano, liberta uma gosma amiga. Aberto no Escuro Profundo, liberta algo que ninguém quer conhecer."
+				""
+				"&6Objetivo:&r 1. Coma, plante e alimente uma raposa com uma &6Baga do Crepúsculo&r."
+				"&f2. Liberte um &6Gloop&r abrindo um Barril de Pandora num pântano."
+				"&f3. Abra outro Barril de Pandora no &cEscuro Profundo&r."
+			]
+			optional: true
+		}
+		{
+			id: "75ED702A9FA022A3"
+			x: 10.0d
+			y: 2.6d
+			icon: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			dependencies: [
+				"17B55D1CEFE83737"
 			]
 			tasks: [
 				{
-					advancement: "stellarity:exploration/duskberry/poor_life_choices"
-					criterion: ""
-					id: "78D20D834D35323C"
+					id: "5C41DCF0DBBECBF5"
 					type: "advancement"
-				}
-				{
-					advancement: "stellarity:pandoras_barrel/gloop_de_gloop"
+					advancement: "stellarity:eol/summon_empress"
 					criterion: ""
-					id: "277A6A46618D416B"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:pandoras_barrel/open_in_deep_dark"
-					criterion: ""
-					id: "273C79EBA0BAC21A"
-					type: "advancement"
 				}
 			]
-			x: 10.0d
-			y: 0.6d
+			rewards: [
+				{
+					id: "765EDF9D261F0CF7"
+					type: "xp"
+					xp: 230
+				}
+			]
+			title: "&dA Rainha das Luzes Cintilantes"
+			description: [
+				"&7Ela não é má. Só não tolera visitas."
+				"&7Lanças etéreas, rajadas prismáticas e investidas que cortam o ar: a Imperatriz da Luz desce quando alguém oferece fuligem estelar no Altar do Sagrado."
+				"&7Entre seus prêmios estão as asas mais belas do vazio."
+				""
+				"&6Objetivo:&r 1. Junte &6Fuligem Estelar&r (fadas do Hallow, navios e pesca no vazio)."
+				"&f2. Sacrifique-a no &6Altar do Sagrado&r para invocar a &dImperatriz da Luz&r, e derrote-a."
+				""
+				"&8À noite ela é mais fraca. De dia, no End ou fora dele, ela é implacável."
+			]
 		}
 		{
-			dependencies: ["17B55D1CEFE83737"]
+			id: "730020287343EDD1"
+			x: 12.0d
+			y: -0.4d
+			size: 1.25d
 			icon: {
-				id: "minecraft:nether_star"
+				count: 1
+				id: "minecraft:netherite_sword"
 			}
-			id: "75ED702A9FA022A3"
-			rewards: [{
-				id: "765EDF9D261F0CF7"
-				type: "xp"
-				xp: 230
-			}]
-			tasks: [{
-				advancement: "stellarity:eol/summon_empress"
-				criterion: ""
-				id: "5C41DCF0DBBECBF5"
-				type: "advancement"
-			}]
-			x: 10.0d
-			y: 2.6d
-		}
-		{
 			dependencies: [
 				"3F369CB0D83A724B"
 				"7A599A16D3808754"
 				"4B43E1B3751C3C4D"
 			]
-			icon: {
-				id: "minecraft:netherite_sword"
-			}
-			id: "730020287343EDD1"
-			optional: true
+			tasks: [
+				{
+					id: "5650D50CEEC991E9"
+					type: "advancement"
+					advancement: "stellarity:exploration/max_out_aery_sword"
+					criterion: ""
+				}
+				{
+					id: "6A704C5E0B7963B4"
+					type: "advancement"
+					advancement: "stellarity:exploration/spirit_assasin"
+					criterion: ""
+				}
+				{
+					id: "787B6B57FD71D053"
+					type: "advancement"
+					advancement: "stellarity:dragons_den/disassembly"
+					criterion: ""
+				}
+				{
+					id: "6446028719A519B0"
+					type: "advancement"
+					advancement: "stellarity:adventure/electrified"
+					criterion: ""
+				}
+				{
+					id: "70A1A873402C93F4"
+					type: "advancement"
+					advancement: "stellarity:dragons_den/kaliyah"
+					criterion: ""
+				}
+				{
+					id: "6D5C0E59FE7A12AC"
+					type: "advancement"
+					advancement: "stellarity:end_city/super_sonic"
+					criterion: ""
+				}
+				{
+					id: "3D48F478EE2388D9"
+					type: "advancement"
+					advancement: "stellarity:end_city/jeb_"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "1AA99C42CA8C46F4"
@@ -634,60 +930,33 @@
 				}
 				{
 					id: "4344569E8D341FEF"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_lendaria"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "stellarity:exploration/max_out_aery_sword"
-					criterion: ""
-					id: "5650D50CEEC991E9"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:exploration/spirit_assasin"
-					criterion: ""
-					id: "6A704C5E0B7963B4"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:dragons_den/disassembly"
-					criterion: ""
-					id: "787B6B57FD71D053"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:adventure/electrified"
-					criterion: ""
-					id: "6446028719A519B0"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:dragons_den/kaliyah"
-					criterion: ""
-					id: "70A1A873402C93F4"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:end_city/super_sonic"
-					criterion: ""
-					id: "6D5C0E59FE7A12AC"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:end_city/jeb_"
-					criterion: ""
-					id: "3D48F478EE2388D9"
-					type: "advancement"
-				}
+			title: "Relíquias do Vazio"
+			subtitle: "&8Opcional"
+			description: [
+				"&7A Colheitadeira Gélida absorve as almas que ceifa. Duas adagas gêmeas atraem espíritos. A Tamaris, propriedade do Capitão Charo, executa quem já está ferido."
+				"&7Um escudo de cobre dá investidas elétricas, e um élitro bem pilotado passa por frestas mais rápido que o som."
+				"&7Ninguém junta todas as relíquias do vazio por necessidade. Junta-se por orgulho."
+				""
+				"&6Objetivo:&r 1. Absorva almas com a &6Colheitadeira Gélida&r até ela chegar a &613 de dano&r."
+				"&f2. Teleporte-se mais de 60 blocos com as adagas &6O Começo e O Fim&r."
+				"&f3. Execute um inimigo com pouca vida usando a &6Tamaris&r (agache perto dele)."
+				"&f4. Atravesse 5 criaturas diferentes com uma única investida do &6Escudo Elektra de Cobre&r."
+				"&f5. Cause o dano máximo com um único soco da &6Lâmina do Dragão&r."
+				"&f6. Voe de élitro por uma fresta de 1x1 a mais de 40 m/s."
+				"&f7. Fabrique &6todas as cores&r de Caixa de Shulker."
 			]
-			x: 12.0d
-			y: -0.4d
+			optional: true
 		}
+	]
+	title: "&dTier VII&7 - O Mar da Eternidade"
+	subtitle: [
+		"&5O End&7, &dTier VII"
 	]
 }

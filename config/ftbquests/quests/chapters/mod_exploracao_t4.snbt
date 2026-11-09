@@ -4,119 +4,207 @@
 	filename: "mod_exploracao_t4"
 	group: "48BF15FF65B85345"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "6EAEB25C1C79D2D6"
-	images: [ ]
-	order_index: 4
+	order_index: 113
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_4"
-			}
 			id: "6413C74F54BBDBFD"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_4"
-				criterion: ""
-				id: "73DC135A1D884B0F"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_4"
+			}
+			tasks: [
+				{
+					id: "73DC135A1D884B0F"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_4"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&6Tier IV"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &6Tier IV&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "4F3255A0C18554FA"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
 			dependencies: [
 				"2F9B060B7979BED5"
 				"6413C74F54BBDBFD"
 			]
-			icon: {
-				id: "minecraft:obsidian"
-			}
-			id: "4F3255A0C18554FA"
-			rewards: [{
-				id: "62BED6C8A1A0321E"
-				type: "xp"
-				xp: 420
-			}]
 			tasks: [
 				{
-					count: 10L
 					id: "58D41256D774B5C2"
-					item: { count: 1, id: "minecraft:obsidian" }
 					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					count: 10L
 				}
 				{
 					id: "0323066B57C50596"
-					item: { count: 1, id: "minecraft:flint_and_steel" }
 					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					count: 1L
 				}
 				{
-					advancement: "minecraft:story/enter_the_nether"
-					criterion: ""
 					id: "3746915019EA8E24"
 					type: "advancement"
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "62BED6C8A1A0321E"
+					type: "xp"
+					xp: 420
+				}
+			]
+			title: "Pelas Portas do Inferno"
+			description: [
+				"&7Enquanto a companhia não carregava quatro selos no peito, o &6Ar Escaldante&7 cozinhava qualquer um que cruzasse o portal."
+				"&7Agora o ar arde, mas não mata. Dez blocos de obsidiana, uma faísca, e o Nether espera."
+				""
+				"&6Objetivo:&r 1. Junte 10 &6Obsidianas&r (balde de água sobre lava, picareta de diamante)."
+				"&f2. Fabrique um &6Isqueiro&r (ferro + pederneira)."
+				"&f3. Construa o portal, acenda-o e entre no &cNether&r."
+				""
+				"&8Antes do Tier IV, o Ar Escaldante mata aos poucos. Raças imunes ao fogo resistem mais, mas não para sempre."
+			]
 		}
 		{
-			dependencies: ["4F3255A0C18554FA"]
-			icon: {
-				id: "minecraft:blaze_rod"
-			}
 			id: "7681B1672044DCE5"
-			rewards: [{
-				id: "64CC98FB42634B54"
-				type: "xp"
-				xp: 700
-			}]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "minecraft:nether/find_fortress"
-					criterion: ""
-					id: "00889391E5040B5D"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:nether/obtain_blaze_rod"
-					criterion: ""
-					id: "343CAA077E801827"
-					type: "advancement"
-				}
-				{
-					count: 6L
-					id: "0F3283B669ADA05B"
-					item: { count: 1, id: "minecraft:blaze_rod" }
-					type: "item"
-				}
-				{
-					advancement: "minecraft:nether/get_wither_skull"
-					criterion: ""
-					id: "1B2BDE6FB4C1A2A7"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:story/follow_ender_eye"
-					criterion: ""
-					id: "3F7847C3CFD0297F"
-					type: "advancement"
-				}
-			]
 			x: 4.0d
 			y: -3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			dependencies: [
+				"4F3255A0C18554FA"
+			]
+			tasks: [
+				{
+					id: "00889391E5040B5D"
+					type: "advancement"
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+				}
+				{
+					id: "343CAA077E801827"
+					type: "advancement"
+					advancement: "minecraft:nether/obtain_blaze_rod"
+					criterion: ""
+				}
+				{
+					id: "0F3283B669ADA05B"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					count: 6L
+				}
+				{
+					id: "1B2BDE6FB4C1A2A7"
+					type: "advancement"
+					advancement: "minecraft:nether/get_wither_skull"
+					criterion: ""
+				}
+				{
+					id: "3F7847C3CFD0297F"
+					type: "advancement"
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "64CC98FB42634B54"
+					type: "xp"
+					xp: 700
+				}
+			]
+			title: "Uma Fortaleza Terrível"
+			description: [
+				"&7Pontes de tijolo negro sobre mares de lava, vigiadas por blazes e esqueletos murchos."
+				"&7Os bastões de blaze são combustível de alquimistas e a alma de cada poção; três crânios murchos e areia de almas, os sábios dizem para nunca juntar."
+				"&7E o pó de blaze, misturado a uma pérola do Ender, cria um olho que voa para onde a fortaleza esquecida do mundo de cima dorme."
+				""
+				"&6Objetivo:&r 1. Encontre uma &cFortaleza do Nether&r."
+				"&f2. Derrote blazes nos geradores e junte 6 &6Bastões de Blaze&r."
+				"&f3. Consiga um &6Crânio de Esqueleto Murcho&r."
+				"&f4. Jogue um &6Olho do Ender&r no mundo normal e siga-o até uma &6Fortaleza&r subterrânea."
+				""
+				"&8Três crânios invocam o &cWither&r, o boss-chave do Tier IV. O End só se abre no Tier VII, mas a fortaleza e sua biblioteca já podem ser exploradas."
+			]
 		}
 		{
-			dependencies: ["4F3255A0C18554FA"]
+			id: "4DDC48EAA66C61AA"
+			x: 4.0d
+			y: -1.6d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "minecraft:gold_block"
 			}
-			id: "4DDC48EAA66C61AA"
+			dependencies: [
+				"4F3255A0C18554FA"
+			]
+			tasks: [
+				{
+					id: "1D8D99ACDBBF5C05"
+					type: "advancement"
+					advancement: "minecraft:nether/find_bastion"
+					criterion: ""
+				}
+				{
+					id: "6149E6E0C6EF9D20"
+					type: "advancement"
+					advancement: "minecraft:nether/loot_bastion"
+					criterion: ""
+				}
+				{
+					id: "76D09335ADE24C07"
+					type: "advancement"
+					advancement: "minecraft:nether/distract_piglin"
+					criterion: ""
+				}
+				{
+					id: "79C66E63E4410DC6"
+					type: "advancement"
+					advancement: "minecraft:nether/obtain_crying_obsidian"
+					criterion: ""
+				}
+				{
+					id: "62D5451A7835C557"
+					type: "advancement"
+					advancement: "minecraft:nether/charge_respawn_anchor"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "128BCD4512152403"
@@ -125,55 +213,61 @@
 				}
 				{
 					id: "5B2B7292AD6CF250"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "minecraft:nether/find_bastion"
-					criterion: ""
-					id: "1D8D99ACDBBF5C05"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:nether/loot_bastion"
-					criterion: ""
-					id: "6149E6E0C6EF9D20"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:nether/distract_piglin"
-					criterion: ""
-					id: "76D09335ADE24C07"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:nether/obtain_crying_obsidian"
-					criterion: ""
-					id: "79C66E63E4410DC6"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:nether/charge_respawn_anchor"
-					criterion: ""
-					id: "62D5451A7835C557"
-					type: "advancement"
-				}
+			title: "O Ouro dos Piglins"
+			description: [
+				"&7Os piglins guardam fortalezas de pedra-negra cheias de ouro. Um piglin distraído por ouro é um piglin que não morde."
+				"&7Eles também trocam obsidiana que chora lágrimas roxas, e com ela se faz uma âncora que prende a alma ao Nether."
+				""
+				"&6Objetivo:&r 1. Encontre um &6Bastião&r."
+				"&f2. Saqueie um de seus baús."
+				"&f3. Distraia um piglin jogando ouro para ele."
+				"&f4. Consiga &6Obsidiana Chorona&r."
+				"&f5. Carregue uma &6Âncora de Renascimento&r com pedra luminosa."
+				""
+				"&8Vista pelo menos uma peça de armadura de ouro: os piglins não atacam quem veste ouro."
 			]
-			x: 4.0d
-			y: -1.6d
 		}
 		{
-			dependencies: ["4F3255A0C18554FA"]
+			id: "6717CCCEED121052"
+			x: 4.0d
+			y: 0.0d
 			icon: {
+				count: 1
 				id: "minecraft:ancient_debris"
 			}
-			id: "6717CCCEED121052"
+			dependencies: [
+				"4F3255A0C18554FA"
+			]
+			tasks: [
+				{
+					id: "1F38D2CB52A3D5CC"
+					type: "advancement"
+					advancement: "minecraft:nether/obtain_ancient_debris"
+					criterion: ""
+				}
+				{
+					id: "296F88529C4B6747"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					count: 1L
+				}
+				{
+					id: "25C1D5B7B85E40C4"
+					type: "advancement"
+					advancement: "minecraft:nether/use_lodestone"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "3C199ABA3280FB64"
@@ -182,76 +276,111 @@
 				}
 				{
 					id: "5DF8FE1F2A3AE6B6"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					advancement: "minecraft:nether/obtain_ancient_debris"
-					criterion: ""
-					id: "1F38D2CB52A3D5CC"
-					type: "advancement"
-				}
-				{
-					id: "296F88529C4B6747"
-					item: { count: 1, id: "minecraft:netherite_scrap" }
-					type: "item"
-				}
-				{
-					advancement: "minecraft:nether/use_lodestone"
-					criterion: ""
-					id: "25C1D5B7B85E40C4"
-					type: "advancement"
-				}
+			title: "Escondido nas Profundezas"
+			description: [
+				"&7O detrito ancestral não cede a qualquer picareta, e nem o maior forno do mundo o funde em netherite sozinho."
+				"&7Com um lingote dele, porém, nasce a magnetita: uma pedra-ímã que aponta para casa até no Nether, onde as bússolas giram enlouquecidas."
+				""
+				"&6Objetivo:&r 1. Minere &6Detrito Ancestral&r nas camadas baixas do Nether (em torno do nível 15)."
+				"&f2. Funda-o em &6Sucata de Netherite&r. A &6netherite&r só sai no &6Mixer superaquecido&r: 4 sucatas + 4 ouro."
+				"&f3. Fabrique uma &6Magnetita&r (1 lingote de netherite + 8 tijolos de pedra talhados) e use uma bússola nela."
+				""
+				"&8Camas explodem no Nether: os mineiros usam isso para abrir túneis rápido. Com muito cuidado."
 			]
-			x: 4.0d
-			y: 0.0d
 		}
 		{
-			dependencies: ["4F3255A0C18554FA"]
-			icon: {
-				id: "minecraft:blast_furnace"
-			}
 			id: "7B2D0318E48A6CCD"
-			rewards: [{
-				id: "11F106835539CBFF"
-				type: "xp"
-				xp: 420
-			}]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_foundry"
-					criterion: ""
-					id: "0148713D2431E0E1"
-					type: "advancement"
-				}
-				{
-					advancement: "dungeons_arise:find_scorched_mines"
-					criterion: ""
-					id: "3EC378E3D8AA0B55"
-					type: "advancement"
-				}
-				{
-					advancement: "mmr:nether_mineshaft"
-					criterion: ""
-					id: "77386C48AAE49A3C"
-					type: "advancement"
-				}
-			]
 			x: 4.0d
 			y: 1.6d
+			icon: {
+				count: 1
+				id: "minecraft:blast_furnace"
+			}
+			dependencies: [
+				"4F3255A0C18554FA"
+			]
+			tasks: [
+				{
+					id: "0148713D2431E0E1"
+					type: "advancement"
+					advancement: "dungeons_arise:find_foundry"
+					criterion: ""
+				}
+				{
+					id: "3EC378E3D8AA0B55"
+					type: "advancement"
+					advancement: "dungeons_arise:find_scorched_mines"
+					criterion: ""
+				}
+				{
+					id: "77386C48AAE49A3C"
+					type: "advancement"
+					advancement: "mmr:nether_mineshaft"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "11F106835539CBFF"
+					type: "xp"
+					xp: 420
+				}
+			]
+			title: "&cA Fundição e as Minas Queimadas"
+			description: [
+				"&7Uma forja infernal construída por alguém que conhecia o Nether muito antes de nós. As fornalhas ainda queimam."
+				"&7Perto dela, túneis escavados na rocha infernal, onde a descida não tem fim."
+				""
+				"&6Objetivo:&r 1. Encontre a &cFundição&r no Nether."
+				"&f2. Encontre as &cMinas Queimadas&r."
+				"&f3. Encontre a &6Mina do Nether&r (Moog)."
+			]
 		}
 		{
-			dependencies: ["4F3255A0C18554FA"]
+			id: "5567766284791918"
+			x: 4.0d
+			y: 3.2d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "minecraft:warped_fungus_on_a_stick"
 			}
-			id: "5567766284791918"
-			optional: true
+			dependencies: [
+				"4F3255A0C18554FA"
+			]
+			tasks: [
+				{
+					id: "3182654CD485B0E0"
+					type: "advancement"
+					advancement: "minecraft:nether/fast_travel"
+					criterion: ""
+				}
+				{
+					id: "4DF39B3B8C2D3E9C"
+					type: "advancement"
+					advancement: "minecraft:nether/explore_nether"
+					criterion: ""
+				}
+				{
+					id: "252136A9148830B1"
+					type: "advancement"
+					advancement: "minecraft:nether/ride_strider"
+					criterion: ""
+				}
+				{
+					id: "1819A6EB9CD96026"
+					type: "advancement"
+					advancement: "minecraft:nether/return_to_sender"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "431526898453EC73"
@@ -260,53 +389,83 @@
 				}
 				{
 					id: "0B87B14F7F8E2F01"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "minecraft:nether/fast_travel"
-					criterion: ""
-					id: "3182654CD485B0E0"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:nether/explore_nether"
-					criterion: ""
-					id: "4DF39B3B8C2D3E9C"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:nether/ride_strider"
-					criterion: ""
-					id: "252136A9148830B1"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:nether/return_to_sender"
-					criterion: ""
-					id: "1819A6EB9CD96026"
-					type: "advancement"
-				}
+			title: "O Andarilho do Inferno"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Cada passo no Nether vale oito no mundo de cima. O andarilho de verdade conhece desertos de almas, florestas carmesins, deltas de basalto e o velho deserto de netherrack."
+				"&7O strider atravessa a lava como um barco preguiçoso. O ghast cospe fogo, o espadachim rebate, o ghast se arrepende."
+				""
+				"&6Objetivo:&r 1. Use o Nether para viajar &67 km&r no mundo normal (ligue dois portais distantes)."
+				"&f2. Visite &6todos os biomas&r do Nether."
+				"&f3. Monte um &6Strider&r (sela + &6Vara com Fungo Distorcido&r)."
+				"&f4. Mate um &6Ghast&r rebatendo a bola de fogo dele."
 			]
-			x: 4.0d
-			y: 3.2d
+			optional: true
 		}
 		{
+			id: "21606AEA2D513D3F"
+			x: 6.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "minecraft:chest_minecart"
+			}
 			dependencies: [
 				"7B2D0318E48A6CCD"
 				"7F3D2E313FF91689"
 			]
-			icon: {
-				id: "minecraft:chest_minecart"
-			}
-			id: "21606AEA2D513D3F"
-			optional: true
+			tasks: [
+				{
+					id: "1870DBF8661D7AAC"
+					type: "advancement"
+					advancement: "mmr:desert_mineshaft"
+					criterion: ""
+				}
+				{
+					id: "0E0039321A52F1E7"
+					type: "advancement"
+					advancement: "mmr:mesa_mineshaft"
+					criterion: ""
+				}
+				{
+					id: "093DC6C1520B3255"
+					type: "advancement"
+					advancement: "mmr:jungle_mineshaft"
+					criterion: ""
+				}
+				{
+					id: "0AA0146AE2F9A1D0"
+					type: "advancement"
+					advancement: "mmr:snowy_mineshaft"
+					criterion: ""
+				}
+				{
+					id: "005088A8B8B1A452"
+					type: "advancement"
+					advancement: "mmr:mushroom_mineshaft"
+					criterion: ""
+				}
+				{
+					id: "4E6B89E3D308EFC5"
+					type: "advancement"
+					advancement: "mmr:all_mineshafts"
+					criterion: ""
+				}
+				{
+					id: "4F619FD19C59BF2D"
+					type: "advancement"
+					advancement: "hopo:minecraft/adventure/all_mineshaft"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "13433776D92CB39D"
@@ -315,60 +474,28 @@
 				}
 				{
 					id: "447B2E2D4B6C72B3"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "mmr:desert_mineshaft"
-					criterion: ""
-					id: "1870DBF8661D7AAC"
-					type: "advancement"
-				}
-				{
-					advancement: "mmr:mesa_mineshaft"
-					criterion: ""
-					id: "0E0039321A52F1E7"
-					type: "advancement"
-				}
-				{
-					advancement: "mmr:jungle_mineshaft"
-					criterion: ""
-					id: "093DC6C1520B3255"
-					type: "advancement"
-				}
-				{
-					advancement: "mmr:snowy_mineshaft"
-					criterion: ""
-					id: "0AA0146AE2F9A1D0"
-					type: "advancement"
-				}
-				{
-					advancement: "mmr:mushroom_mineshaft"
-					criterion: ""
-					id: "005088A8B8B1A452"
-					type: "advancement"
-				}
-				{
-					advancement: "mmr:all_mineshafts"
-					criterion: ""
-					id: "4E6B89E3D308EFC5"
-					type: "advancement"
-				}
-				{
-					advancement: "hopo:minecraft/adventure/all_mineshaft"
-					criterion: ""
-					id: "4F619FD19C59BF2D"
-					type: "advancement"
-				}
+			title: "Viu Uma, Viu Todas"
+			subtitle: "&8Opcional"
+			description: [
+				"&7No deserto, as vigas são de arenito; na selva, de bambu; na neve, parecem iglus. Cada povo cavou do seu jeito."
+				"&7De todos os tipos, em todas as terras, até no Nether e no Escuro Profundo: só então o cronista das minas descansa."
+				""
+				"&6Objetivo:&r 1. Descubra minas das variantes de &6deserto&r, &6mesa&r, &6selva&r, &6neve&r e &6cogumelos&r."
+				"&f2. Descubra &6todos os tipos de mina&r do Moog (inclusive a do Nether)."
+				"&f3. Descubra todos os tipos de mina do Hopo (inclusive a do &6Escuro Profundo&r)."
 			]
-			x: 6.0d
-			y: 1.6d
+			optional: true
 		}
+	]
+	title: "&6Tier IV&7 - As Portas do Inferno"
+	subtitle: [
+		"&2Exploração&7, &6Tier IV"
 	]
 }

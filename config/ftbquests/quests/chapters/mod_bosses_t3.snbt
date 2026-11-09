@@ -4,122 +4,255 @@
 	filename: "mod_bosses_t3"
 	group: "1B6781BE25FE5814"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "02E015951B17EBC1"
-	images: [ ]
-	order_index: 2
+	order_index: 97
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_3"
-			}
 			id: "605CA2DA263E9324"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_3"
-				criterion: ""
-				id: "78E8355C7FBE9AA5"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 1.6d
-		}
-		{
-			dependencies: ["605CA2DA263E9324"]
+			shape: "hexagon"
+			size: 1.5d
 			icon: {
-				id: "comamigos_balance:night_lich_heart"
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
 			}
-			id: "1C986091557ADA57"
-			rewards: [{
-				id: "272C09E270B5BE88"
-				type: "xp"
-				xp: 330
-			}]
-			shape: "diamond"
 			tasks: [
 				{
-					count: 4L
+					id: "78E8355C7FBE9AA5"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "1C986091557ADA57"
+			x: 2.0d
+			y: 0.0d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:night_lich_heart"
+			}
+			dependencies: [
+				"605CA2DA263E9324"
+			]
+			tasks: [
+				{
 					id: "6F92C7AF89CCD9EA"
-					item: { count: 1, id: "bosses_of_mass_destruction:soul_star" }
 					type: "item"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					count: 4L
 				}
 				{
-					entity: "bosses_of_mass_destruction:lich"
 					id: "67003598678B715F"
 					type: "kill"
+					entity: "bosses_of_mass_destruction:lich"
 					value: 1L
 				}
 				{
-					count: 2L
 					id: "0948CDB98455C169"
-					item: { count: 1, id: "bosses_of_mass_destruction:ancient_anima" }
 					type: "item"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:ancient_anima"
+					}
+					count: 2L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "272C09E270B5BE88"
+					type: "xp"
+					xp: 330
+				}
+			]
+			title: "O Lich Noturno"
+			description: [
+				"&7Cada morto-vivo que cai solta um fio de alma; quando cinquenta fios se juntam, nasce uma estrela pálida"
+				"&7que só sabe apontar para o norte gelado, onde uma torre range sobre um rio congelado."
+				"&7No topo vive quem odeia o sol a ponto de apagá-lo: enquanto o Lich vive, a noite não termina."
+				"&7O que sobra dele não é pó, é vontade cristalizada."
+				""
+				"&6Objetivo:&r 1. Abata mortos-vivos até juntar &64 Estrelas das Almas&r (cerca de uma a cada 50 abates)."
+				"&f2. Lance uma estrela como um Olho do Ender: ela voa até a &6Torre do Lich&r, sobre &bRios Congelados&r."
+				"&fSuba os andares, destrua os geradores e saqueie os baús."
+				"&f3. No topo, ponha estrelas nos &64 Altares de Pedra Cinzelada&r e derrote o &cLich Noturno&r."
+				"&fEle dispara mísseis que causam lentidão, chama cometas e convoca lacaios. Ataque sem parar: ele se cura quando ninguém o fere."
+				"&f4. Recolha &62 Ânimas Ancestrais&r: base da Mesa de Elevação, da Pérola Carregada e do Cajado de Supressão."
+				"&fSeu &ccoração&r dá resistência e queda lenta, mas deixa o corpo pesado."
+				""
+				"&8Arco ou magia ajudam muito: ele flutua e foge do alcance de espadas."
+			]
 		}
 		{
-			dependencies: ["605CA2DA263E9324"]
-			icon: {
-				id: "comamigos_balance:sandworm_heart"
-			}
 			id: "2B24EF1C195A5E7B"
-			rewards: [{
-				id: "5BF90F5D7BB0431A"
-				type: "xp"
-				xp: 110
-			}]
-			shape: "diamond"
-			tasks: [{
-				entity: "block_factorys_bosses:sandworm"
-				id: "760F2DBCCCF0F743"
-				type: "kill"
-				value: 1L
-			}]
 			x: 2.0d
 			y: 1.6d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:sandworm_heart"
+			}
+			dependencies: [
+				"605CA2DA263E9324"
+			]
+			tasks: [
+				{
+					id: "760F2DBCCCF0F743"
+					type: "kill"
+					entity: "block_factorys_bosses:sandworm"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5BF90F5D7BB0431A"
+					type: "xp"
+					xp: 110
+				}
+			]
+			title: "Sirok, o Verme da Areia"
+			description: [
+				"&7O deserto respira. Quando as dunas afundam em círculo, Sirok está subindo."
+				"&7O ninho dele é cercado de ossadas de caravanas que pararam para descansar."
+				""
+				"&6Objetivo:&r 1. Ache o &6Ninho do Verme&r no &eDeserto&r e derrote &cSirok&r."
+				"&fEle mergulha, emerge debaixo de quem está parado e cospe veneno: nunca fique parado."
+				"&fO &ccoração de Sirok&r dá pressa nas mãos e uma fome que não passa."
+				""
+				"&8A armadura dele é alta: armas de dano bruto rendem mais que golpes rápidos."
+			]
 		}
 		{
-			dependencies: ["605CA2DA263E9324"]
+			id: "4631D9B94D147A7A"
+			x: 2.0d
+			y: 3.2d
+			shape: "diamond"
 			icon: {
+				count: 1
 				id: "comamigos_balance:helvar_heart"
 			}
-			id: "4631D9B94D147A7A"
-			rewards: [{
-				id: "04FB6FB410DDA78A"
-				type: "xp"
-				xp: 330
-			}]
-			shape: "diamond"
+			dependencies: [
+				"605CA2DA263E9324"
+			]
 			tasks: [
 				{
 					id: "79ABB911A9424185"
-					item: { count: 1, id: "block_factorys_bosses:underworld_arena_key" }
 					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:underworld_arena_key"
+					}
+					count: 1L
 				}
 				{
-					entity: "block_factorys_bosses:underworld_knight"
 					id: "31A80D84D006DEC4"
 					type: "kill"
+					entity: "block_factorys_bosses:underworld_knight"
 					value: 1L
 				}
 				{
 					id: "31CB0E916C83F85B"
-					item: { count: 1, id: "block_factorys_bosses:knight_sword" }
 					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:knight_sword"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 3.2d
+			rewards: [
+				{
+					id: "04FB6FB410DDA78A"
+					type: "xp"
+					xp: 330
+				}
+			]
+			title: "Helvar, Cavaleiro do Submundo"
+			description: [
+				"&7Uma fortaleza de pontes e torres pendura-se sobre o vazio do Nether."
+				"&7Esqueletos de alma ainda patrulham as passarelas, fiéis a um cavaleiro que jurou guardar a arena até o fim do mundo."
+				"&7O mundo ainda não acabou. A lâmina dele corta duas vezes: uma no aço, outra no ar."
+				""
+				"&6Objetivo:&r 1. Encontre a &6Arena do Submundo&r (&cDesertos do Nether&r ou &cVale das Almas&r) e consiga a &6Chave da Arena&r"
+				"&fnos baús e cofres da fortaleza (ou, raramente, dos esqueletos de alma)."
+				"&f2. Abra a &6Porta da Arena&r e derrote &cHelvar&r. Ele marca o chão antes de golpear e lança ondas de corte: role quando a marca brilhar."
+				"&f3. Recolha a &6Espada de Helvar&r: o botão de uso lança um corte à distância."
+				"&fO &ccoração de Helvar&r dá força, ao preço de uma escuridão que turva a vista."
+				""
+				"&8O &cAr Escaldante&r cozinha quem pisa no Nether antes do Tier IV: vá preparado, seja rápido e volte logo."
+			]
 		}
 		{
-			dependencies: ["4631D9B94D147A7A"]
 			id: "038E7BDAED11F60F"
+			x: 4.0d
+			y: 2.4d
+			size: 1.25d
+			dependencies: [
+				"4631D9B94D147A7A"
+			]
+			tasks: [
+				{
+					id: "326228AB0BB03C4D"
+					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:ancient_trial_key"
+					}
+					count: 1L
+				}
+				{
+					id: "08582FBE20BA4F6E"
+					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:knight_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "1A849F90E8DC3D54"
+					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:knight_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "45216DA030756F38"
+					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:knight_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "70B990ACAE4DA522"
+					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:knight_boots"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "0974104F2B443835"
@@ -128,48 +261,69 @@
 				}
 				{
 					id: "7AD1B3A1174A4C36"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "326228AB0BB03C4D"
-					item: { count: 1, id: "block_factorys_bosses:ancient_trial_key" }
-					type: "item"
-				}
-				{
-					id: "08582FBE20BA4F6E"
-					item: { count: 1, id: "block_factorys_bosses:knight_helmet" }
-					type: "item"
-				}
-				{
-					id: "1A849F90E8DC3D54"
-					item: { count: 1, id: "block_factorys_bosses:knight_chestplate" }
-					type: "item"
-				}
-				{
-					id: "45216DA030756F38"
-					item: { count: 1, id: "block_factorys_bosses:knight_leggings" }
-					type: "item"
-				}
-				{
-					id: "70B990ACAE4DA522"
-					item: { count: 1, id: "block_factorys_bosses:knight_boots" }
-					type: "item"
-				}
+			title: "A armadura dos cavaleiros caídos"
+			description: [
+				"&7Os cavaleiros que caíram na arena deixaram as armaduras para quem tivesse coragem de buscá-las."
+				"&7Os melhores cofres só respondem a chaves forjadas pelos antigos guardas."
+				""
+				"&6Objetivo:&r 1. Obtenha uma &6Chave Ancestral&r, queda rara dos guardas esqueléticos da arena e da Torre do Dragão."
+				"&f2. Nos baús raros e cofres da Arena do Submundo ou da Torre do Dragão, reúna a &6Armadura de Cavaleiro&r:"
+				"&felmo, peitoral, calças e botas."
 			]
-			x: 4.0d
-			y: 2.4d
 		}
 		{
-			dependencies: ["4631D9B94D147A7A"]
 			id: "32D68BFB758FAFCA"
-			optional: true
+			x: 4.0d
+			y: 4.0d
+			size: 1.25d
+			dependencies: [
+				"4631D9B94D147A7A"
+			]
+			tasks: [
+				{
+					id: "2F675EE387C811F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:large_sword"
+					}
+					count: 1L
+				}
+				{
+					id: "20F30909C4A59451"
+					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:warrior_sword"
+					}
+					count: 1L
+				}
+				{
+					id: "63767950D63B1001"
+					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:dagger"
+					}
+					count: 1L
+				}
+				{
+					id: "235703067D9CC50C"
+					type: "item"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:enhanced_shield"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "5B6ED42B610042E3"
@@ -178,38 +332,26 @@
 				}
 				{
 					id: "3DF36B3806790844"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "2F675EE387C811F8"
-					item: { count: 1, id: "block_factorys_bosses:large_sword" }
-					type: "item"
-				}
-				{
-					id: "20F30909C4A59451"
-					item: { count: 1, id: "block_factorys_bosses:warrior_sword" }
-					type: "item"
-				}
-				{
-					id: "63767950D63B1001"
-					item: { count: 1, id: "block_factorys_bosses:dagger" }
-					type: "item"
-				}
-				{
-					id: "235703067D9CC50C"
-					item: { count: 1, id: "block_factorys_bosses:enhanced_shield" }
-					type: "item"
-				}
+			title: "Arsenal dos Guardas"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Nem toda arma de chefe vem de um chefe. Algumas só esperam num baú empoeirado."
+				""
+				"&6Objetivo:&r 1. Junte as armas dos baús e cofres da arena e da Torre do Dragão:"
+				"&f&6Espada Grande&r, &6Espada de Guerreiro&r, &6Adaga&r e &6Escudo Reforçado&r."
 			]
-			x: 4.0d
-			y: 4.0d
+			optional: true
 		}
+	]
+	title: "&9Tier III&7 - Lich, Verme e Cavaleiro"
+	subtitle: [
+		"&cOs Grandes Chefes&7, &9Tier III"
 	]
 }

@@ -4,40 +4,98 @@
 	filename: "mod_equip_t3"
 	group: "0011E6E41EF0DECD"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "45768733FF55A702"
-	images: [ ]
-	order_index: 3
+	order_index: 128
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_3"
-			}
 			id: "0A085DDDBD3158BE"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_3"
-				criterion: ""
-				id: "49911C790E223D70"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 2.4d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			tasks: [
+				{
+					id: "49911C790E223D70"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "4C1B850B5F43DD2D"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:cross_necklace"
+			}
 			dependencies: [
 				"21648039ED2797F1"
 				"0A085DDDBD3158BE"
 			]
-			icon: {
-				id: "artifacts:cross_necklace"
-			}
-			id: "4C1B850B5F43DD2D"
-			optional: true
+			tasks: [
+				{
+					id: "103848BC6897B343"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:cross_necklace"
+					}
+					count: 1L
+				}
+				{
+					id: "08EB36105E8496A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:panic_necklace"
+					}
+					count: 1L
+				}
+				{
+					id: "535F8AC95D9DBA0D"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:shock_pendant"
+					}
+					count: 1L
+				}
+				{
+					id: "715A21DAEA8261AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:flame_pendant"
+					}
+					count: 1L
+				}
+				{
+					id: "78B32D7CFFE239CC"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:thorn_pendant"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "2F24CF342C644EE5"
@@ -46,54 +104,81 @@
 				}
 				{
 					id: "0278E67DB1263E3D"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "103848BC6897B343"
-					item: { count: 1, id: "artifacts:cross_necklace" }
-					type: "item"
-				}
-				{
-					id: "08EB36105E8496A7"
-					item: { count: 1, id: "artifacts:panic_necklace" }
-					type: "item"
-				}
-				{
-					id: "535F8AC95D9DBA0D"
-					item: { count: 1, id: "artifacts:shock_pendant" }
-					type: "item"
-				}
-				{
-					id: "715A21DAEA8261AF"
-					item: { count: 1, id: "artifacts:flame_pendant" }
-					type: "item"
-				}
-				{
-					id: "78B32D7CFFE239CC"
-					item: { count: 1, id: "artifacts:thorn_pendant" }
-					type: "item"
-				}
+			title: "Amuletos do Pescoço"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Os amuletos de guerra se penduram junto ao coração, onde a dor chega primeiro."
+				"&7Um foi abençoado num santuário esquecido, outro guarda o eco de mil tempestades,"
+				"&7outro é quente mesmo no inverno. Como o baiacu, eles não atacam: só punem quem toca."
+				""
+				"&6Objetivo:&r 1. &6Colar da Cruz&r (Pescoço): mais tempo de invulnerabilidade depois de sofrer dano."
+				"&f2. &6Colar do Pânico&r (Pescoço): velocidade logo depois de sofrer dano."
+				"&f3. &6Pingente do Choque&r (Pescoço): chance de fulminar o agressor com um raio; protege de raios."
+				"&f4. &6Pingente da Chama&r (Pescoço): chance de incendiar quem ataca e ganhar resistência ao fogo."
+				"&f5. &6Pingente de Espinhos&r (Pescoço): chance de ferir quem ataca."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
 			]
-			x: 2.0d
-			y: 0.0d
+			optional: true
 		}
 		{
+			id: "726964B8B998309E"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:power_glove"
+			}
 			dependencies: [
 				"1B827454B2445C22"
 				"0A085DDDBD3158BE"
 			]
-			icon: {
-				id: "artifacts:power_glove"
-			}
-			id: "726964B8B998309E"
-			optional: true
+			tasks: [
+				{
+					id: "42EA11B967BA950F"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:power_glove"
+					}
+					count: 1L
+				}
+				{
+					id: "0F180979EAA12548"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:fire_gauntlet"
+					}
+					count: 1L
+				}
+				{
+					id: "5B7A0FAF5BB21BB3"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:withered_bracelet"
+					}
+					count: 1L
+				}
+				{
+					id: "4D3697FF95230429"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:obsidian_skull"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "556BC4491B714365"
@@ -102,49 +187,98 @@
 				}
 				{
 					id: "0842A0BD67988B81"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "42EA11B967BA950F"
-					item: { count: 1, id: "artifacts:power_glove" }
-					type: "item"
-				}
-				{
-					id: "0F180979EAA12548"
-					item: { count: 1, id: "artifacts:fire_gauntlet" }
-					type: "item"
-				}
-				{
-					id: "5B7A0FAF5BB21BB3"
-					item: { count: 1, id: "artifacts:withered_bracelet" }
-					type: "item"
-				}
-				{
-					id: "4D3697FF95230429"
-					item: { count: 1, id: "artifacts:obsidian_skull" }
-					type: "item"
-				}
+			title: "Punho e Chama"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Couro reforçado com placas de ferro e muita raiva; uma manopla forjada no coração de um vulcão;"
+				"&7um bracelete de ossos do Nether, frio como a cova. Para os dias de fogo,"
+				"&7um crânio de obsidiana negro e liso que bebe o calor das chamas."
+				""
+				"&6Objetivo:&r 1. &6Luva de Força&r (Mãos): mais dano causado."
+				"&f2. &6Manopla de Fogo&r (Mãos): golpes corpo a corpo causam dano de fogo."
+				"&f3. &6Bracelete Murcho&r (Mãos): golpes têm chance de aplicar Wither."
+				"&f4. &6Crânio de Obsidiana&r (Cintura): após dano de fogo, resistência ao fogo temporária."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
 			]
-			x: 2.0d
-			y: 1.6d
+			optional: true
 		}
 		{
+			id: "777BF2A11EEA285C"
+			x: 2.0d
+			y: 3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:superstitious_hat"
+			}
 			dependencies: [
 				"21648039ED2797F1"
 				"0A085DDDBD3158BE"
 			]
-			icon: {
-				id: "artifacts:superstitious_hat"
-			}
-			id: "777BF2A11EEA285C"
-			optional: true
+			tasks: [
+				{
+					id: "388B39400D62BF96"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:superstitious_hat"
+					}
+					count: 1L
+				}
+				{
+					id: "43BB5FDE65361460"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:lucky_scarf"
+					}
+					count: 1L
+				}
+				{
+					id: "131ED3E79FFACFF1"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:golden_hook"
+					}
+					count: 1L
+				}
+				{
+					id: "1EEF710FB2CC2D9D"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:scarf_of_invisibility"
+					}
+					count: 1L
+				}
+				{
+					id: "7E2E75288658A3A4"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:crystal_heart"
+					}
+					count: 1L
+				}
+				{
+					id: "56121F391C774E6F"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:cloud_in_a_bottle"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "3CD230C59B6E8963"
@@ -153,59 +287,82 @@
 				}
 				{
 					id: "2EA4CF6B58342A67"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "388B39400D62BF96"
-					item: { count: 1, id: "artifacts:superstitious_hat" }
-					type: "item"
-				}
-				{
-					id: "43BB5FDE65361460"
-					item: { count: 1, id: "artifacts:lucky_scarf" }
-					type: "item"
-				}
-				{
-					id: "131ED3E79FFACFF1"
-					item: { count: 1, id: "artifacts:golden_hook" }
-					type: "item"
-				}
-				{
-					id: "1EEF710FB2CC2D9D"
-					item: { count: 1, id: "artifacts:scarf_of_invisibility" }
-					type: "item"
-				}
-				{
-					id: "7E2E75288658A3A4"
-					item: { count: 1, id: "artifacts:crystal_heart" }
-					type: "item"
-				}
-				{
-					id: "56121F391C774E6F"
-					item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
-					type: "item"
-				}
+			title: "Tesouros do Aventureiro"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Um chapéu que dá sorte, um cachecol tricotado por uma avó que nunca perdeu no carteado,"
+				"&7um gancho de pirata que fisga a alma junto com a vida, um tecido que esquece de refletir a luz,"
+				"&7um segundo coração batendo no cinto e uma nuvem presa numa garrafa."
+				""
+				"&6Objetivo:&r 1. &6Chapéu Supersticioso&r (Cabeça): +1 nível de Pilhagem."
+				"&f2. &6Cachecol da Sorte&r (Pescoço): +1 nível de Fortuna nos blocos minerados."
+				"&f3. &6Gancho Dourado&r (Mãos): criaturas derrotadas soltam mais experiência."
+				"&f4. &6Cachecol da Invisibilidade&r (Pescoço): torna quem o usa invisível."
+				"&f5. &6Coração de Cristal&r (Cintura): aumenta a vida máxima."
+				"&f6. &6Nuvem na Garrafa&r (Cintura): pulo duplo e queda segura mais alta."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
 			]
-			x: 2.0d
-			y: 3.2d
+			optional: true
 		}
 		{
+			id: "4FCAA957A3DC4AE1"
+			x: 2.0d
+			y: 4.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplybows:vine_bow/vine_bow"
+			}
 			dependencies: [
 				"6218E95B0266DF3F"
 				"0A085DDDBD3158BE"
 			]
-			icon: {
-				id: "simplybows:vine_bow/vine_bow"
-			}
-			id: "4FCAA957A3DC4AE1"
-			optional: true
+			tasks: [
+				{
+					id: "1C019FD7C72D7C5E"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:vine_bow/vine_bow"
+					}
+					count: 1L
+				}
+				{
+					id: "5C69A535108A6B7B"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:bubble_bow/bubble_bow"
+					}
+					count: 1L
+				}
+				{
+					id: "329EE9E387C3C258"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:bee_bow/bee_bow"
+					}
+					count: 1L
+				}
+				{
+					id: "4E960704836DB89C"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:blossom_bow/blossom_bow"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "5BF0A2C449838365"
@@ -214,38 +371,32 @@
 				}
 				{
 					id: "389AA8CD7D328CF7"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "1C019FD7C72D7C5E"
-					item: { count: 1, id: "simplybows:vine_bow/vine_bow" }
-					type: "item"
-				}
-				{
-					id: "5C69A535108A6B7B"
-					item: { count: 1, id: "simplybows:bubble_bow/bubble_bow" }
-					type: "item"
-				}
-				{
-					id: "329EE9E387C3C258"
-					item: { count: 1, id: "simplybows:bee_bow/bee_bow" }
-					type: "item"
-				}
-				{
-					id: "4E960704836DB89C"
-					item: { count: 1, id: "simplybows:blossom_bow/blossom_bow" }
-					type: "item"
-				}
+			title: "Arcos da Natureza"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Quatro arcos únicos nasceram da natureza: um de cipó que floresce onde a flecha cai,"
+				"&7um de coral e espuma, um que solta um enxame irritado a cada disparo"
+				"&7e um de pétalas de cerejeira com a força de uma ventania. Os dois primeiros já surgem no Tier II."
+				""
+				"&6Objetivo:&r 1. &6Everbloom&r: flecha que cria um campo de flores: cura aliados e fere inimigos."
+				"&f2. &6Bubbleveil&r: flechas ignoram o arrasto da água e criam colunas de bolhas."
+				"&f3. &6Buzzkill&r: dispara abelhas que envenenam."
+				"&f4. &6Petalwind&r: flechas criam pequenas tempestades de pétalas."
+				""
+				"&8Arcos únicos surgem em baús de estruturas. Corda, armação e gravuras se aplicam a eles na bigorna."
 			]
-			x: 2.0d
-			y: 4.8d
+			optional: true
 		}
+	]
+	title: "&9Tier III&7 - Talismãs e Amuletos"
+	subtitle: [
+		"&fEquipamento e Utilidades&7, &9Tier III"
 	]
 }

@@ -4,40 +4,108 @@
 	filename: "mod_cozinha_t3"
 	group: "4E6D0897A16A0238"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "6C6573F2362AA176"
-	images: [ ]
-	order_index: 3
+	order_index: 123
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_3"
-			}
 			id: "4DD0871E883FDC72"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_3"
-				criterion: ""
-				id: "71C5C5AEDD7E207F"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.8d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			tasks: [
+				{
+					id: "71C5C5AEDD7E207F"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "0B84EF4A85C6B7E9"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquaculture:neptunium_fishing_rod"
+			}
 			dependencies: [
 				"6757E81C55EB8F60"
 				"6ECF615D2FCCF3E3"
 				"4DD0871E883FDC72"
 			]
-			icon: {
-				id: "aquaculture:neptunium_fishing_rod"
-			}
-			id: "0B84EF4A85C6B7E9"
+			tasks: [
+				{
+					id: "0F2476C0BC149808"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_fishing_rod"
+					}
+					count: 1L
+				}
+				{
+					id: "10C5653BE8F411EA"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_sword"
+					}
+					count: 1L
+				}
+				{
+					id: "29322403488CAA7E"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_pickaxe"
+					}
+					count: 1L
+				}
+				{
+					id: "631E590235EBC870"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_bow"
+					}
+					count: 1L
+				}
+				{
+					id: "5861BE2E82FD736E"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_fillet_knife"
+					}
+					count: 1L
+				}
+				{
+					id: "30663BB4733CEC25"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculturedelight:neptunium_knife"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "2BDFFA561BBB3604"
@@ -46,58 +114,78 @@
 				}
 				{
 					id: "55B85BE29D1D4195"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "0F2476C0BC149808"
-					item: { count: 1, id: "aquaculture:neptunium_fishing_rod" }
-					type: "item"
-				}
-				{
-					id: "10C5653BE8F411EA"
-					item: { count: 1, id: "aquaculture:neptunium_sword" }
-					type: "item"
-				}
-				{
-					id: "29322403488CAA7E"
-					item: { count: 1, id: "aquaculture:neptunium_pickaxe" }
-					type: "item"
-				}
-				{
-					id: "631E590235EBC870"
-					item: { count: 1, id: "aquaculture:neptunium_bow" }
-					type: "item"
-				}
-				{
-					id: "5861BE2E82FD736E"
-					item: { count: 1, id: "aquaculture:neptunium_fillet_knife" }
-					type: "item"
-				}
-				{
-					id: "30663BB4733CEC25"
-					item: { count: 1, id: "aquaculturedelight:neptunium_knife" }
-					type: "item"
-				}
+			title: "Ferramentas das Marés"
+			description: [
+				"&7Os peixes ouvem a vara de netúnio como quem ouve um chamado do fundo."
+				"&7As ferramentas desse metal trabalham debaixo d'água como se estivessem em terra firme,"
+				"&7e as facas cortam escama, espinha e corda de âncora com o mesmo descaso."
+				""
+				"&6Objetivo:&r 1. Forje a &6Vara de Pesca de Netúnio&r: os peixes mordem mais depressa."
+				"&f2. Forje a &6Espada de Netúnio&r e a &6Picareta de Netúnio&r (não perde velocidade submersa)."
+				"&f3. Forje o &6Arco de Netúnio&r: dispara tão bem na chuva quanto no sol."
+				"&f4. Forje a &6Faca de Filé de Netúnio&r e a &6Faca de Netúnio&r de cozinha."
+				""
+				"&8O machado de netúnio bate mais forte em inimigos na água; a enxada deixa a terra sempre úmida."
 			]
-			x: 2.0d
-			y: 0.0d
 		}
 		{
+			id: "37DFF49D505D9C41"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquaculture:neptunium_chestplate"
+			}
 			dependencies: [
 				"6757E81C55EB8F60"
 				"4DD0871E883FDC72"
 			]
-			icon: {
-				id: "aquaculture:neptunium_chestplate"
-			}
-			id: "37DFF49D505D9C41"
+			tasks: [
+				{
+					id: "327DF557FD7FE04D"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "6C65E4B3C95E804B"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "4CAAB53FD7C8AAAF"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "68BD3075584DD32E"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_boots"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "1B305773ED2423D7"
@@ -106,38 +194,28 @@
 				}
 				{
 					id: "53A8801B61DD3C04"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "327DF557FD7FE04D"
-					item: { count: 1, id: "aquaculture:neptunium_helmet" }
-					type: "item"
-				}
-				{
-					id: "6C65E4B3C95E804B"
-					item: { count: 1, id: "aquaculture:neptunium_chestplate" }
-					type: "item"
-				}
-				{
-					id: "4CAAB53FD7C8AAAF"
-					item: { count: 1, id: "aquaculture:neptunium_leggings" }
-					type: "item"
-				}
-				{
-					id: "68BD3075584DD32E"
-					item: { count: 1, id: "aquaculture:neptunium_boots" }
-					type: "item"
-				}
+			title: "Armadura das Marés"
+			description: [
+				"&7Elmo que enxerga no escuro da água, peitoral que respira, calças que flutuam, botas que nadam."
+				"&7Os mergulhadores do reino dizem que, com ela, o fundo do mar deixa de ser cemitério"
+				"&7e vira apenas mais uma estrada."
+				""
+				"&6Objetivo:&r 1. &6Elmo de Netúnio&r: visão submersa."
+				"&f2. &6Peitoral de Netúnio&r: respirar debaixo d'água."
+				"&f3. &6Calças de Netúnio&r: sem peso na água."
+				"&f4. &6Botas de Netúnio&r: nado veloz."
 			]
-			x: 2.0d
-			y: 1.6d
 		}
+	]
+	title: "&9Tier III&7 - As Marés de Netúnio"
+	subtitle: [
+		"&eCozinha, Campo e Pesca&7, &9Tier III"
 	]
 }

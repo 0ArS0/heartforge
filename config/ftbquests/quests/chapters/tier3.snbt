@@ -4,177 +4,288 @@
 	filename: "tier3"
 	group: ""
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "3B5BFF1D608CAEA3"
-	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["31B1521C66801A23"]
 			id: "6F1988A3F0639559"
-			rewards: [{
-				id: "2FB54EFC084DDF62"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [{
-				id: "0F8371B11331C933"
-				type: "checkmark"
-			}]
 			x: 0.0d
 			y: 2.4000000000000004d
-		}
-		{
-			dependencies: ["6F1988A3F0639559"]
-			id: "567B5E8FD487D497"
-			rewards: [{
-				id: "04D78DBB85B49303"
-				type: "xp"
-				xp: 200
-			}]
-			tasks: [{
-				count: 4L
-				id: "3C1C93AA79E06466"
-				item: { count: 1, id: "create:deployer" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["567B5E8FD487D497"]
-			id: "62269F1766C0D6A5"
-			rewards: [{
-				id: "0974C934A1090EC8"
-				type: "xp"
-				xp: 200
-			}]
-			tasks: [{
-				id: "58AC9E2B7F7AF972"
-				item: { count: 1, id: "create:spout" }
-				type: "item"
-			}]
-			x: 3.6d
-			y: 0.0d
-		}
-		{
-			dependencies: ["62269F1766C0D6A5"]
-			id: "61E9EAA7AFF10A98"
-			rewards: [{
-				id: "0C760E19E17206B7"
-				type: "xp"
-				xp: 250
-			}]
-			tasks: [{
-				id: "069EF294AAF027D7"
-				item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
-				type: "item"
-			}]
-			x: 5.2d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6F1988A3F0639559"]
-			id: "14DAF11B680404FB"
-			rewards: [{
-				id: "2507A33FE63FA011"
-				type: "xp"
-				xp: 250
-			}]
-			tasks: [{
-				count: 2L
-				id: "759810291E243DB8"
-				item: { count: 1, id: "botania:elementium_ingot" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.6d
-		}
-		{
-			dependencies: ["6F1988A3F0639559"]
-			id: "1E8200C2C76A4281"
-			rewards: [{
-				id: "1B75615A4D75AFC8"
-				type: "xp"
-				xp: 200
-			}]
-			tasks: [{
-				id: "62B36CA3EB0F154E"
-				item: { count: 1, id: "irons_spellbooks:rare_ink" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.2d
-		}
-		{
-			dependencies: ["1E8200C2C76A4281"]
-			id: "5D4E5731D6C17A6B"
-			rewards: [{
-				id: "66B1901B65FC7C14"
-				type: "xp"
-				xp: 250
-			}]
-			tasks: [{
-				count: 2L
-				id: "71381DB2F5D3598E"
-				item: { count: 1, id: "occultism:iesnium_ingot" }
-				type: "item"
-			}]
-			x: 3.6d
-			y: 3.2d
-		}
-		{
-			dependencies: ["6F1988A3F0639559"]
-			id: "4146EEF41C194659"
-			rewards: [{
-				id: "4EAB0EFF3B1B2EAC"
-				type: "xp"
-				xp: 250
-			}]
-			tasks: [{
-				count: 2L
-				id: "34F10512B8796B8D"
-				item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.800000000000001d
-		}
-		{
-			dependencies: ["4146EEF41C194659"]
-			id: "1AFB2AEBA65B7A3B"
-			rewards: [
+			shape: "hexagon"
+			size: 1.25d
+			dependencies: [
+				"31B1521C66801A23"
+			]
+			tasks: [
 				{
-					id: "3A264CFE9702B8F4"
-					type: "xp"
-					xp: 400
-				}
-				{
-					id: "6DA050EBA39FEA60"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-					type: "item"
+					id: "0F8371B11331C933"
+					type: "checkmark"
 				}
 			]
-			tasks: [{
-				entity: "mowziesmobs:ferrous_wroughtnaut"
-				id: "0E45AE5EC24D6E1E"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.6d
-			y: 4.800000000000001d
+			rewards: [
+				{
+					id: "2FB54EFC084DDF62"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Tier III: Cavaleiro"
+			description: [
+				"&7Os aprendizes viraram cavaleiros. As oficinas agora montam peças em sequência, e a tinta rara já não queima os dedos."
+				"&7Sob a terra, nas Catacumbas, um rei que se recusou a morrer espera por quem ousar descer."
+				""
+				"&6Objetivo:&r A companhia está no &9Tier III - Cavaleiro&r. Sigam as trilhas deste capítulo: cada uma termina num ingrediente do &6Coração do Tier IV&r. Derrotem o boss-chave (losango de cima) e forjem o coração."
+				""
+				"&8Os losangos de baixo são caçadas opcionais: outros bosses do tier, cada um com seu coração-troféu."
+			]
 		}
 		{
-			dependencies: ["6F1988A3F0639559"]
-			hide_dependency_lines: true
+			id: "567B5E8FD487D497"
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "3C1C93AA79E06466"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "04D78DBB85B49303"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Deployers"
+			description: [
+				"&7Daqui em diante, os corações são montados como relógios: peça após peça, numa esteira que não perdoa erro."
+				""
+				"&6Objetivo:&r Construa &64 Deployers&r. A partir de agora os corações são forjados em &6Sequenced Assembly&r."
+			]
+		}
+		{
+			id: "62269F1766C0D6A5"
+			x: 3.6d
+			y: 0.0d
+			dependencies: [
+				"567B5E8FD487D497"
+			]
+			tasks: [
+				{
+					id: "58AC9E2B7F7AF972"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:spout"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0974C934A1090EC8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Spout"
+			description: [
+				"&7Há ingredientes que não se seguram com a mão. O spout derrama, gota a gota, o que o coração precisa beber."
+				""
+				"&6Objetivo:&r Construa um &6Spout&r. A experiência líquida entra no Coração IV por ele."
+			]
+		}
+		{
+			id: "61E9EAA7AFF10A98"
+			x: 5.2d
+			y: 0.0d
+			dependencies: [
+				"62269F1766C0D6A5"
+			]
+			tasks: [
+				{
+					id: "069EF294AAF027D7"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:experience_bucket"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0C760E19E17206B7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Experiência Líquida"
+			description: [
+				"&7Os encantadores mecânicos aprenderam a destilar a própria experiência. Ela escorre dourada e morna."
+				""
+				"&6Objetivo:&r Encha um &6Balde de Experiência Líquida&r. Ingrediente do Coração IV."
+			]
+		}
+		{
+			id: "14DAF11B680404FB"
+			x: 2.0d
+			y: 1.6d
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "759810291E243DB8"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:elementium_ingot"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "2507A33FE63FA011"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Elementium"
+			description: [
+				"&7Os elfos de Alfheim não conversam com estranhos, mas negociam. Entregue-lhes manasteel pelo portal, e eles devolvem elementium."
+				""
+				"&6Objetivo:&r Abra o &dPortal dos Elfos&r e troque manasteel por &d2 Lingotes de Elementium&r. Ingrediente do Coração IV."
+			]
+		}
+		{
+			id: "1E8200C2C76A4281"
+			x: 2.0d
+			y: 3.2d
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "62B36CA3EB0F154E"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1B75615A4D75AFC8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Tinta Rara"
+			description: [
+				"&7A tinta rara brilha no escuro, e só obedece a quem já rompeu o terceiro selo."
+				""
+				"&6Objetivo:&r Prepare uma &9Tinta Rara&r. Ingrediente do Coração IV."
+				""
+				"&8As magias raras respondem a partir deste tier."
+			]
+		}
+		{
+			id: "5D4E5731D6C17A6B"
+			x: 3.6d
+			y: 3.2d
+			dependencies: [
+				"1E8200C2C76A4281"
+			]
+			tasks: [
+				{
+					id: "71381DB2F5D3598E"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "66B1901B65FC7C14"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Iesnium"
+			description: [
+				"&7O iesnium não aparece a olhos vivos. Só os espíritos mineradores, presos em seus anéis, sabem onde ele dorme."
+				""
+				"&6Objetivo:&r Junte &b2 Lingotes de Iesnium&r com a ajuda de espíritos mineradores. Ingrediente do Coração IV."
+			]
+		}
+		{
+			id: "4146EEF41C194659"
+			x: 2.0d
+			y: 4.800000000000001d
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "34F10512B8796B8D"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_ingot"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4EAB0EFF3B1B2EAC"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Metal Antigo"
+			description: [
+				"&7O metal das civilizações esquecidas resiste ao martelo. Só cede ao calor."
+				""
+				"&6Objetivo:&r Junte &62 Lingotes de Metal Antigo&r; neste mundo eles só saem do &6Mixer aquecido&r. Ingrediente do Coração IV."
+			]
+		}
+		{
 			id: "48B95C90608F35DE"
+			x: 6.800000000000001d
+			y: -1.8d
+			shape: "diamond"
+			size: 1.5d
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "1865DBAB3B1DB95C"
+					type: "kill"
+					entity: "irons_spellbooks:dead_king"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "47E5189CAC098DEA"
@@ -182,39 +293,54 @@
 					xp: 900
 				}
 				{
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					id: "5966BDDF43C887E2"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 					icon: {
+						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					id: "5966BDDF43C887E2"
-					permission_level: 2
+					elevate_perms: true
 					silent: true
-					type: "command"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 				}
 				{
 					id: "27B3F8B60D756EBD"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				entity: "irons_spellbooks:dead_king"
-				id: "1865DBAB3B1DB95C"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.800000000000001d
-			y: -1.8d
+			title: "O Rei Morto"
+			description: [
+				"&7Nas &8Catacumbas&7, um rei se deitou para morrer e mudou de ideia."
+				"&7Seus servos ainda guardam a cripta, e ele ainda conjura como em vida."
+				""
+				"&6Objetivo:&r Derrote o &eRei Morto&r e pegue o &cCoração do Rei Morto&r."
+			]
+			hide_dependency_lines: true
 		}
 		{
-			dependencies: ["6F1988A3F0639559"]
-			hide_dependency_lines: true
 			id: "0E90352B2CF76358"
+			x: 2.0d
+			y: 6.800000000000001d
+			shape: "rsquare"
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "1DFAA3C6BB5DE9ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:purifying_elixir_2"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "6747D4500C0EF25D"
@@ -223,34 +349,50 @@
 				}
 				{
 					id: "60606AEB4625B373"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			shape: "rsquare"
-			tasks: [{
-				id: "1DFAA3C6BB5DE9ED"
-				item: { count: 1, id: "comamigos_balance:purifying_elixir_2" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.800000000000001d
+			title: "Elixir Purificador II"
+			description: [
+				"&7O Coração III deixa as veias rígidas, quase metálicas. Os alquimistas chamam isso de &cCoração de Latão&7."
+				""
+				"&6Objetivo:&r No &6Suporte de Poções&r: &bElixir Purificador I&r + maçã dourada."
+				"&fCura também o &cCoração de Latão&f (Coração III)."
+			]
+			hide_dependency_lines: true
 		}
 		{
+			id: "4DB9CA3A8FE90D98"
+			x: 8.8d
+			y: 2.4000000000000004d
+			shape: "gear"
+			size: 1.75d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_4"
+			}
 			dependencies: [
 				"61E9EAA7AFF10A98"
 				"14DAF11B680404FB"
 				"5D4E5731D6C17A6B"
-				"1AFB2AEBA65B7A3B"
+				"4146EEF41C194659"
 				"48B95C90608F35DE"
 			]
-			icon: {
-				id: "comamigos_balance:tier_heart_4"
-			}
-			id: "4DB9CA3A8FE90D98"
+			tasks: [
+				{
+					id: "63521AA380675A04"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "1269D73BB9E83A3E"
@@ -259,91 +401,77 @@
 				}
 				{
 					id: "16DDEBFE75A8DAE1"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.75d
-			tasks: [{
-				id: "63521AA380675A04"
-				item: { count: 1, id: "comamigos_balance:tier_heart_4" }
-				type: "item"
-			}]
-			x: 8.8d
-			y: 2.4000000000000004d
+			title: "A Forja do Coração IV"
+			description: [
+				"&7Primeira montagem em sequência: o coração percorre a esteira, recebe cada ingrediente e sai prensado e quente."
+				""
+				"&6Objetivo:&r Em &6Sequenced Assembly&r, forje o &cCoração do Tier IV&r com:"
+				"&fCoração do Rei Morto + elementium, tinta rara, metal antigo, iesnium, item de facção III, experiência líquida (pelo spout) e prensa."
+				""
+				"&8A ordem exata das etapas está no livro de receitas."
+			]
 		}
 		{
-			dependencies: ["4DB9CA3A8FE90D98"]
 			id: "6E964B6088155040"
-			rewards: [{
-				id: "2FC9D973708267B8"
-				type: "xp"
-				xp: 3000
-			}]
-			shape: "heart"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_4"
-				criterion: ""
-				id: "5C2600F13AACB3D6"
-				type: "advancement"
-			}]
 			x: 10.8d
 			y: 2.4000000000000004d
-		}
-		{
-			dependencies: ["6F1988A3F0639559"]
-			hide_dependency_lines: true
-			icon: {
-				id: "comamigos_balance:wroughtnaut_heart"
-			}
-			id: "16F1275229DC1191"
-			rewards: [
+			shape: "heart"
+			size: 1.5d
+			dependencies: [
+				"4DB9CA3A8FE90D98"
+			]
+			tasks: [
 				{
-					id: "6B48640F2944AB07"
-					type: "xp"
-					xp: 750
-				}
-				{
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
-					icon: {
-						id: "comamigos_balance:tier_heart_5"
-					}
-					id: "01A8A4DDC1FB3A07"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					id: "6BD6B30B0B2F2AFA"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-					type: "item"
+					id: "5C2600F13AACB3D6"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_4"
+					criterion: ""
 				}
 			]
-			shape: "diamond"
-			tasks: [{
-				entity: "mowziesmobs:ferrous_wroughtnaut"
-				id: "201957E377A2A2DE"
-				type: "kill"
-				value: 1L
-			}]
-			x: 2.0d
-			y: 8.600000000000001d
+			rewards: [
+				{
+					id: "2FC9D973708267B8"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			title: "O Banquete do Coração IV"
+			description: [
+				"&7O coração ainda bate quando chega à boca. Quem o come sente a força do reino subir pelas veias da companhia inteira."
+				"&7E sente, logo atrás, a maldição se acomodar no peito."
+				""
+				"&6Objetivo:&r Um membro do grupo come o &cCoração do Tier IV&r, e todos sobem juntos para o &6Tier IV - Herói&r."
+				""
+				"&8Quem come carrega a maldição até beber o Elixir Purificador do próximo capítulo."
+			]
 		}
 		{
-			dependencies: ["6F1988A3F0639559"]
-			hide_dependency_lines: true
+			id: "5BD597978C9AD2F6"
+			x: 2.0d
+			y: 8.600000000000001d
+			shape: "diamond"
 			icon: {
+				count: 1
 				id: "comamigos_balance:night_lich_heart"
 			}
-			id: "5BD597978C9AD2F6"
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "12F78C063229A842"
+					type: "kill"
+					entity: "bosses_of_mass_destruction:lich"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "2C1C241A65B0876C"
@@ -351,41 +479,57 @@
 					xp: 750
 				}
 				{
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					id: "47DA228C143CF5E4"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 					icon: {
+						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					id: "47DA228C143CF5E4"
-					permission_level: 2
+					elevate_perms: true
 					silent: true
-					type: "command"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 				}
 				{
 					id: "4B35B7A1FBBDE95C"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			shape: "diamond"
-			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				id: "12F78C063229A842"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.6d
-			y: 8.600000000000001d
+			title: "Caçada: Lich Noturno"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eLich Noturno&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
 		}
 		{
-			dependencies: ["6F1988A3F0639559"]
-			hide_dependency_lines: true
+			id: "797E58407DA3836D"
+			x: 3.6d
+			y: 8.600000000000001d
+			shape: "diamond"
 			icon: {
+				count: 1
 				id: "comamigos_balance:helvar_heart"
 			}
-			id: "797E58407DA3836D"
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "711533F2C9C99B66"
+					type: "kill"
+					entity: "block_factorys_bosses:underworld_knight"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "7EA960C4AFC22C05"
@@ -393,41 +537,57 @@
 					xp: 750
 				}
 				{
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					id: "51BC5274A77E1F11"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 					icon: {
+						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					id: "51BC5274A77E1F11"
-					permission_level: 2
+					elevate_perms: true
 					silent: true
-					type: "command"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 				}
 				{
 					id: "35080A15790D3B47"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			shape: "diamond"
-			tasks: [{
-				entity: "block_factorys_bosses:underworld_knight"
-				id: "711533F2C9C99B66"
-				type: "kill"
-				value: 1L
-			}]
-			x: 5.2d
-			y: 8.600000000000001d
+			title: "Caçada: Helvar, o Cavaleiro do Submundo"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eHelvar, o Cavaleiro do Submundo&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
 		}
 		{
-			dependencies: ["6F1988A3F0639559"]
-			hide_dependency_lines: true
+			id: "78950AA4E700358F"
+			x: 5.2d
+			y: 8.600000000000001d
+			shape: "diamond"
 			icon: {
+				count: 1
 				id: "comamigos_balance:sandworm_heart"
 			}
-			id: "78950AA4E700358F"
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "1A979513D8F847FB"
+					type: "kill"
+					entity: "block_factorys_bosses:sandworm"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "396F7AFF386B6FA8"
@@ -435,41 +595,57 @@
 					xp: 750
 				}
 				{
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					id: "04CCB064DEEFDBFD"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 					icon: {
+						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					id: "04CCB064DEEFDBFD"
-					permission_level: 2
+					elevate_perms: true
 					silent: true
-					type: "command"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 				}
 				{
 					id: "24AB210E1271FBD6"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			shape: "diamond"
-			tasks: [{
-				entity: "block_factorys_bosses:sandworm"
-				id: "1A979513D8F847FB"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.800000000000001d
-			y: 8.600000000000001d
+			title: "Caçada: Sirok, o Verme da Areia"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eSirok, o Verme da Areia&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
 		}
 		{
-			dependencies: ["6F1988A3F0639559"]
-			hide_dependency_lines: true
+			id: "043941F435BCE388"
+			x: 6.800000000000001d
+			y: 8.600000000000001d
+			shape: "diamond"
 			icon: {
+				count: 1
 				id: "iceandfire:hydra_heart"
 			}
-			id: "043941F435BCE388"
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "265FA6817B65C506"
+					type: "kill"
+					entity: "iceandfire:hydra"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "60CF6C37DFE8923D"
@@ -477,41 +653,57 @@
 					xp: 750
 				}
 				{
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					id: "75B803620F39A083"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 					icon: {
+						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					id: "75B803620F39A083"
-					permission_level: 2
+					elevate_perms: true
 					silent: true
-					type: "command"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 				}
 				{
 					id: "50E0E9CFC28A9403"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			shape: "diamond"
-			tasks: [{
-				entity: "iceandfire:hydra"
-				id: "265FA6817B65C506"
-				type: "kill"
-				value: 1L
-			}]
-			x: 8.4d
-			y: 8.600000000000001d
+			title: "Caçada: Hidra"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eHidra&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
 		}
 		{
-			dependencies: ["6F1988A3F0639559"]
-			hide_dependency_lines: true
+			id: "66179C52B496AD5F"
+			x: 8.4d
+			y: 8.600000000000001d
+			shape: "diamond"
 			icon: {
+				count: 1
 				id: "comamigos_balance:ancient_remnant_heart"
 			}
-			id: "66179C52B496AD5F"
+			dependencies: [
+				"6F1988A3F0639559"
+			]
+			tasks: [
+				{
+					id: "1A467557F5ADA737"
+					type: "kill"
+					entity: "cataclysm:ancient_remnant"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "16C93F610461A143"
@@ -519,33 +711,40 @@
 					xp: 750
 				}
 				{
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					id: "2B8863E5DF748A45"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 					icon: {
+						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					id: "2B8863E5DF748A45"
-					permission_level: 2
+					elevate_perms: true
 					silent: true
-					type: "command"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 				}
 				{
 					id: "74D754C8168681E9"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			shape: "diamond"
-			tasks: [{
-				entity: "cataclysm:ancient_remnant"
-				id: "1A467557F5ADA737"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
-			y: 8.600000000000001d
+			title: "Caçada: Remanescente Antigo"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eRemanescente Antigo&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
 		}
+	]
+	title: "&9Tier III - Cavaleiro"
+	subtitle: [
+		"Objetivo: forjar e comer o Coração do Tier IV"
 	]
 }

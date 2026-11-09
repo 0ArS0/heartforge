@@ -4,72 +4,154 @@
 	filename: "mod_botania"
 	group: "0BD654FB0C580B11"
 	icon: {
+		count: 1
 		id: "botania:lexicon"
 	}
 	id: "0ABC69F79D6B204D"
-	images: [ ]
-	order_index: 0
+	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{
-			icon: {
-				id: "botania:lexicon"
-			}
 			id: "7300DD08C121A977"
-			rewards: [{
-				id: "3D2CDD6BE3DA25AB"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "square"
-			size: 1.75d
-			tasks: [{
-				id: "78C08E4C2B64FCE3"
-				type: "checkmark"
-			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["7300DD08C121A977"]
-			id: "6AE71DBF49D3C441"
-			rewards: [{
-				id: "477204CF6F432F8F"
-				type: "xp"
-				xp: 200
-			}]
-			size: 1.25d
+			shape: "square"
+			size: 1.75d
+			icon: {
+				count: 1
+				id: "botania:lexicon"
+			}
 			tasks: [
 				{
-					advancement: "botania:main/flower_pickup"
-					criterion: ""
+					id: "78C08E4C2B64FCE3"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "3D2CDD6BE3DA25AB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Lexicon"
+			description: [
+				"&7Antes das forjas de vapor, antes das coroas anãs, os elfos caminhavam por estas terras."
+				"&7Partiram há eras, mas deixaram para trás a &bmana&7, uma energia que dorme nas flores."
+				"&7Quem aprende a colhê-la ergue piscinas de luz, forja metais vivos e, por fim,"
+				"&7desafia o próprio &cGuardião de Gaia&7."
+				""
+				"&7Comece pelas flores místicas que brotam na grama, e escreva tudo no Lexica Botania."
+			]
+		}
+		{
+			id: "6AE71DBF49D3C441"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			dependencies: [
+				"7300DD08C121A977"
+			]
+			tasks: [
+				{
 					id: "1AE9D71C21217B0E"
 					type: "advancement"
+					advancement: "botania:main/flower_pickup"
+					criterion: ""
 				}
 				{
 					id: "5B5DE09B3611BCB7"
-					item: { count: 1, id: "botania:lexicon" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:lexicon"
+					}
+					count: 1L
 				}
 				{
-					advancement: "botania:main/lexicon_use"
-					criterion: ""
 					id: "7266D2E09CACDAC9"
 					type: "advancement"
+					advancement: "botania:main/lexicon_use"
+					criterion: ""
 				}
 				{
-					count: 8L
 					id: "5932C15498A1FF35"
-					item: { count: 1, id: "botania:white_petal" }
 					type: "item"
+					item: {
+						count: 1
+						id: "botania:white_petal"
+					}
+					count: 8L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "477204CF6F432F8F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Pétalas que brilham"
+			description: [
+				"&7Nas campinas e florestas crescem flores que não deveriam existir: brilham de leve à noite, como se"
+				"&7lembrassem de alguém. São o que restou dos jardins élficos. Todo botânico de Heartforge começou"
+				"&7colhendo uma delas e anotando o que via num caderno que, estranhamente, aprendia sozinho."
+				""
+				"&6Objetivo:&r 1. Encontre e colha uma &6Flor Mística&r (Mystical Flower) na grama de quase qualquer bioma."
+				"&f2. Crie o &6Lexica Botania&r: um livro e uma muda de qualquer árvore, sem forma."
+				"&f3. Abra o Lexicon e leia as primeiras páginas."
+				"&f4. Desfaça flores na bancada: cada uma rende 2 &6pétalas místicas&r. Junte 8 brancas."
+				""
+				"&8Farinha de osso numa flor mística a faz crescer alta: a flor alta rende 4 pétalas."
+				"&8Pétalas também viram corante, e qualquer cor serve onde a receita pede só \"pétala\"."
+			]
 		}
 		{
-			dependencies: ["6AE71DBF49D3C441"]
 			id: "157DC6ED2175901C"
+			x: 4.0d
+			y: -1.6d
+			size: 1.25d
+			dependencies: [
+				"6AE71DBF49D3C441"
+			]
+			tasks: [
+				{
+					id: "698E3126C599FE8B"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:apothecary_default"
+					}
+					count: 1L
+				}
+				{
+					id: "0E158EC33D2E8B46"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:pure_daisy"
+					}
+					count: 1L
+				}
+				{
+					id: "6CBD8E882967D609"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:livingrock"
+					}
+					count: 16L
+				}
+				{
+					id: "538D9BF050BDFA12"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:livingwood_log"
+					}
+					count: 16L
+				}
+			]
 			rewards: [
 				{
 					id: "26DBD12CF14CE84F"
@@ -78,48 +160,115 @@
 				}
 				{
 					id: "211CE5BE19C1F712"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "698E3126C599FE8B"
-					item: { count: 1, id: "botania:apothecary_default" }
-					type: "item"
-				}
-				{
-					id: "0E158EC33D2E8B46"
-					item: { count: 1, id: "botania:pure_daisy" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "6CBD8E882967D609"
-					item: { count: 1, id: "botania:livingrock" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "538D9BF050BDFA12"
-					item: { count: 1, id: "botania:livingwood_log" }
-					type: "item"
-				}
+			title: "A Margarida Pura"
+			description: [
+				"&7Uma pia de pedra, um pouco de água e a coragem de jogar sementes no desconhecido: assim nasce a"
+				"&7primeira flor feita à mão. A Margarida Pura é a mais simples de todas e também a mais importante,"
+				"&7porque purifica pedra e madeira até que lembrem a era dos elfos. Tudo o que vem depois nasce dela."
+				""
+				"&6Objetivo:&r 1. Crie um &6Boticário de Pétalas&r (Petal Apothecary): pedregulho em forma de taça com uma pétala."
+				"&f2. Encha-o de água (balde), jogue &f4 pétalas brancas&r e, por último, uma &fsemente&r: nasce a &6Margarida Pura&r."
+				"&f3. Plante a margarida e cerque-a com &fpedra lisa&r nos 8 blocos ao redor: em cerca de um minuto vira &6Rocha Viva&r."
+				"&f4. Faça o mesmo com &ftroncos&r de qualquer árvore para obter &6Madeira Viva&r."
+				""
+				"&8No boticário, clique com a mão vazia para retirar o último item. Logo após criar uma flor, clicar de mão"
+				"&8vazia puxa do inventário outra leva dos mesmos ingredientes."
+				"&8A margarida também purifica: netherrack vira pedregulho, areia de almas vira areia, gelo vira gelo compacto."
 			]
-			x: 4.0d
-			y: -1.6d
 		}
 		{
-			dependencies: ["6AE71DBF49D3C441"]
+			id: "3991D0AA35DF9E5B"
+			x: 4.0d
+			y: -0.0d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "botania:yellow_mystical_flower"
 			}
-			id: "3991D0AA35DF9E5B"
-			optional: true
+			dependencies: [
+				"6AE71DBF49D3C441"
+			]
+			tasks: [
+				{
+					id: "3969C828C3C50CAC"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:white_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "682C9490E5798896"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:orange_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "4399A70E078A5CE9"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:magenta_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "18CECFAD93CA096D"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:yellow_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "48E335C7038A581B"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lime_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "1F8AE3846FEFC151"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:pink_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "03A9BE8C4B632A9E"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:red_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "368D63F847FDD36E"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:brown_mystical_flower"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "1B98C654606DEE2B"
@@ -128,66 +277,111 @@
 				}
 				{
 					id: "64B3F2BCB57EE116"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "3969C828C3C50CAC"
-					item: { count: 1, id: "botania:white_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "682C9490E5798896"
-					item: { count: 1, id: "botania:orange_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "4399A70E078A5CE9"
-					item: { count: 1, id: "botania:magenta_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "18CECFAD93CA096D"
-					item: { count: 1, id: "botania:yellow_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "48E335C7038A581B"
-					item: { count: 1, id: "botania:lime_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "1F8AE3846FEFC151"
-					item: { count: 1, id: "botania:pink_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "03A9BE8C4B632A9E"
-					item: { count: 1, id: "botania:red_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "368D63F847FDD36E"
-					item: { count: 1, id: "botania:brown_mystical_flower" }
-					type: "item"
-				}
+			title: "Herbário: cores do sol"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Dizem que um botânico de verdade conhece as dezesseis cores de cor e salteado."
+				"&7As cores quentes brotam com mais vontade nas planícies e florestas abertas."
+				""
+				"&6Objetivo:&r 1. Reúna uma &6Flor Mística&r de cada cor quente: branca, laranja, magenta, amarela, lima, rosa, vermelha e marrom."
+				""
+				"&8O Fertilizante Floral (capítulo do Tier I) faz brotar flores de cores aleatórias na grama."
 			]
-			x: 4.0d
-			y: 0.0d
+			optional: true
 		}
 		{
-			dependencies: ["6AE71DBF49D3C441"]
+			id: "4C4AF3920E558299"
+			x: 4.0d
+			y: 1.6d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "botania:light_blue_mystical_flower"
 			}
-			id: "4C4AF3920E558299"
-			optional: true
+			dependencies: [
+				"6AE71DBF49D3C441"
+			]
+			tasks: [
+				{
+					id: "474B62CA51484D3C"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:light_blue_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "2F3E07A9A929B1D7"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:gray_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "5C75AC1D31CD6658"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:light_gray_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "3E7CFB580A00067A"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:cyan_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "7D794020E139C77A"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:purple_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "79EBA8B7F4A5D5A2"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:blue_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "0D00D9B1296C9AA1"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:green_mystical_flower"
+					}
+					count: 1L
+				}
+				{
+					id: "40F39B76007D1AF2"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:black_mystical_flower"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "397012764BFA99A4"
@@ -196,58 +390,26 @@
 				}
 				{
 					id: "6077A07907E533B5"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "474B62CA51484D3C"
-					item: { count: 1, id: "botania:light_blue_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "2F3E07A9A929B1D7"
-					item: { count: 1, id: "botania:gray_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "5C75AC1D31CD6658"
-					item: { count: 1, id: "botania:light_gray_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "3E7CFB580A00067A"
-					item: { count: 1, id: "botania:cyan_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "7D794020E139C77A"
-					item: { count: 1, id: "botania:purple_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "79EBA8B7F4A5D5A2"
-					item: { count: 1, id: "botania:blue_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "0D00D9B1296C9AA1"
-					item: { count: 1, id: "botania:green_mystical_flower" }
-					type: "item"
-				}
-				{
-					id: "40F39B76007D1AF2"
-					item: { count: 1, id: "botania:black_mystical_flower" }
-					type: "item"
-				}
+			title: "Herbário: cores da lua"
+			subtitle: "&8Opcional"
+			description: [
+				"&7As cores frias são mais tímidas: escondem-se na sombra das árvores e à beira da água."
+				"&7Quem completa as duas metades do herbário nunca mais fica sem pétala para receita alguma."
+				""
+				"&6Objetivo:&r 1. Reúna uma &6Flor Mística&r de cada cor fria: azul-clara, cinza, cinza-clara, ciano, roxa, azul, verde e preta."
 			]
-			x: 4.0d
-			y: 1.6d
+			optional: true
 		}
+	]
+	title: "O Lexicon"
+	subtitle: [
+		"A magia das flores"
 	]
 }
