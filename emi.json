@@ -1,12 +1,15 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:mythsandlegends:gargoyle_wing",
+    "item:born_in_chaos_v1:nightmare_scythe{\"minecraft:damage\":82}",
+    "item:born_in_chaos_v1:nightmare_claw",
+    "item:irons_spellbooks:copper_spell_book{\"irons_spellbooks:spell_container\":{data:[],maxSpells:5,mustEquip:1b,spellWheel:1b}}",
     {
       "type": "item",
       "id": "vampirism:vampire_blood_bottle",
       "amount": 2
     },
-    "item:irons_spellbooks:copper_spell_book{\"irons_spellbooks:spell_container\":{data:[],maxSpells:5,mustEquip:1b,spellWheel:1b}}",
     {
       "type": "item",
       "id": "minecraft:paper",
