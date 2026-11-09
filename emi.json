@@ -1,6 +1,17 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "vampirism:vampire_blood_bottle",
+      "amount": 2
+    },
+    "item:irons_spellbooks:copper_spell_book{\"irons_spellbooks:spell_container\":{data:[],maxSpells:5,mustEquip:1b,spellWheel:1b}}",
+    {
+      "type": "item",
+      "id": "minecraft:paper",
+      "amount": 8
+    },
     "item:comamigos_balance:tier_heart_2",
     "item:comamigos_balance:respec_tome",
     "item:quark:cherry_post",
@@ -62,6 +73,8 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "minecraft:furnace",
+    "biomeswevegone:maple_crafting_table",
     "minecraft:arrow",
     "minecraft:dark_oak_planks",
     "minecraft:crafting_table",
@@ -74,7 +87,6 @@
     "biomeswevegone:maple_planks",
     "minecraft:oak_planks",
     "minecraft:wooden_axe",
-    "biomeswevegone:maple_crafting_table",
     "minecraft:bone_meal",
     "quark:tweaks/crafting/utility/better_stone_tools/sword",
     "minecraft:acacia_planks",
