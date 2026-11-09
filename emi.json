@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:comamigos_balance:tier_heart_2",
     "item:comamigos_balance:respec_tome",
     "item:quark:cherry_post",
     "item:neoorigins:orb_of_origin",
@@ -43,7 +44,6 @@
     "item:cataclysm:ignitium_ingot",
     "item:comamigos_balance:tier_heart_5",
     "item:comamigos_balance:tier_heart_4",
-    "item:comamigos_balance:tier_heart_2",
     "item:wildernature:truffle_bag",
     "item:wildernature:truffle",
     "item:minecraft:netherite_scrap",
@@ -62,9 +62,15 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
-    "minecraft:oak_planks",
+    "quark:tweaks/crafting/utility/better_stone_tools/sword",
     "minecraft:stick",
+    "minecraft:spruce_planks",
+    "quark:tweaks/crafting/utility/better_stone_tools/shovel",
+    "quark:tweaks/crafting/utility/better_stone_tools/axe",
+    "quark:tweaks/crafting/utility/better_stone_tools/pickaxe",
+    "minecraft:wooden_pickaxe",
     "minecraft:crafting_table",
+    "minecraft:oak_planks",
     "minecraft:acacia_planks",
     "minecraft:birch_planks"
   ],

@@ -530,7 +530,7 @@ hash = "0724139777a7a499a111d11ae1cc0cdd2928da7324083e49cea8ee11ca62fb3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "b09283cf9095562feeacd7802dad0759ac9a5e28b7134ad67af5c2fda42cc82a"
+hash = "db1323af10850977e997b09df4d22bcf7f0660c7347e889e2bc54cb00bf3255f"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1162,7 +1162,7 @@ hash = "e25ac8cbb2e98c3753b51b40bc58c67bd1df572547572da08ce729e16f81ed56"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "4595d702cd2c44844be5eec0da3d70c982523e161426ad34d69829c3feacde52"
+hash = "b555b3d99576a86b5a2fb01c2cfc6d47a94efefc5c84a4ede28ef89f096a60f1"
 
 [[files]]
 file = "config/biomeparticleweather/config.txt"
@@ -1182,7 +1182,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "6fb6ff3e2cb4d1c47431b2e9fb48090fd985e0b43777949ec0c346cda85e532d"
+hash = "4e644f8324221022aed71d39b3d56a6cd189d5bd3f67c4aa72b889fb208421da"
 
 [[files]]
 file = "config/block_factorys_bosses-client.toml"
@@ -1513,6 +1513,14 @@ file = "config/easymagic-server.toml"
 hash = "b2860a71cdc35a6f3cee847622a7085c35d3691f26ca7b4c84098e14bc4369dc"
 
 [[files]]
+file = "config/efallingtrees_client.json"
+hash = "e3d77311435b43fba8fc7688d3314b694edf06f46ef2f8e05cb42e0d07acb445"
+
+[[files]]
+file = "config/efallingtrees_common.json"
+hash = "daed76d9af34180febfad25b0001fddb1502c769297febb1472c7d2bb5d9602c"
+
+[[files]]
 file = "config/effective.json"
 hash = "75a2d9e84380105aca7f95b1334fabc78f5ef87fd93567c6646b237bc74eb8c5"
 
@@ -1606,7 +1614,7 @@ hash = "1d7075ca7221200f93e75e525781d1605537ce655d96a5e7313187614319d7ef"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0dbde847d42783f85ee128888405dde5fc613c57abc6fed42dad0a0467e3dca6"
+hash = "a699d17e94f9742ae50113f5802d18479bc2c6393f080d7afd49adaf9ed25a84"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -2418,7 +2426,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "ba2c0a2f7312d46f9210a787d1608c938b88582c0e94956903cd37d1e9e7519d"
+hash = "a2c488891adcc7de5870e4b1971fc31eb8ae24213bb52e598f10bc4bcb3bd867"
 preserve = true
 
 [[files]]
@@ -2467,7 +2475,7 @@ hash = "5754114a0a663b321793a61f741bafa70c2a6dd649657260cdc096600763ad94"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "1e586be6a1797f7b82c404b69bcc75af1541f4310ff00d9f8393b82ef50cab6d"
+hash = "5aaa9a5c435a8c46497aa0971cadf70b385874476e617caa62b9743b946beb5a"
 
 [[files]]
 file = "config/jade/profiles/1/jade.json"
@@ -2487,7 +2495,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "cda4bff66584a4ecc603bae2771cc5d051e330d36cf402ceca35820c3f179a81"
+hash = "8ad8630100378cb7a45971326836858d77374aa5dfba724bfd94fcb5e43a632a"
 
 [[files]]
 file = "config/jei/blacklist.json"
@@ -2623,7 +2631,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "8492203cb303fe4006f077195b3842cba3feeebb369e42d2fdc57e3de3f7e47b"
+hash = "18ae3bcda6944f1ba39567815e65d17f6a240e86a459a2c1cf59a4695b61b36e"
 
 [[files]]
 file = "config/lithium.properties"
@@ -3075,7 +3083,7 @@ hash = "8e8b58cdda9ca683eaf6923e901341bb1f44e0fbb4fccad4d7db760629072662"
 
 [[files]]
 file = "config/respackopts/_respackopts.conf"
-hash = "20ec40bd848de64dbb03f20e5868608f23b33d0232170c64246b9d688b493747"
+hash = "8e42c76481421e2b3f3c83481e3920319b78b69c6c987e02e4c52bc7ea4e1be4"
 
 [[files]]
 file = "config/respackopts/armoredLegacy.json"
@@ -3191,7 +3199,7 @@ hash = "9f2e3cc1cd587fd9de6fd4a068e4c247fde401d3fc6fd9a0da36627ddc5611a3"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "104525fa5d0f17451d847c9571fd01450d1ffcba8fc7feff5d806b197e07d8c7"
+hash = "d16d5660ff319a332a547181624f30ebde7cc9a0f9616ed0d8a585ea57778f4c"
 
 [[files]]
 file = "config/scalablelux.properties"
@@ -3811,7 +3819,7 @@ hash = "bf179c73f8a353cce83f54a59696643e4d678b0ccb07d84dfd457e6e8b9190b8"
 
 [[files]]
 file = "emi.json"
-hash = "c78a498f222f6c0c15ee02686dc0d696896452a4f4f285e5ded0691647bba3c7"
+hash = "9d55b22ef2c116de3aa6ec23291ff164ac73e071e1b6aa6d54b44daf65ccc854"
 
 [[files]]
 file = "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.pw.toml"
@@ -4412,6 +4420,11 @@ hash = "ec09320371da84bd16c303c0171088838e1fe4c34835ea69247061570f0d2135"
 metafile = true
 
 [[files]]
+file = "mods/efallingtrees-0.7.0-1.21.1+neoforge.pw.toml"
+hash = "201ec3b3f6786fb0022910c20fb201562369664b6ac7e3cf20b3fa9c78e61ce1"
+metafile = true
+
+[[files]]
 file = "mods/effectual-neoforge-1.4.2-1.21.1.pw.toml"
 hash = "78fd0cf5a532116f7dd8441ea0d666fbaec1c857e01b70ce064452f13e83352c"
 metafile = true
@@ -4989,7 +5002,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "ff46ef22ad8e0709fb7794ced32ed6e6ff5722d512f751560d60b08938bb0a8a"
+hash = "aa5827c3e3835265720abc6f307bde2141a4ead5aa8040348f48c5d50f191da3"
 preserve = true
 
 [[files]]
@@ -10259,10 +10272,6 @@ hash = "cfe6e53edbb804e87fd83d9b34a554de2b47c59ecfdc28cf4a13d923c6deeddf"
 [[files]]
 file = "shaderpacks/photon_v1.4.zip"
 hash = "da0929b38f5fd99befaaa8cd141cbf60e1fad05b92d916d0eeeee7c79f86c0fd"
-
-[[files]]
-file = "shaderpacks/photon_v1.4.zip.txt"
-hash = "ef8564ea3f7c23aa7c0a0418c0eece65cc1aa9245b19fae9d991993247099bfa"
 
 [[files]]
 file = "shaderpacks/rethinking-voxels_r0.1-beta9.zip"
