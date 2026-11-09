@@ -62,6 +62,8 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "minecraft:arrow",
+    "minecraft:dark_oak_planks",
     "minecraft:crafting_table",
     "quark:tweaks/crafting/utility/better_stone_tools/shovel",
     "quark:tweaks/crafting/utility/better_stone_tools/axe",
