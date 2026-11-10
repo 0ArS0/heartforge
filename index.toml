@@ -4198,11 +4198,6 @@ hash = "865d2e8444d069759c138b0723f7b561cd63a40c4623e65f631ab913615fe311"
 metafile = true
 
 [[files]]
-file = "mods/TailsLegacy-4.0.5+1.21.1-neoforge.pw.toml"
-hash = "fad32f2a2ad4ad2f8945e4c1b314dee68a0f8d1bf936329868ce806629bd3247"
-metafile = true
-
-[[files]]
 file = "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
 hash = "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8"
 
@@ -4587,7 +4582,7 @@ metafile = true
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "78ffb0c63e8389b4c669c35751c3a80f44361ccb3ed4fa0f6c7d0a3dfa416ed8"
+hash = "feb2524712396ada31922f4d3c75d2256545b4631d89480f46f56a70c44ee1b0"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
@@ -5041,7 +5036,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "8f4dafa044acf57bf4c4b0568212969374ae80155e84f9f1bb04f03adfe9cc18"
+hash = "960a16df45d8d9480d5495bdc9499c7dcc80588305400d9e786e1418cd20ccca"
 preserve = true
 
 [[files]]
@@ -5231,6 +5226,10 @@ hash = "dd4f41ae1cf60460cefd73be25389b533afc571ec2c7996fb7f1fca42395c697"
 [[files]]
 file = "resourcepacks/Heartforge - Ajustes.zip"
 hash = "4c4af31ec29a442cb3d07c83068321ccbf5a6b601bdf7d251e3114da5d742d9d"
+
+[[files]]
+file = "resourcepacks/Heartforge Racas.zip"
+hash = "e96fa78cc2728f795f3fa1385f8ab884b76dc4fdd77b058b2010cba9863e72bf"
 
 [[files]]
 file = "resourcepacks/HyperPunchy-v2.5+.zip.rpo"
