@@ -432,7 +432,7 @@
 		#Maximum number of hunters that can spawn at one tent per day
 		# Default: 4
 		# Range: 0 ~ 20
-		hunterTentMaxSpawn = 4
+		hunterTentMaxSpawn = 1
 
 	[balance.hunterSkills]
 		#Advanced skill - Weapon cooldown = 1/(oldvalue*(1+modifier)

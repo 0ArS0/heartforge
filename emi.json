@@ -1,6 +1,19 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:born_in_chaos_v1:gnawed_bones",
+    "item:born_in_chaos_v1:dark_metal_ingot",
+    "item:born_in_chaos_v1:pileof_dark_metal",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:pieceofdarkmetal",
+      "amount": 33
+    },
+    {
+      "type": "item",
+      "id": "vampirism:vampire_fang",
+      "amount": 4
+    },
     {
       "type": "item",
       "id": "minecraft:rotten_flesh",
@@ -10,18 +23,6 @@
     "item:occultism:satchel",
     "item:born_in_chaos_v1:dark_rod",
     "item:born_in_chaos_v1:bone_handle",
-    "item:born_in_chaos_v1:dark_metal_ingot",
-    "item:born_in_chaos_v1:pileof_dark_metal",
-    {
-      "type": "item",
-      "id": "born_in_chaos_v1:pieceofdarkmetal",
-      "amount": 15
-    },
-    {
-      "type": "item",
-      "id": "vampirism:vampire_fang",
-      "amount": 2
-    },
     "item:dwarfs_tyranny:mythril_ingot",
     {
       "type": "item",
@@ -128,6 +129,7 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "born_in_chaos_v1:gnawed_bones_k",
     "quark:tweaks/crafting/utility/better_stone_tools/shovel",
     "quark:tweaks/crafting/utility/better_stone_tools/axe",
     "quark:tweaks/crafting/utility/better_stone_tools/pickaxe",
