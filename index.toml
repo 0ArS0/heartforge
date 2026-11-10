@@ -3585,7 +3585,7 @@ hash = "73adc5821b607af041d64bff2cff6f45edd356a7110ab79ea88519a39ffc382a"
 
 [[files]]
 file = "config/thirst/common.toml"
-hash = "0c641054381ba957f06aa923e11f238117e52fee07df8a4217577cd041b97ff4"
+hash = "7069343333d42f7eef678b8b3938b21647eb46849643ea6ffa034c2705a80bc6"
 
 [[files]]
 file = "config/thirst/container.toml"
