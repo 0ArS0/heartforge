@@ -2779,7 +2779,7 @@ hash = "8a45aef57f24a743a2da180a1976167beef05bbeb5f840668a11dc20baacaa28"
 
 [[files]]
 file = "config/neoorigins/hud.json"
-hash = "8f7cba2995185094eb1dd26c0ce188f6b059bd5fbe6f1e8c80bbde765e4ad042"
+hash = "a1a9796ac507cf7f8732a75e6b65399394df7ac8e33ede729a8fa729f3d37a04"
 
 [[files]]
 file = "config/neoorigins/power_overrides.toml"
@@ -3827,7 +3827,7 @@ hash = "bf179c73f8a353cce83f54a59696643e4d678b0ccb07d84dfd457e6e8b9190b8"
 
 [[files]]
 file = "emi.json"
-hash = "b1ee8e1b1cd229b70908ac47dffa747d33d8d041040752dbae87e83bc977cfde"
+hash = "1c36852feb5991407bb899dbb254af23a7b5999c1221b6388fb4f5722247038d"
 
 [[files]]
 file = "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.pw.toml"
@@ -4561,7 +4561,7 @@ metafile = true
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "364ac7a523693cdeb25c6a3191ae4beaf9db0b7c4609197facd401dbf59716f1"
+hash = "c4939dd1629f881420e09e3bdbde225debed8a3e4129a492947c6c97d77e1403"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"

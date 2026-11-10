@@ -2,14 +2,14 @@
   "split_cooldown": false,
   "positions": {
     "neoorigins:draconic_stamina": {
-      "xPct": 0.78802085,
-      "yPct": 0.9222222,
+      "xPct": 0.78489584,
+      "yPct": 0.96018517,
       "scale": 1.0,
       "vertical": false
     },
     "comamigos_balance:draconic_glands": {
-      "xPct": 0.7885417,
-      "yPct": 0.97407407,
+      "xPct": 0.78541666,
+      "yPct": 0.9037037,
       "scale": 1.0,
       "vertical": false
     },
