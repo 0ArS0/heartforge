@@ -24,6 +24,18 @@
       "yPct": 0.9396403,
       "scale": 1.0,
       "vertical": false
+    },
+    "neoorigins:revenant_energy": {
+      "xPct": 0.675,
+      "yPct": 0.9398148,
+      "scale": 1.0,
+      "vertical": false
+    },
+    "neoorigins:sylvan_vitality": {
+      "xPct": 0.6770833,
+      "yPct": 0.925,
+      "scale": 1.0,
+      "vertical": false
     }
   }
 }
