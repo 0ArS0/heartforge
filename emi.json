@@ -1,6 +1,17 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "irons_spellbooks:common_ink",
+      "amount": 11
+    },
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:monster_flesh",
+      "amount": 9
+    },
+    "item:simplyswords:iron_longsword",
     "item:mythsandlegends:gargoyle_wing",
     "item:born_in_chaos_v1:nightmare_scythe{\"minecraft:damage\":82}",
     "item:born_in_chaos_v1:nightmare_claw",
@@ -76,11 +87,16 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "minecraft:bread",
+    "minecraft:wheat",
+    "minecraft:iron_pickaxe",
+    "simplyswords:iron_longsword",
+    "quark:building/crafting/chests/dark_oak_chest",
+    "minecraft:crafting_table",
+    "minecraft:dark_oak_planks",
     "minecraft:furnace",
     "biomeswevegone:maple_crafting_table",
     "minecraft:arrow",
-    "minecraft:dark_oak_planks",
-    "minecraft:crafting_table",
     "quark:tweaks/crafting/utility/better_stone_tools/shovel",
     "quark:tweaks/crafting/utility/better_stone_tools/axe",
     "quark:tweaks/crafting/utility/better_stone_tools/pickaxe",
