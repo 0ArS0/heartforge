@@ -4,171 +4,83 @@
 	filename: "mod_irons_t4"
 	group: "5955ECC104DC966A"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "19D916C682640455"
-	order_index: 36
+	images: [ ]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7A0969FB2C695035"
-			x: 0.0d
-			y: 2.4d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_4"
 			}
-			tasks: [
-				{
-					id: "2A6F0E51D980AE34"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &6Tier IV&7."
-			]
-			disable_toast: true
+			id: "7A0969FB2C695035"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "2A6F0E51D980AE34"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
 		}
 		{
-			id: "67A5105EEF8FEF76"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:mithril_ingot"
-			}
 			dependencies: [
 				"6329E6C02C4E3000"
 				"7A0969FB2C695035"
 			]
+			icon: {
+				id: "irons_spellbooks:mithril_ingot"
+			}
+			id: "67A5105EEF8FEF76"
+			rewards: [{
+				id: "5CA7BC7F6FB55175"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
 			tasks: [
 				{
+					count: 4L
 					id: "105D7D202C7486E7"
+					item: { count: 1, id: "irons_spellbooks:raw_mithril" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:raw_mithril"
-					}
-					count: 4L
 				}
 				{
+					count: 4L
 					id: "067F5AD9281226D2"
+					item: { count: 1, id: "irons_spellbooks:mithril_scrap" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:mithril_scrap"
-					}
-					count: 4L
 				}
 				{
-					id: "3EA82F2598606315"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:mithril_ingot"
-					}
 					count: 2L
+					id: "3EA82F2598606315"
+					item: { count: 1, id: "irons_spellbooks:mithril_ingot" }
+					type: "item"
 				}
 				{
 					id: "5F8D100F5C7D2953"
+					item: { count: 1, id: "irons_spellbooks:mithril_weave" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:mithril_weave"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "5CA7BC7F6FB55175"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "O Metal dos Magos"
-			description: [
-				"&7O metal dos magos dorme abaixo da camada -38, sem tocar o ar. Só picaretas de netherita o arrancam,"
-				"&7e no Heartforge a netherita só nasce no Mixer superaquecido."
-				"&7Leve como prata, duro como diamante e frio como uma promessa quebrada: elos de mithril trançados não deixam passar lâmina nem magia."
-				""
-				"&6Objetivo:&r 1. Minere 4 &6Mithril Bruto&r (abaixo de Y -38, nunca exposto ao ar) com picareta de &6netherita&r."
-				"&f2. Funda o mithril bruto no alto-forno para obter 4 &6Sucatas de Mithril&r."
-				"&f3. Junte quatro sucatas em cada &6Lingote de Mithril&r (2)."
-				"&f4. Teça a &6Malha de Mithril&r: cinco lingotes de mithril e quatro correntes."
-				""
-				"&8Guarde sucatas: quase toda joia de mago do Tier IV leva uma."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "01EFDD5361AE4BB2"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:shadowwalker_helmet"
-			}
 			dependencies: [
 				"1D3354AB770F3BBC"
 				"504D2C256F3096CB"
 				"7A0969FB2C695035"
 			]
-			tasks: [
-				{
-					id: "238991DCA3D3AC93"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:ender_rune"
-					}
-					count: 1L
-				}
-				{
-					id: "2F004A3044180BF1"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:shadowwalker_helmet"
-					}
-					count: 1L
-				}
-				{
-					id: "20522DFA7A65618D"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:shadowwalker_chestplate"
-					}
-					count: 1L
-				}
-				{
-					id: "16C995B2D5E76785"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:shadowwalker_leggings"
-					}
-					count: 1L
-				}
-				{
-					id: "54FA8B146A01CEE5"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:shadowwalker_boots"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "irons_spellbooks:shadowwalker_helmet"
+			}
+			id: "01EFDD5361AE4BB2"
 			rewards: [
 				{
 					id: "4786FD93F1C35166"
@@ -177,63 +89,91 @@
 				}
 				{
 					id: "6FDBB4C863BB269E"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O Andarilho das Sombras"
-			description: [
-				"&7Às vezes a runa ender aparece no bolso errado. Ninguém sabe como."
-				"&7Máscara lisa, couro escuro e passos que não fazem barulho: o traje da escola do Fim."
-				""
-				"&6Objetivo:&r 1. Grave uma &5Runa Ender&r: Runa em Branco cercada por oito Pérolas do Ender."
-				"&f2. Na &6Mesa de Ferraria&r, com a Runa Ender como molde, faça a máscara, o manto, as calças e as botas do &5Andarilho das Sombras&r."
+			size: 1.25d
+			tasks: [
+				{
+					id: "238991DCA3D3AC93"
+					item: { count: 1, id: "irons_spellbooks:ender_rune" }
+					type: "item"
+				}
+				{
+					id: "2F004A3044180BF1"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_helmet" }
+					type: "item"
+				}
+				{
+					id: "20522DFA7A65618D"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:shadowwalker_chestplate" }
+					type: "item"
+				}
+				{
+					id: "16C995B2D5E76785"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_leggings" }
+					type: "item"
+				}
+				{
+					id: "54FA8B146A01CEE5"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_boots" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "79B7FD4C3EBBA0F2"
-			x: 2.0d
-			y: 3.2d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:necronomicon_spell_book"
-			}
 			dependencies: [
 				"638F8545B950D073"
 				"7A0969FB2C695035"
 			]
-			tasks: [
-				{
-					id: "1CC30C7461A1D0FE"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:dead_king_phylactery"
+			icon: {
+				components: {
+					"irons_spellbooks:affinity_data": {
+						bonuses: {
+							"irons_spellbooks:raise_dead": 2
+						}
 					}
-					count: 1L
-				}
-				{
-					id: "235734199CB65283"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:necronomicon_spell_book"
+					"irons_spellbooks:spell_container": {
+						data: [
+							{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blood_step"
+								index: 1
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 2
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blaze_storm"
+								index: 3
+								level: 5
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
 					}
-					count: 1L
 				}
-				{
-					id: "384D1E3D09162774"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:wicked_bone_ring"
-					}
-					count: 1L
-				}
-			]
+				id: "irons_spellbooks:necronomicon_spell_book"
+			}
+			id: "79B7FD4C3EBBA0F2"
 			rewards: [
 				{
 					id: "1B9748716B20AF7F"
@@ -242,287 +182,186 @@
 				}
 				{
 					id: "1EBD7C2D4914E8EF"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O Rei Volta a Reinar"
-			description: [
-				"&7Um rei sem carne guarda a alma num frasco. Quebre o frasco, junte os cacos, e ele volta ao trono."
-				"&7Na segunda vez, ele traz o próprio livro de truques, com páginas feitas de algo que já foi gente."
-				"&7Sob o Mau Presságio, volta ainda mais cruel, e seus despojos também mudam."
-				""
-				"&6Objetivo:&r 1. Junte oito Fragmentos de Filactéria (cofre do Rei e geradores das Catacumbas) com uma lanterna de almas: &6Filactéria do Rei Morto&r."
-				"&f   Use-a na alma do Rei para revivê-lo e lutar de novo."
-				"&f2. Obtenha o &4Necronomicon&r derrotando o Rei Morto."
-				"&f3. Enfrente-o sob &cMau Presságio&r (Garrafa Ominosa) e obtenha o &6Anel de Osso Perverso&r."
-				""
-				"&8O Necronomicon é livro único: as magias são fixas, mas sobem de nível na Bigorna Arcana."
-				"&8Os chefes ominosos também deixam a &6Tintura do Esquecimento&r, que reinicia os Cofres de Provação."
+			tasks: [
+				{
+					id: "1CC30C7461A1D0FE"
+					item: { count: 1, id: "irons_spellbooks:dead_king_phylactery" }
+					type: "item"
+				}
+				{
+					id: "235734199CB65283"
+					item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:raise_dead": 2 } }, "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:blood_slash", index: 0, level: 5, locked: 1b }, { id: "irons_spellbooks:blood_step", index: 1, level: 5, locked: 1b }, { id: "irons_spellbooks:ray_of_siphoning", index: 2, level: 5, locked: 1b }, { id: "irons_spellbooks:blaze_storm", index: 3, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:necronomicon_spell_book" }
+					type: "item"
+				}
+				{
+					id: "384D1E3D09162774"
+					item: { count: 1, id: "irons_spellbooks:wicked_bone_ring" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "25922491DF4C355B"
-			x: 2.0d
-			y: 4.8d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "irons_spellbooks:cinder_essence"
-			}
 			dependencies: [
 				"6329E6C02C4E3000"
 				"7A0969FB2C695035"
 			]
+			icon: {
+				id: "irons_spellbooks:cinder_essence"
+			}
+			id: "25922491DF4C355B"
+			rewards: [{
+				id: "0C54AD5DCDCA3B21"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "irons_spellbooks:citadel_keeper"
 					id: "1E5C878E4A505E52"
 					type: "kill"
-					entity: "irons_spellbooks:citadel_keeper"
 					value: 1L
 				}
 				{
-					id: "1BA643BB812FF5A6"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:cinder_essence"
-					}
 					count: 8L
+					id: "1BA643BB812FF5A6"
+					item: { count: 1, id: "irons_spellbooks:cinder_essence" }
+					type: "item"
 				}
 				{
-					id: "16DA63584470C8D6"
-					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_blaze"
 					criterion: ""
+					id: "16DA63584470C8D6"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "0C54AD5DCDCA3B21"
-					type: "xp"
-					xp: 420
-				}
-			]
-			title: "Os Campos de Batalha Antigos"
-			description: [
-				"&7Com o Tier IV o Ar Escaldante se dissipa, e o Nether de verdade se abre aos magos."
-				"&7Nos campos de batalha antigos, pilhas de armadura esperam. Quebre uma, e o dono se levanta."
-				"&7O que sobra dele é um pó quente que nunca esfria. E todo blaze carrega, sem saber, um manual de si mesmo."
-				""
-				"&6Objetivo:&r 1. Encontre um &6Campo de Batalha Antigo&r no Nether, quebre as &cPilhas de Armadura&r e derrote os &cCavaleiros Antigos&r."
-				"&f2. Colete 8 &6Essências de Cinzas&r deles e das sepulturas do campo."
-				"&f3. Derrote &cBlazes&r até um deles deixar o &6Manual de Instruções Blaze&r."
-			]
+			x: 2.0d
+			y: 4.8d
 		}
 		{
-			id: "369DBF99F301EF9B"
-			x: 4.0d
-			y: -2.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:cast_time_ring"
-			}
 			dependencies: [
 				"67A5105EEF8FEF76"
 				"1765739A41F9FE90"
 			]
+			icon: {
+				id: "irons_spellbooks:cast_time_ring"
+			}
+			id: "369DBF99F301EF9B"
+			rewards: [{
+				id: "50142AEDF486EF4D"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "49F6541F9540E4AE"
+					item: { count: 1, id: "irons_spellbooks:cast_time_ring" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:cast_time_ring"
-					}
-					count: 1L
 				}
 				{
 					id: "38B9B8F0312DDAFC"
+					item: { count: 1, id: "irons_spellbooks:cooldown_ring" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:cooldown_ring"
-					}
-					count: 1L
 				}
 				{
 					id: "50234B77ED26AB03"
+					item: { count: 1, id: "irons_spellbooks:concentration_amulet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:concentration_amulet"
-					}
-					count: 1L
 				}
 				{
 					id: "3D0217CB02345BFF"
+					item: { count: 1, id: "irons_spellbooks:conjurers_talisman" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:conjurers_talisman"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "50142AEDF486EF4D"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "As Joias do Conjurador"
-			description: [
-				"&7Um anel gira mais rápido do que deveria; outro, de cobre gasto, devolve o fôlego antes da hora."
-				"&7Correntes que prendem o corpo no lugar e um crânio que os mortos invocados respeitam."
-				"&7Os mestres não tiram essas quatro peças nem para dormir."
-				""
-				"&6Objetivo:&r 1. &6Anel da Presteza&r (Mechanical Crafter): ametista + sucata de mithril. Conjuração mais rápida."
-				"&f2. &6Anel da Recuperação&r (Mechanical Crafter): quatro cobres + sucata de mithril. Recarga menor."
-				"&f3. &6Amuleto da Concentração&r: mithril, sucata e três correntes. Conjurações longas não são interrompidas."
-				"&f4. &6Talismã do Conjurador&r: crânio de esqueleto, três barbantes e sucata de mithril. Invocações mais fortes."
-				""
-				"&8Os anéis também aparecem em tesouros mágicos, antes mesmo do mithril."
-			]
+			x: 4.0d
+			y: -2.0d
 		}
 		{
-			id: "6E282DDCECD1C67E"
-			x: 4.0d
-			y: -0.4d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:netherite_spell_book"
-			}
 			dependencies: [
 				"1788C4B58A1E711D"
 				"4D316F3B5A75B34E"
 				"55D0A3EC9F48C538"
 				"67A5105EEF8FEF76"
 			]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:netherite_spell_book"
+			}
+			id: "6E282DDCECD1C67E"
+			rewards: [{
+				id: "06EEBB76EC7F8409"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "59D82284F189C74F"
-					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_netherite"
 					criterion: ""
+					id: "59D82284F189C74F"
+					type: "advancement"
 				}
 				{
-					id: "4F1D262C78194E36"
-					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_druidic"
 					criterion: ""
+					id: "4F1D262C78194E36"
+					type: "advancement"
 				}
 				{
-					id: "2B2EA0F9FF08E778"
-					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_frostbranded"
 					criterion: ""
+					id: "2B2EA0F9FF08E778"
+					type: "advancement"
 				}
 				{
 					id: "61F7696B7B594E91"
+					item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:eldritch_manuscript"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "06EEBB76EC7F8409"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "Os Livros Restaurados"
-			description: [
-				"&7O livro arruinado ainda lembra o que era. Com netherita, sangue e raio, volta a falar como o Códex Antigo."
-				"&7O Livro Podre ainda tinha vida: mel, esporos e luz o fizeram florescer. Outro arruinado, embebido em veneno gélido, estala de frio."
-				"&7E a nona escola, enterrada por quem a criou, sussurra em fragmentos colados com um eco."
-				""
-				"&6Objetivo:&r Todos na &6Mechanical Crafter&r, exceto o manuscrito:"
-				"&f1. &6Códex Antigo&r: livro arruinado, netherita, quatro tecidos arcanos, dois frascos de sangue e uma garrafa de raio."
-				"&f2. &2Tomo Druídico&r: livro podre, aglomerado de ametista, garrafa de mel, flor de esporos, bolsa de tinta brilhante e dois tecidos arcanos."
-				"&f3. &bLivro Marcado pelo Gelo&r: livro arruinado, duas sucatas de mithril, três tecidos arcanos e três frascos de veneno gélido."
-				"&f4. &5Manuscrito Eldritch&r (bancada): oito Fragmentos de Conhecimento Antigo em volta de um Fragmento de Eco."
-				"&f   Lido uma vez, ensina uma magia Eldritch; depois disso o Fragmento de Eco vira o foco dela na forja."
-				""
-				"&8Magias Eldritch só podem ser forjadas e lançadas depois de aprendidas."
-			]
+			x: 4.0d
+			y: -0.4d
 		}
 		{
-			id: "6652964DC061A061"
-			x: 4.0d
-			y: 1.2d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:spellbreaker"
-			}
 			dependencies: [
 				"67A5105EEF8FEF76"
 				"55D0A3EC9F48C538"
 			]
-			tasks: [
-				{
-					id: "64918F1AE0680E43"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:weapon_parts"
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:counterspell"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
 					}
-					count: 2L
 				}
-				{
-					id: "3080453FCDA06A4A"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:amethyst_rapier"
-					}
-					count: 1L
-				}
-				{
-					id: "531D36E0F540A628"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:spellbreaker"
-					}
-					count: 1L
-				}
-				{
-					id: "32222CE1FDF02B23"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:boreal_blade"
-					}
-					count: 1L
-				}
-				{
-					id: "5F4CE7DE4990C9E1"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:frosted_helve"
-					}
-					count: 1L
-				}
-				{
-					id: "0530ED6B164F50A0"
-					type: "advancement"
-					advancement: "irons_spellbooks:irons_spellbooks/staff_ice"
-					criterion: ""
-				}
-			]
+				id: "irons_spellbooks:spellbreaker"
+			}
+			id: "6652964DC061A061"
 			rewards: [
 				{
 					id: "5F9D1C9887E3B1B0"
@@ -531,231 +370,156 @@
 				}
 				{
 					id: "551165E896F32D0F"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Arsenal do Arcanista"
-			description: [
-				"&7Lâminas de mago não se forjam inteiras: começam como peças de mithril e metal arcano."
-				"&7Uma rapieira fina e cantante; uma espada que corta o próprio ar onde a magia acontece; uma lâmina que nunca esquenta."
-				"&7E ossos congelados envoltos em metal arcano, à espera de um permafrost na ponta para chorar geada."
-				""
-				"&6Objetivo:&r 1. Faça 2 &6Peças de Arma&r: três lingotes de mithril e dois lingotes arcanos."
-				"&f2. &6Rapieira de Ametista&r: dois fragmentos de ametista, duas correntes e peças de arma."
-				"&f3. &6Quebra-Feitiços&r (Mechanical Crafter): dois mithril, dois diamantes e peças de arma."
-				"&f4. &bLâmina Boreal&r (Mechanical Crafter): mithril, dois frascos de veneno gélido, peças de arma e gelo."
-				"&f5. &6Cabo Gélido&r (Mechanical Crafter): quatro ossos congelados e três lingotes arcanos."
-				"&f6. Una o Cabo Gélido a um Fragmento de Permafrost na Mechanical Crafter: &bCajado de Gelo&r."
-				""
-				"&8Os cofres ominosos das Câmaras de Provação também guardam Peças de Arma."
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "64918F1AE0680E43"
+					item: { count: 1, id: "irons_spellbooks:weapon_parts" }
+					type: "item"
+				}
+				{
+					id: "3080453FCDA06A4A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:echoing_strikes", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:amethyst_rapier" }
+					type: "item"
+				}
+				{
+					id: "531D36E0F540A628"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
+					type: "item"
+				}
+				{
+					id: "32222CE1FDF02B23"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:frostbite", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:boreal_blade" }
+					type: "item"
+				}
+				{
+					id: "5F4CE7DE4990C9E1"
+					item: { count: 1, id: "irons_spellbooks:frosted_helve" }
+					type: "item"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/staff_ice"
+					criterion: ""
+					id: "0530ED6B164F50A0"
+					type: "advancement"
+				}
 			]
+			x: 4.0d
+			y: 1.2d
 		}
 		{
-			id: "121714D1C86D7B8A"
-			x: 4.0d
-			y: 2.8d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:upgrade_orb"
-			}
 			dependencies: [
 				"67A5105EEF8FEF76"
 				"25922491DF4C355B"
 				"477D1D74C4B9B265"
 			]
+			icon: {
+				id: "irons_spellbooks:upgrade_orb"
+			}
+			id: "121714D1C86D7B8A"
+			rewards: [{
+				id: "3072E76D3975E881"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "5CD8C84D45687DE8"
+					item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:upgrade_orb"
-					}
-					count: 1L
 				}
 				{
 					id: "515F74D99661B96D"
+					item: { count: 1, id: "irons_spellbooks:mana_upgrade_orb" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:mana_upgrade_orb"
-					}
-					count: 1L
 				}
 				{
 					id: "6CF3E75F367649A9"
+					item: { count: 1, id: "irons_spellbooks:cooldown_upgrade_orb" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:cooldown_upgrade_orb"
-					}
-					count: 1L
 				}
 				{
 					id: "519CEE8C3A00F35A"
+					item: { count: 1, id: "irons_spellbooks:protection_upgrade_orb" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:protection_upgrade_orb"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "3072E76D3975E881"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "O Orbe Vazio"
-			description: [
-				"&7Uma esfera de vidro arcano à espera de uma vocação: o primeiro passo para aprimorar tudo."
-				"&7Sem escola, ela pode guardar só mana pura girando, apressar o fôlego ou endurecer a pele."
-				""
-				"&6Objetivo:&r 1. Faça o &6Orbe de Aprimoramento Vazio&r: quatro lingotes arcanos, quatro Essências de Cinzas e um lingote de mithril."
-				"&f2. Crie o &bOrbe de Mana&r: Orbe Vazio cercado por oito Runas Arcanas."
-				"&f3. Crie o &6Orbe de Recuperação&r: Orbe Vazio cercado por oito Runas da Recuperação."
-				"&f4. Crie o &6Orbe de Proteção&r: Orbe Vazio cercado por oito Runas Protetoras."
-				"&fNa Bigorna Arcana, orbes aprimoram armaduras e livros (o limite de aprimoramentos é por peça)."
-			]
+			x: 4.0d
+			y: 2.8d
 		}
 		{
-			id: "4F5C8E3017F995AF"
-			x: 4.0d
-			y: 4.4d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:pyrium_staff"
-			}
 			dependencies: [
 				"25922491DF4C355B"
 				"1788C4B58A1E711D"
 			]
+			icon: {
+				id: "irons_spellbooks:pyrium_staff"
+			}
+			id: "4F5C8E3017F995AF"
+			rewards: [{
+				id: "5DE6AA8C409B3B38"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "69B258B7AE52E73A"
+					item: { count: 1, id: "irons_spellbooks:furled_map_citadel" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:furled_map_citadel"
-					}
-					count: 1L
 				}
 				{
-					id: "5C36B61D7F231C5A"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:pyrium_ingot"
-					}
 					count: 2L
+					id: "5C36B61D7F231C5A"
+					item: { count: 1, id: "irons_spellbooks:pyrium_ingot" }
+					type: "item"
 				}
 				{
 					id: "177F6212DA53D604"
+					item: { count: 1, id: "irons_spellbooks:keeper_flamberge" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:keeper_flamberge"
-					}
-					count: 1L
 				}
 				{
 					id: "23E0CDB89C134E75"
+					item: { count: 1, id: "irons_spellbooks:legionnaire_flamberge" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:legionnaire_flamberge"
-					}
-					count: 1L
 				}
 				{
-					id: "20BEA07F61918AD8"
-					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/staff_pyrium"
 					criterion: ""
+					id: "20BEA07F61918AD8"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "5DE6AA8C409B3B38"
-					type: "xp"
-					xp: 700
-				}
-			]
-			title: "A Cidadela Perdida"
-			description: [
-				"&7Papel, cinzas e saber antigo traçam a única rota até a fortaleza perdida do Nether."
-				"&7Seu metal, o pírio, brilha como brasa e lembra o primeiro portador da chama."
-				"&7Nas muralhas jazem as flamberges dos guardiões, roídas por séculos de calor. Banhadas em lodo atemporal e reforjadas, lembram quem foram."
-				""
-				"&6Objetivo:&r 1. Faça o &6Mapa Enrolado da Cidadela&r: cinco papéis, duas Essências de Cinzas e dois Fragmentos de Conhecimento Antigo."
-				"&f2. Saqueie os cofres da &cCidadela Perdida&r até achar 2 &6Lingotes de Pírio&r."
-				"&f3. Encontre a &6Flamberge Decrépita&r nos baús das muralhas."
-				"&f4. Na Mesa de Ferraria: Lodo Atemporal como molde, Flamberge Decrépita como base e Pírio como adição: &6Flamberge do Legionário&r."
-				"&f5. Forje o &cCajado de Pírio&r na &6Mechanical Crafter&r: tecido arcano, netherita e dois lingotes de pírio."
-				""
-				"&8No alto-forno, o pírio se desfaz em detrito ancestral."
-				"&8No coração da Cidadela espera o Eco de Tyros. Não o desperte antes do Tier V."
-			]
+			x: 4.0d
+			y: 4.4d
 		}
 		{
-			id: "60B541AAF7505CFC"
-			x: 4.0d
-			y: 6.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:netherite_mage_chestplate"
-			}
 			dependencies: [
 				"1D3354AB770F3BBC"
 				"25922491DF4C355B"
 			]
-			tasks: [
-				{
-					id: "4A5E19297F226695"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:netherite_mage_helmet"
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
 					}
-					count: 1L
 				}
-				{
-					id: "0E78544C7B1DAC97"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:netherite_mage_chestplate"
-					}
-					count: 1L
-				}
-				{
-					id: "4FD1A6DBDB41037C"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:netherite_mage_leggings"
-					}
-					count: 1L
-				}
-				{
-					id: "651DF3B2CD9699E9"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:netherite_mage_boots"
-					}
-					count: 1L
-				}
-			]
+				id: "irons_spellbooks:netherite_mage_chestplate"
+			}
+			id: "60B541AAF7505CFC"
 			rewards: [
 				{
 					id: "6ACBF8307462E613"
@@ -764,102 +528,49 @@
 				}
 				{
 					id: "413C785D7B9A60A7"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Mago de Batalha"
-			description: [
-				"&7Vestes de mago revestidas de netherita: a escolha de quem lança feitiços na linha de frente."
-				"&7Pesam mais do que parecem, mas não queimam, não rasgam e não deixam a mana escapar."
-				""
-				"&6Objetivo:&r 1. Na Mesa de Ferraria, aplique &6netherita&r (molde de aprimoramento + lingote) a cada peça do Mago:"
-				"&f   elmo, peitoral, calças e botas de &6Mago de Batalha de Netherita&r."
-				""
-				"&8No Heartforge, a netherita só se liga no Mixer superaquecido."
+			size: 1.25d
+			tasks: [
+				{
+					id: "4A5E19297F226695"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_helmet" }
+					type: "item"
+				}
+				{
+					id: "0E78544C7B1DAC97"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4FD1A6DBDB41037C"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_leggings" }
+					type: "item"
+				}
+				{
+					id: "651DF3B2CD9699E9"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_boots" }
+					type: "item"
+				}
 			]
+			x: 4.0d
+			y: 6.0d
 		}
 		{
-			id: "36FCC4949AE82CEA"
-			x: 6.0d
-			y: 0.73d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:fireward_ring"
-			}
 			dependencies: [
 				"369DBF99F301EF9B"
 				"25922491DF4C355B"
 			]
-			tasks: [
-				{
-					id: "38D1E5738FF94F4B"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:fireward_ring"
-					}
-					count: 1L
-				}
-				{
-					id: "6D9E4B3236B30EF6"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:frostward_ring"
-					}
-					count: 1L
-				}
-				{
-					id: "51A41653CC800139"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:poisonward_ring"
-					}
-					count: 1L
-				}
-				{
-					id: "6FF7A0C7BC2AB004"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:emerald_stoneplate_ring"
-					}
-					count: 1L
-				}
-				{
-					id: "67217FEB189003F7"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:expulsion_ring"
-					}
-					count: 1L
-				}
-				{
-					id: "0D3265A93C35E9F3"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:heavy_chain_necklace"
-					}
-					count: 1L
-				}
-				{
-					id: "06AF1EA4E5E1B2E0"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:portal_frame"
-					}
-					count: 2L
-				}
-			]
+			icon: {
+				id: "irons_spellbooks:fireward_ring"
+			}
+			id: "36FCC4949AE82CEA"
+			optional: true
 			rewards: [
 				{
 					id: "6F42D91C10C89FFD"
@@ -868,70 +579,66 @@
 				}
 				{
 					id: "4C5C27C4B70904F5"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Bugigangas de Mithril"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nem toda joia de mago brilha. Algumas só pesam, sopram ou pagam em experiência."
-				"&7Três anéis afastam fogo, gelo e veneno; e duas molduras de mithril, costuradas pela magia do Portal, encurtam qualquer viagem."
-				""
-				"&6Objetivo:&r Cada joia leva sucata de mithril:"
-				"&f1. &6Anel contra Fogo&r (quatro Essências de Cinzas), &6contra Gelo&r (Fragmento de Permafrost) e &6contra Veneno&r (Runa da Natureza)."
-				"&f2. &6Anel de Placa Esmeralda&r (garrafa de experiência, +25% de XP) e &6Anel da Expulsão&r (carga de vento, rajada ao ser atingido)."
-				"&f3. &6Corrente Pesada&r: quatro correntes."
-				"&f4. 2 &6Molduras de Portal&r: dois mithril, quatro lingotes arcanos e uma pérola do Ender. Ligue-as com a magia &5Portal&r."
+			size: 1.25d
+			tasks: [
+				{
+					id: "38D1E5738FF94F4B"
+					item: { count: 1, id: "irons_spellbooks:fireward_ring" }
+					type: "item"
+				}
+				{
+					id: "6D9E4B3236B30EF6"
+					item: { count: 1, id: "irons_spellbooks:frostward_ring" }
+					type: "item"
+				}
+				{
+					id: "51A41653CC800139"
+					item: { count: 1, id: "irons_spellbooks:poisonward_ring" }
+					type: "item"
+				}
+				{
+					id: "6FF7A0C7BC2AB004"
+					item: { count: 1, id: "irons_spellbooks:emerald_stoneplate_ring" }
+					type: "item"
+				}
+				{
+					id: "67217FEB189003F7"
+					item: { count: 1, id: "irons_spellbooks:expulsion_ring" }
+					type: "item"
+				}
+				{
+					id: "0D3265A93C35E9F3"
+					item: { count: 1, id: "irons_spellbooks:heavy_chain_necklace" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "06AF1EA4E5E1B2E0"
+					item: { count: 1, id: "irons_spellbooks:portal_frame" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 6.0d
+			y: 0.73d
 		}
 		{
-			id: "21D3BAF5CFE51E33"
-			x: 6.0d
-			y: 2.33d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:fire_upgrade_orb"
-			}
 			dependencies: [
 				"121714D1C86D7B8A"
 				"3B215ADB9CB4514C"
 				"4AA0CA3C4D941A72"
 				"49328EEE7AB27F31"
 			]
-			tasks: [
-				{
-					id: "79BA522A80DEABE1"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:fire_upgrade_orb"
-					}
-					count: 1L
-				}
-				{
-					id: "4C35F874FF32D226"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:ice_upgrade_orb"
-					}
-					count: 1L
-				}
-				{
-					id: "11B7F0B816E24F4C"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:lightning_upgrade_orb"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "irons_spellbooks:fire_upgrade_orb"
+			}
+			id: "21D3BAF5CFE51E33"
 			rewards: [
 				{
 					id: "00143D611B21B0E5"
@@ -940,84 +647,40 @@
 				}
 				{
 					id: "093E57E95946C98E"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
-			]
-			title: "Orbes dos Elementos"
-			description: [
-				"&7Um orbe que cospe faíscas quando alguém pronuncia a palavra \"frio\"; outro que tira a sensibilidade dos dedos;"
-				"&7um terceiro com uma tempestade em miniatura girando lá dentro, sem nunca se cansar."
-				""
-				"&6Objetivo:&r Em cada caso, um Orbe Vazio no centro, cercado por oito runas da escola:"
-				"&f1. &cOrbe de Fogo&r (oito Runas de Fogo)."
-				"&f2. &bOrbe de Gelo&r (oito Runas de Gelo)."
-				"&f3. &eOrbe de Raio&r (oito Runas de Raio)."
-				"&fNa Bigorna Arcana, cada um soma poder às magias da sua escola numa peça de armadura ou num livro."
-			]
-		}
-		{
-			id: "2A9FCE2872CA778C"
-			x: 6.0d
-			y: 3.93d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "irons_spellbooks:holy_upgrade_orb"
-			}
-			dependencies: [
-				"121714D1C86D7B8A"
 			]
 			tasks: [
 				{
-					id: "2790FC24B495B4F4"
+					id: "79BA522A80DEABE1"
+					item: { count: 1, id: "irons_spellbooks:fire_upgrade_orb" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:holy_upgrade_orb"
-					}
-					count: 1L
 				}
 				{
-					id: "628C777E9CDADFBC"
+					id: "4C35F874FF32D226"
+					item: { count: 1, id: "irons_spellbooks:ice_upgrade_orb" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:blood_upgrade_orb"
-					}
-					count: 1L
 				}
 				{
-					id: "0DE25E46B0C25EAD"
+					id: "11B7F0B816E24F4C"
+					item: { count: 1, id: "irons_spellbooks:lightning_upgrade_orb" }
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:evocation_upgrade_orb"
-					}
-					count: 1L
-				}
-				{
-					id: "6EA9E153FF544772"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:nature_upgrade_orb"
-					}
-					count: 1L
-				}
-				{
-					id: "313695CEC49711F6"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:ender_upgrade_orb"
-					}
-					count: 1L
 				}
 			]
+			x: 6.0d
+			y: 2.33d
+		}
+		{
+			dependencies: ["121714D1C86D7B8A"]
+			icon: {
+				id: "irons_spellbooks:holy_upgrade_orb"
+			}
+			id: "2A9FCE2872CA778C"
+			optional: true
 			rewards: [
 				{
 					id: "33EF5BA2E51A4775"
@@ -1026,28 +689,43 @@
 				}
 				{
 					id: "43FD62EF59BD9E13"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Orbes da Alma"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Um brilho manso como vela de capela; um rubi com o calor de uma ferida recente;"
-				"&7um orbe que ri baixinho quando ninguém olha; outro que cheira a terra molhada;"
-				"&7e um sempre úmido, como se tivesse acabado de voltar de muito longe."
-				""
-				"&6Objetivo:&r Em cada caso, um Orbe Vazio no centro, cercado por oito runas da escola:"
-				"&f1. &fOrbe Sagrado&r. 2. &4Orbe de Sangue&r. 3. &aOrbe de Evocação&r. 4. &2Orbe da Natureza&r. 5. &5Orbe Ender&r."
+			size: 1.25d
+			tasks: [
+				{
+					id: "2790FC24B495B4F4"
+					item: { count: 1, id: "irons_spellbooks:holy_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "628C777E9CDADFBC"
+					item: { count: 1, id: "irons_spellbooks:blood_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "0DE25E46B0C25EAD"
+					item: { count: 1, id: "irons_spellbooks:evocation_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "6EA9E153FF544772"
+					item: { count: 1, id: "irons_spellbooks:nature_upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "313695CEC49711F6"
+					item: { count: 1, id: "irons_spellbooks:ender_upgrade_orb" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 6.0d
+			y: 3.93d
 		}
-	]
-	title: "&6Tier IV&7 - Mithril e Cinzas"
-	subtitle: [
-		"&dArtes Arcanas&7, &6Tier IV"
 	]
 }

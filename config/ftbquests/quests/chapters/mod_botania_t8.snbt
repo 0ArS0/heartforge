@@ -4,98 +4,39 @@
 	filename: "mod_botania_t8"
 	group: "0BD654FB0C580B11"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_8"
 	}
 	id: "7656E1B34DE2D318"
-	order_index: 31
+	images: [ ]
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3D42429C586EAEDA"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_8"
 			}
-			tasks: [
-				{
-					id: "655A98C992EB2E3B"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_8"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&eTier VIII"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &eTier VIII&7."
-			]
-			disable_toast: true
+			id: "3D42429C586EAEDA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_8"
+				criterion: ""
+				id: "655A98C992EB2E3B"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "7AEBBE6809694763"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "botania:dice"
-			}
 			dependencies: [
 				"255D4948A81559F8"
 				"3D42429C586EAEDA"
 			]
-			tasks: [
-				{
-					id: "5C644E95C727D814"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:dice"
-					}
-					count: 1L
-				}
-				{
-					id: "36A1FDA9CCD0AEC1"
-					type: "advancement"
-					advancement: "botania:challenge/thor_ring"
-					criterion: ""
-				}
-				{
-					id: "43AF26A0EE9E09E5"
-					type: "advancement"
-					advancement: "botania:challenge/odin_ring"
-					criterion: ""
-				}
-				{
-					id: "0836331A4AE89F15"
-					type: "advancement"
-					advancement: "botania:challenge/loki_ring"
-					criterion: ""
-				}
-				{
-					id: "40277498C4AEF66E"
-					type: "advancement"
-					advancement: "botania:challenge/flugel_eye"
-					criterion: ""
-				}
-				{
-					id: "4F85C58E278002D0"
-					type: "advancement"
-					advancement: "botania:challenge/king_key"
-					criterion: ""
-				}
-				{
-					id: "293C4B45682CE629"
-					type: "advancement"
-					advancement: "botania:challenge/infinite_fruit"
-					criterion: ""
-				}
-			]
+			icon: {
+				id: "botania:dice"
+			}
+			id: "7AEBBE6809694763"
 			rewards: [
 				{
 					id: "1D319AF6C9F70B4C"
@@ -104,57 +45,70 @@
 				}
 				{
 					id: "6A71E6211F6C8308"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O Dado do Destino"
-			description: [
-				"&7\"Quem lançar o Dado do Destino será presenteado pelos deuses.\" Os elfos juram que é verdade."
-				"&7Cada face materializa uma das seis Relíquias dos Aesir, ligadas para sempre a quem as recebeu: o anel"
-				"&7do Trovão, o do Pai de Todos, o do Trapaceiro, o olho das anjas, a chave do rei e um fruto sem fim."
-				""
-				"&6Objetivo:&r 1. Lance o &6Dado do Destino&r (drop do Guardião II). A mesma relíquia não vem duas vezes para a mesma pessoa."
-				"&f2. &6Anel de Thor&r: aumenta muito a área do Terra-Destruidor."
-				"&f3. &6Anel de Odin&r: +10 corações e imunidade a afogamento, sufocamento, fogo e fome."
-				"&f4. &6Anel de Loki&r: agachado com a mão vazia, marque blocos; o que você coloca ou quebra se repete neles."
-				"&f5. &6Olho de Flügel&r: agachado, marque um lugar; segurando o uso, teleporte-se até lá com mana."
-				"&f6. &6Chave da Lei do Rei&r: segure o uso para invocar até 20 armas e solte para lançá-las."
-				"&f7. &6O Fruto de Grisaia&r: coma à vontade, gastando mana em vez de comida."
-				""
-				"&8Relíquias recusam outros donos. Proteja as suas com a Hera Resoluta."
-				"&8As relíquias podem ser divididas pela companhia: cada pessoa lança os próprios dados."
+			size: 1.25d
+			tasks: [
+				{
+					id: "5C644E95C727D814"
+					item: { count: 1, id: "botania:dice" }
+					type: "item"
+				}
+				{
+					advancement: "botania:challenge/thor_ring"
+					criterion: ""
+					id: "36A1FDA9CCD0AEC1"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/odin_ring"
+					criterion: ""
+					id: "43AF26A0EE9E09E5"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/loki_ring"
+					criterion: ""
+					id: "0836331A4AE89F15"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/flugel_eye"
+					criterion: ""
+					id: "40277498C4AEF66E"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/king_key"
+					criterion: ""
+					id: "4F85C58E278002D0"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/infinite_fruit"
+					criterion: ""
+					id: "293C4B45682CE629"
+					type: "advancement"
+				}
 			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "028CA2C9AC011A2E"
-			x: 4.0d
-			y: 0.0d
-			icon: {
-				count: 1
-				id: "botania:loki_ring"
-			}
 			dependencies: [
 				"7AEBBE6809694763"
 				"0E5B2A770DDDEC7A"
 			]
-			tasks: [
-				{
-					id: "5CEDE1446A77D0C5"
-					type: "advancement"
-					advancement: "botania:challenge/loki_ring_many"
-					criterion: ""
-				}
-				{
-					id: "542F742C4456493B"
-					type: "advancement"
-					advancement: "botania:challenge/super_corporea_request"
-					criterion: ""
-				}
-			]
+			icon: {
+				id: "botania:loki_ring"
+			}
+			id: "028CA2C9AC011A2E"
+			optional: true
 			rewards: [
 				{
 					id: "7B992803E47A939F"
@@ -163,27 +117,29 @@
 				}
 				{
 					id: "65584AEF015E0211"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Desmedida"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Duzentos e cinquenta e seis blocos num gesto; sessenta e cinco mil itens num só pedido."
-				"&7O Trapaceiro ficaria orgulhoso, e os baús gemem."
-				""
-				"&6Objetivo:&r 1. Coloque mais de 255 blocos extras de uma vez com o &6Anel de Loki&r."
-				"&f2. Peça &f65.536&r de um mesmo item de uma vez num &6Índice Corporea&r."
+			tasks: [
+				{
+					advancement: "botania:challenge/loki_ring_many"
+					criterion: ""
+					id: "5CEDE1446A77D0C5"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/super_corporea_request"
+					criterion: ""
+					id: "542F742C4456493B"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 0.0d
 		}
-	]
-	title: "&eTier VIII&7 - As Relíquias dos Aesir"
-	subtitle: [
-		"&aA Magia das Flores&7, &eTier VIII"
 	]
 }

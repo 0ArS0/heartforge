@@ -4,80 +4,40 @@
 	filename: "mod_botania_t4"
 	group: "0BD654FB0C580B11"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "1D2FBE3CBC8B2743"
-	order_index: 27
+	images: [ ]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			id: "28A1A3E61790FC35"
-			x: 0.0d
-			y: 1.6d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_4"
 			}
-			tasks: [
-				{
-					id: "03E17C72892A9980"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &6Tier IV&7."
-			]
-			disable_toast: true
+			id: "28A1A3E61790FC35"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "03E17C72892A9980"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.6d
 		}
 		{
-			id: "27B3EB82892E1D44"
-			x: 2.0d
-			y: 0.0d
-			icon: {
-				count: 1
-				id: "botania:orechid_ignem"
-			}
 			dependencies: [
 				"6E1F5ABA6D0AB5CB"
 				"6336C4A565DD85DE"
 				"28A1A3E61790FC35"
 			]
-			tasks: [
-				{
-					id: "2D6EBD0B0183CB0B"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:orechid_ignem"
-					}
-					count: 1L
-				}
-				{
-					id: "00BBA1B3D1869E31"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:incense_stick"
-					}
-					count: 1L
-				}
-				{
-					id: "2C1190B724E0C5DE"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:incense_plate"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "botania:orechid_ignem"
+			}
+			id: "27B3EB82892E1D44"
 			rewards: [
 				{
 					id: "7E3E4E672C312994"
@@ -86,144 +46,90 @@
 				}
 				{
 					id: "790EE79CA3084E80"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O Nether florido"
-			description: [
-				"&7Quando o Nether finalmente se deixa pisar, os botânicos descem com sementes no bolso. O netherrack"
-				"&7florido vira quartzo e ouro, e as lágrimas de ghast alimentam incensos que perfumam uma sala inteira"
-				"&7com o efeito de uma infusão, por muito tempo."
-				""
-				"&6Objetivo:&r 1. &6Orquídea Ígnea&r (vermelhas, brancas, rosa, orgulho + ganância, raiz, pó de fada): no Nether,"
-				"&ftransforma netherrack em quartzo, ouro e até detritos ancestrais."
-				"&f2. &6Bastão de Incenso&r (lágrima de ghast, pó de blaze, graveto): infunda-o na Cervejaria."
-				"&f3. &6Prato de Incenso&r: ponha o bastão infundido e acenda com pederneira; aplica o efeito em todos por perto."
+			tasks: [
+				{
+					id: "2D6EBD0B0183CB0B"
+					item: { count: 1, id: "botania:orechid_ignem" }
+					type: "item"
+				}
+				{
+					id: "00BBA1B3D1869E31"
+					item: { count: 1, id: "botania:incense_stick" }
+					type: "item"
+				}
+				{
+					id: "2C1190B724E0C5DE"
+					item: { count: 1, id: "botania:incense_plate" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "30A6CE9F6C875CBE"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "botania:mana_gun"
-			}
 			dependencies: [
 				"2E78C088BCCC2A2E"
 				"4EE19D5B37E0ABE8"
 				"28A1A3E61790FC35"
 			]
+			icon: {
+				id: "botania:mana_gun"
+			}
+			id: "30A6CE9F6C875CBE"
+			rewards: [{
+				id: "362BF48F33E6EB34"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "28BB1CF47E982652"
+					item: { count: 1, id: "botania:mana_gun" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_gun"
-					}
-					count: 1L
 				}
 				{
-					id: "2AA221CA04C0344F"
-					type: "advancement"
 					advancement: "botania:main/mana_blaster_shoot"
 					criterion: ""
+					id: "2AA221CA04C0344F"
+					type: "advancement"
 				}
 				{
 					id: "2C6F857C7DE05EBE"
+					item: { count: 1, id: "botania:crystal_bow" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:crystal_bow"
-					}
-					count: 1L
 				}
 				{
 					id: "2E379B3FCDEE555C"
+					item: { count: 1, id: "botania:tornado_rod" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:tornado_rod"
-					}
-					count: 1L
 				}
 				{
 					id: "1DB816C81DFAFDA4"
+					item: { count: 1, id: "botania:fire_rod" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:fire_rod"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "362BF48F33E6EB34"
-					type: "xp"
-					xp: 700
-				}
-			]
-			title: "O Arsenal do Feixe"
-			description: [
-				"&7Um dispersor de bolso em forma de pistola, um arco de cristal que nunca fica sem flechas e varas que"
-				"&7chamam o vento ou o fogo. Os elfos ficariam horrorizados; os caçadores de Heartforge ficaram encantados."
-				""
-				"&6Objetivo:&r 1. &6Blaster de Mana&r (dispersor de pulso, Runa da Mana, TNT, diamante de mana) no Mechanical Crafter."
-				"&fDispare-o. Combinado com uma lente na bancada, muda o disparo."
-				"&f2. &6Arco de Cristal&r (pedra dracônica, linha infundida, graveto): atira sem flechas, usando mana."
-				"&f3. &6Vara dos Céus&r (pena, runa do ar, graveto): lança você ao alto, sem dano de queda logo depois."
-				"&f4. &6Vara dos Infernos&r (pó de blaze, runa do fogo): anel de chamas que fere criaturas, mas não você."
-			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "3B2274673298E97A"
-			x: 2.0d
-			y: 3.2d
-			icon: {
-				count: 1
-				id: "botania:mana_ring_greater"
-			}
 			dependencies: [
 				"76694CA9DD54D6B2"
 				"3BD4675C7A79FF3E"
 				"28A1A3E61790FC35"
 			]
-			tasks: [
-				{
-					id: "4A70C02AEB81C09A"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_ring_greater"
-					}
-					count: 1L
-				}
-				{
-					id: "6656E5DB8FB30D4E"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:aura_ring_greater"
-					}
-					count: 1L
-				}
-				{
-					id: "5DDF39C186F10429"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:magnet_ring_greater"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "botania:mana_ring_greater"
+			}
+			id: "3B2274673298E97A"
 			rewards: [
 				{
 					id: "347CA15F36357AE9"
@@ -232,63 +138,40 @@
 				}
 				{
 					id: "03DD479FFBC91A97"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
-			]
-			title: "Anéis maiores"
-			description: [
-				"&7O mesmo anel, forjado de novo com aço-terra, guarda e produz muito mais. Até o ímã ganha um"
-				"&7alcance de bandido."
-				""
-				"&6Objetivo:&r 1. No Mechanical Crafter, combine aço-terra com os anéis:"
-				"&f&6Anel Maior de Mana&r (4x a capacidade), &6Anel Maior de Aura&r (mais geração)"
-				"&fe &6Anel Maior da Magnetização&r (alcance bem maior)."
-			]
-		}
-		{
-			id: "331167492B8ADFA9"
-			x: 4.0d
-			y: 1.6d
-			icon: {
-				count: 1
-				id: "botania:invisibility_cloak"
-			}
-			dependencies: [
-				"30A6CE9F6C875CBE"
 			]
 			tasks: [
 				{
-					id: "41DAD99BDA6934FB"
+					id: "4A70C02AEB81C09A"
+					item: { count: 1, id: "botania:mana_ring_greater" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:blood_pendant"
-					}
-					count: 1L
 				}
 				{
-					id: "5C30C9BA41CD7513"
+					id: "6656E5DB8FB30D4E"
+					item: { count: 1, id: "botania:aura_ring_greater" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:invisibility_cloak"
-					}
-					count: 1L
 				}
 				{
-					id: "71AD93C7D357F416"
+					id: "5DDF39C186F10429"
+					item: { count: 1, id: "botania:magnet_ring_greater" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:stormy_sea_rod"
-					}
-					count: 1L
 				}
 			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["30A6CE9F6C875CBE"]
+			icon: {
+				id: "botania:invisibility_cloak"
+			}
+			id: "331167492B8ADFA9"
+			optional: true
 			rewards: [
 				{
 					id: "23E7B7C00A120011"
@@ -297,30 +180,32 @@
 				}
 				{
 					id: "4B35B9916BD0BBE5"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Tesouros proibidos"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Um pingente que bebe infusões e as devolve para sempre, uma capa que deixa a luz passar através de"
-				"&7quem a veste, e uma vara que carrega a tempestade inteira. Os elfos guardavam estas receitas a sete chaves."
-				""
-				"&6Objetivo:&r 1. &6Pingente de Sangue Maculado&r (lágrima de ghast, prismarinho, diamante de mana): infunda-o na"
-				"&fCervejaria; aplica o efeito continuamente enquanto houver mana."
-				"&f2. &6Capa da Invisibilidade&r (lã branca, cristais de prismarinho, vidro de mana, pérola de mana): como berloque,"
-				"&fdeixa você invisível gastando mana."
-				"&f3. &6Vara do Mar Tempestuoso&r: Vara dos Céus, 2 runas do ar, runa do orgulho e graveto dos sonhos."
+			tasks: [
+				{
+					id: "41DAD99BDA6934FB"
+					item: { count: 1, id: "botania:blood_pendant" }
+					type: "item"
+				}
+				{
+					id: "5C30C9BA41CD7513"
+					item: { count: 1, id: "botania:invisibility_cloak" }
+					type: "item"
+				}
+				{
+					id: "71AD93C7D357F416"
+					item: { count: 1, id: "botania:stormy_sea_rod" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 1.6d
 		}
-	]
-	title: "&6Tier IV&7 - Fogo e Tempestade"
-	subtitle: [
-		"&aA Magia das Flores&7, &6Tier IV"
 	]
 }

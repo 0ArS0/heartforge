@@ -4,111 +4,35 @@
 	filename: "mod_werewolves"
 	group: "4420EA9AE6BA168A"
 	icon: {
-		count: 1
 		id: "werewolves:werewolf_tooth"
 	}
 	id: "7727B0296A76BC98"
-	order_index: 52
+	images: [ ]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7E8062C09AFC0ED7"
-			x: 0.0d
-			y: 0.0d
-			shape: "square"
-			size: 1.75d
 			icon: {
-				count: 1
 				id: "werewolves:werewolf_tooth"
 			}
-			tasks: [
-				{
-					id: "76B6555201DC3797"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "10F6F44CD921788C"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "Uivos na Mata Roxa"
-			description: [
-				"&7Entre os jacarandás roxos e as árvores que brilham à noite vive uma terceira raça, que não bebe sangue: devora."
-				"&7De dia são lenhadores e andarilhos; quando a lua enche, a pele rasga e o lobo sai."
-				""
-				"&7Lobisomem é uma &8facção própria&7, rival tanto dos vampiros quanto dos caçadores: quem a abraça não pode ser vampiro"
-				"&7nem caçador ao mesmo tempo. Páginas marcadas &8[Lobisomem]&7 são do caminho da fera; &9[Caçador]&7, de quem a persegue com prata;"
-				"&7as sem marcador servem a todos."
-				""
-				"&7A forja do Coração paga pelos troféus da matilha: &6Dente de Lobisomem&7 no Tier I, &6Pele Escura&7 no Tier II e &6Pele Branca&7 no Tier III."
-				""
-				"&7Comece procurando uma &8Floresta de Lobisomens&7 e &6prata&7 nas montanhas."
-			]
+			id: "7E8062C09AFC0ED7"
+			rewards: [{
+				id: "10F6F44CD921788C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "76B6555201DC3797"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["7E8062C09AFC0ED7"]
 			id: "64512900CE999EEB"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"7E8062C09AFC0ED7"
-			]
-			tasks: [
-				{
-					id: "1D89E70F44AF0D88"
-					type: "advancement"
-					advancement: "werewolves:dog_soldiers"
-					criterion: ""
-				}
-				{
-					id: "1760A00BA656AED6"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:jacaranda_log"
-					}
-					count: 8L
-				}
-				{
-					id: "394B176C7013A82B"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:magic_log"
-					}
-					count: 8L
-				}
-				{
-					id: "5C11FFB6429AC76A"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:daffodil"
-					}
-					count: 1L
-				}
-				{
-					id: "0B928F6F9A2E7A97"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:wolf_berries"
-					}
-					count: 4L
-				}
-				{
-					id: "39B535EFDB51A1A7"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:wolfsbane"
-					}
-					count: 4L
-				}
-			]
 			rewards: [
 				{
 					id: "1CF741B3D06E42ED"
@@ -117,71 +41,57 @@
 				}
 				{
 					id: "5FE706A7E82DA55F"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Mata Roxa"
-			description: [
-				"&7Jacarandás de flor roxa, árvores mágicas que cintilam no escuro e, entre elas, olhos amarelos que não piscam."
-				"&7Narcisos e bagas silvestres crescem onde a matilha passa; os lobos os respeitam, os humanos os colhem."
-				"&7E à beira da mata cresce uma flor roxa e humilde, o &5acônito&7, que os lobos evitam como o vampiro evita o alho."
-				""
-				"&6Objetivo:&r 1. Encontre uma &8Floresta de Lobisomens&r. Lobisomens e licantropos humanos vivem nela e nos arredores."
-				"&f2. Corte 8 &6Troncos de Jacarandá&r e 8 &6Troncos Mágicos&r."
-				"&f3. Colete um &6Narciso&r e 4 &6Bagas de Lobo&r."
-				"&f4. Colha 4 &5Acônitos&r (florestas e campos). Lobisomens perto dele ficam fracos."
-			]
-		}
-		{
-			id: "70178554A92A0F61"
-			x: 4.0d
-			y: 0.0d
 			size: 1.25d
-			dependencies: [
-				"64512900CE999EEB"
-			]
 			tasks: [
 				{
-					id: "3745B6CCCB277129"
-					type: "advancement"
-					advancement: "werewolves:teen_wolf"
+					advancement: "werewolves:dog_soldiers"
 					criterion: ""
+					id: "1D89E70F44AF0D88"
+					type: "advancement"
 				}
 				{
-					id: "652C45BE24058E68"
-					type: "advancement"
-					advancement: "werewolves:bad_moon_rising"
-					criterion: ""
+					count: 8L
+					id: "1760A00BA656AED6"
+					item: { count: 1, id: "werewolves:jacaranda_log" }
+					type: "item"
 				}
 				{
-					id: "5E9B4703F9BF34EF"
-					type: "advancement"
-					advancement: "werewolves:howling_moon"
-					criterion: ""
+					count: 8L
+					id: "394B176C7013A82B"
+					item: { count: 1, id: "werewolves:magic_log" }
+					type: "item"
 				}
 				{
-					id: "1DABBA0C354F32C4"
-					type: "advancement"
-					advancement: "werewolves:another_one_bites_the_dust"
-					criterion: ""
+					id: "5C11FFB6429AC76A"
+					item: { count: 1, id: "werewolves:daffodil" }
+					type: "item"
 				}
 				{
-					id: "090BDA24E78E0EB1"
-					type: "advancement"
-					advancement: "werewolves:insatiable_beast"
-					criterion: ""
+					count: 4L
+					id: "0B928F6F9A2E7A97"
+					item: { count: 1, id: "werewolves:wolf_berries" }
+					type: "item"
 				}
 				{
-					id: "77DFD1CCC004448E"
-					type: "advancement"
-					advancement: "werewolves:standing_here_i_realize"
-					criterion: ""
+					count: 4L
+					id: "39B535EFDB51A1A7"
+					item: { count: 1, id: "werewolves:wolfsbane" }
+					type: "item"
 				}
 			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64512900CE999EEB"]
+			id: "70178554A92A0F61"
 			rewards: [
 				{
 					id: "1539074A19193F4D"
@@ -190,48 +100,59 @@
 				}
 				{
 					id: "0399C1919F790EDE"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "&8[Lobisomem]&r A Maldição da Lua"
-			description: [
-				"&7Um arranhão de nada no braço. À noite, o sono vem pesado, e os sonhos são de corrida e de carne."
-				"&7Na primeira lua cheia não há escolha: o corpo se rasga sozinho e a fera assume. Depois disso, o uivo sai como se você já o tivesse dado em outra vida."
-				"&7O vampiro bebe com cuidado. O lobisomem não tem paciência para isso, e nenhuma carne escapa do cardápio."
-				""
-				"&6Objetivo:&r 1. Deixe um lobisomem arranhar você até contrair &8Lupus Sanguinem&r e durma: ao acordar, você será &8Lobisomem&r. Leite cancela a infecção antes do sono."
-				"&f2. Passe pela primeira transformação forçada numa noite de &6lua cheia&r. Fora dela, transforme-se pela roda de ações."
-				"&f3. Use a ação &6Uivo&r em forma de lobo: acelera os ataques seus e da matilha próxima."
-				"&f4. Em forma de lobo, &6devore&r uma criatura (mordida finalizadora)."
-				"&f5. Coma &6todos os tipos de carne&r: porco, vaca, carneiro, frango, coelho, peixe..."
-				"&f6. Vista armadura durante uma transformação parcial e descubra por que a fera prefere pele a metal."
-				""
-				"&8Na árvore de habilidades escolha o rumo: &cBesta&8 (força bruta), &aSobrevivente&8 (velocidade, escala blocos) ou &7Humano&8 (utilidade)."
-				"&8Caçadores vacinados e vampiros não podem virar lobisomens. Lobisomens só se satisfazem com carne até aprenderem a habilidade que libera outros alimentos."
-			]
-		}
-		{
-			id: "59AFB505BB321B1E"
-			x: 6.0d
-			y: 0.0d
-			dependencies: [
-				"70178554A92A0F61"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "28EB2A6B2F039670"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:injection_un_werewolf"
-					}
-					count: 1L
+					advancement: "werewolves:teen_wolf"
+					criterion: ""
+					id: "3745B6CCCB277129"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:bad_moon_rising"
+					criterion: ""
+					id: "652C45BE24058E68"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:howling_moon"
+					criterion: ""
+					id: "5E9B4703F9BF34EF"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:another_one_bites_the_dust"
+					criterion: ""
+					id: "1DABBA0C354F32C4"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:insatiable_beast"
+					criterion: ""
+					id: "090BDA24E78E0EB1"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:standing_here_i_realize"
+					criterion: ""
+					id: "77DFD1CCC004448E"
+					type: "advancement"
 				}
 			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70178554A92A0F61"]
+			id: "59AFB505BB321B1E"
+			optional: true
 			rewards: [
 				{
 					id: "5A65965CFE9D43C6"
@@ -240,26 +161,20 @@
 				}
 				{
 					id: "70BD2CBE914F4D76"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&8[Lobisomem]&r Arrancar a Maldição"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Há um líquido estranho nas veias de todo lobisomem. Injetado de volta, ele apaga a lua do sangue, e o homem volta a dormir em paz."
-				""
-				"&6Objetivo:&r 1. Use uma &6Seringa vazia&r num lobisomem para obter a &6Injeção Estranha&r."
-				"&f2. Aplique-a numa &6Cadeira de Injeção&r para deixar de ser lobisomem (todos os níveis se perdem)."
-			]
-			optional: true
+			tasks: [{
+				id: "28EB2A6B2F039670"
+				item: { count: 1, id: "werewolves:injection_un_werewolf" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
 		}
-	]
-	title: "Uivos na Mata Roxa"
-	subtitle: [
-		"A maldição da lua cheia"
 	]
 }

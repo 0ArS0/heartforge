@@ -4,96 +4,38 @@
 	filename: "mod_bic_t2"
 	group: "13EF259E1ADFAB3C"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "5FD58C987F317CDD"
-	order_index: 84
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "441FDD21C07FF34D"
-			x: 0.0d
-			y: 3.2d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_2"
 			}
-			tasks: [
-				{
-					id: "6BCD3850B7C24F88"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
-			]
-			disable_toast: true
+			id: "441FDD21C07FF34D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "6BCD3850B7C24F88"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.2d
 		}
 		{
-			id: "7E5A5340EC686B0E"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"6CF570EABC5D894B"
 				"42EE829680649A76"
 				"346039B6F17ED8DD"
 				"441FDD21C07FF34D"
 			]
-			tasks: [
-				{
-					id: "53DC93725D9906D3"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
-					}
-					count: 1L
-				}
-				{
-					id: "0983DFCCC8E9EF1F"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:bonk"
-					criterion: ""
-				}
-				{
-					id: "640BD5F3A1995901"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:my_size"
-					criterion: ""
-				}
-				{
-					id: "77AD36130949CA2C"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:spider_warlord"
-					criterion: ""
-				}
-				{
-					id: "398A3909F1561A53"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:frostbitten_blade"
-					}
-					count: 1L
-				}
-				{
-					id: "1F17647D31AADC75"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:intoxicating_dagger"
-					}
-					count: 1L
-				}
-			]
+			id: "7E5A5340EC686B0E"
 			rewards: [
 				{
 					id: "30030A91C5206BFE"
@@ -102,84 +44,59 @@
 				}
 				{
 					id: "36218FDC7353BA83"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Ferreiro sombrio"
-			description: [
-				"&7A primeira lâmina de metal sombrio corta mortos-vivos como se fossem palha."
-				"&7Depois vêm o martelo que faz o crânio vibrar como sino, a lâmina de guerra pesada demais para quem não está tomado de força,"
-				"&7a picada que faz o inimigo parir aranhas, o gelo eterno dos servos de Krampus e a adaga embebida em decocção."
-				""
-				"&6Objetivo:&r Todas levam Cabo de Osso:"
-				"&f1. &6Espada Afiada de Metal Sombrio&r: 2 lingotes sobre o cabo. Dano extra contra mortos-vivos."
-				"&f2. &6Martelo Quebra-Crânios&r (bloco de metal sombrio sobre 2 cabos): atordoe um inimigo com um golpe saltando."
-				"&f3. &6Lâmina de Guerra Sombria&r: 2 blocos de metal sombrio sobre o cabo."
-				"&f4. &6Picada de Aranha&r: 4 Mandíbulas de Aranha e 2 lingotes."
-				"&f5. &6Lâmina Enregelada&r: Lascas de Permafrost e lingote. Congela aos poucos; botão direito solta uma explosão de gelo."
-				"&f6. &6Adaga Intoxicante&r: 3 Decocções Intoxicantes e lingote."
-				""
-				"&8Sem efeito de Força a Lâmina de Guerra fica lenta. Lascas de Permafrost caem dos Capangas de Krampus nas épocas frias."
+			size: 1.25d
+			tasks: [
+				{
+					id: "53DC93725D9906D3"
+					item: { count: 1, id: "born_in_chaos_v1:sharpened_dark_metal_sword" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:bonk"
+					criterion: ""
+					id: "0983DFCCC8E9EF1F"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:my_size"
+					criterion: ""
+					id: "640BD5F3A1995901"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:spider_warlord"
+					criterion: ""
+					id: "77AD36130949CA2C"
+					type: "advancement"
+				}
+				{
+					id: "398A3909F1561A53"
+					item: { count: 1, id: "born_in_chaos_v1:frostbitten_blade" }
+					type: "item"
+				}
+				{
+					id: "1F17647D31AADC75"
+					item: { count: 1, id: "born_in_chaos_v1:intoxicating_dagger" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "661CED9B5C9FE638"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
 			dependencies: [
 				"5481D386D057C81F"
 				"266D4A32D75F321E"
 				"441FDD21C07FF34D"
 			]
-			tasks: [
-				{
-					id: "2A992EB8FD4FC5BC"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:trident_hayfork"
-					}
-					count: 1L
-				}
-				{
-					id: "6113C4EE62147F8C"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:wood_splitter_axe"
-					}
-					count: 1L
-				}
-				{
-					id: "5D88DD81210BAF1F"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:nut_hammer"
-					}
-					count: 1L
-				}
-				{
-					id: "476AD02AB520CB76"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:shell_mace"
-					}
-					count: 1L
-				}
-				{
-					id: "31E00D045C685E52"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:shell_warrior"
-					criterion: ""
-				}
-			]
+			id: "661CED9B5C9FE638"
 			rewards: [
 				{
 					id: "01D8E26D369C8B64"
@@ -188,229 +105,154 @@
 				}
 				{
 					id: "4E020D40450C44A4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Armas do povo e do mar"
-			description: [
-				"&7O forcado, o rachador de lenha e o martelo de nozes: ferramentas da aldeia viradas armas."
-				"&7Na chuva e na água, os espinhos da maça de concha ferem ainda mais fundo,"
-				"&7e quem bate em quem veste a carapaça leva espinhos de volta."
-				""
-				"&6Objetivo:&r 1. Tome o &6Forcado&r do Cavaleiro da Porta e o &6Rachador de Lenha&r do Zumbi Lenhador."
-				"&f2. Faça o &6Martelo de Nozes&r: tora, pepita de metal sombrio e graveto. Pode derrubar o chapéu de quem acerta."
-				"&f3. Faça a &6Maça de Concha&r: 3 Carapaças Espinhosas e 2 Cabos de Osso."
-				"&f4. Vista o &6Elmo&r e o &6Peitoral de Carapaça Espinhosa&r."
+			size: 1.25d
+			tasks: [
+				{
+					id: "2A992EB8FD4FC5BC"
+					item: { count: 1, id: "born_in_chaos_v1:trident_hayfork" }
+					type: "item"
+				}
+				{
+					id: "6113C4EE62147F8C"
+					item: { count: 1, id: "born_in_chaos_v1:wood_splitter_axe" }
+					type: "item"
+				}
+				{
+					id: "5D88DD81210BAF1F"
+					item: { count: 1, id: "born_in_chaos_v1:nut_hammer" }
+					type: "item"
+				}
+				{
+					id: "476AD02AB520CB76"
+					item: { count: 1, id: "born_in_chaos_v1:shell_mace" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:shell_warrior"
+					criterion: ""
+					id: "31E00D045C685E52"
+					type: "advancement"
+				}
 			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "78BAE8D457B5E7FA"
-			x: 2.0d
-			y: 3.2d
-			size: 1.25d
 			dependencies: [
 				"49F0CDBA1137730D"
 				"441FDD21C07FF34D"
 			]
+			id: "78BAE8D457B5E7FA"
+			rewards: [{
+				id: "53296184A50F57F2"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "384492E7F5345BE2"
+					item: { count: 1, id: "born_in_chaos_v1:staff_of_magic_arrows" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:staff_of_magic_arrows"
-					}
-					count: 1L
 				}
 				{
-					id: "1D6878F68603CF09"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:compact_necromancy"
 					criterion: ""
+					id: "1D6878F68603CF09"
+					type: "advancement"
 				}
 				{
 					id: "0FAECBF8B6AF727E"
+					item: { count: 1, id: "born_in_chaos_v1:charmof_power" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:charmof_power"
-					}
-					count: 1L
 				}
 				{
-					id: "4BC4C7BAAEE88EA1"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:hat_for_dark_deeds"
 					criterion: ""
+					id: "4BC4C7BAAEE88EA1"
+					type: "advancement"
 				}
 				{
-					id: "5EF4796EC88550CC"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:cultural_attribute"
 					criterion: ""
+					id: "5EF4796EC88550CC"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "53296184A50F57F2"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "Os tesouros do Missionário"
-			description: [
-				"&7O cajado do invocador chama pequenos esqueletos que lutam por você, e o de flechas cospe luz espiritual."
-				"&7Cada amuleto do Caos queima um espírito etéreo para conceder um minuto e meio de poder."
-				"&7E os chapéus... os chapéus cobram seu preço."
-				""
-				"&6Objetivo:&r 1. Faça o &6Cajado de Flechas Mágicas&r: crânio partido, Semente do Caos e Cabo de Osso."
-				"&f2. Faça o &6Cajado do Invocador de Ossos&r: pepitas, Orbe do Invocador, ossos, crânio partido e Cabo de Osso."
-				"&f3. Obtenha um &6Amuleto&r do Missionário (tenha Espíritos Etéreos no inventário para usar)."
-				"&f4. Obtenha o &6Chapéu de Missionário&r: um esqueleto defende você quando um monstro ataca."
-				"&f5. Obtenha o &6Sombreiro do Guia Espiritual&r: fortalece os esqueletos do cajado."
-				""
-				"&8Amuletos: Força III, Resistência II, Velocidade III, Fúria ou Invisibilidade. Pó Espiritual no inventário fortalece as flechas do cajado."
-			]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "0D21253777446098"
-			x: 2.0d
-			y: 4.8d
 			dependencies: [
 				"415F9CC6559614A4"
 				"441FDD21C07FF34D"
 			]
+			id: "0D21253777446098"
+			rewards: [{
+				id: "5FBB31BF38F9071C"
+				type: "xp"
+				xp: 240
+			}]
 			tasks: [
 				{
-					id: "77023C4A9D1A1750"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:fighting_nightmares"
 					criterion: ""
+					id: "77023C4A9D1A1750"
+					type: "advancement"
 				}
 				{
-					id: "18C4BA39DF66645C"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:deceived_hopes"
 					criterion: ""
+					id: "18C4BA39DF66645C"
+					type: "advancement"
 				}
 				{
-					id: "0CE33E4C10B1FE6D"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:diamond_termite_shard"
-					}
 					count: 9L
+					id: "0CE33E4C10B1FE6D"
+					item: { count: 1, id: "born_in_chaos_v1:diamond_termite_shard" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "5FBB31BF38F9071C"
-					type: "xp"
-					xp: 240
-				}
-			]
-			title: "O que espreita no escuro"
-			description: [
-				"&7\"Você sente que algo o persegue...\" Quando essa sensação vem, o Perseguidor de Pesadelos já está atrás de você."
-				"&7Embaixo da terra, outro engano: aquele brilho azul na rocha não é diamante, é um ninho de cupins que comem diamante."
-				""
-				"&6Objetivo:&r 1. Derrote o &6Perseguidor de Pesadelos&r: caça quem anda sozinho à noite e foge para voltar depois."
-				"&f2. Minere &6Minério de Diamante Infectado&r e enfrente os &6Cupins de Diamante&r."
-				"&f3. Junte &69 Lascas de Cupim&r: refazem um diamante."
-				""
-				"&8O Perseguidor deixa Garras de Pesadelo e seu crânio, base da armadura e das armas de pesadelo (Tier III)."
-			]
+			x: 2.0d
+			y: 4.8d
 		}
 		{
-			id: "031C680A02A119B4"
-			x: 2.0d
-			y: 6.4d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:lord_pumpkinhead_heart"
-			}
 			dependencies: [
 				"2EB10FE247F4131F"
 				"441FDD21C07FF34D"
 			]
-			tasks: [
-				{
-					id: "619D4B109EA2F9B5"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:pumpkin_lord"
-					criterion: ""
-				}
-			]
-			rewards: [
-				{
-					id: "178CD3EE81561465"
-					type: "xp"
-					xp: 80
-				}
-			]
-			title: "Lorde Cabeça de Abóbora"
-			description: [
-				"&7Ele cavalga um corcel de fogo verde e ri de dentro de uma abóbora em chamas."
-				"&7Quando o corcel cai, o lorde luta a pé; quando o corpo cai, a cabeça ainda flutua e cospe fogo."
-				""
-				"&6Objetivo:&r 1. Derrote o &cLorde Cabeça de Abóbora&r em todas as formas: montado, a pé e a cabeça flutuante."
-				"&fEle surge à noite com o aviso de \"algo poderoso\"."
-				"&fReclame o seu &ccoração de troféu&r: comestível, com bênçãos e maldições."
-				""
-				"&8Água e resistência ao fogo ajudam muito."
-				"&8Deixa Pistola de Abóbora, seu chapéu, seu lampião e a lendária Ruína das Almas."
-			]
+			icon: {
+				id: "comamigos_balance:lord_pumpkinhead_heart"
+			}
+			id: "031C680A02A119B4"
+			rewards: [{
+				id: "178CD3EE81561465"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				id: "619D4B109EA2F9B5"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 6.4d
 		}
 		{
-			id: "139B342312205FED"
-			x: 4.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"2EB10FE247F4131F"
 				"7E5A5340EC686B0E"
 			]
-			tasks: [
-				{
-					id: "565810760E7CBD7E"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:sweet_battle"
-					criterion: ""
-				}
-				{
-					id: "3C0C1802C0DCAB25"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:carrot_sword"
-					}
-					count: 1L
-				}
-				{
-					id: "2B1F51494A2CD52D"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:icy_sweetness"
-					}
-					count: 1L
-				}
-				{
-					id: "3D2E04EB0636B35C"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:killer_rabbit_ears_helmet"
-					}
-					count: 1L
-				}
-			]
+			id: "139B342312205FED"
 			rewards: [
 				{
 					id: "44D094326A5E8ABF"
@@ -419,28 +261,39 @@
 				}
 				{
 					id: "0A50573FB3C8BDE8"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Batalha doce"
-			description: [
-				"&7Uma espada de doce que se pode morder no meio da luta. Ninguém disse que o Caos não tinha humor."
-				"&7Uma flor de metal sombrio reescreve armas como se fossem receitas de cozinha,"
-				"&7e os baús das festas sombrias de primavera guardam orelhas de um coelho que ninguém quer encontrar."
-				""
-				"&6Objetivo:&r 1. Faça a &6Espada Doce&r ou o &6Machado Doce&r: Doces Festivos, Abóbora Cultivada (abóbora + farinha de osso) e graveto."
-				"&f2. Faça a &6Flor Transformadora&r (pepitas de metal sombrio e Semente do Caos) e, na mesa de ferraria:"
-				"&fEspada Doce + cenoura = &6Espada de Cenoura&r; Lâmina Enregelada + açúcar = &6Doçura Gelada&r."
-				"&f3. Encontre as &6Orelhas de Coelho Assassino&r em baús do Caos."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:sweet_battle"
+					criterion: ""
+					id: "565810760E7CBD7E"
+					type: "advancement"
+				}
+				{
+					id: "3C0C1802C0DCAB25"
+					item: { count: 1, id: "born_in_chaos_v1:carrot_sword" }
+					type: "item"
+				}
+				{
+					id: "2B1F51494A2CD52D"
+					item: { count: 1, id: "born_in_chaos_v1:icy_sweetness" }
+					type: "item"
+				}
+				{
+					id: "3D2E04EB0636B35C"
+					item: { count: 1, id: "born_in_chaos_v1:killer_rabbit_ears_helmet" }
+					type: "item"
+				}
 			]
+			x: 4.0d
+			y: 0.0d
 		}
-	]
-	title: "&aTier II&7 - Lâminas Sombrias"
-	subtitle: [
-		"&6A Noite Podre&7, &aTier II"
 	]
 }

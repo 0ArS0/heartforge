@@ -4,119 +4,39 @@
 	filename: "mod_botania_t1"
 	group: "0BD654FB0C580B11"
 	icon: {
-		count: 1
 		id: "minecraft:compass"
 	}
 	id: "3034F8265289BDF1"
-	order_index: 24
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "0BBDC0D3400841B5"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			tasks: [
-				{
-					id: "5D4D6823F012997D"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&7Tier I"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &7Tier I&7."
-			]
-			disable_toast: true
+			id: "0BBDC0D3400841B5"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "5D4D6823F012997D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "022D41477429570E"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "botania:mana_pool"
-			}
 			dependencies: [
 				"157DC6ED2175901C"
 				"0BBDC0D3400841B5"
 			]
-			tasks: [
-				{
-					id: "6E52444629D80515"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:livingwood_twig"
-					}
-					count: 4L
-				}
-				{
-					id: "0E279923501649E2"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:twig_wand"
-					}
-					count: 1L
-				}
-				{
-					id: "711DAC2F4BD9158E"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:endoflame"
-					}
-					count: 1L
-				}
-				{
-					id: "2568FB6E28A4F446"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:hydroangeas"
-					}
-					count: 1L
-				}
-				{
-					id: "5BC57A01DF768C43"
-					type: "advancement"
-					advancement: "botania:main/generating_flower"
-					criterion: ""
-				}
-				{
-					id: "43D1E2FEC42414D3"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_spreader"
-					}
-					count: 2L
-				}
-				{
-					id: "57FC13AC1ED004AC"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_pool"
-					}
-					count: 1L
-				}
-				{
-					id: "3C26F3A1DC2564D8"
-					type: "advancement"
-					advancement: "botania:main/mana_pool_pickup"
-					criterion: ""
-				}
-			]
+			icon: {
+				id: "botania:mana_pool"
+			}
+			id: "022D41477429570E"
 			rewards: [
 				{
 					id: "25AD797023494842"
@@ -125,119 +45,69 @@
 				}
 				{
 					id: "771C12813321E83E"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Primeira Rede de Mana"
-			description: [
-				"&7A mana não anda sozinha. Ela nasce nas flores geradoras, é lançada em feixes por dispersores e se"
-				"&7acumula em piscinas de rocha viva, como água num poço. Os primeiros botânicos de Heartforge aprenderam"
-				"&7a ligar as três coisas com uma simples varinha de madeira viva. Esse pequeno jardim é o coração de"
-				"&7tudo o que a magia verde pode fazer."
-				""
-				"&6Objetivo:&r 1. Faça &6Gravetos de Madeira Viva&r (2 troncos vivos empilhados) e a &6Varinha da Floresta&r (gravetos na diagonal com 2 pétalas)."
-				"&f2. No boticário, crie a &6Endochama&r (2 pétalas marrons, 1 vermelha, 1 cinza-clara): ela queima carvão ou madeira jogados perto."
-				"&f3. Crie &6Hidrângeas&r (2 azuis, 2 ciano): bebem água parada no mesmo nível e devolvem mana, mais devagar e de graça."
-				"&f4. Faça 2 &6Dispersores de Mana&r: madeira viva em volta de um lingote de cobre e uma pétala."
-				"&f5. Construa a &6Piscina de Mana&r (5 rochas vivas em U) e pegue-a."
-				"&f6. Agachado com a Varinha em modo Vínculo, clique no dispersor e depois na piscina. Flores geradoras"
-				"&fse ligam sozinhas ao dispersor mais próximo."
-				""
-				"&8Agachado, use a Varinha no ar para alternar entre modo Vínculo e modo Função (gira dispersores)."
-				"&8As hidrângeas murcham depois de alguns dias de trabalho e rendem mais na chuva."
-				"&8Uma piscina cheia guarda 1 milhão de mana. A Piscina Diluída é menor e só serve de enfeite."
-			]
-		}
-		{
-			id: "4B84CE167F4C4FA7"
-			x: 4.0d
-			y: 0.0d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "botania:manasteel_ingot"
-			}
-			dependencies: [
-				"022D41477429570E"
-			]
 			tasks: [
 				{
-					id: "7930CC7F8031381E"
+					count: 4L
+					id: "6E52444629D80515"
+					item: { count: 1, id: "botania:livingwood_twig" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:manasteel_ingot"
-					}
-					count: 9L
 				}
 				{
-					id: "4B9A9DA821343408"
+					id: "0E279923501649E2"
+					item: { count: 1, id: "botania:twig_wand" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_pearl"
-					}
+				}
+				{
+					id: "711DAC2F4BD9158E"
+					item: { count: 1, id: "botania:endoflame" }
+					type: "item"
+				}
+				{
+					id: "2568FB6E28A4F446"
+					item: { count: 1, id: "botania:hydroangeas" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/generating_flower"
+					criterion: ""
+					id: "5BC57A01DF768C43"
+					type: "advancement"
+				}
+				{
 					count: 2L
+					id: "43D1E2FEC42414D3"
+					item: { count: 1, id: "botania:mana_spreader" }
+					type: "item"
 				}
 				{
-					id: "0D5B8DAACAEFEC1C"
+					id: "57FC13AC1ED004AC"
+					item: { count: 1, id: "botania:mana_pool" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_diamond"
-					}
-					count: 2L
 				}
 				{
-					id: "7B59929330AE4B32"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_powder"
-					}
-					count: 4L
-				}
-				{
-					id: "75C653CC3458190F"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_glass"
-					}
-					count: 4L
-				}
-				{
-					id: "1EFD8AC0C5733A0F"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_string"
-					}
-					count: 4L
-				}
-				{
-					id: "6AD0AD2D8DB3945C"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:grass_seeds"
-					}
-					count: 4L
-				}
-				{
-					id: "3F300A3D395E10E1"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:alchemy_catalyst"
-					}
-					count: 1L
+					advancement: "botania:main/mana_pool_pickup"
+					criterion: ""
+					id: "3C26F3A1DC2564D8"
+					type: "advancement"
 				}
 			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["022D41477429570E"]
+			icon: {
+				id: "botania:manasteel_ingot"
+			}
+			id: "4B84CE167F4C4FA7"
 			rewards: [
 				{
 					id: "138A6B6D885BE411"
@@ -246,291 +116,188 @@
 				}
 				{
 					id: "118A2FD4A0F46B08"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Os Dons da Piscina"
-			description: [
-				"&7Coisas comuns, mergulhadas na luz, saem mudadas. O ferro sai azulado e teimoso; a pérola do Fim perde"
-				"&7a vontade de fugir; o diamante passa a guardar vontade em vez de brilho. Os alquimistas da flor"
-				"&7descobriram ainda que, com o catalisador certo sob a piscina, a mana não só fortalece: transforma."
-				""
-				"&6Objetivo:&r 1. Jogue &flingotes de ferro&r na piscina (3.000 de mana cada): viram &6Aço-Mana&r. Junte 9."
-				"&f2. &fPérola do Ender&r (6.000) vira &6Pérola de Mana&r; &fdiamante&r (10.000) vira &6Diamante de Mana&r."
-				"&f3. &fPólvora, redstone, pó de pedra luminosa ou açúcar&r viram &6Pó de Mana&r."
-				"&f4. &fVidro&r vira &6Vidro de Mana&r e &flinha&r vira &6Linha Infundida&r."
-				"&f5. &fGrama baixa&r (2.500) vira &6Sementes de Pasto&r (arbusto seco: podzol; cogumelos: micélio)."
-				"&f6. Crie o &6Catalisador Alquímico&r (rocha viva, ouro, suporte de poções, pérola de mana) e ponha-o"
-				"&f&fembaixo&r de uma piscina: itens jogados nela trocam de forma (madeiras, flores, pedras, peixes...)."
-				""
-				"&8O &6aço-mana&r é ingrediente do &6Coração do Tier II&r, no Mixer."
-				"&8Blocos de ferro viram blocos de aço-mana de uma vez. Veja todos os ciclos de alquimia no Lexicon"
-				"&8(lágrima de ghast vira pérola do Ender!)."
+			size: 1.25d
+			tasks: [
+				{
+					count: 9L
+					id: "7930CC7F8031381E"
+					item: { count: 1, id: "botania:manasteel_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4B9A9DA821343408"
+					item: { count: 1, id: "botania:mana_pearl" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0D5B8DAACAEFEC1C"
+					item: { count: 1, id: "botania:mana_diamond" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7B59929330AE4B32"
+					item: { count: 1, id: "botania:mana_powder" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "75C653CC3458190F"
+					item: { count: 1, id: "botania:mana_glass" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1EFD8AC0C5733A0F"
+					item: { count: 1, id: "botania:mana_string" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6AD0AD2D8DB3945C"
+					item: { count: 1, id: "botania:grass_seeds" }
+					type: "item"
+				}
+				{
+					id: "3F300A3D395E10E1"
+					item: { count: 1, id: "botania:alchemy_catalyst" }
+					type: "item"
+				}
 			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			id: "7CB650DFEA659CFD"
-			x: 6.0d
-			y: -4.8d
-			size: 1.25d
+			dependencies: ["4B84CE167F4C4FA7"]
 			icon: {
-				count: 1
 				id: "botania:mana_tablet"
 			}
-			dependencies: [
-				"4B84CE167F4C4FA7"
-			]
+			id: "7CB650DFEA659CFD"
+			rewards: [{
+				id: "2F22FAD7AB13AF87"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "0BB76609FDCB85B1"
+					item: { count: 1, id: "botania:mana_tablet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_tablet"
-					}
-					count: 1L
 				}
 				{
 					id: "263685C151B28271"
+					item: { count: 1, id: "botania:manasteel_pick" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:manasteel_pick"
-					}
-					count: 1L
 				}
 				{
 					id: "0716450F6EF6310C"
+					item: { count: 1, id: "botania:manasteel_shovel" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:manasteel_shovel"
-					}
-					count: 1L
 				}
 				{
 					id: "204DE4F03D0A6CF3"
+					item: { count: 1, id: "botania:manasteel_hoe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:manasteel_hoe"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "2F22FAD7AB13AF87"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "Mana no bolso"
-			description: [
-				"&7Uma piscina de bolso: pequena, pesada, essencial. Com ela no inventário, as ferramentas de aço-mana"
-				"&7bebem a luz guardada e se remendam sozinhas, e nenhum botânico precisa voltar à bigorna."
-				""
-				"&6Objetivo:&r 1. Crie a &6Tabuleta de Mana&r: 8 rochas vivas em volta de uma pérola (ou diamante) de mana. Jogue-a na piscina para encher."
-				"&f2. Forje a &6Picareta&r, a &6Pá&r e a &6Enxada de Aço-Mana&r, com gravetos de madeira viva como cabo."
-				""
-				"&8Agachado, use a Varinha na piscina para inverter o fluxo e esvaziar a tabuleta dentro dela."
-				"&8A Picareta de Vidro (vidro + aço-mana) quebra vidro sem perdê-lo. A Tesoura de Aço-Mana também se repara."
-			]
+			x: 6.0d
+			y: -4.8d
 		}
 		{
-			id: "263E934345438682"
-			x: 6.0d
-			y: -3.2d
-			size: 1.25d
+			dependencies: ["4B84CE167F4C4FA7"]
 			icon: {
-				count: 1
 				id: "botania:spark"
 			}
-			dependencies: [
-				"4B84CE167F4C4FA7"
-			]
+			id: "263E934345438682"
+			rewards: [{
+				id: "4F8F40FFC5B5A3C0"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "4C6917BFF90BBFD2"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:lens_normal"
-					}
 					count: 2L
+					id: "4C6917BFF90BBFD2"
+					item: { count: 1, id: "botania:lens_normal" }
+					type: "item"
 				}
 				{
 					id: "7CC2AD32CE50B4D5"
+					item: { count: 1, id: "botania:lens_mine" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:lens_mine"
-					}
-					count: 1L
 				}
 				{
 					id: "1B42D03AE9DCB9CA"
+					item: { count: 1, id: "botania:lens_magnet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:lens_magnet"
-					}
-					count: 1L
 				}
 				{
-					id: "124EF8B92661ECCB"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:spark"
-					}
 					count: 2L
+					id: "124EF8B92661ECCB"
+					item: { count: 1, id: "botania:spark" }
+					type: "item"
 				}
 				{
-					id: "0D467D3B83EA3723"
-					type: "advancement"
 					advancement: "botania:main/spark_craft"
 					criterion: ""
+					id: "0D467D3B83EA3723"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "4F8F40FFC5B5A3C0"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "Feixes e fagulhas"
-			description: [
-				"&7Existem duas maneiras de mover a mana. A primeira é o feixe, que voa reto e pode ser moldado por"
-				"&7lentes: um anel de aço-mana com vidro no meio. A segunda são as fagulhas, que pairam sobre os blocos"
-				"&7e conversam entre si sem precisar mirar. A rede madura usa as duas."
-				""
-				"&6Objetivo:&r 1. Crie &6Lentes de Mana&r: 4 aço-mana em cruz com vidro no centro. Clique num dispersor para encaixar."
-				"&f2. Faça a &6Lente da Mineração&r (pistão, lápis, redstone): o feixe quebra blocos que atinge."
-				"&f3. Faça a &6Lente Magnetizante&r (ferro e ouro): o feixe faz curva até o receptor mais próximo."
-				"&f4. Crie &6Fagulhas&r (pétalas, pó de blaze, pepita de ouro). Uma sobre a piscina e outra sobre o bloco"
-				"&fque recebe a mana: elas transferem sem dispersor."
-				""
-				"&8O pó de blaze vem do Nether: uma incursão curta, antes que o Ar Escaldante se acumule, basta."
-				"&8As fagulhas serão indispensáveis para o aço-terra, no Tier III."
-			]
+			x: 6.0d
+			y: -3.2d
 		}
 		{
-			id: "66CEDBF42A77821C"
-			x: 6.0d
-			y: -1.6d
+			dependencies: ["4B84CE167F4C4FA7"]
 			icon: {
-				count: 1
 				id: "botania:redstone_root"
 			}
-			dependencies: [
-				"4B84CE167F4C4FA7"
-			]
+			id: "66CEDBF42A77821C"
+			rewards: [{
+				id: "78EB4846B0D3A708"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
-					id: "1FDB6DF5538E60A0"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:redstone_root"
-					}
 					count: 4L
+					id: "1FDB6DF5538E60A0"
+					item: { count: 1, id: "botania:redstone_root" }
+					type: "item"
 				}
 				{
-					id: "2D02712078928862"
-					type: "advancement"
 					advancement: "botania:main/functional_flower"
 					criterion: ""
+					id: "2D02712078928862"
+					type: "advancement"
 				}
 				{
 					id: "2B40F7E3346CEDF6"
+					item: { count: 1, id: "botania:obedience_stick" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:obedience_stick"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "78EB4846B0D3A708"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "Flores que trabalham"
-			description: [
-				"&7Nem toda flor produz mana. Algumas a gastam, e em troca fazem o trabalho pesado do jardim."
-				"&7Quase todas precisam de um nervo de redstone para sentir o mundo, e de uma piscina por perto para beber."
-				"&7Flores esquecidas são flores desperdiçadas: a Vara da Obediência lembra cada uma de quem manda."
-				""
-				"&6Objetivo:&r 1. Crie &6Raízes de Redstone&r: redstone, samambaia e grama baixa, sem forma."
-				"&f2. Crie qualquer &6flor funcional&r no boticário (as próximas páginas estão cheias delas)."
-				"&f3. Faça a &6Vara da Obediência Floral&r e use-a numa piscina ou dispersor para ligar de uma vez"
-				"&ftodas as flores próximas a ele."
-				""
-				"&8Para religar uma flor só: Varinha em modo Vínculo, agachado, clique na flor e depois na piscina."
-			]
+			x: 6.0d
+			y: -1.6d
 		}
 		{
-			id: "02EDDC1DFB49B957"
-			x: 6.0d
-			y: 0.0d
-			size: 1.25d
+			dependencies: ["4B84CE167F4C4FA7"]
 			icon: {
-				count: 1
 				id: "botania:tiny_potato"
 			}
-			dependencies: [
-				"4B84CE167F4C4FA7"
-			]
-			tasks: [
-				{
-					id: "6A1279F39F683192"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_bottle"
-					}
-					count: 1L
-				}
-				{
-					id: "022BEADB165D1585"
-					type: "advancement"
-					advancement: "botania:main/mana_cookie_eat"
-					criterion: ""
-				}
-				{
-					id: "75B83C9628C776E7"
-					type: "advancement"
-					advancement: "botania:main/tiny_potato_pet"
-					criterion: ""
-				}
-				{
-					id: "53FE464CAAED620C"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:black_lotus"
-					}
-					count: 1L
-				}
-				{
-					id: "24737845770D93E8"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:manastar"
-					}
-					count: 1L
-				}
-			]
+			id: "02EDDC1DFB49B957"
+			optional: true
 			rewards: [
 				{
 					id: "37F652752795C0CC"
@@ -539,93 +306,53 @@
 				}
 				{
 					id: "0579639D3E295B28"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Curiosidades da piscina"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Beber luz pura não é recomendável. Comer um biscoito encharcado dela, menos ainda. Ninguém escuta."
-				"&7Os registros também falam de uma batata que ganhou olhos, de uma lótus negra achada em cofres"
-				"&7esquecidos e de uma flor que sorri quando a piscina enche."
-				""
-				"&6Objetivo:&r 1. Infunda uma &fgarrafa de vidro&r (5.000) e obtenha &6Mana na Garrafa&r: beba para um efeito aleatório."
-				"&f2. Infunda um &fbiscoito&r (20.000) e coma o &6Biscoito da Totalidade&r."
-				"&f3. Infunda uma &fbatata&r (1.337) para obter a &6Batatinha&r, coloque-a e faça carinho nela."
-				"&f4. Encontre uma &6Lótus Negra&r em baús de masmorras e ruínas: jogada na piscina, libera 8.000 de mana."
-				"&f5. Crie a &6Estrela-de-Mana&r (azul-clara, verde, vermelha, ciano): ao lado da piscina, brilha quando a mana sobe."
-			]
-			optional: true
-		}
-		{
-			id: "5A7917374AE318DE"
-			x: 6.0d
-			y: 1.6d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "botania:mana_distributor"
-			}
-			dependencies: [
-				"4B84CE167F4C4FA7"
-			]
 			tasks: [
 				{
-					id: "6BD97A97F5271C69"
+					id: "6A1279F39F683192"
+					item: { count: 1, id: "botania:mana_bottle" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_distributor"
-					}
-					count: 1L
 				}
 				{
-					id: "093E1C64429A762A"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:mana_void"
-					}
-					count: 1L
-				}
-				{
-					id: "3880FE169514EFAF"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:redstone_spreader"
-					}
-					count: 1L
-				}
-				{
-					id: "617205E55D49DD3F"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:pool_minecart"
-					}
-					count: 1L
-				}
-				{
-					id: "1E67082087B853EA"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:pump"
-					}
-					count: 1L
-				}
-				{
-					id: "371B44CE3BA747BA"
-					type: "advancement"
-					advancement: "botania:main/mana_cart_craft"
+					advancement: "botania:main/mana_cookie_eat"
 					criterion: ""
+					id: "022BEADB165D1585"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:main/tiny_potato_pet"
+					criterion: ""
+					id: "75B83C9628C776E7"
+					type: "advancement"
+				}
+				{
+					id: "53FE464CAAED620C"
+					item: { count: 1, id: "botania:black_lotus" }
+					type: "item"
+				}
+				{
+					id: "24737845770D93E8"
+					item: { count: 1, id: "botania:manastar" }
+					type: "item"
 				}
 			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B84CE167F4C4FA7"]
+			icon: {
+				id: "botania:mana_distributor"
+			}
+			id: "5A7917374AE318DE"
+			optional: true
 			rewards: [
 				{
 					id: "01C34F47C3AF84C6"
@@ -634,97 +361,57 @@
 				}
 				{
 					id: "2E97644D3CAF3DD2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Encanamento de mana"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Um bom jardim não desperdiça nada e sabe para onde mandar o excesso. Quando a mana não alcança,"
-				"&7os botânicos mais teimosos simplesmente põem a piscina num carrinho e a levam até lá."
-				""
-				"&6Objetivo:&r 1. &6Distribuidor de Mana&r: divide a mana que recebe entre as piscinas vizinhas."
-				"&f2. &6Vazio de Mana&r: destrói o excesso, para os geradores nunca pararem."
-				"&f3. &6Dispersor de Pulso&r (dispersor + redstone): só dispara quando recebe sinal."
-				"&f4. &6Carrinho com Piscina&r (carrinho + piscina) e a &6Bomba de Mana&r, que enche ou esvazia o carrinho sobre trilhos."
-			]
-			optional: true
-		}
-		{
-			id: "668B42E57F5DD31B"
-			x: 6.0d
-			y: 3.2d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "botania:flower_bag"
-			}
-			dependencies: [
-				"4B84CE167F4C4FA7"
-			]
 			tasks: [
 				{
-					id: "2801894A803ECCAF"
+					id: "6BD97A97F5271C69"
+					item: { count: 1, id: "botania:mana_distributor" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:fertilizer"
-					}
-					count: 4L
 				}
 				{
-					id: "034B9DADF34D120B"
+					id: "093E1C64429A762A"
+					item: { count: 1, id: "botania:mana_void" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:flower_bag"
-					}
-					count: 1L
 				}
 				{
-					id: "21496E7CF9CF8A54"
+					id: "3880FE169514EFAF"
+					item: { count: 1, id: "botania:redstone_spreader" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:monocle"
-					}
-					count: 1L
 				}
 				{
-					id: "0D9F7AD3E626ADC7"
+					id: "617205E55D49DD3F"
+					item: { count: 1, id: "botania:pool_minecart" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:divining_rod"
-					}
-					count: 1L
 				}
 				{
-					id: "72D0C8092E6E1900"
+					id: "1E67082087B853EA"
+					item: { count: 1, id: "botania:pump" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:open_crate"
-					}
-					count: 1L
 				}
 				{
-					id: "5D62F963FB0D45F9"
-					type: "advancement"
-					advancement: "botania:challenge/old_flower_pickup"
+					advancement: "botania:main/mana_cart_craft"
 					criterion: ""
-				}
-				{
-					id: "77C3D10A11047ED6"
+					id: "371B44CE3BA747BA"
 					type: "advancement"
-					advancement: "botania:main/cacophonium_craft"
-					criterion: ""
 				}
 			]
+			x: 6.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4B84CE167F4C4FA7"]
+			icon: {
+				id: "botania:flower_bag"
+			}
+			id: "668B42E57F5DD31B"
+			optional: true
 			rewards: [
 				{
 					id: "2C0A35F1BA072594"
@@ -733,88 +420,64 @@
 				}
 				{
 					id: "706849FA96A501E0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O cinto do jardineiro"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Bolsos cheios de pétalas soltas são a marca do aprendiz; a bolsa costurada é a do mestre."
-				"&7Com o tempo, todo jardineiro junta um punhado de utensílios: um adubo de cores, uma lente para ver"
-				"&7o invisível, uma vara que fareja minério, um caixote sem fundo e até um instrumento que imita vozes."
-				""
-				"&6Objetivo:&r 1. &6Fertilizante Floral&r: farinha de osso e 4 corantes. Sobre a grama, faz nascer flores místicas."
-				"&f2. &6Bolsa de Flores&r: lã em volta de uma pétala. Recolhe sozinha até 64 flores de cada cor."
-				"&f3. &6Monóculo do Vidente de Mana&r (vidro de mana, aço-mana, ouro): no espaço de berloque, mostra a mana de cada bloco."
-				"&f4. &6Vara da Fartura do Manto&r (gravetos vivos e diamante de mana): faz brilhar os minérios próximos."
-				"&f5. &6Caixote Aberto&r (tábuas de madeira viva): derruba no chão o que recebe."
-				"&f6. Crie o &6Motivo da Flor-do-Dia&r ou &6da Flor-da-Noite&r, flores antigas que brilham."
-				"&f7. Crie o &6Cacofônio&r (cobre e bloco musical); agachado, use-o numa criatura para gravar a voz dela."
-				""
-				"&8O Caixote Aberto combina com funis e flores que comem itens (Endochama, Gourmarílis...)."
-			]
-			optional: true
-		}
-		{
-			id: "17159DC4795F481A"
-			x: 6.0d
-			y: 4.8d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "botania:avatar"
-			}
-			dependencies: [
-				"4B84CE167F4C4FA7"
-			]
 			tasks: [
 				{
-					id: "44151023E43596DB"
+					count: 4L
+					id: "2801894A803ECCAF"
+					item: { count: 1, id: "botania:fertilizer" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:forest_eye"
-					}
-					count: 1L
 				}
 				{
-					id: "09861550E1F9D09B"
+					id: "034B9DADF34D120B"
+					item: { count: 1, id: "botania:flower_bag" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:hourglass"
-					}
-					count: 1L
 				}
 				{
-					id: "4CA756BB1C520AC6"
-					type: "advancement"
-					advancement: "botania:main/crafting_halo_craft"
+					id: "21496E7CF9CF8A54"
+					item: { count: 1, id: "botania:monocle" }
+					type: "item"
+				}
+				{
+					id: "0D9F7AD3E626ADC7"
+					item: { count: 1, id: "botania:divining_rod" }
+					type: "item"
+				}
+				{
+					id: "72D0C8092E6E1900"
+					item: { count: 1, id: "botania:open_crate" }
+					type: "item"
+				}
+				{
+					advancement: "botania:challenge/old_flower_pickup"
 					criterion: ""
+					id: "5D62F963FB0D45F9"
+					type: "advancement"
 				}
 				{
-					id: "0327D850BE339F8C"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:avatar"
-					}
-					count: 1L
-				}
-				{
-					id: "64CB566880D899CC"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:horn_grass"
-					}
-					count: 1L
+					advancement: "botania:main/cacophonium_craft"
+					criterion: ""
+					id: "77C3D10A11047ED6"
+					type: "advancement"
 				}
 			]
+			x: 6.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["4B84CE167F4C4FA7"]
+			icon: {
+				id: "botania:avatar"
+			}
+			id: "17159DC4795F481A"
+			optional: true
 			rewards: [
 				{
 					id: "081550C8391CE8BC"
@@ -823,80 +486,52 @@
 				}
 				{
 					id: "15B512BF307D2477"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Engenhos da flor"
-			subtitle: "&8Opcional"
-			description: [
-				"&7A redstone e a mecânica também têm seu lugar no jardim, se forem bem ensinadas."
-				"&7Os elfos tinham estátuas que seguravam varas por eles, bancadas que flutuavam em volta da cabeça"
-				"&7e trompas que, sopradas, ceifavam um campo inteiro."
-				""
-				"&6Objetivo:&r 1. &6Olho dos Antigos&r (aço-mana, rocha viva, olho do Ender): lê um inventário à distância, como comparador."
-				"&f2. &6Ampulheta Flutuante&r (vidro de mana, ouro, redstone): temporizador ajustável com areia ou cascalho."
-				"&f3. &6Halo de Montagem&r (bancada, aço-mana, pérola de mana): guarda receitas e fabrica direto do inventário."
-				"&f4. &6Avatar de Madeira Viva&r (madeira viva e diamante de mana): dê a ele uma vara e alimente com mana."
-				"&f5. &6Trompa do Selvagem&r (madeira viva e sementes de pasto): soprada, colhe plantas e grama ao redor."
-				""
-				"&8Folhas e neve no lugar das sementes rendem a Trompa da Copa e a Trompa da Cobertura."
-			]
-			optional: true
-		}
-		{
-			id: "2710A3C1956EFBE4"
-			x: 8.0d
-			y: -3.2d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "botania:lens_light"
-			}
-			dependencies: [
-				"263E934345438682"
-			]
 			tasks: [
 				{
-					id: "1CA007C26E974E52"
+					id: "44151023E43596DB"
+					item: { count: 1, id: "botania:forest_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:lens_fire"
-					}
-					count: 1L
 				}
 				{
-					id: "63749687F6E60EE2"
+					id: "09861550E1F9D09B"
+					item: { count: 1, id: "botania:hourglass" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:lens_light"
-					}
-					count: 1L
 				}
 				{
-					id: "130718B065BA02F9"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:lens_messenger"
-					}
-					count: 1L
+					advancement: "botania:main/crafting_halo_craft"
+					criterion: ""
+					id: "4CA756BB1C520AC6"
+					type: "advancement"
 				}
 				{
-					id: "14234757F0A2CC69"
+					id: "0327D850BE339F8C"
+					item: { count: 1, id: "botania:avatar" }
 					type: "item"
-					item: {
-						count: 1
-						id: "botania:lens_phantom"
-					}
-					count: 1L
+				}
+				{
+					id: "64CB566880D899CC"
+					item: { count: 1, id: "botania:horn_grass" }
+					type: "item"
 				}
 			]
+			x: 6.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["263E934345438682"]
+			icon: {
+				id: "botania:lens_light"
+			}
+			id: "2710A3C1956EFBE4"
+			optional: true
 			rewards: [
 				{
 					id: "0FF58E4592AD44C9"
@@ -905,29 +540,38 @@
 				}
 				{
 					id: "2343663F2D4DE72C"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Lentes curiosas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nem toda lente é para trabalho. Algumas existem só porque alguém perguntou \"e se?\"."
-				"&7Uma acende o que toca, outra deixa luzes no caminho, outra atravessa paredes como um fantasma."
-				""
-				"&6Objetivo:&r 1. &6Lente da Chama&r (carga de fogo): acende o que o feixe toca."
-				"&f2. &6Lente de Luz&r (pedra luminosa): cria luzes onde o feixe para."
-				"&f3. &6Lente Mensageira&r (papel): feixes rápidos e vazios, bons para sinalizar."
-				"&f4. &6Lente Fantasma&r: o feixe atravessa blocos."
+			size: 1.25d
+			tasks: [
+				{
+					id: "1CA007C26E974E52"
+					item: { count: 1, id: "botania:lens_fire" }
+					type: "item"
+				}
+				{
+					id: "63749687F6E60EE2"
+					item: { count: 1, id: "botania:lens_light" }
+					type: "item"
+				}
+				{
+					id: "130718B065BA02F9"
+					item: { count: 1, id: "botania:lens_messenger" }
+					type: "item"
+				}
+				{
+					id: "14234757F0A2CC69"
+					item: { count: 1, id: "botania:lens_phantom" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 8.0d
+			y: -3.2d
 		}
-	]
-	title: "&7Tier I&7 - A Primeira Rede"
-	subtitle: [
-		"&aA Magia das Flores&7, &7Tier I"
 	]
 }

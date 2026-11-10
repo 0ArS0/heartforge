@@ -4,214 +4,116 @@
 	filename: "mod_occultism_t7"
 	group: "46A9BB1E2D819F6E"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_7"
 	}
 	id: "7BC9CC63987512D0"
-	order_index: 46
+	images: [ ]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "6D5F0811B45051BE"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_7"
 			}
-			tasks: [
-				{
-					id: "73A087B31BFB77E0"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_7"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&dTier VII"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &dTier VII&7."
-			]
-			disable_toast: true
+			id: "6D5F0811B45051BE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "73A087B31BFB77E0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "0F400D32C6FAAAB3"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "occultism:dragonyst_dust"
-			}
 			dependencies: [
 				"4BC7C871A2F32473"
 				"6D5F0811B45051BE"
 			]
+			icon: {
+				id: "occultism:dragonyst_dust"
+			}
+			id: "0F400D32C6FAAAB3"
+			rewards: [{
+				id: "4F440997215E0F5D"
+				type: "xp"
+				xp: 920
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "44B93ACB9D64691E"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:dragon_breath"
-					}
 					count: 3L
+					id: "44B93ACB9D64691E"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
 				}
 				{
 					id: "3076B2D54D6DF302"
+					item: { count: 1, id: "occultism:dragonyst_dust" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:dragonyst_dust"
-					}
-					count: 1L
 				}
 				{
 					id: "446F4B2739D0D85B"
+					item: { count: 1, id: "occultism:chalk_magenta" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:chalk_magenta"
-					}
-					count: 1L
 				}
 				{
 					id: "7C09BE1E90493D26"
+					item: { count: 1, id: "occultism:miner_marid_master" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:miner_marid_master"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "4F440997215E0F5D"
-					type: "xp"
-					xp: 920
-				}
-			]
-			title: "O Sopro Preso"
-			description: [
-				"&7Com o End aberto, o sopro do dragão finalmente chega às tigelas."
-				"&7Preso em ametista moída por um Marid, ele vira o Dragonyst, a única cor de giz que faltava."
-				"&7O mesmo sopro paga o contrato do Mestre Minerador, que desce mais fundo que todos e volta com minérios que os outros nem sabem que existem."
-				""
-				"&6Objetivo:&r 1. Engarrafe &6sopro de dragão&r."
-				"&f2. Em &6Uphyx&r: 2 Pós de Ametista, Pedra do End Triturada, 4 cristais do End e 3 sopros = &6Pó de Dragonyst&r."
-				"&f3. Giz Branco Impuro + Pó de Dragonyst + Pó de Ametista + fruta do coro = &6Giz Magenta Impuro&r; purifique."
-				"&f4. Em &6Uphyx&r: Minerador Afrit, Picareta de Iésnio, Cristal, picareta de netherita, sopro de dragão, totem, estrela do Nether e Essência de Marid = &6Mestre Minerador Marid&r."
-				""
-				"&8O Mestre Minerador às vezes traz uma &6Peça do Núcleo da Dimensão de Mineração&r. Guarde-a."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "100BFF314C6FECFC"
-			x: 4.0d
-			y: -0.8d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "occultism:chalk_rainbow"
-			}
 			dependencies: [
 				"0F400D32C6FAAAB3"
 				"317D8D08408053F7"
 				"7434C2EA43545265"
 			]
+			icon: {
+				id: "occultism:chalk_rainbow"
+			}
+			id: "100BFF314C6FECFC"
+			rewards: [{
+				id: "26C0B85BBBFA0803"
+				type: "xp"
+				xp: 920
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "2447F1C07E0395D3"
+					item: { count: 1, id: "occultism:chalk_rainbow" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:chalk_rainbow"
-					}
-					count: 1L
 				}
 				{
 					id: "178C194541CCF8DD"
+					item: { count: 1, id: "occultism:chalk_void" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:chalk_void"
-					}
-					count: 1L
 				}
 				{
 					id: "6B2D15C3881EF46E"
+					item: { count: 1, id: "occultism:trinity_gem" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:trinity_gem"
-					}
-					count: 1L
 				}
 				{
 					id: "117D1A47371AD746"
+					item: { count: 1, id: "occultism:storage_stabilizer_tier5" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:storage_stabilizer_tier5"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "26C0B85BBBFA0803"
-					type: "xp"
-					xp: 920
-				}
-			]
-			title: "O Contato de Ronaza"
-			description: [
-				"&7Os espíritos ancestrais não têm forma nem nome. Para falar com eles, é preciso todas as cores do mundo e um tesouro de cada canto dele."
-				"&7Deles vêm o giz arco-íris e o giz do vazio, que substituem qualquer runa, a gema que funde três graus de espíritos"
-				"&7e o último estabilizador, um espaço que nem os espíritos conseguem medir."
-				""
-				"&6Objetivo:&r 1. Desenhe o &6Contato de Ronaza&r: 36 &6ciano&r, 36 &6marrons&r, 24 &6magenta&r, 16 &6rosas&r, 16 &6azul-claro&r e 16 &6verdes&r, além de magnetita, barras de ferro, vara do End, mesa de encantamento, aglomerado de ametista, para-raios, painel de vidro e sinalizador nos pontos marcados."
-				"&f2. &6Giz Arco-Íris&r: os 12 gizes coloridos nas tigelas; ativação: &6Pincel de Giz&r; &cmate uma ovelha&r."
-				"&f3. &6Giz do Vazio&r: Giz Branco, Cinza-Claro, Cinza e Preto; ativação: Pincel de Giz; &csacrifique um aldeão&r."
-				"&f4. &6Gema da Trindade&r: Essências de Afrit, Marid e da Crueldade, Pós de Eco, Dragonyst, Witherita e 3 de Iésnio; ativação: Gema da Alma; &csacrifique um aldeão&r. No Campo de Batalha, triplica os drops."
-				"&f5. &6Estabilizador Nível 5&r: guinchador de sculk, blocos de netherita e iésnio, obsidiana chorona, 2 Cristais, maçã dourada encantada e Dragonyst; ativação: Estabilizador Nível 4; &cmate um enderman&r."
-				""
-				"&8Na bancada, os gizes Vazio e Arco-Íris se convertem um no outro."
-			]
+			x: 4.0d
+			y: -0.8d
 		}
 		{
+			dependencies: ["0F400D32C6FAAAB3"]
 			id: "3B9F74862565F855"
-			x: 4.0d
-			y: 0.8d
-			dependencies: [
-				"0F400D32C6FAAAB3"
-			]
-			tasks: [
-				{
-					id: "0DAC36EEB681CA85"
-					type: "advancement"
-					advancement: "occultism:occultism/summon_marid_smelter"
-					criterion: ""
-				}
-				{
-					id: "4E55EF5026A8D603"
-					type: "advancement"
-					advancement: "occultism:occultism/possess_shulker"
-					criterion: ""
-				}
-				{
-					id: "78D35C95FA6E2BAB"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:shulker_shell"
-					}
-					count: 2L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "420650DAE4B4EDA6"
@@ -220,67 +122,46 @@
 				}
 				{
 					id: "62F57E9146DA8371"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "O Fogo Frio"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O fogo frio de um Marid derrete minério mais depressa que qualquer coisa conhecida."
-				"&7E um shulker possuído entrega cascas para quem ainda não quer atravessar as cidades do Fim."
-				""
-				"&6Objetivo:&r 1. &6Fundidor Marid&r (Fatma): sopro de dragão, bloco de iésnio, obsidiana chorona, bloco de carvão, bloco de ouro e Fogueira Espiritual."
-				"&f2. &6Shulker Possuído&r (Posuc): sopro de dragão, 2 terracotas esmaltadas roxas e pedra do End; &cmate um slime ou cubo de magma&r."
-				"&f3. Junte as &6cascas de shulker&r que ele deixa."
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_marid_smelter"
+					criterion: ""
+					id: "0DAC36EEB681CA85"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/possess_shulker"
+					criterion: ""
+					id: "4E55EF5026A8D603"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "78D35C95FA6E2BAB"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 0.8d
 		}
 		{
-			id: "5338793A0AD50806"
-			x: 6.0d
-			y: -1.6d
-			icon: {
-				count: 1
-				id: "occultism:celestial_chalice"
-			}
 			dependencies: [
 				"100BFF314C6FECFC"
 				"0376E714AB157DD5"
 				"664AFB50A92C9BED"
 			]
-			tasks: [
-				{
-					id: "1F18A83D52A3B190"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:heavy_core"
-					}
-					count: 1L
-				}
-				{
-					id: "0DC1303C844A7935"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:reinforced_deepslate"
-					}
-					count: 1L
-				}
-				{
-					id: "6D58BB569A3FC1B7"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:celestial_chalice"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "occultism:celestial_chalice"
+			}
+			id: "5338793A0AD50806"
 			rewards: [
 				{
 					id: "6C2EFF988D778A5A"
@@ -289,60 +170,37 @@
 				}
 				{
 					id: "0839E95D0C8671BF"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
-			]
-			title: "O Cálice Celestial"
-			description: [
-				"&7O troféu dos mestres. No centro do círculo, ele faz o ritual terminar no instante em que começa."
-				"&7Para forjá-lo é preciso um tesouro de cada canto do mundo: o núcleo pesado das câmaras de provação, a ardósia que nem o Warden quebra"
-				"&7e uma dúzia de raridades que só um demonólogo completo tem na mesma prateleira."
-				""
-				"&6Objetivo:&r 1. Tenha o &6núcleo pesado&r (Brisa Forte de Osorin)."
-				"&f2. Tenha a &6ardósia reforçada&r (ritual de Osorin)."
-				"&f3. Em &6Ronaza&r: núcleo pesado, sino, lanterna de almas, flor do coro, blocos de netherita e iésnio, esponja, ardósia reforçada, âncora de renascimento, tijolos de pedra do End, catalisador de sculk e ametista brotante; ativação: &6Tigela de Iésnio&r; &cmate um devastador&r."
-			]
-		}
-		{
-			id: "3F9BC12FB785BA7B"
-			x: 6.0d
-			y: 0.0d
-			dependencies: [
-				"100BFF314C6FECFC"
 			]
 			tasks: [
 				{
-					id: "2C16EBA284F8DE3F"
+					id: "1F18A83D52A3B190"
+					item: { count: 1, id: "minecraft:heavy_core" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:mining_dim_core"
-					}
-					count: 1L
 				}
 				{
-					id: "535F4445A05D4C06"
+					id: "0DC1303C844A7935"
+					item: { count: 1, id: "minecraft:reinforced_deepslate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:miner_ancient_eldritch"
-					}
-					count: 1L
 				}
 				{
-					id: "0DEFC48C85E0B76A"
+					id: "6D58BB569A3FC1B7"
+					item: { count: 1, id: "occultism:celestial_chalice" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:storage_controller_stabilized"
-					}
-					count: 1L
 				}
 			]
+			x: 6.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["100BFF314C6FECFC"]
+			id: "3F9BC12FB785BA7B"
+			optional: true
 			rewards: [
 				{
 					id: "3FF00C4CA7D18B2A"
@@ -351,28 +209,32 @@
 				}
 				{
 					id: "2504E0E061140A28"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "O Ápice dos Espíritos"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Oito Marids fundidos numa lâmpada. Algo responde de dentro dela, e não é nenhum deles."
-				"&7No mesmo ritual, atuador e estabilizadores viram um bloco só, sem perder um único item: o armazém definitivo."
-				""
-				"&6Objetivo:&r 1. Junte uma &6Peça do Núcleo da Dimensão de Mineração&r (vem do Mestre Minerador)."
-				"&f2. Em &6Ronaza&r: 8 Mestres Mineradores Marid; ativação: a Peça do Núcleo; &csacrifique um aldeão&r = &6Minerador Ancestral&r (dez vezes mais minério)."
-				"&f3. Em &6Ronaza&r: o Atuador, 6 Estabilizadores Nível 5 e 2 Pós de Eco; ativação: sensor de sculk calibrado; &cmate um shulker&r = &6Atuador Estabilizado&r."
+			tasks: [
+				{
+					id: "2C16EBA284F8DE3F"
+					item: { count: 1, id: "occultism:mining_dim_core" }
+					type: "item"
+				}
+				{
+					id: "535F4445A05D4C06"
+					item: { count: 1, id: "occultism:miner_ancient_eldritch" }
+					type: "item"
+				}
+				{
+					id: "0DEFC48C85E0B76A"
+					item: { count: 1, id: "occultism:storage_controller_stabilized" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 6.0d
+			y: 0.0d
 		}
-	]
-	title: "&dTier VII&7 - O Contato Ancestral"
-	subtitle: [
-		"&5O Oculto&7, &dTier VII"
 	]
 }

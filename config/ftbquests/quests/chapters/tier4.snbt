@@ -4,222 +4,113 @@
 	filename: "tier4"
 	group: ""
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_5"
 	}
 	id: "1DF09911BFB2DB44"
+	images: [ ]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6E964B6088155040"]
 			id: "3AF83DB296D42789"
-			x: 0.0d
-			y: 1.6d
+			rewards: [{
+				id: "5059EEFE5213A713"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			dependencies: [
-				"6E964B6088155040"
-			]
-			tasks: [
-				{
-					id: "4C523653F7FB4FDF"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "5059EEFE5213A713"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "Tier IV: Herói"
-			description: [
-				"&7Com três corações no peito, o ar do &cNether&7 enfim deixa de queimar. As portas do inferno estão abertas, e o inferno tem dono."
-				"&7O &8Wither&7 aguarda quem tenha coragem de invocá-lo; o coração dele é a chave do próximo selo."
-				""
-				"&6Objetivo:&r A companhia está no &6Tier IV - Herói&r. Sigam as trilhas deste capítulo: cada uma termina num ingrediente do &cCoração do Tier V&r. Derrotem o boss-chave (losango de cima) e forjem o coração."
-				""
-				"&8Os losangos de baixo são caçadas opcionais: outros bosses do tier, cada um com seu coração-troféu."
-			]
+			tasks: [{
+				id: "4C523653F7FB4FDF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.6d
 		}
 		{
+			dependencies: ["3AF83DB296D42789"]
 			id: "26838CCADA0B3647"
+			rewards: [{
+				id: "0A2EFAEB1BBF495A"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "316071E73C23761A"
+				type: "dimension"
+			}]
 			x: 2.0d
 			y: 0.0d
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "316071E73C23761A"
-					type: "dimension"
-					dimension: "minecraft:the_nether"
-				}
-			]
-			rewards: [
-				{
-					id: "0A2EFAEB1BBF495A"
-					type: "xp"
-					xp: 300
-				}
-			]
-			title: "O Nether, enfim"
-			description: [
-				"&7Com o quarto selo rompido, o &6Ar Escaldante&7 se cala. Pela primeira vez se respira no Nether sem sentir as entranhas cozinharem."
-				""
-				"&6Objetivo:&r Entre no &cNether&r."
-			]
 		}
 		{
+			dependencies: ["26838CCADA0B3647"]
 			id: "00715189257F156B"
+			rewards: [{
+				id: "14772575555525D9"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "04654FCAAA3857B6"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
 			x: 3.6d
 			y: 0.0d
-			dependencies: [
-				"26838CCADA0B3647"
-			]
-			tasks: [
-				{
-					id: "04654FCAAA3857B6"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:blaze_burner"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "14772575555525D9"
-					type: "xp"
-					xp: 300
-				}
-			]
-			title: "Blaze Burner"
-			description: [
-				"&7Um blaze preso numa gaiola de metal arde mais forte que qualquer forno, e sem reclamar."
-				""
-				"&6Objetivo:&r Construa um &6Blaze Burner&r. O calor superaquecido é a única forma de fazer netherite neste mundo."
-			]
 		}
 		{
+			dependencies: ["00715189257F156B"]
 			id: "1F41AA82C98B574E"
+			rewards: [{
+				id: "63FC036F2EFC7AAF"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "022D09B86A0108EA"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
 			x: 5.2d
 			y: 0.0d
-			dependencies: [
-				"00715189257F156B"
-			]
-			tasks: [
-				{
-					id: "022D09B86A0108EA"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:netherite_ingot"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "63FC036F2EFC7AAF"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "Netherite"
-			description: [
-				"&7A netherite não se funde em forno comum. Exige o calor branco de um blaze bem alimentado."
-				""
-				"&6Objetivo:&r Faça um &8Lingote de Netherite&r no &6Mixer superaquecido&r: 4 sucatas de netherite + 4 ouro."
-				""
-				"&8Para superaquecer, alimente o Blaze Burner com um Blaze Cake."
-			]
 		}
 		{
+			dependencies: ["3AF83DB296D42789"]
 			id: "434F23D48EE2DA18"
+			rewards: [{
+				id: "7C17C7B57FE5FE9F"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "0AB7AFE8602B4A80"
+				item: { count: 1, id: "occultism:afrit_essence" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.6d
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "0AB7AFE8602B4A80"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:afrit_essence"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "7C17C7B57FE5FE9F"
-					type: "xp"
-					xp: 300
-				}
-			]
-			title: "Essência de Afrit"
-			description: [
-				"&7O Afrit é um gênio de fogo e orgulho. Chamá-lo é fácil; sobreviver à conversa, nem tanto."
-				""
-				"&6Objetivo:&r Obtenha &cEssência de Afrit&r com o ritual de invocação do Afrit. Ingrediente do Coração V."
-				""
-				"&8Faça o ritual longe de casa e bem armado."
-			]
 		}
 		{
+			dependencies: ["434F23D48EE2DA18"]
 			id: "0565AC7F751304BA"
+			rewards: [{
+				id: "5831FAD708E16EF6"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "36148AF882FB5353"
+				item: { count: 1, id: "irons_spellbooks:epic_ink" }
+				type: "item"
+			}]
 			x: 3.6d
 			y: 1.6d
-			dependencies: [
-				"434F23D48EE2DA18"
-			]
-			tasks: [
-				{
-					id: "36148AF882FB5353"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:epic_ink"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "5831FAD708E16EF6"
-					type: "xp"
-					xp: 300
-				}
-			]
-			title: "Tinta Épica"
-			description: [
-				"&7A tinta épica é feita para feitiços que mudam a paisagem. Ainda não é hora de usá-los, mas já é hora de prepará-la."
-				""
-				"&6Objetivo:&r Prepare uma &5Tinta Épica&r. Ingrediente do Coração V."
-				""
-				"&8As magias épicas só respondem no Tier V."
-			]
 		}
 		{
+			dependencies: ["3AF83DB296D42789"]
 			id: "2E652BB32277527D"
-			x: 2.0d
-			y: 3.2d
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "71D021569CD6D974"
-					type: "kill"
-					entity: "cataclysm:ignis"
-					value: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "14ACF42FDD32D17D"
@@ -228,67 +119,41 @@
 				}
 				{
 					id: "09E333E2302D147A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Ignis"
-			description: [
-				"&7Ignis foi cavaleiro antes de virar chama. Hoje guarda sua fortaleza em brasa e o ignitium que nela se forja."
-				""
-				"&6Objetivo:&r Derrote &6Ignis&r."
-			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "71D021569CD6D974"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
+			dependencies: ["2E652BB32277527D"]
 			id: "26FBA9C4509FB205"
+			rewards: [{
+				id: "06EEEAD8B4D16E9C"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "64814804A0FB4F89"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
 			x: 3.6d
 			y: 3.2d
-			dependencies: [
-				"2E652BB32277527D"
-			]
-			tasks: [
-				{
-					id: "64814804A0FB4F89"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_ingot"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "06EEEAD8B4D16E9C"
-					type: "xp"
-					xp: 300
-				}
-			]
-			title: "Ignitium"
-			description: [
-				"&7O ignitium nasce da essência de Ignis, e só aceita o calor mais bravo."
-				""
-				"&6Objetivo:&r Faça um &6Lingote de Ignitium&r no &6Mixer superaquecido&r. Ingrediente do Coração V."
-			]
 		}
 		{
+			dependencies: ["26FBA9C4509FB205"]
 			id: "65283C24B3F94AE0"
-			x: 5.2d
-			y: 3.2d
-			dependencies: [
-				"26FBA9C4509FB205"
-			]
-			tasks: [
-				{
-					id: "36F3285FCFAA6BDE"
-					type: "kill"
-					entity: "mowziesmobs:frostmaw"
-					value: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "15D71B025AF32456"
@@ -297,101 +162,58 @@
 				}
 				{
 					id: "4D23C8439B41D3B0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O Frostmaw"
-			description: [
-				"&7Nas planícies de gelo dorme o Frostmaw. Acordá-lo é fácil; fazê-lo voltar a dormir custa caro."
-				""
-				"&6Objetivo:&r Derrote o &bFrostmaw&r. O &bcristal de gelo&r dele é ingrediente do Coração V."
-			]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "36F3285FCFAA6BDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.2d
+			y: 3.2d
 		}
 		{
+			dependencies: ["65283C24B3F94AE0"]
 			id: "06A287756F226726"
+			rewards: [{
+				id: "115C8D1B075D8D54"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "63F8AA5C9357FB3E"
+				item: { count: 1, id: "born_in_chaos_v1:krampus_horn" }
+				type: "item"
+			}]
 			x: 6.800000000000001d
 			y: 3.2d
-			dependencies: [
-				"65283C24B3F94AE0"
-			]
-			tasks: [
-				{
-					id: "63F8AA5C9357FB3E"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:krampus_horn"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "115C8D1B075D8D54"
-					type: "xp"
-					xp: 300
-				}
-			]
-			title: "Chifre do Krampus"
-			description: [
-				"&7No inverno, o Krampus vem cobrar os que se comportaram mal. Nesta companhia, ninguém se comportou."
-				""
-				"&6Objetivo:&r Consiga um &cChifre do Krampus&r; ele aparece no inverno. Ingrediente do Coração V."
-			]
 		}
 		{
+			dependencies: ["06A287756F226726"]
 			id: "4BB56356426B119D"
+			rewards: [{
+				id: "1EA8D1394551429B"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "42874EE7511F1E89"
+				item: { count: 1, id: "mythsandlegends:infernum_ingot" }
+				type: "item"
+			}]
 			x: 8.4d
 			y: 3.2d
-			dependencies: [
-				"06A287756F226726"
-			]
-			tasks: [
-				{
-					id: "42874EE7511F1E89"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:infernum_ingot"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "1EA8D1394551429B"
-					type: "xp"
-					xp: 300
-				}
-			]
-			title: "Infernum"
-			description: [
-				"&7Os mitos falam de um metal que só se deixa forjar no coração do fogo."
-				""
-				"&6Objetivo:&r Faça um &cLingote de Infernum&r no calor superaquecido. Ingrediente do Coração V."
-			]
 		}
 		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
 			id: "3D58FFD6591DE8F0"
-			x: 10.0d
-			y: -1.8d
-			shape: "diamond"
-			size: 1.5d
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "6FD67ED0025DF761"
-					type: "kill"
-					entity: "minecraft:wither"
-					value: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "1980BAB4B9ADE4BC"
@@ -399,56 +221,39 @@
 					xp: 1200
 				}
 				{
-					id: "7EBF21752A2D4717"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "7EBF21752A2D4717"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "561959877A7B436A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "O Wither"
-			description: [
-				"&7O &8Wither&7 não nasce: é invocado, por tolos ou por heróis. A companhia terá de ser as duas coisas."
-				"&7Neste mundo ele voltou mais forte, com novos golpes e nenhuma piedade."
-				""
-				"&6Objetivo:&r Invoque e derrote o &8Wither&r (Wither Reincarnated) e pegue o &cCoração do Wither&r."
-				""
-				"&8Invoquem longe da base: três crânios de wither sobre areia das almas em forma de T."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "6FD67ED0025DF761"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -1.8d
 		}
 		{
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
 			id: "442776AE09B63766"
-			x: 2.0d
-			y: 5.200000000000001d
-			shape: "rsquare"
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "5F836DF03459DE57"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:purifying_elixir_3"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "7206F250676D82AA"
@@ -457,49 +262,33 @@
 				}
 				{
 					id: "0424AF3C04215392"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Elixir Purificador III"
-			description: [
-				"&7O Coração IV aquece o sangue até borbulhar: a &cFebre de Magma&7."
-				""
-				"&6Objetivo:&r No &6Suporte de Poções&r: &bElixir Purificador II&r + osso congelado."
-				"&fCura também a &cFebre de Magma&f (Coração IV)."
-			]
-			hide_dependency_lines: true
+			shape: "rsquare"
+			tasks: [{
+				id: "5F836DF03459DE57"
+				item: { count: 1, id: "comamigos_balance:purifying_elixir_3" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.200000000000001d
 		}
 		{
-			id: "0BDF6EE846E0F704"
-			x: 12.0d
-			y: 1.6d
-			shape: "gear"
-			size: 1.75d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_5"
-			}
 			dependencies: [
 				"1F41AA82C98B574E"
 				"0565AC7F751304BA"
 				"4BB56356426B119D"
 				"3D58FFD6591DE8F0"
 			]
-			tasks: [
-				{
-					id: "67221CD9932D212F"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:tier_heart_5"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "0BDF6EE846E0F704"
 			rewards: [
 				{
 					id: "509207AA3FF29922"
@@ -508,77 +297,49 @@
 				}
 				{
 					id: "4493CBF1A17E79C6"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "A Forja do Coração V"
-			description: [
-				"&7Fogo de gênio, gelo de fera e o sangue negro do Wither: o quinto coração já nasce de mau humor."
-				""
-				"&6Objetivo:&r Em &6Sequenced Assembly&r, forje o &cCoração do Tier V&r com:"
-				"&fCoração do Wither + netherite, essência de afrit, ignitium, tinta épica, chifre do Krampus, cristal de gelo do Frostmaw, infernum e prensa."
-				""
-				"&8A ordem exata das etapas está no livro de receitas."
-			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				id: "67221CD9932D212F"
+				item: { count: 1, id: "comamigos_balance:tier_heart_5" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.6d
 		}
 		{
+			dependencies: ["0BDF6EE846E0F704"]
 			id: "1C979661703F338B"
-			x: 14.0d
-			y: 1.6d
+			rewards: [{
+				id: "220D25C5E2345A56"
+				type: "xp"
+				xp: 4000
+			}]
 			shape: "heart"
 			size: 1.5d
-			dependencies: [
-				"0BDF6EE846E0F704"
-			]
-			tasks: [
-				{
-					id: "5625B76B02F92790"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_5"
-					criterion: ""
-				}
-			]
-			rewards: [
-				{
-					id: "220D25C5E2345A56"
-					type: "xp"
-					xp: 4000
-				}
-			]
-			title: "O Banquete do Coração V"
-			description: [
-				"&7O coração ainda bate quando chega à boca. Quem o come sente a força do reino subir pelas veias da companhia inteira."
-				"&7E sente, logo atrás, a maldição se acomodar no peito."
-				""
-				"&6Objetivo:&r Um membro do grupo come o &cCoração do Tier V&r, e todos sobem juntos para o &cTier V - Campeão&r."
-				""
-				"&8Quem come carrega a maldição até beber o Elixir Purificador do próximo capítulo."
-			]
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "5625B76B02F92790"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 1.6d
 		}
 		{
-			id: "3EBC268EA4DF79AA"
-			x: 2.0d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:ignis_heart"
 			}
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "1B60229A9DAE0B1D"
-					type: "kill"
-					entity: "cataclysm:ignis"
-					value: 1L
-				}
-			]
+			id: "3EBC268EA4DF79AA"
 			rewards: [
 				{
 					id: "46B66F95DACC8621"
@@ -586,57 +347,41 @@
 					xp: 1000
 				}
 				{
-					id: "6202143D2CC80DB4"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "6202143D2CC80DB4"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "3E43433B9A5210BE"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Ignis"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eIgnis&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "1B60229A9DAE0B1D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 7.000000000000001d
 		}
 		{
-			id: "35FC8118FF207F59"
-			x: 3.6d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:monstrosity_heart"
 			}
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "1488499AB0E3009E"
-					type: "kill"
-					entity: "cataclysm:netherite_monstrosity"
-					value: 1L
-				}
-			]
+			id: "35FC8118FF207F59"
 			rewards: [
 				{
 					id: "5359CB40E331FD68"
@@ -644,57 +389,41 @@
 					xp: 1000
 				}
 				{
-					id: "273E6E3030625E60"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "273E6E3030625E60"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "13D531FF765E43A7"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Monstruosidade de Netherite"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eMonstruosidade de Netherite&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "1488499AB0E3009E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.6d
+			y: 7.000000000000001d
 		}
 		{
-			id: "4E38D98ADA452B09"
-			x: 5.2d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:gauntlet_heart"
 			}
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "5652EB66606588A0"
-					type: "kill"
-					entity: "bosses_of_mass_destruction:gauntlet"
-					value: 1L
-				}
-			]
+			id: "4E38D98ADA452B09"
 			rewards: [
 				{
 					id: "3D8880745C95A0EE"
@@ -702,57 +431,41 @@
 					xp: 1000
 				}
 				{
-					id: "360841BDDB397737"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "360841BDDB397737"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "51EEB7F6F26C8CF0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Manopla do Nether"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eManopla do Nether&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "5652EB66606588A0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.2d
+			y: 7.000000000000001d
 		}
 		{
-			id: "6FD8D5E9F0432D44"
-			x: 6.800000000000001d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:frostmaw_heart"
 			}
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "1B59C7D59B250B6D"
-					type: "kill"
-					entity: "mowziesmobs:frostmaw"
-					value: 1L
-				}
-			]
+			id: "6FD8D5E9F0432D44"
 			rewards: [
 				{
 					id: "2B61341664CBDAE2"
@@ -760,57 +473,41 @@
 					xp: 1000
 				}
 				{
-					id: "175D7035BDF6328D"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "175D7035BDF6328D"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "60ADB4995B1D6F6C"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Frostmaw"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eFrostmaw&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "1B59C7D59B250B6D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.800000000000001d
+			y: 7.000000000000001d
 		}
 		{
-			id: "517634A75BC2A3EF"
-			x: 8.4d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:krampus_heart"
 			}
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "770BAFE11D5C5ED0"
-					type: "kill"
-					entity: "born_in_chaos_v1:krampus"
-					value: 1L
-				}
-			]
+			id: "517634A75BC2A3EF"
 			rewards: [
 				{
 					id: "4F8B6656BC67DA19"
@@ -818,57 +515,41 @@
 					xp: 1000
 				}
 				{
-					id: "1A3FF4C4916CA052"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "1A3FF4C4916CA052"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "423D0C833A250C6B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Krampus"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eKrampus&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus"
+				id: "770BAFE11D5C5ED0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.4d
+			y: 7.000000000000001d
 		}
 		{
-			id: "618FE5FFE8994B67"
-			x: 10.0d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:scorched_sentinel_heart"
 			}
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "6D0246EE95E5A498"
-					type: "kill"
-					entity: "mythsandlegends:scorched_sentinel"
-					value: 1L
-				}
-			]
+			id: "618FE5FFE8994B67"
 			rewards: [
 				{
 					id: "4331278A332DC491"
@@ -876,57 +557,41 @@
 					xp: 1000
 				}
 				{
-					id: "5D6E4FC5330017D4"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "5D6E4FC5330017D4"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "31F4FDD77D72FD13"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Sentinela Chamuscada"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eSentinela Chamuscada&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "mythsandlegends:scorched_sentinel"
+				id: "6D0246EE95E5A498"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 7.000000000000001d
 		}
 		{
-			id: "44020034C3154FF9"
-			x: 2.0d
-			y: 8.600000000000001d
-			shape: "diamond"
+			dependencies: ["3AF83DB296D42789"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:ashlord_heart"
 			}
-			dependencies: [
-				"3AF83DB296D42789"
-			]
-			tasks: [
-				{
-					id: "7E5DFF3491691021"
-					type: "kill"
-					entity: "block_factorys_bosses:infernal_dragon"
-					value: 1L
-				}
-			]
+			id: "44020034C3154FF9"
 			rewards: [
 				{
 					id: "27E6D02ED9F4E45D"
@@ -934,40 +599,33 @@
 					xp: 1000
 				}
 				{
-					id: "0E8D44F0FDFFF0C7"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "0E8D44F0FDFFF0C7"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "53DF06CC043AB294"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Ashlord, o Dragão Infernal"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eAshlord, o Dragão Infernal&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				id: "7E5DFF3491691021"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 8.600000000000001d
 		}
-	]
-	title: "&6Tier IV - Herói"
-	subtitle: [
-		"Objetivo: forjar e comer o Coração do Tier V"
 	]
 }

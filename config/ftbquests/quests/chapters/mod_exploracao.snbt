@@ -4,110 +4,38 @@
 	filename: "mod_exploracao"
 	group: "48BF15FF65B85345"
 	icon: {
-		count: 1
 		id: "minecraft:filled_map"
 	}
 	id: "77CB699164809C84"
-	order_index: 109
+	images: [ ]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
 			id: "025D09AAB40168DF"
-			x: 0.0d
-			y: 0.0d
+			rewards: [{
+				id: "394BADDF887185EB"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "square"
 			size: 1.75d
-			icon: {
-				count: 1
-				id: "minecraft:filled_map"
-			}
-			tasks: [
-				{
-					id: "7B441FE9C447F660"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "394BADDF887185EB"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "O Livro das Estradas"
-			description: [
-				"&7Este mundo não se entrega a quem fica perto de casa. As montanhas sobem até rasgar as nuvens, os vales se abrem em cores que nenhum mapa antigo conhecia,"
-				"&7e as ruínas dos povos esquecidos jazem longe umas das outras, separadas por dias de caminhada."
-				"&7Cada torre, cada templo, cada acampamento é uma recompensa para os pés cansados. Nenhum deles fica na porta de casa."
-				""
-				"&7Comece com um &6mapa&7, uma luneta e a disposição de andar até o horizonte. As &6Waystones&7 cuidarão da volta."
-			]
+			tasks: [{
+				id: "7B441FE9C447F660"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "5698C3AA6FE9D790"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
+			dependencies: ["025D09AAB40168DF"]
 			icon: {
-				count: 1
 				id: "minecraft:filled_map"
 			}
-			dependencies: [
-				"025D09AAB40168DF"
-			]
-			tasks: [
-				{
-					id: "17D993E30C984A6F"
-					type: "advancement"
-					advancement: "minecraft:adventure/root"
-					criterion: ""
-				}
-				{
-					id: "0FE295116DDE993B"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:filled_map"
-					}
-					count: 1L
-				}
-				{
-					id: "03CB2CC7DCB0936E"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:spyglass"
-					}
-					count: 1L
-				}
-				{
-					id: "02F2144D055C9323"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:rope"
-					}
-					count: 16L
-				}
-				{
-					id: "45B6F848D2BFB210"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:altimeter"
-					}
-					count: 1L
-				}
-				{
-					id: "49FA600FDFC415D4"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:globe"
-					}
-					count: 1L
-				}
-			]
+			id: "5698C3AA6FE9D790"
 			rewards: [
 				{
 					id: "5F16340EAF63A756"
@@ -116,104 +44,57 @@
 				}
 				{
 					id: "38A41E06F50C0E4F"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Pé na Estrada"
-			description: [
-				"&7Toda crônica de viagem começa com o mesmo passo: o primeiro para longe da fogueira."
-				"&7Um mapa preenchido é a memória do viajante; sem ele, cada floresta parece a mesma floresta. As montanhas daqui são tão altas que do cume se veem as torres de reinos inteiros."
-				"&7Corda para os abismos, um altímetro para saber o quanto se desceu e um globo para lembrar o tamanho do mundo: a bagagem de quem pretende voltar."
-				""
-				"&6Objetivo:&r 1. Vença sua primeira briga (ou perca uma): a aventura começa aí."
-				"&f2. Fabrique um &6Mapa&r (papel + bússola) e preencha-o caminhando com ele na mão."
-				"&f3. Fabrique uma &6Luneta&r (2 cobre + 1 fragmento de ametista)."
-				"&f4. Junte a bagagem: 16 &6Cordas&r, um &6Altímetro&r e um &6Globo&r."
-				""
-				"&8Mapas em molduras na parede viram um painel da região. O &6Mapa de Fatia&r mostra uma camada fixa de altura: ótimo para cavernas."
-			]
-		}
-		{
-			id: "446388A57CCC6F36"
-			x: 4.0d
-			y: 0.0d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "waystones:waystone"
-			}
-			dependencies: [
-				"5698C3AA6FE9D790"
-			]
 			tasks: [
 				{
-					id: "07E7C17611839F82"
-					type: "item"
-					item: {
-						count: 1
-						id: "waystones:warp_dust"
-					}
-					count: 4L
+					advancement: "minecraft:adventure/root"
+					criterion: ""
+					id: "17D993E30C984A6F"
+					type: "advancement"
 				}
 				{
-					id: "4FEABD8034806F09"
+					id: "0FE295116DDE993B"
+					item: { count: 1, id: "minecraft:filled_map" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:return_scroll"
-					}
-					count: 3L
 				}
 				{
-					id: "19F0DD96ECA117EE"
+					id: "03CB2CC7DCB0936E"
+					item: { count: 1, id: "minecraft:spyglass" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:warp_scroll"
-					}
-					count: 3L
 				}
 				{
-					id: "50149364E1EFF10D"
+					count: 16L
+					id: "02F2144D055C9323"
+					item: { count: 1, id: "supplementaries:rope" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:warp_stone"
-					}
-					count: 1L
 				}
 				{
-					id: "30CBE4D503BA7BA6"
+					id: "45B6F848D2BFB210"
+					item: { count: 1, id: "supplementaries:altimeter" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:waystone"
-					}
-					count: 1L
 				}
 				{
-					id: "14632B416AF4FAF3"
+					id: "49FA600FDFC415D4"
+					item: { count: 1, id: "supplementaries:globe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:purple_sharestone"
-					}
-					count: 1L
-				}
-				{
-					id: "4E0B8733E2A493EA"
-					type: "item"
-					item: {
-						count: 1
-						id: "waystones:warp_plate"
-					}
-					count: 1L
 				}
 			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5698C3AA6FE9D790"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "446388A57CCC6F36"
 			rewards: [
 				{
 					id: "099037AB2119723C"
@@ -222,32 +103,56 @@
 				}
 				{
 					id: "5D128F7DEEE68FEB"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "As Pedras do Caminho"
-			description: [
-				"&7Monólitos antigos, gravados com runas violetas, pontilham as vilas e as estradas. Quem toca um deles nunca mais se perde."
-				"&7Pergaminhos selados com ouro dobram o caminho como quem dobra uma carta; a pedra de dobra faz o mesmo sem se gastar."
-				"&7E um lar só é lar quando se pode voltar a ele num piscar de olhos: por isso a companhia ergue a própria pedra, e liga suas bases em rede."
-				""
-				"&6Objetivo:&r 1. Ative uma &6Waystone&r de vila e fabrique 4 &6Pó de Dobra&r (pérola do Ender + fragmento de ametista)."
-				"&f2. Faça 3 &6Pergaminhos de Retorno&r (2 pepitas de ouro, tinta, 3 papéis: levam à waystone ativada mais próxima)."
-				"&f3. Faça 3 &6Pergaminhos de Dobra&r (ouro, tinta, pérola do Ender, papel: levam a qualquer waystone ativada, uma vez)."
-				"&f4. Fabrique uma &6Pedra de Dobra&r (esmeralda, 4 ametistas, 4 pérolas do Ender), reutilizável com recarga."
-				"&f5. Fabrique uma &6Waystone&r própria (tijolos de pedra, pedra de dobra, 3 obsidianas) para a base do grupo."
-				"&f6. Fabrique uma &6Pedra de Partilha&r (rede própria entre pedras da mesma cor) e uma &6Placa de Dobra&r (liga duas placas como gêmeas)."
-				""
-				"&8Viajar por uma waystone custa experiência, mais caro quanto mais longe. A tarefa pede a pedra de partilha roxa; as outras cores funcionam igual, cada uma com sua rede."
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "07E7C17611839F82"
+					item: { count: 1, id: "waystones:warp_dust" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4FEABD8034806F09"
+					item: { count: 1, id: "waystones:return_scroll" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "19F0DD96ECA117EE"
+					item: { count: 1, id: "waystones:warp_scroll" }
+					type: "item"
+				}
+				{
+					id: "50149364E1EFF10D"
+					item: { count: 1, id: "waystones:warp_stone" }
+					type: "item"
+				}
+				{
+					id: "30CBE4D503BA7BA6"
+					item: { count: 1, id: "waystones:waystone" }
+					type: "item"
+				}
+				{
+					id: "14632B416AF4FAF3"
+					item: { count: 1, id: "waystones:purple_sharestone" }
+					type: "item"
+				}
+				{
+					id: "4E0B8733E2A493EA"
+					item: { count: 1, id: "waystones:warp_plate" }
+					type: "item"
+				}
 			]
+			x: 4.0d
+			y: 0.0d
 		}
-	]
-	title: "O Livro das Estradas"
-	subtitle: [
-		"O mundo é largo, e as ruínas, raras"
 	]
 }

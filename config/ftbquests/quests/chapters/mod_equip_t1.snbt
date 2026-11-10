@@ -4,168 +4,80 @@
 	filename: "mod_equip_t1"
 	group: "0011E6E41EF0DECD"
 	icon: {
-		count: 1
 		id: "minecraft:compass"
 	}
 	id: "542935D707158295"
-	order_index: 126
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "42B5F49DA8C98AE8"
-			x: 0.0d
-			y: 10.4d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			tasks: [
-				{
-					id: "3DD9FB8E97D58823"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&7Tier I"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &7Tier I&7."
-			]
-			disable_toast: true
+			id: "42B5F49DA8C98AE8"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "3DD9FB8E97D58823"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 10.4d
 		}
 		{
-			id: "35B92A081AC21CDB"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "sophisticatedbackpacks:gold_backpack"
-			}
 			dependencies: [
 				"364D1CEA41B8A77E"
 				"42B5F49DA8C98AE8"
 			]
+			icon: {
+				id: "sophisticatedbackpacks:gold_backpack"
+			}
+			id: "35B92A081AC21CDB"
+			rewards: [{
+				id: "1DE9236F335B558B"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "060592599CE8C3A5"
+					item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:copper_backpack"
-					}
-					count: 1L
 				}
 				{
 					id: "4A69A9CB37A9C820"
+					item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:iron_backpack"
-					}
-					count: 1L
 				}
 				{
 					id: "583BBA7B74E95FBA"
+					item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:gold_backpack"
-					}
-					count: 1L
 				}
 				{
 					id: "430FAD6A8FBA6F78"
+					item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "1DE9236F335B558B"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "Costuras de Metal"
-			description: [
-				"&7Reforço de cobre, depois ferro, depois ouro: a cada camada a mochila cresce,"
-				"&7ganha mais um encaixe de melhoria e não perde nada do que já levava dentro."
-				"&7Mesmo espaço, o dobro de coisa: feitiçaria? Não, costura bem feita."
-				""
-				"&6Objetivo:&r 1. Cerque a mochila com cobre na bancada: &6Mochila de Cobre&r."
-				"&f2. Melhore com lingotes de ferro: &6Mochila de Ferro&r."
-				"&f3. Melhore com lingotes de ouro: &6Mochila de Ouro&r."
-				"&f4. Faça uma &6Melhoria de Pilha&r: cada espaço guarda várias pilhas (ferro, ouro, diamante e netherite multiplicam mais)."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "7EC23C363346E8C6"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "sophisticatedbackpacks:crafting_upgrade"
-			}
 			dependencies: [
 				"364D1CEA41B8A77E"
 				"42B5F49DA8C98AE8"
 			]
-			tasks: [
-				{
-					id: "0E98379458B4CEAD"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:crafting_upgrade"
-					}
-					count: 1L
-				}
-				{
-					id: "7B65389DC17C922D"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:smelting_upgrade"
-					}
-					count: 1L
-				}
-				{
-					id: "0C6AC4CA7CE99B38"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:tool_swapper_upgrade"
-					}
-					count: 1L
-				}
-				{
-					id: "121B7FBFE8C7412F"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:refill_upgrade"
-					}
-					count: 1L
-				}
-				{
-					id: "244954560485A16E"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:deposit_upgrade"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "sophisticatedbackpacks:crafting_upgrade"
+			}
+			id: "7EC23C363346E8C6"
+			optional: true
 			rewards: [
 				{
 					id: "07A9F4360F28154C"
@@ -174,90 +86,54 @@
 				}
 				{
 					id: "54C42F7235B0F30E"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Oficina nas Costas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Bancada, fornalha e caixa de ferramentas, tudo dobrado dentro do couro."
-				"&7Os mineiros anões juram que a melhor mochila é a que trabalha enquanto o dono cava:"
-				"&7funde o minério, troca a picareta pela espada e repõe as tochas antes que acabem."
-				""
-				"&6Objetivo:&r 1. &6Melhoria de Bancada&r: uma grade de fabricação dentro da mochila."
-				"&f2. &6Melhoria de Fundição&r: uma fornalha costurada (a versão automática funde sozinha o que entra)."
-				"&f3. &6Melhoria de Troca de Ferramentas&r: escolhe a ferramenta certa para o bloco ou a arma para o alvo."
-				"&f4. &6Melhoria de Recarga&r: repõe a barra rápida."
-				"&f5. &6Melhoria de Depósito&r: despeja em baús com um clique."
-				""
-				"&8Há também serraria de pedra, bigorna, ferraria, defumador, alto-forno e alquimia."
+			size: 1.25d
+			tasks: [
+				{
+					id: "0E98379458B4CEAD"
+					item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
+					type: "item"
+				}
+				{
+					id: "7B65389DC17C922D"
+					item: { count: 1, id: "sophisticatedbackpacks:smelting_upgrade" }
+					type: "item"
+				}
+				{
+					id: "0C6AC4CA7CE99B38"
+					item: { count: 1, id: "sophisticatedbackpacks:tool_swapper_upgrade" }
+					type: "item"
+				}
+				{
+					id: "121B7FBFE8C7412F"
+					item: { count: 1, id: "sophisticatedbackpacks:refill_upgrade" }
+					type: "item"
+				}
+				{
+					id: "244954560485A16E"
+					item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "1AABEA202688B9D8"
-			x: 2.0d
-			y: 3.2d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "sophisticatedbackpacks:everlasting_upgrade"
-			}
 			dependencies: [
 				"364D1CEA41B8A77E"
 				"42B5F49DA8C98AE8"
 			]
-			tasks: [
-				{
-					id: "10914A4595D98461"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:compacting_upgrade"
-					}
-					count: 1L
-				}
-				{
-					id: "73C59BCA53A6AFB0"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:void_upgrade"
-					}
-					count: 1L
-				}
-				{
-					id: "10DAFC5449D7FEFE"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:tank_upgrade"
-					}
-					count: 1L
-				}
-				{
-					id: "354E29E2732459A7"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:xp_pump_upgrade"
-					}
-					count: 1L
-				}
-				{
-					id: "2B35C59E4D03FEDB"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:everlasting_upgrade"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "sophisticatedbackpacks:everlasting_upgrade"
+			}
+			id: "1AABEA202688B9D8"
+			optional: true
 			rewards: [
 				{
 					id: "1942F05F26D8C05F"
@@ -266,98 +142,50 @@
 				}
 				{
 					id: "2BBAFCF59EBA7922"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Mochila Sem Fim"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Pepitas viram lingotes, lixo vira nada, a água cabe num tanque e a experiência numa garrafa."
-				"&7E há quem costure uma runa que impede a mochila de morrer: fogo, lava, vazio,"
-				"&7nada destrói uma mochila que se recusa a sumir."
-				""
-				"&6Objetivo:&r 1. &6Melhoria de Compactação&r: 2x2 ou 3x3 em blocos."
-				"&f2. &6Melhoria de Vazio&r: destrói o que for filtrado."
-				"&f3. &6Melhoria de Tanque&r: água, lava ou poção."
-				"&f4. &6Bomba de Experiência&r: guarda e devolve níveis."
-				"&f5. &6Melhoria Eterna&r: a mochila não é destruída e não some do chão."
-				""
-				"&8A Melhoria de Incepção permite mochilas dentro de mochilas, com as melhorias somadas."
-			]
-			optional: true
-		}
-		{
-			id: "3F8A96B6736FEC99"
-			x: 2.0d
-			y: 4.8d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "sophisticatedstorage:controller"
-			}
-			dependencies: [
-				"42B5F49DA8C98AE8"
-			]
 			tasks: [
 				{
-					id: "5F9AD6B5B143DC28"
+					id: "10914A4595D98461"
+					item: { count: 1, id: "sophisticatedbackpacks:compacting_upgrade" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:chest"
-					}
-					count: 1L
 				}
 				{
-					id: "67989AE5E35524C6"
+					id: "73C59BCA53A6AFB0"
+					item: { count: 1, id: "sophisticatedbackpacks:void_upgrade" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:barrel"
-					}
-					count: 1L
 				}
 				{
-					id: "09D511473C637808"
+					id: "10DAFC5449D7FEFE"
+					item: { count: 1, id: "sophisticatedbackpacks:tank_upgrade" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
-					}
-					count: 1L
 				}
 				{
-					id: "4BA222F438F179C4"
+					id: "354E29E2732459A7"
+					item: { count: 1, id: "sophisticatedbackpacks:xp_pump_upgrade" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:controller"
-					}
-					count: 1L
 				}
 				{
-					id: "0C38C73BD6124CAC"
+					id: "2B35C59E4D03FEDB"
+					item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:storage_link"
-					}
-					count: 1L
-				}
-				{
-					id: "1244CD9B2E7F3C9D"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:safe"
-					}
-					count: 1L
 				}
 			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["42B5F49DA8C98AE8"]
+			icon: {
+				id: "sophisticatedstorage:controller"
+			}
+			id: "3F8A96B6736FEC99"
 			rewards: [
 				{
 					id: "6BD7D08CBFF172A3"
@@ -366,69 +194,59 @@
 				}
 				{
 					id: "211B22E5D875E121"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Armazém do Mercador"
-			description: [
-				"&7O armazém de um mercador honesto: tudo etiquetado, tudo no lugar, e uma só porta para cem baús."
-				"&7Os baús sofisticados crescem sem precisar ser esvaziados, aceitam melhorias como as mochilas,"
-				"&7e o cofre do canto só reconhece a mão de quem o fechou."
-				""
-				"&6Objetivo:&r 1. Faça um &6Baú&r e um &6Barril&r sofisticados."
-				"&f2. Faça uma &6Melhoria de Nível Básico para Ferro&r e use-a sobre o baú posto: ele cresce sem perder nada."
-				"&f3. Faça um &6Controlador de Armazém&r e encoste-o nos baús: todos viram um só inventário."
-				"&f4. Faça um &6Elo de Armazém&r: liga baús distantes ao controlador."
-				"&f5. Faça um &6Cofre&r: só o dono abre, e ele mantém o conteúdo ao ser quebrado."
-				""
-				"&8A escada de níveis segue: cobre, ferro, ouro, diamante e netherite."
+			size: 1.25d
+			tasks: [
+				{
+					id: "5F9AD6B5B143DC28"
+					item: { count: 1, id: "sophisticatedstorage:chest" }
+					type: "item"
+				}
+				{
+					id: "67989AE5E35524C6"
+					item: { count: 1, id: "sophisticatedstorage:barrel" }
+					type: "item"
+				}
+				{
+					id: "09D511473C637808"
+					item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+					type: "item"
+				}
+				{
+					id: "4BA222F438F179C4"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+				{
+					id: "0C38C73BD6124CAC"
+					item: { count: 1, id: "sophisticatedstorage:storage_link" }
+					type: "item"
+				}
+				{
+					id: "1244CD9B2E7F3C9D"
+					item: { count: 1, id: "supplementaries:safe" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 4.8d
 		}
 		{
-			id: "115AB8DEF203209D"
-			x: 2.0d
-			y: 6.4d
-			icon: {
-				count: 1
-				id: "supplementaries:cannon"
-			}
 			dependencies: [
 				"7C458D634C348048"
 				"42B5F49DA8C98AE8"
 			]
-			tasks: [
-				{
-					id: "0E17BDCCC196DB86"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:bomb"
-					}
-					count: 4L
-				}
-				{
-					id: "379367548A707912"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:cannon"
-					}
-					count: 1L
-				}
-				{
-					id: "00C7C23636F40B7C"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:cannonball"
-					}
-					count: 4L
-				}
-			]
+			icon: {
+				id: "supplementaries:cannon"
+			}
+			id: "115AB8DEF203209D"
+			optional: true
 			rewards: [
 				{
 					id: "2560A97FEDF2F966"
@@ -437,86 +255,45 @@
 				}
 				{
 					id: "1055EFDA4D37C4DA"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Pólvora e Estrondo"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Pólvora embrulhada e um pavio curto: os anões chamariam isso de presente."
-				"&7Os engenheiros do vapor, que nunca resistem a um cano largo, foram além e montaram canhões"
-				"&7nas muralhas e nos conveses."
-				""
-				"&6Objetivo:&r 1. Faça &64 Bombas&r: arremessáveis, explodem no impacto (a &6Bomba Azul&r é bem mais forte)."
-				"&f2. Construa um &6Canhão&r. Carregue com pólvora, mire e dispare."
-				"&f3. Faça &64 Balas de Canhão&r."
+			tasks: [
+				{
+					count: 4L
+					id: "0E17BDCCC196DB86"
+					item: { count: 1, id: "supplementaries:bomb" }
+					type: "item"
+				}
+				{
+					id: "379367548A707912"
+					item: { count: 1, id: "supplementaries:cannon" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00C7C23636F40B7C"
+					item: { count: 1, id: "supplementaries:cannonball" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 6.4d
 		}
 		{
-			id: "00E936451383980F"
-			x: 2.0d
-			y: 8.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "supplementaries:globe"
-			}
 			dependencies: [
 				"7C458D634C348048"
 				"42B5F49DA8C98AE8"
 			]
-			tasks: [
-				{
-					id: "6654A064AC742E89"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:hourglass"
-					}
-					count: 1L
-				}
-				{
-					id: "145D29CD8CFBF671"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:altimeter"
-					}
-					count: 1L
-				}
-				{
-					id: "41B8A1CDDA433E3F"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:wrench"
-					}
-					count: 1L
-				}
-				{
-					id: "18C1780A8799D52A"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:jar"
-					}
-					count: 1L
-				}
-				{
-					id: "549BA11AFE975CEE"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:globe"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "supplementaries:globe"
+			}
+			id: "00E936451383980F"
+			optional: true
 			rewards: [
 				{
 					id: "44EF928B6970535B"
@@ -525,89 +302,51 @@
 				}
 				{
 					id: "073BF37884E4A29D"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Engenhocas de Bolso"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Uma ampulheta, um altímetro e uma chave inglesa: o kit do engenheiro andarilho."
-				"&7Na estante dele há ainda uma jarra que guarda mel, poções e vagalumes,"
-				"&7e um globo que traz o mundo inteiro numa esfera que gira com o dedo."
-				""
-				"&6Objetivo:&r 1. &6Ampulheta&r: temporizador de areia."
-				"&f2. &6Altímetro&r: mostra a altura."
-				"&f3. &6Chave Inglesa&r: gira blocos."
-				"&f4. &6Jarra&r: guarda líquidos, biscoitos e até pequenas criaturas."
-				"&f5. &6Globo&r: mostra o mapa do mundo; gire-o para procurar terras."
-				""
-				"&8A Torneira tira líquido de jarras e barris; a Flauta chama de volta os animais domados."
-			]
-			optional: true
-		}
-		{
-			id: "74CA191E277A6448"
-			x: 2.0d
-			y: 9.6d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "quark:pathfinders_quill"
-			}
-			dependencies: [
-				"42B5F49DA8C98AE8"
-			]
 			tasks: [
 				{
-					id: "18638B4868ED0517"
+					id: "6654A064AC742E89"
+					item: { count: 1, id: "supplementaries:hourglass" }
 					type: "item"
-					item: {
-						count: 1
-						id: "quark:seed_pouch"
-					}
-					count: 1L
 				}
 				{
-					id: "3E2B956CAD31613A"
+					id: "145D29CD8CFBF671"
+					item: { count: 1, id: "supplementaries:altimeter" }
 					type: "item"
-					item: {
-						count: 1
-						id: "quark:trowel"
-					}
-					count: 1L
 				}
 				{
-					id: "5D74B964F1921A8D"
+					id: "41B8A1CDDA433E3F"
+					item: { count: 1, id: "supplementaries:wrench" }
 					type: "item"
-					item: {
-						count: 1
-						id: "quark:abacus"
-					}
-					count: 1L
 				}
 				{
-					id: "1759769D2ECA4E51"
+					id: "18C1780A8799D52A"
+					item: { count: 1, id: "supplementaries:jar" }
 					type: "item"
-					item: {
-						count: 1
-						id: "quark:pathfinders_quill"
-					}
-					count: 1L
 				}
 				{
-					id: "7BA2E2B0C3517CD7"
+					id: "549BA11AFE975CEE"
+					item: { count: 1, id: "supplementaries:globe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "quark:ancient_tome"
-					}
-					count: 1L
 				}
 			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["42B5F49DA8C98AE8"]
+			icon: {
+				id: "quark:pathfinders_quill"
+			}
+			id: "74CA191E277A6448"
+			optional: true
 			rewards: [
 				{
 					id: "051E5C4E7A6A82E3"
@@ -616,105 +355,51 @@
 				}
 				{
 					id: "41B5514CD3752514"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Ferramentas do Desbravador"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Medir a distância, achar o caminho e semear sem se abaixar: metade de qualquer viagem."
-				"&7O pedreiro preguiçoso deixa a colher escolher a pedra, e o sábio guarda o tomo velho"
-				"&7que ensina mais do que os encantadores sabem."
-				""
-				"&6Objetivo:&r 1. &6Bolsa de Sementes&r: guarda muitas sementes de um tipo e planta em área."
-				"&f2. &6Colher de Pedreiro&r: coloca um bloco aleatório da barra rápida a cada uso."
-				"&f3. &6Ábaco&r: mede distâncias entre blocos."
-				"&f4. &6Pena do Desbravador&r: aponta biomas (vendida pelo mercador ambulante)."
-				"&f5. &6Tomo Antigo&r (baús): na bigorna, eleva um livro encantado acima do nível máximo."
-			]
-			optional: true
-		}
-		{
-			id: "2494DEA15208CD78"
-			x: 2.0d
-			y: 11.2d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "handcrafted:oak_chair"
-			}
-			dependencies: [
-				"42B5F49DA8C98AE8"
-			]
 			tasks: [
 				{
-					id: "218C5B6471AE3F78"
+					id: "18638B4868ED0517"
+					item: { count: 1, id: "quark:seed_pouch" }
 					type: "item"
-					item: {
-						count: 1
-						id: "handcrafted:hammer"
-					}
-					count: 1L
 				}
 				{
-					id: "2E898E23AAED2739"
+					id: "3E2B956CAD31613A"
+					item: { count: 1, id: "quark:trowel" }
 					type: "item"
-					item: {
-						count: 1
-						id: "handcrafted:oak_table"
-					}
-					count: 1L
 				}
 				{
-					id: "1F799FE63D746BFF"
+					id: "5D74B964F1921A8D"
+					item: { count: 1, id: "quark:abacus" }
 					type: "item"
-					item: {
-						count: 1
-						id: "handcrafted:oak_chair"
-					}
-					count: 1L
 				}
 				{
-					id: "15C0820CF68BBB99"
+					id: "1759769D2ECA4E51"
+					item: { count: 1, id: "quark:pathfinders_quill" }
 					type: "item"
-					item: {
-						count: 1
-						id: "furnish:furniture_workbench"
-					}
-					count: 1L
 				}
 				{
-					id: "5E992B1BAE6A1E8F"
+					id: "7BA2E2B0C3517CD7"
+					item: { count: 1, id: "quark:ancient_tome" }
 					type: "item"
-					item: {
-						count: 1
-						id: "furnish:oak_wardrobe"
-					}
-					count: 1L
-				}
-				{
-					id: "70FA71D4E67487B7"
-					type: "item"
-					item: {
-						count: 1
-						id: "rechiseled:chisel"
-					}
-					count: 1L
-				}
-				{
-					id: "37C4F34578FD9352"
-					type: "item"
-					item: {
-						count: 1
-						id: "mcwbridges:rope_oak_bridge"
-					}
-					count: 4L
 				}
 			]
+			x: 2.0d
+			y: 9.6d
+		}
+		{
+			dependencies: ["42B5F49DA8C98AE8"]
+			icon: {
+				id: "handcrafted:oak_chair"
+			}
+			id: "2494DEA15208CD78"
+			optional: true
 			rewards: [
 				{
 					id: "5C706FDDF3D63D65"
@@ -723,106 +408,65 @@
 				}
 				{
 					id: "3D168D8B1555069D"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Uma Casa de Verdade"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Uma casa sem cadeira é só um abrigo."
-				"&7Os carpinteiros do reino trabalham com martelo e bancada própria; os pedreiros, com cinzel,"
-				"&7que tira mil rostos de uma pedra só. E onde o rio separa, a ponte reúne."
-				""
-				"&6Objetivo:&r 1. Faça um &6Martelo&r de carpinteiro: alterna variantes de móveis colocados."
-				"&f2. Faça uma &6Mesa&r e uma &6Cadeira&r de carvalho (há sofás, camas, balcões e troféus de criaturas)."
-				"&f3. Faça uma &6Bancada de Móveis&r e, nela, um &6Guarda-roupa&r de carvalho."
-				"&f4. Faça um &6Cinzel&r: troca blocos por variantes entalhadas, muitas com texturas que se conectam."
-				"&f5. Faça &64 Pontes de Corda&r de carvalho (há também de pedra, de tora, pilares e escadas)."
+			size: 1.25d
+			tasks: [
+				{
+					id: "218C5B6471AE3F78"
+					item: { count: 1, id: "handcrafted:hammer" }
+					type: "item"
+				}
+				{
+					id: "2E898E23AAED2739"
+					item: { count: 1, id: "handcrafted:oak_table" }
+					type: "item"
+				}
+				{
+					id: "1F799FE63D746BFF"
+					item: { count: 1, id: "handcrafted:oak_chair" }
+					type: "item"
+				}
+				{
+					id: "15C0820CF68BBB99"
+					item: { count: 1, id: "furnish:furniture_workbench" }
+					type: "item"
+				}
+				{
+					id: "5E992B1BAE6A1E8F"
+					item: { count: 1, id: "furnish:oak_wardrobe" }
+					type: "item"
+				}
+				{
+					id: "70FA71D4E67487B7"
+					item: { count: 1, id: "rechiseled:chisel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "37C4F34578FD9352"
+					item: { count: 1, id: "mcwbridges:rope_oak_bridge" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 11.2d
 		}
 		{
-			id: "17883DDE10CC4F04"
-			x: 2.0d
-			y: 12.8d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "simplyswords:iron_katana"
-			}
 			dependencies: [
 				"5F9D9957C0912EEF"
 				"42B5F49DA8C98AE8"
 			]
-			tasks: [
-				{
-					id: "196DE0E1FED1C523"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_sai"
-					}
-					count: 1L
-				}
-				{
-					id: "6D1B2AC376A0380A"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_cutlass"
-					}
-					count: 1L
-				}
-				{
-					id: "65923AAB74897BAF"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_katana"
-					}
-					count: 1L
-				}
-				{
-					id: "1A56CABC476878D3"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_twinblade"
-					}
-					count: 1L
-				}
-				{
-					id: "6D417BC081C129C2"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_chakram"
-					}
-					count: 1L
-				}
-				{
-					id: "6EE1F550B3CFB9F9"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_warglaive"
-					}
-					count: 1L
-				}
-				{
-					id: "2BF20C89033EB614"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:sword_on_a_stick"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "simplyswords:iron_katana"
+			}
+			id: "17883DDE10CC4F04"
+			optional: true
 			rewards: [
 				{
 					id: "5BC85F085786A4B7"
@@ -831,88 +475,64 @@
 				}
 				{
 					id: "3B4F9C3A4ABB0104"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Lâminas de Duelo"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Para quem prefere dez golpes rápidos a um golpe certo."
-				"&7A katana e a lâmina dupla são armas de quem treinou mais do que lutou; o chakram e a glaive de guerra"
-				"&7vieram de terras distantes e giram no ar como luas de aço."
-				"&7E há a espada amarrada num graveto: engenharia de taverna, mas funciona."
-				""
-				"&6Objetivo:&r 1. &6Sais&r e &6Alfanje&r de ferro: rápidos, pouco dano por golpe."
-				"&f2. &6Katana&r e &6Lâmina Dupla&r de ferro: equilíbrio entre velocidade e dano."
-				"&f3. &6Chakram&r e &6Glaive de Guerra&r de ferro: lâminas exóticas."
-				"&f4. &6Espada no Graveto&r: espada longa de ferro, linha e um graveto na bancada."
+			size: 1.25d
+			tasks: [
+				{
+					id: "196DE0E1FED1C523"
+					item: { count: 1, id: "simplyswords:iron_sai" }
+					type: "item"
+				}
+				{
+					id: "6D1B2AC376A0380A"
+					item: { count: 1, id: "simplyswords:iron_cutlass" }
+					type: "item"
+				}
+				{
+					id: "65923AAB74897BAF"
+					item: { count: 1, id: "simplyswords:iron_katana" }
+					type: "item"
+				}
+				{
+					id: "1A56CABC476878D3"
+					item: { count: 1, id: "simplyswords:iron_twinblade" }
+					type: "item"
+				}
+				{
+					id: "6D417BC081C129C2"
+					item: { count: 1, id: "simplyswords:iron_chakram" }
+					type: "item"
+				}
+				{
+					id: "6EE1F550B3CFB9F9"
+					item: { count: 1, id: "simplyswords:iron_warglaive" }
+					type: "item"
+				}
+				{
+					id: "2BF20C89033EB614"
+					item: { count: 1, id: "simplyswords:sword_on_a_stick" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 12.8d
 		}
 		{
-			id: "21F59E36D6B4F298"
-			x: 2.0d
-			y: 14.4d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "simplyswords:iron_greathammer"
-			}
 			dependencies: [
 				"5F9D9957C0912EEF"
 				"42B5F49DA8C98AE8"
 			]
-			tasks: [
-				{
-					id: "5AA15C9BFD568FF8"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_greataxe"
-					}
-					count: 1L
-				}
-				{
-					id: "2495A974BA03A9E4"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_greathammer"
-					}
-					count: 1L
-				}
-				{
-					id: "351A6A6C78D7B9EA"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_halberd"
-					}
-					count: 1L
-				}
-				{
-					id: "3B0AF220ED33FEB4"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_glaive"
-					}
-					count: 1L
-				}
-				{
-					id: "7176C7308EEF6AC7"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:iron_scythe"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "simplyswords:iron_greathammer"
+			}
+			id: "21F59E36D6B4F298"
+			optional: true
 			rewards: [
 				{
 					id: "0D5180B9F05F1169"
@@ -921,126 +541,88 @@
 				}
 				{
 					id: "1A49FDB98794459D"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Peso e Haste"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Lentas como um boi, e com o mesmo efeito quando acertam."
-				"&7Quem mantém o inimigo a dois passos de distância vive para contar; quem o acerta com um martelo"
-				"&7grande não precisa contar nada."
-				""
-				"&6Objetivo:&r 1. &6Machado Grande&r e &6Martelo Grande&r de ferro: golpes lentos e devastadores."
-				"&f2. &6Alabarda&r, &6Glaive&r e &6Foice&r de ferro: alcance de haste."
+			size: 1.25d
+			tasks: [
+				{
+					id: "5AA15C9BFD568FF8"
+					item: { count: 1, id: "simplyswords:iron_greataxe" }
+					type: "item"
+				}
+				{
+					id: "2495A974BA03A9E4"
+					item: { count: 1, id: "simplyswords:iron_greathammer" }
+					type: "item"
+				}
+				{
+					id: "351A6A6C78D7B9EA"
+					item: { count: 1, id: "simplyswords:iron_halberd" }
+					type: "item"
+				}
+				{
+					id: "3B0AF220ED33FEB4"
+					item: { count: 1, id: "simplyswords:iron_glaive" }
+					type: "item"
+				}
+				{
+					id: "7176C7308EEF6AC7"
+					item: { count: 1, id: "simplyswords:iron_scythe" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 14.4d
 		}
 		{
-			id: "179B2B5E994ACC7B"
-			x: 2.0d
-			y: 16.0d
-			icon: {
-				count: 1
-				id: "simplyswords:runic_forge"
-			}
 			dependencies: [
 				"5F9D9957C0912EEF"
 				"42B5F49DA8C98AE8"
 			]
+			icon: {
+				id: "simplyswords:runic_forge"
+			}
+			id: "179B2B5E994ACC7B"
+			rewards: [{
+				id: "461A16FF2C7C83BA"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
 					id: "5D8E32893DC137A9"
+					item: { count: 1, id: "minecraft:smithing_table" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:smithing_table"
-					}
-					count: 1L
 				}
 				{
 					id: "7CB58CB6AEC21F68"
+					item: { count: 1, id: "simplyswords:runic_tablet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					count: 1L
 				}
 				{
 					id: "75BA50694E2C6C51"
+					item: { count: 1, id: "simplyswords:runic_forge" }
 					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:runic_forge"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "461A16FF2C7C83BA"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "A Forja Rúnica"
-			description: [
-				"&7Pedras gravadas com runas mais antigas que os anões: ninguém sabe ler, mas todos sabem usar."
-				"&7Sobre a mesa de ferraria, uma tábua dessas vira molde; montada com obsidiana, ametista e ouro,"
-				"&7vira a bigorna encantada onde as armas lendárias acordam do sono."
-				""
-				"&6Objetivo:&r 1. Monte uma &6Mesa de Ferraria&r."
-				"&f2. Encontre uma &6Tábua Rúnica&r em baús de masmorras e estruturas."
-				"&f3. Construa a &6Forja Rúnica&r: mesa de ferraria, tábua rúnica, obsidiana, ametista e ouro."
-				"&fArmas únicas marcadas com \"Modifique na Forja Rúnica\" despertam e evoluem nela."
-			]
+			x: 2.0d
+			y: 16.0d
 		}
 		{
-			id: "6218E95B0266DF3F"
-			x: 2.0d
-			y: 17.6d
-			icon: {
-				count: 1
-				id: "simplybows:upgrades/enchanted_bow_string"
-			}
 			dependencies: [
 				"7C458D634C348048"
 				"42B5F49DA8C98AE8"
 			]
-			tasks: [
-				{
-					id: "291EB9D863598F74"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplybows:upgrades/enchanted_bow_string"
-					}
-					count: 1L
-				}
-				{
-					id: "71451891659CB4E8"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplybows:upgrades/reinforced_bow_frame"
-					}
-					count: 1L
-				}
-				{
-					id: "0094A1CED8A3436A"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplybows:upgrades/rune_etching_pain"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "simplybows:upgrades/enchanted_bow_string"
+			}
+			id: "6218E95B0266DF3F"
+			optional: true
 			rewards: [
 				{
 					id: "244A6D86A357687F"
@@ -1049,86 +631,43 @@
 				}
 				{
 					id: "6C830D33F3E4FB91"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Afinando o Arco"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Um arco lendário não nasce pronto: o arqueiro o afina com o tempo."
-				"&7Uma corda encantada estica o alcance da magia, uma armação reforçada dá força ao disparo,"
-				"&7e uma gravura rúnica (Dor, Graça, Fartura ou Caos) ensina o arco a mudar de ideia."
-				""
-				"&6Objetivo:&r 1. Encontre uma &6Corda Encantada&r: aumenta o alcance dos efeitos do arco único."
-				"&f2. Encontre uma &6Armação Reforçada&r: aumenta a força."
-				"&f3. Encontre uma &6Gravura Rúnica&r: altera o comportamento da habilidade."
-				"&fAplique-as num arco único na bigorna."
-				""
-				"&8Segure Alt sobre um arco único para ver os encaixes usados."
+			tasks: [
+				{
+					id: "291EB9D863598F74"
+					item: { count: 1, id: "simplybows:upgrades/enchanted_bow_string" }
+					type: "item"
+				}
+				{
+					id: "71451891659CB4E8"
+					item: { count: 1, id: "simplybows:upgrades/reinforced_bow_frame" }
+					type: "item"
+				}
+				{
+					id: "0094A1CED8A3436A"
+					item: { count: 1, id: "simplybows:upgrades/rune_etching_pain" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 17.6d
 		}
 		{
-			id: "191FFF55BFE8671D"
-			x: 2.0d
-			y: 19.2d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "artifacts:eternal_steak"
-			}
 			dependencies: [
 				"63C9F7FE8A4493C3"
 				"42B5F49DA8C98AE8"
 			]
-			tasks: [
-				{
-					id: "2B891D3939884E22"
-					type: "item"
-					item: {
-						count: 1
-						id: "artifacts:everlasting_beef"
-					}
-					count: 1L
-				}
-				{
-					id: "37D10BF3C5FB26A4"
-					type: "item"
-					item: {
-						count: 1
-						id: "artifacts:eternal_steak"
-					}
-					count: 1L
-				}
-				{
-					id: "51938422D98EC4A9"
-					type: "advancement"
-					advancement: "artifacts:adventurous_eater"
-					criterion: ""
-				}
-				{
-					id: "4576765EC5A5684E"
-					type: "item"
-					item: {
-						count: 1
-						id: "artifacts:plastic_drinking_hat"
-					}
-					count: 1L
-				}
-				{
-					id: "3B9B623D791CABF8"
-					type: "item"
-					item: {
-						count: 1
-						id: "artifacts:novelty_drinking_hat"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "artifacts:eternal_steak"
+			}
+			id: "191FFF55BFE8671D"
+			optional: true
 			rewards: [
 				{
 					id: "5F145D84412096A2"
@@ -1137,79 +676,55 @@
 				}
 				{
 					id: "31A69188FDF387F0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Banquete do Aventureiro"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Há uma vaca no mundo cuja carne nunca acaba; os açougueiros a procuram há séculos."
-				"&7Assada, ela vira um bife que não some ao ser comido, só descansa. Os aventureiros mais famintos"
-				"&7comem com um chapéu de duas latas e um canudo: ridículo, mas ninguém come mais rápido."
-				""
-				"&6Objetivo:&r 1. Consiga a &6Carne Eterna&r (rara ao abater vacas)."
-				"&f2. Asse-a em &6Bife Eterno&r: não é consumido ao ser comido, só entra em recarga."
-				"&f3. Coma um artefato (o bife serve)."
-				"&f4. &6Chapéu de Canudinho&r (Cabeça): comer e beber ficam muito mais rápidos."
-				"&f5. &6Chapéu de Campeão&r (Cabeça): o mesmo efeito, com mais vaidade."
+			size: 1.25d
+			tasks: [
+				{
+					id: "2B891D3939884E22"
+					item: { count: 1, id: "artifacts:everlasting_beef" }
+					type: "item"
+				}
+				{
+					id: "37D10BF3C5FB26A4"
+					item: { count: 1, id: "artifacts:eternal_steak" }
+					type: "item"
+				}
+				{
+					advancement: "artifacts:adventurous_eater"
+					criterion: ""
+					id: "51938422D98EC4A9"
+					type: "advancement"
+				}
+				{
+					id: "4576765EC5A5684E"
+					item: { count: 1, id: "artifacts:plastic_drinking_hat" }
+					type: "item"
+				}
+				{
+					id: "3B9B623D791CABF8"
+					item: { count: 1, id: "artifacts:novelty_drinking_hat" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 19.2d
 		}
 		{
-			id: "4D418C46E7B5B2F1"
-			x: 2.0d
-			y: 20.8d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "artifacts:snorkel"
-			}
 			dependencies: [
 				"63C9F7FE8A4493C3"
 				"42B5F49DA8C98AE8"
 			]
-			tasks: [
-				{
-					id: "6AADA109B4205F78"
-					type: "item"
-					item: {
-						count: 1
-						id: "artifacts:snorkel"
-					}
-					count: 1L
-				}
-				{
-					id: "2AAA5EBFEA5A9C73"
-					type: "item"
-					item: {
-						count: 1
-						id: "artifacts:villager_hat"
-					}
-					count: 1L
-				}
-				{
-					id: "769BA7CDC8B78DEE"
-					type: "item"
-					item: {
-						count: 1
-						id: "artifacts:cowboy_hat"
-					}
-					count: 1L
-				}
-				{
-					id: "1CBB6A5A1BFB56EA"
-					type: "item"
-					item: {
-						count: 1
-						id: "artifacts:anglers_hat"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "artifacts:snorkel"
+			}
+			id: "4D418C46E7B5B2F1"
+			optional: true
 			rewards: [
 				{
 					id: "0785AA598B6C98DF"
@@ -1218,79 +733,46 @@
 				}
 				{
 					id: "1574402F024817EF"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Chapéus da Estrada"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Cada ofício do reino tem seu chapéu, e cada chapéu guarda um pouco do ofício."
-				"&7O mergulhador respira emprestado da superfície, o vaqueiro faz qualquer cavalo galopar,"
-				"&7o pescador espeta iscas na aba, e quem se veste como aldeão paga menos na feira."
-				""
-				"&6Objetivo:&r 1. &6Snorkel&r (Cabeça): fôlego extra a cada mergulho."
-				"&f2. &6Chapéu de Aldeão&r (Cabeça): aldeões cobram menos nas trocas."
-				"&f3. &6Chapéu de Vaqueiro&r (Cabeça): montarias correm mais rápido."
-				"&f4. &6Chapéu do Pescador&r (Cabeça): +1 nível de Sorte do Mar e de Isca."
-				""
-				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
-			]
-			optional: true
-		}
-		{
-			id: "0F37E7B9A973D0F1"
-			x: 4.0d
-			y: 4.8d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "supplementaries:key"
-			}
-			dependencies: [
-				"3F8A96B6736FEC99"
-			]
 			tasks: [
 				{
-					id: "3C94F58EA00B2506"
+					id: "6AADA109B4205F78"
+					item: { count: 1, id: "artifacts:snorkel" }
 					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:key"
-					}
-					count: 1L
 				}
 				{
-					id: "15CB580AB6324FC9"
+					id: "2AAA5EBFEA5A9C73"
+					item: { count: 1, id: "artifacts:villager_hat" }
 					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:lock_block"
-					}
-					count: 1L
 				}
 				{
-					id: "24DBAA7ACA14B992"
+					id: "769BA7CDC8B78DEE"
+					item: { count: 1, id: "artifacts:cowboy_hat" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:limited_barrel_1"
-					}
-					count: 1L
 				}
 				{
-					id: "64C1828A3757072B"
+					id: "1CBB6A5A1BFB56EA"
+					item: { count: 1, id: "artifacts:anglers_hat" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:packing_tape"
-					}
-					count: 1L
 				}
 			]
+			x: 2.0d
+			y: 20.8d
+		}
+		{
+			dependencies: ["3F8A96B6736FEC99"]
+			icon: {
+				id: "supplementaries:key"
+			}
+			id: "0F37E7B9A973D0F1"
+			optional: true
 			rewards: [
 				{
 					id: "26D19E6CFE99CEF3"
@@ -1299,30 +781,38 @@
 				}
 				{
 					id: "4B9E53EA815E5B23"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Trancas e Mudanças"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Uma porta trancada diz: confio em você, mas nem tanto."
-				"&7E mudar de casa sem esvaziar os baús é o luxo dos mercadores: basta fita e paciência."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Chave&r e um &6Bloco de Fechadura&r: portas e sinais trancados só abrem com a chave certa."
-				"&f2. Faça um &6Barril Limitado&r: até quatro divisões, cada uma com um tipo de item em enorme quantidade."
-				"&f3. Faça &6Fita de Embalagem&r e use-a num baú sofisticado para levá-lo sem perder o conteúdo."
-				""
-				"&8O Pincel e a Mesa de Decoração tingem e reformam baús, barris e caixas shulker."
+			size: 1.25d
+			tasks: [
+				{
+					id: "3C94F58EA00B2506"
+					item: { count: 1, id: "supplementaries:key" }
+					type: "item"
+				}
+				{
+					id: "15CB580AB6324FC9"
+					item: { count: 1, id: "supplementaries:lock_block" }
+					type: "item"
+				}
+				{
+					id: "24DBAA7ACA14B992"
+					item: { count: 1, id: "sophisticatedstorage:limited_barrel_1" }
+					type: "item"
+				}
+				{
+					id: "64C1828A3757072B"
+					item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 4.8d
 		}
-	]
-	title: "&7Tier I&7 - Couro, Corda e Ferro"
-	subtitle: [
-		"&fEquipamento e Utilidades&7, &7Tier I"
 	]
 }

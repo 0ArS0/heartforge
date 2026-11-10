@@ -4,140 +4,76 @@
 	filename: "mod_occultism_t3"
 	group: "46A9BB1E2D819F6E"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "1FF3CC63377F6C36"
-	order_index: 43
+	images: [ ]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			id: "1AF63B76627C9477"
-			x: 0.0d
-			y: 0.8d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_3"
 			}
-			tasks: [
-				{
-					id: "4017BD2FE6F3BB5E"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
-			]
-			disable_toast: true
+			id: "1AF63B76627C9477"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "4017BD2FE6F3BB5E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
 		}
 		{
-			id: "61B372EAFAF2F1E0"
-			x: 2.0d
-			y: 0.0d
-			icon: {
-				count: 1
-				id: "occultism:iesnium_ingot"
-			}
 			dependencies: [
 				"363AECA4F200A93D"
 				"6C5EC7E8689D9D06"
 				"1AF63B76627C9477"
 			]
+			icon: {
+				id: "occultism:iesnium_ingot"
+			}
+			id: "61B372EAFAF2F1E0"
+			rewards: [{
+				id: "28993A7311C43167"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "4A77393E72ADBA3A"
+					item: { count: 1, id: "occultism:raw_iesnium" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:raw_iesnium"
-					}
-					count: 1L
 				}
 				{
-					id: "7D5C5911487DD44D"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:iesnium_ingot"
-					}
 					count: 4L
+					id: "7D5C5911487DD44D"
+					item: { count: 1, id: "occultism:iesnium_ingot" }
+					type: "item"
 				}
 				{
 					id: "1D7C3D0A083EA051"
+					item: { count: 1, id: "occultism:iesnium_pickaxe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:iesnium_pickaxe"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "28993A7311C43167"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "Iésnio, o Minério Escondido"
-			description: [
-				"&7No Nether, certos blocos de netherrack não são netherrack. Sob o Terceiro Olho, brilham em azul gelado."
-				"&7Só uma picareta que também existe do outro lado consegue arrancá-los, e o metal que sai deles é mais duro que qualquer coisa forjada aqui."
-				"&7É o iésnio que faz os espíritos mineiros, as lâmpadas e as obras grandes dos Afrits."
-				""
-				"&6Objetivo:&r 1. Com os &6Óculos&r ou o &bTerceiro Olho&r, ache &6Minério de Iésnio&r no Nether e minere com a &6Picareta Infundida&r: &6Iésnio Bruto&r."
-				"&f2. Funda-o em lingotes. O iésnio é ingrediente do &6Coração do Tier IV&r."
-				"&f3. Monte a &6Picareta de Iésnio&r no &6Mechanical Crafter&r: 3 lingotes de iésnio, 2 gravetos e 1 &6Precision Mechanism&r."
-				""
-				"&8A Vara de Adivinhação sintonizada no minério aponta o caminho. O Ar Escaldante ainda pesa: entre, colha e saia."
-				"&8O Djinni Apostador às vezes paga em iésnio."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "7E002D720DB08BC8"
-			x: 2.0d
-			y: 1.6d
-			icon: {
-				count: 1
-				id: "occultism:familiar_ring"
-			}
 			dependencies: [
 				"363AECA4F200A93D"
 				"2413D605BFDAECF8"
 				"1AF63B76627C9477"
 			]
-			tasks: [
-				{
-					id: "4D729BFCA2C53AF5"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:soul_gem"
-					}
-					count: 1L
-				}
-				{
-					id: "369C879D80A61EB2"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:familiar_ring"
-					}
-					count: 1L
-				}
-				{
-					id: "3DE29216C1F9655E"
-					type: "advancement"
-					advancement: "occultism:occultism/familiar/capture"
-					criterion: ""
-				}
-			]
+			icon: {
+				id: "occultism:familiar_ring"
+			}
+			id: "7E002D720DB08BC8"
 			rewards: [
 				{
 					id: "00F3BA3B79C31946"
@@ -146,145 +82,85 @@
 				}
 				{
 					id: "1CA9C2CAC4B612E9"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
-			]
-			title: "O Anel de Familiar"
-			description: [
-				"&7Um familiar dentro do anel não morre, não se perde e ainda empresta o dom ao dono."
-				"&7É a Gema da Alma, amansada com ouro e prata, que vira a joia mais cobiçada dos demonólogos."
-				""
-				"&6Objetivo:&r 1. Tenha uma &6Gema da Alma&r (Strigeor)."
-				"&f2. Em &6Strigeor&r: Gema da Alma, 2 ouros e 2 pratas = &6Anel de Familiar&r."
-				"&f3. Clique num familiar seu com o anel para guardá-lo; use o anel como curio para receber o efeito."
-			]
-		}
-		{
-			id: "0AB4579CA0C63A42"
-			x: 4.0d
-			y: -1.6d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "occultism:dimensional_mineshaft"
-			}
-			dependencies: [
-				"61B372EAFAF2F1E0"
 			]
 			tasks: [
 				{
-					id: "2B0AC3C3865AC96A"
+					id: "4D729BFCA2C53AF5"
+					item: { count: 1, id: "occultism:soul_gem" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:magic_lamp_empty"
-					}
-					count: 1L
+				}
+				{
+					id: "369C879D80A61EB2"
+					item: { count: 1, id: "occultism:familiar_ring" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/familiar/capture"
+					criterion: ""
+					id: "3DE29216C1F9655E"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["61B372EAFAF2F1E0"]
+			icon: {
+				id: "occultism:dimensional_mineshaft"
+			}
+			id: "0AB4579CA0C63A42"
+			rewards: [{
+				id: "7DE6EED0FA0F9E1E"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2B0AC3C3865AC96A"
+					item: { count: 1, id: "occultism:magic_lamp_empty" }
+					type: "item"
 				}
 				{
 					id: "3BD58FDD8B1F571E"
+					item: { count: 1, id: "occultism:dimensional_mineshaft" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:dimensional_mineshaft"
-					}
-					count: 1L
 				}
 				{
 					id: "34A81634B7561D4C"
+					item: { count: 1, id: "occultism:miner_foliot_unspecialized" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:miner_foliot_unspecialized"
-					}
-					count: 1L
 				}
 				{
 					id: "25E3D5DB81C59558"
+					item: { count: 1, id: "occultism:miner_djinni_ores" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:miner_djinni_ores"
-					}
-					count: 1L
 				}
 				{
 					id: "5E6ABC705E6D6D1A"
+					item: { count: 1, id: "occultism:dimensional_extractor" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:dimensional_extractor"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "7DE6EED0FA0F9E1E"
-					type: "xp"
-					xp: 550
-				}
-			]
-			title: "A Mina Dimensional"
-			description: [
-				"&7Há uma fenda para uma dimensão de pedra infinita, estreita demais para gente, larga o bastante para um espírito com picareta."
-				"&7O demonólogo prende o mineiro numa lâmpada, põe a lâmpada no poço e espera."
-				"&7O Foliot traz de tudo, pedra e cascalho inclusive; o Djinni distingue minério de pedra e não perde tempo."
-				""
-				"&6Objetivo:&r 1. &6Lâmpada Mágica Vazia&r: prata em volta de uma Gema Sintonizada. Também captura espíritos trabalhadores para levá-los a outro lugar."
-				"&f2. Em &6Strigeor&r: 4 OutraPedras ou OutraRochas, ouro, bloco de iésnio e Cristal = &6Poço de Mina Dimensional&r."
-				"&f3. Em &6Eziveus&r: Lâmpada, Picareta de Iésnio, ferro e cascalho = &6Minerador Foliot&r. Coloque-o no poço."
-				"&f4. Em &6Strigeor&r: Minerador Foliot, Picareta de Iésnio, ouro, lápis e Cristal = &6Minerador de Minérios Djinni&r (só minérios, mais depressa)."
-				"&f5. Em &6Strigeor&r: pedestal de OutraPedra, funil, bloco de iésnio, Cristal e 2 ouros = &6Extrator Dimensional&r. Sob o poço, despeja tudo no baú embaixo."
-				""
-				"&8A lâmpada se desgasta com o uso. O ritual de reparo dos Afrits renova o contrato."
-			]
+			x: 4.0d
+			y: -1.6d
 		}
 		{
-			id: "65DA0195461EC628"
-			x: 4.0d
-			y: -0.0d
-			icon: {
-				count: 1
-				id: "occultism:storage_remote"
-			}
 			dependencies: [
 				"61B372EAFAF2F1E0"
 				"1878D8FF0E07B052"
 			]
-			tasks: [
-				{
-					id: "4ECBAFE530D00BE6"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:iesnium_nugget"
-					}
-					count: 4L
-				}
-				{
-					id: "4023440B705EC2E5"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:otherstone_tablet"
-					}
-					count: 1L
-				}
-				{
-					id: "02B828E046AF9710"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:storage_remote"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "occultism:storage_remote"
+			}
+			id: "65DA0195461EC628"
 			rewards: [
 				{
 					id: "49B9E6D4AA8E7868"
@@ -293,59 +169,38 @@
 				}
 				{
 					id: "262F2BCC17E4AE0A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
-			]
-			title: "O Armazém no Bolso"
-			description: [
-				"&7O armazém inteiro no bolso, desde que o Djinni da matriz responda de longe."
-				"&7O acessor é uma tabuleta salpicada de iésnio, que só acorda depois de passar por Strigeor."
-				""
-				"&6Objetivo:&r 1. Faça &6pepitas de iésnio&r."
-				"&f2. Faça a &6Tabuleta do Outro Mundo&r (ouro, OutraPedra e Cinzas)."
-				"&f3. &6Acessor Inerte&r: pepitas de iésnio, Tabuleta, Gema e prata. Em &6Strigeor&r: o acessor inerte, 2 pérolas de ender e quartzo = &6Acessor de Armazenamento&r. Agachado, clique no Atuador para vincular."
-			]
-		}
-		{
-			id: "7440365D4AA36B41"
-			x: 4.0d
-			y: 1.6d
-			dependencies: [
-				"61B372EAFAF2F1E0"
 			]
 			tasks: [
 				{
-					id: "2812BB312BDA5D1A"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:otherstone_frame"
-					}
-					count: 1L
-				}
-				{
-					id: "477F89586356E852"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:entity_wormhole"
-					}
-					count: 1L
-				}
-				{
-					id: "6EED1830203EE22C"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:otherglass_natural"
-					}
 					count: 4L
+					id: "4ECBAFE530D00BE6"
+					item: { count: 1, id: "occultism:iesnium_nugget" }
+					type: "item"
+				}
+				{
+					id: "4023440B705EC2E5"
+					item: { count: 1, id: "occultism:otherstone_tablet" }
+					type: "item"
+				}
+				{
+					id: "02B828E046AF9710"
+					item: { count: 1, id: "occultism:storage_remote" }
+					type: "item"
 				}
 			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61B372EAFAF2F1E0"]
+			id: "7440365D4AA36B41"
+			optional: true
 			rewards: [
 				{
 					id: "6BA8A62C4A4B63CE"
@@ -354,28 +209,33 @@
 				}
 				{
 					id: "668841DCCBAEC431"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Passagens de Iésnio"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Vidro transparente para os vivos e sólido para quem usa os óculos. Portais pequenos que levam o que os toca para onde a bússola mandar."
-				"&7Os demonólogos usam ambos para esconder as portas de casa."
-				""
-				"&6Objetivo:&r 1. &6Armação de OutraPedra&r."
-				"&f2. Em &6Strigeor&r: armação, pérola de ender, obsidiana chorona e lingote de iésnio = &6Buraco de Minhoca de Entidade&r. Vincule-o com uma bússola: teleporta pessoas, criaturas e itens."
-				"&f3. &6Vidro do Outro Mundo&r: vidro cercado de pepitas de iésnio e Pedra do End Triturada."
+			tasks: [
+				{
+					id: "2812BB312BDA5D1A"
+					item: { count: 1, id: "occultism:otherstone_frame" }
+					type: "item"
+				}
+				{
+					id: "477F89586356E852"
+					item: { count: 1, id: "occultism:entity_wormhole" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6EED1830203EE22C"
+					item: { count: 1, id: "occultism:otherglass_natural" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 1.6d
 		}
-	]
-	title: "&9Tier III&7 - Iésnio e as Minas do Além"
-	subtitle: [
-		"&5O Oculto&7, &9Tier III"
 	]
 }

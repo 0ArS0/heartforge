@@ -4,166 +4,81 @@
 	filename: "mod_vampirism_t3"
 	group: "3147F27B282022B5"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "080C29048BCE60C8"
-	order_index: 50
+	images: [ ]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			id: "37DFC3745A6DB22E"
-			x: 0.0d
-			y: 2.4d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_3"
 			}
-			tasks: [
-				{
-					id: "457C6C1D6AF9D107"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
-			]
-			disable_toast: true
+			id: "37DFC3745A6DB22E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "457C6C1D6AF9D107"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
 		}
 		{
-			id: "2B6370FEC1A8426B"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"415E82F904596686"
 				"1BAF8B15C237D1FB"
 				"37DFC3745A6DB22E"
 			]
+			id: "2B6370FEC1A8426B"
+			rewards: [{
+				id: "74AF2D8963A16630"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "5ADA1885BEDD2DF0"
+					item: { count: 1, id: "vampirism:pure_blood_2" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:pure_blood_2"
-					}
-					count: 1L
 				}
 				{
-					id: "4528FF7E259745EF"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:blood_infused_enhanced_iron_ingot"
-					}
 					count: 3L
+					id: "4528FF7E259745EF"
+					item: { count: 1, id: "vampirism:blood_infused_enhanced_iron_ingot" }
+					type: "item"
 				}
 				{
 					id: "120206F2C463CE53"
+					item: { count: 1, id: "vampirism:heart_seeker_enhanced" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:heart_seeker_enhanced"
-					}
-					count: 1L
 				}
 				{
 					id: "4B628AB1BC415BE5"
+					item: { count: 1, id: "vampirism:heart_striker_enhanced" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:heart_striker_enhanced"
-					}
-					count: 1L
 				}
 				{
-					id: "7D84A093CF313C83"
-					type: "advancement"
 					advancement: "vampirism:vampire/max_level"
 					criterion: ""
+					id: "7D84A093CF313C83"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "74AF2D8963A16630"
-					type: "xp"
-					xp: 550
-				}
-			]
-			title: "&4[Vampiro]&r Sangue de Linhagem"
-			description: [
-				"&7Barões mais velhos guardam sangue mais denso; o terceiro grau já queima a garganta de quem o prova."
-				"&7Com ele, o ferro lembra a veia de onde veio, e as lâminas encontram o coração antes de o braço decidir."
-				"&7No décimo quarto nível, o vampiro não teme quase nada. Só o sol, o alho... e o tédio."
-				""
-				"&6Objetivo:&r 1. Obtenha &6Sangue Puro de nível 3&r de barões fortes."
-				"&f2. Combine 3 lingotes de ferro com &6Sangue Puro de nível 5&r: 3 &6Ferros Infundidos Aprimorados&r."
-				"&f3. Forje o &6Buscador de Corações Aprimorado&r (ferro infundido comum e aprimorado) e o &6Golpeador Aprimorado&r (ferro aprimorado e seu bloco)."
-				"&f4. Alcance o &4nível máximo&r de vampiro com rituais no Altar de Infusão."
-				""
-				"&8O &6Sangue Puro nível 3&8 é o item de facção vampírico do &6Coração do Tier III&8."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "4A648D111EDAD462"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
 			dependencies: [
 				"1031BB556ECCBEE1"
 				"37DFC3745A6DB22E"
 			]
-			tasks: [
-				{
-					id: "42F12C17A2E701BD"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:basic_tech_crossbow"
-					}
-					count: 1L
-				}
-				{
-					id: "2EA2EE49205FD6AE"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:tech_crossbow_ammo_package"
-					}
-					count: 1L
-				}
-				{
-					id: "70373B1AF30D2D12"
-					type: "advancement"
-					advancement: "vampirism:hunter/technology"
-					criterion: ""
-				}
-				{
-					id: "70C1412EF5082A82"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:enhanced_crossbow"
-					}
-					count: 1L
-				}
-				{
-					id: "05CA2110E9B2B399"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:enhanced_double_crossbow"
-					}
-					count: 1L
-				}
-			]
+			id: "4A648D111EDAD462"
 			rewards: [
 				{
 					id: "0FD1308A9A9A16A3"
@@ -172,271 +87,191 @@
 				}
 				{
 					id: "0FCCEBAE774FAA95"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r Tecnologia Moderna"
-			description: [
-				"&7Engrenagens, molas e um pente de virotes. Os relojoeiros de vapor de Heartforge ensinaram aos caçadores a disparar sem parar."
-				"&7Mais ferro, mais tensão, mais alcance: as bestas aprimoradas atravessam o que as antigas só arranhavam."
-				""
-				"&6Objetivo:&r 1. Com a habilidade de armas técnicas, faça a &6Besta Semiautomática&r e &6Pentes de Virotes&r na Mesa de Armas."
-				"&f2. Com a habilidade de armas aprimoradas, faça a &6Besta Aprimorada&r e a &6Besta Dupla Aprimorada&r."
+			size: 1.25d
+			tasks: [
+				{
+					id: "42F12C17A2E701BD"
+					item: { count: 1, id: "vampirism:basic_tech_crossbow" }
+					type: "item"
+				}
+				{
+					id: "2EA2EE49205FD6AE"
+					item: { count: 1, id: "vampirism:tech_crossbow_ammo_package" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:hunter/technology"
+					criterion: ""
+					id: "70373B1AF30D2D12"
+					type: "advancement"
+				}
+				{
+					id: "70C1412EF5082A82"
+					item: { count: 1, id: "vampirism:enhanced_crossbow" }
+					type: "item"
+				}
+				{
+					id: "05CA2110E9B2B399"
+					item: { count: 1, id: "vampirism:enhanced_double_crossbow" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "40AFA827B348878A"
-			x: 2.0d
-			y: 3.2d
-			size: 1.25d
 			dependencies: [
 				"1031BB556ECCBEE1"
 				"0DAB96358A574DC2"
 				"37DFC3745A6DB22E"
 			]
+			id: "40AFA827B348878A"
+			rewards: [{
+				id: "71C8F51108C0B3A8"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "55F255D27799973D"
+					item: { count: 1, id: "vampirism:hunter_axe_enhanced" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_axe_enhanced"
-					}
-					count: 1L
 				}
 				{
 					id: "4F0DCF2EF1B88922"
+					item: { count: 1, id: "vampirism:hunter_coat_head_enhanced" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_head_enhanced"
-					}
-					count: 1L
 				}
 				{
 					id: "7A6548E8ABBB42D4"
+					item: { count: 1, id: "vampirism:hunter_coat_chest_enhanced" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_chest_enhanced"
-					}
-					count: 1L
 				}
 				{
 					id: "7D70FB6EA7E1A379"
+					item: { count: 1, id: "vampirism:hunter_coat_legs_enhanced" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_legs_enhanced"
-					}
-					count: 1L
 				}
 				{
 					id: "4DF742F30725E190"
+					item: { count: 1, id: "vampirism:hunter_coat_feet_enhanced" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_feet_enhanced"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "71C8F51108C0B3A8"
-					type: "xp"
-					xp: 550
-				}
-			]
-			title: "&9[Caçador]&r Diamante e Sal"
-			description: [
-				"&7Diamante e alho purificado no fio: nem pele de barão aguenta. Forro de sal puro e botões de ouro no casaco: o caçador fica quase invisível aos olhos da noite."
-				""
-				"&6Objetivo:&r 1. Forje o &6Machado de Caçador Aprimorado&r (bloco de diamante, diamantes, alho purificado)."
-				"&f2. Faça o &6Casaco de Caçador Aprimorado&r completo, 4 peças (ferro, ouro e sal puro). Completo, melhora o disfarce e dá saque extra."
-			]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "62B7D292576E0C2B"
-			x: 2.0d
-			y: 4.8d
 			dependencies: [
 				"18F422D54E37240F"
 				"37DFC3745A6DB22E"
 			]
+			id: "62B7D292576E0C2B"
+			rewards: [{
+				id: "50909946ED25D2F5"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "2E18C397CC7D71A1"
+					item: { count: 1, id: "vampirism:hunter_intel_4" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_intel_4"
-					}
-					count: 1L
 				}
 				{
-					id: "23926BFD372F4BF7"
-					type: "advancement"
 					advancement: "vampirism:hunter/max_level"
 					criterion: ""
+					id: "23926BFD372F4BF7"
+					type: "advancement"
 				}
 				{
 					id: "089E47489A66A53C"
+					item: { count: 1, id: "vampirism:garlic_diffuser_improved" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:garlic_diffuser_improved"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "50909946ED25D2F5"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "&9[Caçador]&r O Dossiê Completo"
-			description: [
-				"&7A essa altura, o caçador sabe mais da fisiologia vampírica do que os próprios vampiros. O Treinador já não tem o que ensinar: agora é o caçador quem dá aula."
-				"&7O núcleo do difusor, banhado em água benta forte, passa a cobrir uma aldeia inteira."
-				""
-				"&6Objetivo:&r 1. Produza &6Inteligência de Caçador&r de nível 5 (exige a mesa de pesquisa melhorada)."
-				"&f2. Alcance o &9nível máximo&r de caçador treinando com o Treinador."
-				"&f3. Banhe o núcleo do difusor em &6Água Benta Suprema&r no Caldeirão e monte o &6Difusor de Alho Aprimorado&r."
-				""
-				"&8A &6Inteligência de Caçador&8 nível 5 é o item de facção dos caçadores no &6Coração do Tier III&8."
-			]
+			x: 2.0d
+			y: 4.8d
 		}
 		{
+			dependencies: ["2B6370FEC1A8426B"]
 			id: "5D9615D12D75EA10"
-			x: 4.0d
-			y: 0.0d
+			rewards: [{
+				id: "7C1C290FBDFF1B2E"
+				type: "xp"
+				xp: 440
+			}]
 			size: 1.25d
-			dependencies: [
-				"2B6370FEC1A8426B"
-			]
 			tasks: [
 				{
 					id: "2AD15691687A2BCE"
+					item: { count: 1, id: "vampirism:totem_base" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:totem_base"
-					}
-					count: 1L
 				}
 				{
-					id: "21E585C56DDE9AE6"
-					type: "advancement"
 					advancement: "vampirism:minion/become_lord"
 					criterion: ""
+					id: "21E585C56DDE9AE6"
+					type: "advancement"
 				}
 				{
 					id: "3D6EA3F0F0D8BD9D"
+					item: { count: 1, id: "vampirism:vampire_minion_binding" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_minion_binding"
-					}
-					count: 1L
 				}
 				{
-					id: "04A22E44E2469931"
-					type: "advancement"
 					advancement: "vampirism:minion/collect_blood"
 					criterion: ""
+					id: "04A22E44E2469931"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "7C1C290FBDFF1B2E"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "&4[Vampiro]&r Lorde da Noite"
-			description: [
-				"&7No topo da hierarquia, já não basta lutar: é hora de ter quem lute por você. Algumas aldeias erguem um totem na praça, e a cor da chama diz a quem pagam tributo."
-				"&7Domine uma, cumpra a tarefa do Representante e receba o título. Depois, um vampiro jovem, de olhos baixos, aceita o vínculo: a partir de hoje, ele bebe por você."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Base de Totem&r (tábuas, obsidiana, ferro) ou ache um totem numa aldeia. Fique perto dele para iniciar a captura e derrote os defensores."
-				"&f2. Com nível máximo, aceite a tarefa especial do &6Representante da Facção&r da aldeia e conclua-a para virar &6Lorde&r."
-				"&f3. Use um &6Vínculo de Lacaio Vampiro&r (recompensa do Representante) num vampiro fraco para torná-lo seu lacaio."
-				"&f4. Mande o lacaio coletar sangue. Ele também guarda áreas ou protege você; &6Melhorias de Lacaio&r aumentam o nível dele."
-				""
-				"&8Matar NPCs de facção com estandarte nas costas dá Mau Presságio, que dispara invasões ao entrar numa aldeia."
-				"&8Aldeias dominadas dão trocas exclusivas; vale capturá-las bem antes de virar lorde."
-			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["62B7D292576E0C2B"]
 			id: "00989E0EBBF7BC05"
-			x: 4.0d
-			y: 4.8d
+			rewards: [{
+				id: "1650E8C578CA7289"
+				type: "xp"
+				xp: 440
+			}]
 			size: 1.25d
-			dependencies: [
-				"62B7D292576E0C2B"
-			]
 			tasks: [
 				{
 					id: "504D863A92D257CE"
+					item: { count: 1, id: "vampirism:totem_base" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:totem_base"
-					}
-					count: 1L
 				}
 				{
-					id: "3C788D53076BEE2B"
-					type: "advancement"
 					advancement: "vampirism:minion/become_lord"
 					criterion: ""
+					id: "3C788D53076BEE2B"
+					type: "advancement"
 				}
 				{
 					id: "3330537EEFE90D6E"
+					item: { count: 1, id: "vampirism:hunter_minion_equipment" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_minion_equipment"
-					}
-					count: 1L
 				}
 				{
-					id: "47FCD62A44B54861"
-					type: "advancement"
 					advancement: "vampirism:minion/collect_hunter_items"
 					criterion: ""
+					id: "47FCD62A44B54861"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "1650E8C578CA7289"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "&9[Caçador]&r Capitão da Caçada"
-			description: [
-				"&7Um caçador jovem, bem equipado, segue melhor do que dez voluntários com tochas. Mas só um capitão reconhecido pela aldeia pode recrutá-lo."
-				"&7Tome a praça, erga o totem com a chama dos caçadores e mostre ao Representante que a caçada tem dono."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Base de Totem&r (tábuas, obsidiana, ferro) ou ache um totem numa aldeia. Fique perto dele para iniciar a captura e derrote os defensores."
-				"&f2. Com nível máximo, aceite a tarefa especial do &6Representante da Facção&r e conclua-a para virar &6Lorde&r."
-				"&f3. Use o &6Equipamento de Lacaio Caçador&r (recompensa do Representante) num caçador comum para recrutá-lo."
-				"&f4. Mande-o coletar itens de caçador. Ele também guarda áreas ou protege você."
-				""
-				"&8Matar NPCs de facção com estandarte nas costas dá Mau Presságio, que dispara invasões ao entrar numa aldeia."
-			]
+			x: 4.0d
+			y: 4.8d
 		}
-	]
-	title: "&9Tier III&7 - Linhagens e Lordes"
-	subtitle: [
-		"&4Vampiros e Caçadores&7, &9Tier III"
 	]
 }

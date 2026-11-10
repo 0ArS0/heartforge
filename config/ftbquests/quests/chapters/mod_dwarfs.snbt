@@ -4,199 +4,114 @@
 	filename: "mod_dwarfs"
 	group: "7E685056D4C815C1"
 	icon: {
-		count: 1
 		id: "dwarfs_tyranny:mythril_ingot"
 	}
 	id: "2CCFDE2E773E8453"
-	order_index: 103
+	images: [ ]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "1E7412D5921F48BA"
-			x: 0.0d
-			y: 0.0d
-			shape: "square"
-			size: 1.75d
 			icon: {
-				count: 1
 				id: "dwarfs_tyranny:mythril_ingot"
 			}
-			tasks: [
-				{
-					id: "633A017088938A39"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "1A923FB4473392B9"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "Crônica das Profundezas"
-			description: [
-				"&7Muito abaixo das raízes do mundo, onde a pedra escurece e vira ardósia, os anões ainda cavam."
-				"&7Suas cidades vivem em cavernas abobadadas, iluminadas por gemas e aquecidas por fornalhas de mythril."
-				"&7Outras cidades, mais antigas, já não respiram: ali reinam ossos que se lembram de ter sido reis."
-				"&7Os anões medem cada forasteiro em reputação. Sirva-os bem e eles abrirão suas forjas, seus tonéis e seus segredos de gás e engrenagem."
-				""
-				"&7Comece descendo: as cidades ficam nas grandes cavernas entre os níveis -32 e -20. Leve tochas e uma picareta de ferro."
-			]
+			id: "1E7412D5921F48BA"
+			rewards: [{
+				id: "1A923FB4473392B9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "633A017088938A39"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "250350228C2E80A4"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
+			dependencies: ["1E7412D5921F48BA"]
 			icon: {
-				count: 1
 				id: "dwarfs_tyranny:colony_drum"
 			}
-			dependencies: [
-				"1E7412D5921F48BA"
-			]
+			id: "250350228C2E80A4"
+			rewards: [{
+				id: "1320BCC3310A0DC3"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "09B384BE3625563A"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/down_where_the_stone_sings"
 					criterion: ""
+					id: "09B384BE3625563A"
+					type: "advancement"
 				}
 				{
-					id: "2F19C07094E7D8CF"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/meet_the_locals"
 					criterion: ""
+					id: "2F19C07094E7D8CF"
+					type: "advancement"
 				}
 				{
-					id: "7F4D3A43FEFBB161"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/drums_in_the_deep"
 					criterion: ""
+					id: "7F4D3A43FEFBB161"
+					type: "advancement"
 				}
 				{
-					id: "4B01C9E6178B61A7"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/a_living_city"
 					criterion: ""
+					id: "4B01C9E6178B61A7"
+					type: "advancement"
 				}
 				{
-					id: "61473AEDC59D7CF0"
-					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:mossthril"
-					}
 					count: 9L
+					id: "61473AEDC59D7CF0"
+					item: { count: 1, id: "dwarfs_tyranny:mossthril" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "1320BCC3310A0DC3"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "Onde a Pedra Canta"
-			description: [
-				"&7Há quem jure ouvir martelos sob os pés quando a noite é silenciosa. Os velhos mineiros apenas acenam com a cabeça."
-				"&7Lá embaixo, numa caverna do tamanho de um vale, uma cidade inteira vive à luz de gemas."
-				"&7Barbas trançadas, olhares desconfiados, mãos calejadas: ninguém ali vai sorrir para você tão cedo."
-				"&7Mas quando o tambor da colônia soa, cada anão larga a picareta e corre para a praça, e é ali que um forasteiro é visto pela primeira vez."
-				""
-				"&6Objetivo:&r 1. Desça até uma &6cidade anã&r (cavernas imensas entre os níveis -32 e -20). Mapas de vila anã saem de baús de masmorras e minas."
-				"&f2. Encontre os moradores: aldeões, guardas, ferreiro, joalheiro, taverneiro e o rei."
-				"&f3. Construa um &6Tambor da Colônia&r (6 couros de coelho + 3 pedras) e toque-o: os anões próximos o adotam como centro da colônia."
-				"&f4. Fique por perto até ver dois anões interagindo (cumprimentos, presentes, discussões)."
-				"&f5. Junte 9 &6Mossthril&r, o musgo prateado que cresce sobre a Pedra Musgosa das colônias (o taverneiro também vende)."
-				""
-				"&8Existem dois mapas: o da vila viva e o da &cvila abandonada&r. Confira o nome antes de partir."
-				"&8Não ataque ninguém e não quebre nada da vila: os guardas não perdoam."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["250350228C2E80A4"]
 			id: "65A424A3F5755A29"
-			x: 4.0d
-			y: -0.8d
-			dependencies: [
-				"250350228C2E80A4"
-			]
+			rewards: [{
+				id: "1017852BAE0E4062"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
-					id: "23269A017F69A9CF"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/mind_your_reputation"
 					criterion: ""
+					id: "23269A017F69A9CF"
+					type: "advancement"
 				}
 				{
-					id: "4D6AD9D9C79B2A62"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/a_fair_trade"
 					criterion: ""
+					id: "4D6AD9D9C79B2A62"
+					type: "advancement"
 				}
 				{
-					id: "243C960C9EBBE0A2"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/travelling_salesdwarves"
 					criterion: ""
+					id: "243C960C9EBBE0A2"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "1017852BAE0E4062"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "A Memória de Granito"
-			description: [
-				"&7A memória de um anão é mais dura que granito: cada favor e cada ofensa ficam gravados, de -5 a +5."
-				"&7É a reputação que define o preço de tudo. O ferreiro vende runas, o joalheiro vende gemas, o taverneiro vende ingredientes estranhos, e todos cobram em confiança."
-				"&7De vez em quando, uma patrulha anã sobe à superfície para negociar e vigiar as estradas. Encontrá-la é sinal de que a montanha já sabe seu nome."
-				""
-				"&6Objetivo:&r 1. Ganhe seu primeiro ponto de &6Reputação Anã&r: atenda pedidos e cumpra contratos do rei."
-				"&f2. Compre algo de um mercador anão (&6ferreiro&r, &6joalheiro&r ou &6taverneiro&r). Com pouca reputação, quase nada fica ao alcance."
-				"&f3. Encontre uma &6patrulha anã&r caminhando pela superfície do mundo normal."
-				""
-				"&8A reputação vale para todas as colônias ao mesmo tempo. Agressões e roubos a derrubam rápido."
-				"&8O ferreiro vende até &6Lingotes de Mythril&r, Mesas de Gravação e todas as runas."
-			]
+			x: 4.0d
+			y: -0.8d
 		}
 		{
+			dependencies: ["250350228C2E80A4"]
 			id: "0DD8FDA0DAFA858B"
-			x: 4.0d
-			y: 0.8d
-			size: 1.25d
-			dependencies: [
-				"250350228C2E80A4"
-			]
-			tasks: [
-				{
-					id: "1765FE0B80BCDCA6"
-					type: "advancement"
-					advancement: "dwarfs_tyranny:progression/sound_the_alarm"
-					criterion: ""
-				}
-				{
-					id: "30A238F55AA88C6A"
-					type: "advancement"
-					advancement: "dwarfs_tyranny:progression/enemy_of_the_mountain"
-					criterion: ""
-				}
-				{
-					id: "73E58C4C5AE7ACD7"
-					type: "advancement"
-					advancement: "dwarfs_tyranny:progression/everybody_hates_you"
-					criterion: ""
-				}
-				{
-					id: "594A103356E8D5E8"
-					type: "advancement"
-					advancement: "dwarfs_tyranny:progression/you_asked_for_this"
-					criterion: ""
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "517CD46B1515B8DD"
@@ -205,32 +120,42 @@
 				}
 				{
 					id: "1B7C50D21D2480D0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&cO Caminho do Tirano"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Há quem escolha ser a tirania que os anões temem. Basta uma picareta no lugar errado: os sinos ecoam e cada anão vira soldado."
-				"&7Com a reputação no fundo do poço, as vilas se esvaziam, as portas batem e os guardas cercam o forasteiro."
-				"&7O guarda ergueu o machado primeiro, pelo menos é o que você vai contar. A montanha, porém, lembra de tudo."
-				""
-				"&6Objetivo:&r 1. Dispare o alarme de uma colônia (agredir anões ou depredar a vila)."
-				"&f2. Chegue a &c-5 de Reputação Anã&r."
-				"&f3. Faça uma colônia fugir enquanto os guardas se voltam contra você."
-				"&f4. Derrote um &cGuarda Anão&r com má reputação."
-				""
-				"&8&cNão é recomendado.&r A reputação vale para todas as colônias, e reconquistá-la leva muito tempo. Sem amizade não há contratos, armaduras anãs nem a conquista de mestre."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "dwarfs_tyranny:progression/sound_the_alarm"
+					criterion: ""
+					id: "1765FE0B80BCDCA6"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/enemy_of_the_mountain"
+					criterion: ""
+					id: "30A238F55AA88C6A"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/everybody_hates_you"
+					criterion: ""
+					id: "73E58C4C5AE7ACD7"
+					type: "advancement"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/you_asked_for_this"
+					criterion: ""
+					id: "594A103356E8D5E8"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 0.8d
 		}
-	]
-	title: "Crônica das Profundezas"
-	subtitle: [
-		"Os reinos sob a pedra"
 	]
 }

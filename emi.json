@@ -108,6 +108,12 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "minecraft:iron_shovel",
+    "minecraft:stick",
+    "minecraft:dark_oak_planks",
+    "minecraft:iron_helmet",
+    "minecraft:iron_boots",
+    "minecraft:iron_chestplate",
     "minecraft:oak_planks",
     "minecraft:bread",
     "minecraft:wheat",
@@ -115,7 +121,6 @@
     "simplyswords:iron_longsword",
     "quark:building/crafting/chests/dark_oak_chest",
     "minecraft:crafting_table",
-    "minecraft:dark_oak_planks",
     "minecraft:furnace",
     "biomeswevegone:maple_crafting_table",
     "minecraft:arrow",
@@ -123,7 +128,6 @@
     "quark:tweaks/crafting/utility/better_stone_tools/axe",
     "quark:tweaks/crafting/utility/better_stone_tools/pickaxe",
     "minecraft:wooden_pickaxe",
-    "minecraft:stick",
     "minecraft:spruce_planks",
     "biomeswevegone:maple_planks",
     "minecraft:wooden_axe",

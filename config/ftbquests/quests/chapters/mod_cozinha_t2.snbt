@@ -4,100 +4,41 @@
 	filename: "mod_cozinha_t2"
 	group: "4E6D0897A16A0238"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "333BFD72C821F5D8"
-	order_index: 122
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "19592851A00465AF"
-			x: 0.0d
-			y: 7.2d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_2"
 			}
-			tasks: [
-				{
-					id: "50FF4AB1B27DFEB8"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
-			]
-			disable_toast: true
+			id: "19592851A00465AF"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "50FF4AB1B27DFEB8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 7.2d
 		}
 		{
-			id: "6ECF615D2FCCF3E3"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "farmersdelight:diamond_knife"
-			}
 			dependencies: [
 				"664CAD5152DCF2FD"
 				"2858750B97CCC3E7"
 				"555E326A08EACA1D"
 				"19592851A00465AF"
 			]
-			tasks: [
-				{
-					id: "6B1EEEABF20AEFD4"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:diamond_knife"
-					}
-					count: 1L
-				}
-				{
-					id: "69C45EBAD0E28D91"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:diamond_fillet_knife"
-					}
-					count: 1L
-				}
-				{
-					id: "72BA005383DF5A90"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:diamond_fishing_rod"
-					}
-					count: 1L
-				}
-				{
-					id: "2CA39D291AAAE832"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:diamond_hook"
-					}
-					count: 1L
-				}
-				{
-					id: "6341A44AADD477B5"
-					type: "item"
-					item: {
-						count: 1
-						id: "wildernature:diamond_ammunition"
-					}
-					count: 16L
-				}
-			]
+			icon: {
+				id: "farmersdelight:diamond_knife"
+			}
+			id: "6ECF615D2FCCF3E3"
 			rewards: [
 				{
 					id: "0D6F57569EA9B9EF"
@@ -106,78 +47,55 @@
 				}
 				{
 					id: "048C078A86D557F4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Gume de Diamante"
-			description: [
-				"&7Com o diamante, o cozinheiro, o pescador e o caçador pedem a mesma coisa ao ferreiro:"
-				"&7uma ferramenta que não cega nem depois de mil cebolas, mil atuns teimosos e mil bisões furiosos."
-				"&7Desperdício para uns; para outros, a única coisa que dá conta do serviço."
-				""
-				"&6Objetivo:&r 1. Forje uma &6Faca de Diamante&r: rende mais na Tábua de Corte e no abate."
-				"&f2. Faça uma &6Faca de Filé de Diamante&r: tira filé até de sardinha."
-				"&f3. Faça uma &6Vara de Pesca de Diamante&r, a mais resistente antes do netúnio."
-				"&f4. Forje um &6Anzol de Diamante&r: metade das fisgadas não gasta durabilidade."
-				"&f5. Faça &616 Munições de Diamante&r para o bacamarte (pólvora e diamante)."
+			size: 1.25d
+			tasks: [
+				{
+					id: "6B1EEEABF20AEFD4"
+					item: { count: 1, id: "farmersdelight:diamond_knife" }
+					type: "item"
+				}
+				{
+					id: "69C45EBAD0E28D91"
+					item: { count: 1, id: "aquaculture:diamond_fillet_knife" }
+					type: "item"
+				}
+				{
+					id: "72BA005383DF5A90"
+					item: { count: 1, id: "aquaculture:diamond_fishing_rod" }
+					type: "item"
+				}
+				{
+					id: "2CA39D291AAAE832"
+					item: { count: 1, id: "aquaculture:diamond_hook" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6341A44AADD477B5"
+					item: { count: 1, id: "wildernature:diamond_ammunition" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "4853DBDC6F3A77EA"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "thirst:sand_filter"
-			}
 			dependencies: [
 				"06D9934D97FC106C"
 				"6296715B711500BB"
 				"19592851A00465AF"
 			]
-			tasks: [
-				{
-					id: "4D232DCC2C756824"
-					type: "item"
-					item: {
-						count: 1
-						id: "thirst:sand_filter"
-					}
-					count: 1L
-				}
-				{
-					id: "3B9B45EEB5A9ACFD"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:apple_cider"
-					}
-					count: 1L
-				}
-				{
-					id: "09B0E965F114CE7D"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:hot_cocoa"
-					}
-					count: 1L
-				}
-				{
-					id: "14F30576BB29ED1C"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:melon_juice"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "thirst:sand_filter"
+			}
+			id: "4853DBDC6F3A77EA"
 			rewards: [
 				{
 					id: "45C63040894E7886"
@@ -186,93 +104,48 @@
 				}
 				{
 					id: "078844B7AD96E677"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Copos Cheios"
-			description: [
-				"&7Nem só de água vive o andarilho, embora sem ela ele não viva."
-				"&7Os engenheiros do vapor descobriram que areia limpa água melhor que reza; as cozinheiras,"
-				"&7que maçã, cacau e melancia limpam o humor. Um povoado que cresce precisa das duas coisas."
-				""
-				"&6Objetivo:&r 1. Monte um &6Filtro de Areia&r: bombeie água suja por cima e retire-a um grau mais pura por baixo."
-				"&f2. Prepare &6Sidra de Maçã&r na panela."
-				"&f3. Prepare &6Chocolate Quente&r: remove um efeito nocivo."
-				"&f4. Prepare &6Suco de Melancia&r: cura um pouco. Todas as bebidas matam a sede."
-				""
-				"&8Use bombas e canos; vários filtros em sequência chegam à água purificada."
+			size: 1.25d
+			tasks: [
+				{
+					id: "4D232DCC2C756824"
+					item: { count: 1, id: "thirst:sand_filter" }
+					type: "item"
+				}
+				{
+					id: "3B9B45EEB5A9ACFD"
+					item: { count: 1, id: "farmersdelight:apple_cider" }
+					type: "item"
+				}
+				{
+					id: "09B0E965F114CE7D"
+					item: { count: 1, id: "farmersdelight:hot_cocoa" }
+					type: "item"
+				}
+				{
+					id: "14F30576BB29ED1C"
+					item: { count: 1, id: "farmersdelight:melon_juice" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "19829F724BD219E0"
-			x: 2.0d
-			y: 3.2d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "farmersdelight:roast_chicken_block"
-			}
 			dependencies: [
 				"6296715B711500BB"
 				"19592851A00465AF"
 			]
-			tasks: [
-				{
-					id: "1AB106326F99AF27"
-					type: "advancement"
-					advancement: "farmersdelight:main/place_feast"
-					criterion: ""
-				}
-				{
-					id: "11BD51423D140BCF"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:roast_chicken_block"
-					}
-					count: 1L
-				}
-				{
-					id: "3F1425B5A16E30CE"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:stuffed_pumpkin_block"
-					}
-					count: 1L
-				}
-				{
-					id: "57724500066B3B3B"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:shepherds_pie_block"
-					}
-					count: 1L
-				}
-				{
-					id: "34045CC0DF0ABBA3"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:sweet_berry_cheesecake"
-					}
-					count: 1L
-				}
-				{
-					id: "35B160329CD039D8"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:chocolate_pie"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "farmersdelight:roast_chicken_block"
+			}
+			id: "19829F724BD219E0"
 			rewards: [
 				{
 					id: "120FF2438FDDC726"
@@ -281,97 +154,60 @@
 				}
 				{
 					id: "3B3E99A2A0F84ABB"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Um Banquete Glorioso"
-			description: [
-				"&7Há pratos grandes demais para um só estômago. São feitos para a mesa inteira."
-				"&7A ave dourada no centro anuncia que hoje é dia de festa; a abóbora oca guarda arroz e cogumelos;"
-				"&7a torta do pastor esconde carneiro e batata sob a crosta. E, depois da batalha,"
-				"&7um pedaço de torta doce cura mais que poção."
-				""
-				"&6Objetivo:&r 1. Prepare um banquete, coloque-o sobre a mesa e use uma tigela nele para servir uma porção."
-				"&f2. Prepare um &6Frango Assado&r inteiro na bancada."
-				"&f3. Prepare uma &6Abóbora Recheada&r e uma &6Torta do Pastor&r inteiras."
-				"&f4. Para a sobremesa: &6Cheesecake de Frutas Vermelhas&r e &6Torta de Chocolate&r."
-				""
-				"&8Biscoitos de mel e de frutas vermelhas, picolé de melancia e creme de bagas brilhantes completam a confeitaria."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "farmersdelight:main/place_feast"
+					criterion: ""
+					id: "1AB106326F99AF27"
+					type: "advancement"
+				}
+				{
+					id: "11BD51423D140BCF"
+					item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+					type: "item"
+				}
+				{
+					id: "3F1425B5A16E30CE"
+					item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" }
+					type: "item"
+				}
+				{
+					id: "57724500066B3B3B"
+					item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
+					type: "item"
+				}
+				{
+					id: "34045CC0DF0ABBA3"
+					item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake" }
+					type: "item"
+				}
+				{
+					id: "35B160329CD039D8"
+					item: { count: 1, id: "farmersdelight:chocolate_pie" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "4DC1A1D9AD7E94EE"
-			x: 2.0d
-			y: 4.8d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "farmersdelight:beef_stew"
-			}
 			dependencies: [
 				"6296715B711500BB"
 				"19592851A00465AF"
 			]
-			tasks: [
-				{
-					id: "007ADD9F7C8484B4"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:beef_stew"
-					}
-					count: 1L
-				}
-				{
-					id: "43EFC98D66BE2A99"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:fish_stew"
-					}
-					count: 1L
-				}
-				{
-					id: "2AE0D9E4AD91FBB3"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:pumpkin_soup"
-					}
-					count: 1L
-				}
-				{
-					id: "6BFB01C9659EABAD"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:fried_rice"
-					}
-					count: 1L
-				}
-				{
-					id: "50B2E69BCB270F3C"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:mushroom_rice"
-					}
-					count: 1L
-				}
-				{
-					id: "355126C8338D27E4"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:cabbage_rolls"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "farmersdelight:beef_stew"
+			}
+			id: "4DC1A1D9AD7E94EE"
+			optional: true
 			rewards: [
 				{
 					id: "6809A61AC397D40D"
@@ -380,96 +216,59 @@
 				}
 				{
 					id: "39831995E87FC079"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Cardápio da Taverna"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Carne, legumes e tempo: a receita do ensopado é antiga como as montanhas."
-				"&7Onde há arroz, há cem maneiras de servi-lo, e a taverna que conhece todas nunca fecha no inverno."
-				""
-				"&6Objetivo:&r 1. Cozinhe &6Ensopado de Carne&r, &6Ensopado de Peixe&r e &6Sopa de Abóbora&r."
-				"&f2. Prepare &6Arroz Frito&r e &6Arroz com Cogumelos&r."
-				"&f3. Enrole &6Charutos de Repolho&r."
-				""
-				"&8O Caldo de Ossos e a Sopa de Macarrão também dão Conforto."
+			size: 1.25d
+			tasks: [
+				{
+					id: "007ADD9F7C8484B4"
+					item: { count: 1, id: "farmersdelight:beef_stew" }
+					type: "item"
+				}
+				{
+					id: "43EFC98D66BE2A99"
+					item: { count: 1, id: "farmersdelight:fish_stew" }
+					type: "item"
+				}
+				{
+					id: "2AE0D9E4AD91FBB3"
+					item: { count: 1, id: "farmersdelight:pumpkin_soup" }
+					type: "item"
+				}
+				{
+					id: "6BFB01C9659EABAD"
+					item: { count: 1, id: "farmersdelight:fried_rice" }
+					type: "item"
+				}
+				{
+					id: "50B2E69BCB270F3C"
+					item: { count: 1, id: "farmersdelight:mushroom_rice" }
+					type: "item"
+				}
+				{
+					id: "355126C8338D27E4"
+					item: { count: 1, id: "farmersdelight:cabbage_rolls" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 4.8d
 		}
 		{
-			id: "0F6482F73C0219C3"
-			x: 2.0d
-			y: 6.4d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "farmersdelight:hamburger"
-			}
 			dependencies: [
 				"6296715B711500BB"
 				"19592851A00465AF"
 			]
-			tasks: [
-				{
-					id: "026DDDDD0EC8813B"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:hamburger"
-					}
-					count: 1L
-				}
-				{
-					id: "43271590B28CCE50"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:bacon_sandwich"
-					}
-					count: 1L
-				}
-				{
-					id: "202BFBA6BA9ACF1F"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:mutton_wrap"
-					}
-					count: 1L
-				}
-				{
-					id: "7F786DDC625C16EE"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:kelp_roll"
-					}
-					count: 1L
-				}
-				{
-					id: "77FBB4CA0841F41F"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:salmon_roll"
-					}
-					count: 1L
-				}
-				{
-					id: "2876E54AC33B2A14"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:cod_roll"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "farmersdelight:hamburger"
+			}
+			id: "0F6482F73C0219C3"
+			optional: true
 			rewards: [
 				{
 					id: "0F34B0C3E0A44096"
@@ -478,64 +277,59 @@
 				}
 				{
 					id: "22DBF973615615B4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Comida de Estrada"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O mensageiro não para para almoçar: leva o almoço na mão."
-				"&7Os povos da costa enrolam o peixe na alga e no arroz e chamam isso de festa;"
-				"&7os do interior põem a carne entre dois pães e chamam isso de viagem."
-				""
-				"&6Objetivo:&r 1. Monte um &6Hambúrguer&r (carne moída na frigideira, pão, repolho, tomate e cebola)."
-				"&f2. Monte um &6Sanduíche de Bacon&r e um &6Wrap de Carneiro&r."
-				"&f3. Enrole um &6Rolinho de Alga&r, um de &6Salmão&r e um de &6Bacalhau&r."
+			size: 1.25d
+			tasks: [
+				{
+					id: "026DDDDD0EC8813B"
+					item: { count: 1, id: "farmersdelight:hamburger" }
+					type: "item"
+				}
+				{
+					id: "43271590B28CCE50"
+					item: { count: 1, id: "farmersdelight:bacon_sandwich" }
+					type: "item"
+				}
+				{
+					id: "202BFBA6BA9ACF1F"
+					item: { count: 1, id: "farmersdelight:mutton_wrap" }
+					type: "item"
+				}
+				{
+					id: "7F786DDC625C16EE"
+					item: { count: 1, id: "farmersdelight:kelp_roll" }
+					type: "item"
+				}
+				{
+					id: "77FBB4CA0841F41F"
+					item: { count: 1, id: "farmersdelight:salmon_roll" }
+					type: "item"
+				}
+				{
+					id: "2876E54AC33B2A14"
+					item: { count: 1, id: "farmersdelight:cod_roll" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 6.4d
 		}
 		{
-			id: "3C14D09514D0079A"
-			x: 2.0d
-			y: 8.0d
-			icon: {
-				count: 1
-				id: "farmersdelight:dog_food"
-			}
 			dependencies: [
 				"6296715B711500BB"
 				"19592851A00465AF"
 			]
-			tasks: [
-				{
-					id: "74E86FDB311AD8C1"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:dog_food"
-					}
-					count: 1L
-				}
-				{
-					id: "06035B38D8751D7F"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:horse_feed"
-					}
-					count: 1L
-				}
-				{
-					id: "41FF26D6B5F2FB9B"
-					type: "advancement"
-					advancement: "farmersdelight:main/hit_raider_with_rotten_tomato"
-					criterion: ""
-				}
-			]
+			icon: {
+				id: "farmersdelight:dog_food"
+			}
+			id: "3C14D09514D0079A"
+			optional: true
 			rewards: [
 				{
 					id: "6E56AE9DD47552EC"
@@ -544,103 +338,44 @@
 				}
 				{
 					id: "751EA920068C49F4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Companheiros e Vaias"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O lobo leal e o cavalo cansado também merecem cozinha boa."
-				"&7Já os saqueadores merecem flechas; mas um tomate podre na cara também ensina."
-				""
-				"&6Objetivo:&r 1. Prepare &6Ração Canina&r: dada a um lobo domado, cura e fortalece."
-				"&f2. Prepare &6Ração Equina&r para a montaria."
-				"&f3. Arremesse um &6Tomate Podre&r num saqueador ou outro invasor de vila."
+			tasks: [
+				{
+					id: "74E86FDB311AD8C1"
+					item: { count: 1, id: "farmersdelight:dog_food" }
+					type: "item"
+				}
+				{
+					id: "06035B38D8751D7F"
+					item: { count: 1, id: "farmersdelight:horse_feed" }
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/hit_raider_with_rotten_tomato"
+					criterion: ""
+					id: "41FF26D6B5F2FB9B"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 8.0d
 		}
 		{
-			id: "064F313A2FA491BA"
-			x: 2.0d
-			y: 9.6d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "aquaculturedelight:fish_chorba"
-			}
 			dependencies: [
 				"2858750B97CCC3E7"
 				"19592851A00465AF"
 			]
-			tasks: [
-				{
-					id: "695880742CFF16C6"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculturedelight:fish_chorba"
-					}
-					count: 1L
-				}
-				{
-					id: "091F816673465E81"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculturedelight:halaszle"
-					}
-					count: 1L
-				}
-				{
-					id: "514B1B542975A951"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculturedelight:bass_stew"
-					}
-					count: 1L
-				}
-				{
-					id: "173CE9E166A6A90F"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculturedelight:halibut_with_tartar_sauce"
-					}
-					count: 1L
-				}
-				{
-					id: "4C32F73FE0630F98"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculturedelight:crispy_fried_perch"
-					}
-					count: 1L
-				}
-				{
-					id: "5EB029D3C899D547"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculturedelight:baked_pollock_with_carrots"
-					}
-					count: 1L
-				}
-				{
-					id: "7FEC43F8279219CD"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculturedelight:turtle_meat_dish"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "aquaculturedelight:fish_chorba"
+			}
+			id: "064F313A2FA491BA"
+			optional: true
 			rewards: [
 				{
 					id: "269EAE1EBEE103AE"
@@ -649,97 +384,64 @@
 				}
 				{
 					id: "31C85823E4A89567"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Caldeirada do Porto"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Cada porto tem sua sopa de peixe, e cada um jura que a sua é a original."
-				"&7O pescado nobre pede preparo nobre, e a carne de tartaruga, dura de preparar,"
-				"&7só se rende aos cozinheiros do litoral que sabem o segredo."
-				""
-				"&6Objetivo:&r 1. Cozinhe &6Chorba de Peixe&r, &6Halászlé&r e &6Ensopado de Black-bass&r na panela."
-				"&f2. Prepare &6Linguado com Molho Tártaro&r, &6Perca Frita Crocante&r e &6Escamudo Assado com Cenouras&r."
-				"&f3. Corte uma tartaruga pescada em fatias e prepare um &6Prato de Carne de Tartaruga&r."
-				""
-				"&8Para o inverno, há conservas: Rollmops e Buckling (arenque defumado). A Sopa do Pescador Azarado aproveita o lixo."
+			size: 1.25d
+			tasks: [
+				{
+					id: "695880742CFF16C6"
+					item: { count: 1, id: "aquaculturedelight:fish_chorba" }
+					type: "item"
+				}
+				{
+					id: "091F816673465E81"
+					item: { count: 1, id: "aquaculturedelight:halaszle" }
+					type: "item"
+				}
+				{
+					id: "514B1B542975A951"
+					item: { count: 1, id: "aquaculturedelight:bass_stew" }
+					type: "item"
+				}
+				{
+					id: "173CE9E166A6A90F"
+					item: { count: 1, id: "aquaculturedelight:halibut_with_tartar_sauce" }
+					type: "item"
+				}
+				{
+					id: "4C32F73FE0630F98"
+					item: { count: 1, id: "aquaculturedelight:crispy_fried_perch" }
+					type: "item"
+				}
+				{
+					id: "5EB029D3C899D547"
+					item: { count: 1, id: "aquaculturedelight:baked_pollock_with_carrots" }
+					type: "item"
+				}
+				{
+					id: "7FEC43F8279219CD"
+					item: { count: 1, id: "aquaculturedelight:turtle_meat_dish" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 9.6d
 		}
 		{
-			id: "53CEC067BE755836"
-			x: 2.0d
-			y: 11.2d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "aquaculture:tuna"
-			}
 			dependencies: [
 				"18A39F44350325AF"
 				"19592851A00465AF"
 			]
-			tasks: [
-				{
-					id: "462611739AD5DC28"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:atlantic_cod"
-					}
-					count: 1L
-				}
-				{
-					id: "019F71820661223A"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:tuna"
-					}
-					count: 1L
-				}
-				{
-					id: "6CD55A0853D84408"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:pollock"
-					}
-					count: 1L
-				}
-				{
-					id: "7EBFADD19BA02A06"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:arapaima"
-					}
-					count: 1L
-				}
-				{
-					id: "3D8CCD98F9CBEC70"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:piranha"
-					}
-					count: 1L
-				}
-				{
-					id: "018D092CF9185B52"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:tambaqui"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "aquaculture:tuna"
+			}
+			id: "53CEC067BE755836"
+			optional: true
 			rewards: [
 				{
 					id: "009D703307747801"
@@ -748,96 +450,59 @@
 				}
 				{
 					id: "6B952B2E476A3F83"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Mares e Selvas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Lá fora, onde a água fica escura, moram os peixes que alimentam cidades inteiras."
-				"&7E nos rios da selva, até o peixe tem dentes: o pirarucu do tamanho de um homem,"
-				"&7a piranha que limpa um osso em instantes, o tambaqui que quebra castanhas com a boca."
-				""
-				"&6Objetivo:&r 1. No oceano: &6Bacalhau-do-atlântico&r, &6Atum&r e &6Escamudo&r."
-				"&f2. Nas selvas: &6Pirarucu&r, &6Piranha&r e &6Tambaqui&r."
-				""
-				"&8Arenque, linguado, garoupa-vermelha e águas-vivas aparecem nas mesmas águas do oceano."
+			size: 1.25d
+			tasks: [
+				{
+					id: "462611739AD5DC28"
+					item: { count: 1, id: "aquaculture:atlantic_cod" }
+					type: "item"
+				}
+				{
+					id: "019F71820661223A"
+					item: { count: 1, id: "aquaculture:tuna" }
+					type: "item"
+				}
+				{
+					id: "6CD55A0853D84408"
+					item: { count: 1, id: "aquaculture:pollock" }
+					type: "item"
+				}
+				{
+					id: "7EBFADD19BA02A06"
+					item: { count: 1, id: "aquaculture:arapaima" }
+					type: "item"
+				}
+				{
+					id: "3D8CCD98F9CBEC70"
+					item: { count: 1, id: "aquaculture:piranha" }
+					type: "item"
+				}
+				{
+					id: "018D092CF9185B52"
+					item: { count: 1, id: "aquaculture:tambaqui" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 11.2d
 		}
 		{
-			id: "4CAE54066C158DF5"
-			x: 2.0d
-			y: 12.8d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "aquaculture:box_turtle"
-			}
 			dependencies: [
 				"18A39F44350325AF"
 				"19592851A00465AF"
 			]
-			tasks: [
-				{
-					id: "5E1CD1198BD6C0AF"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:bayad"
-					}
-					count: 1L
-				}
-				{
-					id: "4E95E51C1E90ADA7"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:boulti"
-					}
-					count: 1L
-				}
-				{
-					id: "4C9C951D44897674"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:capitaine"
-					}
-					count: 1L
-				}
-				{
-					id: "6571D0420AA2D47F"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:synodontis"
-					}
-					count: 1L
-				}
-				{
-					id: "5C79C327CCE15B15"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:box_turtle"
-					}
-					count: 1L
-				}
-				{
-					id: "2CC4E1566DC4152B"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:turtle_soup"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "aquaculture:box_turtle"
+			}
+			id: "4CAE54066C158DF5"
+			optional: true
 			rewards: [
 				{
 					id: "343769FE26F46BB7"
@@ -846,134 +511,91 @@
 				}
 				{
 					id: "21AFE089C58E0C47"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Rios Antigos e Cascos"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nos rios que cortam savanas e desertos, os peixes guardam formas antigas, de antes dos reinos."
-				"&7E às vezes o anzol traz algo que nada devagar e morde forte: uma tartaruga, que vira sopa."
-				""
-				"&6Objetivo:&r 1. Em savanas e desertos: &6Bayad&r, &6Boulti&r, &6Capitaine&r e &6Synodontis&r."
-				"&f2. Pesque uma &6Tartaruga-de-caixa&r e prepare &6Sopa de Tartaruga&r."
-				""
-				"&8A tartaruga-da-amazônia e a rara tartaruga-estrela também mordem a isca."
+			size: 1.25d
+			tasks: [
+				{
+					id: "5E1CD1198BD6C0AF"
+					item: { count: 1, id: "aquaculture:bayad" }
+					type: "item"
+				}
+				{
+					id: "4E95E51C1E90ADA7"
+					item: { count: 1, id: "aquaculture:boulti" }
+					type: "item"
+				}
+				{
+					id: "4C9C951D44897674"
+					item: { count: 1, id: "aquaculture:capitaine" }
+					type: "item"
+				}
+				{
+					id: "6571D0420AA2D47F"
+					item: { count: 1, id: "aquaculture:synodontis" }
+					type: "item"
+				}
+				{
+					id: "5C79C327CCE15B15"
+					item: { count: 1, id: "aquaculture:box_turtle" }
+					type: "item"
+				}
+				{
+					id: "2CC4E1566DC4152B"
+					item: { count: 1, id: "aquaculture:turtle_soup" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 12.8d
 		}
 		{
-			id: "6757E81C55EB8F60"
-			x: 2.0d
-			y: 14.4d
-			icon: {
-				count: 1
-				id: "aquaculture:neptunes_bounty"
-			}
 			dependencies: [
 				"3D50B9D3E64F47C6"
 				"19592851A00465AF"
 			]
+			icon: {
+				id: "aquaculture:neptunes_bounty"
+			}
+			id: "6757E81C55EB8F60"
+			rewards: [{
+				id: "687CE04C4310A37C"
+				type: "xp"
+				xp: 240
+			}]
 			tasks: [
 				{
 					id: "091FDB7D667341AB"
+					item: { count: 1, id: "aquaculture:neptunes_bounty" }
 					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:neptunes_bounty"
-					}
-					count: 1L
 				}
 				{
 					id: "22F8C025613E9371"
+					item: { count: 1, id: "aquaculture:neptunium_nugget" }
 					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:neptunium_nugget"
-					}
-					count: 1L
 				}
 				{
-					id: "67E0B3B989A96CE3"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculture:neptunium_ingot"
-					}
 					count: 4L
+					id: "67E0B3B989A96CE3"
+					item: { count: 1, id: "aquaculture:neptunium_ingot" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "687CE04C4310A37C"
-					type: "xp"
-					xp: 240
-				}
-			]
-			title: "O Tesouro de Netuno"
-			description: [
-				"&7Os velhos do porto falam de um baú de bronze que só o mar aberto entrega. Ninguém acreditava. Até agora."
-				"&7Dentro dele vem o netúnio, o metal do mar, que não enferruja: dizem que nem a água ousa tocá-lo."
-				"&7Com ele se forjam as ferramentas e a armadura das marés."
-				""
-				"&6Objetivo:&r 1. Pesque no oceano até fisgar um &6Tesouro de Netuno&r, raro, e abra-o."
-				"&f2. Separe as &6Pepitas de Netúnio&r que vêm dentro."
-				"&f3. Junte &64 Lingotes de Netúnio&r (nove pepitas fazem um lingote)."
-				""
-				"&8Anzol de ouro, Sorte do Mar e o Chapéu do Pescador (artefato) ajudam a fisgar tesouros."
-			]
+			x: 2.0d
+			y: 14.4d
 		}
 		{
-			id: "6CEF29A9720B09B5"
-			x: 4.0d
-			y: 3.2d
-			size: 1.25d
+			dependencies: ["19829F724BD219E0"]
 			icon: {
-				count: 1
 				id: "farmersdelight:honey_glazed_ham_block"
 			}
-			dependencies: [
-				"19829F724BD219E0"
-			]
-			tasks: [
-				{
-					id: "05D700BE9014D8FB"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:honey_glazed_ham_block"
-					}
-					count: 1L
-				}
-				{
-					id: "01B9F27793D3F6CE"
-					type: "item"
-					item: {
-						count: 1
-						id: "farmersdelight:rice_roll_medley_block"
-					}
-					count: 1L
-				}
-				{
-					id: "25A8B1446FB5F055"
-					type: "item"
-					item: {
-						count: 1
-						id: "aquaculturedelight:fish_roll_medley"
-					}
-					count: 1L
-				}
-				{
-					id: "4D1F51BD44B3405A"
-					type: "advancement"
-					advancement: "farmersdelight:main/master_chef"
-					criterion: ""
-				}
-			]
+			id: "6CEF29A9720B09B5"
+			optional: true
 			rewards: [
 				{
 					id: "2AF7947C8A310A0C"
@@ -982,31 +604,39 @@
 				}
 				{
 					id: "75AEF4702228D6D0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Mestre-Cuca"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Diz a lenda que o maior chef do reino provou cada prato que já existiu. E ainda pediu sobremesa."
-				"&7Na mesa dele, o presunto brilhava de mel como uma relíquia, e as bandejas de enrolados"
-				"&7sumiam antes de o discurso acabar, as da terra e as do mar."
-				""
-				"&6Objetivo:&r 1. Prepare um &6Presunto Glaceado com Mel&r inteiro."
-				"&f2. Monte um &6Sortido de Enrolados&r (arroz) e um &6Sortido Crocante de Enrolados&r (peixe)."
-				"&f3. Coma uma porção de cada refeição da cozinha do campo."
-				""
-				"&8As porções dos sortidos de enrolados se pegam com a mão, sem tigela."
+			size: 1.25d
+			tasks: [
+				{
+					id: "05D700BE9014D8FB"
+					item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" }
+					type: "item"
+				}
+				{
+					id: "01B9F27793D3F6CE"
+					item: { count: 1, id: "farmersdelight:rice_roll_medley_block" }
+					type: "item"
+				}
+				{
+					id: "25A8B1446FB5F055"
+					item: { count: 1, id: "aquaculturedelight:fish_roll_medley" }
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/master_chef"
+					criterion: ""
+					id: "4D1F51BD44B3405A"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 3.2d
 		}
-	]
-	title: "&aTier II&7 - Mesa Farta e Mar Aberto"
-	subtitle: [
-		"&eCozinha, Campo e Pesca&7, &aTier II"
 	]
 }

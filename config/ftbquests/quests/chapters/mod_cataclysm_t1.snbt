@@ -4,179 +4,117 @@
 	filename: "mod_cataclysm_t1"
 	group: "0E0AC8A91F88F063"
 	icon: {
-		count: 1
 		id: "minecraft:compass"
 	}
 	id: "668C8ECD69305020"
-	order_index: 75
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "16AC9D558253563F"
-			x: 0.0d
-			y: 0.8d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			tasks: [
-				{
-					id: "04C6A1E685E4F8B2"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&7Tier I"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &7Tier I&7."
-			]
-			disable_toast: true
+			id: "16AC9D558253563F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "04C6A1E685E4F8B2"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
 		}
 		{
-			id: "53E88B19CDC71AAA"
-			x: 2.0d
-			y: 0.0d
-			shape: "diamond"
-			size: 1.25d
 			dependencies: [
 				"4635BF63F94949B6"
 				"16AC9D558253563F"
 			]
+			id: "53E88B19CDC71AAA"
+			rewards: [{
+				id: "2B04276F48ACEF83"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
+					entity: "cataclysm:koboleton"
 					id: "1235F835244F79EC"
 					type: "kill"
-					entity: "cataclysm:koboleton"
 					value: 5L
 				}
 				{
-					id: "533A81766657E62D"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:koboleton_bone"
-					}
 					count: 8L
+					id: "533A81766657E62D"
+					item: { count: 1, id: "cataclysm:koboleton_bone" }
+					type: "item"
 				}
 				{
-					id: "3009C6992E2DBE07"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ancient_metal_ingot"
-					}
 					count: 2L
+					id: "3009C6992E2DBE07"
+					item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+					type: "item"
 				}
 				{
 					id: "585E82787242E946"
+					item: { count: 1, id: "cataclysm:desert_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:desert_eye"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "2B04276F48ACEF83"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "Ruínas sob a areia"
-			description: [
-				"&7O deserto engoliu templos, sítios de escavação e aldeias inteiras."
-				"&7Os que moravam ali ainda estão, presos em gaiolas, vigiados por lagartos de osso."
-				"&7Os koboletons servem ao Remanescente mesmo depois de mortos, roubam o que a mão segura"
-				"&7e carregam como relíquia um metal amarelado, frio até no sol do meio-dia."
-				""
-				"&6Objetivo:&r 1. Explore o &6Sítio Desértico&r (enterrado), o &6Templo do Deserto&r ou a &6Aldeia Ocupada&r e derrote &c5 Koboletons&r."
-				"&f2. Junte &68 Ossos de Koboleton&r: servem para a armadura de Réptil de Osso."
-				"&f3. Obtenha &62 Lingotes de Metal Antigo&r (koboletons, Kobolediador e Wadjet). 9 pepitas formam um lingote."
-				"&f4. Fabrique o &6Olho do Deserto&r: olho do Ender, ouro, esmeralda, arenito cinzelado, cacto, arbusto morto, osso e carne podre."
-				""
-				"&8Um golpe de koboleton pode arrancar o item da sua mão: recolha-o antes que ele fuja."
-				"&8Cuidado com o arenito das ruínas: há armadilhas de dardos venenosos, de fogo e de queda. Os presos nas gaiolas podem ser libertados."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "1823163690B0B5F7"
-			x: 2.0d
-			y: 1.6d
-			shape: "diamond"
-			size: 1.25d
 			dependencies: [
 				"4635BF63F94949B6"
 				"16AC9D558253563F"
 			]
+			id: "1823163690B0B5F7"
+			rewards: [{
+				id: "593F7FFFEED34FCC"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
+					entity: "cataclysm:draugr"
 					id: "1AF84D36DC112D3B"
 					type: "kill"
-					entity: "cataclysm:draugr"
 					value: 5L
 				}
 				{
+					entity: "cataclysm:elite_draugr"
 					id: "01395E9E302C1226"
 					type: "kill"
-					entity: "cataclysm:elite_draugr"
 					value: 1L
 				}
 				{
+					entity: "cataclysm:royal_draugr"
 					id: "70AE0CF3957538E1"
 					type: "kill"
-					entity: "cataclysm:royal_draugr"
 					value: 1L
 				}
 				{
-					id: "2315B44720F2F8F1"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:black_steel_ingot"
-					}
 					count: 4L
+					id: "2315B44720F2F8F1"
+					item: { count: 1, id: "cataclysm:black_steel_ingot" }
+					type: "item"
 				}
 				{
 					id: "1B81E54C2626F934"
+					item: { count: 1, id: "cataclysm:cursed_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:cursed_eye"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "593F7FFFEED34FCC"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "Os vilarejos dos mortos"
-			description: [
-				"&7Nas planícies nevadas, aldeias inteiras ainda acendem tochas que ninguém trocou."
-				"&7Os moradores morreram há séculos e continuam de guarda: são os draugr, com patentes e tudo."
-				"&7Os ferreiros do norte temperavam o ferro em sangue e neve, e o aço ficou preto para sempre."
-				""
-				"&6Objetivo:&r 1. Explore a &6Aldeia&r, o &6Templo&r ou a &6Torre Abandonada&r das &bplanícies nevadas&r e derrote &c5 Draugr&r."
-				"&f2. Derrote um &cDraugr de Elite&r (machado, aguenta muito) e um &cDraugr Real&r (arco, fica atrás)."
-				"&f3. Junte &64 Lingotes de Aço Negro&r dos draugr e dos baús abandonados (9 pepitas = 1 lingote)."
-				"&f4. Fabrique o &6Olho da Maldição&r: olho do Ender, ouro, osso, membranas de fantasma e carne podre."
-				""
-				"&8Ferramentas velhas de aço negro voltam a pepitas na fornalha."
-				"&8O Olho da Maldição aponta para a Prisão Congelada, a próxima etapa."
-			]
+			x: 2.0d
+			y: 1.6d
 		}
-	]
-	title: "&7Tier I&7 - Areia e Ossos"
-	subtitle: [
-		"&4Os Titãs Adormecidos&7, &7Tier I"
 	]
 }
