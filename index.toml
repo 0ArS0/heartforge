@@ -1629,6 +1629,10 @@ file = "config/fancytoasts/toast_filtering.json"
 hash = "9ca725f65ebbcb0fd65aefa5e52a221986ef4e19cac0ee912481c4cf2152a038"
 
 [[files]]
+file = "config/fantasticwings-server.toml"
+hash = "7029630467383b49629b082681d600c776100944d50959a6f2af87d2440aaba8"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
 hash = "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e"
 
@@ -3953,6 +3957,11 @@ hash = "b3cad41019365bc8693b58c2ee1b94dc80b3c3932c59ade2b11f92de7bb99767"
 metafile = true
 
 [[files]]
+file = "mods/FantasticWings-v21.1.2-1.21.1-NeoForge.pw.toml"
+hash = "455934e6b5052bba2f220cd6319dc159c851275fc4c59c241300b00ed903228e"
+metafile = true
+
+[[files]]
 file = "mods/FarmersDelight-1.21.1-1.3.4.pw.toml"
 hash = "58a4923b18419278919729e4bf7b91789098b8b0d24364548ae0965fa9655a11"
 metafile = true
@@ -4566,7 +4575,7 @@ metafile = true
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "86a95440767919fcb94bdc8f2fa5f0327c45ead53e6ef662b90cc0eea367f311"
+hash = "ede8030eccef86293added22bea56f630bd84479758a8dda1b8cf6f1b6ba8df3"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
