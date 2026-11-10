@@ -1,6 +1,20 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:born_in_chaos_v1:dark_rod",
+    "item:born_in_chaos_v1:bone_handle",
+    "item:born_in_chaos_v1:dark_metal_ingot",
+    "item:born_in_chaos_v1:pileof_dark_metal",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:pieceofdarkmetal",
+      "amount": 15
+    },
+    {
+      "type": "item",
+      "id": "vampirism:vampire_fang",
+      "amount": 2
+    },
     "item:sophisticatedbackpacks:backpack",
     "item:dwarfs_tyranny:mythril_ingot",
     {
