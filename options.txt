@@ -178,7 +178,7 @@ key_quark.keybind.lock_rotation:key.keyboard.page.up
 key_quark.keybind.narrator_readout:key.keyboard.unknown
 key_quark.keybind.narrator_full_readout:key.keyboard.unknown
 key_quark.keybind.variant_selector:key.keyboard.r
-key_key.corpse.death_history:key.keyboard.u
+key_key.corpse.death_history:key.keyboard.end
 key_key.block_factorys_bosses.dodge_roll:key.keyboard.z
 key_key.curios.open.desc:key.keyboard.page.up
 key_key.detailab.open_config:key.keyboard.unknown

@@ -4561,7 +4561,7 @@ metafile = true
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "f3e539cd169c243f4fd12f9e649045c7b17775e2323a085b22493d2a334f1208"
+hash = "d33edf361f9a54e3c7e8d0e8dfada021561164e068a54b16ad6f62169a9c3b2f"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
@@ -5015,7 +5015,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "9c61c8e09fc2103e93f582cc415b2a75e8fdde1f32bcf84b2a99b2df336d5926"
+hash = "82cb55509ad046bf7e9d7969aa3858ccfa3652fec8307117630eaa54b9670718"
 preserve = true
 
 [[files]]
