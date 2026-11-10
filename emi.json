@@ -87,6 +87,7 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "minecraft:oak_planks",
     "minecraft:bread",
     "minecraft:wheat",
     "minecraft:iron_pickaxe",
@@ -104,7 +105,6 @@
     "minecraft:stick",
     "minecraft:spruce_planks",
     "biomeswevegone:maple_planks",
-    "minecraft:oak_planks",
     "minecraft:wooden_axe",
     "minecraft:bone_meal",
     "quark:tweaks/crafting/utility/better_stone_tools/sword",

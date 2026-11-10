@@ -3827,7 +3827,7 @@ hash = "bf179c73f8a353cce83f54a59696643e4d678b0ccb07d84dfd457e6e8b9190b8"
 
 [[files]]
 file = "emi.json"
-hash = "becefefa2567307e975a548806be6bc95b260b32a478e0f1614ec27476469030"
+hash = "b1ee8e1b1cd229b70908ac47dffa747d33d8d041040752dbae87e83bc977cfde"
 
 [[files]]
 file = "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.pw.toml"
@@ -4561,7 +4561,7 @@ metafile = true
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "71e90ac52f4d9d81f2c1133ad111dbf61be0fade3771f8239cb5f765fe1957cd"
+hash = "364ac7a523693cdeb25c6a3191ae4beaf9db0b7c4609197facd401dbf59716f1"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
@@ -5204,7 +5204,7 @@ hash = "dd4f41ae1cf60460cefd73be25389b533afc571ec2c7996fb7f1fca42395c697"
 
 [[files]]
 file = "resourcepacks/Heartforge - Ajustes.zip"
-hash = "05a65741a18ec912c375b2e27d7027a9d0b0747d765fda21f130f256b1bc1315"
+hash = "4c4af31ec29a442cb3d07c83068321ccbf5a6b601bdf7d251e3114da5d742d9d"
 
 [[files]]
 file = "resourcepacks/HyperPunchy-v2.5+.zip.rpo"
