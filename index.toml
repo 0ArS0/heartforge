@@ -4177,6 +4177,11 @@ hash = "865d2e8444d069759c138b0723f7b561cd63a40c4623e65f631ab913615fe311"
 metafile = true
 
 [[files]]
+file = "mods/TailsLegacy-4.0.5+1.21.1-neoforge.pw.toml"
+hash = "fad32f2a2ad4ad2f8945e4c1b314dee68a0f8d1bf936329868ce806629bd3247"
+metafile = true
+
+[[files]]
 file = "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
 hash = "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8"
 

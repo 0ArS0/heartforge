@@ -1,0 +1,13 @@
+name = "TailsLegacy-4.0.5+1.21.1-neoforge"
+filename = "TailsLegacy-4.0.5+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MUD8QUkv/versions/rNae6cKS/TailsLegacy-4.0.5%2B1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "4c6d1137d70fa51c5e7b7959e1e640a8a93298e9"
+
+[update]
+[update.modrinth]
+mod-id = "MUD8QUkv"
+version = "rNae6cKS"
