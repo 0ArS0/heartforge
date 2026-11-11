@@ -1,6 +1,23 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:comamigos_balance:bonescaller_heart",
+    "item:born_in_chaos_v1:shattered_skull",
+    "item:born_in_chaos_v1:staff_of_magic_arrows",
+    "item:born_in_chaos_v1:dark_upgrade",
+    "item:born_in_chaos_v1:armor_plate_from_dark_metal",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:spiritual_dust",
+      "amount": 4
+    },
+    "item:born_in_chaos_v1:orbofthe_summoner",
+    "item:born_in_chaos_v1:seedof_chaos",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:monster_flesh",
+      "amount": 6
+    },
     "item:born_in_chaos_v1:gnawed_bones",
     "item:born_in_chaos_v1:dark_metal_ingot",
     "item:born_in_chaos_v1:pileof_dark_metal",
@@ -48,11 +65,6 @@
       "type": "item",
       "id": "irons_spellbooks:common_ink",
       "amount": 11
-    },
-    {
-      "type": "item",
-      "id": "born_in_chaos_v1:monster_flesh",
-      "amount": 9
     },
     "item:simplyswords:iron_longsword",
     "item:mythsandlegends:gargoyle_wing",
@@ -129,17 +141,26 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "minecraft:white_bed",
+    "minecraft:bone_meal",
+    "everycomp:q/biomeswevegone/zelkova_chest",
+    "biomeswevegone:zelkova_crafting_table",
+    "born_in_chaos_v1:pileof_dark_metal_d",
+    "minecraft:iron_pickaxe",
+    "minecraft:stick",
+    "biomeswevegone:zelkova_planks",
+    "minecraft:iron_ingot_from_iron_block",
+    "biomeswevegone:zelkova_boat",
+    "simplyswords:iron_longsword",
+    "minecraft:smoker",
+    "minecraft:furnace",
+    "minecraft:crafting_table",
     "born_in_chaos_v1:gnawed_bones_k",
     "quark:tweaks/crafting/utility/better_stone_tools/shovel",
     "quark:tweaks/crafting/utility/better_stone_tools/axe",
     "quark:tweaks/crafting/utility/better_stone_tools/pickaxe",
-    "simplyswords:iron_longsword",
-    "minecraft:stick",
-    "minecraft:crafting_table",
     "minecraft:oak_boat",
-    "minecraft:bone_meal",
     "born_in_chaos_v1:fused_bone_k",
-    "minecraft:white_bed",
     "minecraft:fishing_rod",
     "minecraft:iron_shovel",
     "minecraft:dark_oak_planks",
@@ -149,9 +170,7 @@
     "minecraft:oak_planks",
     "minecraft:bread",
     "minecraft:wheat",
-    "minecraft:iron_pickaxe",
     "quark:building/crafting/chests/dark_oak_chest",
-    "minecraft:furnace",
     "biomeswevegone:maple_crafting_table",
     "minecraft:arrow",
     "minecraft:wooden_pickaxe",
