@@ -1,6 +1,18 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "minecraft:andesite",
+      "amount": 64
+    },
+    "item:handcrafted:hammer",
+    "item:everycomp:hc/biomeswevegone/zelkova_corner_trim",
+    {
+      "type": "item",
+      "id": "biomeswevegone:zelkova_planks",
+      "amount": 64
+    },
     "item:comamigos_balance:bonescaller_heart",
     "item:born_in_chaos_v1:shattered_skull",
     "item:born_in_chaos_v1:staff_of_magic_arrows",
@@ -141,14 +153,26 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
-    "minecraft:white_bed",
-    "minecraft:bone_meal",
+    "handcrafted:hammer",
+    "minecraft:iron_axe",
+    "handcrafted:birch_pillar_trim",
+    "minecraft:birch_slab",
+    "minecraft:birch_stairs",
+    "minecraft:birch_planks",
     "everycomp:q/biomeswevegone/zelkova_chest",
+    "biomeswevegone:zelkova_stairs",
+    "everycomp:hc/biomeswevegone/zelkova_pillar_trim",
+    "everycomp:hc/biomeswevegone/zelkova_corner_trim",
+    "biomeswevegone:zelkova_wood",
+    "biomeswevegone:zelkova_fence",
+    "minecraft:stick",
+    "biomeswevegone:zelkova_slab",
+    "biomeswevegone:zelkova_planks",
+    "minecraft:bone_meal",
+    "minecraft:white_bed",
     "biomeswevegone:zelkova_crafting_table",
     "born_in_chaos_v1:pileof_dark_metal_d",
     "minecraft:iron_pickaxe",
-    "minecraft:stick",
-    "biomeswevegone:zelkova_planks",
     "minecraft:iron_ingot_from_iron_block",
     "biomeswevegone:zelkova_boat",
     "simplyswords:iron_longsword",
@@ -178,8 +202,7 @@
     "biomeswevegone:maple_planks",
     "minecraft:wooden_axe",
     "quark:tweaks/crafting/utility/better_stone_tools/sword",
-    "minecraft:acacia_planks",
-    "minecraft:birch_planks"
+    "minecraft:acacia_planks"
   ],
   "recipe_defaults": {
     "added": [],
