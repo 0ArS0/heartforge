@@ -530,7 +530,7 @@ hash = "0724139777a7a499a111d11ae1cc0cdd2928da7324083e49cea8ee11ca62fb3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "23743c3afd332665202649cd2c8a58109619f35b9cfa96ba053516b2b28f9dea"
+hash = "36e1fe7aa73ab616b33dc24c7baade99913a75973bef213089283a891b055f3e"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1162,7 +1162,7 @@ hash = "e25ac8cbb2e98c3753b51b40bc58c67bd1df572547572da08ce729e16f81ed56"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "3ea6ab0c80cbdafa36f23069f63dd433667733c79106ccc53ed68921681444d7"
+hash = "8eb5e50b6c7d05b38ba23115dddfa7070bc62b8a04faddb44f2166733d0f52e9"
 
 [[files]]
 file = "config/biomeparticleweather/config.txt"
@@ -1618,7 +1618,7 @@ hash = "1d7075ca7221200f93e75e525781d1605537ce655d96a5e7313187614319d7ef"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "afcc0c907abd6a4f727d6c63834425420ba10e5e6d23e10917e8620129835203"
+hash = "e11967f79211907988bd988a6e1ea1205c60e4d2a9d77beb6da654fc0e20a47d"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -2438,7 +2438,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "706342dd01d0fb1a9bb028e65f409257b57aab997b2a528bcc25be6ce07ffaa6"
+hash = "46f8e9f24113347bf69a19075951529b943797bf628fadf41e98fb90891d4410"
 preserve = true
 
 [[files]]
@@ -2643,7 +2643,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "cebea7da3461fc10b206291201c747ea01b13dcc9958ecdb89508749a11bbcc5"
+hash = "d4a980fa3205c355e673ba4e0e2b93c07ce0c7633618c1b8dddcdc63bd1bd8ee"
 
 [[files]]
 file = "config/lithium.properties"
@@ -3107,7 +3107,7 @@ hash = "8e8b58cdda9ca683eaf6923e901341bb1f44e0fbb4fccad4d7db760629072662"
 
 [[files]]
 file = "config/respackopts/_respackopts.conf"
-hash = "20ec40bd848de64dbb03f20e5868608f23b33d0232170c64246b9d688b493747"
+hash = "8e42c76481421e2b3f3c83481e3920319b78b69c6c987e02e4c52bc7ea4e1be4"
 
 [[files]]
 file = "config/respackopts/armoredLegacy.json"
@@ -3223,7 +3223,7 @@ hash = "9f2e3cc1cd587fd9de6fd4a068e4c247fde401d3fc6fd9a0da36627ddc5611a3"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "e3a3975b4299435a43c4b2f3b18c42095c626afb6ac938cf36e60911bac71ef9"
+hash = "c2cf4ac77b705271c9fb46775b57685df1b109c8ffb9b78a0ca799bdf071edc7"
 
 [[files]]
 file = "config/scalablelux.properties"
@@ -4586,7 +4586,7 @@ metafile = true
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "de2708de831f8ce509e2952ef1cba27f50edc51f77d1d788a7c39ca255aad0bf"
+hash = "73e2e35a05de7287030c8065958bf05a94fcf8ff6012cc278995ad8e86ad1b83"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
@@ -5229,7 +5229,7 @@ hash = "dd4f41ae1cf60460cefd73be25389b533afc571ec2c7996fb7f1fca42395c697"
 
 [[files]]
 file = "resourcepacks/Heartforge - Ajustes.zip"
-hash = "9ec222a09d43fa9753b118688cc470eb278e8df05be32124b8e82296ee294abc"
+hash = "cb7c9c2631ed18c0f455bcc0587ff0c905a4383d6076e37e2ae075894fe8beec"
 
 [[files]]
 file = "resourcepacks/Heartforge Racas.zip"
@@ -10317,7 +10317,7 @@ hash = "da0929b38f5fd99befaaa8cd141cbf60e1fad05b92d916d0eeeee7c79f86c0fd"
 
 [[files]]
 file = "shaderpacks/photon_v1.4.zip.txt"
-hash = "008d264735c1e31a29f3ab1962477cf0f0e174f03d3e3d8c371e0f36cfa27b79"
+hash = "57f25cf984533dc942fafb46d835f8f367b95ca0356d8bd9e6f4685062a4b712"
 
 [[files]]
 file = "shaderpacks/rethinking-voxels_r0.1-beta9.zip"
