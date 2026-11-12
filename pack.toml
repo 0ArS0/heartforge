@@ -1,12 +1,12 @@
 name = "Heartforge"
 author = "Heartforge"
-version = "1.0.39"
+version = "1.0.40"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "eb450e7439459b0fbf4497af2edaf7767cfc8e86febc55733aa6f933d42392d9"
+hash = "4afa225ad8815a81fb6f6759cb3f574b8c9199b5bf791d2343669fd1d29c2718"
 
 [versions]
 minecraft = "1.21.1"
