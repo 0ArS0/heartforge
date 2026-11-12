@@ -1,12 +1,6 @@
 {
   "split_cooldown": false,
   "positions": {
-    "neoorigins:draconic_stamina": {
-      "xPct": 0.78489584,
-      "yPct": 0.96018517,
-      "scale": 1.0,
-      "vertical": false
-    },
     "comamigos_balance:draconic_glands": {
       "xPct": 0.78541666,
       "yPct": 0.9037037,
@@ -19,15 +13,27 @@
       "scale": 1.0,
       "vertical": false
     },
-    "comamigos_balance:automaton_energy": {
-      "xPct": 0.6020833,
-      "yPct": 0.9396403,
-      "scale": 1.0,
-      "vertical": false
-    },
     "neoorigins:revenant_energy": {
       "xPct": 0.675,
       "yPct": 0.9398148,
+      "scale": 1.0,
+      "vertical": false
+    },
+    "comamigos_balance:ent_hidratacao": {
+      "xPct": 0.6015625,
+      "yPct": 0.9296296,
+      "scale": 1.0,
+      "vertical": false
+    },
+    "neoorigins:draconic_stamina": {
+      "xPct": 0.78489584,
+      "yPct": 0.96018517,
+      "scale": 1.0,
+      "vertical": false
+    },
+    "comamigos_balance:automaton_energy": {
+      "xPct": 0.6020833,
+      "yPct": 0.9396403,
       "scale": 1.0,
       "vertical": false
     },
