@@ -4586,7 +4586,7 @@ metafile = true
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "73e2e35a05de7287030c8065958bf05a94fcf8ff6012cc278995ad8e86ad1b83"
+hash = "715bc2c62fb3ebd3fc458470de3789e3de88765ae80510bfd7ee4e5df2a268ba"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
@@ -5229,7 +5229,7 @@ hash = "dd4f41ae1cf60460cefd73be25389b533afc571ec2c7996fb7f1fca42395c697"
 
 [[files]]
 file = "resourcepacks/Heartforge - Ajustes.zip"
-hash = "cb7c9c2631ed18c0f455bcc0587ff0c905a4383d6076e37e2ae075894fe8beec"
+hash = "6277293f1600341729ae134aada8f0b0656837b348fad092ba2c7c1f0d675e20"
 
 [[files]]
 file = "resourcepacks/Heartforge Racas.zip"
