@@ -4,74 +4,102 @@
 	filename: "mod_irons_t7"
 	group: "5955ECC104DC966A"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_7"
 	}
 	id: "1C29EE787041E39C"
-	images: [ ]
-	order_index: 7
+	order_index: 39
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_7"
-			}
 			id: "09B04B61D7CF1469"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_7"
-				criterion: ""
-				id: "0E2FFC9A9FD895A8"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_7"
+			}
+			tasks: [
+				{
+					id: "0E2FFC9A9FD895A8"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_7"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&dTier VII"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &dTier VII&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "0A6C427E035930D7"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:dragonskin_spell_book"
+			}
 			dependencies: [
 				"4BFBBBB75822254A"
 				"6E282DDCECD1C67E"
 				"2236F08691362BB6"
 				"09B04B61D7CF1469"
 			]
-			icon: {
-				components: {
-					"irons_spellbooks:spell_container": {
-						data: [ ]
-						maxSpells: 12
-						mustEquip: 1b
-						spellWheel: 1b
-					}
-				}
-				id: "irons_spellbooks:dragonskin_spell_book"
-			}
-			id: "0A6C427E035930D7"
-			rewards: [{
-				id: "7ADB6DC13F27204F"
-				type: "xp"
-				xp: 690
-			}]
 			tasks: [
 				{
 					id: "4C29C8D0EBB7483D"
-					item: { count: 1, id: "irons_spellbooks:dragonskin" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:dragonskin"
+					}
+					count: 1L
 				}
 				{
-					advancement: "irons_spellbooks:irons_spellbooks/spell_book_dragon"
-					criterion: ""
 					id: "52867E9D31A8953D"
 					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_dragon"
+					criterion: ""
 				}
 				{
 					id: "49C0A9BAB8BB2143"
-					item: { count: 1, id: "irons_spellbooks:greater_evasion_elixir" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_evasion_elixir"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "7ADB6DC13F27204F"
+					type: "xp"
+					xp: 690
+				}
+			]
+			title: "Pele de Dragão"
+			description: [
+				"&7O Dragão do Fim perde escamas como árvores perdem folhas: poucas, e só uma vez."
+				"&7Os forjadores do Coração Divino guardam a pele para o último passo da montagem."
+				"&7Obsidiana nas capas, pele de dragão nas páginas: o livro mais poderoso que mãos mortais costuram."
+				"&7E o bafo do dragão, num elixir de evasão, ensina o corpo a não estar onde o golpe chega."
+				""
+				"&6Objetivo:&r 1. Derrote o &5Dragão do Fim&r e recolha a &6Pele de Dragão&r."
+				"&f2. Faça o &5Livro de Magias de Pele de Dragão&r na &6Mechanical Crafter&r: livro arruinado, seis peles de dragão e duas obsidianas."
+				"&f3. No caldeirão, sobre o &6Elixir da Evasão&r, jogue &6Bafo de Dragão&r: &6Elixir da Evasão Maior&r."
+				""
+				"&8A Pele de Dragão é ingrediente do &6Coração do Tier VIII&r."
+			]
 		}
+	]
+	title: "&dTier VII&7 - Pele de Dragão"
+	subtitle: [
+		"&dArtes Arcanas&7, &dTier VII"
 	]
 }

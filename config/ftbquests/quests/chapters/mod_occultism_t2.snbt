@@ -4,304 +4,524 @@
 	filename: "mod_occultism_t2"
 	group: "46A9BB1E2D819F6E"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "43237298C5D8F6EE"
-	images: [ ]
-	order_index: 2
+	order_index: 42
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_2"
-			}
 			id: "1F10F12BDE5ECC39"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_2"
-				criterion: ""
-				id: "456EBFFA279893E2"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.8d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			tasks: [
+				{
+					id: "456EBFFA279893E2"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&aTier II"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "25A14528DEC54509"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "occultism:spirit_attuned_gem"
+			}
 			dependencies: [
 				"44080B90DDE41016"
 				"1F10F12BDE5ECC39"
 			]
-			icon: {
-				id: "occultism:spirit_attuned_gem"
-			}
-			id: "25A14528DEC54509"
-			rewards: [{
-				id: "57D44FFBA4F849B1"
-				type: "xp"
-				xp: 320
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					count: 6L
 					id: "7EA03BB724E17306"
-					item: { count: 1, id: "occultism:spirit_attuned_gem" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_gem"
+					}
+					count: 6L
 				}
 				{
-					count: 2L
 					id: "550C777FBAD78A22"
-					item: { count: 1, id: "occultism:spirit_attuned_crystal" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					count: 2L
 				}
 				{
 					id: "4536034088ACDFE9"
-					item: { count: 1, id: "occultism:divination_rod" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:divination_rod"
+					}
+					count: 1L
 				}
 				{
-					advancement: "occultism:occultism/summon_foliot_crystallizer"
-					criterion: ""
 					id: "0F82304B7CC75402"
 					type: "advancement"
+					advancement: "occultism:occultism/summon_foliot_crystallizer"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "57D44FFBA4F849B1"
+					type: "xp"
+					xp: 320
+				}
+			]
+			title: "A Gema que Escuta"
+			description: [
+				"&7Um diamante jogado na chama violeta passa a vibrar com vozes que só ele ouve."
+				"&7Quatro dessas gemas formam um cristal que ancora os pentáculos grandes, e uma forquilha de ouro com uma delas na ponta aponta para o que o olho não vê."
+				"&7Um Foliot paciente ainda reconstrói pó de gema em gema, grão por grão."
+				""
+				"&6Objetivo:&r 1. Jogue &6diamantes&r no &bFogo Espiritual&r: &6Gemas Sintonizadas com Espírito&r (ingrediente do &6Coração do Tier III&r)."
+				"&f2. 4 Gemas em quadrado = &6Cristal Sintonizado com Espírito&r."
+				"&f3. &6Vara de Adivinhação&r: 2 ouros, 2 vidros e 1 Gema. Agachado, clique num bloco do Outro Mundo para sintonizá-la; segure o uso para procurar."
+				"&f4. &6Cristalizador Foliot&r (Aviar): 1 Cristal e pós de ametista, lápis e esmeralda. Transforma pós de gema de volta em gemas."
+			]
 		}
 		{
+			id: "1C68A81561277361"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "occultism:book_of_binding_bound_djinni"
+			}
 			dependencies: [
 				"40035FB3D62CD07F"
 				"05330088B679682E"
 				"1F10F12BDE5ECC39"
 			]
-			icon: {
-				components: {
-					"occultism:spirit_name": "Zurwynryn"
-				}
-				id: "occultism:book_of_binding_bound_djinni"
-			}
-			id: "1C68A81561277361"
-			rewards: [{
-				id: "640E5705B7F78716"
-				type: "xp"
-				xp: 320
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					count: 2L
 					id: "3EC4253F682FA6F9"
-					item: { count: 1, id: "occultism:emerald_dust" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:emerald_dust"
+					}
+					count: 2L
 				}
 				{
-					count: 2L
 					id: "68B84051D1DEBABB"
-					item: { count: 1, id: "occultism:research_fragment_dust" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:research_fragment_dust"
+					}
+					count: 2L
 				}
 				{
 					id: "77387FC77969FD46"
-					item: { count: 1, id: "occultism:chalk_lime" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:chalk_lime"
+					}
+					count: 1L
 				}
 				{
 					id: "4F88E04759C82784"
-					item: { components: { "occultism:spirit_name": "Racresvin" }, count: 1, id: "occultism:book_of_binding_bound_djinni" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 1.6d
+			rewards: [
+				{
+					id: "640E5705B7F78716"
+					type: "xp"
+					xp: 320
+				}
+			]
+			title: "O Diploma do Djinni"
+			description: [
+				"&7Só quem estudou o bastante pode chamar um Djinni. A experiência, derramada sobre esmeralda moída, vira um pó que lembra."
+				"&7Desse pó sai o giz verde-limão, que é o diploma do demonólogo."
+				"&7E o Djinni é vaidoso: seu nome se escreve com capricho, em tinta roxa."
+				""
+				"&6Objetivo:&r 1. Triture &6esmeraldas&r: &6Pó de Esmeralda&r."
+				"&f2. Em &6Eziveus&r: 1 Pó de Esmeralda + 2 frascos de experiência = &6Pó de Fragmento de Pesquisa&r."
+				"&f3. Giz Branco Impuro + Pó de Pesquisa + Pó de Esmeralda + slimeball = &6Giz Verde-Limão Impuro&r; purifique."
+				"&f4. Faça o &6Livro de Vínculo: Djinni&r (como o de Foliot, com corante &5roxo&r) e vincule-o com o Dicionário."
+			]
 		}
 		{
+			id: "6C5EC7E8689D9D06"
+			x: 4.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "occultism:otherworld_goggles"
+			}
 			dependencies: [
 				"25A14528DEC54509"
 				"40035FB3D62CD07F"
 			]
-			icon: {
-				id: "occultism:otherworld_goggles"
-			}
-			id: "6C5EC7E8689D9D06"
-			rewards: [{
-				id: "0A636BB4BA6B76CF"
-				type: "xp"
-				xp: 320
-			}]
-			size: 1.25d
 			tasks: [
 				{
 					id: "04AA1CE1754FBAAA"
-					item: { count: 1, id: "occultism:lenses" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:lenses"
+					}
+					count: 1L
 				}
 				{
 					id: "65B2542160D2027D"
-					item: { count: 1, id: "occultism:infused_lenses" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:infused_lenses"
+					}
+					count: 1L
 				}
 				{
 					id: "19D97E353DBFE98E"
-					item: { count: 1, id: "occultism:lens_frame" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:lens_frame"
+					}
+					count: 1L
 				}
 				{
 					id: "15D27CA7B899B016"
-					item: { count: 1, id: "occultism:otherworld_goggles" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:otherworld_goggles"
+					}
+					count: 1L
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "0A636BB4BA6B76CF"
+					type: "xp"
+					xp: 320
+				}
+			]
+			title: "Olhos para o Outro Lado"
+			description: [
+				"&7Os mestres pararam de comer o fruto quando inventaram os óculos. A cidade agradeceu."
+				"&7O vidro comum mostra o que existe; o vidro infundido por um Foliot mostra o que espreita."
+				"&7Com eles no rosto, o Terceiro Olho fica aberto para sempre, sem náusea e sem fome."
+				""
+				"&6Objetivo:&r 1. &6Lentes de Vidro&r: 8 painéis de vidro ao redor de uma Gema Sintonizada."
+				"&f2. Em &6Eziveus&r: lentes + 2 lingotes de prata + 1 de ouro = &6Lentes Infundidas&r."
+				"&f3. &6Estrutura de Lente&r: OutraPedra e 2 pratas."
+				"&f4. &6Óculos do Outro Mundo&r: estrutura, 3 couros e as Lentes Infundidas. Na cabeça ou no slot de curio, dão &bTerceiro Olho&r permanente."
+				""
+				"&8Os óculos mostram, mas não deixam colher: para isso ainda é preciso o fruto ou uma picareta infundida."
+			]
 		}
 		{
+			id: "1A303BE95E49478A"
+			x: 4.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "occultism:book_of_binding_bound_djinni"
+			}
 			dependencies: [
 				"1C68A81561277361"
 				"186F0E33D1230848"
 				"4BD28A695D974A77"
 			]
-			icon: {
-				components: {
-					"occultism:spirit_name": "Sigrrynthyr"
-				}
-				id: "occultism:book_of_binding_bound_djinni"
-			}
-			id: "1A303BE95E49478A"
-			rewards: [{
-				id: "7AA8A020864947BD"
-				type: "xp"
-				xp: 320
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					advancement: "occultism:occultism/summon_djinni_crusher"
-					criterion: ""
 					id: "48041070364986A7"
 					type: "advancement"
+					advancement: "occultism:occultism/summon_djinni_crusher"
+					criterion: ""
 				}
 				{
-					advancement: "occultism:occultism/summon_djinni_smelter"
-					criterion: ""
 					id: "162EF5505AA67FA7"
 					type: "advancement"
+					advancement: "occultism:occultism/summon_djinni_smelter"
+					criterion: ""
 				}
 				{
 					id: "06AF3521DBFB3AD2"
-					item: { count: 1, id: "occultism:crushed_blue_ice" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:crushed_blue_ice"
+					}
+					count: 1L
 				}
 				{
 					id: "4A7954A0F110044A"
-					item: { count: 1, id: "occultism:chalk_light_blue" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:chalk_light_blue"
+					}
+					count: 1L
 				}
 			]
-			x: 4.0d
-			y: 1.6d
+			rewards: [
+				{
+					id: "7AA8A020864947BD"
+					type: "xp"
+					xp: 320
+				}
+			]
+			title: "O Chamado de Ophyx"
+			description: [
+				"&7O Djinni chega com fumaça e um sorriso que não alcança os olhos. Ele cumpre o contrato à risca, nem uma vírgula a mais."
+				"&7Seu triturador tira três pós de cada minério, e seu fundidor trabalha mais depressa que o do Foliot."
+				"&7Só um Djinni tem dedos frios o bastante para moer gelo sem derretê-lo, e desse gelo sai o giz azul-claro."
+				""
+				"&6Objetivo:&r 1. Desenhe o &6Chamado de Ophyx&r: 36 runas &6verde-limão&r, 16 de fundação, 8 de fundação &6cinza-claro ou mais forte&r, 4 crânios de esqueleto e 8 velas. Ativação: livro de Djinni."
+				"&f2. &6Triturador Djinni&r: pós de ferro, ouro, cobre e prata. Rende 3 pós por minério."
+				"&f3. &6Fundidor Djinni&r: carga de fogo, alto-forno, defumador e pederneira."
+				"&f4. Com o Triturador Djinni, triture &6gelo&r, &6gelo compactado&r e &6gelo azul&r."
+				"&f5. Giz Branco Impuro + os 3 gelos triturados = &6Giz Azul-Claro Impuro&r; purifique."
+			]
 		}
 		{
+			id: "363AECA4F200A93D"
+			x: 6.0d
+			y: 0.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "occultism:gray_paste"
+			}
 			dependencies: [
 				"1A303BE95E49478A"
 				"25A14528DEC54509"
 			]
-			icon: {
-				id: "occultism:gray_paste"
-			}
-			id: "363AECA4F200A93D"
-			rewards: [{
-				id: "342437A90562DC0B"
-				type: "xp"
-				xp: 400
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					count: 2L
 					id: "0AFEAF3D0C291F04"
-					item: { count: 1, id: "occultism:gray_paste" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:gray_paste"
+					}
+					count: 2L
 				}
 				{
 					id: "626D1BC5514E5D96"
-					item: { count: 1, id: "occultism:chalk_gray" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:chalk_gray"
+					}
+					count: 1L
 				}
 				{
 					id: "6134FD81E7EFF0F8"
-					item: { count: 1, id: "occultism:infused_pickaxe" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:infused_pickaxe"
+					}
+					count: 1L
 				}
 				{
 					id: "4136B3013246F860"
-					item: { count: 1, id: "occultism:soul_gem" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:soul_gem"
+					}
+					count: 1L
 				}
 				{
-					advancement: "occultism:occultism/repair_chalks"
-					criterion: ""
 					id: "72AE1DAE3D8FBBF0"
 					type: "advancement"
+					advancement: "occultism:occultism/repair_chalks"
+					criterion: ""
 				}
 			]
-			x: 6.0d
-			y: 0.4d
+			rewards: [
+				{
+					id: "342437A90562DC0B"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Vínculo de Strigeor"
+			description: [
+				"&7Prender um Djinni num objeto exige um círculo do qual ele não consiga rir."
+				"&7O &6Vínculo Superior de Strigeor&7 produz a pasta cinza que firma a terceira fundação, a picareta que alcança o Outro Mundo e a gema que guarda uma criatura para sempre."
+				"&7Também devolve o giz gasto, inteiro, a quem tiver essência para pagar."
+				""
+				"&6Objetivo:&r 1. Desenhe o &6Vínculo Superior de Strigeor&r: 32 &6roxas&r, 20 &6verde-limão&r, 16 de fundação (8 cinza-claro ou mais forte), 8 crânios e 8 velas. Ativação: livro de Djinni."
+				"&f2. &6Pasta Cinza&r: pólvora, argila, membrana de phantom e corante cinza."
+				"&f3. Giz Branco Impuro + Pasta Cinza = &6Giz Cinza Impuro&r; purifique."
+				"&f4. &6Picareta Infundida&r: Cabeça de Picareta Sintonizada (3 Gemas em linha), 2 gravetos e 2 pratas. Colhe minérios do Outro Mundo."
+				"&f5. &6Gema da Alma&r: diamante, cobre, prata, ouro, Gema de Alma Frágil e 3 areias de almas. Prende e solta criaturas à vontade (chefes não cabem)."
+				"&f6. &6Reparo de giz&r: 3 Essências do Outro Mundo e 1 Gema; ative com o giz gasto na mão."
+				""
+				"&8A Pasta Cinza também reconstitui pós em blocos: pó de obsidiana vira obsidiana, pó de esmeralda vira esmeralda."
+			]
 		}
 		{
-			dependencies: ["1A303BE95E49478A"]
+			id: "59EC7D96ADE3A3C1"
+			x: 6.0d
+			y: 2.0d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "occultism:chalk_orange"
 			}
-			id: "59EC7D96ADE3A3C1"
-			rewards: [{
-				id: "2E04592E177E82F2"
-				type: "xp"
-				xp: 400
-			}]
-			size: 1.25d
+			dependencies: [
+				"1A303BE95E49478A"
+			]
 			tasks: [
 				{
 					id: "458C30F81596DD72"
-					item: { count: 1, id: "occultism:cursed_honey" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:cursed_honey"
+					}
+					count: 1L
 				}
 				{
-					advancement: "occultism:occultism/possess_enderman"
-					criterion: ""
 					id: "1F5171C027EDC3DA"
 					type: "advancement"
+					advancement: "occultism:occultism/possess_enderman"
+					criterion: ""
 				}
 				{
-					advancement: "occultism:occultism/possess_ghast"
-					criterion: ""
 					id: "578ADA1E60ABF79C"
 					type: "advancement"
+					advancement: "occultism:occultism/possess_ghast"
+					criterion: ""
 				}
 				{
-					advancement: "occultism:occultism/possess_blaze"
-					criterion: ""
 					id: "3E415864E815B65D"
 					type: "advancement"
+					advancement: "occultism:occultism/possess_blaze"
+					criterion: ""
 				}
 				{
 					id: "274FAAA18AC7D988"
-					item: { count: 1, id: "occultism:chalk_orange" }
 					type: "item"
+					item: {
+						count: 1
+						id: "occultism:chalk_orange"
+					}
+					count: 1L
 				}
 			]
-			x: 6.0d
-			y: 2.0d
+			rewards: [
+				{
+					id: "2E04592E177E82F2"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Encantamento de Ihagan"
+			description: [
+				"&7Djinn possessores são exigentes com o corpo que escolhem, e o que fazem dele é bem mais útil que um esqueleto."
+				"&7Endermen que entregam pérolas, ghasts que choram sob encomenda e blazes nascidos na superfície, que queimam para o dono."
+				"&7Do mel amaldiçoado de uma abelha possuída e do pó de blaze sai o giz laranja, cujo cheiro só os Afrits suportam."
+				""
+				"&6Objetivo:&r 1. Desenhe o &6Encantamento de Ihagan&r: 12 &6amarelas&r, 12 &6verde-limão&r, 12 de fundação (8 cinza-claro ou mais forte), 4 crânios e 8 velas. Ativação: livro de Djinni."
+				"&f2. &6Abelha Possuída&r: favo, bloco de mel, garrafa de mel e bloco de favo; &cmate uma galinha&r. Deixa &6Mel Amaldiçoado&r."
+				"&f3. &6Enderman Possuído&r: osso, linha, pedra do End e carne podre; &cmate um porco&r. Sempre deixa pérolas."
+				"&f4. &6Ghast Possuído&r: 2 areias de almas, 2 blocos de magma, netherrack, balde de lava e diamante; &cmate uma vaca&r. Sempre deixa lágrimas."
+				"&f5. &6Blaze Possuído&r: carga de fogo, estrela de fogo de artifício, tocha, vela, ouro e cobre; &cmate uma galinha&r. Deixa varas de blaze."
+				"&f6. Giz Branco Impuro + Mel Amaldiçoado + bagas brilhantes + pó de blaze = &6Giz Laranja Impuro&r; purifique."
+				""
+				"&8Antes do Tier IV, colha os materiais do Nether em visitas curtas: o Ar Escaldante cresce com o tempo lá dentro."
+				"&8Basta uma carga de fogo achada em baús para começar o ciclo do blaze; depois as próprias varas pagam as próximas."
+			]
 		}
 		{
+			id: "38070E474356C155"
+			x: 8.0d
+			y: -1.02d
+			size: 1.25d
 			dependencies: [
 				"363AECA4F200A93D"
 				"1C68A81561277361"
 			]
-			id: "38070E474356C155"
-			optional: true
+			tasks: [
+				{
+					id: "7103BE8CED21EE3E"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:satchel"
+					}
+					count: 1L
+				}
+				{
+					id: "05E440FF01809B2A"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:ender_satchel"
+					}
+					count: 1L
+				}
+				{
+					id: "2E1EAD9E01183BE0"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:knowledge_tablet"
+					}
+					count: 1L
+				}
+				{
+					id: "6BCF9AD6D7230CAB"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:vitality_compass"
+					}
+					count: 1L
+				}
+				{
+					id: "74CCE03CF0982DCB"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:spirit_grindstone"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "54734D8193D68961"
@@ -310,53 +530,93 @@
 				}
 				{
 					id: "17E436357AF6C66A"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "7103BE8CED21EE3E"
-					item: { count: 1, id: "occultism:satchel" }
-					type: "item"
-				}
-				{
-					id: "05E440FF01809B2A"
-					item: { count: 1, id: "occultism:ender_satchel" }
-					type: "item"
-				}
-				{
-					id: "2E1EAD9E01183BE0"
-					item: { count: 1, id: "occultism:knowledge_tablet" }
-					type: "item"
-				}
-				{
-					id: "6BCF9AD6D7230CAB"
-					item: { count: 1, id: "occultism:vitality_compass" }
-					type: "item"
-				}
-				{
-					id: "74CCE03CF0982DCB"
-					item: { count: 1, id: "occultism:spirit_grindstone" }
-					type: "item"
-				}
+			title: "O Gabinete de Curiosidades"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Todo demonólogo veterano tem uma prateleira de objetos que ninguém mais entende."
+				"&7Bolsas maiores por dentro que por fora, o baú do Fim no cinto, uma tabuleta que guarda experiência, uma bússola que aponta para um coração e um rebolo que arranca maldições."
+				""
+				"&6Objetivo:&r 1. &6Bolsa Surpreendentemente Substancial&r (Eziveus): baú, 2 couros, linha e prata."
+				"&f2. &6Bolsa do Ender&r (Strigeor): baú do ender, 2 couros, linha, prata e ouro."
+				"&f3. &6Tabuleta do Conhecimento&r: Tabuleta do Outro Mundo (ouro, OutraPedra e Cinzas); em Eziveus, com Pó de Pesquisa, Gema e pérola de ender. Clique para guardar XP; agachado, para recuperar."
+				"&f4. &6Bússola de Vitalidade&r (Eziveus): ametista, 2 Gemas e bússola. Vincule-a a uma criatura para localizá-la."
+				"&f5. &6Rebolo Espiritual&r (Strigeor): rebolo, vidro, Cristal e prismarinho. Remove maldições mantendo os outros encantamentos."
 			]
-			x: 8.0d
-			y: -1.02d
+			optional: true
 		}
 		{
+			id: "1878D8FF0E07B052"
+			x: 8.0d
+			y: 0.58d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "occultism:storage_controller"
+			}
 			dependencies: [
 				"363AECA4F200A93D"
 				"59EC7D96ADE3A3C1"
 			]
-			icon: {
-				id: "occultism:storage_controller"
-			}
-			id: "1878D8FF0E07B052"
+			tasks: [
+				{
+					id: "5FB658DACA4A367D"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:dimensional_matrix"
+					}
+					count: 1L
+				}
+				{
+					id: "7441E2CE7B4B65AA"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:storage_controller"
+					}
+					count: 1L
+				}
+				{
+					id: "20385AA413D665AD"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:storage_stabilizer_tier1"
+					}
+					count: 1L
+				}
+				{
+					id: "7B0433F946E391FA"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:storage_stabilizer_tier2"
+					}
+					count: 1L
+				}
+				{
+					id: "5E090EFE0C8DFEE6"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:stable_wormhole"
+					}
+					count: 1L
+				}
+				{
+					id: "45701623A0D630B2"
+					type: "advancement"
+					advancement: "occultism:occultism/summon_djinni_manage_machine"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "187FFE2B59B0B0DA"
@@ -365,58 +625,81 @@
 				}
 				{
 					id: "7F4618A9E89BE2C3"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "5FB658DACA4A367D"
-					item: { count: 1, id: "occultism:dimensional_matrix" }
-					type: "item"
-				}
-				{
-					id: "7441E2CE7B4B65AA"
-					item: { count: 1, id: "occultism:storage_controller" }
-					type: "item"
-				}
-				{
-					id: "20385AA413D665AD"
-					item: { count: 1, id: "occultism:storage_stabilizer_tier1" }
-					type: "item"
-				}
-				{
-					id: "7B0433F946E391FA"
-					item: { count: 1, id: "occultism:storage_stabilizer_tier2" }
-					type: "item"
-				}
-				{
-					id: "5E090EFE0C8DFEE6"
-					item: { count: 1, id: "occultism:stable_wormhole" }
-					type: "item"
-				}
-				{
-					advancement: "occultism:occultism/summon_djinni_manage_machine"
-					criterion: ""
-					id: "45701623A0D630B2"
-					type: "advancement"
-				}
+			title: "O Armazém Dobrado"
+			description: [
+				"&7Um armazém inteiro dobrado dentro de um cristal. Um Djinni guarda a porta, um Foliot arruma as prateleiras."
+				"&7O atuador é o balcão; os estabilizadores esticam a pequena dimensão trêmula onde tudo fica guardado;"
+				"&7um buraco de minhoca abre janelas para o mesmo estoque em qualquer canto da base, e um Djinni operário alimenta as máquinas sozinho."
+				""
+				"&6Objetivo:&r 1. Em &6Strigeor&r: 3 blocos de quartzo e 1 pérola de ender = &6Matriz de Cristal Dimensional&r."
+				"&f2. &6Pedestal de OutraPedra&r (lajes e OutraPedra). Em &6Eziveus&r: pedestal, 2 cobres e 1 ouro = &6Base do Atuador&r. Base + Matriz = &6Atuador de Armazenamento Dimensional&r."
+				"&f3. &6Estabilizador Nível 1&r: em &6Eziveus&r, Base do Estabilizador (um pedestal), bloco de cobre, pó de blaze e Gema. Aponte-o para a Matriz, a até 5 blocos, no mesmo eixo."
+				"&f4. &6Estabilizador Nível 2&r: em &6Strigeor&r, Nível 1, bloco de prata, lágrima de ghast e 2 Gemas."
+				"&f5. &6Buraco de Minhoca Estável&r: em &6Eziveus&r, Armação de OutraPedra, pérola de ender, 2 quartzos e 2 ouros. Agachado, clique no Atuador para vincular."
+				"&f6. &6Operador de Máquinas&r (Ophyx): bloco de carvão, ouro, ferro e fornalha. Com o Livro de Chamada, ligue-o ao Atuador e à máquina."
 			]
-			x: 8.0d
-			y: 0.58d
 		}
 		{
+			id: "7395E87EB92A2337"
+			x: 8.0d
+			y: 2.18d
+			size: 1.25d
 			dependencies: [
 				"1A303BE95E49478A"
 				"59EC7D96ADE3A3C1"
 				"363AECA4F200A93D"
 			]
-			id: "7395E87EB92A2337"
-			optional: true
+			tasks: [
+				{
+					id: "5895134769C44F72"
+					type: "advancement"
+					advancement: "occultism:occultism/summon_djinni_day_time"
+					criterion: ""
+				}
+				{
+					id: "3A740DAC6532899D"
+					type: "advancement"
+					advancement: "occultism:occultism/summon_djinni_gambler"
+					criterion: ""
+				}
+				{
+					id: "4952416B978FE543"
+					type: "advancement"
+					advancement: "occultism:occultism/summon_wondering_trader"
+					criterion: ""
+				}
+				{
+					id: "3BE2A9A7B3BC3F06"
+					type: "advancement"
+					advancement: "occultism:occultism/summon_demonic_wife"
+					criterion: ""
+				}
+				{
+					id: "5C55CDBEA38A6A64"
+					type: "advancement"
+					advancement: "occultism:occultism/summon_djinni_crystallizer"
+					criterion: ""
+				}
+				{
+					id: "795658D050379F4F"
+					type: "advancement"
+					advancement: "occultism:occultism/possess_weak_shulker"
+					criterion: ""
+				}
+				{
+					id: "11C35C74205A6193"
+					type: "advancement"
+					advancement: "occultism:occultism/possess_villager"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "161F4D0344F9FE85"
@@ -425,106 +708,137 @@
 				}
 				{
 					id: "4F32D9B0308E49EF"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "occultism:occultism/summon_djinni_day_time"
-					criterion: ""
-					id: "5895134769C44F72"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/summon_djinni_gambler"
-					criterion: ""
-					id: "3A740DAC6532899D"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/summon_wondering_trader"
-					criterion: ""
-					id: "4952416B978FE543"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/summon_demonic_wife"
-					criterion: ""
-					id: "3BE2A9A7B3BC3F06"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/summon_djinni_crystallizer"
-					criterion: ""
-					id: "5C55CDBEA38A6A64"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/possess_weak_shulker"
-					criterion: ""
-					id: "795658D050379F4F"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/possess_villager"
-					criterion: ""
-					id: "11C35C74205A6193"
-					type: "advancement"
-				}
+			title: "Excentricidades dos Djinn"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Um Djinni pode empurrar o sol pelo céu, apostar gemas, vender o que não deveria existir ou casar com quem o chamou."
+				"&7Os grimórios chamam isso de frivolidade. Os demonólogos chamam de sexta-feira."
+				""
+				"&6Objetivo:&r No &6Chamado de Ophyx&r (salvo indicação):"
+				"&f1. &6Amanhecer&r: tocha, muda, trigo e corante amarelo. (Pólvora, carne podre, osso e corante preto chamam a noite.)"
+				"&f2. &6Apostador&r: esmeralda, bloco de diamante, ouro e bloco de prata. Troca gemas ao acaso, às vezes por iésnio."
+				"&f3. &6Vendedor Curioso&r: 2 Essências do Outro Mundo e 2 esmeraldas. Use os óculos para ver as ofertas ocultas."
+				"&f4. &6Parceiro Demoníaco&r: ouro, diamante (esposa) ou esmeralda (marido), pólvora, costeleta, espada e frasco; &cmate uma galinha&r. Luta, cozinha e prolonga poções."
+				"&f5. &6Cristalizador Djinni&r: Pasta Cinza, lápis, ametista e esmeralda."
+				"&f6. &6Shulker Fraco&r (Ihagan): pérola de ender, 2 concretos roxos e pedra do End; &cmate um slime&r."
+				"&f7. &6Aldeão&r (Ihagan): cama, fogueira e torta; &6arremesse um frasco de experiência&r."
 			]
-			x: 8.0d
-			y: 2.18d
+			optional: true
 		}
 		{
+			id: "2413D605BFDAECF8"
+			x: 8.0d
+			y: 3.78d
+			size: 1.25d
 			dependencies: [
 				"59EC7D96ADE3A3C1"
 				"4F3750BCDFFC9357"
 			]
-			id: "2413D605BFDAECF8"
-			rewards: [{
-				id: "4453588CB2895F06"
-				type: "xp"
-				xp: 320
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					advancement: "occultism:occultism/familiar_bat"
-					criterion: ""
 					id: "66C09692A62B5F45"
 					type: "advancement"
+					advancement: "occultism:occultism/familiar_bat"
+					criterion: ""
 				}
 				{
-					advancement: "occultism:occultism/familiar_beholder"
-					criterion: ""
 					id: "3CFC0C61DFF9A706"
 					type: "advancement"
+					advancement: "occultism:occultism/familiar_beholder"
+					criterion: ""
 				}
 				{
-					advancement: "occultism:occultism/familiar_chimera"
-					criterion: ""
 					id: "5477F22AEB6DCA3E"
 					type: "advancement"
+					advancement: "occultism:occultism/familiar_chimera"
+					criterion: ""
 				}
 				{
-					advancement: "occultism:occultism/familiar_devil"
-					criterion: ""
 					id: "0A252179C0596F7F"
 					type: "advancement"
+					advancement: "occultism:occultism/familiar_devil"
+					criterion: ""
 				}
 			]
-			x: 8.0d
-			y: 3.78d
+			rewards: [
+				{
+					id: "4453588CB2895F06"
+					type: "xp"
+					xp: 320
+				}
+			]
+			title: "Familiares de Ihagan"
+			description: [
+				"&7Os familiares que atendem a um Djinni são criaturas de verdade, não bichinhos."
+				"&7O morcego empresta a visão da noite, o observador vê através das paredes e dispara raios,"
+				"&7a quimera cresce até virar montaria e o diabinho ensina o dono a não temer as chamas."
+				""
+				"&6Objetivo:&r Todos no &6Encantamento de Ihagan&r, com o livro de Djinni."
+				"&f1. &6Morcego&r: cenoura dourada, olho de aranha, pó de pedra-luminosa, balde de lava e tocha; &cmate um morcego&r. &bVisão Noturna&r."
+				"&f2. &6Observador&r: 4 olhos de aranha e 4 pós de pedra-luminosa; &cmate uma aranha&r. Revela criaturas e ataca inimigos."
+				"&f3. &6Quimera&r: couro, linha, pena, lã, osso, carneiro, costeleta, bife e frango crus; &cmate uma ovelha&r. Alimente-a com carne para montá-la."
+				"&f4. &6Diabinho&r: 2 blocos de magma, 2 ossos e balde de lava; &cmate um cavalo&r. &bResistência ao Fogo&r."
+			]
 		}
 		{
-			dependencies: ["2413D605BFDAECF8"]
 			id: "3C50D10B0458BF5A"
-			optional: true
+			x: 10.0d
+			y: 3.78d
+			size: 1.25d
+			dependencies: [
+				"2413D605BFDAECF8"
+			]
+			tasks: [
+				{
+					id: "55374D070A1B096B"
+					type: "advancement"
+					advancement: "occultism:occultism/familiar/shub_niggurath_summon"
+					criterion: ""
+				}
+				{
+					id: "4C26C7899C9A8164"
+					type: "advancement"
+					advancement: "occultism:occultism/familiar_cthulhu"
+					criterion: ""
+				}
+				{
+					id: "13153D47EBC4D7BD"
+					type: "advancement"
+					advancement: "occultism:occultism/familiar_dragon"
+					criterion: ""
+				}
+				{
+					id: "66864F51ABA180C7"
+					type: "advancement"
+					advancement: "occultism:occultism/familiar_fairy"
+					criterion: ""
+				}
+				{
+					id: "49C6B4AAC2EB37BD"
+					type: "advancement"
+					advancement: "occultism:occultism/familiar_headless"
+					criterion: ""
+				}
+				{
+					id: "629204C6C2B53EDD"
+					type: "advancement"
+					advancement: "occultism:occultism/familiar_mummy"
+					criterion: ""
+				}
+				{
+					id: "1BB282D71B778091"
+					type: "advancement"
+					advancement: "occultism:occultism/familiar_otherworld_bird"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "2603866FAD5B49DD"
@@ -533,60 +847,34 @@
 				}
 				{
 					id: "0124236884D9F5B2"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "occultism:occultism/familiar/shub_niggurath_summon"
-					criterion: ""
-					id: "55374D070A1B096B"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/familiar_cthulhu"
-					criterion: ""
-					id: "4C26C7899C9A8164"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/familiar_dragon"
-					criterion: ""
-					id: "13153D47EBC4D7BD"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/familiar_fairy"
-					criterion: ""
-					id: "66864F51ABA180C7"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/familiar_headless"
-					criterion: ""
-					id: "49C6B4AAC2EB37BD"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/familiar_mummy"
-					criterion: ""
-					id: "629204C6C2B53EDD"
-					type: "advancement"
-				}
-				{
-					advancement: "occultism:occultism/familiar_otherworld_bird"
-					criterion: ""
-					id: "1BB282D71B778091"
-					type: "advancement"
-				}
+			title: "O Zoológico do Além"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Há demonólogos que colecionam familiares como outros colecionam selos."
+				"&7Um bode negro escondido dentro da quimera, um Cthulhu de bolso, um dragãozinho que guarda conhecimento em vez de ouro, uma fada cruel,"
+				"&7um homem-rato que rouba cabeças, uma múmia lutadora e um pássaro que ensina a quase voar."
+				""
+				"&6Objetivo:&r No &6Encantamento de Ihagan&r (salvo indicação):"
+				"&f1. &6Shub Niggurath&r: dê uma &6maçã dourada&r à Quimera para separar o Bode; numa &afloresta&r, use nele corante preto, sílex e olho de ender."
+				"&f2. &6Cthulhu&r: 8 peixes; &cmate uma lula&r. &bRespiração Aquática&r."
+				"&f3. &6Dragãozinho&r: balde de lava, pederneira, carvão, quartzo, bloco de ouro, pólvora e 2 obsidianas; &cmate um cavalo&r. Mais experiência."
+				"&f4. &6Fada&r: 2 maçãs douradas, lágrima de ghast, 3 pólvoras e balde de leite; &cmate um cavalo&r. Protege familiares e cura o dono."
+				"&f5. &6Homem-Rato Sem Cabeça&r: 2 trigos, feno, 2 gravetos e abóbora esculpida; &cmate um golem de neve&r."
+				"&f6. &6Múmia&r: 2 slimeballs, 2 papéis e 4 lãs; &cmate uma lhama&r."
+				"&f7. &6Drikwing&r: 2 penas, ovo, folhas e linha; &cmate um papagaio&r. Pulos extras e queda lenta."
 			]
-			x: 10.0d
-			y: 3.78d
+			optional: true
 		}
+	]
+	title: "&aTier II&7 - A Fumaça dos Djinn"
+	subtitle: [
+		"&5O Oculto&7, &aTier II"
 	]
 }

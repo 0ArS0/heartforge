@@ -4,235 +4,364 @@
 	filename: "mod_aquamirae_t1"
 	group: "25796BB343F30024"
 	icon: {
+		count: 1
 		id: "minecraft:compass"
 	}
 	id: "37016135426FC574"
-	images: [ ]
-	order_index: 1
+	order_index: 71
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "minecraft:compass"
-			}
 			id: "73CA4D8DB6AB5132"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_1"
-				criterion: ""
-				id: "669C172605CB47B9"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 3.2d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			tasks: [
+				{
+					id: "669C172605CB47B9"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_1"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&7Tier I"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &7Tier I&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "6A771620FC437DDE"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:esca"
+			}
 			dependencies: [
 				"3CB9F9FBB8551617"
 				"73CA4D8DB6AB5132"
 			]
-			icon: {
-				id: "aquamirae:esca"
-			}
-			id: "6A771620FC437DDE"
-			rewards: [{
-				id: "13D69CF9CBA5641E"
-				type: "xp"
-				xp: 200
-			}]
-			size: 1.25d
 			tasks: [
 				{
 					id: "6897CD631652B1D5"
-					item: { count: 1, id: "aquamirae:esca" }
 					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:esca"
+					}
+					count: 1L
 				}
 				{
-					count: 2L
 					id: "5223B6B14DC9F459"
-					item: { count: 1, id: "aquamirae:fin" }
 					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:fin"
+					}
+					count: 2L
 				}
 				{
 					id: "2660D53D8C8B117D"
-					item: { count: 1, id: "aquamirae:angler_fang" }
 					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:angler_fang"
+					}
+					count: 1L
 				}
 				{
 					id: "65C1F05B9215E9A2"
-					item: { count: 1, id: "aquamirae:luminescent_lamp" }
 					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:luminescent_lamp"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "13D69CF9CBA5641E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "A Luz no Fundo"
+			description: [
+				"&7Uma luzinha balança na escuridão. Atrás dela, uma boca maior que um barco a remo."
+				"&7A isca do peixe-diabo brilha mesmo depois de morta, e os piratas faziam lanternas com ela."
+				"&7Barbatana e presa viram, mais tarde, as armas Terríveis."
+				""
+				"&6Objetivo:&r 1. Mate um &6peixe-diabo&r (Anglerfish) e recolha a &6Isca Luminosa&r (Esca)."
+				"&f2. Junte &62 Barbatanas&r e uma &6Presa de Peixe-diabo&r."
+				"&f3. Faça uma &6Lâmpada Luminescente&r (isca, oxyhelium e gravetos)."
+				""
+				"&8As Bolhas Luminescentes, feitas com os mesmos itens, aceleram quem nada perto delas."
+			]
 		}
 		{
-			dependencies: [
-				"3CB9F9FBB8551617"
-				"73CA4D8DB6AB5132"
-			]
-			icon: {
-				id: "aquamirae:sharp_bones"
-			}
 			id: "60032A1D1D667DED"
-			rewards: [{
-				id: "04B20712685C1FFF"
-				type: "xp"
-				xp: 200
-			}]
-			shape: "diamond"
-			size: 1.25d
-			tasks: [
-				{
-					entity: "aquamirae:maw"
-					id: "5118B35B51C6DECD"
-					type: "kill"
-					value: 1L
-				}
-				{
-					count: 2L
-					id: "4C653B318A1C865A"
-					item: { count: 1, id: "aquamirae:sharp_bones" }
-					type: "item"
-				}
-				{
-					entity: "aquamirae:tortured_soul"
-					id: "4DEAEF48C877701B"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "aquamirae:golden_moth"
-					id: "095EC5953DD69031"
-					type: "kill"
-					value: 1L
-				}
-			]
 			x: 2.0d
 			y: 1.6d
-		}
-		{
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:sharp_bones"
+			}
 			dependencies: [
 				"3CB9F9FBB8551617"
 				"73CA4D8DB6AB5132"
 			]
-			icon: {
-				id: "aquamirae:sea_stew"
-			}
-			id: "306355B7B248426B"
-			rewards: [{
-				id: "00112AFCB8AEB14D"
-				type: "xp"
-				xp: 250
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					count: 4L
+					id: "5118B35B51C6DECD"
+					type: "kill"
+					entity: "aquamirae:maw"
+					value: 1L
+				}
+				{
+					id: "4C653B318A1C865A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:sharp_bones"
+					}
+					count: 2L
+				}
+				{
+					id: "4DEAEF48C877701B"
+					type: "kill"
+					entity: "aquamirae:tortured_soul"
+					value: 1L
+				}
+				{
+					id: "095EC5953DD69031"
+					type: "kill"
+					entity: "aquamirae:golden_moth"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "04B20712685C1FFF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "A Tripulação Morta"
+			description: [
+				"&7Nem todos os marinheiros morreram de vez. Alguns ainda vagam pelos conveses, gemendo."
+				"&7A Bocarra é só boca: engoliu um aspirante inteiro, besta e tudo."
+				"&7E alguns tesouros têm alma própria: voam como mariposas e soltam ouro quando morrem."
+				""
+				"&6Objetivo:&r 1. Mate uma &6Bocarra&r (Maw) e recolha &62 Ossos Afiados&r."
+				"&f2. Mate uma &6Alma Torturada&r nos navios do labirinto."
+				"&f3. Abata uma &6Mariposa Dourada&r: elas saem das bolsas de tesouro e deixam ouro."
+				""
+				"&8Às vezes a Bocarra solta lembranças de antigos aventureiros: peças de armadura encantadas."
+			]
+		}
+		{
+			id: "306355B7B248426B"
+			x: 2.0d
+			y: 3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:sea_stew"
+			}
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			tasks: [
+				{
 					id: "513D8EC762A52E97"
-					item: { count: 1, id: "aquamirae:cooked_spinefish" }
 					type: "item"
-				}
-				{
+					item: {
+						count: 1
+						id: "aquamirae:cooked_spinefish"
+					}
 					count: 4L
-					id: "2A1F2FA368FFD338"
-					item: { count: 1, id: "aquamirae:jellyfish_jelly" }
-					type: "item"
 				}
 				{
-					advancement: "aquamirae:adventure/tame_shellback"
-					criterion: ""
+					id: "2A1F2FA368FFD338"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:jellyfish_jelly"
+					}
+					count: 4L
+				}
+				{
 					id: "149DFFF42EFC9C31"
 					type: "advancement"
+					advancement: "aquamirae:adventure/tame_shellback"
+					criterion: ""
 				}
 				{
 					id: "6D8A1FD86D2BE91A"
-					item: { count: 1, id: "aquamirae:sea_stew" }
 					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:sea_stew"
+					}
+					count: 1L
 				}
 				{
 					id: "0FDC250553E66A61"
-					item: { count: 1, id: "aquamirae:esca_skewer" }
 					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:esca_skewer"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 3.2d
+			rewards: [
+				{
+					id: "00112AFCB8AEB14D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Sobreviver no Gelo"
+			description: [
+				"&7A tripulação presa no gelo sobreviveu de peixe-espinho, um peixe que se disfarça de ossada."
+				"&7Quando a comida acabava, alimentavam os pequenos caranguejos do gelo com geleia de água-viva,"
+				"&7até eles crescerem e virarem fortalezas de casco que carregam um homem nas costas."
+				""
+				"&6Objetivo:&r 1. Pesque ou cace &64 Peixes-espinho&r e cozinhe-os."
+				"&f2. Mate &6Cifozoários Abissais&r e junte &64 Geleias de Água-viva&r."
+				"&f3. Alimente um &6Scuttler&r com geleia até ele virar um &6Shellback&r, e dome-o como montaria."
+				"&f4. Faça um &6Ensopado do Mar&r (três peixes-espinho cozidos, barbatana, oxyhelium e tigela)."
+				"&f5. Faça um &6Espetinho de Isca&r (iscas, wisteria, oxyhelium e graveto)."
+			]
 		}
 		{
+			id: "7BD66323DD45C80B"
+			x: 2.0d
+			y: 4.8d
+			icon: {
+				count: 1
+				id: "aquamirae:shell_horn"
+			}
 			dependencies: [
 				"3CB9F9FBB8551617"
 				"73CA4D8DB6AB5132"
 			]
-			icon: {
-				id: "aquamirae:shell_horn"
-			}
-			id: "7BD66323DD45C80B"
-			rewards: [{
-				id: "59538F28BFCCE2BF"
-				type: "xp"
-				xp: 150
-			}]
 			tasks: [
 				{
 					id: "42589C354987D58A"
-					item: { count: 1, id: "aquamirae:logbook" }
 					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:logbook"
+					}
+					count: 1L
 				}
 				{
-					advancement: "aquamirae:adventure/obtain_pirate_pouch"
-					criterion: ""
 					id: "3B634B0ED62D98E0"
 					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_pirate_pouch"
+					criterion: ""
 				}
 				{
-					advancement: "aquamirae:adventure/obtain_shell_horn"
-					criterion: ""
 					id: "23CEAD3B6B5BAF7A"
 					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_shell_horn"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 4.8d
+			rewards: [
+				{
+					id: "59538F28BFCCE2BF"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Navios Congelados"
+			description: [
+				"&7Os navios piratas presos no gelo ainda têm tripulação: saqueadores e vingadores, agora a serviço do labirinto."
+				"&7\"Entrada nº 12. A capitã desceu ao fundo com o único escafandro e a chave mestra. Não voltou.\""
+				"&7O capitão de um navio guardava uma concha retorcida que, soprada perto da água, chama alguém."
+				""
+				"&6Objetivo:&r 1. Saqueie os navios, fortes e abrigos e encontre um &6Diário de Bordo&r."
+				"&f2. Os piratas deixam &6Bolsas de Pirata&r: abra uma (botão direito)."
+				"&f3. Mate o &6capitão pirata&r de um navio congelado para obter a &6Trompa de Concha&r."
+				""
+				"&8As bolsas de pirata às vezes trazem o Molde de Melhoria Terrível."
+			]
 		}
 		{
+			id: "2900F2C07B7B20FE"
+			x: 2.0d
+			y: 6.4d
+			icon: {
+				count: 1
+				id: "aquamirae:ship_graveyard_echo"
+			}
 			dependencies: [
 				"3CB9F9FBB8551617"
 				"73CA4D8DB6AB5132"
 			]
-			icon: {
-				id: "aquamirae:ship_graveyard_echo"
-			}
-			id: "2900F2C07B7B20FE"
-			rewards: [{
-				id: "2B492E2A3C97697D"
-				type: "xp"
-				xp: 150
-			}]
 			tasks: [
 				{
-					count: 2L
 					id: "5AA566B96165D057"
-					item: { count: 1, id: "aquamirae:ship_graveyard_echo" }
 					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:ship_graveyard_echo"
+					}
+					count: 2L
 				}
 				{
-					advancement: "aquamirae:adventure/obtain_ship_graveyard_echo"
-					criterion: ""
 					id: "4F6C804491B53583"
 					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_ship_graveyard_echo"
+					criterion: ""
 				}
 				{
 					id: "4E6F25FB61F6FCEA"
-					item: { count: 1, id: "aquamirae:echo_compass" }
 					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:echo_compass"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 6.4d
+			rewards: [
+				{
+					id: "2B492E2A3C97697D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "O Eco do Cemitério"
+			description: [
+				"&7Encoste o ouvido no objeto e ouvirá as buzinas de centenas de navios perdidos."
+				"&7É o rastro que o leviatã deixa por onde passa, e o material mais precioso do labirinto."
+				"&7Numa bússola, a agulha não aponta para o norte: aponta para o lamento mais próximo."
+				""
+				"&6Objetivo:&r 1. Consiga &62 Ecos do Cemitério de Navios&r: as criaturas do labirinto mortas pelo &cQuebra-Navios&r os deixam para trás."
+				"&f2. Faça a &6Bússola do Eco&r (bússola e ecos): aponta para o eco mais próximo."
+				""
+				"&8Armaduras, armas e moldes do labirinto usam ecos. Guarde todos."
+			]
 		}
+	]
+	title: "&7Tier I&7 - O Labirinto de Gelo"
+	subtitle: [
+		"&bO Mar Gelado&7, &7Tier I"
 	]
 }

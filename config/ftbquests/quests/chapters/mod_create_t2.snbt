@@ -4,82 +4,169 @@
 	filename: "mod_create_t2"
 	group: "60FEF54FAB43A476"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "19BBDFB2FC9EBC97"
-	images: [ ]
-	order_index: 2
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_2"
-			}
 			id: "6971BB18C1083D76"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_2"
-				criterion: ""
-				id: "42F824A7B6C319D5"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			tasks: [
+				{
+					id: "42F824A7B6C319D5"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&aTier II"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "0B414B11CE8CC236"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
 			dependencies: [
 				"57C1EFA069E1F74C"
 				"6971BB18C1083D76"
 			]
-			id: "0B414B11CE8CC236"
-			rewards: [{
-				id: "584372CB92434CA3"
-				type: "xp"
-				xp: 400
-			}]
-			size: 1.25d
 			tasks: [
 				{
 					id: "3CE56ACB8C281481"
-					item: { count: 1, id: "create:blaze_burner" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create:blaze_burner"
+					}
+					count: 1L
 				}
 				{
-					advancement: "create:burner"
-					criterion: ""
 					id: "0D09445005964865"
 					type: "advancement"
-				}
-				{
-					count: 8L
-					id: "104CE49FC9A6BCA2"
-					item: { count: 1, id: "create:polished_rose_quartz" }
-					type: "item"
-				}
-				{
-					advancement: "create:rose_quartz"
+					advancement: "create:burner"
 					criterion: ""
+				}
+				{
+					id: "104CE49FC9A6BCA2"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:polished_rose_quartz"
+					}
+					count: 8L
+				}
+				{
 					id: "5603453FE3832915"
 					type: "advancement"
+					advancement: "create:rose_quartz"
+					criterion: ""
 				}
 				{
-					count: 8L
 					id: "2209EC029909787C"
-					item: { count: 1, id: "create:electron_tube" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					count: 8L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "584372CB92434CA3"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "Expedição ao Inferno"
+			description: [
+				"&7Os blazes vivem nas fortalezas do Nether, onde o Ar Escaldante cozinha quem demora."
+				"&7Os engenheiros de Heartforge descobriram que um blaze preso num queimador aquece uma bacia melhor que qualquer forno,"
+				"&7e que o quartzo dessa mesma terra, afogado em redstone, vira o cérebro de toda peça inteligente."
+				"&7Uma viagem rápida, bem planejada, traz as duas coisas."
+				""
+				"&6Objetivo:&r 1. Faça &6Empty Blaze Burners&r (chapas de ferro + netherrack) e clique com um num &cBlaze&r vivo para capturá-lo."
+				"&f2. Traga quartzo do Nether e faça &6Rose Quartz&r (1 quartzo + 8 redstone)."
+				"&f3. Lixe com &6Sand Paper&r (segure e use) para obter &6Polished Rose Quartz&r."
+				"&f4. Faça &6Electron Tubes&r: Polished Rose Quartz sobre uma Iron Sheet."
+				""
+				"&8Leve vários queimadores vazios: cada um captura um blaze. Antes do Tier IV, fique o mínimo possível no Nether."
+			]
 		}
 		{
+			id: "5B830FDABDC58062"
+			x: 4.0d
+			y: -1.6d
+			size: 1.25d
 			dependencies: [
 				"0B414B11CE8CC236"
 				"503F9F338325017D"
 			]
-			id: "5B830FDABDC58062"
+			tasks: [
+				{
+					id: "042B10A8FB2801B9"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					count: 16L
+				}
+				{
+					id: "29C5070F7CB47C9A"
+					type: "advancement"
+					advancement: "create:brass"
+					criterion: ""
+				}
+				{
+					id: "62FB916AB75F5AA2"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					count: 8L
+				}
+				{
+					id: "492CB20B522CDC52"
+					type: "advancement"
+					advancement: "create:brass_casing"
+					criterion: ""
+				}
+				{
+					id: "076095A2074B7FF1"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_sheet"
+					}
+					count: 4L
+				}
+				{
+					id: "0A3FD17C07068C78"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_hand"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "288302058D61C9D2"
@@ -88,60 +175,101 @@
 				}
 				{
 					id: "753F8B174B9CE52A"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 16L
-					id: "042B10A8FB2801B9"
-					item: { count: 1, id: "create:brass_ingot" }
-					type: "item"
-				}
-				{
-					advancement: "create:brass"
-					criterion: ""
-					id: "29C5070F7CB47C9A"
-					type: "advancement"
-				}
-				{
-					count: 8L
-					id: "62FB916AB75F5AA2"
-					item: { count: 1, id: "create:brass_casing" }
-					type: "item"
-				}
-				{
-					advancement: "create:brass_casing"
-					criterion: ""
-					id: "492CB20B522CDC52"
-					type: "advancement"
-				}
-				{
-					count: 4L
-					id: "076095A2074B7FF1"
-					item: { count: 1, id: "create:brass_sheet" }
-					type: "item"
-				}
-				{
-					id: "0A3FD17C07068C78"
-					item: { count: 1, id: "create:brass_hand" }
-					type: "item"
-				}
+			title: "A Era do Latão"
+			description: [
+				"&7Cobre e zinco, juntos sobre o fogo de um blaze, viram o metal dourado dos engenhos."
+				"&7A casca de latão guarda as máquinas que pensam, e a mão de latão tem cinco dedos de metal que não tremem."
+				"&7Daqui em diante, cada oficina de Heartforge brilha em amarelo."
+				""
+				"&6Objetivo:&r 1. Misture 1 lingote de cobre + 1 de zinco no Mechanical Mixer sobre uma Basin &caquecida&r por um Blaze Burner."
+				"&f2. Use lingotes de latão sobre madeira descascada para fazer &6Brass Casing&r."
+				"&f3. Prense latão em &6Brass Sheets&r e faça uma &6Brass Hand&r (chapas + liga de andesita)."
 			]
-			x: 4.0d
-			y: -1.6d
 		}
 		{
+			id: "5EF661194713BA19"
+			x: 4.0d
+			y: -0.0d
+			size: 1.25d
 			dependencies: [
 				"0B414B11CE8CC236"
 				"1F9F3F227C811DC4"
 			]
-			id: "5EF661194713BA19"
+			tasks: [
+				{
+					id: "4A8FF98FC66824ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					count: 9L
+				}
+				{
+					id: "0C07E22800DD817B"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:blaze_burner"
+					}
+					count: 2L
+				}
+				{
+					id: "5253D12195A6C89B"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_pump"
+					}
+					count: 1L
+				}
+				{
+					id: "022B6166B5298A43"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:steam_engine"
+					}
+					count: 2L
+				}
+				{
+					id: "6F3D068997A14574"
+					type: "advancement"
+					advancement: "create:steam_engine"
+					criterion: ""
+				}
+				{
+					id: "22BBC64AB04046C0"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:steam_whistle"
+					}
+					count: 1L
+				}
+				{
+					id: "2BF2FBABC59BF090"
+					type: "advancement"
+					advancement: "create:steam_whistle"
+					criterion: ""
+				}
+				{
+					id: "2F91F567DE8107A5"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:flywheel"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "72FDA86728E9B7E3"
@@ -150,67 +278,108 @@
 				}
 				{
 					id: "617471EA9CE22920"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 9L
-					id: "4A8FF98FC66824ED"
-					item: { count: 1, id: "create:fluid_tank" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "0C07E22800DD817B"
-					item: { count: 1, id: "create:blaze_burner" }
-					type: "item"
-				}
-				{
-					id: "5253D12195A6C89B"
-					item: { count: 1, id: "create:mechanical_pump" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "022B6166B5298A43"
-					item: { count: 1, id: "create:steam_engine" }
-					type: "item"
-				}
-				{
-					advancement: "create:steam_engine"
-					criterion: ""
-					id: "6F3D068997A14574"
-					type: "advancement"
-				}
-				{
-					id: "22BBC64AB04046C0"
-					item: { count: 1, id: "create:steam_whistle" }
-					type: "item"
-				}
-				{
-					advancement: "create:steam_whistle"
-					criterion: ""
-					id: "2BF2FBABC59BF090"
-					type: "advancement"
-				}
-				{
-					id: "2F91F567DE8107A5"
-					item: { count: 1, id: "create:flywheel" }
-					type: "item"
-				}
+			title: "O Coração de Vapor"
+			description: [
+				"&7Água, fogo e ferro: o casamento que moveu o mundo."
+				"&7Os engenheiros de Heartforge descobriram que o vapor de uma caldeira bem alimentada move mais que mil rodas d'água."
+				"&7Uma torre de tanques sobre blazes presos, uma bomba que nunca deixa faltar água e motores encostados no metal quente."
+				"&7Quando o apito soa pela primeira vez, a cidade inteira sabe que a era do vapor começou."
+				""
+				"&6Objetivo:&r 1. Monte uma torre de &6Fluid Tanks&r sobre &6Blaze Burners&r."
+				"&f2. Encha-a de água sem parar com uma &6Mechanical Pump&r."
+				"&f3. Encoste &6Steam Engines&r no tanque com um eixo à frente. Mais tanque, calor e água = mais motores."
+				"&f4. Ponha um &6Steam Whistle&r na caldeira e acione-o com redstone; enfeite o eixo com um &6Flywheel&r."
+				""
+				"&8Os óculos mostram o nível da caldeira e o que falta (calor, água ou tamanho)."
+				"&8Empilhe apitos para mudar o tom."
 			]
-			x: 4.0d
-			y: 0.0d
 		}
 		{
-			dependencies: ["0B414B11CE8CC236"]
 			id: "01FA92413F7E6300"
+			x: 4.0d
+			y: 1.6d
+			size: 1.25d
+			dependencies: [
+				"0B414B11CE8CC236"
+			]
+			tasks: [
+				{
+					id: "7B21554BF17FE5AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:content_observer"
+					}
+					count: 1L
+				}
+				{
+					id: "3128E9EA2716EE6C"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:stockpile_switch"
+					}
+					count: 1L
+				}
+				{
+					id: "29D151023D27BB9D"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:redstone_link"
+					}
+					count: 2L
+				}
+				{
+					id: "0A3421BCC3C10CE6"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:linked_controller"
+					}
+					count: 1L
+				}
+				{
+					id: "7A3FA7947C249E4C"
+					type: "advancement"
+					advancement: "create:linked_controller"
+					criterion: ""
+				}
+				{
+					id: "45A86987D568BB62"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:pulse_repeater"
+					}
+					count: 1L
+				}
+				{
+					id: "51B155A20DD71ABB"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:pulse_extender"
+					}
+					count: 1L
+				}
+				{
+					id: "79E0CCBC07BD594D"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:powered_latch"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "5B1539408770A1AD"
@@ -219,64 +388,80 @@
 				}
 				{
 					id: "69F8CDE9CE79A4E2"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "7B21554BF17FE5AF"
-					item: { count: 1, id: "create:content_observer" }
-					type: "item"
-				}
-				{
-					id: "3128E9EA2716EE6C"
-					item: { count: 1, id: "create:stockpile_switch" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "29D151023D27BB9D"
-					item: { count: 1, id: "create:redstone_link" }
-					type: "item"
-				}
-				{
-					id: "0A3421BCC3C10CE6"
-					item: { count: 1, id: "create:linked_controller" }
-					type: "item"
-				}
-				{
-					advancement: "create:linked_controller"
-					criterion: ""
-					id: "7A3FA7947C249E4C"
-					type: "advancement"
-				}
-				{
-					id: "45A86987D568BB62"
-					item: { count: 1, id: "create:pulse_repeater" }
-					type: "item"
-				}
-				{
-					id: "51B155A20DD71ABB"
-					item: { count: 1, id: "create:pulse_extender" }
-					type: "item"
-				}
-				{
-					id: "79E0CCBC07BD594D"
-					item: { count: 1, id: "create:powered_latch" }
-					type: "item"
-				}
+			title: "Relojoaria de Redstone"
+			description: [
+				"&7Atrasar, estender, travar: o engenho tem seu próprio relógio."
+				"&7Olhos de latão vigiam o que passa e o quanto resta, e sinais voam pelo ar sem fio algum."
+				"&7Os antigos chamariam isso de magia; os engenheiros chamam de terça-feira."
+				""
+				"&6Objetivo:&r 1. Faça um &6Smart Observer&r (sinal ao ver o item filtrado) e um &6Threshold Switch&r (sinal pelo nível de um baú ou tanque)."
+				"&f2. Faça &6Redstone Links&r: dois com o mesmo par de itens na frequência se comunicam a distância."
+				"&f3. Faça um &6Linked Controller&r: controle remoto que aciona links pelo teclado."
+				"&f4. Faça &6Pulse Repeater&r, &6Pulse Extender&r e &6Powered Latch&r, ajustáveis com a roda do mouse."
 			]
-			x: 4.0d
-			y: 1.6d
 		}
 		{
-			dependencies: ["5B830FDABDC58062"]
 			id: "2016E992D4445640"
+			x: 6.0d
+			y: -4.16d
+			size: 1.25d
+			dependencies: [
+				"5B830FDABDC58062"
+			]
+			tasks: [
+				{
+					id: "09CE9269D548627D"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					count: 1L
+				}
+				{
+					id: "4B66D61CEB5B3DF6"
+					type: "advancement"
+					advancement: "create:deployer"
+					criterion: ""
+				}
+				{
+					id: "1304BA94E070D003"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					count: 4L
+				}
+				{
+					id: "043B0D5A34DEFCD8"
+					type: "advancement"
+					advancement: "create:precision_mechanism"
+					criterion: ""
+				}
+				{
+					id: "3B99F3B3F4CEB36F"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_arm"
+					}
+					count: 1L
+				}
+				{
+					id: "7B449DD79B5269DA"
+					type: "advancement"
+					advancement: "create:mechanical_arm"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "102F78AC79BED51B"
@@ -285,59 +470,101 @@
 				}
 				{
 					id: "5C79B6333FD45DEF"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "09CE9269D548627D"
-					item: { count: 1, id: "create:deployer" }
-					type: "item"
-				}
-				{
-					advancement: "create:deployer"
-					criterion: ""
-					id: "4B66D61CEB5B3DF6"
-					type: "advancement"
-				}
-				{
-					count: 4L
-					id: "1304BA94E070D003"
-					item: { count: 1, id: "create:precision_mechanism" }
-					type: "item"
-				}
-				{
-					advancement: "create:precision_mechanism"
-					criterion: ""
-					id: "043B0D5A34DEFCD8"
-					type: "advancement"
-				}
-				{
-					id: "3B99F3B3F4CEB36F"
-					item: { count: 1, id: "create:mechanical_arm" }
-					type: "item"
-				}
-				{
-					advancement: "create:mechanical_arm"
-					criterion: ""
-					id: "7B449DD79B5269DA"
-					type: "advancement"
-				}
+			title: "A Primeira Linha de Montagem"
+			description: [
+				"&7O Deployer é um reflexo seu, de latão: coloca, usa, golpeia e nunca reclama."
+				"&7Ponha três deles sobre uma esteira e uma chapa de ouro entra nua e sai cheia de engrenagens."
+				"&7Esse é o segredo que um dia forjará Corações. O braço mecânico, que pega aqui e larga ali, vem logo depois."
+				""
+				"&6Objetivo:&r 1. Faça um &6Deployer&r e gire-o: usa o item que estiver na mão (coloca, aplica, ataca)."
+				"&f2. &6Montagem sequencial&r: Golden Sheet numa esteira passando por 3 Deployers (Cogwheel, Large Cogwheel,"
+				"&fpepita de ferro), em 5 voltas, vira um &6Precision Mechanism&r."
+				"&f3. Faça um &6Mechanical Arm&r: antes de colocá-lo, clique nas entradas (azul) e saídas (laranja)."
+				""
+				"&8O livro de receitas (livro de receitas) mostra cada passo da sequência. A saída tem chance de virar sucata; mantenha a linha rodando."
 			]
-			x: 6.0d
-			y: -4.16d
 		}
 		{
+			id: "4012B6F350D7C3B0"
+			x: 6.0d
+			y: -2.56d
+			size: 1.25d
 			dependencies: [
 				"5B830FDABDC58062"
 				"6462DFBBF09514D1"
 			]
-			id: "4012B6F350D7C3B0"
+			tasks: [
+				{
+					id: "2B496F849D78DBDC"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_funnel"
+					}
+					count: 4L
+				}
+				{
+					id: "16E5770AB2CE132B"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_tunnel"
+					}
+					count: 2L
+				}
+				{
+					id: "49E81B04099B9EAE"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:filter"
+					}
+					count: 1L
+				}
+				{
+					id: "33DA01257082D635"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:attribute_filter"
+					}
+					count: 1L
+				}
+				{
+					id: "72580F8569ECA1FC"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:smart_chute"
+					}
+					count: 1L
+				}
+				{
+					id: "6DB89FEED84D2AF6"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:smart_fluid_pipe"
+					}
+					count: 1L
+				}
+				{
+					id: "55D0D256431B807D"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:item_vault"
+					}
+					count: 9L
+				}
+			]
 			rewards: [
 				{
 					id: "2DA7EE543789DA94"
@@ -346,61 +573,65 @@
 				}
 				{
 					id: "4A2C730D870D8CC4"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 4L
-					id: "2B496F849D78DBDC"
-					item: { count: 1, id: "create:brass_funnel" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "16E5770AB2CE132B"
-					item: { count: 1, id: "create:brass_tunnel" }
-					type: "item"
-				}
-				{
-					id: "49E81B04099B9EAE"
-					item: { count: 1, id: "create:filter" }
-					type: "item"
-				}
-				{
-					id: "33DA01257082D635"
-					item: { count: 1, id: "create:attribute_filter" }
-					type: "item"
-				}
-				{
-					id: "72580F8569ECA1FC"
-					item: { count: 1, id: "create:smart_chute" }
-					type: "item"
-				}
-				{
-					id: "6DB89FEED84D2AF6"
-					item: { count: 1, id: "create:smart_fluid_pipe" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "55D0D256431B807D"
-					item: { count: 1, id: "create:item_vault" }
-					type: "item"
-				}
+			title: "Bocas que Escolhem"
+			description: [
+				"&7A boca de latão só engole o que lhe mandam, e um bom capataz sabe o nome de cada caixa que passa."
+				"&7Barris de ferro unidos viram um cofre que nenhum ladrão abre com as mãos."
+				"&7Com filtros, calhas e canos que pensam, o armazém se arruma sozinho."
+				""
+				"&6Objetivo:&r 1. Faça &6Brass Funnels&r e &6Brass Tunnels&r (filtro, quantidade, rodízio e divisão de pilhas)."
+				"&f2. Faça um &6List Filter&r e um &6Attribute Filter&r e ponha-os nos slots de filtro."
+				"&f3. Faça uma &6Smart Chute&r (calha com filtro) e um &6Smart Fluid Pipe&r (só passa o fluido escolhido)."
+				"&f4. Faça &6Item Vaults&r e junte-os (até 3x3 de base): só se acessam por funis, braços ou esteiras."
 			]
-			x: 6.0d
-			y: -2.56d
 		}
 		{
-			dependencies: ["5B830FDABDC58062"]
 			id: "6FF0106AC50243BF"
-			optional: true
+			x: 6.0d
+			y: -0.96d
+			size: 1.25d
+			dependencies: [
+				"5B830FDABDC58062"
+			]
+			tasks: [
+				{
+					id: "649C68DB20B14703"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:chocolate_bucket"
+					}
+					count: 1L
+				}
+				{
+					id: "458229D936E538B9"
+					type: "advancement"
+					advancement: "create:chocolate_bucket"
+					criterion: ""
+				}
+				{
+					id: "508E5DF9934F6B46"
+					type: "advancement"
+					advancement: "create:foods"
+					criterion: ""
+				}
+				{
+					id: "78AC3A5FC154D1C8"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:builders_tea"
+					}
+					count: 2L
+				}
+			]
 			rewards: [
 				{
 					id: "2262AA4A32048712"
@@ -409,46 +640,61 @@
 				}
 				{
 					id: "35436CFEEE9994FF"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "649C68DB20B14703"
-					item: { count: 1, id: "create:chocolate_bucket" }
-					type: "item"
-				}
-				{
-					advancement: "create:chocolate_bucket"
-					criterion: ""
-					id: "458229D936E538B9"
-					type: "advancement"
-				}
-				{
-					advancement: "create:foods"
-					criterion: ""
-					id: "508E5DF9934F6B46"
-					type: "advancement"
-				}
-				{
-					count: 2L
-					id: "78AC3A5FC154D1C8"
-					item: { count: 1, id: "create:builders_tea" }
-					type: "item"
-				}
+			title: "Doces do Engenho"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Cacau, açúcar e leite aquecidos viram um rio marrom."
+				"&7O mesmo bico que enche garrafas cobre frutas com mel e chocolate, e o chá do construtor dá pressa nas mãos."
+				""
+				"&6Objetivo:&r 1. Misture cacau, açúcar e leite numa Basin &caquecida&r e encha um balde de chocolate."
+				"&f2. Com o Spout, faça Chocolate Glazed Berries, Honeyed Apple e Sweet Roll."
+				"&f3. Misture folhas, leite e água numa Basin aquecida e engarrafe o &6Builder's Tea&r."
 			]
-			x: 6.0d
-			y: -0.96d
+			optional: true
 		}
 		{
-			dependencies: ["5B830FDABDC58062"]
 			id: "3FF28354DA6CB446"
-			optional: true
+			x: 6.0d
+			y: 0.64d
+			dependencies: [
+				"5B830FDABDC58062"
+			]
+			tasks: [
+				{
+					id: "3EC1F533FF3AC5E8"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:schematic_and_quill"
+					}
+					count: 1L
+				}
+				{
+					id: "269D470155C24DFD"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:schematic_table"
+					}
+					count: 1L
+				}
+				{
+					id: "543A97DCEFE5E91E"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:schematicannon"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "21BDBBAD5A414746"
@@ -457,115 +703,222 @@
 				}
 				{
 					id: "59D3A59E0027DE07"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3EC1F533FF3AC5E8"
-					item: { count: 1, id: "create:schematic_and_quill" }
-					type: "item"
-				}
-				{
-					id: "269D470155C24DFD"
-					item: { count: 1, id: "create:schematic_table" }
-					type: "item"
-				}
-				{
-					id: "543A97DCEFE5E91E"
-					item: { count: 1, id: "create:schematicannon" }
-					type: "item"
-				}
+			title: "Plantas e Canhões"
+			subtitle: "&8Opcional"
+			description: [
+				"&7O arquiteto desenha; o canhão constrói, bloco a bloco."
+				"&7Uma pena que guarda a forma de um castelo inteiro, uma mesa que a copia e um canhão que a ergue em outro lugar."
+				""
+				"&6Objetivo:&r 1. Faça &6Schematic and Quill&r: salva uma construção."
+				"&f2. Faça uma &6Schematic Table&r para escrever plantas."
+				"&f3. Faça um &6Schematicannon&r: constrói a planta com os blocos de um baú ao lado, usando pólvora."
 			]
-			x: 6.0d
-			y: 0.64d
+			optional: true
 		}
 		{
-			dependencies: ["01FA92413F7E6300"]
 			id: "3D7A934BD49BBD8D"
-			rewards: [{
-				id: "37C0368608DA22AA"
-				type: "xp"
-				xp: 400
-			}]
+			x: 6.0d
+			y: 2.24d
 			size: 1.25d
+			dependencies: [
+				"01FA92413F7E6300"
+			]
 			tasks: [
 				{
 					id: "69C657479AA9F341"
-					item: { count: 1, id: "create:display_link" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create:display_link"
+					}
+					count: 1L
 				}
 				{
-					count: 4L
 					id: "77474BB45F23B592"
-					item: { count: 1, id: "create:display_board" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create:display_board"
+					}
+					count: 4L
 				}
 				{
-					advancement: "create:display_link"
-					criterion: ""
 					id: "20C02EF3C1B463FD"
 					type: "advancement"
+					advancement: "create:display_link"
+					criterion: ""
 				}
 				{
-					count: 2L
 					id: "7D6A2D8F9971C777"
-					item: { count: 1, id: "create:nixie_tube" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create:nixie_tube"
+					}
+					count: 2L
 				}
 				{
 					id: "2A79F9EE71B85E27"
-					item: { count: 1, id: "create:analog_lever" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create:analog_lever"
+					}
+					count: 1L
 				}
 			]
-			x: 6.0d
-			y: 2.24d
+			rewards: [
+				{
+					id: "37C0368608DA22AA"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "As Máquinas Falam"
+			description: [
+				"&7As máquinas têm muito a dizer; basta dar-lhes um quadro."
+				"&7Um elo de latão lê o baú, o medidor ou a estação, e escreve em placas, painéis ou tubos que brilham em laranja."
+				"&7Ao lado, uma alavanca com quinze níveis de força na ponta dos dedos."
+				""
+				"&6Objetivo:&r 1. Faça um &6Display Link&r: clique num bloco-fonte e coloque-o junto a um &6Display Board&r."
+				"&f2. Faça &6Nixie Tubes&r para mostrar números e textos."
+				"&f3. Faça uma &6Analog Lever&r: clique para escolher a força exata do sinal (0 a 15)."
+			]
 		}
 		{
-			dependencies: ["2016E992D4445640"]
 			id: "481FD9295FCF4889"
-			rewards: [{
-				id: "2494B3EC49C5ABD0"
-				type: "xp"
-				xp: 320
-			}]
+			x: 8.0d
+			y: -6.56d
 			size: 1.25d
+			dependencies: [
+				"2016E992D4445640"
+			]
 			tasks: [
 				{
-					count: 13L
 					id: "7118DF825805C03C"
-					item: { count: 1, id: "create:mechanical_crafter" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
+					count: 13L
 				}
 				{
-					advancement: "create:mechanical_crafter"
-					criterion: ""
 					id: "7550BEA5333DF820"
 					type: "advancement"
+					advancement: "create:mechanical_crafter"
+					criterion: ""
 				}
 				{
 					id: "3FEEADB9A003DCBB"
-					item: { count: 1, id: "create:extendo_grip" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create:extendo_grip"
+					}
+					count: 1L
 				}
 				{
-					advancement: "create:extendo_grip"
-					criterion: ""
 					id: "584438E0C3CEF49A"
 					type: "advancement"
+					advancement: "create:extendo_grip"
+					criterion: ""
 				}
 			]
-			x: 8.0d
-			y: -6.56d
+			rewards: [
+				{
+					id: "2494B3EC49C5ABD0"
+					type: "xp"
+					xp: 320
+				}
+			]
+			title: "Treze Mãos de Latão"
+			description: [
+				"&7Uma bancada que ocupa uma parede inteira e lê receitas de 5 por 5."
+				"&7Nela se montam o segundo Coração, as ligas raras e toda arma e armadura do Tier III em diante."
+				"&7Até o Extendo Grip, o braço de pau com mão de latão que o preguiçoso agradece, sai daqui."
+				""
+				"&6Objetivo:&r 1. Faça &6Mechanical Crafters&r, coloque-os numa parede e use a chave para que as setas levem tudo a um só crafter."
+				"&f2. Ponha um item em cada slot do padrão e dê redstone (ou deixe encher): eles montam a receita."
+				"&f3. Monte um &6Extendo Grip&r: na mão secundária, aumenta muito o alcance."
+				""
+				"&8Slots vazios do padrão: use Crafter Slot Cover neles."
+			]
 		}
 		{
-			dependencies: ["2016E992D4445640"]
 			id: "585F680A7FA48810"
+			x: 8.0d
+			y: -4.96d
+			size: 1.25d
+			dependencies: [
+				"2016E992D4445640"
+			]
+			tasks: [
+				{
+					id: "45E24EEEB019D3DB"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:rotation_speed_controller"
+					}
+					count: 1L
+				}
+				{
+					id: "2C28B0E8E50921BE"
+					type: "advancement"
+					advancement: "create:speed_controller"
+					criterion: ""
+				}
+				{
+					id: "37005EA8E9F66705"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:sequenced_gearshift"
+					}
+					count: 1L
+				}
+				{
+					id: "4253FB09618CD860"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:clockwork_bearing"
+					}
+					count: 1L
+				}
+				{
+					id: "66AC28A2AC3B7B4E"
+					type: "advancement"
+					advancement: "create:clockwork_bearing"
+					criterion: ""
+				}
+				{
+					id: "4A191631CC297D5A"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:elevator_pulley"
+					}
+					count: 1L
+				}
+				{
+					id: "50D2AB06D00ECA1E"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:elevator_contact"
+					}
+					count: 2L
+				}
+			]
 			rewards: [
 				{
 					id: "4B4E75DAF1CC6465"
@@ -574,61 +927,52 @@
 				}
 				{
 					id: "3B704A9C975AAD16"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "45E24EEEB019D3DB"
-					item: { count: 1, id: "create:rotation_speed_controller" }
-					type: "item"
-				}
-				{
-					advancement: "create:speed_controller"
-					criterion: ""
-					id: "2C28B0E8E50921BE"
-					type: "advancement"
-				}
-				{
-					id: "37005EA8E9F66705"
-					item: { count: 1, id: "create:sequenced_gearshift" }
-					type: "item"
-				}
-				{
-					id: "4253FB09618CD860"
-					item: { count: 1, id: "create:clockwork_bearing" }
-					type: "item"
-				}
-				{
-					advancement: "create:clockwork_bearing"
-					criterion: ""
-					id: "66AC28A2AC3B7B4E"
-					type: "advancement"
-				}
-				{
-					id: "4A191631CC297D5A"
-					item: { count: 1, id: "create:elevator_pulley" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "50D2AB06D00ECA1E"
-					item: { count: 1, id: "create:elevator_contact" }
-					type: "item"
-				}
+			title: "Movimento Preciso"
+			description: [
+				"&7Uma caixa que entrega exatamente a velocidade pedida; uma partitura mecânica que gira, para, inverte e espera;"
+				"&7dois ponteiros que sabem que horas são; um elevador que para em cada andar."
+				"&7A precisão do latão muda o que um contraption consegue fazer."
+				""
+				"&6Objetivo:&r 1. Faça um &6Rotation Speed Controller&r com uma Large Cogwheel em cima e escolha a velocidade de saída."
+				"&f2. Faça um &6Sequenced Gearshift&r: até 5 passos de rotação, ativados por redstone."
+				"&f3. Faça um &6Clockwork Bearing&r: os blocos colados giram como ponteiros, seguindo a hora do dia."
+				"&f4. Faça um &6Elevator Pulley&r e &6Elevator Contacts&r em cada andar, com a cabine colada abaixo da polia."
 			]
-			x: 8.0d
-			y: -4.96d
 		}
 		{
-			dependencies: ["2016E992D4445640"]
 			id: "094BE48DE4C82A8F"
-			optional: true
+			x: 8.0d
+			y: -3.36d
+			dependencies: [
+				"2016E992D4445640"
+			]
+			tasks: [
+				{
+					id: "2BF040AEC1FD2260"
+					type: "advancement"
+					advancement: "create:fist_bump"
+					criterion: ""
+				}
+				{
+					id: "2C26C5375FC22A51"
+					type: "advancement"
+					advancement: "create:arm_blaze_burner"
+					criterion: ""
+				}
+				{
+					id: "5CBD08DC67F2FB3B"
+					type: "advancement"
+					advancement: "create:arm_many_targets"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "7AF0E36E7104599F"
@@ -637,39 +981,98 @@
 				}
 				{
 					id: "050C76CA8D338D47"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
+			]
+			title: "Proezas de Latão"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Dois implantadores frente a frente: a saudação mais fria do mundo."
+				"&7Um braço que serve o blaze e outro que não esquece dez destinos. As oficinas competem por essas histórias."
+				""
+				"&6Objetivo:&r 1. Faça dois Deployers baterem os punhos."
+				"&f2. Programe um Mechanical Arm para alimentar um Blaze Burner."
+				"&f3. Programe um Mechanical Arm com 10 ou mais saídas."
+			]
+			optional: true
+		}
+		{
+			id: "2BE05997E81E3C85"
+			x: 8.0d
+			y: -1.76d
+			size: 1.25d
+			dependencies: [
+				"2016E992D4445640"
 			]
 			tasks: [
 				{
-					advancement: "create:fist_bump"
-					criterion: ""
-					id: "2BF040AEC1FD2260"
-					type: "advancement"
+					id: "26E40FBD4EC846BF"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:cardboard"
+					}
+					count: 16L
 				}
 				{
-					advancement: "create:arm_blaze_burner"
-					criterion: ""
-					id: "2C26C5375FC22A51"
+					id: "744C61E78DEBE713"
 					type: "advancement"
+					advancement: "create:cardboard"
+					criterion: ""
 				}
 				{
-					advancement: "create:arm_many_targets"
-					criterion: ""
-					id: "5CBD08DC67F2FB3B"
+					id: "3EBB5496DD9EBDC9"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:packager"
+					}
+					count: 1L
+				}
+				{
+					id: "2C55532825B74407"
 					type: "advancement"
+					advancement: "create:packager"
+					criterion: ""
+				}
+				{
+					id: "1106C7595B14588C"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:chain_conveyor"
+					}
+					count: 2L
+				}
+				{
+					id: "1689F1B387DC9E61"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:package_frogport"
+					}
+					count: 1L
+				}
+				{
+					id: "4B5933477B9675DE"
+					type: "advancement"
+					advancement: "create:frogport"
+					criterion: ""
+				}
+				{
+					id: "287836FF565AF127"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:white_postbox"
+					}
+					count: 1L
 				}
 			]
-			x: 8.0d
-			y: -3.36d
-		}
-		{
-			dependencies: ["2016E992D4445640"]
-			id: "2BE05997E81E3C85"
 			rewards: [
 				{
 					id: "0A68A76A8B696E15"
@@ -678,79 +1081,108 @@
 				}
 				{
 					id: "411BE3428FE11B4D"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 16L
-					id: "26E40FBD4EC846BF"
-					item: { count: 1, id: "create:cardboard" }
-					type: "item"
-				}
-				{
-					advancement: "create:cardboard"
-					criterion: ""
-					id: "744C61E78DEBE713"
-					type: "advancement"
-				}
-				{
-					id: "3EBB5496DD9EBDC9"
-					item: { count: 1, id: "create:packager" }
-					type: "item"
-				}
-				{
-					advancement: "create:packager"
-					criterion: ""
-					id: "2C55532825B74407"
-					type: "advancement"
-				}
-				{
-					count: 2L
-					id: "1106C7595B14588C"
-					item: { count: 1, id: "create:chain_conveyor" }
-					type: "item"
-				}
-				{
-					id: "1689F1B387DC9E61"
-					item: { count: 1, id: "create:package_frogport" }
-					type: "item"
-				}
-				{
-					advancement: "create:frogport"
-					criterion: ""
-					id: "4B5933477B9675DE"
-					type: "advancement"
-				}
-				{
-					id: "287836FF565AF127"
-					item: { count: 1, id: "create:white_postbox" }
-					type: "item"
-				}
+			title: "Pacotes e Sapos"
+			description: [
+				"&7A polpa prensada vira papelão; o papelão vira o envelope do comércio."
+				"&7O empacotador embala o que está no baú atrás dele e carimba o endereço; correntes penduradas levam os pacotes"
+				"&7de torre em torre, e ninguém sabe quem ensinou o sapo de latão a ler endereços."
+				""
+				"&6Objetivo:&r 1. Misture itens fibrosos com água para fazer &6Pulp&r e prense em &6Cardboard&r."
+				"&f2. Faça um &6Packager&r encostado num inventário: com redstone, embala o conteúdo. Endereço por placa ou clipboard."
+				"&f3. Faça &6Chain Conveyors&r e ligue-os com correntes (também transmitem rotação)."
+				"&f4. Faça um &6Package Frogport&r na corrente: pega e envia pacotes pelo endereço."
+				"&f5. Faça uma &6Postbox&r: envia e recebe pacotes por trens que param nas estações vizinhas."
 			]
-			x: 8.0d
-			y: -1.76d
 		}
 		{
-			dependencies: ["481FD9295FCF4889"]
 			id: "0F1F1A175014AAA3"
-			tasks: [{
-				id: "1A30DA9183B5002E"
-				item: { count: 1, id: "comamigos_balance:tier_heart_3" }
-				type: "item"
-			}]
 			x: 10.0d
 			y: -6.56d
+			dependencies: [
+				"481FD9295FCF4889"
+			]
+			tasks: [
+				{
+					id: "1A30DA9183B5002E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
+					count: 1L
+				}
+			]
+			rewards: [ ]
+			title: "O Coração no Crafter"
+			description: [
+				"&7O segundo Coração não cabe numa bacia. Precisa de treze mãos de latão trabalhando em losango."
+				"&7O coração da Capitã Cornelia, ainda salgado do mar, vai no centro; o mecanismo de precisão bate acima dele."
+				""
+				"&6Objetivo:&r 1. Monte 13 &6Mechanical Crafters&r em forma de losango 5x5."
+				"&f2. Centro: Coração da Capitã Cornelia; acima dele, Precision Mechanism; latão nas pontas e laterais."
+				"&f3. O resto: 2 runas, tinta incomum, gema sintonizada, metal sombrio, sangue puro/inteligência de caçador/"
+				"&fpele escura, presa de troll e eco do cemitério de navios. O livro de receitas mostra o padrão exato."
+			]
 		}
 		{
-			dependencies: ["2BE05997E81E3C85"]
 			id: "6B9F943A76804BB0"
-			optional: true
+			x: 10.0d
+			y: -1.76d
+			size: 1.25d
+			dependencies: [
+				"2BE05997E81E3C85"
+			]
+			tasks: [
+				{
+					id: "6A5EE90D5BC53B59"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:cardboard_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "47EDE2E6DB1949FA"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:cardboard_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "7C80B4DA6DA74CFC"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:cardboard_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "1A4FFAEEE52323B2"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:cardboard_boots"
+					}
+					count: 1L
+				}
+				{
+					id: "380CE3569DC08DC9"
+					type: "advancement"
+					advancement: "create:cardboard_armor"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "70CF2F6926717EE9"
@@ -759,44 +1191,27 @@
 				}
 				{
 					id: "1F070AB7A797EE56"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "6A5EE90D5BC53B59"
-					item: { count: 1, id: "create:cardboard_helmet" }
-					type: "item"
-				}
-				{
-					id: "47EDE2E6DB1949FA"
-					item: { count: 1, id: "create:cardboard_chestplate" }
-					type: "item"
-				}
-				{
-					id: "7C80B4DA6DA74CFC"
-					item: { count: 1, id: "create:cardboard_leggings" }
-					type: "item"
-				}
-				{
-					id: "1A4FFAEEE52323B2"
-					item: { count: 1, id: "create:cardboard_boots" }
-					type: "item"
-				}
-				{
-					advancement: "create:cardboard_armor"
-					criterion: ""
-					id: "380CE3569DC08DC9"
-					type: "advancement"
-				}
+			title: "Furtividade Total"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Uma caixa na cabeça e os inimigos fingem não ver."
+				"&7Funciona melhor do que deveria, e os goblins juram que não viram nada."
+				""
+				"&6Objetivo:&r 1. Faça elmo, peitoral, calças e botas de papelão."
+				"&f2. Vista a armadura completa e ande agachado."
 			]
-			x: 10.0d
-			y: -1.76d
+			optional: true
 		}
+	]
+	title: "&aTier II&7 - Latão e Precisão"
+	subtitle: [
+		"&6Engrenagens e Vapor&7, &aTier II"
 	]
 }

@@ -4,124 +4,243 @@
 	filename: "prologo"
 	group: ""
 	icon: {
+		count: 1
 		id: "minecraft:compass"
 	}
 	id: "06C1EFC44CDD5926"
-	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "7C01C4060A084AAC"
-			rewards: [{
-				id: "37C7C8AB096D40AE"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "57C9C8B2E8CC2D78"
-				type: "checkmark"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "57C9C8B2E8CC2D78"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "37C7C8AB096D40AE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Bem-vindos a Heartforge"
+			description: [
+				"&7Contam os velhos cronistas que o mundo de Heartforge foi lacrado em &6oito selos&7, e que cada selo só se rompe com um coração."
+				"&7Não um coração qualquer: o de um grande inimigo, fundido ao melhor que cada ofício do reino sabe fazer, nas engrenagens e caldeiras do &6Create&7."
+				"&7Quando alguém da companhia come o coração forjado, todos sobem juntos. A jornada é de todos, ou de ninguém."
+				""
+				"&6Objetivo:&r Leia este prólogo até o fim. O mundo tem &68 tiers&r compartilhados pelo grupo: para subir, forjem o &cCoração do Tier&r com o coração do boss-chave e um ingrediente de cada trilha, e comam-no."
+				"&fDigite &e/tier&f para saber em que tier a companhia está."
+				"&fCada arte deste mundo tem um tomo próprio no grupo de capítulos &6Guias dos Mods&f: lá está o guia completo de cada uma, do primeiro bloco ao último boss."
+				""
+				"&8Os capítulos de tier se abrem um após o outro, conforme os corações são comidos."
+			]
 		}
 		{
-			dependencies: ["7C01C4060A084AAC"]
 			id: "07C2E697F0CCD2A8"
-			rewards: [{
-				id: "10A91D93BDB3A03F"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [{
-				id: "1069A5F4195376B1"
-				type: "checkmark"
-			}]
 			x: 2.0d
 			y: -1.0d
+			dependencies: [
+				"7C01C4060A084AAC"
+			]
+			tasks: [
+				{
+					id: "1069A5F4195376B1"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "10A91D93BDB3A03F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Peso do Aço Proibido"
+			description: [
+				"&7Nada impede um andarilho de vestir a armadura de um rei. Mas o aço sabe quem o merece."
+				"&7Lâminas de um tier acima pesam na mão, couraças sufocam, picaretas escorregam na pedra dura e arcos tremem na mira. E tudo se desgasta depressa demais."
+				""
+				"&6Objetivo:&r Saiba que equipamento acima do tier do grupo &epode&r ser usado, mas com penalidades:"
+				"&f- &cArmas&f: menos dano e &cArma Pesada&f."
+				"&f- &cArmaduras&f: menos proteção e &cLentidão&f."
+				"&f- &cFerramentas&f: &cInexperiência&f, não colhem os blocos mais duros."
+				"&f- &cArcos&f: &cMira Trêmula&f."
+				"&fEm todos os casos a durabilidade se gasta muito mais rápido."
+				""
+				"&8A descrição de cada item (tooltip) mostra o tier dele."
+			]
 		}
 		{
-			dependencies: ["7C01C4060A084AAC"]
 			id: "3A20D9B55B581149"
-			rewards: [{
-				id: "654A73935271F66E"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [{
-				id: "2A1B6B658ECB2CBF"
-				type: "checkmark"
-			}]
 			x: 2.0d
 			y: 1.0d
+			dependencies: [
+				"7C01C4060A084AAC"
+			]
+			tasks: [
+				{
+					id: "2A1B6B658ECB2CBF"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "654A73935271F66E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Magias e Terras Seladas"
+			description: [
+				"&7Os arcanistas aprendem como os ferreiros: degrau por degrau. Feitiço grande demais queima a mão de quem ainda não subiu."
+				"&7E há terras que o mundo mantém fechadas. No &cNether&7, o &6Ar Escaldante&7 cozinha os intrusos devagar, até derreter-lhes as entranhas. O &5End&7 nem sequer responde ao chamado."
+				""
+				"&6Objetivo:&r Respeite os selos:"
+				"&f- Raridade das magias: &7Comum&f no I, &aIncomum&f no II, &9Rara&f no III, &5Épica&f no V, &6Lendária&f no VI."
+				"&f- O &cNether&f só é seguro a partir do &6Tier IV&f; antes disso, o Ar Escaldante mata aos poucos."
+				"&f- O &5End&f só se abre no &dTier VII&f."
+			]
 		}
 		{
+			id: "22ACB16E3BB57B38"
+			x: 4.0d
+			y: 0.0d
 			dependencies: [
 				"07C2E697F0CCD2A8"
 				"3A20D9B55B581149"
 			]
-			id: "22ACB16E3BB57B38"
-			rewards: [{
-				id: "1A4D284714735000"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [{
-				id: "6E47142E3E70CEF4"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "6E47142E3E70CEF4"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1A4D284714735000"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Preço do Coração"
+			description: [
+				"&7Nenhum coração é comido de graça. Quem o engole leva para dentro a fúria do monstro que o fazia bater."
+				"&7A &cMaldição&7 não sai com leite nem com a morte. Os alquimistas, porém, guardam a receita do &bElixir Purificador&7, que cresce a cada coração: cada nível é o anterior acrescido de um ingrediente."
+				""
+				"&6Objetivo:&r Decidam juntos quem vai comer os corações por todos: essa pessoa carrega a &cMaldição&r."
+				"&fSó o &bElixir Purificador&f cura, preparado no &6Suporte de Poções&f. Cada nível é o elixir anterior + um ingrediente novo, e cura todas as maldições até aquele tier."
+				""
+				"&8Cada capítulo de tier mostra o elixir daquele tier e o ingrediente que ele pede."
+			]
 		}
 		{
-			dependencies: ["7C01C4060A084AAC"]
 			id: "52F783AE782EF818"
-			rewards: [{
-				id: "50FB77ADEF66E408"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [{
-				id: "5C798AEEE4D2A822"
-				type: "checkmark"
-			}]
 			x: 0.0d
 			y: 2.0d
+			dependencies: [
+				"7C01C4060A084AAC"
+			]
+			tasks: [
+				{
+					id: "5C798AEEE4D2A822"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "50FB77ADEF66E408"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Sangue, Ofício e Origem"
+			description: [
+				"&7Nem todos que chegam a Heartforge nasceram humanos. Há sangues que não temem o fogo, olhos que enxergam no escuro, costas que criam asas."
+				"&7A origem de cada um molda a jornada inteira. Escolha com a cabeça, não com o orgulho."
+				""
+				"&6Objetivo:&r Escolha sua &eraça&r, &eclasse&r e &eorigem&r na tela das origens."
+				"&fRaças imunes ao fogo aguentam mais o Ar Escaldante do Nether, mas não para sempre."
+			]
 		}
 		{
-			dependencies: ["7C01C4060A084AAC"]
 			id: "05040E760D6C02A5"
-			rewards: [{
-				id: "24BA2D5B8C7A8C22"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [{
-				id: "7302BFC5A0FAE957"
-				type: "checkmark"
-			}]
 			x: 0.0d
 			y: -2.0d
+			dependencies: [
+				"7C01C4060A084AAC"
+			]
+			tasks: [
+				{
+					id: "7302BFC5A0FAE957"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "24BA2D5B8C7A8C22"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Os Registros do livro de receitas"
+			description: [
+				"&7Todo mestre de oficina guarda um registro do que cada máquina sabe fazer. Neste mundo, esse registro se chama &6EMI&7."
+				"&7Os corações e as peças mais finas não nascem em bancadas comuns, mas nas engrenagens."
+				""
+				"&6Objetivo:&r Consulte as receitas no &6livro de receitas&r. As (Mixer, Mechanical Crafter e Sequenced Assembly) aparecem porque o &eJEI&f também está instalado."
+				"&fEquipamentos de &9Tier III&f para cima são feitos no &6Mechanical Crafter&f, com um &6Precision Mechanism&f."
+				""
+				"&8No livro de receitas, R sobre um item mostra como fazê-lo; U mostra onde ele é usado."
+			]
 		}
 		{
-			dependencies: ["7C01C4060A084AAC"]
-			icon: {
-				id: "comamigos_balance:tier_heart_5"
-			}
 			id: "5F0543214FC9C1A0"
-			rewards: [{
-				id: "0DCF97C5A23E8BA1"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [{
-				id: "3CFE5014B5B9CE65"
-				type: "checkmark"
-			}]
 			x: -2.0d
 			y: 0.0d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_5"
+			}
+			dependencies: [
+				"7C01C4060A084AAC"
+			]
+			tasks: [
+				{
+					id: "3CFE5014B5B9CE65"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0DCF97C5A23E8BA1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "A Árvore de Talentos"
+			description: [
+				"&7Cada coração comido deixa uma brasa no peito de quem caminha com a companhia. Os veteranos aprendem a soprá-la para onde querem: o braço da espada, a lâmina na sombra, a flecha, a estrada, o feitiço ou a couraça."
+				"&7Qualquer um pode trilhar qualquer caminho. Mas a brasa arde mais forte no ofício que se jurou seguir."
+				""
+				"&6Objetivo:&r Abra a &6Árvore de Talentos&r com a tecla &eK&r. Seis ramos saem do centro: &cCombate&f, &5Sombra&f, &6Precisão&f, &aExploração&f, &9Arcano&f e &bResistência&f, ligados por talentos híbridos."
+				"&fEm cada ramo há um &eJuramento&f: dois caminhos, e escolher um fecha o outro."
+				"&f&eAfinidade:&f o talento rende conforme a sua &eclasse&f (125% no foco, 100% secundário, 75% neutro, 40% fora do foco) e o seu &eantecedente&f (+15% no tema dele). Um berserker pode aprender magia, mas ela rende pouco nas mãos dele. Digite &e/afinidade&f para ver os seus números."
+				"&fPontos: &e2&f no Tier I e &e+3&f a cada coração comido, mais &e+1&f por boss-chave e por caçada. No máximo &e50&f podem ser gastos."
+				""
+				"&8O raro &5Tomo do Esquecimento&r, das bolsas Épicas ou melhores, devolve todos os pontos para redistribuir."
+			]
 		}
+	]
+	title: "Prólogo: A Forja de Corações"
+	subtitle: [
+		"Leia antes de começar"
 	]
 }

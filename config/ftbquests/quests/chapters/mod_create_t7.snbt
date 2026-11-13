@@ -4,43 +4,70 @@
 	filename: "mod_create_t7"
 	group: "60FEF54FAB43A476"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_7"
 	}
 	id: "0C1ADA94B093E843"
-	images: [ ]
-	order_index: 7
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_7"
-			}
 			id: "6D7AEBE1028004A9"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_7"
-				criterion: ""
-				id: "5ABB279F9C3D3A17"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_7"
+			}
+			tasks: [
+				{
+					id: "5ABB279F9C3D3A17"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_7"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&dTier VII"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &dTier VII&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "0B35C7886EFEF86B"
+			x: 2.0d
+			y: 0.0d
 			dependencies: [
 				"0E72B9BB4689BC1F"
 				"6D7AEBE1028004A9"
 			]
-			id: "0B35C7886EFEF86B"
-			tasks: [{
-				id: "04892265AF103107"
-				item: { count: 1, id: "comamigos_balance:tier_heart_8" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "04892265AF103107"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_8"
+					}
+					count: 1L
+				}
+			]
+			rewards: [ ]
+			title: "O Último Coração"
+			description: [
+				"&7O coração do Dragão do Fim passa pela última esteira. Depois dele, só resta o Obsidilith."
+				""
+				"&6Objetivo:&r 1. Montagem sequencial com base no &6Coração do Dragão do Fim&r."
+				"&f2. Deployers com sopro de dragão, pele de dragão, núcleo do vazio, anel do Doppelganger"
+				"&fe cabeça de Gaia; por fim, a Press."
+			]
 		}
+	]
+	title: "&dTier VII&7 - O Último Coração"
+	subtitle: [
+		"&6Engrenagens e Vapor&7, &dTier VII"
 	]
 }

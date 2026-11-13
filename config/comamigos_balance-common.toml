@@ -41,7 +41,7 @@
 [spawns]
 	#Chance that a NATURAL spawn of a mod's mobs is allowed: "namespace=chance" (0..1).
 	#Only natural spawning is filtered: structures, spawners, villages, camps, eggs and commands are untouched.
-	naturalSpawnChance = ["vampirism=0.25", "werewolves=0.35", "born_in_chaos_v1=0.5", "mythsandlegends=0.5"]
+	naturalSpawnChance = ["vampirism=0.1", "werewolves=0.35", "born_in_chaos_v1=0.5", "mythsandlegends=0.5"]
 	#Overworld hostile natural spawns: chance allowed at tier I. Grows linearly to 1.0 at tier VI.
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0

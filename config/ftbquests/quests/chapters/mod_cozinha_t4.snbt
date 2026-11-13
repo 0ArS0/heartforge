@@ -4,39 +4,70 @@
 	filename: "mod_cozinha_t4"
 	group: "4E6D0897A16A0238"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "28F97022EF7D660C"
-	images: [ ]
-	order_index: 4
+	order_index: 124
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_4"
-			}
 			id: "05E09178F676FF4B"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_4"
-				criterion: ""
-				id: "655B585E6E71F408"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_4"
+			}
+			tasks: [
+				{
+					id: "655B585E6E71F408"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_4"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&6Tier IV"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &6Tier IV&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "7A5EFCFF8F1FCAC5"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "farmersdelight:netherite_knife"
+			}
 			dependencies: [
 				"6ECF615D2FCCF3E3"
 				"05E09178F676FF4B"
 			]
-			icon: {
-				id: "farmersdelight:netherite_knife"
-			}
-			id: "7A5EFCFF8F1FCAC5"
+			tasks: [
+				{
+					id: "744282DC7E4ACE45"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:netherite_knife"
+					}
+					count: 1L
+				}
+				{
+					id: "0BFA832F54F94E6F"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:nether_star_hook"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "5EC5043F42A32EA6"
@@ -45,27 +76,28 @@
 				}
 				{
 					id: "578A9E6C9CA58353"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "744282DC7E4ACE45"
-					item: { count: 1, id: "farmersdelight:netherite_knife" }
-					type: "item"
-				}
-				{
-					id: "0BFA832F54F94E6F"
-					item: { count: 1, id: "aquaculture:nether_star_hook" }
-					type: "item"
-				}
+			title: "Se Não Aguenta o Calor..."
+			description: [
+				"&7Gastar um lingote inteiro de netherite numa faca. Só um cozinheiro louco. Ou genial."
+				"&7Os pescadores mais loucos ainda prendem uma estrela do Nether numa linha:"
+				"&7dizem que o mar inteiro prende a respiração quando ela afunda."
+				""
+				"&6Objetivo:&r 1. Melhore a Faca de Diamante com um &6Lingote de Netherite&r e o molde na Mesa de Ferraria."
+				"&f2. Forje o &6Anzol de Estrela do Nether&r: metade das fisgadas não gasta a vara, e a sorte aumenta."
+				""
+				"&8No Heartforge, o netherite só sai das máquinas. A estrela vem do Wither, guardião do Tier IV."
 			]
-			x: 2.0d
-			y: 0.0d
 		}
+	]
+	title: "&6Tier IV&7 - Se Não Aguenta o Calor"
+	subtitle: [
+		"&eCozinha, Campo e Pesca&7, &6Tier IV"
 	]
 }

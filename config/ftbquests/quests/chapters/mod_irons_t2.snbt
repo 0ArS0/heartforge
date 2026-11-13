@@ -4,93 +4,181 @@
 	filename: "mod_irons_t2"
 	group: "5955ECC104DC966A"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "29D8D6D03AA54C07"
-	images: [ ]
-	order_index: 2
+	order_index: 34
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_2"
-			}
 			id: "6E688E5DFABDBDAB"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_2"
-				criterion: ""
-				id: "7824249C65892667"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 2.4d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			tasks: [
+				{
+					id: "7824249C65892667"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&aTier II"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "1D3354AB770F3BBC"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:wizard_chestplate"
+			}
 			dependencies: [
 				"530554AB7F09E8AA"
 				"6E688E5DFABDBDAB"
 			]
-			icon: {
-				components: {
-					"irons_spellbooks:spell_container": {
-						data: [ ]
-						maxSpells: 1
-						mustEquip: 1b
-						spellWheel: 1b
-					}
-				}
-				id: "irons_spellbooks:wizard_chestplate"
-			}
-			id: "1D3354AB770F3BBC"
-			rewards: [{
-				id: "07B02E5A0EF254FB"
-				type: "xp"
-				xp: 400
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					count: 4L
 					id: "178A6C6213EA3A59"
-					item: { count: 1, id: "irons_spellbooks:magic_cloth" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:magic_cloth"
+					}
+					count: 4L
 				}
 				{
 					id: "157AACCC684F7FB5"
-					item: { count: 1, id: "irons_spellbooks:wizard_hat" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_hat"
+					}
+					count: 1L
 				}
 				{
 					id: "4C955C39F540A581"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:wizard_chestplate" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_chestplate"
+					}
+					count: 1L
 				}
 				{
 					id: "0BDD3CD4E1DE95E6"
-					item: { count: 1, id: "irons_spellbooks:wizard_leggings" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_leggings"
+					}
+					count: 1L
 				}
 				{
 					id: "20BD650AEC0A6992"
-					item: { count: 1, id: "irons_spellbooks:wizard_boots" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_boots"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "07B02E5A0EF254FB"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Alfaiate Arcano"
+			description: [
+				"&7Lã tingida em essência até brilhar: o tecido arcano. Os alfaiates de magos cobram caro, e com razão."
+				"&7Cortado no molde clássico de chapéu pontudo e manto, ele vira as vestes do Mago,"
+				"&7a base de todos os trajes de escola que virão depois. Agora as magias &bincomuns&7 já respondem ao grupo."
+				""
+				"&6Objetivo:&r 1. Teça 4 &6Tecidos Arcanos&r: um bloco de lã cercado por oito Essências Arcanas."
+				"&f2. Costure o &6Chapéu de Mago&r (cinco tecidos em forma de chapéu; o capuz também existe)."
+				"&f3. Costure o &6Manto&r, as &6Calças&r e as &6Botas&r de Mago com tecido arcano."
+				""
+				"&8Estas peças são a base, na Mesa de Ferraria, dos trajes de Piromante, Criomante, Eletromante e companhia."
+			]
 		}
 		{
+			id: "1765739A41F9FE90"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:graybeard_staff"
+			}
 			dependencies: [
 				"530554AB7F09E8AA"
 				"6E688E5DFABDBDAB"
 			]
-			icon: {
-				id: "irons_spellbooks:graybeard_staff"
-			}
-			id: "1765739A41F9FE90"
+			tasks: [
+				{
+					id: "3763EF3542DA0D17"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_ingot"
+					}
+					count: 2L
+				}
+				{
+					id: "1B2155D0FFB4F5E4"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mana_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "79858E437FA89877"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:amethyst_resonance_charm"
+					}
+					count: 1L
+				}
+				{
+					id: "36E683AF71DDF3F1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:graybeard_staff"
+					}
+					count: 1L
+				}
+				{
+					id: "2EBE23E3C5968DE5"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/staff_artificer"
+					criterion: ""
+				}
+				{
+					id: "753457DC72328CB6"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/staff_root"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "1D71ED7AA9B8E5B3"
@@ -99,206 +187,289 @@
 				}
 				{
 					id: "69902DE36E000363"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 2L
-					id: "3763EF3542DA0D17"
-					item: { count: 1, id: "irons_spellbooks:arcane_ingot" }
-					type: "item"
-				}
-				{
-					id: "1B2155D0FFB4F5E4"
-					item: { count: 1, id: "irons_spellbooks:mana_ring" }
-					type: "item"
-				}
-				{
-					id: "79858E437FA89877"
-					item: { count: 1, id: "irons_spellbooks:amethyst_resonance_charm" }
-					type: "item"
-				}
-				{
-					id: "36E683AF71DDF3F1"
-					item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
-					type: "item"
-				}
-				{
-					advancement: "irons_spellbooks:irons_spellbooks/staff_artificer"
-					criterion: ""
-					id: "2EBE23E3C5968DE5"
-					type: "advancement"
-				}
-				{
-					advancement: "irons_spellbooks:irons_spellbooks/staff_root"
-					criterion: ""
-					id: "753457DC72328CB6"
-					type: "advancement"
-				}
+			title: "Cajado, Anel e Talismã"
+			description: [
+				"&7O livro guarda as palavras; cajados e joias dão força a elas."
+				"&7Metal comum que bebe essência até ficar violeta vira lingote arcano, e um anel de lingotes arcanos é um poço de mana no dedo."
+				"&7Os magos da estrada juram por um cajado feito de pá velha. Os da corte preferem bengalas de madeira carmesim."
+				""
+				"&6Objetivo:&r 1. Funda 2 &6Lingotes Arcanos&r: lingote de ferro, cobre ou ouro cercado por oito essências."
+				"&f2. Forje o &6Anel de Mana&r: quatro lingotes arcanos e um diamante. Use-o no espaço de anel."
+				"&f3. Faça o &6Talismã de Ressonância de Ametista&r: quatro couros e uma ametista."
+				"&f4. Faça o &6Cajado Barba-Cinzenta&r: pá de madeira, lingote de ferro e Essência Arcana."
+				"&f5. Faça a &6Bengala do Artífice&r: três tábuas carmesins, dois ouros e uma ametista."
+				"&f6. Empunhe um cajado: ele lança a magia ativa ao usar o item e soma bônus de mana."
 			]
-			x: 2.0d
-			y: 1.6d
 		}
 		{
+			id: "4D316F3B5A75B34E"
+			x: 2.0d
+			y: 3.2d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "irons_spellbooks:rotten_spell_book"
+			}
 			dependencies: [
 				"504D2C256F3096CB"
 				"77294CE5EBCF0090"
 				"6E688E5DFABDBDAB"
 			]
-			icon: {
-				components: {
-					"irons_spellbooks:spell_container": {
-						data: [ ]
-						maxSpells: 8
-						mustEquip: 1b
-						spellWheel: 1b
-					}
-				}
-				id: "irons_spellbooks:rotten_spell_book"
-			}
-			id: "4D316F3B5A75B34E"
-			rewards: [{
-				id: "7EA8771DE07B25F3"
-				type: "xp"
-				xp: 240
-			}]
-			shape: "diamond"
 			tasks: [
 				{
-					entity: "irons_spellbooks:pyromancer"
 					id: "5A71CD76542A8421"
 					type: "kill"
+					entity: "irons_spellbooks:pyromancer"
 					value: 1L
 				}
 				{
-					entity: "irons_spellbooks:cryomancer"
 					id: "2DAB7FC087714985"
 					type: "kill"
+					entity: "irons_spellbooks:cryomancer"
 					value: 1L
 				}
 				{
-					advancement: "irons_spellbooks:irons_spellbooks/spell_book_rotten"
-					criterion: ""
 					id: "5F2358960681240C"
 					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_rotten"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 3.2d
+			rewards: [
+				{
+					id: "7EA8771DE07B25F3"
+					type: "xp"
+					xp: 240
+				}
+			]
+			title: "Magos Renegados"
+			description: [
+				"&7Nem todo mago aceita a vigília do céu. Os renegados se trancam em torres e respondem com fogo e gelo a quem bate à porta."
+				"&7A torre do Piromante é de pedra, mas tudo dentro dela já pegou fogo ao menos uma vez."
+				"&7No alto das montanhas, o Criomante nunca sente frio. E nos porões, livros que já foram grandes apodrecem esquecidos."
+				""
+				"&6Objetivo:&r 1. Encontre uma &6Torre do Piromante&r (colinas, florestas, planícies e pântanos) e derrote o &cPiromante&r."
+				"&f2. Encontre uma &6Torre da Montanha&r (picos e planícies nevadas) e derrote o &cCriomante&r."
+				"&f3. Encontre um &6Livro de Magias Podre&r em baús de ruínas, masmorras e nas Catacumbas."
+				""
+				"&8Os barris de gelo da torre da montanha às vezes guardam Anéis de Proteção contra Gelo e Anéis de Afinidade."
+				"&8Não jogue fora o Livro Podre: no Tier IV ele floresce no Tomo Druídico."
+			]
 		}
 		{
+			id: "5CC5F2FDC9771550"
+			x: 2.0d
+			y: 4.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:alchemist_cauldron"
+			}
 			dependencies: [
 				"530554AB7F09E8AA"
 				"6E688E5DFABDBDAB"
 			]
-			icon: {
-				id: "irons_spellbooks:alchemist_cauldron"
-			}
-			id: "5CC5F2FDC9771550"
-			rewards: [{
-				id: "140B653676A8A1EF"
-				type: "xp"
-				xp: 400
-			}]
-			size: 1.25d
 			tasks: [
 				{
 					id: "53E797CA24C3184D"
-					item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:alchemist_cauldron"
+					}
+					count: 1L
 				}
 				{
-					count: 2L
 					id: "31853403845FA3E6"
-					item: { count: 1, id: "irons_spellbooks:uncommon_ink" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					count: 2L
 				}
 				{
 					id: "695B2ACE2752D3AB"
-					item: { count: 1, id: "irons_spellbooks:greater_healing_potion" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_healing_potion"
+					}
+					count: 1L
 				}
 				{
 					id: "55B67B121A212832"
-					item: { count: 1, id: "irons_spellbooks:oakskin_elixir" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:oakskin_elixir"
+					}
+					count: 1L
 				}
 				{
 					id: "0DED89098A31ABE0"
-					item: { count: 1, id: "irons_spellbooks:greater_oakskin_elixir" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_oakskin_elixir"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 4.8d
+			rewards: [
+				{
+					id: "140B653676A8A1EF"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Caldeirão Alquímico"
+			description: [
+				"&7Ferro, essência e brasa antiga: o caldeirão do alquimista nunca deve esfriar."
+				"&7Nele, cobre dissolvido em tinta comum escurece até virar &bTinta Incomum&7, a que os forjadores do Coração do Tier III pedem na Mechanical Crafter."
+				"&7Sobre uma poção de cura forte, o alquimista escolhe: endurecer a pele ou fechar feridas que nem o padre fecharia."
+				""
+				"&6Objetivo:&r 1. Construa o &6Caldeirão Alquímico&r: caldeirão, quatro ferros, duas essências e uma &6Essência de Cinzas&r. Ponha &cfogo ou fogueira embaixo&r."
+				"&f2. Prepare 2 &bTintas Incomuns&r: quatro garrafas de tinta comum + um lingote de cobre."
+				"&f3. Sobre poção de &6Cura II&r, jogue um fragmento de ametista: &6Poção de Cura Maior&r."
+				"&f4. Sobre poção de &6Cura II&r, jogue uma tora de carvalho: &6Elixir Pele de Carvalho&r."
+				"&f5. Sobre o Elixir Pele de Carvalho, jogue uma ametista: &6Elixir Pele de Carvalho Maior&r."
+				""
+				"&8A Essência de Cinzas cai dos Cavaleiros Antigos do Nether e aparece nas sepulturas dos campos de batalha antigos (cuidado com o &cAr Escaldante&r)."
+				"&8Jogue os ingredientes na água ou na poção e recolha o resultado com garrafas."
+				"&8A &bTinta Incomum&r é ingrediente do &6Coração do Tier III&r."
+			]
 		}
 		{
-			dependencies: ["1D3354AB770F3BBC"]
+			id: "6E06DF291C66B2D7"
+			x: 4.0d
+			y: -0.53d
+			size: 1.25d
 			icon: {
-				components: {
-					"irons_spellbooks:spell_container": {
-						data: [ ]
-						maxSpells: 8
-						mustEquip: 1b
-						spellWheel: 1b
-					}
-				}
+				count: 1
 				id: "irons_spellbooks:gold_spell_book"
 			}
-			id: "6E06DF291C66B2D7"
-			rewards: [{
-				id: "19E51FBA5FF3C7C0"
-				type: "xp"
-				xp: 400
-			}]
-			size: 1.25d
+			dependencies: [
+				"1D3354AB770F3BBC"
+			]
 			tasks: [
 				{
-					advancement: "irons_spellbooks:irons_spellbooks/spell_book_iron"
-					criterion: ""
 					id: "6AFA15F49C59684B"
 					type: "advancement"
-				}
-				{
-					count: 6L
-					id: "752E5428B2E06A5D"
-					item: { count: 1, id: "irons_spellbooks:hogskin" }
-					type: "item"
-				}
-				{
-					advancement: "irons_spellbooks:irons_spellbooks/spell_book_gold"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_iron"
 					criterion: ""
+				}
+				{
+					id: "752E5428B2E06A5D"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:hogskin"
+					}
+					count: 6L
+				}
+				{
 					id: "3260A9695094133D"
 					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_gold"
+					criterion: ""
 				}
 				{
-					advancement: "irons_spellbooks:irons_spellbooks/spell_book_villager"
-					criterion: ""
 					id: "7AC3393613B536D0"
 					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_villager"
+					criterion: ""
 				}
 				{
 					id: "7768A3D0EFC4B3B2"
-					item: { count: 1, id: "irons_spellbooks:lesser_spell_slot_upgrade" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:lesser_spell_slot_upgrade"
+					}
+					count: 1L
 				}
 			]
-			x: 4.0d
-			y: -0.53d
+			rewards: [
+				{
+					id: "19E51FBA5FF3C7C0"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "A Estante do Aprendiz"
+			description: [
+				"&7O Diário Frágil já não basta. Correntes impedem que um livro inquieto fuja sozinho;"
+				"&7couro de hoglin, grosso e teimoso, faz livros que sobrevivem aos donos."
+				"&7Os sacerdotes das aldeias guardam a sua própria bíblia, e um livro bem cuidado sempre aceita mais algumas folhas."
+				""
+				"&6Objetivo:&r 1. Faça o &6Tomo Acorrentado&r: três correntes, quatro couros e dois papéis."
+				"&f2. Arranque 6 &6Peles de Hoglin&r de hoglins no Nether."
+				"&f3. Faça o &6Livro do Aprendiz&r: três ouros, quatro Essências Arcanas e duas peles de hoglin."
+				"&f4. Obtenha a &6Bíblia do Aldeão&r negociando com um &6Sacerdote&r nas casas de oração das aldeias."
+				"&f5. Faça uma &6Melhoria Menor de Espaço de Magia&r: três tecidos arcanos e seis peles de hoglin. Use-a com o livro na mão."
+				""
+				"&8&cAr Escaldante:&r antes do Tier IV o Nether cozinha quem demora. Vá com resistência ao fogo, cace os hoglins e volte logo."
+				"&8Libertar aldeões presos pelos Arquievocadores aumenta a confiança dos sacerdotes."
+			]
 		}
 		{
-			dependencies: ["1D3354AB770F3BBC"]
+			id: "530B4BD769CE629F"
+			x: 4.0d
+			y: 1.07d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "irons_spellbooks:pumpkin_helmet"
 			}
-			id: "530B4BD769CE629F"
-			optional: true
+			dependencies: [
+				"1D3354AB770F3BBC"
+			]
+			tasks: [
+				{
+					id: "5347000DC31EECF1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pumpkin_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "1B6EC835C0B5E1B1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pumpkin_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "3CAFE60FBCDCF3CB"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pumpkin_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "09FB2D4ED41CD880"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pumpkin_boots"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "0369A3F884B01F08"
@@ -307,85 +478,107 @@
 				}
 				{
 					id: "00105E80CBAFFDE5"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "5347000DC31EECF1"
-					item: { count: 1, id: "irons_spellbooks:pumpkin_helmet" }
-					type: "item"
-				}
-				{
-					id: "1B6EC835C0B5E1B1"
-					item: { count: 1, id: "irons_spellbooks:pumpkin_chestplate" }
-					type: "item"
-				}
-				{
-					id: "3CAFE60FBCDCF3CB"
-					item: { count: 1, id: "irons_spellbooks:pumpkin_leggings" }
-					type: "item"
-				}
-				{
-					id: "09FB2D4ED41CD880"
-					item: { count: 1, id: "irons_spellbooks:pumpkin_boots" }
-					type: "item"
-				}
+			title: "O Espantalho"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Um traje de palha e abóbora que, por algum motivo, conduz mana muito bem. Os corvos discordam."
+				"&7Os magos do campo o usam nas colheitas e nas festas de fim de verão."
+				""
+				"&6Objetivo:&r 1. Faça o &6Elmo de Abóbora&r com abóbora esculpida e tecido arcano."
+				"&f2. Faça o &6Peitoral&r, as &6Calças&r e as &6Botas&r de Espantalho: tecido arcano com feno e couro."
 			]
-			x: 4.0d
-			y: 1.07d
+			optional: true
 		}
 		{
+			id: "2236F08691362BB6"
+			x: 4.0d
+			y: 4.27d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:evasion_elixir"
+			}
 			dependencies: [
 				"5CC5F2FDC9771550"
 				"477D1D74C4B9B265"
 			]
-			icon: {
-				id: "irons_spellbooks:evasion_elixir"
-			}
-			id: "2236F08691362BB6"
-			rewards: [{
-				id: "50A44AFD8DC9A326"
-				type: "xp"
-				xp: 400
-			}]
-			shape: "diamond"
-			size: 1.25d
 			tasks: [
 				{
-					entity: "irons_spellbooks:apothecarist"
 					id: "1C7E1D58F8E32193"
 					type: "kill"
+					entity: "irons_spellbooks:apothecarist"
 					value: 1L
 				}
 				{
 					id: "7CF3BFB3FDF802A2"
-					item: { count: 1, id: "irons_spellbooks:netherward_tincture" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherward_tincture"
+					}
+					count: 1L
 				}
 				{
 					id: "44466DB93BE6A190"
-					item: { count: 1, id: "irons_spellbooks:invisibility_elixir" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:invisibility_elixir"
+					}
+					count: 1L
 				}
 				{
 					id: "5F0544835215D3F8"
-					item: { count: 1, id: "irons_spellbooks:greater_invisibility_elixir" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_invisibility_elixir"
+					}
+					count: 1L
 				}
 				{
 					id: "37334F734E5ABDAF"
-					item: { count: 1, id: "irons_spellbooks:evasion_elixir" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:evasion_elixir"
+					}
+					count: 1L
 				}
 			]
-			x: 4.0d
-			y: 4.27d
+			rewards: [
+				{
+					id: "50A44AFD8DC9A326"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Boticário do Mangue"
+			description: [
+				"&7Nas palafitas do mangue vive um alquimista que joga frascos de veneno em visitantes."
+				"&7Ele destila um remédio contra a podridão dos porcos-zumbis e guarda receitas de sumiço:"
+				"&7a invisibilidade comum esconde o corpo; o elixir esconde até a armadura, e a evasão some no exato instante do golpe."
+				""
+				"&6Objetivo:&r 1. Encontre uma &6Cabana do Mangue&r nos pântanos e derrote o &cBoticário&r."
+				"&f2. Pegue a &6Tintura Antinether&r nos depósitos escondidos da cabana (protege contra a zumbificação fora do Nether)."
+				"&f3. No caldeirão, sobre poção de &6Invisibilidade longa&r, jogue uma Pedra de Purificação: &6Elixir da Invisibilidade&r."
+				"&f4. Sobre o Elixir da Invisibilidade, jogue um aglomerado de ametista: &6Elixir da Invisibilidade Maior&r."
+				"&f5. Sobre uma poção de &bMana Instantânea III&r, jogue uma pérola do Ender: &6Elixir da Evasão&r."
+				""
+				"&8Poções de mana nascem no suporte de poções, com Essência Arcana em poção estranha."
+			]
 		}
+	]
+	title: "&aTier II&7 - Magia Incomum"
+	subtitle: [
+		"&dArtes Arcanas&7, &aTier II"
 	]
 }

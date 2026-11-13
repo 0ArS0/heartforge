@@ -4,39 +4,76 @@
 	filename: "mod_mowzies_t3"
 	group: "3BC9864E9D9AF49B"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "5001C19688AAA4E1"
-	images: [ ]
-	order_index: 3
+	order_index: 67
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_3"
-			}
 			id: "5EAC5025A873BF53"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_3"
-				criterion: ""
-				id: "1A7BA4E1DF20168F"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.8d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			tasks: [
+				{
+					id: "1A7BA4E1DF20168F"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "35DD9F2EF17A0208"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "mowziesmobs:naga_fang"
+			}
 			dependencies: [
 				"6838CE95DB097F9A"
 				"5EAC5025A873BF53"
 			]
-			icon: {
-				id: "mowziesmobs:naga_fang"
-			}
-			id: "35DD9F2EF17A0208"
+			tasks: [
+				{
+					id: "36385E7BF2369EDF"
+					type: "advancement"
+					advancement: "mowziesmobs:kill_naga"
+					criterion: ""
+				}
+				{
+					id: "4F4EA52AFE91A6F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:naga_fang"
+					}
+					count: 2L
+				}
+				{
+					id: "4DE2429D1EDE78D1"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:naga_fang_dagger"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "71616179373CAEF2"
@@ -45,76 +82,97 @@
 				}
 				{
 					id: "65293E68DDC9920A"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					advancement: "mowziesmobs:kill_naga"
-					criterion: ""
-					id: "36385E7BF2369EDF"
-					type: "advancement"
-				}
-				{
-					count: 2L
-					id: "4F4EA52AFE91A6F8"
-					item: { count: 1, id: "mowziesmobs:naga_fang" }
-					type: "item"
-				}
-				{
-					id: "4DE2429D1EDE78D1"
-					item: { count: 1, id: "mowziesmobs:naga_fang_dagger" }
-					type: "item"
-				}
+			title: "Serpente dos Penhascos"
+			description: [
+				"&7Nos penhascos sobre o mar voa uma serpente de asas de couro que cospe ácido e mergulha como uma águia."
+				"&7A presa dela ainda goteja veneno depois de arrancada, e os ferreiros sabem o que fazer com isso."
+				""
+				"&6Objetivo:&r 1. Mate uma &6naga&r nas praias de montanha e colinas litorâneas."
+				"&f2. Recolha &62 Presas de Naga&r."
+				"&f3. Monte a &6Adaga de Presa de Naga&r na &6Mechanical Crafter&r: envenena e golpeia por trás com dano extra."
+				""
+				"&8Depois do mergulho ela fica no chão por um instante: desvie e contra-ataque."
 			]
-			x: 2.0d
-			y: 0.0d
 		}
 		{
+			id: "7C3CBDA00C6EAD4B"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "mowziesmobs:bluff_rod"
+			}
 			dependencies: [
 				"052FA5D9043F1425"
 				"5EAC5025A873BF53"
 			]
-			icon: {
-				id: "mowziesmobs:bluff_rod"
-			}
-			id: "7C3CBDA00C6EAD4B"
-			rewards: [{
-				id: "384E8FBE17D7F2FC"
-				type: "xp"
-				xp: 440
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					advancement: "mowziesmobs:kill_bluff"
-					criterion: ""
 					id: "37DF860A8651C657"
 					type: "advancement"
+					advancement: "mowziesmobs:kill_bluff"
+					criterion: ""
 				}
 				{
 					id: "43BED54BC702FA91"
-					item: { count: 1, id: "mowziesmobs:bluff_rod" }
 					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:bluff_rod"
+					}
+					count: 1L
 				}
 				{
 					id: "0C5DBFE01736D99C"
-					item: { count: 1, id: "mowziesmobs:sand_rake" }
 					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:sand_rake"
+					}
+					count: 1L
 				}
 				{
-					count: 8L
 					id: "456D26AD8F065871"
-					item: { count: 1, id: "mowziesmobs:raked_sand" }
 					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:raked_sand"
+					}
+					count: 8L
 				}
 			]
-			x: 2.0d
-			y: 1.6d
+			rewards: [
+				{
+					id: "384E8FBE17D7F2FC"
+					type: "xp"
+					xp: 440
+				}
+			]
+			title: "O Mosteiro no Pico"
+			description: [
+				"&7No topo dos picos mais altos, um mosteiro de pedra clara, onde o gongo soa sem que ninguém o toque."
+				"&7Pequenos guardiões de pedra, os Bluffs, rolam pelos corredores com bastões que confundem."
+				"&7No pátio, os monges desenham ondas na areia para acalmar a mente."
+				""
+				"&6Objetivo:&r 1. Encontre o &6mosteiro do Escultor&r no cume de um pico e mate um &6Bluff&r."
+				"&f2. Consiga um &6Bastão de Bluff&r. Guarde-o: é a moeda do desafio do Escultor."
+				"&f3. Recolha um &6Rastelo de Areia&r nos baús do mosteiro."
+				"&f4. Use-o na areia para fazer &68 de Areia Rastelada&r."
+				""
+				"&8O mosteiro fica acima da camada 120. Leve algo para escalar."
+			]
 		}
+	]
+	title: "&9Tier III&7 - O Colosso e o Mosteiro"
+	subtitle: [
+		"&2Feras e Colossos&7, &9Tier III"
 	]
 }

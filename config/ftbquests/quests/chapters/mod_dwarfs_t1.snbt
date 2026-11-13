@@ -4,77 +4,133 @@
 	filename: "mod_dwarfs_t1"
 	group: "7E685056D4C815C1"
 	icon: {
+		count: 1
 		id: "minecraft:compass"
 	}
 	id: "1930929D305D9AE2"
-	images: [ ]
-	order_index: 1
+	order_index: 104
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "minecraft:compass"
-			}
 			id: "79998FE50ADD6003"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_1"
-				criterion: ""
-				id: "6E8ABBC0F07E81B2"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 2.4d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			tasks: [
+				{
+					id: "6E8ABBC0F07E81B2"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_1"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&7Tier I"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &7Tier I&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "56B87FA85FC88CF2"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
 			dependencies: [
 				"65A424A3F5755A29"
 				"79998FE50ADD6003"
 			]
-			id: "56B87FA85FC88CF2"
-			rewards: [{
-				id: "601E38FB5A70956B"
-				type: "xp"
-				xp: 200
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					advancement: "dwarfs_tyranny:progression/got_a_job_for_me"
-					criterion: ""
 					id: "5F5AF1553475E9B1"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/got_a_job_for_me"
+					criterion: ""
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/easy_work"
-					criterion: ""
 					id: "4B40C32C1F9A5898"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/easy_work"
+					criterion: ""
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/a_proper_job"
-					criterion: ""
 					id: "7DB7B84D199E8378"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/a_proper_job"
+					criterion: ""
 				}
 				{
 					id: "17D9AE4CCE79157B"
-					item: { count: 1, id: "dwarfs_tyranny:dwarf_egg" }
 					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_egg"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "601E38FB5A70956B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Mãos de Aluguel"
+			description: [
+				"&7O rei anão não pede ajuda. Ele oferece \"oportunidades\", e cobra por elas."
+				"&7Carvão para as forjas e pedra para os construtores é como se começa. Depois vêm caçadas a mortos-vivos nas estradas subterrâneas e cavernas para os cartógrafos."
+				"&7Quem entrega pedregulho para casas novas recebe algo raro: um ovo de pedra, de onde nasce um novo anão."
+				""
+				"&6Objetivo:&r 1. Fale com o &6Rei Anão&r e aceite seu primeiro contrato (só um fica ativo por vez; clique com o botão direito no contrato para abandoná-lo)."
+				"&f2. Conclua um contrato &afácil&r e volte ao rei para receber recompensa e reputação."
+				"&f3. Conclua um contrato &6normal&r."
+				"&f4. Cumpra o contrato de entregar &6pedregulho&r e receba um &6Ovo de Anão&r. Coloque-o numa colônia para chocar um morador."
+			]
 		}
 		{
-			dependencies: ["79998FE50ADD6003"]
+			id: "75CEBEFF7A647313"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "dwarfs_tyranny:stone_pet_rock"
 			}
-			id: "75CEBEFF7A647313"
-			optional: true
+			dependencies: [
+				"79998FE50ADD6003"
+			]
+			tasks: [
+				{
+					id: "7D034DBDF43D7F97"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/it_followed_me_home"
+					criterion: ""
+				}
+				{
+					id: "1C03174753C567DA"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/bob_ross_would_be_proud"
+					criterion: ""
+				}
+				{
+					id: "5DF1C095BB114FC7"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/this_is_my_rock_there_are_many_like_it"
+					criterion: ""
+				}
+				{
+					id: "07E23D9664D401AB"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/do_not_touch"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "454ED08C7CCB49D0"
@@ -83,115 +139,172 @@
 				}
 				{
 					id: "3BBB28EA8722D932"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "dwarfs_tyranny:progression/it_followed_me_home"
-					criterion: ""
-					id: "7D034DBDF43D7F97"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/bob_ross_would_be_proud"
-					criterion: ""
-					id: "1C03174753C567DA"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/this_is_my_rock_there_are_many_like_it"
-					criterion: ""
-					id: "5DF1C095BB114FC7"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/do_not_touch"
-					criterion: ""
-					id: "07E23D9664D401AB"
-					type: "advancement"
-				}
+			title: "Pedrinhas de Estimação"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Às vezes, ao quebrar uma pedra, sobra uma pedrinha redonda e simpática. Os anões juram que elas escutam."
+				"&7Dois olhos, um sorriso e um nome. Existem muitas como ela, mas esta é a sua."
+				"&7Um pouco de cera, e ela fica assim para sempre."
+				""
+				"&6Objetivo:&r 1. Obtenha uma &6Pedra de Estimação&r: ela se solta, raramente, ao minerar pedra e suas variantes."
+				"&f2. Coloque-a e use o botão direito para &6desenhar um rosto&r."
+				"&f3. Dê um &6nome&r a ela numa bigorna."
+				"&f4. Sele o desenho com um &6Favo de Mel&r."
 			]
-			x: 2.0d
-			y: 1.6d
+			optional: true
 		}
 		{
-			dependencies: ["79998FE50ADD6003"]
 			id: "79274920DF264641"
-			rewards: [{
-				id: "1DD429856577B52C"
-				type: "xp"
-				xp: 150
-			}]
+			x: 2.0d
+			y: 3.2d
+			dependencies: [
+				"79998FE50ADD6003"
+			]
 			tasks: [
 				{
-					count: 4L
 					id: "396199BBD3B9ECB3"
-					item: { count: 1, id: "dwarfs_tyranny:raw_mythril" }
 					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:raw_mythril"
+					}
+					count: 4L
 				}
 				{
-					count: 8L
 					id: "24903B7939167E26"
-					item: { count: 1, id: "dwarfs_tyranny:mythril_ingot" }
 					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
+					count: 8L
 				}
 				{
 					id: "485C4CAEBAD3AC86"
-					item: { count: 1, id: "dwarfs_tyranny:mythril_block" }
 					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_block"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 3.2d
+			rewards: [
+				{
+					id: "1DD429856577B52C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "O Metal que Canta"
+			description: [
+				"&7O mythril não se esconde: ele cintila em azul-prateado nas camadas profundas, como se quisesse ser encontrado."
+				"&7Os anões dizem que ele canta quando sente o calor da forja. Os surdos só ouvem o chiado do metal."
+				"&7Quase tudo o que os anões constroem começa com ele: fornalhas, canos, tanques, runas, golens e armas."
+				""
+				"&6Objetivo:&r 1. Minere &6Minério de Mythril&r (picareta de ferro, mais comum abaixo do nível 16) e junte 4 &6Mythril Bruto&r."
+				"&f2. Funda-o numa fornalha ou alto-forno: 8 &6Lingotes de Mythril&r."
+				"&f3. Compacte 9 lingotes num &6Bloco de Mythril&r: ele vai virar o corpo do seu golem."
+				""
+				"&8Vasos e potes nas casas anãs guardam pepitas de mythril. O lingote é ingrediente do &6Coração do Tier II&r: guarde alguns."
+			]
 		}
 		{
+			id: "1C1D5E9DA4A5576B"
+			x: 2.0d
+			y: 4.8d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:rusty_dwarf_armor_helmet"
+			}
 			dependencies: [
 				"250350228C2E80A4"
 				"79998FE50ADD6003"
 			]
-			icon: {
-				id: "dwarfs_tyranny:rusty_dwarf_armor_helmet"
-			}
-			id: "1C1D5E9DA4A5576B"
-			rewards: [{
-				id: "59BE34D117195FFA"
-				type: "xp"
-				xp: 150
-			}]
-			shape: "diamond"
 			tasks: [
 				{
-					entity: "dwarfs_tyranny:skeleton_dwarf_guard"
 					id: "27180B21D68602F3"
 					type: "kill"
+					entity: "dwarfs_tyranny:skeleton_dwarf_guard"
 					value: 5L
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/seen_better_days"
-					criterion: ""
 					id: "739FD167D6AC8F3B"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/seen_better_days"
+					criterion: ""
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/practice_makes_perfect"
-					criterion: ""
 					id: "3F657716EF55C65B"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/practice_makes_perfect"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 4.8d
+			rewards: [
+				{
+					id: "59BE34D117195FFA"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Cidades que Não Respiram"
+			description: [
+				"&7Algumas colônias cavaram fundo demais. Agora seus guardas patrulham sem carne, e a ferrugem deles ainda corta."
+				"&7Elmos amassados e peitorais corroídos: ainda assim, foram forjados por mãos que conheciam o ofício."
+				"&7Os sobreviventes treinam contra manequins vestidos com essas armaduras, para lembrar quem é o inimigo."
+				""
+				"&6Objetivo:&r 1. Encontre uma &cvila anã abandonada&r e derrote &c5 Guardas Anões Esqueletos&r."
+				"&f2. Junte o conjunto completo de &6Armadura Anã Enferrujada&r (elmo, peitoral, calças e botas), que os guardas deixam cair."
+				"&f3. Monte um &6Manequim de Treino&r (fardo de mossthril, 2 gravetos, peitoral enferrujado e tufo) e golpeie-o."
+				""
+				"&8O manequim mostra o dano de cada golpe: ótimo para comparar armas. Os mapas de vila abandonada saem dos mesmos baús de masmorra e mina."
+			]
 		}
 		{
-			dependencies: ["56B87FA85FC88CF2"]
 			id: "234CE8B47AFD4D3D"
-			optional: true
+			x: 4.0d
+			y: -2.4d
+			dependencies: [
+				"56B87FA85FC88CF2"
+			]
+			tasks: [
+				{
+					id: "3B622825373C45D3"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:blacksmith_dwarf_egg"
+					}
+					count: 1L
+				}
+				{
+					id: "033952CC6809B13E"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:innkeeper_dwarf_egg"
+					}
+					count: 1L
+				}
+				{
+					id: "10629B25ADF517C5"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:guard_dwarf_egg"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "6C8E9BC99ACB4987"
@@ -200,39 +313,79 @@
 				}
 				{
 					id: "7925555B61A5738F"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
+			]
+			title: "Ofícios do Clã"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Os anões não nascem como os outros povos: nascem de ovos de pedra, chocados ao calor das forjas."
+				"&7Uma vila sem ferreiro tem os dias contados; sem taverna, esquece quem é; sem guardas, não passa do inverno."
+				"&7O rei paga as encomendas certas com ovos de ofício, e assim uma colônia pequena vira cidade."
+				""
+				"&6Objetivo:&r 1. Entregue &6lingotes de ferro&r ao rei e receba um &6Ovo de Anão Ferreiro&r."
+				"&f2. Entregue &6mossthril&r e receba um &6Ovo de Anão Taverneiro&r."
+				"&f3. Derrote saqueadores para o rei e receba um &6Ovo de Anão Guarda&r."
+			]
+			optional: true
+		}
+		{
+			id: "6FD4E6A039DFDD62"
+			x: 4.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:geode"
+			}
+			dependencies: [
+				"79274920DF264641"
 			]
 			tasks: [
 				{
-					id: "3B622825373C45D3"
-					item: { count: 1, id: "dwarfs_tyranny:blacksmith_dwarf_egg" }
-					type: "item"
+					id: "6FDF0B35DF149882"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/crack_it_open"
+					criterion: ""
 				}
 				{
-					id: "033952CC6809B13E"
-					item: { count: 1, id: "dwarfs_tyranny:innkeeper_dwarf_egg" }
-					type: "item"
+					id: "4FE1858435F052E1"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/something_beneath_us"
+					criterion: ""
 				}
 				{
-					id: "10629B25ADF517C5"
-					item: { count: 1, id: "dwarfs_tyranny:guard_dwarf_egg" }
+					id: "362802A4BE33A9A3"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/a_curious_sparkle"
+					criterion: ""
+				}
+				{
+					id: "301C5A042815D826"
 					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:blue_nyral_lantern"
+					}
+					count: 1L
+				}
+				{
+					id: "1A2A5FDEB8658F41"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/a_rare_find"
+					criterion: ""
+				}
+				{
+					id: "17049ADA5599D8F6"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/treasure_of_the_deep"
+					criterion: ""
 				}
 			]
-			x: 4.0d
-			y: -2.4d
-		}
-		{
-			dependencies: ["79274920DF264641"]
-			icon: {
-				id: "dwarfs_tyranny:geode"
-			}
-			id: "6FD4E6A039DFDD62"
 			rewards: [
 				{
 					id: "0632AA6BA92AD70B"
@@ -241,93 +394,146 @@
 				}
 				{
 					id: "4FBCA9E383BF594C"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "dwarfs_tyranny:progression/crack_it_open"
-					criterion: ""
-					id: "6FDF0B35DF149882"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/something_beneath_us"
-					criterion: ""
-					id: "4FE1858435F052E1"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/a_curious_sparkle"
-					criterion: ""
-					id: "362802A4BE33A9A3"
-					type: "advancement"
-				}
-				{
-					id: "301C5A042815D826"
-					item: { count: 1, id: "dwarfs_tyranny:blue_nyral_lantern" }
-					type: "item"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/a_rare_find"
-					criterion: ""
-					id: "1A2A5FDEB8658F41"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/treasure_of_the_deep"
-					criterion: ""
-					id: "17049ADA5599D8F6"
-					type: "advancement"
-				}
+			title: "O Coração do Geodo"
+			description: [
+				"&7Uma pedra que soa oca ao toque da picareta. Lá dentro, algo brilha."
+				"&7Os &6nyrals&7 vêm em dez cores e iluminam as ruas anãs, que nunca conheceram o sol. As raras, Eldraz, Kataraz, Ferraz, os joalheiros pronunciam baixinho, como orações."
+				"&7E as épicas não são só belas: o lumite guarda luz, o nitrolite guarda fogo, o gravialite pesa contra o mundo. Toda a engenharia anã nasce delas."
+				""
+				"&6Objetivo:&r 1. Minere uma &6Pedra Suspeita&r, coloque o &6Geodo&r no chão e golpeie-o com a picareta até abrir."
+				"&f2. Fabrique um &6Sensor de Geodos&r (2 tochas de redstone, 2 pedras, 1 fragmento de eco, 3 mythril) e use-o: siga a partícula até a próxima pedra suspeita."
+				"&f3. Obtenha uma gema &aincomum&r (qualquer nyral) e faça uma &6Lanterna de Nyral Azul&r."
+				"&f4. Obtenha uma gema &9rara&r (Eldraz, Kataraz, Toniraz, Cacaillouxe, Retraz, Paraz, Coraz ou Ferraz)."
+				"&f5. Obtenha uma gema &5épica&r: &6Lumite&r, &6Gravialite&r, &6Nitrolite&r, &6Teminite&r ou &6Cacaillouxe Dourado&r."
+				""
+				"&8Pedras suspeitas surgem nas cavernas profundas, e vasos das casas anãs guardam geodos. O taverneiro vende fragmentos de eco."
+				"&8O joalheiro vende gemas, se a reputação permitir. As outras nove lanternas seguem a mesma receita da azul."
 			]
-			x: 4.0d
-			y: 0.8d
 		}
 		{
-			dependencies: ["79274920DF264641"]
+			id: "0FC0E3A1E0783BC4"
+			x: 4.0d
+			y: 2.4d
 			icon: {
+				count: 1
 				id: "dwarfs_tyranny:infusion_cauldron"
 			}
-			id: "0FC0E3A1E0783BC4"
-			rewards: [{
-				id: "23B0E17DF083C08B"
-				type: "xp"
-				xp: 150
-			}]
+			dependencies: [
+				"79274920DF264641"
+			]
 			tasks: [
 				{
-					advancement: "dwarfs_tyranny:progression/somethings_brewing"
-					criterion: ""
 					id: "51C5D5423B2BDA0A"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/somethings_brewing"
+					criterion: ""
 				}
 				{
 					id: "7163B8BA8F9A0A82"
-					item: { count: 1, id: "dwarfs_tyranny:deepbrew_bottle" }
 					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:deepbrew_bottle"
+					}
+					count: 1L
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/dwarven_alchemy"
-					criterion: ""
 					id: "65CC9F12E0D38893"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/dwarven_alchemy"
+					criterion: ""
 				}
 			]
-			x: 4.0d
-			y: 2.4d
+			rewards: [
+				{
+					id: "23B0E17DF083C08B"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Cerveja das Profundezas"
+			description: [
+				"&7A Cerveja das Profundezas não é bebida: é receita de sobrevivência que alguém resolveu deixar gostosa."
+				"&7Cada ingrediente jogado no caldeirão vira um dom diferente: casca contra golpes, pés que escalam paredes, olhos que veem mais longe."
+				"&7O primeiro gole queima. O segundo também. O terceiro revela por que os anões não temem nada."
+				""
+				"&6Objetivo:&r 1. Fabrique um &6Caldeirão de Infusão&r (pedras + 3 mythril), encha com um balde de água e jogue um ingrediente."
+				"&f2. Deixe fermentar por um dia inteiro."
+				"&f3. Encha garrafas de vidro (até 3 por fornada) e beba uma &6Cerveja das Profundezas&r."
+				""
+				"&8Exemplos: casco de tatu dá Casca Reflexa, ovo dá Instinto de Ninho, olho de aranha dá Escalador de Paredes, lápis dá bônus de experiência."
+				"&8O ferreiro vende o caldeirão, e o taverneiro vende quase todos os ingredientes."
+			]
 		}
 		{
-			dependencies: ["79274920DF264641"]
+			id: "0BE8DAE2B7523821"
+			x: 4.0d
+			y: 4.0d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "dwarfs_tyranny:air_extractor"
 			}
-			id: "0BE8DAE2B7523821"
+			dependencies: [
+				"79274920DF264641"
+			]
+			tasks: [
+				{
+					id: "2C8E8B237426B111"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/industrial_revolution"
+					criterion: ""
+				}
+				{
+					id: "0C19BECE76F9C87D"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/gas_gas_gas"
+					criterion: ""
+				}
+				{
+					id: "0290EAB34D2A882D"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/pipe_dream"
+					criterion: ""
+				}
+				{
+					id: "45BEFC9198DC07FF"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/under_pressure"
+					criterion: ""
+				}
+				{
+					id: "6599F00EF06C4EAD"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/more_tank_than_house"
+					criterion: ""
+				}
+				{
+					id: "10E89D62612A8DAA"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/fired_by_mythril"
+					criterion: ""
+				}
+				{
+					id: "09CD379A31A00C3A"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/gas_fired_forge"
+					criterion: ""
+				}
+				{
+					id: "1DEF132DE3E8129B"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/propelled_by_gas"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "770952E3EA6CA203"
@@ -336,171 +542,236 @@
 				}
 				{
 					id: "3D437A6AA415A878"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "dwarfs_tyranny:progression/industrial_revolution"
-					criterion: ""
-					id: "2C8E8B237426B111"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/gas_gas_gas"
-					criterion: ""
-					id: "0C19BECE76F9C87D"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/pipe_dream"
-					criterion: ""
-					id: "0290EAB34D2A882D"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/under_pressure"
-					criterion: ""
-					id: "45BEFC9198DC07FF"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/more_tank_than_house"
-					criterion: ""
-					id: "6599F00EF06C4EAD"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/fired_by_mythril"
-					criterion: ""
-					id: "10E89D62612A8DAA"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/gas_fired_forge"
-					criterion: ""
-					id: "09CD379A31A00C3A"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/propelled_by_gas"
-					criterion: ""
-					id: "1DEF132DE3E8129B"
-					type: "advancement"
-				}
+			title: "A Rede de Gás dos Anões"
+			description: [
+				"&7Os anões descobriram que o ar profundo queima. Então, como bons anões, aprenderam a engarrafá-lo."
+				"&7Um extrator puxa o ar, canos de mythril o levam sem vazar (nem quando um anão tropeça neles), tanques o guardam sob pressão."
+				"&7No fim da linha está a joia da rede: a Fornalha de Mythril, um alto-forno sem fumaça nem cinza, só o rugido azul do gás."
+				"&7Quem domina essa rede pode empurrar até os inimigos com um propulsor, e um anão nunca tem gás demais, só casa de menos."
+				""
+				"&6Objetivo:&r 1. Construa um &6Extrator de Ar&r (6 mythril, 1 ferro, 1 grade de ferro) com a frente e o fundo livres, e produza gás."
+				"&f2. Leve o gás por um &6Cano de Mythril&r ligado às laterais, topo ou base do extrator."
+				"&f3. Armazene-o num &6Tanque de Mythril&r (conexões no topo e na base). Empilhe vários na vertical para formar um &6reservatório&r."
+				"&f4. Fabrique uma &6Fornalha de Mythril&r (alto-forno cercado por 8 mythril) e use-a."
+				"&f5. Alimente a fornalha com gás pelos canos (qualquer face, menos a frente)."
+				"&f6. Ligue um &6Propulsor a Gás&r à rede e dispare-o com um pulso de redstone."
+				""
+				"&8Se o extrator parar, confira se nada bloqueia a frente ou o fundo."
+				"&8A fornalha processa receitas de alto-forno; com a runa de Fumeiro, também cozinha comida."
 			]
-			x: 4.0d
-			y: 4.0d
 		}
 		{
-			dependencies: ["79274920DF264641"]
+			id: "520675A0372966C8"
+			x: 4.0d
+			y: 5.6d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "dwarfs_tyranny:engraving_table"
 			}
-			id: "520675A0372966C8"
-			rewards: [{
-				id: "48FB42503C6EED11"
-				type: "xp"
-				xp: 200
-			}]
-			size: 1.25d
+			dependencies: [
+				"79274920DF264641"
+			]
 			tasks: [
 				{
-					advancement: "dwarfs_tyranny:progression/leave_your_mark"
-					criterion: ""
 					id: "3E4373CB069597C4"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/leave_your_mark"
+					criterion: ""
 				}
 				{
 					id: "33F8A781EB0A5221"
-					item: { count: 1, id: "dwarfs_tyranny:blank_rune" }
 					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:blank_rune"
+					}
+					count: 1L
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/ancient_storage"
-					criterion: ""
 					id: "5DCF9F2953E5ABF8"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/ancient_storage"
+					criterion: ""
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/wake_up_little_guy"
-					criterion: ""
 					id: "1FA018F178518D5B"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/wake_up_little_guy"
+					criterion: ""
 				}
 			]
-			x: 4.0d
-			y: 5.6d
+			rewards: [
+				{
+					id: "48FB42503C6EED11"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "A Oficina do Mestre"
+			description: [
+				"&7Os anões gravam runas como os humanos escrevem cartas: devagar, com raiva e sem erros."
+				"&7Uma runa quebrada ainda guarda a memória da forma; basta cercá-la de mythril para que ela se lembre. E os baús anões têm um encaixe para runas."
+				"&7Na mesma bancada nasce o golem toupeira: um bloco de mythril, uma abóbora entalhada e um pouco de fé. Ele abre os olhos e espera ordens."
+				""
+				"&6Objetivo:&r 1. Fabrique uma &6Mesa de Gravação&r (3 mythril sobre 4 pedras) e use-a."
+				"&f2. Faça uma &6Runa em Branco&r: 1 &6Runa Quebrada&r cercada de 8 lingotes de mythril. Runas quebradas saem de baús de masmorras e minas, vasos anões e da loja do ferreiro."
+				"&f3. Fabrique um &6Baú Antigo&r (8 pedras + 1 mythril) e abra-o."
+				"&f4. Coloque uma &6Abóbora Entalhada&r sobre um &6Bloco de Mythril&r para criar um &6Golem Toupeira&r. Botão direito o reivindica e abre o inventário; agachado, liga e desliga."
+			]
 		}
 		{
-			dependencies: ["1C1D5E9DA4A5576B"]
-			icon: {
-				id: "comamigos_balance:dwarf_king_heart"
-			}
 			id: "0F1BE509DA10D4EB"
-			rewards: [{
-				id: "6DFBA3064B61EAA8"
-				type: "xp"
-				xp: 50
-			}]
-			shape: "diamond"
-			tasks: [{
-				entity: "dwarfs_tyranny:skeleton_dwarf_king"
-				id: "350ADA774DF310E8"
-				type: "kill"
-				value: 1L
-			}]
 			x: 4.0d
 			y: 7.2d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:dwarf_king_heart"
+			}
+			dependencies: [
+				"1C1D5E9DA4A5576B"
+			]
+			tasks: [
+				{
+					id: "350ADA774DF310E8"
+					type: "kill"
+					entity: "dwarfs_tyranny:skeleton_dwarf_king"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6DFBA3064B61EAA8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			title: "Rei Anão Esqueleto"
+			description: [
+				"&7No salão do trono de uma cidade morta, um rei de ossos ainda segura a coroa partida."
+				"&7Seus súditos caíram há séculos. Ele não aceitou a notícia, e continua dando ordens a guardas que só obedecem porque também não sabem morrer."
+				"&7Seu coração seco é o primeiro selo da companhia: sem ele, ninguém forja o Coração do Tier I."
+				""
+				"&6Objetivo:&r 1. Entre no salão do trono de uma vila anã abandonada e derrote &cRei Anão Esqueleto&r."
+				"&f2. Reclame seu &ccoração de troféu&r (comestível, com bônus e penalidades). Ele é o ingrediente-chave do &6Coração do Tier I&r."
+				""
+				"&8Ele invoca guardas esqueletos. Lutem em grupo, levem escudo e limpem os guardas antes de focar no rei."
+			]
 		}
 		{
+			id: "54DC893C93BA29EE"
+			x: 6.0d
+			y: -0.96d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:eldraz"
+			}
 			dependencies: [
 				"6FD4E6A039DFDD62"
 				"65A424A3F5755A29"
 			]
-			icon: {
-				id: "dwarfs_tyranny:eldraz"
-			}
-			id: "54DC893C93BA29EE"
-			rewards: [{
-				id: "1E26A395527FD692"
-				type: "xp"
-				xp: 150
-			}]
 			tasks: [
 				{
-					advancement: "dwarfs_tyranny:progression/a_dwarf_in_need"
-					criterion: ""
 					id: "2A0DB3A31636A831"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/a_dwarf_in_need"
+					criterion: ""
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/shiny_enough"
-					criterion: ""
 					id: "089FF1F1DEEAA3B1"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/shiny_enough"
+					criterion: ""
 				}
 				{
-					advancement: "dwarfs_tyranny:progression/now_were_talking"
-					criterion: ""
 					id: "2A90EFA7D8E00840"
 					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/now_were_talking"
+					criterion: ""
 				}
 			]
-			x: 6.0d
-			y: -0.96d
+			rewards: [
+				{
+					id: "1E26A395527FD692"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Um Anão em Apuros"
+			description: [
+				"&7Às vezes um anão para, coça a barba e suspira por uma gema. Quem a trouxer ganha um amigo."
+				"&7Um nyral para enfeitar a barba de um noivo; uma gema rara para um aniversário de clã. Os anões levam essas coisas muito a sério."
+				"&7Quanto mais rara a gema, melhor o pagamento: ouro, diamantes, ferramentas, às vezes coisa melhor."
+				""
+				"&6Objetivo:&r 1. Atenda seu primeiro &6pedido de gema&r: um anão com pedido ativo mostra a gema desejada. Entregue-a com a mão secundária vazia."
+				"&f2. Atenda um pedido de gema &aincomum&r."
+				"&f3. Atenda um pedido de gema &9rara&r."
+			]
 		}
 		{
-			dependencies: ["6FD4E6A039DFDD62"]
+			id: "7CD6B5E1B306B84D"
+			x: 6.0d
+			y: 0.64d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "dwarfs_tyranny:bridger"
 			}
-			id: "7CD6B5E1B306B84D"
+			dependencies: [
+				"6FD4E6A039DFDD62"
+			]
+			tasks: [
+				{
+					id: "06B264116F45FD7E"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/mind_the_gap"
+					criterion: ""
+				}
+				{
+					id: "4E7961CC073E0A5B"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/bridge_over_troubled_cavern"
+					criterion: ""
+				}
+				{
+					id: "7D9BFAF74EABF2DA"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/there_is_no_floor"
+					criterion: ""
+				}
+				{
+					id: "1AC334087630498D"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/powering_up"
+					criterion: ""
+				}
+				{
+					id: "5C55003C79890FF4"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/power_shot"
+					criterion: ""
+				}
+				{
+					id: "4D778F9C4CD8F05F"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/spin_to_win"
+					criterion: ""
+				}
+				{
+					id: "7C4FFF8EB289E530"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/three_in_a_row"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "48029CED0E390A37"
@@ -509,120 +780,147 @@
 				}
 				{
 					id: "7B17B691A9A8EA33"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "dwarfs_tyranny:progression/mind_the_gap"
-					criterion: ""
-					id: "06B264116F45FD7E"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/bridge_over_troubled_cavern"
-					criterion: ""
-					id: "4E7961CC073E0A5B"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/there_is_no_floor"
-					criterion: ""
-					id: "7D9BFAF74EABF2DA"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/powering_up"
-					criterion: ""
-					id: "1AC334087630498D"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/power_shot"
-					criterion: ""
-					id: "5C55003C79890FF4"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/spin_to_win"
-					criterion: ""
-					id: "4D778F9C4CD8F05F"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/three_in_a_row"
-					criterion: ""
-					id: "7C4FFF8EB289E530"
-					type: "advancement"
-				}
+			title: "Engenhocas de Lumite e Nitrolite"
+			description: [
+				"&7Uma ponte de luz sólida, que existe enquanto a redstone a sustenta. Dezesseis blocos de nada, atravessados como se fosse a praça da vila."
+				"&7Um alvo de mythril que transforma uma flechada em sinal de redstone: portas que abrem com um tiro, porque os anões amam uma boa entrada."
+				"&7E o separador, porque o que um anão fabrica, outro desmonta. Ritmo é tudo."
+				""
+				"&6Objetivo:&r 1. Construa um &6Projetor de Ponte&r (mythril, pedra e lumite) e ative-o com redstone, mirando uma &6âncora sólida&r a até 16 blocos."
+				"&f2. Faça uma projeção no &6alcance máximo&r e outra na &6vertical&r."
+				"&f3. Ative um &6Energizador&r com o botão direito e depois acerte-o com um projétil (o sinal diminui aos poucos)."
+				"&f4. Fabrique um &6Separador&r (vidro, pedras, nitrolite e 3 mythril), coloque itens de uma receita e clique com o botão direito."
+				"&f5. Clique de novo &6enquanto ele brilha&r, três voltas seguidas sem errar. Agachado, retira o que foi colocado."
+				""
+				"&8O separador devolve os ingredientes de um item pronto: ótimo para recuperar gemas de engenhocas que sobraram."
 			]
-			x: 6.0d
-			y: 0.64d
 		}
 		{
-			dependencies: [
-				"0BE8DAE2B7523821"
-				"6FD4E6A039DFDD62"
-			]
-			icon: {
-				id: "dwarfs_tyranny:flamethrower"
-			}
 			id: "3C25D7F2DCAC9754"
-			rewards: [{
-				id: "587821004D51B3A5"
-				type: "xp"
-				xp: 250
-			}]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "dwarfs_tyranny:progression/portable_pressure"
-					criterion: ""
-					id: "2A387381C35075F1"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/playing_with_fire"
-					criterion: ""
-					id: "3820288448204CEA"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/ride_the_lightning"
-					criterion: ""
-					id: "621FA908A8654C96"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/get_over_here"
-					criterion: ""
-					id: "7E5384B8AE7BCBB2"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/three_point_attachment"
-					criterion: ""
-					id: "1CE3D38273F30481"
-					type: "advancement"
-				}
-			]
 			x: 6.0d
 			y: 2.24d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:flamethrower"
+			}
+			dependencies: [
+				"0BE8DAE2B7523821"
+				"6FD4E6A039DFDD62"
+			]
+			tasks: [
+				{
+					id: "2A387381C35075F1"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/portable_pressure"
+					criterion: ""
+				}
+				{
+					id: "3820288448204CEA"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/playing_with_fire"
+					criterion: ""
+				}
+				{
+					id: "621FA908A8654C96"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/ride_the_lightning"
+					criterion: ""
+				}
+				{
+					id: "7E5384B8AE7BCBB2"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/get_over_here"
+					criterion: ""
+				}
+				{
+					id: "1CE3D38273F30481"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/three_point_attachment"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "587821004D51B3A5"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Pressão Portátil"
+			description: [
+				"&7O gás, enfim, sai de casa: numa garrafa de mythril, cabe na mochila. E o que cabe na mochila, um anão logo aponta para alguém."
+				"&7Nitrolite e pederneira viram um lança-chamas, a resposta anã para aranhas e discussões longas demais. Lumite preso a um para-raios guarda algo bem mais violento."
+				"&7E nas cavernas anãs o chão é opcional: o gancho de gravialite garante que o teto não seja."
+				""
+				"&6Objetivo:&r 1. Fabrique um &6Tanque Vazio&r (4 mythril + 1 vidro) e use-o num Tanque de Mythril cheio para obter um &6Tanque de Gás&r."
+				"&f2. Fabrique um &6Lança-Chamas&r (tanque vazio, isqueiro, 2 mythril, nitrolite) e dispare-o."
+				"&f3. Fabrique um &6Lança-Raios&r (tanque vazio, para-raios, 2 mythril, lumite) e dispare-o."
+				"&f4. Fabrique uma &6Arma-Gancho&r (tanque vazio, laço, 2 mythril, gravialite) e use-a."
+				"&f5. Fique preso a três âncoras do gancho ao mesmo tempo."
+				""
+				"&8Para carregar uma arma: no inventário, pegue o Tanque de Gás com o cursor e clique com o botão direito na arma."
+				"&8Agachado, o lança-chamas borrifa gás que causa náusea. Incendeie a nuvem para uma reação em cadeia."
+			]
 		}
 		{
+			id: "396DEF059D50562C"
+			x: 6.0d
+			y: 3.84d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:magnetic_rail"
+			}
 			dependencies: [
 				"6FD4E6A039DFDD62"
 				"0BE8DAE2B7523821"
 			]
-			icon: {
-				id: "dwarfs_tyranny:magnetic_rail"
-			}
-			id: "396DEF059D50562C"
+			tasks: [
+				{
+					id: "640E544DF06BF81C"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/rails_are_optional"
+					criterion: ""
+				}
+				{
+					id: "213584D65BC80BE0"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/going_up"
+					criterion: ""
+				}
+				{
+					id: "5C3E3A740AAB14F2"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/going_down"
+					criterion: ""
+				}
+				{
+					id: "347EAE8427424F29"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/wrong_dimension_of_transport"
+					criterion: ""
+				}
+				{
+					id: "5D5C50F4BF437848"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/remote_control"
+					criterion: ""
+				}
+				{
+					id: "28F0B490EBF3923F"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/tiny_drill_big_ambitions"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "6B92DDE106C92E54"
@@ -631,64 +929,79 @@
 				}
 				{
 					id: "7C57A92B8F3A535E"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "dwarfs_tyranny:progression/rails_are_optional"
-					criterion: ""
-					id: "640E544DF06BF81C"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/going_up"
-					criterion: ""
-					id: "213584D65BC80BE0"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/going_down"
-					criterion: ""
-					id: "5C3E3A740AAB14F2"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/wrong_dimension_of_transport"
-					criterion: ""
-					id: "347EAE8427424F29"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/remote_control"
-					criterion: ""
-					id: "5D5C50F4BF437848"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/tiny_drill_big_ambitions"
-					criterion: ""
-					id: "28F0B490EBF3923F"
-					type: "advancement"
-				}
+			title: "Contra o Peso do Mundo"
+			description: [
+				"&7Por que cavar rampas, se o gravialite faz o carrinho subir sozinho? O elevador anão é barulhento, eficiente e absolutamente sem freio."
+				"&7Do fundo da ardósia até a luz do dia sem pôr o pé no chão: é assim que os anões levam minério para cima."
+				"&7E onde nenhum anão em sã consciência entraria, entra uma broca pequena de grandes ambições, guiada de longe e alimentada a gás."
+				""
+				"&6Objetivo:&r 1. Fabrique &6Trilhos Magnéticos&r (ferro, gravetos, mythril e gravialite), empilhe-os na mesma direção e mova um carrinho na vertical."
+				"&f2. Ande de carrinho até o topo de um trilho magnético e depois até o fundo."
+				"&f3. Percorra uma grande distância vertical de carrinho (um poço de trilhos bem alto)."
+				"&f4. Fabrique uma &6Broca de Controle Remoto&r (picareta de ferro, gravialite, tanque vazio, 3 ardósias) e assuma o controle."
+				"&f5. Minere um bloco com a broca. Reabasteça-a com gás quando esvaziar."
+				""
+				"&8Um pulso de redstone envia um carrinho vazio à outra ponta do trilho: dá para montar um elevador de carga."
 			]
-			x: 6.0d
-			y: 3.84d
 		}
 		{
+			id: "0DD8B8A3C607A66A"
+			x: 6.0d
+			y: 5.44d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:forging_rune"
+			}
 			dependencies: [
 				"520675A0372966C8"
 				"0BE8DAE2B7523821"
 			]
-			icon: {
-				id: "dwarfs_tyranny:forging_rune"
-			}
-			id: "0DD8B8A3C607A66A"
+			tasks: [
+				{
+					id: "6FB32EC87A5E79AB"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/ancient_engineering"
+					criterion: ""
+				}
+				{
+					id: "0ED58CE38F17AB8B"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/fully_enchanted_storage"
+					criterion: ""
+				}
+				{
+					id: "561AF2A193BC921E"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/runic_furnace"
+					criterion: ""
+				}
+				{
+					id: "6C377A1C56ACD054"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/fully_enchanted_furnace"
+					criterion: ""
+				}
+				{
+					id: "0635C9EFB565A6E3"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/runic_companion"
+					criterion: ""
+				}
+				{
+					id: "4CEB8412C8467DFE"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/fully_enchanted_companion"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "31517DEA3AB44B1A"
@@ -697,54 +1010,29 @@
 				}
 				{
 					id: "1DD35E34B78F93F7"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "dwarfs_tyranny:progression/ancient_engineering"
-					criterion: ""
-					id: "6FB32EC87A5E79AB"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/fully_enchanted_storage"
-					criterion: ""
-					id: "0ED58CE38F17AB8B"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/runic_furnace"
-					criterion: ""
-					id: "561AF2A193BC921E"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/fully_enchanted_furnace"
-					criterion: ""
-					id: "6C377A1C56ACD054"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/runic_companion"
-					criterion: ""
-					id: "0635C9EFB565A6E3"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/fully_enchanted_companion"
-					criterion: ""
-					id: "4CEB8412C8467DFE"
-					type: "advancement"
-				}
+			title: "Três Runas para Cada Coisa"
+			description: [
+				"&7Uma runa ensina um truque a quem a recebe. Uma magnética atrai o que cai no chão, uma de ordenação arruma o caos, uma de forja conserta o que está gasto."
+				"&7Na fornalha, a runa certa a deixa mais econômica, mais rápida ou capaz de cozinhar. No golem, transforma um seguidor num guerreiro, num mineiro ou num carregador."
+				"&7Atrair, ordenar, reparar, queimar, lutar, cavar: um anão chama isso de \"o mínimo\"."
+				""
+				"&6Objetivo:&r 1. Coloque uma runa de baú no &6Baú Antigo&r, e depois use as três: &6Magnética&r, &6Ordenação&r e &6Forja&r."
+				"&f2. Insira uma runa na &6Fornalha de Mythril&r, e depois as três: &6Combustível&r (metade do gás), &6Fumeiro&r (receitas de fornalha comum) e &6Explosão&r (dobro de velocidade e de gás)."
+				"&f3. Equipe o &6Golem Toupeira&r com uma runa, e depois as três: &6Combate&r, &6Mineração&r e &6Coleta&r."
+				""
+				"&8Todas as runas saem de Runas em Branco gravadas na Mesa de Gravação. Elas se desgastam a cada uso: tenha reservas."
 			]
-			x: 6.0d
-			y: 5.44d
 		}
+	]
+	title: "&7Tier I&7 - O Metal que Canta"
+	subtitle: [
+		"&7Os Reinos Anões&7, &7Tier I"
 	]
 }
