@@ -1,5 +1,5 @@
 {
-  "enableClickToSit": true,
+  "enableClickToSit": false,
   "enableThirdPersonOnSit": true,
   "sitView": "BACK",
   "enableSitCameraFocus": true,

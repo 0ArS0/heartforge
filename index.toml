@@ -54,7 +54,7 @@ hash = "82fff9773bf16b62ef2c9262e48b31177d678ba0f247b05f8103311c25c2712c"
 
 [[files]]
 file = "config/TakeASeatConfig.json"
-hash = "2e319d5901040bae5685c96ba341894115a64cdc8651d94dec267d1a212444cf"
+hash = "6c1545210a33ccc9a7ae154df4848c963c076d4b4120a13e177dd8f581ad6178"
 
 [[files]]
 file = "config/accessories.json5"
@@ -538,7 +538,7 @@ hash = "0724139777a7a499a111d11ae1cc0cdd2928da7324083e49cea8ee11ca62fb3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "f43163c19f468000342adbe476679f031119d148d3aebb2f37ed7db10b819f1f"
+hash = "e98a2ad7f5e22e95733894b1aac6b9f5dcfbd02a47e6bbbd674904275704c6c2"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1170,7 +1170,7 @@ hash = "e25ac8cbb2e98c3753b51b40bc58c67bd1df572547572da08ce729e16f81ed56"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "aac1830af508663df6fd3a2d871e5f099c87eb2e91e0325a36bcc08e11d1b0f1"
+hash = "4b1236387d73cd217dc9356bf354d6d19de7195e81960886a061e0565e8d298a"
 
 [[files]]
 file = "config/biomeparticleweather/config.txt"
@@ -1270,7 +1270,7 @@ hash = "a1772af826a1a6f16cc7a54fdfbfe7a944b155eabb12e7fb569e63179068eea0"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "711df0d47427720caf3bc2aca171eb5f7e6d5f885b12a812f0ebb315e3c52f9a"
+hash = "8d217c649d380f5866b2528d37cd28c5342f557a6259430e15b08315b7412408"
 
 [[files]]
 file = "config/cistj.json"
@@ -1634,7 +1634,7 @@ hash = "1d7075ca7221200f93e75e525781d1605537ce655d96a5e7313187614319d7ef"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "30c4d4e45ce5fac2ae343305aaef5d5d9a01a479a67fffec786ef2a329b353dd"
+hash = "8579e2f74c59b1c165120bc521046964a74558027a0582f7316a50632812de51"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -2394,7 +2394,7 @@ hash = "05361b072f6474dee8cd25b49ff59b630953966ceb4de4993e30f16c6a9907f9"
 
 [[files]]
 file = "config/handson_delight.properties"
-hash = "32a4c76939e6028ebbc1c5259103b2c0189669be5404f19b8efbd71f71979f8e"
+hash = "ce3420032fefc3616fea56dc4689192b27c55f3de2300a87b5178a0bdd254b2c"
 
 [[files]]
 file = "config/heartforge/teclas.txt"
@@ -2466,7 +2466,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "439659b8de97bbf67832bdd469a4b5e1b5759d4ca493d4324ceae5f00b22744e"
+hash = "179b7cc024d985bdca658016efbfa2760959eaeb2087acd13a6cff237e3746cd"
 preserve = true
 
 [[files]]
@@ -2675,7 +2675,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "2bcf3dd201a689a3a42435f6da1502eadc0de0e5ff2087587d932e54a4b9a0a6"
+hash = "3f61d316b7cb1be57b95016a01e3a45e729d03b16ab19a1537f5454583455d39"
 
 [[files]]
 file = "config/lithium.properties"
@@ -3259,7 +3259,7 @@ hash = "9f2e3cc1cd587fd9de6fd4a068e4c247fde401d3fc6fd9a0da36627ddc5611a3"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "5de18ee4977498d6dd0c7fe76c4de94e8c0e9bbb38cfa13846fb6e49272e05bd"
+hash = "6d3523371e1eda72a328801bd2abc3d925db5cc30a3705e74e85842cb1d9c970"
 
 [[files]]
 file = "config/scalablelux.properties"
@@ -10445,7 +10445,7 @@ hash = "da0929b38f5fd99befaaa8cd141cbf60e1fad05b92d916d0eeeee7c79f86c0fd"
 
 [[files]]
 file = "shaderpacks/photon_v1.4.zip.txt"
-hash = "a2133b4db3202117391ccd27f65773011d2396c46ac5b58e75d84760a07704f8"
+hash = "80faf663f897b04335554d270871b5d93f5801bf8a6ed68f1eb49e20fdada8fd"
 
 [[files]]
 file = "shaderpacks/rethinking-voxels_r0.1-beta9.zip"
