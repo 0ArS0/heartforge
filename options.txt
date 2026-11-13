@@ -363,8 +363,14 @@ key_key.ftbquests.gui_quest_panel.edit_quest_props:key.keyboard.unknown
 key_key.simplytooltips.cycle_tab:key.keyboard.unknown
 key_key.simplytooltips.capture_gif:key.keyboard.unknown
 key_key.cinematic_respawn.skip_cinematic:key.keyboard.space
-key_key.easybuilding.show_grid:key.keyboard.left.alt
+key_key.easybuilding.show_grid:key.keyboard.left.alt:SHIFT
 key_key.botania_corporea_request:key.keyboard.c
+key_key.map_atlases.open_minimap:key.keyboard.m
+key_key.map_atlases.zoom_out_minimap:key.keyboard.keypad.subtract
+key_key.map_atlases.zoom_in_minimap:key.keyboard.keypad.add
+key_key.map_atlases.place_pin:key.keyboard.b
+key_key.map_atlases.increase_slice:key.keyboard.unknown
+key_key.map_atlases.decrease_slice:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.unknown
 key_create.keyinfo.toolbelt:key.keyboard.unknown
 key_create.keyinfo.rotate_menu:key.keyboard.unknown

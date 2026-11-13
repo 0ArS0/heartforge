@@ -47,36 +47,11 @@
 			]
 		}
 		{
-			id: "41CEA3F19B61C2ED"
-			x: 0.0d
+			id: "4635BF63F94949B6"
+			x: 1.0d
 			y: 0.0d
-			shape: "circle"
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "cataclysm:mechanical_fusion_anvil"
-			}
 			dependencies: [
 				"054FFD1D44FD6E4F"
-			]
-			tasks: [
-				{
-					id: "17AE3AF25EC02193"
-					type: "checkmark"
-				}
-			]
-			rewards: [ ]
-			title: "&fO Começo"
-			description: [
-				"&7As primeiras trilhas. A introdução fica na página ao lado."
-			]
-		}
-		{
-			id: "4635BF63F94949B6"
-			x: 2.0d
-			y: 0.0d
-			dependencies: [
-				"41CEA3F19B61C2ED"
 			]
 			icon: {
 				count: 1
@@ -128,7 +103,7 @@
 		}
 		{
 			id: "16AC9D558253563F"
-			x: 5.0d
+			x: 4.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -161,7 +136,7 @@
 		}
 		{
 			id: "53E88B19CDC71AAA"
-			x: 7.0d
+			x: 6.0d
 			y: -0.8d
 			shape: "diamond"
 			size: 1.25d
@@ -232,7 +207,7 @@
 		}
 		{
 			id: "1823163690B0B5F7"
-			x: 7.0d
+			x: 6.0d
 			y: 0.8d
 			shape: "diamond"
 			size: 1.25d
@@ -305,7 +280,7 @@
 		}
 		{
 			id: "3A5632CF088470B6"
-			x: 10.0d
+			x: 9.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -339,7 +314,7 @@
 		}
 		{
 			id: "4FBEFC5DEB2882BE"
-			x: 12.0d
+			x: 11.0d
 			y: -1.6d
 			shape: "diamond"
 			size: 1.25d
@@ -412,7 +387,7 @@
 		}
 		{
 			id: "2DF47478AB1E9945"
-			x: 12.0d
+			x: 11.0d
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
@@ -503,7 +478,7 @@
 		}
 		{
 			id: "744D887EEAAF42FF"
-			x: 12.0d
+			x: 11.0d
 			y: 1.6d
 			shape: "diamond"
 			dependencies: [
@@ -562,7 +537,7 @@
 		}
 		{
 			id: "3C3290B84658D5E6"
-			x: 15.0d
+			x: 14.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -597,7 +572,7 @@
 		}
 		{
 			id: "12C86E79E2414320"
-			x: 17.0d
+			x: 16.0d
 			y: -3.2d
 			shape: "diamond"
 			icon: {
@@ -665,7 +640,7 @@
 		}
 		{
 			id: "4A3BD37C2CB783D1"
-			x: 17.0d
+			x: 16.0d
 			y: -1.6d
 			dependencies: [
 				"3C3290B84658D5E6"
@@ -727,7 +702,7 @@
 		}
 		{
 			id: "25509392190A304D"
-			x: 17.0d
+			x: 16.0d
 			y: 0.0d
 			shape: "diamond"
 			dependencies: [
@@ -793,7 +768,7 @@
 		}
 		{
 			id: "5366AA3B09908D02"
-			x: 17.0d
+			x: 16.0d
 			y: 1.6d
 			shape: "diamond"
 			size: 1.25d
@@ -874,7 +849,7 @@
 		}
 		{
 			id: "7342671807860AE4"
-			x: 17.0d
+			x: 16.0d
 			y: 3.2d
 			shape: "diamond"
 			size: 1.25d
@@ -957,7 +932,7 @@
 		}
 		{
 			id: "6990E8C44B6CA722"
-			x: 19.0d
+			x: 18.0d
 			y: 3.2d
 			shape: "diamond"
 			size: 1.25d
@@ -1053,7 +1028,7 @@
 		}
 		{
 			id: "07623111D15E32A5"
-			x: 22.0d
+			x: 21.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1086,7 +1061,7 @@
 		}
 		{
 			id: "0800E9D0B5EB9C2C"
-			x: 24.0d
+			x: 23.0d
 			y: -1.2d
 			size: 1.25d
 			dependencies: [
@@ -1155,7 +1130,7 @@
 		}
 		{
 			id: "6BC6C7D751EFC9D3"
-			x: 24.0d
+			x: 23.0d
 			y: 0.4d
 			shape: "diamond"
 			size: 1.25d
@@ -1244,7 +1219,7 @@
 		}
 		{
 			id: "0AD0BF84742AFD45"
-			x: 24.0d
+			x: 23.0d
 			y: 2.0d
 			size: 1.25d
 			dependencies: [
@@ -1358,7 +1333,7 @@
 		}
 		{
 			id: "23229B6CC678D4DF"
-			x: 26.0d
+			x: 25.0d
 			y: -1.2d
 			shape: "diamond"
 			icon: {
@@ -1416,7 +1391,7 @@
 		}
 		{
 			id: "4E8D1EE016E1ACB2"
-			x: 28.0d
+			x: 27.0d
 			y: -2.0d
 			size: 1.25d
 			dependencies: [
@@ -1490,7 +1465,7 @@
 		}
 		{
 			id: "14D4EB7F4C77EB6E"
-			x: 28.0d
+			x: 27.0d
 			y: -0.4d
 			dependencies: [
 				"23229B6CC678D4DF"
@@ -1547,7 +1522,7 @@
 		}
 		{
 			id: "569E756589BB3305"
-			x: 31.0d
+			x: 30.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1581,7 +1556,7 @@
 		}
 		{
 			id: "4CDC09724947BA6E"
-			x: 33.0d
+			x: 32.0d
 			y: -0.4d
 			shape: "diamond"
 			icon: {
@@ -1629,7 +1604,7 @@
 		}
 		{
 			id: "792374CCF6411BFF"
-			x: 33.0d
+			x: 32.0d
 			y: 1.2d
 			shape: "diamond"
 			size: 1.25d
@@ -1719,7 +1694,7 @@
 		}
 		{
 			id: "568455103C4D81C8"
-			x: 35.0d
+			x: 34.0d
 			y: -1.2d
 			size: 1.25d
 			dependencies: [
@@ -1793,7 +1768,7 @@
 		}
 		{
 			id: "6DB2F6FAFCC6174B"
-			x: 35.0d
+			x: 34.0d
 			y: 0.4d
 			dependencies: [
 				"4CDC09724947BA6E"
@@ -1847,7 +1822,7 @@
 		}
 		{
 			id: "5FD5BD0C525EA09C"
-			x: 38.0d
+			x: 37.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1881,7 +1856,7 @@
 		}
 		{
 			id: "79575B5C3CEABB9B"
-			x: 40.0d
+			x: 39.0d
 			y: -2.4d
 			shape: "diamond"
 			icon: {
@@ -1941,7 +1916,7 @@
 		}
 		{
 			id: "3008DBF1FD38D015"
-			x: 40.0d
+			x: 39.0d
 			y: -0.8d
 			shape: "diamond"
 			icon: {
@@ -2001,7 +1976,7 @@
 		}
 		{
 			id: "2BDD35DD5B78DDA7"
-			x: 40.0d
+			x: 39.0d
 			y: 0.8d
 			dependencies: [
 				"5FD5BD0C525EA09C"
@@ -2059,7 +2034,7 @@
 		}
 		{
 			id: "641238FABF883C37"
-			x: 40.0d
+			x: 39.0d
 			y: 2.4d
 			shape: "diamond"
 			icon: {
@@ -2106,7 +2081,7 @@
 		}
 		{
 			id: "6951DE5A0B03E8E7"
-			x: 42.0d
+			x: 41.0d
 			y: -2.4d
 			size: 1.25d
 			dependencies: [
@@ -2172,7 +2147,7 @@
 		}
 		{
 			id: "049C5E6393AD864F"
-			x: 42.0d
+			x: 41.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
@@ -2249,7 +2224,7 @@
 		}
 		{
 			id: "5F369ABC5270D5FB"
-			x: 42.0d
+			x: 41.0d
 			y: 1.6d
 			size: 1.25d
 			dependencies: [
@@ -2315,7 +2290,7 @@
 		}
 		{
 			id: "66DA84226E59DB5A"
-			x: 44.0d
+			x: 43.0d
 			y: -0.4d
 			dependencies: [
 				"6951DE5A0B03E8E7"
@@ -2373,7 +2348,7 @@
 		}
 		{
 			id: "58FAB256B8E49AFB"
-			x: 47.0d
+			x: 46.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -2406,7 +2381,7 @@
 		}
 		{
 			id: "7B859BEBD1A1B850"
-			x: 49.0d
+			x: 48.0d
 			y: 0.0d
 			shape: "diamond"
 			size: 1.25d
@@ -2501,7 +2476,7 @@
 		}
 		{
 			id: "74A0049EE9DCF250"
-			x: 51.0d
+			x: 50.0d
 			y: 0.0d
 			shape: "diamond"
 			icon: {
@@ -2548,7 +2523,7 @@
 		}
 		{
 			id: "6700F1D7C8BDE176"
-			x: 53.0d
+			x: 52.0d
 			y: -1.6d
 			size: 1.25d
 			dependencies: [
@@ -2634,7 +2609,7 @@
 		}
 		{
 			id: "3A16E73B5DAFD6C0"
-			x: 53.0d
+			x: 52.0d
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
@@ -2743,7 +2718,7 @@
 		}
 		{
 			id: "2EEF8CACD0BCA972"
-			x: 53.0d
+			x: 52.0d
 			y: 1.6d
 			shape: "gear"
 			dependencies: [

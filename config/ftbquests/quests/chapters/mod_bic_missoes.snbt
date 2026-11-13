@@ -45,38 +45,13 @@
 			]
 		}
 		{
-			id: "66714C8A54AE228D"
-			x: 0.0d
-			y: 0.0d
-			shape: "circle"
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "born_in_chaos_v1:dark_metal_ingot"
-			}
-			dependencies: [
-				"6A37A99F90E7449F"
-			]
-			tasks: [
-				{
-					id: "44E7B9C6C7F1CB1D"
-					type: "checkmark"
-				}
-			]
-			rewards: [ ]
-			title: "&fO Começo"
-			description: [
-				"&7As primeiras trilhas. A introdução fica na página ao lado."
-			]
-		}
-		{
 			id: "415F9CC6559614A4"
-			x: 2.0d
+			x: 1.0d
 			y: 0.0d
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"66714C8A54AE228D"
+				"6A37A99F90E7449F"
 			]
 			icon: {
 				count: 1
@@ -137,7 +112,7 @@
 		}
 		{
 			id: "1C80A4436F3FA0F8"
-			x: 5.0d
+			x: 4.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -170,7 +145,7 @@
 		}
 		{
 			id: "5481D386D057C81F"
-			x: 7.0d
+			x: 6.0d
 			y: -3.21d
 			shape: "diamond"
 			size: 1.25d
@@ -248,7 +223,7 @@
 		}
 		{
 			id: "266D4A32D75F321E"
-			x: 7.0d
+			x: 6.0d
 			y: -1.61d
 			shape: "diamond"
 			size: 1.25d
@@ -337,7 +312,7 @@
 		}
 		{
 			id: "50BAEAD6786FA6BA"
-			x: 7.0d
+			x: 6.0d
 			y: -0.01d
 			shape: "diamond"
 			size: 1.25d
@@ -418,7 +393,7 @@
 		}
 		{
 			id: "42EE829680649A76"
-			x: 7.0d
+			x: 6.0d
 			y: 1.59d
 			shape: "diamond"
 			size: 1.25d
@@ -500,7 +475,7 @@
 		}
 		{
 			id: "482800EE29693E75"
-			x: 7.0d
+			x: 6.0d
 			y: 3.19d
 			shape: "diamond"
 			size: 1.25d
@@ -591,7 +566,7 @@
 		}
 		{
 			id: "6CF570EABC5D894B"
-			x: 9.0d
+			x: 8.0d
 			y: -0.81d
 			size: 1.25d
 			dependencies: [
@@ -688,7 +663,7 @@
 		}
 		{
 			id: "49F0CDBA1137730D"
-			x: 9.0d
+			x: 8.0d
 			y: 0.79d
 			dependencies: [
 				"50BAEAD6786FA6BA"
@@ -751,7 +726,7 @@
 		}
 		{
 			id: "2EB10FE247F4131F"
-			x: 11.0d
+			x: 10.0d
 			y: -3.19d
 			shape: "diamond"
 			size: 1.25d
@@ -831,7 +806,7 @@
 		}
 		{
 			id: "06805654D5066478"
-			x: 11.0d
+			x: 10.0d
 			y: -1.59d
 			dependencies: [
 				"6CF570EABC5D894B"
@@ -892,7 +867,7 @@
 		}
 		{
 			id: "346039B6F17ED8DD"
-			x: 11.0d
+			x: 10.0d
 			y: 0.01d
 			size: 1.25d
 			dependencies: [
@@ -1005,7 +980,7 @@
 		}
 		{
 			id: "10C2C59F0570B1B2"
-			x: 11.0d
+			x: 10.0d
 			y: 1.61d
 			shape: "diamond"
 			icon: {
@@ -1053,7 +1028,7 @@
 		}
 		{
 			id: "5830B3BDAC64D5A7"
-			x: 11.0d
+			x: 10.0d
 			y: 3.21d
 			size: 1.25d
 			dependencies: [
@@ -1137,7 +1112,7 @@
 		}
 		{
 			id: "2ACD4352A23D80A6"
-			x: 13.0d
+			x: 12.0d
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
@@ -1243,7 +1218,7 @@
 		}
 		{
 			id: "441FDD21C07FF34D"
-			x: 16.0d
+			x: 15.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1276,7 +1251,7 @@
 		}
 		{
 			id: "7E5A5340EC686B0E"
-			x: 18.0d
+			x: 17.0d
 			y: -3.2d
 			size: 1.25d
 			dependencies: [
@@ -1375,7 +1350,7 @@
 		}
 		{
 			id: "661CED9B5C9FE638"
-			x: 18.0d
+			x: 17.0d
 			y: -1.6d
 			size: 1.25d
 			dependencies: [
@@ -1458,7 +1433,7 @@
 		}
 		{
 			id: "78BAE8D457B5E7FA"
-			x: 18.0d
+			x: 17.0d
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
@@ -1546,7 +1521,7 @@
 		}
 		{
 			id: "0D21253777446098"
-			x: 18.0d
+			x: 17.0d
 			y: 1.6d
 			dependencies: [
 				"441FDD21C07FF34D"
@@ -1615,7 +1590,7 @@
 		}
 		{
 			id: "031C680A02A119B4"
-			x: 18.0d
+			x: 17.0d
 			y: 3.2d
 			shape: "diamond"
 			icon: {
@@ -1667,7 +1642,7 @@
 		}
 		{
 			id: "139B342312205FED"
-			x: 20.0d
+			x: 19.0d
 			y: -3.2d
 			size: 1.25d
 			dependencies: [
@@ -1737,7 +1712,7 @@
 		}
 		{
 			id: "79591E9BC4AFA6FE"
-			x: 23.0d
+			x: 22.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1770,7 +1745,7 @@
 		}
 		{
 			id: "571CA0612AD19ECC"
-			x: 25.0d
+			x: 24.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
@@ -1839,7 +1814,7 @@
 		}
 		{
 			id: "502479F134CE6795"
-			x: 25.0d
+			x: 24.0d
 			y: 0.8d
 			dependencies: [
 				"79591E9BC4AFA6FE"
@@ -1893,7 +1868,7 @@
 		}
 		{
 			id: "568FA9D347D70A7D"
-			x: 27.0d
+			x: 26.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
@@ -1959,7 +1934,7 @@
 		}
 		{
 			id: "0585F78949068645"
-			x: 29.0d
+			x: 28.0d
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
@@ -2076,7 +2051,7 @@
 		}
 		{
 			id: "7549FAD10778F2AD"
-			x: 32.0d
+			x: 31.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -2109,7 +2084,7 @@
 		}
 		{
 			id: "260D9C335AC3B79F"
-			x: 34.0d
+			x: 33.0d
 			y: -1.6d
 			size: 1.25d
 			dependencies: [
@@ -2176,7 +2151,7 @@
 		}
 		{
 			id: "513B0BFE29339ADC"
-			x: 34.0d
+			x: 33.0d
 			y: 0.0d
 			shape: "diamond"
 			dependencies: [
@@ -2229,7 +2204,7 @@
 		}
 		{
 			id: "4247BE113531A88E"
-			x: 34.0d
+			x: 33.0d
 			y: 1.6d
 			shape: "diamond"
 			size: 1.25d
@@ -2304,7 +2279,7 @@
 		}
 		{
 			id: "7FDF4C823FC17BF6"
-			x: 37.0d
+			x: 36.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -2339,7 +2314,7 @@
 		}
 		{
 			id: "2BB3C5FEA0061EDE"
-			x: 39.0d
+			x: 38.0d
 			y: 0.0d
 			size: 1.25d
 			dependencies: [

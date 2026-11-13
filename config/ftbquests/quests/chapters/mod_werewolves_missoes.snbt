@@ -49,37 +49,12 @@
 			]
 		}
 		{
-			id: "197CA8F34F52BA34"
-			x: 0.0d
+			id: "64512900CE999EEB"
+			x: 1.0d
 			y: 0.0d
-			shape: "circle"
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "werewolves:werewolf_tooth"
-			}
 			dependencies: [
 				"7E8062C09AFC0ED7"
-			]
-			tasks: [
-				{
-					id: "57014D88067876DB"
-					type: "checkmark"
-				}
-			]
-			rewards: [ ]
-			title: "&fO Começo"
-			description: [
-				"&7As primeiras trilhas. A introdução fica na página ao lado."
-			]
-		}
-		{
-			id: "64512900CE999EEB"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"197CA8F34F52BA34"
 			]
 			icon: {
 				count: 1
@@ -171,7 +146,7 @@
 		}
 		{
 			id: "70178554A92A0F61"
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
@@ -277,7 +252,7 @@
 		}
 		{
 			id: "59AFB505BB321B1E"
-			x: 6.0d
+			x: 5.0d
 			y: 0.0d
 			dependencies: [
 				"70178554A92A0F61"
@@ -320,7 +295,7 @@
 		}
 		{
 			id: "339E9151BDF1EA17"
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -353,7 +328,7 @@
 		}
 		{
 			id: "7675B165BA7A63C1"
-			x: 11.0d
+			x: 10.0d
 			y: -2.0d
 			size: 1.25d
 			dependencies: [
@@ -464,7 +439,7 @@
 		}
 		{
 			id: "64D94840DBDC6F34"
-			x: 11.0d
+			x: 10.0d
 			y: -0.4d
 			shape: "diamond"
 			icon: {
@@ -530,7 +505,7 @@
 		}
 		{
 			id: "56EC85E63EB14296"
-			x: 11.0d
+			x: 10.0d
 			y: 1.2d
 			size: 1.25d
 			dependencies: [
@@ -603,7 +578,7 @@
 		}
 		{
 			id: "1A420B499C137101"
-			x: 11.0d
+			x: 10.0d
 			y: 2.8d
 			size: 1.25d
 			dependencies: [
@@ -677,7 +652,7 @@
 		}
 		{
 			id: "0FDBB3E4C38789B3"
-			x: 13.0d
+			x: 12.0d
 			y: -2.8d
 			size: 1.25d
 			dependencies: [
@@ -772,7 +747,7 @@
 		}
 		{
 			id: "2B70BCF7FB110B84"
-			x: 13.0d
+			x: 12.0d
 			y: -1.2d
 			dependencies: [
 				"7675B165BA7A63C1"
@@ -818,7 +793,7 @@
 		}
 		{
 			id: "281AE13ADA47F090"
-			x: 16.0d
+			x: 15.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -852,7 +827,7 @@
 		}
 		{
 			id: "7647C604E6B9AA2C"
-			x: 18.0d
+			x: 17.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
@@ -925,7 +900,7 @@
 		}
 		{
 			id: "683FD9592D2D9304"
-			x: 18.0d
+			x: 17.0d
 			y: 0.8d
 			dependencies: [
 				"281AE13ADA47F090"
@@ -964,7 +939,7 @@
 		}
 		{
 			id: "50D80AE3052FEB48"
-			x: 21.0d
+			x: 20.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -998,7 +973,7 @@
 		}
 		{
 			id: "44C5801DF2F29140"
-			x: 23.0d
+			x: 22.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
@@ -1090,7 +1065,7 @@
 		}
 		{
 			id: "33D5F8A352D22BCE"
-			x: 23.0d
+			x: 22.0d
 			y: 0.8d
 			dependencies: [
 				"50D80AE3052FEB48"
@@ -1149,7 +1124,7 @@
 		}
 		{
 			id: "665F98EF60190E9D"
-			x: 26.0d
+			x: 25.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1183,7 +1158,7 @@
 		}
 		{
 			id: "68B770D996B98032"
-			x: 28.0d
+			x: 27.0d
 			y: 0.0d
 			dependencies: [
 				"665F98EF60190E9D"

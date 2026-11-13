@@ -45,37 +45,12 @@
 			]
 		}
 		{
-			id: "5FB1FC1B9D397B72"
-			x: 0.0d
+			id: "6D0973D7E090DE24"
+			x: 1.0d
 			y: 0.0d
-			shape: "circle"
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "create_enchantment_industry:blaze_enchanter"
-			}
 			dependencies: [
 				"66907F98F427F762"
-			]
-			tasks: [
-				{
-					id: "63B9BDC966117EEC"
-					type: "checkmark"
-				}
-			]
-			rewards: [ ]
-			title: "&fO Começo"
-			description: [
-				"&7As primeiras trilhas. A introdução fica na página ao lado."
-			]
-		}
-		{
-			id: "6D0973D7E090DE24"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"5FB1FC1B9D397B72"
 			]
 			tasks: [
 				{
@@ -169,7 +144,7 @@
 		}
 		{
 			id: "6D6F3B40635F0050"
-			x: 5.0d
+			x: 4.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -202,7 +177,7 @@
 		}
 		{
 			id: "75284A0849724344"
-			x: 7.0d
+			x: 6.0d
 			y: -2.4d
 			dependencies: [
 				"6D6F3B40635F0050"
@@ -258,7 +233,7 @@
 		}
 		{
 			id: "0E2C1DA15F9A14C0"
-			x: 7.0d
+			x: 6.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
@@ -370,7 +345,7 @@
 		}
 		{
 			id: "192A2231D3BE9445"
-			x: 7.0d
+			x: 6.0d
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
@@ -445,7 +420,7 @@
 		}
 		{
 			id: "7A0858D97CC90AFF"
-			x: 7.0d
+			x: 6.0d
 			y: 2.4d
 			size: 1.25d
 			dependencies: [
@@ -536,7 +511,7 @@
 		}
 		{
 			id: "701B4F1CDC65512D"
-			x: 9.0d
+			x: 8.0d
 			y: -2.4d
 			dependencies: [
 				"75284A0849724344"
@@ -591,7 +566,7 @@
 		}
 		{
 			id: "52F43DD67DA62725"
-			x: 9.0d
+			x: 8.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
@@ -664,7 +639,7 @@
 		}
 		{
 			id: "1714524AD173AA7D"
-			x: 9.0d
+			x: 8.0d
 			y: 2.4d
 			size: 1.25d
 			dependencies: [
@@ -740,7 +715,7 @@
 		}
 		{
 			id: "2A579AB36109DE81"
-			x: 12.0d
+			x: 11.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -775,7 +750,7 @@
 		}
 		{
 			id: "5F470AB9A2C43D25"
-			x: 14.0d
+			x: 13.0d
 			y: -4.0d
 			size: 1.25d
 			dependencies: [
@@ -880,7 +855,7 @@
 		}
 		{
 			id: "61C88F31C3210015"
-			x: 14.0d
+			x: 13.0d
 			y: -2.4d
 			size: 1.25d
 			dependencies: [
@@ -961,7 +936,7 @@
 		}
 		{
 			id: "53F2BAA9619E37E3"
-			x: 14.0d
+			x: 13.0d
 			y: -0.8d
 			dependencies: [
 				"2A579AB36109DE81"
@@ -1022,7 +997,7 @@
 		}
 		{
 			id: "581AA114CC28855D"
-			x: 14.0d
+			x: 13.0d
 			y: 0.8d
 			dependencies: [
 				"2A579AB36109DE81"
@@ -1085,7 +1060,7 @@
 		}
 		{
 			id: "227ABDE581CE8DCB"
-			x: 14.0d
+			x: 13.0d
 			y: 2.4d
 			size: 1.25d
 			dependencies: [
@@ -1181,7 +1156,7 @@
 		}
 		{
 			id: "7577EF8743550BC9"
-			x: 14.0d
+			x: 13.0d
 			y: 4.0d
 			size: 1.25d
 			dependencies: [
@@ -1294,7 +1269,7 @@
 		}
 		{
 			id: "635B96652F3EE323"
-			x: 16.0d
+			x: 15.0d
 			y: -4.0d
 			size: 1.25d
 			dependencies: [
@@ -1387,7 +1362,7 @@
 		}
 		{
 			id: "7AE94C21FDDE112C"
-			x: 16.0d
+			x: 15.0d
 			y: 4.0d
 			size: 1.25d
 			dependencies: [
@@ -1479,7 +1454,7 @@
 		}
 		{
 			id: "1371B4615590AF18"
-			x: 19.0d
+			x: 18.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1513,7 +1488,7 @@
 		}
 		{
 			id: "6CB21E7021FF3C19"
-			x: 21.0d
+			x: 20.0d
 			y: -0.8d
 			dependencies: [
 				"1371B4615590AF18"
@@ -1566,7 +1541,7 @@
 		}
 		{
 			id: "124477AC068434F6"
-			x: 21.0d
+			x: 20.0d
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
@@ -1643,7 +1618,7 @@
 		}
 		{
 			id: "7E96AD240AF63CEF"
-			x: 23.0d
+			x: 22.0d
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
@@ -1728,7 +1703,7 @@
 		}
 		{
 			id: "2189BE44D0FB271B"
-			x: 26.0d
+			x: 25.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1761,7 +1736,7 @@
 		}
 		{
 			id: "3B34B49BD597D1FA"
-			x: 28.0d
+			x: 27.0d
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
@@ -1839,7 +1814,7 @@
 		}
 		{
 			id: "7E08B6CA3C912367"
-			x: 30.0d
+			x: 29.0d
 			y: 0.0d
 			dependencies: [
 				"3B34B49BD597D1FA"
@@ -1909,7 +1884,7 @@
 		}
 		{
 			id: "4DCBC234F750BC18"
-			x: 33.0d
+			x: 32.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1942,7 +1917,7 @@
 		}
 		{
 			id: "6510986A8F83BF8D"
-			x: 35.0d
+			x: 34.0d
 			y: 0.0d
 			dependencies: [
 				"4DCBC234F750BC18"

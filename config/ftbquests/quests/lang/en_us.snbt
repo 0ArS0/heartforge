@@ -1907,10 +1907,6 @@
 		""
 		"&7Comece pela pedra cinzenta: andesito e pepitas de ferro viram a primeira liga."
 	]
-	"quest.76996D95B0BA9B37.title": "&fO Começo"
-	"quest.76996D95B0BA9B37.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
-	]
 	"quest.342274A810C316AE.title": "A Pedra que Aprendeu a Girar"
 	"quest.342274A810C316AE.quest_desc": [
 		"&7Todo mestre engenheiro de Heartforge começou com as mãos sujas de andesito."
@@ -2520,10 +2516,6 @@
 		"&7A experiência líquida destas páginas é ingrediente do Coração do Tier IV."
 		"&7Comece pelo moedor: ele transforma pepitas de saber em rio verde."
 	]
-	"quest.5FB1FC1B9D397B72.title": "&fO Começo"
-	"quest.5FB1FC1B9D397B72.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
-	]
 	"quest.6D0973D7E090DE24.title": "O Rio Verde"
 	"quest.6D0973D7E090DE24.quest_desc": [
 		"&7Uma mó de andesita que não mói trigo: mói memórias."
@@ -2810,10 +2802,6 @@
 		"&7desafia o próprio &cGuardião de Gaia&7."
 		""
 		"&7Comece pelas flores místicas que brotam na grama, e escreva tudo no Lexica Botania."
-	]
-	"quest.4FC9259EF6DC4AA7.title": "&fO Começo"
-	"quest.4FC9259EF6DC4AA7.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
 	]
 	"quest.6AE71DBF49D3C441.title": "Pétalas que brilham"
 	"quest.6AE71DBF49D3C441.quest_desc": [
@@ -3664,10 +3652,6 @@
 		"&7Cada degrau da escada tem sua tinta, e os forjadores do Coração do Tier pedem todas elas."
 		"&7Comece colhendo &6Essência Arcana&7 em baús de ruínas e nos restos de magos."
 	]
-	"quest.40396646F6C46552.title": "&fO Começo"
-	"quest.40396646F6C46552.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
-	]
 	"quest.25843D46F0C5DEEB.title": "O Pó que Brilha"
 	"quest.25843D46F0C5DEEB.quest_desc": [
 		"&7Nas ruínas dos magos mortos sobra um pó azulado que pinica a pele. Os sábios o chamam de essência arcana."
@@ -4294,10 +4278,6 @@
 		"&7Cada grau exige um pentáculo maior e um giz mais raro. Errar uma runa custa caro."
 		""
 		"&7Comece pelo capim: arranque-o até achar as &6Sementes do Sonho do Demônio&7."
-	]
-	"quest.2C8790CCB1A9FEFA.title": "&fO Começo"
-	"quest.2C8790CCB1A9FEFA.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
 	]
 	"quest.0CAF07650EBB57E6.title": "O Capim que Sonha"
 	"quest.0CAF07650EBB57E6.quest_desc": [
@@ -4965,10 +4945,6 @@
 		""
 		"&7Comece pela &6Encruzilhada da Noite&7. Depois, escolha o seu lado."
 	]
-	"quest.212E600545713920.title": "&fO Começo"
-	"quest.212E600545713920.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
-	]
 	"quest.2185652AAB4F17D0.title": "A Encruzilhada da Noite"
 	"quest.2185652AAB4F17D0.quest_desc": [
 		"&7Todo viajante, cedo ou tarde, ouve passos que não são de homem atrás de si na estrada escura."
@@ -5355,10 +5331,6 @@
 		""
 		"&7Comece procurando uma &8Floresta de Lobisomens&7 e &6prata&7 nas montanhas."
 	]
-	"quest.197CA8F34F52BA34.title": "&fO Começo"
-	"quest.197CA8F34F52BA34.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
-	]
 	"quest.64512900CE999EEB.title": "A Mata Roxa"
 	"quest.64512900CE999EEB.quest_desc": [
 		"&7Jacarandás de flor roxa, árvores mágicas que cintilam no escuro e, entre elas, olhos amarelos que não piscam."
@@ -5533,10 +5505,6 @@
 		""
 		"&7Esta crônica segue o caminho do caçador: das fadas e dos grifos até a forja que só o sopro de um dragão acende."
 		"&7Comece reunindo &6manuscritos&7 e costurando o seu próprio &6Bestiário&7."
-	]
-	"quest.61EF03327FAF7F15.title": "&fO Começo"
-	"quest.61EF03327FAF7F15.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
 	]
 	"quest.0577BB6C64DC5268.title": "O Bestiário do Caçador"
 	"quest.0577BB6C64DC5268.quest_desc": [
@@ -6001,10 +5969,6 @@
 		""
 		"&7Comece pelas cavernas e pelas selvas. Os colossos esperam: eles têm todo o tempo do mundo."
 	]
-	"quest.7E15D50D09631EAD.title": "&fO Começo"
-	"quest.7E15D50D09631EAD.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
-	]
 	"quest.052FA5D9043F1425.title": "Rastros pelo Mundo"
 	"quest.052FA5D9043F1425.quest_desc": [
 		"&7O caçador errante não sai procurando monstros: ele lê os sinais que eles deixam."
@@ -6209,10 +6173,6 @@
 		""
 		"&7Os diários falam de uma capitã que mergulhou atrás de um tesouro e voltou outra coisa."
 		"&7Comece encontrando o &bLabirinto de Gelo&7, sobre o Deep Frozen Ocean."
-	]
-	"quest.58A4B05A7B807A68.title": "&fO Começo"
-	"quest.58A4B05A7B807A68.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
 	]
 	"quest.3CB9F9FBB8551617.title": "O Cemitério de Navios"
 	"quest.3CB9F9FBB8551617.quest_desc": [
@@ -6432,10 +6392,6 @@
 		"&7Todo titã derrubado deixa também o próprio &ccoração&7, troféu que se come por bênção e maldição."
 		""
 		"&7Comece pelo deserto: os koboletons cavam ruínas sob a areia."
-	]
-	"quest.41CEA3F19B61C2ED.title": "&fO Começo"
-	"quest.41CEA3F19B61C2ED.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
 	]
 	"quest.4635BF63F94949B6.title": "Os Oito Selos"
 	"quest.4635BF63F94949B6.quest_desc": [
@@ -6915,10 +6871,6 @@
 		"&7Esta crônica cataloga cada horror e o que se pode arrancar dele."
 		"&7Comece sobrevivendo a uma noite, e depois guarde o primeiro pedaço de metal sombrio."
 	]
-	"quest.66714C8A54AE228D.title": "&fO Começo"
-	"quest.66714C8A54AE228D.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
-	]
 	"quest.415F9CC6559614A4.title": "A primeira noite do Caos"
 	"quest.415F9CC6559614A4.quest_desc": [
 		"&7A primeira noite depois do Caos não se parece com nenhuma outra."
@@ -7307,10 +7259,6 @@
 		""
 		"&7Um velho erudito, o Cronista, coleciona essas lendas e paga em saber a quem lhe traz provas."
 		"&7Comece procurando a casa dele, perto de onde o mundo começou."
-	]
-	"quest.2671243C9462E7C5.title": "&fO Começo"
-	"quest.2671243C9462E7C5.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
 	]
 	"quest.569FDAFB2800A00D.title": "A casa do Cronista"
 	"quest.569FDAFB2800A00D.quest_desc": [
@@ -7922,10 +7870,6 @@
 		""
 		"&7Comece descendo: as cidades ficam nas grandes cavernas entre os níveis -32 e -20. Leve tochas e uma picareta de ferro."
 	]
-	"quest.1A25E26838F6252D.title": "&fO Começo"
-	"quest.1A25E26838F6252D.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
-	]
 	"quest.250350228C2E80A4.title": "Onde a Pedra Canta"
 	"quest.250350228C2E80A4.quest_desc": [
 		"&7Há quem jure ouvir martelos sob os pés quando a noite é silenciosa. Os velhos mineiros apenas acenam com a cabeça."
@@ -8292,10 +8236,6 @@
 		"&7Cada torre, cada templo, cada acampamento é uma recompensa para os pés cansados. Nenhum deles fica na porta de casa."
 		""
 		"&7Comece com um &6mapa&7, uma luneta e a disposição de andar até o horizonte. As &6Waystones&7 cuidarão da volta."
-	]
-	"quest.4A3FD4EF03A01A3B.title": "&fO Começo"
-	"quest.4A3FD4EF03A01A3B.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
 	]
 	"quest.5698C3AA6FE9D790.title": "Pé na Estrada"
 	"quest.5698C3AA6FE9D790.quest_desc": [
@@ -8675,10 +8615,6 @@
 		""
 		"&7Comece juntando &6pérolas do Ender&7. A jornada até o End começa muito antes de o portal acender."
 	]
-	"quest.7883420450974B80.title": "&fO Começo"
-	"quest.7883420450974B80.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
-	]
 	"quest.07F9956317F778B7.title": "O Olho das Trevas"
 	"quest.07F9956317F778B7.quest_desc": [
 		"&7Os endermen carregam no peito um pedaço do vazio. Quando morrem, ele cai no chão, ainda frio."
@@ -8949,10 +8885,6 @@
 		""
 		"&7Comece pela água limpa, por uma faca de sílex e por uma vara de ferro."
 		"&7Guarde na memória: a &6Torta de Maçã&7 que sai desta cozinha é ingrediente do &6Coração do Tier II&7."
-	]
-	"quest.080EDC852DFF272E.title": "&fO Começo"
-	"quest.080EDC852DFF272E.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
 	]
 	"quest.06D9934D97FC106C.title": "A Garganta Seca"
 	"quest.06D9934D97FC106C.quest_desc": [
@@ -9404,10 +9336,6 @@
 		"&7cozinham e cofres que só abrem para o dono."
 		""
 		"&7Comece por uma arma de ferro e uma mochila de couro. O resto o caminho entrega."
-	]
-	"quest.7FA2D5E3AADB87E3.title": "&fO Começo"
-	"quest.7FA2D5E3AADB87E3.quest_desc": [
-		"&7As primeiras trilhas. A introdução fica na página ao lado."
 	]
 	"quest.63C9F7FE8A4493C3.title": "O Baú que Morde"
 	"quest.63C9F7FE8A4493C3.quest_desc": [

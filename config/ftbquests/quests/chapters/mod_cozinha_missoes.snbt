@@ -45,40 +45,15 @@
 			]
 		}
 		{
-			id: "080EDC852DFF272E"
-			x: 0.0d
-			y: 0.0d
-			shape: "circle"
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "farmersdelight:cooking_pot"
-			}
-			dependencies: [
-				"454912634DAC2130"
-			]
-			tasks: [
-				{
-					id: "7006CCFB0384D5A5"
-					type: "checkmark"
-				}
-			]
-			rewards: [ ]
-			title: "&fO Começo"
-			description: [
-				"&7As primeiras trilhas. A introdução fica na página ao lado."
-			]
-		}
-		{
 			id: "06D9934D97FC106C"
-			x: 2.0d
+			x: 1.0d
 			y: -2.4d
 			icon: {
 				count: 1
 				id: "thirst:terracotta_water_bowl"
 			}
 			dependencies: [
-				"080EDC852DFF272E"
+				"454912634DAC2130"
 			]
 			tasks: [
 				{
@@ -133,11 +108,11 @@
 		}
 		{
 			id: "56D724E4311BA3DC"
-			x: 2.0d
+			x: 1.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
-				"080EDC852DFF272E"
+				"454912634DAC2130"
 			]
 			tasks: [
 				{
@@ -203,11 +178,11 @@
 		}
 		{
 			id: "4E3FC9ED73CF4D0E"
-			x: 2.0d
+			x: 1.0d
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
-				"080EDC852DFF272E"
+				"454912634DAC2130"
 			]
 			tasks: [
 				{
@@ -307,10 +282,10 @@
 		}
 		{
 			id: "43082E61A648EBB9"
-			x: 2.0d
+			x: 1.0d
 			y: 2.4d
 			dependencies: [
-				"080EDC852DFF272E"
+				"454912634DAC2130"
 			]
 			tasks: [
 				{
@@ -365,7 +340,7 @@
 		}
 		{
 			id: "2A8E1FC13A4173A9"
-			x: 5.0d
+			x: 4.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -401,7 +376,7 @@
 		}
 		{
 			id: "390870D06CA37562"
-			x: 7.0d
+			x: 6.0d
 			y: -4.24d
 			size: 1.25d
 			icon: {
@@ -483,7 +458,7 @@
 		}
 		{
 			id: "664CAD5152DCF2FD"
-			x: 7.0d
+			x: 6.0d
 			y: -2.64d
 			size: 1.25d
 			icon: {
@@ -606,7 +581,7 @@
 		}
 		{
 			id: "3D50B9D3E64F47C6"
-			x: 7.0d
+			x: 6.0d
 			y: -1.04d
 			size: 1.25d
 			icon: {
@@ -694,7 +669,7 @@
 		}
 		{
 			id: "5A08E63CE110925C"
-			x: 7.0d
+			x: 6.0d
 			y: 0.56d
 			size: 1.25d
 			icon: {
@@ -801,7 +776,7 @@
 		}
 		{
 			id: "18A39F44350325AF"
-			x: 7.0d
+			x: 6.0d
 			y: 2.16d
 			size: 1.25d
 			icon: {
@@ -918,7 +893,7 @@
 		}
 		{
 			id: "7B8ADFD30A2C1109"
-			x: 7.0d
+			x: 6.0d
 			y: 3.76d
 			size: 1.25d
 			icon: {
@@ -1038,7 +1013,7 @@
 		}
 		{
 			id: "3CFC754E19F37163"
-			x: 7.0d
+			x: 6.0d
 			y: 5.36d
 			size: 1.25d
 			icon: {
@@ -1145,7 +1120,7 @@
 		}
 		{
 			id: "5358793EC25ABBCE"
-			x: 9.0d
+			x: 8.0d
 			y: -5.36d
 			size: 1.25d
 			icon: {
@@ -1243,7 +1218,7 @@
 		}
 		{
 			id: "68D2A335CAA76AC3"
-			x: 9.0d
+			x: 8.0d
 			y: -3.76d
 			size: 1.25d
 			icon: {
@@ -1326,7 +1301,7 @@
 		}
 		{
 			id: "2858750B97CCC3E7"
-			x: 9.0d
+			x: 8.0d
 			y: -2.16d
 			size: 1.25d
 			icon: {
@@ -1423,7 +1398,7 @@
 		}
 		{
 			id: "4B57ECDE9769E7CB"
-			x: 9.0d
+			x: 8.0d
 			y: -0.56d
 			size: 1.25d
 			icon: {
@@ -1522,7 +1497,7 @@
 		}
 		{
 			id: "555E326A08EACA1D"
-			x: 9.0d
+			x: 8.0d
 			y: 4.24d
 			icon: {
 				count: 1
@@ -1590,7 +1565,7 @@
 		}
 		{
 			id: "3C084D723C46CB13"
-			x: 11.0d
+			x: 10.0d
 			y: -3.84d
 			size: 1.25d
 			icon: {
@@ -1671,7 +1646,7 @@
 		}
 		{
 			id: "6296715B711500BB"
-			x: 11.0d
+			x: 10.0d
 			y: -2.24d
 			size: 1.25d
 			icon: {
@@ -1767,7 +1742,7 @@
 		}
 		{
 			id: "2429DF129092B8FC"
-			x: 11.0d
+			x: 10.0d
 			y: -0.64d
 			shape: "gear"
 			icon: {
@@ -1821,7 +1796,7 @@
 		}
 		{
 			id: "19592851A00465AF"
-			x: 14.0d
+			x: 13.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1856,7 +1831,7 @@
 		}
 		{
 			id: "6ECF615D2FCCF3E3"
-			x: 16.0d
+			x: 15.0d
 			y: -7.2d
 			size: 1.25d
 			icon: {
@@ -1943,7 +1918,7 @@
 		}
 		{
 			id: "4853DBDC6F3A77EA"
-			x: 16.0d
+			x: 15.0d
 			y: -5.6d
 			size: 1.25d
 			icon: {
@@ -2022,7 +1997,7 @@
 		}
 		{
 			id: "19829F724BD219E0"
-			x: 16.0d
+			x: 15.0d
 			y: -4.0d
 			size: 1.25d
 			icon: {
@@ -2121,7 +2096,7 @@
 		}
 		{
 			id: "4DC1A1D9AD7E94EE"
-			x: 16.0d
+			x: 15.0d
 			y: -2.4d
 			size: 1.25d
 			icon: {
@@ -2218,7 +2193,7 @@
 		}
 		{
 			id: "0F6482F73C0219C3"
-			x: 16.0d
+			x: 15.0d
 			y: -0.8d
 			size: 1.25d
 			icon: {
@@ -2314,7 +2289,7 @@
 		}
 		{
 			id: "3C14D09514D0079A"
-			x: 16.0d
+			x: 15.0d
 			y: 0.8d
 			icon: {
 				count: 1
@@ -2382,7 +2357,7 @@
 		}
 		{
 			id: "064F313A2FA491BA"
-			x: 16.0d
+			x: 15.0d
 			y: 2.4d
 			size: 1.25d
 			icon: {
@@ -2489,7 +2464,7 @@
 		}
 		{
 			id: "53CEC067BE755836"
-			x: 16.0d
+			x: 15.0d
 			y: 4.0d
 			size: 1.25d
 			icon: {
@@ -2586,7 +2561,7 @@
 		}
 		{
 			id: "4CAE54066C158DF5"
-			x: 16.0d
+			x: 15.0d
 			y: 5.6d
 			size: 1.25d
 			icon: {
@@ -2682,7 +2657,7 @@
 		}
 		{
 			id: "6757E81C55EB8F60"
-			x: 16.0d
+			x: 15.0d
 			y: 7.2d
 			icon: {
 				count: 1
@@ -2750,7 +2725,7 @@
 		}
 		{
 			id: "6CEF29A9720B09B5"
-			x: 18.0d
+			x: 17.0d
 			y: -4.0d
 			size: 1.25d
 			icon: {
@@ -2831,7 +2806,7 @@
 		}
 		{
 			id: "4DD0871E883FDC72"
-			x: 21.0d
+			x: 20.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -2864,7 +2839,7 @@
 		}
 		{
 			id: "0B84EF4A85C6B7E9"
-			x: 23.0d
+			x: 22.0d
 			y: -0.8d
 			size: 1.25d
 			icon: {
@@ -2961,7 +2936,7 @@
 		}
 		{
 			id: "37DFF49D505D9C41"
-			x: 23.0d
+			x: 22.0d
 			y: 0.8d
 			size: 1.25d
 			icon: {
@@ -3030,7 +3005,7 @@
 		}
 		{
 			id: "05E09178F676FF4B"
-			x: 26.0d
+			x: 25.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -3064,7 +3039,7 @@
 		}
 		{
 			id: "7A5EFCFF8F1FCAC5"
-			x: 28.0d
+			x: 27.0d
 			y: 0.0d
 			icon: {
 				count: 1

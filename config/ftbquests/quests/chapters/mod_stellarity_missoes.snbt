@@ -45,40 +45,15 @@
 			]
 		}
 		{
-			id: "7883420450974B80"
-			x: 0.0d
-			y: 0.0d
-			shape: "circle"
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:ender_eye"
-			}
-			dependencies: [
-				"01924A8BE5645AAC"
-			]
-			tasks: [
-				{
-					id: "6EFDDA09190047B4"
-					type: "checkmark"
-				}
-			]
-			rewards: [ ]
-			title: "&fO Começo"
-			description: [
-				"&7As primeiras trilhas. A introdução fica na página ao lado."
-			]
-		}
-		{
 			id: "07F9956317F778B7"
-			x: 2.0d
+			x: 1.0d
 			y: 0.0d
 			icon: {
 				count: 1
 				id: "minecraft:ender_pearl"
 			}
 			dependencies: [
-				"7883420450974B80"
+				"01924A8BE5645AAC"
 			]
 			tasks: [
 				{
@@ -133,7 +108,7 @@
 		}
 		{
 			id: "1F8C1A9EEEADBBD8"
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 			icon: {
 				count: 1
@@ -204,7 +179,7 @@
 		}
 		{
 			id: "208DF476A9356889"
-			x: 7.0d
+			x: 6.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -237,7 +212,7 @@
 		}
 		{
 			id: "38685298A1A0CBB6"
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 			size: 1.25d
 			icon: {
@@ -311,7 +286,7 @@
 		}
 		{
 			id: "7D2E0954A2C89E3F"
-			x: 12.0d
+			x: 11.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -344,7 +319,7 @@
 		}
 		{
 			id: "371301DF0E0A32D3"
-			x: 14.0d
+			x: 13.0d
 			y: -0.3d
 			size: 1.25d
 			icon: {
@@ -419,7 +394,7 @@
 		}
 		{
 			id: "1BFB685530358E4A"
-			x: 16.0d
+			x: 15.0d
 			y: -0.3d
 			size: 1.25d
 			icon: {
@@ -492,7 +467,7 @@
 		}
 		{
 			id: "213347D1E2B6C676"
-			x: 18.0d
+			x: 17.0d
 			y: -2.7d
 			icon: {
 				count: 1
@@ -555,7 +530,7 @@
 		}
 		{
 			id: "3A8382176892D603"
-			x: 18.0d
+			x: 17.0d
 			y: -1.1d
 			icon: {
 				count: 1
@@ -622,7 +597,7 @@
 		}
 		{
 			id: "6BD5006517EE4E19"
-			x: 18.0d
+			x: 17.0d
 			y: 0.5d
 			size: 1.25d
 			icon: {
@@ -702,7 +677,7 @@
 		}
 		{
 			id: "4B43E1B3751C3C4D"
-			x: 18.0d
+			x: 17.0d
 			y: 2.1d
 			size: 1.25d
 			icon: {
@@ -786,7 +761,7 @@
 		}
 		{
 			id: "49F9D9F7A225DE8C"
-			x: 20.0d
+			x: 19.0d
 			y: -1.9d
 			size: 1.25d
 			icon: {
@@ -891,7 +866,7 @@
 		}
 		{
 			id: "42A95B3C8812D2B5"
-			x: 20.0d
+			x: 19.0d
 			y: -0.3d
 			icon: {
 				count: 1
@@ -962,7 +937,7 @@
 		}
 		{
 			id: "59247486A1DB7267"
-			x: 20.0d
+			x: 19.0d
 			y: 1.3d
 			size: 1.25d
 			icon: {
@@ -1045,7 +1020,7 @@
 		}
 		{
 			id: "17B55D1CEFE83737"
-			x: 20.0d
+			x: 19.0d
 			y: 2.9d
 			size: 1.25d
 			icon: {
@@ -1131,7 +1106,7 @@
 		}
 		{
 			id: "3F369CB0D83A724B"
-			x: 22.0d
+			x: 21.0d
 			y: -2.9d
 			icon: {
 				count: 1
@@ -1193,7 +1168,7 @@
 		}
 		{
 			id: "7A599A16D3808754"
-			x: 22.0d
+			x: 21.0d
 			y: -1.3d
 			icon: {
 				count: 1
@@ -1254,7 +1229,7 @@
 		}
 		{
 			id: "7A337C28531ABF81"
-			x: 22.0d
+			x: 21.0d
 			y: 0.3d
 			icon: {
 				count: 1
@@ -1325,7 +1300,7 @@
 		}
 		{
 			id: "75ED702A9FA022A3"
-			x: 22.0d
+			x: 21.0d
 			y: 2.3d
 			icon: {
 				count: 1
@@ -1375,7 +1350,7 @@
 		}
 		{
 			id: "730020287343EDD1"
-			x: 24.0d
+			x: 23.0d
 			y: -0.7d
 			size: 1.25d
 			icon: {
@@ -1493,7 +1468,7 @@
 		}
 		{
 			id: "0CDFAB0EB15BDD95"
-			x: 27.0d
+			x: 26.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1526,7 +1501,7 @@
 		}
 		{
 			id: "54D17D9495DB86DC"
-			x: 29.0d
+			x: 28.0d
 			y: -0.8d
 			size: 1.25d
 			icon: {
@@ -1600,7 +1575,7 @@
 		}
 		{
 			id: "10B0C19DD45B1225"
-			x: 29.0d
+			x: 28.0d
 			y: 0.8d
 			size: 1.25d
 			icon: {
@@ -1694,7 +1669,7 @@
 		}
 		{
 			id: "40A6046492862E25"
-			x: 31.0d
+			x: 30.0d
 			y: -0.8d
 			icon: {
 				count: 1

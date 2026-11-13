@@ -44,33 +44,8 @@
 			]
 		}
 		{
-			id: "7E15D50D09631EAD"
-			x: 0.0d
-			y: 0.0d
-			shape: "circle"
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "mowziesmobs:wrought_helmet"
-			}
-			dependencies: [
-				"7269B7900E8DBB57"
-			]
-			tasks: [
-				{
-					id: "4E0166149414A558"
-					type: "checkmark"
-				}
-			]
-			rewards: [ ]
-			title: "&fO Começo"
-			description: [
-				"&7As primeiras trilhas. A introdução fica na página ao lado."
-			]
-		}
-		{
 			id: "052FA5D9043F1425"
-			x: 2.0d
+			x: 1.0d
 			y: 0.0d
 			size: 1.25d
 			icon: {
@@ -78,7 +53,7 @@
 				id: "mowziesmobs:glowing_jelly"
 			}
 			dependencies: [
-				"7E15D50D09631EAD"
+				"7269B7900E8DBB57"
 			]
 			tasks: [
 				{
@@ -140,7 +115,7 @@
 		}
 		{
 			id: "2E16075BC70285BC"
-			x: 5.0d
+			x: 4.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -173,7 +148,7 @@
 		}
 		{
 			id: "204DF7B033FAEB9A"
-			x: 7.0d
+			x: 6.0d
 			y: -0.8d
 			icon: {
 				count: 1
@@ -235,7 +210,7 @@
 		}
 		{
 			id: "6838CE95DB097F9A"
-			x: 7.0d
+			x: 6.0d
 			y: 0.8d
 			size: 1.25d
 			icon: {
@@ -308,7 +283,7 @@
 		}
 		{
 			id: "2798A85C515C936A"
-			x: 9.0d
+			x: 8.0d
 			y: -0.8d
 			shape: "diamond"
 			icon: {
@@ -350,7 +325,7 @@
 		}
 		{
 			id: "40C95CF2F1B0E55A"
-			x: 9.0d
+			x: 8.0d
 			y: 0.8d
 			size: 1.25d
 			icon: {
@@ -428,7 +403,7 @@
 		}
 		{
 			id: "7AB254D209160064"
-			x: 12.0d
+			x: 11.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -462,7 +437,7 @@
 		}
 		{
 			id: "5423B114FB677DE7"
-			x: 14.0d
+			x: 13.0d
 			y: 0.0d
 			size: 1.25d
 			icon: {
@@ -542,7 +517,7 @@
 		}
 		{
 			id: "5EAC5025A873BF53"
-			x: 17.0d
+			x: 16.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -575,7 +550,7 @@
 		}
 		{
 			id: "35DD9F2EF17A0208"
-			x: 19.0d
+			x: 18.0d
 			y: -0.8d
 			icon: {
 				count: 1
@@ -635,7 +610,7 @@
 		}
 		{
 			id: "7C3CBDA00C6EAD4B"
-			x: 19.0d
+			x: 18.0d
 			y: 0.8d
 			size: 1.25d
 			icon: {
@@ -707,7 +682,7 @@
 		}
 		{
 			id: "545BDDC2E24C24F5"
-			x: 22.0d
+			x: 21.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -741,7 +716,7 @@
 		}
 		{
 			id: "150C4D2DBCC906F4"
-			x: 24.0d
+			x: 23.0d
 			y: -0.8d
 			shape: "diamond"
 			icon: {
@@ -800,7 +775,7 @@
 		}
 		{
 			id: "65D10F035C333F29"
-			x: 24.0d
+			x: 23.0d
 			y: 0.8d
 			size: 1.25d
 			icon: {
@@ -869,7 +844,7 @@
 		}
 		{
 			id: "5EA72B1C106DBC19"
-			x: 27.0d
+			x: 26.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -903,7 +878,7 @@
 		}
 		{
 			id: "62CCE1FFDAFC895E"
-			x: 29.0d
+			x: 28.0d
 			y: -0.53d
 			icon: {
 				count: 1
@@ -965,7 +940,7 @@
 		}
 		{
 			id: "37C94A7F2D6E817C"
-			x: 29.0d
+			x: 28.0d
 			y: 1.07d
 			shape: "diamond"
 			size: 1.25d
@@ -1035,7 +1010,7 @@
 		}
 		{
 			id: "6BF90D0617568D71"
-			x: 31.0d
+			x: 30.0d
 			y: -1.6d
 			size: 1.25d
 			icon: {
@@ -1120,7 +1095,7 @@
 		}
 		{
 			id: "74CB677FF10AA83E"
-			x: 31.0d
+			x: 30.0d
 			y: 0.0d
 			shape: "diamond"
 			icon: {
@@ -1175,7 +1150,7 @@
 		}
 		{
 			id: "0BB1FA474600D3DB"
-			x: 31.0d
+			x: 30.0d
 			y: 1.6d
 			icon: {
 				count: 1

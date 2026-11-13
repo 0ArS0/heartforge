@@ -51,37 +51,12 @@
 			]
 		}
 		{
-			id: "212E600545713920"
-			x: 0.0d
+			id: "2185652AAB4F17D0"
+			x: 1.0d
 			y: 0.0d
-			shape: "circle"
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "vampirism:vampire_fang"
-			}
 			dependencies: [
 				"419E736DAFB87A6D"
-			]
-			tasks: [
-				{
-					id: "1C5D097F3986AB9A"
-					type: "checkmark"
-				}
-			]
-			rewards: [ ]
-			title: "&fO Começo"
-			description: [
-				"&7As primeiras trilhas. A introdução fica na página ao lado."
-			]
-		}
-		{
-			id: "2185652AAB4F17D0"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"212E600545713920"
 			]
 			icon: {
 				count: 1
@@ -150,7 +125,7 @@
 		}
 		{
 			id: "28BEF2E097218D1C"
-			x: 4.0d
+			x: 3.0d
 			y: -1.6d
 			dependencies: [
 				"2185652AAB4F17D0"
@@ -211,7 +186,7 @@
 		}
 		{
 			id: "52B0F0BE75D0CF07"
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
@@ -287,7 +262,7 @@
 		}
 		{
 			id: "40EE7C6EF318FCA9"
-			x: 4.0d
+			x: 3.0d
 			y: 1.6d
 			dependencies: [
 				"2185652AAB4F17D0"
@@ -342,7 +317,7 @@
 		}
 		{
 			id: "0AE3AA51BD3FC0D0"
-			x: 6.0d
+			x: 5.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
@@ -428,7 +403,7 @@
 		}
 		{
 			id: "40FF1F3A6D96E950"
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -461,7 +436,7 @@
 		}
 		{
 			id: "34A1260A5FB16403"
-			x: 11.0d
+			x: 10.0d
 			y: -4.32d
 			shape: "diamond"
 			icon: {
@@ -511,7 +486,7 @@
 		}
 		{
 			id: "4777558829C011E6"
-			x: 11.0d
+			x: 10.0d
 			y: -2.72d
 			size: 1.25d
 			dependencies: [
@@ -612,7 +587,7 @@
 		}
 		{
 			id: "7A68794BF7EACA21"
-			x: 11.0d
+			x: 10.0d
 			y: -1.12d
 			size: 1.25d
 			dependencies: [
@@ -695,7 +670,7 @@
 		}
 		{
 			id: "197841025ABA682B"
-			x: 11.0d
+			x: 10.0d
 			y: 0.48d
 			size: 1.25d
 			dependencies: [
@@ -778,7 +753,7 @@
 		}
 		{
 			id: "5C748E49951F2002"
-			x: 11.0d
+			x: 10.0d
 			y: 2.08d
 			size: 1.25d
 			dependencies: [
@@ -854,7 +829,7 @@
 		}
 		{
 			id: "572B7C04F1CBC19C"
-			x: 11.0d
+			x: 10.0d
 			y: 3.68d
 			dependencies: [
 				"40FF1F3A6D96E950"
@@ -910,7 +885,7 @@
 		}
 		{
 			id: "0DAB96358A574DC2"
-			x: 11.0d
+			x: 10.0d
 			y: 5.28d
 			size: 1.25d
 			dependencies: [
@@ -1005,7 +980,7 @@
 		}
 		{
 			id: "39B72B4ED34A33C2"
-			x: 13.0d
+			x: 12.0d
 			y: -5.28d
 			size: 1.25d
 			dependencies: [
@@ -1074,7 +1049,7 @@
 		}
 		{
 			id: "1BAF8B15C237D1FB"
-			x: 13.0d
+			x: 12.0d
 			y: -3.68d
 			size: 1.25d
 			dependencies: [
@@ -1149,7 +1124,7 @@
 		}
 		{
 			id: "0C9FC4628508248A"
-			x: 13.0d
+			x: 12.0d
 			y: -2.08d
 			size: 1.25d
 			dependencies: [
@@ -1236,7 +1211,7 @@
 		}
 		{
 			id: "696304569808AD8E"
-			x: 13.0d
+			x: 12.0d
 			y: -0.48d
 			dependencies: [
 				"4777558829C011E6"
@@ -1295,7 +1270,7 @@
 		}
 		{
 			id: "4014C6FE05AD8547"
-			x: 13.0d
+			x: 12.0d
 			y: 2.72d
 			size: 1.25d
 			dependencies: [
@@ -1361,7 +1336,7 @@
 		}
 		{
 			id: "0DF4B038AE96B2EA"
-			x: 16.0d
+			x: 15.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1398,7 +1373,7 @@
 		}
 		{
 			id: "34972E67FF805C4B"
-			x: 18.0d
+			x: 17.0d
 			y: 0.0d
 			icon: {
 				count: 1
@@ -1440,7 +1415,7 @@
 		}
 		{
 			id: "1031BB556ECCBEE1"
-			x: 18.0d
+			x: 17.0d
 			y: 1.6d
 			size: 1.25d
 			dependencies: [
@@ -1542,7 +1517,7 @@
 		}
 		{
 			id: "415E82F904596686"
-			x: 20.0d
+			x: 19.0d
 			y: -1.6d
 			dependencies: [
 				"34972E67FF805C4B"
@@ -1592,7 +1567,7 @@
 		}
 		{
 			id: "18F422D54E37240F"
-			x: 20.0d
+			x: 19.0d
 			y: -0.0d
 			dependencies: [
 				"34972E67FF805C4B"
@@ -1653,7 +1628,7 @@
 		}
 		{
 			id: "43D4D6A9663D8BEC"
-			x: 20.0d
+			x: 19.0d
 			y: 1.6d
 			size: 1.25d
 			dependencies: [
@@ -1753,7 +1728,7 @@
 		}
 		{
 			id: "37DFC3745A6DB22E"
-			x: 23.0d
+			x: 22.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -1788,7 +1763,7 @@
 		}
 		{
 			id: "2B6370FEC1A8426B"
-			x: 25.0d
+			x: 24.0d
 			y: -2.4d
 			size: 1.25d
 			dependencies: [
@@ -1865,7 +1840,7 @@
 		}
 		{
 			id: "4A648D111EDAD462"
-			x: 25.0d
+			x: 24.0d
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
@@ -1945,7 +1920,7 @@
 		}
 		{
 			id: "40AFA827B348878A"
-			x: 25.0d
+			x: 24.0d
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
@@ -2023,7 +1998,7 @@
 		}
 		{
 			id: "62B7D292576E0C2B"
-			x: 25.0d
+			x: 24.0d
 			y: 2.4d
 			dependencies: [
 				"37DFC3745A6DB22E"
@@ -2079,7 +2054,7 @@
 		}
 		{
 			id: "5D9615D12D75EA10"
-			x: 27.0d
+			x: 26.0d
 			y: -2.4d
 			size: 1.25d
 			dependencies: [
@@ -2148,7 +2123,7 @@
 		}
 		{
 			id: "00989E0EBBF7BC05"
-			x: 27.0d
+			x: 26.0d
 			y: 2.4d
 			size: 1.25d
 			dependencies: [
@@ -2216,7 +2191,7 @@
 		}
 		{
 			id: "56B355942F67E66D"
-			x: 30.0d
+			x: 29.0d
 			y: 0.0d
 			shape: "hexagon"
 			size: 1.5d
@@ -2250,7 +2225,7 @@
 		}
 		{
 			id: "34E06C5191F110B7"
-			x: 32.0d
+			x: 31.0d
 			y: -0.8d
 			dependencies: [
 				"56B355942F67E66D"
@@ -2311,7 +2286,7 @@
 		}
 		{
 			id: "66EC12370C4C7E9F"
-			x: 32.0d
+			x: 31.0d
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
