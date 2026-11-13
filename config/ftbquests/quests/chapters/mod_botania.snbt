@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_botania"
+	group: "0BD654FB0C580B11"
+	icon: {
+		count: 1
+		id: "botania:lexicon"
+	}
+	id: "0ABC69F79D6B204D"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7300DD08C121A977"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "botania:lexicon"
+			}
+			tasks: [
+				{
+					id: "78C08E4C2B64FCE3"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "3D2CDD6BE3DA25AB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Lexicon"
+			description: [
+				"&7Antes das forjas de vapor, antes das coroas anãs, os elfos caminhavam por estas terras."
+				"&7Partiram há eras, mas deixaram para trás a &bmana&7, uma energia que dorme nas flores."
+				"&7Quem aprende a colhê-la ergue piscinas de luz, forja metais vivos e, por fim,"
+				"&7desafia o próprio &cGuardião de Gaia&7."
+				""
+				"&7Comece pelas flores místicas que brotam na grama, e escreva tudo no Lexica Botania."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"A magia das flores"
+	]
+}

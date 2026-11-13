@@ -1,0 +1,13 @@
+name = "emf_compat_not_enough_animations_neoforge_1.21.1_1.2.1"
+filename = "emf_compat_not_enough_animations_neoforge_1.21.1_1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IGCrWfL7/versions/X9UBK5Uu/emf_compat_not_enough_animations_neoforge_1.21.1_1.2.1.jar"
+hash-format = "sha1"
+hash = "43af485fd34e6e7e1c0335389be0f7ff628296b6"
+
+[update]
+[update.modrinth]
+mod-id = "IGCrWfL7"
+version = "X9UBK5Uu"

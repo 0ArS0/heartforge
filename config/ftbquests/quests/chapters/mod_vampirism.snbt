@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_vampirism"
+	group: "3147F27B282022B5"
+	icon: {
+		count: 1
+		id: "vampirism:vampire_fang"
+	}
+	id: "7FF9C4B703E64E2F"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			id: "419E736DAFB87A6D"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "vampirism:vampire_fang"
+			}
+			tasks: [
+				{
+					id: "2FDF01E3F5A399C4"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1AC86CB7ED115F2F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "A Guerra da Noite"
+			description: [
+				"&7Há séculos as aldeias de Heartforge trancam as portas ao pôr do sol. Nas florestas de névoa vivem os que bebem sangue,"
+				"&7e atrás deles marcham os caçadores, com estacas, alho e água benta. Entre os jacarandás roxos, uma terceira raça"
+				"&7não bebe: devora. São os lobisomens, que têm crônica própria."
+				""
+				"&7Cada alma jura a &4uma só facção&7: &4Vampiro&7, &9Caçador&7 ou &8Lobisomem&7. Quem jurou a uma não serve às outras"
+				"&7sem antes se curar. Os marcadores &4[Vampiro]&7 e &9[Caçador]&7 dizem a que caminho cada página pertence; as páginas sem marcador"
+				"&7servem a todos, e &5[Banquete]&7 é a cozinha da noite, opcional."
+				""
+				"&7Os ferreiros do Coração pagam pelo que cada facção arranca da outra: &6presas&7, &6corações humanos&7, &6sangue puro&7,"
+				"&7&6inteligência de caçador&7 e &6peles de lobisomem&7 entram nos Corações do Tier."
+				""
+				"&7Comece pela &6Encruzilhada da Noite&7. Depois, escolha o seu lado."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Sangue, alho e estacas"
+	]
+}

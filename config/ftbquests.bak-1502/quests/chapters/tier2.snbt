@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier2"
+	group: ""
+	icon: {
+		id: "comamigos_balance:tier_heart_3"
+	}
+	id: "55665AA5ECC6F688"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1CABC71AF09A60B7"]
+			id: "47FF0B2D7185F617"
+			rewards: [{
+				id: "578F467751186B74"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6D0BD8220D263627"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47FF0B2D7185F617"]
+			id: "0E885F597F41B8C0"
+			rewards: [{
+				id: "0C1C1A87B75546B9"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 16L
+				id: "761BE0772D3EA7F4"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: ["0E885F597F41B8C0"]
+			id: "671BD4E1392266A3"
+			rewards: [{
+				id: "4D769844781D3A4B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 2L
+				id: "66646C647B5B0EB9"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -2.4000000000000004d
+		}
+		{
+			id: "20A3640DB58E167D"
+			rewards: [{
+				id: "0F4E2EB900AE874D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 9L
+				id: "0412162BADA30168"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 5.2d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: ["47FF0B2D7185F617"]
+			id: "1D81A4A503A9EB37"
+			rewards: [{
+				id: "3593910B2074C969"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "70D114F0FE1DC040"
+				item: { count: 1, id: "botania:runic_altar" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["1D81A4A503A9EB37"]
+			id: "18236F78CCBF739D"
+			rewards: [{
+				id: "60AD038A6C1106AD"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "48E68708C223E377"
+				item: { count: 1, id: "botania:rune_water" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -0.8d
+		}
+		{
+			dependencies: ["47FF0B2D7185F617"]
+			id: "38F122B21B6E51CC"
+			rewards: [{
+				id: "0098F43C5A622533"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "2F2D65357AA0BF7A"
+				item: { count: 1, id: "irons_spellbooks:uncommon_ink" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["38F122B21B6E51CC"]
+			id: "1E1DF71DE8206BCA"
+			rewards: [{
+				id: "41957055BABE635A"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "1C527B9A0F8DAA9C"
+				item: { count: 1, id: "occultism:spirit_attuned_gem" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 0.8d
+		}
+		{
+			dependencies: ["47FF0B2D7185F617"]
+			id: "6C9CB1287D415BE6"
+			rewards: [{
+				id: "3A640D4F878B843B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "329FC6B2F99F01A7"
+				item: { count: 1, id: "iceandfire:troll_tusk" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: ["6C9CB1287D415BE6"]
+			id: "32E56D57387FA8A5"
+			rewards: [{
+				id: "716F47EF26B1958C"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 2L
+				id: "139BC7AC381B716E"
+				item: { count: 1, id: "born_in_chaos_v1:dark_metal_ingot" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: ["32E56D57387FA8A5"]
+			id: "326F030CFD7BB4A5"
+			rewards: [{
+				id: "69C97B7FBF282FEF"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "234D548E151CA3A1"
+				item: { count: 1, id: "aquamirae:ship_graveyard_echo" }
+				type: "item"
+			}]
+			x: 5.2d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: ["47FF0B2D7185F617"]
+			id: "0B0D6CAF2F6BB19E"
+			rewards: [{
+				id: "0AB815769A67A604"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "4BA043905A46CE73"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.800000000000001d
+			y: -3.2d
+		}
+		{
+			dependencies: ["47FF0B2D7185F617"]
+			id: "2820CCA849119B77"
+			rewards: [{
+				id: "47129015B8901DE3"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5A12989440069CE9"
+				item: { count: 1, id: "comamigos_balance:purifying_elixir_1" }
+				type: "item"
+			}]
+			x: 6.800000000000001d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"20A3640DB58E167D"
+				"18236F78CCBF739D"
+				"1E1DF71DE8206BCA"
+				"326F030CFD7BB4A5"
+				"0B0D6CAF2F6BB19E"
+			]
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "7F1988C32BAA160D"
+			rewards: [{
+				id: "4FACB41CA9AB39A0"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				id: "52D471754152F956"
+				item: { count: 1, id: "comamigos_balance:tier_heart_3" }
+				type: "item"
+			}]
+			x: 8.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F1988C32BAA160D"]
+			id: "31B1521C66801A23"
+			rewards: [{
+				id: "46FD050C09ACE685"
+				type: "xp"
+				xp: 2000
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "6393F897FE8AF9F9"
+				type: "advancement"
+			}]
+			x: 10.8d
+			y: 0.0d
+		}
+	]
+}

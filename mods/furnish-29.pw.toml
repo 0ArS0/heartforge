@@ -1,0 +1,13 @@
+name = "furnish-29"
+filename = "furnish-29.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5cWCtJmf/versions/U74yfiJd/furnish-29.jar"
+hash-format = "sha1"
+hash = "09377c7d12a9db651ca8e688b65a7b16dd369300"
+
+[update]
+[update.modrinth]
+mod-id = "5cWCtJmf"
+version = "U74yfiJd"

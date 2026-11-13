@@ -1,0 +1,13 @@
+name = "IBOMD v1.0.0-1.21.1"
+filename = "IBOMD v1.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/N5Xy3ON4/versions/AVGpVnI8/IBOMD%20v1.0.0-1.21.1.jar"
+hash-format = "sha1"
+hash = "eb279322e3e7937b190974aa096f28de4e1b7fa8"
+
+[update]
+[update.modrinth]
+mod-id = "N5Xy3ON4"
+version = "AVGpVnI8"

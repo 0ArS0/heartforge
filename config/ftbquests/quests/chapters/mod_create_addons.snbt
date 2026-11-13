@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create_addons"
+	group: "3B08ACB5CE59F3E7"
+	icon: {
+		count: 1
+		id: "create_enchantment_industry:blaze_enchanter"
+	}
+	id: "7D111C157DCB10B7"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "66907F98F427F762"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			tasks: [
+				{
+					id: "2E4B94EC837FC25D"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "39A65DF647ACB2C4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Os Apêndices do Engenheiro"
+			description: [
+				"&7Todo grande livro de engenharia ganha apêndices escritos por mãos diferentes."
+				"&7Aqui estão as notas dos que ensinaram blazes a encantar, cobre a carregar raios"
+				"&7e engrenagens a guardar força para depois."
+				""
+				"&7A experiência líquida destas páginas é ingrediente do Coração do Tier IV."
+				"&7Comece pelo moedor: ele transforma pepitas de saber em rio verde."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Experiência líquida, eletricidade e engenhocas"
+	]
+}

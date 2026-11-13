@@ -1,0 +1,13 @@
+name = "packed_packs-neoforge-2.3.1+1.21.1"
+filename = "packed_packs-neoforge-2.3.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8Pq6Exn2/versions/2AeJ4zF8/packed_packs-neoforge-2.3.1%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "b6fe7efebe7ab8de87a68a782d5cdf01c73e88ad"
+
+[update]
+[update.modrinth]
+mod-id = "8Pq6Exn2"
+version = "2AeJ4zF8"

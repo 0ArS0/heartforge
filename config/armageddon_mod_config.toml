@@ -1,0 +1,535 @@
+	[Progession.is_progression_activate]
+		#When false it will delete the progression lock of the mod (unbreakable ores blocks until [...], unusable tools etc...). Default = true
+		is_progression_activate = true
+
+	[Progession.is_nether_blocked]
+		#If true the nether will be blocked until Eldorath is defeated. Default = true
+		is_nether_blocked = true
+
+	[Progession.are_enchanted_tools_blocked]
+		#If true the enchanted tools will not be usable until Eldorath's death. Default = true
+		are_enchanted_tools_blocked = true
+
+	[Progession.are_blocks_and_ores_locked]
+		#When false you can still mine Ores or Blocks that are by default locked, you can't use ore until a boss is defeated still! Default = true
+		are_blocks_and_ores_locked = true
+
+["Colored Tooltip (items name and border color)"]
+	#When true, it will activate the colored tooltip in inventory. You disable that if you encounter some issues with it. (Default = true)
+	colored_tooltip = true
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".iron_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Iron Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			iron_tier_blocks_restricted_addition = ["minecraft:iron_ore", "minecraft:iron_block"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".gold_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Gold Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			gold_tier_blocks_restricted_addition = ["minecraft:gold_ore", "minecraft:gold_block"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".emerald_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Emerald Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			emerald_tier_blocks_restricted_addition = ["minecraft:emerald_ore", "minecraft:emerald_block"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".diamond_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Diamond Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			diamond_tier_blocks_restricted_addition = ["minecraft:diamond_ore", "minecraft:diamond_block"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".netherite_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Netherite Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			netherite_tier_blocks_restricted_addition = ["minecraft:netherite_ore", "minecraft:netherite_block"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".elvenite_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Elvenite Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			elvenite_tier_blocks_restricted_addition = ["armageddon_mod:elvenite_ore", "armageddon_mod:elvenite_block"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".voiderite_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Voiderite Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			voiderite_tier_blocks_restricted_addition = ["armageddon_mod:voiderite_ore", "armageddon_mod:voiderite_block"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".cataclysmic_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Calamities are defeated. Two examples are inserted by default, they can be changed. 
+			cataclysmic_tier_blocks_restricted_addition = ["blank"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".bloody_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Blood Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			bloody_tier_blocks_restricted_addition = ["armageddon_mod:bloody_ore", "armageddon_mod:bloody_block"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".sun_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Sun Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			sun_tier_blocks_restricted_addition = ["armageddon_mod:helionite_ore", "armageddon_mod:helionite_block"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Blocks".shadow_tier_blocks_restricted_addition]
+			#You can add in this list the registry name (ID) of any block that will be blocked until The Shadow Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			shadow_tier_blocks_restricted_addition = ["blank"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".iron_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Iron Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			iron_tier_tools_restricted_addition = ["minecraft:iron_sword", "minecraft:iron_pickaxe"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".gold_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Gold Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			gold_tier_tools_restricted_addition = ["minecraft:gold_sword", "minecraft:gold_pickaxe"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".emerald_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Emerald Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			emerald_tier_tools_restricted_addition = ["minecraft:emerald_sword", "minecraft:emerald_pickaxe"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".diamond_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Diamond Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			diamond_tier_tools_restricted_addition = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".netherite_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Netherite Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			netherite_tier_tools_restricted_addition = ["minecraft:netherite_sword", "minecraft:netherite_pickaxe"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".elvenite_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Elvenite Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			elvenite_tier_tools_restricted_addition = ["armageddon_mod:elvenite_sword", "armageddon_mod:elvenite_pickaxe"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".voiderite_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Voiderite Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			voiderite_tier_tools_restricted_addition = ["armageddon_mod:voiderite_sword", "armageddon_mod:voiderite_pickaxe"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".cataclysmic_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Calamities are defeated. Two examples are inserted by default, they can be changed. 
+			cataclysmic_tier_tools_restricted_addition = ["armageddon_mod:the_chaosphere_blade", "armageddon_mod:the_rift_piercer"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".bloody_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Bloody Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			bloody_tier_tools_restricted_addition = ["armageddon_mod:bloody_sword", "armageddon_mod:bloody_pickaxe"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".sun_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Sun Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			sun_tier_tools_restricted_addition = ["armageddon_mod:helionite_sword", "armageddon_mod:helionite_pickaxe"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Tools".shadow_tier_tools_restricted_addition]
+			#You can add in this list the registry name (ID) of any tools that will be blocked until The Shadow Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			shadow_tier_tools_restricted_addition = ["blank"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".iron_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Iron Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			iron_tier_armors_restricted_addition = ["minecraft:iron_chestplate", "minecraft:iron_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".gold_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Gold Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			gold_tier_armors_restricted_addition = ["minecraft:gold_chestplate", "minecraft:gold_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".emerald_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Emerald Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			emerald_tier_armors_restricted_addition = ["minecraft:emerald_chestplate", "minecraft:emerald_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".diamond_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Diamond Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			diamond_tier_armors_restricted_addition = ["minecraft:diamond_chestplate", "minecraft:diamond_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".netherite_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Netherite Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			netherite_tier_armors_restricted_addition = ["minecraft:netherite_chestplate", "minecraft:netherite_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".elvenite_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Elvenite Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			elvenite_tier_armors_restricted_addition = ["minecraft:elvenite_chestplate", "minecraft:elvenite_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".voiderite_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Voiderite Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			voiderite_tier_armors_restricted_addition = ["minecraft:voiderite_chestplate", "minecraft:voiderite_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".cataclysmic_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Cataclymic Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			cataclysmic_tier_armors_restricted_addition = ["minecraft:calamitous_chestplate", "minecraft:calamitous_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".bloody_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Bloody Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			bloody_tier_armors_restricted_addition = ["minecraft:bloody_chestplate", "minecraft:bloody_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".sun_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Sun Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			sun_tier_armors_restricted_addition = ["minecraft:helionite_chestplate", "minecraft:helionite_boots"]
+
+		["Blocked Blocks, Items, Armors Customisation"."Blocked Armors".shadow_tier_armors_restricted_addition]
+			#You can add in this list the registry name (ID) of any armor parts that will be blocked until The Shadow Keeper is defeated. Two examples are inserted by default, they can be changed. 
+			shadow_tier_armors_restricted_addition = ["blank"]
+
+	["Lore Scrolls"."Iron Colossus Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		iron_colossus_lore_scroll = ["The Iron Colossus was an ancient golem, far more powerful than those of modern times. It was built by the Ancients Builders, its body adorned with streams of pure iron, and an allium flower had even grown on its head, a symbol of life within the metal. Forged to protect, it sustained heavy damage during The Armageddon War. In a final desperate act, it was designated as the Iron Keeper, the guardian of iron, to ensure that no one would wield its power. Unfortunately, it failed, condemned to wander the depths, guarding the secrets it could not defend."]
+
+	["Lore Scrolls"."The Goblin Lord Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		goblin_lord_lore_scroll = ["Being a member of the ancient faction of goblins that once ruled over gold, the Goblin Lord was one of the few survivors after the total annihilation of his clan. Once known for his cowardly nature, he took advantage of the chaos to self-proclaim himself as the lord and guardian of gold. His boundless ambition allowed him to seize not only the treasures of his fallen people but also those of the golden depths. After demonstrating his strength and determination to protect gold at all costs, he too will ultimately fail..."]
+
+	["Lore Scrolls"."Arion Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		arion_lore_scroll = ["Arion, once a simple Illager from ancient times, became a great soldier during the Armageddon War. A formidable strategist and warrior, he transcended his humble status by defeating numerous Ancient Builders, therefore seizing the mystical power of the emeralds. Impressed by his strength and cunning, his peers appointed him as the Emerald Keeper, bestowing upon him ancient artifacts to perfect his mastery. He was even named Arion, Tyrant of the Emerald Wrath by his mates. And now, Arion guards this power, with ambitions matched only by his thirst for domination."]
+
+	["Lore Scrolls"."Eldorath Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		eldorath_lore_scroll = ["The Ancient Builders were simply the most advanced form of life in ancient times. They mastered all ores, all resources, and more: a form of magic that, while not highly advanced, was powerful enough to create entities like the Wither. They had understood how to survive in this world, and their constructions today stand as remnants of their intelligence. Unfortunately for them, during the Armageddon War, they were forced into hiding, particularly in the Nether and the End. Their fallen souls adapted, transforming into Endermen or Piglins, desperately trying to return to the Overworld at any cost. Eldorath, however, managed to escape all of this, and thanks to his boundless knowledge, he proclaimed himself the Diamond Keeper, the guardian of the Overworld..."]
+
+	["Lore Scrolls"."Zoranth Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		zoranth_lore_scroll = ["Once an explorer among the Ancient Builders, Zoranth was sent after the Armageddon War to the Nether, a land still scarcely explored at that time despite the power of his people. His mission was to find the villagers who had been condemned to wander in this dimension, forced to become piglins or other creatures. Unfortunately, Zoranth and his troupe did not escape this fate. After a few years, the portal closed, likely deliberately. It took only a few days for Zoranth's troupe to transform... Yet, he managed to evade this fate, consumed instead by the rage of betrayal and a desire for revenge, even though, unbeknownst to him, his people had already perished..."]
+
+	["Lore Scrolls"."Elvenite Paladin Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		elvenite_paladin_lore_scroll = ["The Elvenite Paladin was once a mighty automaton, crafted by the Ancient Builders to protect their village from external threats. Unlike today’s iron golems, it was forged from Elvenite, a legendary material that radiates mystical energy. This paladin did not merely defend; it watched over the ancient Builders' secrets, guarding lost knowledge and forgotten artifacts. Over time, its mission became eternal, continuing to protect the Builders' ruins, though they vanished long ago. It remains ever-vigilant, ready to face any threat that may arise."]
+
+	["Lore Scrolls"."Vaedric Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		vaedric_lore_scroll = ["Vaedric was once a valiant soldier, a hero who dared to challenge the Ender Dragon and clash with Khyros himself. But his courage came at a price. After weakening the Ender Dragon, Khyros, merciless and cruel, condemned him to an endless fall into the depths of the Void. There, he slowly lost his humanity, his body warped by the darkness. He reemerged much later, part Enderman, a specter haunted by his failure, unable to distinguish friend from foe. Now, he roams the shadows, consumed by rage and despair."]
+
+	["Lore Scrolls"."BoD Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		bod_lore_scroll = ["A mysterious being from a forgotten plane of existence, the Bringer of Doom serves as the harbinger of the apocalypse. Its presence heralds the awakening of Khyros and the arrival of the Three Calamities. Tasked with preparing the world for its inevitable fall, it spreads despair and chaos wherever it treads, forcing mortals to confront their own fragility. Though it serves Khyros, its true allegiance remains shrouded in mystery. Some say it feeds on the destruction it creates; others believe it is a primordial force, as ancient as time itself. One thing is certain: wherever it walks, hope fades."]
+
+	["Lore Scrolls"."The Chaos Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		the_chaos_lore_scroll = ["Wrought from the unbridled malice of Khyros, The Chaos was summoned as the Second Calamity, a vessel of relentless destruction forged from a shard of his cataclysmic essence. Its arrival is heralded by skies ablaze with unnatural fire and the panicked cries of those who witness its coming. Chaos obeys no law, no master — not even Khyros himself for it was made to unbind the world's order, to fracture reason, and to drown the realms in madness. Its demonic laughter is a grim omen, for wherever it treads, kingdoms fall to ruin, and brother turns against brother. It craves nothing but to watch the world collapse in a tide of pure, unrelenting anarchy."]
+
+	["Lore Scrolls"."The Famine Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		the_famine_lore_scroll = ["Born from the abyssal will of Khyros, The Famine was forged as the first of the Calamities a living vessel for a fragment of his boundless, ruinous power. Created to rend the balance of life itself, she is the creeping shadow of starvation, devouring harvests, beasts, and souls alike. Where she walks, the land rots, and a hunger without end consumes all. Khyros did not craft her for conquest, but for torment to wither the world’s strength, sow despair, and prepare the realm for his final ascension. She is not merely a beast, but a curse incarnate, a herald of a world undone by its creator’s hand."]
+
+	["Lore Scrolls"."The Discord Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		the_discord_lore_scroll = ["Fashioned by Khyros as the Fourth Calamity, The Discord was born not of strength, but of treachery. A fragment of his deceitful will given form, she whispers through the winds, corrupting minds and dividing hearts. Where her influence spreads, friendships wither, loyalties fracture, and kingdoms crumble without a single blow struck. She is the unseen force that poisons unity, turning brother against brother, and leader against kin. Her presence is more devastating than any blade or spell, for she causes the world to collapse from within, ensuring that when ruin comes, none will stand together to face it."]
+
+	["Lore Scrolls"."Sanghor Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		sanghor_lore_scroll = ["Long before Khyros emerged, Sanghor wandered the nascent ages of this world. A mage of the first times, he experimented with life and death, shaping the very fabric of existence with forbidden knowledge. His secret? Mastery over blood itself—the essence of life and destiny.  As with all beings of great power, he eventually crossed paths with Khyros. Faced with a superior force, Sanghor forged a pact, trading a part of his freedom for renewed power and unmatched longevity. This pact transformed him into a colossal being: his wings appeared, black as night, and his tears became blood, a symbol of both his power and his damnation.  Now he wanders between shadow and light, mourning his past and watching the world with the wisdom and melancholy of one who has tasted the secrets of life itself."]
+
+	["Lore Scrolls"."Zoranth Newborn Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		zoranth_newborn_lore_scroll = ["After his defeat in the Nether at your hands, Zoranth, consumed by rage and humiliation, knelt before Khyros, pleading for a power that would allow him to reclaim his fate. In exchange for his flesh, his face, and even his convictions, he was granted the essence of the sun itself—an eternal flame burning within his grasp. Stripped of his former humanity, he became nothing more than an avatar of destruction, guided by blind vengeance. But this power was nothing more than a cruel illusion… When defeat struck him one final time, the scorching curse that bound him was extinguished, and at last, Zoranth found freedom."]
+
+	["Lore Scrolls"."Nyxaris Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		nyxaris_lore_scroll = ["Once a warrior without equal, Nyxaris carved his legend in blood and steel, earning the revered title of Legendary Hero. Yet, glory was fleeting, and the weight of his own legacy became a burden. Drawn to a force beyond mortal comprehension, he sought Khyros, not as a foe, but as a master. Admiration turned to devotion, and devotion to surrender. His spear, once wielded for honor and justice, was now an extension of the End’s will. No longer a man, but a shadow, he shed his identity and embraced oblivion, becoming the Veil of Oblivion, eternally bound to the Harbinger’s fate. Yet, within the abyss, a fragment of his former self lingers—a whisper drowned beneath the call of Armageddon. But hesitation is a luxury he no longer possesses."]
+
+	["Lore Scrolls"."Wither Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		wither_lore_scroll = ["The Wither was created by the Ancient Builders as an ultimate weapon during the Armageddon War. In a moment of desperation, they summoned this creature through various forbidden rituals, hoping it would annihilate their enemies. Its power was simply immense. Although they tried to tame it, the Wither was far too strong, and its thirst for destruction prevailed. It was too late... After being defeated in a fierce battle, it was shattered into pieces and scattered across the most dangerous place known at the time: the Nether, which was discovered on that occasion. Nowadays, the Wither waits for someone daring enough to re-summon it, seeking revenge on the world... "]
+
+	["Lore Scrolls"."Warden Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		warden_lore_scroll = ["The Warden, born from the mistakes of the Ancient Builders, watches over the Deep Dark, a shadowy realm filled with mystical energy. Created to protect the ruins and secrets of forgotten civilizations, it serves as both guardian and punisher, hunting down those who venture too close to its forbidden domains. Blind yet highly sensitive to vibrations, it embodies the wrath of the ancient powers it keeps imprisoned. Its presence is a reminder that some forces should never be awakened, and that certain secrets must remain buried in eternal darkness."]
+
+	["Lore Scrolls"."Ender Dragon Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		ender_dragon_lore_scroll = ["Once, the Ender Dragon was Khyros' war hound, spreading destruction under his orders. After the Great War, she was exiled to the End, a cold and empty dimension, destined to guard this realm for eternity. Condemned to remain a captive of the End, she wandered through the void, a prisoner of a curse that prevented her from regaining her freedom. Until her last breath, she tried to protect her egg. Her death, at the hands of a hero, was not merely a defeat, but a liberation. Freed from her eternal bondage, the Ender Dragon finally found peace in death..."]
+
+	["Lore Scrolls"."Elder Guardian Lore Scroll"]
+		#You can edit the displayed text for the corresponding Lore Scroll. Write your own lore! Default = /
+		elder_guardian_lore_scroll = ["The Elder Guardian was employed by the Ancient Builders to protect their underwater monuments, where invaluable knowledge and treasures were hidden. Forged in the magic of the oceans, it is far more intelligent and powerful than ordinary Guardians. Its skin is as tough as prismarine blocks, and its gaze can paralyze or destroy any threat. As the Ancients mysteriously vanished, the Elder Guardian continued its watch, unwavering, ready to defend these forgotten citadels of the deep against any intruder..."]
+
+	["Bosses Health"."Iron Colossus Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		iron_colossus_health_bonus = 0.0
+
+	["Bosses Health"."Golbin Lord Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		goblin_lord_health_bonus = 0.0
+
+	["Bosses Health"."Arion Bonus Health (works for each phase)"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		arion_health_bonus = 0.0
+
+	["Bosses Health"."Eldorath Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		eldorath_health_bonus = 0.0
+
+	["Bosses Health"."Zoranth Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		zoranth_health_bonus = 0.0
+
+	["Bosses Health"."Elvenite Paladin Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		elvenite_paladin_health_bonus = 0.0
+
+	["Bosses Health"."Vaedric Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		vaedric_health_bonus = 0.0
+
+	["Bosses Health"."Bringer Of Doom Bonus Health (works for each phase)"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		bod_health_bonus = 0.0
+
+	["Bosses Health"."Calamities Bonus Health (for each)"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		calamities_health_bonus = 0.0
+
+	["Bosses Health"."Sanghor Bonus Health (works for each phase)"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		sanghor_health_bonus = 0.0
+
+	["Bosses Health"."Zoranth Zenith Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		zoranthzenith_health_bonus = 0.0
+
+	["Bosses Health"."Nyxaris Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		nyxaris_health_bonus = 0.0
+
+	["Bosses Armor Modifier"."Iron Colossus Bonus Armor"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		iron_colossus_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Golbin Lord Bonus Armor"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		goblin_lord_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Arion Bonus Armor (works for each phase)"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		arion_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Eldorath Bonus Armor"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		eldorath_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Zoranth Bonus Armor"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		zoranth_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Elvenite Paladin Bonus Armor"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		elvenite_paladin_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Vaedric Bonus Armor"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		vaedric_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Bringer Of Doom Bonus Armor (works for each phase)"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		bod_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Calamities Bonus Armor (for each)"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		calamities_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Sanghor Bonus Armor (works for each phase)"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		sanghor_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Zoranth Zenith Bonus Armor"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		zoranthzenith_armor_bonus = 0.0
+
+	["Bosses Armor Modifier"."Nyxaris Bonus Armor"]
+		#This value affects the armor of the chosen boss and is added to its base armor. Default = 0
+		nyxaris_armor_bonus = 0.0
+
+	["Bosses Damage Multiplier"."Iron Colossus Damage Multiplier"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		iron_colossus_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Goblin Lord Damage Multiplier"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		goblin_lord_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Arion Damage Multiplier (works for each phase)"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		arion_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Eldorath Damage Multiplier"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		eldorath_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Zoranth Damage Multiplier"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		zoranth1_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Elvenite Paladin Damage Multiplier"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		elvenite_paladin_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Vaedric Damage Multiplier"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		vaedric_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."BoD Damage Multiplier (works for each phase)"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		bod_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Calamities Damage Multiplier (for each)"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		calamities_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Sanghor Damage Multiplier (works for each phase)"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		sanghor_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Zoranth Zenith Damage Multiplier"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		zoranth2_dmg_multiplier = 1.0
+
+	["Bosses Damage Multiplier"."Nyxaris Damage Multiplier"]
+		#This value affects the damage of the chosen boss and is multiplied to its attack damage. Default = 1
+		nyxaris_dmg_multiplier = 1.0
+
+	["Bosses Misc & co".are_bosses_despawning_if_a_player_is_killed]
+		#If false, bosses will stop despawning if someone is killed ! Default = true
+		are_bosses_despawning_if_a_player_is_killed = true
+
+	["Bosses Misc & co".are_weapons_and_artifacts_drop_from_treasurebags]
+		#When false this will disable the loot of weapons and artifacts from the treasure bags of every bosses! Default = true
+		are_weapons_and_artifacts_drop_from_treasurebags = true
+
+	["Bosses Misc & co".are_ores_dropping_from_treasurebags]
+		#When false this will disable the loot of ores from the treasure bags of every bosses! Default = true
+		are_ores_dropping_from_treasurebags = true
+
+	["Bosses Misc & co".are_lorescrolls_dropping]
+		#When false this will disable the loot of Lore Scrolls of every bosses! Default = true
+		are_lorescrolls_dropping = true
+
+	["Bosses Misc & co".block_destruction_when_spawned]
+		#Active or not the block destructionn when the bosses spawn, used to prevent cheesing them. Default = true
+		block_destruction_when_spawned = true
+
+	["Bosses Misc & co".block_destruction_when_hit]
+		#Active or not the block destructionn when the bosses is hit, used to prevent cheesing them. Default = true
+		block_destruction_when_hit = true
+
+	["Bosses Misc & co".can_bosses_change_time]
+		#Bosses like Zoranth Zenith and the BoD phase 2 can set the time to day/night when true. Default = true
+		can_bosses_change_time = true
+
+	["Bosses Misc & co".need_to_see_the_sky_to_be_spawned]
+		#When true, the bosses need to see the sky to be spawned, no blocks on top of them, no caves, no closed arenas. Default = false
+		need_to_see_the_sky_to_be_spawned = false
+
+		["Bosses Misc & co"."Bosses Xp".iron_clossus_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 250
+			iron_clossus_xp_drop_amount = 250.0
+
+		["Bosses Misc & co"."Bosses Xp".goblin_lord_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 350
+			goblin_lord_xp_drop_amount = 350.0
+
+		["Bosses Misc & co"."Bosses Xp".arion_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 500
+			arion_xp_drop_amount = 500.0
+
+		["Bosses Misc & co"."Bosses Xp".eldorath_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 700
+			eldorath_xp_drop_amount = 700.0
+
+		["Bosses Misc & co"."Bosses Xp".zoranth_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 1000
+			zoranth_xp_drop_amount = 1000.0
+
+		["Bosses Misc & co"."Bosses Xp".elvenite_paladin_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 1250
+			elvenite_paladin_xp_drop_amount = 1250.0
+
+		["Bosses Misc & co"."Bosses Xp".vaedric_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 1550
+			vaedric_xp_drop_amount = 1550.0
+
+		["Bosses Misc & co"."Bosses Xp".bod_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 1750
+			bod_xp_drop_amount = 1750.0
+
+		["Bosses Misc & co"."Bosses Xp".cal_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 1950
+			cal_xp_drop_amount = 1950.0
+
+		["Bosses Misc & co"."Bosses Xp".sanghor_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 2000
+			sanghor_xp_drop_amount = 2000.0
+
+		["Bosses Misc & co"."Bosses Xp".zoranth2_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 2000
+			zoranth2_xp_drop_amount = 2000.0
+
+		["Bosses Misc & co"."Bosses Xp".nyxaris_xp_drop_amount]
+			#You can set the value to an amount of XP (in orbs not in levels) that the selected boss will drop upon death! Default = 2000
+			nyxaris_xp_drop_amount = 2000.0
+
+		["Status Effects".Resilient."Resilient Base Duration"]
+			#This controls the base duration of the Resilient effect when a Statut Effect reaches 10 levels, in ticks. Default = 160
+			resilient_base_duration = 200.0
+
+		["Status Effects".Bleeding."Weapons Inflicting Bleeding"]
+			#You can add in this list the registry name (ID) of any weapons that will inflict Bleeding. Two examples are inserted by default, they can be changed. 
+			bleeding_weapons = ["armageddon_mod:bloody_sword"]
+
+		["Status Effects"."Cosmic Sickness"."Weapons Inflicting Cosmic Sickness"]
+			#You can add in this list the registry name (ID) of any weapons that will inflict Cosmic Sickness. Two examples are inserted by default, they can be changed. 
+			cosmic_sickness_weapons = ["armageddon_mod:indomita_furia"]
+
+		["Status Effects"."Solar Sear"."Weapons Inflicting Solar Sear"]
+			#You can add in this list the registry name (ID) of any weapons that will inflict Solar Sear. Two examples are inserted by default, they can be changed. 
+			solar_sear_weapons = ["armageddon_mod:helionite_sword"]
+
+	[Spirits.dread_mobs_addition]
+		#You can add in this list the registry name (ID) of any entity that will drop Dread Spirit after defeating The Calamities. Two examples are inserted by default, they can be changed. 
+		dread_mobs_addition = ["minecraft:phantom", "minecraft:skeleton"]
+
+	[Spirits.chaos_mobs_addition]
+		#You can add in this list the registry name (ID) of any entity that will drop Chaos Spirit after defeating The Calamities. Two examples are inserted by default, they can be changed. 
+		chaos_mobs_addition = ["minecraft:blaze", "minecraft:vex"]
+
+	[Spirits.despair_mobs_addition]
+		#You can add in this list the registry name (ID) of any entity that will drop Despair Spirit after defeating The Calamities. Two examples are inserted by default, they can be changed. 
+		despair_mobs_addition = ["minecraft:creeper", "minecraft:ghast"]
+
+		[Accessories."Accessory Slot Default Number".accessory_slot_default_addition]
+			#Upon first join, the player can get more Accessory Slots if you want. Default = (+)0
+			accessory_slot_default_addition = "0"
+
+		[Accessories.Boots.boots_particles]
+			#When equipped some boots (accessory) will make some cool particles. You can turn that off. Default = true
+			boots_particles = true
+
+		[Accessories."Heart of the Beloved".hotb_accessory_slot_addition]
+			#This defines the number of slot you want to add after the Hardmode with the Heart of the Beloved. Default =1
+			hotb_accessory_slot_addition = "1"
+
+		[Accessories."Heart of the Non-Beloved".hotnb_accessory_slot_addition]
+			#This accessory is primarily intended for modpack creators; it isn't available as a drop in the base mod, but it can be fully customized to add new slots wherever you want in your adventure. Default = 1
+			hotnb_accessory_slot_addition = "1"
+
+		[Accessories."Heart of the Non-Beloved".hotnb_reset]
+			#If you want it to be used more than once. Default = false
+			hotnb_reset = false
+
+		[Accessories."Heart of the Non-Beloved".hotnb_name]
+			#Name of the Accessory.
+			"Heart of the Non-Beloved" = "Heart of the Non-Beloved"
+
+		[Accessories."Heart of the Non-Beloved".hotnb_desactivate_tooltip]
+			#It will make the creative tooltip in purple when true. Default = false
+			hotnb_desactivate_tooltip = false
+
+	[Hardmode.is_hardmode_activate]
+		#When false it will desactivate the harmode after beating the Ender Dragon (entities will have more health -> you can add your own entities with tags)  Default = true
+		is_hardmode_activate = true
+
+	[Hardmode.hardmode_health_modifier]
+		#This number increases the life of entities when entering hardmode troughout a multiplication. Default = 2.5 and don't forget the number and the dot
+		hardmode_health_modifier = 2.5
+
+	[Hardmode.hardmode_damage_modifier]
+		#This number increases the damages of entities when entering hardmode troughout a multiplication. Default = 2.0 and don't forget the number and the dot
+		hardmode_damage_modifier = 2.0
+
+	[Hardmode.hardmode_blacklisted_mobs]
+		#You can add in this list the registry name (ID) of any entity that will not be affected by Hardmode. Two examples are inserted by default, they can be changed. 
+		hardmode_blacklisted_mobs = ["minecraft:warden"]
+
+	["Gapple Sickness".is_gapple_sickness_active]
+		#This logic active or not the Gapple Sickness Effect. Default = false
+		is_gapple_sickness_active = false
+
+	["Prevention Messages".are_prevention_messages_showing]
+		#This logic let you choose if the pop-up messages/ preventions messages are shown. Default = true
+		are_prevention_messages_showing = true
+
+	["Prevention Messages".is_prevention_messages_showing_into_actionbar]
+		#This logic let you choose if the pop-up messages/ preventions messages are shown in the chat or in the action bar. True = action bar, False = Chat.  Default = true
+		is_prevention_messages_showing_into_actionbar = true
+
+	[Weapons.Scythes]
+		#You can add in this list the registry name (ID) of any weapons that will be considered as a Scythe. Two examples are inserted by default, they can be changed. 
+		is_scythe = ["armageddon_mod:elvenite_scythe"]

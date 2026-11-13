@@ -1,0 +1,274 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier4"
+	group: ""
+	icon: {
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "1DF09911BFB2DB44"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E964B6088155040"]
+			id: "3AF83DB296D42789"
+			rewards: [{
+				id: "5059EEFE5213A713"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4C523653F7FB4FDF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			id: "26838CCADA0B3647"
+			rewards: [{
+				id: "0A2EFAEB1BBF495A"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "316071E73C23761A"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["26838CCADA0B3647"]
+			id: "00715189257F156B"
+			rewards: [{
+				id: "14772575555525D9"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "04654FCAAA3857B6"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -1.6d
+		}
+		{
+			dependencies: ["00715189257F156B"]
+			id: "1F41AA82C98B574E"
+			rewards: [{
+				id: "63FC036F2EFC7AAF"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "022D09B86A0108EA"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 5.2d
+			y: -1.6d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			id: "434F23D48EE2DA18"
+			rewards: [{
+				id: "7C17C7B57FE5FE9F"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "0AB7AFE8602B4A80"
+				item: { count: 1, id: "occultism:afrit_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["434F23D48EE2DA18"]
+			id: "0565AC7F751304BA"
+			rewards: [{
+				id: "5831FAD708E16EF6"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "36148AF882FB5353"
+				item: { count: 1, id: "irons_spellbooks:epic_ink" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			id: "2E652BB32277527D"
+			rewards: [{
+				id: "14ACF42FDD32D17D"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "71D021569CD6D974"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["2E652BB32277527D"]
+			id: "26FBA9C4509FB205"
+			rewards: [{
+				id: "06EEEAD8B4D16E9C"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "64814804A0FB4F89"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 1.6d
+		}
+		{
+			dependencies: ["26FBA9C4509FB205"]
+			id: "65283C24B3F94AE0"
+			rewards: [{
+				id: "15D71B025AF32456"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "36F3285FCFAA6BDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.2d
+			y: 1.6d
+		}
+		{
+			dependencies: ["65283C24B3F94AE0"]
+			id: "06A287756F226726"
+			rewards: [{
+				id: "115C8D1B075D8D54"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "63F8AA5C9357FB3E"
+				item: { count: 1, id: "born_in_chaos_v1:krampus_horn" }
+				type: "item"
+			}]
+			x: 6.800000000000001d
+			y: 1.6d
+		}
+		{
+			dependencies: ["06A287756F226726"]
+			id: "4BB56356426B119D"
+			rewards: [{
+				id: "1EA8D1394551429B"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "42874EE7511F1E89"
+				item: { count: 1, id: "mythsandlegends:infernum_ingot" }
+				type: "item"
+			}]
+			x: 8.4d
+			y: 1.6d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			id: "3D58FFD6591DE8F0"
+			rewards: [{
+				id: "1980BAB4B9ADE4BC"
+				type: "xp"
+				xp: 1200
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "6FD67ED0025DF761"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -3.2d
+		}
+		{
+			dependencies: ["3AF83DB296D42789"]
+			id: "442776AE09B63766"
+			rewards: [{
+				id: "7206F250676D82AA"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5F836DF03459DE57"
+				item: { count: 1, id: "comamigos_balance:purifying_elixir_3" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"0565AC7F751304BA"
+				"4BB56356426B119D"
+				"3D58FFD6591DE8F0"
+			]
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "0BDF6EE846E0F704"
+			rewards: [{
+				id: "509207AA3FF29922"
+				type: "xp"
+				xp: 2000
+			}]
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				id: "67221CD9932D212F"
+				item: { count: 1, id: "comamigos_balance:tier_heart_5" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BDF6EE846E0F704"]
+			id: "1C979661703F338B"
+			rewards: [{
+				id: "220D25C5E2345A56"
+				type: "xp"
+				xp: 4000
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "5625B76B02F92790"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "simpleblood-1.21.1-1.0.5"
+filename = "simpleblood-1.21.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/l7Ddlxg5/versions/ay2cFXz0/simpleblood-1.21.1-1.0.5.jar"
+hash-format = "sha1"
+hash = "78a56b59a32fb1f61fa02bd83661034687697372"
+
+[update]
+[update.modrinth]
+mod-id = "l7Ddlxg5"
+version = "ay2cFXz0"

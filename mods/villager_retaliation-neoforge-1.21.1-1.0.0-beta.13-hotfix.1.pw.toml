@@ -1,0 +1,13 @@
+name = "villager_retaliation-neoforge-1.21.1-1.0.0-beta.13-hotfix.1"
+filename = "villager_retaliation-neoforge-1.21.1-1.0.0-beta.13-hotfix.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2ArcBjmC/versions/YzZjCP1E/villager_retaliation-neoforge-1.21.1-1.0.0-beta.13-hotfix.1.jar"
+hash-format = "sha1"
+hash = "2c95e657b811e1f58fa238e6da8f6e1a1025323a"
+
+[update]
+[update.modrinth]
+mod-id = "2ArcBjmC"
+version = "YzZjCP1E"

@@ -1,0 +1,13 @@
+name = "letsdo-wildernature-neoforge-1.1.8"
+filename = "letsdo-wildernature-neoforge-1.1.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AAiRU4aQ/versions/iwC56pNh/letsdo-wildernature-neoforge-1.1.8.jar"
+hash-format = "sha1"
+hash = "8a2a614807d1d76aac9fba02d4b2a0d1843b5d05"
+
+[update]
+[update.modrinth]
+mod-id = "AAiRU4aQ"
+version = "iwC56pNh"

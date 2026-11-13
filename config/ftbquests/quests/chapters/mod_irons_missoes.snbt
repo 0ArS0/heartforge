@@ -1,0 +1,3767 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_irons_missoes"
+	group: "5955ECC104DC966A"
+	icon: {
+		count: 1
+		id: "irons_spellbooks:gold_spell_book"
+	}
+	id: "7DCF41594B346FEC"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40396646F6C46552"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:gold_spell_book"
+			}
+			dependencies: [
+				"69274264D0DB6B61"
+			]
+			tasks: [
+				{
+					id: "407AC42914B77FAF"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+			title: "&fO Começo"
+			description: [
+				"&7As primeiras trilhas. A introdução fica na página ao lado."
+			]
+		}
+		{
+			id: "25843D46F0C5DEEB"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:arcane_essence"
+			}
+			dependencies: [
+				"40396646F6C46552"
+			]
+			tasks: [
+				{
+					id: "211BDDF8FA5DC7E7"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					count: 8L
+				}
+				{
+					id: "58F9B83BF368B9DE"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					count: 1L
+				}
+				{
+					id: "135BE7CFB19077CF"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "5F7E7472EBE2031C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "12D9F4D4AB122DC0"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "0652C364F348CF4C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3FD62697F5140535"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1E6196116AB4D1A3"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+				}
+			]
+			title: "O Pó que Brilha"
+			description: [
+				"&7Nas ruínas dos magos mortos sobra um pó azulado que pinica a pele. Os sábios o chamam de essência arcana."
+				"&7Junto dele, quase sempre, há um pergaminho enrolado: uma magia de uma só vez, que se queima nas mãos de quem a lê."
+				"&7Os andarilhos aprenderam a polvilhar essa poeira no couro das roupas. Não para uma espada, mas a mana corre mais solta."
+				"&7É assim que todo mago começa: saqueando os que vieram antes."
+				""
+				"&6Objetivo:&r 1. Junte 8 &6Essências Arcanas&r em baús de ruínas, masmorras e estruturas mágicas, ou derrotando magos hostis."
+				"&f2. Encontre um &6Pergaminho&r. Lê-lo lança a magia sem gastar mana, mas o consome: melhor guardá-lo para um livro."
+				"&f3. Vista o conjunto de &6Mago Andarilho&r: cada peça de couro com uma Essência Arcana, na bancada (elmo, peitoral, calças e botas)."
+				""
+				"&8Uma Essência Arcana junto de um livro, na bancada, rende o manual ilustrado da magia."
+				"&8O traje de Andarilho dá mana extra: é a primeira armadura de quem conjura."
+			]
+		}
+		{
+			id: "530554AB7F09E8AA"
+			x: 4.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll_forge"
+			}
+			dependencies: [
+				"25843D46F0C5DEEB"
+			]
+			tasks: [
+				{
+					id: "5DD03B85385CB9BA"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/make_inscription_table"
+					criterion: ""
+				}
+				{
+					id: "0821940A4B115FE9"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					count: 2L
+				}
+				{
+					id: "322846DFCF5F906F"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/make_scroll_forge"
+					criterion: ""
+				}
+				{
+					id: "260D27269C1CD023"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:copper_spell_book"
+					}
+					count: 1L
+				}
+				{
+					id: "68B3D39664E0DB9E"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_equip"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "54F0BC2F36287683"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "A Oficina do Aprendiz"
+			description: [
+				"&7Ninguém aprende magia de verdade com papel avulso. É preciso uma mesa para costurar as palavras num livro,"
+				"&7uma forja onde a tinta vira pergaminho e um primeiro livro, barato, para carregar no cinto."
+				"&7A tinta comum é rala, mas basta para os primeiros feitiços. Os forjadores do Coração também a pedem:"
+				"&7sem ela, o &6Coração do Tier II&7 não se forma no Mixer."
+				""
+				"&6Objetivo:&r 1. Construa a &6Mesa de Inscrição&r: um livro, três lajes e duas cercas de madeira."
+				"&f2. Obtenha 2 &aTintas Comuns&r: baús mágicos, magos derrotados e o Mercador Andarilho."
+				"&f3. Construa a &6Forja de Pergaminhos&r: três ardósias profundas polidas e quatro obsidianas chorosas."
+				"&f   Nela, papel + tinta + foco da escola criam um pergaminho: a tinta decide a raridade, o foco decide a escola."
+				"&f4. Faça o &6Diário Frágil&r: dois lingotes de cobre, um barbante e seis papéis."
+				"&f5. Equipe o livro no espaço de &6Livro de Magias&r dos acessórios. Na Mesa de Inscrição, grave pergaminhos nos espaços livres;"
+				"&f   escolha a magia na Roda de Magias e lance com a tecla de conjuração (veja nos Controles)."
+				""
+				"&8Obsidiana chorosa aparece em portais em ruínas e pode ser trocada com piglins."
+				"&8A &aTinta Comum&r é ingrediente do &6Coração do Tier II&r. Guarde algumas além das que for gastar."
+			]
+		}
+		{
+			id: "50FA7F526C0D8B8C"
+			x: 7.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			tasks: [
+				{
+					id: "0286BA14C4DBF03E"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_1"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&7Tier I&7 - Magia Comum"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "504D2C256F3096CB"
+			x: 9.0d
+			y: -3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:lightning_bottle"
+			}
+			dependencies: [
+				"530554AB7F09E8AA"
+				"50FA7F526C0D8B8C"
+			]
+			tasks: [
+				{
+					id: "507E6F60E7082047"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					count: 8L
+				}
+				{
+					id: "4BB80384654AE515"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:frozen_bone"
+					}
+					count: 8L
+				}
+				{
+					id: "468B4B9683CD4E16"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:lightning_bottle"
+					}
+					count: 8L
+				}
+				{
+					id: "1A27268CDAF9F51B"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "2C4563E0ADF8D997"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Fogo, Gelo, Raio e Fim"
+			description: [
+				"&7Na forja, o foco é o que diz à tinta qual escola ela deve servir. As escolas dos elementos pedem coisas difíceis de colher."
+				"&7O fogo é impaciente e queima agora; o gelo espera, prende e só então quebra."
+				"&7O raio é a escola dos corajosos, e o Fim dobra o espaço como quem dobra um lenço."
+				"&7Quem quer lançar todas elas precisa de um bom estoque de cada foco."
+				""
+				"&6Objetivo:&r 1. Junte 8 &cVaras de Blaze&r (Fogo): blazes das fortalezas do Nether, ou baús da Torre do Piromante."
+				"&f2. Colete 8 &bOssos Congelados&r (Gelo): caem dos Errantes (strays) e aparecem nos covis das aranhas de gelo."
+				"&f3. Engarrafe 8 &eGarrafas de Raio&r (Raio): use uma garrafa vazia num &ccreeper carregado&r."
+				"&f4. Junte 8 &5Pérolas do Ender&r (Ender): endermen e clérigos das aldeias."
+				""
+				"&8&cAr Escaldante:&r antes do Tier IV o calor do Nether cresce a cada segundo. Entre com resistência ao fogo e saia depressa."
+				"&8Creepers ficam carregados quando um raio cai perto deles; um tridente com Canalização acelera muito a caçada."
+			]
+		}
+		{
+			id: "7B5DD188F20AB4CB"
+			x: 9.0d
+			y: -1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:blood_vial"
+			}
+			dependencies: [
+				"530554AB7F09E8AA"
+				"50FA7F526C0D8B8C"
+			]
+			tasks: [
+				{
+					id: "6AD77E38A1A74AE7"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:divine_pearl"
+					}
+					count: 8L
+				}
+				{
+					id: "441769053EC93FC0"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blood_vial"
+					}
+					count: 8L
+				}
+				{
+					id: "20978F5C93557854"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					count: 8L
+				}
+				{
+					id: "6830FB64A7E8C3C0"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:poisonous_potato"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "01BCB331BA37F1A7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Luz, Sangue, Ilusão e Peste"
+			description: [
+				"&7As outras quatro escolas falam com a alma, não com os elementos."
+				"&7A luz sagrada cura, mas só responde a quem pede por outros. O sangue é a mais antiga das artes proibidas."
+				"&7A evocação é a arte dos illagers, de presas que brotam do chão; a natureza sufoca tudo o que cresce."
+				"&7Cada uma tem seu foco, e alguns deles custam um pouco de estômago."
+				""
+				"&6Objetivo:&r 1. Faça 8 &fPérolas Divinas&r (Sagrado): lingote de ouro e fragmento de ametista, em qualquer posição na bancada."
+				"&f2. Encha 8 &4Frascos de Sangue&r (Sangue): ponha uma criatura num caldeirão de ferro com &6fogueira acesa embaixo&r e recolha com garrafas."
+				"&f3. Junte 8 &aEsmeraldas&r (Evocação): comércio com aldeões, minério nas montanhas e baús das Catacumbas."
+				"&f4. Junte 8 &2Batatas Venenosas&r (Natureza): uma batata venenosa cercada por oito batatas comuns rende quatro."
+				""
+				"&8O Caldeirão Alquímico também enche frascos de sangue. Até o próprio conjurador pode sangrar ali, se tiver estômago."
+			]
+		}
+		{
+			id: "477D1D74C4B9B265"
+			x: 9.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:blank_rune"
+			}
+			dependencies: [
+				"25843D46F0C5DEEB"
+				"50FA7F526C0D8B8C"
+			]
+			tasks: [
+				{
+					id: "76FBDD9E0A03F6AD"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blank_rune"
+					}
+					count: 2L
+				}
+				{
+					id: "2882DE40751F12B7"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "657B62AADEEAEE44"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:protection_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "477CBA9AC22FE819"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cooldown_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "3BB4BB42DF478845"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shriving_stone"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "51C152F26BB3A09D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Pedras sem Nome"
+			description: [
+				"&7Uma runa em branco é uma promessa ainda não feita. Os magos as escondem como avarentos escondem ouro."
+				"&7Nem toda runa pertence a uma escola: a arcana guarda mana pura, a protetora endurece a pele e a da recuperação apressa o fôlego."
+				"&7E o que foi gravado pode ser raspado: a pedra de purificação devolve tudo ao silêncio."
+				""
+				"&6Objetivo:&r 1. Encontre 2 &6Runas em Branco&r em baús de estruturas mágicas, Câmaras de Provação e Catacumbas."
+				"&f2. Grave uma &bRuna Arcana&r: Runa em Branco cercada por oito Essências Arcanas."
+				"&f3. Grave a &6Runa Protetora&r: Runa em Branco cercada por oito baiacus."
+				"&f4. Grave a &6Runa da Recuperação&r: Runa em Branco cercada por oito membranas de phantom."
+				"&f5. Faça uma &6Pedra de Purificação&r: ferro bruto e ametista. Na bigorna, remove imbuições e aprimoramentos;"
+				"&f   junto de uma runa gravada, a devolve em branco."
+				""
+				"&8As runas de escola (fogo, gelo, sangue...) seguem a mesma receita com oito focos, e servem de molde para os trajes do Tier III."
+				"&8Guarde as runas de ofício: oito delas viram orbes de aprimoramento no Tier IV."
+			]
+		}
+		{
+			id: "77294CE5EBCF0090"
+			x: 9.0d
+			y: 1.6d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "irons_spellbooks:wayward_compass"
+			}
+			dependencies: [
+				"25843D46F0C5DEEB"
+				"50FA7F526C0D8B8C"
+			]
+			tasks: [
+				{
+					id: "47956181CC22DC30"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/make_wayward_compass"
+					criterion: ""
+				}
+				{
+					id: "7ABF475790E63BF1"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
+					criterion: ""
+				}
+				{
+					id: "484D8E266AE63E16"
+					type: "kill"
+					entity: "irons_spellbooks:necromancer"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "26EE446D98E1DBC5"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "A Agulha das Almas"
+			description: [
+				"&7Uma alma presa numa lanterna só quer voltar para casa, e sua casa fica embaixo da terra, entre ossos."
+				"&7A agulha da bússola errante aponta para as Catacumbas: corredores de ossos até o teto, caixões que rangem e um trono vazio... por enquanto."
+				"&7Onde há ossos, há quem os levante. Os necromantes trabalham à noite e em silêncio."
+				""
+				"&6Objetivo:&r 1. Faça a &6Bússola Errante&r: quatro ferros, quatro Essências Arcanas e uma lanterna de almas."
+				"&f2. Siga a agulha e entre nas &cCatacumbas&r. Saqueie caixões, paredes e vasos."
+				"&f3. Derrote um &cNecromante&r: ele invoca mortos para lutar em seu lugar."
+				""
+				"&8As Catacumbas surgem em colinas, florestas, taigas e selvas."
+				"&8Os necromantes mais velhos usam a &6Coroa Manchada&r, que às vezes cai junto."
+				"&8&cNão acorde o que dorme no fundo:&r o dono do trono só deve ser enfrentado no Tier III."
+			]
+		}
+		{
+			id: "0D0D0A67AD5E1801"
+			x: 9.0d
+			y: 3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:wisewood_bookshelf"
+			}
+			dependencies: [
+				"25843D46F0C5DEEB"
+				"50FA7F526C0D8B8C"
+			]
+			tasks: [
+				{
+					id: "7D30B3A77E5A51A0"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/steal_from_wizard"
+					criterion: ""
+				}
+				{
+					id: "58AC0AA6C5E5D20C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wisewood_bookshelf"
+					}
+					count: 1L
+				}
+				{
+					id: "5D0D7EA63E0E1339"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:book_stack"
+					}
+					count: 1L
+				}
+				{
+					id: "02F75730B5DCC41C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:brazier"
+					}
+					count: 1L
+				}
+				{
+					id: "0447E073AD2E5799"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:firefly_jar"
+					}
+					count: 1L
+				}
+				{
+					id: "6CBED388CB76897E"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pedestal"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "113B7F784C3D1FBB"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0398741A6D5E86DE"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "O Gabinete do Mago"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Todo mago sabe exatamente quantas moedas há em seu baú, e sabe quem as tirou."
+				"&7Os aprendizes mais ousados mobiliam o próprio gabinete com o que \"pegam emprestado\" dos vizinhos de torre."
+				"&7Madeira que ouviu muitas leituras aprende a guardar segredos; braseiros e vaga-lumes dão o resto do clima."
+				""
+				"&6Objetivo:&r 1. Saqueie um baú perto de um mago pacífico e enfrente a fúria dele."
+				"&f2. Faça uma &6Estante de Sabedoria&r: oito estantes ao redor de uma Essência Arcana."
+				"&f3. Empilhe três livros numa coluna para fazer uma &6Pilha de Livros&r."
+				"&f4. Faça um &6Braseiro&r: fogueira cercada por pepitas de ferro."
+				"&f5. Faça um &6Pote de Vaga-lumes&r: Essência Arcana, lanterna e vidro."
+				"&f6. Corte tijolos de pedra no cortador para obter um &6Pedestal&r."
+				""
+				"&8Com fogueira de almas no lugar da comum, o braseiro arde azul."
+			]
+			optional: true
+		}
+		{
+			id: "6E688E5DFABDBDAB"
+			x: 12.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			dependencies: [
+				"50FA7F526C0D8B8C"
+			]
+			tasks: [
+				{
+					id: "7824249C65892667"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&aTier II&7 - Magia Incomum"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "1D3354AB770F3BBC"
+			x: 14.0d
+			y: -2.13d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:wizard_chestplate"
+			}
+			dependencies: [
+				"530554AB7F09E8AA"
+				"6E688E5DFABDBDAB"
+			]
+			tasks: [
+				{
+					id: "178A6C6213EA3A59"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:magic_cloth"
+					}
+					count: 4L
+				}
+				{
+					id: "157AACCC684F7FB5"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_hat"
+					}
+					count: 1L
+				}
+				{
+					id: "4C955C39F540A581"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "0BDD3CD4E1DE95E6"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "20BD650AEC0A6992"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "07B02E5A0EF254FB"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Alfaiate Arcano"
+			description: [
+				"&7Lã tingida em essência até brilhar: o tecido arcano. Os alfaiates de magos cobram caro, e com razão."
+				"&7Cortado no molde clássico de chapéu pontudo e manto, ele vira as vestes do Mago,"
+				"&7a base de todos os trajes de escola que virão depois. Agora as magias &bincomuns&7 já respondem ao grupo."
+				""
+				"&6Objetivo:&r 1. Teça 4 &6Tecidos Arcanos&r: um bloco de lã cercado por oito Essências Arcanas."
+				"&f2. Costure o &6Chapéu de Mago&r (cinco tecidos em forma de chapéu; o capuz também existe)."
+				"&f3. Costure o &6Manto&r, as &6Calças&r e as &6Botas&r de Mago com tecido arcano."
+				""
+				"&8Estas peças são a base, na Mesa de Ferraria, dos trajes de Piromante, Criomante, Eletromante e companhia."
+			]
+		}
+		{
+			id: "1765739A41F9FE90"
+			x: 14.0d
+			y: -0.53d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:graybeard_staff"
+			}
+			dependencies: [
+				"530554AB7F09E8AA"
+				"6E688E5DFABDBDAB"
+			]
+			tasks: [
+				{
+					id: "3763EF3542DA0D17"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_ingot"
+					}
+					count: 2L
+				}
+				{
+					id: "1B2155D0FFB4F5E4"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mana_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "79858E437FA89877"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:amethyst_resonance_charm"
+					}
+					count: 1L
+				}
+				{
+					id: "36E683AF71DDF3F1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:graybeard_staff"
+					}
+					count: 1L
+				}
+				{
+					id: "2EBE23E3C5968DE5"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/staff_artificer"
+					criterion: ""
+				}
+				{
+					id: "753457DC72328CB6"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/staff_root"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1D71ED7AA9B8E5B3"
+					type: "xp"
+					xp: 480
+				}
+				{
+					id: "69902DE36E000363"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+				}
+			]
+			title: "Cajado, Anel e Talismã"
+			description: [
+				"&7O livro guarda as palavras; cajados e joias dão força a elas."
+				"&7Metal comum que bebe essência até ficar violeta vira lingote arcano, e um anel de lingotes arcanos é um poço de mana no dedo."
+				"&7Os magos da estrada juram por um cajado feito de pá velha. Os da corte preferem bengalas de madeira carmesim."
+				""
+				"&6Objetivo:&r 1. Funda 2 &6Lingotes Arcanos&r: lingote de ferro, cobre ou ouro cercado por oito essências."
+				"&f2. Forje o &6Anel de Mana&r: quatro lingotes arcanos e um diamante. Use-o no espaço de anel."
+				"&f3. Faça o &6Talismã de Ressonância de Ametista&r: quatro couros e uma ametista."
+				"&f4. Faça o &6Cajado Barba-Cinzenta&r: pá de madeira, lingote de ferro e Essência Arcana."
+				"&f5. Faça a &6Bengala do Artífice&r: três tábuas carmesins, dois ouros e uma ametista."
+				"&f6. Empunhe um cajado: ele lança a magia ativa ao usar o item e soma bônus de mana."
+			]
+		}
+		{
+			id: "4D316F3B5A75B34E"
+			x: 14.0d
+			y: 1.07d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "irons_spellbooks:rotten_spell_book"
+			}
+			dependencies: [
+				"504D2C256F3096CB"
+				"77294CE5EBCF0090"
+				"6E688E5DFABDBDAB"
+			]
+			tasks: [
+				{
+					id: "5A71CD76542A8421"
+					type: "kill"
+					entity: "irons_spellbooks:pyromancer"
+					value: 1L
+				}
+				{
+					id: "2DAB7FC087714985"
+					type: "kill"
+					entity: "irons_spellbooks:cryomancer"
+					value: 1L
+				}
+				{
+					id: "5F2358960681240C"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_rotten"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "7EA8771DE07B25F3"
+					type: "xp"
+					xp: 240
+				}
+			]
+			title: "Magos Renegados"
+			description: [
+				"&7Nem todo mago aceita a vigília do céu. Os renegados se trancam em torres e respondem com fogo e gelo a quem bate à porta."
+				"&7A torre do Piromante é de pedra, mas tudo dentro dela já pegou fogo ao menos uma vez."
+				"&7No alto das montanhas, o Criomante nunca sente frio. E nos porões, livros que já foram grandes apodrecem esquecidos."
+				""
+				"&6Objetivo:&r 1. Encontre uma &6Torre do Piromante&r (colinas, florestas, planícies e pântanos) e derrote o &cPiromante&r."
+				"&f2. Encontre uma &6Torre da Montanha&r (picos e planícies nevadas) e derrote o &cCriomante&r."
+				"&f3. Encontre um &6Livro de Magias Podre&r em baús de ruínas, masmorras e nas Catacumbas."
+				""
+				"&8Os barris de gelo da torre da montanha às vezes guardam Anéis de Proteção contra Gelo e Anéis de Afinidade."
+				"&8Não jogue fora o Livro Podre: no Tier IV ele floresce no Tomo Druídico."
+			]
+		}
+		{
+			id: "5CC5F2FDC9771550"
+			x: 14.0d
+			y: 2.67d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:alchemist_cauldron"
+			}
+			dependencies: [
+				"530554AB7F09E8AA"
+				"6E688E5DFABDBDAB"
+			]
+			tasks: [
+				{
+					id: "53E797CA24C3184D"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:alchemist_cauldron"
+					}
+					count: 1L
+				}
+				{
+					id: "31853403845FA3E6"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					count: 2L
+				}
+				{
+					id: "695B2ACE2752D3AB"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_healing_potion"
+					}
+					count: 1L
+				}
+				{
+					id: "55B67B121A212832"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:oakskin_elixir"
+					}
+					count: 1L
+				}
+				{
+					id: "0DED89098A31ABE0"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_oakskin_elixir"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "140B653676A8A1EF"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Caldeirão Alquímico"
+			description: [
+				"&7Ferro, essência e brasa antiga: o caldeirão do alquimista nunca deve esfriar."
+				"&7Nele, cobre dissolvido em tinta comum escurece até virar &bTinta Incomum&7, a que os forjadores do Coração do Tier III pedem na Mechanical Crafter."
+				"&7Sobre uma poção de cura forte, o alquimista escolhe: endurecer a pele ou fechar feridas que nem o padre fecharia."
+				""
+				"&6Objetivo:&r 1. Construa o &6Caldeirão Alquímico&r: caldeirão, quatro ferros, duas essências e uma &6Essência de Cinzas&r. Ponha &cfogo ou fogueira embaixo&r."
+				"&f2. Prepare 2 &bTintas Incomuns&r: quatro garrafas de tinta comum + um lingote de cobre."
+				"&f3. Sobre poção de &6Cura II&r, jogue um fragmento de ametista: &6Poção de Cura Maior&r."
+				"&f4. Sobre poção de &6Cura II&r, jogue uma tora de carvalho: &6Elixir Pele de Carvalho&r."
+				"&f5. Sobre o Elixir Pele de Carvalho, jogue uma ametista: &6Elixir Pele de Carvalho Maior&r."
+				""
+				"&8A Essência de Cinzas cai dos Cavaleiros Antigos do Nether e aparece nas sepulturas dos campos de batalha antigos (cuidado com o &cAr Escaldante&r)."
+				"&8Jogue os ingredientes na água ou na poção e recolha o resultado com garrafas."
+				"&8A &bTinta Incomum&r é ingrediente do &6Coração do Tier III&r."
+			]
+		}
+		{
+			id: "6E06DF291C66B2D7"
+			x: 16.0d
+			y: -2.67d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:gold_spell_book"
+			}
+			dependencies: [
+				"1D3354AB770F3BBC"
+			]
+			tasks: [
+				{
+					id: "6AFA15F49C59684B"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_iron"
+					criterion: ""
+				}
+				{
+					id: "752E5428B2E06A5D"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:hogskin"
+					}
+					count: 6L
+				}
+				{
+					id: "3260A9695094133D"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_gold"
+					criterion: ""
+				}
+				{
+					id: "7AC3393613B536D0"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_villager"
+					criterion: ""
+				}
+				{
+					id: "7768A3D0EFC4B3B2"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:lesser_spell_slot_upgrade"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "19E51FBA5FF3C7C0"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "A Estante do Aprendiz"
+			description: [
+				"&7O Diário Frágil já não basta. Correntes impedem que um livro inquieto fuja sozinho;"
+				"&7couro de hoglin, grosso e teimoso, faz livros que sobrevivem aos donos."
+				"&7Os sacerdotes das aldeias guardam a sua própria bíblia, e um livro bem cuidado sempre aceita mais algumas folhas."
+				""
+				"&6Objetivo:&r 1. Faça o &6Tomo Acorrentado&r: três correntes, quatro couros e dois papéis."
+				"&f2. Arranque 6 &6Peles de Hoglin&r de hoglins no Nether."
+				"&f3. Faça o &6Livro do Aprendiz&r: três ouros, quatro Essências Arcanas e duas peles de hoglin."
+				"&f4. Obtenha a &6Bíblia do Aldeão&r negociando com um &6Sacerdote&r nas casas de oração das aldeias."
+				"&f5. Faça uma &6Melhoria Menor de Espaço de Magia&r: três tecidos arcanos e seis peles de hoglin. Use-a com o livro na mão."
+				""
+				"&8&cAr Escaldante:&r antes do Tier IV o Nether cozinha quem demora. Vá com resistência ao fogo, cace os hoglins e volte logo."
+				"&8Libertar aldeões presos pelos Arquievocadores aumenta a confiança dos sacerdotes."
+			]
+		}
+		{
+			id: "530B4BD769CE629F"
+			x: 16.0d
+			y: -1.07d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:pumpkin_helmet"
+			}
+			dependencies: [
+				"1D3354AB770F3BBC"
+			]
+			tasks: [
+				{
+					id: "5347000DC31EECF1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pumpkin_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "1B6EC835C0B5E1B1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pumpkin_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "3CAFE60FBCDCF3CB"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pumpkin_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "09FB2D4ED41CD880"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pumpkin_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0369A3F884B01F08"
+					type: "xp"
+					xp: 320
+				}
+				{
+					id: "00105E80CBAFFDE5"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "O Espantalho"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Um traje de palha e abóbora que, por algum motivo, conduz mana muito bem. Os corvos discordam."
+				"&7Os magos do campo o usam nas colheitas e nas festas de fim de verão."
+				""
+				"&6Objetivo:&r 1. Faça o &6Elmo de Abóbora&r com abóbora esculpida e tecido arcano."
+				"&f2. Faça o &6Peitoral&r, as &6Calças&r e as &6Botas&r de Espantalho: tecido arcano com feno e couro."
+			]
+			optional: true
+		}
+		{
+			id: "2236F08691362BB6"
+			x: 16.0d
+			y: 2.13d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:evasion_elixir"
+			}
+			dependencies: [
+				"5CC5F2FDC9771550"
+				"477D1D74C4B9B265"
+			]
+			tasks: [
+				{
+					id: "1C7E1D58F8E32193"
+					type: "kill"
+					entity: "irons_spellbooks:apothecarist"
+					value: 1L
+				}
+				{
+					id: "7CF3BFB3FDF802A2"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherward_tincture"
+					}
+					count: 1L
+				}
+				{
+					id: "44466DB93BE6A190"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:invisibility_elixir"
+					}
+					count: 1L
+				}
+				{
+					id: "5F0544835215D3F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_invisibility_elixir"
+					}
+					count: 1L
+				}
+				{
+					id: "37334F734E5ABDAF"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:evasion_elixir"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "50A44AFD8DC9A326"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Boticário do Mangue"
+			description: [
+				"&7Nas palafitas do mangue vive um alquimista que joga frascos de veneno em visitantes."
+				"&7Ele destila um remédio contra a podridão dos porcos-zumbis e guarda receitas de sumiço:"
+				"&7a invisibilidade comum esconde o corpo; o elixir esconde até a armadura, e a evasão some no exato instante do golpe."
+				""
+				"&6Objetivo:&r 1. Encontre uma &6Cabana do Mangue&r nos pântanos e derrote o &cBoticário&r."
+				"&f2. Pegue a &6Tintura Antinether&r nos depósitos escondidos da cabana (protege contra a zumbificação fora do Nether)."
+				"&f3. No caldeirão, sobre poção de &6Invisibilidade longa&r, jogue uma Pedra de Purificação: &6Elixir da Invisibilidade&r."
+				"&f4. Sobre o Elixir da Invisibilidade, jogue um aglomerado de ametista: &6Elixir da Invisibilidade Maior&r."
+				"&f5. Sobre uma poção de &bMana Instantânea III&r, jogue uma pérola do Ender: &6Elixir da Evasão&r."
+				""
+				"&8Poções de mana nascem no suporte de poções, com Essência Arcana em poção estranha."
+			]
+		}
+		{
+			id: "70C8597C2E46D05D"
+			x: 19.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			dependencies: [
+				"6E688E5DFABDBDAB"
+			]
+			tasks: [
+				{
+					id: "23A1A41B6449E1D8"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III&7 - Magia Rara"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "6329E6C02C4E3000"
+			x: 21.0d
+			y: -6.93d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:arcane_anvil"
+			}
+			dependencies: [
+				"5CC5F2FDC9771550"
+				"6E06DF291C66B2D7"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "06E4F68F65CAE0B7"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					count: 2L
+				}
+				{
+					id: "4E473E98E221602F"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/make_arcane_anvil"
+					criterion: ""
+				}
+				{
+					id: "2DC193AF349CB01E"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_diamond"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "349EBC0DD7661B01"
+					type: "xp"
+					xp: 330
+				}
+			]
+			title: "A Bigorna Arcana"
+			description: [
+				"&7Ferro dissolvido em tinta incomum: o tinteiro pesa na mão e a pena range ao escrever. É a &9Tinta Rara&7,"
+				"&7que os forjadores do Coração do Tier IV deixam escorrer na linha de montagem."
+				"&7Com ela vem a bigorna arcana, roxa, pesada e cheia de opiniões: é onde o aprendiz vira mestre."
+				"&7E um mestre carrega um livro à altura, de páginas que viram sozinhas para a magia certa."
+				""
+				"&6Objetivo:&r 1. Prepare 2 &9Tintas Raras&r: no caldeirão, quatro garrafas de tinta incomum + um lingote de ferro."
+				"&f2. Construa a &6Bigorna Arcana&r: bigorna, diamante, duas ardósias polidas e três blocos de ametista."
+				"&f   Nela: suba o nível de um pergaminho com a tinta do nível seguinte, imbua magias em armas e aplique orbes."
+				"&f3. Faça o &6Livro de Magias Encantado&r na &6Mechanical Crafter&r: dois diamantes, um livro encantado, dois tecidos arcanos,"
+				"&f   quatro peles de hoglin e um mecanismo de precisão."
+				""
+				"&8A &9Tinta Rara&r é ingrediente do &6Coração do Tier IV&r (Sequenced Assembly)."
+				"&8Livros únicos têm magias fixas; a bigorna sobe o nível delas com pergaminhos da mesma magia."
+			]
+		}
+		{
+			id: "3B215ADB9CB4514C"
+			x: 21.0d
+			y: -5.33d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:pyromancer_chestplate"
+			}
+			dependencies: [
+				"1D3354AB770F3BBC"
+				"504D2C256F3096CB"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "5A94106E81601FB5"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:fire_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "4EC9F1249CBB7DCB"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "24662EC75E6A98FD"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "426546C2024A5392"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyromancer_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "4E4AB971BFEC0320"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyromancer_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "19ABABBB61ADF8E1"
+					type: "xp"
+					xp: 550
+				}
+			]
+			title: "O Caminho do Fogo"
+			description: [
+				"&7Oito varas ardentes prensadas sobre a pedra lisa, e a runa passa a cheirar a enxofre."
+				"&7Com ela como molde, as vestes de Mago viram os mantos chamuscados do Piromante."
+				"&7Quem veste o Piromante já desistiu de ter sobrancelhas, mas suas chamas queimam mais fundo."
+				""
+				"&6Objetivo:&r 1. Grave uma &cRuna de Fogo&r: Runa em Branco cercada por oito Varas de Blaze."
+				"&f2. Na &6Mesa de Ferraria&r: Runa de Fogo como molde, peça do Mago como base e Essência Arcana como adição."
+				"&f   Faça o capuz, o manto, as calças e as botas do &6Piromante&r (ou monte cada peça na Mechanical Crafter, com um mecanismo de precisão)."
+				""
+				"&8Piromantes às vezes deixam cair a runa já pronta."
+			]
+		}
+		{
+			id: "4AA0CA3C4D941A72"
+			x: 21.0d
+			y: -3.73d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:cryomancer_chestplate"
+			}
+			dependencies: [
+				"1D3354AB770F3BBC"
+				"504D2C256F3096CB"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "325937C3815E9D62"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ice_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "26800847621BFB39"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "642A260AD0067B90"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "1F56EC0FBA4A8EE4"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cryomancer_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "5E5308C493C4BBF1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cryomancer_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5A9165A524766489"
+					type: "xp"
+					xp: 550
+				}
+			]
+			title: "O Caminho do Gelo"
+			description: [
+				"&7A runa de gelo sua orvalho até no verão, e ninguém consegue explicar de onde vem a água."
+				"&7O capuz do Criomante guarda geada nas dobras; a respiração de quem o veste vira névoa."
+				""
+				"&6Objetivo:&r 1. Grave uma &bRuna de Gelo&r: Runa em Branco cercada por oito Ossos Congelados."
+				"&f2. Na &6Mesa de Ferraria&r: Runa de Gelo como molde, peça do Mago como base e Essência Arcana como adição."
+				"&f   Faça o capuz, o manto, as calças e as botas do &6Criomante&r (ou na Mechanical Crafter)."
+			]
+		}
+		{
+			id: "49328EEE7AB27F31"
+			x: 21.0d
+			y: -2.13d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:lightning_rod"
+			}
+			dependencies: [
+				"1D3354AB770F3BBC"
+				"504D2C256F3096CB"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "3688BB3DBD0A3503"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:lightning_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "53FBC06057F03122"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "2188F439CA24A183"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "22A7AE749A92D2EF"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:electromancer_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "449B2AD7C5A7AF16"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:electromancer_boots"
+					}
+					count: 1L
+				}
+				{
+					id: "043D382A26F65447"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/staff_lightning_rod"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5D482939D3CAB560"
+					type: "xp"
+					xp: 660
+				}
+				{
+					id: "2D7359CF5E936C63"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+				}
+			]
+			title: "O Caminho do Raio"
+			description: [
+				"&7Os cabelos de quem grava a runa do raio ficam em pé por uma semana inteira."
+				"&7O Eletromante costura fios de cobre no forro e nunca encosta em maçanetas."
+				"&7Os mais loucos apertam oito raios engarrafados num bloco de cobre e o encostam num para-raios, só para ver o que acontece."
+				""
+				"&6Objetivo:&r 1. Grave uma &eRuna de Raio&r: Runa em Branco cercada por oito Garrafas de Raio."
+				"&f2. Na &6Mesa de Ferraria&r, com a Runa de Raio como molde, faça o capuz, o manto, as calças e as botas do &6Eletromante&r."
+				"&f3. Faça o &6Núcleo Energizado&r (bloco de cobre cercado por oito garrafas de raio) e use-o num &6para-raios&r"
+				"&f   para transformá-lo na &eVara de Raio&r. Fique longe ao fazer isso."
+			]
+		}
+		{
+			id: "03793E3AE8196078"
+			x: 21.0d
+			y: -0.53d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:misery"
+			}
+			dependencies: [
+				"7B5DD188F20AB4CB"
+				"1D3354AB770F3BBC"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "3034A912A389449B"
+					type: "kill"
+					entity: "irons_spellbooks:cultist"
+					value: 1L
+				}
+				{
+					id: "49E9BD6A2E451CC8"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:misery"
+					}
+					count: 1L
+				}
+				{
+					id: "53573E06E7C8DFDE"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blood_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "15B601AE48F3823D"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cultist_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "759E2C515549872F"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "6EA525DD02885FF9"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cultist_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "1F350BDD4B921474"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cultist_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1889BE1840DC67A6"
+					type: "xp"
+					xp: 770
+				}
+				{
+					id: "40022CE6EB2D57AD"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "O Culto Rubro"
+			description: [
+				"&7A runa de sangue pulsa devagar, no ritmo de um coração que não é o seu."
+				"&7Os cultistas vestem vermelho escuro, para que as manchas não apareçam, e carregam uma lâmina chamada Miséria."
+				"&7O nome não é exagero."
+				""
+				"&6Objetivo:&r 1. Derrote &cCultistas&r, os magos de sangue de manto rubro, e tome a espada &6Miséria&r."
+				"&f2. Grave uma &4Runa de Sangue&r: Runa em Branco cercada por oito Frascos de Sangue."
+				"&f3. Na &6Mesa de Ferraria&r, com a Runa de Sangue como molde, faça o capuz, o manto, as calças e as botas do &6Cultista&r."
+			]
+		}
+		{
+			id: "3297DFE2E5C883F5"
+			x: 21.0d
+			y: 1.07d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:priest_chestplate"
+			}
+			dependencies: [
+				"7B5DD188F20AB4CB"
+				"1D3354AB770F3BBC"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "78A9307720237F66"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:holy_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "25F72BB57980724D"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:priest_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "01981CB0FB388AAF"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:priest_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "35B6ECA1F3B1D523"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:priest_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "31E09D78F592CAC6"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:priest_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "267479467C45039F"
+					type: "xp"
+					xp: 550
+				}
+			]
+			title: "As Vestes do Sacerdote"
+			description: [
+				"&7Os padres das aldeias juram que a runa sagrada aquece as mãos dos justos."
+				"&7Vestes brancas e máscara de ouro: o Sacerdote cura com uma mão e julga com a outra."
+				""
+				"&6Objetivo:&r 1. Grave uma &fRuna Sagrada&r: Runa em Branco cercada por oito Pérolas Divinas."
+				"&f2. Na &6Mesa de Ferraria&r, com a Runa Sagrada como molde, faça a máscara, as vestes, as calças e as botas do &6Sacerdote&r."
+				""
+				"&8As vestes do Sacerdote são a base do Peitoral do Portador da Luz no Tier V."
+			]
+		}
+		{
+			id: "12494BF92761E569"
+			x: 21.0d
+			y: 2.67d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:plagued_helmet"
+			}
+			dependencies: [
+				"7B5DD188F20AB4CB"
+				"1D3354AB770F3BBC"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "554BF7F4A37C9982"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:nature_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "06F48D9BAD7271CF"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:plagued_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "489E026C90253931"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "1622B6D37ED9F7BA"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:plagued_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "3C4936A7ECE75127"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:plagued_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "31B6AB6291917111"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "762CF811052FD50F"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "O Pestilento"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Musgo cresce em volta da runa da natureza mesmo dentro de um baú fechado."
+				"&7O bico da máscara do Pestilento é cheio de ervas. Não protege da peste: a carrega com orgulho."
+				""
+				"&6Objetivo:&r 1. Grave uma &2Runa da Natureza&r: Runa em Branco cercada por oito Batatas Venenosas."
+				"&f2. Na &6Mesa de Ferraria&r, com a Runa da Natureza como molde, faça a máscara, o manto, as calças e as botas do &6Pestilento&r."
+				""
+				"&8Uma Runa da Natureza também vira o Anel de Proteção contra Veneno no Tier IV."
+			]
+			optional: true
+		}
+		{
+			id: "55D0A3EC9F48C538"
+			x: 21.0d
+			y: 4.27d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:icy_fang"
+			}
+			dependencies: [
+				"504D2C256F3096CB"
+				"1D3354AB770F3BBC"
+				"5CC5F2FDC9771550"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "2E0254373A50C264"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map_ice_spider_den"
+					}
+					count: 1L
+				}
+				{
+					id: "46BBD5DB49BF4D57"
+					type: "kill"
+					entity: "irons_spellbooks:ice_spider"
+					value: 1L
+				}
+				{
+					id: "0624D31AD4A67309"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:icy_fang"
+					}
+					count: 1L
+				}
+				{
+					id: "49BFD4DAAF283718"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ice_venom_vial"
+					}
+					count: 2L
+				}
+				{
+					id: "7476C5250564E4C6"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:permafrost_shard"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5C85C50EC59334B8"
+					type: "xp"
+					xp: 550
+				}
+			]
+			title: "O Inverno Profundo"
+			description: [
+				"&7Um mapa enrolado em teia e osso gelado leva aos covis das aranhas de gelo: brancas como neve, do tamanho de um cavalo."
+				"&7O veneno delas congela o sangue nas veias, e destilado com cuidado vira tinta de inverno."
+				"&7Mais além, um navio preso num pico de gelo aponta a proa para o céu. O capitão ainda guarda seus tesouros."
+				""
+				"&6Objetivo:&r 1. Faça o &6Mapa Enrolado&r do covil: dois ossos congelados, quatro teias e um tecido arcano. Use-o para revelar o covil mais próximo."
+				"&f2. Derrote uma &cAranha de Gelo&r e arranque sua &6Presa Gélida&r."
+				"&f3. No Caldeirão Alquímico com água, jogue Presas Gélidas e recolha 2 &6Frascos de Veneno Gélido&r."
+				"&f4. Encontre o &6Quebra-Gelo Empalado&r (oceanos congelados e picos gelados) e recupere um &6Fragmento de Permafrost&r."
+				""
+				"&8Os aposentos do capitão do Quebra-Gelo às vezes guardam &5Tinta Épica&r."
+				"&8Veneno e permafrost alimentam o Livro Marcado pelo Gelo, a Lâmina Boreal e o Cajado de Gelo do Tier IV."
+			]
+		}
+		{
+			id: "53CB8D0D0DB70951"
+			x: 21.0d
+			y: 5.87d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:affinity_ring"
+			}
+			dependencies: [
+				"4D316F3B5A75B34E"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "07F7339012CBD69B"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:affinity_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "75F3DE448C1FF4AD"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:invisibility_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "74085E7E45A4BCFE"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:teleportation_amulet"
+					}
+					count: 1L
+				}
+				{
+					id: "2233155E520A0823"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:autoloader_crossbow"
+					}
+					count: 1L
+				}
+				{
+					id: "6837C2E4FC72C794"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:hither_thither_wand"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1148ABB0CC7079FA"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "2669E904E6493C28"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Tesouros dos Magos"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Nos cofres e torres dos magos esquecidos sobram bugigangas que ninguém mais sabe fazer."
+				"&7Um anel que aprende o nome de uma magia, outro com letras miúdas que ninguém lê, uma pérola rachada numa corrente,"
+				"&7uma besta que recarrega sozinha e uma varinha que aponta para dois lugares ao mesmo tempo."
+				""
+				"&6Objetivo:&r 1. Encontre um &6Anel de Afinidade&r nas torres dos magos (reforça uma magia específica)."
+				"&f2. Encontre em tesouros mágicos o &6Anel da Invisibilidade&r e o &6Amuleto de Teleporte&r (evasão depois de cada salto)."
+				"&f3. Encontre a &6Besta Automática&r nos cofres ominosos das &6Câmaras de Provação&r."
+				"&f4. Compre a &6Varinha Vai-e-Vem&r de um &6Mercador Andarilho&r."
+				""
+				"&8Com sucata de mithril, no Tier IV, o Anel de Afinidade também pode ser forjado."
+			]
+			optional: true
+		}
+		{
+			id: "4A474365F5C2B49B"
+			x: 21.0d
+			y: 7.47d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:evoker_spell_book"
+			}
+			dependencies: [
+				"7B5DD188F20AB4CB"
+				"6E06DF291C66B2D7"
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "1615F5F007271316"
+					type: "kill"
+					entity: "irons_spellbooks:archevoker"
+					value: 1L
+				}
+				{
+					id: "06F690C78BAFE19F"
+					type: "kill"
+					entity: "irons_spellbooks:magehunter_vindicator"
+					value: 1L
+				}
+				{
+					id: "0147450EA1D21608"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:magehunter"
+					}
+					count: 1L
+				}
+				{
+					id: "23B5D4BDEC731A46"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_evoker"
+					criterion: ""
+				}
+				{
+					id: "4C0637F8B59133FB"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:archevoker_logbook_translated"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5820DB512741DFFF"
+					type: "xp"
+					xp: 550
+				}
+			]
+			title: "O Forte do Arquievocador"
+			description: [
+				"&7Os illagers construíram fortalezas onde guardam prisioneiros e um senhor da evocação."
+				"&7Alguns vindicadores ali foram treinados para uma só presa: quem lança feitiços."
+				"&7O grimório do senhor illager nunca se apaga, e seu diário, rabiscado em língua illager, só um sacerdote paciente consegue traduzir."
+				""
+				"&6Objetivo:&r 1. Encontre um &6Forte Evocador&r (florestas, colinas, planícies, desertos e savanas) e derrote o &cArquievocador&r."
+				"&f2. Derrote um &cVindicador Caçador de Magos&r e tome a espada &6Caça-Magos&r."
+				"&f3. Obtenha o &6Grimório de Evocação&r de Evocadores ou Arquievocadores."
+				"&f4. Leve o Diário do Arquievocador a um &6Sacerdote&r para traduzi-lo."
+				""
+				"&8O Arquievocador sempre deixa cair uma Runa de Evocação."
+				"&8Liberte os aldeões presos no forte para ganhar a gratidão dos sacerdotes."
+			]
+		}
+		{
+			id: "638F8545B950D073"
+			x: 23.0d
+			y: -7.47d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:dead_king_heart"
+			}
+			dependencies: [
+				"77294CE5EBCF0090"
+				"6329E6C02C4E3000"
+			]
+			tasks: [
+				{
+					id: "12FB978D4C0F9625"
+					type: "kill"
+					entity: "irons_spellbooks:dead_king"
+					value: 1L
+				}
+				{
+					id: "09CDC8E8DB8E8872"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:bone_key"
+					}
+					count: 1L
+				}
+				{
+					id: "1939329BDBC26231"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/staff_blood_staff"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "01FB8807629C0C08"
+					type: "xp"
+					xp: 330
+				}
+			]
+			title: "Rei Morto"
+			description: [
+				"&7No fundo das Catacumbas, um cadáver coroado espera sobre o trono. Ele não está morto: está paciente."
+				"&7Rouba vida, invoca seus súditos e corta em arco com a foice. Os que sobrevivem saem com uma chave de fêmur e o cetro dele, ainda quente."
+				"&7Seu coração seco é o troféu que abre o caminho do &6Tier IV&7: sem ele, o Coração do Tier não se forma."
+				""
+				"&6Objetivo:&r 1. Toque o cadáver do Rei no salão mais fundo das Catacumbas e derrote o &cRei Morto&r."
+				"&f   Reclame seu &ccoração de troféu&r: comestível, com bênçãos e pragas, e peça central do Coração do Tier IV."
+				"&f2. Receba a &6Chave de Osso&r e abra um &6Cofre de Ossos&r das Catacumbas."
+				"&f3. Tome o &4Cajado de Sangue&r dos restos do Rei: os mortos se curvam a quem o empunha."
+				""
+				"&8Lute em grupo e leve Poções de Cura Maior e Elixires Pele de Carvalho."
+				"&8O cofre do Rei guarda Fragmentos de Filactéria e Fragmentos de Conhecimento Antigo."
+			]
+		}
+		{
+			id: "1788C4B58A1E711D"
+			x: 23.0d
+			y: -5.87d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:ruined_book"
+			}
+			dependencies: [
+				"6329E6C02C4E3000"
+			]
+			tasks: [
+				{
+					id: "6B7BCDECF18AC2CD"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ruined_book"
+					}
+					count: 1L
+				}
+				{
+					id: "2DCE3842CEFD2F0B"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ancient_knowledge_fragment"
+					}
+					count: 4L
+				}
+				{
+					id: "76DB93AA0D3B5F58"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:timeless_slurry"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "75103A5AEFB2A45C"
+					type: "xp"
+					xp: 330
+				}
+			]
+			title: "Ecos do Escuro Profundo"
+			description: [
+				"&7Nas cidades antigas do escuro profundo, livros apodrecem em silêncio. Um deles ainda tem lombada."
+				"&7Ao redor, folhas soltas escritas numa língua que fere os olhos: alguém tentou apagar aquilo do mundo."
+				"&7E um eco diluído em poção sem graça vira um lodo onde o tempo para de corroer."
+				""
+				"&6Objetivo:&r 1. Encontre um &6Livro Arruinado&r em baús das &cCidades Antigas&r. Ande agachado: o Warden ouve tudo."
+				"&f2. Junte 4 &6Fragmentos de Conhecimento Antigo&r: Cidades Antigas, bibliotecas, Cidadelas e o cofre do Rei Morto."
+				"&f3. No caldeirão, sobre uma &6Poção Mundana&r, jogue um &6Fragmento de Eco&r: &6Lodo Atemporal&r."
+				""
+				"&8O Livro Arruinado é a base dos grandes livros do Tier IV em diante; o Lodo restaura as lâminas da Cidadela."
+			]
+		}
+		{
+			id: "0BA05EA8A0FEB631"
+			x: 23.0d
+			y: 6.93d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:archevoker_chestplate"
+			}
+			dependencies: [
+				"4A474365F5C2B49B"
+				"1D3354AB770F3BBC"
+			]
+			tasks: [
+				{
+					id: "7513185FB0988CCE"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:evocation_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "235F999C39C7096C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "0E5D9D08010F4D11"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "6B2736C4C1B68649"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "5136FB68F86DF838"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:archevoker_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7593C751BED21183"
+					type: "xp"
+					xp: 550
+				}
+			]
+			title: "O Casaco do Illager"
+			description: [
+				"&7Dizem que os evocadores gravam sua runa com os dentes das próprias presas conjuradas."
+				"&7O casaco dos senhores illagers tem bolsos fundos para esconder presas e vexes."
+				""
+				"&6Objetivo:&r 1. Grave uma &aRuna de Evocação&r: Runa em Branco cercada por oito Esmeraldas (ou use a que o Arquievocador deixa)."
+				"&f2. Na &6Mesa de Ferraria&r, com a Runa de Evocação como molde, faça o chapéu, o casaco, as calças e as botas do &6Arquievocador&r."
+				""
+				"&8As botas do Arquievocador são a base das Botas da Velocidade do Tier V."
+			]
+		}
+		{
+			id: "7A0969FB2C695035"
+			x: 26.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_4"
+			}
+			dependencies: [
+				"70C8597C2E46D05D"
+			]
+			tasks: [
+				{
+					id: "2A6F0E51D980AE34"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_4"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&6Tier IV&7 - Mithril e Cinzas"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "67A5105EEF8FEF76"
+			x: 28.0d
+			y: -2.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:mithril_ingot"
+			}
+			dependencies: [
+				"6329E6C02C4E3000"
+				"7A0969FB2C695035"
+			]
+			tasks: [
+				{
+					id: "105D7D202C7486E7"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:raw_mithril"
+					}
+					count: 4L
+				}
+				{
+					id: "067F5AD9281226D2"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mithril_scrap"
+					}
+					count: 4L
+				}
+				{
+					id: "3EA82F2598606315"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mithril_ingot"
+					}
+					count: 2L
+				}
+				{
+					id: "5F8D100F5C7D2953"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mithril_weave"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5CA7BC7F6FB55175"
+					type: "xp"
+					xp: 560
+				}
+			]
+			title: "O Metal dos Magos"
+			description: [
+				"&7O metal dos magos dorme abaixo da camada -38, sem tocar o ar. Só picaretas de netherita o arrancam,"
+				"&7e no Heartforge a netherita só nasce no Mixer superaquecido."
+				"&7Leve como prata, duro como diamante e frio como uma promessa quebrada: elos de mithril trançados não deixam passar lâmina nem magia."
+				""
+				"&6Objetivo:&r 1. Minere 4 &6Mithril Bruto&r (abaixo de Y -38, nunca exposto ao ar) com picareta de &6netherita&r."
+				"&f2. Funda o mithril bruto no alto-forno para obter 4 &6Sucatas de Mithril&r."
+				"&f3. Junte quatro sucatas em cada &6Lingote de Mithril&r (2)."
+				"&f4. Teça a &6Malha de Mithril&r: cinco lingotes de mithril e quatro correntes."
+				""
+				"&8Guarde sucatas: quase toda joia de mago do Tier IV leva uma."
+			]
+		}
+		{
+			id: "01EFDD5361AE4BB2"
+			x: 28.0d
+			y: -0.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:shadowwalker_helmet"
+			}
+			dependencies: [
+				"1D3354AB770F3BBC"
+				"504D2C256F3096CB"
+				"7A0969FB2C695035"
+			]
+			tasks: [
+				{
+					id: "238991DCA3D3AC93"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ender_rune"
+					}
+					count: 1L
+				}
+				{
+					id: "2F004A3044180BF1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "20522DFA7A65618D"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "16C995B2D5E76785"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "54FA8B146A01CEE5"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4786FD93F1C35166"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "6FDBB4C863BB269E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "O Andarilho das Sombras"
+			description: [
+				"&7Às vezes a runa ender aparece no bolso errado. Ninguém sabe como."
+				"&7Máscara lisa, couro escuro e passos que não fazem barulho: o traje da escola do Fim."
+				""
+				"&6Objetivo:&r 1. Grave uma &5Runa Ender&r: Runa em Branco cercada por oito Pérolas do Ender."
+				"&f2. Na &6Mesa de Ferraria&r, com a Runa Ender como molde, faça a máscara, o manto, as calças e as botas do &5Andarilho das Sombras&r."
+			]
+		}
+		{
+			id: "79B7FD4C3EBBA0F2"
+			x: 28.0d
+			y: 1.2d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:necronomicon_spell_book"
+			}
+			dependencies: [
+				"638F8545B950D073"
+				"7A0969FB2C695035"
+			]
+			tasks: [
+				{
+					id: "1CC30C7461A1D0FE"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:dead_king_phylactery"
+					}
+					count: 1L
+				}
+				{
+					id: "235734199CB65283"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:necronomicon_spell_book"
+					}
+					count: 1L
+				}
+				{
+					id: "384D1E3D09162774"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wicked_bone_ring"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1B9748716B20AF7F"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "1EBD7C2D4914E8EF"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "O Rei Volta a Reinar"
+			description: [
+				"&7Um rei sem carne guarda a alma num frasco. Quebre o frasco, junte os cacos, e ele volta ao trono."
+				"&7Na segunda vez, ele traz o próprio livro de truques, com páginas feitas de algo que já foi gente."
+				"&7Sob o Mau Presságio, volta ainda mais cruel, e seus despojos também mudam."
+				""
+				"&6Objetivo:&r 1. Junte oito Fragmentos de Filactéria (cofre do Rei e geradores das Catacumbas) com uma lanterna de almas: &6Filactéria do Rei Morto&r."
+				"&f   Use-a na alma do Rei para revivê-lo e lutar de novo."
+				"&f2. Obtenha o &4Necronomicon&r derrotando o Rei Morto."
+				"&f3. Enfrente-o sob &cMau Presságio&r (Garrafa Ominosa) e obtenha o &6Anel de Osso Perverso&r."
+				""
+				"&8O Necronomicon é livro único: as magias são fixas, mas sobem de nível na Bigorna Arcana."
+				"&8Os chefes ominosos também deixam a &6Tintura do Esquecimento&r, que reinicia os Cofres de Provação."
+			]
+		}
+		{
+			id: "25922491DF4C355B"
+			x: 28.0d
+			y: 2.8d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "irons_spellbooks:cinder_essence"
+			}
+			dependencies: [
+				"6329E6C02C4E3000"
+				"7A0969FB2C695035"
+			]
+			tasks: [
+				{
+					id: "1E5C878E4A505E52"
+					type: "kill"
+					entity: "irons_spellbooks:citadel_keeper"
+					value: 1L
+				}
+				{
+					id: "1BA643BB812FF5A6"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cinder_essence"
+					}
+					count: 8L
+				}
+				{
+					id: "16DA63584470C8D6"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_blaze"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0C54AD5DCDCA3B21"
+					type: "xp"
+					xp: 420
+				}
+			]
+			title: "Os Campos de Batalha Antigos"
+			description: [
+				"&7Com o Tier IV o Ar Escaldante se dissipa, e o Nether de verdade se abre aos magos."
+				"&7Nos campos de batalha antigos, pilhas de armadura esperam. Quebre uma, e o dono se levanta."
+				"&7O que sobra dele é um pó quente que nunca esfria. E todo blaze carrega, sem saber, um manual de si mesmo."
+				""
+				"&6Objetivo:&r 1. Encontre um &6Campo de Batalha Antigo&r no Nether, quebre as &cPilhas de Armadura&r e derrote os &cCavaleiros Antigos&r."
+				"&f2. Colete 8 &6Essências de Cinzas&r deles e das sepulturas do campo."
+				"&f3. Derrote &cBlazes&r até um deles deixar o &6Manual de Instruções Blaze&r."
+			]
+		}
+		{
+			id: "369DBF99F301EF9B"
+			x: 30.0d
+			y: -4.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:cast_time_ring"
+			}
+			dependencies: [
+				"67A5105EEF8FEF76"
+				"1765739A41F9FE90"
+			]
+			tasks: [
+				{
+					id: "49F6541F9540E4AE"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cast_time_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "38B9B8F0312DDAFC"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cooldown_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "50234B77ED26AB03"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:concentration_amulet"
+					}
+					count: 1L
+				}
+				{
+					id: "3D0217CB02345BFF"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:conjurers_talisman"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "50142AEDF486EF4D"
+					type: "xp"
+					xp: 560
+				}
+			]
+			title: "As Joias do Conjurador"
+			description: [
+				"&7Um anel gira mais rápido do que deveria; outro, de cobre gasto, devolve o fôlego antes da hora."
+				"&7Correntes que prendem o corpo no lugar e um crânio que os mortos invocados respeitam."
+				"&7Os mestres não tiram essas quatro peças nem para dormir."
+				""
+				"&6Objetivo:&r 1. &6Anel da Presteza&r (Mechanical Crafter): ametista + sucata de mithril. Conjuração mais rápida."
+				"&f2. &6Anel da Recuperação&r (Mechanical Crafter): quatro cobres + sucata de mithril. Recarga menor."
+				"&f3. &6Amuleto da Concentração&r: mithril, sucata e três correntes. Conjurações longas não são interrompidas."
+				"&f4. &6Talismã do Conjurador&r: crânio de esqueleto, três barbantes e sucata de mithril. Invocações mais fortes."
+				""
+				"&8Os anéis também aparecem em tesouros mágicos, antes mesmo do mithril."
+			]
+		}
+		{
+			id: "6E282DDCECD1C67E"
+			x: 30.0d
+			y: -2.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:netherite_spell_book"
+			}
+			dependencies: [
+				"1788C4B58A1E711D"
+				"4D316F3B5A75B34E"
+				"55D0A3EC9F48C538"
+				"67A5105EEF8FEF76"
+			]
+			tasks: [
+				{
+					id: "59D82284F189C74F"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_netherite"
+					criterion: ""
+				}
+				{
+					id: "4F1D262C78194E36"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_druidic"
+					criterion: ""
+				}
+				{
+					id: "2B2EA0F9FF08E778"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_frostbranded"
+					criterion: ""
+				}
+				{
+					id: "61F7696B7B594E91"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:eldritch_manuscript"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "06EEBB76EC7F8409"
+					type: "xp"
+					xp: 560
+				}
+			]
+			title: "Os Livros Restaurados"
+			description: [
+				"&7O livro arruinado ainda lembra o que era. Com netherita, sangue e raio, volta a falar como o Códex Antigo."
+				"&7O Livro Podre ainda tinha vida: mel, esporos e luz o fizeram florescer. Outro arruinado, embebido em veneno gélido, estala de frio."
+				"&7E a nona escola, enterrada por quem a criou, sussurra em fragmentos colados com um eco."
+				""
+				"&6Objetivo:&r Todos na &6Mechanical Crafter&r, exceto o manuscrito:"
+				"&f1. &6Códex Antigo&r: livro arruinado, netherita, quatro tecidos arcanos, dois frascos de sangue e uma garrafa de raio."
+				"&f2. &2Tomo Druídico&r: livro podre, aglomerado de ametista, garrafa de mel, flor de esporos, bolsa de tinta brilhante e dois tecidos arcanos."
+				"&f3. &bLivro Marcado pelo Gelo&r: livro arruinado, duas sucatas de mithril, três tecidos arcanos e três frascos de veneno gélido."
+				"&f4. &5Manuscrito Eldritch&r (bancada): oito Fragmentos de Conhecimento Antigo em volta de um Fragmento de Eco."
+				"&f   Lido uma vez, ensina uma magia Eldritch; depois disso o Fragmento de Eco vira o foco dela na forja."
+				""
+				"&8Magias Eldritch só podem ser forjadas e lançadas depois de aprendidas."
+			]
+		}
+		{
+			id: "6652964DC061A061"
+			x: 30.0d
+			y: -0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:spellbreaker"
+			}
+			dependencies: [
+				"67A5105EEF8FEF76"
+				"55D0A3EC9F48C538"
+			]
+			tasks: [
+				{
+					id: "64918F1AE0680E43"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:weapon_parts"
+					}
+					count: 2L
+				}
+				{
+					id: "3080453FCDA06A4A"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:amethyst_rapier"
+					}
+					count: 1L
+				}
+				{
+					id: "531D36E0F540A628"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:spellbreaker"
+					}
+					count: 1L
+				}
+				{
+					id: "32222CE1FDF02B23"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:boreal_blade"
+					}
+					count: 1L
+				}
+				{
+					id: "5F4CE7DE4990C9E1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:frosted_helve"
+					}
+					count: 1L
+				}
+				{
+					id: "0530ED6B164F50A0"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/staff_ice"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5F9D1C9887E3B1B0"
+					type: "xp"
+					xp: 840
+				}
+				{
+					id: "551165E896F32D0F"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "O Arsenal do Arcanista"
+			description: [
+				"&7Lâminas de mago não se forjam inteiras: começam como peças de mithril e metal arcano."
+				"&7Uma rapieira fina e cantante; uma espada que corta o próprio ar onde a magia acontece; uma lâmina que nunca esquenta."
+				"&7E ossos congelados envoltos em metal arcano, à espera de um permafrost na ponta para chorar geada."
+				""
+				"&6Objetivo:&r 1. Faça 2 &6Peças de Arma&r: três lingotes de mithril e dois lingotes arcanos."
+				"&f2. &6Rapieira de Ametista&r: dois fragmentos de ametista, duas correntes e peças de arma."
+				"&f3. &6Quebra-Feitiços&r (Mechanical Crafter): dois mithril, dois diamantes e peças de arma."
+				"&f4. &bLâmina Boreal&r (Mechanical Crafter): mithril, dois frascos de veneno gélido, peças de arma e gelo."
+				"&f5. &6Cabo Gélido&r (Mechanical Crafter): quatro ossos congelados e três lingotes arcanos."
+				"&f6. Una o Cabo Gélido a um Fragmento de Permafrost na Mechanical Crafter: &bCajado de Gelo&r."
+				""
+				"&8Os cofres ominosos das Câmaras de Provação também guardam Peças de Arma."
+			]
+		}
+		{
+			id: "121714D1C86D7B8A"
+			x: 30.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:upgrade_orb"
+			}
+			dependencies: [
+				"67A5105EEF8FEF76"
+				"25922491DF4C355B"
+				"477D1D74C4B9B265"
+			]
+			tasks: [
+				{
+					id: "5CD8C84D45687DE8"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:upgrade_orb"
+					}
+					count: 1L
+				}
+				{
+					id: "515F74D99661B96D"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mana_upgrade_orb"
+					}
+					count: 1L
+				}
+				{
+					id: "6CF3E75F367649A9"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cooldown_upgrade_orb"
+					}
+					count: 1L
+				}
+				{
+					id: "519CEE8C3A00F35A"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:protection_upgrade_orb"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3072E76D3975E881"
+					type: "xp"
+					xp: 560
+				}
+			]
+			title: "O Orbe Vazio"
+			description: [
+				"&7Uma esfera de vidro arcano à espera de uma vocação: o primeiro passo para aprimorar tudo."
+				"&7Sem escola, ela pode guardar só mana pura girando, apressar o fôlego ou endurecer a pele."
+				""
+				"&6Objetivo:&r 1. Faça o &6Orbe de Aprimoramento Vazio&r: quatro lingotes arcanos, quatro Essências de Cinzas e um lingote de mithril."
+				"&f2. Crie o &bOrbe de Mana&r: Orbe Vazio cercado por oito Runas Arcanas."
+				"&f3. Crie o &6Orbe de Recuperação&r: Orbe Vazio cercado por oito Runas da Recuperação."
+				"&f4. Crie o &6Orbe de Proteção&r: Orbe Vazio cercado por oito Runas Protetoras."
+				"&fNa Bigorna Arcana, orbes aprimoram armaduras e livros (o limite de aprimoramentos é por peça)."
+			]
+		}
+		{
+			id: "4F5C8E3017F995AF"
+			x: 30.0d
+			y: 2.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:pyrium_staff"
+			}
+			dependencies: [
+				"25922491DF4C355B"
+				"1788C4B58A1E711D"
+			]
+			tasks: [
+				{
+					id: "69B258B7AE52E73A"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map_citadel"
+					}
+					count: 1L
+				}
+				{
+					id: "5C36B61D7F231C5A"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyrium_ingot"
+					}
+					count: 2L
+				}
+				{
+					id: "177F6212DA53D604"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:keeper_flamberge"
+					}
+					count: 1L
+				}
+				{
+					id: "23E0CDB89C134E75"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:legionnaire_flamberge"
+					}
+					count: 1L
+				}
+				{
+					id: "20BEA07F61918AD8"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/staff_pyrium"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5DE6AA8C409B3B38"
+					type: "xp"
+					xp: 700
+				}
+			]
+			title: "A Cidadela Perdida"
+			description: [
+				"&7Papel, cinzas e saber antigo traçam a única rota até a fortaleza perdida do Nether."
+				"&7Seu metal, o pírio, brilha como brasa e lembra o primeiro portador da chama."
+				"&7Nas muralhas jazem as flamberges dos guardiões, roídas por séculos de calor. Banhadas em lodo atemporal e reforjadas, lembram quem foram."
+				""
+				"&6Objetivo:&r 1. Faça o &6Mapa Enrolado da Cidadela&r: cinco papéis, duas Essências de Cinzas e dois Fragmentos de Conhecimento Antigo."
+				"&f2. Saqueie os cofres da &cCidadela Perdida&r até achar 2 &6Lingotes de Pírio&r."
+				"&f3. Encontre a &6Flamberge Decrépita&r nos baús das muralhas."
+				"&f4. Na Mesa de Ferraria: Lodo Atemporal como molde, Flamberge Decrépita como base e Pírio como adição: &6Flamberge do Legionário&r."
+				"&f5. Forje o &cCajado de Pírio&r na &6Mechanical Crafter&r: tecido arcano, netherita e dois lingotes de pírio."
+				""
+				"&8No alto-forno, o pírio se desfaz em detrito ancestral."
+				"&8No coração da Cidadela espera o Eco de Tyros. Não o desperte antes do Tier V."
+			]
+		}
+		{
+			id: "60B541AAF7505CFC"
+			x: 30.0d
+			y: 4.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:netherite_mage_chestplate"
+			}
+			dependencies: [
+				"1D3354AB770F3BBC"
+				"25922491DF4C355B"
+			]
+			tasks: [
+				{
+					id: "4A5E19297F226695"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "0E78544C7B1DAC97"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "4FD1A6DBDB41037C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "651DF3B2CD9699E9"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6ACBF8307462E613"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "413C785D7B9A60A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Mago de Batalha"
+			description: [
+				"&7Vestes de mago revestidas de netherita: a escolha de quem lança feitiços na linha de frente."
+				"&7Pesam mais do que parecem, mas não queimam, não rasgam e não deixam a mana escapar."
+				""
+				"&6Objetivo:&r 1. Na Mesa de Ferraria, aplique &6netherita&r (molde de aprimoramento + lingote) a cada peça do Mago:"
+				"&f   elmo, peitoral, calças e botas de &6Mago de Batalha de Netherita&r."
+				""
+				"&8No Heartforge, a netherita só se liga no Mixer superaquecido."
+			]
+		}
+		{
+			id: "36FCC4949AE82CEA"
+			x: 32.0d
+			y: -1.27d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:fireward_ring"
+			}
+			dependencies: [
+				"369DBF99F301EF9B"
+				"25922491DF4C355B"
+			]
+			tasks: [
+				{
+					id: "38D1E5738FF94F4B"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:fireward_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "6D9E4B3236B30EF6"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:frostward_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "51A41653CC800139"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:poisonward_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "6FF7A0C7BC2AB004"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:emerald_stoneplate_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "67217FEB189003F7"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:expulsion_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "0D3265A93C35E9F3"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:heavy_chain_necklace"
+					}
+					count: 1L
+				}
+				{
+					id: "06AF1EA4E5E1B2E0"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:portal_frame"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "6F42D91C10C89FFD"
+					type: "xp"
+					xp: 980
+				}
+				{
+					id: "4C5C27C4B70904F5"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Bugigangas de Mithril"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Nem toda joia de mago brilha. Algumas só pesam, sopram ou pagam em experiência."
+				"&7Três anéis afastam fogo, gelo e veneno; e duas molduras de mithril, costuradas pela magia do Portal, encurtam qualquer viagem."
+				""
+				"&6Objetivo:&r Cada joia leva sucata de mithril:"
+				"&f1. &6Anel contra Fogo&r (quatro Essências de Cinzas), &6contra Gelo&r (Fragmento de Permafrost) e &6contra Veneno&r (Runa da Natureza)."
+				"&f2. &6Anel de Placa Esmeralda&r (garrafa de experiência, +25% de XP) e &6Anel da Expulsão&r (carga de vento, rajada ao ser atingido)."
+				"&f3. &6Corrente Pesada&r: quatro correntes."
+				"&f4. 2 &6Molduras de Portal&r: dois mithril, quatro lingotes arcanos e uma pérola do Ender. Ligue-as com a magia &5Portal&r."
+			]
+			optional: true
+		}
+		{
+			id: "21D3BAF5CFE51E33"
+			x: 32.0d
+			y: 0.33d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:fire_upgrade_orb"
+			}
+			dependencies: [
+				"121714D1C86D7B8A"
+				"3B215ADB9CB4514C"
+				"4AA0CA3C4D941A72"
+				"49328EEE7AB27F31"
+			]
+			tasks: [
+				{
+					id: "79BA522A80DEABE1"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:fire_upgrade_orb"
+					}
+					count: 1L
+				}
+				{
+					id: "4C35F874FF32D226"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ice_upgrade_orb"
+					}
+					count: 1L
+				}
+				{
+					id: "11B7F0B816E24F4C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:lightning_upgrade_orb"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "00143D611B21B0E5"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "093E57E95946C98E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Orbes dos Elementos"
+			description: [
+				"&7Um orbe que cospe faíscas quando alguém pronuncia a palavra \"frio\"; outro que tira a sensibilidade dos dedos;"
+				"&7um terceiro com uma tempestade em miniatura girando lá dentro, sem nunca se cansar."
+				""
+				"&6Objetivo:&r Em cada caso, um Orbe Vazio no centro, cercado por oito runas da escola:"
+				"&f1. &cOrbe de Fogo&r (oito Runas de Fogo)."
+				"&f2. &bOrbe de Gelo&r (oito Runas de Gelo)."
+				"&f3. &eOrbe de Raio&r (oito Runas de Raio)."
+				"&fNa Bigorna Arcana, cada um soma poder às magias da sua escola numa peça de armadura ou num livro."
+			]
+		}
+		{
+			id: "2A9FCE2872CA778C"
+			x: 32.0d
+			y: 1.93d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:holy_upgrade_orb"
+			}
+			dependencies: [
+				"121714D1C86D7B8A"
+			]
+			tasks: [
+				{
+					id: "2790FC24B495B4F4"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:holy_upgrade_orb"
+					}
+					count: 1L
+				}
+				{
+					id: "628C777E9CDADFBC"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blood_upgrade_orb"
+					}
+					count: 1L
+				}
+				{
+					id: "0DE25E46B0C25EAD"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:evocation_upgrade_orb"
+					}
+					count: 1L
+				}
+				{
+					id: "6EA9E153FF544772"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:nature_upgrade_orb"
+					}
+					count: 1L
+				}
+				{
+					id: "313695CEC49711F6"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ender_upgrade_orb"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "33EF5BA2E51A4775"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "43FD62EF59BD9E13"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Orbes da Alma"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Um brilho manso como vela de capela; um rubi com o calor de uma ferida recente;"
+				"&7um orbe que ri baixinho quando ninguém olha; outro que cheira a terra molhada;"
+				"&7e um sempre úmido, como se tivesse acabado de voltar de muito longe."
+				""
+				"&6Objetivo:&r Em cada caso, um Orbe Vazio no centro, cercado por oito runas da escola:"
+				"&f1. &fOrbe Sagrado&r. 2. &4Orbe de Sangue&r. 3. &aOrbe de Evocação&r. 4. &2Orbe da Natureza&r. 5. &5Orbe Ender&r."
+			]
+			optional: true
+		}
+		{
+			id: "2A47D8A9991BA850"
+			x: 35.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_5"
+			}
+			dependencies: [
+				"7A0969FB2C695035"
+			]
+			tasks: [
+				{
+					id: "6F427903DFE84EF0"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_5"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&cTier V&7 - Magia Épica"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "6752CA2CC8AB08E0"
+			x: 37.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:epic_ink"
+			}
+			dependencies: [
+				"5CC5F2FDC9771550"
+				"7B5DD188F20AB4CB"
+				"1788C4B58A1E711D"
+				"2A47D8A9991BA850"
+			]
+			tasks: [
+				{
+					id: "07D2F4FF03F3DD91"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:epic_ink"
+					}
+					count: 2L
+				}
+				{
+					id: "7D23F393B30EC598"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:bloody_vellum"
+					}
+					count: 4L
+				}
+				{
+					id: "51223A58101DF033"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_blood"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "08C3E010B7C662D8"
+					type: "xp"
+					xp: 510
+				}
+			]
+			title: "Ouro na Tinta, Sangue no Couro"
+			description: [
+				"&7Ouro derretido em tinta rara: uma gota mancha a mesa para sempre. É a &5Tinta Épica&7,"
+				"&7que os forjadores dos Corações dos Tiers V e VI deixam cair sobre o núcleo ainda quente."
+				"&7No mesmo caldeirão, couro de hoglin deixado de molho em sangue fica macio como pele humana,"
+				"&7e com ele se costura o tomo amaldiçoado do mago antigo Apshock, que bebe um pouco de quem o lê."
+				""
+				"&6Objetivo:&r 1. Prepare 2 &5Tintas Épicas&r: no caldeirão, quatro garrafas de tinta rara + um lingote de ouro. As magias &5épicas&r já respondem."
+				"&f2. Com o caldeirão cheio de &4sangue&r, jogue Peles de Hoglin para obter 4 &6Pergaminhos Sangrentos&r."
+				"&f3. Faça o &4Livro de Magias Vampírico&r na &6Mechanical Crafter&r: livro arruinado, quatro pergaminhos sangrentos e dois lingotes arcanos."
+				""
+				"&8A &5Tinta Épica&r é ingrediente dos &6Corações dos Tiers V e VI&r."
+			]
+		}
+		{
+			id: "47E891FACE65906E"
+			x: 39.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tyros_heart"
+			}
+			dependencies: [
+				"4F5C8E3017F995AF"
+				"6752CA2CC8AB08E0"
+			]
+			tasks: [
+				{
+					id: "62AE3A6600E4FA28"
+					type: "kill"
+					entity: "irons_spellbooks:fire_boss"
+					value: 1L
+				}
+				{
+					id: "1C27F486DC760C53"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:divine_soulshard"
+					}
+					count: 1L
+				}
+				{
+					id: "4273E042D33646E2"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:decrepit_key"
+					}
+					count: 1L
+				}
+				{
+					id: "39E2A48803004844"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:decrepit_scythe"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1A53C3B77253D683"
+					type: "xp"
+					xp: 680
+				}
+			]
+			title: "Eco de Tyros"
+			description: [
+				"&7No coração da Cidadela, o eco do primeiro portador da chama ainda empunha sua lâmina."
+				"&7Ele não lembra por que luta, lembra apenas como. Salta com adagas e enche a arena de chamas."
+				"&7O que resta dele é uma faísca de alma divina, uma chave carcomida e a foice mais velha que os reinos."
+				""
+				"&6Objetivo:&r 1. Derrote o &cEco de Tyros&r na Cidadela Perdida e reclame seu &ccoração de troféu&r (comestível, com bênçãos e pragas)."
+				"&f2. Recolha o &6Fragmento de Alma Divina&r que ele deixa."
+				"&f3. Receba a &6Chave Decrépita&r e abra um &6Cofre Cinéreo&r da Cidadela."
+				"&f4. Tome a &6Foice Decrépita&r. Repare-a na ferraria com Lodo Atemporal e Pírio."
+				""
+				"&8Leve o Anel contra Fogo e resistência ao fogo."
+				"&8Às vezes o eco também deixa o &6Sinete do Traidor&r, um anel que fere mais quem tem muita mana."
+			]
+		}
+		{
+			id: "45FC91953F6E8102"
+			x: 41.0d
+			y: -0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:paladin_chestplate"
+			}
+			dependencies: [
+				"47E891FACE65906E"
+				"3B215ADB9CB4514C"
+				"3297DFE2E5C883F5"
+				"0BA05EA8A0FEB631"
+				"369DBF99F301EF9B"
+			]
+			tasks: [
+				{
+					id: "3D7119D2298DD619"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:infernal_sorcerer_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "3694B83B01C544E6"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:paladin_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "4AAF2D2890F5D02C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:speed_boots"
+					}
+					count: 1L
+				}
+				{
+					id: "2B78AA661BD51022"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_conjurers_talisman"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "75B75378B12C179B"
+					type: "xp"
+					xp: 680
+				}
+				{
+					id: "286CD1F1C39B9174"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Alma Divina nas Vestes"
+			description: [
+				"&7Uma faísca de alma divina basta para despertar o que já era bom."
+				"&7O manto do Piromante, costurado com mithril, acumula uma explosão a cada chama acesa."
+				"&7As vestes do Sacerdote fazem os mortos recuarem antes do primeiro golpe, e as botas do Arquievocador quase não tocam o chão."
+				"&7Até o talismã do conjurador, banhado em sangue, deixa de cobrar o tempo de espera."
+				""
+				"&6Objetivo:&r 1. &cPeitoral do Feiticeiro Infernal&r (Mechanical Crafter): robe do Piromante, alma divina, duas malhas de mithril e dois pírios."
+				"&f2. &ePeitoral do Portador da Luz&r (Mechanical Crafter): robe do Sacerdote, alma divina, três malhas de mithril e quatro ouros."
+				"&f3. &6Botas da Velocidade&r: botas do Arquievocador, malha de mithril, duas penas e alma divina."
+				"&f4. &6Talismã Maior do Conjurador&r: talismã do conjurador, Runa Arcana e quatro pergaminhos sangrentos."
+				""
+				"&8Cada peça pede um Fragmento de Alma Divina: enfrente Tyros mais de uma vez."
+			]
+		}
+		{
+			id: "639D9ADC88933004"
+			x: 41.0d
+			y: 0.8d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:tyros_statue"
+			}
+			dependencies: [
+				"47E891FACE65906E"
+			]
+			tasks: [
+				{
+					id: "0C4E77614C2E19C0"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:disc_fragment_flame_still_burns"
+					}
+					count: 8L
+				}
+				{
+					id: "68C032DF009906D9"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:music_disc_flame_still_burns"
+					}
+					count: 1L
+				}
+				{
+					id: "06575C2384A49A48"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:tyros_statue"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "22C16C7C919C5DDD"
+					type: "xp"
+					xp: 510
+				}
+				{
+					id: "6C214F5DB680EC6E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "A Chama Ainda Arde"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Os bardos da Cidadela compuseram uma canção para Tyros. Os fragmentos dela ainda soam nos cofres."
+				"&7Quem a junta de novo costuma erguer também uma estátua ao velho portador da chama."
+				""
+				"&6Objetivo:&r 1. Junte 8 &6Fragmentos de Disco&r nos cofres da Cidadela."
+				"&f2. Com eles e um pírio, monte o disco &6The Flame Still Burns&r."
+				"&f3. Erga uma &6Estátua de Tyros&r: pedra, lajes de pedra lisa e um pírio."
+			]
+			optional: true
+		}
+		{
+			id: "422D477AF8A2CBB1"
+			x: 44.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_6"
+			}
+			dependencies: [
+				"2A47D8A9991BA850"
+			]
+			tasks: [
+				{
+					id: "0977E54E2E52485E"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_6"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&5Tier VI&7 - Magia Lendária"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "4BFBBBB75822254A"
+			x: 46.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:legendary_ink"
+			}
+			dependencies: [
+				"6752CA2CC8AB08E0"
+				"6652964DC061A061"
+				"422D477AF8A2CBB1"
+			]
+			tasks: [
+				{
+					id: "10D0B6FCC91A0CA3"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/ink_legendary"
+					criterion: ""
+				}
+				{
+					id: "731779DE10E01C64"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:twilight_gale"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "41ECA8B9D0758684"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "O Último Degrau"
+			description: [
+				"&7Ametista cantando dentro de tinta épica: a tinta mais rara do mundo, e a última antes do divino."
+				"&7Com ela, as magias &6lendárias&7 finalmente respondem, e o Coração do Tier VII pode ser forjado."
+				"&7Os mestres que chegam aqui costumam forjar uma última lâmina: mithril com um raio preso no fio e um cristal da lua no pomo."
+				""
+				"&6Objetivo:&r 1. Prepare &6Tinta Lendária&r: no caldeirão, quatro garrafas de tinta épica + uma ametista."
+				"&f   Algumas magias lendárias têm vários níveis: suba-os na Bigorna Arcana."
+				"&f2. Forje o &5Vendaval do Crepúsculo&r na &6Mechanical Crafter&r: mithril, garrafa de raio, peças de arma e dois quartzos (ou pedras da lua)."
+				""
+				"&8A &6Tinta Lendária&r é ingrediente do &6Coração do Tier VII&r."
+			]
+		}
+		{
+			id: "09B04B61D7CF1469"
+			x: 49.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_7"
+			}
+			dependencies: [
+				"422D477AF8A2CBB1"
+			]
+			tasks: [
+				{
+					id: "0E2FFC9A9FD895A8"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_7"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&dTier VII&7 - Pele de Dragão"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "0A6C427E035930D7"
+			x: 51.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:dragonskin_spell_book"
+			}
+			dependencies: [
+				"4BFBBBB75822254A"
+				"6E282DDCECD1C67E"
+				"2236F08691362BB6"
+				"09B04B61D7CF1469"
+			]
+			tasks: [
+				{
+					id: "4C29C8D0EBB7483D"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:dragonskin"
+					}
+					count: 1L
+				}
+				{
+					id: "52867E9D31A8953D"
+					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_dragon"
+					criterion: ""
+				}
+				{
+					id: "49C0A9BAB8BB2143"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_evasion_elixir"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7ADB6DC13F27204F"
+					type: "xp"
+					xp: 690
+				}
+			]
+			title: "Pele de Dragão"
+			description: [
+				"&7O Dragão do Fim perde escamas como árvores perdem folhas: poucas, e só uma vez."
+				"&7Os forjadores do Coração Divino guardam a pele para o último passo da montagem."
+				"&7Obsidiana nas capas, pele de dragão nas páginas: o livro mais poderoso que mãos mortais costuram."
+				"&7E o bafo do dragão, num elixir de evasão, ensina o corpo a não estar onde o golpe chega."
+				""
+				"&6Objetivo:&r 1. Derrote o &5Dragão do Fim&r e recolha a &6Pele de Dragão&r."
+				"&f2. Faça o &5Livro de Magias de Pele de Dragão&r na &6Mechanical Crafter&r: livro arruinado, seis peles de dragão e duas obsidianas."
+				"&f3. No caldeirão, sobre o &6Elixir da Evasão&r, jogue &6Bafo de Dragão&r: &6Elixir da Evasão Maior&r."
+				""
+				"&8A Pele de Dragão é ingrediente do &6Coração do Tier VIII&r."
+			]
+		}
+	]
+	title: "Missões"
+	subtitle: [
+		"&dArtes Arcanas&7: do Tier I em diante"
+	]
+}

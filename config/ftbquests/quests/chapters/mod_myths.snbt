@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_myths"
+	group: "3DAD9C4C9DD26814"
+	icon: {
+		count: 1
+		id: "mythsandlegends:blood_moon"
+	}
+	id: "344AEC3F0F749177"
+	order_index: 33
+	quest_links: [ ]
+	quests: [
+		{
+			id: "03ACC43F27B88043"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "mythsandlegends:blood_moon"
+			}
+			tasks: [
+				{
+					id: "449577AA37AC563B"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "41846AF00DC8B8CD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Livro das Velhas Histórias"
+			description: [
+				"&7Toda aldeia tem uma história para assustar as crianças: a pedra que se mexe no telhado,"
+				"&7o cavaleiro negro que cobra almas, o lobo branco que segue quem anda sozinho na neve."
+				"&7Em Heartforge, nenhuma delas é mentira."
+				""
+				"&7Um velho erudito, o Cronista, coleciona essas lendas e paga em saber a quem lhe traz provas."
+				"&7Comece procurando a casa dele, perto de onde o mundo começou."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"O folclore que caminha"
+	]
+}

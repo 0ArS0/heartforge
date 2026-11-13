@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_stellarity"
+	group: "1D5EF08E4C981320"
+	icon: {
+		count: 1
+		id: "minecraft:ender_eye"
+	}
+	id: "4559ACDE2430EA6C"
+	order_index: 41
+	quest_links: [ ]
+	quests: [
+		{
+			id: "01924A8BE5645AAC"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "minecraft:ender_eye"
+			}
+			tasks: [
+				{
+					id: "7E8FDD7EB2E1E64A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "5DBD73280DFCD559"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Mar da Eternidade"
+			description: [
+				"&7Por eras, o portal de olhos verdes permaneceu mudo. Nenhum olho do Ender o despertava, nenhum ritual o abria."
+				"&7Só quando a companhia carregar sete selos no peito o vazio entre as estrelas responderá."
+				"&7E o End que espera do outro lado não é o das histórias antigas: há florestas de ametista, desertos prismáticos, tundras de carne,"
+				"&7uma terra sagrada onde a água transmuta, uma Imperatriz feita de luz e um dragão que precisa ser chamado com sangue de cristal."
+				""
+				"&7Comece juntando &6pérolas do Ender&7. A jornada até o End começa muito antes de o portal acender."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Além do sétimo selo"
+	]
+}

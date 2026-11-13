@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bic"
+	group: "13EF259E1ADFAB3C"
+	icon: {
+		count: 1
+		id: "born_in_chaos_v1:dark_metal_ingot"
+	}
+	id: "452031423F5F6A6A"
+	order_index: 31
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6A37A99F90E7449F"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
+			tasks: [
+				{
+					id: "1EA8228D108FA004"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "143F6376C2AC7F07"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Crônica do Caos"
+			description: [
+				"&7Houve um tempo em que a noite trazia apenas zumbis lentos e esqueletos tortos."
+				"&7Depois veio o Caos: espíritos que possuem os vivos, cães do pavor, palhaços mortos,"
+				"&7abóboras que andam e cavaleiros caídos que ainda carregam metal sombrio nos ossos."
+				""
+				"&7Esta crônica cataloga cada horror e o que se pode arrancar dele."
+				"&7Comece sobrevivendo a uma noite, e depois guarde o primeiro pedaço de metal sombrio."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"O que nasce quando a noite apodrece"
+	]
+}

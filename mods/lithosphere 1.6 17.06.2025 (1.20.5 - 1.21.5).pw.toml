@@ -1,0 +1,13 @@
+name = "lithosphere 1.6 17.06.2025 (1.20.5 - 1.21.5)"
+filename = "lithosphere 1.6 17.06.2025 (1.20.5 - 1.21.5).jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iv9jp2k9/versions/zDWIbSdr/lithosphere-1.6.jar"
+hash-format = "sha1"
+hash = "320637e4777e721ab19524f6f15dcbb90c5a0dc3"
+
+[update]
+[update.modrinth]
+mod-id = "iv9jp2k9"
+version = "zDWIbSdr"

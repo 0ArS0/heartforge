@@ -1,0 +1,13 @@
+name = "CameraOverhaul-v2.1.2-neoforge+mc[1.21-1.21.1]"
+filename = "CameraOverhaul-v2.1.2-neoforge+mc[1.21-1.21.1].jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m0oRwcZx/versions/rZdpFGSR/CameraOverhaul-v2.1.2-neoforge%2Bmc%5B1.21-1.21.1%5D.jar"
+hash-format = "sha1"
+hash = "bffa09a609a1c59efe976e00e8c83dd484fc7ba8"
+
+[update]
+[update.modrinth]
+mod-id = "m0oRwcZx"
+version = "rZdpFGSR"

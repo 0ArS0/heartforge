@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_iceandfire"
+	group: "6BE2CA13D0D2A15E"
+	icon: {
+		count: 1
+		id: "iceandfire:dragonsteel_fire_ingot"
+	}
+	id: "077E89E7FEC3B9ED"
+	order_index: 23
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4FE3675C7E458753"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+			tasks: [
+				{
+					id: "4C42012508DC6BC8"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "2F056E08E9EF5864"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Bestiário"
+			description: [
+				"&7Antes das caldeiras e dos martelos a vapor, o mundo pertencia às feras dos mitos."
+				"&7Dragões de fogo, gelo e raio ainda dormem sobre montanhas de ouro, e criaturas que as avós"
+				"&7usavam para assustar crianças rondam pântanos, praias e desertos."
+				""
+				"&7Esta crônica segue o caminho do caçador: das fadas e dos grifos até a forja que só o sopro de um dragão acende."
+				"&7Comece reunindo &6manuscritos&7 e costurando o seu próprio &6Bestiário&7."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Bestiário das feras antigas"
+	]
+}

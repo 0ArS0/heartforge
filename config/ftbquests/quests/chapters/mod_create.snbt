@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_create"
+	group: "60FEF54FAB43A476"
+	icon: {
+		count: 1
+		id: "create:cogwheel"
+	}
+	id: "1DAC0C05C5E35017"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "75742C0F61E62491"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			tasks: [
+				{
+					id: "1CC2843E5A737FAA"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "17E5AE6992B5CD92"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Livro das Engrenagens"
+			description: [
+				"&7Os antigos forjavam com martelo e fé. Heartforge forja com eixos, vapor e latão."
+				"&7Nenhum Coração do Tier nasce numa bigorna: o primeiro é batido num Misturador, o segundo"
+				"&7montado num Mechanical Crafter, e os demais passam pela linha de montagem sequencial."
+				"&7Até a netherita só se funde no calor de um blaze superaquecido."
+				""
+				"&7Comece pela pedra cinzenta: andesito e pepitas de ferro viram a primeira liga."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Engrenagens, vapor e a forja dos Corações"
+	]
+}

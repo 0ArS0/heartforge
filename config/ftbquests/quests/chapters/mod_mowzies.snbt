@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_mowzies"
+	group: "3BC9864E9D9AF49B"
+	icon: {
+		count: 1
+		id: "mowziesmobs:wrought_helmet"
+	}
+	id: "6160AE73D23F90DC"
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7269B7900E8DBB57"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "mowziesmobs:wrought_helmet"
+			}
+			tasks: [
+				{
+					id: "51514592F0C351CF"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "07955920DDEFD7F5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Diário de um Caçador Errante"
+			description: [
+				"&7Há criaturas que nenhum bestiário de corte descreve, porque quem as viu de perto não voltou para contar."
+				"&7Rochas que comem diamantes, plantas que mordem, serpentes aladas que cospem ácido,"
+				"&7um colosso de ferro trancado sob a terra e uma tribo inteira que adora o Sol."
+				""
+				"&7Comece pelas cavernas e pelas selvas. Os colossos esperam: eles têm todo o tempo do mundo."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Feras, máscaras e colossos"
+	]
+}

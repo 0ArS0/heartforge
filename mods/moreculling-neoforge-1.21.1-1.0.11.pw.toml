@@ -1,0 +1,13 @@
+name = "moreculling-neoforge-1.21.1-1.0.11"
+filename = "moreculling-neoforge-1.21.1-1.0.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/51shyZVL/versions/ucyxnpWe/moreculling-neoforge-1.21.1-1.0.11.jar"
+hash-format = "sha1"
+hash = "ea5ea2c826af8d8d4682d6cd867acb8e8ea983e7"
+
+[update]
+[update.modrinth]
+mod-id = "51shyZVL"
+version = "ucyxnpWe"

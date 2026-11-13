@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_dwarfs"
+	group: "7E685056D4C815C1"
+	icon: {
+		count: 1
+		id: "dwarfs_tyranny:mythril_ingot"
+	}
+	id: "2CCFDE2E773E8453"
+	order_index: 37
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1E7412D5921F48BA"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:mythril_ingot"
+			}
+			tasks: [
+				{
+					id: "633A017088938A39"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1A923FB4473392B9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Crônica das Profundezas"
+			description: [
+				"&7Muito abaixo das raízes do mundo, onde a pedra escurece e vira ardósia, os anões ainda cavam."
+				"&7Suas cidades vivem em cavernas abobadadas, iluminadas por gemas e aquecidas por fornalhas de mythril."
+				"&7Outras cidades, mais antigas, já não respiram: ali reinam ossos que se lembram de ter sido reis."
+				"&7Os anões medem cada forasteiro em reputação. Sirva-os bem e eles abrirão suas forjas, seus tonéis e seus segredos de gás e engrenagem."
+				""
+				"&7Comece descendo: as cidades ficam nas grandes cavernas entre os níveis -32 e -20. Leve tochas e uma picareta de ferro."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Os reinos sob a pedra"
+	]
+}

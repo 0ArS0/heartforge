@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_exploracao"
+	group: "48BF15FF65B85345"
+	icon: {
+		count: 1
+		id: "minecraft:filled_map"
+	}
+	id: "77CB699164809C84"
+	order_index: 39
+	quest_links: [ ]
+	quests: [
+		{
+			id: "025D09AAB40168DF"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "minecraft:filled_map"
+			}
+			tasks: [
+				{
+					id: "7B441FE9C447F660"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "394BADDF887185EB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Livro das Estradas"
+			description: [
+				"&7Este mundo não se entrega a quem fica perto de casa. As montanhas sobem até rasgar as nuvens, os vales se abrem em cores que nenhum mapa antigo conhecia,"
+				"&7e as ruínas dos povos esquecidos jazem longe umas das outras, separadas por dias de caminhada."
+				"&7Cada torre, cada templo, cada acampamento é uma recompensa para os pés cansados. Nenhum deles fica na porta de casa."
+				""
+				"&7Comece com um &6mapa&7, uma luneta e a disposição de andar até o horizonte. As &6Waystones&7 cuidarão da volta."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"O mundo é largo, e as ruínas, raras"
+	]
+}

@@ -1,0 +1,895 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier1"
+	group: ""
+	icon: {
+		count: 1
+		id: "comamigos_balance:tier_heart_2"
+	}
+	id: "1DA32494D47A12BE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20E796F357403DF2"
+			x: 0.0d
+			y: 2.4000000000000004d
+			shape: "hexagon"
+			size: 1.25d
+			dependencies: [
+				"22ACB16E3BB57B38"
+			]
+			tasks: [
+				{
+					id: "3B673D542019D19A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "623B27B0D9955104"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Tier I: Andarilho"
+			description: [
+				"&7Nenhuma lenda começa grande. Começa com uma picareta de ferro, uma fogueira e uma companhia teimosa o bastante para descer onde os anões caíram."
+				"&7Nas fortalezas sob a montanha, um rei feito de ossos ainda guarda o primeiro coração."
+				""
+				"&6Objetivo:&r A companhia está no &7Tier I - Andarilho&r. Sigam as trilhas deste capítulo: cada uma termina num ingrediente do &aCoração do Tier II&r. Derrotem o boss-chave (losango de cima) e forjem o coração."
+				""
+				"&8Os losangos de baixo são caçadas opcionais: outros bosses do tier, cada um com seu coração-troféu."
+			]
+		}
+		{
+			id: "2E39DCE9262A21D9"
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "3924FB29FB081623"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "165F6842066AEC34"
+					type: "item"
+					item: {
+						count: 8
+						id: "create:cogwheel"
+					}
+				}
+				{
+					id: "64671394FAE67742"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+				}
+			]
+			title: "Liga de Andesito"
+			description: [
+				"&7Todo engenho começa num metal humilde: andesito e ferro, amassados até virarem liga."
+				"&7Sem ela, nenhuma engrenagem do reino gira."
+				""
+				"&6Objetivo:&r Junte &616 Ligas de Andesito&r (andesito + pepitas de ferro ou de zinco). Ela também entra no Coração II."
+			]
+		}
+		{
+			id: "567093696FAF5491"
+			x: 3.6d
+			y: 0.0d
+			dependencies: [
+				"2E39DCE9262A21D9"
+			]
+			tasks: [
+				{
+					id: "450A69FC4175F3D5"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_mixer"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4ED88AA425C40933"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "O Mixer"
+			description: [
+				"&7O primeiro coração não pede fogo, só paciência: um batedor girando sobre uma bacia até que tudo vire uma coisa só."
+				""
+				"&6Objetivo:&r Construa um &6Mechanical Mixer&r. O Coração II é forjado nele, sobre uma &6Basin&r, sem calor."
+				""
+				"&8Ele precisa de força rotacional: uma roda d'água ou um moinho de vento bastam."
+			]
+		}
+		{
+			id: "714776FD39A0F36C"
+			x: 5.2d
+			y: 0.0d
+			dependencies: [
+				"567093696FAF5491"
+			]
+			tasks: [
+				{
+					id: "01BABA0BFA8120BF"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:boss_compass"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4051C14CFD9FCB3B"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "A Bússola da Forja"
+			description: [
+				"&7Os cartógrafos da Forja descobriram que todo grande inimigo deixa um rastro no mundo, como ferro deixa ferrugem."
+				"&7Uma agulha de mythril, magnetizada no batedor de um mixer, aprende a seguir esse rastro. Só precisa saber de quem."
+				""
+				"&6Objetivo:&r 1. No &6Mechanical Mixer&r (sem calor), misture: bússola, 2 mythril, 4 chapas de ferro, 2 ligas de andesito,"
+				"&f&f4 redstone, 2 fragmentos de ametista e 1 pérola do End."
+				"&f2. Use a bússola sem sintonia: ela diz qual é o &cpróximo boss da campanha&r e com o quê sintonizá-la."
+				"&f3. Sintonize no &6Create&r: um &6Deployer&r segurando o ingrediente do boss, sobre a bússola num depot ou esteira."
+				"&f&fPara os bosses do Tier I, o &6Mixer&f (sem calor) também sintoniza: bússola + ingrediente. Tudo está no livro de receitas."
+				"&f4. Use a bússola sintonizada: a agulha aponta o covil (estrutura) ou as terras (bioma) do boss."
+				"&f&fSe o boss só aparece por invocação, o encanto se desfaz num &6livro&f com o ritual."
+				""
+				"&8Ela serve para os 8 bosses da campanha e para os bosses opcionais. Pode ser ressintonizada à vontade."
+				"&8Se o rastro estiver em outra dimensão, a agulha gira sem rumo e avisa onde procurar."
+			]
+		}
+		{
+			id: "015D5B59A18712EF"
+			x: 2.0d
+			y: 1.6d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "7BAAA0C5B0DAB84F"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:lexicon"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0CD60835D893EB88"
+					type: "xp"
+					xp: 80
+				}
+			]
+			title: "Lexica Botania"
+			description: [
+				"&7As flores deste mundo guardam mais poder do que parece. Os botânicos escreveram tudo num único livro, e o livro conversa com quem o lê."
+				""
+				"&6Objetivo:&r Faça o &aLexica Botania&r (livro + qualquer muda de árvore)."
+			]
+		}
+		{
+			id: "36165EEC9BE9AD64"
+			x: 3.6d
+			y: 1.6d
+			dependencies: [
+				"015D5B59A18712EF"
+			]
+			tasks: [
+				{
+					id: "436338BFA024032C"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:mana_pool"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5605946705D5A454"
+					type: "xp"
+					xp: 120
+				}
+			]
+			title: "Mana"
+			description: [
+				"&7A mana é a seiva invisível do mundo. As flores a colhem, as piscinas a guardam."
+				""
+				"&6Objetivo:&r Construa uma &bMana Pool&r. Com ela cheia e uma &aPure Daisy&r por perto, o caminho até o &bManasteel&r está aberto."
+				""
+				"&8O guia da Botânica, em Guias dos Mods, explica cada flor geradora."
+			]
+		}
+		{
+			id: "0FC1DB6776AEB8DD"
+			x: 5.2d
+			y: 1.6d
+			dependencies: [
+				"36165EEC9BE9AD64"
+			]
+			tasks: [
+				{
+					id: "5F70F507DA9B57CB"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manasteel_ingot"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "7FB66C97132091B9"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Manasteel"
+			description: [
+				"&7Ferro mergulhado em mana sai mais leve, mais duro e levemente azul."
+				""
+				"&6Objetivo:&r Junte &b4 Lingotes de Manasteel&r (ferro jogado numa Mana Pool cheia). Ingrediente do Coração II."
+			]
+		}
+		{
+			id: "1BB41468E12100DB"
+			x: 2.0d
+			y: 3.2d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "367DC3A066B379E2"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:inscription_table"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2C25E69E8AAE4916"
+					type: "xp"
+					xp: 80
+				}
+			]
+			title: "Mesa de Inscrição"
+			description: [
+				"&7Feitiço que não é escrito se perde no vento. Os magos registram cada encantamento em pergaminho, numa mesa só deles."
+				""
+				"&6Objetivo:&r Construa uma &bMesa de Inscrição&r e aprenda a escrever pergaminhos."
+			]
+		}
+		{
+			id: "717145DFA5D697D8"
+			x: 3.6d
+			y: 3.2d
+			dependencies: [
+				"1BB41468E12100DB"
+			]
+			tasks: [
+				{
+					id: "460375876E2020DD"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "00625523D424F18F"
+					type: "xp"
+					xp: 120
+				}
+			]
+			title: "Tinta Comum"
+			description: [
+				"&7A tinta comum é o primeiro degrau dos escribas arcanos: suficiente para feitiços simples, e para selar um coração."
+				""
+				"&6Objetivo:&r Prepare uma &7Tinta Comum&r. Ingrediente do Coração II."
+				""
+				"&8Neste tier só as magias comuns respondem."
+			]
+		}
+		{
+			id: "100E4AF8E871BDB0"
+			x: 5.2d
+			y: 3.2d
+			dependencies: [
+				"717145DFA5D697D8"
+			]
+			tasks: [
+				{
+					id: "65BEA04E780955DC"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:silver_ingot"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "06E2F046558A77B1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			title: "Prata do Ocultismo"
+			description: [
+				"&7Os ocultistas dizem que a prata é o único metal que os espíritos respeitam. Sem ela, nenhum círculo de ritual se fecha."
+				""
+				"&6Objetivo:&r Junte &f4 Lingotes de Prata&r. Ingrediente do Coração II."
+			]
+		}
+		{
+			id: "1B173011839FC25E"
+			x: 2.0d
+			y: 4.800000000000001d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "63157DDA9482A739"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "1E88AF76D4401776"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Mythril dos Anões"
+			description: [
+				"&7Os anões cavaram fundo demais e encontraram o mythril. Depois, encontraram a morte."
+				"&7Suas fortalezas ainda guardam o minério, e os mortos ainda guardam as fortalezas."
+				""
+				"&6Objetivo:&r Funda &b2 Lingotes de Mythril&r com o minério das fortalezas anãs. Ingrediente do Coração II."
+			]
+		}
+		{
+			id: "3D950DE8885DE435"
+			x: 3.6d
+			y: 4.800000000000001d
+			dependencies: [
+				"1B173011839FC25E"
+			]
+			tasks: [
+				{
+					id: "4B31F40553039F86"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "5875F4A40A194171"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Escolha seu lado"
+			description: [
+				"&7A noite tem três bandeiras: os vampiros, os caçadores que os perseguem e os lobisomens que não obedecem a ninguém."
+				"&7Todo coração exige um juramento."
+				""
+				"&6Objetivo:&r Jure lealdade a uma facção e consiga um item dela: &cpresa de vampiro&r, &ecoração humano&r (caçador) ou &6dente de lobisomem&r. Ele entra no Coração II."
+			]
+		}
+		{
+			id: "6674E7F2C4266BDC"
+			x: 5.2d
+			y: 4.800000000000001d
+			dependencies: [
+				"3D950DE8885DE435"
+			]
+			tasks: [
+				{
+					id: "2FC903DB6E7126C2"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:apple_pie"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "497F3B411922D7F7"
+					type: "item"
+					item: {
+						count: 8
+						id: "minecraft:bread"
+					}
+				}
+			]
+			title: "Torta de Maçã"
+			description: [
+				"&7Até o coração de um rei precisa de um toque de cozinha. As cozinheiras do reino juram que torta de maçã acalma o sangue."
+				""
+				"&6Objetivo:&r Asse uma &6Torta de Maçã&r. Ingrediente do Coração II."
+			]
+		}
+		{
+			id: "3B98D4797C00C492"
+			x: 6.800000000000001d
+			y: -1.8d
+			shape: "diamond"
+			size: 1.5d
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "006508827B13A259"
+					type: "kill"
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2303099EB4AE6D56"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "64D3B296FF58286A"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "3D783ED4419FA06A"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "O Colosso Ferroso"
+			description: [
+				"&7Sob a terra há salas trancadas por portas de ferro. Em cada uma, uma armadura vazia segura um machado do tamanho de uma porta."
+				"&7Ninguém lembra quem a vestia. Ela só lembra de guardar."
+				""
+				"&6Objetivo:&r Encontre a &6Câmara Forjada&r, derrote o &eColosso Ferroso&r e pegue o &cCoração do Colosso Ferroso&r."
+				""
+				"&8Golpes de frente não fazem nada: quando o machado cravar no chão, ataquem pelas costas. Escudo e espaço para correr."
+			]
+			hide_dependency_lines: true
+		}
+		{
+			id: "3CAB53366B184275"
+			x: 8.8d
+			y: 2.4000000000000004d
+			shape: "gear"
+			size: 1.75d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			dependencies: [
+				"714776FD39A0F36C"
+				"0FC1DB6776AEB8DD"
+				"100E4AF8E871BDB0"
+				"6674E7F2C4266BDC"
+				"3B98D4797C00C492"
+			]
+			tasks: [
+				{
+					id: "382669AB095CA82E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "53C0EFF631CA0EA0"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6F9483F8FBC81AE9"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "A Forja do Coração II"
+			description: [
+				"&7Tudo o que a companhia aprendeu cabe numa bacia: o metal dos anões, a mana das flores, a tinta dos magos e o ferro vivo de um colosso."
+				""
+				"&6Objetivo:&r No &6Mechanical Mixer&r (sem calor), forje o &cCoração do Tier II&r com:"
+				"&fCoração do Colosso Ferroso, liga de andesito, mythril, manasteel, tinta comum, prata, item de facção e torta de maçã."
+				""
+				"&8Quantidades exatas no livro de receitas."
+			]
+		}
+		{
+			id: "1CABC71AF09A60B7"
+			x: 10.8d
+			y: 2.4000000000000004d
+			shape: "heart"
+			size: 1.5d
+			dependencies: [
+				"3CAB53366B184275"
+			]
+			tasks: [
+				{
+					id: "58097D2FD3C7E8D2"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "044E9C164EC76601"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			title: "O Banquete do Coração II"
+			description: [
+				"&7O coração ainda bate quando chega à boca. Quem o come sente a força do reino subir pelas veias da companhia inteira."
+				"&7E sente, logo atrás, a maldição se acomodar no peito."
+				""
+				"&6Objetivo:&r Um membro do grupo come o &cCoração do Tier II&r, e todos sobem juntos para o &aTier II - Aprendiz&r."
+				""
+				"&8Quem come carrega a maldição até beber o Elixir Purificador do próximo capítulo."
+			]
+		}
+		{
+			id: "44056650B19C5EB6"
+			x: 2.0d
+			y: 8.600000000000001d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:dwarf_king_heart"
+			}
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "204BC13AF45C1EF1"
+					type: "kill"
+					entity: "dwarfs_tyranny:skeleton_dwarf_king"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5960082F8C915AF8"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "3F824230FDDAE8E8"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "66044D2C46404E64"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Caçada: Rei Anão Esqueleto"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eRei Anão Esqueleto&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
+		}
+		{
+			id: "157AABB59D2DA7DC"
+			x: 3.6d
+			y: 8.600000000000001d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:bonescaller_heart"
+			}
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "100F66583479940D"
+					type: "kill"
+					entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "58C67CB647D63F90"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0B537DD7DFF4591B"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "169C018EB1E1BC04"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Caçada: Invocador de Ossos Supremo"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eInvocador de Ossos Supremo&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
+		}
+		{
+			id: "5DEFBE17C969920C"
+			x: 5.2d
+			y: 8.600000000000001d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:black_charro_heart"
+			}
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "7F084937A232F51E"
+					type: "kill"
+					entity: "mythsandlegends:black_charro"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2D0D57388AED1D83"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "28B0402D5C96C6D2"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "0DD587E01EB2E7E4"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Caçada: O Charro Negro"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eO Charro Negro&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
+		}
+		{
+			id: "20AD157D21809806"
+			x: 6.800000000000001d
+			y: 8.600000000000001d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:vampire_baron_heart"
+			}
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "21C76EF1DA1826F8"
+					type: "kill"
+					entity: "vampirism:vampire_baron"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5A7285151E206168"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "267AE7162C824392"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "50E43E51F8A134FC"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Caçada: Barão Vampiro"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eBarão Vampiro&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
+		}
+		{
+			id: "3D36B9AC0F90C646"
+			x: 8.4d
+			y: 8.600000000000001d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:alpha_werewolf_heart"
+			}
+			dependencies: [
+				"20E796F357403DF2"
+			]
+			tasks: [
+				{
+					id: "5E2F0FEA6B45F45E"
+					type: "kill"
+					entity: "werewolves:alpha_werewolf"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2D1F5B10F918B009"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "669910D89D531F99"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "790073265FCE3A04"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Caçada: Lobisomem Alfa"
+			description: [
+				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+				""
+				"&6Objetivo:&r &7(Opcional)&r Derrote &eLobisomem Alfa&r e guarde o coração dele como troféu."
+				""
+				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+			]
+			hide_dependency_lines: true
+		}
+	]
+	title: "&7Tier I - Andarilho"
+	subtitle: [
+		"Objetivo: forjar e comer o Coração do Tier II"
+	]
+}

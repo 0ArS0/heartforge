@@ -1,0 +1,1162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_mowzies_missoes"
+	group: "3BC9864E9D9AF49B"
+	icon: {
+		count: 1
+		id: "mowziesmobs:wrought_helmet"
+	}
+	id: "3962FB14687F2330"
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E15D50D09631EAD"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "mowziesmobs:wrought_helmet"
+			}
+			dependencies: [
+				"7269B7900E8DBB57"
+			]
+			tasks: [
+				{
+					id: "4E0166149414A558"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+			title: "&fO Começo"
+			description: [
+				"&7As primeiras trilhas. A introdução fica na página ao lado."
+			]
+		}
+		{
+			id: "052FA5D9043F1425"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "mowziesmobs:glowing_jelly"
+			}
+			dependencies: [
+				"7E15D50D09631EAD"
+			]
+			tasks: [
+				{
+					id: "3613CAA9D343606B"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:clawed_log"
+					}
+					count: 1L
+				}
+				{
+					id: "406D4600CB5A0BAC"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:glowing_jelly"
+					}
+					count: 2L
+				}
+				{
+					id: "34C7ED48C28F709B"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:thatch_block"
+					}
+					count: 8L
+				}
+				{
+					id: "61C578ABBC297215"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:painted_acacia"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "54DE2C45C91AFA18"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Rastros pelo Mundo"
+			description: [
+				"&7O caçador errante não sai procurando monstros: ele lê os sinais que eles deixam."
+				"&7Troncos riscados na selva denunciam os elokosa; bolhas de geleia brilhando na mata são restos de lanternas."
+				"&7Palha amarrada e acácia pintada à mão anunciam que um bosque Umvuthana está perto, e que é hora de voltar com amigos."
+				""
+				"&6Objetivo:&r 1. Recolha uma &6Tora Arranhada&r nas selvas, marcada pelas garras dos elokosa."
+				"&f2. Abata &6Lanternas&r nas florestas à noite e junte &62 Geleias Luminosas&r."
+				"&f3. Faça &68 blocos de Palha&r e &68 de Madeira de Acácia Pintada&r, como os da aldeia da savana."
+				""
+				"&8Comer a geleia faz você brilhar e enxergar no escuro por um tempo."
+			]
+		}
+		{
+			id: "2E16075BC70285BC"
+			x: 5.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			tasks: [
+				{
+					id: "0CC52C7D9C9111F6"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_1"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&7Tier I&7 - Pedra Viva e Folhas Famintas"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "204DF7B033FAEB9A"
+			x: 7.0d
+			y: -0.8d
+			icon: {
+				count: 1
+				id: "mowziesmobs:captured_grottol"
+			}
+			dependencies: [
+				"052FA5D9043F1425"
+				"2E16075BC70285BC"
+			]
+			tasks: [
+				{
+					id: "0C07A20717567E31"
+					type: "advancement"
+					advancement: "mowziesmobs:kill_grottol"
+					criterion: ""
+				}
+				{
+					id: "4D7BC774CFA714CC"
+					type: "advancement"
+					advancement: "mowziesmobs:kill_grottol_fortune"
+					criterion: ""
+				}
+				{
+					id: "2563979F8090B5FB"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:captured_grottol"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "18B57202BF143EB9"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "A Pedra que Anda"
+			description: [
+				"&7Nas cavernas, um minério de diamante se levanta e foge correndo. Não é febre: é um grottol."
+				"&7Ele só sente golpes de picareta, e uma picareta abençoada arranca mais pedras do lombo dele."
+				"&7Com toque suave, ele nem morre: fica encolhido, esperando a fornalha."
+				""
+				"&6Objetivo:&r 1. Mate um &6grottol&r nas cavernas usando uma picareta."
+				"&f2. Mate outro com uma picareta de &6Fortuna&r."
+				"&f3. Mate um com picareta de &6Toque Suave&r para capturá-lo. O grottol capturado pode ser fundido em diamantes."
+				""
+				"&8Ele foge e se enterra. Encurrale-o num canto."
+			]
+		}
+		{
+			id: "6838CE95DB097F9A"
+			x: 7.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "mowziesmobs:foliaath_seed"
+			}
+			dependencies: [
+				"052FA5D9043F1425"
+				"2E16075BC70285BC"
+			]
+			tasks: [
+				{
+					id: "252B38AC8A017E9C"
+					type: "advancement"
+					advancement: "mowziesmobs:kill_foliaath"
+					criterion: ""
+				}
+				{
+					id: "1CFBF46E70F99AB8"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:foliaath_seed"
+					}
+					count: 1L
+				}
+				{
+					id: "1B0E35A4016568B5"
+					type: "advancement"
+					advancement: "mowziesmobs:kill_elokosa_howler"
+					criterion: ""
+				}
+				{
+					id: "74B4EA651DED44A5"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:elokosa_paw_full"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6958FC04B94C500C"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Dentes da Selva"
+			description: [
+				"&7Na selva, uma folha larga se fecha como uma boca: era um foliaath esperando o almoço."
+				"&7Nas copas, os elokosa tagarelam de dia. Quando a lua sobe, eles mudam, e gritam."
+				"&7A pata de um elokosa guarda a fase da lua da noite em que ele morreu."
+				""
+				"&6Objetivo:&r 1. Mate um &6foliaath&r nas selvas: ele fica plantado e só ataca quem chega perto."
+				"&f2. Consiga uma &6Semente de Foliaath&r. Plantada e alimentada com carne, cresce e lembra quem a criou."
+				"&f3. Mate um &6Uivador Elokosa&r nas selvas."
+				"&f4. Consiga a &6Pata da Lua Cheia&r de um elokosa transformado numa noite de lua cheia. Use-a para enfraquecer as criaturas ao redor."
+				""
+				"&8Use arco contra o foliaath. Cada pata de elokosa quebra depois de alguns usos."
+			]
+		}
+		{
+			id: "2798A85C515C936A"
+			x: 9.0d
+			y: -0.8d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:wroughtnaut_heart"
+			}
+			dependencies: [
+				"204DF7B033FAEB9A"
+			]
+			tasks: [
+				{
+					id: "1FE1179E342B2843"
+					type: "kill"
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5D0E36DF9F254785"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "042257F4D8937142"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "O Colosso Ferroso"
+			description: [
+				"&7Sob a terra, uma sala trancada por uma porta de ferro. Lá dentro, uma armadura vazia segura um machado."
+				"&7Vazia, até você entrar. Ferro sobre ferro, golpes que racham a pedra,"
+				"&7e um único ponto fraco: as costas."
+				""
+				"&6Objetivo:&r 1. Encontre a &6Câmara Forjada&r: uma sala subterrânea de pedra com uma grande porta de ferro."
+				"&f2. Desvie dos golpes de machado do &cFerrous Wroughtnaut&r: quando ele crava o machado no chão, fica preso por um instante. Ataque as &6costas&r."
+				"&f3. Recolha o &6Machado dos Mil Metais&r e o &6Elmo Forjado&r: pesados demais por enquanto, só obedecem a quem já rompeu o terceiro selo."
+				"&f4. O &ccoração de troféu&r dele dá resistência e força, mas peso nos ombros."
+				""
+				"&8As câmaras aparecem em quase todo bioma terrestre, enterradas não muito fundo. Golpes de frente não fazem nada."
+				"&8O coração dele é o primeiro selo da Forja: entra no Coração do Tier II."
+			]
+		}
+		{
+			id: "40C95CF2F1B0E55A"
+			x: 9.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "mowziesmobs:elokosa_paw_new"
+			}
+			dependencies: [
+				"6838CE95DB097F9A"
+			]
+			tasks: [
+				{
+					id: "3D537A8D448A5860"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:elokosa_paw_new"
+					}
+					count: 1L
+				}
+				{
+					id: "214771153CCDA573"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:elokosa_paw_crescent"
+					}
+					count: 1L
+				}
+				{
+					id: "12FDB0D7D49E185A"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:elokosa_paw_half"
+					}
+					count: 1L
+				}
+				{
+					id: "6D49CB7FD20DEA65"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:elokosa_paw_gibbous"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6A2C49792A1DAE31"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7D2E234B20C120B2"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Todas as Luas"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Cinco luas, cinco maldições. O elokosa morto solta a pata da fase daquela noite,"
+				"&7e quem tem todas manda nas noites da selva."
+				""
+				"&6Objetivo:&r 1. Pata da lua &6Nova&r (eclipse: anula efeitos)."
+				"&f2. Pata da lua &6Crescente&r (fragilidade)."
+				"&f3. Pata da &6Meia&r lua (cansaço de mineração)."
+				"&f4. Pata da lua &6Gibosa&r (lentidão)."
+			]
+			optional: true
+		}
+		{
+			id: "7AB254D209160064"
+			x: 12.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			dependencies: [
+				"2E16075BC70285BC"
+			]
+			tasks: [
+				{
+					id: "645D4D5F0387F4AF"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&aTier II&7 - As Lanças da Savana"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "5423B114FB677DE7"
+			x: 14.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "mowziesmobs:umvuthana_mask_fury"
+			}
+			dependencies: [
+				"052FA5D9043F1425"
+				"7AB254D209160064"
+			]
+			tasks: [
+				{
+					id: "25267AC78E16F088"
+					type: "advancement"
+					advancement: "mowziesmobs:kill_umvuthana_raptor"
+					criterion: ""
+				}
+				{
+					id: "14725C7904C6189D"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:dart"
+					}
+					count: 16L
+				}
+				{
+					id: "3DB0160F16313652"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:blowgun"
+					}
+					count: 1L
+				}
+				{
+					id: "563EA8DAD83674AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:spear"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "36C9BF7C46D062F0"
+					type: "xp"
+					xp: 320
+				}
+				{
+					id: "2A4628BABA47B9E4"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+				}
+			]
+			title: "O Bosque Umvuthana"
+			description: [
+				"&7Nas savanas, uma aldeia de palha e madeira pintada; guerreiros mascarados dançam ao redor do fogo."
+				"&7Eles caçam com lanças de alcance longo e com dardos soprados que paralisam."
+				"&7Quem derruba o Raptor, o líder do bando, volta com as armas da tribo."
+				""
+				"&6Objetivo:&r 1. Encontre um &6bosque Umvuthana&r nas savanas e mate um &6Umvuthana Raptor&r."
+				"&f2. Faça ou recolha &616 Dardos&r."
+				"&f3. Faça uma &6Zarabatana&r: os dardos envenenam e paralisam à distância."
+				"&f4. Faça uma &6Lança&r: alcança mais longe e causa dano extra em animais."
+				""
+				"&8Os mascarados atacam em grupo e cada máscara luta de um jeito. Não entre sozinho."
+			]
+		}
+		{
+			id: "5EAC5025A873BF53"
+			x: 17.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			dependencies: [
+				"7AB254D209160064"
+			]
+			tasks: [
+				{
+					id: "1A7BA4E1DF20168F"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III&7 - O Colosso e o Mosteiro"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "35DD9F2EF17A0208"
+			x: 19.0d
+			y: -0.8d
+			icon: {
+				count: 1
+				id: "mowziesmobs:naga_fang"
+			}
+			dependencies: [
+				"6838CE95DB097F9A"
+				"5EAC5025A873BF53"
+			]
+			tasks: [
+				{
+					id: "36385E7BF2369EDF"
+					type: "advancement"
+					advancement: "mowziesmobs:kill_naga"
+					criterion: ""
+				}
+				{
+					id: "4F4EA52AFE91A6F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:naga_fang"
+					}
+					count: 2L
+				}
+				{
+					id: "4DE2429D1EDE78D1"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:naga_fang_dagger"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "71616179373CAEF2"
+					type: "xp"
+					xp: 330
+				}
+				{
+					id: "65293E68DDC9920A"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Serpente dos Penhascos"
+			description: [
+				"&7Nos penhascos sobre o mar voa uma serpente de asas de couro que cospe ácido e mergulha como uma águia."
+				"&7A presa dela ainda goteja veneno depois de arrancada, e os ferreiros sabem o que fazer com isso."
+				""
+				"&6Objetivo:&r 1. Mate uma &6naga&r nas praias de montanha e colinas litorâneas."
+				"&f2. Recolha &62 Presas de Naga&r."
+				"&f3. Monte a &6Adaga de Presa de Naga&r na &6Mechanical Crafter&r: envenena e golpeia por trás com dano extra."
+				""
+				"&8Depois do mergulho ela fica no chão por um instante: desvie e contra-ataque."
+			]
+		}
+		{
+			id: "7C3CBDA00C6EAD4B"
+			x: 19.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "mowziesmobs:bluff_rod"
+			}
+			dependencies: [
+				"052FA5D9043F1425"
+				"5EAC5025A873BF53"
+			]
+			tasks: [
+				{
+					id: "37DF860A8651C657"
+					type: "advancement"
+					advancement: "mowziesmobs:kill_bluff"
+					criterion: ""
+				}
+				{
+					id: "43BED54BC702FA91"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:bluff_rod"
+					}
+					count: 1L
+				}
+				{
+					id: "0C5DBFE01736D99C"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:sand_rake"
+					}
+					count: 1L
+				}
+				{
+					id: "456D26AD8F065871"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:raked_sand"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "384E8FBE17D7F2FC"
+					type: "xp"
+					xp: 440
+				}
+			]
+			title: "O Mosteiro no Pico"
+			description: [
+				"&7No topo dos picos mais altos, um mosteiro de pedra clara, onde o gongo soa sem que ninguém o toque."
+				"&7Pequenos guardiões de pedra, os Bluffs, rolam pelos corredores com bastões que confundem."
+				"&7No pátio, os monges desenham ondas na areia para acalmar a mente."
+				""
+				"&6Objetivo:&r 1. Encontre o &6mosteiro do Escultor&r no cume de um pico e mate um &6Bluff&r."
+				"&f2. Consiga um &6Bastão de Bluff&r. Guarde-o: é a moeda do desafio do Escultor."
+				"&f3. Recolha um &6Rastelo de Areia&r nos baús do mosteiro."
+				"&f4. Use-o na areia para fazer &68 de Areia Rastelada&r."
+				""
+				"&8O mosteiro fica acima da camada 120. Leve algo para escalar."
+			]
+		}
+		{
+			id: "545BDDC2E24C24F5"
+			x: 22.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_4"
+			}
+			dependencies: [
+				"5EAC5025A873BF53"
+			]
+			tasks: [
+				{
+					id: "50C298A5BD0D65D1"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_4"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&6Tier IV&7 - O Gigante do Gelo"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "150C4D2DBCC906F4"
+			x: 24.0d
+			y: -0.8d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:frostmaw_heart"
+			}
+			dependencies: [
+				"7C3CBDA00C6EAD4B"
+				"545BDDC2E24C24F5"
+			]
+			tasks: [
+				{
+					id: "437FD5082502DD43"
+					type: "advancement"
+					advancement: "mowziesmobs:steal_ice_crystal"
+					criterion: ""
+				}
+				{
+					id: "47CEAD1A29BAB4F1"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:ice_crystal"
+					}
+					count: 1L
+				}
+				{
+					id: "74910B2BC92B90D2"
+					type: "kill"
+					entity: "mowziesmobs:frostmaw"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "42B4D38F74FBF312"
+					type: "xp"
+					xp: 420
+				}
+			]
+			title: "O Frostmaw"
+			description: [
+				"&7Nas planícies geladas dorme um gigante branco abraçado a um cristal."
+				"&7Segurar esse cristal é soprar o inverno pela boca. Acordar o dono dele foi a última ideia de muita gente."
+				""
+				"&6Objetivo:&r 1. Encontre o &cFrostmaw&r adormecido nos biomas nevados abertos."
+				"&f2. Aproxime-se sem acordá-lo e &6roube o Cristal de Gelo&r. Segurando o uso, você sopra o gelo dele."
+				"&f3. Quando ele acordar, derrote-o: fuja do sopro que congela e dos punhos que racham o chão."
+				"&f4. Reclame o seu &ccoração de troféu&r. O cristal também é ingrediente do &6Coração do Tier V&r."
+				""
+				"&8Fogo derrete o congelamento mais cedo. Mantenha distância do sopro."
+			]
+		}
+		{
+			id: "65D10F035C333F29"
+			x: 24.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "mowziesmobs:geomancer_robe"
+			}
+			dependencies: [
+				"7C3CBDA00C6EAD4B"
+				"545BDDC2E24C24F5"
+			]
+			tasks: [
+				{
+					id: "3D7630C98D749114"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:geomancer_robe"
+					}
+					count: 1L
+				}
+				{
+					id: "693C360306297401"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:geomancer_beads"
+					}
+					count: 1L
+				}
+				{
+					id: "2C84D9FEAD7A1AB5"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:geomancer_belt"
+					}
+					count: 1L
+				}
+				{
+					id: "18B8EF872BDEE026"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:geomancer_sandals"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "02BD95C8A4798ED8"
+					type: "xp"
+					xp: 560
+				}
+			]
+			title: "Vestes do Geomante"
+			description: [
+				"&7Os monges do mosteiro vestem roupas que respondem à terra."
+				"&7Vestido da cabeça aos pés, o geomante luta como uma montanha que anda."
+				""
+				"&6Objetivo:&r 1. &6Manto&r: pedras surgem ao lutar."
+				"&f2. &6Contas&r: soco mais forte."
+				"&f3. &6Cinto&r: armadura extra quando lento."
+				"&f4. &6Sandálias&r: velocidade depois de quedas."
+				"&fTodas vêm dos baús do mosteiro."
+			]
+		}
+		{
+			id: "5EA72B1C106DBC19"
+			x: 27.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_5"
+			}
+			dependencies: [
+				"545BDDC2E24C24F5"
+			]
+			tasks: [
+				{
+					id: "5D75C3B99973B1C3"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_5"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&cTier V&7 - O Sol e a Montanha"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "62CCE1FFDAFC895E"
+			x: 29.0d
+			y: -0.53d
+			icon: {
+				count: 1
+				id: "minecraft:gold_block"
+			}
+			dependencies: [
+				"5423B114FB677DE7"
+				"5EA72B1C106DBC19"
+			]
+			tasks: [
+				{
+					id: "5C466E978E61A281"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:umvuthana_mask_fury"
+					}
+					count: 1L
+				}
+				{
+					id: "376122FA1536330B"
+					type: "advancement"
+					advancement: "mowziesmobs:sneak_grove"
+					criterion: ""
+				}
+				{
+					id: "2D025C71B7B9F538"
+					type: "advancement"
+					advancement: "mowziesmobs:suns_blessing"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "4B8C74D35E2AC8A9"
+					type: "xp"
+					xp: 510
+				}
+			]
+			title: "Pássaros da Mesma Pena"
+			description: [
+				"&7Cada máscara Umvuthana carrega uma emoção, e quem a veste ganha o poder dela."
+				"&7Com a máscara certa, os guardas da aldeia não percebem o forasteiro."
+				"&7Umvuthi não precisa ser morto para ser útil: ouro abre o coração do Pássaro-Sol."
+				""
+				"&6Objetivo:&r 1. Consiga a &6Máscara da Fúria&r (dos mascarados ou dos baús do bosque)."
+				"&f2. Entre num bosque Umvuthana &6disfarçado&r, com a máscara e agachado."
+				"&f3. Aproxime-se de &6Umvuthi&r em paz e ofereça &67 blocos de ouro&r para receber a &6Bênção do Sol&r: por uma hora você dispara raios solares."
+				""
+				"&8Não ataque ninguém do bosque antes da oferta."
+			]
+		}
+		{
+			id: "37C94A7F2D6E817C"
+			x: 29.0d
+			y: 1.07d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "comamigos_balance:sculptor_heart"
+			}
+			dependencies: [
+				"7C3CBDA00C6EAD4B"
+				"65D10F035C333F29"
+				"5EA72B1C106DBC19"
+			]
+			tasks: [
+				{
+					id: "512F49BC9248FA83"
+					type: "advancement"
+					advancement: "mowziesmobs:sculptor_challenge"
+					criterion: ""
+				}
+				{
+					id: "07DAE01910E79A8C"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:earthrend_gauntlet"
+					}
+					count: 1L
+				}
+				{
+					id: "4CEB252525AC76F1"
+					type: "kill"
+					entity: "mowziesmobs:sculptor"
+					value: 1L
+				}
+				{
+					id: "03A7A9866FE44EE8"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:sculptor_staff"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "43B723526F39FE57"
+					type: "xp"
+					xp: 680
+				}
+			]
+			title: "Tongbi, o Escultor"
+			description: [
+				"&7O velho monge molda a montanha com as mãos. Ele não luta com quem não paga."
+				"&7Pague, e ele ergue uma torre de pedra para você subir enquanto tenta te derrubar."
+				"&7O prêmio é uma manopla que arranca rochas do chão; a luta de verdade é contra o próprio pico."
+				""
+				"&6Objetivo:&r 1. Dê um &6Bastão de Bluff&r ao &6Escultor&r no topo do mosteiro e suba o pilar que ele levanta, desviando dos ataques."
+				"&f2. Receba a &6Manopla Fende-Terra&r ao completar o desafio."
+				"&f3. Derrote &cTongbi&r: ele ergue pilares, atira pedras e afunda o chão sob você."
+				"&f4. Recolha o &6Cajado do Geomante&r e o &ccoração de troféu&r (firmeza e pressa, mas passos lentos)."
+				""
+				"&8Se cair do pilar, recomece: ele aceita outro bastão."
+			]
+		}
+		{
+			id: "6BF90D0617568D71"
+			x: 31.0d
+			y: -1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "mowziesmobs:umvuthana_mask_misery"
+			}
+			dependencies: [
+				"62CCE1FFDAFC895E"
+			]
+			tasks: [
+				{
+					id: "53FE030D0C50FE6B"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:umvuthana_mask_fear"
+					}
+					count: 1L
+				}
+				{
+					id: "5F72378CFC859D76"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:umvuthana_mask_rage"
+					}
+					count: 1L
+				}
+				{
+					id: "5253B994B95A94D6"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:umvuthana_mask_faith"
+					}
+					count: 1L
+				}
+				{
+					id: "32E634877B03D2AC"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:umvuthana_mask_bliss"
+					}
+					count: 1L
+				}
+				{
+					id: "37B55D42AE2463CD"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:umvuthana_mask_misery"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "29C24AC12BD6AD0A"
+					type: "xp"
+					xp: 850
+				}
+				{
+					id: "25BBD9FEA8A3A6F7"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "O Baile de Máscaras"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Seis rostos, seis almas: fúria, medo, raiva, fé, felicidade e tristeza."
+				"&7O colecionador de máscaras nunca mais se olha no espelho."
+				""
+				"&6Objetivo:&r 1. Junte as máscaras do &6Medo&r, da &6Raiva&r, da &6Fé&r, da &6Felicidade&r e da &6Tristeza&r."
+				"&f2. Pendure-as ao lado da Máscara da Fúria."
+			]
+			optional: true
+		}
+		{
+			id: "74CB677FF10AA83E"
+			x: 31.0d
+			y: 0.0d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:umvuthi_heart"
+			}
+			dependencies: [
+				"62CCE1FFDAFC895E"
+			]
+			tasks: [
+				{
+					id: "34F990311C67E454"
+					type: "kill"
+					entity: "mowziesmobs:umvuthi"
+					value: 1L
+				}
+				{
+					id: "32AFE58573CF791D"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:sol_visage"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "22F56467EC264ABF"
+					type: "xp"
+					xp: 340
+				}
+				{
+					id: "3E3ED5E2818AC749"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Louvado Seja o Sol"
+			description: [
+				"&7No alto do bosque, o Pássaro-Sol abre as asas. Seu olhar queima, e seus servos o curam."
+				"&7A máscara dele tem o sol talhado na testa, e quem a veste comanda os mascarados."
+				""
+				"&6Objetivo:&r 1. Suba ao trono no alto do bosque Umvuthana."
+				"&f2. Mate primeiro os mascarados que curam &cUmvuthi&r e desvie dos golpes de sol."
+				"&f3. Recolha a &6Face do Sol&r: vestida, permite invocar guerreiros Umvuthana."
+				"&f4. O &ccoração de troféu&r dá regeneração e calor, mas você brilha."
+			]
+		}
+		{
+			id: "0BB1FA474600D3DB"
+			x: 31.0d
+			y: 1.6d
+			icon: {
+				count: 1
+				id: "mowziesmobs:music_disc_petiole"
+			}
+			dependencies: [
+				"150C4D2DBCC906F4"
+				"37C94A7F2D6E817C"
+			]
+			tasks: [
+				{
+					id: "0AF258B1AABA4EC9"
+					type: "advancement"
+					advancement: "mowziesmobs:kill_grottol_silk_touch"
+					criterion: ""
+				}
+				{
+					id: "2D5867CE130B9632"
+					type: "advancement"
+					advancement: "mowziesmobs:sculptor_failure"
+					criterion: ""
+				}
+				{
+					id: "3C077DB5EDA55DF7"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:music_disc_petiole"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "09DF3F974313CA42"
+					type: "xp"
+					xp: 510
+				}
+				{
+					id: "05A5AD06061C516F"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Contos de Taverna"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Todo caçador errante tem histórias que ninguém acredita."
+				"&7O grottol que voltou vivo no bolso, o tombo do pilar do Escultor, a canção estranha achada entre os restos do gigante de gelo."
+				""
+				"&6Objetivo:&r 1. Capture um grottol com picareta de &6Toque Suave&r."
+				"&f2. Caia para a morte durante o desafio do Escultor. Acontece com os melhores."
+				"&f3. Consiga o &6Disco de Música Petiole&r do Frostmaw."
+			]
+			optional: true
+		}
+	]
+	title: "Missões"
+	subtitle: [
+		"&2Feras e Colossos&7: do Tier I em diante"
+	]
+}

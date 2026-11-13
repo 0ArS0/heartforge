@@ -1,0 +1,3989 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_equip_missoes"
+	group: "0011E6E41EF0DECD"
+	icon: {
+		count: 1
+		id: "artifacts:crystal_heart"
+	}
+	id: "418D4D95EE64901B"
+	order_index: 46
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7FA2D5E3AADB87E3"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:crystal_heart"
+			}
+			dependencies: [
+				"5039410908A9C256"
+			]
+			tasks: [
+				{
+					id: "2EEA70E3C549E25D"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+			title: "&fO Começo"
+			description: [
+				"&7As primeiras trilhas. A introdução fica na página ao lado."
+			]
+		}
+		{
+			id: "63C9F7FE8A4493C3"
+			x: 2.0d
+			y: -2.4d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			dependencies: [
+				"7FA2D5E3AADB87E3"
+			]
+			tasks: [
+				{
+					id: "3179C5FC68C48540"
+					type: "kill"
+					entity: "artifacts:mimic"
+					value: 1L
+				}
+				{
+					id: "5782DD5B5A3DC425"
+					type: "advancement"
+					advancement: "artifacts:amateur_archaeologist"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "6327E3C97EA11119"
+					type: "xp"
+					xp: 100
+				}
+			]
+			title: "O Baú que Morde"
+			description: [
+				"&7Nem todo baú quer ser aberto. Alguns querem abrir você."
+				"&7Os cronistas chamam de mímicos os baús vivos que esperam em masmorras, cavernas e acampamentos abandonados,"
+				"&7e é na barriga deles que costumam estar os objetos que alguém, um dia, encantou e perdeu."
+				"&7Esses objetos são os &6artefatos&7, e quem começa a colecioná-los raramente para."
+				""
+				"&6Objetivo:&r 1. Derrote um &cMímico&r. Desconfiou de um baú? Bata nele antes de abrir."
+				"&f2. Encontre seu primeiro &6Artefato&r: em acampamentos nas cavernas (barracas com baús e lanternas),"
+				"&f   em mímicos, em baús de estruturas ou escavando areia e cascalho suspeitos com o pincel."
+				""
+				"&8Artefatos ocupam encaixes de acessório (cabeça, pescoço, mãos, cintura, pés)."
+				"&8Clicar com o botão direito num artefato no inventário liga ou desliga a aparência dele no corpo."
+			]
+		}
+		{
+			id: "364D1CEA41B8A77E"
+			x: 2.0d
+			y: -0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:backpack"
+			}
+			dependencies: [
+				"7FA2D5E3AADB87E3"
+			]
+			tasks: [
+				{
+					id: "54F3157FD2BFE439"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					count: 1L
+				}
+				{
+					id: "24221DA4DB817C7A"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					count: 2L
+				}
+				{
+					id: "3A20B420A4BB5AE1"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:pickup_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "52DD0509579ED3E6"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:magnet_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "3A2971D274D458AD"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:feeding_upgrade"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2639C156612402D8"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "A Mochila do Andarilho"
+			description: [
+				"&7O andarilho carrega a casa nas costas. Melhor que seja uma casa grande, e esperta."
+				"&7Os seleiros do reino costuram mochilas com uma coluna de encaixes ao lado, onde se prendem"
+				"&7plaquinhas de couro e ferro que fazem o trabalho chato: recolher o que cai, puxar o que brilha,"
+				"&7e lembrar de comer quando a luta não deixa."
+				""
+				"&6Objetivo:&r 1. Costure uma &6Mochila&r (couro, linha e um baú). Use-a na mão, ou agachado coloque-a no chão."
+				"&f2. Faça &62 Bases de Melhoria&r: quase toda melhoria parte delas."
+				"&f3. &6Melhoria de Coleta&r: recolhe o que você pisa."
+				"&f4. &6Melhoria de Ímã&r: puxa itens e experiência (ambas aceitam filtros)."
+				"&f5. &6Melhoria de Alimentação&r: come sozinha da mochila quando a fome aperta."
+				""
+				"&8Há uma tecla própria para abrir a mochila vestida nas costas."
+			]
+		}
+		{
+			id: "5F9D9957C0912EEF"
+			x: 2.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:iron_longsword"
+			}
+			dependencies: [
+				"7FA2D5E3AADB87E3"
+			]
+			tasks: [
+				{
+					id: "06200EBCA36FA744"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_longsword"
+					}
+					count: 1L
+				}
+				{
+					id: "3DC9FC6F2AF39504"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_rapier"
+					}
+					count: 1L
+				}
+				{
+					id: "558EB8ED3FFE2B88"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_claymore"
+					}
+					count: 1L
+				}
+				{
+					id: "4BAAE6F2D5C1627B"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_spear"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0E10E50AA6A67117"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Aço de Muitas Formas"
+			description: [
+				"&7O ferreiro do vilarejo sabe fazer espada. O mestre de armas sabe fazer quinze."
+				"&7Cada forma tem seu alcance, sua velocidade e seu peso: a espada longa equilibra tudo,"
+				"&7a rapieira golpeia dez vezes antes da claymore cair uma, e a lança mantém o inimigo a dois passos."
+				"&7Experimente até achar a sua."
+				""
+				"&6Objetivo:&r 1. Forje uma &6Espada Longa de Ferro&r: a arma equilibrada."
+				"&f2. Forje uma &6Rapieira de Ferro&r: rápida, pouco dano por golpe."
+				"&f3. Forje uma &6Claymore de Ferro&r: lenta e devastadora."
+				"&f4. Forje uma &6Lança de Ferro&r: alcance maior que o das espadas."
+				""
+				"&8Armas de ouro seguem as mesmas receitas: mais fracas, mas fáceis de encantar."
+			]
+		}
+		{
+			id: "7C458D634C348048"
+			x: 2.0d
+			y: 2.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "supplementaries:quiver"
+			}
+			dependencies: [
+				"7FA2D5E3AADB87E3"
+			]
+			tasks: [
+				{
+					id: "2B64FE96E0BC806E"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:sack"
+					}
+					count: 1L
+				}
+				{
+					id: "57C2D0C445DDF0B0"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:quiver"
+					}
+					count: 1L
+				}
+				{
+					id: "7D7709A948F69F6D"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:slingshot"
+					}
+					count: 1L
+				}
+				{
+					id: "06EDDE145711E5AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:rope"
+					}
+					count: 8L
+				}
+				{
+					id: "5B7A55657EDB7276"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:rope_arrow"
+					}
+					count: 1L
+				}
+				{
+					id: "33301BE05A9B707E"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:lunch_basket"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4CC4403A9CCF5E3F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "555AD61F46E3647A"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+				}
+			]
+			title: "O Kit do Viajante"
+			description: [
+				"&7Antes de partir, o viajante prudente enche os bolsos de coisas pequenas que salvam vidas."
+				"&7Um saco de lona para o excesso, uma aljava que guarda todas as flechas, um estilingue de moleque"
+				"&7e um rolo de corda, porque até um poço sem fundo tem volta para quem trouxe corda."
+				""
+				"&6Objetivo:&r 1. Faça um &6Saco&r: guarda itens e vira bloco; cheio demais, deixa quem o carrega lento."
+				"&f2. Faça uma &6Aljava&r: vários tipos de flecha no mesmo espaço, e você escolhe qual disparar."
+				"&f3. Faça um &6Estilingue&r: arremessa quase qualquer item ou bloco da mão secundária."
+				"&f4. Trance &68 Cordas&r: escaláveis; usadas sobre outra corda, descem mais."
+				"&f5. Faça uma &6Flecha de Corda&r: estende corda onde cravar."
+				"&f6. Monte uma &6Cesta de Lanche&r: guarda vários alimentos e deixa comer direto dela."
+				""
+				"&8A Roldana puxa e solta corda; com uma manivela, vira elevador."
+			]
+		}
+		{
+			id: "42B5F49DA8C98AE8"
+			x: 5.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			tasks: [
+				{
+					id: "3DD9FB8E97D58823"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_1"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&7Tier I&7 - Couro, Corda e Ferro"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "35B92A081AC21CDB"
+			x: 7.0d
+			y: -10.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:gold_backpack"
+			}
+			dependencies: [
+				"364D1CEA41B8A77E"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "060592599CE8C3A5"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:copper_backpack"
+					}
+					count: 1L
+				}
+				{
+					id: "4A69A9CB37A9C820"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:iron_backpack"
+					}
+					count: 1L
+				}
+				{
+					id: "583BBA7B74E95FBA"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:gold_backpack"
+					}
+					count: 1L
+				}
+				{
+					id: "430FAD6A8FBA6F78"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1DE9236F335B558B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "Costuras de Metal"
+			description: [
+				"&7Reforço de cobre, depois ferro, depois ouro: a cada camada a mochila cresce,"
+				"&7ganha mais um encaixe de melhoria e não perde nada do que já levava dentro."
+				"&7Mesmo espaço, o dobro de coisa: feitiçaria? Não, costura bem feita."
+				""
+				"&6Objetivo:&r 1. Cerque a mochila com cobre na bancada: &6Mochila de Cobre&r."
+				"&f2. Melhore com lingotes de ferro: &6Mochila de Ferro&r."
+				"&f3. Melhore com lingotes de ouro: &6Mochila de Ouro&r."
+				"&f4. Faça uma &6Melhoria de Pilha&r: cada espaço guarda várias pilhas (ferro, ouro, diamante e netherite multiplicam mais)."
+			]
+		}
+		{
+			id: "7EC23C363346E8C6"
+			x: 7.0d
+			y: -8.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:crafting_upgrade"
+			}
+			dependencies: [
+				"364D1CEA41B8A77E"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "0E98379458B4CEAD"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "7B65389DC17C922D"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:smelting_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "0C6AC4CA7CE99B38"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:tool_swapper_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "121B7FBFE8C7412F"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:refill_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "244954560485A16E"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:deposit_upgrade"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "07A9F4360F28154C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "54C42F7235B0F30E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "A Oficina nas Costas"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Bancada, fornalha e caixa de ferramentas, tudo dobrado dentro do couro."
+				"&7Os mineiros anões juram que a melhor mochila é a que trabalha enquanto o dono cava:"
+				"&7funde o minério, troca a picareta pela espada e repõe as tochas antes que acabem."
+				""
+				"&6Objetivo:&r 1. &6Melhoria de Bancada&r: uma grade de fabricação dentro da mochila."
+				"&f2. &6Melhoria de Fundição&r: uma fornalha costurada (a versão automática funde sozinha o que entra)."
+				"&f3. &6Melhoria de Troca de Ferramentas&r: escolhe a ferramenta certa para o bloco ou a arma para o alvo."
+				"&f4. &6Melhoria de Recarga&r: repõe a barra rápida."
+				"&f5. &6Melhoria de Depósito&r: despeja em baús com um clique."
+				""
+				"&8Há também serraria de pedra, bigorna, ferraria, defumador, alto-forno e alquimia."
+			]
+			optional: true
+		}
+		{
+			id: "1AABEA202688B9D8"
+			x: 7.0d
+			y: -7.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:everlasting_upgrade"
+			}
+			dependencies: [
+				"364D1CEA41B8A77E"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "10914A4595D98461"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:compacting_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "73C59BCA53A6AFB0"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:void_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "10DAFC5449D7FEFE"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:tank_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "354E29E2732459A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:xp_pump_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "2B35C59E4D03FEDB"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:everlasting_upgrade"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1942F05F26D8C05F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2BBAFCF59EBA7922"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "A Mochila Sem Fim"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Pepitas viram lingotes, lixo vira nada, a água cabe num tanque e a experiência numa garrafa."
+				"&7E há quem costure uma runa que impede a mochila de morrer: fogo, lava, vazio,"
+				"&7nada destrói uma mochila que se recusa a sumir."
+				""
+				"&6Objetivo:&r 1. &6Melhoria de Compactação&r: 2x2 ou 3x3 em blocos."
+				"&f2. &6Melhoria de Vazio&r: destrói o que for filtrado."
+				"&f3. &6Melhoria de Tanque&r: água, lava ou poção."
+				"&f4. &6Bomba de Experiência&r: guarda e devolve níveis."
+				"&f5. &6Melhoria Eterna&r: a mochila não é destruída e não some do chão."
+				""
+				"&8A Melhoria de Incepção permite mochilas dentro de mochilas, com as melhorias somadas."
+			]
+			optional: true
+		}
+		{
+			id: "3F8A96B6736FEC99"
+			x: 7.0d
+			y: -5.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "sophisticatedstorage:controller"
+			}
+			dependencies: [
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "5F9AD6B5B143DC28"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:chest"
+					}
+					count: 1L
+				}
+				{
+					id: "67989AE5E35524C6"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:barrel"
+					}
+					count: 1L
+				}
+				{
+					id: "09D511473C637808"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					}
+					count: 1L
+				}
+				{
+					id: "4BA222F438F179C4"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:controller"
+					}
+					count: 1L
+				}
+				{
+					id: "0C38C73BD6124CAC"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:storage_link"
+					}
+					count: 1L
+				}
+				{
+					id: "1244CD9B2E7F3C9D"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:safe"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6BD7D08CBFF172A3"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "211B22E5D875E121"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+				}
+			]
+			title: "O Armazém do Mercador"
+			description: [
+				"&7O armazém de um mercador honesto: tudo etiquetado, tudo no lugar, e uma só porta para cem baús."
+				"&7Os baús sofisticados crescem sem precisar ser esvaziados, aceitam melhorias como as mochilas,"
+				"&7e o cofre do canto só reconhece a mão de quem o fechou."
+				""
+				"&6Objetivo:&r 1. Faça um &6Baú&r e um &6Barril&r sofisticados."
+				"&f2. Faça uma &6Melhoria de Nível Básico para Ferro&r e use-a sobre o baú posto: ele cresce sem perder nada."
+				"&f3. Faça um &6Controlador de Armazém&r e encoste-o nos baús: todos viram um só inventário."
+				"&f4. Faça um &6Elo de Armazém&r: liga baús distantes ao controlador."
+				"&f5. Faça um &6Cofre&r: só o dono abre, e ele mantém o conteúdo ao ser quebrado."
+				""
+				"&8A escada de níveis segue: cobre, ferro, ouro, diamante e netherite."
+			]
+		}
+		{
+			id: "115AB8DEF203209D"
+			x: 7.0d
+			y: -4.0d
+			icon: {
+				count: 1
+				id: "supplementaries:cannon"
+			}
+			dependencies: [
+				"7C458D634C348048"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "0E17BDCCC196DB86"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:bomb"
+					}
+					count: 4L
+				}
+				{
+					id: "379367548A707912"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:cannon"
+					}
+					count: 1L
+				}
+				{
+					id: "00C7C23636F40B7C"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:cannonball"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "2560A97FEDF2F966"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1055EFDA4D37C4DA"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Pólvora e Estrondo"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Pólvora embrulhada e um pavio curto: os anões chamariam isso de presente."
+				"&7Os engenheiros do vapor, que nunca resistem a um cano largo, foram além e montaram canhões"
+				"&7nas muralhas e nos conveses."
+				""
+				"&6Objetivo:&r 1. Faça &64 Bombas&r: arremessáveis, explodem no impacto (a &6Bomba Azul&r é bem mais forte)."
+				"&f2. Construa um &6Canhão&r. Carregue com pólvora, mire e dispare."
+				"&f3. Faça &64 Balas de Canhão&r."
+			]
+			optional: true
+		}
+		{
+			id: "00E936451383980F"
+			x: 7.0d
+			y: -2.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "supplementaries:globe"
+			}
+			dependencies: [
+				"7C458D634C348048"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "6654A064AC742E89"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:hourglass"
+					}
+					count: 1L
+				}
+				{
+					id: "145D29CD8CFBF671"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:altimeter"
+					}
+					count: 1L
+				}
+				{
+					id: "41B8A1CDDA433E3F"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:wrench"
+					}
+					count: 1L
+				}
+				{
+					id: "18C1780A8799D52A"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:jar"
+					}
+					count: 1L
+				}
+				{
+					id: "549BA11AFE975CEE"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:globe"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "44EF928B6970535B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "073BF37884E4A29D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Engenhocas de Bolso"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Uma ampulheta, um altímetro e uma chave inglesa: o kit do engenheiro andarilho."
+				"&7Na estante dele há ainda uma jarra que guarda mel, poções e vagalumes,"
+				"&7e um globo que traz o mundo inteiro numa esfera que gira com o dedo."
+				""
+				"&6Objetivo:&r 1. &6Ampulheta&r: temporizador de areia."
+				"&f2. &6Altímetro&r: mostra a altura."
+				"&f3. &6Chave Inglesa&r: gira blocos."
+				"&f4. &6Jarra&r: guarda líquidos, biscoitos e até pequenas criaturas."
+				"&f5. &6Globo&r: mostra o mapa do mundo; gire-o para procurar terras."
+				""
+				"&8A Torneira tira líquido de jarras e barris; a Flauta chama de volta os animais domados."
+			]
+			optional: true
+		}
+		{
+			id: "74CA191E277A6448"
+			x: 7.0d
+			y: -0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "quark:pathfinders_quill"
+			}
+			dependencies: [
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "18638B4868ED0517"
+					type: "item"
+					item: {
+						count: 1
+						id: "quark:seed_pouch"
+					}
+					count: 1L
+				}
+				{
+					id: "3E2B956CAD31613A"
+					type: "item"
+					item: {
+						count: 1
+						id: "quark:trowel"
+					}
+					count: 1L
+				}
+				{
+					id: "5D74B964F1921A8D"
+					type: "item"
+					item: {
+						count: 1
+						id: "quark:abacus"
+					}
+					count: 1L
+				}
+				{
+					id: "1759769D2ECA4E51"
+					type: "item"
+					item: {
+						count: 1
+						id: "quark:pathfinders_quill"
+					}
+					count: 1L
+				}
+				{
+					id: "7BA2E2B0C3517CD7"
+					type: "item"
+					item: {
+						count: 1
+						id: "quark:ancient_tome"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "051E5C4E7A6A82E3"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "41B5514CD3752514"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Ferramentas do Desbravador"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Medir a distância, achar o caminho e semear sem se abaixar: metade de qualquer viagem."
+				"&7O pedreiro preguiçoso deixa a colher escolher a pedra, e o sábio guarda o tomo velho"
+				"&7que ensina mais do que os encantadores sabem."
+				""
+				"&6Objetivo:&r 1. &6Bolsa de Sementes&r: guarda muitas sementes de um tipo e planta em área."
+				"&f2. &6Colher de Pedreiro&r: coloca um bloco aleatório da barra rápida a cada uso."
+				"&f3. &6Ábaco&r: mede distâncias entre blocos."
+				"&f4. &6Pena do Desbravador&r: aponta biomas (vendida pelo mercador ambulante)."
+				"&f5. &6Tomo Antigo&r (baús): na bigorna, eleva um livro encantado acima do nível máximo."
+			]
+			optional: true
+		}
+		{
+			id: "2494DEA15208CD78"
+			x: 7.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "handcrafted:oak_chair"
+			}
+			dependencies: [
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "218C5B6471AE3F78"
+					type: "item"
+					item: {
+						count: 1
+						id: "handcrafted:hammer"
+					}
+					count: 1L
+				}
+				{
+					id: "2E898E23AAED2739"
+					type: "item"
+					item: {
+						count: 1
+						id: "handcrafted:oak_table"
+					}
+					count: 1L
+				}
+				{
+					id: "1F799FE63D746BFF"
+					type: "item"
+					item: {
+						count: 1
+						id: "handcrafted:oak_chair"
+					}
+					count: 1L
+				}
+				{
+					id: "15C0820CF68BBB99"
+					type: "item"
+					item: {
+						count: 1
+						id: "furnish:furniture_workbench"
+					}
+					count: 1L
+				}
+				{
+					id: "5E992B1BAE6A1E8F"
+					type: "item"
+					item: {
+						count: 1
+						id: "furnish:oak_wardrobe"
+					}
+					count: 1L
+				}
+				{
+					id: "70FA71D4E67487B7"
+					type: "item"
+					item: {
+						count: 1
+						id: "rechiseled:chisel"
+					}
+					count: 1L
+				}
+				{
+					id: "37C4F34578FD9352"
+					type: "item"
+					item: {
+						count: 1
+						id: "mcwbridges:rope_oak_bridge"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "5C706FDDF3D63D65"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "3D168D8B1555069D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Uma Casa de Verdade"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Uma casa sem cadeira é só um abrigo."
+				"&7Os carpinteiros do reino trabalham com martelo e bancada própria; os pedreiros, com cinzel,"
+				"&7que tira mil rostos de uma pedra só. E onde o rio separa, a ponte reúne."
+				""
+				"&6Objetivo:&r 1. Faça um &6Martelo&r de carpinteiro: alterna variantes de móveis colocados."
+				"&f2. Faça uma &6Mesa&r e uma &6Cadeira&r de carvalho (há sofás, camas, balcões e troféus de criaturas)."
+				"&f3. Faça uma &6Bancada de Móveis&r e, nela, um &6Guarda-roupa&r de carvalho."
+				"&f4. Faça um &6Cinzel&r: troca blocos por variantes entalhadas, muitas com texturas que se conectam."
+				"&f5. Faça &64 Pontes de Corda&r de carvalho (há também de pedra, de tora, pilares e escadas)."
+			]
+			optional: true
+		}
+		{
+			id: "17883DDE10CC4F04"
+			x: 7.0d
+			y: 2.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:iron_katana"
+			}
+			dependencies: [
+				"5F9D9957C0912EEF"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "196DE0E1FED1C523"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_sai"
+					}
+					count: 1L
+				}
+				{
+					id: "6D1B2AC376A0380A"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_cutlass"
+					}
+					count: 1L
+				}
+				{
+					id: "65923AAB74897BAF"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_katana"
+					}
+					count: 1L
+				}
+				{
+					id: "1A56CABC476878D3"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_twinblade"
+					}
+					count: 1L
+				}
+				{
+					id: "6D417BC081C129C2"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_chakram"
+					}
+					count: 1L
+				}
+				{
+					id: "6EE1F550B3CFB9F9"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_warglaive"
+					}
+					count: 1L
+				}
+				{
+					id: "2BF20C89033EB614"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:sword_on_a_stick"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5BC85F085786A4B7"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "3B4F9C3A4ABB0104"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Lâminas de Duelo"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Para quem prefere dez golpes rápidos a um golpe certo."
+				"&7A katana e a lâmina dupla são armas de quem treinou mais do que lutou; o chakram e a glaive de guerra"
+				"&7vieram de terras distantes e giram no ar como luas de aço."
+				"&7E há a espada amarrada num graveto: engenharia de taverna, mas funciona."
+				""
+				"&6Objetivo:&r 1. &6Sais&r e &6Alfanje&r de ferro: rápidos, pouco dano por golpe."
+				"&f2. &6Katana&r e &6Lâmina Dupla&r de ferro: equilíbrio entre velocidade e dano."
+				"&f3. &6Chakram&r e &6Glaive de Guerra&r de ferro: lâminas exóticas."
+				"&f4. &6Espada no Graveto&r: espada longa de ferro, linha e um graveto na bancada."
+			]
+			optional: true
+		}
+		{
+			id: "21F59E36D6B4F298"
+			x: 7.0d
+			y: 4.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:iron_greathammer"
+			}
+			dependencies: [
+				"5F9D9957C0912EEF"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "5AA15C9BFD568FF8"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_greataxe"
+					}
+					count: 1L
+				}
+				{
+					id: "2495A974BA03A9E4"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_greathammer"
+					}
+					count: 1L
+				}
+				{
+					id: "351A6A6C78D7B9EA"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_halberd"
+					}
+					count: 1L
+				}
+				{
+					id: "3B0AF220ED33FEB4"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_glaive"
+					}
+					count: 1L
+				}
+				{
+					id: "7176C7308EEF6AC7"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_scythe"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0D5180B9F05F1169"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1A49FDB98794459D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Peso e Haste"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Lentas como um boi, e com o mesmo efeito quando acertam."
+				"&7Quem mantém o inimigo a dois passos de distância vive para contar; quem o acerta com um martelo"
+				"&7grande não precisa contar nada."
+				""
+				"&6Objetivo:&r 1. &6Machado Grande&r e &6Martelo Grande&r de ferro: golpes lentos e devastadores."
+				"&f2. &6Alabarda&r, &6Glaive&r e &6Foice&r de ferro: alcance de haste."
+			]
+			optional: true
+		}
+		{
+			id: "179B2B5E994ACC7B"
+			x: 7.0d
+			y: 5.6d
+			icon: {
+				count: 1
+				id: "simplyswords:runic_forge"
+			}
+			dependencies: [
+				"5F9D9957C0912EEF"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "5D8E32893DC137A9"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:smithing_table"
+					}
+					count: 1L
+				}
+				{
+					id: "7CB58CB6AEC21F68"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					count: 1L
+				}
+				{
+					id: "75BA50694E2C6C51"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:runic_forge"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "461A16FF2C7C83BA"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "A Forja Rúnica"
+			description: [
+				"&7Pedras gravadas com runas mais antigas que os anões: ninguém sabe ler, mas todos sabem usar."
+				"&7Sobre a mesa de ferraria, uma tábua dessas vira molde; montada com obsidiana, ametista e ouro,"
+				"&7vira a bigorna encantada onde as armas lendárias acordam do sono."
+				""
+				"&6Objetivo:&r 1. Monte uma &6Mesa de Ferraria&r."
+				"&f2. Encontre uma &6Tábua Rúnica&r em baús de masmorras e estruturas."
+				"&f3. Construa a &6Forja Rúnica&r: mesa de ferraria, tábua rúnica, obsidiana, ametista e ouro."
+				"&fArmas únicas marcadas com \"Modifique na Forja Rúnica\" despertam e evoluem nela."
+			]
+		}
+		{
+			id: "6218E95B0266DF3F"
+			x: 7.0d
+			y: 7.2d
+			icon: {
+				count: 1
+				id: "simplybows:upgrades/enchanted_bow_string"
+			}
+			dependencies: [
+				"7C458D634C348048"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "291EB9D863598F74"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:upgrades/enchanted_bow_string"
+					}
+					count: 1L
+				}
+				{
+					id: "71451891659CB4E8"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:upgrades/reinforced_bow_frame"
+					}
+					count: 1L
+				}
+				{
+					id: "0094A1CED8A3436A"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:upgrades/rune_etching_pain"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "244A6D86A357687F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6C830D33F3E4FB91"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Afinando o Arco"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Um arco lendário não nasce pronto: o arqueiro o afina com o tempo."
+				"&7Uma corda encantada estica o alcance da magia, uma armação reforçada dá força ao disparo,"
+				"&7e uma gravura rúnica (Dor, Graça, Fartura ou Caos) ensina o arco a mudar de ideia."
+				""
+				"&6Objetivo:&r 1. Encontre uma &6Corda Encantada&r: aumenta o alcance dos efeitos do arco único."
+				"&f2. Encontre uma &6Armação Reforçada&r: aumenta a força."
+				"&f3. Encontre uma &6Gravura Rúnica&r: altera o comportamento da habilidade."
+				"&fAplique-as num arco único na bigorna."
+				""
+				"&8Segure Alt sobre um arco único para ver os encaixes usados."
+			]
+			optional: true
+		}
+		{
+			id: "191FFF55BFE8671D"
+			x: 7.0d
+			y: 8.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:eternal_steak"
+			}
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "2B891D3939884E22"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:everlasting_beef"
+					}
+					count: 1L
+				}
+				{
+					id: "37D10BF3C5FB26A4"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:eternal_steak"
+					}
+					count: 1L
+				}
+				{
+					id: "51938422D98EC4A9"
+					type: "advancement"
+					advancement: "artifacts:adventurous_eater"
+					criterion: ""
+				}
+				{
+					id: "4576765EC5A5684E"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:plastic_drinking_hat"
+					}
+					count: 1L
+				}
+				{
+					id: "3B9B623D791CABF8"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:novelty_drinking_hat"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5F145D84412096A2"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "31A69188FDF387F0"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Banquete do Aventureiro"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Há uma vaca no mundo cuja carne nunca acaba; os açougueiros a procuram há séculos."
+				"&7Assada, ela vira um bife que não some ao ser comido, só descansa. Os aventureiros mais famintos"
+				"&7comem com um chapéu de duas latas e um canudo: ridículo, mas ninguém come mais rápido."
+				""
+				"&6Objetivo:&r 1. Consiga a &6Carne Eterna&r (rara ao abater vacas)."
+				"&f2. Asse-a em &6Bife Eterno&r: não é consumido ao ser comido, só entra em recarga."
+				"&f3. Coma um artefato (o bife serve)."
+				"&f4. &6Chapéu de Canudinho&r (Cabeça): comer e beber ficam muito mais rápidos."
+				"&f5. &6Chapéu de Campeão&r (Cabeça): o mesmo efeito, com mais vaidade."
+			]
+			optional: true
+		}
+		{
+			id: "4D418C46E7B5B2F1"
+			x: 7.0d
+			y: 10.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:snorkel"
+			}
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "6AADA109B4205F78"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:snorkel"
+					}
+					count: 1L
+				}
+				{
+					id: "2AAA5EBFEA5A9C73"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:villager_hat"
+					}
+					count: 1L
+				}
+				{
+					id: "769BA7CDC8B78DEE"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:cowboy_hat"
+					}
+					count: 1L
+				}
+				{
+					id: "1CBB6A5A1BFB56EA"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:anglers_hat"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0785AA598B6C98DF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1574402F024817EF"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Chapéus da Estrada"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Cada ofício do reino tem seu chapéu, e cada chapéu guarda um pouco do ofício."
+				"&7O mergulhador respira emprestado da superfície, o vaqueiro faz qualquer cavalo galopar,"
+				"&7o pescador espeta iscas na aba, e quem se veste como aldeão paga menos na feira."
+				""
+				"&6Objetivo:&r 1. &6Snorkel&r (Cabeça): fôlego extra a cada mergulho."
+				"&f2. &6Chapéu de Aldeão&r (Cabeça): aldeões cobram menos nas trocas."
+				"&f3. &6Chapéu de Vaqueiro&r (Cabeça): montarias correm mais rápido."
+				"&f4. &6Chapéu do Pescador&r (Cabeça): +1 nível de Sorte do Mar e de Isca."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
+			]
+			optional: true
+		}
+		{
+			id: "0F37E7B9A973D0F1"
+			x: 9.0d
+			y: -5.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "supplementaries:key"
+			}
+			dependencies: [
+				"3F8A96B6736FEC99"
+			]
+			tasks: [
+				{
+					id: "3C94F58EA00B2506"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:key"
+					}
+					count: 1L
+				}
+				{
+					id: "15CB580AB6324FC9"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:lock_block"
+					}
+					count: 1L
+				}
+				{
+					id: "24DBAA7ACA14B992"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:limited_barrel_1"
+					}
+					count: 1L
+				}
+				{
+					id: "64C1828A3757072B"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:packing_tape"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "26D19E6CFE99CEF3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4B9E53EA815E5B23"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Trancas e Mudanças"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Uma porta trancada diz: confio em você, mas nem tanto."
+				"&7E mudar de casa sem esvaziar os baús é o luxo dos mercadores: basta fita e paciência."
+				""
+				"&6Objetivo:&r 1. Faça uma &6Chave&r e um &6Bloco de Fechadura&r: portas e sinais trancados só abrem com a chave certa."
+				"&f2. Faça um &6Barril Limitado&r: até quatro divisões, cada uma com um tipo de item em enorme quantidade."
+				"&f3. Faça &6Fita de Embalagem&r e use-a num baú sofisticado para levá-lo sem perder o conteúdo."
+				""
+				"&8O Pincel e a Mesa de Decoração tingem e reformam baús, barris e caixas shulker."
+			]
+			optional: true
+		}
+		{
+			id: "4DC88D7680E8FD32"
+			x: 12.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			dependencies: [
+				"42B5F49DA8C98AE8"
+			]
+			tasks: [
+				{
+					id: "0142BADC8ACE4794"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&aTier II&7 - Achados das Cavernas"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "1BDB4D8B64DD1618"
+			x: 14.0d
+			y: -3.2d
+			icon: {
+				count: 1
+				id: "simplyswords:diamond_longsword"
+			}
+			dependencies: [
+				"5F9D9957C0912EEF"
+				"35B92A081AC21CDB"
+				"4DC88D7680E8FD32"
+			]
+			tasks: [
+				{
+					id: "712E7F7E4C910B91"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:diamond_longsword"
+					}
+					count: 1L
+				}
+				{
+					id: "195E50B6739D6934"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+					}
+					count: 1L
+				}
+				{
+					id: "51724C3B7BC3FBF7"
+					type: "item"
+					item: {
+						count: 1
+						id: "quark:pickarang"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3CA4C36D87A4A376"
+					type: "xp"
+					xp: 240
+				}
+			]
+			title: "O Brilho do Diamante"
+			description: [
+				"&7Diamante não cega; só quem o empunha pode errar."
+				"&7Com ele vêm a mochila que vale mais que a casa de muita gente e a picareta que volta"
+				"&7para a mão depois de arremessada. Os anões ficaram com inveja."
+				""
+				"&6Objetivo:&r 1. Forje qualquer arma de diamante, como a &6Espada Longa de Diamante&r (as quinze formas existem)."
+				"&f2. Melhore a mochila para a &6Mochila de Diamante&r."
+				"&f3. Forje um &6Picarangue&r: arremesse para minerar à distância; ele volta sozinho."
+			]
+		}
+		{
+			id: "50551A3C63EFE003"
+			x: 14.0d
+			y: -1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:aqua_dashers"
+			}
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"4DC88D7680E8FD32"
+			]
+			tasks: [
+				{
+					id: "0C03B9A97BE98DF3"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:aqua_dashers"
+					}
+					count: 1L
+				}
+				{
+					id: "165D9832BED10E95"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:bunny_hoppers"
+					}
+					count: 1L
+				}
+				{
+					id: "6D731C5FBAA73835"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:running_shoes"
+					}
+					count: 1L
+				}
+				{
+					id: "12260EA8117B808B"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:snowshoes"
+					}
+					count: 1L
+				}
+				{
+					id: "2171A0E7097F8359"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:steadfast_spikes"
+					}
+					count: 1L
+				}
+				{
+					id: "25B21B25845E218E"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:flippers"
+					}
+					count: 1L
+				}
+				{
+					id: "3A63FAF2B2F377CF"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:rooted_boots"
+					}
+					count: 1L
+				}
+				{
+					id: "0AED895BCF0B43FD"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:strider_shoes"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "54AEABD764F5A690"
+					type: "xp"
+					xp: 640
+				}
+				{
+					id: "5DB70EBE4212EFCD"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Passos Leves"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Os sapateiros encantados do reino nunca fizeram dois pares iguais."
+				"&7Há botas que correm sobre a água, botas de pés de coelho, raquetes dos povos do norte,"
+				"&7cravos de aço que nada derruba e sapatos feitos das pernas de um strider, que não foi consultado."
+				""
+				"&6Objetivo:&r 1. &6Corredores Aquáticos&r (Pés): corre sobre líquidos em disparada."
+				"&f2. &6Saltadores de Coelho&r (Pés): pulos mais altos e menos dano de queda."
+				"&f3. &6Sapatos de Corrida&r (Pés): mais velocidade em disparada e passo mais alto."
+				"&f4. &6Raquetes de Neve&r (Pés): anda sobre neve fofa e não escorrega no gelo."
+				"&f5. &6Cravos Firmes&r (Pés): imune a repulsão; gelo menos escorregadio."
+				"&f6. &6Nadadeiras&r (Pés): muito mais agilidade na água."
+				"&f7. &6Botas Enraizadas&r (Pés): sobre grama, recupera fome aos poucos."
+				"&f8. &6Sapatos de Strider&r (Pés): agachado, fica de pé sobre lava."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
+			]
+			optional: true
+		}
+		{
+			id: "1B827454B2445C22"
+			x: 14.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:digging_claws"
+			}
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"4DC88D7680E8FD32"
+			]
+			tasks: [
+				{
+					id: "393E4E1C3B7ACFEA"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:digging_claws"
+					}
+					count: 1L
+				}
+				{
+					id: "1612283D8D3246FD"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:feral_claws"
+					}
+					count: 1L
+				}
+				{
+					id: "66903A3328506EBF"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:pocket_piston"
+					}
+					count: 1L
+				}
+				{
+					id: "2EB96FEEDD24CAAB"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:onion_ring"
+					}
+					count: 1L
+				}
+				{
+					id: "2EB1989DA8EDF21F"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:pickaxe_heater"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7CDF1AE6E908DAAD"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "6E5E26E710FC57B1"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Engenhos de Mão"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Garras de toupeira gigante presas a uma luva, um pistão de redstone escondido na palma,"
+				"&7uma fornalha em miniatura amarrada ao pulso: os mineiros juram que as mãos certas valem mais"
+				"&7que qualquer picareta. E ninguém sabe por que o anel de cebola cheira a fritura."
+				""
+				"&6Objetivo:&r 1. &6Garras Escavadoras&r (Mãos): escava mais rápido e minera como ferro até de mãos vazias."
+				"&f2. &6Garras Ferozes&r (Mãos): mais velocidade de ataque."
+				"&f3. &6Pistão de Bolso&r (Mãos): golpes empurram mais longe."
+				"&f4. &6Anel de Cebola&r (Mãos): depois de comer, pressa de mineração por um tempo."
+				"&f5. &6Aquecedor de Picareta&r (Mãos): minérios minerados saem já fundidos."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
+			]
+			optional: true
+		}
+		{
+			id: "21648039ED2797F1"
+			x: 14.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:antidote_vessel"
+			}
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"4DC88D7680E8FD32"
+			]
+			tasks: [
+				{
+					id: "2253FFEE06096AC7"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:antidote_vessel"
+					}
+					count: 1L
+				}
+				{
+					id: "4CF804FFA7A0771A"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:universal_attractor"
+					}
+					count: 1L
+				}
+				{
+					id: "775859EB5EA1D480"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:helium_flamingo"
+					}
+					count: 1L
+				}
+				{
+					id: "37843E273420E977"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:night_vision_goggles"
+					}
+					count: 1L
+				}
+				{
+					id: "1CABD8B71AF0ABC9"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:charm_of_sinking"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1480B3A8852FF7B7"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0894ED0C5132B6D8"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "O Cinto do Explorador"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Pendurados no cinto do explorador veterano: um frasco que nunca esvazia, um ímã forte demais,"
+				"&7uma boia de festa cheia de gás mais leve que o ar, lentes de cristal verde"
+				"&7e um amuleto pesado como âncora, leve como promessa."
+				""
+				"&6Objetivo:&r 1. &6Frasco Antídoto&r (Cintura): efeitos negativos duram muito menos."
+				"&f2. &6Atrator Universal&r (Cintura): atrai itens próximos."
+				"&f3. &6Flamingo de Hélio&r (Cintura): no ar, uma tecla deixa \"nadar\" pelo céu por pouco tempo."
+				"&f4. &6Óculos Noturnos&r (Cabeça): enxerga no escuro."
+				"&f5. &6Amuleto do Afundamento&r (Pescoço): afunda e anda no fundo como em terra (não dá fôlego)."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
+			]
+			optional: true
+		}
+		{
+			id: "0DA297ED3244D66D"
+			x: 14.0d
+			y: 3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:charm_of_shrinking"
+			}
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"4DC88D7680E8FD32"
+			]
+			tasks: [
+				{
+					id: "784EAEC95539CC25"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:charm_of_shrinking"
+					}
+					count: 1L
+				}
+				{
+					id: "22006283E3AE0CA8"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:kitty_slippers"
+					}
+					count: 1L
+				}
+				{
+					id: "49527212843E34F6"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:umbrella"
+					}
+					count: 1L
+				}
+				{
+					id: "68B1A8AB8CB1B41B"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:whoopee_cushion"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "08CC4B19EEF05254"
+					type: "xp"
+					xp: 320
+				}
+				{
+					id: "23E54261680C8414"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Achados Estranhos"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Nem todo artefato foi feito por um sábio. Alguns parecem obra de gnomos, outros de bufões."
+				"&7Os creepers acreditam que as pantufas são gatos de verdade; ninguém conta a verdade a eles."
+				"&7E a almofada é a arma mais perigosa já forjada. Para a dignidade."
+				""
+				"&6Objetivo:&r 1. &6Amuleto do Encolhimento&r (Pescoço): encolhe e passa por vãos de um bloco; uma tecla liga e desliga."
+				"&f2. &6Pantufas de Gatinho&r (Pés): creepers e phantoms fogem de quem usa."
+				"&f3. &6Guarda-chuva&r (Na mão): segurado, desacelera quedas; usado, serve de escudo."
+				"&f4. &6Almofada de Pum&r (Na mão): aumenta drasticamente a flatulência. Só isso."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
+			]
+			optional: true
+		}
+		{
+			id: "0A085DDDBD3158BE"
+			x: 17.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			dependencies: [
+				"4DC88D7680E8FD32"
+			]
+			tasks: [
+				{
+					id: "49911C790E223D70"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III&7 - Talismãs e Amuletos"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "4C1B850B5F43DD2D"
+			x: 19.0d
+			y: -2.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:cross_necklace"
+			}
+			dependencies: [
+				"21648039ED2797F1"
+				"0A085DDDBD3158BE"
+			]
+			tasks: [
+				{
+					id: "103848BC6897B343"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:cross_necklace"
+					}
+					count: 1L
+				}
+				{
+					id: "08EB36105E8496A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:panic_necklace"
+					}
+					count: 1L
+				}
+				{
+					id: "535F8AC95D9DBA0D"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:shock_pendant"
+					}
+					count: 1L
+				}
+				{
+					id: "715A21DAEA8261AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:flame_pendant"
+					}
+					count: 1L
+				}
+				{
+					id: "78B32D7CFFE239CC"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:thorn_pendant"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2F24CF342C644EE5"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "0278E67DB1263E3D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Amuletos do Pescoço"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Os amuletos de guerra se penduram junto ao coração, onde a dor chega primeiro."
+				"&7Um foi abençoado num santuário esquecido, outro guarda o eco de mil tempestades,"
+				"&7outro é quente mesmo no inverno. Como o baiacu, eles não atacam: só punem quem toca."
+				""
+				"&6Objetivo:&r 1. &6Colar da Cruz&r (Pescoço): mais tempo de invulnerabilidade depois de sofrer dano."
+				"&f2. &6Colar do Pânico&r (Pescoço): velocidade logo depois de sofrer dano."
+				"&f3. &6Pingente do Choque&r (Pescoço): chance de fulminar o agressor com um raio; protege de raios."
+				"&f4. &6Pingente da Chama&r (Pescoço): chance de incendiar quem ataca e ganhar resistência ao fogo."
+				"&f5. &6Pingente de Espinhos&r (Pescoço): chance de ferir quem ataca."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
+			]
+			optional: true
+		}
+		{
+			id: "726964B8B998309E"
+			x: 19.0d
+			y: -0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:power_glove"
+			}
+			dependencies: [
+				"1B827454B2445C22"
+				"0A085DDDBD3158BE"
+			]
+			tasks: [
+				{
+					id: "42EA11B967BA950F"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:power_glove"
+					}
+					count: 1L
+				}
+				{
+					id: "0F180979EAA12548"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:fire_gauntlet"
+					}
+					count: 1L
+				}
+				{
+					id: "5B7A0FAF5BB21BB3"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:withered_bracelet"
+					}
+					count: 1L
+				}
+				{
+					id: "4D3697FF95230429"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:obsidian_skull"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "556BC4491B714365"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "0842A0BD67988B81"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Punho e Chama"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Couro reforçado com placas de ferro e muita raiva; uma manopla forjada no coração de um vulcão;"
+				"&7um bracelete de ossos do Nether, frio como a cova. Para os dias de fogo,"
+				"&7um crânio de obsidiana negro e liso que bebe o calor das chamas."
+				""
+				"&6Objetivo:&r 1. &6Luva de Força&r (Mãos): mais dano causado."
+				"&f2. &6Manopla de Fogo&r (Mãos): golpes corpo a corpo causam dano de fogo."
+				"&f3. &6Bracelete Murcho&r (Mãos): golpes têm chance de aplicar Wither."
+				"&f4. &6Crânio de Obsidiana&r (Cintura): após dano de fogo, resistência ao fogo temporária."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
+			]
+			optional: true
+		}
+		{
+			id: "777BF2A11EEA285C"
+			x: 19.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "artifacts:superstitious_hat"
+			}
+			dependencies: [
+				"21648039ED2797F1"
+				"0A085DDDBD3158BE"
+			]
+			tasks: [
+				{
+					id: "388B39400D62BF96"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:superstitious_hat"
+					}
+					count: 1L
+				}
+				{
+					id: "43BB5FDE65361460"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:lucky_scarf"
+					}
+					count: 1L
+				}
+				{
+					id: "131ED3E79FFACFF1"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:golden_hook"
+					}
+					count: 1L
+				}
+				{
+					id: "1EEF710FB2CC2D9D"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:scarf_of_invisibility"
+					}
+					count: 1L
+				}
+				{
+					id: "7E2E75288658A3A4"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:crystal_heart"
+					}
+					count: 1L
+				}
+				{
+					id: "56121F391C774E6F"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:cloud_in_a_bottle"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3CD230C59B6E8963"
+					type: "xp"
+					xp: 660
+				}
+				{
+					id: "2EA4CF6B58342A67"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Tesouros do Aventureiro"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Um chapéu que dá sorte, um cachecol tricotado por uma avó que nunca perdeu no carteado,"
+				"&7um gancho de pirata que fisga a alma junto com a vida, um tecido que esquece de refletir a luz,"
+				"&7um segundo coração batendo no cinto e uma nuvem presa numa garrafa."
+				""
+				"&6Objetivo:&r 1. &6Chapéu Supersticioso&r (Cabeça): +1 nível de Pilhagem."
+				"&f2. &6Cachecol da Sorte&r (Pescoço): +1 nível de Fortuna nos blocos minerados."
+				"&f3. &6Gancho Dourado&r (Mãos): criaturas derrotadas soltam mais experiência."
+				"&f4. &6Cachecol da Invisibilidade&r (Pescoço): torna quem o usa invisível."
+				"&f5. &6Coração de Cristal&r (Cintura): aumenta a vida máxima."
+				"&f6. &6Nuvem na Garrafa&r (Cintura): pulo duplo e queda segura mais alta."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
+			]
+			optional: true
+		}
+		{
+			id: "4FCAA957A3DC4AE1"
+			x: 19.0d
+			y: 2.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplybows:vine_bow/vine_bow"
+			}
+			dependencies: [
+				"6218E95B0266DF3F"
+				"0A085DDDBD3158BE"
+			]
+			tasks: [
+				{
+					id: "1C019FD7C72D7C5E"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:vine_bow/vine_bow"
+					}
+					count: 1L
+				}
+				{
+					id: "5C69A535108A6B7B"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:bubble_bow/bubble_bow"
+					}
+					count: 1L
+				}
+				{
+					id: "329EE9E387C3C258"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:bee_bow/bee_bow"
+					}
+					count: 1L
+				}
+				{
+					id: "4E960704836DB89C"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:blossom_bow/blossom_bow"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5BF0A2C449838365"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "389AA8CD7D328CF7"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Arcos da Natureza"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Quatro arcos únicos nasceram da natureza: um de cipó que floresce onde a flecha cai,"
+				"&7um de coral e espuma, um que solta um enxame irritado a cada disparo"
+				"&7e um de pétalas de cerejeira com a força de uma ventania. Os dois primeiros já surgem no Tier II."
+				""
+				"&6Objetivo:&r 1. &6Everbloom&r: flecha que cria um campo de flores: cura aliados e fere inimigos."
+				"&f2. &6Bubbleveil&r: flechas ignoram o arrasto da água e criam colunas de bolhas."
+				"&f3. &6Buzzkill&r: dispara abelhas que envenenam."
+				"&f4. &6Petalwind&r: flechas criam pequenas tempestades de pétalas."
+				""
+				"&8Arcos únicos surgem em baús de estruturas. Corda, armação e gravuras se aplicam a eles na bigorna."
+			]
+			optional: true
+		}
+		{
+			id: "00DD63009B07231A"
+			x: 22.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_4"
+			}
+			dependencies: [
+				"0A085DDDBD3158BE"
+			]
+			tasks: [
+				{
+					id: "1C310A361F7AEB6F"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_4"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&6Tier IV&7 - Relíquias que Despertam"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "032A29D953157D12"
+			x: 24.0d
+			y: -2.4d
+			icon: {
+				count: 1
+				id: "simplyswords:netherite_longsword"
+			}
+			dependencies: [
+				"1BDB4D8B64DD1618"
+				"00DD63009B07231A"
+			]
+			tasks: [
+				{
+					id: "27E2BCB87D5324F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:netherite_longsword"
+					}
+					count: 1L
+				}
+				{
+					id: "6F4893867FDBF70F"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:netherite_backpack"
+					}
+					count: 1L
+				}
+				{
+					id: "3D63F65E9121A270"
+					type: "item"
+					item: {
+						count: 1
+						id: "quark:flamerang"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "583F83DEDCEB869A"
+					type: "xp"
+					xp: 420
+				}
+			]
+			title: "Netherite das Máquinas"
+			description: [
+				"&7O metal dos condenados, temperado no fogo que nunca apaga."
+				"&7Em Heartforge ele não sai da terra: sai das engrenagens, e cada lingote"
+				"&7vira gume, mochila ou bumerangue que nem a lava segura."
+				""
+				"&6Objetivo:&r 1. Melhore uma arma de diamante na Mesa de Ferraria com molde e lingote: &6Espada Longa de Netherite&r."
+				"&f2. Melhore a mochila para a &6Mochila de Netherite&r, a maior de todas."
+				"&f3. Forje um &6Flamarangue&r: o picarangue do Nether, imune ao fogo."
+				""
+				"&8No Heartforge, o netherite só sai das máquinas."
+			]
+		}
+		{
+			id: "11181940DD2C74CF"
+			x: 24.0d
+			y: -0.8d
+			icon: {
+				count: 1
+				id: "artifacts:vampiric_glove"
+			}
+			dependencies: [
+				"777BF2A11EEA285C"
+				"00DD63009B07231A"
+			]
+			tasks: [
+				{
+					id: "71F97D4851725FC0"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:vampiric_glove"
+					}
+					count: 1L
+				}
+				{
+					id: "2E635904FC2318F7"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:chorus_totem"
+					}
+					count: 1L
+				}
+				{
+					id: "7B45FAFEFFF30836"
+					type: "item"
+					item: {
+						count: 1
+						id: "artifacts:warp_drive"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0B8F21E2E27E5A6C"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "7F4CAF79E9E47409"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Relíquias Proibidas"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Há artefatos que os cronistas preferem não descrever."
+				"&7Uma luva que pertenceu a um conde (ninguém quer saber como saiu da mão dele),"
+				"&7uma flor do Fim que leva você para longe quando a morte chega, e uma engenhoca"
+				"&7que dobra o espaço sem pedir licença à pérola."
+				""
+				"&6Objetivo:&r 1. &6Luva Vampírica&r (Mãos): golpes corpo a corpo roubam vida."
+				"&f2. &6Totem do Coro&r (Cintura): um golpe fatal teletransporta para longe em vez de matar (com recarga)."
+				"&f3. &6Motor de Dobra&r (Cintura): pérolas do Fim lançadas não se gastam nem ferem."
+				""
+				"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
+			]
+			optional: true
+		}
+		{
+			id: "6AE7FAD50FA4E1C3"
+			x: 24.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:decaying_relic"
+			}
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"00DD63009B07231A"
+			]
+			tasks: [
+				{
+					id: "6D1FD730028CDBD4"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:decaying_relic"
+					}
+					count: 1L
+				}
+				{
+					id: "5FB9979DB4A47924"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:magiblade"
+					}
+					count: 1L
+				}
+				{
+					id: "6F8E6A944905F61F"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:magiscythe"
+					}
+					count: 1L
+				}
+				{
+					id: "5D4B6D62A35F1E47"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:magispear"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "08BE835D1931B517"
+					type: "xp"
+					xp: 560
+				}
+				{
+					id: "709F84A5814BC1DC"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "A Relíquia que Apodrece"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Uma lâmina antiga que apodrece e, ainda assim, pulsa."
+				"&7Carregada pelas profundezas mais escuras do mundo, ela desperta numa tecnologia esquecida,"
+				"&7e cada relíquia escolhe uma forma: a lâmina que ouve, a foice que conserta, a lança que cai do céu."
+				""
+				"&6Objetivo:&r 1. &6Relíquia Decadente&r: achada em baús; desperta carregada pelas profundezas mais escuras."
+				"&f2. &6Magiblade&r: &bMagisônico&r: repele inimigos que chegam perto."
+				"&f3. &6Magiscythe&r: &bMagistorm&r: golpes na tempestade podem reparar o equipamento."
+				"&f4. &6Magispear&r: &bMagislam&r: cai do céu como um martelo."
+				""
+				"&8Cada Relíquia Decadente desperta numa só das três formas: junte várias para ter todas."
+			]
+			optional: true
+		}
+		{
+			id: "03F6464A8E9D7C2B"
+			x: 24.0d
+			y: 2.4d
+			icon: {
+				count: 1
+				id: "simplyswords:dormant_relic"
+			}
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"00DD63009B07231A"
+			]
+			tasks: [
+				{
+					id: "3891C7C933371AE7"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:dormant_relic"
+					}
+					count: 1L
+				}
+				{
+					id: "52AC7DCD7F6EB68C"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:righteous_relic"
+					}
+					count: 1L
+				}
+				{
+					id: "05B7AEE53DAAD918"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:tainted_relic"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6F946FC933B94319"
+					type: "xp"
+					xp: 420
+				}
+				{
+					id: "1D903A1807F660CD"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Luz ou Abismo"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Uma relíquia adormecida, de onde emana um poder fraco."
+				"&7Na Forja Rúnica ela acorda e escolhe um lado, para sempre: a luz ou o abismo."
+				"&7Os cronistas dizem que a escolha diz mais sobre quem a carrega do que sobre a lâmina."
+				""
+				"&6Objetivo:&r 1. &6Relíquia Dormente&r: achada em baús; desperta na Forja Rúnica."
+				"&f2. &6Relíquia Justa&r: a Relíquia Dormente desperta pelo caminho da luz."
+				"&f3. &6Relíquia Maculada&r: a Relíquia Dormente desperta pelo caminho da sombra."
+				""
+				"&8Cada Relíquia Dormente escolhe um só caminho: são precisas duas para ter a Justa e a Maculada."
+			]
+			optional: true
+		}
+		{
+			id: "09594472B04DC004"
+			x: 27.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_5"
+			}
+			dependencies: [
+				"00DD63009B07231A"
+			]
+			tasks: [
+				{
+					id: "612910152E40F45C"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_5"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&cTier V&7 - Lâminas com Nome"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "47DF1E33E23DC3D7"
+			x: 29.0d
+			y: -4.0d
+			icon: {
+				count: 1
+				id: "simplyswords:runefused_gem"
+			}
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"032A29D953157D12"
+				"09594472B04DC004"
+			]
+			tasks: [
+				{
+					id: "451E454266429DAC"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:empowered_remnant"
+					}
+					count: 1L
+				}
+				{
+					id: "02614C7C39FB2C18"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:runefused_gem"
+					}
+					count: 1L
+				}
+				{
+					id: "6954BDE1648003C8"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:netherfused_gem"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0DECCAFC51AA1F51"
+					type: "xp"
+					xp: 510
+				}
+			]
+			title: "A Alma das Lâminas"
+			description: [
+				"&7Derreta uma lenda e sobra a alma dela, brilhando no fundo da fornalha."
+				"&7Os ourives de runas aprenderam a ensinar esse remanescente a virar pedra preciosa:"
+				"&7com obsidiana chorona, a gema ganha runas; com netherite, guarda o calor e a fúria do submundo."
+				""
+				"&6Objetivo:&r 1. Funda uma arma única (ou uma gema) numa fornalha: &6Remanescente Fortalecido&r."
+				"&f2. Mesa de Ferraria: Tábua Rúnica + Remanescente + &6Obsidiana Chorona&r = &6Gema Runefundida&r."
+				"&f3. Mesa de Ferraria: Tábua Rúnica + Remanescente + &6Lingote de Netherite&r = &6Gema Netherfundida&r."
+				"&fEncaixe as gemas nos soquetes rúnico e do Nether de uma arma única para ganhar poderes extras."
+			]
+		}
+		{
+			id: "0C65A658C0D76FB3"
+			x: 29.0d
+			y: -2.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:brimstone_claymore"
+			}
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"09594472B04DC004"
+			]
+			tasks: [
+				{
+					id: "53BFC1E17161CF87"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:brimstone_claymore"
+					}
+					count: 1L
+				}
+				{
+					id: "726BB451077B06D4"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:emberblade"
+					}
+					count: 1L
+				}
+				{
+					id: "5F8FA504AE9AFDB8"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:emberlash"
+					}
+					count: 1L
+				}
+				{
+					id: "0605AFFAC3E40882"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:flamewind"
+					}
+					count: 1L
+				}
+				{
+					id: "61B39CD7EEF25E3D"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:hearthflame"
+					}
+					count: 1L
+				}
+				{
+					id: "723C01099F2DFBFE"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:molten_edge"
+					}
+					count: 1L
+				}
+				{
+					id: "4BD312FA93B4381E"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:waxweaver"
+					}
+					count: 1L
+				}
+				{
+					id: "621BFB98272345B3"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:wickpiercer"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "181DFF68CAD041CB"
+					type: "xp"
+					xp: 1360
+				}
+				{
+					id: "1D4DFF317C4AA736"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+			]
+			title: "Lâminas de Brasa"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Oito lâminas nasceram do fogo, e nenhuma delas esfriou desde então."
+				"&7Uma foi forjada na lareira mais antiga do reino, outra é uma montante de enxofre,"
+				"&7outra um chicote de brasas, outra cera e chama tecidas juntas. Perigo de incêndio."
+				""
+				"&6Objetivo:&r 1. &6Brimstone Claymore&r: &bEnxofre&r: explosões de fogo."
+				"&f2. &6Emberblade&r: &bIra das Brasas&r."
+				"&f3. &6Emberlash&r: &bBrasa Latente&r: um chicote de brasas."
+				"&f4. &6Flamewind&r: &bTempestade de Brasas&r."
+				"&f5. &6Hearthflame&r: &bCorrentes da Fornalha&r: marca e prende inimigos em chamas."
+				"&f6. &6Molten Edge&r: &bCoração de Fornalha&r."
+				"&f7. &6Waxweaver&r: &bTrama de Cera&r."
+				"&f8. &6Wickpiercer&r: &bFúria Tremulante&r: um pavio afiado como agulha."
+				""
+				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
+				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			]
+			optional: true
+		}
+		{
+			id: "064B52FD6BC1CAAA"
+			x: 29.0d
+			y: -0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:frostfall"
+			}
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"09594472B04DC004"
+			]
+			tasks: [
+				{
+					id: "2275372876CC4831"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:frostfall"
+					}
+					count: 1L
+				}
+				{
+					id: "23C6E7FF32CA7499"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:icewhisper"
+					}
+					count: 1L
+				}
+				{
+					id: "7F499CE4E8413104"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:stormscale"
+					}
+					count: 1L
+				}
+				{
+					id: "639D74B9FA4269A8"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:whisperwind"
+					}
+					count: 1L
+				}
+				{
+					id: "72F69E6E89B78FE9"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:dawnquiver"
+					}
+					count: 1L
+				}
+				{
+					id: "620E27C4FAC680EF"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:arcanethyst"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5D5C0F5FC331AFB1"
+					type: "xp"
+					xp: 1020
+				}
+				{
+					id: "07F661BE98600F46"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+			]
+			title: "Gelo, Vento e Arcano"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Algumas lâminas não queimam: congelam, sussurram ou cintilam."
+				"&7O inverno cai junto com o golpe de uma, o vento grita de volta pela outra,"
+				"&7e uma escama de tempestade cravada no chão vira para-raios."
+				""
+				"&6Objetivo:&r 1. &6Frostfall&r: &bFúria Gélida&r: o inverno cai junto com o golpe."
+				"&f2. &6Icewhisper&r: &bPermafrost&r: sussurra o frio eterno."
+				"&f3. &6Stormscale&r: &bPara-raios&r: fincada no chão, os golpes ferem em área ao redor dela."
+				"&f4. &6Whisperwind&r: &bLampejo Fatal&r."
+				"&f5. &6Dawnquiver&r: &bDisparo do Serafim&r: a aurora em forma de lâmina."
+				"&f6. &6Arcanethyst&r: &bAssalto Arcano&r: ametista viva, afiada pelo arcano."
+				""
+				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
+				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			]
+			optional: true
+		}
+		{
+			id: "063F3B90121A120A"
+			x: 29.0d
+			y: 0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:dreadwhisper"
+			}
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"09594472B04DC004"
+			]
+			tasks: [
+				{
+					id: "0DB6550472ED6C7F"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:dreadwhisper"
+					}
+					count: 1L
+				}
+				{
+					id: "12D0FC2A51118958"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:gloampiercer"
+					}
+					count: 1L
+				}
+				{
+					id: "318691566B36B4BB"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:shadowsting"
+					}
+					count: 1L
+				}
+				{
+					id: "334F8396F40CEF90"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:soulstalker"
+					}
+					count: 1L
+				}
+				{
+					id: "48FAE641F9DD8C49"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:wraithfang"
+					}
+					count: 1L
+				}
+				{
+					id: "79B788B848B9E52A"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:wraithmaw"
+					}
+					count: 1L
+				}
+				{
+					id: "41DD040929A9BC5D"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:slumbering_lichblade"
+					}
+					count: 1L
+				}
+				{
+					id: "4F461CAE8EA920ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:waking_lichblade"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "465C6F6C367041F5"
+					type: "xp"
+					xp: 1360
+				}
+				{
+					id: "1465A4C69AF00797"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+			]
+			title: "Lâminas das Sombras"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Aquilo que caminha atrás de você agora caminha com você."
+				"&7Lâminas que atacam das sombras e somem nelas, presas de espectros ainda famintos,"
+				"&7e a espada do lich, que dorme, mas cujos mortos não dormem."
+				""
+				"&6Objetivo:&r 1. &6Dreadwhisper&r: &bRasgo Sombrio&r."
+				"&f2. &6Gloampiercer&r: &bFalange Fantasma&r: apaga a vela e acende fantasmas."
+				"&f3. &6Shadowsting&r: &bDança das Sombras&r: ataca das sombras e some nelas."
+				"&f4. &6Soulstalker&r: &bPasso Estígio&r: tentáculos abissais perfuram os próximos."
+				"&f5. &6Wraithfang&r: &bSalto Espectral&r: arremesse-a e salte até ela, imune por um instante."
+				"&f6. &6Wraithmaw&r: a fome de um espectro que não acaba nem depois da morte."
+				"&f7. &6Lichblade Adormecida&r: &bAngústia das Almas I&r: almas torturadas ferem quem está perto."
+				"&f8. &6Lichblade Despertando&r: fortalecida na Forja Rúnica: &bAngústia das Almas II&r."
+				""
+				"&8A Lichblade evolui na Forja Rúnica: Adormecida, Despertando e, no Tier VI, Desperta."
+			]
+			optional: true
+		}
+		{
+			id: "6FA10C5113EC205D"
+			x: 29.0d
+			y: 2.4d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:bramblethorn"
+			}
+			dependencies: [
+				"179B2B5E994ACC7B"
+				"09594472B04DC004"
+			]
+			tasks: [
+				{
+					id: "153499AA360B8D32"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:bramblethorn"
+					}
+					count: 1L
+				}
+				{
+					id: "09D1AC7CB4FC455D"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:chompolotl"
+					}
+					count: 1L
+				}
+				{
+					id: "332CC96FC6FD9884"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:hiveheart"
+					}
+					count: 1L
+				}
+				{
+					id: "7705F07303B4160C"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:bloodwake"
+					}
+					count: 1L
+				}
+				{
+					id: "528701BC151FD0BA"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:ribboncleaver"
+					}
+					count: 1L
+				}
+				{
+					id: "76846DD352F5ADA8"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:twisted_blade"
+					}
+					count: 1L
+				}
+				{
+					id: "4199425270503414"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:toxic_longsword"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "49695712771D3D2C"
+					type: "xp"
+					xp: 1190
+				}
+				{
+					id: "4DF92089A7733DFD"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+			]
+			title: "Lâminas Selvagens"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Nem toda lenda nasce de reis. Algumas nascem de bichos, de pragas e de raiva."
+				"&7Espinhos que prendem a presa, uma arma com dentes de axolote, uma lâmina que zumbe,"
+				"&7uma espada da peste que é melhor não tocar e uma lâmina retorcida que acelera a cada golpe."
+				""
+				"&6Objetivo:&r 1. &6Bramblethorn&r: &bGarra da Selva&r: espinhos que prendem a presa ao chão."
+				"&f2. &6Chomp'olotl&r: uma arma com dentes, e com fome de axolote."
+				"&f3. &6Hiveheart&r: &bMente de Colmeia&r: uma lâmina que zumbe."
+				"&f4. &6Bloodwake&r: deixa um rastro vermelho por onde passa, na água ou na terra."
+				"&f5. &6Ribboncleaver&r: &bFúria em Fitas&r: pede bíceps para erguer."
+				"&f6. &6Twisted Blade&r: &bFerocidade&r: acumula velocidade de ataque."
+				"&f7. &6Longsword of the Plague&r: &bDobre Fúnebre&r: a espada da peste."
+				""
+				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
+				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			]
+			optional: true
+		}
+		{
+			id: "4C69E6B6B3B0DEFB"
+			x: 29.0d
+			y: 4.0d
+			icon: {
+				count: 1
+				id: "simplybows:ice_bow/ice_bow"
+			}
+			dependencies: [
+				"4FCAA957A3DC4AE1"
+				"09594472B04DC004"
+			]
+			tasks: [
+				{
+					id: "094AAAFC1AB3CE78"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:ice_bow/ice_bow"
+					}
+					count: 1L
+				}
+				{
+					id: "638DEF5AA86C0505"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:earth_bow/earth_bow"
+					}
+					count: 1L
+				}
+				{
+					id: "4F6D8494D642FA43"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplybows:echo_bow/echo_bow"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2972F4444281BB4F"
+					type: "xp"
+					xp: 510
+				}
+				{
+					id: "7C2C6EBCA7FF4EB5"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Arcos da Fúria"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Os três arcos mais temidos: a presa do inverno, que nunca erra o caminho;"
+				"&7o arco que faz o chão tremer onde a flecha toca; e o Eco, que chama dois arcos fantasmas"
+				"&7para atirar ao seu lado. Os dois primeiros já surgem no Tier IV."
+				""
+				"&6Objetivo:&r 1. &6Winterfang&r: leque de flechas de gelo teleguiadas."
+				"&f2. &6Tremorstrike&r: flechas provocam tremores de terra."
+				"&f3. &6Echo&r: dois arcos fantasmas atiram nos alvos próximos e imitam seus disparos."
+				""
+				"&8Arcos únicos surgem em baús de estruturas. Corda, armação e gravuras se aplicam a eles na bigorna."
+			]
+			optional: true
+		}
+		{
+			id: "38D1F1F8A1597EB3"
+			x: 32.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_6"
+			}
+			dependencies: [
+				"09594472B04DC004"
+			]
+			tasks: [
+				{
+					id: "021AB42F6D634578"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_6"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&5Tier VI&7 - Lendas Forjadas"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "673E3FD7AF190BB3"
+			x: 34.0d
+			y: -3.2d
+			icon: {
+				count: 1
+				id: "simplyswords:runic_longsword"
+			}
+			dependencies: [
+				"47DF1E33E23DC3D7"
+				"38D1F1F8A1597EB3"
+			]
+			tasks: [
+				{
+					id: "5246756419437626"
+					type: "advancement"
+					advancement: "simplyswords:runic_weapon"
+					criterion: ""
+				}
+				{
+					id: "07927B4AF2AB9DC4"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:contained_remnant"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "14E5C1FB6F7BE93B"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "Runas no Aço"
+			description: [
+				"&7Uma runa gravada no aço muda a arma para sempre. Qual runa? Isso, só o aço decide."
+				"&7Os ourives que chegam a esse ponto guardam ainda um frasco com a energia de três lendas,"
+				"&7preso em vidro e ferro, que reage a coisas que ninguém mais percebe."
+				""
+				"&6Objetivo:&r 1. Mesa de Ferraria: arma de netherite + Tábua Rúnica + diamante = &6Arma Rúnica&r com um poder aleatório"
+				"&f   (flutuar, velocidade, lentidão, congelar, fogo selvagem e outros)."
+				"&f2. Monte um &6Remanescente Contido&r (três remanescentes fortalecidos, ferro e vidro) e carregue-o."
+				""
+				"&8Não gostou do poder? Repita com outra tábua e outro diamante sobre a arma rúnica para sortear de novo."
+			]
+		}
+		{
+			id: "100DA18237FF13B5"
+			x: 34.0d
+			y: -1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:awakened_lichblade"
+			}
+			dependencies: [
+				"063F3B90121A120A"
+				"03F6464A8E9D7C2B"
+				"38D1F1F8A1597EB3"
+			]
+			tasks: [
+				{
+					id: "28415204A7DE1D2E"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:awakened_lichblade"
+					}
+					count: 1L
+				}
+				{
+					id: "2C9FABE40108CF2F"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:sunfire"
+					}
+					count: 1L
+				}
+				{
+					id: "65F782598E413E3D"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:harbinger"
+					}
+					count: 1L
+				}
+				{
+					id: "049E7252B5110D02"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:ionbound_stormscale"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3DF37C805855561A"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "463B5F163A7F3B55"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Lâminas Despertas"
+			subtitle: "&8Opcional"
+			description: [
+				"&7As lâminas que dormiam no Tier V agora acordam por completo."
+				"&7O lich comanda os mortos, a relíquia da luz vira estandarte que arde, a do abismo vira arauto,"
+				"&7e a escama de tempestade aprende a prender raios em cubos."
+				""
+				"&6Objetivo:&r 1. &6Lichblade Desperta&r: &bAngústia das Almas III&r: almas atacam alvos distantes e devolvem absorção."
+				"&f2. &6Sunfire&r: forjada da Relíquia Justa; &bEstandarte Justo&r queima inimigos e fortalece aliados."
+				"&f3. &6Harbinger&r: forjada da Relíquia Maculada; &bEstandarte Abissal&r puxa e fere inimigos, apressa aliados."
+				"&f4. &6Ionbound Stormscale&r: evolução da Stormscale; &bContenção Iônica&r gera até três Cubos Iônicos."
+				""
+				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
+				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			]
+			optional: true
+		}
+		{
+			id: "750D931BA047AFA8"
+			x: 34.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:soulkeeper"
+			}
+			dependencies: [
+				"063F3B90121A120A"
+				"38D1F1F8A1597EB3"
+			]
+			tasks: [
+				{
+					id: "68797C00E483434D"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:soulkeeper"
+					}
+					count: 1L
+				}
+				{
+					id: "1FCB7F54F771BB6E"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:soulpyre"
+					}
+					count: 1L
+				}
+				{
+					id: "0E2B7EB98FC405E2"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:soulrender"
+					}
+					count: 1L
+				}
+				{
+					id: "6E62AB0BB436F689"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:soulstealer"
+					}
+					count: 1L
+				}
+				{
+					id: "51A17EE653574C96"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:the_devourer"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7F5B7C27020B7A52"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "54AB64EE5C0CBE61"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+			]
+			title: "Senhores das Almas"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Cinco lâminas que negociam com almas, e nenhuma delas paga o preço justo."
+				"&7Uma guarda, outra queima, outra rasga, outra rouba; a última simplesmente devora,"
+				"&7até o golpe que a atinge."
+				""
+				"&6Objetivo:&r 1. &6Soulkeeper&r: &bFusão de Almas&r: duas lanternas de alma orbitam e ferem."
+				"&f2. &6Soul Pyre&r: &bElo das Almas&r: a paisagem vira Nether ao redor."
+				"&f3. &6Soulrender&r: &bDilacerar Almas&r."
+				"&f4. &6Soulstealer&r: &bRoubo de Almas&r: cada golpe cobra uma dívida."
+				"&f5. &6The Devourer&r: &bMassa Devoradora&r: aparar um golpe abre uma boca abissal sob o atacante."
+				""
+				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
+				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			]
+			optional: true
+		}
+		{
+			id: "4E29D5DE1DC18C2C"
+			x: 34.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:mjolnir"
+			}
+			dependencies: [
+				"064B52FD6BC1CAAA"
+				"38D1F1F8A1597EB3"
+			]
+			tasks: [
+				{
+					id: "16F0210226A14D46"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:mjolnir"
+					}
+					count: 1L
+				}
+				{
+					id: "4671462D03E7C090"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:stormbringer"
+					}
+					count: 1L
+				}
+				{
+					id: "76C7D8B0D85E6869"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:storms_edge"
+					}
+					count: 1L
+				}
+				{
+					id: "6B99D5D5E4663E87"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:tempest"
+					}
+					count: 1L
+				}
+				{
+					id: "0D3BB7459AF36FBD"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:thunderbrand"
+					}
+					count: 1L
+				}
+				{
+					id: "12FF2915AECD6B58"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:enigma"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4D3AAA9215E12F8A"
+					type: "xp"
+					xp: 1200
+				}
+				{
+					id: "61E690CCF977F647"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+			]
+			title: "Filhos do Trovão"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Quando o céu escurece sobre um campo de batalha, os veteranos procuram quem empunha o martelo."
+				"&7Ele volta, certo? Certo? Com ele marcham a portadora de tempestades, o gume que faz o raio"
+				"&7cair duas vezes, o redemoinho e o enigma que manda no tempo."
+				""
+				"&6Objetivo:&r 1. &6Mjolnir&r: &bTempestade&r: os golpes deixam os inimigos condutores."
+				"&f2. &6Stormbringer&r: &bDeflexão de Choque&r: gasta cargas de tempestade em raios em cadeia."
+				"&f3. &6Storm's Edge&r: &bQuebra-tormenta&r: golpes podem renovar a recarga da habilidade."
+				"&f4. &6Tempest&r: &bVórtice&r: o redemoinho vem junto."
+				"&f5. &6Thunderbrand&r: &bBlitz Trovejante&r."
+				"&f6. &6Enigma&r: &bForça do Vendaval&r: um tornado persegue os inimigos."
+				""
+				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
+				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			]
+			optional: true
+		}
+		{
+			id: "3B44B100B6A00389"
+			x: 34.0d
+			y: 3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "simplyswords:caelestis"
+			}
+			dependencies: [
+				"064B52FD6BC1CAAA"
+				"38D1F1F8A1597EB3"
+			]
+			tasks: [
+				{
+					id: "2EB4D861DCA4824E"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:caelestis"
+					}
+					count: 1L
+				}
+				{
+					id: "3824B3731312A756"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:stars_edge"
+					}
+					count: 1L
+				}
+				{
+					id: "7686B358B0A79BDA"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:livyatan"
+					}
+					count: 1L
+				}
+				{
+					id: "70E91D7BB7211557"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:riftmane"
+					}
+					count: 1L
+				}
+				{
+					id: "72B2DDF6B30337EB"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:watcher_claymore"
+					}
+					count: 1L
+				}
+				{
+					id: "301B64BACFE4DFBA"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:watching_warglaive"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "02537F087C406D48"
+					type: "xp"
+					xp: 1200
+				}
+				{
+					id: "2EFC58327CB1B4BA"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+			]
+			title: "Vigias e Abismos"
+			subtitle: "&8Opcional"
+			description: [
+				"&7As últimas lendas vêm de longe: de outro reino aberto a golpes, de um fragmento de estrela,"
+				"&7do leviatã que caminha sobre gelo fino, da fenda que exige que se segure a linha,"
+				"&7e do Vigia, sempre observando, com sua irmã de olhos que piscam."
+				""
+				"&6Objetivo:&r 1. &6Caelestis&r: &bBrecha Astral&r: invoca criaturas corrompidas que lutam ao seu lado."
+				"&f2. &6Star's Edge&r: &bReprise Astral&r: fúria cósmica num fragmento de estrela."
+				"&f3. &6Livyatan&r: &bEsteira do Leviatã&r: caminha sobre gelo que nunca quebra."
+				"&f4. &6Riftmane&r: &bVanguarda&r: segure a linha."
+				"&f5. &6The Watcher&r: &bCaçada Implacável&r: sempre observando."
+				"&f6. &6Watching Warglaive&r: a irmã do Vigia; olhos na lâmina que piscam."
+				""
+				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
+				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			]
+			optional: true
+		}
+		{
+			id: "79EAF877BEBE5A57"
+			x: 37.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_7"
+			}
+			dependencies: [
+				"38D1F1F8A1597EB3"
+			]
+			tasks: [
+				{
+					id: "17C9984D6A3CF212"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_7"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&dTier VII&7 - O Remanescente Adulterado"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "2C09B0160765FBA6"
+			x: 39.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "simplyswords:tampered_remnant"
+			}
+			dependencies: [
+				"673E3FD7AF190BB3"
+				"79EAF877BEBE5A57"
+			]
+			tasks: [
+				{
+					id: "79EA507D05B7565F"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:tampered_remnant"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7B293A22FDC24A2D"
+					type: "xp"
+					xp: 230
+				}
+				{
+					id: "2F70096D89BB96EB"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+			]
+			title: "O Remanescente Adulterado"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Alguém, ou algo, mexeu no que estava contido."
+				"&7Os poucos que levaram o frasco de remanescentes para além do portal do Fim contam"
+				"&7que ele mudou de forma no caminho, e que desde então ninguém dorme direito perto dele."
+				""
+				"&6Objetivo:&r 1. Leve o &6Remanescente Contido&r e uma &6Tábua Rúnica&r ao &5Fim&r."
+				"&f2. Explore até que o remanescente mude de forma: &6Remanescente Adulterado&r."
+			]
+			optional: true
+		}
+	]
+	title: "Missões"
+	subtitle: [
+		"&fEquipamento e Utilidades&7: do Tier I em diante"
+	]
+}

@@ -1,0 +1,54 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_irons"
+	group: "5955ECC104DC966A"
+	icon: {
+		count: 1
+		id: "irons_spellbooks:gold_spell_book"
+	}
+	id: "4982BCB311531071"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			id: "69274264D0DB6B61"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:gold_spell_book"
+			}
+			tasks: [
+				{
+					id: "4633B89A71235DF2"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0EE763AF88501690"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Grimório do Mundo"
+			description: [
+				"&7Antes das caldeiras e das engrenagens, o mundo já era escrito em tinta arcana."
+				"&7Nove escolas de magia dormem em pergaminhos esquecidos, e cada uma pede um preço."
+				"&7Neste reino, porém, o próprio céu vigia os aprendizes: magias &acomuns&7 no Tier I,"
+				"&7&bincomuns&7 no II, &9raras&7 no III, &5épicas&7 no V e &6lendárias&7 no VI."
+				"&7Quem tenta lançar acima do que o grupo conquistou sente a palavra morrer na garganta."
+				""
+				"&7Cada degrau da escada tem sua tinta, e os forjadores do Coração do Tier pedem todas elas."
+				"&7Comece colhendo &6Essência Arcana&7 em baús de ruínas e nos restos de magos."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Tinta, pergaminho e vontade"
+	]
+}

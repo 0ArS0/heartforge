@@ -1,0 +1,1212 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_aquamirae_missoes"
+	group: "25796BB343F30024"
+	icon: {
+		count: 1
+		id: "aquamirae:shell_horn"
+	}
+	id: "61E19F0C2B203F11"
+	order_index: 28
+	quest_links: [ ]
+	quests: [
+		{
+			id: "58A4B05A7B807A68"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:shell_horn"
+			}
+			dependencies: [
+				"16D6ABF55B90DB5F"
+			]
+			tasks: [
+				{
+					id: "68F97DC6C83DFB66"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+			title: "&fO Começo"
+			description: [
+				"&7As primeiras trilhas. A introdução fica na página ao lado."
+			]
+		}
+		{
+			id: "3CB9F9FBB8551617"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "minecraft:packed_ice"
+			}
+			dependencies: [
+				"58A4B05A7B807A68"
+			]
+			tasks: [
+				{
+					id: "69732114CEB4DD76"
+					type: "advancement"
+					advancement: "aquamirae:adventure/find_ice_maze"
+					criterion: ""
+				}
+				{
+					id: "786B8A06A9AA1947"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:wisteria_niveis"
+					}
+					count: 4L
+				}
+				{
+					id: "3852D89ED3D5F9CF"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:oxyhelium"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "291080A2E0323E83"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "O Cemitério de Navios"
+			description: [
+				"&7Paredes de gelo mais altas que mastros, corredores de água negra e o silêncio de mil naufrágios."
+				"&7Até ali alguma vida teima em florescer: a flor da neve sobre o gelo,"
+				"&7e no fundo o oxyhelium, uma planta que guarda ar nas bolhas e luz nos talos."
+				""
+				"&6Objetivo:&r 1. Entre no &bLabirinto de Gelo&r, que cobre o bioma &6Deep Frozen Ocean&r."
+				"&f2. Colha &64 Wisteria Niveis&r, a flor que cresce sobre o gelo."
+				"&f3. Colha &64 Oxyhelium&r no fundo das águas: rende gravetos e entra em lâmpadas e bolhas."
+				""
+				"&8A água ali congela quem fica tempo demais nela. Leve comida quente e saia para respirar."
+			]
+		}
+		{
+			id: "73CA4D8DB6AB5132"
+			x: 5.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			tasks: [
+				{
+					id: "669C172605CB47B9"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_1"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&7Tier I&7 - O Labirinto de Gelo"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "6A771620FC437DDE"
+			x: 7.0d
+			y: -3.2d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:esca"
+			}
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			tasks: [
+				{
+					id: "6897CD631652B1D5"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:esca"
+					}
+					count: 1L
+				}
+				{
+					id: "5223B6B14DC9F459"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:fin"
+					}
+					count: 2L
+				}
+				{
+					id: "2660D53D8C8B117D"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:angler_fang"
+					}
+					count: 1L
+				}
+				{
+					id: "65C1F05B9215E9A2"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:luminescent_lamp"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "13D69CF9CBA5641E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "A Luz no Fundo"
+			description: [
+				"&7Uma luzinha balança na escuridão. Atrás dela, uma boca maior que um barco a remo."
+				"&7A isca do peixe-diabo brilha mesmo depois de morta, e os piratas faziam lanternas com ela."
+				"&7Barbatana e presa viram, mais tarde, as armas Terríveis."
+				""
+				"&6Objetivo:&r 1. Mate um &6peixe-diabo&r (Anglerfish) e recolha a &6Isca Luminosa&r (Esca)."
+				"&f2. Junte &62 Barbatanas&r e uma &6Presa de Peixe-diabo&r."
+				"&f3. Faça uma &6Lâmpada Luminescente&r (isca, oxyhelium e gravetos)."
+				""
+				"&8As Bolhas Luminescentes, feitas com os mesmos itens, aceleram quem nada perto delas."
+			]
+		}
+		{
+			id: "60032A1D1D667DED"
+			x: 7.0d
+			y: -1.6d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:sharp_bones"
+			}
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			tasks: [
+				{
+					id: "5118B35B51C6DECD"
+					type: "kill"
+					entity: "aquamirae:maw"
+					value: 1L
+				}
+				{
+					id: "4C653B318A1C865A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:sharp_bones"
+					}
+					count: 2L
+				}
+				{
+					id: "4DEAEF48C877701B"
+					type: "kill"
+					entity: "aquamirae:tortured_soul"
+					value: 1L
+				}
+				{
+					id: "095EC5953DD69031"
+					type: "kill"
+					entity: "aquamirae:golden_moth"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "04B20712685C1FFF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "A Tripulação Morta"
+			description: [
+				"&7Nem todos os marinheiros morreram de vez. Alguns ainda vagam pelos conveses, gemendo."
+				"&7A Bocarra é só boca: engoliu um aspirante inteiro, besta e tudo."
+				"&7E alguns tesouros têm alma própria: voam como mariposas e soltam ouro quando morrem."
+				""
+				"&6Objetivo:&r 1. Mate uma &6Bocarra&r (Maw) e recolha &62 Ossos Afiados&r."
+				"&f2. Mate uma &6Alma Torturada&r nos navios do labirinto."
+				"&f3. Abata uma &6Mariposa Dourada&r: elas saem das bolsas de tesouro e deixam ouro."
+				""
+				"&8Às vezes a Bocarra solta lembranças de antigos aventureiros: peças de armadura encantadas."
+			]
+		}
+		{
+			id: "306355B7B248426B"
+			x: 7.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:sea_stew"
+			}
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			tasks: [
+				{
+					id: "513D8EC762A52E97"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:cooked_spinefish"
+					}
+					count: 4L
+				}
+				{
+					id: "2A1F2FA368FFD338"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:jellyfish_jelly"
+					}
+					count: 4L
+				}
+				{
+					id: "149DFFF42EFC9C31"
+					type: "advancement"
+					advancement: "aquamirae:adventure/tame_shellback"
+					criterion: ""
+				}
+				{
+					id: "6D8A1FD86D2BE91A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:sea_stew"
+					}
+					count: 1L
+				}
+				{
+					id: "0FDC250553E66A61"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:esca_skewer"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "00112AFCB8AEB14D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Sobreviver no Gelo"
+			description: [
+				"&7A tripulação presa no gelo sobreviveu de peixe-espinho, um peixe que se disfarça de ossada."
+				"&7Quando a comida acabava, alimentavam os pequenos caranguejos do gelo com geleia de água-viva,"
+				"&7até eles crescerem e virarem fortalezas de casco que carregam um homem nas costas."
+				""
+				"&6Objetivo:&r 1. Pesque ou cace &64 Peixes-espinho&r e cozinhe-os."
+				"&f2. Mate &6Cifozoários Abissais&r e junte &64 Geleias de Água-viva&r."
+				"&f3. Alimente um &6Scuttler&r com geleia até ele virar um &6Shellback&r, e dome-o como montaria."
+				"&f4. Faça um &6Ensopado do Mar&r (três peixes-espinho cozidos, barbatana, oxyhelium e tigela)."
+				"&f5. Faça um &6Espetinho de Isca&r (iscas, wisteria, oxyhelium e graveto)."
+			]
+		}
+		{
+			id: "7BD66323DD45C80B"
+			x: 7.0d
+			y: 1.6d
+			icon: {
+				count: 1
+				id: "aquamirae:shell_horn"
+			}
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			tasks: [
+				{
+					id: "42589C354987D58A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:logbook"
+					}
+					count: 1L
+				}
+				{
+					id: "3B634B0ED62D98E0"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_pirate_pouch"
+					criterion: ""
+				}
+				{
+					id: "23CEAD3B6B5BAF7A"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_shell_horn"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "59538F28BFCCE2BF"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Navios Congelados"
+			description: [
+				"&7Os navios piratas presos no gelo ainda têm tripulação: saqueadores e vingadores, agora a serviço do labirinto."
+				"&7\"Entrada nº 12. A capitã desceu ao fundo com o único escafandro e a chave mestra. Não voltou.\""
+				"&7O capitão de um navio guardava uma concha retorcida que, soprada perto da água, chama alguém."
+				""
+				"&6Objetivo:&r 1. Saqueie os navios, fortes e abrigos e encontre um &6Diário de Bordo&r."
+				"&f2. Os piratas deixam &6Bolsas de Pirata&r: abra uma (botão direito)."
+				"&f3. Mate o &6capitão pirata&r de um navio congelado para obter a &6Trompa de Concha&r."
+				""
+				"&8As bolsas de pirata às vezes trazem o Molde de Melhoria Terrível."
+			]
+		}
+		{
+			id: "2900F2C07B7B20FE"
+			x: 7.0d
+			y: 3.2d
+			icon: {
+				count: 1
+				id: "aquamirae:ship_graveyard_echo"
+			}
+			dependencies: [
+				"3CB9F9FBB8551617"
+				"73CA4D8DB6AB5132"
+			]
+			tasks: [
+				{
+					id: "5AA566B96165D057"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:ship_graveyard_echo"
+					}
+					count: 2L
+				}
+				{
+					id: "4F6C804491B53583"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_ship_graveyard_echo"
+					criterion: ""
+				}
+				{
+					id: "4E6F25FB61F6FCEA"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:echo_compass"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2B492E2A3C97697D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "O Eco do Cemitério"
+			description: [
+				"&7Encoste o ouvido no objeto e ouvirá as buzinas de centenas de navios perdidos."
+				"&7É o rastro que o leviatã deixa por onde passa, e o material mais precioso do labirinto."
+				"&7Numa bússola, a agulha não aponta para o norte: aponta para o lamento mais próximo."
+				""
+				"&6Objetivo:&r 1. Consiga &62 Ecos do Cemitério de Navios&r: as criaturas do labirinto mortas pelo &cQuebra-Navios&r os deixam para trás."
+				"&f2. Faça a &6Bússola do Eco&r (bússola e ecos): aponta para o eco mais próximo."
+				""
+				"&8Armaduras, armas e moldes do labirinto usam ecos. Guarde todos."
+			]
+		}
+		{
+			id: "77B6539DC8430A3B"
+			x: 10.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			dependencies: [
+				"73CA4D8DB6AB5132"
+			]
+			tasks: [
+				{
+					id: "539084420FC2FEBC"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&aTier II&7 - A Capitã Afogada"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "760368A8A586216B"
+			x: 12.0d
+			y: -1.33d
+			shape: "gear"
+			icon: {
+				count: 1
+				id: "comamigos_balance:cornelia_heart"
+			}
+			dependencies: [
+				"7BD66323DD45C80B"
+				"2900F2C07B7B20FE"
+				"77B6539DC8430A3B"
+			]
+			tasks: [
+				{
+					id: "6E585211A6BACA34"
+					type: "kill"
+					entity: "aquamirae:captain_cornelia"
+					value: 1L
+				}
+				{
+					id: "2F22B24807C5D8D4"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_frozen_key"
+					criterion: ""
+				}
+				{
+					id: "65DBF4274AA4007E"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_all_salvager_armor"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "718E029F63F492C9"
+					type: "xp"
+					xp: 240
+				}
+			]
+			title: "&cCapitã Cornelia"
+			description: [
+				"&7Ela mergulhou atrás de um tesouro e o mar a devolveu sem fôlego, sem medo e sem misericórdia."
+				"&7O Fantasma da Capitã Cornelia guarda o Tier II e ainda carrega a chave mestra e o escafandro do navio."
+				"&7Com ecos, ferro e couro, os ferreiros completaram o traje que só ela possuía."
+				""
+				"&6Objetivo:&r 1. Sopre a &6Trompa de Concha&r perto da água, dentro do Labirinto de Gelo, para invocar a &cCapitã Cornelia&r."
+				"&f2. Derrote-a: o &ccoração dela&r é a peça-chave do &6Coração do Tier II&r e, comido, dá fôlego e graça de golfinho."
+				"&f3. Pegue a &6Chave Congelada&r do corpo dela."
+				"&f4. Junte a armadura &6Salvager&r completa: o elmo cai de Cornelia; traje, calças e botas se fazem com ecos, ferro e couro. Completa, dá ar debaixo d'água e impede o congelamento."
+				""
+				"&8Lute numa plataforma de gelo, não na água. Ela também solta bolsas de tesouro."
+			]
+		}
+		{
+			id: "2FBB46CCB20EC89D"
+			x: 12.0d
+			y: 0.27d
+			icon: {
+				count: 1
+				id: "aquamirae:treasure_pouch"
+			}
+			dependencies: [
+				"60032A1D1D667DED"
+				"306355B7B248426B"
+				"77B6539DC8430A3B"
+			]
+			tasks: [
+				{
+					id: "2CAD96D7D82F8878"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:treasure_pouch"
+					}
+					count: 3L
+				}
+				{
+					id: "2D2B960EDBD339A9"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:void_squid"
+					}
+					count: 1L
+				}
+				{
+					id: "6EDD58DF0D1DC8F2"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:poseidon_breakfast"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "37F41328BDF375A3"
+					type: "xp"
+					xp: 240
+				}
+			]
+			title: "Bolsas de Tesouro"
+			description: [
+				"&7Um tesouro que sobreviveu ao navio, à tripulação e ao motivo pelo qual foi guardado."
+				"&7Dentro vêm ametistas, discos rachados, moldes e comida estranha,"
+				"&7como a lula do vazio, que troca a vida pela fome: cada golpe rói o estômago em vez da carne."
+				""
+				"&6Objetivo:&r 1. Abra &63 Bolsas de Tesouro&r (Cornelia, enguias, vingadores e bocarras)."
+				"&f2. Encontre uma &6Lula do Vazio&r nas bolsas."
+				"&f3. Faça o &6Café de Poseidon&r: peixe-espinho cozido, isca, geleia de água-viva e lula do vazio numa tigela."
+				""
+				"&8O &6Disco Rachado&r das bolsas chama o Quebra-Navios quando é tocado. Não toque sem estar pronto."
+			]
+		}
+		{
+			id: "37A726F96110E342"
+			x: 12.0d
+			y: 1.87d
+			icon: {
+				count: 1
+				id: "aquamirae:terrible_chestplate"
+			}
+			dependencies: [
+				"6A771620FC437DDE"
+				"7BD66323DD45C80B"
+				"77B6539DC8430A3B"
+			]
+			tasks: [
+				{
+					id: "253FDD12AB2D6030"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_terrible_upgrade_smithing_template"
+					criterion: ""
+				}
+				{
+					id: "4FD6FD6738304088"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_all_terrible_armor"
+					criterion: ""
+				}
+				{
+					id: "796A4BAAB7260572"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_blade"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1E1173C5AFD9D3A6"
+					type: "xp"
+					xp: 240
+				}
+			]
+			title: "Terrivelmente Equipado"
+			description: [
+				"&7Um molde de forja manchado de sangue de peixe transforma ferro em algo que o labirinto respeita."
+				"&7Armadura coberta de barbatanas envenena quem a ataca, e a lâmina com isca envenena a cada corte."
+				"&7Juntas, uma cura quem as veste a cada inimigo envenenado que cai."
+				""
+				"&6Objetivo:&r 1. Consiga um &6Molde de Melhoria Terrível&r (bolsas de pirata e de tesouro). Duplique-o na bancada com presas de peixe-diabo e barbatanas."
+				"&f2. Na mesa de ferraria, aplique o molde e uma &6barbatana&r em cada peça de &6armadura de ferro&r. Metade do conjunto envenena atacantes; completo, dá graça de golfinho ao levar dano na água."
+				"&f3. Faça a &6Lâmina Terrível&r (ferro, barbatana, isca e graveto)."
+			]
+		}
+		{
+			id: "5787500722BAE4FB"
+			x: 14.0d
+			y: -1.87d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "aquamirae:rune_of_the_storm"
+			}
+			dependencies: [
+				"760368A8A586216B"
+			]
+			tasks: [
+				{
+					id: "4F0624B48B0FBBA0"
+					type: "kill"
+					entity: "aquamirae:eel"
+					value: 1L
+				}
+				{
+					id: "3A091CAC5A9C743A"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_rune_of_the_storm"
+					criterion: ""
+				}
+				{
+					id: "2CF9798D66CF1891"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:dead_sea_scroll"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0B33C580B09CAC2B"
+					type: "xp"
+					xp: 240
+				}
+			]
+			title: "O Abrigo sob o Gelo"
+			description: [
+				"&7A tripulação cavou um abrigo sob a terra para não congelar, e as enguias vieram do fundo atrás deles."
+				"&7Lá dentro há um baú que só a chave da capitã abre, e uma runa que sussurra os segredos do gelo e da neve."
+				"&7As enguias guardam pergaminhos escritos numa língua que ninguém fala há séculos."
+				""
+				"&6Objetivo:&r 1. Encontre o &6abrigo pirata&r subterrâneo e mate a &6Enguia&r que o guarda."
+				"&f2. Abra o &6Baú Congelado&r com a Chave Congelada e pegue a &6Runa da Tempestade&r. Prenda-a numa arma ou armadura na &6mesa de ferraria&r: +40% de dano na arma ou -10% de dano recebido na armadura, em biomas frios."
+				"&f3. Consiga um &6Pergaminho do Mar Morto&r das enguias."
+				""
+				"&8O baú pode ter totens, maçãs douradas, a Adaga da Ganância e pinturas raras."
+			]
+		}
+		{
+			id: "201A4EB5C5E7FC88"
+			x: 14.0d
+			y: -0.27d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:maze_mother_heart"
+			}
+			dependencies: [
+				"760368A8A586216B"
+			]
+			tasks: [
+				{
+					id: "55C742DFC4EABF7A"
+					type: "kill"
+					entity: "aquamirae:maze_mother"
+					value: 1L
+				}
+				{
+					id: "0EB76DFCA7737397"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:abyssal_amethyst"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4A83BEA234F7FAD7"
+					type: "xp"
+					xp: 160
+				}
+			]
+			title: "A Mãe do Labirinto"
+			description: [
+				"&7Toda criatura do labirinto teve uma mãe. Esta ainda vive, e é do tamanho de um navio."
+				"&7Ela sobe do fundo sem aviso, e no ventre carrega fragmentos da luz que mora no abismo."
+				""
+				"&6Objetivo:&r 1. Navegue pelas águas abertas do Labirinto de Gelo até ela emergir."
+				"&f2. Derrote a &cMãe do Labirinto&r: fique de olho na água escura, ela sempre vem de baixo."
+				"&f3. Recolha a &6Ametista Abissal&r e o seu &ccoração de troféu&r: fôlego e visão no escuro, mas enjoo."
+				""
+				"&8Armadura Terrível completa e graça de golfinho fazem muita diferença na água."
+			]
+		}
+		{
+			id: "4E9D7E2BFE6A6C2B"
+			x: 14.0d
+			y: 1.33d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:terrible_fang"
+			}
+			dependencies: [
+				"37A726F96110E342"
+				"60032A1D1D667DED"
+				"2900F2C07B7B20FE"
+			]
+			tasks: [
+				{
+					id: "7B04E99B04C3E260"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:remnant_saber"
+					}
+					count: 1L
+				}
+				{
+					id: "3A30E2BC0FE8058F"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_cleaver"
+					}
+					count: 1L
+				}
+				{
+					id: "5F1B7160DC62EEF5"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_fang"
+					}
+					count: 1L
+				}
+				{
+					id: "0B8BB4083400E2A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_chakram"
+					}
+					count: 1L
+				}
+				{
+					id: "319E27732C230FF6"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_all_terrible_weapons"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "021A8DCA1070E50B"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "42D40C6A2FB721A0"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Arsenal Terrível"
+			description: [
+				"&7Sabre, cutelo, presa e chakram: cada arma do labirinto foi feita para um tipo de desespero."
+				"&7O sabre dos restos fica mais faminto a cada criatura do labirinto que mata, o cutelo corta mais quando você sangra,"
+				"&7a presa fica mais cruel perto da morte e o chakram sempre volta para a mão."
+				""
+				"&6Objetivo:&r 1. Faça o &6Sabre dos Restos&r (ossos afiados, linha e graveto): o bônus contra criaturas do labirinto cresce para sempre."
+				"&f2. Faça o &6Cutelo Terrível&r (ferro, barbatana, eco e graveto)."
+				"&f3. Faça a &6Presa Terrível&r (ferro, barbatana, presa de peixe-diabo e graveto)."
+				"&f4. Faça o &6Chakram Terrível&r (presas e ecos): arremesse e ele volta; empilhe até 5."
+				"&f5. Tenha todas as armas Terríveis e o Sabre dos Restos."
+			]
+		}
+		{
+			id: "5440D4534FFAE557"
+			x: 17.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			dependencies: [
+				"77B6539DC8430A3B"
+			]
+			tasks: [
+				{
+					id: "0FA064B9167AE0C2"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III&7 - Luz do Abismo"
+			description: [
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
+		}
+		{
+			id: "50F422C84B80372F"
+			x: 19.0d
+			y: -1.07d
+			icon: {
+				count: 1
+				id: "aquamirae:tidepiercer"
+			}
+			dependencies: [
+				"760368A8A586216B"
+				"5787500722BAE4FB"
+				"5440D4534FFAE557"
+			]
+			tasks: [
+				{
+					id: "5FAB87691C2CA02E"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_tidepiercer"
+					criterion: ""
+				}
+				{
+					id: "59019ACCF576D57C"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:jawbreaker"
+					}
+					count: 1L
+				}
+				{
+					id: "13C544BFC150D982"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:dagger_of_greed"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "398ED3C566309BE5"
+					type: "xp"
+					xp: 330
+				}
+			]
+			title: "O Legado de Cornelia"
+			description: [
+				"&7A arma da capitã foi feita para lutar onde o mar é mais fundo: quanto mais abaixo, mais forte."
+				"&7Os piratas nunca desperdiçavam nada, nem uma arma que também se come."
+				"&7E no baú da tripulação dorme uma adaga que arranca esmeraldas a cada golpe, até o último."
+				""
+				"&6Objetivo:&r 1. Consiga o &6Tidepiercer&r de Cornelia: debaixo d'água, cada bloco abaixo do nível do mar aumenta o dano."
+				"&f2. Consiga o &6Quebra-Mandíbula&r, outro espólio da capitã. Pode ser comido, gastando durabilidade."
+				"&f3. Encontre a &6Adaga da Ganância&r no Baú Congelado ou nos navios: arranca esmeraldas de aldeões e saqueadores."
+				""
+				"&8Se não vier na primeira vez, sopre a trompa de novo."
+			]
+		}
+		{
+			id: "7AB7B5F2C0390D81"
+			x: 19.0d
+			y: 0.53d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:abyssal_brigandine"
+			}
+			dependencies: [
+				"201A4EB5C5E7FC88"
+				"37A726F96110E342"
+				"5440D4534FFAE557"
+			]
+			tasks: [
+				{
+					id: "5AF0950A15817B4B"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:abyssal_amethyst"
+					}
+					count: 6L
+				}
+				{
+					id: "3511D2503358C791"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_abyssal_upgrade_smithing_template"
+					criterion: ""
+				}
+				{
+					id: "30473412CE488209"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_all_abyssal_armor"
+					criterion: ""
+				}
+				{
+					id: "10E8D1512E8F5E3A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:abyssal_tiara"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "38619496865DB73B"
+					type: "xp"
+					xp: 440
+				}
+			]
+			title: "Um com o Abismo"
+			description: [
+				"&7O molde Terrível, mergulhado na luz do abismo, aprende a moldar diamante."
+				"&7A armadura que nasce dele torna mais forte quem é tocado por maldições,"
+				"&7e a coroa de quem se recusa a morrer adia o golpe fatal por alguns segundos."
+				""
+				"&6Objetivo:&r 1. Junte &66 Ametistas Abissais&r da Mãe do Labirinto e das bolsas de tesouro."
+				"&f2. Faça o &6Molde de Melhoria Abissal&r: molde Terrível no centro, ametistas abissais e ecos ao redor."
+				"&f3. Na mesa de ferraria, aplique o molde e uma ametista em cada peça de &6armadura de diamante&r. Efeitos negativos te dão força, acumulando."
+				"&f4. Monte a &6Tiara Abissal&r na &6Mechanical Crafter&r (ametistas abissais e um totem da imortalidade)."
+			]
+		}
+		{
+			id: "39B32CDF2BAF4BBE"
+			x: 21.0d
+			y: -1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:music_disc_horizon"
+			}
+			dependencies: [
+				"50F422C84B80372F"
+			]
+			tasks: [
+				{
+					id: "5A1DF30E3E5C70F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:music_disc_forsaken_drownage"
+					}
+					count: 1L
+				}
+				{
+					id: "0F0B65CE4D2E88C5"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:music_disc_horizon"
+					}
+					count: 1L
+				}
+				{
+					id: "5F51E1C8F3C86414"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:painting_anglerfish"
+					}
+					count: 1L
+				}
+				{
+					id: "119106C4893AF019"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:painting_aurora"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7AE6F30A35E040FB"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "3886E81C5AA1BE17"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Relíquias do Naufrágio"
+			subtitle: "&8Opcional"
+			description: [
+				"&7A tripulação cantava para não enlouquecer, e algumas canções sobreviveram aos cantores."
+				"&7Alguém pintou o labirinto e quis que o mundo acreditasse no que viu."
+				""
+				"&6Objetivo:&r 1. Consiga o disco &6Forsaken Drownage&r (Cornelia) e o disco &6Horizon&r (baús dos navios)."
+				"&f2. Encontre as pinturas &6Anglerfish&r e &6Aurora&r no Baú Congelado."
+			]
+			optional: true
+		}
+		{
+			id: "132D05BAE1C12C33"
+			x: 21.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:shatterblade"
+			}
+			dependencies: [
+				"7AB7B5F2C0390D81"
+			]
+			tasks: [
+				{
+					id: "0D0284FDC6076148"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:shatterblade"
+					}
+					count: 1L
+				}
+				{
+					id: "04FFCF79EB0BFCB3"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:shatterspike"
+					}
+					count: 1L
+				}
+				{
+					id: "47B8B7F249B1253D"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:maze_rose"
+					}
+					count: 1L
+				}
+				{
+					id: "3DA041CFE7B79829"
+					type: "advancement"
+					advancement: "aquamirae:adventure/obtain_all_abyssal_weapons"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "693A7DCE3C169AFB"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "684FAD2256AF4D6D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "Arsenal Abissal"
+			description: [
+				"&7Lâmina, espinho e rosa: as armas que o abismo ensinou a forjar."
+				"&7Uma arranca vida máxima, outra racha armaduras, e a flor de cristal corta tudo pelo caminho quando lançada."
+				""
+				"&6Objetivo:&r 1. Monte a &6Shatterblade&r na &6Mechanical Crafter&r (diamante, ametistas abissais, ecos e graveto): reduz a vida máxima do alvo a cada golpe."
+				"&f2. Monte a &6Shatterspike&r na Mechanical Crafter: reduz a armadura do alvo a cada golpe."
+				"&f3. Faça a &6Rosa do Labirinto&r (ametistas abissais e ecos)."
+				"&f4. Tenha as três armas abissais."
+			]
+		}
+		{
+			id: "5FB0748C9E0610EA"
+			x: 21.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "aquamirae:maelstrom_vestige"
+			}
+			dependencies: [
+				"7AB7B5F2C0390D81"
+				"2FBB46CCB20EC89D"
+			]
+			tasks: [
+				{
+					id: "3C6BFA6E8BA19187"
+					type: "advancement"
+					advancement: "aquamirae:adventure/encounter_the_shipbreaker"
+					criterion: ""
+				}
+				{
+					id: "33817906F2097422"
+					type: "advancement"
+					advancement: "aquamirae:adventure/survive_the_shipbreaker"
+					criterion: ""
+				}
+				{
+					id: "25D59D0AB19FECD6"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:maelstrom_vestige"
+					}
+					count: 1L
+				}
+				{
+					id: "2BB12A69EF0DE277"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:dreadwake"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5DF2C7124BEB0DF2"
+					type: "xp"
+					xp: 440
+				}
+				{
+					id: "13C2C9E59E6DA4B3"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+			]
+			title: "O Rastro do Leviatã"
+			description: [
+				"&7Algo gigantesco atravessa o labirinto por baixo do gelo, e os cascos dos navios são só o rastro."
+				"&7Poucos sentem o golpe do Quebra-Navios e continuam respirando."
+				"&7Os que sobrevivem guardam um fragmento de um lugar que nunca deveria ter sido encontrado, e forjam com ele a lâmina que executa os quase mortos."
+				""
+				"&6Objetivo:&r 1. Encontre o &cQuebra-Navios&r, o habitante mais temido do Labirinto de Gelo (o &6Disco Rachado&r o chama)."
+				"&f2. Sobreviva a um golpe direto dele."
+				"&f3. Recolha um &6Vestígio do Redemoinho&r deixado pelo Quebra-Navios."
+				"&f4. Monte a &6Dreadwake&r na Mechanical Crafter (vestígio, ametistas abissais, ecos e graveto): mais dano em feridos e, com o tempo, executa e dispara estilhaços do abismo."
+				""
+				"&8Armadura Abissal, Tiara e muita vida. Ou muita sorte."
+			]
+		}
+	]
+	title: "Missões"
+	subtitle: [
+		"&bO Mar Gelado&7: do Tier I em diante"
+	]
+}

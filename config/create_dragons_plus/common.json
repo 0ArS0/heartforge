@@ -1,0 +1,64 @@
+{
+  "features": {
+    "comment": [
+      "Enable or disable Create: Dragons Plus features",
+      "Depending mods may override a feature through fabric.mod.json custom metadata; restart after changes"
+    ],
+    "fluid": {
+      "comment": "Fluid feature elements",
+      "fluid/dye": {
+        "comment": "Enable dye fluids",
+        "value": true
+      },
+      "fluid/dragon_breath": {
+        "comment": "Enable Dragon's Breath fluid",
+        "value": true
+      },
+      "fluid/dragon_breath/dripstone_duplication": {
+        "comment": "Allow Dragon's Breath fluid to fill cauldrons through pointed dripstone",
+        "value": true
+      },
+      "fluid/dye/lava_interaction_generate_colored_concrete": {
+        "comment": "Create colored concrete when dye fluid meets lava",
+        "value": true
+      },
+      "fluid/air_current_block_interaction": {
+        "comment": "Allow air currents to interact through fluids",
+        "value": true
+      }
+    },
+    "block": {
+      "comment": "Block feature elements",
+      "block/fluid_hatch": {
+        "comment": "Enable Fluid Hatch",
+        "value": true
+      }
+    },
+    "item": {
+      "comment": "Item feature elements",
+      "item/blaze_upgrade_smithing_template": {
+        "comment": "Enable Blaze Upgrade Smithing Template",
+        "value": false
+      }
+    },
+    "recipe": {
+      "comment": "Generated recipe feature elements",
+      "recipe/automatic_brewing/dragon_breath": {
+        "comment": "Generate automated Dragon's Breath brewing recipes",
+        "value": true
+      },
+      "recipe/sand_paper_polishing/polished_blocks": {
+        "comment": "Generate polishing recipes for polished blocks",
+        "value": true
+      },
+      "recipe/sand_paper_polishing/oxidized_blocks": {
+        "comment": "Generate polishing recipes for oxidized blocks",
+        "value": true
+      },
+      "recipe/sand_paper_polishing/waxed_blocks": {
+        "comment": "Generate polishing recipes for waxed blocks",
+        "value": true
+      }
+    }
+  }
+}

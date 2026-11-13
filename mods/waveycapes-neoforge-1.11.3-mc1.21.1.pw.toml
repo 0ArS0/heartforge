@@ -1,0 +1,13 @@
+name = "waveycapes-neoforge-1.11.3-mc1.21.1"
+filename = "waveycapes-neoforge-1.11.3-mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kYuIpRLv/versions/A5I6bbOi/waveycapes-neoforge-1.11.3-mc1.21.1.jar"
+hash-format = "sha1"
+hash = "74cc771afb94cb14009f51a6d172f8620bcbf591"
+
+[update]
+[update.modrinth]
+mod-id = "kYuIpRLv"
+version = "A5I6bbOi"

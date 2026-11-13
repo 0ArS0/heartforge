@@ -1,0 +1,5 @@
+# Experimental client settings. They live in this separate file so the main client
+# settings file stays readable by older versions. Defaults are omitted and deleting
+# this file restores them. /lss reload applies edits; lod.source needs a reconnect.
+lod:
+  source: "lss"

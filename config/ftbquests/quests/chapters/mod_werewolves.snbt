@@ -1,0 +1,56 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_werewolves"
+	group: "4420EA9AE6BA168A"
+	icon: {
+		count: 1
+		id: "werewolves:werewolf_tooth"
+	}
+	id: "7727B0296A76BC98"
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E8062C09AFC0ED7"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "werewolves:werewolf_tooth"
+			}
+			tasks: [
+				{
+					id: "76B6555201DC3797"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "10F6F44CD921788C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Uivos na Mata Roxa"
+			description: [
+				"&7Entre os jacarandás roxos e as árvores que brilham à noite vive uma terceira raça, que não bebe sangue: devora."
+				"&7De dia são lenhadores e andarilhos; quando a lua enche, a pele rasga e o lobo sai."
+				""
+				"&7Lobisomem é uma &8facção própria&7, rival tanto dos vampiros quanto dos caçadores: quem a abraça não pode ser vampiro"
+				"&7nem caçador ao mesmo tempo. Páginas marcadas &8[Lobisomem]&7 são do caminho da fera; &9[Caçador]&7, de quem a persegue com prata;"
+				"&7as sem marcador servem a todos."
+				""
+				"&7A forja do Coração paga pelos troféus da matilha: &6Dente de Lobisomem&7 no Tier I, &6Pele Escura&7 no Tier II e &6Pele Branca&7 no Tier III."
+				""
+				"&7Comece procurando uma &8Floresta de Lobisomens&7 e &6prata&7 nas montanhas."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"A maldição da lua cheia"
+	]
+}

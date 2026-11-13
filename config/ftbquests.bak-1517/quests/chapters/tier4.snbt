@@ -1,0 +1,468 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier4"
+	group: ""
+	icon: {
+		count: 1
+		id: "comamigos_balance:tier_heart_5"
+	}
+	id: "1DF09911BFB2DB44"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3AF83DB296D42789"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.25d
+			dependencies: [
+				"6E964B6088155040"
+			]
+			tasks: [
+				{
+					id: "4C523653F7FB4FDF"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "5059EEFE5213A713"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "Começo do Tier IV"
+			description: [
+				"O grupo está no &6Tier IV - Herói&r."
+				"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+			]
+		}
+		{
+			id: "26838CCADA0B3647"
+			x: 2.0d
+			y: -1.6d
+			dependencies: [
+				"3AF83DB296D42789"
+			]
+			tasks: [
+				{
+					id: "316071E73C23761A"
+					type: "dimension"
+					dimension: "minecraft:the_nether"
+				}
+			]
+			rewards: [
+				{
+					id: "0A2EFAEB1BBF495A"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "O Nether, enfim"
+			description: [
+				"Com o Coração IV o ar do Nether não queima mais."
+			]
+		}
+		{
+			id: "00715189257F156B"
+			x: 3.6d
+			y: -1.6d
+			dependencies: [
+				"26838CCADA0B3647"
+			]
+			tasks: [
+				{
+					id: "04654FCAAA3857B6"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:blaze_burner"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "14772575555525D9"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "Blaze Burner"
+			description: [
+				"Calor superaquecido: a única forma de fazer netherite."
+			]
+		}
+		{
+			id: "1F41AA82C98B574E"
+			x: 5.2d
+			y: -1.6d
+			dependencies: [
+				"00715189257F156B"
+			]
+			tasks: [
+				{
+					id: "022D09B86A0108EA"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "63FC036F2EFC7AAF"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "Netherite pelo Create"
+			description: [
+				"Mixer superaquecido: 4 sucatas + 4 ouro."
+			]
+		}
+		{
+			id: "434F23D48EE2DA18"
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"3AF83DB296D42789"
+			]
+			tasks: [
+				{
+					id: "0AB7AFE8602B4A80"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:afrit_essence"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7C17C7B57FE5FE9F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "Essência de Afrit"
+			description: [
+				"Occultism: um ritual perigoso chama o Afrit."
+			]
+		}
+		{
+			id: "0565AC7F751304BA"
+			x: 3.6d
+			y: 0.0d
+			dependencies: [
+				"434F23D48EE2DA18"
+			]
+			tasks: [
+				{
+					id: "36148AF882FB5353"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:epic_ink"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5831FAD708E16EF6"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "Tinta Épica"
+			description: [
+				"Magias épicas chegam no Tier V."
+			]
+		}
+		{
+			id: "2E652BB32277527D"
+			x: 2.0d
+			y: 1.6d
+			dependencies: [
+				"3AF83DB296D42789"
+			]
+			tasks: [
+				{
+					id: "71D021569CD6D974"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "14ACF42FDD32D17D"
+					type: "xp"
+					xp: 600
+				}
+			]
+			title: "Ignis"
+			description: [
+				"Cataclysm: o cavaleiro em chamas guarda o ignitium."
+			]
+		}
+		{
+			id: "26FBA9C4509FB205"
+			x: 3.6d
+			y: 1.6d
+			dependencies: [
+				"2E652BB32277527D"
+			]
+			tasks: [
+				{
+					id: "64814804A0FB4F89"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "06EEEAD8B4D16E9C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "Ignitium"
+			description: [
+				"Só no mixer superaquecido."
+			]
+		}
+		{
+			id: "65283C24B3F94AE0"
+			x: 5.2d
+			y: 1.6d
+			dependencies: [
+				"26FBA9C4509FB205"
+			]
+			tasks: [
+				{
+					id: "36F3285FCFAA6BDE"
+					type: "kill"
+					entity: "mowziesmobs:frostmaw"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "15D71B025AF32456"
+					type: "xp"
+					xp: 500
+				}
+			]
+			title: "O Frostmaw"
+			description: [
+				"Mowzie's Mobs: o cristal de gelo dele entra no coração."
+			]
+		}
+		{
+			id: "06A287756F226726"
+			x: 6.800000000000001d
+			y: 1.6d
+			dependencies: [
+				"65283C24B3F94AE0"
+			]
+			tasks: [
+				{
+					id: "63F8AA5C9357FB3E"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:krampus_horn"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "115C8D1B075D8D54"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "Chifre do Krampus"
+			description: [
+				"Born in Chaos: o Krampus aparece no inverno."
+			]
+		}
+		{
+			id: "4BB56356426B119D"
+			x: 8.4d
+			y: 1.6d
+			dependencies: [
+				"06A287756F226726"
+			]
+			tasks: [
+				{
+					id: "42874EE7511F1E89"
+					type: "item"
+					item: {
+						count: 1
+						id: "mythsandlegends:infernum_ingot"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1EA8D1394551429B"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "Infernum"
+			description: [
+				"Myths & Legends: forjado no calor superaquecido."
+			]
+		}
+		{
+			id: "3D58FFD6591DE8F0"
+			x: 10.0d
+			y: -3.2d
+			shape: "diamond"
+			size: 1.5d
+			dependencies: [
+				"3AF83DB296D42789"
+			]
+			tasks: [
+				{
+					id: "6FD67ED0025DF761"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1980BAB4B9ADE4BC"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			title: "O Wither"
+			description: [
+				"O &8Wither&r (Wither Reincarnated) é o guardião do Tier IV."
+				"Derrote-o para obter o &cCoração do Wither&r."
+			]
+		}
+		{
+			id: "442776AE09B63766"
+			x: 10.0d
+			y: 3.2d
+			shape: "rsquare"
+			dependencies: [
+				"3AF83DB296D42789"
+			]
+			tasks: [
+				{
+					id: "5F836DF03459DE57"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:purifying_elixir_3"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7206F250676D82AA"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "Elixir Purificador III"
+			description: [
+				"Cura também a &cFebre de Magma&r (Coração IV)."
+				"No &6Suporte de Poções&r: Elixir II + osso congelado (Iron's Spells)."
+			]
+		}
+		{
+			id: "0BDF6EE846E0F704"
+			x: 12.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.75d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_5"
+			}
+			dependencies: [
+				"create_netherite"
+				"0565AC7F751304BA"
+				"4BB56356426B119D"
+				"3D58FFD6591DE8F0"
+			]
+			tasks: [
+				{
+					id: "67221CD9932D212F"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "509207AA3FF29922"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			title: "Forjar o Coração do Tier V"
+			description: [
+				"Montagem sequencial: Coração do Wither + netherite, essência de afrit, ignitium, tinta épica, chifre do Krampus, cristal de gelo do Frostmaw, infernum e prensa."
+			]
+		}
+		{
+			id: "1C979661703F338B"
+			x: 14.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			dependencies: [
+				"0BDF6EE846E0F704"
+			]
+			tasks: [
+				{
+					id: "5625B76B02F92790"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_5"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "220D25C5E2345A56"
+					type: "xp"
+					xp: 4000
+				}
+			]
+			title: "Comer o Coração: Tier V"
+			description: [
+				"Alguém do grupo come o coração e todos sobem para o &cTier V - Campeão&r."
+				"Lembre: quem come carrega a maldição."
+			]
+		}
+	]
+	title: "&6Tier IV - Herói"
+	subtitle: [
+		"Objetivo: forjar e comer o Coração do Tier V"
+	]
+}

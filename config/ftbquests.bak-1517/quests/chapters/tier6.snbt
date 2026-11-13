@@ -1,0 +1,355 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier6"
+	group: ""
+	icon: {
+		count: 1
+		id: "comamigos_balance:tier_heart_7"
+	}
+	id: "3DE2CAFBB6042D53"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02C315BF0367D84D"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.25d
+			dependencies: [
+				"218EBD5226C3D37F"
+			]
+			tasks: [
+				{
+					id: "528CC5070E6C1C1E"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "03D6C72E47B47A76"
+					type: "xp"
+					xp: 600
+				}
+			]
+			title: "Começo do Tier VI"
+			description: [
+				"O grupo está no &5Tier VI - Lenda&r."
+				"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+			]
+		}
+		{
+			id: "369DF2407A029A85"
+			x: 2.0d
+			y: -1.6d
+			dependencies: [
+				"02C315BF0367D84D"
+			]
+			tasks: [
+				{
+					id: "4379327897228CAA"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:gaia_ingot"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5FFEF277B05E5741"
+					type: "xp"
+					xp: 600
+				}
+			]
+			title: "Lingote de Gaia"
+			description: [
+				"Do espírito do Guardião de Gaia."
+			]
+		}
+		{
+			id: "6C008590EF5FDCE8"
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"02C315BF0367D84D"
+			]
+			tasks: [
+				{
+					id: "11E015DC54BDD501"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:legendary_ink"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "35F136A5ED6D74B1"
+					type: "xp"
+					xp: 600
+				}
+			]
+			title: "Tinta Lendária"
+			description: [
+				"Magias lendárias liberadas."
+			]
+		}
+		{
+			id: "244C4561F9605B82"
+			x: 2.0d
+			y: 1.6d
+			dependencies: [
+				"02C315BF0367D84D"
+			]
+			tasks: [
+				{
+					id: "21063985CC458E99"
+					type: "kill"
+					entity: "cataclysm:the_leviathan"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "17FD8A5815480E9F"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			title: "O Leviatã"
+			description: [
+				"Cataclysm: o monstro do abismo guarda o Sacrifício Abissal."
+			]
+		}
+		{
+			id: "737EE2652E590191"
+			x: 3.6d
+			y: 1.6d
+			dependencies: [
+				"244C4561F9605B82"
+			]
+			tasks: [
+				{
+					id: "0130BB5EBB8235A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:abyssal_sacrifice"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1B04940492A659C0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			title: "Sacrifício Abissal"
+			description: [
+				"Ingrediente do Coração VII."
+			]
+		}
+		{
+			id: "7D2306ACE2A813D1"
+			x: 5.2d
+			y: 1.6d
+			dependencies: [
+				"mundo_sacrificio"
+			]
+			tasks: [
+				{
+					id: "338752B68C19C1C4"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:essence_of_the_storm"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6712481B0C8AAE41"
+					type: "xp"
+					xp: 500
+				}
+			]
+			title: "Essência da Tempestade"
+			description: [
+				"Cataclysm: arrancada da Scylla."
+			]
+		}
+		{
+			id: "4CF2A374105CAA79"
+			x: 6.800000000000001d
+			y: 1.6d
+			dependencies: [
+				"mundo_tempestade"
+			]
+			tasks: [
+				{
+					id: "0782AD025971B0FD"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "17E24AD20140E703"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "Estrela do Nether"
+			description: [
+				"Mais um Wither."
+			]
+		}
+		{
+			id: "39C6AF5E97EDBC1C"
+			x: 8.4d
+			y: -3.2d
+			shape: "diamond"
+			size: 1.5d
+			dependencies: [
+				"02C315BF0367D84D"
+			]
+			tasks: [
+				{
+					id: "653A8257C32936EF"
+					type: "kill"
+					entity: "cataclysm:scylla"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "78486A7DD496CF01"
+					type: "xp"
+					xp: 1800
+				}
+			]
+			title: "Scylla"
+			description: [
+				"&9Scylla&r, a senhora das tempestades na cidade afundada (Cataclysm)."
+				"Derrote-a para obter o &cCoração de Scylla&r."
+			]
+		}
+		{
+			id: "4E6C814A8551875C"
+			x: 8.4d
+			y: 3.2d
+			shape: "rsquare"
+			dependencies: [
+				"02C315BF0367D84D"
+			]
+			tasks: [
+				{
+					id: "029027B831E6FA23"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:purifying_elixir_5"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2DA091A009EBDB65"
+					type: "xp"
+					xp: 600
+				}
+			]
+			title: "Elixir Purificador V"
+			description: [
+				"Cura também o &cPeso do Dragão&r (Coração VI)."
+				"No &6Suporte de Poções&r: Elixir IV + ambrosia (Ice and Fire)."
+			]
+		}
+		{
+			id: "0FF56608508C5599"
+			x: 10.4d
+			y: 0.0d
+			shape: "gear"
+			size: 1.75d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_7"
+			}
+			dependencies: [
+				"369DF2407A029A85"
+				"6C008590EF5FDCE8"
+				"4CF2A374105CAA79"
+				"39C6AF5E97EDBC1C"
+			]
+			tasks: [
+				{
+					id: "0C4AD6B7BB9A4135"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "10E044406781A5FA"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			title: "Forjar o Coração do Tier VII"
+			description: [
+				"Montagem sequencial: Coração de Scylla + lingote de Gaia, tinta lendária, essência da tempestade, sacrifício abissal, estrela do Nether e prensa."
+			]
+		}
+		{
+			id: "7AEEA153BEC22F61"
+			x: 12.4d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			dependencies: [
+				"0FF56608508C5599"
+			]
+			tasks: [
+				{
+					id: "4B0C4D2588D297F4"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_7"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "330B56CC7C5C8E54"
+					type: "xp"
+					xp: 6000
+				}
+			]
+			title: "Comer o Coração: Tier VII"
+			description: [
+				"Alguém do grupo come o coração e todos sobem para o &dTier VII - Mito&r."
+				"Lembre: quem come carrega a maldição."
+			]
+		}
+	]
+	title: "&5Tier VI - Lenda"
+	subtitle: [
+		"Objetivo: forjar e comer o Coração do Tier VII"
+	]
+}

@@ -1,0 +1,495 @@
+{
+	"quest.7C01C4060A084AAC.title": "Bem-vindo a Heartforge"
+	"quest.7C01C4060A084AAC.quest_desc": [
+		"Este mundo tem &68 tiers de progressão&r, compartilhados por todo o grupo."
+		""
+		"Cada tier libera equipamentos, magias e terras. Para subir, o grupo forja um &cCoração do Tier&r com o coração do boss-chave do tier atual e um item de cada mod, nas máquinas do &6Create&r."
+		""
+		"Use &e/tier&r para ver em que tier o grupo está."
+	]
+	"quest.07C2E697F0CCD2A8.title": "Equipamento acima do seu tier"
+	"quest.07C2E697F0CCD2A8.quest_desc": [
+		"Você &epode&r usar armas, armaduras e ferramentas acima do tier do grupo, mas paga caro:"
+		"- &cArmas&r: menos dano e &cArma Pesada&r."
+		"- &cArmaduras&r: menos proteção e &cLentidão&r."
+		"- &cFerramentas&r: &cInexperiência&r, não colhem os blocos mais duros."
+		"- &cArcos&r: &cMira Trêmula&r."
+		"Tudo isso gasta a durabilidade muito mais rápido. O tooltip de cada item mostra o tier dele."
+	]
+	"quest.3A20D9B55B581149.title": "Magias e terras"
+	"quest.3A20D9B55B581149.quest_desc": [
+		"Raridade das magias (Iron's Spells) por tier: &7Comum I&r, &aIncomum II&r, &9Rara III&r, &5Épica V&r, &6Lendária VI&r."
+		""
+		"O &cNether&r abre de verdade no &6Tier IV&r: antes disso o &6Ar Escaldante&r vai cozinhar você aos poucos, até derreter seus órgãos."
+		"O &5End&r só abre no &dTier VII&r."
+	]
+	"quest.22ACB16E3BB57B38.title": "Corações cobram um preço"
+	"quest.22ACB16E3BB57B38.quest_desc": [
+		"Quem &ccome&r um Coração do Tier carrega uma &cMaldição&r para sempre: nem leite, nem a morte tiram."
+		"Só o &bElixir Purificador&r cura. Ele é preparado no &6Suporte de Poções&r: cada nível é o anterior + um ingrediente."
+		"Decidam juntos quem vai pagar o preço por todos."
+	]
+	"quest.52F783AE782EF818.title": "Raça, classe e origem"
+	"quest.52F783AE782EF818.quest_desc": [
+		"Escolha sua &eraça&r, &eclasse&r e &eorigem&r (NeoOrigins). Raças imunes a fogo aguentam mais o Nether, mas não para sempre."
+	]
+	"quest.05040E760D6C02A5.title": "Receitas no EMI"
+	"quest.05040E760D6C02A5.quest_desc": [
+		"As receitas do Create (mixer, mechanical crafter, sequenced assembly) aparecem no EMI quando o &eJEI&r também está instalado."
+		"Equipamentos de &9Tier III&r para cima são feitos no &6Mechanical Crafter&r, com um &6Precision Mechanism&r."
+	]
+	"quest.20E796F357403DF2.title": "Começo do Tier I"
+	"quest.20E796F357403DF2.quest_desc": [
+		"O grupo está no &7Tier I - Andarilho&r."
+		"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+	]
+	"quest.2E39DCE9262A21D9.title": "Liga de Andesito"
+	"quest.2E39DCE9262A21D9.quest_desc": [
+		"A base de toda máquina do Create."
+	]
+	"quest.567093696FAF5491.title": "O Mixer"
+	"quest.567093696FAF5491.quest_desc": [
+		"O primeiro coração é forjado num &6Mechanical Mixer&r (sem calor)."
+	]
+	"quest.015D5B59A18712EF.title": "Lexica Botania"
+	"quest.015D5B59A18712EF.quest_desc": [
+		"O livro da Botânica explica tudo."
+	]
+	"quest.36165EEC9BE9AD64.title": "Mana"
+	"quest.36165EEC9BE9AD64.quest_desc": [
+		"Uma Mana Pool cheia e uma Pure Daisy levam ao &bManasteel&r."
+	]
+	"quest.0FC1DB6776AEB8DD.title": "Manasteel"
+	"quest.0FC1DB6776AEB8DD.quest_desc": [
+		"Ingrediente do Coração II."
+	]
+	"quest.1BB41468E12100DB.title": "Mesa de Inscrição"
+	"quest.1BB41468E12100DB.quest_desc": [
+		"Iron's Spells: aprenda a escrever pergaminhos."
+	]
+	"quest.717145DFA5D697D8.title": "Tinta Comum"
+	"quest.717145DFA5D697D8.quest_desc": [
+		"Ingrediente do Coração II."
+	]
+	"quest.100E4AF8E871BDB0.title": "Prata do Ocultismo"
+	"quest.100E4AF8E871BDB0.quest_desc": [
+		"Occultism: a prata abre os rituais. Ingrediente do Coração II."
+	]
+	"quest.1B173011839FC25E.title": "Mythril dos Anões"
+	"quest.1B173011839FC25E.quest_desc": [
+		"Fundido do minério das fortalezas anãs. Ingrediente do Coração II."
+	]
+	"quest.3D950DE8885DE435.title": "Escolha seu lado"
+	"quest.3D950DE8885DE435.quest_desc": [
+		"Vampiro, caçador ou lobisomem: um item da sua facção (presa de vampiro, coração humano ou dente de lobisomem) entra no coração."
+	]
+	"quest.6674E7F2C4266BDC.title": "Torta de Maçã"
+	"quest.6674E7F2C4266BDC.quest_desc": [
+		"Farmer's Delight: até o coração precisa de um toque de comida."
+	]
+	"quest.3B98D4797C00C492.title": "O Rei Anão Esqueleto"
+	"quest.3B98D4797C00C492.quest_desc": [
+		"O &eRei Anão Esqueleto&r governa as fortalezas subterrâneas dos anões."
+		"Derrote-o para obter o &cCoração do Rei Anão&r."
+	]
+	"quest.3CAB53366B184275.title": "Forjar o Coração do Tier II"
+	"quest.3CAB53366B184275.quest_desc": [
+		"No &6Mixer&r: Coração do Rei Anão, liga de andesito, mythril, manasteel, tinta comum, prata do Occultism, item de facção e torta de maçã."
+	]
+	"quest.1CABC71AF09A60B7.title": "Comer o Coração: Tier II"
+	"quest.1CABC71AF09A60B7.quest_desc": [
+		"Alguém do grupo come o coração e todos sobem para o &aTier II - Aprendiz&r."
+		"Lembre: quem come carrega a maldição."
+	]
+	"quest.47FF0B2D7185F617.title": "Começo do Tier II"
+	"quest.47FF0B2D7185F617.quest_desc": [
+		"O grupo está no &aTier II - Aprendiz&r."
+		"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+	]
+	"quest.0E885F597F41B8C0.title": "Latão"
+	"quest.0E885F597F41B8C0.quest_desc": [
+		"Misture cobre e zinco aquecidos no mixer."
+	]
+	"quest.671BD4E1392266A3.title": "Precision Mechanism"
+	"quest.671BD4E1392266A3.quest_desc": [
+		"Sua primeira linha de montagem sequencial."
+	]
+	"quest.20A3640DB58E167D.title": "Mechanical Crafter"
+	"quest.20A3640DB58E167D.quest_desc": [
+		"O Coração III e os equipamentos avançados nascem aqui."
+	]
+	"quest.1D81A4A503A9EB37.title": "Altar Rúnico"
+	"quest.1D81A4A503A9EB37.quest_desc": [
+		"Runas são a linguagem da Botânica."
+	]
+	"quest.18236F78CCBF739D.title": "Uma Runa"
+	"quest.18236F78CCBF739D.quest_desc": [
+		"Qualquer runa serve no coração (exemplo: Água)."
+	]
+	"quest.38F122B21B6E51CC.title": "Tinta Incomum"
+	"quest.38F122B21B6E51CC.quest_desc": [
+		"Ingrediente do Coração III."
+	]
+	"quest.1E1DF71DE8206BCA.title": "Gema Sintonizada"
+	"quest.1E1DF71DE8206BCA.quest_desc": [
+		"Occultism: uma gema que ouve os espíritos."
+	]
+	"quest.6C9CB1287D415BE6.title": "Presa de Troll"
+	"quest.6C9CB1287D415BE6.quest_desc": [
+		"Trolls vivem em florestas, montanhas e neve. Ingrediente do Coração III."
+	]
+	"quest.32E56D57387FA8A5.title": "Metal Sombrio"
+	"quest.32E56D57387FA8A5.quest_desc": [
+		"Born in Chaos: arrancado das criaturas da noite."
+	]
+	"quest.326F030CFD7BB4A5.title": "Eco do Cemitério de Navios"
+	"quest.326F030CFD7BB4A5.quest_desc": [
+		"Aquamirae: o mar gelado guarda ecos de navios afundados."
+	]
+	"quest.0B0D6CAF2F6BB19E.title": "O Fantasma da Capitã Cornelia"
+	"quest.0B0D6CAF2F6BB19E.quest_desc": [
+		"No mar gelado do Aquamirae, a &bCapitã Cornelia&r ainda comanda seu navio."
+		"Derrote-a para obter o &cCoração da Cornelia&r."
+	]
+	"quest.2820CCA849119B77.title": "Elixir Purificador I"
+	"quest.2820CCA849119B77.quest_desc": [
+		"Cura a &cIndigestão&r de quem comeu o Coração II."
+		"No &6Suporte de Poções&r: Poção Estranha + garrafa de mel."
+	]
+	"quest.7F1988C32BAA160D.title": "Forjar o Coração do Tier III"
+	"quest.7F1988C32BAA160D.quest_desc": [
+		"No &6Mechanical Crafter&r: Coração da Cornelia, latão, precision mechanism, runas, tinta incomum, gema sintonizada, metal sombrio, presa de troll, eco do cemitério e item de facção II."
+	]
+	"quest.31B1521C66801A23.title": "Comer o Coração: Tier III"
+	"quest.31B1521C66801A23.quest_desc": [
+		"Alguém do grupo come o coração e todos sobem para o &9Tier III - Cavaleiro&r."
+		"Lembre: quem come carrega a maldição."
+	]
+	"quest.6F1988A3F0639559.title": "Começo do Tier III"
+	"quest.6F1988A3F0639559.quest_desc": [
+		"O grupo está no &9Tier III - Cavaleiro&r."
+		"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+	]
+	"quest.567B5E8FD487D497.title": "Deployers"
+	"quest.567B5E8FD487D497.quest_desc": [
+		"A partir de agora os corações são montados em &6Sequenced Assembly&r."
+	]
+	"quest.62269F1766C0D6A5.title": "Spout"
+	"quest.62269F1766C0D6A5.quest_desc": [
+		"Experiência líquida entra no Coração IV pelo spout."
+	]
+	"quest.61E9EAA7AFF10A98.title": "Experiência Líquida"
+	"quest.61E9EAA7AFF10A98.quest_desc": [
+		"Create: Enchantment Industry."
+	]
+	"quest.14DAF11B680404FB.title": "Elementium"
+	"quest.14DAF11B680404FB.quest_desc": [
+		"Abra o portal dos elfos para trocar manasteel por elementium."
+	]
+	"quest.1E8200C2C76A4281.title": "Tinta Rara"
+	"quest.1E8200C2C76A4281.quest_desc": [
+		"Magias raras liberadas neste tier."
+	]
+	"quest.5D4E5731D6C17A6B.title": "Iesnium"
+	"quest.5D4E5731D6C17A6B.quest_desc": [
+		"Occultism: só espíritos mineradores encontram iesnium."
+	]
+	"quest.4146EEF41C194659.title": "Metal Antigo"
+	"quest.4146EEF41C194659.quest_desc": [
+		"Cataclysm: agora só sai do mixer aquecido."
+	]
+	"quest.1AFB2AEBA65B7A3B.title": "O Ferrous Wroughtnaut"
+	"quest.1AFB2AEBA65B7A3B.quest_desc": [
+		"Opcional: o guardião de ferro das câmaras subterrâneas (Mowzie's Mobs)."
+	]
+	"quest.48B95C90608F35DE.title": "O Rei Morto"
+	"quest.48B95C90608F35DE.quest_desc": [
+		"Nas &7Catacumbas&r (Iron's Spells) repousa o &eRei Morto&r."
+		"Derrote-o para obter o &cCoração do Rei Morto&r."
+	]
+	"quest.0E90352B2CF76358.title": "Elixir Purificador II"
+	"quest.0E90352B2CF76358.quest_desc": [
+		"Cura também o &cCoração de Latão&r (Coração III)."
+		"No &6Suporte de Poções&r: Elixir I + maçã dourada."
+	]
+	"quest.4DB9CA3A8FE90D98.title": "Forjar o Coração do Tier IV"
+	"quest.4DB9CA3A8FE90D98.quest_desc": [
+		"Montagem sequencial: Coração do Rei Morto + elementium, tinta rara, metal antigo, iesnium, item de facção III, experiência líquida e prensa."
+	]
+	"quest.6E964B6088155040.title": "Comer o Coração: Tier IV"
+	"quest.6E964B6088155040.quest_desc": [
+		"Alguém do grupo come o coração e todos sobem para o &6Tier IV - Herói&r."
+		"Lembre: quem come carrega a maldição."
+	]
+	"quest.3AF83DB296D42789.title": "Começo do Tier IV"
+	"quest.3AF83DB296D42789.quest_desc": [
+		"O grupo está no &6Tier IV - Herói&r."
+		"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+	]
+	"quest.26838CCADA0B3647.title": "O Nether, enfim"
+	"quest.26838CCADA0B3647.quest_desc": [
+		"Com o Coração IV o ar do Nether não queima mais."
+	]
+	"quest.00715189257F156B.title": "Blaze Burner"
+	"quest.00715189257F156B.quest_desc": [
+		"Calor superaquecido: a única forma de fazer netherite."
+	]
+	"quest.1F41AA82C98B574E.title": "Netherite pelo Create"
+	"quest.1F41AA82C98B574E.quest_desc": [
+		"Mixer superaquecido: 4 sucatas + 4 ouro."
+	]
+	"quest.434F23D48EE2DA18.title": "Essência de Afrit"
+	"quest.434F23D48EE2DA18.quest_desc": [
+		"Occultism: um ritual perigoso chama o Afrit."
+	]
+	"quest.0565AC7F751304BA.title": "Tinta Épica"
+	"quest.0565AC7F751304BA.quest_desc": [
+		"Magias épicas chegam no Tier V."
+	]
+	"quest.2E652BB32277527D.title": "Ignis"
+	"quest.2E652BB32277527D.quest_desc": [
+		"Cataclysm: o cavaleiro em chamas guarda o ignitium."
+	]
+	"quest.26FBA9C4509FB205.title": "Ignitium"
+	"quest.26FBA9C4509FB205.quest_desc": [
+		"Só no mixer superaquecido."
+	]
+	"quest.65283C24B3F94AE0.title": "O Frostmaw"
+	"quest.65283C24B3F94AE0.quest_desc": [
+		"Mowzie's Mobs: o cristal de gelo dele entra no coração."
+	]
+	"quest.06A287756F226726.title": "Chifre do Krampus"
+	"quest.06A287756F226726.quest_desc": [
+		"Born in Chaos: o Krampus aparece no inverno."
+	]
+	"quest.4BB56356426B119D.title": "Infernum"
+	"quest.4BB56356426B119D.quest_desc": [
+		"Myths & Legends: forjado no calor superaquecido."
+	]
+	"quest.3D58FFD6591DE8F0.title": "O Wither"
+	"quest.3D58FFD6591DE8F0.quest_desc": [
+		"O &8Wither&r (Wither Reincarnated) é o guardião do Tier IV."
+		"Derrote-o para obter o &cCoração do Wither&r."
+	]
+	"quest.442776AE09B63766.title": "Elixir Purificador III"
+	"quest.442776AE09B63766.quest_desc": [
+		"Cura também a &cFebre de Magma&r (Coração IV)."
+		"No &6Suporte de Poções&r: Elixir II + osso congelado (Iron's Spells)."
+	]
+	"quest.0BDF6EE846E0F704.title": "Forjar o Coração do Tier V"
+	"quest.0BDF6EE846E0F704.quest_desc": [
+		"Montagem sequencial: Coração do Wither + netherite, essência de afrit, ignitium, tinta épica, chifre do Krampus, cristal de gelo do Frostmaw, infernum e prensa."
+	]
+	"quest.1C979661703F338B.title": "Comer o Coração: Tier V"
+	"quest.1C979661703F338B.quest_desc": [
+		"Alguém do grupo come o coração e todos sobem para o &cTier V - Campeão&r."
+		"Lembre: quem come carrega a maldição."
+	]
+	"quest.791A9052F59DE32F.title": "Começo do Tier V"
+	"quest.791A9052F59DE32F.quest_desc": [
+		"O grupo está no &cTier V - Campeão&r."
+		"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+	]
+	"quest.4162665ECD1C9FDE.title": "Terrasteel"
+	"quest.4162665ECD1C9FDE.quest_desc": [
+		"Botania: a placa terrestre funde três materiais em um."
+	]
+	"quest.4D076125A894B7DF.title": "Guardião de Gaia"
+	"quest.4D076125A894B7DF.quest_desc": [
+		"Opcional agora, essencial no Tier VI: o Guardião de Gaia."
+	]
+	"quest.3D4DAEF652956E0E.title": "Essência de Marid"
+	"quest.3D4DAEF652956E0E.quest_desc": [
+		"Occultism: o espírito mais forte que se pode invocar."
+	]
+	"quest.73757A95AB16B20B.title": "Um Dragão Adulto"
+	"quest.73757A95AB16B20B.quest_desc": [
+		"Ice and Fire: derrote um dragão (fogo, gelo ou raio). Qualquer coração de dragão serve na receita."
+	]
+	"quest.78A26388A1FEB1D1.title": "Aço de Dragão"
+	"quest.78A26388A1FEB1D1.quest_desc": [
+		"Forja de dragão: aço de dragão de qualquer elemento."
+	]
+	"quest.0202D842462DC6A2.title": "Maledictus"
+	"quest.0202D842462DC6A2.quest_desc": [
+		"Cataclysm: o cursium sai do guerreiro amaldiçoado."
+	]
+	"quest.2D90CAAE4B8C48CC.title": "Cursium"
+	"quest.2D90CAAE4B8C48CC.quest_desc": [
+		"Mixer aquecido."
+	]
+	"quest.6E5BC4E73642998A.title": "O Dragão"
+	"quest.6E5BC4E73642998A.quest_desc": [
+		"Os dragões de &cIce and Fire&r são o desafio do Tier V."
+		"O coração de qualquer dragão adulto (fogo, gelo ou raio) é a base do Coração VI."
+	]
+	"quest.67387B857B926A36.title": "Elixir Purificador IV"
+	"quest.67387B857B926A36.quest_desc": [
+		"Cura também o &cSangue Murcho&r (Coração V)."
+		"No &6Suporte de Poções&r: Elixir III + lágrima de ghast."
+	]
+	"quest.3FEA7BBF3C6948A1.title": "Forjar o Coração do Tier VI"
+	"quest.3FEA7BBF3C6948A1.quest_desc": [
+		"Montagem sequencial: coração de dragão + terrasteel, essência de marid, cursium, aço de dragão, tinta épica e prensa."
+	]
+	"quest.218EBD5226C3D37F.title": "Comer o Coração: Tier VI"
+	"quest.218EBD5226C3D37F.quest_desc": [
+		"Alguém do grupo come o coração e todos sobem para o &5Tier VI - Lenda&r."
+		"Lembre: quem come carrega a maldição."
+	]
+	"quest.02C315BF0367D84D.title": "Começo do Tier VI"
+	"quest.02C315BF0367D84D.quest_desc": [
+		"O grupo está no &5Tier VI - Lenda&r."
+		"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+	]
+	"quest.369DF2407A029A85.title": "Lingote de Gaia"
+	"quest.369DF2407A029A85.quest_desc": [
+		"Do espírito do Guardião de Gaia."
+	]
+	"quest.6C008590EF5FDCE8.title": "Tinta Lendária"
+	"quest.6C008590EF5FDCE8.quest_desc": [
+		"Magias lendárias liberadas."
+	]
+	"quest.244C4561F9605B82.title": "O Leviatã"
+	"quest.244C4561F9605B82.quest_desc": [
+		"Cataclysm: o monstro do abismo guarda o Sacrifício Abissal."
+	]
+	"quest.737EE2652E590191.title": "Sacrifício Abissal"
+	"quest.737EE2652E590191.quest_desc": [
+		"Ingrediente do Coração VII."
+	]
+	"quest.7D2306ACE2A813D1.title": "Essência da Tempestade"
+	"quest.7D2306ACE2A813D1.quest_desc": [
+		"Cataclysm: arrancada da Scylla."
+	]
+	"quest.4CF2A374105CAA79.title": "Estrela do Nether"
+	"quest.4CF2A374105CAA79.quest_desc": [
+		"Mais um Wither."
+	]
+	"quest.39C6AF5E97EDBC1C.title": "Scylla"
+	"quest.39C6AF5E97EDBC1C.quest_desc": [
+		"&9Scylla&r, a senhora das tempestades na cidade afundada (Cataclysm)."
+		"Derrote-a para obter o &cCoração de Scylla&r."
+	]
+	"quest.4E6C814A8551875C.title": "Elixir Purificador V"
+	"quest.4E6C814A8551875C.quest_desc": [
+		"Cura também o &cPeso do Dragão&r (Coração VI)."
+		"No &6Suporte de Poções&r: Elixir IV + ambrosia (Ice and Fire)."
+	]
+	"quest.0FF56608508C5599.title": "Forjar o Coração do Tier VII"
+	"quest.0FF56608508C5599.quest_desc": [
+		"Montagem sequencial: Coração de Scylla + lingote de Gaia, tinta lendária, essência da tempestade, sacrifício abissal, estrela do Nether e prensa."
+	]
+	"quest.7AEEA153BEC22F61.title": "Comer o Coração: Tier VII"
+	"quest.7AEEA153BEC22F61.quest_desc": [
+		"Alguém do grupo come o coração e todos sobem para o &dTier VII - Mito&r."
+		"Lembre: quem come carrega a maldição."
+	]
+	"quest.22C27622F8FE5EB6.title": "Começo do Tier VII"
+	"quest.22C27622F8FE5EB6.quest_desc": [
+		"O grupo está no &dTier VII - Mito&r."
+		"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+	]
+	"quest.271FE285CCC8B9C0.title": "O End"
+	"quest.271FE285CCC8B9C0.quest_desc": [
+		"O End se abre no Tier VII."
+	]
+	"quest.7EFDBEFEEB24B37E.title": "Sopro do Dragão"
+	"quest.7EFDBEFEEB24B37E.quest_desc": [
+		"Ingrediente do Coração VIII."
+	]
+	"quest.71E216C4BBA2E3B2.title": "Guardião do Ender"
+	"quest.71E216C4BBA2E3B2.quest_desc": [
+		"Cataclysm: o núcleo do vazio está com ele."
+	]
+	"quest.56BB1B52ED6947B8.title": "Núcleo do Vazio"
+	"quest.56BB1B52ED6947B8.quest_desc": [
+		"Ingrediente do Coração VIII."
+	]
+	"quest.16DD2A5A10AF6B13.title": "Pele de Dragão"
+	"quest.16DD2A5A10AF6B13.quest_desc": [
+		"Iron's Spells: cai do Dragão do Fim."
+	]
+	"quest.507AF027C23F39B0.title": "Anel do Doppelganger"
+	"quest.507AF027C23F39B0.quest_desc": [
+		"Derrote o Doppelganger Sombrio."
+	]
+	"quest.687D2974A015567B.title": "Cabeça de Gaia"
+	"quest.687D2974A015567B.quest_desc": [
+		"Botania: o Guardião de Gaia II (modo difícil)."
+	]
+	"quest.60684D5F6F027A94.title": "O Dragão do Fim"
+	"quest.60684D5F6F027A94.quest_desc": [
+		"O &5Dragão do Fim&r, agora reforçado pelo Stellarity."
+		"Derrote-o para obter o &cCoração do Dragão do Fim&r."
+	]
+	"quest.36414FB4B13EE5AB.title": "Elixir Purificador VI"
+	"quest.36414FB4B13EE5AB.quest_desc": [
+		"Cura também os &cPulmões Afogados&r (Coração VII)."
+		"No &6Suporte de Poções&r: Elixir V + coração do mar."
+	]
+	"quest.4BA670228063678E.title": "Forjar o Coração do Tier VIII"
+	"quest.4BA670228063678E.quest_desc": [
+		"Montagem sequencial: Coração do Dragão do Fim + sopro do dragão, pele de dragão, núcleo do vazio, anel do Doppelganger, cabeça de Gaia e prensa."
+	]
+	"quest.7DC7ED3CB1245DBE.title": "Comer o Coração: Tier VIII"
+	"quest.7DC7ED3CB1245DBE.quest_desc": [
+		"Alguém do grupo come o coração e todos sobem para o &eTier VIII - Divino&r."
+		"Lembre: quem come carrega a maldição."
+	]
+	"quest.43077CF3E4CFEA1F.title": "Começo do Tier VIII"
+	"quest.43077CF3E4CFEA1F.quest_desc": [
+		"O grupo está no &eTier VIII - Divino&r."
+		"Siga as trilhas de cada mod. Todas levam aos ingredientes do próximo coração."
+	]
+	"quest.5198DB6539E0C7C3.title": "Elixir Purificador VII"
+	"quest.5198DB6539E0C7C3.quest_desc": [
+		"Cura o &cVazio Interior&r (Coração VIII) e todas as outras maldições. No &6Suporte de Poções&r: Elixir VI + estrela do Nether."
+	]
+	"quest.0179B488D5D00F0D.title": "O Obsidilith"
+	"quest.0179B488D5D00F0D.quest_desc": [
+		"Nas ilhas do End, o &8Obsidilith&r espera."
+		"É o &cboss final&r: derrote-o no Tier VIII para a vitória."
+	]
+	"quest.70DF3AEAD18C83B0.title": "Vitória"
+	"quest.70DF3AEAD18C83B0.quest_desc": [
+		"O Obsidilith caiu. A jornada da Forja de Corações está completa."
+		"Parabéns ao grupo!"
+	]
+	"chapter.06C1EFC44CDD5926.title": "Prólogo: A Forja de Corações"
+	"chapter.06C1EFC44CDD5926.chapter_subtitle": [
+		"Leia antes de começar"
+	]
+	"chapter.1DA32494D47A12BE.title": "&7Tier I - Andarilho"
+	"chapter.1DA32494D47A12BE.chapter_subtitle": [
+		"Objetivo: forjar e comer o Coração do Tier II"
+	]
+	"chapter.55665AA5ECC6F688.title": "&aTier II - Aprendiz"
+	"chapter.55665AA5ECC6F688.chapter_subtitle": [
+		"Objetivo: forjar e comer o Coração do Tier III"
+	]
+	"chapter.3B5BFF1D608CAEA3.title": "&9Tier III - Cavaleiro"
+	"chapter.3B5BFF1D608CAEA3.chapter_subtitle": [
+		"Objetivo: forjar e comer o Coração do Tier IV"
+	]
+	"chapter.1DF09911BFB2DB44.title": "&6Tier IV - Herói"
+	"chapter.1DF09911BFB2DB44.chapter_subtitle": [
+		"Objetivo: forjar e comer o Coração do Tier V"
+	]
+	"chapter.4B231EE8080BB1F6.title": "&cTier V - Campeão"
+	"chapter.4B231EE8080BB1F6.chapter_subtitle": [
+		"Objetivo: forjar e comer o Coração do Tier VI"
+	]
+	"chapter.3DE2CAFBB6042D53.title": "&5Tier VI - Lenda"
+	"chapter.3DE2CAFBB6042D53.chapter_subtitle": [
+		"Objetivo: forjar e comer o Coração do Tier VII"
+	]
+	"chapter.23A05F9282CD412D.title": "&dTier VII - Mito"
+	"chapter.23A05F9282CD412D.chapter_subtitle": [
+		"Objetivo: forjar e comer o Coração do Tier VIII"
+	]
+	"chapter.61DC426C1D42893F.title": "&eTier VIII - Divino"
+	"chapter.61DC426C1D42893F.chapter_subtitle": [
+		"O desafio final"
+	]
+}

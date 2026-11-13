@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_bosses"
+	group: "1B6781BE25FE5814"
+	icon: {
+		count: 1
+		id: "comamigos_balance:obsidilith_heart"
+	}
+	id: "68AB395BBB8ADD4B"
+	order_index: 35
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4C92F85B977167DD"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "comamigos_balance:obsidilith_heart"
+			}
+			tasks: [
+				{
+					id: "12AB5740C442B9AF"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "497C42C8362213C4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Bestiário dos Reis"
+			description: [
+				"&7Há criaturas que não pertencem a nenhuma ordem, nenhum culto, nenhuma cidade afundada."
+				"&7Dormem em torres geladas, ninhos de areia, arenas de basalto e ilhas no fim do mundo,"
+				"&7e cada uma guarda no peito um &ccoração&7 que ainda pulsa depois da queda."
+				""
+				"&7Estes corações são troféus: podem ser comidos, e dão força ao preço de alguma maldição."
+				"&7Os chefes deste bestiário ensinam a esquivar: há uma tecla de &6rolamento&7 (2 cargas) nos controles."
+				"&7O último nome desta lista é o Obsidilith. Quem o derrubar no Tier VIII encerra a crônica."
+				""
+				"&7Comece pelo norte gelado: Skor, o Yeti, espera nas planícies nevadas."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Os senhores que o mundo não esqueceu"
+	]
+}

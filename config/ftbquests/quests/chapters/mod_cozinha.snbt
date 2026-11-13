@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_cozinha"
+	group: "4E6D0897A16A0238"
+	icon: {
+		count: 1
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "79955026217BFF7A"
+	order_index: 43
+	quest_links: [ ]
+	quests: [
+		{
+			id: "454912634DAC2130"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "farmersdelight:cooking_pot"
+			}
+			tasks: [
+				{
+					id: "73938B806BB2D3B9"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "16040BD773DA5F7C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Livro da Despensa"
+			description: [
+				"&7Espadas vencem batalhas, mas é a panela que vence o inverno."
+				"&7Este caderno reúne o que os cozinheiros, pescadores e caçadores do reino aprenderam"
+				"&7a duras penas: como plantar, cortar, cozinhar, pescar e beber sem adoecer."
+				""
+				"&7Comece pela água limpa, por uma faca de sílex e por uma vara de ferro."
+				"&7Guarde na memória: a &6Torta de Maçã&7 que sai desta cozinha é ingrediente do &6Coração do Tier II&7."
+			]
+		}
+	]
+	title: "Introdução"
+	subtitle: [
+		"Panelas, varas e trilhas de caça"
+	]
+}

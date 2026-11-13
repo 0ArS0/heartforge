@@ -1,0 +1,13 @@
+name = "connector-2.0.0-beta.17+1.21.1-full"
+filename = "connector-2.0.0-beta.17+1.21.1-full.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/u58R1TMW/versions/IITF0PRC/connector-2.0.0-beta.17%2B1.21.1-full.jar"
+hash-format = "sha1"
+hash = "15e652d3628b1bcb644b93576fcab154496f770a"
+
+[update]
+[update.modrinth]
+mod-id = "u58R1TMW"
+version = "IITF0PRC"
