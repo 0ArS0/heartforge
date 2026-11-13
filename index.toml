@@ -4439,6 +4439,10 @@ file = "mods/darkdoppelganger-4.1.1-1.21.1.jar"
 hash = "c21570c6805e3c8ea9e5ee875f4b30f9e80af0acdda67fd2f01dc9d3c4d1abdf"
 
 [[files]]
+file = "mods/diegesis-neoforge-1.21.1-1.0.0-beta.7.jar"
+hash = "b1dd47b420115f39da2264093e90bb0dae3bef91589f80fe9904138268861544"
+
+[[files]]
 file = "mods/dungeon_difficulty-neoforge-3.9.2+1.21.1.pw.toml"
 hash = "6bc10ade3c9dbb59482709841f37421fb30d0212d939a7601d373613c178d7f2"
 metafile = true
@@ -4583,6 +4587,10 @@ metafile = true
 file = "mods/handcrafted-neoforge-1.21.1-4.0.3.pw.toml"
 hash = "262fddd60c485d97421c66ed9ca662bc6650801c3ee846de00f0c08b18205fce"
 metafile = true
+
+[[files]]
+file = "mods/handson_delight-neoforge-1.21.1-1.3.0.jar"
+hash = "18d586d964bd4b7bb7e37f9b0bbfae1dff34eca8cd4ae10980d57b5e51adaba2"
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
