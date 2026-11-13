@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_iceandfire_missoes"
-	group: "6BE2CA13D0D2A15E"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "iceandfire:dragonsteel_fire_ingot"
 	}
 	id: "1708A201EB8602CC"
-	order_index: 16
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{

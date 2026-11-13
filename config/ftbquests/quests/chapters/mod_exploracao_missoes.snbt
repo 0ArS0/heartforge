@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_exploracao_missoes"
-	group: "48BF15FF65B85345"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "minecraft:filled_map"
 	}
 	id: "09AB6A7F0A40907B"
-	order_index: 24
+	order_index: 25
 	quest_links: [ ]
 	quests: [
 		{

@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_dwarfs_missoes"
-	group: "7E685056D4C815C1"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "dwarfs_tyranny:mythril_ingot"
 	}
 	id: "1648C74FA3A5A7D4"
-	order_index: 23
+	order_index: 24
 	quest_links: [ ]
 	quests: [
 		{

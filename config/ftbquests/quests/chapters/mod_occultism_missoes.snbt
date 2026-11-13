@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_occultism_missoes"
-	group: "46A9BB1E2D819F6E"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "occultism:dictionary_of_spirits"
 	}
 	id: "0F90D54839B84FDF"
-	order_index: 13
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{

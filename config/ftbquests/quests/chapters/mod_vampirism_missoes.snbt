@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_vampirism_missoes"
-	group: "3147F27B282022B5"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "vampirism:vampire_fang"
 	}
 	id: "34925CE37F7AE381"
-	order_index: 14
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{

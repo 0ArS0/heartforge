@@ -800,6 +800,277 @@
 		""
 		"&6Objetivo:&r Derrotem o &8Obsidilith&r. Depois disso, a jornada está completa: &6parabéns à companhia!"
 	]
+	"quest.10814A7B91977A1A.title": "Desafios"
+	"quest.10814A7B91977A1A.quest_desc": [
+		"&7A campanha leva a companhia até o Obsidilith. Os desafios são outra coisa: feitos que ninguém pede, que dão trabalho"
+		"&7de verdade e que pagam como trabalho de verdade. Bolsas raras e acima, brasas de talento, às vezes um Tomo do Esquecimento."
+		""
+		"&7Acima da linha, os &adesafios simples&7: rápidos, com recompensas comuns. Abaixo, os &6grandes desafios&7."
+		"&7Cada fileira se abre quando o grupo alcança o tier dela. Nenhum desafio é exigido para avançar."
+	]
+	"quest.13547326D03BEA69.title": "&7Tier I"
+	"quest.13547326D03BEA69.quest_desc": [
+		"&7Os desafios desta fileira se abrem no &7Tier I&7."
+	]
+	"reward.1CE40061EB6C1A02.title": "1 brasa de talento (+1 na Árvore de Talentos)"
+	"quest.7F9B2C1122FE35D8.title": "Cemitério de Coroas"
+	"quest.7F9B2C1122FE35D8.quest_subtitle": "&6Desafio"
+	"quest.7F9B2C1122FE35D8.quest_desc": [
+		"&7Cada cidade anã morta tem o seu rei, e cada rei acha que é o último."
+		"&7Prove o contrário cinco vezes."
+		""
+		"&6Desafio:&r Derrote &65 Reis Anões Esqueletos&r. Cada cidade enterrada guarda um."
+	]
+	"quest.0E04B7BC6CDD3089.title": "Mesa de Rei"
+	"quest.0E04B7BC6CDD3089.quest_subtitle": "&6Desafio"
+	"quest.0E04B7BC6CDD3089.quest_desc": [
+		"&7Uma companhia que come bem luta melhor. Uma que come assim nem precisa lutar: os inimigos vêm pedir lugar à mesa."
+		""
+		"&6Desafio:&r Prepare os &6cinco banquetes&r da cozinha: frango assado, abóbora recheada, presunto glaceado, torta de pastor e rolinhos de arroz."
+	]
+	"quest.06839FC071528E5C.title": "O Primeiro Engenho"
+	"quest.06839FC071528E5C.quest_subtitle": "&6Desafio"
+	"quest.06839FC071528E5C.quest_desc": [
+		"&7Um moinho é um brinquedo. Oito rodas d'água movendo prensas é uma oficina."
+		""
+		"&6Desafio:&r Junte &6128 Ligas de Andesito&r, &68 Rodas d'Água&r e &64 Prensas Mecânicas&r."
+	]
+	"quest.4E8CBC62AAA240A0.title": "O Pescador Paciente"
+	"quest.4E8CBC62AAA240A0.quest_subtitle": "&aDesafio simples"
+	"quest.4E8CBC62AAA240A0.quest_desc": [
+		"&7Nem toda vitória é com espada. Algumas são com linha, isca e uma tarde inteira à beira do rio."
+		""
+		"&aDesafio simples:&r Pesque &616 bacalhaus&r e &616 salmões&r."
+	]
+	"quest.03C3F53221CFF59D.title": "Noite de Vigília"
+	"quest.03C3F53221CFF59D.quest_subtitle": "&aDesafio simples"
+	"quest.03C3F53221CFF59D.quest_desc": [
+		"&7Toda noite eles voltam. Toda noite alguém precisa ficar acordado."
+		""
+		"&aDesafio simples:&r Derrote &630 zumbis&r e &620 esqueletos&r."
+	]
+	"quest.40D951380D90FD04.title": "&aTier II"
+	"quest.40D951380D90FD04.quest_desc": [
+		"&7Os desafios desta fileira se abrem no &aTier II&7."
+	]
+	"reward.2E539AD4B627926D.title": "1 brasa de talento (+1 na Árvore de Talentos)"
+	"quest.3AD46185F85041F2.title": "Herbário Místico"
+	"quest.3AD46185F85041F2.quest_subtitle": "&6Desafio"
+	"quest.3AD46185F85041F2.quest_desc": [
+		"&7As flores místicas crescem de todas as dezesseis cores. Quase ninguém tem paciência de achar todas."
+		""
+		"&6Desafio:&r Junte &64 pétalas místicas de cada uma das 16 cores&r."
+	]
+	"reward.5ECE178EAA5D21B5.title": "1 brasa de talento (+1 na Árvore de Talentos)"
+	"quest.1AA4CAD7FA267222.title": "A Noite Sem Fim"
+	"quest.1AA4CAD7FA267222.quest_subtitle": "&6Desafio"
+	"quest.1AA4CAD7FA267222.quest_desc": [
+		"&7Os vampiros são poucos agora. Isso não quer dizer que sejam fáceis de achar, nem de matar."
+		""
+		"&6Desafio:&r Derrote &640 vampiros&r e &65 vampiros avançados&r."
+	]
+	"quest.75A6D8A077CE5013.title": "O Relojoeiro"
+	"quest.75A6D8A077CE5013.quest_subtitle": "&6Desafio"
+	"quest.75A6D8A077CE5013.quest_desc": [
+		"&7Um mecanismo de precisão já é difícil. Trinta e dois é uma linha de montagem que funciona sem você."
+		""
+		"&6Desafio:&r Junte &632 Mecanismos de Precisão&r e &68 Blocos de Latão&r. Dica: monte a esteira de sequência."
+	]
+	"quest.6840C699A91EBE5C.title": "A Horta da Companhia"
+	"quest.6840C699A91EBE5C.quest_subtitle": "&aDesafio simples"
+	"quest.6840C699A91EBE5C.quest_desc": [
+		"&7Exército de barriga vazia não marcha. Uma horta de verdade alimenta a companhia por semanas."
+		""
+		"&aDesafio simples:&r Colha &632 repolhos, tomates, cebolas e arroz&r."
+	]
+	"quest.5DA263BD16D99356.title": "Teias e Mais Teias"
+	"quest.5DA263BD16D99356.quest_subtitle": "&aDesafio simples"
+	"quest.5DA263BD16D99356.quest_desc": [
+		"&7Nas cavernas de ametista as aranhas fazem ninho. Os cristais brilham bonito mesmo assim."
+		""
+		"&aDesafio simples:&r Derrote &625 aranhas&r e junte &616 fragmentos de ametista&r."
+	]
+	"quest.1C9E1300FF933103.title": "&9Tier III"
+	"quest.1C9E1300FF933103.quest_desc": [
+		"&7Os desafios desta fileira se abrem no &9Tier III&7."
+	]
+	"reward.47C49E4DF76ECA32.title": "2 brasas de talento (+2 na Árvore de Talentos)"
+	"quest.22E1DB6167A4FC57.title": "Galeria de Troféus"
+	"quest.22E1DB6167A4FC57.quest_subtitle": "&6Desafio"
+	"quest.22E1DB6167A4FC57.quest_desc": [
+		"&7Há quem coma os corações. Há quem os pendure na parede. Esta é a parede."
+		""
+		"&6Desafio:&r Tenha ao mesmo tempo os corações do &6Rei Anão&r, do &6Invocador Supremo&r, do &6Charro Negro&r, da &6Cornelia&r, de &6Skor&r e da &6Rainha das Orquídeas&r. Não precisam ser gastos."
+	]
+	"reward.4D14EE0AFA728781.title": "1 brasa de talento (+1 na Árvore de Talentos)"
+	"quest.3040031B8FB3CD1B.title": "Presas de Pedra"
+	"quest.3040031B8FB3CD1B.quest_subtitle": "&6Desafio"
+	"quest.3040031B8FB3CD1B.quest_desc": [
+		"&7Os trolls viram pedra ao sol. O Colosso Ferroso já é de ferro. Nenhum dos dois entende o recado na primeira vez."
+		""
+		"&6Desafio:&r Derrote &610 trolls&r e o &6Colosso Ferroso&r duas vezes."
+	]
+	"quest.22503954DF3E4104.title": "Olhos do Vazio"
+	"quest.22503954DF3E4104.quest_subtitle": "&aDesafio simples"
+	"quest.22503954DF3E4104.quest_desc": [
+		"&7Os andarilhos do vazio guardam pérolas no peito. Dezesseis pérolas é muita gente alta irritada."
+		""
+		"&aDesafio simples:&r Junte &616 pérolas de Ender&r."
+	]
+	"quest.27592BC1E9997FF5.title": "Silêncio Antes do Estouro"
+	"quest.27592BC1E9997FF5.quest_subtitle": "&aDesafio simples"
+	"quest.27592BC1E9997FF5.quest_desc": [
+		"&7O som é sempre o mesmo, e sempre tarde demais. Aprenda a ouvir antes."
+		""
+		"&aDesafio simples:&r Derrote &625 creepers&r."
+	]
+	"quest.7CD24398D7E23DD7.title": "&6Tier IV"
+	"quest.7CD24398D7E23DD7.quest_desc": [
+		"&7Os desafios desta fileira se abrem no &6Tier IV&7."
+	]
+	"reward.52331C174A083219.title": "2 brasas de talento (+2 na Árvore de Talentos)"
+	"quest.01A848E6D90CE60A.title": "A Tripla Coroa"
+	"quest.01A848E6D90CE60A.quest_subtitle": "&6Desafio"
+	"quest.01A848E6D90CE60A.quest_desc": [
+		"&7Invocar o Wither uma vez é coragem. Três vezes é teimosia, e teimosia ganha guerras."
+		""
+		"&6Desafio:&r Derrote o &8Wither&r três vezes."
+	]
+	"reward.5F0C9C3F21A04DED.title": "2 brasas de talento (+2 na Árvore de Talentos)"
+	"quest.5E922CD1D49D1ACB.title": "O Campeão Caído, Duas Vezes"
+	"quest.5E922CD1D49D1ACB.quest_subtitle": "&6Desafio"
+	"quest.5E922CD1D49D1ACB.quest_desc": [
+		"&7O Minotauro sempre volta para o centro do labirinto. A companhia também."
+		""
+		"&6Desafio:&r Derrote o &6Minotauro&r duas vezes."
+	]
+	"quest.2DFE7167F993CE53.title": "Forja de Netherita"
+	"quest.2DFE7167F993CE53.quest_subtitle": "&6Desafio"
+	"quest.2DFE7167F993CE53.quest_desc": [
+		"&7Netherita só sai do misturador superaquecido, e sai devagar. Dois blocos é um ano de trabalho para um ferreiro comum."
+		""
+		"&6Desafio:&r Junte &62 Blocos de Netherita&r e um &6Tanque de Netherita&r."
+	]
+	"quest.091D9617B113AF38.title": "Varas de Fogo"
+	"quest.091D9617B113AF38.quest_subtitle": "&aDesafio simples"
+	"quest.091D9617B113AF38.quest_desc": [
+		"&7Na fortaleza do Nether o fogo tem corpo e o corpo tem ossos de chama."
+		""
+		"&aDesafio simples:&r Junte &616 varas de blaze&r e &68 cremes de magma&r."
+	]
+	"quest.5A022CF1315F5F72.title": "Crânios Negros"
+	"quest.5A022CF1315F5F72.quest_subtitle": "&aDesafio simples"
+	"quest.5A022CF1315F5F72.quest_desc": [
+		"&7Os esqueletos negros guardam as fortalezas e, às vezes, a própria cabeça."
+		""
+		"&aDesafio simples:&r Derrote &630 esqueletos wither&r."
+	]
+	"quest.6E8B7E3D0EE4A833.title": "&cTier V"
+	"quest.6E8B7E3D0EE4A833.quest_desc": [
+		"&7Os desafios desta fileira se abrem no &cTier V&7."
+	]
+	"reward.7A911AEF1707757B.title": "3 brasas de talento (+3 na Árvore de Talentos)"
+	"quest.7243D347E9C829AC.title": "Matador de Dragões"
+	"quest.7243D347E9C829AC.quest_subtitle": "&6Desafio"
+	"quest.7243D347E9C829AC.quest_desc": [
+		"&7Fogo, gelo e raio. Os três dragões nunca dividem o mesmo céu, e cada um acha que é o único que importa."
+		""
+		"&6Desafio:&r Derrote um dragão de &cfogo&r, um de &bgelo&r e um de &eraio&r."
+	]
+	"reward.7D324F8BD8523B5F.title": "2 brasas de talento (+2 na Árvore de Talentos)"
+	"quest.4E5F979E6658CC3C.title": "Terra Viva"
+	"quest.4E5F979E6658CC3C.quest_subtitle": "&6Desafio"
+	"quest.4E5F979E6658CC3C.quest_desc": [
+		"&7O terrasteel é mana e metal fundidos sob o céu. Um bloco já é raro; quatro é um jardim inteiro dedicado a isso."
+		""
+		"&6Desafio:&r Junte &64 Blocos de Terrasteel&r e &62 Lingotes de Gaia&r."
+	]
+	"quest.18D1D67BF9A6A819.title": "Lágrimas no Fogo"
+	"quest.18D1D67BF9A6A819.quest_subtitle": "&aDesafio simples"
+	"quest.18D1D67BF9A6A819.quest_desc": [
+		"&7Os ghasts choram quando morrem. Quem os derruba aprende a pegar as lágrimas antes que caiam na lava."
+		""
+		"&aDesafio simples:&r Junte &68 lágrimas de ghast&r."
+	]
+	"quest.2755B75A7EF67A1F.title": "Fim da Patrulha"
+	"quest.2755B75A7EF67A1F.quest_subtitle": "&aDesafio simples"
+	"quest.2755B75A7EF67A1F.quest_desc": [
+		"&7As patrulhas dos saqueadores andam armadas e em bando. Quebre a patrulha e o bando se desfaz."
+		""
+		"&aDesafio simples:&r Derrote &620 saqueadores&r e &62 evocadores&r."
+	]
+	"quest.1C515189775191B2.title": "&5Tier VI"
+	"quest.1C515189775191B2.quest_desc": [
+		"&7Os desafios desta fileira se abrem no &5Tier VI&7."
+	]
+	"reward.6A5407D51AEC1CC4.title": "3 brasas de talento (+3 na Árvore de Talentos)"
+	"quest.4EEAF75C97664641.title": "Sobrevivente do Cataclismo"
+	"quest.4EEAF75C97664641.quest_subtitle": "&6Desafio"
+	"quest.4EEAF75C97664641.quest_desc": [
+		"&7Sete titãs dormiam sob o mundo. A companhia acordou todos, um por um, e saiu viva de cada quarto."
+		""
+		"&6Desafio:&r Derrote os sete titãs: &6Ignis, Monstruosidade de Netherita, Arauto, Leviatã, Remanescente Antigo, Maledictus&r e &6Scylla&r."
+	]
+	"quest.749E5E83CB145084.title": "Arsenal Lendário"
+	"quest.749E5E83CB145084.quest_subtitle": "&6Desafio"
+	"quest.749E5E83CB145084.quest_desc": [
+		"&7Tinta lendária é escrita com o que sobra de uma lenda. Oito frascos é muita lenda."
+		""
+		"&6Desafio:&r Junte &68 Tintas Lendárias&r, um &6Bloco de Ignitium&r e um &6Bloco de Cursium&r."
+	]
+	"quest.1F172D480EE206A9.title": "Pedras do Mar"
+	"quest.1F172D480EE206A9.quest_subtitle": "&aDesafio simples"
+	"quest.1F172D480EE206A9.quest_desc": [
+		"&7Os templos do mar são feitos de uma pedra que só os guardiões sabem cortar. Ou sabiam."
+		""
+		"&aDesafio simples:&r Junte &664 fragmentos de prismarinho&r e derrote &620 afogados&r."
+	]
+	"quest.6C47CA292E49F033.title": "&dTier VII"
+	"quest.6C47CA292E49F033.quest_desc": [
+		"&7Os desafios desta fileira se abrem no &dTier VII&7."
+	]
+	"reward.344D86F7D9E1E054.title": "3 brasas de talento (+3 na Árvore de Talentos)"
+	"quest.15E093067C5033D8.title": "O Fim, Outra Vez"
+	"quest.15E093067C5033D8.quest_subtitle": "&6Desafio"
+	"quest.15E093067C5033D8.quest_desc": [
+		"&7O dragão do End renasce quando chamado. A companhia chamou três vezes, só para ter certeza."
+		""
+		"&6Desafio:&r Derrote o &5Dragão do End&r três vezes e guarde o &5Ovo do Dragão&r."
+	]
+	"quest.60977B8FA7C19E33.title": "Cascas do Fim"
+	"quest.60977B8FA7C19E33.quest_subtitle": "&aDesafio simples"
+	"quest.60977B8FA7C19E33.quest_desc": [
+		"&7As cidades do End flutuam em silêncio. Os shulkers não são silenciosos com quem chega perto."
+		""
+		"&aDesafio simples:&r Junte &68 cascas de shulker&r e &632 frutas do coro&r."
+	]
+	"quest.72AFF2C75913BD2F.title": "&eTier VIII"
+	"quest.72AFF2C75913BD2F.quest_desc": [
+		"&7Os desafios desta fileira se abrem no &eTier VIII&7."
+	]
+	"reward.13596C941BC0B3CF.title": "5 brasas de talento (+5 na Árvore de Talentos)"
+	"quest.5E92EB04A0C74709.title": "Os Grandes Ausentes"
+	"quest.5E92EB04A0C74709.quest_subtitle": "&6Desafio"
+	"quest.5E92EB04A0C74709.quest_desc": [
+		"&7Quatro guardiões que ninguém mandou vigiar nada, e que ninguém conseguiu tirar do lugar. Até agora."
+		""
+		"&6Desafio:&r Derrote o &bLich Noturno&r, a &cManopla do Nether&r, a &5Flor do Vazio&r e o &8Obsidilith&r."
+	]
+	"reward.7FABA3089D7226F3.title": "3 brasas de talento (+3 na Árvore de Talentos)"
+	"quest.59F5E8E27EB7F1D6.title": "Relíquias Impossíveis"
+	"quest.59F5E8E27EB7F1D6.quest_subtitle": "&6Desafio"
+	"quest.59F5E8E27EB7F1D6.quest_desc": [
+		"&7Coisas que o mundo não deixa fazer duas vezes. A companhia fez duas vezes, e guardou."
+		""
+		"&6Desafio:&r Junte &62 Faróis&r, um &6Conduíte&r, &62 Maçãs Douradas Encantadas&r e &63 Totens da Imortalidade&r."
+	]
+	"quest.76E5B2074450681B.title": "Cristais de Reserva"
+	"quest.76E5B2074450681B.quest_subtitle": "&aDesafio simples"
+	"quest.76E5B2074450681B.quest_desc": [
+		"&7Quem já invocou um dragão sabe: sempre bom ter quatro cristais guardados, só por precaução."
+		""
+		"&aDesafio simples:&r Faça &64 cristais do End&r."
+	]
 	"quest.44056650B19C5EB6.title": "Caçada: Rei Anão Esqueleto"
 	"quest.44056650B19C5EB6.quest_desc": [
 		"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
@@ -9365,25 +9636,7 @@
 	"reward.30FF429F39BD8087.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.7051ACDBCAC1776E.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.5E87186E345D8596.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
-	"chapter_group.60FEF54FAB43A476.title": "&6Engrenagens e Vapor"
-	"chapter_group.3B08ACB5CE59F3E7.title": "&6Engenhocas Avançadas"
-	"chapter_group.0BD654FB0C580B11.title": "&aA Magia das Flores"
-	"chapter_group.5955ECC104DC966A.title": "&dArtes Arcanas"
-	"chapter_group.46A9BB1E2D819F6E.title": "&5O Oculto"
-	"chapter_group.3147F27B282022B5.title": "&4Vampiros e Caçadores"
-	"chapter_group.4420EA9AE6BA168A.title": "&8Lobisomens"
-	"chapter_group.6BE2CA13D0D2A15E.title": "&cFeras de Gelo e Fogo"
-	"chapter_group.3BC9864E9D9AF49B.title": "&2Feras e Colossos"
-	"chapter_group.25796BB343F30024.title": "&bO Mar Gelado"
-	"chapter_group.0E0AC8A91F88F063.title": "&4Os Titãs Adormecidos"
-	"chapter_group.13EF259E1ADFAB3C.title": "&6A Noite Podre"
-	"chapter_group.3DAD9C4C9DD26814.title": "&eMitos e Lendas"
-	"chapter_group.1B6781BE25FE5814.title": "&cOs Grandes Chefes"
-	"chapter_group.7E685056D4C815C1.title": "&7Os Reinos Anões"
-	"chapter_group.48BF15FF65B85345.title": "&2Exploração"
-	"chapter_group.1D5EF08E4C981320.title": "&5O End"
-	"chapter_group.4E6D0897A16A0238.title": "&eCozinha, Campo e Pesca"
-	"chapter_group.0011E6E41EF0DECD.title": "&fEquipamento e Utilidades"
+	"chapter_group.429D481FF148D2D9.title": "Guias dos Mods"
 	"chapter.06C1EFC44CDD5926.title": "Prólogo: A Forja de Corações"
 	"chapter.06C1EFC44CDD5926.chapter_subtitle": [
 		"Leia antes de começar"
@@ -9419,6 +9672,10 @@
 	"chapter.61DC426C1D42893F.title": "&eTier VIII - Divino"
 	"chapter.61DC426C1D42893F.chapter_subtitle": [
 		"O desafio final"
+	]
+	"chapter.0FBC3EDAFAE435D5.title": "&6Desafios"
+	"chapter.0FBC3EDAFAE435D5.chapter_subtitle": [
+		"Feitos difíceis para quem quer mais: nada aqui é obrigatório"
 	]
 	"chapter.39913596642D614B.title": "&6Engrenagens e Vapor"
 	"chapter.39913596642D614B.chapter_subtitle": [

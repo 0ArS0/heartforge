@@ -16,6 +16,49 @@
   "lookup_history": [
     {
       "type": "item",
+      "id": "born_in_chaos_v1:dark_metal_ingot",
+      "amount": 9
+    },
+    "item:comamigos_balance:boss_compass",
+    "item:create:mechanical_mixer",
+    "item:create:whisk",
+    {
+      "type": "item",
+      "id": "vampirism:garlic",
+      "amount": 7
+    },
+    "item:born_in_chaos_v1:evilometer",
+    {
+      "type": "item",
+      "id": "minecraft:raw_iron",
+      "amount": 29
+    },
+    "item:minecraft:blast_furnace",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:pileof_dark_metal",
+      "amount": 10
+    },
+    "item:born_in_chaos_v1:dark_metal_nugget",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:spiritual_gingerbread",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:ethereal_spirit",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:spiritual_dust",
+      "amount": 6
+    },
+    "item:create:goggles",
+    "item:create:wrench",
+    {
+      "type": "item",
       "id": "born_in_chaos_v1:diamond_termite_shard",
       "amount": 2
     },
@@ -55,18 +98,10 @@
     },
     "item:born_in_chaos_v1:orbofthe_summoner",
     "item:born_in_chaos_v1:empty_fel_lamp",
-    "item:create:whisk",
-    "item:create:mechanical_mixer",
     "item:create:hand_crank",
     "item:create:mechanical_press",
     "item:create:depot",
-    "item:create:wrench",
     "item:comamigos_balance:tier_heart_2",
-    {
-      "type": "item",
-      "id": "born_in_chaos_v1:pileof_dark_metal",
-      "amount": 9
-    },
     "item:sophisticatedstorage:storage_io",
     "item:sophisticatedstorage:storage_input",
     "item:sophisticatedstorage:storage_output",
@@ -107,11 +142,6 @@
     },
     "item:biomeswevegone:soul_fruit",
     "item:born_in_chaos_v1:corpse_maggot",
-    {
-      "type": "item",
-      "id": "born_in_chaos_v1:ethereal_spirit",
-      "amount": 10
-    },
     "item:minecraft:shield",
     "item:minecraft:polished_andesite",
     "item:quark:andesite_bricks",
@@ -138,16 +168,10 @@
     "item:born_in_chaos_v1:armor_plate_from_dark_metal",
     {
       "type": "item",
-      "id": "born_in_chaos_v1:spiritual_dust",
-      "amount": 4
-    },
-    {
-      "type": "item",
       "id": "born_in_chaos_v1:monster_flesh",
       "amount": 6
     },
     "item:born_in_chaos_v1:gnawed_bones",
-    "item:born_in_chaos_v1:dark_metal_ingot",
     {
       "type": "item",
       "id": "born_in_chaos_v1:pieceofdarkmetal",
@@ -218,7 +242,6 @@
     "item:comamigos_balance:purifying_elixir_3",
     "item:comamigos_balance:purifying_elixir_2",
     "item:comamigos_balance:purifying_elixir_1",
-    "item:comamigos_balance:boss_compass",
     [
       "item:comamigos_balance:boss_compass",
       "item:comamigos_balance:boss_compass_attuned"
@@ -257,11 +280,24 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "create:crafting/kinetics/mechanical_mixer",
+    "create:crafting/kinetics/whisk",
+    "born_in_chaos_v1:evilometer_craft",
+    "born_in_chaos_v1:dark_metal_nugget_craft",
+    "minecraft:blast_furnace",
+    "iceandfire:silver_pickaxe",
+    "create:crafting/kinetics/goggles",
+    "create:crafting/kinetics/wrench",
+    "born_in_chaos_v1:pileof_dark_metal_d",
+    "born_in_chaos_v1:spiritual_gingerbread_craft",
+    "born_in_chaos_v1:spiritual_dust_k",
+    "minecraft:bone_meal",
+    "biomeswevegone:zelkova_planks",
+    "iceandfire:silver_axe",
     "subwild:gravel",
     "minecraft:torch",
     "minecraft:iron_pickaxe",
     "quark:tweaks/crafting/utility/better_stone_tools/hoe",
-    "iceandfire:silver_axe",
     "minecraft:writable_book",
     "minecraft:book",
     "born_in_chaos_v1:phantom_powder_k",
@@ -273,14 +309,12 @@
     "create:crafting/materials/andesite_alloy_from_zinc",
     "quark:tweaks/crafting/utility/better_stone_tools/axe",
     "create:crafting/materials/zinc_nugget_from_decompacting",
-    "born_in_chaos_v1:pileof_dark_metal_d",
     "quark:tools/crafting/seed_pouch",
     "sophisticatedstorage:storage_link",
     "minecraft:repeater",
     "minecraft:redstone_torch",
     "sophisticatedstorage:generic_barrel",
     "sophisticatedstorage:storage_tool",
-    "biomeswevegone:zelkova_planks",
     "sophisticatedstorage:decoration_table",
     "sophisticatedstorage:upgrade_base",
     "minecraft:iron_shovel",
@@ -290,7 +324,6 @@
     "simplyswords:iron_longsword",
     "minecraft:iron_axe",
     "minecraft:furnace",
-    "minecraft:bone_meal",
     "werewolves:bone",
     "minecraft:iron_ingot_from_iron_block",
     "minecraft:blaze_powder",

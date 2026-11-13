@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_bic_missoes"
-	group: "13EF259E1ADFAB3C"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "born_in_chaos_v1:dark_metal_ingot"
 	}
 	id: "60E021B38A174078"
-	order_index: 20
+	order_index: 21
 	quest_links: [ ]
 	quests: [
 		{

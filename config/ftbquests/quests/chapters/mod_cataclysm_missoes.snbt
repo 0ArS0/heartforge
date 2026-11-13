@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_cataclysm_missoes"
-	group: "0E0AC8A91F88F063"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "cataclysm:mechanical_fusion_anvil"
 	}
 	id: "7AC4A58E66CBF5CF"
-	order_index: 19
+	order_index: 20
 	quest_links: [ ]
 	quests: [
 		{

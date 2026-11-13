@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_bosses_missoes"
-	group: "1B6781BE25FE5814"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "comamigos_balance:obsidilith_heart"
 	}
 	id: "12E72912A7C47274"
-	order_index: 22
+	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{

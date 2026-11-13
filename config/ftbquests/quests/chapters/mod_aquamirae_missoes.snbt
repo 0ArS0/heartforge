@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_aquamirae_missoes"
-	group: "25796BB343F30024"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "aquamirae:shell_horn"
 	}
 	id: "61E19F0C2B203F11"
-	order_index: 18
+	order_index: 19
 	quest_links: [ ]
 	quests: [
 		{

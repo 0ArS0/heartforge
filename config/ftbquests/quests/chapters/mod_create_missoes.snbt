@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_create_missoes"
-	group: "60FEF54FAB43A476"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "create:cogwheel"
 	}
 	id: "39913596642D614B"
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

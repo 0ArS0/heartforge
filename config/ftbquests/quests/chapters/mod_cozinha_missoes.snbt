@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mod_cozinha_missoes"
-	group: "4E6D0897A16A0238"
+	group: "429D481FF148D2D9"
 	icon: {
 		count: 1
 		id: "farmersdelight:cooking_pot"
 	}
 	id: "08899F12A98616DC"
-	order_index: 26
+	order_index: 27
 	quest_links: [ ]
 	quests: [
 		{
