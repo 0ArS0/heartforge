@@ -4,104 +4,73 @@
 	filename: "mod_stellarity_t4"
 	group: "1D5EF08E4C981320"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "3ACF93780F7E0B38"
-	order_index: 117
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "208DF476A9356889"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_4"
 			}
-			tasks: [
-				{
-					id: "105486FED8CC4B3A"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &6Tier IV&7."
-			]
-			disable_toast: true
+			id: "208DF476A9356889"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "105486FED8CC4B3A"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "38685298A1A0CBB6"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:ender_eye"
-			}
 			dependencies: [
 				"07F9956317F778B7"
 				"208DF476A9356889"
 			]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "38685298A1A0CBB6"
+			rewards: [{
+				id: "48CC4E5FF57E0B58"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "616843575E5185ED"
-					type: "advancement"
 					advancement: "stellarity:story/strengthened_by_fire"
 					criterion: ""
-				}
-				{
-					id: "0A11562CD09BE664"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:ender_eye"
-					}
-					count: 12L
-				}
-				{
-					id: "5DBF1CBBF77EE565"
+					id: "616843575E5185ED"
 					type: "advancement"
+				}
+				{
+					count: 12L
+					id: "0A11562CD09BE664"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+				{
 					advancement: "stellarity:story/cloud_save"
 					criterion: ""
+					id: "5DBF1CBBF77EE565"
+					type: "advancement"
 				}
 				{
-					id: "1AE4F60CD83CC323"
-					type: "advancement"
 					advancement: "stellarity:story/drop_rare_illager_loot"
 					criterion: ""
+					id: "1AE4F60CD83CC323"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "48CC4E5FF57E0B58"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "Fortalecido pelo Fogo"
-			description: [
-				"&7Pó de blaze desperta a pérola: ela abre um olho e passa a procurar o caminho de casa."
-				"&7Os olhos levam às fortalezas esquecidas, e lá os illagers chegaram primeiro, instalados nos corredores como donos."
-				"&7Um olho também tranca um baú que guarda as coisas em lugar nenhum e as entrega em qualquer lugar."
-				""
-				"&6Objetivo:&r 1. Combine uma pérola do Ender com &6Pó de Blaze&r (bastões da Fortaleza do Nether)."
-				"&f2. Faça &612 Olhos do Ender&r: o necessário para um portal."
-				"&f3. Fabrique um &6Baú do Ender&r (8 obsidianas + 1 olho)."
-				"&f4. Siga os olhos até uma &6Fortaleza&r e tome um item raro dos illagers que a ocupam."
-				""
-				"&8O portal ainda não leva a lugar nenhum: o End só se abre no &5Tier VII&r. Guardem os olhos."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
-	]
-	title: "&6Tier IV&7 - Olhos que Procuram"
-	subtitle: [
-		"&5O End&7, &6Tier IV"
 	]
 }

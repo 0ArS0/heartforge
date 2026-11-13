@@ -4,371 +4,206 @@
 	filename: "mod_cataclysm_t6"
 	group: "0E0AC8A91F88F063"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_6"
 	}
 	id: "2F30B9AC3D259312"
-	order_index: 80
+	images: [ ]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "5FD5BD0C525EA09C"
-			x: 0.0d
-			y: 2.4d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_6"
 			}
-			tasks: [
-				{
-					id: "57C23C9319B3AFDE"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_6"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&5Tier VI"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &5Tier VI&7."
-			]
-			disable_toast: true
+			id: "5FD5BD0C525EA09C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "57C23C9319B3AFDE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
 		}
 		{
-			id: "79575B5C3CEABB9B"
-			x: 2.0d
-			y: 0.0d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:harbinger_heart"
-			}
 			dependencies: [
 				"5366AA3B09908D02"
 				"5FD5BD0C525EA09C"
 			]
+			icon: {
+				id: "comamigos_balance:harbinger_heart"
+			}
+			id: "79575B5C3CEABB9B"
+			rewards: [{
+				id: "2456F5B26A93C4DF"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "2ADAECA237927F5D"
+					item: { count: 1, id: "minecraft:nether_star" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					count: 1L
 				}
 				{
+					entity: "cataclysm:the_harbinger"
 					id: "6816627235D7C030"
 					type: "kill"
-					entity: "cataclysm:the_harbinger"
 					value: 1L
 				}
 				{
-					id: "0148AA45657BE002"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:witherite_ingot"
-					}
 					count: 9L
+					id: "0148AA45657BE002"
+					item: { count: 1, id: "cataclysm:witherite_ingot" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "2456F5B26A93C4DF"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "O Arauto"
-			description: [
-				"&7O colosso da Fábrica Antiga foi construído para uma guerra que nunca chegou."
-				"&7Com uma estrela do Nether no peito, ele lembra para que serve."
-				"&7Wither e netherite fundidos no seu coração viram witherite, o metal que alimenta a bigorna de fusão."
-				""
-				"&6Objetivo:&r 1. Obtenha uma &6Estrela do Nether&r derrotando o &cWither&r (capítulo Bosses do Mundo)."
-				"&f2. No salão central da Fábrica Antiga, use a estrela no colosso adormecido e derrote o &cArauto&r."
-				"&fEle voa, dispara mísseis de wither e um raio da morte. Ligue os &6EMPs&r com redstone para derrubá-lo por instantes."
-				"&f3. Quebre o &6Bloco de Witherite&r que ele deixa em &69 lingotes&r numa bancada."
-				"&fSeu &ccoração&r dá força e pressa, ao custo de definhamento."
-				""
-				"&8A bigorna de fusão consome 6 lingotes de witherite; planeje as armas com o que sobrar."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "3008DBF1FD38D015"
-			x: 2.0d
-			y: 1.6d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:leviathan_heart"
-			}
 			dependencies: [
 				"6990E8C44B6CA722"
 				"5FD5BD0C525EA09C"
 			]
+			icon: {
+				id: "comamigos_balance:leviathan_heart"
+			}
+			id: "3008DBF1FD38D015"
+			rewards: [{
+				id: "505367B98107FA70"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "69C4D167C29BF422"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:abyssal_sacrifice"
-					}
-					count: 1L
 				}
 				{
+					entity: "cataclysm:the_leviathan"
 					id: "5990129D2E7829FC"
 					type: "kill"
-					entity: "cataclysm:the_leviathan"
 					value: 1L
 				}
 				{
 					id: "21A0F7B48914952B"
+					item: { count: 1, id: "cataclysm:tidal_claws" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:tidal_claws"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "505367B98107FA70"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "O Leviatã"
-			description: [
-				"&7O predador que atravessa dimensões para caçar. É por causa dele que os marinheiros temem o fundo."
-				"&7O que dorme sob a cúpula só aceita o melhor de cada metal, e uma lâmina que já matou em seu nome."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Sacrifício Abissal&r (sem forma): blocos de ferro, ouro, diamante, esmeralda e ametista,"
-				"&fconcha de náutilo, coração do mar, um &6Athame&r e coral cristalizado (ou pedaço de coral)."
-				"&f2. Coloque-o no &6Altar do Abismo&r, sob a grande cúpula da Cidade Afundada, e derrote o &cLeviatã&r."
-				"&fEle abre portais, dispara raios abissais e agarra com tentáculos. A luta é toda debaixo d'água."
-				"&f3. Recolha as &6Garras da Maré&r: uso puxa você como gancho; ataque dispara um tentáculo."
-				"&fSeu &ccoração&r dá respiração aquática, poder do conduíte e resistência, mas deixa lento."
-				""
-				"&8A Carne de Caranguejo Abençoada protege do medo e da queimadura abissais."
-			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "2BDD35DD5B78DDA7"
-			x: 2.0d
-			y: 3.2d
 			dependencies: [
 				"792374CCF6411BFF"
 				"5FD5BD0C525EA09C"
 			]
+			id: "2BDD35DD5B78DDA7"
+			rewards: [{
+				id: "2AD8B89552CC7BC0"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [
 				{
-					id: "036A06395714553C"
-					type: "advancement"
 					advancement: "cataclysm:kill_clawdian"
 					criterion: ""
+					id: "036A06395714553C"
+					type: "advancement"
 				}
 				{
 					id: "070522A97E606DC2"
+					item: { count: 1, id: "cataclysm:chitin_claw" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:chitin_claw"
-					}
-					count: 1L
 				}
 				{
-					id: "3F9487959C1F4A65"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:lacrima"
-					}
 					count: 8L
+					id: "3F9487959C1F4A65"
+					item: { count: 1, id: "cataclysm:lacrima" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "2AD8B89552CC7BC0"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "O Clawdiano e as lágrimas"
-			description: [
-				"&7Uma lagosta do tamanho de uma torre, com um machado ainda maior, guarda os terraços da Acrópole."
-				"&7Os guardas carregam lacrimas, lágrimas da deusa do mar cristalizadas, como amuletos."
-				""
-				"&6Objetivo:&r 1. Derrote o &cClawdiano&r, miniboss da Acrópole: gira o machado, pisa e investe. Armadura alta, traga sua melhor arma."
-				"&f2. Recolha a &6Garra de Quitina&r: equipada, aumenta o alcance de blocos e de ataque."
-				"&f3. Junte &68 Lacrimas&r dos guardas da Acrópole, do Clawdiano, de Scylla e dos tesouros."
-			]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "641238FABF883C37"
-			x: 2.0d
-			y: 4.8d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:scylla_heart"
-			}
 			dependencies: [
 				"792374CCF6411BFF"
 				"5FD5BD0C525EA09C"
 			]
+			icon: {
+				id: "comamigos_balance:scylla_heart"
+			}
+			id: "641238FABF883C37"
+			rewards: [{
+				id: "617C60765F6F167D"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "cataclysm:scylla"
 					id: "054A023236EF8CEB"
 					type: "kill"
-					entity: "cataclysm:scylla"
 					value: 1L
 				}
 				{
-					id: "1BEC0B10879B613D"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:essence_of_the_storm"
-					}
 					count: 2L
+					id: "1BEC0B10879B613D"
+					item: { count: 1, id: "cataclysm:essence_of_the_storm" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "617C60765F6F167D"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "Scylla, Imperatriz da Tempestade"
-			description: [
-				"&7Pequena para um titã, mas comanda o raio e o mar. Gira uma âncora como se fosse um chicote."
-				"&7É ela quem guarda a passagem para as lendas, e o que sobra dela é um trovão que não terminou."
-				""
-				"&6Objetivo:&r 1. Suba até o topo da &6Acrópole&r: basta chegar perto para que &cScylla&r apareça."
-				"&fEla lança relâmpagos, atira a âncora e invoca ondas. Para-raios e blocos de cobertura ajudam."
-				"&f2. Recolha &62 Essências da Tempestade&r."
-				"&fSeu &ccoração&r é o &6boss-chave do Tier VI&r: dá respiração aquática, graça do golfinho e força, ao custo de fraqueza."
-			]
+			x: 2.0d
+			y: 4.8d
 		}
 		{
+			dependencies: ["79575B5C3CEABB9B"]
 			id: "6951DE5A0B03E8E7"
-			x: 4.0d
-			y: 0.0d
+			rewards: [{
+				id: "6FE515FFF8156CA5"
+				type: "xp"
+				xp: 800
+			}]
 			size: 1.25d
-			dependencies: [
-				"79575B5C3CEABB9B"
-			]
 			tasks: [
 				{
 					id: "23704A35CFE807E4"
+					item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:mechanical_fusion_anvil"
-					}
-					count: 1L
 				}
 				{
 					id: "120611EBAAF022C4"
+					item: { count: 1, id: "cataclysm:laser_gatling" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:laser_gatling"
-					}
-					count: 1L
 				}
 				{
 					id: "65B8E2FA3CE50E52"
+					item: { count: 1, id: "cataclysm:meat_shredder" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:meat_shredder"
-					}
-					count: 1L
 				}
 				{
 					id: "2F12309AD672C5BD"
+					item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:wither_assault_shoulder_weapon"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "6FE515FFF8156CA5"
-					type: "xp"
-					xp: 800
-				}
-			]
-			title: "A Bigorna de Fusão"
-			description: [
-				"&7Uma bigorna que não gasta, movida a redstone, capaz de casar o espólio de dois titãs numa arma só."
-				"&7Na mesma oficina, os antigos montavam armas de luz, serras que não param e lança-mísseis de ombro."
-				""
-				"&6Objetivo:&r 1. Fabrique a &6Bigorna de Fusão Mecânica&r: bigorna comum, blocos de redstone e 6 lingotes de witherite."
-				"&fColoque a arma base e a adição nela para fundi-las. Todas as fusões do Cataclismo passam por aqui."
-				"&fNo &6Mechanical Crafter&r, com witherite e um Mecanismo de Precisão:"
-				"&f2. &6Gatling de Laser&r (ferro, redstone, bloco de redstone): lasers incendiários sem parar, recarrega com redstone."
-				"&f3. &6Retalhador de Carne&r (bloco de ferro, redstone): serra contínua que ignora a invulnerabilidade."
-				"&f4. &6Arma de Ombro de Assalto Wither&r (pólvora, bloco de redstone): mísseis; agachado, obuses explosivos."
-			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["3008DBF1FD38D015"]
 			id: "049C5E6393AD864F"
-			x: 4.0d
-			y: 1.6d
-			size: 1.25d
-			dependencies: [
-				"3008DBF1FD38D015"
-			]
-			tasks: [
-				{
-					id: "2591DC4074040F26"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:remnant_skull"
-					}
-					count: 1L
-				}
-				{
-					id: "0A3A55D8222ADFFF"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:netherite_effigy"
-					}
-					count: 1L
-				}
-				{
-					id: "594088B3B52F0DF6"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:lava_power_cell"
-					}
-					count: 4L
-				}
-				{
-					id: "27BD86744D137FB2"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:abyssal_egg"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "406C8E4A36D349E1"
@@ -377,158 +212,110 @@
 				}
 				{
 					id: "3EA7DAEF4CC68FA8"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "As crias dos titãs"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nem tudo o que os titãs deixam quer matar você."
-				"&7Do crânio do Remanescente nasce uma cria curiosa; de uma efígie com um totem no peito, uma cópia mansa da máquina de guerra;"
-				"&7e o Leviatã não estava sozinho: o ovo ainda pulsa."
-				""
-				"&6Objetivo:&r 1. Use a &6Caveira do Remanescente&r (drop do titã) para chamar um &6Remanescente Moderno&r e domestique-o com ovo de farejador."
-				"&f2. Fabrique a &6Efígie de Netherite&r (netherite, totem da imortalidade, ouro, redstone e tijolos do Nether) para chamar a &6Ministrosidade&r."
-				"&f3. Junte &64 Células de Energia de Lava&r (da Monstruosidade) para domesticá-la."
-				"&f4. Guarde o &6Ovo Abissal&r do Leviatã e choque-o na água para criar um &6Leviatã Filhote&r."
-				""
-				"&8As três crias cabem num balde (o filhote, num balde de água)."
+			size: 1.25d
+			tasks: [
+				{
+					id: "2591DC4074040F26"
+					item: { count: 1, id: "cataclysm:remnant_skull" }
+					type: "item"
+				}
+				{
+					id: "0A3A55D8222ADFFF"
+					item: { count: 1, id: "cataclysm:netherite_effigy" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "594088B3B52F0DF6"
+					item: { count: 1, id: "cataclysm:lava_power_cell" }
+					type: "item"
+				}
+				{
+					id: "27BD86744D137FB2"
+					item: { count: 1, id: "cataclysm:abyssal_egg" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 1.6d
 		}
 		{
-			id: "5F369ABC5270D5FB"
-			x: 4.0d
-			y: 4.0d
-			size: 1.25d
 			dependencies: [
 				"641238FABF883C37"
 				"2BDD35DD5B78DDA7"
 			]
+			id: "5F369ABC5270D5FB"
+			rewards: [{
+				id: "1DDE5B32EAF796E4"
+				type: "xp"
+				xp: 800
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "779B7486A95AE27A"
+					item: { count: 1, id: "cataclysm:astrape" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:astrape"
-					}
-					count: 1L
 				}
 				{
 					id: "45E23B69337BF79E"
+					item: { count: 1, id: "cataclysm:ceraunus" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ceraunus"
-					}
-					count: 1L
 				}
 				{
 					id: "5B3AC9B48FE0676E"
+					item: { count: 1, id: "cataclysm:azure_sea_shield" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:azure_sea_shield"
-					}
-					count: 1L
 				}
 				{
-					id: "1E169CF313813FB9"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:azure_seastone"
-					}
 					count: 8L
+					id: "1E169CF313813FB9"
+					item: { count: 1, id: "cataclysm:azure_seastone" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "1DDE5B32EAF796E4"
-					type: "xp"
-					xp: 800
-				}
-			]
-			title: "O arsenal da tempestade"
-			description: [
-				"&7A lança dos guardas e a âncora da própria imperatriz, refeitas com o trovão dela."
-				"&7Ouro e lágrimas da deusa fazem um escudo que nunca enferruja, e a mesma lágrima, misturada à pedra, a faz flutuar."
-				""
-				"&6Objetivo:&r No &6Mechanical Crafter&r, com Mecanismo de Precisão:"
-				"&f1. &6Astrape&r (2 essências da tempestade e 3 lacrimas): estoca como tridente; o uso dispara uma lança de relâmpago."
-				"&f2. &6Ceraunus&r (2 essências e 3 lacrimas em outra ordem): pode ser arremessada; agachado, invoca ondas em leque."
-				"&f3. &6Escudo do Mar Azul&r (ouro e lacrimas)."
-				"&f4. Na bancada, fabrique &68 Pedra-do-mar Azul&r (pedra ao redor de uma lacrima): rende tijolos, colunas, murais e arcos."
-			]
+			x: 4.0d
+			y: 4.0d
 		}
 		{
-			id: "66DA84226E59DB5A"
-			x: 6.0d
-			y: 2.0d
 			dependencies: [
 				"6951DE5A0B03E8E7"
 				"5F369ABC5270D5FB"
 				"6DB2F6FAFCC6174B"
 				"6BC6C7D751EFC9D3"
 			]
+			id: "66DA84226E59DB5A"
+			rewards: [{
+				id: "43115C524AB457B2"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [
 				{
 					id: "07789ADE5615B23E"
+					item: { count: 1, id: "cataclysm:brontes" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:brontes"
-					}
-					count: 1L
 				}
 				{
 					id: "3C4C47BFD73925EE"
+					item: { count: 1, id: "cataclysm:the_immolator" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:the_immolator"
-					}
-					count: 1L
 				}
 				{
 					id: "5244BDDF3413319E"
+					item: { count: 1, id: "cataclysm:wrath_of_the_desert" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:wrath_of_the_desert"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "43115C524AB457B2"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "As primeiras fusões"
-			description: [
-				"&7Na bigorna de fusão, o espólio de um titã ensina truques ao espólio de outro."
-				"&7O martelo da Monstruosidade aprende a trovejar, o machado do morto alado acende com o fogo de Ignis,"
-				"&7e o arco maldito passa a soprar areia em vez de flechas."
-				""
-				"&6Objetivo:&r Na &6Bigorna de Fusão&r, coloque a arma base e a adição:"
-				"&f1. &6Brontes&r = Forja Infernal + Astrape. Continua picareta, mas pode ser arremessada."
-				"&f2. &6O Imolador&r = O Aniquilador + Lingote de Ignitium. Crítico contra alvos com Marca Ardente; dois na mão, golpe de chamas."
-				"&f3. &6A Ira do Deserto&r = Arco Maldito + Tempestade numa Garrafa. Dispara três tempestades de areia amaldiçoadas."
-				""
-				"&8O Imolador combina com as Garras Ardentes, que aplicam a Marca Ardente."
-			]
+			x: 6.0d
+			y: 2.0d
 		}
-	]
-	title: "&5Tier VI&7 - Fusão e Maré"
-	subtitle: [
-		"&4Os Titãs Adormecidos&7, &5Tier VI"
 	]
 }

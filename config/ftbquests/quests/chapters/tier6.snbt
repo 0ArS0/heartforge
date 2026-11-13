@@ -4,126 +4,65 @@
 	filename: "tier6"
 	group: ""
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_7"
 	}
 	id: "3DE2CAFBB6042D53"
+	images: [ ]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["218EBD5226C3D37F"]
 			id: "02C315BF0367D84D"
-			x: 0.0d
-			y: 1.6d
+			rewards: [{
+				id: "03D6C72E47B47A76"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			dependencies: [
-				"218EBD5226C3D37F"
-			]
-			tasks: [
-				{
-					id: "528CC5070E6C1C1E"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "03D6C72E47B47A76"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "Tier VI: Lenda"
-			description: [
-				"&7As canções de taverna já falam desta companhia. Armas de fusão, lâminas únicas e feitiços lendários deixam de ser boato."
-				"&7Na cidade afundada, &9Scylla&7 comanda as tempestades, e só o coração dela abre o caminho para o End."
-				""
-				"&6Objetivo:&r A companhia está no &5Tier VI - Lenda&r. Sigam as trilhas deste capítulo: cada uma termina num ingrediente do &dCoração do Tier VII&r. Derrotem o boss-chave (losango de cima) e forjem o coração."
-				""
-				"&8Os losangos de baixo são caçadas opcionais: outros bosses do tier, cada um com seu coração-troféu."
-			]
+			tasks: [{
+				id: "528CC5070E6C1C1E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.6d
 		}
 		{
+			dependencies: ["02C315BF0367D84D"]
 			id: "369DF2407A029A85"
+			rewards: [{
+				id: "5FFEF277B05E5741"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "4379327897228CAA"
+				item: { count: 1, id: "botania:gaia_ingot" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "4379327897228CAA"
-					type: "item"
-					item: {
-						count: 1
-						id: "botania:gaia_ingot"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "5FFEF277B05E5741"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "Lingote de Gaia"
-			description: [
-				"&7O espírito do Guardião, preso num lingote, ainda pulsa como raiz viva."
-				""
-				"&6Objetivo:&r Forje um &aLingote de Gaia&r com os espíritos de Gaia deixados pelo Guardião. Ingrediente do Coração VII."
-			]
 		}
 		{
+			dependencies: ["02C315BF0367D84D"]
 			id: "6C008590EF5FDCE8"
+			rewards: [{
+				id: "35F136A5ED6D74B1"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "11E015DC54BDD501"
+				item: { count: 1, id: "irons_spellbooks:legendary_ink" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.6d
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "11E015DC54BDD501"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:legendary_ink"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "35F136A5ED6D74B1"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "Tinta Lendária"
-			description: [
-				"&7A tinta lendária queima o pergaminho se a mão hesitar. Com ela se escrevem os feitiços que viram canção."
-				""
-				"&6Objetivo:&r Prepare uma &6Tinta Lendária&r. Ingrediente do Coração VII."
-				""
-				"&8As magias lendárias respondem a partir deste tier."
-			]
 		}
 		{
+			dependencies: ["02C315BF0367D84D"]
 			id: "244C4561F9605B82"
-			x: 2.0d
-			y: 3.2d
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "21063985CC458E99"
-					type: "kill"
-					entity: "cataclysm:the_leviathan"
-					value: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "17FD8A5815480E9F"
@@ -132,135 +71,74 @@
 				}
 				{
 					id: "14E9A9BA93EDC313"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "O Leviatã"
-			description: [
-				"&7No abismo vive o Leviatã. Dizem que ele não caça: só espera que a fome traga alguém até ele."
-				""
-				"&6Objetivo:&r Derrote &9o Leviatã&r. Ele guarda o &9Sacrifício Abissal&r."
-			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "21063985CC458E99"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
+			dependencies: ["244C4561F9605B82"]
 			id: "737EE2652E590191"
+			rewards: [{
+				id: "1B04940492A659C0"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0130BB5EBB8235A7"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
 			x: 3.6d
 			y: 3.2d
-			dependencies: [
-				"244C4561F9605B82"
-			]
-			tasks: [
-				{
-					id: "0130BB5EBB8235A7"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:abyssal_sacrifice"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "1B04940492A659C0"
-					type: "xp"
-					xp: 500
-				}
-			]
-			title: "Sacrifício Abissal"
-			description: [
-				"&7Uma oferenda feita no fundo do mar e paga com o sangue do Leviatã."
-				""
-				"&6Objetivo:&r Consiga um &9Sacrifício Abissal&r. Ingrediente do Coração VII."
-			]
 		}
 		{
+			dependencies: ["737EE2652E590191"]
 			id: "7D2306ACE2A813D1"
+			rewards: [{
+				id: "6712481B0C8AAE41"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "338752B68C19C1C4"
+				item: { count: 1, id: "cataclysm:essence_of_the_storm" }
+				type: "item"
+			}]
 			x: 5.2d
 			y: 3.2d
-			dependencies: [
-				"737EE2652E590191"
-			]
-			tasks: [
-				{
-					id: "338752B68C19C1C4"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:essence_of_the_storm"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "6712481B0C8AAE41"
-					type: "xp"
-					xp: 500
-				}
-			]
-			title: "Essência da Tempestade"
-			description: [
-				"&7A tempestade tem dona. Arrancar-lhe a essência é tirar a coroa de Scylla."
-				""
-				"&6Objetivo:&r Consiga uma &bEssência da Tempestade&r, arrancada de Scylla. Ingrediente do Coração VII."
-			]
 		}
 		{
+			dependencies: ["7D2306ACE2A813D1"]
 			id: "4CF2A374105CAA79"
+			rewards: [{
+				id: "17E24AD20140E703"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "0782AD025971B0FD"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
 			x: 6.800000000000001d
 			y: 3.2d
-			dependencies: [
-				"7D2306ACE2A813D1"
-			]
-			tasks: [
-				{
-					id: "0782AD025971B0FD"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "17E24AD20140E703"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "Estrela do Nether"
-			description: [
-				"&7O Wither volta sempre que alguém é tolo o bastante para chamá-lo. Desta vez, a companhia só quer a estrela."
-				""
-				"&6Objetivo:&r Consiga uma &fEstrela do Nether&r derrotando mais um Wither. Ingrediente do Coração VII."
-				""
-				"&8Guardem uma segunda estrela: o último Elixir Purificador também pede uma."
-			]
 		}
 		{
+			dependencies: ["02C315BF0367D84D"]
+			hide_dependency_lines: true
 			id: "39C6AF5E97EDBC1C"
-			x: 8.4d
-			y: -1.8d
-			shape: "diamond"
-			size: 1.5d
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "653A8257C32936EF"
-					type: "kill"
-					entity: "cataclysm:scylla"
-					value: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "78486A7DD496CF01"
@@ -268,53 +146,39 @@
 					xp: 1800
 				}
 				{
-					id: "73CD937FA7B43A93"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "73CD937FA7B43A93"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "59D879A577F7344A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_lendaria"
 					}
+					type: "item"
 				}
 			]
-			title: "Scylla"
-			description: [
-				"&7Na cidade afundada, &9Scylla&7 dá ordens às tempestades. Os raios caem onde ela aponta."
-				""
-				"&6Objetivo:&r Derrote &9Scylla&r e pegue o &cCoração de Scylla&r."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "653A8257C32936EF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.4d
+			y: -1.8d
 		}
 		{
+			dependencies: ["02C315BF0367D84D"]
+			hide_dependency_lines: true
 			id: "4E6C814A8551875C"
-			x: 2.0d
-			y: 5.200000000000001d
-			shape: "rsquare"
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "029027B831E6FA23"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:purifying_elixir_5"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "2DA091A009EBDB65"
@@ -323,49 +187,33 @@
 				}
 				{
 					id: "7E8B20A6CED0739C"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Elixir Purificador V"
-			description: [
-				"&7O Coração VI pesa como escama: o &cPeso do Dragão&7 curva as costas de quem o carrega."
-				""
-				"&6Objetivo:&r No &6Suporte de Poções&r: &bElixir Purificador IV&r + ambrosia."
-				"&fCura também o &cPeso do Dragão&f (Coração VI)."
-			]
-			hide_dependency_lines: true
+			shape: "rsquare"
+			tasks: [{
+				id: "029027B831E6FA23"
+				item: { count: 1, id: "comamigos_balance:purifying_elixir_5" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.200000000000001d
 		}
 		{
-			id: "0FF56608508C5599"
-			x: 10.4d
-			y: 1.6d
-			shape: "gear"
-			size: 1.75d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_7"
-			}
 			dependencies: [
 				"369DF2407A029A85"
 				"6C008590EF5FDCE8"
 				"4CF2A374105CAA79"
 				"39C6AF5E97EDBC1C"
 			]
-			tasks: [
-				{
-					id: "0C4AD6B7BB9A4135"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:tier_heart_7"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "0FF56608508C5599"
 			rewards: [
 				{
 					id: "10E044406781A5FA"
@@ -374,77 +222,49 @@
 				}
 				{
 					id: "290547BD5DB6CCA3"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "A Forja do Coração VII"
-			description: [
-				"&7O sétimo coração é feito de tempestade, abismo e raiz. Quem o comer vai ouvir o mar dentro dos pulmões."
-				""
-				"&6Objetivo:&r Em &6Sequenced Assembly&r, forje o &cCoração do Tier VII&r com:"
-				"&fCoração de Scylla + lingote de Gaia, tinta lendária, essência da tempestade, sacrifício abissal, estrela do Nether e prensa."
-				""
-				"&8A ordem exata das etapas está no livro de receitas."
-			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				id: "0C4AD6B7BB9A4135"
+				item: { count: 1, id: "comamigos_balance:tier_heart_7" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 1.6d
 		}
 		{
+			dependencies: ["0FF56608508C5599"]
 			id: "7AEEA153BEC22F61"
-			x: 12.4d
-			y: 1.6d
+			rewards: [{
+				id: "330B56CC7C5C8E54"
+				type: "xp"
+				xp: 6000
+			}]
 			shape: "heart"
 			size: 1.5d
-			dependencies: [
-				"0FF56608508C5599"
-			]
-			tasks: [
-				{
-					id: "4B0C4D2588D297F4"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_7"
-					criterion: ""
-				}
-			]
-			rewards: [
-				{
-					id: "330B56CC7C5C8E54"
-					type: "xp"
-					xp: 6000
-				}
-			]
-			title: "O Banquete do Coração VII"
-			description: [
-				"&7O coração ainda bate quando chega à boca. Quem o come sente a força do reino subir pelas veias da companhia inteira."
-				"&7E sente, logo atrás, a maldição se acomodar no peito."
-				""
-				"&6Objetivo:&r Um membro do grupo come o &cCoração do Tier VII&r, e todos sobem juntos para o &dTier VII - Mito&r."
-				""
-				"&8Quem come carrega a maldição até beber o Elixir Purificador do próximo capítulo."
-			]
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "4B0C4D2588D297F4"
+				type: "advancement"
+			}]
+			x: 12.4d
+			y: 1.6d
 		}
 		{
-			id: "04BC430AD3E814BC"
-			x: 2.0d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["02C315BF0367D84D"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:leviathan_heart"
 			}
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "629BE17BE70B035C"
-					type: "kill"
-					entity: "cataclysm:the_leviathan"
-					value: 1L
-				}
-			]
+			id: "04BC430AD3E814BC"
 			rewards: [
 				{
 					id: "76FD0CCA46903568"
@@ -452,57 +272,41 @@
 					xp: 1500
 				}
 				{
-					id: "6D44181704DF9DE9"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "6D44181704DF9DE9"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "117A7964E9C39B31"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: O Leviatã"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eO Leviatã&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "629BE17BE70B035C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 7.000000000000001d
 		}
 		{
-			id: "6ACFF670F89B5C9B"
-			x: 3.6d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["02C315BF0367D84D"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:harbinger_heart"
 			}
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "476909B6BB42C60F"
-					type: "kill"
-					entity: "cataclysm:the_harbinger"
-					value: 1L
-				}
-			]
+			id: "6ACFF670F89B5C9B"
 			rewards: [
 				{
 					id: "141FA57C39E31E42"
@@ -510,57 +314,41 @@
 					xp: 1500
 				}
 				{
-					id: "00B2F6018A366D1E"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "00B2F6018A366D1E"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "14E60780FAD970F2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: O Arauto"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eO Arauto&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "476909B6BB42C60F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.6d
+			y: 7.000000000000001d
 		}
 		{
-			id: "60C9F586D0BEBE33"
-			x: 5.2d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["02C315BF0367D84D"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:kraken_heart"
 			}
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "335C302B81688103"
-					type: "kill"
-					entity: "block_factorys_bosses:kraken"
-					value: 1L
-				}
-			]
+			id: "60C9F586D0BEBE33"
 			rewards: [
 				{
 					id: "07D157940C0776EF"
@@ -568,57 +356,41 @@
 					xp: 1500
 				}
 				{
-					id: "5C6DA6AF4FE7F879"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "5C6DA6AF4FE7F879"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "56389335F6406628"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Nerakyss, o Kraken"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eNerakyss, o Kraken&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "block_factorys_bosses:kraken"
+				id: "335C302B81688103"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.2d
+			y: 7.000000000000001d
 		}
 		{
-			id: "7C5BB3DCD218EA2F"
-			x: 6.800000000000001d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["02C315BF0367D84D"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:sea_serpent_heart"
 			}
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "1EC9FBA4F93EC773"
-					type: "kill"
-					entity: "iceandfire:sea_serpent"
-					value: 1L
-				}
-			]
+			id: "7C5BB3DCD218EA2F"
 			rewards: [
 				{
 					id: "70923782126C4296"
@@ -626,57 +398,41 @@
 					xp: 1500
 				}
 				{
-					id: "2A14760601EE3215"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "2A14760601EE3215"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "459E570B9D3F0749"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Serpente Marinha"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eSerpente Marinha&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "1EC9FBA4F93EC773"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.800000000000001d
+			y: 7.000000000000001d
 		}
 		{
-			id: "2688AB47EF325D1A"
-			x: 8.4d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["02C315BF0367D84D"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:amarok_heart"
 			}
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "67211A72CB74BC6E"
-					type: "kill"
-					entity: "mythsandlegends:amarok"
-					value: 1L
-				}
-			]
+			id: "2688AB47EF325D1A"
 			rewards: [
 				{
 					id: "5670C0ABBD1E7A0A"
@@ -684,57 +440,41 @@
 					xp: 1500
 				}
 				{
-					id: "2280B7171ABFA53F"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "2280B7171ABFA53F"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "05715596CBE857C9"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Amarok"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eAmarok&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "mythsandlegends:amarok"
+				id: "67211A72CB74BC6E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.4d
+			y: 7.000000000000001d
 		}
 		{
-			id: "48AED0F880E03CC0"
-			x: 10.0d
-			y: 7.000000000000001d
-			shape: "diamond"
+			dependencies: ["02C315BF0367D84D"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:abaddon_heart"
 			}
-			dependencies: [
-				"02C315BF0367D84D"
-			]
-			tasks: [
-				{
-					id: "518CDF72B47EEBAD"
-					type: "kill"
-					entity: "mythsandlegends:abaddon"
-					value: 1L
-				}
-			]
+			id: "48AED0F880E03CC0"
 			rewards: [
 				{
 					id: "2DE7A32726D4CC22"
@@ -742,40 +482,33 @@
 					xp: 1500
 				}
 				{
-					id: "7C996EB5319B5BBB"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "7C996EB5319B5BBB"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "3ECAB0458314A937"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Abaddon"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eAbaddon&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "mythsandlegends:abaddon"
+				id: "518CDF72B47EEBAD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 7.000000000000001d
 		}
-	]
-	title: "&5Tier VI - Lenda"
-	subtitle: [
-		"Objetivo: forjar e comer o Coração do Tier VII"
 	]
 }

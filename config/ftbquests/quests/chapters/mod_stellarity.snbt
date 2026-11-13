@@ -4,134 +4,73 @@
 	filename: "mod_stellarity"
 	group: "1D5EF08E4C981320"
 	icon: {
-		count: 1
 		id: "minecraft:ender_eye"
 	}
 	id: "4559ACDE2430EA6C"
-	order_index: 116
+	images: [ ]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "01924A8BE5645AAC"
-			x: 0.0d
-			y: 0.0d
-			shape: "square"
-			size: 1.75d
 			icon: {
-				count: 1
 				id: "minecraft:ender_eye"
 			}
-			tasks: [
-				{
-					id: "7E8FDD7EB2E1E64A"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "5DBD73280DFCD559"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "O Mar da Eternidade"
-			description: [
-				"&7Por eras, o portal de olhos verdes permaneceu mudo. Nenhum olho do Ender o despertava, nenhum ritual o abria."
-				"&7Só quando a companhia carregar sete selos no peito o vazio entre as estrelas responderá."
-				"&7E o End que espera do outro lado não é o das histórias antigas: há florestas de ametista, desertos prismáticos, tundras de carne,"
-				"&7uma terra sagrada onde a água transmuta, uma Imperatriz feita de luz e um dragão que precisa ser chamado com sangue de cristal."
-				""
-				"&7Comece juntando &6pérolas do Ender&7. A jornada até o End começa muito antes de o portal acender."
-			]
+			id: "01924A8BE5645AAC"
+			rewards: [{
+				id: "5DBD73280DFCD559"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "7E8FDD7EB2E1E64A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "07F9956317F778B7"
-			x: 2.0d
-			y: 0.0d
+			dependencies: ["01924A8BE5645AAC"]
 			icon: {
-				count: 1
 				id: "minecraft:ender_pearl"
 			}
-			dependencies: [
-				"01924A8BE5645AAC"
-			]
+			id: "07F9956317F778B7"
+			rewards: [{
+				id: "5C17CF305983B892"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
-					id: "030ED3328B5AA741"
-					type: "advancement"
 					advancement: "stellarity:story/obtain_an_ender_pearl"
 					criterion: ""
+					id: "030ED3328B5AA741"
+					type: "advancement"
 				}
 				{
-					id: "3145B629945CC307"
-					type: "advancement"
 					advancement: "stellarity:adventure/anger_enderman"
 					criterion: ""
+					id: "3145B629945CC307"
+					type: "advancement"
 				}
 				{
-					id: "2FC07E34DD88E0AF"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:ender_pearl"
-					}
 					count: 12L
+					id: "2FC07E34DD88E0AF"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "5C17CF305983B892"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "O Olho das Trevas"
-			description: [
-				"&7Os endermen carregam no peito um pedaço do vazio. Quando morrem, ele cai no chão, ainda frio."
-				"&7Eles odeiam ser olhados nos olhos: é a primeira lição do vazio, e a mais dolorida."
-				"&7Doze dessas pérolas, um dia, vão abrir uma porta que está fechada há eras. Comece a juntá-las agora."
-				""
-				"&6Objetivo:&r 1. Pegue sua primeira &6Pérola do Ender&r."
-				"&f2. Enfureça um enderman olhando diretamente para ele (e sobreviva)."
-				"&f3. Junte &612 Pérolas do Ender&r."
-				""
-				"&8Os taverneiros anões e os clérigos das vilas também negociam pérolas. Uma abóbora entalhada na cabeça evita a fúria dos endermen, ao custo da visão."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "1F8C1A9EEEADBBD8"
-			x: 4.0d
-			y: 0.0d
+			dependencies: ["07F9956317F778B7"]
 			icon: {
-				count: 1
 				id: "minecraft:phantom_membrane"
 			}
-			dependencies: [
-				"07F9956317F778B7"
-			]
-			tasks: [
-				{
-					id: "445045875E66F2E3"
-					type: "advancement"
-					advancement: "stellarity:adventure/night_sky_stalkers"
-					criterion: ""
-				}
-				{
-					id: "168029E22155AD1D"
-					type: "advancement"
-					advancement: "stellarity:adventure/kill_large_phantom"
-					criterion: ""
-				}
-				{
-					id: "0FFF4CA77FDE1D9A"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:phantom_membrane"
-					}
-					count: 4L
-				}
-			]
+			id: "1F8C1A9EEEADBBD8"
+			optional: true
 			rewards: [
 				{
 					id: "0974C067ADE64292"
@@ -140,30 +79,35 @@
 				}
 				{
 					id: "3F7CC80EFE5F2978"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçadores do Céu Noturno"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Quem não dorme atrai os phantoms, pedaços de pesadelo que mergulham do céu."
-				"&7E às vezes um deles é grande demais para ser só um pesadelo. Suas membranas servem a várias relíquias do vazio."
-				""
-				"&6Objetivo:&r 1. Derrote um &6Phantom&r (eles surgem para quem passa três noites sem dormir)."
-				"&f2. Derrote um phantom &cmaior que o normal&r."
-				"&f3. Junte 4 &6Membranas de Phantom&r."
-				""
-				"&8Eles somem assim que alguém dorme numa cama: combinem quem fica acordado."
+			tasks: [
+				{
+					advancement: "stellarity:adventure/night_sky_stalkers"
+					criterion: ""
+					id: "445045875E66F2E3"
+					type: "advancement"
+				}
+				{
+					advancement: "stellarity:adventure/kill_large_phantom"
+					criterion: ""
+					id: "168029E22155AD1D"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "0FFF4CA77FDE1D9A"
+					item: { count: 1, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 0.0d
 		}
-	]
-	title: "O Mar da Eternidade"
-	subtitle: [
-		"Além do sétimo selo"
 	]
 }

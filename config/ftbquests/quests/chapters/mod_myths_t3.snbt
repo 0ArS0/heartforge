@@ -4,208 +4,109 @@
 	filename: "mod_myths_t3"
 	group: "3DAD9C4C9DD26814"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "5736D98EDE792EDD"
-	order_index: 91
+	images: [ ]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			id: "579F3B618F3D1812"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_3"
 			}
-			tasks: [
-				{
-					id: "4C86B453922EA6EC"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
-			]
-			disable_toast: true
+			id: "579F3B618F3D1812"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "4C86B453922EA6EC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "569C6B9043457A9D"
-			x: 2.0d
-			y: 0.0d
-			icon: {
-				count: 1
-				id: "comamigos_balance:black_charro_heart"
-			}
 			dependencies: [
 				"7875F1AD69594782"
 				"6E007357A106B35F"
 				"579F3B618F3D1812"
 			]
+			icon: {
+				id: "comamigos_balance:black_charro_heart"
+			}
+			id: "569C6B9043457A9D"
+			rewards: [{
+				id: "10790F7AD8B9C7B0"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "5BD62C533E314879"
+					item: { count: 1, id: "mythsandlegends:soulbinder_amulet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:soulbinder_amulet"
-					}
-					count: 1L
 				}
 				{
-					id: "3AF2C042EFB6CD1C"
-					type: "advancement"
 					advancement: "mythsandlegends:rider_of_the_shadows"
 					criterion: ""
+					id: "3AF2C042EFB6CD1C"
+					type: "advancement"
 				}
 				{
-					id: "4EC8242EEC9F5334"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:tenebrite_shard"
-					}
 					count: 8L
+					id: "4EC8242EEC9F5334"
+					item: { count: 1, id: "mythsandlegends:tenebrite_shard" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "10790F7AD8B9C7B0"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "&cO Charro Negro"
-			description: [
-				"&7Chapéu largo, esporas de prata, cavalo de sombra. Ele oferece fortuna e cobra a alma."
-				"&7Ouro, uma chama de almas e uma promessa ruim: é assim que se chama o Charro."
-				"&7\"Eu não concedo piedade. Só covas.\" Quando cai, deixa para trás pedaços da noite, instáveis e famintos."
-				""
-				"&6Objetivo:&r 1. Forje o &6Amuleto Prende-Almas&r no &6Mechanical Crafter&r: ouro, pepitas de ouro, Chama Etérea e Mecanismo de Precisão."
-				"&f2. À &cnoite&r, use o amuleto no &6Altar dos Mortos&r e derrote o &cCharro Negro&r. Ele chama Almas Condenadas e mãos umbrais."
-				"&f3. Junte &68 Estilhaços de Tenebrita&r."
-				"&fSeu &ccoração de troféu&r dá Velocidade e Invisibilidade, com um pouco de azar."
-				""
-				"&8De dia o ritual falha. Lute no plano aberto da arena e mate as almas que ele invoca."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "585ADC9C690DE31B"
-			x: 4.0d
-			y: -0.8d
-			size: 1.25d
 			dependencies: [
 				"569C6B9043457A9D"
 				"005D8A08CF4353C6"
 			]
+			id: "585ADC9C690DE31B"
+			rewards: [{
+				id: "57C58F342C9A13E7"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "33C0BDE560C2257F"
+					item: { count: 1, id: "mythsandlegends:refined_tenebrite" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:refined_tenebrite"
-					}
-					count: 1L
 				}
 				{
 					id: "22AB87BFCF1A75BE"
+					item: { count: 1, id: "mythsandlegends:soulpiercer_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:soulpiercer_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "16CE5963A4F34FBA"
+					item: { count: 1, id: "mythsandlegends:soulpiercer_boots" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:soulpiercer_boots"
-					}
-					count: 1L
 				}
 				{
-					id: "39D72AC010C56B9E"
-					type: "advancement"
 					advancement: "mythsandlegends:master_of_the_blade"
 					criterion: ""
+					id: "39D72AC010C56B9E"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "57C58F342C9A13E7"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "Tenebrita e Perfura-Almas"
-			description: [
-				"&7Refinada muitas vezes, a escuridão finalmente aceita ter forma."
-				"&7A armadura Perfura-Almas foi feita para arqueiros espectrais e sussurra através do véu dos vivos;"
-				"&7o machado de gárgula prende a fúria da pedra num cabo."
-				""
-				"&6Objetivo:&r 1. Leve ao Cronista 8 estilhaços e 1 Núcleo Maldito (&6Refino de Tenebrita&r) e faça &5Tenebrita Refinada&r:"
-				"&f4 estilhaços, 4 fragmentos de eco e um Núcleo Maldito."
-				"&f2. No Mechanical Crafter, forje o &6Peitoral&r e as &6Botas Perfura-Almas&r: Alma Vinculada, Núcleo Maldito, lã azul e Mecanismo de Precisão."
-				"&fConjunto completo: Velocidade e Visão Noturna sob a lua."
-				"&f3. Forje o &6Machado de Gárgula&r (estilhaços, fragmentos e Mecanismo de Precisão): no chão, onda de choque que empurra (recarga 5 s)."
-			]
+			x: 4.0d
+			y: -0.8d
 		}
 		{
+			dependencies: ["569C6B9043457A9D"]
 			id: "459A4E74EC1BB44A"
-			x: 4.0d
-			y: 0.8d
-			size: 1.25d
-			dependencies: [
-				"569C6B9043457A9D"
-			]
-			tasks: [
-				{
-					id: "105A920693E0BD88"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:candle_wall_sconce"
-					}
-					count: 1L
-				}
-				{
-					id: "5DB4FF2D2892F472"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:wooden_barricade"
-					}
-					count: 4L
-				}
-				{
-					id: "5A56F035B9FCDE2F"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:music_disc_bloody_remnants"
-					}
-					count: 1L
-				}
-				{
-					id: "2FAEF3E26443ADD8"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:music_disc_cursed_rider"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "3DB775C590D3A158"
@@ -214,30 +115,39 @@
 				}
 				{
 					id: "14E867F63C30A8E5"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Latão, velas e canções"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Até as ruínas mais tristes tinham candelabros: alguém precisava enxergar os mortos chegando."
-				"&7E cada lenda tem a sua canção, gravada por algum bardo que sobreviveu para tocá-la."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Arandela de Velas&r (velas e pepitas de ferro) e &64 Barricadas de Madeira&r."
-				"&f2. Encontre o disco &6Bloody Remnants&r nos baús dos Vestígios Antigos."
-				"&f3. Obtenha o disco &6Cursed Rider&r, queda rara do Charro Negro."
-				""
-				"&8Blocos de latão, pedra esquecida, pedra de sangue e arenito umbral servem para construir no mesmo estilo."
+			size: 1.25d
+			tasks: [
+				{
+					id: "105A920693E0BD88"
+					item: { count: 1, id: "mythsandlegends:candle_wall_sconce" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5DB4FF2D2892F472"
+					item: { count: 1, id: "mythsandlegends:wooden_barricade" }
+					type: "item"
+				}
+				{
+					id: "5A56F035B9FCDE2F"
+					item: { count: 1, id: "mythsandlegends:music_disc_bloody_remnants" }
+					type: "item"
+				}
+				{
+					id: "2FAEF3E26443ADD8"
+					item: { count: 1, id: "mythsandlegends:music_disc_cursed_rider" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 0.8d
 		}
-	]
-	title: "&9Tier III&7 - O Charro Negro"
-	subtitle: [
-		"&eMitos e Lendas&7, &9Tier III"
 	]
 }

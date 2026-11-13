@@ -4,142 +4,74 @@
 	filename: "mod_bosses_t6"
 	group: "1B6781BE25FE5814"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_6"
 	}
 	id: "24EC5FB4746F1DA4"
-	order_index: 100
+	images: [ ]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			id: "5C7C27E4D441A08A"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_6"
 			}
-			tasks: [
-				{
-					id: "66F44A0675048D2F"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_6"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&5Tier VI"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &5Tier VI&7."
-			]
-			disable_toast: true
+			id: "5C7C27E4D441A08A"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "66F44A0675048D2F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "284065F2FB386D03"
-			x: 2.0d
-			y: 0.0d
-			shape: "diamond"
-			size: 1.25d
+			dependencies: ["5C7C27E4D441A08A"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:kraken_heart"
 			}
-			dependencies: [
-				"5C7C27E4D441A08A"
-			]
+			id: "284065F2FB386D03"
+			rewards: [{
+				id: "6680EB9334E89EDD"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
+					entity: "block_factorys_bosses:pirate_captain"
 					id: "73AE8EEC0DAFC541"
 					type: "kill"
-					entity: "block_factorys_bosses:pirate_captain"
 					value: 1L
 				}
 				{
+					entity: "block_factorys_bosses:kraken"
 					id: "6A67D5EFEE2D5D37"
 					type: "kill"
-					entity: "block_factorys_bosses:kraken"
 					value: 1L
 				}
 				{
 					id: "609E10F6A9CF8FAB"
+					item: { count: 1, id: "block_factorys_bosses:kraken_trident" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:kraken_trident"
-					}
-					count: 1L
 				}
 				{
 					id: "62929AE742456E94"
+					item: { count: 1, id: "block_factorys_bosses:undying_tentacle" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:undying_tentacle"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "6680EB9334E89EDD"
-					type: "xp"
-					xp: 800
-				}
-			]
-			title: "Nerakyss, o Kraken"
-			description: [
-				"&7Nos oceanos profundos, um galeão pirata flutua sem vento e sem rumo."
-				"&7Os marinheiros sabem: aquele navio é isca, e o pescador vive embaixo."
-				"&7Tentáculos do tamanho de mastros abraçam o casco; Nerakyss não afunda navios, guarda-os como uma aranha guarda a teia."
-				""
-				"&6Objetivo:&r 1. Encontre o &6Navio do Kraken&r nos &9Oceanos Profundos&r e derrote o &cCapitão Pirata&r quando a tripulação acordar."
-				"&f2. No convés, enfrente &cNerakyss&r: corte os tentáculos e acerte o corpo quando ele emergir."
-				"&fMonte nos &6canhões do navio&r e dispare balas de canhão para dano extra."
-				"&f3. Com &6Dentes do Kraken&r, monte o &6Tridente do Kraken&r no Mechanical Crafter (3 dentes, 2 varetas e Precision Mechanism): fere e puxa."
-				"&f4. Faça o &6Tentáculo Imortal&r (3 dentes em diagonal): puxa você ou uma criatura; agachado, invoca tentáculos aliados."
-				"&fO &ccoração do Kraken&r dá respiração aquática, graça de golfinho e força, mas causa enjoo."
-				""
-				"&8Balas de canhão: 5 lingotes de ferro em cruz."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["284065F2FB386D03"]
 			id: "2D143BAA98CD1E09"
-			x: 4.0d
-			y: 0.0d
-			dependencies: [
-				"284065F2FB386D03"
-			]
-			tasks: [
-				{
-					id: "7AB86DCB4E394A69"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:pirate_saber"
-					}
-					count: 1L
-				}
-				{
-					id: "3501C0C46780D745"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:kraken_cannon_item"
-					}
-					count: 1L
-				}
-				{
-					id: "76094DE02C732FA3"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:anchor"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "59DBBA09E372A6E3"
@@ -148,29 +80,32 @@
 				}
 				{
 					id: "1BB640ACD5B4CFF1"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Espólios do navio"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O sabre do capitão é curto, curvo e rápido como uma mentira."
-				"&7O canhão é bronze velho com pólvora seca, e ainda acerta o que mira."
-				"&7Nenhuma âncora segurou aquele navio, mas fica bonita na parede."
-				""
-				"&6Objetivo:&r 1. Tome um &6Sabre Pirata&r dos piratas do navio."
-				"&f2. Golpeie um &6Canhão do Kraken&r no convés até ele se soltar: colocado, pode ser montado e disparado."
-				"&f3. Solte a &6Âncora&r golpeando-a e guarde-a como decoração."
+			tasks: [
+				{
+					id: "7AB86DCB4E394A69"
+					item: { count: 1, id: "block_factorys_bosses:pirate_saber" }
+					type: "item"
+				}
+				{
+					id: "3501C0C46780D745"
+					item: { count: 1, id: "block_factorys_bosses:kraken_cannon_item" }
+					type: "item"
+				}
+				{
+					id: "76094DE02C732FA3"
+					item: { count: 1, id: "block_factorys_bosses:anchor" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 0.0d
 		}
-	]
-	title: "&5Tier VI&7 - O Navio dos Afogados"
-	subtitle: [
-		"&cOs Grandes Chefes&7, &5Tier VI"
 	]
 }

@@ -4,95 +4,36 @@
 	filename: "mod_cataclysm_t7"
 	group: "0E0AC8A91F88F063"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_7"
 	}
 	id: "1F62945800F0C0E1"
-	order_index: 81
+	images: [ ]
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
-			id: "58FAB256B8E49AFB"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_7"
 			}
-			tasks: [
-				{
-					id: "04D9777C357B26AC"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_7"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&dTier VII"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &dTier VII&7."
-			]
-			disable_toast: true
+			id: "58FAB256B8E49AFB"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				id: "04D9777C357B26AC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "7B859BEBD1A1B850"
-			x: 2.0d
-			y: 0.0d
-			shape: "diamond"
-			size: 1.25d
 			dependencies: [
 				"4635BF63F94949B6"
 				"58FAB256B8E49AFB"
 			]
-			tasks: [
-				{
-					id: "1AD7B8F5E4DBF39B"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_eye"
-					}
-					count: 1L
-				}
-				{
-					id: "05532442D6C908EB"
-					type: "advancement"
-					advancement: "cataclysm:find_ruined_citadel"
-					criterion: ""
-				}
-				{
-					id: "7B25C865119C8020"
-					type: "kill"
-					entity: "cataclysm:endermaptera"
-					value: 5L
-				}
-				{
-					id: "5D375E495EB4CD3D"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_scatter_arrow"
-					}
-					count: 4L
-				}
-				{
-					id: "7395901B97D34B82"
-					type: "advancement"
-					advancement: "cataclysm:kill_ender_golem"
-					criterion: ""
-				}
-				{
-					id: "2D4225387673C29E"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_core"
-					}
-					count: 1L
-				}
-			]
+			id: "7B859BEBD1A1B850"
 			rewards: [
 				{
 					id: "0D8A1FFD42553722"
@@ -101,133 +42,89 @@
 				}
 				{
 					id: "0F6EC54B986FE6AE"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "A Cidadela Arruinada"
-			description: [
-				"&7Um palácio de obsidiana, pedra do End e purpur nas ilhas distantes."
-				"&7Insetos do vazio roem as paredes até perder os dentes, e golens de ender com núcleo do vazio patrulham os salões."
-				"&7No centro, o Altar do Vazio aguarda."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Olho do Vazio&r (olho do Ender, pilares e blocos de purpur, tijolos de pedra do End e cascas de shulker)."
-				"&f2. No End, siga-o até a &6Cidadela Arruinada&r, nas terras altas e médias."
-				"&f3. Derrote &c5 Endermápteros&r; os que ainda têm mandíbula deixam a &6Mandíbula do Vazio&r."
-				"&f4. Fabrique &64 Flechas de Dispersão do Vazio&r: mandíbula sobre flecha espectral. Estilhaçam no impacto."
-				"&f5. Derrote um &cGolem de Ender&r (saia da trilha das runas) e recolha o &6Núcleo do Vazio&r."
-				""
-				"&8Cuidado com os blocos-armadilha de purpur, pedra do End e obsidiana. O End só se abre no Tier VII."
-				"&8O Núcleo do Vazio usado sozinho invoca runas à frente; também é adição em duas fusões."
-			]
-		}
-		{
-			id: "74A0049EE9DCF250"
-			x: 4.0d
-			y: 0.0d
 			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:ender_guardian_heart"
-			}
-			dependencies: [
-				"7B859BEBD1A1B850"
-			]
+			size: 1.25d
 			tasks: [
 				{
+					id: "1AD7B8F5E4DBF39B"
+					item: { count: 1, id: "cataclysm:void_eye" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_ruined_citadel"
+					criterion: ""
+					id: "05532442D6C908EB"
+					type: "advancement"
+				}
+				{
+					entity: "cataclysm:endermaptera"
+					id: "7B25C865119C8020"
+					type: "kill"
+					value: 5L
+				}
+				{
+					count: 4L
+					id: "5D375E495EB4CD3D"
+					item: { count: 1, id: "cataclysm:void_scatter_arrow" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ender_golem"
+					criterion: ""
+					id: "7395901B97D34B82"
+					type: "advancement"
+				}
+				{
+					id: "2D4225387673C29E"
+					item: { count: 1, id: "cataclysm:void_core" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B859BEBD1A1B850"]
+			icon: {
+				id: "comamigos_balance:ender_guardian_heart"
+			}
+			id: "74A0049EE9DCF250"
+			rewards: [{
+				id: "658D683F8B76F6B6"
+				type: "xp"
+				xp: 460
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
 					id: "393B790EEFAB16D6"
 					type: "kill"
-					entity: "cataclysm:ender_guardian"
 					value: 1L
 				}
 				{
 					id: "71461DE279708D8B"
+					item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:gauntlet_of_guard"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "658D683F8B76F6B6"
-					type: "xp"
-					xp: 460
-				}
-			]
-			title: "O Guardião do Ender"
-			description: [
-				"&7Um colosso de pedra do End, purpur e obsidiana, plantado diante do altar para que nada passe."
-				"&7Puxa os intrusos para perto, e então esmaga. O punho dele ainda puxa, mesmo arrancado."
-				""
-				"&6Objetivo:&r 1. Aproxime-se do &6Altar do Vazio&r, no coração da Cidadela, e derrote o &cGuardião do Ender&r."
-				"&fEle atrai quem está perto, dispara projéteis teleguiados e faz chover runas. Mantenha distância média."
-				"&f2. Recolha a &6Manopla da Guarda&r: na mão principal, segure o uso para puxar as criaturas ao redor."
-				"&fSeu &ccoração&r dá muita resistência e absorção, mas deixa lento."
-			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			id: "6700F1D7C8BDE176"
-			x: 6.0d
-			y: -1.6d
-			size: 1.25d
 			dependencies: [
 				"74A0049EE9DCF250"
 				"66DA84226E59DB5A"
 				"4E8D1EE016E1ACB2"
 			]
-			tasks: [
-				{
-					id: "2C660F8F791DBFD6"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_forge"
-					}
-					count: 1L
-				}
-				{
-					id: "1A97732A8FFBF962"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_assault_shoulder_weapon"
-					}
-					count: 1L
-				}
-				{
-					id: "7F765508CB5EA724"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:gauntlet_of_bulwark"
-					}
-					count: 1L
-				}
-				{
-					id: "2254E66D478EC986"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:gauntlet_of_maelstrom"
-					}
-					count: 1L
-				}
-				{
-					id: "5A94D774E892E0CA"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_elytra_chestplate"
-					}
-					count: 1L
-				}
-			]
+			id: "6700F1D7C8BDE176"
 			rewards: [
 				{
 					id: "3CC606D70157FF1F"
@@ -236,111 +133,48 @@
 				}
 				{
 					id: "07316AD207A6D0ED"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Fusões do vazio"
-			description: [
-				"&7Resfriado no vazio, o martelo infernal abre leques de runas; recarregada com ele, a arma do Arauto dispara obuses do fim do mundo."
-				"&7A manopla do Guardião aprende a empurrar com o escudo de Ignis ou a girar com a tempestade do deserto."
-				"&7E o peitoral de Ignis, casado com as asas do End, voa sem abrir mão da armadura."
-				""
-				"&6Objetivo:&r Na &6Bigorna de Fusão&r:"
-				"&f1. &6A Forja do Vazio&r = Forja Infernal + Núcleo do Vazio (picareta que invoca runas em leque)."
-				"&f2. &6Arma de Ombro de Assalto do Vazio&r = Arma de Ombro Wither + Núcleo do Vazio."
-				"&f3. &6Manopla do Baluarte&r = Manopla da Guarda + Baluarte da Chama (empurra e marca com Marca Ardente)."
-				"&f4. &6Manopla do Turbilhão&r = Manopla da Guarda + Tempestade numa Garrafa (vórtice que arrasta e fere)."
-				"&f5. &6Peitoral de Ignitium com Élitro&r = Peitoral de Ignitium + Élitro."
-				""
-				"&8São duas Forjas Infernais (Brontes e Forja do Vazio) e duas Manoplas da Guarda: cace os titãs de novo se precisar."
-			]
-		}
-		{
-			id: "3A16E73B5DAFD6C0"
-			x: 6.0d
-			y: -0.0d
 			size: 1.25d
-			dependencies: [
-				"74A0049EE9DCF250"
-			]
 			tasks: [
 				{
-					id: "49B910D17E31512D"
+					id: "2C660F8F791DBFD6"
+					item: { count: 1, id: "cataclysm:void_forge" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_ancient_remnant"
-					}
-					count: 1L
 				}
 				{
-					id: "4C20D4D83BE5C496"
+					id: "1A97732A8FFBF962"
+					item: { count: 1, id: "cataclysm:void_assault_shoulder_weapon" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_ignis"
-					}
-					count: 1L
 				}
 				{
-					id: "71DC5B1CF458DE24"
+					id: "7F765508CB5EA724"
+					item: { count: 1, id: "cataclysm:gauntlet_of_bulwark" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_netherite_monstrosity"
-					}
-					count: 1L
 				}
 				{
-					id: "788423C5A480D342"
+					id: "2254E66D478EC986"
+					item: { count: 1, id: "cataclysm:gauntlet_of_maelstrom" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_maledictus"
-					}
-					count: 1L
 				}
 				{
-					id: "560F4B84E7119C51"
+					id: "5A94D774E892E0CA"
+					item: { count: 1, id: "cataclysm:ignitium_elytra_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_the_harbinger"
-					}
-					count: 1L
-				}
-				{
-					id: "242EAA38015C7BD3"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_the_leviathan"
-					}
-					count: 1L
-				}
-				{
-					id: "7DD8C81F88221888"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_scylla"
-					}
-					count: 1L
-				}
-				{
-					id: "75466CC38D2110C4"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_ender_guardian"
-					}
-					count: 1L
 				}
 			]
+			x: 6.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["74A0049EE9DCF250"]
+			id: "3A16E73B5DAFD6C0"
+			optional: true
 			rewards: [
 				{
 					id: "78261D1EB8101DCF"
@@ -349,30 +183,60 @@
 				}
 				{
 					id: "21439950064ADF83"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_lendaria"
 					}
+					type: "item"
 				}
 			]
-			title: "Cantigas do Cataclismo"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Os bardos dizem que cada titã cai cantando. Alguém teve o cuidado de gravar."
-				"&7As canções dos últimos titãs são mais tristes. Talvez por saberem como terminariam."
-				""
-				"&6Objetivo:&r 1. Junte os discos do &6Remanescente&r, de &6Ignis&r e da &6Monstruosidade&r."
-				"&f2. Junte os discos de &6Maledictus&r, do &6Arauto&r, do &6Leviatã&r, de &6Scylla&r e do &6Guardião do Ender&r."
-				"&fCada titã deixa o seu ao morrer."
+			size: 1.25d
+			tasks: [
+				{
+					id: "49B910D17E31512D"
+					item: { count: 1, id: "cataclysm:music_disc_ancient_remnant" }
+					type: "item"
+				}
+				{
+					id: "4C20D4D83BE5C496"
+					item: { count: 1, id: "cataclysm:music_disc_ignis" }
+					type: "item"
+				}
+				{
+					id: "71DC5B1CF458DE24"
+					item: { count: 1, id: "cataclysm:music_disc_netherite_monstrosity" }
+					type: "item"
+				}
+				{
+					id: "788423C5A480D342"
+					item: { count: 1, id: "cataclysm:music_disc_maledictus" }
+					type: "item"
+				}
+				{
+					id: "560F4B84E7119C51"
+					item: { count: 1, id: "cataclysm:music_disc_the_harbinger" }
+					type: "item"
+				}
+				{
+					id: "242EAA38015C7BD3"
+					item: { count: 1, id: "cataclysm:music_disc_the_leviathan" }
+					type: "item"
+				}
+				{
+					id: "7DD8C81F88221888"
+					item: { count: 1, id: "cataclysm:music_disc_scylla" }
+					type: "item"
+				}
+				{
+					id: "75466CC38D2110C4"
+					item: { count: 1, id: "cataclysm:music_disc_ender_guardian" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			id: "2EEF8CACD0BCA972"
-			x: 6.0d
-			y: 1.6d
-			shape: "gear"
 			dependencies: [
 				"74A0049EE9DCF250"
 				"641238FABF883C37"
@@ -383,14 +247,7 @@
 				"6BC6C7D751EFC9D3"
 				"12C86E79E2414320"
 			]
-			tasks: [
-				{
-					id: "5D2CE243189D99E8"
-					type: "advancement"
-					advancement: "cataclysm:kill_all_bosses"
-					criterion: ""
-				}
-			]
+			id: "2EEF8CACD0BCA972"
 			rewards: [
 				{
 					id: "5A1168D2B1F7BC76"
@@ -399,25 +256,22 @@
 				}
 				{
 					id: "4B776467312731C7"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Aquele que atravessou o Cataclismo"
-			description: [
-				"&7Oito selos, oito titãs, oito corações."
-				"&7O Remanescente, Ignis, a Monstruosidade, Maledictus, o Arauto, o Leviatã, Scylla e o Guardião: todos caíram."
-				"&7Os cronistas terão de inventar um título novo."
-				""
-				"&6Objetivo:&r 1. Derrote todos os bosses do Cataclismo."
-			]
+			shape: "gear"
+			tasks: [{
+				advancement: "cataclysm:kill_all_bosses"
+				criterion: ""
+				id: "5D2CE243189D99E8"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.6d
 		}
-	]
-	title: "&dTier VII&7 - A Cidadela do Vazio"
-	subtitle: [
-		"&4Os Titãs Adormecidos&7, &dTier VII"
 	]
 }

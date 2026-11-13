@@ -4,54 +4,36 @@
 	filename: "mod_werewolves_t4"
 	group: "4420EA9AE6BA168A"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "07DB8603AE1E5D99"
-	order_index: 56
+	images: [ ]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			id: "665F98EF60190E9D"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_4"
 			}
-			tasks: [
-				{
-					id: "1C4772C26408D9F9"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &6Tier IV&7."
-			]
-			disable_toast: true
+			id: "665F98EF60190E9D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "1C4772C26408D9F9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "68B770D996B98032"
-			x: 2.0d
-			y: 0.0d
 			dependencies: [
 				"33D5F8A352D22BCE"
 				"665F98EF60190E9D"
 			]
-			tasks: [
-				{
-					id: "28C32AA5FD7519B6"
-					type: "advancement"
-					advancement: "werewolves:lord_of_the_hunt"
-					criterion: ""
-				}
-			]
+			id: "68B770D996B98032"
 			rewards: [
 				{
 					id: "1FBA995DF0B72402"
@@ -60,25 +42,21 @@
 				}
 				{
 					id: "277B9EFFA753E3A7"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "&8[Lobisomem]&r Senhor da Caçada"
-			description: [
-				"&7Quando você uiva, todas as florestas respondem. Os barões fecham os castelos e os caçadores contam os virotes de prata."
-				"&7É o último título da matilha, pago em dentes arrancados de alfas, um por um."
-				""
-				"&6Objetivo:&r 1. Complete as tarefas de lorde do Representante lobisomem, pagas com &6Dentes de Lobisomem&r."
-				"&f2. Alcance o nível máximo de &8Lorde Lobisomem&r (título Alfa)."
-			]
+			tasks: [{
+				advancement: "werewolves:lord_of_the_hunt"
+				criterion: ""
+				id: "28C32AA5FD7519B6"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
-	]
-	title: "&6Tier IV&7 - Senhor da Caçada"
-	subtitle: [
-		"&8Lobisomens&7, &6Tier IV"
 	]
 }

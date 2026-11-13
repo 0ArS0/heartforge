@@ -4,260 +4,170 @@
 	filename: "mod_dwarfs_t2"
 	group: "7E685056D4C815C1"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "5560B7D11DEB46F8"
-	order_index: 105
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "51660FEE081F6EC2"
-			x: 0.0d
-			y: 3.2d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_2"
 			}
-			tasks: [
-				{
-					id: "72DCB3A5128677F0"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
-			]
-			disable_toast: true
+			id: "51660FEE081F6EC2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "72DCB3A5128677F0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.2d
 		}
 		{
-			id: "3AFA1F709923C4DE"
-			x: 2.0d
-			y: 0.0d
-			icon: {
-				count: 1
-				id: "dwarfs_tyranny:mythril_armor_chestplate"
-			}
 			dependencies: [
 				"79274920DF264641"
 				"51660FEE081F6EC2"
 			]
+			icon: {
+				id: "dwarfs_tyranny:mythril_armor_chestplate"
+			}
+			id: "3AFA1F709923C4DE"
+			rewards: [{
+				id: "5C4E748AE59AA054"
+				type: "xp"
+				xp: 240
+			}]
 			tasks: [
 				{
 					id: "2DC13C12D1E34285"
+					item: { count: 1, id: "dwarfs_tyranny:mythril_sword" }
 					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:mythril_sword"
-					}
-					count: 1L
 				}
 				{
-					id: "7ED1DF27BF70FE02"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/tools_of_the_deep"
 					criterion: ""
+					id: "7ED1DF27BF70FE02"
+					type: "advancement"
 				}
 				{
-					id: "0403BD0C523D4131"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/clad_in_mythril"
 					criterion: ""
+					id: "0403BD0C523D4131"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "5C4E748AE59AA054"
-					type: "xp"
-					xp: 240
-				}
-			]
-			title: "Vestido de Mythril"
-			description: [
-				"&7Leves como prata, duras como diamante: uma picareta de mythril morde a ardósia como se fosse areia."
-				"&7Os anões não dão nome às espadas, dão nome às batalhas que elas venceram. E a armadura de mythril pesa menos que a coragem de quem a veste."
-				""
-				"&6Objetivo:&r 1. Forje uma &6Espada de Mythril&r."
-				"&f2. Forje o conjunto completo de &6ferramentas de Mythril&r: picareta, machado, pá, enxada e espada."
-				"&f3. Forje o conjunto completo de &6Armadura de Mythril&r."
-				""
-				"&8No Heartforge, equipamento de mythril é Tier II: usá-lo antes traz penalidades."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "14044642BD919658"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "dwarfs_tyranny:dwarf_armor_helmet"
-			}
 			dependencies: [
 				"56B87FA85FC88CF2"
 				"51660FEE081F6EC2"
 			]
+			icon: {
+				id: "dwarfs_tyranny:dwarf_armor_helmet"
+			}
+			id: "14044642BD919658"
+			rewards: [{
+				id: "4ED206289B1638FB"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "1F19B5B39AFAE575"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/hard_labor"
 					criterion: ""
+					id: "1F19B5B39AFAE575"
+					type: "advancement"
 				}
 				{
 					id: "17EE98D132DE33C8"
+					item: { count: 1, id: "dwarfs_tyranny:jeweler_dwarf_egg" }
 					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:jeweler_dwarf_egg"
-					}
-					count: 1L
 				}
 				{
-					id: "0768290C5285FDCF"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/reliable_hands"
 					criterion: ""
+					id: "0768290C5285FDCF"
+					type: "advancement"
 				}
 				{
-					id: "4E6F4BD1E1335B36"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/dressed_like_a_dwarf"
 					criterion: ""
+					id: "4E6F4BD1E1335B36"
+					type: "advancement"
 				}
 				{
-					id: "0D7FC8B3B8492B34"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/friend_of_the_dwarves"
 					criterion: ""
+					id: "0D7FC8B3B8492B34"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "4ED206289B1638FB"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "Amigo dos Anões"
-			description: [
-				"&7Diamantes, minas profundas, caçadas a reis mortos: os contratos difíceis separam os forasteiros dos aliados."
-				"&7Dez contratos cumpridos e os anões já não contam as moedas quando você passa. O rei só encomenda armaduras para quem provou ser útil, e paga em aço anão."
-				"&7Na reputação máxima, os guardas acenam, os mercadores sorriem e o rei chama você pelo nome."
-				""
-				"&6Objetivo:&r 1. Conclua um contrato &cdifícil&r do rei."
-				"&f2. Cumpra o contrato que pede &bdiamantes&r e receba um &6Ovo de Anão Joalheiro&r."
-				"&f3. Conclua &610 contratos&r no total."
-				"&f4. Junte a &6Armadura Anã&r completa: cada peça vem de um contrato que pede cerca de &640 lingotes de ferro&r."
-				"&f5. Alcance &65 de Reputação Anã&r."
-				""
-				"&8Com engrenagens, uma mina de ferro automática paga as armaduras anãs sem dor."
-			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "49B003070EF503F6"
-			x: 2.0d
-			y: 3.2d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "dwarfs_tyranny:nail_gun"
-			}
 			dependencies: [
 				"3C25D7F2DCAC9754"
 				"51660FEE081F6EC2"
 			]
+			icon: {
+				id: "dwarfs_tyranny:nail_gun"
+			}
+			id: "49B003070EF503F6"
+			rewards: [{
+				id: "5D53CD27AE5EAE82"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "2C956C044930D561"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/nailed_it"
 					criterion: ""
+					id: "2C956C044930D561"
+					type: "advancement"
 				}
 				{
-					id: "6D1CC7E139AE9523"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/return_to_sender"
 					criterion: ""
+					id: "6D1CC7E139AE9523"
+					type: "advancement"
 				}
 				{
-					id: "0CD02CF80BDA0B84"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/live_wire"
 					criterion: ""
+					id: "0CD02CF80BDA0B84"
+					type: "advancement"
 				}
 				{
-					id: "56D38A4EAA3F4FBE"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/armed_to_the_teeth"
 					criterion: ""
+					id: "56D38A4EAA3F4FBE"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "5D53CD27AE5EAE82"
-					type: "xp"
-					xp: 320
-				}
-			]
-			title: "A Pistola de Pregos"
-			description: [
-				"&7Teminite, cobre e pressão: a pistola de pregos dos anões prende inimigos às paredes, e às vezes uns aos outros."
-				"&7Os pregos voltam quando chamados e não se importam com quem está no caminho. E um prego cravado é um para-raios esperando um motivo."
-				"&7Fogo, raio, prego e gancho: um anão completo não sai de casa sem os quatro."
-				""
-				"&6Objetivo:&r 1. Fabrique uma &6Pistola de Pregos&r (tanque vazio, cobre, 2 mythril, teminite) e dispare-a com gás."
-				"&f2. Acerte três alvos diferentes durante uma única chamada de retorno dos pregos."
-				"&f3. Acerte com o Lança-Raios um prego cravado."
-				"&f4. Use todas as armas a gás: Lança-Chamas, Lança-Raios, Pistola de Pregos e Arma-Gancho."
-			]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "48F0287250D3DB83"
-			x: 2.0d
-			y: 4.8d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "dwarfs_tyranny:broken_crown"
-			}
 			dependencies: [
 				"0F1BE509DA10D4EB"
 				"56B87FA85FC88CF2"
 				"51660FEE081F6EC2"
 			]
-			tasks: [
-				{
-					id: "5287B76128F5B47F"
-					type: "kill"
-					entity: "dwarfs_tyranny:skeleton_dwarf_king"
-					value: 3L
-				}
-				{
-					id: "743B818E3027F730"
-					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:broken_crown"
-					}
-					count: 1L
-				}
-				{
-					id: "72DE0B3A7B8B852F"
-					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:heart_of_the_stone_music_disc"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "dwarfs_tyranny:broken_crown"
+			}
+			id: "48F0287250D3DB83"
+			optional: true
 			rewards: [
 				{
 					id: "02CC57130EE0952E"
@@ -266,91 +176,45 @@
 				}
 				{
 					id: "0A5FD1BE72E3295B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Relíquias dos Reis Caídos"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Ouro rachado, gemas faltando: a coroa de um rei morto ainda pesa como um reino."
-				"&7Os anões compuseram uma canção para cada rei caído, e só a tocam para quem honrou os ancestrais caçando os que não aceitaram a morte."
-				""
-				"&6Objetivo:&r 1. Derrote &c3 Reis Anões Esqueletos&r (eles reaparecem em outras vilas abandonadas)."
-				"&f2. Obtenha uma &6Coroa Partida&r (cerca de 1 em 11 reis a deixa cair)."
-				"&f3. Aceite do rei vivo o contrato de caçar Reis Esqueletos e receba o disco &6Heart of the Stone&r."
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "dwarfs_tyranny:skeleton_dwarf_king"
+					id: "5287B76128F5B47F"
+					type: "kill"
+					value: 3L
+				}
+				{
+					id: "743B818E3027F730"
+					item: { count: 1, id: "dwarfs_tyranny:broken_crown" }
+					type: "item"
+				}
+				{
+					id: "72DE0B3A7B8B852F"
+					item: { count: 1, id: "dwarfs_tyranny:heart_of_the_stone_music_disc" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 4.8d
 		}
 		{
-			id: "758668FE35999A4E"
-			x: 2.0d
-			y: 6.4d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "dwarfs_tyranny:golden_cacaillouxe"
-			}
 			dependencies: [
 				"54DC893C93BA29EE"
 				"51660FEE081F6EC2"
 			]
-			tasks: [
-				{
-					id: "2FF9D75B9024002F"
-					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:lumite"
-					}
-					count: 1L
-				}
-				{
-					id: "3D9DCC4D7F3967D5"
-					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:gravialite"
-					}
-					count: 1L
-				}
-				{
-					id: "24E4310D0158A2B6"
-					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:nitrolite"
-					}
-					count: 1L
-				}
-				{
-					id: "18EDD990531F7E42"
-					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:teminite"
-					}
-					count: 1L
-				}
-				{
-					id: "70358B511DBCDFCF"
-					type: "item"
-					item: {
-						count: 1
-						id: "dwarfs_tyranny:golden_cacaillouxe"
-					}
-					count: 1L
-				}
-				{
-					id: "10D410761BEF3623"
-					type: "advancement"
-					advancement: "dwarfs_tyranny:progression/pocket_full_of_rocks"
-					criterion: ""
-				}
-			]
+			icon: {
+				id: "dwarfs_tyranny:golden_cacaillouxe"
+			}
+			id: "758668FE35999A4E"
+			optional: true
 			rewards: [
 				{
 					id: "540FA3C50464820B"
@@ -359,72 +223,82 @@
 				}
 				{
 					id: "64CFE94A712DE440"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Bolso Cheio de Pedras"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Dez nyrals, oito raras e cinco épicas. O joalheiro pede para ver sua coleção, e fica com inveja."
-				""
-				"&6Objetivo:&r 1. Junte as cinco gemas épicas: &6Lumite&r, &6Gravialite&r, &6Nitrolite&r, &6Teminite&r e &6Cacaillouxe Dourado&r."
-				"&f2. Colecione &6todos os 23 tipos&r de gema anã."
-				""
-				"&8O joalheiro vende todas, se a reputação permitir. O sensor de geodos acelera muito a busca."
+			size: 1.25d
+			tasks: [
+				{
+					id: "2FF9D75B9024002F"
+					item: { count: 1, id: "dwarfs_tyranny:lumite" }
+					type: "item"
+				}
+				{
+					id: "3D9DCC4D7F3967D5"
+					item: { count: 1, id: "dwarfs_tyranny:gravialite" }
+					type: "item"
+				}
+				{
+					id: "24E4310D0158A2B6"
+					item: { count: 1, id: "dwarfs_tyranny:nitrolite" }
+					type: "item"
+				}
+				{
+					id: "18EDD990531F7E42"
+					item: { count: 1, id: "dwarfs_tyranny:teminite" }
+					type: "item"
+				}
+				{
+					id: "70358B511DBCDFCF"
+					item: { count: 1, id: "dwarfs_tyranny:golden_cacaillouxe" }
+					type: "item"
+				}
+				{
+					advancement: "dwarfs_tyranny:progression/pocket_full_of_rocks"
+					criterion: ""
+					id: "10D410761BEF3623"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 6.4d
 		}
 		{
-			id: "2B36702355613601"
-			x: 4.0d
-			y: 3.2d
-			icon: {
-				count: 1
-				id: "dwarfs_tyranny:mythril_pipe"
-			}
 			dependencies: [
 				"49B003070EF503F6"
 				"0DD8B8A3C607A66A"
 				"396DEF059D50562C"
 				"7CD6B5E1B306B84D"
 			]
+			icon: {
+				id: "dwarfs_tyranny:mythril_pipe"
+			}
+			id: "2B36702355613601"
+			rewards: [{
+				id: "33FD24088BEE636F"
+				type: "xp"
+				xp: 160
+			}]
 			tasks: [
 				{
-					id: "3B3F7C28DC82D0AC"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/dwarven_infrastructure"
 					criterion: ""
+					id: "3B3F7C28DC82D0AC"
+					type: "advancement"
 				}
 				{
-					id: "5EA990E10B4B1305"
-					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/they_have_a_system_for_everything"
 					criterion: ""
+					id: "5EA990E10B4B1305"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "33FD24088BEE636F"
-					type: "xp"
-					xp: 160
-				}
-			]
-			title: "Eles Têm um Sistema para Tudo"
-			description: [
-				"&7Extratores, canos, reservatórios, fornalhas, propulsores e armas: a rede de gás inteira, dominada."
-				"&7Some a isso pontes de luz, trilhos que sobem, separadores, baús rúnicos e golens, e um forasteiro que entende tudo já é meio anão."
-				""
-				"&6Objetivo:&r 1. Domine a rede de gás: produza, canalize, armazene, alimente fornalha e propulsor, encha tanques e use todas as armas."
-				"&f2. Experimente toda a engenharia anã: gás, projetor de ponte, trilho magnético, separador, baú antigo, fornalha de mythril e golem."
-			]
+			x: 4.0d
+			y: 3.2d
 		}
-	]
-	title: "&aTier II&7 - Aço e Confiança"
-	subtitle: [
-		"&7Os Reinos Anões&7, &aTier II"
 	]
 }

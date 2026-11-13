@@ -4,272 +4,148 @@
 	filename: "mod_bic_t3"
 	group: "13EF259E1ADFAB3C"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "26878DC3389F819D"
-	order_index: 85
+	images: [ ]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			id: "79591E9BC4AFA6FE"
-			x: 0.0d
-			y: 0.8d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_3"
 			}
-			tasks: [
-				{
-					id: "0A1DFD062A815752"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
-			]
-			disable_toast: true
+			id: "79591E9BC4AFA6FE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "0A1DFD062A815752"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
 		}
 		{
-			id: "571CA0612AD19ECC"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"0D21253777446098"
 				"79591E9BC4AFA6FE"
 			]
+			id: "571CA0612AD19ECC"
+			rewards: [{
+				id: "7CE25A3507806FA3"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "0625025F76636012"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:nightmare_claw"
-					}
 					count: 4L
+					id: "0625025F76636012"
+					item: { count: 1, id: "born_in_chaos_v1:nightmare_claw" }
+					type: "item"
 				}
 				{
-					id: "616ED31AE72525B2"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:unitywith_darknessachievement"
 					criterion: ""
+					id: "616ED31AE72525B2"
+					type: "advancement"
 				}
 				{
 					id: "7C220FAC03E11F67"
+					item: { count: 1, id: "born_in_chaos_v1:elixirof_wither_resistance" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:elixirof_wither_resistance"
-					}
-					count: 1L
 				}
 				{
 					id: "2BA2F20212BB1C54"
+					item: { count: 1, id: "born_in_chaos_v1:death_totem" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:death_totem"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "7CE25A3507806FA3"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "União com a escuridão"
-			description: [
-				"&7A garra do perseguidor continua afiada mesmo arrancada: ela ainda quer caçar."
-				"&7Máscara de crânio e manto de pele de monstro: no escuro, quem os veste corre como sombra."
-				"&7Com a armadura de pesadelo, até o Totem da Morte cobra menos para recusar a morte."
-				""
-				"&6Objetivo:&r 1. Junte &64 Garras de Pesadelo&r do Perseguidor ou de baús das torres e túmulos."
-				"&f2. Monte a &6Armadura de Pesadelo&r no &6Mechanical Crafter&r: Máscara (crânio do perseguidor, pele de monstro, pepitas),"
-				"&fManto, Calças e Botas (pele de monstro e metal sombrio). Vista o conjunto."
-				"&f3. Prepare o &6Elixir de Resistência ao Wither&r: Componente do Caos + Garra de Pesadelo."
-				"&f4. Monte o &6Totem da Morte&r no Mechanical Crafter (crânio partido, Espírito Etéreo, Semente do Caos) ou tome-o do Invocador Supremo."
-				""
-				"&8A armadura completa fortalece toda arma e item de magia sombria. Guarde elixires para o Nether e o Wither."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "502479F134CE6795"
-			x: 2.0d
-			y: 1.6d
 			dependencies: [
 				"031C680A02A119B4"
 				"79591E9BC4AFA6FE"
 			]
+			id: "502479F134CE6795"
+			rewards: [{
+				id: "4A760C254A2B8009"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "555DBDD5632A641D"
+					item: { count: 1, id: "born_in_chaos_v1:pumpkinhandgun" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:pumpkinhandgun"
-					}
-					count: 1L
 				}
 				{
-					id: "0EFED79867B33F78"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:pumpkin_bullet"
-					}
 					count: 8L
+					id: "0EFED79867B33F78"
+					item: { count: 1, id: "born_in_chaos_v1:pumpkin_bullet" }
+					type: "item"
 				}
 				{
-					id: "528ABF1046F814BA"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:infernal_hatman"
 					criterion: ""
+					id: "528ABF1046F814BA"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "4A760C254A2B8009"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "Arsenal de abóbora"
-			description: [
-				"&7O lorde atirava abóboras explosivas; agora a pistola é sua."
-				"&7Quem usa o chapéu dele não queima, e quem o fere queima no lugar."
-				""
-				"&6Objetivo:&r 1. Obtenha a &6Pistola de Abóbora&r (e o Cajado de Abóbora) dos Cabeças de Abóbora."
-				"&f2. Faça &68 Balas de Abóbora&r: Abóbora Cultivada + pólvora."
-				"&f3. Obtenha o &6Chapéu do Lorde Cabeça de Abóbora&r: fortalece armas de abóbora e dá imunidade ao fogo."
-			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "568FA9D347D70A7D"
-			x: 4.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"571CA0612AD19ECC"
 				"7E5A5340EC686B0E"
 			]
+			id: "568FA9D347D70A7D"
+			rewards: [{
+				id: "68CEA75087128E92"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "4CE927BF483808DB"
+					item: { count: 1, id: "born_in_chaos_v1:nightmare_scythe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:nightmare_scythe"
-					}
-					count: 1L
 				}
 				{
 					id: "0BC30BE7F4579ACC"
+					item: { count: 1, id: "born_in_chaos_v1:soul_cutlass" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:soul_cutlass"
-					}
-					count: 1L
 				}
 				{
 					id: "7778F54DFC8475CC"
+					item: { count: 1, id: "born_in_chaos_v1:dark_ritual_dagger" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:dark_ritual_dagger"
-					}
-					count: 1L
 				}
 				{
-					id: "3AE1FCBEC337EEF5"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:rampage"
 					criterion: ""
+					id: "3AE1FCBEC337EEF5"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "68CEA75087128E92"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "As armas do pesadelo"
-			description: [
-				"&7A foice rouba vida, apodrece o alvo e cala a magia dele. O sabre separa a alma do corpo."
-				"&7A adaga ritual cura quem a segura quando um servo é sacrificado,"
-				"&7e o Machado do Grande Ceifador alimenta-se de abates em sequência: a quinta morte o deixa insaciável."
-				""
-				"&6Objetivo:&r 1. Monte a &6Foice de Pesadelo&r no Mechanical Crafter: 2 Garras, lingote e 2 Cabos de Osso."
-				"&f2. Forje o &6Sabre das Almas&r: Garras, pepita, lingote e Cabo de Osso. Aplica Estratificação da Alma."
-				"&f3. Forje a &6Adaga Ritual Sombria&r: Garra, pepitas, Semente do Caos e Cabo de Osso."
-				"&f4. Monte o &6Machado do Grande Ceifador&r (4 lingotes e 2 Cabos de Osso) e consiga cinco abates seguidos."
-			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			id: "0585F78949068645"
-			x: 6.0d
-			y: 0.8d
-			size: 1.25d
 			dependencies: [
 				"568FA9D347D70A7D"
 				"502479F134CE6795"
 				"78BAE8D457B5E7FA"
 			]
-			tasks: [
-				{
-					id: "13A119976437A706"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:charm_collector"
-					criterion: ""
-				}
-				{
-					id: "50C6990FCB11906B"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:hatman"
-					criterion: ""
-				}
-				{
-					id: "0FB1FD05F7BAFC42"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:explosive_temper"
-					criterion: ""
-				}
-				{
-					id: "35199C9735B6D161"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:spruce_cowboyinthe_moonlight"
-					criterion: ""
-				}
-				{
-					id: "6702CE1C71807474"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:pumpkin_sir"
-					criterion: ""
-				}
-				{
-					id: "5D9FB56969E6F03D"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:excessive_fly_swatter"
-					criterion: ""
-				}
-				{
-					id: "4DC587CB80DED3EE"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:squireofthe_dark_lord"
-					criterion: ""
-				}
-			]
+			id: "0585F78949068645"
+			optional: true
 			rewards: [
 				{
 					id: "0561D778352166BF"
@@ -278,33 +154,60 @@
 				}
 				{
 					id: "7F2B15674336F303"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O colecionador do Caos"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Cinco amuletos, todos os chapéus, um arsenal inteiro no cinto."
-				"&7E algumas proezas tão específicas que só um cronista muito entediado registraria."
-				""
-				"&6Objetivo:&r 1. Tenha os &6cinco Amuletos&r no inventário ao mesmo tempo."
-				"&f2. Reúna &6todos os chapéus&r do Caos e vista o &6Chapéu Maldito do Demolidor&r (&cnão sai mais da cabeça&r)."
-				"&f3. De pé sobre um tronco de abeto, montado e com o chapéu do demolidor, mate um monstro sob a lua."
-				"&f4. Derrote o &6Sir Cabeça de Abóbora&r (só de 25 de outubro a 5 de novembro)."
-				"&f5. Mate uma Mosca-de-Cadáver com a Lâmina de Guerra sob Fúria 5."
-				"&f6. Tenha &6todas as armas de metal sombrio&r no inventário ao mesmo tempo."
-				""
-				"&8O chapéu do demolidor explode quando a vida está por um fio."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:charm_collector"
+					criterion: ""
+					id: "13A119976437A706"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:hatman"
+					criterion: ""
+					id: "50C6990FCB11906B"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:explosive_temper"
+					criterion: ""
+					id: "0FB1FD05F7BAFC42"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:spruce_cowboyinthe_moonlight"
+					criterion: ""
+					id: "35199C9735B6D161"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:pumpkin_sir"
+					criterion: ""
+					id: "6702CE1C71807474"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:excessive_fly_swatter"
+					criterion: ""
+					id: "5D9FB56969E6F03D"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:squireofthe_dark_lord"
+					criterion: ""
+					id: "4DC587CB80DED3EE"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 6.0d
+			y: 0.8d
 		}
-	]
-	title: "&9Tier III&7 - União com a Escuridão"
-	subtitle: [
-		"&6A Noite Podre&7, &9Tier III"
 	]
 }

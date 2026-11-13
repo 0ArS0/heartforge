@@ -4,155 +4,58 @@
 	filename: "mod_vampirism_t2"
 	group: "3147F27B282022B5"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "28A97920DA31776D"
-	order_index: 49
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "0DF4B038AE96B2EA"
-			x: 0.0d
-			y: 0.8d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_2"
 			}
-			tasks: [
-				{
-					id: "22EDE5423BBD5F39"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
-			]
-			disable_toast: true
+			id: "0DF4B038AE96B2EA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "22EDE5423BBD5F39"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
 		}
 		{
-			id: "34972E67FF805C4B"
-			x: 2.0d
-			y: 0.0d
-			icon: {
-				count: 1
-				id: "vampirism:mother_core"
-			}
 			dependencies: [
 				"28BEF2E097218D1C"
 				"0DF4B038AE96B2EA"
 			]
-			tasks: [
-				{
-					id: "223B51F6FF07A930"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:mother_core"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "587644D22523588D"
-					type: "xp"
-					xp: 80
-				}
-			]
-			title: "Os Restos Ancestrais"
-			description: [
-				"&7No coração de algumas florestas vampíricas pulsa algo mais velho que qualquer barão: raízes, cristais e uma fome sem rosto."
-				"&7Dizem que dela vem todo o poder vampírico daquela terra. Vampiros a chamam de Mãe; caçadores, de raiz do mal; os lobisomens, de presente."
-				"&7Quem a derruba carrega para casa o núcleo que ainda pulsa, e o mundo à volta muda de dono."
-				""
-				"&6Objetivo:&r 1. Encontre os &cRestos Ancestrais&r numa Floresta Vampírica (raízes enormes e cristais no chão)."
-				"&f2. Destrua os &6Cristais Antigos&r e ataque os restos vulneráveis até o núcleo cair. Ficar perto demais dos restos fere."
-				"&f3. Recolha o &6Núcleo da Mãe&r (e o Troféu Antigo)."
-				""
-				"&8Os restos também deixam Sangue Puro de nível alto e Almas de Vampiro."
-			]
+			icon: {
+				id: "vampirism:mother_core"
+			}
+			id: "34972E67FF805C4B"
+			rewards: [{
+				id: "587644D22523588D"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "223B51F6FF07A930"
+				item: { count: 1, id: "vampirism:mother_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "1031BB556ECCBEE1"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
 			dependencies: [
 				"7A68794BF7EACA21"
 				"0DF4B038AE96B2EA"
 			]
-			tasks: [
-				{
-					id: "6E7242DE5FF4809C"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_head_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "7AD1E5EBFCD9E888"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_chest_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "2C23A6C3D5995189"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_legs_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "47BF8B56B75AA273"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_feet_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "04D60E9CD0CC0850"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:armor_of_swiftness_chest_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "1FB0A19D76DB0BF7"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_axe_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "0FED37CA5FA57C7D"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:basic_double_crossbow"
-					}
-					count: 1L
-				}
-			]
+			id: "1031BB556ECCBEE1"
 			rewards: [
 				{
 					id: "618C5EA859D19D29"
@@ -161,186 +64,121 @@
 				}
 				{
 					id: "40B9BE567A5B9920"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r O Caçador Couraçado"
-			description: [
-				"&7Couro forrado de alho esconde o calor do corpo dos olhos que enxergam sangue. Couro leve costurado com poções de velocidade serve ao caçador que corre atrás, e não à frente."
-				"&7Nas mãos, dois arcos sobrepostos e um machado de lâmina larga com alho batido no aço, feito para pescoços que se recusam a morrer."
-				""
-				"&6Objetivo:&r Tudo na &6Mesa de Armas&r:"
-				"&f1. O &6Casaco de Caçador&r completo, 4 peças (ferro e alho). Completo, oculta você da visão de sangue e protege contra o Congelar."
-				"&f2. Um peitoral da &6Armadura da Rapidez&r (couro, ferro e poções de Velocidade)."
-				"&f3. O &6Machado de Caçador&r (bloco de ferro, ferro, alho, varetas)."
-				"&f4. A &6Besta Dupla&r (com a habilidade): dois virotes por disparo."
-				""
-				"&8As versões melhores da Armadura da Rapidez usam poções mais fortes e dão salto extra."
+			size: 1.25d
+			tasks: [
+				{
+					id: "6E7242DE5FF4809C"
+					item: { count: 1, id: "vampirism:hunter_coat_head_normal" }
+					type: "item"
+				}
+				{
+					id: "7AD1E5EBFCD9E888"
+					item: { count: 1, id: "vampirism:hunter_coat_chest_normal" }
+					type: "item"
+				}
+				{
+					id: "2C23A6C3D5995189"
+					item: { count: 1, id: "vampirism:hunter_coat_legs_normal" }
+					type: "item"
+				}
+				{
+					id: "47BF8B56B75AA273"
+					item: { count: 1, id: "vampirism:hunter_coat_feet_normal" }
+					type: "item"
+				}
+				{
+					id: "04D60E9CD0CC0850"
+					item: { count: 1, id: "vampirism:armor_of_swiftness_chest_normal" }
+					type: "item"
+				}
+				{
+					id: "1FB0A19D76DB0BF7"
+					item: { count: 1, id: "vampirism:hunter_axe_normal" }
+					type: "item"
+				}
+				{
+					id: "0FED37CA5FA57C7D"
+					item: { count: 1, id: "vampirism:basic_double_crossbow" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "415E82F904596686"
-			x: 4.0d
-			y: -1.6d
 			dependencies: [
 				"39B72B4ED34A33C2"
 				"34972E67FF805C4B"
 			]
+			id: "415E82F904596686"
+			rewards: [{
+				id: "4EA014CE07E4E039"
+				type: "xp"
+				xp: 160
+			}]
 			tasks: [
 				{
-					id: "3E15B0B577D09A42"
-					type: "advancement"
 					advancement: "vampirism:vampire/kill_mother"
 					criterion: ""
+					id: "3E15B0B577D09A42"
+					type: "advancement"
 				}
 				{
-					id: "1137E2A596E7FD70"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:pure_blood_0"
-					}
 					count: 2L
+					id: "1137E2A596E7FD70"
+					item: { count: 1, id: "vampirism:pure_blood_0" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "4EA014CE07E4E039"
-					type: "xp"
-					xp: 160
-				}
-			]
-			title: "&4[Vampiro]&r O Sangue dos Antigos"
-			description: [
-				"&7O sangue dos barões é tão antigo que já não coagula. Em gotas, vale mais que ouro, e a forja do Coração aceita pagamento nele."
-				"&7Um vampiro que mata a mãe da própria linhagem ninguém sabe se cometeu traição ou ascensão, mas os frascos que ela deixa respondem por ele."
-				""
-				"&6Objetivo:&r 1. Derrote os &cRestos Ancestrais&r sendo vampiro."
-				"&f2. Junte 2 &6Sangues Puros&r de Barões Vampiros e da Mãe (o nível do sangue acompanha o do inimigo)."
-				""
-				"&8O &6Sangue Puro&8 é o item de facção vampírico do &6Coração do Tier II&8."
-			]
+			x: 4.0d
+			y: -1.6d
 		}
 		{
-			id: "18F422D54E37240F"
-			x: 4.0d
-			y: -0.0d
 			dependencies: [
 				"572B7C04F1CBC19C"
 				"34972E67FF805C4B"
 			]
+			id: "18F422D54E37240F"
+			rewards: [{
+				id: "552B4B2D6D299348"
+				type: "xp"
+				xp: 240
+			}]
 			tasks: [
 				{
-					id: "452EB5F74D6BA720"
-					type: "advancement"
 					advancement: "vampirism:hunter/kill_mother"
 					criterion: ""
+					id: "452EB5F74D6BA720"
+					type: "advancement"
 				}
 				{
 					id: "69288956BDF06249"
+					item: { count: 1, id: "vampirism:hunter_intel_1" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_intel_1"
-					}
-					count: 1L
 				}
 				{
 					id: "5B13A8D20C34F5E3"
+					item: { count: 1, id: "vampirism:garlic_diffuser_normal" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:garlic_diffuser_normal"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "552B4B2D6D299348"
-					type: "xp"
-					xp: 240
-				}
-			]
-			title: "&9[Caçador]&r O Dossiê da Linhagem"
-			description: [
-				"&7Arrancar a raiz é mais eficaz do que podar galhos para sempre. Depois da Mãe, o segundo relatório já não fala de presas e garrafas, mas de hierarquias e linhagens."
-				"&7E com o que se aprende, protegem-se as aldeias: uma caixa de obsidiana que sopra alho no ar dia e noite, onde nenhum vampiro surge nem fica à vontade."
-				""
-				"&6Objetivo:&r 1. Derrote os &cRestos Ancestrais&r sendo caçador."
-				"&f2. Produza &6Inteligência de Caçador&r de nível 2 na Mesa de Pesquisa."
-				"&f3. No Caldeirão, faça um &6Núcleo de Difusor de Alho&r (lã + alho) e monte o &6Difusor de Alho&r (tábuas, diamantes, obsidiana)."
-				""
-				"&8A &6Inteligência de Caçador&8 nível 2 é o item de facção dos caçadores no &6Coração do Tier II&8."
-				"&8Clique no difusor com alho purificado para um reforço temporário."
-			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			id: "43D4D6A9663D8BEC"
-			x: 4.0d
-			y: 1.6d
-			size: 1.25d
 			dependencies: [
 				"34972E67FF805C4B"
 				"7A68794BF7EACA21"
 			]
-			tasks: [
-				{
-					id: "5D338D485F436556"
-					type: "advancement"
-					advancement: "vampirism:hunter/kill_resurrected_vampire"
-					criterion: ""
-				}
-				{
-					id: "657365419A4839CC"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:soul_orb_vampire"
-					}
-					count: 1L
-				}
-				{
-					id: "3C1420D2BDD654D9"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampiricageing:blood_tester"
-					}
-					count: 1L
-				}
-				{
-					id: "54EB3351CB9CFA71"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:spirit_lantern"
-					}
-					count: 1L
-				}
-				{
-					id: "5B7D53E1284A0993"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:alchemical_cocktail"
-					}
-					count: 1L
-				}
-				{
-					id: "4687C581CFD3A72D"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_beacon"
-					}
-					count: 1L
-				}
-			]
+			id: "43D4D6A9663D8BEC"
+			optional: true
 			rewards: [
 				{
 					id: "0B378CF74CECDB12"
@@ -349,32 +187,49 @@
 				}
 				{
 					id: "008BD7CD8D264CA8"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r Colheita de Almas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Um vampiro caído ainda respira veneno. É ali, no chão, logo depois de ele se levantar, que o caçador termina o serviço, e a alma escura que escapa vale ouro."
-				"&7Presas em ouro, as almas brilham pela névoa como faróis frios; numa garrafa com fogo eterno, viram granada. Encerradas com o núcleo da Mãe em vidro e obsidiana, pagam o favor de um farol antigo."
-				"&7Os sábios da caça ainda medem a idade de cada vampiro: eles envelhecem como vinho, mais fortes a cada década."
-				""
-				"&6Objetivo:&r 1. Mate um vampiro que acabou de ressuscitar do estado &6Caído mas não Vencido&r e recolha uma &6Alma de Vampiro&r."
-				"&f2. Faça um &6Testador de Sangue&r (seringa, sangue de vampiro, redstone) e ataque um vampiro com ele para ver a &6Idade&r (0 a 5)."
-				"&f3. Na Mesa de Armas: &6Lanterna Espiritual&r (pepitas de ouro e almas) e &6Coquetel Alquímico&r (garrafa + 2 fogos alquímicos)."
-				"&f4. Construa o &6Farol Antigo&r (vidro, obsidiana e o Núcleo da Mãe): um sinalizador pago com Almas de Vampiro."
-				""
-				"&8A Lanterna Espiritual deixa ver mais longe na névoa. O Núcleo da Mãe também entra no Difusor de Névoa."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "vampirism:hunter/kill_resurrected_vampire"
+					criterion: ""
+					id: "5D338D485F436556"
+					type: "advancement"
+				}
+				{
+					id: "657365419A4839CC"
+					item: { count: 1, id: "vampirism:soul_orb_vampire" }
+					type: "item"
+				}
+				{
+					id: "3C1420D2BDD654D9"
+					item: { count: 1, id: "vampiricageing:blood_tester" }
+					type: "item"
+				}
+				{
+					id: "54EB3351CB9CFA71"
+					item: { count: 1, id: "vampiresdelight:spirit_lantern" }
+					type: "item"
+				}
+				{
+					id: "5B7D53E1284A0993"
+					item: { count: 1, id: "vampiresdelight:alchemical_cocktail" }
+					type: "item"
+				}
+				{
+					id: "4687C581CFD3A72D"
+					item: { count: 1, id: "vampirism:vampire_beacon" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 1.6d
 		}
-	]
-	title: "&aTier II&7 - Sangue Puro"
-	subtitle: [
-		"&4Vampiros e Caçadores&7, &aTier II"
 	]
 }

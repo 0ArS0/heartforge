@@ -4,186 +4,75 @@
 	filename: "mod_equip_t5"
 	group: "0011E6E41EF0DECD"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_5"
 	}
 	id: "30CDCB0E50E10741"
-	order_index: 130
+	images: [ ]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			id: "09594472B04DC004"
-			x: 0.0d
-			y: 4.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_5"
 			}
-			tasks: [
-				{
-					id: "612910152E40F45C"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_5"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&cTier V"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &cTier V&7."
-			]
-			disable_toast: true
+			id: "09594472B04DC004"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "612910152E40F45C"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			id: "47DF1E33E23DC3D7"
-			x: 2.0d
-			y: 0.0d
-			icon: {
-				count: 1
-				id: "simplyswords:runefused_gem"
-			}
 			dependencies: [
 				"179B2B5E994ACC7B"
 				"032A29D953157D12"
 				"09594472B04DC004"
 			]
+			icon: {
+				id: "simplyswords:runefused_gem"
+			}
+			id: "47DF1E33E23DC3D7"
+			rewards: [{
+				id: "0DECCAFC51AA1F51"
+				type: "xp"
+				xp: 510
+			}]
 			tasks: [
 				{
 					id: "451E454266429DAC"
+					item: { count: 1, id: "simplyswords:empowered_remnant" }
 					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:empowered_remnant"
-					}
-					count: 1L
 				}
 				{
 					id: "02614C7C39FB2C18"
+					item: { count: 1, id: "simplyswords:runefused_gem" }
 					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:runefused_gem"
-					}
-					count: 1L
 				}
 				{
 					id: "6954BDE1648003C8"
+					item: { count: 1, id: "simplyswords:netherfused_gem" }
 					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:netherfused_gem"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "0DECCAFC51AA1F51"
-					type: "xp"
-					xp: 510
-				}
-			]
-			title: "A Alma das Lâminas"
-			description: [
-				"&7Derreta uma lenda e sobra a alma dela, brilhando no fundo da fornalha."
-				"&7Os ourives de runas aprenderam a ensinar esse remanescente a virar pedra preciosa:"
-				"&7com obsidiana chorona, a gema ganha runas; com netherite, guarda o calor e a fúria do submundo."
-				""
-				"&6Objetivo:&r 1. Funda uma arma única (ou uma gema) numa fornalha: &6Remanescente Fortalecido&r."
-				"&f2. Mesa de Ferraria: Tábua Rúnica + Remanescente + &6Obsidiana Chorona&r = &6Gema Runefundida&r."
-				"&f3. Mesa de Ferraria: Tábua Rúnica + Remanescente + &6Lingote de Netherite&r = &6Gema Netherfundida&r."
-				"&fEncaixe as gemas nos soquetes rúnico e do Nether de uma arma única para ganhar poderes extras."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "0C65A658C0D76FB3"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "simplyswords:brimstone_claymore"
-			}
 			dependencies: [
 				"179B2B5E994ACC7B"
 				"09594472B04DC004"
 			]
-			tasks: [
-				{
-					id: "53BFC1E17161CF87"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:brimstone_claymore"
-					}
-					count: 1L
-				}
-				{
-					id: "726BB451077B06D4"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:emberblade"
-					}
-					count: 1L
-				}
-				{
-					id: "5F8FA504AE9AFDB8"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:emberlash"
-					}
-					count: 1L
-				}
-				{
-					id: "0605AFFAC3E40882"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:flamewind"
-					}
-					count: 1L
-				}
-				{
-					id: "61B39CD7EEF25E3D"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:hearthflame"
-					}
-					count: 1L
-				}
-				{
-					id: "723C01099F2DFBFE"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:molten_edge"
-					}
-					count: 1L
-				}
-				{
-					id: "4BD312FA93B4381E"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:waxweaver"
-					}
-					count: 1L
-				}
-				{
-					id: "621BFB98272345B3"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:wickpiercer"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "simplyswords:brimstone_claymore"
+			}
+			id: "0C65A658C0D76FB3"
+			optional: true
 			rewards: [
 				{
 					id: "181DFF68CAD041CB"
@@ -192,103 +81,69 @@
 				}
 				{
 					id: "1D4DFF317C4AA736"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Lâminas de Brasa"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Oito lâminas nasceram do fogo, e nenhuma delas esfriou desde então."
-				"&7Uma foi forjada na lareira mais antiga do reino, outra é uma montante de enxofre,"
-				"&7outra um chicote de brasas, outra cera e chama tecidas juntas. Perigo de incêndio."
-				""
-				"&6Objetivo:&r 1. &6Brimstone Claymore&r: &bEnxofre&r: explosões de fogo."
-				"&f2. &6Emberblade&r: &bIra das Brasas&r."
-				"&f3. &6Emberlash&r: &bBrasa Latente&r: um chicote de brasas."
-				"&f4. &6Flamewind&r: &bTempestade de Brasas&r."
-				"&f5. &6Hearthflame&r: &bCorrentes da Fornalha&r: marca e prende inimigos em chamas."
-				"&f6. &6Molten Edge&r: &bCoração de Fornalha&r."
-				"&f7. &6Waxweaver&r: &bTrama de Cera&r."
-				"&f8. &6Wickpiercer&r: &bFúria Tremulante&r: um pavio afiado como agulha."
-				""
-				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
-				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			size: 1.25d
+			tasks: [
+				{
+					id: "53BFC1E17161CF87"
+					item: { count: 1, id: "simplyswords:brimstone_claymore" }
+					type: "item"
+				}
+				{
+					id: "726BB451077B06D4"
+					item: { count: 1, id: "simplyswords:emberblade" }
+					type: "item"
+				}
+				{
+					id: "5F8FA504AE9AFDB8"
+					item: { count: 1, id: "simplyswords:emberlash" }
+					type: "item"
+				}
+				{
+					id: "0605AFFAC3E40882"
+					item: { count: 1, id: "simplyswords:flamewind" }
+					type: "item"
+				}
+				{
+					id: "61B39CD7EEF25E3D"
+					item: { count: 1, id: "simplyswords:hearthflame" }
+					type: "item"
+				}
+				{
+					id: "723C01099F2DFBFE"
+					item: { count: 1, id: "simplyswords:molten_edge" }
+					type: "item"
+				}
+				{
+					id: "4BD312FA93B4381E"
+					item: { count: 1, id: "simplyswords:waxweaver" }
+					type: "item"
+				}
+				{
+					id: "621BFB98272345B3"
+					item: { count: 1, id: "simplyswords:wickpiercer" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "064B52FD6BC1CAAA"
-			x: 2.0d
-			y: 3.2d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "simplyswords:frostfall"
-			}
 			dependencies: [
 				"179B2B5E994ACC7B"
 				"09594472B04DC004"
 			]
-			tasks: [
-				{
-					id: "2275372876CC4831"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:frostfall"
-					}
-					count: 1L
-				}
-				{
-					id: "23C6E7FF32CA7499"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:icewhisper"
-					}
-					count: 1L
-				}
-				{
-					id: "7F499CE4E8413104"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:stormscale"
-					}
-					count: 1L
-				}
-				{
-					id: "639D74B9FA4269A8"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:whisperwind"
-					}
-					count: 1L
-				}
-				{
-					id: "72F69E6E89B78FE9"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:dawnquiver"
-					}
-					count: 1L
-				}
-				{
-					id: "620E27C4FAC680EF"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:arcanethyst"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "simplyswords:frostfall"
+			}
+			id: "064B52FD6BC1CAAA"
+			optional: true
 			rewards: [
 				{
 					id: "5D5C0F5FC331AFB1"
@@ -297,119 +152,59 @@
 				}
 				{
 					id: "07F661BE98600F46"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Gelo, Vento e Arcano"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Algumas lâminas não queimam: congelam, sussurram ou cintilam."
-				"&7O inverno cai junto com o golpe de uma, o vento grita de volta pela outra,"
-				"&7e uma escama de tempestade cravada no chão vira para-raios."
-				""
-				"&6Objetivo:&r 1. &6Frostfall&r: &bFúria Gélida&r: o inverno cai junto com o golpe."
-				"&f2. &6Icewhisper&r: &bPermafrost&r: sussurra o frio eterno."
-				"&f3. &6Stormscale&r: &bPara-raios&r: fincada no chão, os golpes ferem em área ao redor dela."
-				"&f4. &6Whisperwind&r: &bLampejo Fatal&r."
-				"&f5. &6Dawnquiver&r: &bDisparo do Serafim&r: a aurora em forma de lâmina."
-				"&f6. &6Arcanethyst&r: &bAssalto Arcano&r: ametista viva, afiada pelo arcano."
-				""
-				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
-				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			size: 1.25d
+			tasks: [
+				{
+					id: "2275372876CC4831"
+					item: { count: 1, id: "simplyswords:frostfall" }
+					type: "item"
+				}
+				{
+					id: "23C6E7FF32CA7499"
+					item: { count: 1, id: "simplyswords:icewhisper" }
+					type: "item"
+				}
+				{
+					id: "7F499CE4E8413104"
+					item: { count: 1, id: "simplyswords:stormscale" }
+					type: "item"
+				}
+				{
+					id: "639D74B9FA4269A8"
+					item: { count: 1, id: "simplyswords:whisperwind" }
+					type: "item"
+				}
+				{
+					id: "72F69E6E89B78FE9"
+					item: { count: 1, id: "simplyswords:dawnquiver" }
+					type: "item"
+				}
+				{
+					id: "620E27C4FAC680EF"
+					item: { count: 1, id: "simplyswords:arcanethyst" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "063F3B90121A120A"
-			x: 2.0d
-			y: 4.8d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "simplyswords:dreadwhisper"
-			}
 			dependencies: [
 				"179B2B5E994ACC7B"
 				"09594472B04DC004"
 			]
-			tasks: [
-				{
-					id: "0DB6550472ED6C7F"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:dreadwhisper"
-					}
-					count: 1L
-				}
-				{
-					id: "12D0FC2A51118958"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:gloampiercer"
-					}
-					count: 1L
-				}
-				{
-					id: "318691566B36B4BB"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:shadowsting"
-					}
-					count: 1L
-				}
-				{
-					id: "334F8396F40CEF90"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:soulstalker"
-					}
-					count: 1L
-				}
-				{
-					id: "48FAE641F9DD8C49"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:wraithfang"
-					}
-					count: 1L
-				}
-				{
-					id: "79B788B848B9E52A"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:wraithmaw"
-					}
-					count: 1L
-				}
-				{
-					id: "41DD040929A9BC5D"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:slumbering_lichblade"
-					}
-					count: 1L
-				}
-				{
-					id: "4F461CAE8EA920ED"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:waking_lichblade"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "simplyswords:dreadwhisper"
+			}
+			id: "063F3B90121A120A"
+			optional: true
 			rewards: [
 				{
 					id: "465C6F6C367041F5"
@@ -418,111 +213,69 @@
 				}
 				{
 					id: "1465A4C69AF00797"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Lâminas das Sombras"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Aquilo que caminha atrás de você agora caminha com você."
-				"&7Lâminas que atacam das sombras e somem nelas, presas de espectros ainda famintos,"
-				"&7e a espada do lich, que dorme, mas cujos mortos não dormem."
-				""
-				"&6Objetivo:&r 1. &6Dreadwhisper&r: &bRasgo Sombrio&r."
-				"&f2. &6Gloampiercer&r: &bFalange Fantasma&r: apaga a vela e acende fantasmas."
-				"&f3. &6Shadowsting&r: &bDança das Sombras&r: ataca das sombras e some nelas."
-				"&f4. &6Soulstalker&r: &bPasso Estígio&r: tentáculos abissais perfuram os próximos."
-				"&f5. &6Wraithfang&r: &bSalto Espectral&r: arremesse-a e salte até ela, imune por um instante."
-				"&f6. &6Wraithmaw&r: a fome de um espectro que não acaba nem depois da morte."
-				"&f7. &6Lichblade Adormecida&r: &bAngústia das Almas I&r: almas torturadas ferem quem está perto."
-				"&f8. &6Lichblade Despertando&r: fortalecida na Forja Rúnica: &bAngústia das Almas II&r."
-				""
-				"&8A Lichblade evolui na Forja Rúnica: Adormecida, Despertando e, no Tier VI, Desperta."
+			size: 1.25d
+			tasks: [
+				{
+					id: "0DB6550472ED6C7F"
+					item: { count: 1, id: "simplyswords:dreadwhisper" }
+					type: "item"
+				}
+				{
+					id: "12D0FC2A51118958"
+					item: { count: 1, id: "simplyswords:gloampiercer" }
+					type: "item"
+				}
+				{
+					id: "318691566B36B4BB"
+					item: { count: 1, id: "simplyswords:shadowsting" }
+					type: "item"
+				}
+				{
+					id: "334F8396F40CEF90"
+					item: { count: 1, id: "simplyswords:soulstalker" }
+					type: "item"
+				}
+				{
+					id: "48FAE641F9DD8C49"
+					item: { count: 1, id: "simplyswords:wraithfang" }
+					type: "item"
+				}
+				{
+					id: "79B788B848B9E52A"
+					item: { count: 1, id: "simplyswords:wraithmaw" }
+					type: "item"
+				}
+				{
+					id: "41DD040929A9BC5D"
+					item: { count: 1, id: "simplyswords:slumbering_lichblade" }
+					type: "item"
+				}
+				{
+					id: "4F461CAE8EA920ED"
+					item: { count: 1, id: "simplyswords:waking_lichblade" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 4.8d
 		}
 		{
-			id: "6FA10C5113EC205D"
-			x: 2.0d
-			y: 6.4d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "simplyswords:bramblethorn"
-			}
 			dependencies: [
 				"179B2B5E994ACC7B"
 				"09594472B04DC004"
 			]
-			tasks: [
-				{
-					id: "153499AA360B8D32"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:bramblethorn"
-					}
-					count: 1L
-				}
-				{
-					id: "09D1AC7CB4FC455D"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:chompolotl"
-					}
-					count: 1L
-				}
-				{
-					id: "332CC96FC6FD9884"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:hiveheart"
-					}
-					count: 1L
-				}
-				{
-					id: "7705F07303B4160C"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:bloodwake"
-					}
-					count: 1L
-				}
-				{
-					id: "528701BC151FD0BA"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:ribboncleaver"
-					}
-					count: 1L
-				}
-				{
-					id: "76846DD352F5ADA8"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:twisted_blade"
-					}
-					count: 1L
-				}
-				{
-					id: "4199425270503414"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:toxic_longsword"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "simplyswords:bramblethorn"
+			}
+			id: "6FA10C5113EC205D"
+			optional: true
 			rewards: [
 				{
 					id: "49695712771D3D2C"
@@ -531,74 +284,64 @@
 				}
 				{
 					id: "4DF92089A7733DFD"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Lâminas Selvagens"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nem toda lenda nasce de reis. Algumas nascem de bichos, de pragas e de raiva."
-				"&7Espinhos que prendem a presa, uma arma com dentes de axolote, uma lâmina que zumbe,"
-				"&7uma espada da peste que é melhor não tocar e uma lâmina retorcida que acelera a cada golpe."
-				""
-				"&6Objetivo:&r 1. &6Bramblethorn&r: &bGarra da Selva&r: espinhos que prendem a presa ao chão."
-				"&f2. &6Chomp'olotl&r: uma arma com dentes, e com fome de axolote."
-				"&f3. &6Hiveheart&r: &bMente de Colmeia&r: uma lâmina que zumbe."
-				"&f4. &6Bloodwake&r: deixa um rastro vermelho por onde passa, na água ou na terra."
-				"&f5. &6Ribboncleaver&r: &bFúria em Fitas&r: pede bíceps para erguer."
-				"&f6. &6Twisted Blade&r: &bFerocidade&r: acumula velocidade de ataque."
-				"&f7. &6Longsword of the Plague&r: &bDobre Fúnebre&r: a espada da peste."
-				""
-				"&8Armas únicas surgem em baús de estruturas perigosas. Leia a descrição de cada uma:"
-				"&8as que dizem \"Modifique na Forja Rúnica\" evoluem nela."
+			size: 1.25d
+			tasks: [
+				{
+					id: "153499AA360B8D32"
+					item: { count: 1, id: "simplyswords:bramblethorn" }
+					type: "item"
+				}
+				{
+					id: "09D1AC7CB4FC455D"
+					item: { count: 1, id: "simplyswords:chompolotl" }
+					type: "item"
+				}
+				{
+					id: "332CC96FC6FD9884"
+					item: { count: 1, id: "simplyswords:hiveheart" }
+					type: "item"
+				}
+				{
+					id: "7705F07303B4160C"
+					item: { count: 1, id: "simplyswords:bloodwake" }
+					type: "item"
+				}
+				{
+					id: "528701BC151FD0BA"
+					item: { count: 1, id: "simplyswords:ribboncleaver" }
+					type: "item"
+				}
+				{
+					id: "76846DD352F5ADA8"
+					item: { count: 1, id: "simplyswords:twisted_blade" }
+					type: "item"
+				}
+				{
+					id: "4199425270503414"
+					item: { count: 1, id: "simplyswords:toxic_longsword" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 6.4d
 		}
 		{
-			id: "4C69E6B6B3B0DEFB"
-			x: 2.0d
-			y: 8.0d
-			icon: {
-				count: 1
-				id: "simplybows:ice_bow/ice_bow"
-			}
 			dependencies: [
 				"4FCAA957A3DC4AE1"
 				"09594472B04DC004"
 			]
-			tasks: [
-				{
-					id: "094AAAFC1AB3CE78"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplybows:ice_bow/ice_bow"
-					}
-					count: 1L
-				}
-				{
-					id: "638DEF5AA86C0505"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplybows:earth_bow/earth_bow"
-					}
-					count: 1L
-				}
-				{
-					id: "4F6D8494D642FA43"
-					type: "item"
-					item: {
-						count: 1
-						id: "simplybows:echo_bow/echo_bow"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "simplybows:ice_bow/ice_bow"
+			}
+			id: "4C69E6B6B3B0DEFB"
+			optional: true
 			rewards: [
 				{
 					id: "2972F4444281BB4F"
@@ -607,31 +350,32 @@
 				}
 				{
 					id: "7C2C6EBCA7FF4EB5"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Arcos da Fúria"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Os três arcos mais temidos: a presa do inverno, que nunca erra o caminho;"
-				"&7o arco que faz o chão tremer onde a flecha toca; e o Eco, que chama dois arcos fantasmas"
-				"&7para atirar ao seu lado. Os dois primeiros já surgem no Tier IV."
-				""
-				"&6Objetivo:&r 1. &6Winterfang&r: leque de flechas de gelo teleguiadas."
-				"&f2. &6Tremorstrike&r: flechas provocam tremores de terra."
-				"&f3. &6Echo&r: dois arcos fantasmas atiram nos alvos próximos e imitam seus disparos."
-				""
-				"&8Arcos únicos surgem em baús de estruturas. Corda, armação e gravuras se aplicam a eles na bigorna."
+			tasks: [
+				{
+					id: "094AAAFC1AB3CE78"
+					item: { count: 1, id: "simplybows:ice_bow/ice_bow" }
+					type: "item"
+				}
+				{
+					id: "638DEF5AA86C0505"
+					item: { count: 1, id: "simplybows:earth_bow/earth_bow" }
+					type: "item"
+				}
+				{
+					id: "4F6D8494D642FA43"
+					item: { count: 1, id: "simplybows:echo_bow/echo_bow" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 8.0d
 		}
-	]
-	title: "&cTier V&7 - Lâminas com Nome"
-	subtitle: [
-		"&fEquipamento e Utilidades&7, &cTier V"
 	]
 }

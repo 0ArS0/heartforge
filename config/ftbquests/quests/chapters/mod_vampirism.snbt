@@ -4,257 +4,139 @@
 	filename: "mod_vampirism"
 	group: "3147F27B282022B5"
 	icon: {
-		count: 1
 		id: "vampirism:vampire_fang"
 	}
 	id: "7FF9C4B703E64E2F"
-	order_index: 47
+	images: [ ]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "419E736DAFB87A6D"
-			x: 0.0d
-			y: 0.0d
-			shape: "square"
-			size: 1.75d
 			icon: {
-				count: 1
 				id: "vampirism:vampire_fang"
 			}
-			tasks: [
-				{
-					id: "2FDF01E3F5A399C4"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "1AC86CB7ED115F2F"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "A Guerra da Noite"
-			description: [
-				"&7Há séculos as aldeias de Heartforge trancam as portas ao pôr do sol. Nas florestas de névoa vivem os que bebem sangue,"
-				"&7e atrás deles marcham os caçadores, com estacas, alho e água benta. Entre os jacarandás roxos, uma terceira raça"
-				"&7não bebe: devora. São os lobisomens, que têm crônica própria."
-				""
-				"&7Cada alma jura a &4uma só facção&7: &4Vampiro&7, &9Caçador&7 ou &8Lobisomem&7. Quem jurou a uma não serve às outras"
-				"&7sem antes se curar. Os marcadores &4[Vampiro]&7 e &9[Caçador]&7 dizem a que caminho cada página pertence; as páginas sem marcador"
-				"&7servem a todos, e &5[Banquete]&7 é a cozinha da noite, opcional."
-				""
-				"&7Os ferreiros do Coração pagam pelo que cada facção arranca da outra: &6presas&7, &6corações humanos&7, &6sangue puro&7,"
-				"&7&6inteligência de caçador&7 e &6peles de lobisomem&7 entram nos Corações do Tier."
-				""
-				"&7Comece pela &6Encruzilhada da Noite&7. Depois, escolha o seu lado."
-			]
+			id: "419E736DAFB87A6D"
+			rewards: [{
+				id: "1AC86CB7ED115F2F"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "2FDF01E3F5A399C4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["419E736DAFB87A6D"]
 			id: "2185652AAB4F17D0"
-			x: 2.0d
-			y: 0.0d
+			rewards: [{
+				id: "2A64AD0F0354E6E4"
+				type: "xp"
+				xp: 200
+			}]
 			size: 1.25d
-			dependencies: [
-				"419E736DAFB87A6D"
-			]
 			tasks: [
 				{
-					id: "71064EC5E68FA215"
-					type: "advancement"
 					advancement: "vampirism:main/root"
 					criterion: ""
+					id: "71064EC5E68FA215"
+					type: "advancement"
 				}
 				{
 					id: "2C511D284F9EC6C9"
+					item: { count: 1, id: "vampirism:vampire_book" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_book"
-					}
-					count: 1L
 				}
 				{
-					id: "7CCFC3BF2B5745F4"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_fang"
-					}
 					count: 3L
-				}
-				{
-					id: "48C3037DA4DE8377"
+					id: "7CCFC3BF2B5745F4"
+					item: { count: 1, id: "vampirism:vampire_fang" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:garlic"
-					}
-					count: 8L
 				}
-			]
-			rewards: [
 				{
-					id: "2A64AD0F0354E6E4"
-					type: "xp"
-					xp: 200
+					count: 8L
+					id: "48C3037DA4DE8377"
+					item: { count: 1, id: "vampirism:garlic" }
+					type: "item"
 				}
 			]
-			title: "A Encruzilhada da Noite"
-			description: [
-				"&7Todo viajante, cedo ou tarde, ouve passos que não são de homem atrás de si na estrada escura."
-				"&7Os velhos das aldeias contam que é ali, na encruzilhada, que cada um escolhe: fugir, caçar ou ser caçado para sempre."
-				"&7Antes de escolher, porém, é preciso entender o inimigo. Um livro antigo, uma presa arrancada e uma trança de alho são o começo de qualquer conversa sobre a noite."
-				""
-				"&6Objetivo:&r 1. Aproxime-se de vampiros ou caçadores (andam à noite pelas estradas e florestas) para despertar esta crônica."
-				"&f2. Encontre um &6Livro de Vampiro&r em baús de masmorras, minas abandonadas e pirâmides; vampiros e caçadores avançados também o largam."
-				"&f3. Derrote &4Vampiros&r e recolha 3 &6Presas de Vampiro&r."
-				"&f4. Colha 8 &6Alhos&r: crescem atrás da casa do &9Treinador de Caçadores&r em algumas aldeias e, às vezes, selvagens. Replante como cenoura."
-				""
-				"&8A &6Presa de Vampiro&8 e o &6Coração Humano&8 são os itens de facção do &6Coração do Tier I&8. Junte presas mesmo que vá ser caçador."
-				"&8Usar uma presa em si mesmo transmite a Sanguinare. Não faça isso por engano se quiser caçar vampiros."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["2185652AAB4F17D0"]
 			id: "28BEF2E097218D1C"
-			x: 4.0d
-			y: -1.6d
-			dependencies: [
-				"2185652AAB4F17D0"
-			]
+			rewards: [{
+				id: "2F5803FD9352E51A"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
-					id: "2E89BF9EB92BE703"
-					type: "advancement"
 					advancement: "vampirism:main/vampire_forest"
 					criterion: ""
+					id: "2E89BF9EB92BE703"
+					type: "advancement"
 				}
 				{
 					id: "45941E5ABC9381E2"
+					item: { count: 1, id: "vampirism:vampire_orchid" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_orchid"
-					}
-					count: 1L
 				}
 				{
-					id: "2AA308EE05E5E4BF"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:cobbled_dark_stone"
-					}
 					count: 8L
+					id: "2AA308EE05E5E4BF"
+					item: { count: 1, id: "vampirism:cobbled_dark_stone" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "2F5803FD9352E51A"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "A Floresta sem Sol"
-			description: [
-				"&7Há bosques onde a névoa nunca levanta. Os pinheiros têm casca negra, as raízes sangram quando cortadas e o sol não alcança o chão."
-				"&7É ali que os vampiros dormem sem medo do dia e que os barões erguem castelos de pedra escura."
-				"&7Entre as árvores abre uma única flor, a &5orquídea vampírica&7, que só cresce onde a luz morre."
-				""
-				"&6Objetivo:&r 1. Encontre e explore uma &4Floresta Vampírica&r (bioma raro, coberto de névoa). Vampiros não sofrem dano solar dentro dela."
-				"&f2. Colha uma &5Orquídea Vampírica&r no chão da floresta (o Mercador Ambulante às vezes vende)."
-				"&f3. Recolha 8 &6Pedras Escuras de Pedregulho&r das ruínas e castelos da floresta."
-				""
-				"&8A Pedra Escura impede o surgimento de monstros que não sejam vampiros. Ótima para muros de covil."
-			]
+			x: 4.0d
+			y: -1.6d
 		}
 		{
+			dependencies: ["2185652AAB4F17D0"]
 			id: "52B0F0BE75D0CF07"
-			x: 4.0d
-			y: -0.0d
+			rewards: [{
+				id: "1B6E14D088B39960"
+				type: "xp"
+				xp: 200
+			}]
 			size: 1.25d
-			dependencies: [
-				"2185652AAB4F17D0"
-			]
 			tasks: [
 				{
 					id: "3631573013CF79FF"
+					item: { count: 1, id: "vampirism:injection_garlic" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:injection_garlic"
-					}
-					count: 1L
 				}
 				{
-					id: "57ACC2E5C81A17EC"
-					type: "advancement"
 					advancement: "vampirism:hunter/become_hunter"
 					criterion: ""
+					id: "57ACC2E5C81A17EC"
+					type: "advancement"
 				}
 				{
 					id: "3AA09BC719AA0736"
+					item: { count: 1, id: "vampirism:stake" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:stake"
-					}
-					count: 1L
 				}
 				{
-					id: "04C8922627E33BB7"
-					type: "advancement"
 					advancement: "vampirism:hunter/stake"
 					criterion: ""
+					id: "04C8922627E33BB7"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "1B6E14D088B39960"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "&9[Caçador]&r O Juramento do Alho"
-			description: [
-				"&7Em algumas aldeias mora um velho de chapéu largo, com uma horta de alho nos fundos e uma cadeira que ninguém gosta de olhar."
-				"&7Uma agulhada, um gosto de alho que dura uma semana, e nunca mais uma mordida vai envenenar o seu sangue."
-				"&7Depois disso, o caçador aprende a lição mais antiga contra os mortos, que é também a mais barata: madeira afiada e braço firme."
-				""
-				"&6Objetivo:&r 1. Encontre a casa do &9Treinador de Caçadores&r numa aldeia. Faça uma &6Seringa&r (vidro e painel de vidro) e uma &6Injeção de Alho&r (seringa + alho)."
-				"&f2. Sente-se na &6Cadeira de Injeção&r do treinador e use a injeção: você fica imune a Sanguinare e vira &9Caçador de Vampiros&r."
-				"&f3. Faça uma &6Estaca&r (madeira) e crave-a num vampiro enfraquecido (pouca vida) para matá-lo de vez."
-				""
-				"&8A Cadeira de Injeção também pode ser feita: ferro, lã e garrafa de vidro."
-			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["2185652AAB4F17D0"]
 			id: "40EE7C6EF318FCA9"
-			x: 4.0d
-			y: 1.6d
-			dependencies: [
-				"2185652AAB4F17D0"
-			]
-			tasks: [
-				{
-					id: "63343B60D5B826FA"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:altar_cleansing"
-					}
-					count: 1L
-				}
-				{
-					id: "0488A7DA0D3FBA25"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:injection_sanguinare"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "31B1E50F09A3839E"
@@ -263,103 +145,72 @@
 				}
 				{
 					id: "320ED98438A380CA"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Caminho de Volta"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nem todo juramento dura para sempre. Há vampiros que sentem saudade do sol, e caçadores cansados de lutar contra a noite."
-				"&7As igrejas de aldeia guardam um altar de purificação para os primeiros; para os segundos, basta uma agulha cheia do que eles mais temiam."
-				""
-				"&6Objetivo:&r 1. Para deixar de ser vampiro: use um &6Altar de Purificação&r (achado em igrejas de aldeia, ou feito com presas, livro e tábuas). Todos os níveis de vampiro se perdem."
-				"&f2. Para deixar de ser caçador: faça uma &6Injeção de Sanguinare&r (seringa + 8 presas) e aplique-a na Cadeira de Injeção."
-				""
-				"&8Para virar lobisomem, um caçador vacinado ou um vampiro precisa antes se curar."
+			tasks: [
+				{
+					id: "63343B60D5B826FA"
+					item: { count: 1, id: "vampirism:altar_cleansing" }
+					type: "item"
+				}
+				{
+					id: "0488A7DA0D3FBA25"
+					item: { count: 1, id: "vampirism:injection_sanguinare" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 1.6d
 		}
 		{
-			id: "0AE3AA51BD3FC0D0"
-			x: 6.0d
-			y: -0.8d
-			size: 1.25d
 			dependencies: [
 				"2185652AAB4F17D0"
 				"28BEF2E097218D1C"
 			]
+			id: "0AE3AA51BD3FC0D0"
+			rewards: [{
+				id: "06FF6F106C5757F1"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "3ACC6D18F11F0336"
-					type: "advancement"
 					advancement: "vampirism:vampire/become_vampire"
 					criterion: ""
+					id: "3ACC6D18F11F0336"
+					type: "advancement"
 				}
 				{
-					id: "064B5B86A612975B"
-					type: "advancement"
 					advancement: "vampirism:vampire/first_blood"
 					criterion: ""
+					id: "064B5B86A612975B"
+					type: "advancement"
 				}
 				{
-					id: "48B63B8FC0811D37"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:blood_bottle"
-					}
 					count: 4L
+					id: "48B63B8FC0811D37"
+					item: { count: 1, id: "vampirism:blood_bottle" }
+					type: "item"
 				}
 				{
 					id: "0477A713481DD91D"
+					item: { count: 1, id: "vampirism:umbrella" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:umbrella"
-					}
-					count: 1L
 				}
 				{
 					id: "27616E3A1688851C"
+					item: { count: 1, id: "vampirism:coffin_red" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:coffin_red"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "06FF6F106C5757F1"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "&4[Vampiro]&r Sangue Novo"
-			description: [
-				"&7Primeiro vem a febre, depois a fome. Ao fim de um dia, o coração bate uma última vez e se cala."
-				"&7O pão vira cinza na boca e só uma coisa ainda tem gosto. O sol, antes amigo, passa a arder na pele como brasa."
-				"&7Os vampiros novos que sobrevivem à primeira semana são os que aprendem depressa: beber, guardar, se esconder e dormir de tampa fechada."
-				""
-				"&6Objetivo:&r 1. Deixe um vampiro morder você (de costas) ou use uma &6Presa&r em si mesmo para contrair &4Sanguinare Vampiris&r. Espere cerca de 20 minutos sem beber leite."
-				"&f2. Aproxime-se de uma criatura por trás e segure a tecla de &4morder&r (padrão V). Aldeões são a melhor fonte."
-				"&f3. Com &6garrafas de vidro&r na barra rápida, beba com a barra de sangue cheia: elas viram 4 &4Garrafas de Sangue&r."
-				"&f4. Faça um &6Guarda-chuva&r (lã, orquídea vampírica e varetas) para andar sob o sol sem queimar."
-				"&f5. Construa um &6Caixão&r (qualquer cor) e durma nele para pular o dia em vez da noite."
-				""
-				"&8Zumbis e esqueletos deixam de atacar vampiros; caçadores passam a caçar você."
-				"&8Florestas vampíricas, cavernas, chapéus e tempo nublado também protegem do sol. A água enfraquece vampiros."
-				"&8Quem tomou a vacina de alho é imune: precisa antes de uma Injeção de Sanguinare."
-			]
+			x: 6.0d
+			y: -0.8d
 		}
-	]
-	title: "A Guerra da Noite"
-	subtitle: [
-		"Sangue, alho e estacas"
 	]
 }

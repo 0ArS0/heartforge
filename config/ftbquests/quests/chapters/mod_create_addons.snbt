@@ -4,104 +4,35 @@
 	filename: "mod_create_addons"
 	group: "3B08ACB5CE59F3E7"
 	icon: {
-		count: 1
 		id: "create_enchantment_industry:blaze_enchanter"
 	}
 	id: "7D111C157DCB10B7"
-	order_index: 17
+	images: [ ]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "66907F98F427F762"
-			x: 0.0d
-			y: 0.0d
-			shape: "square"
-			size: 1.75d
 			icon: {
-				count: 1
 				id: "create_enchantment_industry:blaze_enchanter"
 			}
-			tasks: [
-				{
-					id: "2E4B94EC837FC25D"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "39A65DF647ACB2C4"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "Os Apêndices do Engenheiro"
-			description: [
-				"&7Todo grande livro de engenharia ganha apêndices escritos por mãos diferentes."
-				"&7Aqui estão as notas dos que ensinaram blazes a encantar, cobre a carregar raios"
-				"&7e engrenagens a guardar força para depois."
-				""
-				"&7A experiência líquida destas páginas é ingrediente do Coração do Tier IV."
-				"&7Comece pelo moedor: ele transforma pepitas de saber em rio verde."
-			]
+			id: "66907F98F427F762"
+			rewards: [{
+				id: "39A65DF647ACB2C4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				id: "2E4B94EC837FC25D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["66907F98F427F762"]
 			id: "6D0973D7E090DE24"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"66907F98F427F762"
-			]
-			tasks: [
-				{
-					id: "6FACD5D87B081563"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:mechanical_grindstone"
-					}
-					count: 1L
-				}
-				{
-					id: "3D6E20BD1070386E"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:grindstone_drain"
-					}
-					count: 1L
-				}
-				{
-					id: "7498F84E2B85BFB4"
-					type: "advancement"
-					advancement: "create_enchantment_industry:experienced_engineer"
-					criterion: ""
-				}
-				{
-					id: "79C87F604D665034"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_bucket"
-					}
-					count: 1L
-				}
-				{
-					id: "610C58254D8732FC"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:experience_block"
-					}
-					count: 4L
-				}
-				{
-					id: "151094ACC4025BD2"
-					type: "advancement"
-					advancement: "create_enchantment_industry:grind_to_polish"
-					criterion: ""
-				}
-			]
 			rewards: [
 				{
 					id: "7EF4C93530FAAE68"
@@ -110,33 +41,51 @@
 				}
 				{
 					id: "3F6417CE24656B80"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Rio Verde"
-			description: [
-				"&7Uma mó de andesita que não mói trigo: mói memórias."
-				"&7Sob ela, um ralo bebe o que escorre das pepitas de saber esmagadas, e o que sai é um líquido que brilha"
-				"&7como esmeralda. Os encantadores de Heartforge chamam isso de experiência líquida;"
-				"&7os forjadores de Corações chamam de ingrediente."
-				""
-				"&6Objetivo:&r 1. Faça um &6Mechanical Grindstone&r (8 Andesite Alloy em volta de um Shaft). Ele também lixa itens como Sand Paper."
-				"&f2. Clique com ele num &6Item Drain&r para criar o &6Grindstone Drain&r; ponha outro moedor em cima e gire-o."
-				"&f3. Jogue &6Nuggets of Experience&r no dreno: viram &bexperiência líquida&r no tanque ligado."
-				"&f4. Encha um balde de experiência (Bucket o' Enchanting) e junte 9 pepitas num &6Block of Experience&r."
-				"&f5. Use o moedor para polir um item, à mão ou sobre esteira."
-				""
-				"&8Rodas Esmagadoras e Deployers que matam criaturas também soltam pepitas de experiência."
-				"&8Canos que vazam experiência derramam orbes de XP no chão."
+			size: 1.25d
+			tasks: [
+				{
+					id: "6FACD5D87B081563"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+				{
+					id: "3D6E20BD1070386E"
+					item: { count: 1, id: "create_enchantment_industry:grindstone_drain" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:experienced_engineer"
+					criterion: ""
+					id: "7498F84E2B85BFB4"
+					type: "advancement"
+				}
+				{
+					id: "79C87F604D665034"
+					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "610C58254D8732FC"
+					item: { count: 1, id: "create:experience_block" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:grind_to_polish"
+					criterion: ""
+					id: "151094ACC4025BD2"
+					type: "advancement"
+				}
 			]
+			x: 2.0d
+			y: 0.0d
 		}
-	]
-	title: "Os Apêndices do Engenheiro"
-	subtitle: [
-		"Experiência líquida, eletricidade e engenhocas"
 	]
 }

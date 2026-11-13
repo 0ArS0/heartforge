@@ -4,68 +4,39 @@
 	filename: "mod_iceandfire_t5"
 	group: "6BE2CA13D0D2A15E"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_5"
 	}
 	id: "59BC7F4D45EDFD8F"
-	order_index: 62
+	images: [ ]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4018BE9B89E55AA3"
-			x: 0.0d
-			y: 0.8d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_5"
 			}
-			tasks: [
-				{
-					id: "5F2CBA40E0E1E679"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_5"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&cTier V"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &cTier V&7."
-			]
-			disable_toast: true
+			id: "4018BE9B89E55AA3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				id: "5F2CBA40E0E1E679"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
 		}
 		{
-			id: "56ADB5730C8B92FF"
-			x: 2.0d
-			y: 0.0d
-			shape: "gear"
-			icon: {
-				count: 1
-				id: "iceandfire:fire_dragon_heart"
-			}
 			dependencies: [
 				"0C56988A1EE3853A"
 				"4018BE9B89E55AA3"
 			]
-			tasks: [
-				{
-					id: "77091F2F06385905"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:gold_pile"
-					}
-					count: 32L
-				}
-				{
-					id: "1EC4EE81C2D1ED7F"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/kill_if_dragon"
-					criterion: ""
-				}
-			]
+			icon: {
+				id: "iceandfire:fire_dragon_heart"
+			}
+			id: "56ADB5730C8B92FF"
 			rewards: [
 				{
 					id: "34709EA4FD0A69B6"
@@ -74,208 +45,112 @@
 				}
 				{
 					id: "650ABFD79B2979E6"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&cO Matador de Dragões"
-			description: [
-				"&7Bem abaixo da terra, o calor sobe por túneis largos como catedrais e o ouro forma dunas."
-				"&7Ali dorme um dragão adulto, de estágio quatro ou cinco, a fera que guarda o Tier V."
-				"&7Nenhum coração de campeão bate sem o coração de um dragão."
-				""
-				"&6Objetivo:&r 1. Encontre uma &6caverna de dragão&r (fogo, gelo ou raio) no subsolo dos biomas do elemento e recolha &632 Montes de Ouro&r do tesouro."
-				"&f2. Derrote um &cdragão&r de fogo, gelo ou raio. O &ccoração do dragão&r é a peça-chave do &6Coração do Tier V&r."
-				"&f3. Depois da morte, use a mão vazia no cadáver para colher escamas, ossos, carne e o coração."
-				""
-				"&8Use o Rastreador de Dragões, ou siga a terra queimada, congelada ou rachada."
-				"&8Vista armadura contra o elemento dele: escamas de dragão e aço de dragão reduzem o dano do sopro."
+			shape: "gear"
+			tasks: [
+				{
+					count: 32L
+					id: "77091F2F06385905"
+					item: { count: 1, id: "iceandfire:gold_pile" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/kill_if_dragon"
+					criterion: ""
+					id: "1EC4EE81C2D1ED7F"
+					type: "advancement"
+				}
 			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "6EF2E68FC22C360A"
-			x: 2.0d
-			y: 1.6d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:dread_lich_heart"
-			}
 			dependencies: [
 				"3836D08B94670D55"
 				"4018BE9B89E55AA3"
 			]
+			icon: {
+				id: "comamigos_balance:dread_lich_heart"
+			}
+			id: "6EF2E68FC22C360A"
+			rewards: [{
+				id: "374A2B085E38F924"
+				type: "xp"
+				xp: 340
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "iceandfire:dread_lich"
 					id: "3ADDE50A89E244BB"
 					type: "kill"
-					entity: "iceandfire:dread_lich"
 					value: 1L
 				}
 				{
 					id: "608BB03E0E2AF2A9"
+					item: { count: 1, id: "iceandfire:dread_key" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dread_key"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "374A2B085E38F924"
-					type: "xp"
-					xp: 340
-				}
-			]
-			title: "O Lich do Pavor"
-			description: [
-				"&7No coração do mausoléu, um feiticeiro morto ergue os seus servos de novo e de novo."
-				"&7Enquanto ele respira, se é que respira, o exército do pavor não acaba."
-				"&7Caído, deixa uma chave de osso que abre as fechaduras do túmulo."
-				""
-				"&6Objetivo:&r 1. Volte ao Mausoléu do Pavor e encontre o &cLich do Pavor&r entre os mortos-vivos."
-				"&f2. Ignore os servos e derrube o lich primeiro: sem ele, os servos param de surgir."
-				"&f3. Recolha a &6Chave do Coveiro&r e use-a nas fechaduras de madeira do pavor. Reclame o seu &ccoração de troféu&r."
-				""
-				"&8Leve a Espada de Prata ou a Lâmina Fantasmagórica: dano extra contra mortos-vivos."
-			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "14B8DBF40C1C5A0E"
-			x: 4.0d
-			y: -2.0d
-			size: 1.25d
+			dependencies: ["56ADB5730C8B92FF"]
 			icon: {
-				count: 1
 				id: "iceandfire:fire_dragon_blood"
 			}
-			dependencies: [
-				"56ADB5730C8B92FF"
-			]
+			id: "14B8DBF40C1C5A0E"
+			rewards: [{
+				id: "673CE070E93A7EF3"
+				type: "xp"
+				xp: 850
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "65DFD0BE8F92C4EC"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:fire_dragon_flesh"
-					}
 					count: 4L
+					id: "65DFD0BE8F92C4EC"
+					item: { count: 1, id: "iceandfire:fire_dragon_flesh" }
+					type: "item"
 				}
 				{
-					id: "680596AAA4F7C29B"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:fire_dragon_blood"
-					}
 					count: 2L
+					id: "680596AAA4F7C29B"
+					item: { count: 1, id: "iceandfire:fire_dragon_blood" }
+					type: "item"
 				}
 				{
 					id: "02EFD8FACDBF9240"
+					item: { count: 1, id: "iceandfire:dragonscale_red" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonscale_red"
-					}
-					count: 1L
 				}
 				{
 					id: "262A170A068E393A"
+					item: { count: 1, id: "iceandfire:armor_red_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:armor_red_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "0749193756C8BAC3"
+					item: { count: 1, id: "iceandfire:cooked_rice_with_fire_dragon_meat" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:cooked_rice_with_fire_dragon_meat"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "673CE070E93A7EF3"
-					type: "xp"
-					xp: 850
-				}
-			]
-			title: "Colheita do Cadáver"
-			description: [
-				"&7Um dragão morto é uma mina inteira: nada se desperdiça."
-				"&7A carne é dura, picante e cara; o sangue engarrafado é a matéria-prima do aço; as escamas viram a pele de quem as veste."
-				""
-				"&6Objetivo:&r 1. Colha &64 Carnes de Dragão&r do cadáver."
-				"&f2. Use um &6frasco de vidro&r no cadáver para engarrafar &62 Sangues de Dragão&r (a forja também destila sangue de escamas)."
-				"&f3. Compacte nove escamas num &6Bloco de Escamas de Dragão&r."
-				"&f4. Monte um &6Peitoral de Escamas de Dragão&r na Mechanical Crafter (escamas da mesma cor): reduz muito o dano dos sopros."
-				"&f5. Na panela, faça &6Arroz Frito com Carne de Dragão&r (arroz, carne, batata e cenoura)."
-			]
+			x: 4.0d
+			y: -2.0d
 		}
 		{
-			id: "080644218B32824C"
-			x: 4.0d
-			y: -0.4d
-			size: 1.25d
+			dependencies: ["56ADB5730C8B92FF"]
 			icon: {
-				count: 1
 				id: "iceandfire:dragonforge_fire_core"
 			}
-			dependencies: [
-				"56ADB5730C8B92FF"
-			]
-			tasks: [
-				{
-					id: "2CDB63A055BF4987"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragon_forge_brick"
-					criterion: ""
-				}
-				{
-					id: "03EAEDA5AAADC06A"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonforge_fire_brick"
-					}
-					count: 17L
-				}
-				{
-					id: "6064A333005418FA"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragon_forge_core"
-					criterion: ""
-				}
-				{
-					id: "73A9C1E732A62FC2"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonforge_fire_input"
-					}
-					count: 1L
-				}
-				{
-					id: "1EE8E0301F61959A"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragon_bone_block"
-					}
-					count: 8L
-				}
-			]
+			id: "080644218B32824C"
 			rewards: [
 				{
 					id: "0F8165D4F2EEAC74"
@@ -284,157 +159,99 @@
 				}
 				{
 					id: "29B4B4A4D530720F"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Forja de Dragão"
-			description: [
-				"&7Vinte e sete blocos, um coração e o fôlego de uma fera: nenhuma fornalha chega perto."
-				"&7A forja começa com escamas cozidas em pedra; no centro bate o coração do próprio dragão,"
-				"&7e por uma abertura entra o sopro que faz o aço nascer."
-				""
-				"&6Objetivo:&r 1. Faça &617 Tijolos de Forja de Dragão&r: tijolos de pedra cercados de blocos de escamas do elemento."
-				"&f2. Faça o &6Núcleo da Forja&r: um coração de dragão cercado de 8 tijolos do mesmo elemento."
-				"&f3. Faça uma &6Abertura da Forja&r (tijolos e lingotes de ferro) e &68 Blocos de Osso de Dragão&r."
-				"&f4. Monte o cubo 3x3x3: ossos nos 8 cantos, núcleo no centro, abertura no meio de uma face e tijolos no resto."
-				"&f5. Um dragão do mesmo elemento precisa soprar na abertura para acender a forja."
-				""
-				"&8Atraia um dragão selvagem para soprar na abertura, ou mande o seu dragão domado atacar perto dela."
-				"&8Há forjas de fogo, de gelo e de raio: cada uma só funciona com o sopro certo."
-			]
-		}
-		{
-			id: "69038147C161306C"
-			x: 4.0d
-			y: 1.2d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonegg_red"
-			}
-			dependencies: [
-				"56ADB5730C8B92FF"
-			]
 			tasks: [
 				{
-					id: "4289A49CF648745E"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragon_egg"
+					advancement: "iceandfire:iceandfire/dragon_forge_brick"
 					criterion: ""
+					id: "2CDB63A055BF4987"
+					type: "advancement"
 				}
 				{
-					id: "26167A87A3AB83A2"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragon_meal"
-					criterion: ""
+					count: 17L
+					id: "03EAEDA5AAADC06A"
+					item: { count: 1, id: "iceandfire:dragonforge_fire_brick" }
+					type: "item"
 				}
 				{
-					id: "63CFCF81C173F178"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragon_staff"
+					advancement: "iceandfire:iceandfire/dragon_forge_core"
 					criterion: ""
+					id: "6064A333005418FA"
+					type: "advancement"
 				}
 				{
-					id: "73AD2CCE734D2068"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragon_horn"
-					criterion: ""
+					id: "73A9C1E732A62FC2"
+					item: { count: 1, id: "iceandfire:dragonforge_fire_input" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1EE8E0301F61959A"
+					item: { count: 1, id: "iceandfire:dragon_bone_block" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "3CE9DDB347454239"
-					type: "xp"
-					xp: 680
-				}
-			]
-			title: "Mãe de Dragões"
-			description: [
-				"&7Uma fêmea adulta morta às vezes deixa um ovo do tamanho de um barril, ainda quente."
-				"&7Um dragão leva anos para crescer, mas com ração certa leva semanas."
-				"&7Um crânio no alto de um cajado dá ordens, e dentro de um chifre cabe um dragão inteiro, como tempestade numa garrafa."
-				""
-				"&6Objetivo:&r 1. Consiga um &6Ovo de Dragão&r: fêmeas adultas podem deixá-lo ao morrer, e as cavernas os guardam."
-				"&f2. Faça &6Ração de Dragão&r (ossos e carnes) e dê ao filhote para envelhecê-lo mais rápido."
-				"&f3. Faça o &6Cajado de Comando&r (crânio de dragão e dois gravetos) e use-o para alternar seguir, sentar e vagar."
-				"&f4. Faça o &6Chifre de Dragão&r (ossos de dragão e graveto) para guardar o dragão domado e soltá-lo onde quiser."
-				""
-				"&8O filhote obedece a quem estiver mais perto quando choca. Fique ao lado do ovo."
-			]
+			x: 4.0d
+			y: -0.4d
 		}
 		{
-			id: "46C5C6B8B668359A"
-			x: 4.0d
-			y: 2.8d
-			size: 1.25d
+			dependencies: ["56ADB5730C8B92FF"]
 			icon: {
-				count: 1
-				id: "iceandfire:podium_oak"
+				id: "iceandfire:dragonegg_red"
 			}
+			id: "69038147C161306C"
+			rewards: [{
+				id: "3CE9DDB347454239"
+				type: "xp"
+				xp: 680
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragon_egg"
+					criterion: ""
+					id: "4289A49CF648745E"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_meal"
+					criterion: ""
+					id: "26167A87A3AB83A2"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_staff"
+					criterion: ""
+					id: "63CFCF81C173F178"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_horn"
+					criterion: ""
+					id: "73AD2CCE734D2068"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.2d
+		}
+		{
 			dependencies: [
 				"6EF2E68FC22C360A"
 				"215C3030C11A7FD7"
 			]
-			tasks: [
-				{
-					id: "76D775B3E838C9E1"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:cyclops_eye"
-					}
-					count: 1L
-				}
-				{
-					id: "755A6978D84E8B30"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:deathworm_egg_giant"
-					}
-					count: 1L
-				}
-				{
-					id: "0A48D80DF002EA97"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:banner_pattern_fire"
-					}
-					count: 1L
-				}
-				{
-					id: "3FE1077B39E4ECFB"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:stone_statue"
-					}
-					count: 1L
-				}
-				{
-					id: "4D807F70D56661A0"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:lich_staff"
-					}
-					count: 1L
-				}
-				{
-					id: "1CBD4EF91936E8A7"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragon_skull_fire"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "iceandfire:podium_oak"
+			}
+			id: "46C5C6B8B668359A"
+			optional: true
 			rewards: [
 				{
 					id: "142CF32BD374F1D4"
@@ -443,92 +260,58 @@
 				}
 				{
 					id: "2EE11CDBEB6BE289"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "A Sala de Troféus"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Caçador que não exibe seus troféus não é levado a sério na taverna."
-				"&7Uma sala de verdade tem o olho do ciclope, um ovo de verme gigante, o brasão das feras,"
-				"&7uma vítima da górgona transformada em escultura e o cajado com que o lich comandava os mortos."
-				""
-				"&6Objetivo:&r 1. Consiga um &6Olho de Ciclope&r (drop raro): segurado, enfraquece os monstros próximos."
-				"&f2. Consiga um &6Ovo de Verme Gigante&r dos vermes maiores."
-				"&f3. Obtenha um &6Padrão de Estandarte&r de fogo (ou de outra fera) para pintar bandeiras no tear."
-				"&f4. Quebre uma vítima petrificada para guardar uma &6Estátua de Pedra&r."
-				"&f5. Consiga o &6Cajado do Lich do Pavor&r."
-				"&f6. Ponha um &6Crânio de Dragão&r no pódio, no centro de tudo."
+			size: 1.25d
+			tasks: [
+				{
+					id: "76D775B3E838C9E1"
+					item: { count: 1, id: "iceandfire:cyclops_eye" }
+					type: "item"
+				}
+				{
+					id: "755A6978D84E8B30"
+					item: { count: 1, id: "iceandfire:deathworm_egg_giant" }
+					type: "item"
+				}
+				{
+					id: "0A48D80DF002EA97"
+					item: { count: 1, id: "iceandfire:banner_pattern_fire" }
+					type: "item"
+				}
+				{
+					id: "3FE1077B39E4ECFB"
+					item: { count: 1, id: "iceandfire:stone_statue" }
+					type: "item"
+				}
+				{
+					id: "4D807F70D56661A0"
+					item: { count: 1, id: "iceandfire:lich_staff" }
+					type: "item"
+				}
+				{
+					id: "1CBD4EF91936E8A7"
+					item: { count: 1, id: "iceandfire:dragon_skull_fire" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 2.8d
 		}
 		{
-			id: "0A8C77C62CAA52BB"
-			x: 6.0d
-			y: -2.27d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonbone_sword_fire"
-			}
 			dependencies: [
 				"14B8DBF40C1C5A0E"
 				"48362BCF60A51A13"
 			]
-			tasks: [
-				{
-					id: "495B6199364DB615"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragonbone_tool"
-					criterion: ""
-				}
-				{
-					id: "5D3658231DBB9823"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_sword"
-					}
-					count: 1L
-				}
-				{
-					id: "49EB15DC9ED067E3"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_bow"
-					}
-					count: 1L
-				}
-				{
-					id: "2D01ADE5032B339D"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_arrow"
-					}
-					count: 8L
-				}
-				{
-					id: "729C5A18B035911F"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
-					criterion: ""
-				}
-				{
-					id: "16229133E8EA6438"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:ghost_sword"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "iceandfire:dragonbone_sword_fire"
+			}
+			id: "0A8C77C62CAA52BB"
 			rewards: [
 				{
 					id: "7D0C90272516B687"
@@ -537,89 +320,61 @@
 				}
 				{
 					id: "36174357ADB675B4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Lâminas de Osso de Dragão"
-			description: [
-				"&7O osso de dragão é mais duro que diamante e mais leve que madeira: a base de toda lâmina lendária deste bestiário."
-				"&7Banhe a espada no sangue de um dragão e ela lembrará para sempre o elemento dele."
-				"&7Junte-a ao metal dos fantasmas e ela cortará até o que não tem corpo."
-				""
-				"&6Objetivo:&r 1. Monte uma ferramenta de &6osso de dragão&r na &6Mechanical Crafter&r (ossos de dragão e ossos de murcho)."
-				"&f2. Monte a &6Espada de Osso de Dragão&r e o &6Arco de Osso de Dragão&r."
-				"&f3. Faça &68 Flechas de Osso de Dragão&r (osso e lasca de murcho)."
-				"&f4. Combine a espada com &6sangue de dragão&r para criar a espada de fogo, de gelo ou de raio."
-				"&f5. Monte a &6Lâmina Fantasmagórica&r (espada de osso de dragão e lingote fantasmagórico): dispara espadas espectrais."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragonbone_tool"
+					criterion: ""
+					id: "495B6199364DB615"
+					type: "advancement"
+				}
+				{
+					id: "5D3658231DBB9823"
+					item: { count: 1, id: "iceandfire:dragonbone_sword" }
+					type: "item"
+				}
+				{
+					id: "49EB15DC9ED067E3"
+					item: { count: 1, id: "iceandfire:dragonbone_bow" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2D01ADE5032B339D"
+					item: { count: 1, id: "iceandfire:dragonbone_arrow" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
+					criterion: ""
+					id: "729C5A18B035911F"
+					type: "advancement"
+				}
+				{
+					id: "16229133E8EA6438"
+					item: { count: 1, id: "iceandfire:ghost_sword" }
+					type: "item"
+				}
 			]
+			x: 6.0d
+			y: -2.27d
 		}
 		{
-			id: "2758EDE522679D60"
-			x: 6.0d
-			y: -0.67d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonsteel_fire_ingot"
-			}
 			dependencies: [
 				"080644218B32824C"
 				"14B8DBF40C1C5A0E"
 			]
-			tasks: [
-				{
-					id: "72EA5BD62023E763"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragonsteel"
-					criterion: ""
-				}
-				{
-					id: "6AF023160E49DF7E"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_fire_ingot"
-					}
-					count: 4L
-				}
-				{
-					id: "5A5AC0172AF3356C"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragonsteel_weapon"
-					criterion: ""
-				}
-				{
-					id: "5E77B75177F7F2B7"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_fire_chestplate"
-					}
-					count: 1L
-				}
-				{
-					id: "4941B95FFEB260D8"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_fire_pickaxe"
-					}
-					count: 1L
-				}
-				{
-					id: "52A7231CDE9BB986"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonarmor_dragon_steel_fire_body"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+			id: "2758EDE522679D60"
 			rewards: [
 				{
 					id: "3D91DD54EF6DE812"
@@ -628,77 +383,59 @@
 				}
 				{
 					id: "10DCAFA181FD039A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Forjado na Chama"
-			description: [
-				"&7Ferro banhado em sangue de dragão e cozido no sopro da fera: o aço de dragão."
-				"&7Uma espada dele parte armaduras como galhos secos, e a armadura dos campeões é quente ao toque e quase indestrutível."
-				"&7O dragão que veste o aço do próprio sangue é um castelo voador."
-				""
-				"&6Objetivo:&r 1. Na forja acesa, coloque &6lingote de ferro&r e &6sangue de dragão&r para obter &64 Aços de Dragão&r."
-				"&f2. Monte uma arma de aço de dragão na &6Mechanical Crafter&r (aço e osso de murcho). As de fogo incendeiam, as de gelo congelam e as de raio chamam relâmpagos."
-				"&f3. Monte um &6Peitoral de Aço de Dragão&r e uma &6Picareta de Aço de Dragão&r na Mechanical Crafter."
-				"&f4. Forje uma peça de &6Armadura de Dragão de Aço&r com blocos de aço de dragão."
-				""
-				"&8O aço de dragão também entra na receita do Coração do Tier V."
-			]
-		}
-		{
-			id: "3880DEB4359EE0D5"
-			x: 6.0d
-			y: 0.93d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonegg_blue"
-			}
-			dependencies: [
-				"69038147C161306C"
-			]
 			tasks: [
 				{
-					id: "70B30AAE0A377030"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonegg_red"
-					}
-					count: 1L
+					advancement: "iceandfire:iceandfire/dragonsteel"
+					criterion: ""
+					id: "72EA5BD62023E763"
+					type: "advancement"
 				}
 				{
-					id: "36BB49A4C213D0AF"
+					count: 4L
+					id: "6AF023160E49DF7E"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonegg_blue"
-					}
-					count: 1L
 				}
 				{
-					id: "42F1C120FF0435A4"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonegg_electric"
-					}
-					count: 1L
+					advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+					criterion: ""
+					id: "5A5AC0172AF3356C"
+					type: "advancement"
 				}
 				{
-					id: "422477B89A81A151"
+					id: "5E77B75177F7F2B7"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:sickly_dragon_meal"
-					}
-					count: 1L
+				}
+				{
+					id: "4941B95FFEB260D8"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "52A7231CDE9BB986"
+					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_fire_body" }
+					type: "item"
 				}
 			]
+			x: 6.0d
+			y: -0.67d
+		}
+		{
+			dependencies: ["69038147C161306C"]
+			icon: {
+				id: "iceandfire:dragonegg_blue"
+			}
+			id: "3880DEB4359EE0D5"
+			optional: true
 			rewards: [
 				{
 					id: "41E0D4B32733C369"
@@ -707,104 +444,49 @@
 				}
 				{
 					id: "415D7C703C1C01EE"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Os Três Berços"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Cada ovo acorda num berço diferente: o de fogo nas chamas, o de gelo dentro da água congelada, o de raio sob a chuva."
-				"&7E às vezes um dragão pequeno é mais útil que um grande."
-				""
-				"&6Objetivo:&r 1. &6Ovo de fogo&r: sobre netherrack, com fogo aceso ao redor."
-				"&f2. &6Ovo de gelo&r: dentro de água parada, que congela em volta."
-				"&f3. &6Ovo de raio&r: a céu aberto durante uma chuva."
-				"&f4. Faça &6Ração Doentia&r (ração de dragão, batatas venenosas e olhos de aranha) para frear o crescimento."
+			size: 1.25d
+			tasks: [
+				{
+					id: "70B30AAE0A377030"
+					item: { count: 1, id: "iceandfire:dragonegg_red" }
+					type: "item"
+				}
+				{
+					id: "36BB49A4C213D0AF"
+					item: { count: 1, id: "iceandfire:dragonegg_blue" }
+					type: "item"
+				}
+				{
+					id: "42F1C120FF0435A4"
+					item: { count: 1, id: "iceandfire:dragonegg_electric" }
+					type: "item"
+				}
+				{
+					id: "422477B89A81A151"
+					item: { count: 1, id: "iceandfire:sickly_dragon_meal" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 6.0d
+			y: 0.93d
 		}
 		{
-			id: "65D9CEE07F6BE60D"
-			x: 8.0d
-			y: -1.47d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:ice_dragon_heart"
-			}
 			dependencies: [
 				"2758EDE522679D60"
 				"0A8C77C62CAA52BB"
 			]
-			tasks: [
-				{
-					id: "09C7BE3502490242"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:fire_dragon_heart"
-					}
-					count: 1L
-				}
-				{
-					id: "5C8F878AC8550FAD"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:ice_dragon_heart"
-					}
-					count: 1L
-				}
-				{
-					id: "38ABC30585664DAE"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:lightning_dragon_heart"
-					}
-					count: 1L
-				}
-				{
-					id: "787FAF6A7B7ABA27"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_ice_ingot"
-					}
-					count: 1L
-				}
-				{
-					id: "621601EE6496956A"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_lightning_ingot"
-					}
-					count: 1L
-				}
-				{
-					id: "0DBA8F4BC8FACA8E"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_sword_ice"
-					}
-					count: 1L
-				}
-				{
-					id: "4A485B4BA09C37DB"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_sword_lightning"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "iceandfire:ice_dragon_heart"
+			}
+			id: "65D9CEE07F6BE60D"
+			optional: true
 			rewards: [
 				{
 					id: "7E2557CFBFC8750E"
@@ -813,73 +495,63 @@
 				}
 				{
 					id: "7539122D736071A2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Fogo, Gelo e Raio"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O caçador completo não se contenta com um elemento. Ele quer os três corações sobre a lareira,"
-				"&7o aço forjado em cada sopro e uma espada para cada céu: a de geada, a de chama e a de trovão."
-				""
-				"&6Objetivo:&r 1. Obtenha os corações de dragão de &6fogo&r, de &6gelo&r e de &6raio&r."
-				"&f2. Faça &6Aço de Dragão de Gelo&r numa forja de gelo e &6Aço de Dragão de Raio&r numa forja de raio."
-				"&f3. Faça a &6Espada de Osso Gelada&r e a &6Espada de Osso de Raio&r com o sangue do elemento."
+			size: 1.25d
+			tasks: [
+				{
+					id: "09C7BE3502490242"
+					item: { count: 1, id: "iceandfire:fire_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "5C8F878AC8550FAD"
+					item: { count: 1, id: "iceandfire:ice_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "38ABC30585664DAE"
+					item: { count: 1, id: "iceandfire:lightning_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "787FAF6A7B7ABA27"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_ingot" }
+					type: "item"
+				}
+				{
+					id: "621601EE6496956A"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_ingot" }
+					type: "item"
+				}
+				{
+					id: "0DBA8F4BC8FACA8E"
+					item: { count: 1, id: "iceandfire:dragonbone_sword_ice" }
+					type: "item"
+				}
+				{
+					id: "4A485B4BA09C37DB"
+					item: { count: 1, id: "iceandfire:dragonbone_sword_lightning" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 8.0d
+			y: -1.47d
 		}
 		{
-			id: "5535AD39631B59A8"
-			x: 8.0d
-			y: 0.27d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonarmor_iron_body"
-			}
 			dependencies: [
 				"69038147C161306C"
 				"2758EDE522679D60"
 			]
-			tasks: [
-				{
-					id: "6093BC7197175056"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonarmor_iron_head"
-					}
-					count: 1L
-				}
-				{
-					id: "17F38F5B39BE7D20"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragonarmor"
-					criterion: ""
-				}
-				{
-					id: "455BB290B6F17CCE"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:summoning_crystal_fire"
-					}
-					count: 1L
-				}
-				{
-					id: "753E0E44439C1B3F"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:legendary_dragon_seeker"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "iceandfire:dragonarmor_iron_body"
+			}
+			id: "5535AD39631B59A8"
 			rewards: [
 				{
 					id: "008BC24741290E96"
@@ -888,29 +560,39 @@
 				}
 				{
 					id: "30DD9592EA65E742"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Cavaleiro de Dragão"
-			description: [
-				"&7Um dragão de guerra precisa de armadura como qualquer cavalo de guerra, da cabeça à cauda."
-				"&7Um cristal de sangue e diamante guarda o vínculo entre cavaleiro e fera,"
-				"&7e o rastreador com aço no cabo sente dragões muito mais longe."
-				""
-				"&6Objetivo:&r 1. Forje uma &6Armadura de Dragão&r de ferro (cabeça, pescoço, corpo ou cauda) e vista o seu dragão com ela."
-				"&f2. Monte um &6Cristal de Invocação&r na Mechanical Crafter (sangue de dragão, pérola do Fim, diamante e esmeralda), vincule-o ao dragão e use-o para chamá-lo."
-				"&f3. Faça o &6Rastreador Lendário&r (crânio de dragão e aço de dragão)."
-				""
-				"&8Armaduras de dragão de ferro também aparecem nos baús dos mausoléus."
+			size: 1.25d
+			tasks: [
+				{
+					id: "6093BC7197175056"
+					item: { count: 1, id: "iceandfire:dragonarmor_iron_head" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragonarmor"
+					criterion: ""
+					id: "17F38F5B39BE7D20"
+					type: "advancement"
+				}
+				{
+					id: "455BB290B6F17CCE"
+					item: { count: 1, id: "iceandfire:summoning_crystal_fire" }
+					type: "item"
+				}
+				{
+					id: "753E0E44439C1B3F"
+					item: { count: 1, id: "iceandfire:legendary_dragon_seeker" }
+					type: "item"
+				}
 			]
+			x: 8.0d
+			y: 0.27d
 		}
-	]
-	title: "&cTier V&7 - O Matador de Dragões"
-	subtitle: [
-		"&cFeras de Gelo e Fogo&7, &cTier V"
 	]
 }

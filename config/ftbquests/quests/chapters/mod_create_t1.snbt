@@ -4,100 +4,36 @@
 	filename: "mod_create_t1"
 	group: "60FEF54FAB43A476"
 	icon: {
-		count: 1
 		id: "minecraft:compass"
 	}
 	id: "132AE614FC3264EE"
-	order_index: 10
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2B5B464D8744E063"
-			x: 0.0d
-			y: 2.4d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			tasks: [
-				{
-					id: "28B27C0F2E168DC1"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&7Tier I"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &7Tier I&7."
-			]
-			disable_toast: true
+			id: "2B5B464D8744E063"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "28B27C0F2E168DC1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
 		}
 		{
-			id: "201C239CABC01D98"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"342274A810C316AE"
 				"2B5B464D8744E063"
 			]
-			tasks: [
-				{
-					id: "5653A96DE7D88F97"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:depot"
-					}
-					count: 2L
-				}
-				{
-					id: "689E5467D486DD06"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_press"
-					}
-					count: 1L
-				}
-				{
-					id: "51E02C930CF30868"
-					type: "advancement"
-					advancement: "create:mechanical_press"
-					criterion: ""
-				}
-				{
-					id: "0F2BAE2EBC0C68F1"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:iron_sheet"
-					}
-					count: 8L
-				}
-				{
-					id: "084A023E27D69694"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:copper_sheet"
-					}
-					count: 8L
-				}
-				{
-					id: "4D5FAA9DF8D6777B"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:golden_sheet"
-					}
-					count: 4L
-				}
-			]
+			id: "201C239CABC01D98"
 			rewards: [
 				{
 					id: "5BA6FC175942279D"
@@ -106,71 +42,60 @@
 				}
 				{
 					id: "79062713C086A3BB"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Martelo sem Braço"
-			description: [
-				"&7O ferreiro batia mil vezes para fazer uma chapa. A prensa bate sem cansar."
-				"&7Folhas finas como pergaminho saem dela guardando o peso de um martelo: são a pele de canos, motores e mecanismos."
-				"&7Toda oficina séria começa com uma mesa onde o item espera e uma prensa sobre ela."
-				""
-				"&6Objetivo:&r 1. Faça &6Depots&r: seguram um item para Prensas, Bicos, Implantadores e Braços trabalharem."
-				"&f2. Faça uma &6Mechanical Press&r, coloque-a sobre o Depot (ou sobre uma esteira) e gire-a."
-				"&f3. Prense lingotes em &6Iron Sheets&r, &6Copper Sheets&r e &6Golden Sheets&r."
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "5653A96DE7D88F97"
+					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+				{
+					id: "689E5467D486DD06"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					advancement: "create:mechanical_press"
+					criterion: ""
+					id: "51E02C930CF30868"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "0F2BAE2EBC0C68F1"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "084A023E27D69694"
+					item: { count: 1, id: "create:copper_sheet" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4D5FAA9DF8D6777B"
+					item: { count: 1, id: "create:golden_sheet" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "3DE179E1EE8B0FE2"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
 			dependencies: [
 				"342274A810C316AE"
 				"2B5B464D8744E063"
 			]
-			tasks: [
-				{
-					id: "1701BB79F9ABAD67"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:encased_fan"
-					}
-					count: 2L
-				}
-				{
-					id: "304FB239B030848F"
-					type: "advancement"
-					advancement: "create:encased_fan"
-					criterion: ""
-				}
-				{
-					id: "48C0846DE5F6F4DB"
-					type: "advancement"
-					advancement: "create:fan_processing"
-					criterion: ""
-				}
-				{
-					id: "496173C526D06EC3"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_saw"
-					}
-					count: 1L
-				}
-				{
-					id: "3EBFB837EEE12956"
-					type: "advancement"
-					advancement: "create:saw_processing"
-					criterion: ""
-				}
-			]
+			id: "3DE179E1EE8B0FE2"
 			rewards: [
 				{
 					id: "50957B70BAFB6FAC"
@@ -179,86 +104,54 @@
 				}
 				{
 					id: "10B5AFAA2D420E0D"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Sopro Mecânico"
-			description: [
-				"&7O vento que se pode prender numa caixa e soltar onde se quer."
-				"&7Atravessando a água, ele lava; atravessando o fogo, cozinha; atravessando a lava, funde."
-				"&7Ao lado dele, a serra: corta toras, tábuas e, se alguém for tolo, dedos."
-				""
-				"&6Objetivo:&r 1. Faça &6Encased Fans&r e ligue-os. Sopram (ou puxam, se invertidos) itens e criaturas."
-				"&f2. Ponha &bágua&r na frente para &6lavar&r (minério triturado → pepitas), &6fogo&r para &6defumar&r e &clava&r para &6fundir&r."
-				"&f3. Faça uma &6Mechanical Saw&r virada para cima e processe toras ou pedras com ela."
-				""
-				"&8Itens no chão ou numa esteira dentro do fluxo de ar são processados."
-				"&8Clique na serra com um item para escolher qual receita ela faz."
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "1701BB79F9ABAD67"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					advancement: "create:encased_fan"
+					criterion: ""
+					id: "304FB239B030848F"
+					type: "advancement"
+				}
+				{
+					advancement: "create:fan_processing"
+					criterion: ""
+					id: "48C0846DE5F6F4DB"
+					type: "advancement"
+				}
+				{
+					id: "496173C526D06EC3"
+					item: { count: 1, id: "create:mechanical_saw" }
+					type: "item"
+				}
+				{
+					advancement: "create:saw_processing"
+					criterion: ""
+					id: "3EBFB837EEE12956"
+					type: "advancement"
+				}
 			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "69C672910A291CD5"
-			x: 2.0d
-			y: 3.2d
-			size: 1.25d
 			dependencies: [
 				"400761B7AB052EE6"
 				"2B5B464D8744E063"
 			]
-			tasks: [
-				{
-					id: "5C47D581C97A48A1"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:millstone"
-					}
-					count: 1L
-				}
-				{
-					id: "267589A62A0B77D4"
-					type: "advancement"
-					advancement: "create:millstone"
-					criterion: ""
-				}
-				{
-					id: "43B33F864403E365"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:crushing_wheel"
-					}
-					count: 2L
-				}
-				{
-					id: "4F52A89B68376555"
-					type: "advancement"
-					advancement: "create:crushing_wheel"
-					criterion: ""
-				}
-				{
-					id: "08D10514A1BC0CFD"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:crushed_raw_iron"
-					}
-					count: 16L
-				}
-				{
-					id: "3DE746FD7DC140A4"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					count: 9L
-				}
-			]
+			id: "69C672910A291CD5"
 			rewards: [
 				{
 					id: "5D9623EB89C60A8A"
@@ -267,109 +160,60 @@
 				}
 				{
 					id: "3468F22E8F75D29B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Rodas da Destruição"
-			description: [
-				"&7A pedra que gira sobre a pedra fez o pão dos reis. Duas rodas que giram uma contra a outra trituram o que for"
-				"&7posto entre elas, inclusive o descuidado."
-				"&7O minério triturado guarda mais metal do que o forno sabe tirar, e às vezes sobra um brilho verde:"
-				"&7a memória do mundo em forma sólida."
-				""
-				"&6Objetivo:&r 1. Faça um &6Millstone&r e jogue trigo, ossos, flores ou minérios dentro: devolve pó, farinha ou corante."
-				"&f2. Faça duas &6Crushing Wheels&r, lado a lado com um bloco de espaço, girando em sentidos opostos."
-				"&f3. Jogue minério bruto por cima delas: sai &6Crushed Raw Ore&r (funda-o, ou lave-o para pepitas extras)."
-				"&f4. Guarde as &6Nuggets of Experience&r que saem como bônus."
-				""
-				"&8Na mesma velocidade, uma roda gira pelo eixo e a outra por uma engrenagem invertida."
-				"&8As pepitas de experiência viram experiência líquida nos Complementos (ingrediente do Coração do Tier IV)."
+			size: 1.25d
+			tasks: [
+				{
+					id: "5C47D581C97A48A1"
+					item: { count: 1, id: "create:millstone" }
+					type: "item"
+				}
+				{
+					advancement: "create:millstone"
+					criterion: ""
+					id: "267589A62A0B77D4"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "43B33F864403E365"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+				{
+					advancement: "create:crushing_wheel"
+					criterion: ""
+					id: "4F52A89B68376555"
+					type: "advancement"
+				}
+				{
+					count: 16L
+					id: "08D10514A1BC0CFD"
+					item: { count: 1, id: "create:crushed_raw_iron" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3DE746FD7DC140A4"
+					item: { count: 1, id: "create:experience_nugget" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "703C1E3FD8E17629"
-			x: 2.0d
-			y: 4.8d
-			size: 1.25d
 			dependencies: [
 				"342274A810C316AE"
 				"2B5B464D8744E063"
 			]
-			tasks: [
-				{
-					id: "55D04DB0D550D352"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:super_glue"
-					}
-					count: 1L
-				}
-				{
-					id: "70309F2DF134D84A"
-					type: "advancement"
-					advancement: "create:super_glue"
-					criterion: ""
-				}
-				{
-					id: "3C87FFD62E41A1DA"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_piston"
-					}
-					count: 1L
-				}
-				{
-					id: "450348BC42CE7BFB"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:piston_extension_pole"
-					}
-					count: 8L
-				}
-				{
-					id: "2B414CAD396302C0"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_bearing"
-					}
-					count: 1L
-				}
-				{
-					id: "21FBDD26EBD8FB1F"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:linear_chassis"
-					}
-					count: 4L
-				}
-				{
-					id: "5CBA656F5DAF3A88"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:radial_chassis"
-					}
-					count: 2L
-				}
-				{
-					id: "05D673869902DAED"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:sticker"
-					}
-					count: 1L
-				}
-			]
+			id: "703C1E3FD8E17629"
 			rewards: [
 				{
 					id: "1D1CDE51383405CE"
@@ -378,99 +222,66 @@
 				}
 				{
 					id: "53FB741464FBE6C0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Cola e Pistão"
-			description: [
-				"&7Uma gota de cola e os blocos esquecem que eram muitos."
-				"&7Um pistão comum empurra doze blocos; um pistão mecânico empurra uma muralha. Um rolamento faz portões girarem,"
-				"&7e o chassi é o esqueleto que segura o que a cola não alcança."
-				"&7Assim nascem os contraptions: máquinas inteiras que se movem como um só bloco."
-				""
-				"&6Objetivo:&r 1. Faça &6Super Glue&r e clique em dois cantos para colar uma região."
-				"&f2. Faça um &6Mechanical Piston&r com &6Piston Extension Poles&r atrás (cada vara aumenta o alcance)."
-				"&f3. Faça um &6Mechanical Bearing&r: o que estiver colado à frente gira com ele."
-				"&f4. Faça &6Linear&r e &6Radial Chassis&r (slime nas faces para levar os vizinhos) e um &6Sticker&r (prende ou solta com redstone)."
-			]
-		}
-		{
-			id: "6462DFBBF09514D1"
-			x: 4.0d
-			y: -2.74d
 			size: 1.25d
-			dependencies: [
-				"201C239CABC01D98"
-			]
 			tasks: [
 				{
-					id: "6D7A8B2172AB0BD0"
+					id: "55D04DB0D550D352"
+					item: { count: 1, id: "create:super_glue" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:belt_connector"
-					}
-					count: 4L
 				}
 				{
-					id: "59438AB5581D5020"
-					type: "advancement"
-					advancement: "create:belt"
+					advancement: "create:super_glue"
 					criterion: ""
-				}
-				{
-					id: "33EB0B550AB96200"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:andesite_funnel"
-					}
-					count: 4L
-				}
-				{
-					id: "02E2DE5CF0B973AE"
+					id: "70309F2DF134D84A"
 					type: "advancement"
-					advancement: "create:funnel"
-					criterion: ""
 				}
 				{
-					id: "78285B2F075A13E7"
+					id: "3C87FFD62E41A1DA"
+					item: { count: 1, id: "create:mechanical_piston" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:andesite_tunnel"
-					}
+				}
+				{
+					count: 8L
+					id: "450348BC42CE7BFB"
+					item: { count: 1, id: "create:piston_extension_pole" }
+					type: "item"
+				}
+				{
+					id: "2B414CAD396302C0"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "21FBDD26EBD8FB1F"
+					item: { count: 1, id: "create:linear_chassis" }
+					type: "item"
+				}
+				{
 					count: 2L
-				}
-				{
-					id: "628E94D569A5BF4D"
+					id: "5CBA656F5DAF3A88"
+					item: { count: 1, id: "create:radial_chassis" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:chute"
-					}
-					count: 4L
 				}
 				{
-					id: "366C419BD1E9EE93"
-					type: "advancement"
-					advancement: "create:chute"
-					criterion: ""
-				}
-				{
-					id: "148E946685335B52"
+					id: "05D673869902DAED"
+					item: { count: 1, id: "create:sticker" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:weighted_ejector"
-					}
-					count: 1L
 				}
 			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["201C239CABC01D98"]
+			id: "6462DFBBF09514D1"
 			rewards: [
 				{
 					id: "632EECEC348A901D"
@@ -479,99 +290,69 @@
 				}
 				{
 					id: "5D34512464BA90B4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Caminho de Algas"
-			description: [
-				"&7Uma tira de alga seca, esticada entre dois eixos, carrega o mundo."
-				"&7Sobre ela, bocas de andesita engolem e cospem; túneis repartem a carga como o capataz reparte o pão;"
-				"&7calhas deixam os itens cair como água por um cano; e uma placa com mola arremessa caixas,"
-				"&7galinhas e engenheiros distraídos."
-				""
-				"&6Objetivo:&r 1. Faça &6Mechanical Belts&r (alga seca) e ligue dois eixos alinhados, até 20 blocos de distância."
-				"&f2. Faça &6Andesite Funnels&r: em baús ou esteiras, inserem ou retiram itens."
-				"&f3. Faça &6Andesite Tunnels&r sobre a esteira para dividir os itens com esteiras ou funis ao lado."
-				"&f4. Faça &6Chutes&r: itens descem por elas; com um ventilador na ponta, também sobem."
-				"&f5. Faça um &6Weighted Ejector&r: antes de colocá-lo, clique no bloco-alvo; o que cair na placa voa até lá."
-				""
-				"&8Use a chave na esteira para mudar a inclinação; coloque casca sobre ela para fechá-la."
-			]
-		}
-		{
-			id: "1F9F3F227C811DC4"
-			x: 4.0d
-			y: -1.14d
 			size: 1.25d
-			dependencies: [
-				"201C239CABC01D98"
-			]
 			tasks: [
 				{
-					id: "11DC20BBDC107CF7"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:copper_casing"
-					}
 					count: 4L
-				}
-				{
-					id: "5D660D9C7AB29BFF"
-					type: "advancement"
-					advancement: "create:copper_casing"
-					criterion: ""
-				}
-				{
-					id: "25468470CE4DA2D8"
+					id: "6D7A8B2172AB0BD0"
+					item: { count: 1, id: "create:belt_connector" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:fluid_pipe"
-					}
-					count: 16L
 				}
 				{
-					id: "2DAA653443F1C0D6"
-					type: "advancement"
-					advancement: "create:glass_pipe"
+					advancement: "create:belt"
 					criterion: ""
-				}
-				{
-					id: "0D2F32092B091EE9"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_pump"
-					}
-					count: 1L
-				}
-				{
-					id: "57F8ADF7CEAFE00B"
+					id: "59438AB5581D5020"
 					type: "advancement"
-					advancement: "create:mechanical_pump_0"
-					criterion: ""
 				}
 				{
-					id: "347CD358C31B2002"
-					type: "advancement"
-					advancement: "create:water_supply"
-					criterion: ""
-				}
-				{
-					id: "1D2C316E9052CCA6"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:fluid_tank"
-					}
 					count: 4L
+					id: "33EB0B550AB96200"
+					item: { count: 1, id: "create:andesite_funnel" }
+					type: "item"
+				}
+				{
+					advancement: "create:funnel"
+					criterion: ""
+					id: "02E2DE5CF0B973AE"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "78285B2F075A13E7"
+					item: { count: 1, id: "create:andesite_tunnel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "628E94D569A5BF4D"
+					item: { count: 1, id: "create:chute" }
+					type: "item"
+				}
+				{
+					advancement: "create:chute"
+					criterion: ""
+					id: "366C419BD1E9EE93"
+					type: "advancement"
+				}
+				{
+					id: "148E946685335B52"
+					item: { count: 1, id: "create:weighted_ejector" }
+					type: "item"
 				}
 			]
+			x: 4.0d
+			y: -2.74d
+		}
+		{
+			dependencies: ["201C239CABC01D98"]
+			id: "1F9F3F227C811DC4"
 			rewards: [
 				{
 					id: "73CB7A7C98F6F398"
@@ -580,90 +361,70 @@
 				}
 				{
 					id: "3A200151183C998A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Veias de Cobre"
-			description: [
-				"&7Onde há água, o cobre é rei: não enferruja e não deixa vazar."
-				"&7Os canos são as veias do engenho, os fluidos são seu sangue, e a bomba é o coração que empurra."
-				"&7Um lago com três blocos de fonte nunca se esgota; tanques empilhados viram torres, e torres viram caldeiras."
-				""
-				"&6Objetivo:&r 1. Use cobre sobre madeira descascada para fazer &6Copper Casing&r."
-				"&f2. Faça &6Fluid Pipes&r com chapas de cobre; a chave num cano com fluido mostra o vidro de inspeção."
-				"&f3. Faça uma &6Mechanical Pump&r no meio do cano e gire-a (a seta mostra o fluxo)."
-				"&f4. Puxe água de uma fonte com a ponta aberta do cano."
-				"&f5. Faça &6Fluid Tanks&r (colunas de até 3x3 de base) e encha-os."
-			]
-		}
-		{
-			id: "1E61F7529A84EB55"
-			x: 4.0d
-			y: 0.46d
 			size: 1.25d
-			dependencies: [
-				"201C239CABC01D98"
-			]
 			tasks: [
 				{
-					id: "30C664DB730AD55C"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:white_seat"
-					}
-					count: 2L
-				}
-				{
-					id: "1A8090A7164C0701"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:brown_toolbox"
-					}
-					count: 1L
-				}
-				{
-					id: "76EF9143BF4F9841"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:copper_shingles"
-					}
-					count: 8L
-				}
-				{
-					id: "3E70E7A9280852F9"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:framed_glass"
-					}
-					count: 8L
-				}
-				{
-					id: "0F7E029C09DE99A3"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:copycat_panel"
-					}
 					count: 4L
+					id: "11DC20BBDC107CF7"
+					item: { count: 1, id: "create:copper_casing" }
+					type: "item"
 				}
 				{
-					id: "69650FE393446279"
+					advancement: "create:copper_casing"
+					criterion: ""
+					id: "5D660D9C7AB29BFF"
+					type: "advancement"
+				}
+				{
+					count: 16L
+					id: "25468470CE4DA2D8"
+					item: { count: 1, id: "create:fluid_pipe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:turntable"
-					}
-					count: 1L
+				}
+				{
+					advancement: "create:glass_pipe"
+					criterion: ""
+					id: "2DAA653443F1C0D6"
+					type: "advancement"
+				}
+				{
+					id: "0D2F32092B091EE9"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					advancement: "create:mechanical_pump_0"
+					criterion: ""
+					id: "57F8ADF7CEAFE00B"
+					type: "advancement"
+				}
+				{
+					advancement: "create:water_supply"
+					criterion: ""
+					id: "347CD358C31B2002"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "1D2C316E9052CCA6"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
 				}
 			]
+			x: 4.0d
+			y: -1.14d
+		}
+		{
+			dependencies: ["201C239CABC01D98"]
+			id: "1E61F7529A84EB55"
+			optional: true
 			rewards: [
 				{
 					id: "3E0B8C79176F7B76"
@@ -672,86 +433,59 @@
 				}
 				{
 					id: "2BEAEF55BC8115A9"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Casa do Engenheiro"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Engenheiros também gostam de casas bonitas e de um lugar para sentar."
-				"&7Telhas de cobre, vitrais emoldurados, blocos que vestem a pele de qualquer outro,"
-				"&7uma mesa que gira e uma caixa com todas as ferramentas à mão."
-				""
-				"&6Objetivo:&r 1. Faça &6Seats&r (qualquer cor): pessoas e criaturas sentam neles, até em contraptions."
-				"&f2. Faça uma &6Toolbox&r: de perto, um atalho troca ferramentas sem abrir nada."
-				"&f3. Faça &6Copper Shingles&r, &6Framed Glass&r e &6Copycat Panels&r (zinco no stonecutter; clique com um bloco para copiá-lo)."
-				"&f4. Faça uma &6Turntable&r: gira o que estiver sobre ela (peça do Slicer, nos Complementos)."
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "30C664DB730AD55C"
+					item: { count: 1, id: "create:white_seat" }
+					type: "item"
+				}
+				{
+					id: "1A8090A7164C0701"
+					item: { count: 1, id: "create:brown_toolbox" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "76EF9143BF4F9841"
+					item: { count: 1, id: "create:copper_shingles" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3E70E7A9280852F9"
+					item: { count: 1, id: "create:framed_glass" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0F7E029C09DE99A3"
+					item: { count: 1, id: "create:copycat_panel" }
+					type: "item"
+				}
+				{
+					id: "69650FE393446279"
+					item: { count: 1, id: "create:turntable" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 0.46d
 		}
 		{
-			id: "57C1EFA069E1F74C"
-			x: 4.0d
-			y: 2.06d
-			size: 1.25d
 			dependencies: [
 				"201C239CABC01D98"
 				"69C672910A291CD5"
 			]
-			tasks: [
-				{
-					id: "63FEF5BE2E505C2A"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:basin"
-					}
-					count: 2L
-				}
-				{
-					id: "0E61D3288D47DFF3"
-					type: "advancement"
-					advancement: "create:compacting"
-					criterion: ""
-				}
-				{
-					id: "1DEB6A0FCF2EDC28"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_mixer"
-					}
-					count: 1L
-				}
-				{
-					id: "0520E7516461E3F4"
-					type: "advancement"
-					advancement: "create:mechanical_mixer"
-					criterion: ""
-				}
-				{
-					id: "48D981037ABA69EB"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:wheat_flour"
-					}
-					count: 8L
-				}
-				{
-					id: "4AEFD8938BEFB6FE"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:dough"
-					}
-					count: 4L
-				}
-			]
+			id: "57C1EFA069E1F74C"
 			rewards: [
 				{
 					id: "17B8175C23DE3627"
@@ -760,83 +494,57 @@
 				}
 				{
 					id: "0FCFA8CB9003B298"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Misturador"
-			description: [
-				"&7Parece um caldeirão comum. Não é."
-				"&7Na bacia, sob o batedor, as coisas deixam de ser o que eram: nove pepitas viram lingote,"
-				"&7farinha e água viram massa, andesito e ferro viram liga."
-				"&7Foi num Misturador que se bateu o primeiro Coração de Heartforge."
-				""
-				"&6Objetivo:&r 1. Faça &6Basins&r. Prensa e Misturador trabalham sobre elas; o resultado sai por baixo ou por um funil ao lado."
-				"&f2. Ponha a Mechanical Press sobre uma Basin e jogue pepitas dentro: ela &6compacta&r (9 pepitas = 1 lingote)."
-				"&f3. Faça um &6Mechanical Mixer&r e coloque-o sobre outra Basin, com um bloco de espaço acima dela."
-				"&f4. Moa trigo em &6Wheat Flour&r e misture com água para fazer &6Dough&r."
-				""
-				"&8Asse a massa num ventilador soprando através de fogo (veja O Sopro Mecânico)."
-			]
-		}
-		{
-			id: "503F9F338325017D"
-			x: 4.0d
-			y: 3.66d
 			size: 1.25d
-			dependencies: [
-				"69C672910A291CD5"
-			]
 			tasks: [
 				{
-					id: "07139F76013510BA"
+					count: 2L
+					id: "63FEF5BE2E505C2A"
+					item: { count: 1, id: "create:basin" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:zinc_ingot"
-					}
-					count: 16L
 				}
 				{
-					id: "6E5236FAF27E3835"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:crimsite"
-					}
-					count: 8L
+					advancement: "create:compacting"
+					criterion: ""
+					id: "0E61D3288D47DFF3"
+					type: "advancement"
 				}
 				{
-					id: "0F8E26157771E392"
+					id: "1DEB6A0FCF2EDC28"
+					item: { count: 1, id: "create:mechanical_mixer" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:asurine"
-					}
-					count: 8L
 				}
 				{
-					id: "2B2BDA786245C970"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:ochrum"
-					}
-					count: 8L
+					advancement: "create:mechanical_mixer"
+					criterion: ""
+					id: "0520E7516461E3F4"
+					type: "advancement"
 				}
 				{
-					id: "598E16766C5467C4"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:veridium"
-					}
 					count: 8L
+					id: "48D981037ABA69EB"
+					item: { count: 1, id: "create:wheat_flour" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4AEFD8938BEFB6FE"
+					item: { count: 1, id: "create:dough" }
+					type: "item"
 				}
 			]
+			x: 4.0d
+			y: 2.06d
+		}
+		{
+			dependencies: ["69C672910A291CD5"]
+			id: "503F9F338325017D"
 			rewards: [
 				{
 					id: "52D2ECF0A65E4B3D"
@@ -845,96 +553,52 @@
 				}
 				{
 					id: "607059D2141F9482"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Estratos Coloridos"
-			description: [
-				"&7No fundo da terra há camadas de pedra que contam histórias de ferro, ouro, cobre e zinco."
-				"&7O zinco azulado dorme em veios rasos, esperando ser chamado para o latão."
-				"&7Os mineiros que sabem ler os estratos nunca voltam de mãos vazias."
-				""
-				"&6Objetivo:&r 1. Encontre &6Zinc Ore&r (comum em quase todas as alturas do subsolo) e funda o zinco em lingotes."
-				"&f2. Colete as pedras estratificadas: &6Crimsite&r, &6Asurine&r, &6Ochrum&r e &6Veridium&r."
-				"&f3. Trituradas, dão pepitas: Crimsite → ferro, Asurine → zinco, Ochrum → ouro, Veridium → cobre."
-				""
-				"&8Triturar o zinco bruto antes de fundir rende mais."
-			]
-		}
-		{
-			id: "75612AB9EE1FB5EC"
-			x: 4.0d
-			y: 5.26d
 			size: 1.25d
-			dependencies: [
-				"703C1E3FD8E17629"
-			]
 			tasks: [
 				{
-					id: "77F9CB4CAABEE993"
+					count: 16L
+					id: "07139F76013510BA"
+					item: { count: 1, id: "create:zinc_ingot" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_drill"
-					}
-					count: 1L
 				}
 				{
-					id: "6BF9390C3459A115"
-					type: "advancement"
-					advancement: "create:contraption_actors"
-					criterion: ""
-				}
-				{
-					id: "176F4788501C15F2"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:rope_pulley"
-					}
-					count: 1L
-				}
-				{
-					id: "3F4D294796BC8495"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:gantry_shaft"
-					}
 					count: 8L
+					id: "6E5236FAF27E3835"
+					item: { count: 1, id: "create:crimsite" }
+					type: "item"
 				}
 				{
-					id: "127E7ADF4AF9ACBD"
+					count: 8L
+					id: "0F8E26157771E392"
+					item: { count: 1, id: "create:asurine" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:gantry_carriage"
-					}
-					count: 1L
 				}
 				{
-					id: "49A34901F091ACF1"
+					count: 8L
+					id: "2B2BDA786245C970"
+					item: { count: 1, id: "create:ochrum" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_roller"
-					}
-					count: 1L
 				}
 				{
-					id: "57AD8F83A898A3FB"
+					count: 8L
+					id: "598E16766C5467C4"
+					item: { count: 1, id: "create:veridium" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:contraption_controls"
-					}
-					count: 1L
 				}
 			]
+			x: 4.0d
+			y: 3.66d
+		}
+		{
+			dependencies: ["703C1E3FD8E17629"]
+			id: "75612AB9EE1FB5EC"
 			rewards: [
 				{
 					id: "19AB5A44B5425A5E"
@@ -943,97 +607,59 @@
 				}
 				{
 					id: "14AFA7A1D276C05A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Mineradora Móvel"
-			description: [
-				"&7Picaretas cansam; a broca só para quando a pedra acaba."
-				"&7Os engenheiros anões montam brocas numa corda que desce até onde a escuridão acaba, ou num pórtico que corre"
-				"&7pelo eixo como a lançadeira de um tear. Um rolo atrás deixa o túnel aplainado, e um painel liga e desliga tudo."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Mechanical Drill&r e monte-a num contraption que se mova: ela quebra o que estiver à frente."
-				"&f2. Faça uma &6Rope Pulley&r: desce e sobe os blocos colados abaixo dela (elevadores e mineradoras verticais)."
-				"&f3. Faça &6Gantry Shafts&r e um &6Gantry Carriage&r: o carro corre pelo eixo levando o que estiver colado."
-				"&f4. Faça um &6Mechanical Roller&r (aplaina e pavimenta) e &6Contraption Controls&r (liga/desliga atuadores em movimento)."
-				""
-				"&8A Mechanical Saw num contraption derruba árvores do mesmo jeito que a broca derruba pedra."
-			]
-		}
-		{
-			id: "4708FF6B46D6647A"
-			x: 4.0d
-			y: 6.86d
 			size: 1.25d
-			dependencies: [
-				"703C1E3FD8E17629"
-			]
 			tasks: [
 				{
-					id: "1924E8D1586ECD04"
+					id: "77F9CB4CAABEE993"
+					item: { count: 1, id: "create:mechanical_drill" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_harvester"
-					}
-					count: 2L
 				}
 				{
-					id: "76721E18D0D72353"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_plough"
-					}
-					count: 1L
-				}
-				{
-					id: "659225F583089437"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:cart_assembler"
-					}
-					count: 1L
-				}
-				{
-					id: "2C4D95759246D8A8"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:minecart_coupling"
-					}
-					count: 1L
-				}
-				{
-					id: "02F52888A9CDADC3"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:portable_storage_interface"
-					}
-					count: 2L
-				}
-				{
-					id: "24DAAAF6B1F09320"
-					type: "advancement"
-					advancement: "create:portable_storage_interface"
+					advancement: "create:contraption_actors"
 					criterion: ""
+					id: "6BF9390C3459A115"
+					type: "advancement"
 				}
 				{
-					id: "751F3255D3CF12D2"
+					id: "176F4788501C15F2"
+					item: { count: 1, id: "create:rope_pulley" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:tree_fertilizer"
-					}
-					count: 4L
+				}
+				{
+					count: 8L
+					id: "3F4D294796BC8495"
+					item: { count: 1, id: "create:gantry_shaft" }
+					type: "item"
+				}
+				{
+					id: "127E7ADF4AF9ACBD"
+					item: { count: 1, id: "create:gantry_carriage" }
+					type: "item"
+				}
+				{
+					id: "49A34901F091ACF1"
+					item: { count: 1, id: "create:mechanical_roller" }
+					type: "item"
+				}
+				{
+					id: "57AD8F83A898A3FB"
+					item: { count: 1, id: "create:contraption_controls" }
+					type: "item"
 				}
 			]
+			x: 4.0d
+			y: 5.26d
+		}
+		{
+			dependencies: ["703C1E3FD8E17629"]
+			id: "4708FF6B46D6647A"
 			rewards: [
 				{
 					id: "29B0EC5410DB5C0B"
@@ -1042,69 +668,62 @@
 				}
 				{
 					id: "231E6584C9E3F5E2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Colheita sobre Trilhos"
-			description: [
-				"&7O ceifeiro mecânico colhe e replanta sem pedir salário; o arado quebra o que é frágil e ara o que é terra."
-				"&7Monte os dois num carrinho de mina e a colheita passeia sozinha pelo campo,"
-				"&7descarregando no celeiro enquanto passa, sem nunca parar."
-				""
-				"&6Objetivo:&r 1. Faça &6Mechanical Harvesters&r e um &6Mechanical Plough&r."
-				"&f2. Faça um &6Cart Assembler&r num trilho com redstone: o carrinho que passar leva os blocos colados a ele."
-				"&f3. Faça um &6Minecart Coupling&r para engatar carrinhos."
-				"&f4. Faça &6Portable Storage Interfaces&r (uma no carrinho, outra fixa): ao se encontrarem, os itens passam."
-				"&f5. Faça &6Tree Fertilizer&r: numa muda, a árvore cresce na hora, mesmo em espaço apertado."
-				""
-				"&8O Controller Rail controla a velocidade do carrinho pelo sinal de redstone."
-				"&8Com a chave, um contraption montado vira item e pode ser levado."
-			]
-		}
-		{
-			id: "407A208536807B64"
-			x: 6.0d
-			y: -3.0d
 			size: 1.25d
-			dependencies: [
-				"6462DFBBF09514D1"
-			]
 			tasks: [
 				{
-					id: "677FA14D4BF00386"
-					type: "advancement"
-					advancement: "create:windmill_maxed"
-					criterion: ""
+					count: 2L
+					id: "1924E8D1586ECD04"
+					item: { count: 1, id: "create:mechanical_harvester" }
+					type: "item"
 				}
 				{
-					id: "5F477A6D1E46A77A"
-					type: "advancement"
-					advancement: "create:ejector_maxed"
-					criterion: ""
+					id: "76721E18D0D72353"
+					item: { count: 1, id: "create:mechanical_plough" }
+					type: "item"
 				}
 				{
-					id: "11093540522B4C1B"
-					type: "advancement"
-					advancement: "create:pulley_maxed"
-					criterion: ""
+					id: "659225F583089437"
+					item: { count: 1, id: "create:cart_assembler" }
+					type: "item"
 				}
 				{
-					id: "07B780A21AA643FB"
-					type: "advancement"
-					advancement: "create:potato_cannon_collide"
-					criterion: ""
+					id: "2C4D95759246D8A8"
+					item: { count: 1, id: "create:minecart_coupling" }
+					type: "item"
 				}
 				{
-					id: "58ACCFFFD72DCD8B"
-					type: "advancement"
-					advancement: "create:honey_drain"
+					count: 2L
+					id: "02F52888A9CDADC3"
+					item: { count: 1, id: "create:portable_storage_interface" }
+					type: "item"
+				}
+				{
+					advancement: "create:portable_storage_interface"
 					criterion: ""
+					id: "24DAAAF6B1F09320"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "751F3255D3CF12D2"
+					item: { count: 1, id: "create:tree_fertilizer" }
+					type: "item"
 				}
 			]
+			x: 4.0d
+			y: 6.86d
+		}
+		{
+			dependencies: ["6462DFBBF09514D1"]
+			id: "407A208536807B64"
+			optional: true
 			rewards: [
 				{
 					id: "45BF798DE2AD15B4"
@@ -1113,86 +732,52 @@
 				}
 				{
 					id: "01AA134ACF2C9D90"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Proezas de Aprendiz"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Toda oficina tem suas lendas: o moinho de cem velas que assobiava como dragão, a corda de duzentos blocos"
-				"&7que só devolveu eco, o engenheiro arremessado que pousou onde ninguém quis ver."
-				"&7Nenhuma delas é necessária. Todas são contadas na taverna."
-				""
-				"&6Objetivo:&r 1. Monte um moinho com a força máxima possível."
-				"&f2. Seja lançado por um Weighted Ejector a mais de 30 blocos."
-				"&f3. Estenda uma Rope Pulley por mais de 200 blocos."
-				"&f4. Faça dois projéteis diferentes do Potato Cannon colidirem no ar."
-				"&f5. Puxe mel de uma colmeia com a ponta de um cano ligado a uma bomba."
-			]
-			optional: true
-		}
-		{
-			id: "03BFED4BBE443A76"
-			x: 6.0d
-			y: -1.4d
 			size: 1.25d
-			dependencies: [
-				"1F9F3F227C811DC4"
-			]
 			tasks: [
 				{
-					id: "551636BF1782BA13"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:copper_diving_helmet"
-					}
-					count: 1L
-				}
-				{
-					id: "0752481CD15519FD"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:copper_diving_boots"
-					}
-					count: 1L
-				}
-				{
-					id: "42C511384E4E00B5"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:copper_backtank"
-					}
-					count: 1L
-				}
-				{
-					id: "277B9C93DBEF3409"
-					type: "advancement"
-					advancement: "create:diving_suit"
+					advancement: "create:windmill_maxed"
 					criterion: ""
-				}
-				{
-					id: "76019A23EDD6DD1B"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:potato_cannon"
-					}
-					count: 1L
-				}
-				{
-					id: "6A003BA6A7B40D64"
+					id: "677FA14D4BF00386"
 					type: "advancement"
-					advancement: "create:potato_cannon"
+				}
+				{
+					advancement: "create:ejector_maxed"
 					criterion: ""
+					id: "5F477A6D1E46A77A"
+					type: "advancement"
+				}
+				{
+					advancement: "create:pulley_maxed"
+					criterion: ""
+					id: "11093540522B4C1B"
+					type: "advancement"
+				}
+				{
+					advancement: "create:potato_cannon_collide"
+					criterion: ""
+					id: "07B780A21AA643FB"
+					type: "advancement"
+				}
+				{
+					advancement: "create:honey_drain"
+					criterion: ""
+					id: "58ACCFFFD72DCD8B"
+					type: "advancement"
 				}
 			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F9F3F227C811DC4"]
+			id: "03BFED4BBE443A76"
 			rewards: [
 				{
 					id: "26CD2209216A8496"
@@ -1201,100 +786,57 @@
 				}
 				{
 					id: "30262A757263C77E"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Pronto para as Profundezas"
-			description: [
-				"&7O ar comprimido nas costas, o elmo de cobre na cabeça: o mar deixa de ser túmulo."
-				"&7Um soldado faminto inventou o canhão de batatas; um cozinheiro bravo o aperfeiçoou ligando-o ao mesmo tanque de ar."
-				"&7Quem desce atrás do navio de Cornelia leva os dois."
-				""
-				"&6Objetivo:&r 1. Faça o &6Copper Diving Helmet&r, as &6Copper Diving Boots&r e o &6Copper Backtank&r."
-				"&f2. Coloque o backtank no chão girando para encher de ar; vestido, ele alimenta o elmo debaixo d'água."
-				"&f3. Faça um &6Potato Cannon&r e derrote um inimigo com ele. A munição é comida; a pressão vem do backtank."
-				""
-				"&8As botas pesadas deixam andar no fundo do mar. Útil contra os perigos do mar gelado."
+			size: 1.25d
+			tasks: [
+				{
+					id: "551636BF1782BA13"
+					item: { count: 1, id: "create:copper_diving_helmet" }
+					type: "item"
+				}
+				{
+					id: "0752481CD15519FD"
+					item: { count: 1, id: "create:copper_diving_boots" }
+					type: "item"
+				}
+				{
+					id: "42C511384E4E00B5"
+					item: { count: 1, id: "create:copper_backtank" }
+					type: "item"
+				}
+				{
+					advancement: "create:diving_suit"
+					criterion: ""
+					id: "277B9C93DBEF3409"
+					type: "advancement"
+				}
+				{
+					id: "76019A23EDD6DD1B"
+					item: { count: 1, id: "create:potato_cannon" }
+					type: "item"
+				}
+				{
+					advancement: "create:potato_cannon"
+					criterion: ""
+					id: "6A003BA6A7B40D64"
+					type: "advancement"
+				}
 			]
+			x: 6.0d
+			y: -1.4d
 		}
 		{
-			id: "741F498CCE5910B6"
-			x: 6.0d
-			y: 0.2d
-			size: 1.25d
 			dependencies: [
 				"1F9F3F227C811DC4"
 				"201C239CABC01D98"
 			]
-			tasks: [
-				{
-					id: "65B37A26065440DA"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:spout"
-					}
-					count: 1L
-				}
-				{
-					id: "23C8B79F6F937916"
-					type: "advancement"
-					advancement: "create:spout"
-					criterion: ""
-				}
-				{
-					id: "356F43397C57C09B"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:item_drain"
-					}
-					count: 1L
-				}
-				{
-					id: "5FFF2A9CFE7C3740"
-					type: "advancement"
-					advancement: "create:drain"
-					criterion: ""
-				}
-				{
-					id: "3BE08456A3574868"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:hose_pulley"
-					}
-					count: 1L
-				}
-				{
-					id: "5F1BEBFB98833DB7"
-					type: "advancement"
-					advancement: "create:hose_pulley"
-					criterion: ""
-				}
-				{
-					id: "0C03DA45B763B517"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:fluid_valve"
-					}
-					count: 1L
-				}
-				{
-					id: "577B7BA0F670FD8A"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:copper_valve_handle"
-					}
-					count: 1L
-				}
-			]
+			id: "741F498CCE5910B6"
 			rewards: [
 				{
 					id: "67EE1D096A4C1EC9"
@@ -1303,63 +845,72 @@
 				}
 				{
 					id: "3B34E94E89DDFADE"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Gota a Gota"
-			description: [
-				"&7O bico enche frascos, baldes e moldes; o dreno faz o avesso e bebe o que o item carrega."
-				"&7A mangueira desce como uma cobra e esvazia lagos inteiros, e o registro de cobre decide quando o rio passa."
-				"&7Com essas quatro peças, nenhum fluido de Heartforge fica fora do alcance."
-				""
-				"&6Objetivo:&r 1. Faça um &6Spout&r sobre um Depot ou esteira, ligado a um tanque: enche garrafas e baldes."
-				"&f2. Faça um &6Item Drain&r: itens com fluido jogados nele são esvaziados no tanque ou cano ao lado."
-				"&f3. Faça uma &6Hose Pulley&r, gire-a para baixar a mangueira num corpo de fluido e puxe com bomba."
-				"&f4. Faça uma &6Fluid Valve&r e uma &6Copper Valve Handle&r para abrir e fechar o cano."
-				""
-				"&8Corpos com mais de 10.000 blocos de fonte contam como infinitos para a mangueira."
-			]
-		}
-		{
-			id: "5E0D2100814177FF"
-			x: 6.0d
-			y: 1.8d
-			dependencies: [
-				"57C1EFA069E1F74C"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "06C94A898FC43D7E"
+					id: "65B37A26065440DA"
+					item: { count: 1, id: "create:spout" }
 					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:tier_heart_2"
-					}
-					count: 1L
+				}
+				{
+					advancement: "create:spout"
+					criterion: ""
+					id: "23C8B79F6F937916"
+					type: "advancement"
+				}
+				{
+					id: "356F43397C57C09B"
+					item: { count: 1, id: "create:item_drain" }
+					type: "item"
+				}
+				{
+					advancement: "create:drain"
+					criterion: ""
+					id: "5FFF2A9CFE7C3740"
+					type: "advancement"
+				}
+				{
+					id: "3BE08456A3574868"
+					item: { count: 1, id: "create:hose_pulley" }
+					type: "item"
+				}
+				{
+					advancement: "create:hose_pulley"
+					criterion: ""
+					id: "5F1BEBFB98833DB7"
+					type: "advancement"
+				}
+				{
+					id: "0C03DA45B763B517"
+					item: { count: 1, id: "create:fluid_valve" }
+					type: "item"
+				}
+				{
+					id: "577B7BA0F670FD8A"
+					item: { count: 1, id: "create:copper_valve_handle" }
+					type: "item"
 				}
 			]
-			rewards: [ ]
-			title: "O Coração no Misturador"
-			description: [
-				"&7O primeiro Coração do Tier não pede fogo, só paciência e um batedor que não para."
-				"&7Dentro da bacia, oferendas de oito povos viram uma só batida."
-				"&7Quem o come sobe com o grupo inteiro ao Tier II, e carrega uma maldição que só o Elixir Purificador desfaz."
-				""
-				"&6Objetivo:&r 1. Derrote o Colosso Ferroso na Câmara Forjada e guarde o coração dele."
-				"&f2. No &6Mechanical Mixer&r sobre uma Basin (sem calor), misture: Coração do Colosso Ferroso, Andesite Alloy,"
-				"&flingote de mythril, lingote de manasteel, tinta comum (Common Ink), lingote de prata,"
-				"&fpresa de vampiro, coração humano ou dente de lobisomem, e uma torta de maçã."
-				""
-				"&8Quem come o Coração carrega uma &cmaldição&r. Decidam juntos."
-			]
+			x: 6.0d
+			y: 0.2d
 		}
-	]
-	title: "&7Tier I&7 - A Era da Andesita"
-	subtitle: [
-		"&6Engrenagens e Vapor&7, &7Tier I"
+		{
+			dependencies: ["57C1EFA069E1F74C"]
+			id: "5E0D2100814177FF"
+			tasks: [{
+				id: "06C94A898FC43D7E"
+				item: { count: 1, id: "comamigos_balance:tier_heart_2" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.8d
+		}
 	]
 }

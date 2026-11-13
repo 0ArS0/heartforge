@@ -4,236 +4,123 @@
 	filename: "mod_occultism_t1"
 	group: "46A9BB1E2D819F6E"
 	icon: {
-		count: 1
 		id: "minecraft:compass"
 	}
 	id: "0F30E6B460B2D33E"
-	order_index: 41
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7523BE01501CFBB2"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			tasks: [
-				{
-					id: "252517F8717937DC"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&7Tier I"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &7Tier I&7."
-			]
-			disable_toast: true
+			id: "7523BE01501CFBB2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				id: "252517F8717937DC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "05330088B679682E"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "occultism:book_of_binding_bound_foliot"
-			}
 			dependencies: [
 				"0CAF07650EBB57E6"
 				"3AFBB65C230F7DE0"
 				"7523BE01501CFBB2"
 			]
+			icon: {
+				components: {
+					"occultism:spirit_name": "Geirmornaeus"
+				}
+				id: "occultism:book_of_binding_bound_foliot"
+			}
+			id: "05330088B679682E"
+			rewards: [{
+				id: "6D97E482E9D13EF7"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "1492B3D18E0CBE68"
+					item: { count: 1, id: "occultism:taboo_book" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:taboo_book"
-					}
-					count: 1L
 				}
 				{
 					id: "5C6CA96AEE09608A"
+					item: { count: 1, id: "occultism:purified_ink" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:purified_ink"
-					}
-					count: 1L
 				}
 				{
 					id: "7781C6CE32C6FE97"
+					item: { count: 1, id: "occultism:awakened_feather" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:awakened_feather"
-					}
-					count: 1L
 				}
 				{
 					id: "512E3D2A816197AF"
+					item: { components: { "occultism:spirit_name": "Mrokurakvin" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:book_of_binding_bound_foliot"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "6D97E482E9D13EF7"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "O Nome de um Foliot"
-			description: [
-				"&7Um nome de espírito escrito com tinta comum some da página antes do amanhecer."
-				"&7Por isso o demonólogo passa livro, tinta e pena pela chama violeta antes de escrever qualquer coisa."
-				"&7Saber o nome verdadeiro de um espírito é ter a coleira na mão, e o Dicionário sussurra um nome novo a cada pergunta."
-				""
-				"&6Objetivo:&r 1. No &bFogo Espiritual&r: &6livro&r vira &6Livro do Tabu&r."
-				"&f2. &6Corante preto&r vira &6Tinta Purificada&r."
-				"&f3. &6Pena&r vira &6Pena Despertada&r."
-				"&f4. Faça o &6Livro de Vínculo: Foliot&r (Livro do Tabu, Tinta Purificada, Pena Despertada e corante &9azul&r) e combine-o com o Dicionário na bancada para gravar um nome: &6Livro de Vínculo Vinculado&r."
-				""
-				"&8O livro vinculado é o item de ativação de todos os rituais de grau Foliot. Ele não é consumido."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "44080B90DDE41016"
-			x: 4.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "occultism:golden_sacrificial_bowl"
-			}
 			dependencies: [
 				"05330088B679682E"
 				"2B002EBE2EB90D87"
 				"65DA011A0D7CBB42"
 			]
+			icon: {
+				id: "occultism:golden_sacrificial_bowl"
+			}
+			id: "44080B90DDE41016"
+			rewards: [{
+				id: "1F42EDB1519D2BF1"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "339F76700D97F300"
+					item: { count: 1, id: "occultism:chalk_white" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:chalk_white"
-					}
-					count: 1L
 				}
 				{
-					id: "08B340DF47CAA510"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:sacrificial_bowl"
-					}
 					count: 6L
+					id: "08B340DF47CAA510"
+					item: { count: 1, id: "occultism:sacrificial_bowl" }
+					type: "item"
 				}
 				{
 					id: "671CAE4B4D3E1991"
+					item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:golden_sacrificial_bowl"
-					}
-					count: 1L
 				}
 				{
-					id: "17B2684320D4DD2F"
-					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_crusher"
 					criterion: ""
+					id: "17B2684320D4DD2F"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "1F42EDB1519D2BF1"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "O Primeiro Círculo"
-			description: [
-				"&7Todo demonólogo lembra da primeira noite: giz branco riscado no chão, tigelas de pedra em volta, velas acesas e o livro aberto sobre a tigela de ouro."
-				"&7O &6Círculo de Aviar&7 é pequeno e simples, e ainda assim o Foliot atende resmungando."
-				"&7O primeiro contrato costuma ser o mais útil: um triturador que transforma cada minério em dois punhados de pó."
-				""
-				"&6Objetivo:&r 1. Funda &6OutraPedra&r duas vezes (vira Polida e depois &6Queimada&r). Na bancada, 3 OutraPedras Queimadas + 3 Cinzas do Outro Mundo = &6Giz Branco Impuro&r; purifique-o no &bFogo Espiritual&r."
-				"&f2. Faça &6Tigelas de Sacrifício&r (OutraPedra em forma de U)."
-				"&f3. Faça a &6Tigela Ritualística Dourada&r (uma tigela cercada por 8 ouros). Ela fica no centro; as comuns, a até 8 blocos dela."
-				"&f4. Desenhe o &6Círculo de Aviar&r: tigela dourada no centro, 24 runas de &6giz de fundação&r (branco serve) e 4 velas."
-				"&f5. Ponha cada ingrediente numa &6Tigela de Sacrifício&r perto do pentáculo e clique na tigela dourada central com o item de ativação. Ativação: livro vinculado de Foliot. Ingredientes do &6Triturador Foliot&r: 1 lingote de ferro, ouro, cobre e prata."
-				""
-				"&8Clique no chão com o giz para riscar runas; cada traço gasta durabilidade."
-				"&8Entregue minérios ao triturador (jogue-os perto dele): cada um vira 2 pós. Ele também mói calcita, obsidiana e pedra do End."
-			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			id: "0EB72B6AFE275463"
-			x: 6.0d
-			y: -1.6d
-			size: 1.25d
+			dependencies: ["44080B90DDE41016"]
 			icon: {
-				count: 1
 				id: "occultism:book_of_calling_foliot_lumberjack"
 			}
-			dependencies: [
-				"44080B90DDE41016"
-			]
-			tasks: [
-				{
-					id: "37B853C793EFD5B7"
-					type: "advancement"
-					advancement: "occultism:occultism/summon_foliot_smelter"
-					criterion: ""
-				}
-				{
-					id: "67EBC19C6A8DF861"
-					type: "advancement"
-					advancement: "occultism:occultism/summon_foliot_lumberjack"
-					criterion: ""
-				}
-				{
-					id: "639369B33EE2F036"
-					type: "advancement"
-					advancement: "occultism:occultism/summon_foliot_transport_items"
-					criterion: ""
-				}
-				{
-					id: "387B21EC6E818D4C"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:brush"
-					}
-					count: 1L
-				}
-				{
-					id: "77E00A35AE32EFEB"
-					type: "advancement"
-					advancement: "occultism:occultism/summon_foliot_cleaner"
-					criterion: ""
-				}
-				{
-					id: "3BA90BCEF5AE3F64"
-					type: "advancement"
-					advancement: "occultism:occultism/summon_foliot_sapling_trader"
-					criterion: ""
-				}
-			]
+			id: "0EB72B6AFE275463"
 			rewards: [
 				{
 					id: "3DB1EDDB4CF9CF40"
@@ -242,60 +129,58 @@
 				}
 				{
 					id: "31770B686127E4F5"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Criadagem Foliot"
-			description: [
-				"&7Depois do triturador, o aprendiz descobre que o Círculo de Aviar chama muito mais que um moedor."
-				"&7Foliots cozinham sem lenha, cortam e replantam árvores, levam itens de baú em baú e varrem o chão da oficina."
-				"&7Reclamam do serviço o dia inteiro, mas nunca faltam."
-				""
-				"&6Objetivo:&r Todos no &6Círculo de Aviar&r, com o livro de Foliot como ativação."
-				"&f1. &6Fundidor&r: carvão, fornalha e fogueira. Cozinha receitas de fornalha, alto-forno, defumador e fogueira sem combustível."
-				"&f2. &6Lenhador&r: Muda Instável do Outro Mundo, mudas de carvalho, bétula e abeto e um machado."
-				"&f3. &6Transportador&r: carrinho de mina, baú, ejetor e funil. Leva itens de um inventário a outro."
-				"&f4. Faça o &6Pincel de Giz&r (3 tábuas, 2 lãs e 1 linha): limpa runas erradas e é ingrediente do próximo."
-				"&f5. &6Zelador&r: Pincel de Giz, baú, ejetor e funil. Recolhe itens soltos e guarda no baú marcado."
-				"&f6. &6Mercador de Mudas&r: mudas de carvalho, bétula, abeto e selva. Troca Mudas Instáveis por &6Mudas do Outro Mundo&r estáveis."
-				""
-				"&8Os trabalhadores devolvem um &6Livro de Chamada&r: agachado, clique num baú para marcar o depósito e no chão para marcar a área de trabalho."
-			]
-		}
-		{
-			id: "3385B7FA3C5632E8"
-			x: 6.0d
-			y: -0.0d
-			dependencies: [
-				"44080B90DDE41016"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "0AD47EFC474C66FB"
-					type: "advancement"
-					advancement: "occultism:occultism/summon_foliot_farmer"
+					advancement: "occultism:occultism/summon_foliot_smelter"
 					criterion: ""
+					id: "37B853C793EFD5B7"
+					type: "advancement"
 				}
 				{
-					id: "45979AD86CFD4EB0"
-					type: "advancement"
-					advancement: "occultism:occultism/summon_foliot_otherstone_trader"
+					advancement: "occultism:occultism/summon_foliot_lumberjack"
 					criterion: ""
+					id: "67EBC19C6A8DF861"
+					type: "advancement"
 				}
 				{
-					id: "4527BC74774DA09E"
+					advancement: "occultism:occultism/summon_foliot_transport_items"
+					criterion: ""
+					id: "639369B33EE2F036"
+					type: "advancement"
+				}
+				{
+					id: "387B21EC6E818D4C"
+					item: { count: 1, id: "occultism:brush" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:silver_sacrificial_bowl"
-					}
-					count: 1L
+				}
+				{
+					advancement: "occultism:occultism/summon_foliot_cleaner"
+					criterion: ""
+					id: "77E00A35AE32EFEB"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/summon_foliot_sapling_trader"
+					criterion: ""
+					id: "3BA90BCEF5AE3F64"
+					type: "advancement"
 				}
 			]
+			x: 6.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["44080B90DDE41016"]
+			id: "3385B7FA3C5632E8"
+			optional: true
 			rewards: [
 				{
 					id: "6D104BECA7951808"
@@ -304,246 +189,126 @@
 				}
 				{
 					id: "0D822AE41CCFF4D2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
-			]
-			title: "Foliots de Conveniência"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Há demonólogos que só chamam espíritos quando precisam. E há os que não levantam da cadeira há meses."
-				"&7Para esses, o Aviar oferece um fazendeiro, um mercador de pedras e uma tigela de metal que guarda o resultado dos rituais."
-				""
-				"&6Objetivo:&r 1. &6Fazendeiro&r (Aviar): Fruta do Sonho do Demônio, trigo, cenoura, batata e enxada. Colhe as plantações da área e deposita no baú marcado."
-				"&f2. &6Mercador de OutraPedra&r (Aviar): pedra, granito, diorito e andesito. Com ardósia, espeleotema, calcita e magma vem o de &6OutraRocha&r."
-				"&f3. Faça uma &6Tigela de Sacrifício de Prata&r (tigela + lingote). De cabeça para baixo, até 3 blocos acima da dourada, ela guarda o resultado do ritual."
-				""
-				"&8Em rituais sem item, a tigela invertida gera a &6Chama da Automação&r, útil para automatizar invocações."
-			]
-			optional: true
-		}
-		{
-			id: "186F0E33D1230848"
-			x: 6.0d
-			y: 1.6d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "occultism:chalk_gold"
-			}
-			dependencies: [
-				"44080B90DDE41016"
 			]
 			tasks: [
 				{
-					id: "7D2C837E89D7CC7A"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:iron_dust"
-					}
-					count: 2L
+					advancement: "occultism:occultism/summon_foliot_farmer"
+					criterion: ""
+					id: "0AD47EFC474C66FB"
+					type: "advancement"
 				}
 				{
-					id: "0C5F4244A5F0A5CF"
+					advancement: "occultism:occultism/summon_foliot_otherstone_trader"
+					criterion: ""
+					id: "45979AD86CFD4EB0"
+					type: "advancement"
+				}
+				{
+					id: "4527BC74774DA09E"
+					item: { count: 1, id: "occultism:silver_sacrificial_bowl" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:gold_dust"
-					}
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44080B90DDE41016"]
+			icon: {
+				id: "occultism:chalk_gold"
+			}
+			id: "186F0E33D1230848"
+			rewards: [{
+				id: "5D85A854F3296B2B"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
 					count: 2L
+					id: "7D2C837E89D7CC7A"
+					item: { count: 1, id: "occultism:iron_dust" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C5F4244A5F0A5CF"
+					item: { count: 1, id: "occultism:gold_dust" }
+					type: "item"
 				}
 				{
 					id: "58748FD7864AB216"
+					item: { count: 1, id: "occultism:crushed_calcite" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:crushed_calcite"
-					}
-					count: 1L
 				}
 				{
 					id: "0A0A4C67E2B4C9AE"
+					item: { count: 1, id: "occultism:chalk_light_gray" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:chalk_light_gray"
-					}
-					count: 1L
 				}
 				{
 					id: "6FEC2BF82BD265B2"
+					item: { count: 1, id: "occultism:chalk_gold" }
 					type: "item"
-					item: {
-						count: 1
-						id: "occultism:chalk_gold"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "5D85A854F3296B2B"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "Fundações e Possessão"
-			description: [
-				"&7O giz branco segura Foliots, e só. Para círculos maiores, a base precisa de prata moída e calcita."
-				"&7Outros espíritos gostam de vestir corpos alheios, e só respeitam um giz amarelo feito de ouro e luz de pedra-luminosa."
-				"&7O Triturador Foliot é quem prepara esses pós, um minério de cada vez."
-				""
-				"&6Objetivo:&r 1. Triture &6ferro&r, &6prata&r e &6ouro&r com o Triturador Foliot."
-				"&f2. Triture &6calcita&r."
-				"&f3. Giz Branco Impuro + Pó de Prata + Pó de Ferro + Calcita Triturada = &6Giz Cinza-Claro Impuro&r; purifique no &bFogo Espiritual&r (segunda fundação)."
-				"&f4. Giz Branco Impuro + Pó de Pedra-luminosa + 2 Pós de Ouro = &6Giz Amarelo Impuro&r; purifique no &bFogo Espiritual&r (giz da possessão)."
-			]
+			x: 6.0d
+			y: 1.6d
 		}
 		{
-			id: "4BD28A695D974A77"
-			x: 8.0d
-			y: 1.6d
-			size: 1.25d
+			dependencies: ["186F0E33D1230848"]
 			icon: {
-				count: 1
 				id: "minecraft:skeleton_skull"
 			}
-			dependencies: [
-				"186F0E33D1230848"
-			]
+			id: "4BD28A695D974A77"
+			rewards: [{
+				id: "02E9389B1D2EF84D"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "70270A9B8867CB37"
-					type: "advancement"
 					advancement: "occultism:occultism/possess_skeleton"
 					criterion: ""
-				}
-				{
-					id: "493D222C59530EA1"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:skeleton_skull"
-					}
-					count: 4L
-				}
-				{
-					id: "4C4E0518078B3B8A"
+					id: "70270A9B8867CB37"
 					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "493D222C59530EA1"
+					item: { count: 1, id: "minecraft:skeleton_skull" }
+					type: "item"
+				}
+				{
 					advancement: "occultism:occultism/possess_endermite"
 					criterion: ""
+					id: "4C4E0518078B3B8A"
+					type: "advancement"
 				}
 				{
-					id: "3FD05C9DA0388CF3"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:end_stone"
-					}
 					count: 4L
+					id: "3FD05C9DA0388CF3"
+					item: { count: 1, id: "minecraft:end_stone" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "02E9389B1D2EF84D"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "A Isca de Hedyrin"
-			description: [
-				"&7Possessão é um ofício sujo: o espírito precisa de um corpo, e o corpo precisa morrer primeiro."
-				"&7A &6Isca de Hedyrin&7 oferece ossos, terra e um sacrifício, e o que volta é uma criatura obediente a um contrato."
-				"&7O esqueleto possuído não queima ao sol e sempre entrega o crânio. A endermite possuída carrega Pedra do Fim nas entranhas, mesmo com o End selado."
-				""
-				"&6Objetivo:&r 1. Desenhe a &6Isca de Hedyrin&r: 12 runas de fundação, 4 &6amarelas&r e 4 velas. Ativação: livro de Foliot."
-				"&f2. &6Esqueleto Possuído&r: 4 ossos nas tigelas; &cmate uma galinha&r perto do círculo durante o ritual."
-				"&f3. Junte os &6Crânios de Esqueleto&r que ele deixa: os pentáculos maiores exigem vários."
-				"&f4. &6Endermite Possuída&r: 2 terras e 2 pedras; durante o ritual, &6arremesse um ovo&r perto do círculo."
-				"&f5. Junte a &6Pedra do End&r que ela deixa."
-			]
+			x: 8.0d
+			y: 1.6d
 		}
 		{
-			id: "40035FB3D62CD07F"
-			x: 10.0d
-			y: 0.8d
-			size: 1.25d
+			dependencies: ["4BD28A695D974A77"]
 			icon: {
-				count: 1
 				id: "occultism:chalk_purple"
 			}
-			dependencies: [
-				"4BD28A695D974A77"
-			]
-			tasks: [
-				{
-					id: "6ACC65BD5708BFA4"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:crushed_end_stone"
-					}
-					count: 1L
-				}
-				{
-					id: "4BB1B093717FA4D0"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:obsidian_dust"
-					}
-					count: 2L
-				}
-				{
-					id: "2530347125FE0C34"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:chalk_purple"
-					}
-					count: 1L
-				}
-				{
-					id: "04C8C77234FEA002"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:fragile_soul_gem"
-					}
-					count: 1L
-				}
-				{
-					id: "22C9AD2A0F971659"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:nature_paste"
-					}
-					count: 1L
-				}
-				{
-					id: "0D1BC608B5B165BD"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:chalk_green"
-					}
-					count: 1L
-				}
-				{
-					id: "129EF495057246A8"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:ritual_satchel_t1"
-					}
-					count: 1L
-				}
-			]
+			id: "40035FB3D62CD07F"
 			rewards: [
 				{
 					id: "0B0708C3E4294A41"
@@ -552,114 +317,93 @@
 				}
 				{
 					id: "676D69A938FA0B69"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Compulsão de Eziveus"
-			description: [
-				"&7Os rituais de criação aprisionam um Foliot dentro de um objeto. Ele não gosta, mas o objeto passa a obedecer."
-				"&7O círculo que faz isso pede um giz roxo, de Pedra do Fim e obsidiana moídas juntas."
-				"&7Dele saem as primeiras gemas de alma, um adubo que nunca acaba e uma bolsa que desenha pentáculos sozinha."
-				""
-				"&6Objetivo:&r 1. Triture &6Pedra do End&r e &6obsidiana&r com o Triturador."
-				"&f2. Giz Branco Impuro + Pedra do End Triturada + 2 Pós de Obsidiana = &6Giz Roxo Impuro&r; purifique no &bFogo Espiritual&r."
-				"&f3. Desenhe a &6Compulsão Espectral de Eziveus&r: 16 runas de fundação, 12 &6roxas&r e 8 velas. Ativação dos rituais: livro de Foliot."
-				"&f4. &6Gema de Alma Frágil&r: lingote de ferro, ovo e vidro. Captura uma criatura uma única vez."
-				"&f5. &6Pasta da Natureza&r: 3 folhas, 3 mudas e 3 sementes (farinha de osso reutilizável)."
-				"&f6. Giz Branco Impuro + Pasta da Natureza = &6Giz Verde Impuro&r; purifique."
-				"&f7. &6Bolsa Ritualística do Aprendiz&r: funil, ejetor, 2 lãs, 2 couros, linha e prata. Cheia de giz, velas e crânios, ela coloca as peças do pentáculo pré-visualizado, passo a passo."
+			size: 1.25d
+			tasks: [
+				{
+					id: "6ACC65BD5708BFA4"
+					item: { count: 1, id: "occultism:crushed_end_stone" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4BB1B093717FA4D0"
+					item: { count: 1, id: "occultism:obsidian_dust" }
+					type: "item"
+				}
+				{
+					id: "2530347125FE0C34"
+					item: { count: 1, id: "occultism:chalk_purple" }
+					type: "item"
+				}
+				{
+					id: "04C8C77234FEA002"
+					item: { count: 1, id: "occultism:fragile_soul_gem" }
+					type: "item"
+				}
+				{
+					id: "22C9AD2A0F971659"
+					item: { count: 1, id: "occultism:nature_paste" }
+					type: "item"
+				}
+				{
+					id: "0D1BC608B5B165BD"
+					item: { count: 1, id: "occultism:chalk_green" }
+					type: "item"
+				}
+				{
+					id: "129EF495057246A8"
+					item: { count: 1, id: "occultism:ritual_satchel_t1" }
+					type: "item"
+				}
 			]
+			x: 10.0d
+			y: 0.8d
 		}
 		{
-			id: "4F3750BCDFFC9357"
-			x: 10.0d
-			y: 2.4d
+			dependencies: ["4BD28A695D974A77"]
 			icon: {
-				count: 1
 				id: "occultism:beaver_nugget"
 			}
-			dependencies: [
-				"4BD28A695D974A77"
-			]
+			id: "4F3750BCDFFC9357"
+			rewards: [{
+				id: "26E1CB4B5E63AFC1"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
-					id: "5A8794C3ECC07A94"
-					type: "advancement"
 					advancement: "occultism:occultism/familiar/root"
 					criterion: ""
+					id: "5A8794C3ECC07A94"
+					type: "advancement"
 				}
 				{
-					id: "6986D047B5DA5B03"
-					type: "advancement"
 					advancement: "occultism:occultism/familiar_beaver"
 					criterion: ""
+					id: "6986D047B5DA5B03"
+					type: "advancement"
 				}
 				{
-					id: "618FA14E8EF2D932"
-					type: "advancement"
 					advancement: "occultism:occultism/familiar_blacksmith"
 					criterion: ""
+					id: "618FA14E8EF2D932"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "26E1CB4B5E63AFC1"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "Amigos do Outro Lado"
-			description: [
-				"&7Nem todo espírito quer trabalhar. Alguns só querem seguir alguém e, em troca, emprestam seus dons."
-				"&7O primeiro familiar costuma ser um papagaio de penas impossíveis; logo vêm o castor, que derruba árvores por esporte,"
-				"&7e o pequeno ferreiro, que conserta o equipamento do dono com a pedra que ele minera."
-				""
-				"&6Objetivo:&r Todos na &6Isca de Hedyrin&r, com o livro de Foliot."
-				"&f1. Qualquer familiar. O mais simples: &6Papagaio&r (pena, corantes verde, amarelo, vermelho e azul e linha; &cmate uma galinha&r)."
-				"&f2. &6Castor&r: 4 troncos; &cmate um porco&r. Acelera o corte de madeira e derruba árvores que crescem perto."
-				"&f3. &6Ferreiro&r: pá, picareta e machado de ferro, bigorna e 4 pedras; &cmate um zumbi&r. Repara seu equipamento e aprimora outros familiares."
-				""
-				"&8Familiares que morrem deixam um &6Fragmento de Alma&r. Guarde-o: dá para trazê-los de volta."
-			]
+			x: 10.0d
+			y: 2.4d
 		}
 		{
+			dependencies: ["4F3750BCDFFC9357"]
 			id: "113814F57308D836"
-			x: 12.0d
-			y: 1.6d
-			size: 1.25d
-			dependencies: [
-				"4F3750BCDFFC9357"
-			]
-			tasks: [
-				{
-					id: "315211E03C763000"
-					type: "advancement"
-					advancement: "occultism:occultism/possess_witch"
-					criterion: ""
-				}
-				{
-					id: "487EB86A2B8C9157"
-					type: "advancement"
-					advancement: "occultism:occultism/possess_random_animal_common"
-					criterion: ""
-				}
-				{
-					id: "1B163F99EC72B530"
-					type: "advancement"
-					advancement: "occultism:occultism/familiar_deer"
-					criterion: ""
-				}
-				{
-					id: "2EC7FF037AB18F27"
-					type: "advancement"
-					advancement: "occultism:occultism/familiar_greedy"
-					criterion: ""
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "292CB121170FF9A1"
@@ -668,59 +412,47 @@
 				}
 				{
 					id: "611A2B852EDE83A9"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Bestiário de Hedyrin"
-			subtitle: "&8Opcional"
-			description: [
-				"&7A mesma isca que chama esqueletos chama quase qualquer coisa, se a oferenda for a certa."
-				"&7Bruxas que esqueceram os feitiços mas não as poções, animais de quatro patas, um cervo saltador e um diabrete ganancioso que recolhe tudo o que brilha."
-				""
-				"&6Objetivo:&r Todos na &6Isca de Hedyrin&r, com o livro de Foliot."
-				"&f1. &6Bruxa Possuída&r: frasco de vidro, pó de redstone, cogumelo marrom e vermelho; &cmate uma galinha&r."
-				"&f2. &6Animal comum&r: 4 sementes e 4 colheitas; arremesse um ovo durante o ritual. (Há variantes pequenas e aquáticas.)"
-				"&f3. &6Cervo&r familiar: 4 gravetos e 2 linhas; &cmate uma vaca&r. Dá &aSuper Pulo&r."
-				"&f4. &6Ganancioso&r familiar: baú, bloco de ferro, ejetor e funil; &cmate um zumbi&r. Recolhe itens; dentro do Anel de Familiar vira ímã."
-				""
-				"&82 couros e 2 penas, matando um morcego, papagaio ou abelha, trazem um &6Espectro Possuído&r: membranas fáceis."
-			]
-			optional: true
-		}
-		{
-			id: "34C3C3093A40FE73"
-			x: 12.0d
-			y: 3.2d
-			dependencies: [
-				"4F3750BCDFFC9357"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "42C2D8E2BBD2C568"
-					type: "item"
-					item: {
-						count: 1
-						id: "occultism:otherworld_essence"
-					}
-					count: 4L
+					advancement: "occultism:occultism/possess_witch"
+					criterion: ""
+					id: "315211E03C763000"
+					type: "advancement"
 				}
 				{
-					id: "4CD90269535436BD"
-					type: "advancement"
-					advancement: "occultism:occultism/resurrect_familiar"
+					advancement: "occultism:occultism/possess_random_animal_common"
 					criterion: ""
+					id: "487EB86A2B8C9157"
+					type: "advancement"
 				}
 				{
-					id: "263F0DBB2062338B"
-					type: "advancement"
-					advancement: "occultism:occultism/resurrect_allay"
+					advancement: "occultism:occultism/familiar_deer"
 					criterion: ""
+					id: "1B163F99EC72B530"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/familiar_greedy"
+					criterion: ""
+					id: "2EC7FF037AB18F27"
+					type: "advancement"
 				}
 			]
+			x: 12.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4F3750BCDFFC9357"]
+			id: "34C3C3093A40FE73"
+			optional: true
 			rewards: [
 				{
 					id: "0F7EE090F6E08DAE"
@@ -729,29 +461,35 @@
 				}
 				{
 					id: "63391D20D50C6E45"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Círculo de Susje"
-			subtitle: "&8Opcional"
-			description: [
-				"&7A morte de um familiar é só uma pausa, se alguém guardar o fragmento de sua alma."
-				"&7O círculo de Susje não tem velas: é feito só de giz e essência, e devolve ao mundo o que a morte levou."
-				"&7Os mesmos traços curam um vex da sua malícia e o transformam num allay."
-				""
-				"&6Objetivo:&r 1. Desenhe o &6Círculo Simples de Susje&r: 16 runas de fundação, sem velas."
-				"&f2. Ponha 4 &6Essências do Outro Mundo&r nas tigelas e ative com o &6Fragmento de Alma&r do familiar morto."
-				"&f3. &6Allay&r: pós de redstone, pedra-luminosa, prata e ouro; ativação: &6açúcar&r; &cmate um vex&r durante o ritual."
+			tasks: [
+				{
+					count: 4L
+					id: "42C2D8E2BBD2C568"
+					item: { count: 1, id: "occultism:otherworld_essence" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/resurrect_familiar"
+					criterion: ""
+					id: "4CD90269535436BD"
+					type: "advancement"
+				}
+				{
+					advancement: "occultism:occultism/resurrect_allay"
+					criterion: ""
+					id: "263F0DBB2062338B"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 12.0d
+			y: 3.2d
 		}
-	]
-	title: "&7Tier I&7 - O Círculo dos Foliots"
-	subtitle: [
-		"&5O Oculto&7, &7Tier I"
 	]
 }

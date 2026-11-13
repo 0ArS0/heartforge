@@ -4,70 +4,43 @@
 	filename: "mod_create_t6"
 	group: "60FEF54FAB43A476"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_6"
 	}
 	id: "040B899A4D9E6240"
-	order_index: 15
+	images: [ ]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "06B617500E34F7F9"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_6"
 			}
-			tasks: [
-				{
-					id: "6B77A5DCDADBF324"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_6"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&5Tier VI"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &5Tier VI&7."
-			]
-			disable_toast: true
+			id: "06B617500E34F7F9"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "6B77A5DCDADBF324"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "0E72B9BB4689BC1F"
-			x: 2.0d
-			y: 0.0d
 			dependencies: [
 				"50B7449EFC8BC341"
 				"06B617500E34F7F9"
 			]
-			tasks: [
-				{
-					id: "0FDDB371BA8A46F7"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:tier_heart_7"
-					}
-					count: 1L
-				}
-			]
-			rewards: [ ]
-			title: "O Coração de Scylla"
-			description: [
-				"&7O mar entrega seu monstro; a linha de montagem entrega um Coração."
-				""
-				"&6Objetivo:&r 1. Montagem sequencial com base no &6Coração de Scylla&r."
-				"&f2. Deployers com lingote de gaia, tinta lendária, essência da tempestade, sacrifício abissal e estrela do Nether;"
-				"&fpor fim, a Press."
-			]
+			id: "0E72B9BB4689BC1F"
+			tasks: [{
+				id: "0FDDB371BA8A46F7"
+				item: { count: 1, id: "comamigos_balance:tier_heart_7" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
-	]
-	title: "&5Tier VI&7 - O Coração do Mar"
-	subtitle: [
-		"&6Engrenagens e Vapor&7, &5Tier VI"
 	]
 }

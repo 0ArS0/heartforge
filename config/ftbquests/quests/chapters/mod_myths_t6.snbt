@@ -4,188 +4,118 @@
 	filename: "mod_myths_t6"
 	group: "3DAD9C4C9DD26814"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_6"
 	}
 	id: "04D6AFA9CB277EC1"
-	order_index: 94
+	images: [ ]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "19EA3BE559D4507C"
-			x: 0.0d
-			y: 0.8d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_6"
 			}
-			tasks: [
-				{
-					id: "44704A58FA489899"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_6"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&5Tier VI"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &5Tier VI&7."
-			]
-			disable_toast: true
+			id: "19EA3BE559D4507C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				id: "44704A58FA489899"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.8d
 		}
 		{
-			id: "16EBD1E21262CDD5"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "comamigos_balance:amarok_heart"
-			}
 			dependencies: [
 				"7AC9F56BE4EAB307"
 				"19EA3BE559D4507C"
 			]
+			icon: {
+				id: "comamigos_balance:amarok_heart"
+			}
+			id: "16EBD1E21262CDD5"
+			rewards: [{
+				id: "49A6897C9E6C3A10"
+				type: "xp"
+				xp: 800
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "4EE089CE446C5B86"
-					type: "advancement"
 					advancement: "mythsandlegends:howl_of_the_lonely_end"
 					criterion: ""
+					id: "4EE089CE446C5B86"
+					type: "advancement"
 				}
 				{
-					id: "6221B7B33E39D988"
-					type: "advancement"
 					advancement: "mythsandlegends:forged_by_frost"
 					criterion: ""
+					id: "6221B7B33E39D988"
+					type: "advancement"
 				}
 				{
 					id: "6651DCE22BFD9261"
+					item: { count: 1, id: "mythsandlegends:nightfrost_dagger" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:nightfrost_dagger"
-					}
-					count: 1L
 				}
 				{
-					id: "657B3DA208C9D485"
-					type: "advancement"
 					advancement: "mythsandlegends:whisper_of_the_northern_spirit"
 					criterion: ""
+					id: "657B3DA208C9D485"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "49A6897C9E6C3A10"
-					type: "xp"
-					xp: 800
-				}
-			]
-			title: "&cO Uivo do Fim Solitário"
-			description: [
-				"&7O lobo-espírito branco segue quem anda sozinho na neve. Ninguém o ouve chegar; todos o ouvem uivar."
-				"&7Os caçadores antigos dominaram o frio dele e o prenderam em ferramentas,"
-				"&7e Torngarsuk, espírito da caça, abençoa quem carrega um pedaço do lobo."
-				""
-				"&6Objetivo:&r 1. Derrote o &cAmarok&r nos &6biomas nevados&r (raro, solitário). Ele recua com saltos, gira e lança gelo."
-				"&fSeu &ccoração de troféu&r dá Velocidade, Salto e Visão Noturna, ao custo de muita Fome."
-				"&f2. Leve a &bAmarra Glacial&r ao Cronista e forje as ferramentas &bGelonoite&r (adaga, picareta, machado, pá e enxada)."
-				"&f3. Forje a &6Adaga Gelonoite&r: acumula gelo no alvo."
-				"&f4. Com a &6Essência de Amarok&r, faça o &6Colar de Torngarsuk&r no Mechanical Crafter (Alma Vinculada, essência, esmeralda, pepitas de ferro e Mecanismo de Precisão): +30% de dano corpo a corpo."
-				""
-				"&8Neve fofa e gelo são o terreno dele. Lute em chão firme. A picareta Gelonoite congela a água sob os pés."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "0C9E518CE94E7679"
-			x: 2.0d
-			y: 1.6d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:abaddon_heart"
-			}
 			dependencies: [
 				"5A79EBB09EF2D768"
 				"4248424CBBCE697D"
 				"19EA3BE559D4507C"
 			]
+			icon: {
+				id: "comamigos_balance:abaddon_heart"
+			}
+			id: "0C9E518CE94E7679"
+			rewards: [{
+				id: "4BF121ED53E0FA8C"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "mythsandlegends:abaddon"
 					id: "2D82158644D510C2"
 					type: "kill"
-					entity: "mythsandlegends:abaddon"
 					value: 1L
 				}
 				{
 					id: "76F3CDE5A84D239C"
+					item: { count: 1, id: "mythsandlegends:core_of_abaddon" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:core_of_abaddon"
-					}
-					count: 1L
 				}
 				{
 					id: "155416844949CA51"
+					item: { count: 1, id: "mythsandlegends:molten_fist" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:molten_fist"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "4BF121ED53E0FA8C"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "&cAbaddon"
-			description: [
-				"&7O destruidor das velhas escrituras vaga pelas florestas do Nether, abrindo a terra com espinhos derretidos."
-				"&7O núcleo dele não forja uma arma: desperta uma, e ela ainda está com raiva."
-				""
-				"&6Objetivo:&r 1. Derrote &cAbaddon&r nas &cflorestas carmesim e distorcida&r do Nether."
-				"&fSeu &ccoração de troféu&r dá Força e Resistência ao Fogo, com Wither e Escuridão."
-				"&f2. Obtenha o &cNúcleo de Abaddon&r (queda rara)."
-				"&f3. Forje o &cPunho Derretido&r no Mechanical Crafter com o núcleo, pele e osso chamuscados."
-				"&fUsado: oito espinhos derretidos rasgam o chão (recarga menor perto de calor intenso)."
-			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "37F7C1102B3855F0"
-			x: 4.0d
-			y: 0.8d
 			dependencies: [
 				"16EBD1E21262CDD5"
 				"0C9E518CE94E7679"
 				"6E007357A106B35F"
 				"585ADC9C690DE31B"
 			]
-			tasks: [
-				{
-					id: "124BD15E31E2D3B1"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:higa_amulet"
-					}
-					count: 1L
-				}
-				{
-					id: "74D94BFBC2A85FDA"
-					type: "advancement"
-					advancement: "mythsandlegends:misc/arcane_knowledge"
-					criterion: ""
-				}
-			]
+			id: "37F7C1102B3855F0"
 			rewards: [
 				{
 					id: "7376B65C24602994"
@@ -194,26 +124,28 @@
 				}
 				{
 					id: "4B41A564F51D735E"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Conhecimento Arcano"
-			description: [
-				"&7Um amuleto que não espanta o mal: espera, e só acorda quando tudo parece perdido."
-				"&7É a última pesquisa do Cronista, e depois dela nenhum mistério fica sem resposta nos seus arquivos."
-				""
-				"&6Objetivo:&r 1. Com o Cronista no posto mais alto, pesquise com Sino Supressor, 4 moedas antigas, 2 chamas etéreas e 1 Essência de Amarok."
-				"&f2. Faça o &6Amuleto Higa&r (ferro, Chama Etérea, Tenebrita Refinada): abaixo de 25% de vida, limpa os efeitos ruins e dá Resistência (recarga 60 s); +10% de sorte."
-				"&f3. Conclua &6todas as pesquisas&r do Cronista."
+			tasks: [
+				{
+					id: "124BD15E31E2D3B1"
+					item: { count: 1, id: "mythsandlegends:higa_amulet" }
+					type: "item"
+				}
+				{
+					advancement: "mythsandlegends:misc/arcane_knowledge"
+					criterion: ""
+					id: "74D94BFBC2A85FDA"
+					type: "advancement"
+				}
 			]
+			x: 4.0d
+			y: 0.8d
 		}
-	]
-	title: "&5Tier VI&7 - O Lobo e o Destruidor"
-	subtitle: [
-		"&eMitos e Lendas&7, &5Tier VI"
 	]
 }

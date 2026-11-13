@@ -4,103 +4,36 @@
 	filename: "mod_create_addons_t2"
 	group: "3B08ACB5CE59F3E7"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "50B1572FB7658585"
-	order_index: 19
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2A579AB36109DE81"
-			x: 0.0d
-			y: 4.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_2"
 			}
-			tasks: [
-				{
-					id: "629620DBC735C650"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
-			]
-			disable_toast: true
+			id: "2A579AB36109DE81"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				id: "629620DBC735C650"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			id: "5F470AB9A2C43D25"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"1714524AD173AA7D"
 				"2A579AB36109DE81"
 			]
-			tasks: [
-				{
-					id: "19B2863F0D161B7A"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:overstress_clutch"
-					}
-					count: 1L
-				}
-				{
-					id: "5375F2ABAB05C186"
-					type: "advancement"
-					advancement: "create_connected:overstress_clutch"
-					criterion: ""
-				}
-				{
-					id: "519CED6E53CDF46F"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:brass_gearbox"
-					}
-					count: 1L
-				}
-				{
-					id: "437BE43AB5397541"
-					type: "advancement"
-					advancement: "create_connected:brass_gearbox"
-					criterion: ""
-				}
-				{
-					id: "57A33D9A91397CC8"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:kinetic_battery"
-					}
-					count: 1L
-				}
-				{
-					id: "524F875F5F05FF91"
-					type: "advancement"
-					advancement: "create_connected:kinetic_battery"
-					criterion: ""
-				}
-				{
-					id: "1B6BD5E7F81555FB"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:kinetic_bridge"
-					}
-					count: 1L
-				}
-			]
+			id: "5F470AB9A2C43D25"
 			rewards: [
 				{
 					id: "783FB25C1A7977AA"
@@ -109,83 +42,63 @@
 				}
 				{
 					id: "09AA8CDA59B052D4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Força Guardada"
-			description: [
-				"&7Uma caixa de latão em que cada lado obedece a uma ordem diferente."
-				"&7Uma mola que guarda força para os dias sem vento, uma ponte que empresta força de uma rede à outra,"
-				"&7e um disjuntor que solta antes que tudo pare. A engenharia de latão aprendeu a poupar."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Overstress Clutch&r: desacopla quando a rede sobrecarrega. Rearme com a chave."
-				"&f2. Faça uma &6Brass Gearbox&r (Rotation Speed Controller cercado de Cogwheels) e escolha o sentido de cada lado."
-				"&f3. Faça uma &6Kinetic Battery&r (com Precision Mechanism) e carregue-a até o máximo."
-				"&f4. Faça uma &6Kinetic Bridge&r: transfere capacidade de estresse entre duas redes."
-				""
-				"&8Mesmo quebrada, a bateria guarda a carga no item."
+			size: 1.25d
+			tasks: [
+				{
+					id: "19B2863F0D161B7A"
+					item: { count: 1, id: "create_connected:overstress_clutch" }
+					type: "item"
+				}
+				{
+					advancement: "create_connected:overstress_clutch"
+					criterion: ""
+					id: "5375F2ABAB05C186"
+					type: "advancement"
+				}
+				{
+					id: "519CED6E53CDF46F"
+					item: { count: 1, id: "create_connected:brass_gearbox" }
+					type: "item"
+				}
+				{
+					advancement: "create_connected:brass_gearbox"
+					criterion: ""
+					id: "437BE43AB5397541"
+					type: "advancement"
+				}
+				{
+					id: "57A33D9A91397CC8"
+					item: { count: 1, id: "create_connected:kinetic_battery" }
+					type: "item"
+				}
+				{
+					advancement: "create_connected:kinetic_battery"
+					criterion: ""
+					id: "524F875F5F05FF91"
+					type: "advancement"
+				}
+				{
+					id: "1B6BD5E7F81555FB"
+					item: { count: 1, id: "create_connected:kinetic_bridge" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "61C88F31C3210015"
-			x: 2.0d
-			y: 1.6d
-			size: 1.25d
 			dependencies: [
 				"7A0858D97CC90AFF"
 				"2A579AB36109DE81"
 			]
-			tasks: [
-				{
-					id: "5B2AFA1773FFF73A"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:item_silo"
-					}
-					count: 1L
-				}
-				{
-					id: "16954D394A1C7D0F"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:fluid_vessel"
-					}
-					count: 1L
-				}
-				{
-					id: "46887EF3D71B3791"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:inventory_access_port"
-					}
-					count: 1L
-				}
-				{
-					id: "0C0E4C54CCADBBF4"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:inventory_bridge"
-					}
-					count: 1L
-				}
-				{
-					id: "00B75C0BAC86FEED"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:brass_chute"
-					}
-					count: 4L
-				}
-			]
+			id: "61C88F31C3210015"
 			rewards: [
 				{
 					id: "70363F07345ACDA5"
@@ -194,61 +107,51 @@
 				}
 				{
 					id: "11F0FCADE8509AA2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Silos e Portas"
-			description: [
-				"&7O cofre deitado e o tanque deitado: nem tudo precisa crescer para cima."
-				"&7Onde o funil não cabe, a porta de inventário alcança; e a calha de latão leva sessenta e quatro itens de uma vez."
-				""
-				"&6Objetivo:&r 1. Faça um &6Item Silo&r (cofre vertical) e um &6Fluid Vessel&r (tanque horizontal)."
-				"&f2. Faça uma &6Inventory Access Port&r (acessa um inventário através de um bloco)."
-				"&f3. Faça uma &6Inventory Bridge&r (dois inventários ao mesmo tempo, com filtros)."
-				"&f4. Faça &6Brass Chutes&r: até 64 itens por vez."
+			size: 1.25d
+			tasks: [
+				{
+					id: "5B2AFA1773FFF73A"
+					item: { count: 1, id: "create_connected:item_silo" }
+					type: "item"
+				}
+				{
+					id: "16954D394A1C7D0F"
+					item: { count: 1, id: "create_connected:fluid_vessel" }
+					type: "item"
+				}
+				{
+					id: "46887EF3D71B3791"
+					item: { count: 1, id: "create_connected:inventory_access_port" }
+					type: "item"
+				}
+				{
+					id: "0C0E4C54CCADBBF4"
+					item: { count: 1, id: "create_connected:inventory_bridge" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00B75C0BAC86FEED"
+					item: { count: 1, id: "create_connected:brass_chute" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "53F2BAA9619E37E3"
-			x: 2.0d
-			y: 3.2d
 			dependencies: [
 				"1714524AD173AA7D"
 				"2A579AB36109DE81"
 			]
-			tasks: [
-				{
-					id: "5BE7ED0BC068DE14"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:encased_fan"
-					}
-					count: 1L
-				}
-				{
-					id: "2F6AEBA056085656"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:empty_fan_catalyst"
-					}
-					count: 1L
-				}
-				{
-					id: "43D6448F6B1DB969"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:fan_blasting_catalyst"
-					}
-					count: 1L
-				}
-			]
+			id: "53F2BAA9619E37E3"
 			rewards: [
 				{
 					id: "1E81C21FA43B35E1"
@@ -257,60 +160,40 @@
 				}
 				{
 					id: "7210B62F62064D4D"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Gaiolas de Vento"
-			description: [
-				"&7Uma gaiola de latão que prende o fogo, a água ou as almas, e deixa o vento passar."
-				"&7Assim o ventilador processa em massa sem que nada se espalhe pela oficina."
-				""
-				"&6Objetivo:&r 1. Faça um &6Encased Fan&r."
-				"&f2. Faça um &6Empty Fan Catalyst&r (latão + grades de ferro)."
-				"&f3. Encha-o de lava (ou fogo, água, fogo de alma) e ponha-o na frente do ventilador."
+			tasks: [
+				{
+					id: "5BE7ED0BC068DE14"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "2F6AEBA056085656"
+					item: { count: 1, id: "create_connected:empty_fan_catalyst" }
+					type: "item"
+				}
+				{
+					id: "43D6448F6B1DB969"
+					item: { count: 1, id: "create_connected:fan_blasting_catalyst" }
+					type: "item"
+				}
 			]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "581AA114CC28855D"
-			x: 2.0d
-			y: 4.8d
 			dependencies: [
 				"192A2231D3BE9445"
 				"2A579AB36109DE81"
 			]
-			tasks: [
-				{
-					id: "5CFA640753E8B60F"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:straw"
-					}
-					count: 1L
-				}
-				{
-					id: "2A78CAA301ED3F31"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:seed_oil_bucket"
-					}
-					count: 1L
-				}
-				{
-					id: "6A9A45C6B850CCE6"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:biomass_pellet"
-					}
-					count: 8L
-				}
-			]
+			id: "581AA114CC28855D"
+			optional: true
 			rewards: [
 				{
 					id: "6F374E85AFD12F87"
@@ -319,81 +202,40 @@
 				}
 				{
 					id: "5C10FC7D8BEED0E0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Blaze Beberrão"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Dê um canudo a um blaze e ele passa a beber óleo em vez de comer carvão."
-				"&7Folhas e restos de colheita cozidos no óleo viram pelotas densas que queimam por horas."
-				""
-				"&6Objetivo:&r 1. Faça um &6Straw&r e coloque-o num Blaze Burner: aceita combustível líquido por cano."
-				"&f2. Alimente-o com &6Seed Oil&r."
-				"&f3. Misture plantas com Seed Oil numa Basin aquecida (Biomass) e prense em &6Biomass Pellets&r."
+			tasks: [
+				{
+					id: "5CFA640753E8B60F"
+					item: { count: 1, id: "createaddition:straw" }
+					type: "item"
+				}
+				{
+					id: "2A78CAA301ED3F31"
+					item: { count: 1, id: "createaddition:seed_oil_bucket" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A9A45C6B850CCE6"
+					item: { count: 1, id: "createaddition:biomass_pellet" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 4.8d
 		}
 		{
-			id: "227ABDE581CE8DCB"
-			x: 2.0d
-			y: 6.4d
-			size: 1.25d
 			dependencies: [
 				"701B4F1CDC65512D"
 				"2A579AB36109DE81"
 			]
-			tasks: [
-				{
-					id: "484AA6AFA486FC36"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:printer"
-					}
-					count: 1L
-				}
-				{
-					id: "381D684D29A154C0"
-					type: "advancement"
-					advancement: "create_enchantment_industry:brand_registry"
-					criterion: ""
-				}
-				{
-					id: "372CB2BC526B9B49"
-					type: "advancement"
-					advancement: "create_enchantment_industry:copiable_mystery"
-					criterion: ""
-				}
-				{
-					id: "5F6A6D6B68C00024"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:enchanting_template"
-					}
-					count: 2L
-				}
-				{
-					id: "00743A722C1908DB"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_lantern"
-					}
-					count: 1L
-				}
-				{
-					id: "1A461673C2FF3996"
-					type: "advancement"
-					advancement: "create_enchantment_industry:lumen_nexus"
-					criterion: ""
-				}
-			]
+			id: "227ABDE581CE8DCB"
 			rewards: [
 				{
 					id: "66E4326F570BEEFE"
@@ -402,110 +244,59 @@
 				}
 				{
 					id: "0C58DD559B95B555"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Tinta e Saber"
-			description: [
-				"&7Tinta, papel e uma prensa paciente: livros copiados aos montes. Um tomo encantado vira dois,"
-				"&7e o bibliotecário do vilarejo chora."
-				"&7O bloco de saber prensado vira uma placa onde se gravam runas, e uma lanterna bebe a experiência espalhada no ar."
-				""
-				"&6Objetivo:&r 1. Faça um &6Printer&r (chapa de latão + Spout + bloco de ferro). Defina o modelo no filtro e forneça o fluido."
-				"&f2. Copie um livro encantado com ela (usa experiência líquida)."
-				"&f3. Prense um Block of Experience: &6Enchanting Template&r."
-				"&f4. Faça uma &6Experience Lantern&r (Block of Experience + esponja + Copper Casing): absorve orbes por perto."
-				""
-				"&8A Printer também renomeia itens, copia cronogramas de trem e muda o endereço de pacotes."
+			size: 1.25d
+			tasks: [
+				{
+					id: "484AA6AFA486FC36"
+					item: { count: 1, id: "create_enchantment_industry:printer" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:brand_registry"
+					criterion: ""
+					id: "381D684D29A154C0"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:copiable_mystery"
+					criterion: ""
+					id: "372CB2BC526B9B49"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "5F6A6D6B68C00024"
+					item: { count: 1, id: "create_enchantment_industry:enchanting_template" }
+					type: "item"
+				}
+				{
+					id: "00743A722C1908DB"
+					item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:lumen_nexus"
+					criterion: ""
+					id: "1A461673C2FF3996"
+					type: "advancement"
+				}
 			]
+			x: 2.0d
+			y: 6.4d
 		}
 		{
-			id: "7577EF8743550BC9"
-			x: 2.0d
-			y: 8.0d
-			size: 1.25d
 			dependencies: [
 				"0E2C1DA15F9A14C0"
 				"2A579AB36109DE81"
 			]
-			tasks: [
-				{
-					id: "001D53F7568762E8"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electrum_ingot"
-					}
-					count: 4L
-				}
-				{
-					id: "4EA135E0DBC6C672"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electrum_wire"
-					}
-					count: 4L
-				}
-				{
-					id: "089A31B5FBAB5978"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:alternator"
-					}
-					count: 1L
-				}
-				{
-					id: "4675D1B0BB2087DC"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electric_motor"
-					}
-					count: 1L
-				}
-				{
-					id: "31611EE5FDCC14F4"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:modular_accumulator"
-					}
-					count: 1L
-				}
-				{
-					id: "622E46432279E1BD"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:large_connector"
-					}
-					count: 1L
-				}
-				{
-					id: "4FF12CF718C47BDC"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electrum_spool"
-					}
-					count: 1L
-				}
-				{
-					id: "3F921C0C70D1DC3E"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:tesla_coil"
-					}
-					count: 1L
-				}
-			]
+			id: "7577EF8743550BC9"
 			rewards: [
 				{
 					id: "5D549E8B4A16EF33"
@@ -514,87 +305,64 @@
 				}
 				{
 					id: "35A0527BD32CED5B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Rotação em Raio"
-			description: [
-				"&7Ouro e prata fundidos juntos dão o metal pálido que melhor carrega o raio."
-				"&7O ímã gira, o cobre canta, e nasce a eletricidade; o motor faz o caminho inverso, compacto e ajustável."
-				"&7Um armário de capacitores guarda o raio, fios grossos o levam longe, e no fim da linha a bobina de Tesla"
-				"&7faz raios dançarem sobre quem chegar perto."
-				""
-				"&6Objetivo:&r 1. Misture ouro + prata numa Basin &caquecida&r: &6Electrum&r. Prense e lamine em &6Electrum Wire&r."
-				"&f2. No Mechanical Crafter, faça um &6Alternator&r (32+ RPM vira energia) e um &6Electric Motor&r."
-				"&f3. Faça um &6Accumulator&r (multibloco que guarda energia)."
-				"&f4. Faça um &6Large Connector&r e um &6Electrum Spool&r para alta corrente."
-				"&f5. Faça uma &6Tesla Coil&r: carrega itens abaixo dela e fere criaturas por perto."
-				""
-				"&8No acumulador, o conector de seta para cima entrega e o de seta para baixo recebe."
-			]
-		}
-		{
-			id: "635B96652F3EE323"
-			x: 4.0d
-			y: 0.0d
 			size: 1.25d
-			dependencies: [
-				"5F470AB9A2C43D25"
-			]
 			tasks: [
 				{
-					id: "194CE0FF670DAFDD"
+					count: 4L
+					id: "001D53F7568762E8"
+					item: { count: 1, id: "createaddition:electrum_ingot" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:control_chip"
-					}
-					count: 1L
 				}
 				{
-					id: "1EDBDFC064937F11"
-					type: "advancement"
-					advancement: "create_connected:control_chip"
-					criterion: ""
-				}
-				{
-					id: "07B44E5075580EFA"
+					count: 4L
+					id: "4EA135E0DBC6C672"
+					item: { count: 1, id: "createaddition:electrum_wire" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:sequenced_pulse_generator"
-					}
-					count: 1L
 				}
 				{
-					id: "54B03073B1FF5E43"
-					type: "advancement"
-					advancement: "create_connected:sequenced_pulse_generator"
-					criterion: ""
-				}
-				{
-					id: "4E6829CE9A17F09C"
+					id: "089A31B5FBAB5978"
+					item: { count: 1, id: "createaddition:alternator" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:linked_transmitter"
-					}
-					count: 1L
 				}
 				{
-					id: "162A14C62DCA07B3"
+					id: "4675D1B0BB2087DC"
+					item: { count: 1, id: "createaddition:electric_motor" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:dashboard"
-					}
-					count: 1L
+				}
+				{
+					id: "31611EE5FDCC14F4"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
+					type: "item"
+				}
+				{
+					id: "622E46432279E1BD"
+					item: { count: 1, id: "createaddition:large_connector" }
+					type: "item"
+				}
+				{
+					id: "4FF12CF718C47BDC"
+					item: { count: 1, id: "createaddition:electrum_spool" }
+					type: "item"
+				}
+				{
+					id: "3F921C0C70D1DC3E"
+					item: { count: 1, id: "createaddition:tesla_coil" }
+					type: "item"
 				}
 			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F470AB9A2C43D25"]
+			id: "635B96652F3EE323"
 			rewards: [
 				{
 					id: "6FBB9B8719732EAD"
@@ -603,89 +371,55 @@
 				}
 				{
 					id: "6DBD74BBCF16236B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Pensamento em Metal"
-			description: [
-				"&7Um tubo de elétron, redstone e ouro, montados em fila: o primeiro pensamento escrito em metal."
-				"&7Com ele, a redstone segue listas de instruções sem errar, botões falam a distância"
-				"&7e painéis do tamanho de uma cabine mostram quatro linhas do que a máquina sabe."
-				""
-				"&6Objetivo:&r 1. &6Control Chip&r por montagem sequencial: Golden Sheet → Deployer com Electron Tube → Deployer com redstone → Press (3 voltas)."
-				"&f2. Faça um &6Sequenced Pulse Generator&r e programe sinais temporizados."
-				"&f3. Faça um &6Linked Transmitter&r (converta um Redstone Link) e acople-o a um botão ou alavanca."
-				"&f4. Faça um &6Dashboard&r: mini-quadro de 4 linhas para Display Links."
-			]
-		}
-		{
-			id: "7AE94C21FDDE112C"
-			x: 4.0d
-			y: 8.0d
 			size: 1.25d
-			dependencies: [
-				"7577EF8743550BC9"
-			]
 			tasks: [
 				{
-					id: "15B2385D8BDAEA54"
+					id: "194CE0FF670DAFDD"
+					item: { count: 1, id: "create_connected:control_chip" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:portable_energy_interface"
-					}
-					count: 2L
 				}
 				{
-					id: "4C680CFB9565F7D5"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electric_pump"
-					}
-					count: 1L
+					advancement: "create_connected:control_chip"
+					criterion: ""
+					id: "1EDBDFC064937F11"
+					type: "advancement"
 				}
 				{
-					id: "4882283E1CC7AE13"
+					id: "07B44E5075580EFA"
+					item: { count: 1, id: "create_connected:sequenced_pulse_generator" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:servo_motor"
-					}
-					count: 1L
 				}
 				{
-					id: "79022F2F9C8E73D1"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:redstone_relay"
-					}
-					count: 1L
+					advancement: "create_connected:sequenced_pulse_generator"
+					criterion: ""
+					id: "54B03073B1FF5E43"
+					type: "advancement"
 				}
 				{
-					id: "5C4F526A3F97D1BC"
+					id: "4E6829CE9A17F09C"
+					item: { count: 1, id: "create_connected:linked_transmitter" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electrum_amulet"
-					}
-					count: 1L
 				}
 				{
-					id: "64296BF0C62D1D7C"
+					id: "162A14C62DCA07B3"
+					item: { count: 1, id: "create_connected:dashboard" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:diamond_grit_sandpaper"
-					}
-					count: 1L
 				}
 			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7577EF8743550BC9"]
+			id: "7AE94C21FDDE112C"
+			optional: true
 			rewards: [
 				{
 					id: "07EEB47619A4813C"
@@ -694,29 +428,49 @@
 				}
 				{
 					id: "5D8492C0760F8E91"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Bugigangas Elétricas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Com o raio domado, os engenheiros inventaram de tudo: bombas sem eixo, motores que param no ângulo exato,"
-				"&7portões de raio abertos pela redstone, colares que estalam e lixas de diamante que não gastam."
-				""
-				"&6Objetivo:&r 1. Faça &6Portable Energy Interfaces&r (energia entre contraption e ponto fixo) e uma &6Electric Pump&r."
-				"&f2. Faça um &6Servo Motor&r (gira a um ângulo preciso) e um &6Redstone Relay&r (deixa a energia passar com sinal)."
-				"&f3. Faça o &6Pale Gold Amulet&r: recarrega aos poucos o item da outra mão."
-				"&f4. Triture diamante em Diamond Grit e faça &6Diamond Grit Sand Paper&r."
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "15B2385D8BDAEA54"
+					item: { count: 1, id: "createaddition:portable_energy_interface" }
+					type: "item"
+				}
+				{
+					id: "4C680CFB9565F7D5"
+					item: { count: 1, id: "createaddition:electric_pump" }
+					type: "item"
+				}
+				{
+					id: "4882283E1CC7AE13"
+					item: { count: 1, id: "createaddition:servo_motor" }
+					type: "item"
+				}
+				{
+					id: "79022F2F9C8E73D1"
+					item: { count: 1, id: "createaddition:redstone_relay" }
+					type: "item"
+				}
+				{
+					id: "5C4F526A3F97D1BC"
+					item: { count: 1, id: "createaddition:electrum_amulet" }
+					type: "item"
+				}
+				{
+					id: "64296BF0C62D1D7C"
+					item: { count: 1, id: "createaddition:diamond_grit_sandpaper" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 8.0d
 		}
-	]
-	title: "&aTier II&7 - Raio e Latão"
-	subtitle: [
-		"&6Engenhocas Avançadas&7, &aTier II"
 	]
 }

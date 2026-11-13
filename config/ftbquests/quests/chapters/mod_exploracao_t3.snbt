@@ -4,137 +4,83 @@
 	filename: "mod_exploracao_t3"
 	group: "48BF15FF65B85345"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "77BCFD03866A0B5B"
-	order_index: 112
+	images: [ ]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			id: "5F6132A097733C71"
-			x: 0.0d
-			y: 2.4d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_3"
 			}
-			tasks: [
-				{
-					id: "6019CCD06A57D159"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
-			]
-			disable_toast: true
+			id: "5F6132A097733C71"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				id: "6019CCD06A57D159"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.4d
 		}
 		{
-			id: "7F3D2E313FF91689"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:sculk_sensor"
-			}
 			dependencies: [
 				"55B2E9D8A18C4E0C"
 				"5F6132A097733C71"
 			]
+			icon: {
+				id: "minecraft:sculk_sensor"
+			}
+			id: "7F3D2E313FF91689"
+			rewards: [{
+				id: "0E999DAE824054F3"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "61061D5D7206BFCA"
-					type: "advancement"
 					advancement: "minecraft:adventure/avoid_vibration"
 					criterion: ""
+					id: "61061D5D7206BFCA"
+					type: "advancement"
 				}
 				{
-					id: "3B5DB58F6665DE9C"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:echo_shard"
-					}
 					count: 3L
+					id: "3B5DB58F6665DE9C"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
 				}
 				{
 					id: "67B2BAFB7E383646"
+					item: { count: 1, id: "minecraft:recovery_compass" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:recovery_compass"
-					}
-					count: 1L
 				}
 				{
-					id: "256634B4047E6024"
-					type: "advancement"
 					advancement: "dungeons_arise:find_plague_asylum"
 					criterion: ""
+					id: "256634B4047E6024"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "0E999DAE824054F3"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "Pise com Cuidado"
-			description: [
-				"&7No escuro profundo, uma cidade de pedra cinzenta dorme sob um manto de sculk. Algo enorme ouve cada passo."
-				"&7Dos seus baús saem fragmentos de eco, e com eles uma bússola que aponta para o lugar da última morte. Útil, e um pouco mórbido."
-				"&7Ali perto, um hospital de pedra afundado no escuro. O silêncio ali não é paz, é quarentena."
-				""
-				"&6Objetivo:&r 1. Encontre uma &6Cidade Antiga&r e passe agachado perto de um sensor de sculk sem ativá-lo."
-				"&f2. Traga 3 &6Fragmentos de Eco&r dos baús."
-				"&f3. Fabrique uma &6Bússola de Recuperação&r (8 fragmentos de eco + bússola)."
-				"&f4. Encontre o &cAsilo da Peste&r no Escuro Profundo."
-				""
-				"&8&cNão acorde o Warden&r: ele é um dos guardiões do Tier VII."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "6381000109BACD57"
-			x: 2.0d
-			y: 1.6d
-			icon: {
-				count: 1
-				id: "minecraft:iron_bars"
-			}
 			dependencies: [
 				"6905AE658E6B7C19"
 				"285290788BC1442F"
 				"5F6132A097733C71"
 			]
-			tasks: [
-				{
-					id: "2738C0A82A381851"
-					type: "advancement"
-					advancement: "dungeons_arise:find_thornborn_towers"
-					criterion: ""
-				}
-				{
-					id: "3BFA81CAE0349B79"
-					type: "advancement"
-					advancement: "dungeons_arise:find_mechanical_nest"
-					criterion: ""
-				}
-				{
-					id: "191BC64814872FBB"
-					type: "advancement"
-					advancement: "dungeons_arise:find_typhon"
-					criterion: ""
-				}
-			]
+			icon: {
+				id: "minecraft:iron_bars"
+			}
+			id: "6381000109BACD57"
 			rewards: [
 				{
 					id: "3588DD8C0AF7727C"
@@ -143,120 +89,83 @@
 				}
 				{
 					id: "69CD608655C011BA"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&cEspinhos, Engrenagens e Ondas"
-			description: [
-				"&7Na floresta escura, torres cobertas de espinhos guardam algo que prefere não ser encontrado."
-				"&7No pântano, engrenagens que respiram e ferro que se move sozinho: bem-vindos ao ninho da máquina."
-				"&7E em mar aberto, um navio de guerra colossal navega sem tripulação viva. O mar tem dentes."
-				""
-				"&6Objetivo:&r 1. Encontre as &cTorres Thornborn&r na floresta escura."
-				"&f2. Encontre o &cNinho Mecânico&r nos pântanos."
-				"&f3. Encontre o &cTifão&r em mar aberto."
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_thornborn_towers"
+					criterion: ""
+					id: "2738C0A82A381851"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_mechanical_nest"
+					criterion: ""
+					id: "3BFA81CAE0349B79"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_typhon"
+					criterion: ""
+					id: "191BC64814872FBB"
+					type: "advancement"
+				}
 			]
+			x: 2.0d
+			y: 1.6d
 		}
 		{
-			id: "53DF0506AF4BB28E"
-			x: 2.0d
-			y: 3.2d
-			icon: {
-				count: 1
-				id: "minecraft:heavy_core"
-			}
 			dependencies: [
 				"26018DA8809EDC3E"
 				"5DAD70DC22E50855"
 				"5F6132A097733C71"
 			]
+			icon: {
+				id: "minecraft:heavy_core"
+			}
+			id: "53DF0506AF4BB28E"
+			rewards: [{
+				id: "48609BBD6462C908"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "0A6757734531D802"
+					item: { count: 1, id: "minecraft:ominous_bottle" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:ominous_bottle"
-					}
-					count: 1L
 				}
 				{
-					id: "3A60C249EF34464A"
-					type: "advancement"
 					advancement: "minecraft:adventure/revaulting"
 					criterion: ""
+					id: "3A60C249EF34464A"
+					type: "advancement"
 				}
 				{
 					id: "36AA86ED2AD48F60"
+					item: { count: 1, id: "minecraft:heavy_core" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:heavy_core"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "48609BBD6462C908"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "Recofrado"
-			description: [
-				"&7Sob a influência da Garrafa Sinistra, a câmara de provação mostra seus dentes, e seus melhores cofres."
-				"&7Num deles dorme um núcleo de metal que dobra o ar: dele, um dia, sairá a marreta."
-				""
-				"&6Objetivo:&r 1. Consiga uma &6Garrafa Sinistra&r (capitães de saqueadores ou cofres sinistros)."
-				"&f2. Beba-a, ative um gerador sinistro, ganhe uma &6Chave de Provação Sinistra&r e abra um &6Cofre Sinistro&r."
-				"&f3. Consiga um &6Núcleo Pesado&r."
-			]
+			x: 2.0d
+			y: 3.2d
 		}
 		{
-			id: "0770BC4A276D2870"
-			x: 2.0d
-			y: 4.8d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:compass"
-			}
 			dependencies: [
 				"31E147B35E5DA844"
 				"285290788BC1442F"
 				"5F6132A097733C71"
 			]
-			tasks: [
-				{
-					id: "1F0AB3A3A2B99C1A"
-					type: "advancement"
-					advancement: "minecraft:adventure/adventuring_time"
-					criterion: ""
-				}
-				{
-					id: "1AC3AC1C13E21DB2"
-					type: "advancement"
-					advancement: "biomeswevegone:biomeswevegone/adventure/true_traveler"
-					criterion: ""
-				}
-				{
-					id: "3FDBC6AC2C2F9265"
-					type: "advancement"
-					advancement: "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone"
-					criterion: ""
-				}
-				{
-					id: "33CAC8675BBD0361"
-					type: "advancement"
-					advancement: "hopo:minecraft/adventure/locate_all_underwater_structures"
-					criterion: ""
-				}
-			]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "0770BC4A276D2870"
+			optional: true
 			rewards: [
 				{
 					id: "04F088FE551D6E43"
@@ -265,31 +174,42 @@
 				}
 				{
 					id: "0E4C91305AE0C999"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Cronista do Mundo"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Quem caminhou por todas as terras conhece o mundo melhor que qualquer rei."
-				"&7Das florestas de bordo aos desertos de dacito, das tavernas de cada povo aos museus afundados do fundo do mar: o cronista viu tudo, e anotou."
-				""
-				"&6Objetivo:&r 1. Descubra todos os biomas da superfície exigidos pela crônica de aventuras."
-				"&f2. Encontre &6todas as vilas habitadas&r dos biomas novos."
-				"&f3. Explore &6todos os biomas novos&r (Oh The Biomes We've Gone)."
-				"&f4. Encontre &6todas as estruturas subaquáticas&r, inclusive as novas."
-				""
-				"&8Use a Pena do Desbravador para localizar os biomas que faltam."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/adventuring_time"
+					criterion: ""
+					id: "1F0AB3A3A2B99C1A"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/true_traveler"
+					criterion: ""
+					id: "1AC3AC1C13E21DB2"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone"
+					criterion: ""
+					id: "3FDBC6AC2C2F9265"
+					type: "advancement"
+				}
+				{
+					advancement: "hopo:minecraft/adventure/locate_all_underwater_structures"
+					criterion: ""
+					id: "33CAC8675BBD0361"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 2.0d
+			y: 4.8d
 		}
-	]
-	title: "&9Tier III&7 - O Abismo e o Mar"
-	subtitle: [
-		"&2Exploração&7, &9Tier III"
 	]
 }

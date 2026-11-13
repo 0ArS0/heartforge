@@ -4,139 +4,78 @@
 	filename: "mod_create_addons_t4"
 	group: "3B08ACB5CE59F3E7"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "1868E00E7B97E606"
-	order_index: 21
+	images: [ ]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2189BE44D0FB271B"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_4"
 			}
-			tasks: [
-				{
-					id: "315C0BC3186F87A8"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &6Tier IV&7."
-			]
-			disable_toast: true
+			id: "2189BE44D0FB271B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "315C0BC3186F87A8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "3B34B49BD597D1FA"
-			x: 2.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"7E96AD240AF63CEF"
 				"2189BE44D0FB271B"
 			]
+			id: "3B34B49BD597D1FA"
+			rewards: [{
+				id: "4504816A32D78277"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "42FB6654EB0820F9"
+					item: { count: 1, id: "create_enchantment_industry:experience_cake" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_cake"
-					}
-					count: 1L
 				}
 				{
 					id: "5627BB2778E29975"
+					item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:super_experience_block"
-					}
-					count: 1L
 				}
 				{
-					id: "051465321715AE59"
-					type: "advancement"
 					advancement: "create_enchantment_industry:lightning_catalysis"
 					criterion: ""
+					id: "051465321715AE59"
+					type: "advancement"
 				}
 				{
 					id: "1AEFB9C607CDEF4C"
+					item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:super_enchanting_template"
-					}
-					count: 1L
 				}
 				{
-					id: "05095A77F0571101"
-					type: "advancement"
 					advancement: "create_enchantment_industry:transcendent_overclock"
 					criterion: ""
+					id: "05095A77F0571101"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "4504816A32D78277"
-					type: "xp"
-					xp: 700
-				}
-			]
-			title: "O Bolo e o Raio"
-			description: [
-				"&7Lápis, açúcar e ovo, banhados num balde inteiro de saber: o blaze que come esse bolo começa a ferver."
-				"&7O raio que cai num bloco de saber o transforma em algo que nenhuma mesa conhece, e prensado vira"
-				"&7uma placa capaz de guardar encantos proibidos. Nesse estado, o blaze ignora os limites que os antigos juravam eternos."
-				""
-				"&6Objetivo:&r 1. Prense ovo + açúcar + lápis na Basin (Cake Base o' Enchanting) e encha com 1000 mB de experiência: &6Cake o' Enchanting&r."
-				"&f2. Deixe Blocks of Experience perto de um para-raios em tempestades: &6Block of Super Experience&r."
-				"&f3. Prense-o: &6Super Enchanting Template&r."
-				"&f4. Dê o bolo a um Blaze Enchanter ou Forger: ele entra em &cSuper Encantamento&r e só aceita Super Templates."
-				""
-				"&8O processo atrai raios. Cobrir a máquina evita os raios, mas pode trazer maldições ou custo de reparo."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["3B34B49BD597D1FA"]
 			id: "7E08B6CA3C912367"
-			x: 4.0d
-			y: 0.0d
-			dependencies: [
-				"3B34B49BD597D1FA"
-			]
-			tasks: [
-				{
-					id: "0DAEF8749807FF3C"
-					type: "advancement"
-					advancement: "create_enchantment_industry:paradox_fusion"
-					criterion: ""
-				}
-				{
-					id: "2ABDE7D32F15A665"
-					type: "advancement"
-					advancement: "create_enchantment_industry:probability_spike"
-					criterion: ""
-				}
-				{
-					id: "6BB61473386A387F"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:bioethanol_bucket"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "1ED882F319A92C2D"
@@ -145,29 +84,34 @@
 				}
 				{
 					id: "5B7A1BF37BCA8401"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Feitos Proibidos"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Dois encantos que se odeiam, no mesmo item: o blaze não pergunta."
-				"&7Encantos que só se achavam em baús antigos saem da forja, e os mais ousados alimentam os queimadores"
-				"&7com bioetanol, o combustível que queima feroz."
-				""
-				"&6Objetivo:&r 1. Junte encantamentos conflitantes num item com o Blaze Forger em Super Encantamento."
-				"&f2. Obtenha um encantamento de tesouro com o Blaze Enchanter em Super Encantamento."
-				"&f3. Misture açúcar + Cinder Flour + 2 Biomass no Mixer: &6Bioethanol&r (combustível para Blaze Burners com canudo)."
+			tasks: [
+				{
+					advancement: "create_enchantment_industry:paradox_fusion"
+					criterion: ""
+					id: "0DAEF8749807FF3C"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:probability_spike"
+					criterion: ""
+					id: "2ABDE7D32F15A665"
+					type: "advancement"
+				}
+				{
+					id: "6BB61473386A387F"
+					item: { count: 1, id: "createaddition:bioethanol_bucket" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 4.0d
+			y: 0.0d
 		}
-	]
-	title: "&6Tier IV&7 - Além do Limite"
-	subtitle: [
-		"&6Engenhocas Avançadas&7, &6Tier IV"
 	]
 }

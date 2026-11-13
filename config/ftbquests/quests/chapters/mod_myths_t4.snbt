@@ -4,262 +4,155 @@
 	filename: "mod_myths_t4"
 	group: "3DAD9C4C9DD26814"
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "1980BEB70BED99C1"
-	order_index: 92
+	images: [ ]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7AFBAAF6DE81864C"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_4"
 			}
-			tasks: [
-				{
-					id: "6889350B53269CFE"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV"
-			description: [
-				"&7Este capítulo se abre quando o grupo alcança o &6Tier IV&7."
-			]
-			disable_toast: true
+			id: "7AFBAAF6DE81864C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				id: "6889350B53269CFE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "5A79EBB09EF2D768"
-			x: 2.0d
-			y: 0.0d
-			shape: "diamond"
-			size: 1.25d
 			dependencies: [
 				"569FDAFB2800A00D"
 				"7AFBAAF6DE81864C"
 			]
+			id: "5A79EBB09EF2D768"
+			rewards: [{
+				id: "1854C05F33343DD2"
+				type: "xp"
+				xp: 700
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
+					entity: "mythsandlegends:condemned"
 					id: "2745C34DE7E9A366"
 					type: "kill"
-					entity: "mythsandlegends:condemned"
 					value: 1L
 				}
 				{
+					entity: "mythsandlegends:eidolon"
 					id: "1E6CA9C3E7491285"
 					type: "kill"
-					entity: "mythsandlegends:eidolon"
 					value: 1L
 				}
 				{
+					entity: "mythsandlegends:lampad"
 					id: "3582DA11B5663751"
 					type: "kill"
-					entity: "mythsandlegends:lampad"
 					value: 1L
 				}
 				{
 					id: "0B70BFBF22010F22"
+					item: { count: 1, id: "mythsandlegends:lantern_of_hecate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:lantern_of_hecate"
-					}
-					count: 1L
 				}
 				{
 					id: "6B9C144BC8DE8235"
+					item: { count: 1, id: "mythsandlegends:ritual_flame" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:ritual_flame"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "1854C05F33343DD2"
-					type: "xp"
-					xp: 700
-				}
-			]
-			title: "O Vale das Almas"
-			description: [
-				"&7No vale de areia das almas, os condenados ainda caminham em fila, esperando um julgamento que não vem."
-				"&7Nas florestas vermelhas e azuis, as ninfas do submundo carregam lanternas cuja luz os mortos não suportam."
-				"&7E nos baús das fortalezas arde a chama de que o Cronista fala com os olhos brilhando."
-				""
-				"&6Objetivo:&r 1. No &cVale das Almas&r, derrote uma &cAlma Condenada&r e um &cEidolon&r (nenhum teme a luz do dia)."
-				"&f2. Nas &cflorestas carmesim e distorcida&r, derrote &cLampads&r até obter a &6Lanterna de Hécate&r:"
-				"&fmortos-vivos comuns (zumbis, esqueletos, jiangshi, draugr) fogem da luz dela."
-				"&f3. Encontre uma &6Chama Ritual&r em baús de fortalezas do Nether ou bastiões e leve-a ao Cronista."
-				""
-				"&8As Almas Condenadas deixam cravos, usados no Altar dos Mortos."
-			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "39C65A652E8099DF"
-			x: 4.0d
-			y: 0.0d
-			shape: "diamond"
+			dependencies: ["5A79EBB09EF2D768"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:scorched_sentinel_heart"
 			}
-			dependencies: [
-				"5A79EBB09EF2D768"
-			]
+			id: "39C65A652E8099DF"
+			rewards: [{
+				id: "466807DB57F34FC2"
+				type: "xp"
+				xp: 280
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "mythsandlegends:scorched_sentinel"
 					id: "597AF4B78CA1C274"
 					type: "kill"
-					entity: "mythsandlegends:scorched_sentinel"
 					value: 1L
 				}
 				{
 					id: "0B436F273FFA234E"
+					item: { count: 1, id: "mythsandlegends:infernum_ingot" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:infernum_ingot"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "466807DB57F34FC2"
-					type: "xp"
-					xp: 280
-				}
-			]
-			title: "&cA Sentinela Chamuscada"
-			description: [
-				"&7Nos deltas de basalto há ninhos de bichos de pedra quente, e a sentinela que os guarda não dorme."
-				"&7Ela carrega no ventre o metal de guerra das legiões infernais, o Infernum, que brilha como brasa mesmo no escuro."
-				"&7É dela, e só dela, que sai o infernum que a forja do Coração do Tier V exige."
-				""
-				"&6Objetivo:&r 1. Encontre um &6Ninho Chamuscado&r nos &cDeltas de Basalto&r e derrote a &cSentinela Chamuscada&r."
-				"&f2. Recolha o &cLingote de Infernum&r: ela &6sempre&r deixa &61 a 2 lingotes&r (mais com Saque)"
-				"&fe tem &635% de chance&r de deixar o &6Molde de Melhoria de Infernum&r."
-				"&f&6Um lingote entra no Coração do Tier V.&r Um bloco de infernum volta a 9 lingotes no &6Mixer superaquecido&r."
-				"&fSeu &ccoração de troféu&r dá Resistência ao Fogo e Resistência, ao custo de Fraqueza."
-				""
-				"&8O Molde de Infernum se copia com diamantes e um lingote: guarde o primeiro que cair."
-				"&8Mate mais de uma sentinela se o grupo quiser armadura de infernum e o coração do tier."
-			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["39C65A652E8099DF"]
 			id: "4248424CBBCE697D"
-			x: 6.0d
-			y: -0.8d
+			rewards: [{
+				id: "189508B586D31352"
+				type: "xp"
+				xp: 700
+			}]
 			shape: "diamond"
 			size: 1.25d
-			dependencies: [
-				"39C65A652E8099DF"
-			]
 			tasks: [
 				{
-					id: "3535C93B161AEF7E"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:scorched_skin"
-					}
 					count: 5L
-				}
-				{
-					id: "64BC950DBFD60DDF"
+					id: "3535C93B161AEF7E"
+					item: { count: 1, id: "mythsandlegends:scorched_skin" }
 					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:scorched_bone"
-					}
-					count: 3L
 				}
 				{
+					count: 3L
+					id: "64BC950DBFD60DDF"
+					item: { count: 1, id: "mythsandlegends:scorched_bone" }
+					type: "item"
+				}
+				{
+					entity: "mythsandlegends:imp"
 					id: "673F03061C5CB77D"
 					type: "kill"
-					entity: "mythsandlegends:imp"
 					value: 1L
 				}
 				{
-					id: "376425BE5AF08132"
-					type: "advancement"
 					advancement: "mythsandlegends:heart_of_fire"
 					criterion: ""
+					id: "376425BE5AF08132"
+					type: "advancement"
 				}
 				{
-					id: "2A52BEE9C9C07AB1"
-					type: "advancement"
 					advancement: "mythsandlegends:relic_of_the_forge_god"
 					criterion: ""
+					id: "2A52BEE9C9C07AB1"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "189508B586D31352"
-					type: "xp"
-					xp: 700
-				}
-			]
-			title: "Brasas dos deltas"
-			description: [
-				"&7A pele das sentinelas não queima porque já queimou tudo o que tinha para queimar."
-				"&7Nos mesmos deltas, diabretes pequenos e mentirosos se multiplicam: quando um vira dez, nove são de mentira."
-				"&7Svarog forjou o sol, e diz-se que um anel saiu da mesma brasa."
-				""
-				"&6Objetivo:&r 1. Junte &65 Peles&r e &63 Ossos Chamuscados&r das Sentinelas e dos baús dos ninhos."
-				"&f2. Derrote um &cDiabrete&r nos Deltas de Basalto: só uma das cópias é real."
-				"&f3. Obtenha o &cCoração de Fogo&r, queda muito rara das cópias. Como cinto, regenera vida aos poucos."
-				"&f4. Encontre o &6Anel de Svarog&r nos baús dos Ninhos: reduz em 20% o dano de criaturas do Nether."
-			]
+			x: 6.0d
+			y: -0.8d
 		}
 		{
-			id: "503C33E77041402C"
-			x: 6.0d
-			y: 0.8d
 			dependencies: [
 				"39C65A652E8099DF"
 				"585ADC9C690DE31B"
 			]
-			tasks: [
-				{
-					id: "0B6A616748FC16F2"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:infernum_warplate_chestplate"
-					}
-					count: 1L
-				}
-				{
-					id: "216E0619C3B48BFE"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:maledictum_shield"
-					}
-					count: 1L
-				}
-				{
-					id: "778E8D1D8B04EA24"
-					type: "item"
-					item: {
-						count: 1
-						id: "mythsandlegends:noctifer_tenebris"
-					}
-					count: 1L
-				}
-			]
+			id: "503C33E77041402C"
 			rewards: [
 				{
 					id: "3F805323FE253B63"
@@ -268,31 +161,32 @@
 				}
 				{
 					id: "385444B18AE91458"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Forjado no Inferno"
-			description: [
-				"&7Netherite revestida de fúria: quem a veste prova domínio sobre as legiões do fogo."
-				"&7O escudo de pedra, tocado pelo infernum, deixa de proteger e passa a condenar."
-				"&7E uma lâmina que comanda a escuridão, que os manuscritos diziam ser lenda, não era."
-				""
-				"&6Objetivo:&r 1. Na mesa de ferraria, aplique o &6Molde de Infernum&r e um lingote sobre a &6netherite&r: armadura &cInfernum&r (completa: Força I e Resistência ao Fogo)."
-				"&f2. Melhore o Escudo de Pedra com Molde e Lingote de Infernum: &cEscudo Maledictum&r (25% de chance de incendiar quem bate)."
-				"&f3. Leve ao Cronista Tenebrita Refinada, 4 Almas Vinculadas e 2 Núcleos Malditos; depois forje a &5Noctifer Tenebris&r no Mechanical Crafter."
-				"&fDispara um orbe umbral; agachado sobre uma criatura, invoca uma Mão Umbral."
-				""
-				"&8A Noctifer recarrega mais rápido à noite, no escuro total ou no Ermo Umbral."
-				"&8Separe primeiro o lingote do Coração do Tier V antes de gastar infernum em equipamento."
+			tasks: [
+				{
+					id: "0B6A616748FC16F2"
+					item: { count: 1, id: "mythsandlegends:infernum_warplate_chestplate" }
+					type: "item"
+				}
+				{
+					id: "216E0619C3B48BFE"
+					item: { count: 1, id: "mythsandlegends:maledictum_shield" }
+					type: "item"
+				}
+				{
+					id: "778E8D1D8B04EA24"
+					item: { count: 1, id: "mythsandlegends:noctifer_tenebris" }
+					type: "item"
+				}
 			]
+			x: 6.0d
+			y: 0.8d
 		}
-	]
-	title: "&6Tier IV&7 - Brasas do Nether"
-	subtitle: [
-		"&eMitos e Lendas&7, &6Tier IV"
 	]
 }
