@@ -8,9 +8,42 @@
 		id: "create:cogwheel"
 	}
 	id: "39913596642D614B"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
+		{
+			id: "75742C0F61E62491"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			tasks: [
+				{
+					id: "1CC2843E5A737FAA"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "17E5AE6992B5CD92"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Livro das Engrenagens"
+			description: [
+				"&7Os antigos forjavam com martelo e fé. Heartforge forja com eixos, vapor e latão."
+				"&7Nenhum Coração do Tier nasce numa bigorna: o primeiro é batido num Misturador, o segundo"
+				"&7montado num Mechanical Crafter, e os demais passam pela linha de montagem sequencial."
+				"&7Até a netherita só se funde no calor de um blaze superaquecido."
+				""
+				"&7Comece pela pedra cinzenta: andesito e pepitas de ferro viram a primeira liga."
+			]
+		}
 		{
 			id: "76996D95B0BA9B37"
 			x: 0.0d
@@ -86,6 +119,10 @@
 					type: "advancement"
 					advancement: "create:andesite_casing"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
 				}
 			]
 			rewards: [
@@ -169,6 +206,10 @@
 					type: "advancement"
 					advancement: "create:shifting_gears"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:shaft"
+					}
 				}
 				{
 					id: "6E13C4594224AA5D"
@@ -193,6 +234,10 @@
 					type: "advancement"
 					advancement: "create:stressometer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:shaft"
+					}
 				}
 			]
 			rewards: [
@@ -342,6 +387,10 @@
 					type: "advancement"
 					advancement: "create:water_wheel"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:water_wheel"
+					}
 				}
 				{
 					id: "21E95892AD322273"
@@ -375,6 +424,10 @@
 					type: "advancement"
 					advancement: "create:windmill"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:water_wheel"
+					}
 				}
 			]
 			rewards: [
@@ -426,6 +479,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -468,6 +525,10 @@
 					type: "advancement"
 					advancement: "create:mechanical_press"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:depot"
+					}
 				}
 				{
 					id: "0F2BAE2EBC0C68F1"
@@ -546,12 +607,20 @@
 					type: "advancement"
 					advancement: "create:encased_fan"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:encased_fan"
+					}
 				}
 				{
 					id: "48C0846DE5F6F4DB"
 					type: "advancement"
 					advancement: "create:fan_processing"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:encased_fan"
+					}
 				}
 				{
 					id: "496173C526D06EC3"
@@ -567,6 +636,10 @@
 					type: "advancement"
 					advancement: "create:saw_processing"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:encased_fan"
+					}
 				}
 			]
 			rewards: [
@@ -621,6 +694,10 @@
 					type: "advancement"
 					advancement: "create:millstone"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:millstone"
+					}
 				}
 				{
 					id: "43B33F864403E365"
@@ -636,6 +713,10 @@
 					type: "advancement"
 					advancement: "create:crushing_wheel"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:millstone"
+					}
 				}
 				{
 					id: "08D10514A1BC0CFD"
@@ -710,6 +791,10 @@
 					type: "advancement"
 					advancement: "create:super_glue"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:super_glue"
+					}
 				}
 				{
 					id: "3C87FFD62E41A1DA"
@@ -817,6 +902,10 @@
 					type: "advancement"
 					advancement: "create:belt"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:belt_connector"
+					}
 				}
 				{
 					id: "33EB0B550AB96200"
@@ -832,6 +921,10 @@
 					type: "advancement"
 					advancement: "create:funnel"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:belt_connector"
+					}
 				}
 				{
 					id: "78285B2F075A13E7"
@@ -856,6 +949,10 @@
 					type: "advancement"
 					advancement: "create:chute"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:belt_connector"
+					}
 				}
 				{
 					id: "148E946685335B52"
@@ -921,6 +1018,10 @@
 					type: "advancement"
 					advancement: "create:copper_casing"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:copper_casing"
+					}
 				}
 				{
 					id: "25468470CE4DA2D8"
@@ -936,6 +1037,10 @@
 					type: "advancement"
 					advancement: "create:glass_pipe"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:copper_casing"
+					}
 				}
 				{
 					id: "0D2F32092B091EE9"
@@ -951,12 +1056,20 @@
 					type: "advancement"
 					advancement: "create:mechanical_pump_0"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:copper_casing"
+					}
 				}
 				{
 					id: "347CD358C31B2002"
 					type: "advancement"
 					advancement: "create:water_supply"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:copper_casing"
+					}
 				}
 				{
 					id: "1D2C316E9052CCA6"
@@ -1113,6 +1226,10 @@
 					type: "advancement"
 					advancement: "create:compacting"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:basin"
+					}
 				}
 				{
 					id: "1DEB6A0FCF2EDC28"
@@ -1128,6 +1245,10 @@
 					type: "advancement"
 					advancement: "create:mechanical_mixer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:basin"
+					}
 				}
 				{
 					id: "48D981037ABA69EB"
@@ -1284,6 +1405,10 @@
 					type: "advancement"
 					advancement: "create:contraption_actors"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:mechanical_drill"
+					}
 				}
 				{
 					id: "176F4788501C15F2"
@@ -1419,6 +1544,10 @@
 					type: "advancement"
 					advancement: "create:portable_storage_interface"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:mechanical_harvester"
+					}
 				}
 				{
 					id: "751F3255D3CF12D2"
@@ -1469,36 +1598,60 @@
 			dependencies: [
 				"6462DFBBF09514D1"
 			]
+			icon: {
+				count: 1
+				id: "create:cogwheel"
+			}
 			tasks: [
 				{
 					id: "677FA14D4BF00386"
 					type: "advancement"
 					advancement: "create:windmill_maxed"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "5F477A6D1E46A77A"
 					type: "advancement"
 					advancement: "create:ejector_maxed"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "11093540522B4C1B"
 					type: "advancement"
 					advancement: "create:pulley_maxed"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "07B780A21AA643FB"
 					type: "advancement"
 					advancement: "create:potato_cannon_collide"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "58ACCFFFD72DCD8B"
 					type: "advancement"
 					advancement: "create:honey_drain"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 			]
 			rewards: [
@@ -1572,6 +1725,10 @@
 					type: "advancement"
 					advancement: "create:diving_suit"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:copper_diving_helmet"
+					}
 				}
 				{
 					id: "76019A23EDD6DD1B"
@@ -1587,6 +1744,10 @@
 					type: "advancement"
 					advancement: "create:potato_cannon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:copper_diving_helmet"
+					}
 				}
 			]
 			rewards: [
@@ -1641,6 +1802,10 @@
 					type: "advancement"
 					advancement: "create:spout"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:spout"
+					}
 				}
 				{
 					id: "356F43397C57C09B"
@@ -1656,6 +1821,10 @@
 					type: "advancement"
 					advancement: "create:drain"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:spout"
+					}
 				}
 				{
 					id: "3BE08456A3574868"
@@ -1671,6 +1840,10 @@
 					type: "advancement"
 					advancement: "create:hose_pulley"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:spout"
+					}
 				}
 				{
 					id: "0C03DA45B763B517"
@@ -1775,6 +1948,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1808,6 +1985,10 @@
 					type: "advancement"
 					advancement: "create:burner"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:blaze_burner"
+					}
 				}
 				{
 					id: "104CE49FC9A6BCA2"
@@ -1823,6 +2004,10 @@
 					type: "advancement"
 					advancement: "create:rose_quartz"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:blaze_burner"
+					}
 				}
 				{
 					id: "2209EC029909787C"
@@ -1879,6 +2064,10 @@
 					type: "advancement"
 					advancement: "create:brass"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:brass_ingot"
+					}
 				}
 				{
 					id: "62FB916AB75F5AA2"
@@ -1894,6 +2083,10 @@
 					type: "advancement"
 					advancement: "create:brass_casing"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:brass_ingot"
+					}
 				}
 				{
 					id: "076095A2074B7FF1"
@@ -1990,6 +2183,10 @@
 					type: "advancement"
 					advancement: "create:steam_engine"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:fluid_tank"
+					}
 				}
 				{
 					id: "22BBC64AB04046C0"
@@ -2005,6 +2202,10 @@
 					type: "advancement"
 					advancement: "create:steam_whistle"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:fluid_tank"
+					}
 				}
 				{
 					id: "2F91F567DE8107A5"
@@ -2097,6 +2298,10 @@
 					type: "advancement"
 					advancement: "create:linked_controller"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:content_observer"
+					}
 				}
 				{
 					id: "45A86987D568BB62"
@@ -2176,6 +2381,10 @@
 					type: "advancement"
 					advancement: "create:deployer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:deployer"
+					}
 				}
 				{
 					id: "1304BA94E070D003"
@@ -2191,6 +2400,10 @@
 					type: "advancement"
 					advancement: "create:precision_mechanism"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:deployer"
+					}
 				}
 				{
 					id: "3B99F3B3F4CEB36F"
@@ -2206,6 +2419,10 @@
 					type: "advancement"
 					advancement: "create:mechanical_arm"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:deployer"
+					}
 				}
 			]
 			rewards: [
@@ -2360,12 +2577,20 @@
 					type: "advancement"
 					advancement: "create:chocolate_bucket"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:chocolate_bucket"
+					}
 				}
 				{
 					id: "508E5DF9934F6B46"
 					type: "advancement"
 					advancement: "create:foods"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:chocolate_bucket"
+					}
 				}
 				{
 					id: "78AC3A5FC154D1C8"
@@ -2499,6 +2724,10 @@
 					type: "advancement"
 					advancement: "create:display_link"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:display_link"
+					}
 				}
 				{
 					id: "7D6A2D8F9971C777"
@@ -2568,6 +2797,10 @@
 					type: "advancement"
 					advancement: "create:mechanical_crafter"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
 				}
 				{
 					id: "3FEEADB9A003DCBB"
@@ -2583,6 +2816,10 @@
 					type: "advancement"
 					advancement: "create:extendo_grip"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
 				}
 			]
 			rewards: [
@@ -2628,6 +2865,10 @@
 					type: "advancement"
 					advancement: "create:speed_controller"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:rotation_speed_controller"
+					}
 				}
 				{
 					id: "37005EA8E9F66705"
@@ -2652,6 +2893,10 @@
 					type: "advancement"
 					advancement: "create:clockwork_bearing"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:rotation_speed_controller"
+					}
 				}
 				{
 					id: "4A191631CC297D5A"
@@ -2706,24 +2951,40 @@
 			dependencies: [
 				"2016E992D4445640"
 			]
+			icon: {
+				count: 1
+				id: "create:cogwheel"
+			}
 			tasks: [
 				{
 					id: "2BF040AEC1FD2260"
 					type: "advancement"
 					advancement: "create:fist_bump"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "2C26C5375FC22A51"
 					type: "advancement"
 					advancement: "create:arm_blaze_burner"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "5CBD08DC67F2FB3B"
 					type: "advancement"
 					advancement: "create:arm_many_targets"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 			]
 			rewards: [
@@ -2776,6 +3037,10 @@
 					type: "advancement"
 					advancement: "create:cardboard"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cardboard"
+					}
 				}
 				{
 					id: "3EBB5496DD9EBDC9"
@@ -2791,6 +3056,10 @@
 					type: "advancement"
 					advancement: "create:packager"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cardboard"
+					}
 				}
 				{
 					id: "1106C7595B14588C"
@@ -2815,6 +3084,10 @@
 					type: "advancement"
 					advancement: "create:frogport"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cardboard"
+					}
 				}
 				{
 					id: "287836FF565AF127"
@@ -2934,6 +3207,10 @@
 					type: "advancement"
 					advancement: "create:cardboard_armor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cardboard_helmet"
+					}
 				}
 			]
 			rewards: [
@@ -2982,6 +3259,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3033,6 +3314,10 @@
 					type: "advancement"
 					advancement: "create:sturdy_sheet"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
 				}
 			]
 			rewards: [
@@ -3087,6 +3372,10 @@
 					type: "advancement"
 					advancement: "create:train_casing_00"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:railway_casing"
+					}
 				}
 				{
 					id: "75E629583A10A31F"
@@ -3102,6 +3391,10 @@
 					type: "advancement"
 					advancement: "create:track_0"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:railway_casing"
+					}
 				}
 				{
 					id: "4E37FFC4E5DC4449"
@@ -3214,6 +3507,10 @@
 					type: "advancement"
 					advancement: "create:stock_ticker"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:stock_link"
+					}
 				}
 				{
 					id: "5D5EF64D86F751A5"
@@ -3229,6 +3526,10 @@
 					type: "advancement"
 					advancement: "create:factory_gauge"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:stock_link"
+					}
 				}
 				{
 					id: "0548A554C834EFC8"
@@ -3253,6 +3554,10 @@
 					type: "advancement"
 					advancement: "create:table_cloth_shop"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:stock_link"
+					}
 				}
 			]
 			rewards: [
@@ -3313,6 +3618,10 @@
 					type: "advancement"
 					advancement: "create:haunted_bell"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:soul_campfire"
+					}
 				}
 			]
 			rewards: [
@@ -3347,12 +3656,20 @@
 			dependencies: [
 				"18F7E347504FD9CD"
 			]
+			icon: {
+				count: 1
+				id: "create:track_signal"
+			}
 			tasks: [
 				{
 					id: "719C0592C71A8438"
 					type: "advancement"
 					advancement: "create:train"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:track_signal"
+					}
 				}
 				{
 					id: "6330675690E562D0"
@@ -3368,6 +3685,10 @@
 					type: "advancement"
 					advancement: "create:track_signal"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:track_signal"
+					}
 				}
 				{
 					id: "6E4468E70D19FBA8"
@@ -3383,6 +3704,10 @@
 					type: "advancement"
 					advancement: "create:conductor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:track_signal"
+					}
 				}
 				{
 					id: "58BF9D75D148430F"
@@ -3438,12 +3763,20 @@
 			dependencies: [
 				"2EC615293732D9D9"
 			]
+			icon: {
+				count: 1
+				id: "create:track_observer"
+			}
 			tasks: [
 				{
 					id: "710F26805230CCAA"
 					type: "advancement"
 					advancement: "create:display_board_0"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:track_observer"
+					}
 				}
 				{
 					id: "588DD4C8E857A9C8"
@@ -3490,42 +3823,70 @@
 			dependencies: [
 				"2EC615293732D9D9"
 			]
+			icon: {
+				count: 1
+				id: "create:cogwheel"
+			}
 			tasks: [
 				{
 					id: "2C364D42C029BC1A"
 					type: "advancement"
 					advancement: "create:track_crafting_factory"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "4CF51925F7919B79"
 					type: "advancement"
 					advancement: "create:train_whistle"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "6DB531ACF8F9DD61"
 					type: "advancement"
 					advancement: "create:long_train"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "508E6F93007BF15D"
 					type: "advancement"
 					advancement: "create:long_travel"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "154E964FF5D9BD9C"
 					type: "advancement"
 					advancement: "create:crusher_maxed_0000"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "2225A579B671F0C2"
 					type: "advancement"
 					advancement: "create:self_deploying"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 			]
 			rewards: [
@@ -3577,6 +3938,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3725,6 +4090,10 @@
 					type: "advancement"
 					advancement: "create:diving_suit_lava"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:netherite_diving_helmet"
+					}
 				}
 			]
 			rewards: [
@@ -3750,24 +4119,40 @@
 			dependencies: [
 				"24FFBA4172A65BE4"
 			]
+			icon: {
+				count: 1
+				id: "create:cogwheel"
+			}
 			tasks: [
 				{
 					id: "22CE8AD39C932C88"
 					type: "advancement"
 					advancement: "create:hose_pulley_lava"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "174FDFEFB1CA737D"
 					type: "advancement"
 					advancement: "create:train_portal"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 				{
 					id: "4C61849A96C1E583"
 					type: "advancement"
 					advancement: "create:steam_engine_maxed"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create:cogwheel"
+					}
 				}
 			]
 			rewards: [
@@ -3809,6 +4194,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3865,6 +4254,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_6"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3922,6 +4315,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3961,8 +4358,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&6Engrenagens e Vapor"
 	subtitle: [
-		"&6Engrenagens e Vapor&7: do Tier I em diante"
+		"Engrenagens, vapor e a forja dos Corações"
 	]
 }

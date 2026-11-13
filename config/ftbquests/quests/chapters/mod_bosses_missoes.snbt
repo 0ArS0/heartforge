@@ -8,9 +8,45 @@
 		id: "comamigos_balance:obsidilith_heart"
 	}
 	id: "12E72912A7C47274"
-	order_index: 36
+	order_index: 22
 	quest_links: [ ]
 	quests: [
+		{
+			id: "4C92F85B977167DD"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "comamigos_balance:obsidilith_heart"
+			}
+			tasks: [
+				{
+					id: "12AB5740C442B9AF"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "497C42C8362213C4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Bestiário dos Reis"
+			description: [
+				"&7Há criaturas que não pertencem a nenhuma ordem, nenhum culto, nenhuma cidade afundada."
+				"&7Dormem em torres geladas, ninhos de areia, arenas de basalto e ilhas no fim do mundo,"
+				"&7e cada uma guarda no peito um &ccoração&7 que ainda pulsa depois da queda."
+				""
+				"&7Estes corações são troféus: podem ser comidos, e dão força ao preço de alguma maldição."
+				"&7Os chefes deste bestiário ensinam a esquivar: há uma tecla de &6rolamento&7 (2 cargas) nos controles."
+				"&7O último nome desta lista é o Obsidilith. Quem o derrubar no Tier VIII encerra a crônica."
+				""
+				"&7Comece pelo norte gelado: Skor, o Yeti, espera nas planícies nevadas."
+			]
+		}
 		{
 			id: "6A5696C386D1D04F"
 			x: 0.0d
@@ -21,12 +57,19 @@
 				count: 1
 				id: "comamigos_balance:tier_heart_2"
 			}
+			dependencies: [
+				"4C92F85B977167DD"
+			]
 			tasks: [
 				{
 					id: "1AD9FE851D3021C0"
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -84,6 +127,10 @@
 			dependencies: [
 				"6A5696C386D1D04F"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:obsidilith_heart"
+			}
 			tasks: [
 				{
 					id: "282BA8DFD25F501B"
@@ -140,6 +187,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -491,6 +542,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -529,6 +584,10 @@
 					type: "advancement"
 					advancement: "minecraft:nether/summon_wither"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:wither_heart"
+					}
 				}
 				{
 					id: "7928EF9C790B42B8"
@@ -541,6 +600,10 @@
 					type: "advancement"
 					advancement: "minecraft:nether/create_beacon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:wither_heart"
+					}
 				}
 			]
 			rewards: [
@@ -751,6 +814,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -925,6 +992,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_6"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1086,6 +1157,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1115,6 +1190,10 @@
 					type: "advancement"
 					advancement: "minecraft:story/follow_ender_eye"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:ender_dragon_heart"
+					}
 				}
 				{
 					id: "055DA6CF01C7FF9A"
@@ -1136,12 +1215,20 @@
 					type: "advancement"
 					advancement: "minecraft:end/dragon_egg"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:ender_dragon_heart"
+					}
 				}
 				{
 					id: "24BB03F995ACC2B7"
 					type: "advancement"
 					advancement: "minecraft:end/respawn_dragon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:ender_dragon_heart"
+					}
 				}
 				{
 					id: "5D2FB7ADD028B087"
@@ -1378,6 +1465,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_8"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_8"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1431,6 +1522,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/victory"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:obsidilith_heart"
+					}
 				}
 			]
 			rewards: [
@@ -1520,8 +1615,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&cOs Grandes Chefes"
 	subtitle: [
-		"&cOs Grandes Chefes&7: do Tier I em diante"
+		"Os senhores que o mundo não esqueceu"
 	]
 }

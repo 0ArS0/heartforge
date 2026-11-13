@@ -8,9 +8,44 @@
 		id: "irons_spellbooks:gold_spell_book"
 	}
 	id: "7DCF41594B346FEC"
-	order_index: 16
+	order_index: 12
 	quest_links: [ ]
 	quests: [
+		{
+			id: "69274264D0DB6B61"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:gold_spell_book"
+			}
+			tasks: [
+				{
+					id: "4633B89A71235DF2"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0EE763AF88501690"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Grimório do Mundo"
+			description: [
+				"&7Antes das caldeiras e das engrenagens, o mundo já era escrito em tinta arcana."
+				"&7Nove escolas de magia dormem em pergaminhos esquecidos, e cada uma pede um preço."
+				"&7Neste reino, porém, o próprio céu vigia os aprendizes: magias &acomuns&7 no Tier I,"
+				"&7&bincomuns&7 no II, &9raras&7 no III, &5épicas&7 no V e &6lendárias&7 no VI."
+				"&7Quem tenta lançar acima do que o grupo conquistou sente a palavra morrer na garganta."
+				""
+				"&7Cada degrau da escada tem sua tinta, e os forjadores do Coração do Tier pedem todas elas."
+				"&7Comece colhendo &6Essência Arcana&7 em baús de ruínas e nos restos de magos."
+			]
+		}
 		{
 			id: "40396646F6C46552"
 			x: 0.0d
@@ -152,6 +187,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/make_inscription_table"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:scroll_forge"
+					}
 				}
 				{
 					id: "0821940A4B115FE9"
@@ -167,6 +206,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/make_scroll_forge"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:scroll_forge"
+					}
 				}
 				{
 					id: "260D27269C1CD023"
@@ -182,6 +225,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_equip"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:scroll_forge"
+					}
 				}
 			]
 			rewards: [
@@ -229,6 +276,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -485,12 +536,20 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/make_wayward_compass"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:wayward_compass"
+					}
 				}
 				{
 					id: "7ABF475790E63BF1"
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:wayward_compass"
+					}
 				}
 				{
 					id: "484D8E266AE63E16"
@@ -539,6 +598,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/steal_from_wizard"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:wisewood_bookshelf"
+					}
 				}
 				{
 					id: "58AC0AA6C5E5D20C"
@@ -642,6 +705,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -785,12 +852,20 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/staff_artificer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:graybeard_staff"
+					}
 				}
 				{
 					id: "753457DC72328CB6"
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/staff_root"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:graybeard_staff"
+					}
 				}
 			]
 			rewards: [
@@ -852,6 +927,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_rotten"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:rotten_spell_book"
+					}
 				}
 			]
 			rewards: [
@@ -984,6 +1063,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_iron"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:gold_spell_book"
+					}
 				}
 				{
 					id: "752E5428B2E06A5D"
@@ -999,12 +1082,20 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_gold"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:gold_spell_book"
+					}
 				}
 				{
 					id: "7AC3393613B536D0"
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_villager"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:gold_spell_book"
+					}
 				}
 				{
 					id: "7768A3D0EFC4B3B2"
@@ -1215,6 +1306,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1251,12 +1346,20 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/make_arcane_anvil"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:arcane_anvil"
+					}
 				}
 				{
 					id: "2DC193AF349CB01E"
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_diamond"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:arcane_anvil"
+					}
 				}
 			]
 			rewards: [
@@ -1517,6 +1620,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/staff_lightning_rod"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:lightning_rod"
+					}
 				}
 			]
 			rewards: [
@@ -2036,6 +2143,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_evoker"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:evoker_spell_book"
+					}
 				}
 				{
 					id: "4C0637F8B59133FB"
@@ -2102,6 +2213,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/staff_blood_staff"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:dead_king_heart"
+					}
 				}
 			]
 			rewards: [
@@ -2284,6 +2399,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2551,6 +2670,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_blaze"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:cinder_essence"
+					}
 				}
 			]
 			rewards: [
@@ -2660,18 +2783,30 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_netherite"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:netherite_spell_book"
+					}
 				}
 				{
 					id: "4F1D262C78194E36"
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_druidic"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:netherite_spell_book"
+					}
 				}
 				{
 					id: "2B2EA0F9FF08E778"
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_frostbranded"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:netherite_spell_book"
+					}
 				}
 				{
 					id: "61F7696B7B594E91"
@@ -2777,6 +2912,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/staff_ice"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:spellbreaker"
+					}
 				}
 			]
 			rewards: [
@@ -2934,6 +3073,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/staff_pyrium"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:pyrium_staff"
+					}
 				}
 			]
 			rewards: [
@@ -3316,6 +3459,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3361,6 +3508,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_blood"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:epic_ink"
+					}
 				}
 			]
 			rewards: [
@@ -3613,6 +3764,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_6"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3640,6 +3795,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/ink_legendary"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:legendary_ink"
+					}
 				}
 				{
 					id: "731779DE10E01C64"
@@ -3690,6 +3849,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3726,6 +3889,10 @@
 					type: "advancement"
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_dragon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "irons_spellbooks:dragonskin_spell_book"
+					}
 				}
 				{
 					id: "49C0A9BAB8BB2143"
@@ -3759,8 +3926,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&dArtes Arcanas"
 	subtitle: [
-		"&dArtes Arcanas&7: do Tier I em diante"
+		"Tinta, pergaminho e vontade"
 	]
 }

@@ -8,9 +8,43 @@
 		id: "occultism:dictionary_of_spirits"
 	}
 	id: "0F90D54839B84FDF"
-	order_index: 18
+	order_index: 13
 	quest_links: [ ]
 	quests: [
+		{
+			id: "4FDF2456FDC220B7"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
+			tasks: [
+				{
+					id: "5BFD8FBAF99B11B2"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "7199067992260EA1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Dicionário dos Espíritos"
+			description: [
+				"&7Por trás do mundo que vemos existe outro, sobreposto como uma página translúcida."
+				"&7Os demonólogos de Heartforge aprenderam a enxergá-lo, a desenhar com giz os limites que os espíritos respeitam"
+				"&7e a firmar contratos com eles: Foliots servis, Djinn astutos, Afrits de fogo e Marids, senhores das águas."
+				""
+				"&7Cada grau exige um pentáculo maior e um giz mais raro. Errar uma runa custa caro."
+				""
+				"&7Comece pelo capim: arranque-o até achar as &6Sementes do Sonho do Demônio&7."
+			]
+		}
 		{
 			id: "2C8790CCB1A9FEFA"
 			x: 0.0d
@@ -384,6 +418,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -510,6 +548,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_crusher"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:golden_sacrificial_bowl"
+					}
 				}
 			]
 			rewards: [
@@ -553,18 +595,30 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_smelter"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:book_of_calling_foliot_lumberjack"
+					}
 				}
 				{
 					id: "67EBC19C6A8DF861"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_lumberjack"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:book_of_calling_foliot_lumberjack"
+					}
 				}
 				{
 					id: "639369B33EE2F036"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_transport_items"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:book_of_calling_foliot_lumberjack"
+					}
 				}
 				{
 					id: "387B21EC6E818D4C"
@@ -580,12 +634,20 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_cleaner"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:book_of_calling_foliot_lumberjack"
+					}
 				}
 				{
 					id: "3BA90BCEF5AE3F64"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_sapling_trader"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:book_of_calling_foliot_lumberjack"
+					}
 				}
 			]
 			rewards: [
@@ -627,18 +689,30 @@
 			dependencies: [
 				"44080B90DDE41016"
 			]
+			icon: {
+				count: 1
+				id: "occultism:silver_sacrificial_bowl"
+			}
 			tasks: [
 				{
 					id: "0AD47EFC474C66FB"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_farmer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:silver_sacrificial_bowl"
+					}
 				}
 				{
 					id: "45979AD86CFD4EB0"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_otherstone_trader"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:silver_sacrificial_bowl"
+					}
 				}
 				{
 					id: "4527BC74774DA09E"
@@ -775,6 +849,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/possess_skeleton"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
 				}
 				{
 					id: "493D222C59530EA1"
@@ -790,6 +868,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/possess_endermite"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
 				}
 				{
 					id: "3FD05C9DA0388CF3"
@@ -945,18 +1027,30 @@
 					type: "advancement"
 					advancement: "occultism:occultism/familiar/root"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:beaver_nugget"
+					}
 				}
 				{
 					id: "6986D047B5DA5B03"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_beaver"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:beaver_nugget"
+					}
 				}
 				{
 					id: "618FA14E8EF2D932"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_blacksmith"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:beaver_nugget"
+					}
 				}
 			]
 			rewards: [
@@ -988,30 +1082,50 @@
 			dependencies: [
 				"4F3750BCDFFC9357"
 			]
+			icon: {
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
 			tasks: [
 				{
 					id: "315211E03C763000"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_witch"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "487EB86A2B8C9157"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_random_animal_common"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "1B163F99EC72B530"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_deer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "2EC7FF037AB18F27"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_greedy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 			]
 			rewards: [
@@ -1067,12 +1181,20 @@
 					type: "advancement"
 					advancement: "occultism:occultism/resurrect_familiar"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:otherworld_essence"
+					}
 				}
 				{
 					id: "263F0DBB2062338B"
 					type: "advancement"
 					advancement: "occultism:occultism/resurrect_allay"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:otherworld_essence"
+					}
 				}
 			]
 			rewards: [
@@ -1123,6 +1245,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1178,6 +1304,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_foliot_crystallizer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:spirit_attuned_gem"
+					}
 				}
 			]
 			rewards: [
@@ -1365,12 +1495,20 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_djinni_crusher"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+					}
 				}
 				{
 					id: "162EF5505AA67FA7"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_djinni_smelter"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+					}
 				}
 				{
 					id: "06AF3521DBFB3AD2"
@@ -1466,6 +1604,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/repair_chalks"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:gray_paste"
+					}
 				}
 			]
 			rewards: [
@@ -1518,18 +1660,30 @@
 					type: "advancement"
 					advancement: "occultism:occultism/possess_enderman"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:chalk_orange"
+					}
 				}
 				{
 					id: "578ADA1E60ABF79C"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_ghast"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:chalk_orange"
+					}
 				}
 				{
 					id: "3E415864E815B65D"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_blaze"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:chalk_orange"
+					}
 				}
 				{
 					id: "274FAAA18AC7D988"
@@ -1714,6 +1868,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_djinni_manage_machine"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:storage_controller"
+					}
 				}
 			]
 			rewards: [
@@ -1755,48 +1913,80 @@
 				"59EC7D96ADE3A3C1"
 				"363AECA4F200A93D"
 			]
+			icon: {
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
 			tasks: [
 				{
 					id: "5895134769C44F72"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_djinni_day_time"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "3A740DAC6532899D"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_djinni_gambler"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "4952416B978FE543"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_wondering_trader"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "3BE2A9A7B3BC3F06"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_demonic_wife"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "5C55CDBEA38A6A64"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_djinni_crystallizer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "795658D050379F4F"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_weak_shulker"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "11C35C74205A6193"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_villager"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 			]
 			rewards: [
@@ -1839,30 +2029,50 @@
 			dependencies: [
 				"59EC7D96ADE3A3C1"
 			]
+			icon: {
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
 			tasks: [
 				{
 					id: "66C09692A62B5F45"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_bat"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "3CFC0C61DFF9A706"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_beholder"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "5477F22AEB6DCA3E"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_chimera"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "0A252179C0596F7F"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_devil"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 			]
 			rewards: [
@@ -1893,48 +2103,80 @@
 			dependencies: [
 				"2413D605BFDAECF8"
 			]
+			icon: {
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
 			tasks: [
 				{
 					id: "55374D070A1B096B"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar/shub_niggurath_summon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "4C26C7899C9A8164"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_cthulhu"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "13153D47EBC4D7BD"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_dragon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "66864F51ABA180C7"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_fairy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "49C6B4AAC2EB37BD"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_headless"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "629204C6C2B53EDD"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_mummy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "1BB282D71B778091"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_otherworld_bird"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 			]
 			rewards: [
@@ -1989,6 +2231,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2095,6 +2341,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/familiar/capture"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:familiar_ring"
+					}
 				}
 			]
 			rewards: [
@@ -2344,6 +2594,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2382,6 +2636,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_unbound_afrit"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:afrit_essence"
+					}
 				}
 				{
 					id: "5CC4954F75DD542A"
@@ -2446,12 +2704,20 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_afrit_crusher"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:chalk_red"
+					}
 				}
 				{
 					id: "1BA869D783558471"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_afrit_smelter"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:chalk_red"
+					}
 				}
 			]
 			rewards: [
@@ -2493,6 +2759,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/possess_zombie_piglin"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:demonic_meat"
+					}
 				}
 				{
 					id: "5E6A5B99587BB02B"
@@ -2517,18 +2787,30 @@
 					type: "advancement"
 					advancement: "occultism:occultism/possess_hoglin"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:demonic_meat"
+					}
 				}
 				{
 					id: "45E8033690BF13F5"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_warden"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:demonic_meat"
+					}
 				}
 				{
 					id: "04EE5DE823FEF698"
 					type: "advancement"
 					advancement: "occultism:occultism/familiar_guardian"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:demonic_meat"
+					}
 				}
 			]
 			rewards: [
@@ -2616,6 +2898,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/repair_tools"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:iesnium_sacrificial_bowl"
+					}
 				}
 			]
 			rewards: [
@@ -2650,30 +2936,50 @@
 			dependencies: [
 				"36F3586485B49E21"
 			]
+			icon: {
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
 			tasks: [
 				{
 					id: "243247360B4098F9"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_afrit_rain_weather"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "509A52E566DD698E"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_afrit_crystallizer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "6D9E723E5567A487"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_guardian"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "05779B1992B380D0"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_elder_guardian"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 			]
 			rewards: [
@@ -2722,6 +3028,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/wild_hunt"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
 				}
 				{
 					id: "0EECEFB09DB24444"
@@ -2737,6 +3047,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/wild_horde_illager"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
 				}
 				{
 					id: "3A20BF4ECC36A83E"
@@ -2864,24 +3178,40 @@
 			dependencies: [
 				"7434C2EA43545265"
 			]
+			icon: {
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
 			tasks: [
 				{
 					id: "59FC4A05B2EA5B5E"
 					type: "advancement"
 					advancement: "occultism:occultism/wild_weak_breeze"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "1D0B310B9E32CBDF"
 					type: "advancement"
 					advancement: "occultism:occultism/wild_strong_breeze"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "5F6D92BBAF5F0165"
 					type: "advancement"
 					advancement: "occultism:occultism/misc_reinforced_deepslate"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 			]
 			rewards: [
@@ -2921,30 +3251,50 @@
 			dependencies: [
 				"7434C2EA43545265"
 			]
+			icon: {
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
 			tasks: [
 				{
 					id: "12008A0A699B4F6E"
 					type: "advancement"
 					advancement: "occultism:occultism/wild_husk"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "59848807CC8653D9"
 					type: "advancement"
 					advancement: "occultism:occultism/misc_iron_horse_armor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "29C133625F9F8DA3"
 					type: "advancement"
 					advancement: "occultism:occultism/wild_random_animal_common"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 				{
 					id: "53777EB1FD7A5FC2"
 					type: "advancement"
 					advancement: "occultism:occultism/misc_budding_amethyst"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
 				}
 			]
 			rewards: [
@@ -2998,6 +3348,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3036,6 +3390,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_unbound_marid"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:marid_essence"
+					}
 				}
 				{
 					id: "5F0C6D24E718D808"
@@ -3099,6 +3457,10 @@
 					type: "advancement"
 					advancement: "occultism:occultism/summon_marid_crusher"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:chalk_blue"
+					}
 				}
 				{
 					id: "13FF972248FCE9BD"
@@ -3294,12 +3656,20 @@
 					type: "advancement"
 					advancement: "occultism:occultism/possess_iesnium_golem"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:iesnium_block"
+					}
 				}
 				{
 					id: "343CEAD0E317D8C4"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_marid_crystallizer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "occultism:iesnium_block"
+					}
 				}
 			]
 			rewards: [
@@ -3348,6 +3718,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3508,18 +3882,30 @@
 			dependencies: [
 				"0F400D32C6FAAAB3"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:shulker_shell"
+			}
 			tasks: [
 				{
 					id: "0DAC36EEB681CA85"
 					type: "advancement"
 					advancement: "occultism:occultism/summon_marid_smelter"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
 				}
 				{
 					id: "4E55EF5026A8D603"
 					type: "advancement"
 					advancement: "occultism:occultism/possess_shulker"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
 				}
 				{
 					id: "78D35C95FA6E2BAB"
@@ -3688,8 +4074,8 @@
 			optional: true
 		}
 	]
-	title: "Missões"
+	title: "&5O Oculto"
 	subtitle: [
-		"&5O Oculto&7: do Tier I em diante"
+		"Giz, sangue e espíritos sob contrato"
 	]
 }

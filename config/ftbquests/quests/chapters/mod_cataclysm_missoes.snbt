@@ -8,9 +8,44 @@
 		id: "cataclysm:mechanical_fusion_anvil"
 	}
 	id: "7AC4A58E66CBF5CF"
-	order_index: 30
+	order_index: 19
 	quest_links: [ ]
 	quests: [
+		{
+			id: "054FFD1D44FD6E4F"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "cataclysm:mechanical_fusion_anvil"
+			}
+			tasks: [
+				{
+					id: "23F3DB1DDDE71BD7"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "329D4F199ED55B1B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "A Crônica do Cataclismo"
+			description: [
+				"&7Antes dos reinos, houve guerras que racharam o céu. Os vencidos não morreram:"
+				"&7foram selados em pirâmides, prisões de gelo, cidades afundadas e forjas de almas."
+				"&7Cada selo guarda um titã, e cada titã guarda um metal que nenhuma mina conhece."
+				""
+				"&7Os olhos encantados apontam o caminho; as armas forjadas dos restos dos titãs abrem o seguinte."
+				"&7Todo titã derrubado deixa também o próprio &ccoração&7, troféu que se come por bênção e maldição."
+				""
+				"&7Comece pelo deserto: os koboletons cavam ruínas sob a areia."
+			]
+		}
 		{
 			id: "41CEA3F19B61C2ED"
 			x: 0.0d
@@ -43,12 +78,20 @@
 			dependencies: [
 				"41CEA3F19B61C2ED"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:ender_eye"
+			}
 			tasks: [
 				{
 					id: "44E040D3CB249788"
 					type: "advancement"
 					advancement: "cataclysm:root"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
 				}
 				{
 					id: "63AF4270045E2337"
@@ -102,6 +145,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -121,6 +168,10 @@
 			dependencies: [
 				"16AC9D558253563F"
 			]
+			icon: {
+				count: 1
+				id: "cataclysm:koboleton_bone"
+			}
 			tasks: [
 				{
 					id: "1235F835244F79EC"
@@ -188,6 +239,10 @@
 			dependencies: [
 				"16AC9D558253563F"
 			]
+			icon: {
+				count: 1
+				id: "cataclysm:black_steel_ingot"
+			}
 			tasks: [
 				{
 					id: "1AF84D36DC112D3B"
@@ -268,6 +323,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -302,6 +361,10 @@
 					type: "advancement"
 					advancement: "cataclysm:find_cursed_pyramid"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:sticky_gloves"
+					}
 				}
 				{
 					id: "7DEDBEB0F59F1B12"
@@ -446,12 +509,20 @@
 			dependencies: [
 				"3A5632CF088470B6"
 			]
+			icon: {
+				count: 1
+				id: "cataclysm:strange_key"
+			}
 			tasks: [
 				{
 					id: "0530F79438ECEDB8"
 					type: "advancement"
 					advancement: "cataclysm:find_frosted_prison"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:strange_key"
+					}
 				}
 				{
 					id: "4F81B26EF2A1E2AD"
@@ -510,6 +581,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -658,6 +733,10 @@
 			dependencies: [
 				"3C3290B84658D5E6"
 			]
+			icon: {
+				count: 1
+				id: "cataclysm:amethyst_crab_shell"
+			}
 			tasks: [
 				{
 					id: "4670BA4AAC4A6C08"
@@ -736,6 +815,10 @@
 					type: "advancement"
 					advancement: "cataclysm:find_ancient_factory"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
 				}
 				{
 					id: "1417691909E0D7D1"
@@ -813,6 +896,10 @@
 					type: "advancement"
 					advancement: "cataclysm:find_sunken_city"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:abyss_eye"
+					}
 				}
 				{
 					id: "4853E4FF0E639B4B"
@@ -877,6 +964,10 @@
 			dependencies: [
 				"7342671807860AE4"
 			]
+			icon: {
+				count: 1
+				id: "cataclysm:athame"
+			}
 			tasks: [
 				{
 					id: "28E947318CC590C1"
@@ -979,6 +1070,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1012,12 +1107,20 @@
 					type: "advancement"
 					advancement: "cataclysm:find_burning_arena"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:flame_eye"
+					}
 				}
 				{
 					id: "6D55C5598425A716"
 					type: "advancement"
 					advancement: "cataclysm:kill_revenant"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:flame_eye"
+					}
 				}
 				{
 					id: "7BCE908EFD8C8E75"
@@ -1078,6 +1181,10 @@
 					type: "advancement"
 					advancement: "cataclysm:find_soul_black_smith"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:monstrosity_heart"
+					}
 				}
 				{
 					id: "4659C255BDBE3144"
@@ -1458,6 +1565,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1540,6 +1651,10 @@
 					type: "advancement"
 					advancement: "cataclysm:find_acropolis"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:storm_eye"
+					}
 				}
 				{
 					id: "36F0CC85C12EED7B"
@@ -1750,6 +1865,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_6"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1887,12 +2006,20 @@
 			dependencies: [
 				"5FD5BD0C525EA09C"
 			]
+			icon: {
+				count: 1
+				id: "cataclysm:chitin_claw"
+			}
 			tasks: [
 				{
 					id: "036A06395714553C"
 					type: "advancement"
 					advancement: "cataclysm:kill_clawdian"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:chitin_claw"
+					}
 				}
 				{
 					id: "070522A97E606DC2"
@@ -2263,6 +2390,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2297,6 +2428,10 @@
 					type: "advancement"
 					advancement: "cataclysm:find_ruined_citadel"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:void_eye"
+					}
 				}
 				{
 					id: "7B25C865119C8020"
@@ -2318,6 +2453,10 @@
 					type: "advancement"
 					advancement: "cataclysm:kill_ender_golem"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:void_eye"
+					}
 				}
 				{
 					id: "2D4225387673C29E"
@@ -2610,12 +2749,20 @@
 			dependencies: [
 				"74A0049EE9DCF250"
 			]
+			icon: {
+				count: 1
+				id: "cataclysm:mechanical_fusion_anvil"
+			}
 			tasks: [
 				{
 					id: "5D2CE243189D99E8"
 					type: "advancement"
 					advancement: "cataclysm:kill_all_bosses"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "cataclysm:mechanical_fusion_anvil"
+					}
 				}
 			]
 			rewards: [
@@ -2643,8 +2790,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&4Os Titãs Adormecidos"
 	subtitle: [
-		"&4Os Titãs Adormecidos&7: do Tier I em diante"
+		"Os titãs que dormem sob o mundo"
 	]
 }

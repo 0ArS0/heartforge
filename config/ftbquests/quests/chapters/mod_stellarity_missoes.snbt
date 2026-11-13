@@ -8,9 +8,42 @@
 		id: "minecraft:ender_eye"
 	}
 	id: "6870C8A6CD2142A8"
-	order_index: 42
+	order_index: 25
 	quest_links: [ ]
 	quests: [
+		{
+			id: "01924A8BE5645AAC"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "minecraft:ender_eye"
+			}
+			tasks: [
+				{
+					id: "7E8FDD7EB2E1E64A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "5DBD73280DFCD559"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Mar da Eternidade"
+			description: [
+				"&7Por eras, o portal de olhos verdes permaneceu mudo. Nenhum olho do Ender o despertava, nenhum ritual o abria."
+				"&7Só quando a companhia carregar sete selos no peito o vazio entre as estrelas responderá."
+				"&7E o End que espera do outro lado não é o das histórias antigas: há florestas de ametista, desertos prismáticos, tundras de carne,"
+				"&7uma terra sagrada onde a água transmuta, uma Imperatriz feita de luz e um dragão que precisa ser chamado com sangue de cristal."
+				""
+				"&7Comece juntando &6pérolas do Ender&7. A jornada até o End começa muito antes de o portal acender."
+			]
+		}
 		{
 			id: "7883420450974B80"
 			x: 0.0d
@@ -53,12 +86,20 @@
 					type: "advancement"
 					advancement: "stellarity:story/obtain_an_ender_pearl"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
 				}
 				{
 					id: "3145B629945CC307"
 					type: "advancement"
 					advancement: "stellarity:adventure/anger_enderman"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
 				}
 				{
 					id: "2FC07E34DD88E0AF"
@@ -107,12 +148,20 @@
 					type: "advancement"
 					advancement: "stellarity:adventure/night_sky_stalkers"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
 				}
 				{
 					id: "168029E22155AD1D"
 					type: "advancement"
 					advancement: "stellarity:adventure/kill_large_phantom"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
 				}
 				{
 					id: "0FFF4CA77FDE1D9A"
@@ -172,6 +221,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -200,6 +253,10 @@
 					type: "advancement"
 					advancement: "stellarity:story/strengthened_by_fire"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
 				}
 				{
 					id: "0A11562CD09BE664"
@@ -215,12 +272,20 @@
 					type: "advancement"
 					advancement: "stellarity:story/cloud_save"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
 				}
 				{
 					id: "1AE4F60CD83CC323"
 					type: "advancement"
 					advancement: "stellarity:story/drop_rare_illager_loot"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
 				}
 			]
 			rewards: [
@@ -263,6 +328,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -291,24 +360,40 @@
 					type: "advancement"
 					advancement: "stellarity:story/journeys_end"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:end_portal_frame"
+					}
 				}
 				{
 					id: "445F4661160F8A3A"
 					type: "advancement"
 					advancement: "minecraft:story/enter_the_end"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:end_portal_frame"
+					}
 				}
 				{
 					id: "3740B22EB16D0C99"
 					type: "advancement"
 					advancement: "stellarity:nether/charge_anchor_end"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:end_portal_frame"
+					}
 				}
 				{
 					id: "4EAE5A17BCFADA22"
 					type: "advancement"
 					advancement: "stellarity:adventure/champions_ballad"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:end_portal_frame"
+					}
 				}
 			]
 			rewards: [
@@ -359,18 +444,30 @@
 					type: "advancement"
 					advancement: "stellarity:dragons_den/sacrificial_ritual"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:ender_dragon_heart"
+					}
 				}
 				{
 					id: "5EED1329918C0D3D"
 					type: "advancement"
 					advancement: "stellarity:dragons_den/final_showdown"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:ender_dragon_heart"
+					}
 				}
 				{
 					id: "39EF2ED25580723F"
 					type: "advancement"
 					advancement: "minecraft:end/kill_dragon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:ender_dragon_heart"
+					}
 				}
 			]
 			rewards: [
@@ -410,18 +507,30 @@
 					type: "advancement"
 					advancement: "stellarity:aota/an_introduction_to_dark_magic"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
 				}
 				{
 					id: "72769D43F9E71F72"
 					type: "advancement"
 					advancement: "stellarity:aota/cursed_crafting"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
 				}
 				{
 					id: "22949343BE54DBAC"
 					type: "advancement"
 					advancement: "stellarity:pandoras_barrel/place"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
 				}
 			]
 			rewards: [
@@ -470,12 +579,20 @@
 					type: "advancement"
 					advancement: "minecraft:end/respawn_dragon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:end_crystal"
+					}
 				}
 				{
 					id: "29385CCB41E8AF2A"
 					type: "advancement"
 					advancement: "stellarity:dragons_den/god_slayer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:end_crystal"
+					}
 				}
 			]
 			rewards: [
@@ -521,12 +638,20 @@
 					type: "advancement"
 					advancement: "minecraft:end/enter_end_gateway"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
 				}
 				{
 					id: "78F51D4168AB152E"
 					type: "advancement"
 					advancement: "stellarity:exploration/find_end_village"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
 				}
 				{
 					id: "43DE6B678AE56975"
@@ -542,6 +667,10 @@
 					type: "advancement"
 					advancement: "stellarity:cauldron/eat_golden_chorus_fruit"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
 				}
 			]
 			rewards: [
@@ -598,24 +727,40 @@
 					type: "advancement"
 					advancement: "minecraft:end/dragon_breath"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
 				}
 				{
 					id: "07D8ED017650647E"
 					type: "advancement"
 					advancement: "stellarity:imbuements"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
 				}
 				{
 					id: "6AC1BDE97BF9E28C"
 					type: "advancement"
 					advancement: "stellarity:cauldron/dilute_breath"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
 				}
 				{
 					id: "16363F17FEED8D74"
 					type: "advancement"
 					advancement: "stellarity:dragons_den/obtain_dragonblade"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
 				}
 			]
 			rewards: [
@@ -657,12 +802,20 @@
 					type: "advancement"
 					advancement: "minecraft:end/find_end_city"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:purpur_block"
+					}
 				}
 				{
 					id: "5903DFF0D6B9CAB1"
 					type: "advancement"
 					advancement: "stellarity:end_city/defeat_shulker"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:purpur_block"
+					}
 				}
 				{
 					id: "4933594D13FCE464"
@@ -678,18 +831,30 @@
 					type: "advancement"
 					advancement: "minecraft:end/levitate"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:purpur_block"
+					}
 				}
 				{
 					id: "0A203FCCCD7B6625"
 					type: "advancement"
 					advancement: "stellarity:end_city/crystal_crusher"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:purpur_block"
+					}
 				}
 				{
 					id: "2FA6E886871A8A92"
 					type: "advancement"
 					advancement: "stellarity:end_city/conqueror"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:purpur_block"
+					}
 				}
 			]
 			rewards: [
@@ -741,18 +906,30 @@
 					type: "advancement"
 					advancement: "stellarity:exploration/discover_all_biomes"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chorus_flower"
+					}
 				}
 				{
 					id: "356E21D0BACD7090"
 					type: "advancement"
 					advancement: "stellarity:exploration/keep_warm"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chorus_flower"
+					}
 				}
 				{
 					id: "6DD9C9186009A8F2"
 					type: "advancement"
 					advancement: "stellarity:husbandry/otherwordly_botanist"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chorus_flower"
+					}
 				}
 			]
 			rewards: [
@@ -801,24 +978,40 @@
 					type: "advancement"
 					advancement: "stellarity:void_fishing/void_reels"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
 				}
 				{
 					id: "6422DB248FDA8B48"
 					type: "advancement"
 					advancement: "stellarity:void_fishing/the_void_provides"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
 				}
 				{
 					id: "5F519F2D377258FF"
 					type: "advancement"
 					advancement: "stellarity:void_fishing/topped_off"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
 				}
 				{
 					id: "7C34FE84D8ABC145"
 					type: "advancement"
 					advancement: "stellarity:adventure/postmortal_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
 				}
 			]
 			rewards: [
@@ -868,30 +1061,50 @@
 					type: "advancement"
 					advancement: "stellarity:exploration/enter_hallow"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
 				}
 				{
 					id: "385DADBEE92615F4"
 					type: "advancement"
 					advancement: "stellarity:exploration/shimmer/transmute_item"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
 				}
 				{
 					id: "1777679AE4DD76E1"
 					type: "advancement"
 					advancement: "stellarity:exploration/shimmer/ambrosia"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
 				}
 				{
 					id: "7F896E496781B45B"
 					type: "advancement"
 					advancement: "stellarity:exploration/duskberry/discover"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
 				}
 				{
 					id: "67D61850F86BE9A3"
 					type: "advancement"
 					advancement: "stellarity:exploration/enter_chapel"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
 				}
 			]
 			rewards: [
@@ -934,6 +1147,10 @@
 					type: "advancement"
 					advancement: "minecraft:end/elytra"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:elytra"
+					}
 				}
 				{
 					id: "3E82DC78BE46BB53"
@@ -949,6 +1166,10 @@
 					type: "advancement"
 					advancement: "stellarity:aota/dye_elytra"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:elytra"
+					}
 				}
 			]
 			rewards: [
@@ -988,18 +1209,30 @@
 					type: "advancement"
 					advancement: "stellarity:end_city/portable_storage"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:shulker_box"
+					}
 				}
 				{
 					id: "1A651241081BD089"
 					type: "advancement"
 					advancement: "stellarity:end_city/color_a_shulker_box"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:shulker_box"
+					}
 				}
 				{
 					id: "2AC119F38BAE11CF"
 					type: "advancement"
 					advancement: "stellarity:aota/craft_full_shulker_armor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:shulker_box"
+					}
 				}
 			]
 			rewards: [
@@ -1037,18 +1270,30 @@
 					type: "advancement"
 					advancement: "stellarity:exploration/duskberry/poor_life_choices"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
 				}
 				{
 					id: "277A6A46618D416B"
 					type: "advancement"
 					advancement: "stellarity:pandoras_barrel/gloop_de_gloop"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
 				}
 				{
 					id: "273C79EBA0BAC21A"
 					type: "advancement"
 					advancement: "stellarity:pandoras_barrel/open_in_deep_dark"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
 				}
 			]
 			rewards: [
@@ -1095,6 +1340,10 @@
 					type: "advancement"
 					advancement: "stellarity:eol/summon_empress"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
 				}
 			]
 			rewards: [
@@ -1144,42 +1393,70 @@
 					type: "advancement"
 					advancement: "stellarity:exploration/max_out_aery_sword"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
 				}
 				{
 					id: "6A704C5E0B7963B4"
 					type: "advancement"
 					advancement: "stellarity:exploration/spirit_assasin"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
 				}
 				{
 					id: "787B6B57FD71D053"
 					type: "advancement"
 					advancement: "stellarity:dragons_den/disassembly"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
 				}
 				{
 					id: "6446028719A519B0"
 					type: "advancement"
 					advancement: "stellarity:adventure/electrified"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
 				}
 				{
 					id: "70A1A873402C93F4"
 					type: "advancement"
 					advancement: "stellarity:dragons_den/kaliyah"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
 				}
 				{
 					id: "6D5C0E59FE7A12AC"
 					type: "advancement"
 					advancement: "stellarity:end_city/super_sonic"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
 				}
 				{
 					id: "3D48F478EE2388D9"
 					type: "advancement"
 					advancement: "stellarity:end_city/jeb_"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
 				}
 			]
 			rewards: [
@@ -1233,6 +1510,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_8"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_8"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1261,24 +1542,40 @@
 					type: "advancement"
 					advancement: "stellarity:dragons_den/third_times_the_charm"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_chestplate"
+					}
 				}
 				{
 					id: "03664830AAADB4CC"
 					type: "advancement"
 					advancement: "stellarity:aota/cancel_damage_hallowed_armor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_chestplate"
+					}
 				}
 				{
 					id: "5CC591847C3FA2C8"
 					type: "advancement"
 					advancement: "stellarity:exploration/shimmer/power_overdrive"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_chestplate"
+					}
 				}
 				{
 					id: "1610302EC8EA56E3"
 					type: "advancement"
 					advancement: "stellarity:husbandry/absolute_devotion"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:netherite_chestplate"
+					}
 				}
 			]
 			rewards: [
@@ -1319,30 +1616,50 @@
 					type: "advancement"
 					advancement: "stellarity:eol/fae_flayer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
 				}
 				{
 					id: "5C591FC95154B126"
 					type: "advancement"
 					advancement: "stellarity:dragons_den/kill_la_kill"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
 				}
 				{
 					id: "6B62821DEDB54CDD"
 					type: "advancement"
 					advancement: "stellarity:nether/the_beginning"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
 				}
 				{
 					id: "273BDD49636DE5FE"
 					type: "advancement"
 					advancement: "stellarity:exploration/truly_max_out_aery_sword"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
 				}
 				{
 					id: "1D96D1EC45913620"
 					type: "advancement"
 					advancement: "stellarity:cauldron/balanced_diet_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
 				}
 			]
 			rewards: [
@@ -1392,6 +1709,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/victory"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:obsidilith_heart"
+					}
 				}
 			]
 			rewards: [
@@ -1419,8 +1740,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&5O End"
 	subtitle: [
-		"&5O End&7: do Tier I em diante"
+		"Além do sétimo selo"
 	]
 }

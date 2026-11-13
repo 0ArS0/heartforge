@@ -8,9 +8,41 @@
 		id: "mowziesmobs:wrought_helmet"
 	}
 	id: "3962FB14687F2330"
-	order_index: 26
+	order_index: 17
 	quest_links: [ ]
 	quests: [
+		{
+			id: "7269B7900E8DBB57"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "mowziesmobs:wrought_helmet"
+			}
+			tasks: [
+				{
+					id: "51514592F0C351CF"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "07955920DDEFD7F5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Diário de um Caçador Errante"
+			description: [
+				"&7Há criaturas que nenhum bestiário de corte descreve, porque quem as viu de perto não voltou para contar."
+				"&7Rochas que comem diamantes, plantas que mordem, serpentes aladas que cospem ácido,"
+				"&7um colosso de ferro trancado sob a terra e uma tribo inteira que adora o Sol."
+				""
+				"&7Comece pelas cavernas e pelas selvas. Os colossos esperam: eles têm todo o tempo do mundo."
+			]
+		}
 		{
 			id: "7E15D50D09631EAD"
 			x: 0.0d
@@ -125,6 +157,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -152,12 +188,20 @@
 					type: "advancement"
 					advancement: "mowziesmobs:kill_grottol"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mowziesmobs:captured_grottol"
+					}
 				}
 				{
 					id: "4D7BC774CFA714CC"
 					type: "advancement"
 					advancement: "mowziesmobs:kill_grottol_fortune"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mowziesmobs:captured_grottol"
+					}
 				}
 				{
 					id: "2563979F8090B5FB"
@@ -207,6 +251,10 @@
 					type: "advancement"
 					advancement: "mowziesmobs:kill_foliaath"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mowziesmobs:foliaath_seed"
+					}
 				}
 				{
 					id: "1CFBF46E70F99AB8"
@@ -222,6 +270,10 @@
 					type: "advancement"
 					advancement: "mowziesmobs:kill_elokosa_howler"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mowziesmobs:foliaath_seed"
+					}
 				}
 				{
 					id: "74B4EA651DED44A5"
@@ -394,6 +446,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -422,6 +478,10 @@
 					type: "advancement"
 					advancement: "mowziesmobs:kill_umvuthana_raptor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mowziesmobs:umvuthana_mask_fury"
+					}
 				}
 				{
 					id: "14725C7904C6189D"
@@ -499,6 +559,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -526,6 +590,10 @@
 					type: "advancement"
 					advancement: "mowziesmobs:kill_naga"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mowziesmobs:naga_fang"
+					}
 				}
 				{
 					id: "4F4EA52AFE91A6F8"
@@ -583,6 +651,10 @@
 					type: "advancement"
 					advancement: "mowziesmobs:kill_bluff"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mowziesmobs:bluff_rod"
+					}
 				}
 				{
 					id: "43BED54BC702FA91"
@@ -653,6 +725,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -681,6 +757,10 @@
 					type: "advancement"
 					advancement: "mowziesmobs:steal_ice_crystal"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:frostmaw_heart"
+					}
 				}
 				{
 					id: "47CEAD1A29BAB4F1"
@@ -807,6 +887,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -843,12 +927,20 @@
 					type: "advancement"
 					advancement: "mowziesmobs:sneak_grove"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
 				}
 				{
 					id: "2D025C71B7B9F538"
 					type: "advancement"
 					advancement: "mowziesmobs:suns_blessing"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
 				}
 			]
 			rewards: [
@@ -890,6 +982,10 @@
 					type: "advancement"
 					advancement: "mowziesmobs:sculptor_challenge"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:sculptor_heart"
+					}
 				}
 				{
 					id: "07DAE01910E79A8C"
@@ -1094,12 +1190,20 @@
 					type: "advancement"
 					advancement: "mowziesmobs:kill_grottol_silk_touch"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mowziesmobs:music_disc_petiole"
+					}
 				}
 				{
 					id: "2D5867CE130B9632"
 					type: "advancement"
 					advancement: "mowziesmobs:sculptor_failure"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mowziesmobs:music_disc_petiole"
+					}
 				}
 				{
 					id: "3C077DB5EDA55DF7"
@@ -1139,8 +1243,8 @@
 			optional: true
 		}
 	]
-	title: "Missões"
+	title: "&2Feras e Colossos"
 	subtitle: [
-		"&2Feras e Colossos&7: do Tier I em diante"
+		"Feras, máscaras e colossos"
 	]
 }

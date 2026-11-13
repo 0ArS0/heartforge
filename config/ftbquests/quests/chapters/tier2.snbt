@@ -20,6 +20,10 @@
 			dependencies: [
 				"1CABC71AF09A60B7"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
 			tasks: [
 				{
 					id: "6D0BD8220D263627"
@@ -419,6 +423,10 @@
 			dependencies: [
 				"47FF0B2D7185F617"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
 			tasks: [
 				{
 					id: "4BA043905A46CE73"
@@ -570,12 +578,20 @@
 			dependencies: [
 				"7F1988C32BAA160D"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
 			tasks: [
 				{
 					id: "6393F897FE8AF9F9"
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [

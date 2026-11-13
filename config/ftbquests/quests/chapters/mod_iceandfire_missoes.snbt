@@ -8,9 +8,42 @@
 		id: "iceandfire:dragonsteel_fire_ingot"
 	}
 	id: "1708A201EB8602CC"
-	order_index: 24
+	order_index: 16
 	quest_links: [ ]
 	quests: [
+		{
+			id: "4FE3675C7E458753"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+			tasks: [
+				{
+					id: "4C42012508DC6BC8"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "2F056E08E9EF5864"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Bestiário"
+			description: [
+				"&7Antes das caldeiras e dos martelos a vapor, o mundo pertencia às feras dos mitos."
+				"&7Dragões de fogo, gelo e raio ainda dormem sobre montanhas de ouro, e criaturas que as avós"
+				"&7usavam para assustar crianças rondam pântanos, praias e desertos."
+				""
+				"&7Esta crônica segue o caminho do caçador: das fadas e dos grifos até a forja que só o sopro de um dragão acende."
+				"&7Comece reunindo &6manuscritos&7 e costurando o seu próprio &6Bestiário&7."
+			]
+		}
 		{
 			id: "61EF03327FAF7F15"
 			x: 0.0d
@@ -63,12 +96,20 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/bestiary"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:bestiary"
+					}
 				}
 				{
 					id: "3BBD4719AABC72AF"
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/lectern"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:bestiary"
+					}
 				}
 				{
 					id: "7B380354549F06B4"
@@ -150,6 +191,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -317,12 +362,20 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/tame_pixie"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:pixie_jar_0"
+					}
 				}
 				{
 					id: "4AC9B046CCC730FA"
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/jar_pixie"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:pixie_jar_0"
+					}
 				}
 				{
 					id: "29E0B363BAC88567"
@@ -384,6 +437,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/tame_hippogryph"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:rabbit_foot"
+					}
 				}
 				{
 					id: "007165F64BD8686E"
@@ -399,6 +456,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/tame_amphithere"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:rabbit_foot"
+					}
 				}
 				{
 					id: "406B47FB1C4FE2A9"
@@ -456,6 +517,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_siren"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:siren_tear"
+					}
 				}
 				{
 					id: "207D291E0E17E544"
@@ -480,6 +545,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/tame_hippocampus"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:siren_tear"
+					}
 				}
 				{
 					id: "6BEEC93A19AD52C2"
@@ -548,12 +617,20 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/rotten_egg"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:cockatrice_eye"
+					}
 				}
 				{
 					id: "4EF7004CE479BFD4"
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/tame_cockatrice"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:cockatrice_eye"
+					}
 				}
 				{
 					id: "496F66E9B489D397"
@@ -602,12 +679,20 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:stymphalian_bird_feather"
+					}
 				}
 				{
 					id: "62AF37BE11486C4D"
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/stymphalian_arrow"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:stymphalian_bird_feather"
+					}
 				}
 				{
 					id: "02DB725057FE4822"
@@ -666,6 +751,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_ghost"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:ectoplasm"
+					}
 				}
 				{
 					id: "746061E9FCEEB54E"
@@ -733,6 +822,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -761,6 +854,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_troll"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:troll_tusk"
+					}
 				}
 				{
 					id: "0B1D9ED129ABA7D3"
@@ -838,6 +935,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_deathworm"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:deathworm_tounge"
+					}
 				}
 				{
 					id: "090A8B06014D1F55"
@@ -880,6 +981,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/deathworm_egg"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:deathworm_tounge"
+					}
 				}
 			]
 			rewards: [
@@ -966,6 +1071,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/pixie_wand"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:pixie_wand"
+					}
 				}
 				{
 					id: "031EA3692CDBF2F3"
@@ -1202,6 +1311,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1247,6 +1360,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_flute"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragon_skull_fire"
+					}
 				}
 			]
 			rewards: [
@@ -1353,6 +1470,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_sea_serpent"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:sea_serpent_fang"
+					}
 				}
 				{
 					id: "292F1343A0AFCD3D"
@@ -1494,6 +1615,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/use_tide_trident"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:tide_trident"
+					}
 				}
 			]
 			rewards: [
@@ -1534,6 +1659,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1577,6 +1706,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/gorgon_head"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:gorgon_head"
+					}
 				}
 			]
 			rewards: [
@@ -1749,6 +1882,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1786,6 +1923,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_if_dragon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:fire_dragon_heart"
+					}
 				}
 			]
 			rewards: [
@@ -1962,6 +2103,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_forge_brick"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonforge_fire_core"
+					}
 				}
 				{
 					id: "03EAEDA5AAADC06A"
@@ -1977,6 +2122,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_forge_core"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonforge_fire_core"
+					}
 				}
 				{
 					id: "73A9C1E732A62FC2"
@@ -2046,24 +2195,40 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_egg"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonegg_red"
+					}
 				}
 				{
 					id: "26167A87A3AB83A2"
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_meal"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonegg_red"
+					}
 				}
 				{
 					id: "63CFCF81C173F178"
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_staff"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonegg_red"
+					}
 				}
 				{
 					id: "73AD2CCE734D2068"
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_horn"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonegg_red"
+					}
 				}
 			]
 			rewards: [
@@ -2204,6 +2369,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragonbone_tool"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonbone_sword_fire"
+					}
 				}
 				{
 					id: "5D3658231DBB9823"
@@ -2237,6 +2406,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonbone_sword_fire"
+					}
 				}
 				{
 					id: "16229133E8EA6438"
@@ -2295,6 +2468,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragonsteel"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonsteel_fire_ingot"
+					}
 				}
 				{
 					id: "6AF023160E49DF7E"
@@ -2310,6 +2487,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragonsteel_weapon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonsteel_fire_ingot"
+					}
 				}
 				{
 					id: "5E77B75177F7F2B7"
@@ -2579,6 +2760,10 @@
 					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragonarmor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "iceandfire:dragonarmor_iron_body"
+					}
 				}
 				{
 					id: "455BB290B6F17CCE"
@@ -2639,6 +2824,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_6"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2697,8 +2886,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&cFeras de Gelo e Fogo"
 	subtitle: [
-		"&cFeras de Gelo e Fogo&7: do Tier I em diante"
+		"Bestiário das feras antigas"
 	]
 }

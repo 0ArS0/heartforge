@@ -20,6 +20,10 @@
 			dependencies: [
 				"7DC7ED3CB1245DBE"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:dragon_egg"
+			}
 			tasks: [
 				{
 					id: "39A24BE3EA728DD5"
@@ -84,6 +88,10 @@
 			dependencies: [
 				"43077CF3E4CFEA1F"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:dragon_egg"
+			}
 			tasks: [
 				{
 					id: "5B940E74129940C7"
@@ -149,6 +157,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/victory"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
 				}
 			]
 			rewards: [

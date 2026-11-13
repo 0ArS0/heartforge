@@ -8,9 +8,42 @@
 		id: "farmersdelight:cooking_pot"
 	}
 	id: "08899F12A98616DC"
-	order_index: 44
+	order_index: 26
 	quest_links: [ ]
 	quests: [
+		{
+			id: "454912634DAC2130"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "farmersdelight:cooking_pot"
+			}
+			tasks: [
+				{
+					id: "73938B806BB2D3B9"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "16040BD773DA5F7C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Livro da Despensa"
+			description: [
+				"&7Espadas vencem batalhas, mas é a panela que vence o inverno."
+				"&7Este caderno reúne o que os cozinheiros, pescadores e caçadores do reino aprenderam"
+				"&7a duras penas: como plantar, cortar, cozinhar, pescar e beber sem adoecer."
+				""
+				"&7Comece pela água limpa, por uma faca de sílex e por uma vara de ferro."
+				"&7Guarde na memória: a &6Torta de Maçã&7 que sai desta cozinha é ingrediente do &6Coração do Tier II&7."
+			]
+		}
 		{
 			id: "080EDC852DFF272E"
 			x: 0.0d
@@ -121,6 +154,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/harvest_straw"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:flint_knife"
+					}
 				}
 				{
 					id: "1E07258E4AA8F77D"
@@ -136,6 +173,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/get_fd_seed"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:flint_knife"
+					}
 				}
 			]
 			rewards: [
@@ -344,6 +385,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -399,6 +444,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/plant_rice"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:cabbage"
+					}
 				}
 				{
 					id: "07F0A1CF3DAD6A67"
@@ -459,12 +508,20 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/use_cutting_board"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
 				}
 				{
 					id: "4F253CDB26529AA8"
 					type: "advancement"
 					advancement: "farmersdelight:main/place_campfire"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
 				}
 				{
 					id: "7EEE6A867B039A7E"
@@ -489,6 +546,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/use_skillet"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
 				}
 				{
 					id: "56D76752E0ED1A8D"
@@ -504,6 +565,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/place_cooking_pot"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
 				}
 			]
 			rewards: [
@@ -932,6 +997,10 @@
 					type: "advancement"
 					advancement: "choccos_mobs:ink_bucket_challenge"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "choccos_mobs:crocodile_tooth"
+					}
 				}
 			]
 			rewards: [
@@ -1137,6 +1206,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/plant_all_crops"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:cabbage_crate"
+					}
 				}
 			]
 			rewards: [
@@ -1223,6 +1296,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/harvest_ropelogged_tomato"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:rope"
+					}
 				}
 			]
 			rewards: [
@@ -1362,6 +1439,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/get_ham"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:ham"
+					}
 				}
 				{
 					id: "259E1CEE8BA269CD"
@@ -1534,12 +1615,20 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/place_organic_compost"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
 				}
 				{
 					id: "56277D9042BD01AA"
 					type: "advancement"
 					advancement: "farmersdelight:main/get_rich_soil"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
 				}
 				{
 					id: "00D1BB4AC99B59A6"
@@ -1555,6 +1644,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/get_mushroom_colony"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
 				}
 			]
 			rewards: [
@@ -1640,6 +1733,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/eat_nourishing_food"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:vegetable_soup"
+					}
 				}
 			]
 			rewards: [
@@ -1743,6 +1840,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1937,6 +2038,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/place_feast"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:roast_chicken_block"
+					}
 				}
 				{
 					id: "11BD51423D140BCF"
@@ -2242,6 +2347,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/hit_raider_with_rotten_tomato"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:dog_food"
+					}
 				}
 			]
 			rewards: [
@@ -2684,6 +2793,10 @@
 					type: "advancement"
 					advancement: "farmersdelight:main/master_chef"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham_block"
+					}
 				}
 			]
 			rewards: [
@@ -2735,6 +2848,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2931,6 +3048,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3000,8 +3121,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&eCozinha, Campo e Pesca"
 	subtitle: [
-		"&eCozinha, Campo e Pesca&7: do Tier I em diante"
+		"Panelas, varas e trilhas de caça"
 	]
 }

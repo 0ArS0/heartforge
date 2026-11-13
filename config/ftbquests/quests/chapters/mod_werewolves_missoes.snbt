@@ -8,9 +8,46 @@
 		id: "werewolves:werewolf_tooth"
 	}
 	id: "163852F97443D6A4"
-	order_index: 22
+	order_index: 15
 	quest_links: [ ]
 	quests: [
+		{
+			id: "7E8062C09AFC0ED7"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "werewolves:werewolf_tooth"
+			}
+			tasks: [
+				{
+					id: "76B6555201DC3797"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "10F6F44CD921788C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Uivos na Mata Roxa"
+			description: [
+				"&7Entre os jacarandás roxos e as árvores que brilham à noite vive uma terceira raça, que não bebe sangue: devora."
+				"&7De dia são lenhadores e andarilhos; quando a lua enche, a pele rasga e o lobo sai."
+				""
+				"&7Lobisomem é uma &8facção própria&7, rival tanto dos vampiros quanto dos caçadores: quem a abraça não pode ser vampiro"
+				"&7nem caçador ao mesmo tempo. Páginas marcadas &8[Lobisomem]&7 são do caminho da fera; &9[Caçador]&7, de quem a persegue com prata;"
+				"&7as sem marcador servem a todos."
+				""
+				"&7A forja do Coração paga pelos troféus da matilha: &6Dente de Lobisomem&7 no Tier I, &6Pele Escura&7 no Tier II e &6Pele Branca&7 no Tier III."
+				""
+				"&7Comece procurando uma &8Floresta de Lobisomens&7 e &6prata&7 nas montanhas."
+			]
+		}
 		{
 			id: "197CA8F34F52BA34"
 			x: 0.0d
@@ -44,12 +81,20 @@
 			dependencies: [
 				"197CA8F34F52BA34"
 			]
+			icon: {
+				count: 1
+				id: "werewolves:jacaranda_log"
+			}
 			tasks: [
 				{
 					id: "1D89E70F44AF0D88"
 					type: "advancement"
 					advancement: "werewolves:dog_soldiers"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:jacaranda_log"
+					}
 				}
 				{
 					id: "1760A00BA656AED6"
@@ -132,42 +177,70 @@
 			dependencies: [
 				"64512900CE999EEB"
 			]
+			icon: {
+				count: 1
+				id: "werewolves:werewolf_tooth"
+			}
 			tasks: [
 				{
 					id: "3745B6CCCB277129"
 					type: "advancement"
 					advancement: "werewolves:teen_wolf"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_tooth"
+					}
 				}
 				{
 					id: "652C45BE24058E68"
 					type: "advancement"
 					advancement: "werewolves:bad_moon_rising"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_tooth"
+					}
 				}
 				{
 					id: "5E9B4703F9BF34EF"
 					type: "advancement"
 					advancement: "werewolves:howling_moon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_tooth"
+					}
 				}
 				{
 					id: "1DABBA0C354F32C4"
 					type: "advancement"
 					advancement: "werewolves:another_one_bites_the_dust"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_tooth"
+					}
 				}
 				{
 					id: "090BDA24E78E0EB1"
 					type: "advancement"
 					advancement: "werewolves:insatiable_beast"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_tooth"
+					}
 				}
 				{
 					id: "77DFD1CCC004448E"
 					type: "advancement"
 					advancement: "werewolves:standing_here_i_realize"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_tooth"
+					}
 				}
 			]
 			rewards: [
@@ -264,6 +337,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -297,6 +374,10 @@
 					type: "advancement"
 					advancement: "werewolves:dont_touch_that"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:silver_ingot"
+					}
 				}
 				{
 					id: "5D344BBDD161EDF7"
@@ -405,6 +486,10 @@
 					type: "advancement"
 					advancement: "werewolves:natural_succession"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:alpha_werewolf_heart"
+					}
 				}
 				{
 					id: "6E9DA6E587764699"
@@ -539,6 +624,10 @@
 					type: "advancement"
 					advancement: "werewolves:hairy_situation"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:pelt"
+					}
 				}
 				{
 					id: "715C9B0C05D98075"
@@ -609,6 +698,10 @@
 					type: "advancement"
 					advancement: "werewolves:silver_hand"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:silver_sword"
+					}
 				}
 				{
 					id: "25DDB02A7243F941"
@@ -699,6 +792,10 @@
 					type: "advancement"
 					advancement: "werewolves:beast_of_gevauden"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:wolfsbane_finder"
+					}
 				}
 			]
 			rewards: [
@@ -739,6 +836,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -829,12 +930,20 @@
 			dependencies: [
 				"281AE13ADA47F090"
 			]
+			icon: {
+				count: 1
+				id: "werewolves:werewolf_tooth"
+			}
 			tasks: [
 				{
 					id: "26BC26C399C3B120"
 					type: "advancement"
 					advancement: "werewolves:bite_the_evil_in_the_bud"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_tooth"
+					}
 				}
 			]
 			rewards: [
@@ -873,6 +982,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -942,6 +1055,10 @@
 					type: "advancement"
 					advancement: "werewolves:thick_fur_coat"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:white_pelt"
+					}
 				}
 			]
 			rewards: [
@@ -978,18 +1095,30 @@
 			dependencies: [
 				"50D80AE3052FEB48"
 			]
+			icon: {
+				count: 1
+				id: "werewolves:werewolf_minion_charm"
+			}
 			tasks: [
 				{
 					id: "1C087F1D8D9ACB3F"
 					type: "advancement"
 					advancement: "werewolves:unrivaled_predator"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_minion_charm"
+					}
 				}
 				{
 					id: "43A339DB529A866F"
 					type: "advancement"
 					advancement: "vampirism:minion/become_lord"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_minion_charm"
+					}
 				}
 				{
 					id: "0EAD8734A7779C5D"
@@ -1038,6 +1167,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1055,12 +1188,20 @@
 			dependencies: [
 				"665F98EF60190E9D"
 			]
+			icon: {
+				count: 1
+				id: "werewolves:werewolf_tooth"
+			}
 			tasks: [
 				{
 					id: "28C32AA5FD7519B6"
 					type: "advancement"
 					advancement: "werewolves:lord_of_the_hunt"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "werewolves:werewolf_tooth"
+					}
 				}
 			]
 			rewards: [
@@ -1088,8 +1229,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&8Lobisomens"
 	subtitle: [
-		"&8Lobisomens&7: do Tier I em diante"
+		"A maldição da lua cheia"
 	]
 }

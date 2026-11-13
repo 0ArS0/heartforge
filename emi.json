@@ -14,6 +14,12 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:diamond_termite_shard",
+      "amount": 2
+    },
+    "item:subwild:coal_shard",
     "item:werewolves:silver_sword",
     "item:minecraft:writable_book",
     {
@@ -251,6 +257,10 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "subwild:gravel",
+    "minecraft:torch",
+    "minecraft:iron_pickaxe",
+    "quark:tweaks/crafting/utility/better_stone_tools/hoe",
     "iceandfire:silver_axe",
     "minecraft:writable_book",
     "minecraft:book",
@@ -276,7 +286,6 @@
     "minecraft:iron_shovel",
     "terralith:lever_alt",
     "biomeswevegone:zelkova_slab",
-    "minecraft:iron_pickaxe",
     "minecraft:clay",
     "simplyswords:iron_longsword",
     "minecraft:iron_axe",
@@ -296,12 +305,10 @@
     "biomeswevegone:zelkova_crafting_table",
     "minecraft:lantern",
     "minecraft:shield",
-    "minecraft:torch",
     "quark:building/crafting/stonevariants/andesite_bricks",
     "minecraft:polished_andesite",
     "biomeswevegone:zelkova_fence_gate",
     "biomeswevegone:zelkova_fence",
-    "quark:tweaks/crafting/utility/better_stone_tools/hoe",
     "minecraft:smoker",
     "handcrafted:hammer",
     "handcrafted:birch_pillar_trim",

@@ -17,6 +17,10 @@
 			y: 0.0d
 			shape: "gear"
 			size: 1.5d
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
 			tasks: [
 				{
 					id: "57C9C8B2E8CC2D78"
@@ -50,6 +54,10 @@
 			dependencies: [
 				"7C01C4060A084AAC"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
 			tasks: [
 				{
 					id: "1069A5F4195376B1"
@@ -85,6 +93,10 @@
 			dependencies: [
 				"7C01C4060A084AAC"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
 			tasks: [
 				{
 					id: "2A1B6B658ECB2CBF"
@@ -117,6 +129,10 @@
 				"07C2E697F0CCD2A8"
 				"3A20D9B55B581149"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
 			tasks: [
 				{
 					id: "6E47142E3E70CEF4"
@@ -148,6 +164,10 @@
 			dependencies: [
 				"7C01C4060A084AAC"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
 			tasks: [
 				{
 					id: "5C798AEEE4D2A822"
@@ -177,6 +197,10 @@
 			dependencies: [
 				"7C01C4060A084AAC"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
 			tasks: [
 				{
 					id: "7302BFC5A0FAE957"

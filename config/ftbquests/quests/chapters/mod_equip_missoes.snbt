@@ -8,9 +8,42 @@
 		id: "artifacts:crystal_heart"
 	}
 	id: "418D4D95EE64901B"
-	order_index: 46
+	order_index: 27
 	quest_links: [ ]
 	quests: [
+		{
+			id: "5039410908A9C256"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "artifacts:crystal_heart"
+			}
+			tasks: [
+				{
+					id: "773E46570B26C84D"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "07AAD2A2EDC11A6A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Arsenal do Andarilho"
+			description: [
+				"&7Todo herói começa com uma espada torta e uma sacola furada. Os que sobrevivem"
+				"&7aprendem a carregar mais, golpear melhor e guardar no bolso o que o mundo esconde:"
+				"&7artefatos perdidos em baús que mordem, lâminas com nomes próprios, mochilas que"
+				"&7cozinham e cofres que só abrem para o dono."
+				""
+				"&7Comece por uma arma de ferro e uma mochila de couro. O resto o caminho entrega."
+			]
+		}
 		{
 			id: "7FA2D5E3AADB87E3"
 			x: 0.0d
@@ -60,6 +93,10 @@
 					type: "advancement"
 					advancement: "artifacts:amateur_archaeologist"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chest"
+					}
 				}
 			]
 			rewards: [
@@ -359,6 +396,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1448,6 +1489,10 @@
 					type: "advancement"
 					advancement: "artifacts:adventurous_eater"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "artifacts:eternal_steak"
+					}
 				}
 				{
 					id: "4576765EC5A5684E"
@@ -1677,6 +1722,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2152,6 +2201,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2538,6 +2591,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2852,6 +2909,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3472,6 +3533,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_6"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3499,6 +3564,10 @@
 					type: "advancement"
 					advancement: "simplyswords:runic_weapon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "simplyswords:runic_longsword"
+					}
 				}
 				{
 					id: "07927B4AF2AB9DC4"
@@ -3931,6 +4000,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3991,8 +4064,8 @@
 			optional: true
 		}
 	]
-	title: "Missões"
+	title: "&fEquipamento e Utilidades"
 	subtitle: [
-		"&fEquipamento e Utilidades&7: do Tier I em diante"
+		"Relíquias, lâminas, mochilas e engenhocas"
 	]
 }

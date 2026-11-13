@@ -8,9 +8,42 @@
 		id: "botania:lexicon"
 	}
 	id: "699A210ACCB67D92"
-	order_index: 14
+	order_index: 11
 	quest_links: [ ]
 	quests: [
+		{
+			id: "7300DD08C121A977"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "botania:lexicon"
+			}
+			tasks: [
+				{
+					id: "78C08E4C2B64FCE3"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "3D2CDD6BE3DA25AB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Lexicon"
+			description: [
+				"&7Antes das forjas de vapor, antes das coroas anãs, os elfos caminhavam por estas terras."
+				"&7Partiram há eras, mas deixaram para trás a &bmana&7, uma energia que dorme nas flores."
+				"&7Quem aprende a colhê-la ergue piscinas de luz, forja metais vivos e, por fim,"
+				"&7desafia o próprio &cGuardião de Gaia&7."
+				""
+				"&7Comece pelas flores místicas que brotam na grama, e escreva tudo no Lexica Botania."
+			]
+		}
 		{
 			id: "4FC9259EF6DC4AA7"
 			x: 0.0d
@@ -44,12 +77,20 @@
 			dependencies: [
 				"4FC9259EF6DC4AA7"
 			]
+			icon: {
+				count: 1
+				id: "botania:lexicon"
+			}
 			tasks: [
 				{
 					id: "1AE9D71C21217B0E"
 					type: "advancement"
 					advancement: "botania:main/flower_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:lexicon"
+					}
 				}
 				{
 					id: "5B5DE09B3611BCB7"
@@ -65,6 +106,10 @@
 					type: "advancement"
 					advancement: "botania:main/lexicon_use"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:lexicon"
+					}
 				}
 				{
 					id: "5932C15498A1FF35"
@@ -420,6 +465,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -484,6 +533,10 @@
 					type: "advancement"
 					advancement: "botania:main/generating_flower"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:mana_pool"
+					}
 				}
 				{
 					id: "43D1E2FEC42414D3"
@@ -508,6 +561,10 @@
 					type: "advancement"
 					advancement: "botania:main/mana_pool_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:mana_pool"
+					}
 				}
 			]
 			rewards: [
@@ -796,6 +853,10 @@
 					type: "advancement"
 					advancement: "botania:main/spark_craft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:spark"
+					}
 				}
 			]
 			rewards: [
@@ -847,6 +908,10 @@
 					type: "advancement"
 					advancement: "botania:main/functional_flower"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:redstone_root"
+					}
 				}
 				{
 					id: "2B40F7E3346CEDF6"
@@ -914,12 +979,20 @@
 					type: "advancement"
 					advancement: "botania:main/mana_cookie_eat"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:tiny_potato"
+					}
 				}
 				{
 					id: "75B83C9628C776E7"
 					type: "advancement"
 					advancement: "botania:main/tiny_potato_pet"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:tiny_potato"
+					}
 				}
 				{
 					id: "53FE464CAAED620C"
@@ -1033,6 +1106,10 @@
 					type: "advancement"
 					advancement: "botania:main/mana_cart_craft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:mana_distributor"
+					}
 				}
 			]
 			rewards: [
@@ -1126,12 +1203,20 @@
 					type: "advancement"
 					advancement: "botania:challenge/old_flower_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:flower_bag"
+					}
 				}
 				{
 					id: "77C3D10A11047ED6"
 					type: "advancement"
 					advancement: "botania:main/cacophonium_craft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:flower_bag"
+					}
 				}
 			]
 			rewards: [
@@ -1204,6 +1289,10 @@
 					type: "advancement"
 					advancement: "botania:main/crafting_halo_craft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:avatar"
+					}
 				}
 				{
 					id: "0327D850BE339F8C"
@@ -1353,6 +1442,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1532,6 +1625,10 @@
 					type: "advancement"
 					advancement: "botania:main/rune_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:runic_altar"
+					}
 				}
 			]
 			rewards: [
@@ -1629,6 +1726,10 @@
 					type: "advancement"
 					advancement: "botania:main/manaweave_armor_craft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:manaweave_chestplate"
+					}
 				}
 			]
 			rewards: [
@@ -1684,6 +1785,10 @@
 					type: "advancement"
 					advancement: "botania:main/dirt_rod_craft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:dirt_rod"
+					}
 				}
 				{
 					id: "3ECD550B5D9DD809"
@@ -2228,6 +2333,10 @@
 					type: "advancement"
 					advancement: "botania:main/bauble_wear"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:mana_ring"
+					}
 				}
 				{
 					id: "1DCAB4F323952B2E"
@@ -2322,6 +2431,10 @@
 					type: "advancement"
 					advancement: "botania:main/enchanter_make"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:brewery"
+					}
 				}
 				{
 					id: "4ADAE36456AADA61"
@@ -2355,6 +2468,10 @@
 					type: "advancement"
 					advancement: "botania:main/brew_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:brewery"
+					}
 				}
 			]
 			rewards: [
@@ -2552,6 +2669,10 @@
 					type: "advancement"
 					advancement: "botania:main/pollidisiac_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:fallen_kanade"
+					}
 				}
 				{
 					id: "479CD02504DB1F5A"
@@ -2831,6 +2952,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -3035,6 +3160,10 @@
 					type: "advancement"
 					advancement: "botania:main/terrasteel_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:terrasteel_ingot"
+					}
 				}
 			]
 			rewards: [
@@ -3095,12 +3224,20 @@
 					type: "advancement"
 					advancement: "botania:main/elf_portal_open"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:alfheim_portal"
+					}
 				}
 				{
 					id: "7C370045F5DD7D1E"
 					type: "advancement"
 					advancement: "botania:main/elf_lexicon_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:alfheim_portal"
+					}
 				}
 			]
 			rewards: [
@@ -3499,6 +3636,10 @@
 					type: "advancement"
 					advancement: "botania:main/kekimurus_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:orechid"
+					}
 				}
 				{
 					id: "42EBA9702B9B5DCB"
@@ -3760,6 +3901,10 @@
 					type: "advancement"
 					advancement: "botania:main/bubbell_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:spectrolus"
+					}
 				}
 				{
 					id: "4508F173DED33727"
@@ -3775,6 +3920,10 @@
 					type: "advancement"
 					advancement: "botania:challenge/all_loonium_mobs"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:spectrolus"
+					}
 				}
 			]
 			rewards: [
@@ -3835,6 +3984,10 @@
 					type: "advancement"
 					advancement: "botania:main/heisei_dream_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:heisei_dream"
+					}
 				}
 				{
 					id: "63C5AA5A30893B72"
@@ -3963,6 +4116,10 @@
 					type: "advancement"
 					advancement: "botania:challenge/alf_portal_bread"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:open_bucket"
+					}
 				}
 			]
 			rewards: [
@@ -4092,6 +4249,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -4196,6 +4357,10 @@
 					type: "advancement"
 					advancement: "botania:main/mana_blaster_shoot"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:mana_gun"
+					}
 				}
 				{
 					id: "2C6F857C7DE05EBE"
@@ -4397,6 +4562,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -4518,6 +4687,10 @@
 					type: "advancement"
 					advancement: "botania:main/gaia_guardian_kill"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:gaia_heart"
+					}
 				}
 			]
 			rewards: [
@@ -4726,6 +4899,10 @@
 					type: "advancement"
 					advancement: "botania:main/mana_bomb_ignite"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:laputa_shard"
+					}
 				}
 				{
 					id: "67FBE002289D0CE6"
@@ -4741,6 +4918,10 @@
 					type: "advancement"
 					advancement: "botania:main/dandelifeon_pickup"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:laputa_shard"
+					}
 				}
 				{
 					id: "622532FA733BADA3"
@@ -4823,6 +5004,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_6"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
 				}
 			]
 			rewards: [ ]
@@ -4860,6 +5045,10 @@
 					type: "advancement"
 					advancement: "botania:main/terrasteel_weapon_craft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:terra_sword"
+					}
 				}
 				{
 					id: "5DF4ADE60EAFF5B5"
@@ -4958,18 +5147,30 @@
 					type: "advancement"
 					advancement: "botania:challenge/gaia_guardian_no_armor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:diva_charm"
+					}
 				}
 				{
 					id: "6EF329DF562F292E"
 					type: "advancement"
 					advancement: "botania:challenge/rank_ss_pick"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:diva_charm"
+					}
 				}
 				{
 					id: "0880DA3876326DC9"
 					type: "advancement"
 					advancement: "botania:challenge/l20_shard_use"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:diva_charm"
+					}
 				}
 				{
 					id: "3DD71E9D3F2CDE7B"
@@ -5030,6 +5231,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -5067,6 +5272,10 @@
 					type: "advancement"
 					advancement: "botania:main/ender_air_make"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:corporea_index"
+					}
 				}
 				{
 					id: "3EBB47186328A8C7"
@@ -5091,6 +5300,10 @@
 					type: "advancement"
 					advancement: "botania:main/corporea_craft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:corporea_index"
+					}
 				}
 				{
 					id: "02FA474DC61FE883"
@@ -5151,6 +5364,10 @@
 					type: "advancement"
 					advancement: "botania:challenge/gaia_guardian_hardmode"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:ancient_will_ahrim"
+					}
 				}
 			]
 			rewards: [
@@ -5201,6 +5418,10 @@
 					type: "advancement"
 					advancement: "botania:main/tiara_wings"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:flight_tiara"
+					}
 				}
 				{
 					id: "33453F148EFD8D3C"
@@ -5362,6 +5583,10 @@
 					type: "advancement"
 					advancement: "botania:main/luminizer_ride"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:light_relay"
+					}
 				}
 			]
 			rewards: [
@@ -5420,6 +5645,10 @@
 					type: "advancement"
 					advancement: "botania:main/spawner_mover_use"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:black_hole_talisman"
+					}
 				}
 				{
 					id: "025D0977B7A33C06"
@@ -5484,6 +5713,10 @@
 					type: "advancement"
 					advancement: "botania:challenge/pinkinator"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:gaia_head"
+					}
 				}
 			]
 			rewards: [
@@ -5536,6 +5769,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_8"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_8"
+					}
 				}
 			]
 			rewards: [ ]
@@ -5573,36 +5810,60 @@
 					type: "advancement"
 					advancement: "botania:challenge/thor_ring"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:dice"
+					}
 				}
 				{
 					id: "43AF26A0EE9E09E5"
 					type: "advancement"
 					advancement: "botania:challenge/odin_ring"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:dice"
+					}
 				}
 				{
 					id: "0836331A4AE89F15"
 					type: "advancement"
 					advancement: "botania:challenge/loki_ring"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:dice"
+					}
 				}
 				{
 					id: "40277498C4AEF66E"
 					type: "advancement"
 					advancement: "botania:challenge/flugel_eye"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:dice"
+					}
 				}
 				{
 					id: "4F85C58E278002D0"
 					type: "advancement"
 					advancement: "botania:challenge/king_key"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:dice"
+					}
 				}
 				{
 					id: "293C4B45682CE629"
 					type: "advancement"
 					advancement: "botania:challenge/infinite_fruit"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:dice"
+					}
 				}
 			]
 			rewards: [
@@ -5655,12 +5916,20 @@
 					type: "advancement"
 					advancement: "botania:challenge/loki_ring_many"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:loki_ring"
+					}
 				}
 				{
 					id: "542F742C4456493B"
 					type: "advancement"
 					advancement: "botania:challenge/super_corporea_request"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "botania:loki_ring"
+					}
 				}
 			]
 			rewards: [
@@ -5690,8 +5959,8 @@
 			optional: true
 		}
 	]
-	title: "Missões"
+	title: "&aA Magia das Flores"
 	subtitle: [
-		"&aA Magia das Flores&7: do Tier I em diante"
+		"A magia das flores"
 	]
 }

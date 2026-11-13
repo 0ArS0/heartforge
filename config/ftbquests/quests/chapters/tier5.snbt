@@ -20,6 +20,10 @@
 			dependencies: [
 				"1C979661703F338B"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_6"
+			}
 			tasks: [
 				{
 					id: "4AB9F69490F8CB23"
@@ -82,6 +86,10 @@
 			dependencies: [
 				"4162665ECD1C9FDE"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_6"
+			}
 			tasks: [
 				{
 					id: "34E2321B860B005D"
@@ -153,6 +161,10 @@
 			dependencies: [
 				"791A9052F59DE32F"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_6"
+			}
 			tasks: [
 				{
 					id: "6BF6DDEBC7D253AA"
@@ -180,6 +192,10 @@
 			dependencies: [
 				"73757A95AB16B20B"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_6"
+			}
 			tasks: [
 				{
 					id: "4A08F27D4DF59208"
@@ -207,6 +223,10 @@
 			dependencies: [
 				"78A26388A1FEB1D1"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_6"
+			}
 			tasks: [
 				{
 					id: "6D78B4F986EB413E"
@@ -278,6 +298,10 @@
 			dependencies: [
 				"791A9052F59DE32F"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_6"
+			}
 			tasks: [
 				{
 					id: "2D0742DF9FB16D26"
@@ -404,12 +428,20 @@
 			dependencies: [
 				"3FEA7BBF3C6948A1"
 			]
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_6"
+			}
 			tasks: [
 				{
 					id: "67F11EE5014A306D"
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_6"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
 				}
 			]
 			rewards: [

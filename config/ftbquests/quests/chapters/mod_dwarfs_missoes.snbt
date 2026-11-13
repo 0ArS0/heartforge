@@ -8,9 +8,42 @@
 		id: "dwarfs_tyranny:mythril_ingot"
 	}
 	id: "1648C74FA3A5A7D4"
-	order_index: 38
+	order_index: 23
 	quest_links: [ ]
 	quests: [
+		{
+			id: "1E7412D5921F48BA"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:mythril_ingot"
+			}
+			tasks: [
+				{
+					id: "633A017088938A39"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1A923FB4473392B9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Crônica das Profundezas"
+			description: [
+				"&7Muito abaixo das raízes do mundo, onde a pedra escurece e vira ardósia, os anões ainda cavam."
+				"&7Suas cidades vivem em cavernas abobadadas, iluminadas por gemas e aquecidas por fornalhas de mythril."
+				"&7Outras cidades, mais antigas, já não respiram: ali reinam ossos que se lembram de ter sido reis."
+				"&7Os anões medem cada forasteiro em reputação. Sirva-os bem e eles abrirão suas forjas, seus tonéis e seus segredos de gás e engrenagem."
+				""
+				"&7Comece descendo: as cidades ficam nas grandes cavernas entre os níveis -32 e -20. Leve tochas e uma picareta de ferro."
+			]
+		}
 		{
 			id: "1A25E26838F6252D"
 			x: 0.0d
@@ -54,24 +87,40 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/down_where_the_stone_sings"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:colony_drum"
+					}
 				}
 				{
 					id: "2F19C07094E7D8CF"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/meet_the_locals"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:colony_drum"
+					}
 				}
 				{
 					id: "7F4D3A43FEFBB161"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/drums_in_the_deep"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:colony_drum"
+					}
 				}
 				{
 					id: "4B01C9E6178B61A7"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/a_living_city"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:colony_drum"
+					}
 				}
 				{
 					id: "61473AEDC59D7CF0"
@@ -114,24 +163,40 @@
 			dependencies: [
 				"250350228C2E80A4"
 			]
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:mythril_ingot"
+			}
 			tasks: [
 				{
 					id: "23269A017F69A9CF"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/mind_your_reputation"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
 				}
 				{
 					id: "4D6AD9D9C79B2A62"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/a_fair_trade"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
 				}
 				{
 					id: "243C960C9EBBE0A2"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/travelling_salesdwarves"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
 				}
 			]
 			rewards: [
@@ -163,30 +228,50 @@
 			dependencies: [
 				"250350228C2E80A4"
 			]
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:mythril_ingot"
+			}
 			tasks: [
 				{
 					id: "1765FE0B80BCDCA6"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/sound_the_alarm"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
 				}
 				{
 					id: "30A238F55AA88C6A"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/enemy_of_the_mountain"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
 				}
 				{
 					id: "73E58C4C5AE7ACD7"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/everybody_hates_you"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
 				}
 				{
 					id: "594A103356E8D5E8"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/you_asked_for_this"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
 				}
 			]
 			rewards: [
@@ -240,6 +325,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -258,24 +347,40 @@
 			dependencies: [
 				"79998FE50ADD6003"
 			]
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:dwarf_egg"
+			}
 			tasks: [
 				{
 					id: "5F5AF1553475E9B1"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/got_a_job_for_me"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_egg"
+					}
 				}
 				{
 					id: "4B40C32C1F9A5898"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/easy_work"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_egg"
+					}
 				}
 				{
 					id: "7DB7B84D199E8378"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/a_proper_job"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_egg"
+					}
 				}
 				{
 					id: "17D9AE4CCE79157B"
@@ -324,24 +429,40 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/it_followed_me_home"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:stone_pet_rock"
+					}
 				}
 				{
 					id: "1C03174753C567DA"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/bob_ross_would_be_proud"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:stone_pet_rock"
+					}
 				}
 				{
 					id: "5DF1C095BB114FC7"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/this_is_my_rock_there_are_many_like_it"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:stone_pet_rock"
+					}
 				}
 				{
 					id: "07E23D9664D401AB"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/do_not_touch"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:stone_pet_rock"
+					}
 				}
 			]
 			rewards: [
@@ -453,12 +574,20 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/seen_better_days"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:rusty_dwarf_armor_helmet"
+					}
 				}
 				{
 					id: "3F657716EF55C65B"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/practice_makes_perfect"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:rusty_dwarf_armor_helmet"
+					}
 				}
 			]
 			rewards: [
@@ -563,18 +692,30 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/crack_it_open"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:geode"
+					}
 				}
 				{
 					id: "4FE1858435F052E1"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/something_beneath_us"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:geode"
+					}
 				}
 				{
 					id: "362802A4BE33A9A3"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/a_curious_sparkle"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:geode"
+					}
 				}
 				{
 					id: "301C5A042815D826"
@@ -590,12 +731,20 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/a_rare_find"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:geode"
+					}
 				}
 				{
 					id: "17049ADA5599D8F6"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/treasure_of_the_deep"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:geode"
+					}
 				}
 			]
 			rewards: [
@@ -646,6 +795,10 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/somethings_brewing"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:infusion_cauldron"
+					}
 				}
 				{
 					id: "7163B8BA8F9A0A82"
@@ -661,6 +814,10 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/dwarven_alchemy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:infusion_cauldron"
+					}
 				}
 			]
 			rewards: [
@@ -710,48 +867,80 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/industrial_revolution"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:air_extractor"
+					}
 				}
 				{
 					id: "0C19BECE76F9C87D"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/gas_gas_gas"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:air_extractor"
+					}
 				}
 				{
 					id: "0290EAB34D2A882D"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/pipe_dream"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:air_extractor"
+					}
 				}
 				{
 					id: "45BEFC9198DC07FF"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/under_pressure"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:air_extractor"
+					}
 				}
 				{
 					id: "6599F00EF06C4EAD"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/more_tank_than_house"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:air_extractor"
+					}
 				}
 				{
 					id: "10E89D62612A8DAA"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/fired_by_mythril"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:air_extractor"
+					}
 				}
 				{
 					id: "09CD379A31A00C3A"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/gas_fired_forge"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:air_extractor"
+					}
 				}
 				{
 					id: "1DEF132DE3E8129B"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/propelled_by_gas"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:air_extractor"
+					}
 				}
 			]
 			rewards: [
@@ -805,6 +994,10 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/leave_your_mark"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:engraving_table"
+					}
 				}
 				{
 					id: "33F8A781EB0A5221"
@@ -820,12 +1013,20 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/ancient_storage"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:engraving_table"
+					}
 				}
 				{
 					id: "1FA018F178518D5B"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/wake_up_little_guy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:engraving_table"
+					}
 				}
 			]
 			rewards: [
@@ -911,18 +1112,30 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/a_dwarf_in_need"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:eldraz"
+					}
 				}
 				{
 					id: "089FF1F1DEEAA3B1"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/shiny_enough"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:eldraz"
+					}
 				}
 				{
 					id: "2A90EFA7D8E00840"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/now_were_talking"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:eldraz"
+					}
 				}
 			]
 			rewards: [
@@ -961,42 +1174,70 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/mind_the_gap"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:bridger"
+					}
 				}
 				{
 					id: "4E7961CC073E0A5B"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/bridge_over_troubled_cavern"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:bridger"
+					}
 				}
 				{
 					id: "7D9BFAF74EABF2DA"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/there_is_no_floor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:bridger"
+					}
 				}
 				{
 					id: "1AC334087630498D"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/powering_up"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:bridger"
+					}
 				}
 				{
 					id: "5C55003C79890FF4"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/power_shot"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:bridger"
+					}
 				}
 				{
 					id: "4D778F9C4CD8F05F"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/spin_to_win"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:bridger"
+					}
 				}
 				{
 					id: "7C4FFF8EB289E530"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/three_in_a_row"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:bridger"
+					}
 				}
 			]
 			rewards: [
@@ -1048,30 +1289,50 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/portable_pressure"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:flamethrower"
+					}
 				}
 				{
 					id: "3820288448204CEA"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/playing_with_fire"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:flamethrower"
+					}
 				}
 				{
 					id: "621FA908A8654C96"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/ride_the_lightning"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:flamethrower"
+					}
 				}
 				{
 					id: "7E5384B8AE7BCBB2"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/get_over_here"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:flamethrower"
+					}
 				}
 				{
 					id: "1CE3D38273F30481"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/three_point_attachment"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:flamethrower"
+					}
 				}
 			]
 			rewards: [
@@ -1116,36 +1377,60 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/rails_are_optional"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:magnetic_rail"
+					}
 				}
 				{
 					id: "213584D65BC80BE0"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/going_up"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:magnetic_rail"
+					}
 				}
 				{
 					id: "5C3E3A740AAB14F2"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/going_down"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:magnetic_rail"
+					}
 				}
 				{
 					id: "347EAE8427424F29"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/wrong_dimension_of_transport"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:magnetic_rail"
+					}
 				}
 				{
 					id: "5D5C50F4BF437848"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/remote_control"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:magnetic_rail"
+					}
 				}
 				{
 					id: "28F0B490EBF3923F"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/tiny_drill_big_ambitions"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:magnetic_rail"
+					}
 				}
 			]
 			rewards: [
@@ -1197,36 +1482,60 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/ancient_engineering"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:forging_rune"
+					}
 				}
 				{
 					id: "0ED58CE38F17AB8B"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/fully_enchanted_storage"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:forging_rune"
+					}
 				}
 				{
 					id: "561AF2A193BC921E"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/runic_furnace"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:forging_rune"
+					}
 				}
 				{
 					id: "6C377A1C56ACD054"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/fully_enchanted_furnace"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:forging_rune"
+					}
 				}
 				{
 					id: "0635C9EFB565A6E3"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/runic_companion"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:forging_rune"
+					}
 				}
 				{
 					id: "4CEB8412C8467DFE"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/fully_enchanted_companion"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:forging_rune"
+					}
 				}
 			]
 			rewards: [
@@ -1280,6 +1589,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1316,12 +1629,20 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/tools_of_the_deep"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_armor_chestplate"
+					}
 				}
 				{
 					id: "0403BD0C523D4131"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/clad_in_mythril"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_armor_chestplate"
+					}
 				}
 			]
 			rewards: [
@@ -1369,6 +1690,10 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/hard_labor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_armor_helmet"
+					}
 				}
 				{
 					id: "17EE98D132DE33C8"
@@ -1384,18 +1709,30 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/reliable_hands"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_armor_helmet"
+					}
 				}
 				{
 					id: "4E6F4BD1E1335B36"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/dressed_like_a_dwarf"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_armor_helmet"
+					}
 				}
 				{
 					id: "0D7FC8B3B8492B34"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/friend_of_the_dwarves"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_armor_helmet"
+					}
 				}
 			]
 			rewards: [
@@ -1446,24 +1783,40 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/nailed_it"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:nail_gun"
+					}
 				}
 				{
 					id: "6D1CC7E139AE9523"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/return_to_sender"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:nail_gun"
+					}
 				}
 				{
 					id: "0CD02CF80BDA0B84"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/live_wire"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:nail_gun"
+					}
 				}
 				{
 					id: "56D38A4EAA3F4FBE"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/armed_to_the_teeth"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:nail_gun"
+					}
 				}
 			]
 			rewards: [
@@ -1613,6 +1966,10 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/pocket_full_of_rocks"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:golden_cacaillouxe"
+					}
 				}
 			]
 			rewards: [
@@ -1659,12 +2016,20 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/dwarven_infrastructure"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_pipe"
+					}
 				}
 				{
 					id: "5EA990E10B4B1305"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/they_have_a_system_for_everything"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_pipe"
+					}
 				}
 			]
 			rewards: [
@@ -1702,6 +2067,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1729,12 +2098,20 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/a_kings_ransom"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:lumite"
+					}
 				}
 				{
 					id: "08783BE41B97C11B"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/legendary_contract"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:lumite"
+					}
 				}
 			]
 			rewards: [
@@ -1770,6 +2147,10 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/master_brewer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:deepbrew_bottle"
+					}
 				}
 			]
 			rewards: [
@@ -1822,6 +2203,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1849,6 +2234,10 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/forged_beyond_the_mountain"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_netherite_armor_chestplate"
+					}
 				}
 				{
 					id: "7D207829A1CD48F9"
@@ -1864,6 +2253,10 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/fighting_fire_with_fire"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:dwarf_netherite_armor_chestplate"
+					}
 				}
 			]
 			rewards: [
@@ -1905,6 +2298,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1932,12 +2329,20 @@
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/geologists_best_friend"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_block"
+					}
 				}
 				{
 					id: "58D42CF767A7FBC6"
 					type: "advancement"
 					advancement: "dwarfs_tyranny:progression/master_of_dwarfs_tyranny"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_block"
+					}
 				}
 			]
 			rewards: [
@@ -1966,8 +2371,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&7Os Reinos Anões"
 	subtitle: [
-		"&7Os Reinos Anões&7: do Tier I em diante"
+		"Os reinos sob a pedra"
 	]
 }

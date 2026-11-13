@@ -8,9 +8,42 @@
 		id: "mythsandlegends:blood_moon"
 	}
 	id: "6D2FC223190AD5B7"
-	order_index: 34
+	order_index: 21
 	quest_links: [ ]
 	quests: [
+		{
+			id: "03ACC43F27B88043"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "mythsandlegends:blood_moon"
+			}
+			tasks: [
+				{
+					id: "449577AA37AC563B"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "41846AF00DC8B8CD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Livro das Velhas Histórias"
+			description: [
+				"&7Toda aldeia tem uma história para assustar as crianças: a pedra que se mexe no telhado,"
+				"&7o cavaleiro negro que cobra almas, o lobo branco que segue quem anda sozinho na neve."
+				"&7Em Heartforge, nenhuma delas é mentira."
+				""
+				"&7Um velho erudito, o Cronista, coleciona essas lendas e paga em saber a quem lhe traz provas."
+				"&7Comece procurando a casa dele, perto de onde o mundo começou."
+			]
+		}
 		{
 			id: "2671243C9462E7C5"
 			x: 0.0d
@@ -81,12 +114,20 @@
 			dependencies: [
 				"569FDAFB2800A00D"
 			]
+			icon: {
+				count: 1
+				id: "mythsandlegends:blood_moon"
+			}
 			tasks: [
 				{
 					id: "3444B334F98264DB"
 					type: "advancement"
 					advancement: "mythsandlegends:adventure/dawn_of_the_living"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:blood_moon"
+					}
 				}
 				{
 					id: "61BAF739D3DB086A"
@@ -134,6 +175,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -153,6 +198,10 @@
 			dependencies: [
 				"19ADDF76C4D3C4F2"
 			]
+			icon: {
+				count: 1
+				id: "mythsandlegends:gargoyle_fragment"
+			}
 			tasks: [
 				{
 					id: "3576BA6924AA46CC"
@@ -165,6 +214,10 @@
 					type: "advancement"
 					advancement: "mythsandlegends:shard_collector"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:gargoyle_fragment"
+					}
 				}
 				{
 					id: "4AAE401B13E8D98A"
@@ -241,6 +294,10 @@
 			dependencies: [
 				"19ADDF76C4D3C4F2"
 			]
+			icon: {
+				count: 1
+				id: "mythsandlegends:possessed_armor_fragment"
+			}
 			tasks: [
 				{
 					id: "3B037F0AA4E7CD48"
@@ -280,12 +337,20 @@
 					type: "advancement"
 					advancement: "mythsandlegends:cursed_power"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:possessed_armor_fragment"
+					}
 				}
 				{
 					id: "1322C38AAA1C8459"
 					type: "advancement"
 					advancement: "mythsandlegends:bound_soul_ingot"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:possessed_armor_fragment"
+					}
 				}
 				{
 					id: "20BE9C7D7803F77B"
@@ -335,12 +400,20 @@
 			dependencies: [
 				"19ADDF76C4D3C4F2"
 			]
+			icon: {
+				count: 1
+				id: "mythsandlegends:karakondjul_pelt"
+			}
 			tasks: [
 				{
 					id: "440C0C8EF758D202"
 					type: "advancement"
 					advancement: "mythsandlegends:echo_in_the_frost"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:karakondjul_pelt"
+					}
 				}
 				{
 					id: "326C834FDD51220A"
@@ -394,6 +467,10 @@
 			dependencies: [
 				"19ADDF76C4D3C4F2"
 			]
+			icon: {
+				count: 1
+				id: "mythsandlegends:blood_moon"
+			}
 			tasks: [
 				{
 					id: "21778F3570B8763F"
@@ -449,12 +526,20 @@
 			dependencies: [
 				"19ADDF76C4D3C4F2"
 			]
+			icon: {
+				count: 1
+				id: "mythsandlegends:altar_of_the_dead"
+			}
 			tasks: [
 				{
 					id: "596402F25AF24547"
 					type: "advancement"
 					advancement: "mythsandlegends:abyss_stares_back"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:altar_of_the_dead"
+					}
 				}
 				{
 					id: "6DCE990DC8D586AC"
@@ -512,12 +597,20 @@
 			dependencies: [
 				"19ADDF76C4D3C4F2"
 			]
+			icon: {
+				count: 1
+				id: "mythsandlegends:tainted_bell"
+			}
 			tasks: [
 				{
 					id: "4E6FD3095A881F54"
 					type: "advancement"
 					advancement: "mythsandlegends:payment_collected"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:tainted_bell"
+					}
 				}
 				{
 					id: "52428F68EBFEB800"
@@ -600,6 +693,10 @@
 					type: "advancement"
 					advancement: "mythsandlegends:ars_lapidem"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:stone_sanctum_table"
+					}
 				}
 				{
 					id: "36B45E8C928F89C7"
@@ -651,6 +748,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -669,12 +770,20 @@
 			dependencies: [
 				"2AB87FAF87121B27"
 			]
+			icon: {
+				count: 1
+				id: "mythsandlegends:ironshade_chestplate"
+			}
 			tasks: [
 				{
 					id: "776CED1FC91F0F9D"
 					type: "advancement"
 					advancement: "mythsandlegends:bound_by_darkness"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:ironshade_chestplate"
+					}
 				}
 				{
 					id: "66879C2C30EC07BC"
@@ -708,6 +817,10 @@
 					type: "advancement"
 					advancement: "mythsandlegends:the_stonewall"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:ironshade_chestplate"
+					}
 				}
 			]
 			rewards: [
@@ -798,6 +911,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -834,6 +951,10 @@
 					type: "advancement"
 					advancement: "mythsandlegends:rider_of_the_shadows"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:black_charro_heart"
+					}
 				}
 				{
 					id: "4EC8242EEC9F5334"
@@ -907,6 +1028,10 @@
 					type: "advancement"
 					advancement: "mythsandlegends:master_of_the_blade"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:refined_tenebrite"
+					}
 				}
 			]
 			rewards: [
@@ -1024,6 +1149,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1043,6 +1172,10 @@
 			dependencies: [
 				"7AFBAAF6DE81864C"
 			]
+			icon: {
+				count: 1
+				id: "mythsandlegends:lantern_of_hecate"
+			}
 			tasks: [
 				{
 					id: "2745C34DE7E9A366"
@@ -1193,12 +1326,20 @@
 					type: "advancement"
 					advancement: "mythsandlegends:heart_of_fire"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:scorched_skin"
+					}
 				}
 				{
 					id: "2A52BEE9C9C07AB1"
 					type: "advancement"
 					advancement: "mythsandlegends:relic_of_the_forge_god"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:scorched_skin"
+					}
 				}
 			]
 			rewards: [
@@ -1298,6 +1439,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1376,6 +1521,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_6"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_6"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1404,12 +1553,20 @@
 					type: "advancement"
 					advancement: "mythsandlegends:howl_of_the_lonely_end"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:amarok_heart"
+					}
 				}
 				{
 					id: "6221B7B33E39D988"
 					type: "advancement"
 					advancement: "mythsandlegends:forged_by_frost"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:amarok_heart"
+					}
 				}
 				{
 					id: "6651DCE22BFD9261"
@@ -1425,6 +1582,10 @@
 					type: "advancement"
 					advancement: "mythsandlegends:whisper_of_the_northern_spirit"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:amarok_heart"
+					}
 				}
 			]
 			rewards: [
@@ -1529,6 +1690,10 @@
 					type: "advancement"
 					advancement: "mythsandlegends:misc/arcane_knowledge"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "mythsandlegends:higa_amulet"
+					}
 				}
 			]
 			rewards: [
@@ -1557,8 +1722,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&eMitos e Lendas"
 	subtitle: [
-		"&eMitos e Lendas&7: do Tier I em diante"
+		"O folclore que caminha"
 	]
 }

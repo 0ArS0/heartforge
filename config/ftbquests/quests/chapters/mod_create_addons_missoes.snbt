@@ -8,9 +8,42 @@
 		id: "create_enchantment_industry:blaze_enchanter"
 	}
 	id: "7C524790D349E5F9"
-	order_index: 12
+	order_index: 10
 	quest_links: [ ]
 	quests: [
+		{
+			id: "66907F98F427F762"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			tasks: [
+				{
+					id: "2E4B94EC837FC25D"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "39A65DF647ACB2C4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Os Apêndices do Engenheiro"
+			description: [
+				"&7Todo grande livro de engenharia ganha apêndices escritos por mãos diferentes."
+				"&7Aqui estão as notas dos que ensinaram blazes a encantar, cobre a carregar raios"
+				"&7e engrenagens a guardar força para depois."
+				""
+				"&7A experiência líquida destas páginas é ingrediente do Coração do Tier IV."
+				"&7Comece pelo moedor: ele transforma pepitas de saber em rio verde."
+			]
+		}
 		{
 			id: "5FB1FC1B9D397B72"
 			x: 0.0d
@@ -68,6 +101,10 @@
 					type: "advancement"
 					advancement: "create_enchantment_industry:experienced_engineer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:mechanical_grindstone"
+					}
 				}
 				{
 					id: "79C87F604D665034"
@@ -92,6 +129,10 @@
 					type: "advancement"
 					advancement: "create_enchantment_industry:grind_to_polish"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:mechanical_grindstone"
+					}
 				}
 			]
 			rewards: [
@@ -145,6 +186,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -511,12 +556,20 @@
 					type: "advancement"
 					advancement: "create_enchantment_industry:spirit_taking"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:experience_hatch"
+					}
 				}
 				{
 					id: "54CE8B35E2B4C8E3"
 					type: "advancement"
 					advancement: "create_enchantment_industry:spiritual_return"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:experience_hatch"
+					}
 				}
 			]
 			rewards: [
@@ -659,6 +712,10 @@
 					type: "advancement"
 					advancement: "create_connected:shear_pin"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_connected:freewheel_clutch"
+					}
 				}
 			]
 			rewards: [
@@ -702,6 +759,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -735,6 +796,10 @@
 					type: "advancement"
 					advancement: "create_connected:overstress_clutch"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_connected:overstress_clutch"
+					}
 				}
 				{
 					id: "519CED6E53CDF46F"
@@ -750,6 +815,10 @@
 					type: "advancement"
 					advancement: "create_connected:brass_gearbox"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_connected:overstress_clutch"
+					}
 				}
 				{
 					id: "57A33D9A91397CC8"
@@ -765,6 +834,10 @@
 					type: "advancement"
 					advancement: "create_connected:kinetic_battery"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_connected:overstress_clutch"
+					}
 				}
 				{
 					id: "1B6BD5E7F81555FB"
@@ -1033,12 +1106,20 @@
 					type: "advancement"
 					advancement: "create_enchantment_industry:brand_registry"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:printer"
+					}
 				}
 				{
 					id: "372CB2BC526B9B49"
 					type: "advancement"
 					advancement: "create_enchantment_industry:copiable_mystery"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:printer"
+					}
 				}
 				{
 					id: "5F6A6D6B68C00024"
@@ -1063,6 +1144,10 @@
 					type: "advancement"
 					advancement: "create_enchantment_industry:lumen_nexus"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:printer"
+					}
 				}
 			]
 			rewards: [
@@ -1230,6 +1315,10 @@
 					type: "advancement"
 					advancement: "create_connected:control_chip"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_connected:control_chip"
+					}
 				}
 				{
 					id: "07B44E5075580EFA"
@@ -1245,6 +1334,10 @@
 					type: "advancement"
 					advancement: "create_connected:sequenced_pulse_generator"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_connected:control_chip"
+					}
 				}
 				{
 					id: "4E6829CE9A17F09C"
@@ -1404,6 +1497,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1499,6 +1596,10 @@
 					type: "advancement"
 					advancement: "create_enchantment_industry:blazing_enchantment"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_dragons_plus:blaze_upgrade_smithing_template"
+					}
 				}
 				{
 					id: "0AAE66F46750E5F1"
@@ -1514,6 +1615,10 @@
 					type: "advancement"
 					advancement: "create_enchantment_industry:blazing_fusion"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_dragons_plus:blaze_upgrade_smithing_template"
+					}
 				}
 			]
 			rewards: [
@@ -1544,30 +1649,50 @@
 			dependencies: [
 				"124477AC068434F6"
 			]
+			icon: {
+				count: 1
+				id: "create_enchantment_industry:classic_blaze_enchanter"
+			}
 			tasks: [
 				{
 					id: "065C4DE216A1DA00"
 					type: "advancement"
 					advancement: "create_enchantment_industry:sigil_forging"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:classic_blaze_enchanter"
+					}
 				}
 				{
 					id: "5956366659C45341"
 					type: "advancement"
 					advancement: "create_enchantment_industry:sigil_casting"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:classic_blaze_enchanter"
+					}
 				}
 				{
 					id: "6DB1FA4DEC4D98BD"
 					type: "advancement"
 					advancement: "create_enchantment_industry:magic_unbinding"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:classic_blaze_enchanter"
+					}
 				}
 				{
 					id: "531ADFA449BFD3AA"
 					type: "advancement"
 					advancement: "create_enchantment_industry:gone_with_the_foil"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:classic_blaze_enchanter"
+					}
 				}
 				{
 					id: "4823F252A0A02046"
@@ -1620,6 +1745,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1662,6 +1791,10 @@
 					type: "advancement"
 					advancement: "create_enchantment_industry:lightning_catalysis"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:experience_cake"
+					}
 				}
 				{
 					id: "1AEFB9C607CDEF4C"
@@ -1677,6 +1810,10 @@
 					type: "advancement"
 					advancement: "create_enchantment_industry:transcendent_overclock"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "create_enchantment_industry:experience_cake"
+					}
 				}
 			]
 			rewards: [
@@ -1707,18 +1844,30 @@
 			dependencies: [
 				"3B34B49BD597D1FA"
 			]
+			icon: {
+				count: 1
+				id: "createaddition:bioethanol_bucket"
+			}
 			tasks: [
 				{
 					id: "0DAEF8749807FF3C"
 					type: "advancement"
 					advancement: "create_enchantment_industry:paradox_fusion"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "createaddition:bioethanol_bucket"
+					}
 				}
 				{
 					id: "2ABDE7D32F15A665"
 					type: "advancement"
 					advancement: "create_enchantment_industry:probability_spike"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "createaddition:bioethanol_bucket"
+					}
 				}
 				{
 					id: "6BB61473386A387F"
@@ -1777,6 +1926,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1842,8 +1995,8 @@
 			optional: true
 		}
 	]
-	title: "Missões"
+	title: "&6Engenhocas Avançadas"
 	subtitle: [
-		"&6Engenhocas Avançadas&7: do Tier I em diante"
+		"Experiência líquida, eletricidade e engenhocas"
 	]
 }

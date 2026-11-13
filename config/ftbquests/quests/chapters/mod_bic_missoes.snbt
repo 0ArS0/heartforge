@@ -8,9 +8,42 @@
 		id: "born_in_chaos_v1:dark_metal_ingot"
 	}
 	id: "60E021B38A174078"
-	order_index: 32
+	order_index: 20
 	quest_links: [ ]
 	quests: [
+		{
+			id: "6A37A99F90E7449F"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
+			tasks: [
+				{
+					id: "1EA8228D108FA004"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "143F6376C2AC7F07"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Crônica do Caos"
+			description: [
+				"&7Houve um tempo em que a noite trazia apenas zumbis lentos e esqueletos tortos."
+				"&7Depois veio o Caos: espíritos que possuem os vivos, cães do pavor, palhaços mortos,"
+				"&7abóboras que andam e cavaleiros caídos que ainda carregam metal sombrio nos ossos."
+				""
+				"&7Esta crônica cataloga cada horror e o que se pode arrancar dele."
+				"&7Comece sobrevivendo a uma noite, e depois guarde o primeiro pedaço de metal sombrio."
+			]
+		}
 		{
 			id: "66714C8A54AE228D"
 			x: 0.0d
@@ -45,6 +78,10 @@
 			dependencies: [
 				"66714C8A54AE228D"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
 			tasks: [
 				{
 					id: "172D6DE15DA7EE60"
@@ -117,6 +154,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -136,6 +177,10 @@
 			dependencies: [
 				"1C80A4436F3FA0F8"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
 			tasks: [
 				{
 					id: "134632730D8046AA"
@@ -166,6 +211,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:good_demoman"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 			]
 			rewards: [
@@ -206,12 +255,20 @@
 			dependencies: [
 				"1C80A4436F3FA0F8"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:spiny_shell"
+			}
 			tasks: [
 				{
 					id: "3C7DF21C5C574DD9"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:horrorofthe_depths"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:spiny_shell"
+					}
 				}
 				{
 					id: "374D435A2CEB20FA"
@@ -224,12 +281,20 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:disgusting_lootbox"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:spiny_shell"
+					}
 				}
 				{
 					id: "0F5966F16BDCFC67"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:waste_recycler"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:spiny_shell"
+					}
 				}
 				{
 					id: "282C1551D80E3AB8"
@@ -279,12 +344,20 @@
 			dependencies: [
 				"1C80A4436F3FA0F8"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:pileof_dark_metal"
+			}
 			tasks: [
 				{
 					id: "7211DE8FF9C7BD2B"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:dark_metallurgy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:pileof_dark_metal"
+					}
 				}
 				{
 					id: "7CFF1A8A6864CAFE"
@@ -352,6 +425,10 @@
 			dependencies: [
 				"1C80A4436F3FA0F8"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:hound_trap"
+			}
 			tasks: [
 				{
 					id: "23CBF2C6BAA2AA21"
@@ -364,6 +441,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:big_boy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:hound_trap"
+					}
 				}
 				{
 					id: "4CB5D6F7AC508C6E"
@@ -379,12 +460,20 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:arachnophobes_nightmare"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:hound_trap"
+					}
 				}
 				{
 					id: "798438485253E276"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:horror_underthe_mantle"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:hound_trap"
+					}
 				}
 			]
 			rewards: [
@@ -418,6 +507,10 @@
 			dependencies: [
 				"1C80A4436F3FA0F8"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:fried_maggot"
+			}
 			tasks: [
 				{
 					id: "746CB6BA009806D3"
@@ -451,12 +544,20 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:bypassingthe_expiration_date"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:fried_maggot"
+					}
 				}
 				{
 					id: "34B308A53E23F9A0"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:freshen_your_breath"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:fried_maggot"
+					}
 				}
 			]
 			rewards: [
@@ -511,6 +612,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:the_wind_darkening"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:ethereal_spirit"
+					}
 				}
 				{
 					id: "335D7E51A129FB69"
@@ -526,6 +631,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:exorcism"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:ethereal_spirit"
+					}
 				}
 				{
 					id: "3BEAFC269CD6E39C"
@@ -584,24 +693,40 @@
 			dependencies: [
 				"50BAEAD6786FA6BA"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
 			tasks: [
 				{
 					id: "439AFDEB7933A2F5"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:junior_summoner"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "01347B293E0DE781"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:dark_creator"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "240562DB6F8A6208"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:guidetothenextworld"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 			]
 			rewards: [
@@ -633,6 +758,10 @@
 			dependencies: [
 				"6CF570EABC5D894B"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:holiday_candy"
+			}
 			tasks: [
 				{
 					id: "4E3791A6EA536627"
@@ -666,6 +795,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:scarecrow"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:holiday_candy"
+					}
 				}
 			]
 			rewards: [
@@ -703,12 +836,20 @@
 			dependencies: [
 				"6CF570EABC5D894B"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:evilometer"
+			}
 			tasks: [
 				{
 					id: "2485C1E4BDF30C40"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:grave_ravager"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:evilometer"
+					}
 				}
 				{
 					id: "27BB09AB2ACFB631"
@@ -758,12 +899,20 @@
 				"50BAEAD6786FA6BA"
 				"6CF570EABC5D894B"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:intoxicating_decoction"
+			}
 			tasks: [
 				{
 					id: "7D33B6CD1CDE1D93"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:lifeturnedouttobeacomedy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:intoxicating_decoction"
+					}
 				}
 				{
 					id: "6107D42E70DBD9F1"
@@ -797,18 +946,30 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:mr_decoction"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:intoxicating_decoction"
+					}
 				}
 				{
 					id: "3D91E6952082156E"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:double_trouble"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:intoxicating_decoction"
+					}
 				}
 				{
 					id: "787BE3CE691C0190"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:one_explosion_is_good_two_is_better"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:intoxicating_decoction"
+					}
 				}
 			]
 			rewards: [
@@ -900,12 +1061,20 @@
 				"42EE829680649A76"
 				"482800EE29693E75"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:potion_of_rampage"
+			}
 			tasks: [
 				{
 					id: "13572BE398E97726"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:insect_repellent"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:potion_of_rampage"
+					}
 				}
 				{
 					id: "456C55977C10280B"
@@ -921,12 +1090,20 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:heart_thief"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:potion_of_rampage"
+					}
 				}
 				{
 					id: "794C7E8FF2849618"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:protectedby_darkness"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:potion_of_rampage"
+					}
 				}
 			]
 			rewards: [
@@ -968,42 +1145,70 @@
 				"346039B6F17ED8DD"
 				"42EE829680649A76"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
 			tasks: [
 				{
 					id: "69E3EAF404D12697"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:symphonyof_chaos"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "697F98A10FE8513E"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:bury_them_all"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "177F357FA38066B0"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:soul_eater"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "299F136BA7331803"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:food_fight"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "16CC49BBAF80D58B"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:shakeand_mix"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "2E9FD8BE7545A1D3"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:unlucky_hunter"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 			]
 			rewards: [
@@ -1055,6 +1260,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1088,18 +1297,30 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:bonk"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					}
 				}
 				{
 					id: "640BD5F3A1995901"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:my_size"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					}
 				}
 				{
 					id: "77AD36130949CA2C"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:spider_warlord"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					}
 				}
 				{
 					id: "398A3909F1561A53"
@@ -1202,6 +1423,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:shell_warrior"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:trident_hayfork"
+					}
 				}
 			]
 			rewards: [
@@ -1254,6 +1479,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:compact_necromancy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:staff_of_magic_arrows"
+					}
 				}
 				{
 					id: "0FAECBF8B6AF727E"
@@ -1269,12 +1498,20 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:hat_for_dark_deeds"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:staff_of_magic_arrows"
+					}
 				}
 				{
 					id: "5EF4796EC88550CC"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:cultural_attribute"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:staff_of_magic_arrows"
+					}
 				}
 			]
 			rewards: [
@@ -1314,18 +1551,30 @@
 			dependencies: [
 				"441FDD21C07FF34D"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:diamond_termite_shard"
+			}
 			tasks: [
 				{
 					id: "77023C4A9D1A1750"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:fighting_nightmares"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:diamond_termite_shard"
+					}
 				}
 				{
 					id: "18C4BA39DF66645C"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:deceived_hopes"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:diamond_termite_shard"
+					}
 				}
 				{
 					id: "0CE33E4C10B1FE6D"
@@ -1382,6 +1631,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:pumpkin_lord"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:lord_pumpkinhead_heart"
+					}
 				}
 			]
 			rewards: [
@@ -1420,12 +1673,20 @@
 			dependencies: [
 				"7E5A5340EC686B0E"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:carrot_sword"
+			}
 			tasks: [
 				{
 					id: "565810760E7CBD7E"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:sweet_battle"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:carrot_sword"
+					}
 				}
 				{
 					id: "3C0C1802C0DCAB25"
@@ -1493,6 +1754,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1526,6 +1791,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:unitywith_darknessachievement"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:nightmare_claw"
+					}
 				}
 				{
 					id: "7C220FAC03E11F67"
@@ -1599,6 +1868,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:infernal_hatman"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:pumpkinhandgun"
+					}
 				}
 			]
 			rewards: [
@@ -1659,6 +1932,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:rampage"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:nightmare_scythe"
+					}
 				}
 			]
 			rewards: [
@@ -1689,48 +1966,80 @@
 				"568FA9D347D70A7D"
 				"502479F134CE6795"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
 			tasks: [
 				{
 					id: "13A119976437A706"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:charm_collector"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "50C6990FCB11906B"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:hatman"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "0FB1FD05F7BAFC42"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:explosive_temper"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "35199C9735B6D161"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:spruce_cowboyinthe_moonlight"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "6702CE1C71807474"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:pumpkin_sir"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "5D9FB56969E6F03D"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:excessive_fly_swatter"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 				{
 					id: "4DC587CB80DED3EE"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:squireofthe_dark_lord"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
 				}
 			]
 			rewards: [
@@ -1784,6 +2093,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1835,6 +2148,10 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:chaos_knight"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:dark_upgrade"
+					}
 				}
 			]
 			rewards: [
@@ -1865,6 +2182,10 @@
 			dependencies: [
 				"7549FAD10778F2AD"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:soulbane"
+			}
 			tasks: [
 				{
 					id: "4EE468B2C657AD63"
@@ -1925,12 +2246,20 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:naughty_child"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:krampus_heart"
+					}
 				}
 				{
 					id: "128F4A5FFE9BC515"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:wrong_santa"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:krampus_heart"
+					}
 				}
 				{
 					id: "4542F2F58B506B37"
@@ -1994,6 +2323,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2012,18 +2345,30 @@
 			dependencies: [
 				"7FDF4C823FC17BF6"
 			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:transforming_easter_cake"
+			}
 			tasks: [
 				{
 					id: "7A944AA7097E0CBC"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:transmutalogy"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:transforming_easter_cake"
+					}
 				}
 				{
 					id: "52D4F464DEB9064F"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:infernal_medicine"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:transforming_easter_cake"
+					}
 				}
 				{
 					id: "00D344A1811A769D"
@@ -2039,12 +2384,20 @@
 					type: "advancement"
 					advancement: "born_in_chaos_v1:trickor_treat"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:transforming_easter_cake"
+					}
 				}
 				{
 					id: "5570F661C2594B2B"
 					type: "advancement"
 					advancement: "born_in_chaos_v1:yoursatietywillbe_eternal"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "born_in_chaos_v1:transforming_easter_cake"
+					}
 				}
 			]
 			rewards: [
@@ -2079,8 +2432,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&6A Noite Podre"
 	subtitle: [
-		"&6A Noite Podre&7: do Tier I em diante"
+		"O que nasce quando a noite apodrece"
 	]
 }

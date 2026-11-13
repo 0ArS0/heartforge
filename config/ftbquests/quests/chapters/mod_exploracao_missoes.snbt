@@ -8,9 +8,41 @@
 		id: "minecraft:filled_map"
 	}
 	id: "09AB6A7F0A40907B"
-	order_index: 40
+	order_index: 24
 	quest_links: [ ]
 	quests: [
+		{
+			id: "025D09AAB40168DF"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "minecraft:filled_map"
+			}
+			tasks: [
+				{
+					id: "7B441FE9C447F660"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "394BADDF887185EB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Livro das Estradas"
+			description: [
+				"&7Este mundo não se entrega a quem fica perto de casa. As montanhas sobem até rasgar as nuvens, os vales se abrem em cores que nenhum mapa antigo conhecia,"
+				"&7e as ruínas dos povos esquecidos jazem longe umas das outras, separadas por dias de caminhada."
+				"&7Cada torre, cada templo, cada acampamento é uma recompensa para os pés cansados. Nenhum deles fica na porta de casa."
+				""
+				"&7Comece com um &6mapa&7, uma luneta e a disposição de andar até o horizonte. As &6Waystones&7 cuidarão da volta."
+			]
+		}
 		{
 			id: "4A3FD4EF03A01A3B"
 			x: 0.0d
@@ -54,6 +86,10 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/root"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:filled_map"
+					}
 				}
 				{
 					id: "0FE295116DDE993B"
@@ -257,6 +293,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -284,18 +324,30 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/trade"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 				}
 				{
 					id: "55CC3C402920CF36"
 					type: "advancement"
 					advancement: "minecraft:adventure/voluntary_exile"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 				}
 				{
 					id: "3F9D736A507309E6"
 					type: "advancement"
 					advancement: "quark:content/pathfinder_map_center"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 				}
 			]
 			rewards: [
@@ -336,18 +388,30 @@
 					type: "advancement"
 					advancement: "mmr:root"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:rail"
+					}
 				}
 				{
 					id: "7DD26DCA33B78FFD"
 					type: "advancement"
 					advancement: "hopo:minecraft/adventure/locate_mineshaft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:rail"
+					}
 				}
 				{
 					id: "3ED9820D6E534DAB"
 					type: "advancement"
 					advancement: "mmr:dark_oak_mineshaft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:rail"
+					}
 				}
 				{
 					id: "0D6BC4759086B0F4"
@@ -425,18 +489,30 @@
 					type: "advancement"
 					advancement: "hopo:minecraft/adventure/locate_portal_ruined"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:brush"
+					}
 				}
 				{
 					id: "2C617D7B265A6343"
 					type: "advancement"
 					advancement: "minecraft:adventure/salvage_sherd"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:brush"
+					}
 				}
 				{
 					id: "20361F697AB096F0"
 					type: "advancement"
 					advancement: "minecraft:adventure/trim_with_any_armor_pattern"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:brush"
+					}
 				}
 			]
 			rewards: [
@@ -495,6 +571,10 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:goat_horn"
+					}
 				}
 				{
 					id: "671DED7BBAE97290"
@@ -510,6 +590,10 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/play_jukebox_in_meadows"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:goat_horn"
+					}
 				}
 			]
 			rewards: [
@@ -661,6 +745,10 @@
 					type: "advancement"
 					advancement: "biomeswevegone:biomeswevegone/adventure/pale_in_comparison"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "biomeswevegone:baobab_fruit"
+					}
 				}
 			]
 			rewards: [
@@ -707,30 +795,50 @@
 					type: "advancement"
 					advancement: "dungeons_arise:find_wishing_well"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:campfire"
+					}
 				}
 				{
 					id: "237147F553B7D92F"
 					type: "advancement"
 					advancement: "dungeons_arise:find_merchant_campsite"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:campfire"
+					}
 				}
 				{
 					id: "000566C643E55A1C"
 					type: "advancement"
 					advancement: "dungeons_arise:find_illager_campsite"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:campfire"
+					}
 				}
 				{
 					id: "2FF5B5F5EC02EC0B"
 					type: "advancement"
 					advancement: "dungeons_arise:find_greenwood_pub"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:campfire"
+					}
 				}
 				{
 					id: "42A0A458BBA3AD3F"
 					type: "advancement"
 					advancement: "dungeons_arise:find_bathhouse"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:campfire"
+					}
 				}
 			]
 			rewards: [
@@ -773,24 +881,40 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/minecraft_trials_edition"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:trial_key"
+					}
 				}
 				{
 					id: "7690981569D10CB1"
 					type: "advancement"
 					advancement: "minecraft:adventure/under_lock_and_key"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:trial_key"
+					}
 				}
 				{
 					id: "1AC2B688AAC4A2AB"
 					type: "advancement"
 					advancement: "minecraft:adventure/blowback"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:trial_key"
+					}
 				}
 				{
 					id: "7B1009E588C02274"
 					type: "advancement"
 					advancement: "minecraft:adventure/who_needs_rockets"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:trial_key"
+					}
 				}
 			]
 			rewards: [
@@ -838,24 +962,40 @@
 					type: "advancement"
 					advancement: "biomeswevegone:biomeswevegone/husbandry/berrily_alive"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:apple"
+					}
 				}
 				{
 					id: "40C5B609166D0D50"
 					type: "advancement"
 					advancement: "biomeswevegone:biomeswevegone/husbandry/forager"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:apple"
+					}
 				}
 				{
 					id: "70A8E9B89423B2B0"
 					type: "advancement"
 					advancement: "biomeswevegone:biomeswevegone/husbandry/johnny_appleseed"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:apple"
+					}
 				}
 				{
 					id: "7591C3D221E64E04"
 					type: "advancement"
 					advancement: "biomeswevegone:biomeswevegone/adventure/little_house_on_the_prairie"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:apple"
+					}
 				}
 			]
 			rewards: [
@@ -904,24 +1044,40 @@
 					type: "advancement"
 					advancement: "dungeons_arise:find_lighthouse"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:lantern"
+					}
 				}
 				{
 					id: "558591A5675126B0"
 					type: "advancement"
 					advancement: "dungeons_arise:find_small_blimp"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:lantern"
+					}
 				}
 				{
 					id: "568C81E0A073F16A"
 					type: "advancement"
 					advancement: "dungeons_arise:find_aviary"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:lantern"
+					}
 				}
 				{
 					id: "1C4265304D4573ED"
 					type: "advancement"
 					advancement: "dungeons_arise:find_abandoned_temple"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:lantern"
+					}
 				}
 			]
 			rewards: [
@@ -962,6 +1118,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -990,24 +1150,40 @@
 					type: "advancement"
 					advancement: "dungeons_arise:find_bandit_towers"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:red_sand"
+					}
 				}
 				{
 					id: "55DC8440E86285A9"
 					type: "advancement"
 					advancement: "dungeons_arise:find_bandit_village"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:red_sand"
+					}
 				}
 				{
 					id: "0AD74B6A4338B6BE"
 					type: "advancement"
 					advancement: "dungeons_arise:find_desert_hall"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:red_sand"
+					}
 				}
 				{
 					id: "53F1B77ECFA124AA"
 					type: "advancement"
 					advancement: "dungeons_arise:find_ceryneian_hind"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:red_sand"
+					}
 				}
 			]
 			rewards: [
@@ -1047,30 +1223,50 @@
 					type: "advancement"
 					advancement: "dungeons_arise:find_kisegi_sanctuary"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:mossy_stone_bricks"
+					}
 				}
 				{
 					id: "788B35EA31155B99"
 					type: "advancement"
 					advancement: "dungeons_arise:find_infested_temple"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:mossy_stone_bricks"
+					}
 				}
 				{
 					id: "4CECEC43711782D8"
 					type: "advancement"
 					advancement: "dungeons_arise:find_mining_complex"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:mossy_stone_bricks"
+					}
 				}
 				{
 					id: "36CA443F0D8B3C1E"
 					type: "advancement"
 					advancement: "dungeons_arise:find_keep_kayra"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:mossy_stone_bricks"
+					}
 				}
 				{
 					id: "57791EAD2903F416"
 					type: "advancement"
 					advancement: "biomeswevegone:biomeswevegone/adventure/witches_road"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:mossy_stone_bricks"
+					}
 				}
 			]
 			rewards: [
@@ -1119,12 +1315,20 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/totem_of_undying"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
 				}
 				{
 					id: "0E5A2A6C978DDFA4"
 					type: "advancement"
 					advancement: "minecraft:adventure/hero_of_the_village"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
 				}
 			]
 			rewards: [
@@ -1170,6 +1374,10 @@
 					type: "advancement"
 					advancement: "hopo:minecraft/adventure/locate_underwater_city"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
 				}
 				{
 					id: "7DE39E5228DABFA0"
@@ -1223,6 +1431,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1251,6 +1463,10 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/avoid_vibration"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:sculk_sensor"
+					}
 				}
 				{
 					id: "3B5DB58F6665DE9C"
@@ -1275,6 +1491,10 @@
 					type: "advancement"
 					advancement: "dungeons_arise:find_plague_asylum"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:sculk_sensor"
+					}
 				}
 			]
 			rewards: [
@@ -1315,18 +1535,30 @@
 					type: "advancement"
 					advancement: "dungeons_arise:find_thornborn_towers"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:iron_bars"
+					}
 				}
 				{
 					id: "3BFA81CAE0349B79"
 					type: "advancement"
 					advancement: "dungeons_arise:find_mechanical_nest"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:iron_bars"
+					}
 				}
 				{
 					id: "191BC64814872FBB"
 					type: "advancement"
 					advancement: "dungeons_arise:find_typhon"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:iron_bars"
+					}
 				}
 			]
 			rewards: [
@@ -1373,6 +1605,10 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/revaulting"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:heavy_core"
+					}
 				}
 				{
 					id: "36AA86ED2AD48F60"
@@ -1419,24 +1655,40 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/adventuring_time"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 				{
 					id: "1AC3AC1C13E21DB2"
 					type: "advancement"
 					advancement: "biomeswevegone:biomeswevegone/adventure/true_traveler"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 				{
 					id: "3FDBC6AC2C2F9265"
 					type: "advancement"
 					advancement: "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 				{
 					id: "33CAC8675BBD0361"
 					type: "advancement"
 					advancement: "hopo:minecraft/adventure/locate_all_underwater_structures"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [
@@ -1491,6 +1743,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1536,6 +1792,10 @@
 					type: "advancement"
 					advancement: "minecraft:story/enter_the_nether"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
 				}
 			]
 			rewards: [
@@ -1575,12 +1835,20 @@
 					type: "advancement"
 					advancement: "minecraft:nether/find_fortress"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
 				}
 				{
 					id: "343CAA077E801827"
 					type: "advancement"
 					advancement: "minecraft:nether/obtain_blaze_rod"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
 				}
 				{
 					id: "0F3283B669ADA05B"
@@ -1596,12 +1864,20 @@
 					type: "advancement"
 					advancement: "minecraft:nether/get_wither_skull"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
 				}
 				{
 					id: "3F7847C3CFD0297F"
 					type: "advancement"
 					advancement: "minecraft:story/follow_ender_eye"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
 				}
 			]
 			rewards: [
@@ -1651,30 +1927,50 @@
 					type: "advancement"
 					advancement: "minecraft:nether/find_bastion"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
 				}
 				{
 					id: "6149E6E0C6EF9D20"
 					type: "advancement"
 					advancement: "minecraft:nether/loot_bastion"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
 				}
 				{
 					id: "76D09335ADE24C07"
 					type: "advancement"
 					advancement: "minecraft:nether/distract_piglin"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
 				}
 				{
 					id: "79C66E63E4410DC6"
 					type: "advancement"
 					advancement: "minecraft:nether/obtain_crying_obsidian"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
 				}
 				{
 					id: "62D5451A7835C557"
 					type: "advancement"
 					advancement: "minecraft:nether/charge_respawn_anchor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
 				}
 			]
 			rewards: [
@@ -1723,6 +2019,10 @@
 					type: "advancement"
 					advancement: "minecraft:nether/obtain_ancient_debris"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:ancient_debris"
+					}
 				}
 				{
 					id: "296F88529C4B6747"
@@ -1738,6 +2038,10 @@
 					type: "advancement"
 					advancement: "minecraft:nether/use_lodestone"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:ancient_debris"
+					}
 				}
 			]
 			rewards: [
@@ -1784,18 +2088,30 @@
 					type: "advancement"
 					advancement: "dungeons_arise:find_foundry"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:blast_furnace"
+					}
 				}
 				{
 					id: "3EC378E3D8AA0B55"
 					type: "advancement"
 					advancement: "dungeons_arise:find_scorched_mines"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:blast_furnace"
+					}
 				}
 				{
 					id: "77386C48AAE49A3C"
 					type: "advancement"
 					advancement: "mmr:nether_mineshaft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:blast_furnace"
+					}
 				}
 			]
 			rewards: [
@@ -1833,24 +2149,40 @@
 					type: "advancement"
 					advancement: "minecraft:nether/fast_travel"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:warped_fungus_on_a_stick"
+					}
 				}
 				{
 					id: "4DF39B3B8C2D3E9C"
 					type: "advancement"
 					advancement: "minecraft:nether/explore_nether"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:warped_fungus_on_a_stick"
+					}
 				}
 				{
 					id: "252136A9148830B1"
 					type: "advancement"
 					advancement: "minecraft:nether/ride_strider"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:warped_fungus_on_a_stick"
+					}
 				}
 				{
 					id: "1819A6EB9CD96026"
 					type: "advancement"
 					advancement: "minecraft:nether/return_to_sender"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:warped_fungus_on_a_stick"
+					}
 				}
 			]
 			rewards: [
@@ -1899,42 +2231,70 @@
 					type: "advancement"
 					advancement: "mmr:desert_mineshaft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chest_minecart"
+					}
 				}
 				{
 					id: "0E0039321A52F1E7"
 					type: "advancement"
 					advancement: "mmr:mesa_mineshaft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chest_minecart"
+					}
 				}
 				{
 					id: "093DC6C1520B3255"
 					type: "advancement"
 					advancement: "mmr:jungle_mineshaft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chest_minecart"
+					}
 				}
 				{
 					id: "0AA0146AE2F9A1D0"
 					type: "advancement"
 					advancement: "mmr:snowy_mineshaft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chest_minecart"
+					}
 				}
 				{
 					id: "005088A8B8B1A452"
 					type: "advancement"
 					advancement: "mmr:mushroom_mineshaft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chest_minecart"
+					}
 				}
 				{
 					id: "4E6B89E3D308EFC5"
 					type: "advancement"
 					advancement: "mmr:all_mineshafts"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chest_minecart"
+					}
 				}
 				{
 					id: "4F619FD19C59BF2D"
 					type: "advancement"
 					advancement: "hopo:minecraft/adventure/all_mineshaft"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:chest_minecart"
+					}
 				}
 			]
 			rewards: [
@@ -1983,6 +2343,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_5"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2028,6 +2392,10 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/overoverkill"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:mace"
+					}
 				}
 			]
 			rewards: [
@@ -2076,6 +2444,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_7"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_7"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2103,18 +2475,30 @@
 					type: "advancement"
 					advancement: "dungeons_arise:find_heavenly_rider"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:end_stone_bricks"
+					}
 				}
 				{
 					id: "650DB79DFC25DDFA"
 					type: "advancement"
 					advancement: "dungeons_arise:find_heavenly_challenger"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:end_stone_bricks"
+					}
 				}
 				{
 					id: "46DC214459A39838"
 					type: "advancement"
 					advancement: "dungeons_arise:find_heavenly_conqueror"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:end_stone_bricks"
+					}
 				}
 			]
 			rewards: [
@@ -2190,6 +2574,10 @@
 					type: "advancement"
 					advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:spire_armor_trim_smithing_template"
+					}
 				}
 			]
 			rewards: [
@@ -2221,8 +2609,8 @@
 			optional: true
 		}
 	]
-	title: "Missões"
+	title: "&2Exploração"
 	subtitle: [
-		"&2Exploração&7: do Tier I em diante"
+		"O mundo é largo, e as ruínas, raras"
 	]
 }

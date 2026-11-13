@@ -8,9 +8,48 @@
 		id: "vampirism:vampire_fang"
 	}
 	id: "34925CE37F7AE381"
-	order_index: 20
+	order_index: 14
 	quest_links: [ ]
 	quests: [
+		{
+			id: "419E736DAFB87A6D"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "vampirism:vampire_fang"
+			}
+			tasks: [
+				{
+					id: "2FDF01E3F5A399C4"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1AC86CB7ED115F2F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "A Guerra da Noite"
+			description: [
+				"&7Há séculos as aldeias de Heartforge trancam as portas ao pôr do sol. Nas florestas de névoa vivem os que bebem sangue,"
+				"&7e atrás deles marcham os caçadores, com estacas, alho e água benta. Entre os jacarandás roxos, uma terceira raça"
+				"&7não bebe: devora. São os lobisomens, que têm crônica própria."
+				""
+				"&7Cada alma jura a &4uma só facção&7: &4Vampiro&7, &9Caçador&7 ou &8Lobisomem&7. Quem jurou a uma não serve às outras"
+				"&7sem antes se curar. Os marcadores &4[Vampiro]&7 e &9[Caçador]&7 dizem a que caminho cada página pertence; as páginas sem marcador"
+				"&7servem a todos, e &5[Banquete]&7 é a cozinha da noite, opcional."
+				""
+				"&7Os ferreiros do Coração pagam pelo que cada facção arranca da outra: &6presas&7, &6corações humanos&7, &6sangue puro&7,"
+				"&7&6inteligência de caçador&7 e &6peles de lobisomem&7 entram nos Corações do Tier."
+				""
+				"&7Comece pela &6Encruzilhada da Noite&7. Depois, escolha o seu lado."
+			]
+		}
 		{
 			id: "212E600545713920"
 			x: 0.0d
@@ -44,12 +83,20 @@
 			dependencies: [
 				"212E600545713920"
 			]
+			icon: {
+				count: 1
+				id: "vampirism:vampire_book"
+			}
 			tasks: [
 				{
 					id: "71064EC5E68FA215"
 					type: "advancement"
 					advancement: "vampirism:main/root"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:vampire_book"
+					}
 				}
 				{
 					id: "2C511D284F9EC6C9"
@@ -108,12 +155,20 @@
 			dependencies: [
 				"2185652AAB4F17D0"
 			]
+			icon: {
+				count: 1
+				id: "vampirism:vampire_orchid"
+			}
 			tasks: [
 				{
 					id: "2E89BF9EB92BE703"
 					type: "advancement"
 					advancement: "vampirism:main/vampire_forest"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:vampire_orchid"
+					}
 				}
 				{
 					id: "45941E5ABC9381E2"
@@ -177,6 +232,10 @@
 					type: "advancement"
 					advancement: "vampirism:hunter/become_hunter"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:injection_garlic"
+					}
 				}
 				{
 					id: "3AA09BC719AA0736"
@@ -192,6 +251,10 @@
 					type: "advancement"
 					advancement: "vampirism:hunter/stake"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:injection_garlic"
+					}
 				}
 			]
 			rewards: [
@@ -286,18 +349,30 @@
 				"2185652AAB4F17D0"
 				"28BEF2E097218D1C"
 			]
+			icon: {
+				count: 1
+				id: "vampirism:blood_bottle"
+			}
 			tasks: [
 				{
 					id: "3ACC6D18F11F0336"
 					type: "advancement"
 					advancement: "vampirism:vampire/become_vampire"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:blood_bottle"
+					}
 				}
 				{
 					id: "064B5B86A612975B"
 					type: "advancement"
 					advancement: "vampirism:vampire/first_blood"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:blood_bottle"
+					}
 				}
 				{
 					id: "48B63B8FC0811D37"
@@ -370,6 +445,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -404,6 +483,10 @@
 					type: "advancement"
 					advancement: "vampirism:main/regicide"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:vampire_baron_heart"
+					}
 				}
 			]
 			rewards: [
@@ -434,12 +517,20 @@
 			dependencies: [
 				"40FF1F3A6D96E950"
 			]
+			icon: {
+				count: 1
+				id: "vampirism:altar_inspiration"
+			}
 			tasks: [
 				{
 					id: "5533D53ACB5AFF39"
 					type: "advancement"
 					advancement: "vampirism:vampire/extra_storage"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:altar_inspiration"
+					}
 				}
 				{
 					id: "5B97ACDD0883CE80"
@@ -717,12 +808,20 @@
 					type: "advancement"
 					advancement: "vampiresdelight:main/pour_blood_wine"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampiresdelight:blood_syrup"
+					}
 				}
 				{
 					id: "3DBFA6A063314D9B"
 					type: "advancement"
 					advancement: "vampiresdelight:main/place_blood_wine_bottle_on_shelf"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampiresdelight:blood_syrup"
+					}
 				}
 			]
 			rewards: [
@@ -946,6 +1045,10 @@
 					type: "advancement"
 					advancement: "vampirism:vampire/blood_cult"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:altar_infusion"
+					}
 				}
 			]
 			rewards: [
@@ -1153,12 +1256,20 @@
 					type: "advancement"
 					advancement: "vampirism:vampire/bat"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:oblivion_potion"
+					}
 				}
 				{
 					id: "5965DAF49AABDDE6"
 					type: "advancement"
 					advancement: "vampirism:vampire/resurrect"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:oblivion_potion"
+					}
 				}
 			]
 			rewards: [
@@ -1224,6 +1335,10 @@
 					type: "advancement"
 					advancement: "vampirism:hunter/cure_vampire_villager"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:alchemy_table"
+					}
 				}
 			]
 			rewards: [
@@ -1267,6 +1382,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1428,12 +1547,20 @@
 			dependencies: [
 				"34972E67FF805C4B"
 			]
+			icon: {
+				count: 1
+				id: "vampirism:pure_blood_0"
+			}
 			tasks: [
 				{
 					id: "3E15B0B577D09A42"
 					type: "advancement"
 					advancement: "vampirism:vampire/kill_mother"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:pure_blood_0"
+					}
 				}
 				{
 					id: "1137E2A596E7FD70"
@@ -1470,12 +1597,20 @@
 			dependencies: [
 				"34972E67FF805C4B"
 			]
+			icon: {
+				count: 1
+				id: "vampirism:hunter_intel_1"
+			}
 			tasks: [
 				{
 					id: "452EB5F74D6BA720"
 					type: "advancement"
 					advancement: "vampirism:hunter/kill_mother"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:hunter_intel_1"
+					}
 				}
 				{
 					id: "69288956BDF06249"
@@ -1524,12 +1659,20 @@
 			dependencies: [
 				"34972E67FF805C4B"
 			]
+			icon: {
+				count: 1
+				id: "vampirism:soul_orb_vampire"
+			}
 			tasks: [
 				{
 					id: "5D338D485F436556"
 					type: "advancement"
 					advancement: "vampirism:hunter/kill_resurrected_vampire"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:soul_orb_vampire"
+					}
 				}
 				{
 					id: "657365419A4839CC"
@@ -1629,6 +1772,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -1689,6 +1836,10 @@
 					type: "advancement"
 					advancement: "vampirism:vampire/max_level"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:pure_blood_2"
+					}
 				}
 			]
 			rewards: [
@@ -1744,6 +1895,10 @@
 					type: "advancement"
 					advancement: "vampirism:hunter/technology"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:basic_tech_crossbow"
+					}
 				}
 				{
 					id: "70C1412EF5082A82"
@@ -1888,6 +2043,10 @@
 					type: "advancement"
 					advancement: "vampirism:hunter/max_level"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:hunter_intel_4"
+					}
 				}
 				{
 					id: "089E47489A66A53C"
@@ -1941,6 +2100,10 @@
 					type: "advancement"
 					advancement: "vampirism:minion/become_lord"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:totem_base"
+					}
 				}
 				{
 					id: "3D6EA3F0F0D8BD9D"
@@ -1956,6 +2119,10 @@
 					type: "advancement"
 					advancement: "vampirism:minion/collect_blood"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:totem_base"
+					}
 				}
 			]
 			rewards: [
@@ -2002,6 +2169,10 @@
 					type: "advancement"
 					advancement: "vampirism:minion/become_lord"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:totem_base"
+					}
 				}
 				{
 					id: "3330537EEFE90D6E"
@@ -2017,6 +2188,10 @@
 					type: "advancement"
 					advancement: "vampirism:minion/collect_hunter_items"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:totem_base"
+					}
 				}
 			]
 			rewards: [
@@ -2059,6 +2234,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_4"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_4"
+					}
 				}
 			]
 			rewards: [ ]
@@ -2100,6 +2279,10 @@
 					type: "advancement"
 					advancement: "vampirism:vampire/max_lord"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:heart_seeker_ultimate"
+					}
 				}
 			]
 			rewards: [
@@ -2185,6 +2368,10 @@
 					type: "advancement"
 					advancement: "vampirism:hunter/max_lord"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "vampirism:hunter_axe_ultimate"
+					}
 				}
 			]
 			rewards: [
@@ -2213,8 +2400,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&4Vampiros e Caçadores"
 	subtitle: [
-		"&4Vampiros e Caçadores&7: do Tier I em diante"
+		"Sangue, alho e estacas"
 	]
 }

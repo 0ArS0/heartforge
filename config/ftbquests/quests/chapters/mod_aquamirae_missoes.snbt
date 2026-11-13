@@ -8,9 +8,42 @@
 		id: "aquamirae:shell_horn"
 	}
 	id: "61E19F0C2B203F11"
-	order_index: 28
+	order_index: 18
 	quest_links: [ ]
 	quests: [
+		{
+			id: "16D6ABF55B90DB5F"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			size: 2.0d
+			icon: {
+				count: 1
+				id: "aquamirae:shell_horn"
+			}
+			tasks: [
+				{
+					id: "0C80A445EE4BFFDD"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "411EFFFE0E70DF73"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Diário de Bordo"
+			description: [
+				"&7Nos mares mais gelados do norte, o gelo se ergue em paredes e forma um labirinto sem fim."
+				"&7Dezenas de navios piratas encalharam ali e nunca mais partiram. As tripulações ainda estão a bordo,"
+				"&7só que agora servem a algo que mora no fundo."
+				""
+				"&7Os diários falam de uma capitã que mergulhou atrás de um tesouro e voltou outra coisa."
+				"&7Comece encontrando o &bLabirinto de Gelo&7, sobre o Deep Frozen Ocean."
+			]
+		}
 		{
 			id: "58A4B05A7B807A68"
 			x: 0.0d
@@ -53,6 +86,10 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/find_ice_maze"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:packed_ice"
+					}
 				}
 				{
 					id: "786B8A06A9AA1947"
@@ -112,6 +149,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_1"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "minecraft:compass"
+					}
 				}
 			]
 			rewards: [ ]
@@ -290,6 +331,10 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/tame_shellback"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:sea_stew"
+					}
 				}
 				{
 					id: "6D8A1FD86D2BE91A"
@@ -356,12 +401,20 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_pirate_pouch"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:shell_horn"
+					}
 				}
 				{
 					id: "23CEAD3B6B5BAF7A"
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_shell_horn"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:shell_horn"
+					}
 				}
 			]
 			rewards: [
@@ -410,6 +463,10 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_ship_graveyard_echo"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:ship_graveyard_echo"
+					}
 				}
 				{
 					id: "4E6F25FB61F6FCEA"
@@ -463,6 +520,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_2"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_2"
+					}
 				}
 			]
 			rewards: [ ]
@@ -497,12 +558,20 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_frozen_key"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:cornelia_heart"
+					}
 				}
 				{
 					id: "65DBF4274AA4007E"
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_all_salvager_armor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:cornelia_heart"
+					}
 				}
 			]
 			rewards: [
@@ -611,12 +680,20 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_terrible_upgrade_smithing_template"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:terrible_chestplate"
+					}
 				}
 				{
 					id: "4FD6FD6738304088"
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_all_terrible_armor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:terrible_chestplate"
+					}
 				}
 				{
 					id: "796A4BAAB7260572"
@@ -670,6 +747,10 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_rune_of_the_storm"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:rune_of_the_storm"
+					}
 				}
 				{
 					id: "2CF9798D66CF1891"
@@ -803,6 +884,10 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_all_terrible_weapons"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:terrible_fang"
+					}
 				}
 			]
 			rewards: [
@@ -846,6 +931,10 @@
 					type: "advancement"
 					advancement: "comamigos_balance:tier/tier_3"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_3"
+					}
 				}
 			]
 			rewards: [ ]
@@ -873,6 +962,10 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_tidepiercer"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:tidepiercer"
+					}
 				}
 				{
 					id: "59019ACCF576D57C"
@@ -940,12 +1033,20 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_abyssal_upgrade_smithing_template"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:abyssal_brigandine"
+					}
 				}
 				{
 					id: "30473412CE488209"
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_all_abyssal_armor"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:abyssal_brigandine"
+					}
 				}
 				{
 					id: "10E8D1512E8F5E3A"
@@ -1097,6 +1198,10 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/obtain_all_abyssal_weapons"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:shatterblade"
+					}
 				}
 			]
 			rewards: [
@@ -1143,12 +1248,20 @@
 					type: "advancement"
 					advancement: "aquamirae:adventure/encounter_the_shipbreaker"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:maelstrom_vestige"
+					}
 				}
 				{
 					id: "33817906F2097422"
 					type: "advancement"
 					advancement: "aquamirae:adventure/survive_the_shipbreaker"
 					criterion: ""
+					icon: {
+						count: 1
+						id: "aquamirae:maelstrom_vestige"
+					}
 				}
 				{
 					id: "25D59D0AB19FECD6"
@@ -1199,8 +1312,8 @@
 			]
 		}
 	]
-	title: "Missões"
+	title: "&bO Mar Gelado"
 	subtitle: [
-		"&bO Mar Gelado&7: do Tier I em diante"
+		"O cemitério de navios"
 	]
 }
