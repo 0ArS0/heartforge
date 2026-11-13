@@ -2397,6 +2397,10 @@ file = "config/handson_delight.properties"
 hash = "6a4ff275c9524ad3810095ca78c864264aa0cbc29e206cb950fc41b147abd573"
 
 [[files]]
+file = "config/heartforge/teclas.txt"
+hash = "b4a0cbe813639ee8ceaf285adc0381eb93bcdd0a549cf82702f07896ecc62b9e"
+
+[[files]]
 file = "config/heartforge_racas.enabled"
 hash = "b6ac5bc39377e44ee783dff946f6703a994f5eb31a438e69dc0735b40060d2e8"
 
@@ -4676,7 +4680,7 @@ hash = "18d586d964bd4b7bb7e37f9b0bbfae1dff34eca8cd4ae10980d57b5e51adaba2"
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "cc271127490537d024cb27b4804d4f5f09d5af2b5c2c7dc1f8ac6482c6476bf3"
+hash = "4cb3cfe647a265e8c4079e6bcf5602131af892af27eef1c4e938889807ae1091"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
