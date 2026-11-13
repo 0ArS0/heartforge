@@ -1,9 +1,0 @@
-{
-    vanillaTextures: {
-        bow: "bray",
-        arrows: "chunky",
-        potionTippedArrows: "chunky",
-        spectralArrows: "chunky"
-    },
-    glowingTextures: true
-}

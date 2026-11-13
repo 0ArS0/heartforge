@@ -1,6 +1,61 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:sophisticatedstorage:controller"
+    },
+    {
+      "stack": "item:sophisticatedstorage:storage_io"
+    },
+    {
+      "stack": "item:sophisticatedstorage:storage_input"
+    },
+    {
+      "stack": "item:sophisticatedstorage:storage_output"
+    }
+  ],
   "lookup_history": [
+    "item:create:whisk",
+    "item:create:mechanical_mixer",
+    "item:create:hand_crank",
+    "item:create:mechanical_press",
+    "item:create:depot",
+    "item:create:wrench",
+    "item:comamigos_balance:tier_heart_2",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:pileof_dark_metal",
+      "amount": 9
+    },
+    "item:sophisticatedstorage:storage_io",
+    "item:sophisticatedstorage:storage_input",
+    "item:sophisticatedstorage:storage_output",
+    "item:sophisticatedstorage:controller",
+    "item:born_in_chaos_v1:transformative_flower",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:seedof_chaos",
+      "amount": 3
+    },
+    "item:quark:seed_pouch{\"quark:item_count\":170,\"quark:stored_item\":{stack:{count:1,id:\"minecraft:wheat_seeds\"}}}",
+    {
+      "type": "item",
+      "id": "minecraft:wheat_seeds",
+      "amount": 18
+    },
+    "item:minecraft:quartz",
+    "item:minecraft:comparator",
+    "item:sophisticatedstorage:storage_link",
+    "item:minecraft:repeater",
+    "item:minecraft:redstone_torch",
+    "item:sophisticatedstorage:barrel{\"sophisticatedstorage:wood_type\":\"oak\"}",
+    "item:sophisticatedstorage:storage_tool",
+    "item:sophisticatedstorage:decoration_table",
+    "item:sophisticatedstorage:upgrade_base",
+    "item:irons_spellbooks:arcane_essence",
+    "item:dwarfs_tyranny:mythril_ingot",
+    "item:artifacts:everlasting_beef",
+    "item:artifacts:eternal_steak",
+    "item:sophisticatedbackpacks:backpack",
     "item:iceandfire:dragon_skull_fire{\"iceandfire:dragon_skull\":{dragonAge:104,stage:5}}",
     "item:minecraft:honeycomb",
     "item:irons_spellbooks:inscription_table",
@@ -47,7 +102,6 @@
       "amount": 4
     },
     "item:born_in_chaos_v1:orbofthe_summoner",
-    "item:born_in_chaos_v1:seedof_chaos",
     {
       "type": "item",
       "id": "born_in_chaos_v1:monster_flesh",
@@ -55,7 +109,6 @@
     },
     "item:born_in_chaos_v1:gnawed_bones",
     "item:born_in_chaos_v1:dark_metal_ingot",
-    "item:born_in_chaos_v1:pileof_dark_metal",
     {
       "type": "item",
       "id": "born_in_chaos_v1:pieceofdarkmetal",
@@ -71,11 +124,9 @@
       "id": "minecraft:rotten_flesh",
       "amount": 34
     },
-    "item:sophisticatedbackpacks:backpack",
     "item:occultism:satchel",
     "item:born_in_chaos_v1:dark_rod",
     "item:born_in_chaos_v1:bone_handle",
-    "item:dwarfs_tyranny:mythril_ingot",
     {
       "type": "item",
       "id": "dwarfs_tyranny:mythril_nugget",
@@ -116,7 +167,6 @@
       "id": "minecraft:paper",
       "amount": 8
     },
-    "item:comamigos_balance:tier_heart_2",
     "item:comamigos_balance:respec_tome",
     "item:quark:cherry_post",
     "item:neoorigins:orb_of_origin",
@@ -143,7 +193,6 @@
     "item:comamigos_balance:tier_heart_3",
     "item:dwarfs_tyranny:rusty_dwarf_armor_helmet",
     "item:create:golden_sheet",
-    "item:create:wrench",
     "item:iceandfire:dragon_skull_ice{\"iceandfire:dragon_skull\":{dragonAge:71,stage:3}}",
     "item:iceandfire:ambrosia",
     {
@@ -175,14 +224,36 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "create:crafting/kinetics/hand_crank",
+    "create:crafting/kinetics/mechanical_press",
+    "minecraft:iron_block",
+    "create:crafting/kinetics/shaft",
+    "create:crafting/kinetics/depot",
+    "create:crafting/materials/andesite_alloy_from_zinc",
+    "quark:tweaks/crafting/utility/better_stone_tools/axe",
+    "create:crafting/materials/zinc_nugget_from_decompacting",
+    "born_in_chaos_v1:pileof_dark_metal_d",
+    "quark:tools/crafting/seed_pouch",
+    "sophisticatedstorage:storage_link",
+    "minecraft:repeater",
+    "minecraft:redstone_torch",
+    "sophisticatedstorage:generic_barrel",
+    "sophisticatedstorage:storage_tool",
     "biomeswevegone:zelkova_planks",
+    "sophisticatedstorage:decoration_table",
+    "sophisticatedstorage:upgrade_base",
+    "minecraft:iron_shovel",
+    "terralith:lever_alt",
+    "biomeswevegone:zelkova_slab",
+    "minecraft:iron_pickaxe",
+    "minecraft:clay",
+    "simplyswords:iron_longsword",
+    "minecraft:iron_axe",
     "minecraft:furnace",
     "minecraft:bone_meal",
     "werewolves:bone",
-    "minecraft:iron_axe",
     "minecraft:iron_ingot_from_iron_block",
     "minecraft:blaze_powder",
-    "minecraft:iron_shovel",
     "minecraft:iron_chestplate",
     "minecraft:iron_leggings",
     "minecraft:iron_boots",
@@ -201,7 +272,6 @@
     "biomeswevegone:zelkova_fence",
     "quark:tweaks/crafting/utility/better_stone_tools/hoe",
     "minecraft:smoker",
-    "minecraft:iron_pickaxe",
     "handcrafted:hammer",
     "handcrafted:birch_pillar_trim",
     "minecraft:birch_slab",
@@ -212,15 +282,11 @@
     "everycomp:hc/biomeswevegone/zelkova_corner_trim",
     "biomeswevegone:zelkova_wood",
     "minecraft:stick",
-    "biomeswevegone:zelkova_slab",
     "minecraft:white_bed",
-    "born_in_chaos_v1:pileof_dark_metal_d",
     "biomeswevegone:zelkova_boat",
-    "simplyswords:iron_longsword",
     "minecraft:crafting_table",
     "born_in_chaos_v1:gnawed_bones_k",
     "quark:tweaks/crafting/utility/better_stone_tools/shovel",
-    "quark:tweaks/crafting/utility/better_stone_tools/axe",
     "quark:tweaks/crafting/utility/better_stone_tools/pickaxe",
     "minecraft:oak_boat",
     "born_in_chaos_v1:fused_bone_k",

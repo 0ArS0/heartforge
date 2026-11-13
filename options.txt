@@ -474,8 +474,8 @@ key_key.freecam.tripodReset:key.keyboard.unknown
 key_key.freecam.configGui:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.entityculling.toggle:key.keyboard.unknown
-key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.j
 key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.f:CONTROL
+key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.j
 soundCategory_master:0.04966887417218543
 soundCategory_music:0.0
 soundCategory_record:0.4964788732394366

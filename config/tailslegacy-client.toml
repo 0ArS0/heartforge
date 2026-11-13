@@ -1,5 +1,0 @@
-[client]
-	#Whether to hide the preview in the editor screen when in third person mode.
-	hidePreviewInThirdPerson = true
-	#The local player's customization data. Editing this manually is discouraged.
-	localPlayerData = "{\"parts\":[],\"version\":2}"
