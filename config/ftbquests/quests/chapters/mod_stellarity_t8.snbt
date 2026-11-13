@@ -4,31 +4,47 @@
 	filename: "mod_stellarity_t8"
 	group: "1D5EF08E4C981320"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_8"
 	}
 	id: "7FFD4BEE9F1D2352"
-	images: [ ]
-	order_index: 3
+	order_index: 119
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_8"
-			}
 			id: "0CDFAB0EB15BDD95"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_8"
-				criterion: ""
-				id: "4E93E5E8C8A6B2EF"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.8d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_8"
+			}
+			tasks: [
+				{
+					id: "4E93E5E8C8A6B2EF"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_8"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&eTier VIII"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &eTier VIII&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "54D17D9495DB86DC"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "minecraft:netherite_chestplate"
+			}
 			dependencies: [
 				"3A8382176892D603"
 				"17B55D1CEFE83737"
@@ -36,56 +52,98 @@
 				"59247486A1DB7267"
 				"0CDFAB0EB15BDD95"
 			]
-			icon: {
-				id: "minecraft:netherite_chestplate"
-			}
-			id: "54D17D9495DB86DC"
-			rewards: [{
-				id: "7098B073B20E78CE"
-				type: "xp"
-				xp: 1040
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					advancement: "stellarity:dragons_den/third_times_the_charm"
-					criterion: ""
 					id: "484DF4C3889A49F1"
 					type: "advancement"
+					advancement: "stellarity:dragons_den/third_times_the_charm"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:aota/cancel_damage_hallowed_armor"
-					criterion: ""
 					id: "03664830AAADB4CC"
 					type: "advancement"
+					advancement: "stellarity:aota/cancel_damage_hallowed_armor"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:exploration/shimmer/power_overdrive"
-					criterion: ""
 					id: "5CC591847C3FA2C8"
 					type: "advancement"
+					advancement: "stellarity:exploration/shimmer/power_overdrive"
+					criterion: ""
 				}
 				{
-					advancement: "stellarity:husbandry/absolute_devotion"
-					criterion: ""
 					id: "1610302EC8EA56E3"
 					type: "advancement"
+					advancement: "stellarity:husbandry/absolute_devotion"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "7098B073B20E78CE"
+					type: "xp"
+					xp: 1040
+				}
+			]
+			title: "Aleluia!"
+			description: [
+				"&7O altar fica mais forte a cada queda do dragão; a terceira invocação abre suas receitas mais terríveis."
+				"&7Netherite banhada em lingotes sagrados vira uma armadura com que às vezes simplesmente não se é atingido."
+				"&7Sete comidas divinas, sete dons eternos: o corpo de um mortal não deveria aguentar tanto, e mesmo assim os campeões comem todas."
+				"&7E há quem eleve até uma enxada a relíquia do vazio. A esta altura, é pura devoção."
+				""
+				"&6Objetivo:&r 1. Invoque o Dragão do Fim pela &cterceira vez&r."
+				"&f2. Forje o conjunto de &6Armadura Sagrada&r (netherite + molde de enderite + 4 Lingotes Sagrados por peça, no altar) e esquive-se de um ataque com ela."
+				"&f3. Coma &6todas as comidas divinas&r do Hallow e ganhe todos os bônus permanentes."
+				"&f4. Melhore uma &6Enxada de Netherite&r para a versão de Shulker."
+			]
 		}
 		{
+			id: "10B0C19DD45B1225"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "minecraft:wither_skeleton_skull"
+			}
 			dependencies: [
 				"75ED702A9FA022A3"
 				"730020287343EDD1"
 				"0CDFAB0EB15BDD95"
 			]
-			icon: {
-				id: "minecraft:wither_skeleton_skull"
-			}
-			id: "10B0C19DD45B1225"
-			optional: true
+			tasks: [
+				{
+					id: "1C30E76F516BD5BB"
+					type: "advancement"
+					advancement: "stellarity:eol/fae_flayer"
+					criterion: ""
+				}
+				{
+					id: "5C591FC95154B126"
+					type: "advancement"
+					advancement: "stellarity:dragons_den/kill_la_kill"
+					criterion: ""
+				}
+				{
+					id: "6B62821DEDB54CDD"
+					type: "advancement"
+					advancement: "stellarity:nether/the_beginning"
+					criterion: ""
+				}
+				{
+					id: "273BDD49636DE5FE"
+					type: "advancement"
+					advancement: "stellarity:exploration/truly_max_out_aery_sword"
+					criterion: ""
+				}
+				{
+					id: "1D96D1EC45913620"
+					type: "advancement"
+					advancement: "stellarity:cauldron/balanced_diet_2"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "252BEB7BA647ADFF"
@@ -94,55 +152,47 @@
 				}
 				{
 					id: "2DFE3349C25A85A6"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "stellarity:eol/fae_flayer"
-					criterion: ""
-					id: "1C30E76F516BD5BB"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:dragons_den/kill_la_kill"
-					criterion: ""
-					id: "5C591FC95154B126"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:nether/the_beginning"
-					criterion: ""
-					id: "6B62821DEDB54CDD"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:exploration/truly_max_out_aery_sword"
-					criterion: ""
-					id: "273BDD49636DE5FE"
-					type: "advancement"
-				}
-				{
-					advancement: "stellarity:cauldron/balanced_diet_2"
-					criterion: ""
-					id: "1D96D1EC45913620"
-					type: "advancement"
-				}
+			title: "Feitos Impossíveis"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Levar o altar sagrado ao mundo de cima e chamar a Imperatriz sob o sol. Executar o guardião do Escuro Profundo com uma lâmina de pirata."
+				"&7Invocar o Wither no End, duas pragas no mesmo céu. Levar a lâmina de gelo até o limite absoluto de almas."
+				"&7E provar cada comida do vazio, do sushi prismático à carne de enderman grelhada, boa ou ruim. Loucura? Talvez. Glória? Certamente."
+				""
+				"&6Objetivo:&r 1. Leve um &6Altar do Sagrado&r para o mundo normal, invoque a Imperatriz &cdurante o dia&r e derrote-a."
+				"&f2. Execute um &cWarden&r com a Tamaris."
+				"&f3. Invoque e derrote o &cWither&r no End."
+				"&f4. Leve a &6Colheitadeira Gélida&r ao seu limite absoluto de almas."
+				"&f5. Coma &6todas as comidas&r, boas ou ruins."
 			]
-			x: 2.0d
-			y: 1.6d
+			optional: true
 		}
 		{
-			dependencies: ["54D17D9495DB86DC"]
+			id: "40A6046492862E25"
+			x: 4.0d
+			y: 0.0d
 			icon: {
+				count: 1
 				id: "comamigos_balance:obsidilith_heart"
 			}
-			id: "40A6046492862E25"
+			dependencies: [
+				"54D17D9495DB86DC"
+			]
+			tasks: [
+				{
+					id: "586915A210D7AB4B"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/victory"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "2C8C6E7823096220"
@@ -151,21 +201,25 @@
 				}
 				{
 					id: "7A254D2A0922843D"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
-					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "comamigos_balance:tier/victory"
-				criterion: ""
-				id: "586915A210D7AB4B"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: 0.0d
+			title: "&8A Última Pedra"
+			description: [
+				"&7Nas ilhas do End, uma pedra viva espera desde antes dos anões, antes dos dragões, antes dos selos."
+				"&7O &8Obsidilith&7 não guarda tesouro nenhum. Ele é o fim da crônica."
+				""
+				"&6Objetivo:&r 1. Derrote o &8Obsidilith&r, o boss final, seguindo o capítulo dos bosses e do Tier VIII."
+				"&f2. A tarefa se cumpre com a &6vitória da companhia&r."
+			]
 		}
+	]
+	title: "&eTier VIII&7 - O Divino"
+	subtitle: [
+		"&5O End&7, &eTier VIII"
 	]
 }

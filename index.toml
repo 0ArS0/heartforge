@@ -1810,551 +1810,551 @@ hash = "22ad2b79609cd544299b734b6168837b1516ed345467aeeabb5d1b6ab412e79e"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "3762f1b5b0a5428e31a57805e90daa1165ff81593f33be3f2d77083c3f096c67"
+hash = "5b64ab03961b2ac83cc2fc36d9b4658d10cfb5e8b3e3444941a663e41cf793e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_aquamirae.snbt"
-hash = "39425c45f77313a0ce48a1c35dd0c7936141ae40895c4a35dc49c367e3e89249"
+hash = "956f89c4f9bb54ce1417a3e4d27f22804a5a11e4b5c9cef6ec39c38e6d6b087e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_aquamirae_t1.snbt"
-hash = "09edbb5cc44aed3e2f1a9eb0fa9bb604f12983cd52fc345af99e0debfa8de16e"
+hash = "016fa20ea9f2a3364dd8df5f91082e07f9f5be25aa038989da75f5e104d2c8e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_aquamirae_t2.snbt"
-hash = "e39ca9ad814b7f6a961444f6bc4dfbc4dfdb1ec51f5e4e6849d59359563dfe46"
+hash = "4355676e1fef7af07be694f08a0772bc762a4a285afa0697199b1dde4ca7fb78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_aquamirae_t3.snbt"
-hash = "f78b21a9a44cb09cf8dfe7effeeb0c9d141189fb903c9ffd8e1bf68655bad0bb"
+hash = "fd2d5e7014007595c7df260417b053b87fd89b193b558d9f4ed8d7e83346f235"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bic.snbt"
-hash = "5939e80e02f33b3b4468943bafd30cf498f151b5b36cda7eb16c5a774b7220df"
+hash = "c9e15c64e5e9b6d213899ea66c79c7d9abf42c4d4136a11a5bf87ed779366709"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bic_t1.snbt"
-hash = "1aafd0f8ae2515f35d3fca7180531dbd60007de9f312b7f0bc3219de3c357d75"
+hash = "740e7bee3b9c42ec8fb753978d5801340fcb67ec57400cfa5474d470e7686bb8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bic_t2.snbt"
-hash = "13b8ba8a64215b265f5b40410aae3c0a13379ba861192cc7507d54b8736e0ab6"
+hash = "962cbe50aec185aa9d5093b8c22e59b8c1ebd2ef9e40febf0692d2d5187d37dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bic_t3.snbt"
-hash = "49812a5d21fdf81f910206865001b367beb515303e768350e93e9efabf00f97e"
+hash = "f0eff8f6300093f40eaa68d2ab6dab2053c890db864472df2cc077f736d6bf4a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bic_t4.snbt"
-hash = "65b9b771f93511fbfdcc6a016b312b1aa9cd818a37bd8a466a42a4ddb47eb5a3"
+hash = "d7f88675877ac8117737f6da8732643b5e920b658cf6828646486850758100f2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bic_t7.snbt"
-hash = "643da5a8cb75ebc6c12eb04c63a99572dfa278225e9d5459e2b3c512f01e504d"
+hash = "7c0e75935fdd4a772b6d4a684b56efa686704882ca6f46f9521aae20bca4f1cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses.snbt"
-hash = "c312a46c377024ee9edfce48c1eb6f82921f532d365b580aca52f7fbcab5871f"
+hash = "5f67932533b280d5b917cf082e746b75784debe5579b958d47866cc440ccd8a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses_t2.snbt"
-hash = "37d20bd586726e055deadbd251e18b7534d150d45f6a4c33daf272bf10382c09"
+hash = "3ba9bb0b9469b0f8f7dfb213eae097ce1a79ad221e8d225cb8912ab83a2294a6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses_t3.snbt"
-hash = "fb0ed560d8554b7af9c7f2731db0d32bbfaf313a492029ed70de8daf2b91472c"
+hash = "f860eb905f1ba1940e1c43170964cfb12f02a76308a00fe1edfd1215e1c9469d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses_t4.snbt"
-hash = "3a2a307ddc4647c3f5efa29d926f6b7d6a8889684853e93620263e4933b329fe"
+hash = "c794bb5147245725d6fe36f1ac5f3cdd6d22d75862fd015b17afd556686a8277"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses_t5.snbt"
-hash = "f58293209b6dfa1cb5680dd5592cb37fc9d0cee026bc4ff9db9c75a95dc61a29"
+hash = "e85d8b767b8e9180d0eef9d15b2e6866477199dd819145fa461129c3d116ffe5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses_t6.snbt"
-hash = "dce81b7bddc7335f7170a143d140eaf0e5cf26ff33c10801cec79c8227190dd5"
+hash = "43651749d5a17cb8cc519debce742d0d4f7397316d99362b0b0c045a1498fc5d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses_t7.snbt"
-hash = "a410d739b5ebdb696b68aff028364ed766435f2c94f71104395f749e0774863e"
+hash = "e3abc7a794943d36500cf88b67fd47b94c8f85440408f075a0d964f76e75cabc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses_t8.snbt"
-hash = "3152d27828cf0f3eb6178bac3251de261d7b542042d44bc6161541b8cf25d88b"
+hash = "526cec7c66fbb7fda6f8c8b8af3b3cbdb1007e6b2d19fb097c6b2ac1b498bede"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania.snbt"
-hash = "22995a571d9017122bf216030d757c4c44e8cbe30372338ed777eceea4de680f"
+hash = "1cf6b76f27d19af94981a3961ef85be207442348fb3204ed072ecb27a1bde521"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania_t1.snbt"
-hash = "901a118385d11f10b6147bf6a5db83f58aeaa60cb33be45ac52bda2e55db41bb"
+hash = "1153355c9cb71e6fce7cef41cff35b452ad344d607070439c92c0fdb34be2338"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania_t2.snbt"
-hash = "9de484eda43754c2dd7120b63ee072148f6a9db57a772711c17b4a64b4a7d198"
+hash = "dba2ff2f87d2fb797206825eb3ae63f76b9b9b59f96631a38588b07ea1fb0629"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania_t3.snbt"
-hash = "11f6f06af5c2cabd88a1b75947a46a6509d0d23a34d28e2d459af3b877c6fb7c"
+hash = "a47f995b7de34b1a65b13c297f6e9aa1a5b4acf716df9019a8a3c7304a95ecaf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania_t4.snbt"
-hash = "1162174c6e45a7f381bbf43119e11f1ddc550a226d4f8a3501ccdf6df953c985"
+hash = "a696f5e7d77d6a9d9fffde7eae0f312bdcf92e90d509e1bc9b4dbe09bc50d051"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania_t5.snbt"
-hash = "ab097f49cbf3463342647b8909b67cc79a1fe5df4315d4f00496ccb4f2ff70fa"
+hash = "160730951310a591028470c311223509d7777558437a74aa1f30e65b9c3c131c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania_t6.snbt"
-hash = "e40b6943d211f7616c9df5970e01683090c16ab99c71b8626a6e701f5e1968df"
+hash = "55a913fbda0eced5dd57e43e11c601f8c7bd9a33d6d3c33f07e11dfe431f6b91"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania_t7.snbt"
-hash = "417c8724ce1526addba8e9212f16844242ada3785be5b29d05f2fa51b41120ee"
+hash = "e2b87c5c3c1a9584e87df1dadca842074a0c7c585d8052c84780635e797e7a32"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania_t8.snbt"
-hash = "83d4ee0d72e9320918a0a1dac2835644aed4d0bbdcd6e55c7d4157f522f5360d"
+hash = "8b9afb06c3c54b220501e2170f0f8c27c61dfd241a0423dd2de70d32adfa4edd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm.snbt"
-hash = "4acaecc049d9739e6fb81a060a49376388d1d66b1ad8a43e8d06b73e90eae0ac"
+hash = "a42c65ac52149835bbde32cc074669a3270f460f6413b1ded25848e433ed6f29"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm_t1.snbt"
-hash = "bb591fd643271a7f56a8c14f8fa8fa2ab73e7d9c3ba585eb0078f160885a7b18"
+hash = "874c73f4d11921ab8301dc4ec89720973c3aa2215876a566aaec820ae251c8fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm_t2.snbt"
-hash = "6381f7e20d109e5a68aa2dfdc7f807f5234835eeaa133fdb4292b561c2565a59"
+hash = "01a09761d5429f09c4044719facae9988e2fc77b29f3a11fe5f58b598886747e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm_t3.snbt"
-hash = "c6c6f8b6b7c34369cb97f82c5fe096daf6a3e1c74e94dca7af12cb332f8567e4"
+hash = "7a496909dec3de7aff3ef05c5c5b6ac402b025396b83e42e018f47a68c59ba18"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm_t4.snbt"
-hash = "9a824a368308dbdf9c0ce8dc8402c50138b6d4a11cedbd75ba52acc45da27611"
+hash = "051a45134498b364472ba312d6356fa16688d9c16c3eef7842a06e4f70893aac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm_t5.snbt"
-hash = "4e5868056431830fc5f05bfffb21e72f93a81ba2ceb31b0dc209a15a6b08a5ed"
+hash = "a5f01ad6f2285f160afaf9e4689492b610e94bcc83aba04bda32638b36dd98a3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm_t6.snbt"
-hash = "58513774abec21a66ce64f12c6ebcb1b23ead26fe22cfb2545ec00e998035bad"
+hash = "ac28098766435d5bd1812824e9f3790b819937f78b4c1c5648d303cb8164c445"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm_t7.snbt"
-hash = "66a76833f986dcab42474be41ba58f64b64a18a9c71cf1c33de68e69ea9652a2"
+hash = "8ab4f0ca5a4cbe7c942e89312de5d32bc7aa24dff69feaed1757374899efaf6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cozinha.snbt"
-hash = "d9d2f0a3bada542ed26ad03c6e8dc2fb2c587660a3d1438c99df096825d0873a"
+hash = "e9b59c7246e06e1723ff58b343e34bd6480188f77dec671608a182918430f6a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cozinha_t1.snbt"
-hash = "a76353b569b25845a5a03e235b915bbd6effe634f628b336d1ba967b38f79b87"
+hash = "fed4ed430cedb9a703ce7b2870e939c1f3b81a1ce4eb861a9b335f6f96791b3e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cozinha_t2.snbt"
-hash = "371d0f2bd073d094ad275296ef9d1ba0f3a944179cd35c5a7ec827338608856b"
+hash = "16ffed51dd34128eb22301c993b49e78c50f4aa735ffe683b5d4f4b7bea0ef98"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cozinha_t3.snbt"
-hash = "44b6f9a47543a7f53ca694e387e044cc99bdfcc13b263bc870ba1dfa5d1124b0"
+hash = "42ae25a2855f6037cb9c388ad8fced22f35dbcafee08251aea30722031e6b5f8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cozinha_t4.snbt"
-hash = "40b99e5a445969bfcbc21be01199a68885b17411aa44e32ccd856012f4dd3e7b"
+hash = "a080709bbe4430b44d3a61f70e8a8e3bd28d598be34573d306c147ccd17f76ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create.snbt"
-hash = "15fc1dd6456d2faf8ef9d5b7a6bebc668a46170ffafa4de7e0bd25e72beb7686"
+hash = "ba5b765f10318b6aa2fd661db0903f7208a583d96db6c605957d30507a36fec3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_addons.snbt"
-hash = "16d795b0c504dc613e6842ca4e12720f7069d921afc57bc6fc1ecbdaeb071766"
+hash = "e6f4f676b752b33ee76563da53d3a66659293ee552a5a1ff5dac2e9c8fd6d224"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_addons_t1.snbt"
-hash = "25dca3760c7a0ed98e2557b30d11954048dde09f6e7ee7e3fba92a2db9cdc29d"
+hash = "f436cde3016b57f7c67ce1d52c769cfc5c06a543bc2722266989b1a0b1004f6c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_addons_t2.snbt"
-hash = "66fdd60253e5468cefb631df5f483cc733af35401e33c2a34853199b791f619f"
+hash = "82b5d15660b4149454cc1445efd5b0fd97a167d124e43578af67ef109267e598"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_addons_t3.snbt"
-hash = "1231a06618b204bab16b9aff9f1312826b54f794b3d0e3bd00af0caf1619255f"
+hash = "c07d3f058e4d75b0eb5e0f08917796b498b45344e41388f21b1327fcd1790edb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_addons_t4.snbt"
-hash = "50c020fc23244926a3015a93a3bae9aaa3d2807d1771bdc67c3729e6cb925d91"
+hash = "12d63ea8fb311d9eed4cbc4c67ce263d4278ed2d56c6b228080245c5e2c52a50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_addons_t7.snbt"
-hash = "b1c8502c6904b4273237017d1eddb66c32e423f498c770b5ebd14d7a8d356277"
+hash = "c3e7a1e372945553a214dae46e2108c9bb64862e2d126ed0f176f383ad733766"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_t1.snbt"
-hash = "e17998567eac148084137a7b95d4b501751c1f3f21f9b64d17a89f5f9b5ea5d6"
+hash = "5aa2439b375b166d9e0333164ef32ed57aabea4c580ab2599d1c1127036f049d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_t2.snbt"
-hash = "d68ed0721452d7d5e31702362391a6684574c3bd1f1af2bcefb8f8817c8cd793"
+hash = "53f7341289312ad50edf6f14f8a66bc7a7fea38a679daf478591318290eb7d86"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_t3.snbt"
-hash = "2aa8bc22be1032c3e127ff3c237a2d7ec29d9cca1419b673c6f3754573b05171"
+hash = "26408d7076ae7f6f835b322a54ce7d51945e497f1904cdf89e45d8b8f5dc00d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_t4.snbt"
-hash = "3cbe16ab0283cd8c42ce3297415320e87a64e73e51b451d1cfa97f9db5bc0865"
+hash = "d646afc2e8c2cfd5f1100d193b0a8e4d071cc6be0246f85a9130077fb868b920"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_t5.snbt"
-hash = "06edcd08bf4743b98f6f1253ba668b614fb4ca2c7c84081bc56eecabd08effa2"
+hash = "1e5ac98933ee089d72cef302c198c1c6e300a3986e3d5800f5f9157a4bd47bed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_t6.snbt"
-hash = "0452ea4b10f9d14139d9c768b175242d76b70c234b434096ba4e8db5403fe244"
+hash = "d1a60dcc046b632531148613a8555b133d486a81426b8064de6cf3767323c17b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_t7.snbt"
-hash = "1d72c444fac51750fe6355ce3a097b86966507b246e8438565176f5005290ba5"
+hash = "2f58365f91e7d73039983c240f87b1f3366d377ec01f5c3d6927432cce33d88c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_dwarfs.snbt"
-hash = "039a42b847634675a923b28b69d9bd9283924afef0cf913cf60c207fce04afbf"
+hash = "2ffa825671d500596cc02d92e7cffd963f3db2ffddeec8931b9be41c8f8d5b85"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_dwarfs_t1.snbt"
-hash = "6b4798c43005aa138d94112a980708732465cd1bef46bcd8a152a904fb660489"
+hash = "f1b0b4255089a72e9ff2f41414b01a964bd342bb05d8c7a38f0e16d594cff47c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_dwarfs_t2.snbt"
-hash = "a335cf2570b97204f8f26afcca71ab107e367d542b307c1968ede9cd76c26de6"
+hash = "8ad6a212a9a2e02e99397b6a4361999b356a4c0b98941d2fa1c292c7fe1139c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_dwarfs_t3.snbt"
-hash = "25934132335e60a269dd81894c9e6a10c2d3e43321ae188ee03341a0935b9bd8"
+hash = "60c00f967708ad46eaa8b51b2a17c0dcc8512a8aad9bac5611ede20245cefb6f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_dwarfs_t4.snbt"
-hash = "4ce4775571aa6f51a47453640880235b48231775c63e627c435e09edc5c3cbbc"
+hash = "b9b97a938cede9b0d63c7feb3395f3b44d4e2a09b4d4088dd54b2ffa8be2c027"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_dwarfs_t7.snbt"
-hash = "e467912ac3c7b76742877cdbd1807b04506a66458a6f032d9000451cfdab34ef"
+hash = "98eaa7359437fab4b070810cb14a60a9c37fb77e8256fe401eb75d36b9b668a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip.snbt"
-hash = "8cc0c44e4bd03970e0d7a576bc0846d290221271e0edddedb8b80bf49edcde46"
+hash = "c37958de10f71ffbc58c150f0843061c5aa4b2a11143ebf19c4a6ad0a3cb8bf1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip_t1.snbt"
-hash = "19919ba0798536e1e10e0b318e4a928f7bdf90609d422ed25d8a615fc571a76e"
+hash = "4bb9ca3ca5860778f419a64a4d7d6a6b09544172100edba9728c9b6d64c89ce7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip_t2.snbt"
-hash = "d8f60004b40afbb04d6661cec52b7021b87ebdedc72092ac16e0558914c4251f"
+hash = "8eaaaa137a8f78ffebb2454c087170775f859cc1a4bf9687999c1cd0f58610b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip_t3.snbt"
-hash = "f1f68ba3f12256090f04efb6736092226d9cded0dc3f1532889289fd6c543653"
+hash = "83704c769b686bd874e1b7417158f7634c6bed771d87f91f9ba3abb8acee4fb8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip_t4.snbt"
-hash = "f69d585348135a280178b473f3100f1bdce90fb7c34a0bb54a79a3048360f215"
+hash = "5ce3f74183f76f2aa363c0e9cd8860e3122b55abde6829f9b5520b1b2ecdf93f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip_t5.snbt"
-hash = "5f3d205563fb1663b153e3431d48d6d290dbb6ba6119ef19cafee998a5a48076"
+hash = "17413c64f17aa613ab6beeaee14a4cd12f9278dde63895146c18e1cd3a43375e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip_t6.snbt"
-hash = "c7c05e5ca41cdf8d6e895c86d372a0d9c1c1477bec3d724d715c47b3aab18cfc"
+hash = "e31bd249fc6edea58e74a6e2d5f32d425dc536a642608d2c0276777285c9de4c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip_t7.snbt"
-hash = "0080bea42f2df30abc7c23f4e4a07128853ca4128444232b139d977e94e8c687"
+hash = "61a9a2bee02c0d0404af1957d63df5f048e9316a8457c746a714891286fa4a7c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_exploracao.snbt"
-hash = "90a9e1a35bb389278f4f1ba6293307b30ef747eb30692977d2eb1662084b6bbe"
+hash = "2b1bb5e3b4198148deed75c0c9a8f74e0e2c88e6d427152352067d2d33658248"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_exploracao_t1.snbt"
-hash = "32b7a032c954e92181834e45c486b45a9b62fdb16d9cc9ae464afe5d06b7ae59"
+hash = "8da0b3295f1a908a50e7bd8c4d48c944e886af0cfb360960ed94d7b1516199a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_exploracao_t2.snbt"
-hash = "6db0890721f71202b0e8c5839f8e91c2f6d17d409bdd51ecc23f1b9c47cb3ea8"
+hash = "769510005a091ff22b50e2aaab0ce2c3460228fc9548a91ebf34c0419295e5bb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_exploracao_t3.snbt"
-hash = "afb1e827d138269b4ec3d5a8db9e3db9a25e4677adbf70bee731da84d1a8cfec"
+hash = "84f705674d7c276593795c5eb3fcdd7f4823ae91938bfa9b50262d7f787d4afc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_exploracao_t4.snbt"
-hash = "d2521dcdcd6b8e418a28344ae84eb696474c61ea703627781c478f813d361959"
+hash = "dce52b587443aad5374ab3f1991645862feb3a4206cc53f718a46817636b12c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_exploracao_t5.snbt"
-hash = "77b23027369879e9bb82b8605df08f85d58f8ad21b796b50b5f26f5d4bcfa0ba"
+hash = "bd131f26276d1dff7d87556a5c592e7da7b282080d30df2d5da11a8c0d3c42d6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_exploracao_t7.snbt"
-hash = "43d1abcceef13d116b2252ed91950a80f6608d3084ad083e22a5cc5d3a50b985"
+hash = "24b10095142dfe3e2a43f7f8b07afc3fd6cb6606cfbe364f7bcafb3fc15cec2f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_iceandfire.snbt"
-hash = "caab581fe10ef3a93cb0843f26521526c2030f5bdaa58fe6e04273193c7c5988"
+hash = "a6a9b1a20f909a4e7c403d2c15a6d2bb411a8684df68b1e1f69eb376d09d4e33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_iceandfire_t1.snbt"
-hash = "39d28bdcafc07fd7fb053938c873208c92f7bcfa256a10eef0d2f68be31add78"
+hash = "e0f2bdbecd6aba0618ebc4fc169db942bbfe4af560cd1cbb3a175c6d38f7cdc2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_iceandfire_t2.snbt"
-hash = "5a4971c2dd4e878e3e9637ce94e84f7419de1ba89c2be2b5f958480aa1d18e20"
+hash = "c794877e953bf338cd5b25a172e1d289555e919cbbfb5447dd45cda7354cf0b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_iceandfire_t3.snbt"
-hash = "f87c7a232635c83d34726bc5693a94f26a2e87ff4e1e6cf1d13b656cae4e177e"
+hash = "4c8743d681b42abce7b40f5bf376e7f5422b202189c1592ebfd57433489d11ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_iceandfire_t4.snbt"
-hash = "06a176a0ae8a237ff409ba8d6b3e17d8d93d394360ddb74bdcbe5edd1a529bc0"
+hash = "6f58f7675467aada41e064f5943d1ca337a4626e6102e832c9d069486de4c0c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_iceandfire_t5.snbt"
-hash = "26437c8849342387c0c8e9348cb7f04fb2d7d6d138d9e275b71ae90f2f590009"
+hash = "752e817ce952441fac02990eb86fc413d611afd91e51ced02a4f82307aaee0bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_iceandfire_t6.snbt"
-hash = "21053f2c13e3e4f834f4d7b3303d0d6c33e3fdbdeaf18fb1de2ee573263e0c6d"
+hash = "e79c4cf2236e3c1b83e71aaa20b088fbce444ce5fac6dd6175d940f030594226"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons.snbt"
-hash = "7a73a5db8e2b77d9bd38a13f3282c4f385083573acdf2ddaebc70e8dc363dd96"
+hash = "ca6ec903de65f69ea470676de5dd4702739be302df38e86670c3526f70ad1852"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons_t1.snbt"
-hash = "a7126d6fc4db46a55520972120a7014832bc60b73768643e6dadfb94c0462655"
+hash = "a39850c0f6f5ddf803982f69ead6cc8112c301971d348bbb327a4348eb8ec465"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons_t2.snbt"
-hash = "e591932d9c02c70d73aea4f143e5d55c3767902a744c46fd81130b6a683305cd"
+hash = "06128a5c5503482f2a999b46240c2ea2d611c9575c46c2d242ff4fcec52677fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons_t3.snbt"
-hash = "da2bf3722745d74f0b5e9f7038f29d7875677fe8ab00286780c3ca7146826094"
+hash = "dead23b98b8b01af8869467d8b2d83d7d12cc625da746ca94930e55c54566c93"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons_t4.snbt"
-hash = "9150c46613eb03405cff4426a19fdcade894f8b3df927119f1de0239ed3c8888"
+hash = "ce5ca24111ef999c8277f4f6d89be37a5dee9149ded42046840436c3b7da3700"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons_t5.snbt"
-hash = "ed619e16206cec425c1aa02e816c5d8c7555f3aa4ca97fb7cdf20851667e6761"
+hash = "2a39ccf0a6398f094d9db4840c461b0d973052bb66cd527656d8aab52c553b5b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons_t6.snbt"
-hash = "2aa944bc089497dacef3b022dc3929201d93dd93f232fa090d8166f943a16d12"
+hash = "a7faed3ed44b21fa143a114cf5d7bbfe3b5bda4821d6e8b0f10a07ba3727bc50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons_t7.snbt"
-hash = "091ca21f74a207dda02aed0ed764ccc0138f7801b5c2f32c7b95ddb76a46107e"
+hash = "705ea5be0573fdab6714d29f72684ba750b0e3b7599eea5600d51ff5d33f0829"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_mowzies.snbt"
-hash = "31ddd961b807f82b8021584aa1f8552dbcb4add08a2b148341b66806bc0276c7"
+hash = "da5999b0b712bd8e8c594b9473a731da10f16b6beefb7f8b2854b28c69c7eb87"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_mowzies_t1.snbt"
-hash = "160484366e3808286a9cc935b23c2d9a34f21697dfe7598898ee911929dcdbcb"
+hash = "add3ddbfb3b891c45d4308a89ff0c654d6b2c9ed6de9cb09d1a1c48d2119a738"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_mowzies_t2.snbt"
-hash = "c1477c5724ecc677f98fbfc026cc90cc9e8e099ec5902ccd2bdf46b55f49f100"
+hash = "08cd813c46856269b6d28649261ac64f74dd67b76930e0fad09a17ff8cba5dba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_mowzies_t3.snbt"
-hash = "c0a891eb3fb277066b7de4cf796ff3e9c5fd39680c4145b587c5342828368d90"
+hash = "78b910612d22deb7f53da379652e5e8ce8928b888600385076d16c7e49a64edf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_mowzies_t4.snbt"
-hash = "77e22a60a11e33d9a968c7a6d6c6c39a3ae361bc3cf7bc23a1fc365ad1161846"
+hash = "2a12fec9f7172f47b056c6ed4ce2cc9f3f9547ae6ab530b14187683eb184627c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_mowzies_t5.snbt"
-hash = "419110ec53cff3cfd2ffd7499638734c2e2aa6a5ac5161cac99e9d4c8925dac7"
+hash = "4c548c00e1fe6c6198b755fa52a354fb76c85a4494557a9c94b93f8fa677f292"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_myths.snbt"
-hash = "d9d2255caad5b638d39d7818771cb7905d89f1758c49eb55a3fe3b2ae3e42632"
+hash = "04eda647e48382f17c38ed73898701c5dd0cd93696f5e0b554b5bd37ef0570d1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_myths_t1.snbt"
-hash = "cd19bfee1ef83ca98c6e6c304b06bf8d3d8832a66ea5c7efee4551557ca3ab56"
+hash = "cc58e3abbfa560cf5301d86c6c433e898c978edd04901ee57e526885b9aad843"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_myths_t2.snbt"
-hash = "59240cbd56c0cc134f73861a15cb7ac8a8ec0c32f86ad0828a1902465247b89c"
+hash = "9966c7476398bdff49af933b4b8e87ed66ab3e02bb972c6a913dea9781575557"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_myths_t3.snbt"
-hash = "b735a0df17487c4fabc6bb97dd4f8e715c5c88ebf26e1d5f556c281609bcc2a6"
+hash = "6eaeb0246827560a32175a30a81c984209fcb94c50a1a1f6600cc72e1950d976"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_myths_t4.snbt"
-hash = "6c448b0ec5109ee648b5de6ccd64ce7873cf79ef390d3f3e4d140634756fc30c"
+hash = "61147ab264bb68dd5fa19f7edc32a371a39ede696c3fb263a23ef4cb36933be4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_myths_t5.snbt"
-hash = "85879d0df98e51b0c86d8995f65ebdc68f75e14b5b1702a538ab30764e873633"
+hash = "38a45973f7284973062be3c19502efdea0f0f3227ddefc767c4349829e667494"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_myths_t6.snbt"
-hash = "1d6681ff52481602fb1349184a1e10566bced987aeee447e00a9cfa6b0f21b2b"
+hash = "369ad53915b9dfff539c29b7e184a7eaef5ebc73d6db397c1141e0988bfe942c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_occultism.snbt"
-hash = "1715e118a082f00e10eaa485a4178bb8dc413a697b7068b39041c58ad19d15be"
+hash = "29ad68a4dac52856d71572b9be43621e976fa45daa34caa5b34b354f202a7eca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_occultism_t1.snbt"
-hash = "2d30994052d86184ecb9817c4fe7b0cd4584acdfa943082fb6b09822e761736a"
+hash = "26f82a984f3978fe4c3b2dafd726d99bfcf561440234f0fc5dd6dfbfd7874aef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_occultism_t2.snbt"
-hash = "59451d7fd9303cf942420f8e448420689b5d11b1961fe5a4633e11eb2d8c66cf"
+hash = "3edae6849e1b2d0cbe33bd66351a1a4a9da22113721ff48a0fbaa46c0f077e32"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_occultism_t3.snbt"
-hash = "5cf74035aa3bc48d41162d2c4f668dadd057f008c18e3f24e6510989348a7042"
+hash = "af2ada3befcd5b5d98d208c5643fdba5c68be1b9dddbc991fae7eea5b2a28b6f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_occultism_t4.snbt"
-hash = "37c2155510bd0eaca46d612e68d0f6fd578e7a660fea91cacd79cd9a6b706af2"
+hash = "f8dda2745b2c4f9b160db41eead1a3413c5d516f3abf0e3d9ef4a6b6bd7a8230"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_occultism_t5.snbt"
-hash = "1596af78127b3b502feb6fc1514952a77710638c9d784e1e22d153879caf9a7c"
+hash = "0fb55aecd505fa0931b56fc66854eb5bc8f0cab5f10d71e8d35273071fa6ec40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_occultism_t7.snbt"
-hash = "6117c696e5c6bf5acc5eb83316b77463b8e147225d851e2bcf842558f0733a52"
+hash = "d60c309235cfabae9c272a81650148546e6131a1ba7ccab4eda01dc262c4ca1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_stellarity.snbt"
-hash = "b9aba56ed3da40d1bdf95b536638e639fce267f2e3e6b76b1de8023f9c37d9a8"
+hash = "92e567f1f7ed02d950ee04949b55dcc9cbc5d8d75dbfaa54a58d38c58d681467"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_stellarity_t4.snbt"
-hash = "4d7437d17ffd03de7c4332da5a25402f96cc90d189db95331c91e5a8ceae13b0"
+hash = "02bfb5679bf748aeff7adc77043f6b4c3e208687325087caeb48252b92cba242"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_stellarity_t7.snbt"
-hash = "8597da161d437eac320039a0921fbc7f3549cadc0a262d0df936265902534cb3"
+hash = "a3115d218de388ea6c802037b4408d9c41349636448418f7577ca8239762e04e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_stellarity_t8.snbt"
-hash = "629fe6a4982f0d5af8026c20aa3b2ab7590d9a189c08af4d25ba4a6f8d197814"
+hash = "448b784fa365bdc0c36322479b24dc3b4b380deb0f9983a951bf20116a4cf7c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_vampirism.snbt"
-hash = "fda2405f97c13968bd3e5ffe8c91db7fed63bfcba3f1fbb5137fc9e03972104c"
+hash = "d6903430017738ed4ae4b04124b4b60e926dc435e66288518fdb562d11eab94f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_vampirism_t1.snbt"
-hash = "5694d390c50eef28adc3e4302b8345d160321a9e9b993840909e98c4ed668692"
+hash = "0146321447ece3aedc1446ad63a00ea1df9a916e7ece58c3d6d63112a8f12071"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_vampirism_t2.snbt"
-hash = "9932219d3180b96dd1e7cc337baa06237b3e84fb414ed05b99635c28a3cf2f12"
+hash = "06c75734000d45879268f57a74939e1ca84505e2832d581ce33fb51155bd0cea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_vampirism_t3.snbt"
-hash = "072c679b3f5d25af80e86d6e13295ba73ac34ab02eb6609d2b448d76c3cc989d"
+hash = "760183ded062d1067666b7f1b66312f8f9d7521a4628742673abc2e4d2a01bbb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_vampirism_t4.snbt"
-hash = "7358bae58e207ca042324fe61d37c88f5731e7e0661860a6103a0d6a62edb296"
+hash = "ac0b00ba2adbb6fdc01758957c1d00d778dc0e9568d9232a3bd6816eeda29026"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_werewolves.snbt"
-hash = "9c717bc9fec75aa4e1ae94890ffb4be7fefcfc1d642b226d7ba41b6dbc8ade83"
+hash = "0d7e63d37d55007f1138a330f8a0e6d8d7b318606134bc9b3071be7614eedc96"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_werewolves_t1.snbt"
-hash = "e48c712236da34d65175d468488d77d3aa86c79a8aea2ee4155591714f8ca5b5"
+hash = "af2f6b7161fc08583d78d6e53e03858f6a9a5c7b4fe0198eb2e55973e1319d7d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_werewolves_t2.snbt"
-hash = "d0c457a3bc6a6fd7a65d1dfb62e8162e135f7bb397cb894bf373299ea523d4de"
+hash = "11a8122b08e6d80f4b9b3669eb414efb3768e0bf75eb800e9cb6021e7b02c955"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_werewolves_t3.snbt"
-hash = "04ae20bfbb140f107f9e16b6b8f7b7bde320937911331eaa05a03d5e0a0893fc"
+hash = "2855f4f125a99a78945a864e4ce470b542177a733edc64402579f7720b7515dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_werewolves_t4.snbt"
-hash = "d763477097395764940f69f02dc4fb458fc7e37df019f946eef6fee58cd1f7aa"
+hash = "4e03f09ccbe2192613aa2153dbb8821fc871a89c10d125b96d7c78b5a1b9fb25"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/prologo.snbt"
-hash = "44f32e25a39a2eb63baef9fe9f19da5a2e2da8965113093460d7c693b2f2d9f2"
+hash = "cd83ae87a10a60bd19575277aa261c78800e301bd69ce95d070eb8e434811d34"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier1.snbt"
-hash = "83044e43b3ab7f4e62cdae97665c12a99f03cc091d1fa489b478b772b470b347"
+hash = "bfa79072b0d4bdd44373f4448bdd312b6d5a0ef2d5e43f1b65b2fee09f5fdc15"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier2.snbt"
-hash = "f6cb9f42f3553fff2665f0f27e2be95bb3c527ec2de6a187190336908bc5a5d8"
+hash = "29c226d02481be1938575d5f5d5cf98214bbfc4e8c107b736cbf29263c48dee6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier3.snbt"
-hash = "b348430802648bc176b97059f065dbde27898374e89797de78db0c3501c1623c"
+hash = "73498ac3b58277143e6712c6a98d749e8837a1c505bc6d68eb753e5146c9aae8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier4.snbt"
-hash = "e6469209ce59d8ee82b19101569649ffce8c84df7ee0c32becc6d54bf815b6e3"
+hash = "ac37a73e27054131446394162143c5341a8cc1961cff8daad564bb3071ead929"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier5.snbt"
-hash = "5ccbd8f0a8587ba08a6b53a03652f09e73e84ad4a5a7b9ca798b890d1c62152d"
+hash = "825dadd265104369fe41d53cf186e7af44dffc2fe1ba2b7abf1177921c7f4f71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier6.snbt"
-hash = "bebd99285e83ca16f02f797932416b151c31095757429ee1e5248ccfb4aa23ce"
+hash = "279551db68000b798e65aa7b9d00bd618765058ff6e1cb9a1ddd8b37ee7c0915"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier7.snbt"
-hash = "c93b715350f23f9bc2ce9b209ee5a89f2ba1f15f3b974b2c9e332daed0ff6d85"
+hash = "f7727c003bf206ad969f1e2544ad6b27a12578ec2d198c65d0920d47fc57e609"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier8.snbt"
-hash = "0db3f1fad8d65256b6dcdb422a276e1de65ff5ab6f0fdba0521fd192788a5eb7"
+hash = "f6f7cb093865e2de19f65de441006f838c659e4a9b65f9691800b269060b45f7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "5fdad34287cc8eb5f4f0b8f86aa6e332d3656e7a863a92dbd56f7f1741931262"
+hash = "235afdde7384dde68cdbe66b0e2f97c5bb679ded13e762b6c5a65c11a275acb9"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f3c5c565dce9ddee39a0c40e339e20324adf85092cf9ad7235c7f9bcecfecaa3"
+hash = "9c91626fa310e01977848f4a69111d2366b38c82e4e41047f76029d26840661a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/pt_br.snbt"
-hash = "3bc7e050cd9e597e61940f3a60c32cba52e02dbb1cfbe9500a2cf01447cfb1ea"
+hash = "9c91626fa310e01977848f4a69111d2366b38c82e4e41047f76029d26840661a"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -3870,6 +3870,11 @@ hash = "b28018f288f652f70361c25d0e24d2d862ea022d3c7a463cac72ef1dccdc92f7"
 metafile = true
 
 [[files]]
+file = "mods/Asterion-1.7.1-neoforge-mc1.21.1.pw.toml"
+hash = "4557086166f052c4111820ef0ef99574f795926a5ea6363a0cd5843830907f08"
+metafile = true
+
+[[files]]
 file = "mods/AsyncParticles-21.1.4.10+1.21.1.pw.toml"
 hash = "1a3ecd2db9b107244db847990489a55008039093f066d8f3ab111db09e99800e"
 metafile = true
@@ -4044,6 +4049,11 @@ metafile = true
 [[files]]
 file = "mods/Jade-1.21.1-NeoForge-15.10.6.pw.toml"
 hash = "3e584d70d98dee5d4fc87180da27e41c46566a0c881205f1dbd4734bab51b665"
+metafile = true
+
+[[files]]
+file = "mods/KeybindAtlas-v3.0.0-mc1.21.1-neoforge.pw.toml"
+hash = "7d6a3b40ea034ea22f9fa5bedd2fa9b8cb231f25c7570fdcdf844c5d64788929"
 metafile = true
 
 [[files]]
@@ -4250,6 +4260,11 @@ hash = "afbb5730da026b5759a8a09f9544d7c7c83b80fba9c4ee811209b6246a4f5484"
 metafile = true
 
 [[files]]
+file = "mods/ancient_remnants-1.5.2+1.21.1-neoforge.pw.toml"
+hash = "7eb89417fe1d54795aadf674a303033d091f832ea1ed16d723e4aad0fd866cbe"
+metafile = true
+
+[[files]]
 file = "mods/appleskin-neoforge-mc1.21-3.0.9.pw.toml"
 hash = "82183916b6faf37c9e81090bc603e903971966227313cacde2a64bece12f03f2"
 metafile = true
@@ -4372,6 +4387,11 @@ hash = "1b6e46aca0d76c30efc0f765e70a8765eb88bf9003fa6fd40892fd3c3fc52b3e"
 metafile = true
 
 [[files]]
+file = "mods/cinematic_respawn-1.21.1-neoforge-1.4.3.pw.toml"
+hash = "c1d49103cd3a7794f4988e407770d19156ef1979cb10429092c7bcdfabec232b"
+metafile = true
+
+[[files]]
 file = "mods/citadel-1.21.1-2.7.6.pw.toml"
 hash = "0bdba52c2383a61ba9440ff0d3e7219c053f45864d6c05487b4ce92691882f15"
 metafile = true
@@ -4459,6 +4479,11 @@ hash = "0b50d3229d487ba8d5388c0c4265e265dab1fba7aca6501def077ee15f4f3a54"
 [[files]]
 file = "mods/dynamiccrosshair-9.11+1.21.1-neoforge.pw.toml"
 hash = "ec09320371da84bd16c303c0171088838e1fe4c34835ea69247061570f0d2135"
+metafile = true
+
+[[files]]
+file = "mods/easybuilding-neoforge-1.21.1-v1.1.pw.toml"
+hash = "1ff20a3bee8e3af0baed9ec91f5d8f769e8bb5807514f056547de078756871e9"
 metafile = true
 
 [[files]]
@@ -4599,7 +4624,7 @@ hash = "18d586d964bd4b7bb7e37f9b0bbfae1dff34eca8cd4ae10980d57b5e51adaba2"
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "eb9685511088a94672e1b28183125f8be07a37cc1a89649e831fb9f838ba365a"
+hash = "cc271127490537d024cb27b4804d4f5f09d5af2b5c2c7dc1f8ac6482c6476bf3"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
@@ -4713,6 +4738,10 @@ hash = "1e5baa875af59f38eb7c495cf32f5234fba6d2a9c2a6d6cd01b9551a9714a7a8"
 metafile = true
 
 [[files]]
+file = "mods/map-3d-usseewa-neoforge-1.21.1-1.0.0.jar"
+hash = "30fa493f8e1b6c0d2ec245f13d37b5d2bc8a2a952bd427865c9a3d1e3f814cc3"
+
+[[files]]
 file = "mods/mcw-bridges-3.1.2-mc1.21.1neoforge.pw.toml"
 hash = "e4dd41fdd5a519e07afe552cc9339bc098c91a335f3e8d30b4678447c7556c81"
 metafile = true
@@ -4782,8 +4811,17 @@ hash = "910f9b6da16cb8b5f2ab29b9dc5e7548c918136129eed97eef38526397323c6d"
 metafile = true
 
 [[files]]
+file = "mods/oddities-1.0.0-neoforge-1.21.1.jar"
+hash = "9cce89c5c516c4058cedd82be60fb183cab5f71ea13f8874fc55ea7dd24daee1"
+
+[[files]]
 file = "mods/optiboxes-neoforge-1.21.1-1.4.jar"
 hash = "4136b7ac87a89819f3185140d40898f478ced20fa9c536f5903ff472c6e5e18f"
+
+[[files]]
+file = "mods/owo-lib-neoforge-0.12.15.6-beta.1+1.21.pw.toml"
+hash = "db4fab266c8bc045d8434e7bc3a290d05f0d1345c4e11090248b693cebf6707c"
+metafile = true
 
 [[files]]
 file = "mods/packed_packs-neoforge-2.3.1+1.21.1.pw.toml"
@@ -4879,6 +4917,11 @@ hash = "1fc6d6b5843b97003c33b01b40ea5744f9bb07c38bccba61aecf6f4256773f81"
 metafile = true
 
 [[files]]
+file = "mods/simpleblood-1.21.1-1.0.5.pw.toml"
+hash = "2f3f34701fa170fa32c576ca6ea5745be6375a548bd6d0d58d7c6132b3650892"
+metafile = true
+
+[[files]]
 file = "mods/simplyswords-neoforge-1.70.2-1.21.1.pw.toml"
 hash = "2c21691251d6d5fb95bd095f0e40adb01ac2bc282a711fe1c1066f8f886a6976"
 metafile = true
@@ -4957,6 +5000,11 @@ hash = "468bce9a09c01c34058060bc57e226346ffe2795e28d87c8d87cf96c87c60d73"
 metafile = true
 
 [[files]]
+file = "mods/subwild-1.0.5-1.21.1.pw.toml"
+hash = "7f8933d5963ca51d71da5c96db107f2b10b52e6c1a03e24163b285698f9918e9"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642configlib-1.1.8-neoforge-mc1.21.pw.toml"
 hash = "b982c9d64adb928a3d0cae5e9d62753e2c46eff6a9e5898e3b17f99d051bc35c"
 metafile = true
@@ -4987,12 +5035,21 @@ hash = "e5a04084b5c611d389ebdf626fefed07d4dd72c917f4d6d0b042a9e567a4cc5a"
 metafile = true
 
 [[files]]
+file = "mods/thunderhead-neoforge-1.3.0.jar"
+hash = "7d9bc7f0b79c9026c7ce4c82cee701755b4357edce847041bb5209e98014c138"
+
+[[files]]
 file = "mods/tightfire-neoforge-1.21.1-1.0.jar"
 hash = "59f8825aafd2612e5abc658688d07dd6205904534cee9ca539d270410398dfdd"
 
 [[files]]
 file = "mods/tlib-neoforge-1.5.0-1.21.1.pw.toml"
 hash = "6b2c2d5dca10196d4ce05b1a5b6260a70281489a6402f0336890aab3e5a66b57"
+metafile = true
+
+[[files]]
+file = "mods/toucanlib-neoforge-1.21.1-0.5.0.pw.toml"
+hash = "8d17106b1a87324151c7e2cb6a3fad061a14a510ba479d8b4c19b2db56398a35"
 metafile = true
 
 [[files]]
@@ -5010,6 +5067,11 @@ hash = "1c44732a52f42b135864a15eb5dad3ca497826b7efa4274d3beab7c92b71b996"
 [[files]]
 file = "mods/vampirism_integrations-1.21.1-1.10.2.pw.toml"
 hash = "99c846b984e7d0519c2da0e8453cd1705b2fc80c4b2ae98f584f0f9fda3be5ee"
+metafile = true
+
+[[files]]
+file = "mods/villager_retaliation-neoforge-1.21.1-1.0.0-beta.13-hotfix.1.pw.toml"
+hash = "0a075ffeddfe82ba74d72a36e37479b4afab826f05abc658bc18c23eb3382524"
 metafile = true
 
 [[files]]

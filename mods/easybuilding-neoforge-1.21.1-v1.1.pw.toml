@@ -1,0 +1,13 @@
+name = "easybuilding-neoforge-1.21.1-v1.1"
+filename = "easybuilding-neoforge-1.21.1-v1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t3wlJuW5/versions/HxkdqSKS/easybuilding-neoforge-1.21.1-v1.1.jar"
+hash-format = "sha1"
+hash = "71af9283f28ac1f4f0ad2d0f7d92a0e519928a12"
+
+[update]
+[update.modrinth]
+mod-id = "t3wlJuW5"
+version = "HxkdqSKS"

@@ -4,64 +4,177 @@
 	filename: "mod_create_addons_t1"
 	group: "3B08ACB5CE59F3E7"
 	icon: {
+		count: 1
 		id: "minecraft:compass"
 	}
 	id: "30E0AA78735D3809"
-	images: [ ]
-	order_index: 1
+	order_index: 18
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "minecraft:compass"
-			}
 			id: "6D6F3B40635F0050"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_1"
-				criterion: ""
-				id: "3D965563BB12B1BA"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 2.4d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			tasks: [
+				{
+					id: "3D965563BB12B1BA"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_1"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&7Tier I"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &7Tier I&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "75284A0849724344"
+			x: 2.0d
+			y: 0.0d
 			dependencies: [
 				"6D0973D7E090DE24"
 				"6D6F3B40635F0050"
 			]
-			id: "75284A0849724344"
-			rewards: [{
-				id: "55D4A010CAC12A28"
-				type: "xp"
-				xp: 150
-			}]
 			tasks: [
 				{
 					id: "60AE07CCFA157934"
-					item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create_dragons_plus:fluid_hatch"
+					}
+					count: 1L
 				}
 				{
 					id: "37C8B41639A1C66F"
-					item: { count: 1, id: "create_dragons_plus:blue_dye_bucket" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create_dragons_plus:blue_dye_bucket"
+					}
+					count: 1L
 				}
 				{
 					id: "68FD379097B0E9C9"
-					item: { count: 1, id: "minecraft:powder_snow_bucket" }
 					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:powder_snow_bucket"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "55D4A010CAC12A28"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "A Escotilha de Fluidos"
+			description: [
+				"&7Nem todo tanque precisa de cano para ser servido: uma escotilha de cobre aceita baldes direto."
+				"&7Os tintureiros de Heartforge enchem tanques de tinta e sopram cor sobre carroças inteiras;"
+				"&7os do norte enchem de neve fina e sopram inverno sobre o que querem congelar."
+				""
+				"&6Objetivo:&r 1. Faça uma &6Fluid Hatch&r (Item Drain + lingote de cobre) sobre um tanque. Clique com balde para esvaziar; agachado, enche."
+				"&f2. Misture um corante com água no Mixer: &6tinta líquida&r. Um ventilador através dela &6tinge em massa&r."
+				"&f3. Ponha &bneve em pó&r (Powder Snow) na frente de um ventilador: o fluxo &6congela em massa&r os itens."
+				""
+				"&8Tinta encontrando lava vira concreto da mesma cor. Mixer aquecido recupera o corante."
+			]
 		}
 		{
-			dependencies: ["6D6F3B40635F0050"]
 			id: "0E2C1DA15F9A14C0"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
+			dependencies: [
+				"6D6F3B40635F0050"
+			]
+			tasks: [
+				{
+					id: "74FB2D71D719C477"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:rolling_mill"
+					}
+					count: 1L
+				}
+				{
+					id: "47A75D9AA72C8FAD"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:iron_rod"
+					}
+					count: 4L
+				}
+				{
+					id: "3DB0FDB4B937BEDC"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:copper_wire"
+					}
+					count: 8L
+				}
+				{
+					id: "66AA2C0BB2EF018B"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:spool"
+					}
+					count: 1L
+				}
+				{
+					id: "61AE166891698744"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:copper_spool"
+					}
+					count: 1L
+				}
+				{
+					id: "0C91C2320F947D85"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:connector"
+					}
+					count: 4L
+				}
+				{
+					id: "5DDD4E26203BE280"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:zinc_sheet"
+					}
+					count: 2L
+				}
+				{
+					id: "249B8D9258192563"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:capacitor"
+					}
+					count: 2L
+				}
+			]
 			rewards: [
 				{
 					id: "3C01CDD7B532D10B"
@@ -70,105 +183,160 @@
 				}
 				{
 					id: "2986C8440B25B0BB"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "74FB2D71D719C477"
-					item: { count: 1, id: "createaddition:rolling_mill" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "47A75D9AA72C8FAD"
-					item: { count: 1, id: "createaddition:iron_rod" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "3DB0FDB4B937BEDC"
-					item: { count: 1, id: "createaddition:copper_wire" }
-					type: "item"
-				}
-				{
-					id: "66AA2C0BB2EF018B"
-					item: { count: 1, id: "createaddition:spool" }
-					type: "item"
-				}
-				{
-					id: "61AE166891698744"
-					item: { count: 1, id: "createaddition:copper_spool" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0C91C2320F947D85"
-					item: { count: 1, id: "createaddition:connector" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "5DDD4E26203BE280"
-					item: { count: 1, id: "createaddition:zinc_sheet" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "249B8D9258192563"
-					item: { count: 1, id: "createaddition:capacitor" }
-					type: "item"
-				}
+			title: "Varas, Fios e Carretéis"
+			description: [
+				"&7Dois rolos apertados transformam lingotes em varas e chapas em fios."
+				"&7Fio solto embaraça; fio no carretel conecta. Pequenos postes de cobre recebem esse fio,"
+				"&7e o capacitor, com cobre, zinco e uma tocha de redstone, é a primeira garrafa de raio."
+				"&7Assim começa a rede elétrica de Heartforge."
+				""
+				"&6Objetivo:&r 1. Faça um &6Rolling Mill&r e gire-o: lingotes viram &6varas&r; chapas viram &6fios&r."
+				"&f2. Faça um &6Empty Spool&r e enrole fio de cobre nele: &6Copper Spool&r."
+				"&f3. Faça &6Connectors&r; com o carretel na mão, clique num conector e depois em outro."
+				"&f4. Prense zinco em &6Zinc Sheets&r e faça &6Capacitors&r (chapa de zinco + chapa de cobre + tocha de redstone)."
+				""
+				"&8Com a chave, alterne o conector entre Puxar e Empurrar energia."
 			]
-			x: 2.0d
-			y: 1.6d
 		}
 		{
+			id: "192A2231D3BE9445"
+			x: 2.0d
+			y: 3.2d
+			size: 1.25d
 			dependencies: [
 				"6D0973D7E090DE24"
 				"6D6F3B40635F0050"
 			]
-			id: "192A2231D3BE9445"
-			rewards: [{
-				id: "348539346DEF42CF"
-				type: "xp"
-				xp: 200
-			}]
-			size: 1.25d
 			tasks: [
 				{
 					id: "0993B5FC62FACB81"
-					item: { count: 1, id: "sliceanddice:slicer" }
 					type: "item"
+					item: {
+						count: 1
+						id: "sliceanddice:slicer"
+					}
+					count: 1L
 				}
 				{
-					count: 2L
 					id: "3DECF61F209E9AAE"
-					item: { count: 1, id: "sliceanddice:sprinkler" }
 					type: "item"
+					item: {
+						count: 1
+						id: "sliceanddice:sprinkler"
+					}
+					count: 2L
 				}
 				{
 					id: "7B054049C60E5B60"
-					item: { count: 1, id: "sliceanddice:fertilizer_bucket" }
 					type: "item"
+					item: {
+						count: 1
+						id: "sliceanddice:fertilizer_bucket"
+					}
+					count: 1L
 				}
 				{
 					id: "4E487E7A6FCD3225"
-					item: { count: 1, id: "createaddition:seed_oil_bucket" }
 					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:seed_oil_bucket"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 3.2d
+			rewards: [
+				{
+					id: "348539346DEF42CF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			title: "A Horta Automática"
+			description: [
+				"&7O cozinheiro cansou de picar cebola e inventou uma faca que gira."
+				"&7A horta não espera a chuva quando há canos: aspersores espalham água, e o adubo dissolvido apressa qualquer colheita."
+				"&7Sementes prensadas, por fim, choram um óleo amarelo que queima limpo."
+				""
+				"&6Objetivo:&r 1. Faça um &6Slicer&r (Cogwheel + Andesite Casing + Turntable) e dê-lhe uma faca: faz as receitas da tábua de corte."
+				"&f2. Faça &6Sprinklers&r abaixo de um cano com fluido: água hidrata o solo."
+				"&f3. Misture Tree Fertilizer com 500 mB de água no Mixer: &6Liquid Fertilizer&r, para os aspersores."
+				"&f4. Prense sementes numa Basin e encha um balde de &6Seed Oil&r."
+				""
+				"&8O Slicer trabalha sobre Depot, esteira ou Basin. A faca é a de cozinha."
+			]
 		}
 		{
-			dependencies: ["6D6F3B40635F0050"]
 			id: "7A0858D97CC90AFF"
+			x: 2.0d
+			y: 4.8d
+			size: 1.25d
+			dependencies: [
+				"6D6F3B40635F0050"
+			]
+			tasks: [
+				{
+					id: "279FA44B53F1FED9"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:cross_connector"
+					}
+					count: 1L
+				}
+				{
+					id: "2983ED67CA6D34A3"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:parallel_gearbox"
+					}
+					count: 1L
+				}
+				{
+					id: "6EC4635DA29467D6"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:six_way_gearbox"
+					}
+					count: 1L
+				}
+				{
+					id: "027D459FCA7F68F4"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:crank_wheel"
+					}
+					count: 1L
+				}
+				{
+					id: "6C3D0EB45C5BD929"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:large_crank_wheel"
+					}
+					count: 1L
+				}
+				{
+					id: "4A96F438009B7400"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:encased_chain_cogwheel"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "5B0763A0977D5AA7"
@@ -177,83 +345,118 @@
 				}
 				{
 					id: "3C68A4749DFDD706"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "279FA44B53F1FED9"
-					item: { count: 1, id: "create_connected:cross_connector" }
-					type: "item"
-				}
-				{
-					id: "2983ED67CA6D34A3"
-					item: { count: 1, id: "create_connected:parallel_gearbox" }
-					type: "item"
-				}
-				{
-					id: "6EC4635DA29467D6"
-					item: { count: 1, id: "create_connected:six_way_gearbox" }
-					type: "item"
-				}
-				{
-					id: "027D459FCA7F68F4"
-					item: { count: 1, id: "create_connected:crank_wheel" }
-					type: "item"
-				}
-				{
-					id: "6C3D0EB45C5BD929"
-					item: { count: 1, id: "create_connected:large_crank_wheel" }
-					type: "item"
-				}
-				{
-					id: "4A96F438009B7400"
-					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
-					type: "item"
-				}
+			title: "Engrenagens Conectadas"
+			description: [
+				"&7Dois caminhos que se cruzam sem se tocar; uma caixa que manda força para os seis lados;"
+				"&7manivelas com dentes que conversam direto com as engrenagens; meio corrente, meio engrenagem."
+				"&7Os engenheiros que vieram depois encheram as lacunas da rede."
+				""
+				"&6Objetivo:&r 1. Faça um &6Cross Connector&r e uma &6Parallel Gearbox&r (Gearbox + Large Cogwheel)."
+				"&f2. Faça uma &6Six-way Gearbox&r: cima e baixo giram na metade da velocidade."
+				"&f3. Faça uma &6Crank Wheel&r e uma &6Large Crank Wheel&r (manivelas que engrenam)."
+				"&f4. Faça uma &6Encased Chain Cogwheel&r (Encased Chain Drive + Cogwheel)."
 			]
-			x: 2.0d
-			y: 4.8d
 		}
 		{
-			dependencies: ["75284A0849724344"]
 			id: "701B4F1CDC65512D"
-			rewards: [{
-				id: "0C008905FDAEA917"
-				type: "xp"
-				xp: 150
-			}]
+			x: 4.0d
+			y: 0.0d
+			dependencies: [
+				"75284A0849724344"
+			]
 			tasks: [
 				{
 					id: "2A798069CE2C99E2"
-					item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:experience_hatch"
+					}
+					count: 1L
 				}
 				{
-					advancement: "create_enchantment_industry:spirit_taking"
-					criterion: ""
 					id: "34139BC8840F80A3"
 					type: "advancement"
+					advancement: "create_enchantment_industry:spirit_taking"
+					criterion: ""
 				}
 				{
-					advancement: "create_enchantment_industry:spiritual_return"
-					criterion: ""
 					id: "54CE8B35E2B4C8E3"
 					type: "advancement"
+					advancement: "create_enchantment_industry:spiritual_return"
+					criterion: ""
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "0C008905FDAEA917"
+					type: "xp"
+					xp: 150
+				}
+			]
+			title: "Guardar o Espírito"
+			description: [
+				"&7Antes de uma batalha arriscada, o sábio deposita o que aprendeu num cofre de cobre."
+				"&7Se cair, perde pouco; se voltar, resgata tudo. O que foi guardado volta inteiro."
+				""
+				"&6Objetivo:&r 1. Aplique um Block of Experience numa Fluid Hatch para criar a &6Experience Hatch&r."
+				"&f2. Clique nela para depositar sua experiência no tanque."
+				"&f3. Agachado, resgate a experiência de volta."
+			]
 		}
 		{
-			dependencies: ["0E2C1DA15F9A14C0"]
 			id: "52F43DD67DA62725"
-			optional: true
+			x: 4.0d
+			y: 1.6d
+			size: 1.25d
+			dependencies: [
+				"0E2C1DA15F9A14C0"
+			]
+			tasks: [
+				{
+					id: "4D264B256E0E57EE"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:copycat_slab"
+					}
+					count: 4L
+				}
+				{
+					id: "1E87C4CFD91E3EA4"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:copycat_beam"
+					}
+					count: 4L
+				}
+				{
+					id: "263E97CE8AF82B21"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:barbed_wire"
+					}
+					count: 4L
+				}
+				{
+					id: "5E32BFB03E221B3F"
+					type: "item"
+					item: {
+						count: 1
+						id: "createaddition:honey_cake"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "18A2374A5A9CAC27"
@@ -262,81 +465,100 @@
 				}
 				{
 					id: "6B28AA5F51CBEA1B"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 4L
-					id: "4D264B256E0E57EE"
-					item: { count: 1, id: "create_connected:copycat_slab" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "1E87C4CFD91E3EA4"
-					item: { count: 1, id: "create_connected:copycat_beam" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "263E97CE8AF82B21"
-					item: { count: 1, id: "createaddition:barbed_wire" }
-					type: "item"
-				}
-				{
-					id: "5E32BFB03E221B3F"
-					item: { count: 1, id: "createaddition:honey_cake" }
-					type: "item"
-				}
+			title: "Miudezas da Oficina"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Vigas, tábuas e lajes que vestem qualquer pedra; arame que nenhum lobo atravessa sem pensar duas vezes;"
+				"&7e um bolo de mel coberto pelo bico, o banquete dos engenheiros."
+				""
+				"&6Objetivo:&r 1. Faça peças &6Copycat&r (Slab, Beam...) e clique nelas com um bloco para copiar a aparência."
+				"&f2. Faça &6Barbed Wire&r com fios de ferro: fere quem tenta passar."
+				"&f3. Prense ovo, açúcar e massa em Cake Base, asse e cubra com mel no Spout: &6Honey Cake&r."
 			]
-			x: 4.0d
-			y: 1.6d
+			optional: true
 		}
 		{
-			dependencies: ["7A0858D97CC90AFF"]
 			id: "1714524AD173AA7D"
-			rewards: [{
-				id: "3B2EBF7BDEA80614"
-				type: "xp"
-				xp: 250
-			}]
+			x: 4.0d
+			y: 4.8d
 			size: 1.25d
+			dependencies: [
+				"7A0858D97CC90AFF"
+			]
 			tasks: [
 				{
 					id: "386B00B1790681AE"
-					item: { count: 1, id: "create_connected:freewheel_clutch" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:freewheel_clutch"
+					}
+					count: 1L
 				}
 				{
 					id: "15B2D96FD9171059"
-					item: { count: 1, id: "create_connected:centrifugal_clutch" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:centrifugal_clutch"
+					}
+					count: 1L
 				}
 				{
 					id: "2E99C0A60A1C24BF"
-					item: { count: 1, id: "create_connected:brake" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:brake"
+					}
+					count: 1L
 				}
 				{
 					id: "4A5D41954DA93262"
-					item: { count: 1, id: "create_connected:shear_pin" }
 					type: "item"
+					item: {
+						count: 1
+						id: "create_connected:shear_pin"
+					}
+					count: 1L
 				}
 				{
-					advancement: "create_connected:shear_pin"
-					criterion: ""
 					id: "60E98BF18C83EE9B"
 					type: "advancement"
+					advancement: "create_connected:shear_pin"
+					criterion: ""
 				}
 			]
-			x: 4.0d
-			y: 4.8d
+			rewards: [
+				{
+					id: "3B2EBF7BDEA80614"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Freios e Pinos"
+			description: [
+				"&7Algumas embreagens obedecem à redstone; estas obedecem à própria rotação."
+				"&7Um bloco de obsidiana aperta o eixo até a rede inteira parar,"
+				"&7e um pino barato se parte antes que a máquina inteira quebre."
+				""
+				"&6Objetivo:&r 1. Faça uma &6Freewheel Clutch&r (só um sentido) e uma &6Centrifugal Clutch&r (acopla acima da RPM escolhida)."
+				"&f2. Faça um &6Brake&r: com redstone, cria um estresse enorme e trava a rede."
+				"&f3. Faça um &6Shear Pin&r (corte um Shaft na serra) e deixe a rede sobrecarregar até ele se partir."
+				""
+				"&8Com a chave, Clutch e Gearshift comuns viram versões Inverted."
+			]
 		}
+	]
+	title: "&7Tier I&7 - Cobre e Fios"
+	subtitle: [
+		"&6Engenhocas Avançadas&7, &7Tier I"
 	]
 }

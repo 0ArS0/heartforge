@@ -1,0 +1,8 @@
+name = "Asterion-1.7.1-neoforge-mc1.21.1"
+filename = "Asterion-1.7.1-neoforge-mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9527/879/Asterion-1.7.1-neoforge-mc1.21.1.jar"
+hash-format = "sha1"
+hash = "b7e56035cf223beb2e48096b1f38925503b348d1"

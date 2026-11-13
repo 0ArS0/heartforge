@@ -4,31 +4,46 @@
 	filename: "mod_dwarfs_t7"
 	group: "7E685056D4C815C1"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_7"
 	}
 	id: "1026D08E280F2808"
-	images: [ ]
-	order_index: 5
+	order_index: 108
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_7"
-			}
 			id: "336E43652D3E5258"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_7"
-				criterion: ""
-				id: "0B7820D7C4DCCA6C"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_7"
+			}
+			tasks: [
+				{
+					id: "0B7820D7C4DCCA6C"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_7"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&dTier VII"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &dTier VII&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "00C4464B4824377E"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:mythril_block"
+			}
 			dependencies: [
 				"75CEBEFF7A647313"
 				"2B36702355613601"
@@ -39,10 +54,20 @@
 				"3AFA1F709923C4DE"
 				"336E43652D3E5258"
 			]
-			icon: {
-				id: "dwarfs_tyranny:mythril_block"
-			}
-			id: "00C4464B4824377E"
+			tasks: [
+				{
+					id: "42FB6D26F449B7DD"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/geologists_best_friend"
+					criterion: ""
+				}
+				{
+					id: "58D42CF767A7FBC6"
+					type: "advancement"
+					advancement: "dwarfs_tyranny:progression/master_of_dwarfs_tyranny"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "72FA22C5533C98A2"
@@ -51,29 +76,26 @@
 				}
 				{
 					id: "3009F536E534F7DE"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					advancement: "dwarfs_tyranny:progression/geologists_best_friend"
-					criterion: ""
-					id: "42FB6D26F449B7DD"
-					type: "advancement"
-				}
-				{
-					advancement: "dwarfs_tyranny:progression/master_of_dwarfs_tyranny"
-					criterion: ""
-					id: "58D42CF767A7FBC6"
-					type: "advancement"
-				}
+			title: "Senhor das Profundezas"
+			description: [
+				"&7Pedra, granito, calcita, netherrack, pedra-negra, até pedra do End: uma família inteira de pedrinhas simpáticas segue o mestre."
+				"&7Reputação máxima, contratos épicos, todas as gemas, todas as runas, toda a engenharia, armadura de netherite."
+				"&7Os anões não têm palavra para \"forasteiro\" que se aplique a você. Inventaram uma nova."
+				""
+				"&6Objetivo:&r 1. Obtenha &6todas as variantes&r de Pedra de Estimação, inclusive as do Nether e a de &5Pedra do End&r."
+				"&f2. Domine todos os aspectos: a conquista final exige as grandes conquistas deste livro."
 			]
-			x: 2.0d
-			y: 0.0d
 		}
+	]
+	title: "&dTier VII&7 - Senhor das Profundezas"
+	subtitle: [
+		"&7Os Reinos Anões&7, &dTier VII"
 	]
 }

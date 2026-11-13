@@ -4,50 +4,94 @@
 	filename: "tier8"
 	group: ""
 	icon: {
+		count: 1
 		id: "minecraft:dragon_egg"
 	}
 	id: "61DC426C1D42893F"
-	images: [ ]
 	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7DC7ED3CB1245DBE"]
 			id: "43077CF3E4CFEA1F"
-			rewards: [{
-				id: "2344F183A5A1ABA8"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [{
-				id: "39A24BE3EA728DD5"
-				type: "checkmark"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.25d
+			dependencies: [
+				"7DC7ED3CB1245DBE"
+			]
+			tasks: [
+				{
+					id: "39A24BE3EA728DD5"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "2344F183A5A1ABA8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "Tier VIII: Divino"
+			description: [
+				"&7Sete corações forjados e devorados. Nenhuma companhia chegou tão longe."
+				"&7Resta apenas a pedra viva que espera nas ilhas do End. Depois dela, a crônica termina."
+				""
+				"&6Objetivo:&r A companhia está no &eTier VIII - Divino&r. Preparem o último elixir e derrotem o &8Obsidilith&r, o boss final."
+			]
 		}
 		{
-			dependencies: ["43077CF3E4CFEA1F"]
 			id: "5198DB6539E0C7C3"
-			rewards: [{
-				id: "3202B34A28DB27E0"
-				type: "xp"
-				xp: 2000
-			}]
-			tasks: [{
-				id: "3D0E2E7AC9582BC5"
-				item: { count: 1, id: "comamigos_balance:purifying_elixir_7" }
-				type: "item"
-			}]
 			x: 2.0d
 			y: 0.0d
+			dependencies: [
+				"43077CF3E4CFEA1F"
+			]
+			tasks: [
+				{
+					id: "3D0E2E7AC9582BC5"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:purifying_elixir_7"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3202B34A28DB27E0"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			title: "Elixir Purificador VII"
+			description: [
+				"&7O último elixir é o mais fácil de explicar e o mais difícil de preparar: tudo o que veio antes, e uma estrela."
+				"&7Quem o bebe sai limpo de todos os corações que já comeu."
+				""
+				"&6Objetivo:&r No &6Suporte de Poções&r: &bElixir Purificador VI&r + estrela do Nether."
+				"&fCura o &cVazio Interior&f (Coração VIII) e todas as outras maldições."
+			]
 		}
 		{
-			dependencies: ["43077CF3E4CFEA1F"]
-			hide_dependency_lines: true
 			id: "0179B488D5D00F0D"
+			x: 3.6d
+			y: -1.8d
+			shape: "diamond"
+			size: 1.5d
+			dependencies: [
+				"43077CF3E4CFEA1F"
+			]
+			tasks: [
+				{
+					id: "5B940E74129940C7"
+					type: "kill"
+					entity: "bosses_of_mass_destruction:obsidilith"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "27EBEC31C9041C63"
@@ -55,41 +99,58 @@
 					xp: 2400
 				}
 				{
-					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
+					id: "5E87186E345D8596"
+					type: "command"
+					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 					icon: {
+						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					id: "5E87186E345D8596"
-					permission_level: 2
+					elevate_perms: true
 					silent: true
-					type: "command"
+					command: "/puffish_skills points add {player} comamigos_balance:talentos 1"
 				}
 				{
 					id: "2962E90EFA2794C7"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_mitica"
 					}
-					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				entity: "bosses_of_mass_destruction:obsidilith"
-				id: "5B940E74129940C7"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.6d
-			y: -1.8d
+			title: "O Obsidilith"
+			description: [
+				"&7Nas ilhas do End, uma pedra viva espera desde antes dos anões, antes dos dragões, antes dos selos."
+				"&7O &8Obsidilith&7 não guarda tesouro nenhum. Ele é o fim."
+				""
+				"&6Objetivo:&r Derrote o &8Obsidilith&r no Tier VIII. É o &cboss final&r: a vitória da companhia."
+				""
+				"&8Bebam o Elixir Purificador VII antes da luta; maldição nenhuma deve entrar nessa briga."
+			]
+			hide_dependency_lines: true
 		}
 		{
-			dependencies: ["0179B488D5D00F0D"]
+			id: "70DF3AEAD18C83B0"
+			x: 5.6d
+			y: 0.0d
+			shape: "gear"
+			size: 2.0d
 			icon: {
+				count: 1
 				id: "minecraft:dragon_egg"
 			}
-			id: "70DF3AEAD18C83B0"
+			dependencies: [
+				"0179B488D5D00F0D"
+			]
+			tasks: [
+				{
+					id: "772783A0E82B5E52"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/victory"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "7CEB63CC3942EDB3"
@@ -98,23 +159,24 @@
 				}
 				{
 					id: "522DC6350B28DBD3"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
-					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				advancement: "comamigos_balance:tier/victory"
-				criterion: ""
-				id: "772783A0E82B5E52"
-				type: "advancement"
-			}]
-			x: 5.6d
-			y: 0.0d
+			title: "Vitória"
+			description: [
+				"&7O Obsidilith caiu, e com ele o último selo. Pela primeira vez em eras, a Forja de Corações se cala."
+				"&7Os cronistas vão gravar os nomes desta companhia nas paredes das fortalezas anãs, ao lado dos reis."
+				""
+				"&6Objetivo:&r Derrotem o &8Obsidilith&r. Depois disso, a jornada está completa: &6parabéns à companhia!"
+			]
 		}
+	]
+	title: "&eTier VIII - Divino"
+	subtitle: [
+		"O desafio final"
 	]
 }

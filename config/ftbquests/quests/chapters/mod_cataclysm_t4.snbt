@@ -4,125 +4,262 @@
 	filename: "mod_cataclysm_t4"
 	group: "0E0AC8A91F88F063"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_4"
 	}
 	id: "71FE9BC9D058683F"
-	images: [ ]
-	order_index: 4
+	order_index: 78
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_4"
-			}
 			id: "07623111D15E32A5"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_4"
-				criterion: ""
-				id: "7DCE0B31EABEC8D5"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 1.6d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_4"
+			}
+			tasks: [
+				{
+					id: "7DCE0B31EABEC8D5"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_4"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&6Tier IV"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &6Tier IV&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "0800E9D0B5EB9C2C"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
 			dependencies: [
 				"4635BF63F94949B6"
 				"07623111D15E32A5"
 			]
-			id: "0800E9D0B5EB9C2C"
-			rewards: [{
-				id: "00B066D6EC80BE25"
-				type: "xp"
-				xp: 560
-			}]
-			size: 1.25d
 			tasks: [
 				{
 					id: "1CB8C26A8BAE13D7"
-					item: { count: 1, id: "cataclysm:flame_eye" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:flame_eye"
+					}
+					count: 1L
 				}
 				{
-					advancement: "cataclysm:find_burning_arena"
-					criterion: ""
 					id: "20A42D00D99AA545"
 					type: "advancement"
+					advancement: "cataclysm:find_burning_arena"
+					criterion: ""
 				}
 				{
-					advancement: "cataclysm:kill_revenant"
-					criterion: ""
 					id: "6D55C5598425A716"
 					type: "advancement"
+					advancement: "cataclysm:kill_revenant"
+					criterion: ""
 				}
 				{
 					id: "7BCE908EFD8C8E75"
-					item: { count: 1, id: "cataclysm:burning_ashes" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:burning_ashes"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "00B066D6EC80BE25"
+					type: "xp"
+					xp: 560
+				}
+			]
+			title: "A Arena Ardente"
+			description: [
+				"&7Um coliseu no meio das planícies do Nether. A plateia morreu; o campeão não."
+				"&7No segundo andar, os Revenants Inflamados giram escudos em volta do corpo como blazes que aprenderam a lutar."
+				"&7O que sobra deles ainda está quente o bastante para acender um deus."
+				""
+				"&6Objetivo:&r 1. Fabrique o &6Olho da Chama&r (olho do Ender, pó de blaze, sucata de netherite e areia das almas)."
+				"&f2. Siga-o até a &6Arena Ardente&r, nas Planícies do Nether."
+				"&f3. Derrote um &cRevenant Inflamado&r: os escudos o tornam invulnerável, espere ele abri-los."
+				"&f4. Obtenha &6Cinzas Ardentes&r: caem dos Revenants, ou junte 4 &6Brasas Moribundas&r numa bancada."
+				""
+				"&8Antes do Tier IV, o Ar Escaldante cozinha quem entra no Nether."
+			]
 		}
 		{
+			id: "6BC6C7D751EFC9D3"
+			x: 2.0d
+			y: 1.6d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "comamigos_balance:monstrosity_heart"
+			}
 			dependencies: [
 				"4635BF63F94949B6"
 				"07623111D15E32A5"
 			]
-			icon: {
-				id: "comamigos_balance:monstrosity_heart"
-			}
-			id: "6BC6C7D751EFC9D3"
-			rewards: [{
-				id: "1C76D60965D8AFB7"
-				type: "xp"
-				xp: 700
-			}]
-			shape: "diamond"
-			size: 1.25d
 			tasks: [
 				{
 					id: "28ECFC569AF2F8D6"
-					item: { count: 1, id: "cataclysm:monstrous_eye" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:monstrous_eye"
+					}
+					count: 1L
 				}
 				{
-					advancement: "cataclysm:find_soul_black_smith"
-					criterion: ""
 					id: "32D7E5E9920C3BF3"
 					type: "advancement"
+					advancement: "cataclysm:find_soul_black_smith"
+					criterion: ""
 				}
 				{
-					entity: "cataclysm:netherite_monstrosity"
 					id: "4659C255BDBE3144"
 					type: "kill"
+					entity: "cataclysm:netherite_monstrosity"
 					value: 1L
 				}
 				{
 					id: "02EEB25B78CFD17D"
-					item: { count: 1, id: "cataclysm:infernal_forge" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:infernal_forge"
+					}
+					count: 1L
 				}
 				{
 					id: "65AEAEC6BCCDFA72"
-					item: { count: 1, id: "cataclysm:monstrous_helm" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:monstrous_helm"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 1.6d
+			rewards: [
+				{
+					id: "1C76D60965D8AFB7"
+					type: "xp"
+					xp: 700
+				}
+			]
+			title: "A Monstruosidade de Netherite"
+			description: [
+				"&7Parece um bastião, mas a bigorna no centro da Ferraria das Almas é do tamanho de uma casa."
+				"&7Ali foi forjada uma máquina de guerra de netherite e lava, construída para derrubar muralhas."
+				"&7Quando ninguém a enfrenta, ela volta a se forjar inteira."
+				""
+				"&6Objetivo:&r 1. Fabrique o &6Olho Monstruoso&r (olho do Ender, baldes de lava, sucata de netherite e pedra-negra)."
+				"&f2. Siga-o até a &6Ferraria das Almas&r, que surge em vários biomas do Nether."
+				"&f3. Derrote a &cMonstruosidade de Netherite&r: bombas de lava, pisões e cura se o combate parar. Não recue para descansar."
+				"&f4. Recolha a &6Forja Infernal&r: picareta de nível netherite que causa dano em área ao ser usada num bloco."
+				"&f5. Na Mesa de Ferraria, una molde de netherite, elmo de netherite e o &6Chifre Monstruoso&r: nasce o &6Elmo Monstruoso&r."
+				"&fSeu &ccoração&r dá resistência e resistência ao fogo, mas deixa o corpo lento."
+				""
+				"&8O Elmo Monstruoso, abaixo de metade da vida, empurra os inimigos e aumenta defesa e regeneração."
+			]
 		}
 		{
+			id: "0AD0BF84742AFD45"
+			x: 2.0d
+			y: 3.2d
+			size: 1.25d
 			dependencies: [
 				"12C86E79E2414320"
 				"25509392190A304D"
 				"07623111D15E32A5"
 			]
-			id: "0AD0BF84742AFD45"
-			optional: true
+			tasks: [
+				{
+					id: "0B463B3108985FEC"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:unbreakable_skull"
+					}
+					count: 1L
+				}
+				{
+					id: "730FAA4E485D68E3"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:vitality_ankh"
+					}
+					count: 1L
+				}
+				{
+					id: "72219877C67DA4FF"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ring_of_grudged"
+					}
+					count: 1L
+				}
+				{
+					id: "6CBA3FAAEDF4399C"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:berserker_soul_amulet"
+					}
+					count: 1L
+				}
+				{
+					id: "12D461FEB01856CC"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:necklace_of_the_desert"
+					}
+					count: 1L
+				}
+				{
+					id: "356A857D717A5751"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:khopesh"
+					}
+					count: 1L
+				}
+				{
+					id: "25EBDF4980F9FB70"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:sandstorm_in_a_bottle"
+					}
+					count: 1L
+				}
+				{
+					id: "33795AF7AEBED8E0"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:bloom_stone_pauldrons"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "01B9345D83205C93"
@@ -131,136 +268,198 @@
 				}
 				{
 					id: "459B030AB50E1871"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "0B463B3108985FEC"
-					item: { count: 1, id: "cataclysm:unbreakable_skull" }
-					type: "item"
-				}
-				{
-					id: "730FAA4E485D68E3"
-					item: { count: 1, id: "cataclysm:vitality_ankh" }
-					type: "item"
-				}
-				{
-					id: "72219877C67DA4FF"
-					item: { count: 1, id: "cataclysm:ring_of_grudged" }
-					type: "item"
-				}
-				{
-					id: "6CBA3FAAEDF4399C"
-					item: { count: 1, id: "cataclysm:berserker_soul_amulet" }
-					type: "item"
-				}
-				{
-					id: "12D461FEB01856CC"
-					item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
-					type: "item"
-				}
-				{
-					id: "356A857D717A5751"
-					item: { count: 1, id: "cataclysm:khopesh" }
-					type: "item"
-				}
-				{
-					id: "25EBDF4980F9FB70"
-					item: { count: 1, id: "cataclysm:sandstorm_in_a_bottle" }
-					type: "item"
-				}
-				{
-					id: "33795AF7AEBED8E0"
-					item: { count: 1, id: "cataclysm:bloom_stone_pauldrons" }
-					type: "item"
-				}
+			title: "Relíquias de areia e cristal"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Os tesouros das ruínas guardam joias que os sacerdotes do deserto e os berserkers do norte usavam em batalha."
+				"&7Um crânio que não racha, um ankh que cura, um anel que guarda mágoa, um amuleto que troca armadura por fúria."
+				"&7Os titãs menores também deixam lembranças: a tempestade presa num frasco e a carapaça que dispara cristais."
+				""
+				"&6Objetivo:&r 1. Nos baús de tesouro das ruínas do deserto: &6Caveira Inquebrável&r (anula um atordoamento por recarga) e &6Ankh da Vitalidade&r (cura contínua)."
+				"&f2. Nos tesouros das estruturas abandonadas da neve: &6Anel do Rancor&r (críticos mais fortes) e &6Amuleto da Alma Berserker&r (mais dano, menos armadura)."
+				"&f3. Escove a areia suspeita da Pirâmide por outro &6Colar do Deserto&r e tome um &6Khopesh&r dos koboletons."
+				"&f4. Recolha a &6Tempestade numa Garrafa&r do Remanescente: invoca duas tempestades que orbitam você. Entra em duas fusões."
+				"&f5. Monte as &6Ombreiras de Pedra-Flor&r no Mechanical Crafter (cascas de caranguejo e Mecanismo de Precisão): disparam ametista por tecla."
+				""
+				"&8O Khopesh não aceita reparo nem encanto; na fornalha vira pepita de metal antigo."
 			]
-			x: 2.0d
-			y: 3.2d
+			optional: true
 		}
 		{
-			dependencies: ["0800E9D0B5EB9C2C"]
-			icon: {
-				id: "comamigos_balance:ignis_heart"
-			}
 			id: "23229B6CC678D4DF"
-			rewards: [{
-				id: "4F1350055A291A37"
-				type: "xp"
-				xp: 420
-			}]
-			shape: "diamond"
-			tasks: [
-				{
-					entity: "cataclysm:ignis"
-					id: "3559949153F5B6DB"
-					type: "kill"
-					value: 1L
-				}
-				{
-					count: 3L
-					id: "7C0B8E0ABC304F19"
-					item: { count: 1, id: "cataclysm:ignitium_ingot" }
-					type: "item"
-				}
-				{
-					entity: "cataclysm:ignited_berserker"
-					id: "684D6C83E743B2B6"
-					type: "kill"
-					value: 1L
-				}
-			]
 			x: 4.0d
 			y: 0.0d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:ignis_heart"
+			}
+			dependencies: [
+				"0800E9D0B5EB9C2C"
+			]
+			tasks: [
+				{
+					id: "3559949153F5B6DB"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 1L
+				}
+				{
+					id: "7C0B8E0ABC304F19"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					count: 3L
+				}
+				{
+					id: "684D6C83E743B2B6"
+					type: "kill"
+					entity: "cataclysm:ignited_berserker"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4F1350055A291A37"
+					type: "xp"
+					xp: 420
+				}
+			]
+			title: "Ignis, o Fogo Eterno"
+			description: [
+				"&7Um cavaleiro de chamas com espada e escudo, que aprendeu a lutar antes de o Nether esfriar."
+				"&7Cada vez que sangra, queima mais forte. O metal que corria nas veias dele não esfria nunca."
+				"&7Com Ignis caído, seus soldados vagam pelas fortalezas procurando um novo senhor."
+				""
+				"&6Objetivo:&r 1. Coloque as &6Cinzas Ardentes&r no &6Altar do Fogo&r, no centro da arena, e derrote &cIgnis&r."
+				"&fO escudo bloqueia golpes de frente; a cada fase ele fica mais rápido e passa a usar fogo das almas."
+				"&f2. Recolha &63 Lingotes de Ignitium&r. Um bloco só volta a lingotes num Misturador &csuperaquecido&r."
+				"&f3. Derrote um &cBerserker Inflamado&r, que passa a surgir nas Fortalezas do Nether depois da queda de Ignis."
+				"&fSeu &ccoração&r dá resistência ao fogo e força, ao custo de fome."
+				""
+				"&8Poções de resistência ao fogo são obrigatórias. Lute longe da lava da borda."
+				"&8Cada vitória rende poucos lingotes: escolha bem o que forjar primeiro."
+			]
 		}
 		{
-			dependencies: ["23229B6CC678D4DF"]
 			id: "4E8D1EE016E1ACB2"
-			rewards: [{
-				id: "09A7812CC9E68064"
-				type: "xp"
-				xp: 700
-			}]
+			x: 6.0d
+			y: -0.8d
 			size: 1.25d
+			dependencies: [
+				"23229B6CC678D4DF"
+			]
 			tasks: [
 				{
 					id: "49D222128F9B4703"
-					item: { count: 1, id: "cataclysm:ignitium_upgrade_smithing_template" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_upgrade_smithing_template"
+					}
+					count: 1L
 				}
 				{
 					id: "46C76449F5D155FB"
-					item: { count: 1, id: "cataclysm:ignitium_helmet" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_helmet"
+					}
+					count: 1L
 				}
 				{
 					id: "0F6FDE0056A62BF0"
-					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_chestplate"
+					}
+					count: 1L
 				}
 				{
 					id: "6A0F50310A621903"
-					item: { count: 1, id: "cataclysm:ignitium_leggings" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_leggings"
+					}
+					count: 1L
 				}
 				{
 					id: "2A062F33FB51CD76"
-					item: { count: 1, id: "cataclysm:ignitium_boots" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_boots"
+					}
+					count: 1L
 				}
 			]
-			x: 6.0d
-			y: -0.8d
+			rewards: [
+				{
+					id: "09A7812CC9E68064"
+					type: "xp"
+					xp: 700
+				}
+			]
+			title: "A armadura de Ignitium"
+			description: [
+				"&7Para casar ignitium com netherite, o ferreiro precisa de um molde que aguente o calor."
+				"&7Banhada na chama de Ignis, a netherite muda: o elmo enxerga na lava e as botas caminham sobre ela."
+				""
+				"&6Objetivo:&r 1. Fabrique o &6Molde de Melhoria de Ignitium&r: molde de netherite, pó de blaze e tijolos do Nether."
+				"&f2. Na Mesa de Ferraria, aplique molde + lingote de ignitium em cada peça de &6armadura de netherite&r."
+				"&fElmo: Marca Ardente por tecla. Peitoral: aceita élitro depois. Calças: reflexo de chamas. Botas: andam na lava."
+				""
+				"&8A netherite do Heartforge só sai: planeje as quatro peças antes de gastar os lingotes."
+			]
 		}
 		{
-			dependencies: ["23229B6CC678D4DF"]
 			id: "14D4EB7F4C77EB6E"
+			x: 6.0d
+			y: 0.8d
+			dependencies: [
+				"23229B6CC678D4DF"
+			]
+			tasks: [
+				{
+					id: "47E5B21CD085266B"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:the_incinerator"
+					}
+					count: 1L
+				}
+				{
+					id: "55877073D290E4B0"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:bulwark_of_the_flame"
+					}
+					count: 1L
+				}
+				{
+					id: "6ACE93D0AA616096"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:blazing_grips"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "0A45EAD0C70321B0"
@@ -269,32 +468,30 @@
 				}
 				{
 					id: "03E2BDAF33DA5E3D"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "47E5B21CD085266B"
-					item: { count: 1, id: "cataclysm:the_incinerator" }
-					type: "item"
-				}
-				{
-					id: "55877073D290E4B0"
-					item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
-					type: "item"
-				}
-				{
-					id: "6ACE93D0AA616096"
-					item: { count: 1, id: "cataclysm:blazing_grips" }
-					type: "item"
-				}
+			title: "As armas de Ignis"
+			description: [
+				"&7A espada de Ignis, refeita para mãos menores, segura a respiração do fogo e a solta de uma vez."
+				"&7O escudo dele bloqueava exércitos; agora bloqueia e investe."
+				"&7E as manoplas de tijolo do Nether deixam uma marca em brasa a cada soco."
+				""
+				"&6Objetivo:&r Todas no &6Mechanical Crafter&r com um Mecanismo de Precisão:"
+				"&f1. &6O Incinerador&r: espada de netherite, ignitium e bastões de blaze. Segure o uso 3 s e solte para uma onda de chamas."
+				"&f2. &6Baluarte da Chama&r: escudo, ignitium, bastões de blaze e tijolos do Nether. Agachado, segure e solte para investir."
+				"&f3. &6Garras Ardentes&r: tijolos do Nether e ignitium. No slot de mãos, aplicam &cMarca Ardente&r (menos armadura no alvo)."
+				""
+				"&8A onda do Incinerador pode destruir itens caídos no chão. Quem bate na parede durante a investida do Baluarte fica atordoado."
 			]
-			x: 6.0d
-			y: 0.8d
 		}
+	]
+	title: "&6Tier IV&7 - A Arena Ardente"
+	subtitle: [
+		"&4Os Titãs Adormecidos&7, &6Tier IV"
 	]
 }

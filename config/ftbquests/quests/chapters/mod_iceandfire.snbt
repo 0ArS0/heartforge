@@ -4,38 +4,108 @@
 	filename: "mod_iceandfire"
 	group: "6BE2CA13D0D2A15E"
 	icon: {
+		count: 1
 		id: "iceandfire:dragonsteel_fire_ingot"
 	}
 	id: "077E89E7FEC3B9ED"
-	images: [ ]
-	order_index: 0
+	order_index: 57
 	quest_links: [ ]
 	quests: [
 		{
-			icon: {
-				id: "iceandfire:dragonsteel_fire_ingot"
-			}
 			id: "4FE3675C7E458753"
-			rewards: [{
-				id: "2F056E08E9EF5864"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "square"
-			size: 1.75d
-			tasks: [{
-				id: "4C42012508DC6BC8"
-				type: "checkmark"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
+			size: 1.75d
+			icon: {
+				count: 1
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+			tasks: [
+				{
+					id: "4C42012508DC6BC8"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "2F056E08E9EF5864"
+					type: "xp"
+					xp: 5
+				}
+			]
+			title: "O Bestiário"
+			description: [
+				"&7Antes das caldeiras e dos martelos a vapor, o mundo pertencia às feras dos mitos."
+				"&7Dragões de fogo, gelo e raio ainda dormem sobre montanhas de ouro, e criaturas que as avós"
+				"&7usavam para assustar crianças rondam pântanos, praias e desertos."
+				""
+				"&7Esta crônica segue o caminho do caçador: das fadas e dos grifos até a forja que só o sopro de um dragão acende."
+				"&7Comece reunindo &6manuscritos&7 e costurando o seu próprio &6Bestiário&7."
+			]
 		}
 		{
-			dependencies: ["4FE3675C7E458753"]
+			id: "0577BB6C64DC5268"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
 			icon: {
+				count: 1
 				id: "iceandfire:bestiary"
 			}
-			id: "0577BB6C64DC5268"
+			dependencies: [
+				"4FE3675C7E458753"
+			]
+			tasks: [
+				{
+					id: "04080DF6D0957441"
+					type: "item"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					count: 3L
+				}
+				{
+					id: "7E8BCD1EAEB9796A"
+					type: "advancement"
+					advancement: "iceandfire:iceandfire/bestiary"
+					criterion: ""
+				}
+				{
+					id: "3BBD4719AABC72AF"
+					type: "advancement"
+					advancement: "iceandfire:iceandfire/lectern"
+					criterion: ""
+				}
+				{
+					id: "7B380354549F06B4"
+					type: "item"
+					item: {
+						count: 1
+						id: "iceandfire:silver_ingot"
+					}
+					count: 8L
+				}
+				{
+					id: "77AD14D0725FFB59"
+					type: "item"
+					item: {
+						count: 1
+						id: "iceandfire:silver_sword"
+					}
+					count: 1L
+				}
+				{
+					id: "483A85A9385E7787"
+					type: "item"
+					item: {
+						count: 1
+						id: "iceandfire:podium_oak"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "2AA40327C6FC45A1"
@@ -44,52 +114,34 @@
 				}
 				{
 					id: "65BC8275857F46D2"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					count: 3L
-					id: "04080DF6D0957441"
-					item: { count: 1, id: "iceandfire:manuscript" }
-					type: "item"
-				}
-				{
-					advancement: "iceandfire:iceandfire/bestiary"
-					criterion: ""
-					id: "7E8BCD1EAEB9796A"
-					type: "advancement"
-				}
-				{
-					advancement: "iceandfire:iceandfire/lectern"
-					criterion: ""
-					id: "3BBD4719AABC72AF"
-					type: "advancement"
-				}
-				{
-					count: 8L
-					id: "7B380354549F06B4"
-					item: { count: 1, id: "iceandfire:silver_ingot" }
-					type: "item"
-				}
-				{
-					id: "77AD14D0725FFB59"
-					item: { count: 1, id: "iceandfire:silver_sword" }
-					type: "item"
-				}
-				{
-					id: "483A85A9385E7787"
-					item: { count: 1, id: "iceandfire:podium_oak" }
-					type: "item"
-				}
+			title: "O Bestiário do Caçador"
+			description: [
+				"&7Os antigos caçadores anotavam tudo o que matavam, e suas folhas se espalharam pelo mundo como cinzas ao vento."
+				"&7Quem as reúne costura um Bestiário, o livro que separa o caçador do jantar da fera."
+				"&7Junto com o livro vem a primeira lâmina de prata, porque os mortos que andam temem esse metal,"
+				"&7e um pódio para mostrar à taverna que a caçada começou."
+				""
+				"&6Objetivo:&r 1. Encontre &63 manuscritos&r em baús de ninhos, cemitérios, cavernas de ciclope e de hidra, mausoléus e casas de escribas das vilas."
+				"&f2. Junte os 3 manuscritos com um livro na bancada para criar o &6Bestiário&r."
+				"&f3. Faça o &6Atril do Bestiário&r (manuscrito sobre tábuas) e coloque o livro e um manuscrito nele para escrever uma página nova."
+				"&f4. Minere &6minério de prata&r (aparece no mundo todo, como o ferro) e funda &68 lingotes&r."
+				"&f5. Forje a &6Espada de Prata&r: dano extra contra mortos-vivos."
+				"&f6. Construa um &6Pódio&r de madeira para exibir ovos, crânios e troféus."
+				""
+				"&8Cada manuscrito gasto no atril revela uma página ao acaso. Guarde os que achar pelo caminho."
+				"&8Com uma vara na mão você alterna entre seguir, sentar e vagar em quase todas as feras domadas."
 			]
-			x: 2.0d
-			y: 0.0d
 		}
+	]
+	title: "O Bestiário"
+	subtitle: [
+		"Bestiário das feras antigas"
 	]
 }

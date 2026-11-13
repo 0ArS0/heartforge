@@ -4,39 +4,77 @@
 	filename: "mod_exploracao_t2"
 	group: "48BF15FF65B85345"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_2"
 	}
 	id: "09241AD3054D5B1F"
-	images: [ ]
-	order_index: 2
+	order_index: 111
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_2"
-			}
 			id: "1431CBD833E3345D"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_2"
-				criterion: ""
-				id: "5A4AE9C6C7BF0C1F"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 2.4d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_2"
+			}
+			tasks: [
+				{
+					id: "5A4AE9C6C7BF0C1F"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_2"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&aTier II"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &aTier II&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "286F5F454A3AA690"
+			x: 2.0d
+			y: 0.0d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "minecraft:red_sand"
+			}
 			dependencies: [
 				"167F45E1A1AD7172"
 				"1431CBD833E3345D"
 			]
-			icon: {
-				id: "minecraft:red_sand"
-			}
-			id: "286F5F454A3AA690"
+			tasks: [
+				{
+					id: "6CD141162E6F4ACE"
+					type: "advancement"
+					advancement: "dungeons_arise:find_bandit_towers"
+					criterion: ""
+				}
+				{
+					id: "55DC8440E86285A9"
+					type: "advancement"
+					advancement: "dungeons_arise:find_bandit_village"
+					criterion: ""
+				}
+				{
+					id: "0AD74B6A4338B6BE"
+					type: "advancement"
+					advancement: "dungeons_arise:find_desert_hall"
+					criterion: ""
+				}
+				{
+					id: "53F1B77ECFA124AA"
+					type: "advancement"
+					advancement: "dungeons_arise:find_ceryneian_hind"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "56CA557BD5709149"
@@ -45,102 +83,125 @@
 				}
 				{
 					id: "3EE1E9BC1F9EC96B"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_bandit_towers"
-					criterion: ""
-					id: "6CD141162E6F4ACE"
-					type: "advancement"
-				}
-				{
-					advancement: "dungeons_arise:find_bandit_village"
-					criterion: ""
-					id: "55DC8440E86285A9"
-					type: "advancement"
-				}
-				{
-					advancement: "dungeons_arise:find_desert_hall"
-					criterion: ""
-					id: "0AD74B6A4338B6BE"
-					type: "advancement"
-				}
-				{
-					advancement: "dungeons_arise:find_ceryneian_hind"
-					criterion: ""
-					id: "53F1B77ECFA124AA"
-					type: "advancement"
-				}
+			title: "&cTerra de Bandidos"
+			description: [
+				"&7Nas terras vermelhas, os bandidos ergueram torres e uma vila inteira. Vigiam a estrada, e cobram pedágio em sangue."
+				"&7Mais adiante, no deserto, um palácio enterrado até a cintura na areia e o esqueleto colossal de um cervo."
+				"&7O que matou aquela coisa? Os bandidos não perguntam. Eles só saqueiam o que sobrou."
+				""
+				"&6Objetivo:&r 1. Encontre as &cTorres dos Bandidos&r nas badlands."
+				"&f2. Encontre a &cVila dos Bandidos&r."
+				"&f3. Encontre o &6Salão do Deserto&r."
+				"&f4. Encontre a &6Corça de Cerineia&r."
 			]
-			x: 2.0d
-			y: 0.0d
 		}
 		{
+			id: "6905AE658E6B7C19"
+			x: 2.0d
+			y: 1.6d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "minecraft:mossy_stone_bricks"
+			}
 			dependencies: [
 				"341BA500DB0E1E44"
 				"1431CBD833E3345D"
 			]
-			icon: {
-				id: "minecraft:mossy_stone_bricks"
-			}
-			id: "6905AE658E6B7C19"
-			rewards: [{
-				id: "63E7A5397618EF40"
-				type: "xp"
-				xp: 400
-			}]
-			size: 1.25d
 			tasks: [
 				{
-					advancement: "dungeons_arise:find_kisegi_sanctuary"
-					criterion: ""
 					id: "228583A2690C57F3"
 					type: "advancement"
+					advancement: "dungeons_arise:find_kisegi_sanctuary"
+					criterion: ""
 				}
 				{
-					advancement: "dungeons_arise:find_infested_temple"
-					criterion: ""
 					id: "788B35EA31155B99"
 					type: "advancement"
+					advancement: "dungeons_arise:find_infested_temple"
+					criterion: ""
 				}
 				{
-					advancement: "dungeons_arise:find_mining_complex"
-					criterion: ""
 					id: "4CECEC43711782D8"
 					type: "advancement"
+					advancement: "dungeons_arise:find_mining_complex"
+					criterion: ""
 				}
 				{
-					advancement: "dungeons_arise:find_keep_kayra"
-					criterion: ""
 					id: "36CA443F0D8B3C1E"
 					type: "advancement"
+					advancement: "dungeons_arise:find_keep_kayra"
+					criterion: ""
 				}
 				{
-					advancement: "biomeswevegone:biomeswevegone/adventure/witches_road"
-					criterion: ""
 					id: "57791EAD2903F416"
 					type: "advancement"
+					advancement: "biomeswevegone:biomeswevegone/adventure/witches_road"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 1.6d
+			rewards: [
+				{
+					id: "63E7A5397618EF40"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "Santuários e Fortalezas Perdidas"
+			description: [
+				"&7Um santuário nas colinas floridas, onde alguém faz pactos que não deveria. Um templo nas taigas nevadas, tomado por aranhas e coisas piores."
+				"&7Engrenagens enferrujadas e esteiras paradas num complexo mineiro: a máquina comia minério, até começar a comer os mineiros."
+				"&7E no pântano, muralhas que afundam na lama, guardadas por quem jurou nunca abandoná-las, enquanto a estrada das bruxas cruza o pântano pálido."
+				""
+				"&6Objetivo:&r 1. Encontre o &6Santuário de Kisegi&r (planícies, colinas ou florestas floridas)."
+				"&f2. Encontre o &cTemplo Infestado&r (taigas e planícies nevadas)."
+				"&f3. Encontre o &6Complexo Mineiro&r (planícies ou florestas)."
+				"&f4. Encontre a &6Fortaleza de Kayra&r nos pântanos."
+				"&f5. Enfrente o desafio escondido no &6Pântano Pálido&r (a Estrada das Bruxas)."
+			]
 		}
 		{
+			id: "3A5C10D6F970926B"
+			x: 2.0d
+			y: 3.2d
+			icon: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
 			dependencies: [
 				"5DAD70DC22E50855"
 				"1431CBD833E3345D"
 			]
-			icon: {
-				id: "minecraft:totem_of_undying"
-			}
-			id: "3A5C10D6F970926B"
+			tasks: [
+				{
+					id: "5477563FA9C892D2"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					count: 1L
+				}
+				{
+					id: "2AAEC68C0078D807"
+					type: "advancement"
+					advancement: "minecraft:adventure/totem_of_undying"
+					criterion: ""
+				}
+				{
+					id: "0E5A2A6C978DDFA4"
+					type: "advancement"
+					advancement: "minecraft:adventure/hero_of_the_village"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "50950078B172BF1F"
@@ -149,66 +210,83 @@
 				}
 				{
 					id: "7428B7EE2574C6E8"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5477563FA9C892D2"
-					item: { count: 1, id: "minecraft:totem_of_undying" }
-					type: "item"
-				}
-				{
-					advancement: "minecraft:adventure/totem_of_undying"
-					criterion: ""
-					id: "2AAEC68C0078D807"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:adventure/hero_of_the_village"
-					criterion: ""
-					id: "0E5A2A6C978DDFA4"
-					type: "advancement"
-				}
+			title: "Herói da Vila"
+			description: [
+				"&7No fundo da floresta escura, uma mansão de três andares abriga evocadores e ilusões. A morte veio buscar quem entrou, e saiu de mãos vazias."
+				"&7De volta à estrada, a garrafa sinistra foi bebida. Os tambores dos saqueadores rufam, e a vila espera um herói."
+				""
+				"&6Objetivo:&r 1. Encontre uma &6Mansão da Floresta&r (o cartógrafo vende o mapa) e consiga um &6Totem da Imortalidade&r dos evocadores."
+				"&f2. Sobreviva a um golpe fatal segurando o totem."
+				"&f3. Beba a Garrafa Sinistra, entre numa vila e vença a &cInvasão&r inteira."
 			]
-			x: 2.0d
-			y: 3.2d
 		}
 		{
-			dependencies: ["1431CBD833E3345D"]
+			id: "285290788BC1442F"
+			x: 2.0d
+			y: 4.8d
 			icon: {
+				count: 1
 				id: "minecraft:heart_of_the_sea"
 			}
-			id: "285290788BC1442F"
-			rewards: [{
-				id: "727B0A7E6B93BC27"
-				type: "xp"
-				xp: 240
-			}]
+			dependencies: [
+				"1431CBD833E3345D"
+			]
 			tasks: [
 				{
 					id: "73D7360CE7F9FA78"
-					item: { count: 1, id: "minecraft:heart_of_the_sea" }
 					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
+					count: 1L
 				}
 				{
-					advancement: "hopo:minecraft/adventure/locate_underwater_city"
-					criterion: ""
 					id: "19C3706D64F4FCCB"
 					type: "advancement"
+					advancement: "hopo:minecraft/adventure/locate_underwater_city"
+					criterion: ""
 				}
 				{
 					id: "7DE39E5228DABFA0"
-					item: { count: 1, id: "minecraft:wet_sponge" }
 					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:wet_sponge"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 4.8d
+			rewards: [
+				{
+					id: "727B0A7E6B93BC27"
+					type: "xp"
+					xp: 240
+				}
+			]
+			title: "Segredos do Mar"
+			description: [
+				"&7Os naufrágios guardam mapas de tesouro, e os tesouros guardam o coração do mar."
+				"&7Sob as ondas há ruínas inteiras, não só casas: cidades que afundaram com seus sinos."
+				"&7E uma fortaleza de prismarinho, guardada por peixes de um olho só e por anciões que deixam os braços pesados como chumbo."
+				""
+				"&6Objetivo:&r 1. Siga um mapa de tesouro (baús de naufrágio) e desenterre um &6Coração do Mar&r."
+				"&f2. Encontre uma &6cidade submersa&r."
+				"&f3. Invada um &6Monumento Oceânico&r e pegue &6Esponjas&r da sala do tesouro ou dos Guardiões Anciões."
+				""
+				"&8Leve poções de respiração aquática e leite: a Fadiga de Mineração dos anciões dura muito."
+			]
 		}
+	]
+	title: "&aTier II&7 - Ruínas Distantes"
+	subtitle: [
+		"&2Exploração&7, &aTier II"
 	]
 }

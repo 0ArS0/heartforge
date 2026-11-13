@@ -275,6 +275,15 @@
 		""
 		"&6Objetivo:&r Consiga um &bEco do Cemitério de Navios&r nos mares gelados. Ingrediente do Coração III."
 	]
+	"quest.121431B0D78D03DF.title": "A Rainha das Orquídeas"
+	"quest.121431B0D78D03DF.quest_desc": [
+		"&7No fundo das matas floresce um santuário que ninguém plantou. Dizem que a flor do centro tem uma rainha, e que ela não gosta de visitas."
+		"&7Ofereça ao altar um Coração de Orquídea (ouro, ametista, um diamante e as duas orquídeas gigantes do santuário) e ela desperta."
+		""
+		"&6Objetivo:&r Derrote a &dRainha das Orquídeas&r (Bosses Oddities) e junte &d2 Carapaças da Rainha&r. Ingrediente do Coração III."
+		""
+		"&8A Bússola da Forja encontra o santuário. Ela fica mais rápida e mais forte na metade da vida e de novo perto do fim."
+	]
 	"quest.0B0D6CAF2F6BB19E.title": "O Fantasma da Capitã Cornelia"
 	"quest.0B0D6CAF2F6BB19E.quest_desc": [
 		"&7A &bCapitã Cornelia&7 afundou com o navio, mas nunca abandonou o posto."
@@ -468,6 +477,15 @@
 		"&7Os mitos falam de um metal que só se deixa forjar no coração do fogo."
 		""
 		"&6Objetivo:&r Faça um &cLingote de Infernum&r no calor superaquecido. Ingrediente do Coração V."
+	]
+	"quest.15918B580F6BBEFE.title": "O Campeão do Labirinto"
+	"quest.15918B580F6BBEFE.quest_desc": [
+		"&7Sob o mar há ruínas que descem para um mundo à parte: um labirinto de pedra, catacumbas e uma forja esquecida."
+		"&7No centro espera o campeão, o Minotauro, que derruba portas como quem abre cortinas."
+		""
+		"&6Objetivo:&r Encontre o portal numa ruína submarina, atravesse o Labirinto (Asterion) e derrote o &6Minotauro&r. O &6Coração do Minotauro&r é ingrediente do Coração V."
+		""
+		"&8Um Mecanismo de Antikythera (coração do mar, fragmentos de eco, conchas de náutilo e bússola) aponta o portal e, lá dentro, o próximo passo."
 	]
 	"quest.3D58FFD6591DE8F0.title": "O Wither"
 	"quest.3D58FFD6591DE8F0.quest_desc": [
@@ -869,6 +887,15 @@
 		"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
 		""
 		"&6Objetivo:&r &7(Opcional)&r Derrote &eMãe do Labirinto&r e guarde o coração dele como troféu."
+		""
+		"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
+	]
+	"quest.1F860F07FAA00A24.title": "Caçada: Rainha das Orquídeas (Bosses Oddities)"
+	"quest.1F860F07FAA00A24.quest_desc": [
+		"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
+		"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
+		""
+		"&6Objetivo:&r &7(Opcional)&r Derrote &eRainha das Orquídeas (Bosses Oddities)&r e guarde o coração dele como troféu."
 		""
 		"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
 	]
@@ -9231,6 +9258,7 @@
 	"reward.2F72237D5B65F519.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.0CEAB7827327B8FC.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.03689A71438A779F.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+	"reward.78B34B7466C3DC5E.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.5966BDDF43C887E2.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.47DA228C143CF5E4.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
 	"reward.51BC5274A77E1F11.title": "Uma brasa de talento (+1 ponto na Árvore de Talentos)"

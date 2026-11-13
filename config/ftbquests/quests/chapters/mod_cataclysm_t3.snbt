@@ -4,72 +4,136 @@
 	filename: "mod_cataclysm_t3"
 	group: "0E0AC8A91F88F063"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_3"
 	}
 	id: "4C253740898D0816"
-	images: [ ]
-	order_index: 3
+	order_index: 77
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_3"
-			}
 			id: "3C3290B84658D5E6"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_3"
-				criterion: ""
-				id: "5F6925CBEDAC2F1F"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 3.2d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_3"
+			}
+			tasks: [
+				{
+					id: "5F6925CBEDAC2F1F"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_3"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&9Tier III"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &9Tier III&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "12C86E79E2414320"
+			x: 2.0d
+			y: 0.0d
+			shape: "diamond"
+			icon: {
+				count: 1
+				id: "comamigos_balance:ancient_remnant_heart"
+			}
 			dependencies: [
 				"4FBEFC5DEB2882BE"
 				"3C3290B84658D5E6"
 			]
-			icon: {
-				id: "comamigos_balance:ancient_remnant_heart"
-			}
-			id: "12C86E79E2414320"
-			rewards: [{
-				id: "43B7507E7E10AAFD"
-				type: "xp"
-				xp: 330
-			}]
-			shape: "diamond"
 			tasks: [
 				{
 					id: "5CAE0F9CC5AEA001"
-					item: { count: 1, id: "minecraft:brush" }
 					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:brush"
+					}
+					count: 1L
 				}
 				{
-					entity: "cataclysm:ancient_remnant"
 					id: "4E2287FE5B11C93D"
 					type: "kill"
+					entity: "cataclysm:ancient_remnant"
 					value: 1L
 				}
 				{
 					id: "4172F960A81E65FD"
-					item: { count: 1, id: "cataclysm:ancient_metal_block" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_block"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "43B7507E7E10AAFD"
+					type: "xp"
+					xp: 330
+				}
+			]
+			title: "O Remanescente Antigo"
+			description: [
+				"&7Um réptil do tamanho de uma casa, feito de ossos e areia, senhor da tempestade do deserto."
+				"&7Ele não acorda com gritos: acorda quando alguém devolve o colar que lhe tiraram."
+				"&7Quando ruge, o chão se abre em ondas de areia; quando cai, deixa no peito um bloco inteiro do metal antigo."
+				""
+				"&6Objetivo:&r 1. Leve um &6Pincel&r à Pirâmide e escove a &6areia suspeita&r das salas laterais do grande poço até achar o &6Colar do Deserto&r."
+				"&f2. Use o colar no salão do fundo e derrote o &cRemanescente Antigo&r. Ele morde, chicoteia, invoca tempestades de areia e pisa fazendo o chão tremer: fique nos flancos."
+				"&f3. Recolha o &6Bloco de Metal Antigo&r e separe 9 lingotes num &6Misturador&r sobre uma &6Bacia aquecida&r."
+				"&fSeu &ccoração&r de troféu dá absorção e pressa de mineração, ao custo de fadiga."
+				""
+				"&8A Caveira Inquebrável (curio dos tesouros do deserto) anula os atordoamentos dos pisões."
+				"&8Ele também deixa a Tempestade numa Garrafa, a Caveira do Remanescente e um disco."
+			]
 		}
 		{
+			id: "4A3BD37C2CB783D1"
+			x: 2.0d
+			y: 1.6d
 			dependencies: [
 				"4FBEFC5DEB2882BE"
 				"3C3290B84658D5E6"
 			]
-			id: "4A3BD37C2CB783D1"
+			tasks: [
+				{
+					id: "7288434394F73354"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:bone_reptile_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "2B7A7CAF5281220F"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "6EB75BC1D50D100A"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_spear"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "1B820C51808181AE"
@@ -78,119 +142,200 @@
 				}
 				{
 					id: "7FAA6F5306A58DC0"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7288434394F73354"
-					item: { count: 1, id: "cataclysm:bone_reptile_helmet" }
-					type: "item"
-				}
-				{
-					id: "2B7A7CAF5281220F"
-					item: { count: 1, id: "cataclysm:bone_reptile_chestplate" }
-					type: "item"
-				}
-				{
-					id: "6EB75BC1D50D100A"
-					item: { count: 1, id: "cataclysm:ancient_spear" }
-					type: "item"
-				}
+			title: "A couraça de Réptil de Osso"
+			description: [
+				"&7O crânio do gladiador, reforçado com metal antigo, vira um elmo que assusta até os vivos."
+				"&7Barata de forjar e dura de quebrar, a couraça dos servos do deserto protege quem vai descer mais fundo."
+				"&7E a lança de metal antigo guarda um pedaço da tempestade da areia."
+				""
+				"&6Objetivo:&r 1. Monte o &6Elmo de Réptil de Osso&r num &6Mechanical Crafter&r: metal antigo, ossos de koboleton, Crânio de Kobolediador e Mecanismo de Precisão."
+				"&f2. Monte o &6Peitoral de Réptil de Osso&r (metal antigo, ossos de koboleton e Mecanismo de Precisão)."
+				"&f3. Monte a &6Lança Antiga&r (metal antigo e Mecanismo de Precisão): alcance enorme, e o golpe solta um redemoinho de areia."
 			]
-			x: 2.0d
-			y: 1.6d
 		}
 		{
+			id: "25509392190A304D"
+			x: 2.0d
+			y: 3.2d
+			shape: "diamond"
 			dependencies: [
 				"4635BF63F94949B6"
 				"3C3290B84658D5E6"
 			]
-			id: "25509392190A304D"
-			rewards: [{
-				id: "50EC2F713F6E9B51"
-				type: "xp"
-				xp: 330
-			}]
-			shape: "diamond"
 			tasks: [
 				{
-					entity: "cataclysm:amethyst_crab"
 					id: "4670BA4AAC4A6C08"
 					type: "kill"
+					entity: "cataclysm:amethyst_crab"
 					value: 1L
 				}
 				{
-					count: 6L
 					id: "3123A1B557665359"
-					item: { count: 1, id: "cataclysm:amethyst_crab_shell" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:amethyst_crab_shell"
+					}
+					count: 6L
 				}
 				{
 					id: "0E0F5F4B11F9DA06"
-					item: { count: 1, id: "cataclysm:blessed_amethyst_crab_meat" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:blessed_amethyst_crab_meat"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 3.2d
+			rewards: [
+				{
+					id: "50EC2F713F6E9B51"
+					type: "xp"
+					xp: 330
+				}
+			]
+			title: "O Ninho de Ametista"
+			description: [
+				"&7Nas cavernas verdejantes, um ninho de cristal pode ser a casca de algo vivo."
+				"&7O caranguejo de ametista não ataca primeiro, mas devolve cada golpe com juros."
+				"&7Sua carne, abençoada no altar de cristal, afasta o medo do abismo."
+				""
+				"&6Objetivo:&r 1. Ache um &6Ninho de Ametista&r nas &aCavernas Exuberantes&r e derrote um &cCaranguejo de Ametista&r (soterra quem está perto e dispara cristais)."
+				"&f2. Junte &66 Cascas de Caranguejo de Ametista&r do caranguejo e dos baús do ninho."
+				"&f3. Ponha &6Carne de Caranguejo&r num &6Altar de Ametista&r e espere a bênção. Comida, dá &bBênção&r: imunidade à cegueira, ao medo e à queimadura abissais."
+				""
+				"&8Guarde carnes abençoadas para a luta contra o Leviatã. As cascas viram as Ombreiras de Pedra-Flor no Tier IV."
+			]
 		}
 		{
+			id: "5366AA3B09908D02"
+			x: 2.0d
+			y: 4.8d
+			shape: "diamond"
+			size: 1.25d
 			dependencies: [
 				"4635BF63F94949B6"
 				"3C3290B84658D5E6"
 			]
-			id: "5366AA3B09908D02"
-			rewards: [{
-				id: "79A2C2C285EBAAD4"
-				type: "xp"
-				xp: 550
-			}]
-			shape: "diamond"
-			size: 1.25d
 			tasks: [
 				{
 					id: "7B3AA2F48A9903B9"
-					item: { count: 1, id: "cataclysm:mech_eye" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
+					count: 1L
 				}
 				{
-					advancement: "cataclysm:find_ancient_factory"
-					criterion: ""
 					id: "1D6EEF5C603D18E9"
 					type: "advancement"
+					advancement: "cataclysm:find_ancient_factory"
+					criterion: ""
 				}
 				{
-					entity: "cataclysm:the_watcher"
 					id: "1417691909E0D7D1"
 					type: "kill"
+					entity: "cataclysm:the_watcher"
 					value: 3L
 				}
 				{
-					entity: "cataclysm:the_prowler"
 					id: "326D0EA297E0A051"
 					type: "kill"
+					entity: "cataclysm:the_prowler"
 					value: 1L
 				}
 				{
 					id: "15F775B48FDD304C"
-					item: { count: 1, id: "cataclysm:emp" }
 					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:emp"
+					}
+					count: 1L
 				}
 			]
-			x: 2.0d
-			y: 4.8d
+			rewards: [
+				{
+					id: "79A2C2C285EBAAD4"
+					type: "xp"
+					xp: 550
+				}
+			]
+			title: "A Fábrica Antiga"
+			description: [
+				"&7Muito abaixo da superfície, uma civilização esquecida construiu máquinas que ainda giram."
+				"&7Vigias voadores patrulham corredores vazios, e o Espreitador, de serra e lança-foguetes, foi ligado pela primeira vez em mil anos."
+				"&7No salão central, um colosso desligado espera uma estrela para acordar."
+				""
+				"&6Objetivo:&r 1. Fabrique o &6Olho Mecânico&r (olho do Ender, ferro e blocos de redstone)."
+				"&f2. Siga-o até a &6Fábrica Antiga&r, enterrada no subterrâneo do mundo comum."
+				"&f3. Derrote &c3 Vigias&r: voam e disparam lasers vermelhos de longe. Escudo e arco ajudam."
+				"&f4. Derrote o &cEspreitador&r: serra de perto, foguetes e mísseis de longe. Não fique parado."
+				"&f5. Recolha um &6EMP&r: ligado à redstone, solta um pulso que desorienta máquinas, inclusive o Arauto."
+				""
+				"&8Lembre onde ficam as alavancas e os EMPs: a luta contra o Arauto, no Tier VI, é aqui."
+			]
 		}
 		{
+			id: "7342671807860AE4"
+			x: 2.0d
+			y: 6.4d
+			shape: "diamond"
+			size: 1.25d
 			dependencies: [
 				"4635BF63F94949B6"
 				"3C3290B84658D5E6"
 			]
-			id: "7342671807860AE4"
+			tasks: [
+				{
+					id: "1FBF5C3854948939"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:abyss_eye"
+					}
+					count: 1L
+				}
+				{
+					id: "31DC67CB33D3EABD"
+					type: "advancement"
+					advancement: "cataclysm:find_sunken_city"
+					criterion: ""
+				}
+				{
+					id: "4853E4FF0E639B4B"
+					type: "kill"
+					entity: "cataclysm:deepling"
+					value: 5L
+				}
+				{
+					id: "712819B654E2AAAB"
+					type: "kill"
+					entity: "cataclysm:deepling_angler"
+					value: 1L
+				}
+				{
+					id: "50BB4590D3A38E72"
+					type: "kill"
+					entity: "cataclysm:deepling_brute"
+					value: 1L
+				}
+				{
+					id: "3733E5AD1C8D86CE"
+					type: "kill"
+					entity: "cataclysm:lionfish"
+					value: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "5B20E07223BA0D3B"
@@ -199,58 +344,89 @@
 				}
 				{
 					id: "3D4B806BAC39DC80"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.25d
-			tasks: [
-				{
-					id: "1FBF5C3854948939"
-					item: { count: 1, id: "cataclysm:abyss_eye" }
-					type: "item"
-				}
-				{
-					advancement: "cataclysm:find_sunken_city"
-					criterion: ""
-					id: "31DC67CB33D3EABD"
-					type: "advancement"
-				}
-				{
-					entity: "cataclysm:deepling"
-					id: "4853E4FF0E639B4B"
-					type: "kill"
-					value: 5L
-				}
-				{
-					entity: "cataclysm:deepling_angler"
-					id: "712819B654E2AAAB"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:deepling_brute"
-					id: "50BB4590D3A38E72"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:lionfish"
-					id: "3733E5AD1C8D86CE"
-					type: "kill"
-					value: 1L
-				}
+			title: "A Cidade Afundada"
+			description: [
+				"&7Torres de pedra furam a superfície do mar profundo. Abaixo, uma cúpula guarda um altar."
+				"&7Os que construíram a cidade não se afogaram: mudaram de forma e viraram os deeplings,"
+				"&7um povo de castas com soldados, pescadores de lanterna e brutamontes. Até os recifes ao redor envenenam."
+				""
+				"&6Objetivo:&r 1. Fabrique o &6Olho do Abismo&r (olho do Ender, obsidiana e obsidiana chorona)."
+				"&f2. Siga-o até a &6Cidade Afundada&r, nos &boceanos profundos&r, e mergulhe nela."
+				"&f3. Derrote &c5 Deeplings&r, um &cDeepling Pescador&r e um &cDeepling Brutamontes&r."
+				"&f4. Nos recifes quentes, derrote um &cPeixe-leão&r: envenena quem chega perto e cospe espinhos em quem foge."
+				""
+				"&8Leve poções de respiração aquática e visão noturna. Deeplings também surgem em oceanos profundos à noite e deixam conchas de náutilo."
 			]
-			x: 2.0d
-			y: 6.4d
 		}
 		{
-			dependencies: ["7342671807860AE4"]
 			id: "6990E8C44B6CA722"
+			x: 4.0d
+			y: 6.4d
+			shape: "diamond"
+			size: 1.25d
+			dependencies: [
+				"7342671807860AE4"
+			]
+			tasks: [
+				{
+					id: "28E947318CC590C1"
+					type: "kill"
+					entity: "cataclysm:deepling_priest"
+					value: 1L
+				}
+				{
+					id: "0ECE9F1BC2BFF59A"
+					type: "kill"
+					entity: "cataclysm:deepling_warlock"
+					value: 1L
+				}
+				{
+					id: "1F9E64153C9FF5BB"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:athame"
+					}
+					count: 1L
+				}
+				{
+					id: "4F525AF8BEE19C2E"
+					type: "kill"
+					entity: "cataclysm:coralssus"
+					value: 1L
+				}
+				{
+					id: "7A6EDA8C80E11107"
+					type: "kill"
+					entity: "cataclysm:coral_golem"
+					value: 1L
+				}
+				{
+					id: "6471F837C02EBA36"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:crystallized_coral"
+					}
+					count: 1L
+				}
+				{
+					id: "2D47462B03A0893E"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:coral_spear"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "19ED2788C155010B"
@@ -259,58 +435,31 @@
 				}
 				{
 					id: "307549E8B5FDE632"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.25d
-			tasks: [
-				{
-					entity: "cataclysm:deepling_priest"
-					id: "28E947318CC590C1"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:deepling_warlock"
-					id: "0ECE9F1BC2BFF59A"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "1F9E64153C9FF5BB"
-					item: { count: 1, id: "cataclysm:athame" }
-					type: "item"
-				}
-				{
-					entity: "cataclysm:coralssus"
-					id: "4F525AF8BEE19C2E"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:coral_golem"
-					id: "7A6EDA8C80E11107"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "6471F837C02EBA36"
-					item: { count: 1, id: "cataclysm:crystallized_coral" }
-					type: "item"
-				}
-				{
-					id: "2D47462B03A0893E"
-					item: { count: 1, id: "cataclysm:coral_spear" }
-					type: "item"
-				}
+			title: "Os sacerdotes do abismo"
+			description: [
+				"&7Os sacerdotes e bruxos deeplings ainda rezam ao que dorme sob a cúpula."
+				"&7O athame cerimonial serviu para muitos sacrifícios, e servirá para mais um."
+				"&7Gigantes de coral fazem de guarda e de montaria, e carregam cristais que o mar levou séculos para formar."
+				""
+				"&6Objetivo:&r 1. Derrote um &cSacerdote Deepling&r e um &cBruxo Deepling&r (magia abissal: mate-os primeiro)."
+				"&f2. Recolha um &6Athame&r, que cai deles: é parte do Sacrifício Abissal."
+				"&f3. Derrote um &cCorálosso&r (às vezes montado por deeplings) e um &cGolem de Coral&r."
+				"&f4. Junte 4 fragmentos para formar &6Coral Cristalizado&r."
+				"&f5. Tome uma &6Lança de Coral&r dos deeplings (a Alabarda de Coral também pode cair)."
+				""
+				"&8Coral cristalizado ou pedaço de coral (do Corálosso) servem igualmente no Sacrifício Abissal."
 			]
-			x: 4.0d
-			y: 6.4d
 		}
+	]
+	title: "&9Tier III&7 - O Remanescente e o Abismo"
+	subtitle: [
+		"&4Os Titãs Adormecidos&7, &9Tier III"
 	]
 }

@@ -4,112 +4,179 @@
 	filename: "mod_irons_t5"
 	group: "5955ECC104DC966A"
 	icon: {
+		count: 1
 		id: "comamigos_balance:tier_heart_5"
 	}
 	id: "5F27B6635CBF470A"
-	images: [ ]
-	order_index: 5
+	order_index: 37
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			icon: {
-				id: "comamigos_balance:tier_heart_5"
-			}
 			id: "2A47D8A9991BA850"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "comamigos_balance:tier/tier_5"
-				criterion: ""
-				id: "6F427903DFE84EF0"
-				type: "advancement"
-			}]
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tier_heart_5"
+			}
+			tasks: [
+				{
+					id: "6F427903DFE84EF0"
+					type: "advancement"
+					advancement: "comamigos_balance:tier/tier_5"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
+			title: "&cTier V"
+			description: [
+				"&7Este capítulo se abre quando o grupo alcança o &cTier V&7."
+			]
+			disable_toast: true
 		}
 		{
+			id: "6752CA2CC8AB08E0"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:epic_ink"
+			}
 			dependencies: [
 				"5CC5F2FDC9771550"
 				"7B5DD188F20AB4CB"
 				"1788C4B58A1E711D"
 				"2A47D8A9991BA850"
 			]
-			icon: {
-				id: "irons_spellbooks:epic_ink"
-			}
-			id: "6752CA2CC8AB08E0"
-			rewards: [{
-				id: "08C3E010B7C662D8"
-				type: "xp"
-				xp: 510
-			}]
 			tasks: [
 				{
-					count: 2L
 					id: "07D2F4FF03F3DD91"
-					item: { count: 1, id: "irons_spellbooks:epic_ink" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:epic_ink"
+					}
+					count: 2L
 				}
 				{
-					count: 4L
 					id: "7D23F393B30EC598"
-					item: { count: 1, id: "irons_spellbooks:bloody_vellum" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:bloody_vellum"
+					}
+					count: 4L
 				}
 				{
-					advancement: "irons_spellbooks:irons_spellbooks/spell_book_blood"
-					criterion: ""
 					id: "51223A58101DF033"
 					type: "advancement"
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_blood"
+					criterion: ""
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "08C3E010B7C662D8"
+					type: "xp"
+					xp: 510
+				}
+			]
+			title: "Ouro na Tinta, Sangue no Couro"
+			description: [
+				"&7Ouro derretido em tinta rara: uma gota mancha a mesa para sempre. É a &5Tinta Épica&7,"
+				"&7que os forjadores dos Corações dos Tiers V e VI deixam cair sobre o núcleo ainda quente."
+				"&7No mesmo caldeirão, couro de hoglin deixado de molho em sangue fica macio como pele humana,"
+				"&7e com ele se costura o tomo amaldiçoado do mago antigo Apshock, que bebe um pouco de quem o lê."
+				""
+				"&6Objetivo:&r 1. Prepare 2 &5Tintas Épicas&r: no caldeirão, quatro garrafas de tinta rara + um lingote de ouro. As magias &5épicas&r já respondem."
+				"&f2. Com o caldeirão cheio de &4sangue&r, jogue Peles de Hoglin para obter 4 &6Pergaminhos Sangrentos&r."
+				"&f3. Faça o &4Livro de Magias Vampírico&r na &6Mechanical Crafter&r: livro arruinado, quatro pergaminhos sangrentos e dois lingotes arcanos."
+				""
+				"&8A &5Tinta Épica&r é ingrediente dos &6Corações dos Tiers V e VI&r."
+			]
 		}
 		{
+			id: "47E891FACE65906E"
+			x: 4.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "comamigos_balance:tyros_heart"
+			}
 			dependencies: [
 				"4F5C8E3017F995AF"
 				"6752CA2CC8AB08E0"
 			]
-			icon: {
-				id: "comamigos_balance:tyros_heart"
-			}
-			id: "47E891FACE65906E"
-			rewards: [{
-				id: "1A53C3B77253D683"
-				type: "xp"
-				xp: 680
-			}]
-			shape: "diamond"
-			size: 1.25d
 			tasks: [
 				{
-					entity: "irons_spellbooks:fire_boss"
 					id: "62AE3A6600E4FA28"
 					type: "kill"
+					entity: "irons_spellbooks:fire_boss"
 					value: 1L
 				}
 				{
 					id: "1C27F486DC760C53"
-					item: { count: 1, id: "irons_spellbooks:divine_soulshard" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:divine_soulshard"
+					}
+					count: 1L
 				}
 				{
 					id: "4273E042D33646E2"
-					item: { count: 1, id: "irons_spellbooks:decrepit_key" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:decrepit_key"
+					}
+					count: 1L
 				}
 				{
 					id: "39E2A48803004844"
-					item: { count: 1, id: "irons_spellbooks:decrepit_scythe" }
 					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:decrepit_scythe"
+					}
+					count: 1L
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			rewards: [
+				{
+					id: "1A53C3B77253D683"
+					type: "xp"
+					xp: 680
+				}
+			]
+			title: "Eco de Tyros"
+			description: [
+				"&7No coração da Cidadela, o eco do primeiro portador da chama ainda empunha sua lâmina."
+				"&7Ele não lembra por que luta, lembra apenas como. Salta com adagas e enche a arena de chamas."
+				"&7O que resta dele é uma faísca de alma divina, uma chave carcomida e a foice mais velha que os reinos."
+				""
+				"&6Objetivo:&r 1. Derrote o &cEco de Tyros&r na Cidadela Perdida e reclame seu &ccoração de troféu&r (comestível, com bênçãos e pragas)."
+				"&f2. Recolha o &6Fragmento de Alma Divina&r que ele deixa."
+				"&f3. Receba a &6Chave Decrépita&r e abra um &6Cofre Cinéreo&r da Cidadela."
+				"&f4. Tome a &6Foice Decrépita&r. Repare-a na ferraria com Lodo Atemporal e Pírio."
+				""
+				"&8Leve o Anel contra Fogo e resistência ao fogo."
+				"&8Às vezes o eco também deixa o &6Sinete do Traidor&r, um anel que fere mais quem tem muita mana."
+			]
 		}
 		{
+			id: "45FC91953F6E8102"
+			x: 6.0d
+			y: -0.8d
+			size: 1.25d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:paladin_chestplate"
+			}
 			dependencies: [
 				"47E891FACE65906E"
 				"3B215ADB9CB4514C"
@@ -117,18 +184,44 @@
 				"0BA05EA8A0FEB631"
 				"369DBF99F301EF9B"
 			]
-			icon: {
-				components: {
-					"irons_spellbooks:spell_container": {
-						data: [ ]
-						maxSpells: 1
-						mustEquip: 1b
-						spellWheel: 1b
+			tasks: [
+				{
+					id: "3D7119D2298DD619"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:infernal_sorcerer_chestplate"
 					}
+					count: 1L
 				}
-				id: "irons_spellbooks:paladin_chestplate"
-			}
-			id: "45FC91953F6E8102"
+				{
+					id: "3694B83B01C544E6"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:paladin_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "4AAF2D2890F5D02C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:speed_boots"
+					}
+					count: 1L
+				}
+				{
+					id: "2B78AA661BD51022"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_conjurers_talisman"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "75B75378B12C179B"
@@ -137,46 +230,68 @@
 				}
 				{
 					id: "286CD1F1C39B9174"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "3D7119D2298DD619"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:infernal_sorcerer_chestplate" }
-					type: "item"
-				}
-				{
-					id: "3694B83B01C544E6"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:paladin_chestplate" }
-					type: "item"
-				}
-				{
-					id: "4AAF2D2890F5D02C"
-					item: { count: 1, id: "irons_spellbooks:speed_boots" }
-					type: "item"
-				}
-				{
-					id: "2B78AA661BD51022"
-					item: { count: 1, id: "irons_spellbooks:greater_conjurers_talisman" }
-					type: "item"
-				}
+			title: "Alma Divina nas Vestes"
+			description: [
+				"&7Uma faísca de alma divina basta para despertar o que já era bom."
+				"&7O manto do Piromante, costurado com mithril, acumula uma explosão a cada chama acesa."
+				"&7As vestes do Sacerdote fazem os mortos recuarem antes do primeiro golpe, e as botas do Arquievocador quase não tocam o chão."
+				"&7Até o talismã do conjurador, banhado em sangue, deixa de cobrar o tempo de espera."
+				""
+				"&6Objetivo:&r 1. &cPeitoral do Feiticeiro Infernal&r (Mechanical Crafter): robe do Piromante, alma divina, duas malhas de mithril e dois pírios."
+				"&f2. &ePeitoral do Portador da Luz&r (Mechanical Crafter): robe do Sacerdote, alma divina, três malhas de mithril e quatro ouros."
+				"&f3. &6Botas da Velocidade&r: botas do Arquievocador, malha de mithril, duas penas e alma divina."
+				"&f4. &6Talismã Maior do Conjurador&r: talismã do conjurador, Runa Arcana e quatro pergaminhos sangrentos."
+				""
+				"&8Cada peça pede um Fragmento de Alma Divina: enfrente Tyros mais de uma vez."
 			]
-			x: 6.0d
-			y: -0.8d
 		}
 		{
-			dependencies: ["47E891FACE65906E"]
+			id: "639D9ADC88933004"
+			x: 6.0d
+			y: 0.8d
 			icon: {
+				count: 1
 				id: "irons_spellbooks:tyros_statue"
 			}
-			id: "639D9ADC88933004"
-			optional: true
+			dependencies: [
+				"47E891FACE65906E"
+			]
+			tasks: [
+				{
+					id: "0C4E77614C2E19C0"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:disc_fragment_flame_still_burns"
+					}
+					count: 8L
+				}
+				{
+					id: "68C032DF009906D9"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:music_disc_flame_still_burns"
+					}
+					count: 1L
+				}
+				{
+					id: "06575C2384A49A48"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:tyros_statue"
+					}
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "22C16C7C919C5DDD"
@@ -185,33 +300,28 @@
 				}
 				{
 					id: "6C214F5DB680EC6E"
+					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
-					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "0C4E77614C2E19C0"
-					item: { count: 1, id: "irons_spellbooks:disc_fragment_flame_still_burns" }
-					type: "item"
-				}
-				{
-					id: "68C032DF009906D9"
-					item: { count: 1, id: "irons_spellbooks:music_disc_flame_still_burns" }
-					type: "item"
-				}
-				{
-					id: "06575C2384A49A48"
-					item: { count: 1, id: "irons_spellbooks:tyros_statue" }
-					type: "item"
-				}
+			title: "A Chama Ainda Arde"
+			subtitle: "&8Opcional"
+			description: [
+				"&7Os bardos da Cidadela compuseram uma canção para Tyros. Os fragmentos dela ainda soam nos cofres."
+				"&7Quem a junta de novo costuma erguer também uma estátua ao velho portador da chama."
+				""
+				"&6Objetivo:&r 1. Junte 8 &6Fragmentos de Disco&r nos cofres da Cidadela."
+				"&f2. Com eles e um pírio, monte o disco &6The Flame Still Burns&r."
+				"&f3. Erga uma &6Estátua de Tyros&r: pedra, lajes de pedra lisa e um pírio."
 			]
-			x: 6.0d
-			y: 0.8d
+			optional: true
 		}
+	]
+	title: "&cTier V&7 - Magia Épica"
+	subtitle: [
+		"&dArtes Arcanas&7, &cTier V"
 	]
 }
