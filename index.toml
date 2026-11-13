@@ -4300,6 +4300,11 @@ hash = "ac5de469cfbe75c81a9472a38eff4254875bd6859c1bee3461247322a030c925"
 metafile = true
 
 [[files]]
+file = "mods/better_nether_portals-1.21.1-1.0.0.pw.toml"
+hash = "6599067cf95ab42a499acc5f17ac5b640e3b0f457f9f221cfcfbb5e4cf7fb8c9"
+metafile = true
+
+[[files]]
 file = "mods/bettercombat-neoforge-2.4.0+1.21.1.pw.toml"
 hash = "92a92e64f20928e427da956728fe7acc906afa3559cd573dcde696aafc3f1a12"
 metafile = true
@@ -4599,6 +4604,11 @@ hash = "eb9685511088a94672e1b28183125f8be07a37cc1a89649e831fb9f838ba365a"
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
 hash = "50183b42a7116f73a7b6486c80c2cd4ad8f584ea1569aef079b0e16bd6dbc4e3"
+
+[[files]]
+file = "mods/icys-better-horses-2.1.8-neo-1.21.1.pw.toml"
+hash = "77b8d34277d2f932a26c127c1c90ad1303a7eb01af5844da3573de7c4cbedadc"
+metafile = true
 
 [[files]]
 file = "mods/integrated_api-neoforge-1.21.1-1.9.1.pw.toml"
