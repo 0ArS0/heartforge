@@ -163,6 +163,9 @@
 				count: 1
 				id: "comamigos_balance:tier_heart_4"
 			}
+			dependencies: [
+				"1F8C1A9EEEADBBD8"
+			]
 			tasks: [
 				{
 					id: "105486FED8CC4B3A"
@@ -174,9 +177,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Olhos que Procuram"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "38685298A1A0CBB6"
@@ -188,7 +192,6 @@
 				id: "minecraft:ender_eye"
 			}
 			dependencies: [
-				"07F9956317F778B7"
 				"208DF476A9356889"
 			]
 			tasks: [
@@ -252,7 +255,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"208DF476A9356889"
+				"38685298A1A0CBB6"
 			]
 			tasks: [
 				{
@@ -265,9 +268,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - O Mar da Eternidade"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "371301DF0E0A32D3"
@@ -279,7 +283,6 @@
 				id: "minecraft:end_portal_frame"
 			}
 			dependencies: [
-				"38685298A1A0CBB6"
 				"7D2E0954A2C89E3F"
 			]
 			tasks: [
@@ -480,6 +483,14 @@
 					id: "1A22D0F975405F60"
 					type: "xp"
 					xp: 690
+				}
+				{
+					id: "08175465B2BC4DFD"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
 				}
 			]
 			title: "Matador de Deuses"
@@ -816,6 +827,14 @@
 					type: "xp"
 					xp: 920
 				}
+				{
+					id: "3C007404B1E901C8"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
 			]
 			title: "Molinetes do Vazio"
 			description: [
@@ -1084,6 +1103,14 @@
 					type: "xp"
 					xp: 230
 				}
+				{
+					id: "7061B2E5A48E5754"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
 			]
 			title: "&dA Rainha das Luzes Cintilantes"
 			description: [
@@ -1198,7 +1225,7 @@
 				id: "comamigos_balance:tier_heart_8"
 			}
 			dependencies: [
-				"7D2E0954A2C89E3F"
+				"730020287343EDD1"
 			]
 			tasks: [
 				{
@@ -1211,9 +1238,10 @@
 			rewards: [ ]
 			title: "&eTier VIII&7 - O Divino"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "54D17D9495DB86DC"
@@ -1225,10 +1253,6 @@
 				id: "minecraft:netherite_chestplate"
 			}
 			dependencies: [
-				"3A8382176892D603"
-				"17B55D1CEFE83737"
-				"7A599A16D3808754"
-				"59247486A1DB7267"
 				"0CDFAB0EB15BDD95"
 			]
 			tasks: [
@@ -1287,8 +1311,6 @@
 				id: "minecraft:wither_skeleton_skull"
 			}
 			dependencies: [
-				"75ED702A9FA022A3"
-				"730020287343EDD1"
 				"0CDFAB0EB15BDD95"
 			]
 			tasks: [

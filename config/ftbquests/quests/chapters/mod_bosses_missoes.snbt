@@ -32,7 +32,7 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Gelo e Marés"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
 		}
@@ -131,7 +131,8 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"6A5696C386D1D04F"
+				"2AFDA2BD935F2B76"
+				"597767509D240159"
 			]
 			tasks: [
 				{
@@ -144,9 +145,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Lich, Verme e Cavaleiro"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "1C986091557ADA57"
@@ -192,6 +194,14 @@
 					type: "xp"
 					xp: 330
 				}
+				{
+					id: "2BF4BBAB073AB95B"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "O Lich Noturno"
 			description: [
@@ -236,6 +246,14 @@
 					id: "5BF90F5D7BB0431A"
 					type: "xp"
 					xp: 110
+				}
+				{
+					id: "63BE7D55667471D6"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "Sirok, o Verme da Areia"
@@ -371,14 +389,6 @@
 					type: "xp"
 					xp: 550
 				}
-				{
-					id: "7AD1B3A1174A4C36"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "A armadura dos cavaleiros caídos"
 			description: [
@@ -472,7 +482,8 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"605CA2DA263E9324"
+				"038E7BDAED11F60F"
+				"32D68BFB758FAFCA"
 			]
 			tasks: [
 				{
@@ -485,9 +496,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Wither e Cinzas"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "07E8765FDF4A9B9F"
@@ -565,7 +577,6 @@
 				id: "comamigos_balance:gauntlet_heart"
 			}
 			dependencies: [
-				"1C986091557ADA57"
 				"75778A68E6287ABF"
 			]
 			tasks: [
@@ -599,14 +610,6 @@
 					id: "2881F3AB0A4E7593"
 					type: "xp"
 					xp: 420
-				}
-				{
-					id: "7AB673C45F4ED98B"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
 				}
 			]
 			title: "A Manopla do Nether"
@@ -687,8 +690,6 @@
 			x: 14.0d
 			y: 2.4d
 			dependencies: [
-				"2AFDA2BD935F2B76"
-				"2B24EF1C195A5E7B"
 				"75778A68E6287ABF"
 			]
 			tasks: [
@@ -717,14 +718,6 @@
 					type: "xp"
 					xp: 280
 				}
-				{
-					id: "5C1F82BCAEC6CCCE"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "Os punhos dos monstros"
 			description: [
@@ -747,7 +740,10 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"75778A68E6287ABF"
+				"07E8765FDF4A9B9F"
+				"7F539B48DED44B0D"
+				"70D08B61B1B5ADC5"
+				"638D8BCD4CD1FCF0"
 			]
 			tasks: [
 				{
@@ -760,9 +756,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - Vazio e Osso"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4F28843ED2495D88"
@@ -775,7 +772,6 @@
 				id: "comamigos_balance:void_blossom_heart"
 			}
 			dependencies: [
-				"1C986091557ADA57"
 				"2DB8CE005B675E80"
 			]
 			tasks: [
@@ -828,14 +824,6 @@
 					type: "xp"
 					xp: 850
 				}
-				{
-					id: "267F2B524F6B72A0"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "A Flor do Vazio"
 			description: [
@@ -858,7 +846,6 @@
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
-				"70D08B61B1B5ADC5"
 				"2DB8CE005B675E80"
 			]
 			tasks: [
@@ -905,14 +892,6 @@
 					type: "xp"
 					xp: 680
 				}
-				{
-					id: "53E259D88178F275"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "Armadura de Ossos de Dragão"
 			description: [
@@ -937,7 +916,8 @@
 				id: "comamigos_balance:tier_heart_6"
 			}
 			dependencies: [
-				"2DB8CE005B675E80"
+				"4F28843ED2495D88"
+				"78989FE66E6D7109"
 			]
 			tasks: [
 				{
@@ -950,9 +930,10 @@
 			rewards: [ ]
 			title: "&5Tier VI&7 - O Navio dos Afogados"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "284065F2FB386D03"
@@ -1097,7 +1078,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"5C7C27E4D441A08A"
+				"2D143BAA98CD1E09"
 			]
 			tasks: [
 				{
@@ -1110,9 +1091,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - O Fim do Mundo"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4964A081949D5932"
@@ -1265,7 +1247,6 @@
 			dependencies: [
 				"4964A081949D5932"
 				"20CB057C125A1308"
-				"07E8765FDF4A9B9F"
 			]
 			tasks: [
 				{
@@ -1389,7 +1370,7 @@
 				id: "comamigos_balance:tier_heart_8"
 			}
 			dependencies: [
-				"70DD3CF99F0C23F1"
+				"6678912199199404"
 			]
 			tasks: [
 				{
@@ -1402,9 +1383,10 @@
 			rewards: [ ]
 			title: "&eTier VIII&7 - O Fim da Crônica"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "6628349A4933332C"
@@ -1417,7 +1399,6 @@
 				id: "comamigos_balance:obsidilith_heart"
 			}
 			dependencies: [
-				"4964A081949D5932"
 				"1EECA136084C89D2"
 			]
 			tasks: [

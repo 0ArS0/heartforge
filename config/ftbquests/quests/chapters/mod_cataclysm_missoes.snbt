@@ -93,6 +93,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"4635BF63F94949B6"
+			]
 			tasks: [
 				{
 					id: "04C6A1E685E4F8B2"
@@ -104,9 +107,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - Areia e Ossos"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "53E88B19CDC71AAA"
@@ -115,7 +119,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"4635BF63F94949B6"
 				"16AC9D558253563F"
 			]
 			tasks: [
@@ -183,7 +186,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"4635BF63F94949B6"
 				"16AC9D558253563F"
 			]
 			tasks: [
@@ -257,7 +259,8 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"16AC9D558253563F"
+				"53E88B19CDC71AAA"
+				"1823163690B0B5F7"
 			]
 			tasks: [
 				{
@@ -270,9 +273,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Pirâmide e Prisão"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4FBEFC5DEB2882BE"
@@ -281,7 +285,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"53E88B19CDC71AAA"
 				"3A5632CF088470B6"
 			]
 			tasks: [
@@ -350,7 +353,6 @@
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
-				"1823163690B0B5F7"
 				"3A5632CF088470B6"
 			]
 			tasks: [
@@ -420,7 +422,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_rara"
+						id: "comamigos_balance:loot_bag_comum"
 					}
 				}
 			]
@@ -442,7 +444,6 @@
 			y: 1.6d
 			shape: "diamond"
 			dependencies: [
-				"1823163690B0B5F7"
 				"3A5632CF088470B6"
 			]
 			tasks: [
@@ -499,7 +500,9 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"3A5632CF088470B6"
+				"4FBEFC5DEB2882BE"
+				"2DF47478AB1E9945"
+				"744D887EEAAF42FF"
 			]
 			tasks: [
 				{
@@ -512,9 +515,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - O Remanescente e o Abismo"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "12C86E79E2414320"
@@ -526,7 +530,6 @@
 				id: "comamigos_balance:ancient_remnant_heart"
 			}
 			dependencies: [
-				"4FBEFC5DEB2882BE"
 				"3C3290B84658D5E6"
 			]
 			tasks: [
@@ -561,6 +564,14 @@
 					type: "xp"
 					xp: 330
 				}
+				{
+					id: "130CC81B6A9C08FF"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "O Remanescente Antigo"
 			description: [
@@ -582,7 +593,6 @@
 			x: 17.0d
 			y: -1.6d
 			dependencies: [
-				"4FBEFC5DEB2882BE"
 				"3C3290B84658D5E6"
 			]
 			tasks: [
@@ -646,7 +656,6 @@
 			y: 0.0d
 			shape: "diamond"
 			dependencies: [
-				"4635BF63F94949B6"
 				"3C3290B84658D5E6"
 			]
 			tasks: [
@@ -681,6 +690,14 @@
 					type: "xp"
 					xp: 330
 				}
+				{
+					id: "11D2749F4111A292"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "O Ninho de Ametista"
 			description: [
@@ -702,7 +719,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"4635BF63F94949B6"
 				"3C3290B84658D5E6"
 			]
 			tasks: [
@@ -749,6 +765,14 @@
 					type: "xp"
 					xp: 550
 				}
+				{
+					id: "1CDD7B78CF910A12"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "A Fábrica Antiga"
 			description: [
@@ -772,7 +796,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"4635BF63F94949B6"
 				"3C3290B84658D5E6"
 			]
 			tasks: [
@@ -948,7 +971,7 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"3C3290B84658D5E6"
+				"6990E8C44B6CA722"
 			]
 			tasks: [
 				{
@@ -961,9 +984,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - A Arena Ardente"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "0800E9D0B5EB9C2C"
@@ -971,7 +995,6 @@
 			y: -1.2d
 			size: 1.25d
 			dependencies: [
-				"4635BF63F94949B6"
 				"07623111D15E32A5"
 			]
 			tasks: [
@@ -1038,7 +1061,6 @@
 				id: "comamigos_balance:monstrosity_heart"
 			}
 			dependencies: [
-				"4635BF63F94949B6"
 				"07623111D15E32A5"
 			]
 			tasks: [
@@ -1088,6 +1110,14 @@
 					type: "xp"
 					xp: 700
 				}
+				{
+					id: "7844472BA0AAD96F"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
 			]
 			title: "A Monstruosidade de Netherite"
 			description: [
@@ -1111,8 +1141,6 @@
 			y: 2.0d
 			size: 1.25d
 			dependencies: [
-				"12C86E79E2414320"
-				"25509392190A304D"
 				"07623111D15E32A5"
 			]
 			tasks: [
@@ -1395,14 +1423,6 @@
 					type: "xp"
 					xp: 420
 				}
-				{
-					id: "03E2BDAF33DA5E3D"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "As armas de Ignis"
 			description: [
@@ -1429,7 +1449,8 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"07623111D15E32A5"
+				"4E8D1EE016E1ACB2"
+				"14D4EB7F4C77EB6E"
 			]
 			tasks: [
 				{
@@ -1442,9 +1463,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - Maldição e Tempestade"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4CDC09724947BA6E"
@@ -1456,7 +1478,6 @@
 				id: "comamigos_balance:maledictus_heart"
 			}
 			dependencies: [
-				"744D887EEAAF42FF"
 				"569E756589BB3305"
 			]
 			tasks: [
@@ -1502,7 +1523,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"4635BF63F94949B6"
 				"569E756589BB3305"
 			]
 			tasks: [
@@ -1563,7 +1583,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
+						id: "comamigos_balance:loot_bag_epica"
 					}
 				}
 			]
@@ -1643,14 +1663,6 @@
 					type: "xp"
 					xp: 850
 				}
-				{
-					id: "1D4680B68E992627"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "A armadura dos que não ficam mortos"
 			description: [
@@ -1729,7 +1741,8 @@
 				id: "comamigos_balance:tier_heart_6"
 			}
 			dependencies: [
-				"569E756589BB3305"
+				"568455103C4D81C8"
+				"6DB2F6FAFCC6174B"
 			]
 			tasks: [
 				{
@@ -1742,9 +1755,10 @@
 			rewards: [ ]
 			title: "&5Tier VI&7 - Fusão e Maré"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "79575B5C3CEABB9B"
@@ -1756,7 +1770,6 @@
 				id: "comamigos_balance:harbinger_heart"
 			}
 			dependencies: [
-				"5366AA3B09908D02"
 				"5FD5BD0C525EA09C"
 			]
 			tasks: [
@@ -1817,7 +1830,6 @@
 				id: "comamigos_balance:leviathan_heart"
 			}
 			dependencies: [
-				"6990E8C44B6CA722"
 				"5FD5BD0C525EA09C"
 			]
 			tasks: [
@@ -1873,7 +1885,6 @@
 			x: 40.0d
 			y: 0.8d
 			dependencies: [
-				"792374CCF6411BFF"
 				"5FD5BD0C525EA09C"
 			]
 			tasks: [
@@ -1929,7 +1940,6 @@
 				id: "comamigos_balance:scylla_heart"
 			}
 			dependencies: [
-				"792374CCF6411BFF"
 				"5FD5BD0C525EA09C"
 			]
 			tasks: [
@@ -2183,8 +2193,6 @@
 			dependencies: [
 				"6951DE5A0B03E8E7"
 				"5F369ABC5270D5FB"
-				"6DB2F6FAFCC6174B"
-				"6BC6C7D751EFC9D3"
 			]
 			tasks: [
 				{
@@ -2247,7 +2255,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"5FD5BD0C525EA09C"
+				"66DA84226E59DB5A"
 			]
 			tasks: [
 				{
@@ -2260,9 +2268,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - A Cidadela do Vazio"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "7B859BEBD1A1B850"
@@ -2271,7 +2280,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"4635BF63F94949B6"
 				"58FAB256B8E49AFB"
 			]
 			tasks: [
@@ -2406,8 +2414,6 @@
 			size: 1.25d
 			dependencies: [
 				"74A0049EE9DCF250"
-				"66DA84226E59DB5A"
-				"4E8D1EE016E1ACB2"
 			]
 			tasks: [
 				{
@@ -2603,13 +2609,6 @@
 			shape: "gear"
 			dependencies: [
 				"74A0049EE9DCF250"
-				"641238FABF883C37"
-				"3008DBF1FD38D015"
-				"79575B5C3CEABB9B"
-				"4CDC09724947BA6E"
-				"23229B6CC678D4DF"
-				"6BC6C7D751EFC9D3"
-				"12C86E79E2414320"
 			]
 			tasks: [
 				{

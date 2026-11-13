@@ -103,6 +103,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"3CB9F9FBB8551617"
+			]
 			tasks: [
 				{
 					id: "669C172605CB47B9"
@@ -114,9 +117,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - O Labirinto de Gelo"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "6A771620FC437DDE"
@@ -128,7 +132,6 @@
 				id: "aquamirae:esca"
 			}
 			dependencies: [
-				"3CB9F9FBB8551617"
 				"73CA4D8DB6AB5132"
 			]
 			tasks: [
@@ -200,7 +203,6 @@
 				id: "aquamirae:sharp_bones"
 			}
 			dependencies: [
-				"3CB9F9FBB8551617"
 				"73CA4D8DB6AB5132"
 			]
 			tasks: [
@@ -262,7 +264,6 @@
 				id: "aquamirae:sea_stew"
 			}
 			dependencies: [
-				"3CB9F9FBB8551617"
 				"73CA4D8DB6AB5132"
 			]
 			tasks: [
@@ -338,7 +339,6 @@
 				id: "aquamirae:shell_horn"
 			}
 			dependencies: [
-				"3CB9F9FBB8551617"
 				"73CA4D8DB6AB5132"
 			]
 			tasks: [
@@ -393,7 +393,6 @@
 				id: "aquamirae:ship_graveyard_echo"
 			}
 			dependencies: [
-				"3CB9F9FBB8551617"
 				"73CA4D8DB6AB5132"
 			]
 			tasks: [
@@ -452,7 +451,11 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"73CA4D8DB6AB5132"
+				"6A771620FC437DDE"
+				"60032A1D1D667DED"
+				"306355B7B248426B"
+				"7BD66323DD45C80B"
+				"2900F2C07B7B20FE"
 			]
 			tasks: [
 				{
@@ -465,9 +468,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - A Capitã Afogada"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "760368A8A586216B"
@@ -479,8 +483,6 @@
 				id: "comamigos_balance:cornelia_heart"
 			}
 			dependencies: [
-				"7BD66323DD45C80B"
-				"2900F2C07B7B20FE"
 				"77B6539DC8430A3B"
 			]
 			tasks: [
@@ -533,8 +535,6 @@
 				id: "aquamirae:treasure_pouch"
 			}
 			dependencies: [
-				"60032A1D1D667DED"
-				"306355B7B248426B"
 				"77B6539DC8430A3B"
 			]
 			tasks: [
@@ -572,6 +572,14 @@
 					type: "xp"
 					xp: 240
 				}
+				{
+					id: "6C72E9F6586F8E8D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Bolsas de Tesouro"
 			description: [
@@ -595,8 +603,6 @@
 				id: "aquamirae:terrible_chestplate"
 			}
 			dependencies: [
-				"6A771620FC437DDE"
-				"7BD66323DD45C80B"
 				"77B6539DC8430A3B"
 			]
 			tasks: [
@@ -754,8 +760,6 @@
 			}
 			dependencies: [
 				"37A726F96110E342"
-				"60032A1D1D667DED"
-				"2900F2C07B7B20FE"
 			]
 			tasks: [
 				{
@@ -807,14 +811,6 @@
 					type: "xp"
 					xp: 400
 				}
-				{
-					id: "42D40C6A2FB721A0"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "Arsenal Terrível"
 			description: [
@@ -840,7 +836,9 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"77B6539DC8430A3B"
+				"5787500722BAE4FB"
+				"201A4EB5C5E7FC88"
+				"4E9D7E2BFE6A6C2B"
 			]
 			tasks: [
 				{
@@ -853,9 +851,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Luz do Abismo"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "50F422C84B80372F"
@@ -866,8 +865,6 @@
 				id: "aquamirae:tidepiercer"
 			}
 			dependencies: [
-				"760368A8A586216B"
-				"5787500722BAE4FB"
 				"5440D4534FFAE557"
 			]
 			tasks: [
@@ -926,8 +923,6 @@
 				id: "aquamirae:abyssal_brigandine"
 			}
 			dependencies: [
-				"201A4EB5C5E7FC88"
-				"37A726F96110E342"
 				"5440D4534FFAE557"
 			]
 			tasks: [
@@ -1141,7 +1136,6 @@
 			}
 			dependencies: [
 				"7AB7B5F2C0390D81"
-				"2FBB46CCB20EC89D"
 			]
 			tasks: [
 				{

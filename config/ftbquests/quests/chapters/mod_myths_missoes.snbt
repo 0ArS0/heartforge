@@ -101,14 +101,6 @@
 					type: "xp"
 					xp: 100
 				}
-				{
-					id: "5DA34A0D1DD5CF08"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "&4A Lua de Sangue"
 			description: [
@@ -133,6 +125,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"64C404964D17772E"
+			]
 			tasks: [
 				{
 					id: "449FE6D0C62FE00D"
@@ -144,9 +139,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - Velhas Histórias"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "5B9D5CC7503888BB"
@@ -155,7 +151,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"569FDAFB2800A00D"
 				"19ADDF76C4D3C4F2"
 			]
 			tasks: [
@@ -244,7 +239,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"569FDAFB2800A00D"
 				"19ADDF76C4D3C4F2"
 			]
 			tasks: [
@@ -339,7 +333,6 @@
 			y: -0.8d
 			shape: "diamond"
 			dependencies: [
-				"569FDAFB2800A00D"
 				"19ADDF76C4D3C4F2"
 			]
 			tasks: [
@@ -371,6 +364,14 @@
 					type: "xp"
 					xp: 150
 				}
+				{
+					id: "32DE0EB3626E8C2C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Ecos no gelo"
 			description: [
@@ -391,7 +392,6 @@
 			y: 0.8d
 			shape: "diamond"
 			dependencies: [
-				"569FDAFB2800A00D"
 				"19ADDF76C4D3C4F2"
 			]
 			tasks: [
@@ -447,7 +447,6 @@
 			x: 9.0d
 			y: 2.4d
 			dependencies: [
-				"569FDAFB2800A00D"
 				"19ADDF76C4D3C4F2"
 			]
 			tasks: [
@@ -482,6 +481,14 @@
 					type: "xp"
 					xp: 150
 				}
+				{
+					id: "43BD91E3553FE583"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "O Mausoléu"
 			description: [
@@ -503,7 +510,6 @@
 			y: 4.0d
 			size: 1.25d
 			dependencies: [
-				"569FDAFB2800A00D"
 				"19ADDF76C4D3C4F2"
 			]
 			tasks: [
@@ -546,6 +552,14 @@
 					id: "3E3776B324E750EF"
 					type: "xp"
 					xp: 200
+				}
+				{
+					id: "2EC5424320012B4D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "O Sino Supressor"
@@ -603,14 +617,6 @@
 					type: "xp"
 					xp: 150
 				}
-				{
-					id: "7387E1409900F3FC"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "Ars Lapidem"
 			description: [
@@ -637,7 +643,7 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"19ADDF76C4D3C4F2"
+				"40C55FCF55670A4B"
 			]
 			tasks: [
 				{
@@ -650,9 +656,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Aço de Sombra"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "005D8A08CF4353C6"
@@ -660,9 +667,6 @@
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
-				"1FA3332A0EEE28BD"
-				"7AC9F56BE4EAB307"
-				"5B9D5CC7503888BB"
 				"2AB87FAF87121B27"
 			]
 			tasks: [
@@ -736,7 +740,6 @@
 				id: "comamigos_balance:warborn_aegis_heart"
 			}
 			dependencies: [
-				"1FA3332A0EEE28BD"
 				"2AB87FAF87121B27"
 			]
 			tasks: [
@@ -786,7 +789,8 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"2AB87FAF87121B27"
+				"005D8A08CF4353C6"
+				"1320F1AA53769DFF"
 			]
 			tasks: [
 				{
@@ -799,9 +803,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - O Charro Negro"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "569C6B9043457A9D"
@@ -812,8 +817,6 @@
 				id: "comamigos_balance:black_charro_heart"
 			}
 			dependencies: [
-				"7875F1AD69594782"
-				"6E007357A106B35F"
 				"579F3B618F3D1812"
 			]
 			tasks: [
@@ -870,7 +873,6 @@
 			size: 1.25d
 			dependencies: [
 				"569C6B9043457A9D"
-				"005D8A08CF4353C6"
 			]
 			tasks: [
 				{
@@ -1013,7 +1015,8 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"579F3B618F3D1812"
+				"585ADC9C690DE31B"
+				"459A4E74EC1BB44A"
 			]
 			tasks: [
 				{
@@ -1026,9 +1029,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Brasas do Nether"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "5A79EBB09EF2D768"
@@ -1037,7 +1041,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"569FDAFB2800A00D"
 				"7AFBAAF6DE81864C"
 			]
 			tasks: [
@@ -1223,7 +1226,6 @@
 			y: 0.8d
 			dependencies: [
 				"39C65A652E8099DF"
-				"585ADC9C690DE31B"
 			]
 			tasks: [
 				{
@@ -1260,14 +1262,6 @@
 					type: "xp"
 					xp: 420
 				}
-				{
-					id: "385444B18AE91458"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "Forjado no Inferno"
 			description: [
@@ -1295,7 +1289,8 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"7AFBAAF6DE81864C"
+				"4248424CBBCE697D"
+				"503C33E77041402C"
 			]
 			tasks: [
 				{
@@ -1308,9 +1303,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - A Máquina Esquecida"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "66AE20A30FC3AC57"
@@ -1372,7 +1368,7 @@
 				id: "comamigos_balance:tier_heart_6"
 			}
 			dependencies: [
-				"683F80F8E0DCB1A3"
+				"66AE20A30FC3AC57"
 			]
 			tasks: [
 				{
@@ -1385,9 +1381,10 @@
 			rewards: [ ]
 			title: "&5Tier VI&7 - O Lobo e o Destruidor"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "16EBD1E21262CDD5"
@@ -1399,7 +1396,6 @@
 				id: "comamigos_balance:amarok_heart"
 			}
 			dependencies: [
-				"7AC9F56BE4EAB307"
 				"19EA3BE559D4507C"
 			]
 			tasks: [
@@ -1463,8 +1459,6 @@
 				id: "comamigos_balance:abaddon_heart"
 			}
 			dependencies: [
-				"5A79EBB09EF2D768"
-				"4248424CBBCE697D"
 				"19EA3BE559D4507C"
 			]
 			tasks: [
@@ -1519,8 +1513,6 @@
 			dependencies: [
 				"16EBD1E21262CDD5"
 				"0C9E518CE94E7679"
-				"6E007357A106B35F"
-				"585ADC9C690DE31B"
 			]
 			tasks: [
 				{

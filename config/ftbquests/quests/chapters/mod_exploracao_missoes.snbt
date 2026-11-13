@@ -218,7 +218,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
+						id: "comamigos_balance:loot_bag_comum"
 					}
 				}
 			]
@@ -248,6 +248,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"446388A57CCC6F36"
+			]
 			tasks: [
 				{
 					id: "514689ECA3973279"
@@ -259,9 +262,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - O Andarilho"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "5DAD70DC22E50855"
@@ -440,6 +444,14 @@
 					id: "6B40F097B5023FE3"
 					type: "xp"
 					xp: 150
+				}
+				{
+					id: "6A5928BAB086E60C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "Cacos e Ornamentos"
@@ -787,6 +799,14 @@
 					type: "xp"
 					xp: 200
 				}
+				{
+					id: "2C6F6724C6C83511"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Câmaras de Provação"
 			description: [
@@ -934,7 +954,7 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"6C30FC58C32E544F"
+				"341BA500DB0E1E44"
 			]
 			tasks: [
 				{
@@ -947,9 +967,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Ruínas Distantes"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "286F5F454A3AA690"
@@ -961,7 +982,6 @@
 				id: "minecraft:red_sand"
 			}
 			dependencies: [
-				"167F45E1A1AD7172"
 				"1431CBD833E3345D"
 			]
 			tasks: [
@@ -996,14 +1016,6 @@
 					type: "xp"
 					xp: 320
 				}
-				{
-					id: "3EE1E9BC1F9EC96B"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "&cTerra de Bandidos"
 			description: [
@@ -1027,7 +1039,6 @@
 				id: "minecraft:mossy_stone_bricks"
 			}
 			dependencies: [
-				"341BA500DB0E1E44"
 				"1431CBD833E3345D"
 			]
 			tasks: [
@@ -1091,7 +1102,6 @@
 				id: "minecraft:totem_of_undying"
 			}
 			dependencies: [
-				"5DAD70DC22E50855"
 				"1431CBD833E3345D"
 			]
 			tasks: [
@@ -1122,14 +1132,6 @@
 					id: "50950078B172BF1F"
 					type: "xp"
 					xp: 240
-				}
-				{
-					id: "7428B7EE2574C6E8"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
 				}
 			]
 			title: "Herói da Vila"
@@ -1210,7 +1212,10 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"1431CBD833E3345D"
+				"286F5F454A3AA690"
+				"6905AE658E6B7C19"
+				"3A5C10D6F970926B"
+				"285290788BC1442F"
 			]
 			tasks: [
 				{
@@ -1223,9 +1228,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - O Abismo e o Mar"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "7F3D2E313FF91689"
@@ -1237,7 +1243,6 @@
 				id: "minecraft:sculk_sensor"
 			}
 			dependencies: [
-				"55B2E9D8A18C4E0C"
 				"5F6132A097733C71"
 			]
 			tasks: [
@@ -1302,8 +1307,6 @@
 				id: "minecraft:iron_bars"
 			}
 			dependencies: [
-				"6905AE658E6B7C19"
-				"285290788BC1442F"
 				"5F6132A097733C71"
 			]
 			tasks: [
@@ -1332,14 +1335,6 @@
 					type: "xp"
 					xp: 330
 				}
-				{
-					id: "69CD608655C011BA"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "&cEspinhos, Engrenagens e Ondas"
 			description: [
@@ -1361,8 +1356,6 @@
 				id: "minecraft:heavy_core"
 			}
 			dependencies: [
-				"26018DA8809EDC3E"
-				"5DAD70DC22E50855"
 				"5F6132A097733C71"
 			]
 			tasks: [
@@ -1418,8 +1411,6 @@
 				id: "minecraft:compass"
 			}
 			dependencies: [
-				"31E147B35E5DA844"
-				"285290788BC1442F"
 				"5F6132A097733C71"
 			]
 			tasks: [
@@ -1489,7 +1480,10 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"5F6132A097733C71"
+				"7F3D2E313FF91689"
+				"6381000109BACD57"
+				"53DF0506AF4BB28E"
+				"0770BC4A276D2870"
 			]
 			tasks: [
 				{
@@ -1502,9 +1496,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - As Portas do Inferno"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4F3255A0C18554FA"
@@ -1515,7 +1510,6 @@
 				id: "minecraft:obsidian"
 			}
 			dependencies: [
-				"2F9B060B7979BED5"
 				"6413C74F54BBDBFD"
 			]
 			tasks: [
@@ -1615,6 +1609,14 @@
 					id: "64CC98FB42634B54"
 					type: "xp"
 					xp: 700
+				}
+				{
+					id: "17AEAC3D2F33F1B6"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
 				}
 			]
 			title: "Uma Fortaleza Terrível"
@@ -1890,7 +1892,6 @@
 			}
 			dependencies: [
 				"7B2D0318E48A6CCD"
-				"7F3D2E313FF91689"
 			]
 			tasks: [
 				{
@@ -1974,7 +1975,7 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"6413C74F54BBDBFD"
+				"21606AEA2D513D3F"
 			]
 			tasks: [
 				{
@@ -1987,9 +1988,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - Mais que Exagero"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "1CAC403B9E3BCF8D"
@@ -2000,7 +2002,6 @@
 				id: "minecraft:mace"
 			}
 			dependencies: [
-				"53DF0506AF4BB28E"
 				"40F66464546243FA"
 			]
 			tasks: [
@@ -2067,7 +2068,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"40F66464546243FA"
+				"1CAC403B9E3BCF8D"
 			]
 			tasks: [
 				{
@@ -2080,9 +2081,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - A Frota Celeste"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "6130C188A723C3D7"
@@ -2093,7 +2095,6 @@
 				id: "minecraft:end_stone_bricks"
 			}
 			dependencies: [
-				"7681B1672044DCE5"
 				"2BA624636CEF25C4"
 			]
 			tasks: [

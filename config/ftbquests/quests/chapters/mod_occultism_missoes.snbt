@@ -375,6 +375,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"3ED8BFF02A311899"
+			]
 			tasks: [
 				{
 					id: "252517F8717937DC"
@@ -386,9 +389,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - O Círculo dos Foliots"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "05330088B679682E"
@@ -400,8 +404,6 @@
 				id: "occultism:book_of_binding_bound_foliot"
 			}
 			dependencies: [
-				"0CAF07650EBB57E6"
-				"3AFBB65C230F7DE0"
 				"7523BE01501CFBB2"
 			]
 			tasks: [
@@ -474,8 +476,6 @@
 			}
 			dependencies: [
 				"05330088B679682E"
-				"2B002EBE2EB90D87"
-				"65DA011A0D7CBB42"
 			]
 			tasks: [
 				{
@@ -909,7 +909,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_incomum"
 					}
 				}
 			]
@@ -1114,7 +1114,8 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"7523BE01501CFBB2"
+				"113814F57308D836"
+				"34C3C3093A40FE73"
 			]
 			tasks: [
 				{
@@ -1127,9 +1128,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - A Fumaça dos Djinn"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "25A14528DEC54509"
@@ -1141,7 +1143,6 @@
 				id: "occultism:spirit_attuned_gem"
 			}
 			dependencies: [
-				"44080B90DDE41016"
 				"1F10F12BDE5ECC39"
 			]
 			tasks: [
@@ -1208,8 +1209,6 @@
 				id: "occultism:book_of_binding_bound_djinni"
 			}
 			dependencies: [
-				"40035FB3D62CD07F"
-				"05330088B679682E"
 				"1F10F12BDE5ECC39"
 			]
 			tasks: [
@@ -1280,7 +1279,6 @@
 			}
 			dependencies: [
 				"25A14528DEC54509"
-				"40035FB3D62CD07F"
 			]
 			tasks: [
 				{
@@ -1326,6 +1324,14 @@
 					type: "xp"
 					xp: 320
 				}
+				{
+					id: "24FF7DC420CF2273"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Olhos para o Outro Lado"
 			description: [
@@ -1352,8 +1358,6 @@
 			}
 			dependencies: [
 				"1C68A81561277361"
-				"186F0E33D1230848"
-				"4BD28A695D974A77"
 			]
 			tasks: [
 				{
@@ -1723,7 +1727,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -1834,7 +1838,6 @@
 			size: 1.25d
 			dependencies: [
 				"59EC7D96ADE3A3C1"
-				"4F3750BCDFFC9357"
 			]
 			tasks: [
 				{
@@ -1978,7 +1981,7 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"1F10F12BDE5ECC39"
+				"3C50D10B0458BF5A"
 			]
 			tasks: [
 				{
@@ -1991,9 +1994,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Iésnio e as Minas do Além"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "61B372EAFAF2F1E0"
@@ -2004,8 +2008,6 @@
 				id: "occultism:iesnium_ingot"
 			}
 			dependencies: [
-				"363AECA4F200A93D"
-				"6C5EC7E8689D9D06"
 				"1AF63B76627C9477"
 			]
 			tasks: [
@@ -2067,8 +2069,6 @@
 				id: "occultism:familiar_ring"
 			}
 			dependencies: [
-				"363AECA4F200A93D"
-				"2413D605BFDAECF8"
 				"1AF63B76627C9477"
 			]
 			tasks: [
@@ -2213,7 +2213,6 @@
 			}
 			dependencies: [
 				"61B372EAFAF2F1E0"
-				"1878D8FF0E07B052"
 			]
 			tasks: [
 				{
@@ -2249,14 +2248,6 @@
 					id: "49B9E6D4AA8E7868"
 					type: "xp"
 					xp: 330
-				}
-				{
-					id: "262F2BCC17E4AE0A"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
 				}
 			]
 			title: "O Armazém no Bolso"
@@ -2343,7 +2334,9 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"1AF63B76627C9477"
+				"0AB4579CA0C63A42"
+				"65DA0195461EC628"
+				"7440365D4AA36B41"
 			]
 			tasks: [
 				{
@@ -2356,9 +2349,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - O Fogo dos Afrits"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "7B0226D09B54908B"
@@ -2371,9 +2365,6 @@
 				id: "occultism:afrit_essence"
 			}
 			dependencies: [
-				"59EC7D96ADE3A3C1"
-				"363AECA4F200A93D"
-				"61B372EAFAF2F1E0"
 				"4C1FD836349BC7C1"
 			]
 			tasks: [
@@ -2724,8 +2715,6 @@
 			}
 			dependencies: [
 				"36F3586485B49E21"
-				"1A303BE95E49478A"
-				"40035FB3D62CD07F"
 			]
 			tasks: [
 				{
@@ -2790,8 +2779,6 @@
 			}
 			dependencies: [
 				"664AFB50A92C9BED"
-				"0AB4579CA0C63A42"
-				"1878D8FF0E07B052"
 				"36F3586485B49E21"
 			]
 			tasks: [
@@ -2846,6 +2833,14 @@
 					id: "1A3E7114F8EB2DFD"
 					type: "xp"
 					xp: 700
+				}
+				{
+					id: "4F13BFC0FE9E5515"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
 				}
 			]
 			title: "Obras do Fogo Contido"
@@ -2994,7 +2989,8 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"4C1FD836349BC7C1"
+				"0376E714AB157DD5"
+				"026F4124DEEFAD76"
 			]
 			tasks: [
 				{
@@ -3007,9 +3003,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - A Maré dos Marids"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "32CD1144D29DEE34"
@@ -3022,8 +3019,6 @@
 				id: "occultism:marid_essence"
 			}
 			dependencies: [
-				"664AFB50A92C9BED"
-				"7434C2EA43545265"
 				"4993243FDB1F6D1D"
 			]
 			tasks: [
@@ -3088,7 +3083,6 @@
 			}
 			dependencies: [
 				"32CD1144D29DEE34"
-				"36F3586485B49E21"
 			]
 			tasks: [
 				{
@@ -3164,7 +3158,6 @@
 			}
 			dependencies: [
 				"72A7CBA9A7E21164"
-				"1B0A08B27D53D9B0"
 			]
 			tasks: [
 				{
@@ -3200,6 +3193,14 @@
 					id: "20336DF5D1023254"
 					type: "xp"
 					xp: 510
+				}
+				{
+					id: "4B2C7E84684F736C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
 				}
 			]
 			title: "A Torre Invertida de Uphyx"
@@ -3339,7 +3340,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"4993243FDB1F6D1D"
+				"638D2B97E79C98AE"
 			]
 			tasks: [
 				{
@@ -3352,9 +3353,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - O Contato Ancestral"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "0F400D32C6FAAAB3"
@@ -3366,7 +3368,6 @@
 				id: "occultism:dragonyst_dust"
 			}
 			dependencies: [
-				"4BC7C871A2F32473"
 				"6D5F0811B45051BE"
 			]
 			tasks: [
@@ -3439,8 +3440,6 @@
 			}
 			dependencies: [
 				"0F400D32C6FAAAB3"
-				"317D8D08408053F7"
-				"7434C2EA43545265"
 			]
 			tasks: [
 				{
@@ -3569,8 +3568,6 @@
 			}
 			dependencies: [
 				"100BFF314C6FECFC"
-				"0376E714AB157DD5"
-				"664AFB50A92C9BED"
 			]
 			tasks: [
 				{

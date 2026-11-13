@@ -255,6 +255,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"59AFB505BB321B1E"
+			]
 			tasks: [
 				{
 					id: "1091BCE75617245F"
@@ -266,9 +269,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - Garras e Prata"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "7675B165BA7A63C1"
@@ -387,7 +391,6 @@
 				id: "comamigos_balance:alpha_werewolf_heart"
 			}
 			dependencies: [
-				"64512900CE999EEB"
 				"339E9151BDF1EA17"
 			]
 			tasks: [
@@ -419,6 +422,14 @@
 					type: "xp"
 					xp: 150
 				}
+				{
+					id: "1D52F93A5CE49ACF"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Lobisomem Alfa"
 			description: [
@@ -438,7 +449,6 @@
 			y: 1.2d
 			size: 1.25d
 			dependencies: [
-				"70178554A92A0F61"
 				"339E9151BDF1EA17"
 			]
 			tasks: [
@@ -485,6 +495,14 @@
 					type: "xp"
 					xp: 200
 				}
+				{
+					id: "0BF8F1AAF953E4E4"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "&8[Lobisomem]&r O Altar de Pedra"
 			description: [
@@ -504,7 +522,6 @@
 			y: 2.8d
 			size: 1.25d
 			dependencies: [
-				"70178554A92A0F61"
 				"339E9151BDF1EA17"
 			]
 			tasks: [
@@ -547,6 +564,14 @@
 					id: "32AC657819ED2E62"
 					type: "xp"
 					xp: 200
+				}
+				{
+					id: "25C61EF5ADC680DD"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "&8[Lobisomem]&r Pele e Osso"
@@ -633,7 +658,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
+						id: "comamigos_balance:loot_bag_comum"
 					}
 				}
 			]
@@ -657,7 +682,6 @@
 			x: 13.0d
 			y: -1.2d
 			dependencies: [
-				"70178554A92A0F61"
 				"7675B165BA7A63C1"
 			]
 			tasks: [
@@ -706,7 +730,8 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"339E9151BDF1EA17"
+				"0FDBB3E4C38789B3"
+				"2B70BCF7FB110B84"
 			]
 			tasks: [
 				{
@@ -719,9 +744,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Pele Escura"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "7647C604E6B9AA2C"
@@ -729,8 +755,6 @@
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
-				"64D94840DBDC6F34"
-				"1A420B499C137101"
 				"281AE13ADA47F090"
 			]
 			tasks: [
@@ -803,7 +827,6 @@
 			x: 18.0d
 			y: 0.8d
 			dependencies: [
-				"2B70BCF7FB110B84"
 				"281AE13ADA47F090"
 			]
 			tasks: [
@@ -819,14 +842,6 @@
 					id: "7B480672EC7C51E4"
 					type: "xp"
 					xp: 80
-				}
-				{
-					id: "0E81AC13034AA673"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
 				}
 			]
 			title: "&8[Lobisomem]&r Cortar o Mal pela Raiz"
@@ -849,7 +864,8 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"281AE13ADA47F090"
+				"7647C604E6B9AA2C"
+				"683FD9592D2D9304"
 			]
 			tasks: [
 				{
@@ -862,9 +878,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - O Lobo Branco"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "44C5801DF2F29140"
@@ -872,7 +889,6 @@
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
-				"7647C604E6B9AA2C"
 				"50D80AE3052FEB48"
 			]
 			tasks: [
@@ -939,7 +955,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_rara"
+						id: "comamigos_balance:loot_bag_comum"
 					}
 				}
 			]
@@ -960,9 +976,6 @@
 			x: 23.0d
 			y: 0.8d
 			dependencies: [
-				"56EC85E63EB14296"
-				"2B70BCF7FB110B84"
-				"64D94840DBDC6F34"
 				"50D80AE3052FEB48"
 			]
 			tasks: [
@@ -1016,7 +1029,8 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"50D80AE3052FEB48"
+				"44C5801DF2F29140"
+				"33D5F8A352D22BCE"
 			]
 			tasks: [
 				{
@@ -1029,16 +1043,16 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Senhor da Caçada"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "68B770D996B98032"
 			x: 28.0d
 			y: 0.0d
 			dependencies: [
-				"33D5F8A352D22BCE"
 				"665F98EF60190E9D"
 			]
 			tasks: [

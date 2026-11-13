@@ -108,6 +108,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"415F9CC6559614A4"
+			]
 			tasks: [
 				{
 					id: "786BA640FD961BC1"
@@ -119,9 +122,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - A Noite Apodrecida"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "5481D386D057C81F"
@@ -130,7 +134,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"415F9CC6559614A4"
 				"1C80A4436F3FA0F8"
 			]
 			tasks: [
@@ -171,6 +174,14 @@
 					type: "xp"
 					xp: 250
 				}
+				{
+					id: "50519766A4E19316"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Ofícios que não morreram"
 			description: [
@@ -193,7 +204,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"415F9CC6559614A4"
 				"1C80A4436F3FA0F8"
 			]
 			tasks: [
@@ -237,6 +247,14 @@
 					type: "xp"
 					xp: 250
 				}
+				{
+					id: "68AB077584941332"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Horror das profundezas"
 			description: [
@@ -259,7 +277,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"415F9CC6559614A4"
 				"1C80A4436F3FA0F8"
 			]
 			tasks: [
@@ -333,7 +350,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"415F9CC6559614A4"
 				"1C80A4436F3FA0F8"
 			]
 			tasks: [
@@ -400,7 +416,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"415F9CC6559614A4"
 				"1C80A4436F3FA0F8"
 			]
 			tasks: [
@@ -616,7 +631,6 @@
 			shape: "diamond"
 			size: 1.25d
 			dependencies: [
-				"415F9CC6559614A4"
 				"6CF570EABC5D894B"
 			]
 			tasks: [
@@ -659,6 +673,14 @@
 					id: "6AA3684CDD52BE53"
 					type: "xp"
 					xp: 250
+				}
+				{
+					id: "00AA53FCB56E576E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "A horta que levantou"
@@ -913,6 +935,14 @@
 					type: "xp"
 					xp: 200
 				}
+				{
+					id: "05B578BD63CB17B9"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Alquimia do Caos"
 			description: [
@@ -1017,7 +1047,7 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"1C80A4436F3FA0F8"
+				"2ACD4352A23D80A6"
 			]
 			tasks: [
 				{
@@ -1030,9 +1060,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Lâminas Sombrias"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "7E5A5340EC686B0E"
@@ -1040,9 +1071,6 @@
 			y: -3.2d
 			size: 1.25d
 			dependencies: [
-				"6CF570EABC5D894B"
-				"42EE829680649A76"
-				"346039B6F17ED8DD"
 				"441FDD21C07FF34D"
 			]
 			tasks: [
@@ -1130,8 +1158,6 @@
 			y: -1.6d
 			size: 1.25d
 			dependencies: [
-				"5481D386D057C81F"
-				"266D4A32D75F321E"
 				"441FDD21C07FF34D"
 			]
 			tasks: [
@@ -1211,7 +1237,6 @@
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
-				"49F0CDBA1137730D"
 				"441FDD21C07FF34D"
 			]
 			tasks: [
@@ -1258,6 +1283,14 @@
 					type: "xp"
 					xp: 400
 				}
+				{
+					id: "7885E38C4EA29ABF"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Os tesouros do Missionário"
 			description: [
@@ -1279,7 +1312,6 @@
 			x: 18.0d
 			y: 1.6d
 			dependencies: [
-				"415F9CC6559614A4"
 				"441FDD21C07FF34D"
 			]
 			tasks: [
@@ -1311,6 +1343,14 @@
 					type: "xp"
 					xp: 240
 				}
+				{
+					id: "56979FAE69176938"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "O que espreita no escuro"
 			description: [
@@ -1334,7 +1374,6 @@
 				id: "comamigos_balance:lord_pumpkinhead_heart"
 			}
 			dependencies: [
-				"2EB10FE247F4131F"
 				"441FDD21C07FF34D"
 			]
 			tasks: [
@@ -1350,6 +1389,14 @@
 					id: "178CD3EE81561465"
 					type: "xp"
 					xp: 80
+				}
+				{
+					id: "2153CECE74F1F2C1"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "Lorde Cabeça de Abóbora"
@@ -1371,7 +1418,6 @@
 			y: -3.2d
 			size: 1.25d
 			dependencies: [
-				"2EB10FE247F4131F"
 				"7E5A5340EC686B0E"
 			]
 			tasks: [
@@ -1415,14 +1461,6 @@
 					type: "xp"
 					xp: 320
 				}
-				{
-					id: "0A50573FB3C8BDE8"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "Batalha doce"
 			description: [
@@ -1447,7 +1485,7 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"441FDD21C07FF34D"
+				"139B342312205FED"
 			]
 			tasks: [
 				{
@@ -1460,9 +1498,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - União com a Escuridão"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "571CA0612AD19ECC"
@@ -1470,7 +1509,6 @@
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
-				"0D21253777446098"
 				"79591E9BC4AFA6FE"
 			]
 			tasks: [
@@ -1535,7 +1573,6 @@
 			x: 25.0d
 			y: 0.8d
 			dependencies: [
-				"031C680A02A119B4"
 				"79591E9BC4AFA6FE"
 			]
 			tasks: [
@@ -1588,7 +1625,6 @@
 			size: 1.25d
 			dependencies: [
 				"571CA0612AD19ECC"
-				"7E5A5340EC686B0E"
 			]
 			tasks: [
 				{
@@ -1652,7 +1688,6 @@
 			dependencies: [
 				"568FA9D347D70A7D"
 				"502479F134CE6795"
-				"78BAE8D457B5E7FA"
 			]
 			tasks: [
 				{
@@ -1741,7 +1776,7 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"79591E9BC4AFA6FE"
+				"0585F78949068645"
 			]
 			tasks: [
 				{
@@ -1754,9 +1789,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - O Cavaleiro do Caos"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "260D9C335AC3B79F"
@@ -1764,7 +1800,6 @@
 			y: -1.6d
 			size: 1.25d
 			dependencies: [
-				"50BAEAD6786FA6BA"
 				"7549FAD10778F2AD"
 			]
 			tasks: [
@@ -1808,14 +1843,6 @@
 					type: "xp"
 					xp: 560
 				}
-				{
-					id: "5ED088AA456F3A14"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "Cavaleiro do Caos"
 			description: [
@@ -1836,7 +1863,6 @@
 			y: 0.0d
 			shape: "diamond"
 			dependencies: [
-				"502479F134CE6795"
 				"7549FAD10778F2AD"
 			]
 			tasks: [
@@ -1868,14 +1894,6 @@
 					type: "xp"
 					xp: 420
 				}
-				{
-					id: "5D772D55F1CD2755"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "Fogo do Caos"
 			description: [
@@ -1899,7 +1917,6 @@
 				id: "comamigos_balance:krampus_heart"
 			}
 			dependencies: [
-				"06805654D5066478"
 				"7549FAD10778F2AD"
 			]
 			tasks: [
@@ -1940,14 +1957,6 @@
 					type: "xp"
 					xp: 560
 				}
-				{
-					id: "5C5FB614289FE33C"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "Krampus"
 			description: [
@@ -1975,7 +1984,9 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"7549FAD10778F2AD"
+				"260D9C335AC3B79F"
+				"513B0BFE29339ADC"
+				"4247BE113531A88E"
 			]
 			tasks: [
 				{
@@ -1988,9 +1999,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - Transmutalogia"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "2BB3C5FEA0061EDE"
@@ -1998,8 +2010,6 @@
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
-				"2EB10FE247F4131F"
-				"5830B3BDAC64D5A7"
 				"7FDF4C823FC17BF6"
 			]
 			tasks: [

@@ -230,6 +230,10 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"65A424A3F5755A29"
+				"0DD8FDA0DAFA858B"
+			]
 			tasks: [
 				{
 					id: "6E8ABBC0F07E81B2"
@@ -241,9 +245,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - O Metal que Canta"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "56B87FA85FC88CF2"
@@ -251,7 +256,6 @@
 			y: -2.4d
 			size: 1.25d
 			dependencies: [
-				"65A424A3F5755A29"
 				"79998FE50ADD6003"
 			]
 			tasks: [
@@ -435,7 +439,6 @@
 				id: "dwarfs_tyranny:rusty_dwarf_armor_helmet"
 			}
 			dependencies: [
-				"250350228C2E80A4"
 				"79998FE50ADD6003"
 			]
 			tasks: [
@@ -666,6 +669,14 @@
 					type: "xp"
 					xp: 150
 				}
+				{
+					id: "71C21800CBDDECB1"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Cerveja das Profundezas"
 			description: [
@@ -862,6 +873,14 @@
 					type: "xp"
 					xp: 50
 				}
+				{
+					id: "1B07D27C1C5836F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Rei Anão Esqueleto"
 			description: [
@@ -885,7 +904,6 @@
 			}
 			dependencies: [
 				"6FD4E6A039DFDD62"
-				"65A424A3F5755A29"
 			]
 			tasks: [
 				{
@@ -1250,7 +1268,11 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"79998FE50ADD6003"
+				"54DC893C93BA29EE"
+				"7CD6B5E1B306B84D"
+				"3C25D7F2DCAC9754"
+				"396DEF059D50562C"
+				"0DD8B8A3C607A66A"
 			]
 			tasks: [
 				{
@@ -1263,9 +1285,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Aço e Confiança"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "3AFA1F709923C4DE"
@@ -1276,7 +1299,6 @@
 				id: "dwarfs_tyranny:mythril_armor_chestplate"
 			}
 			dependencies: [
-				"79274920DF264641"
 				"51660FEE081F6EC2"
 			]
 			tasks: [
@@ -1308,6 +1330,14 @@
 					type: "xp"
 					xp: 240
 				}
+				{
+					id: "0D0C27400145BF01"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Vestido de Mythril"
 			description: [
@@ -1331,7 +1361,6 @@
 				id: "dwarfs_tyranny:dwarf_armor_helmet"
 			}
 			dependencies: [
-				"56B87FA85FC88CF2"
 				"51660FEE081F6EC2"
 			]
 			tasks: [
@@ -1375,6 +1404,14 @@
 					type: "xp"
 					xp: 400
 				}
+				{
+					id: "0FF5F3C6953128AB"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Amigo dos Anões"
 			description: [
@@ -1401,7 +1438,6 @@
 				id: "dwarfs_tyranny:nail_gun"
 			}
 			dependencies: [
-				"3C25D7F2DCAC9754"
 				"51660FEE081F6EC2"
 			]
 			tasks: [
@@ -1459,8 +1495,6 @@
 				id: "dwarfs_tyranny:broken_crown"
 			}
 			dependencies: [
-				"0F1BE509DA10D4EB"
-				"56B87FA85FC88CF2"
 				"51660FEE081F6EC2"
 			]
 			tasks: [
@@ -1526,7 +1560,6 @@
 				id: "dwarfs_tyranny:golden_cacaillouxe"
 			}
 			dependencies: [
-				"54DC893C93BA29EE"
 				"51660FEE081F6EC2"
 			]
 			tasks: [
@@ -1619,9 +1652,6 @@
 			}
 			dependencies: [
 				"49B003070EF503F6"
-				"0DD8B8A3C607A66A"
-				"396DEF059D50562C"
-				"7CD6B5E1B306B84D"
 			]
 			tasks: [
 				{
@@ -1664,7 +1694,7 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"51660FEE081F6EC2"
+				"2B36702355613601"
 			]
 			tasks: [
 				{
@@ -1677,9 +1707,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Contratos Lendários"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "22C321C84BE4F5E0"
@@ -1690,8 +1721,6 @@
 				id: "dwarfs_tyranny:lumite"
 			}
 			dependencies: [
-				"14044642BD919658"
-				"54DC893C93BA29EE"
 				"05806E9E53D84C49"
 			]
 			tasks: [
@@ -1733,7 +1762,6 @@
 				id: "dwarfs_tyranny:deepbrew_bottle"
 			}
 			dependencies: [
-				"0FC0E3A1E0783BC4"
 				"05806E9E53D84C49"
 			]
 			tasks: [
@@ -1785,7 +1813,8 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"05806E9E53D84C49"
+				"22C321C84BE4F5E0"
+				"31235FD0F0E55CE2"
 			]
 			tasks: [
 				{
@@ -1798,9 +1827,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Além da Montanha"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4D6A87518601EF58"
@@ -1811,8 +1841,6 @@
 				id: "dwarfs_tyranny:dwarf_netherite_armor_chestplate"
 			}
 			dependencies: [
-				"14044642BD919658"
-				"3C25D7F2DCAC9754"
 				"369D83D33F226C7B"
 			]
 			tasks: [
@@ -1869,7 +1897,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"369D83D33F226C7B"
+				"4D6A87518601EF58"
 			]
 			tasks: [
 				{
@@ -1882,9 +1910,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - Senhor das Profundezas"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "00C4464B4824377E"
@@ -1895,13 +1924,6 @@
 				id: "dwarfs_tyranny:mythril_block"
 			}
 			dependencies: [
-				"75CEBEFF7A647313"
-				"2B36702355613601"
-				"22C321C84BE4F5E0"
-				"31235FD0F0E55CE2"
-				"4D6A87518601EF58"
-				"758668FE35999A4E"
-				"3AFA1F709923C4DE"
 				"336E43652D3E5258"
 			]
 			tasks: [

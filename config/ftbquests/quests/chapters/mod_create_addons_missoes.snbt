@@ -136,6 +136,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"6D0973D7E090DE24"
+			]
 			tasks: [
 				{
 					id: "3D965563BB12B1BA"
@@ -147,16 +150,16 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - Cobre e Fios"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "75284A0849724344"
 			x: 7.0d
 			y: -2.4d
 			dependencies: [
-				"6D0973D7E090DE24"
 				"6D6F3B40635F0050"
 			]
 			tasks: [
@@ -326,7 +329,6 @@
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
-				"6D0973D7E090DE24"
 				"6D6F3B40635F0050"
 			]
 			tasks: [
@@ -372,6 +374,14 @@
 					id: "348539346DEF42CF"
 					type: "xp"
 					xp: 200
+				}
+				{
+					id: "0C33ADFE71A17182"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "A Horta Automática"
@@ -682,7 +692,9 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"6D6F3B40635F0050"
+				"701B4F1CDC65512D"
+				"52F43DD67DA62725"
+				"1714524AD173AA7D"
 			]
 			tasks: [
 				{
@@ -695,9 +707,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Raio e Latão"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "5F470AB9A2C43D25"
@@ -705,7 +718,6 @@
 			y: -4.0d
 			size: 1.25d
 			dependencies: [
-				"1714524AD173AA7D"
 				"2A579AB36109DE81"
 			]
 			tasks: [
@@ -799,7 +811,6 @@
 			y: -2.4d
 			size: 1.25d
 			dependencies: [
-				"7A0858D97CC90AFF"
 				"2A579AB36109DE81"
 			]
 			tasks: [
@@ -880,7 +891,6 @@
 			x: 14.0d
 			y: -0.8d
 			dependencies: [
-				"1714524AD173AA7D"
 				"2A579AB36109DE81"
 			]
 			tasks: [
@@ -942,7 +952,6 @@
 			x: 14.0d
 			y: 0.8d
 			dependencies: [
-				"192A2231D3BE9445"
 				"2A579AB36109DE81"
 			]
 			tasks: [
@@ -1007,7 +1016,6 @@
 			y: 2.4d
 			size: 1.25d
 			dependencies: [
-				"701B4F1CDC65512D"
 				"2A579AB36109DE81"
 			]
 			tasks: [
@@ -1068,7 +1076,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -1092,7 +1100,6 @@
 			y: 4.0d
 			size: 1.25d
 			dependencies: [
-				"0E2C1DA15F9A14C0"
 				"2A579AB36109DE81"
 			]
 			tasks: [
@@ -1269,7 +1276,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_rara"
+						id: "comamigos_balance:loot_bag_comum"
 					}
 				}
 			]
@@ -1388,7 +1395,8 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"2A579AB36109DE81"
+				"635B96652F3EE323"
+				"7AE94C21FDDE112C"
 			]
 			tasks: [
 				{
@@ -1401,16 +1409,16 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Blazes que Encantam"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "6CB21E7021FF3C19"
 			x: 21.0d
 			y: -0.8d
 			dependencies: [
-				"6D0973D7E090DE24"
 				"1371B4615590AF18"
 			]
 			tasks: [
@@ -1465,7 +1473,6 @@
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
-				"227ABDE581CE8DCB"
 				"1371B4615590AF18"
 			]
 			tasks: [
@@ -1605,7 +1612,7 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"1371B4615590AF18"
+				"7E96AD240AF63CEF"
 			]
 			tasks: [
 				{
@@ -1618,9 +1625,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Além do Limite"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "3B34B49BD597D1FA"
@@ -1628,7 +1636,6 @@
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
-				"7E96AD240AF63CEF"
 				"2189BE44D0FB271B"
 			]
 			tasks: [
@@ -1762,7 +1769,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"2189BE44D0FB271B"
+				"7E08B6CA3C912367"
 			]
 			tasks: [
 				{
@@ -1775,16 +1782,16 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - O Sopro do Fim"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "6510986A8F83BF8D"
 			x: 35.0d
 			y: 0.0d
 			dependencies: [
-				"75284A0849724344"
 				"4DCBC234F750BC18"
 			]
 			tasks: [

@@ -220,6 +220,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"530554AB7F09E8AA"
+			]
 			tasks: [
 				{
 					id: "0286BA14C4DBF03E"
@@ -231,9 +234,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - Magia Comum"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "504D2C256F3096CB"
@@ -245,7 +249,6 @@
 				id: "irons_spellbooks:lightning_bottle"
 			}
 			dependencies: [
-				"530554AB7F09E8AA"
 				"50FA7F526C0D8B8C"
 			]
 			tasks: [
@@ -319,7 +322,6 @@
 				id: "irons_spellbooks:blood_vial"
 			}
 			dependencies: [
-				"530554AB7F09E8AA"
 				"50FA7F526C0D8B8C"
 			]
 			tasks: [
@@ -392,7 +394,6 @@
 				id: "irons_spellbooks:blank_rune"
 			}
 			dependencies: [
-				"25843D46F0C5DEEB"
 				"50FA7F526C0D8B8C"
 			]
 			tasks: [
@@ -476,7 +477,6 @@
 				id: "irons_spellbooks:wayward_compass"
 			}
 			dependencies: [
-				"25843D46F0C5DEEB"
 				"50FA7F526C0D8B8C"
 			]
 			tasks: [
@@ -531,7 +531,6 @@
 				id: "irons_spellbooks:wisewood_bookshelf"
 			}
 			dependencies: [
-				"25843D46F0C5DEEB"
 				"50FA7F526C0D8B8C"
 			]
 			tasks: [
@@ -631,7 +630,11 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"50FA7F526C0D8B8C"
+				"504D2C256F3096CB"
+				"7B5DD188F20AB4CB"
+				"477D1D74C4B9B265"
+				"77294CE5EBCF0090"
+				"0D0D0A67AD5E1801"
 			]
 			tasks: [
 				{
@@ -644,9 +647,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Magia Incomum"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "1D3354AB770F3BBC"
@@ -658,7 +662,6 @@
 				id: "irons_spellbooks:wizard_chestplate"
 			}
 			dependencies: [
-				"530554AB7F09E8AA"
 				"6E688E5DFABDBDAB"
 			]
 			tasks: [
@@ -738,7 +741,6 @@
 				id: "irons_spellbooks:graybeard_staff"
 			}
 			dependencies: [
-				"530554AB7F09E8AA"
 				"6E688E5DFABDBDAB"
 			]
 			tasks: [
@@ -802,7 +804,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -830,8 +832,6 @@
 				id: "irons_spellbooks:rotten_spell_book"
 			}
 			dependencies: [
-				"504D2C256F3096CB"
-				"77294CE5EBCF0090"
 				"6E688E5DFABDBDAB"
 			]
 			tasks: [
@@ -860,6 +860,14 @@
 					type: "xp"
 					xp: 240
 				}
+				{
+					id: "1B80406ECAD801B3"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Magos Renegados"
 			description: [
@@ -885,7 +893,6 @@
 				id: "irons_spellbooks:alchemist_cauldron"
 			}
 			dependencies: [
-				"530554AB7F09E8AA"
 				"6E688E5DFABDBDAB"
 			]
 			tasks: [
@@ -1120,7 +1127,6 @@
 			}
 			dependencies: [
 				"5CC5F2FDC9771550"
-				"477D1D74C4B9B265"
 			]
 			tasks: [
 				{
@@ -1199,7 +1205,9 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"6E688E5DFABDBDAB"
+				"6E06DF291C66B2D7"
+				"530B4BD769CE629F"
+				"2236F08691362BB6"
 			]
 			tasks: [
 				{
@@ -1212,9 +1220,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Magia Rara"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "6329E6C02C4E3000"
@@ -1225,8 +1234,6 @@
 				id: "irons_spellbooks:arcane_anvil"
 			}
 			dependencies: [
-				"5CC5F2FDC9771550"
-				"6E06DF291C66B2D7"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -1286,8 +1293,6 @@
 				id: "irons_spellbooks:pyromancer_chestplate"
 			}
 			dependencies: [
-				"1D3354AB770F3BBC"
-				"504D2C256F3096CB"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -1343,6 +1348,14 @@
 					type: "xp"
 					xp: 550
 				}
+				{
+					id: "2E22EA9EA933C15B"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "O Caminho do Fogo"
 			description: [
@@ -1367,8 +1380,6 @@
 				id: "irons_spellbooks:cryomancer_chestplate"
 			}
 			dependencies: [
-				"1D3354AB770F3BBC"
-				"504D2C256F3096CB"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -1424,6 +1435,14 @@
 					type: "xp"
 					xp: 550
 				}
+				{
+					id: "6AB554D90F68116A"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "O Caminho do Gelo"
 			description: [
@@ -1445,8 +1464,6 @@
 				id: "irons_spellbooks:lightning_rod"
 			}
 			dependencies: [
-				"1D3354AB770F3BBC"
-				"504D2C256F3096CB"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -1513,7 +1530,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -1540,8 +1557,6 @@
 				id: "irons_spellbooks:misery"
 			}
 			dependencies: [
-				"7B5DD188F20AB4CB"
-				"1D3354AB770F3BBC"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -1642,8 +1657,6 @@
 				id: "irons_spellbooks:priest_chestplate"
 			}
 			dependencies: [
-				"7B5DD188F20AB4CB"
-				"1D3354AB770F3BBC"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -1699,6 +1712,14 @@
 					type: "xp"
 					xp: 550
 				}
+				{
+					id: "5A94B9DCE7FAE486"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "As Vestes do Sacerdote"
 			description: [
@@ -1721,8 +1742,6 @@
 				id: "irons_spellbooks:plagued_helmet"
 			}
 			dependencies: [
-				"7B5DD188F20AB4CB"
-				"1D3354AB770F3BBC"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -1811,9 +1830,6 @@
 				id: "irons_spellbooks:icy_fang"
 			}
 			dependencies: [
-				"504D2C256F3096CB"
-				"1D3354AB770F3BBC"
-				"5CC5F2FDC9771550"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -1866,6 +1882,14 @@
 					type: "xp"
 					xp: 550
 				}
+				{
+					id: "0E28374D1475507A"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "O Inverno Profundo"
 			description: [
@@ -1892,7 +1916,6 @@
 				id: "irons_spellbooks:affinity_ring"
 			}
 			dependencies: [
-				"4D316F3B5A75B34E"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -1984,8 +2007,6 @@
 				id: "irons_spellbooks:evoker_spell_book"
 			}
 			dependencies: [
-				"7B5DD188F20AB4CB"
-				"6E06DF291C66B2D7"
 				"70C8597C2E46D05D"
 			]
 			tasks: [
@@ -2058,7 +2079,6 @@
 				id: "comamigos_balance:dead_king_heart"
 			}
 			dependencies: [
-				"77294CE5EBCF0090"
 				"6329E6C02C4E3000"
 			]
 			tasks: [
@@ -2177,7 +2197,6 @@
 			}
 			dependencies: [
 				"4A474365F5C2B49B"
-				"1D3354AB770F3BBC"
 			]
 			tasks: [
 				{
@@ -2255,7 +2274,9 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"70C8597C2E46D05D"
+				"638F8545B950D073"
+				"1788C4B58A1E711D"
+				"0BA05EA8A0FEB631"
 			]
 			tasks: [
 				{
@@ -2268,9 +2289,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Mithril e Cinzas"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "67A5105EEF8FEF76"
@@ -2282,7 +2304,6 @@
 				id: "irons_spellbooks:mithril_ingot"
 			}
 			dependencies: [
-				"6329E6C02C4E3000"
 				"7A0969FB2C695035"
 			]
 			tasks: [
@@ -2354,8 +2375,6 @@
 				id: "irons_spellbooks:shadowwalker_helmet"
 			}
 			dependencies: [
-				"1D3354AB770F3BBC"
-				"504D2C256F3096CB"
 				"7A0969FB2C695035"
 			]
 			tasks: [
@@ -2438,7 +2457,6 @@
 				id: "irons_spellbooks:necronomicon_spell_book"
 			}
 			dependencies: [
-				"638F8545B950D073"
 				"7A0969FB2C695035"
 			]
 			tasks: [
@@ -2510,7 +2528,6 @@
 				id: "irons_spellbooks:cinder_essence"
 			}
 			dependencies: [
-				"6329E6C02C4E3000"
 				"7A0969FB2C695035"
 			]
 			tasks: [
@@ -2565,7 +2582,6 @@
 			}
 			dependencies: [
 				"67A5105EEF8FEF76"
-				"1765739A41F9FE90"
 			]
 			tasks: [
 				{
@@ -2636,9 +2652,6 @@
 				id: "irons_spellbooks:netherite_spell_book"
 			}
 			dependencies: [
-				"1788C4B58A1E711D"
-				"4D316F3B5A75B34E"
-				"55D0A3EC9F48C538"
 				"67A5105EEF8FEF76"
 			]
 			tasks: [
@@ -2676,6 +2689,14 @@
 					type: "xp"
 					xp: 560
 				}
+				{
+					id: "5012B6ABA7C3226D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
 			]
 			title: "Os Livros Restaurados"
 			description: [
@@ -2704,7 +2725,6 @@
 			}
 			dependencies: [
 				"67A5105EEF8FEF76"
-				"55D0A3EC9F48C538"
 			]
 			tasks: [
 				{
@@ -2770,7 +2790,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -2802,7 +2822,6 @@
 			dependencies: [
 				"67A5105EEF8FEF76"
 				"25922491DF4C355B"
-				"477D1D74C4B9B265"
 			]
 			tasks: [
 				{
@@ -2872,7 +2891,6 @@
 			}
 			dependencies: [
 				"25922491DF4C355B"
-				"1788C4B58A1E711D"
 			]
 			tasks: [
 				{
@@ -2924,6 +2942,14 @@
 					type: "xp"
 					xp: 700
 				}
+				{
+					id: "09817E70712097EF"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
 			]
 			title: "A Cidadela Perdida"
 			description: [
@@ -2951,7 +2977,6 @@
 				id: "irons_spellbooks:netherite_mage_chestplate"
 			}
 			dependencies: [
-				"1D3354AB770F3BBC"
 				"25922491DF4C355B"
 			]
 			tasks: [
@@ -3135,9 +3160,6 @@
 			}
 			dependencies: [
 				"121714D1C86D7B8A"
-				"3B215ADB9CB4514C"
-				"4AA0CA3C4D941A72"
-				"49328EEE7AB27F31"
 			]
 			tasks: [
 				{
@@ -3173,14 +3195,6 @@
 					id: "00143D611B21B0E5"
 					type: "xp"
 					xp: 420
-				}
-				{
-					id: "093E57E95946C98E"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
 				}
 			]
 			title: "Orbes dos Elementos"
@@ -3292,7 +3306,9 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"7A0969FB2C695035"
+				"36FCC4949AE82CEA"
+				"21D3BAF5CFE51E33"
+				"2A9FCE2872CA778C"
 			]
 			tasks: [
 				{
@@ -3305,9 +3321,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - Magia Épica"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "6752CA2CC8AB08E0"
@@ -3318,9 +3335,6 @@
 				id: "irons_spellbooks:epic_ink"
 			}
 			dependencies: [
-				"5CC5F2FDC9771550"
-				"7B5DD188F20AB4CB"
-				"1788C4B58A1E711D"
 				"2A47D8A9991BA850"
 			]
 			tasks: [
@@ -3381,7 +3395,6 @@
 				id: "comamigos_balance:tyros_heart"
 			}
 			dependencies: [
-				"4F5C8E3017F995AF"
 				"6752CA2CC8AB08E0"
 			]
 			tasks: [
@@ -3452,10 +3465,6 @@
 			}
 			dependencies: [
 				"47E891FACE65906E"
-				"3B215ADB9CB4514C"
-				"3297DFE2E5C883F5"
-				"0BA05EA8A0FEB631"
-				"369DBF99F301EF9B"
 			]
 			tasks: [
 				{
@@ -3500,14 +3509,6 @@
 					id: "75B75378B12C179B"
 					type: "xp"
 					xp: 680
-				}
-				{
-					id: "286CD1F1C39B9174"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
 				}
 			]
 			title: "Alma Divina nas Vestes"
@@ -3603,7 +3604,8 @@
 				id: "comamigos_balance:tier_heart_6"
 			}
 			dependencies: [
-				"2A47D8A9991BA850"
+				"45FC91953F6E8102"
+				"639D9ADC88933004"
 			]
 			tasks: [
 				{
@@ -3616,9 +3618,10 @@
 			rewards: [ ]
 			title: "&5Tier VI&7 - Magia Lendária"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4BFBBBB75822254A"
@@ -3629,8 +3632,6 @@
 				id: "irons_spellbooks:legendary_ink"
 			}
 			dependencies: [
-				"6752CA2CC8AB08E0"
-				"6652964DC061A061"
 				"422D477AF8A2CBB1"
 			]
 			tasks: [
@@ -3681,7 +3682,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"422D477AF8A2CBB1"
+				"4BFBBBB75822254A"
 			]
 			tasks: [
 				{
@@ -3694,9 +3695,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - Pele de Dragão"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "0A6C427E035930D7"
@@ -3707,9 +3709,6 @@
 				id: "irons_spellbooks:dragonskin_spell_book"
 			}
 			dependencies: [
-				"4BFBBBB75822254A"
-				"6E282DDCECD1C67E"
-				"2236F08691362BB6"
 				"09B04B61D7CF1469"
 			]
 			tasks: [

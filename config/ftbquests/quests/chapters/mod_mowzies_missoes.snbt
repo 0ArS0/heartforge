@@ -116,6 +116,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"052FA5D9043F1425"
+			]
 			tasks: [
 				{
 					id: "0CC52C7D9C9111F6"
@@ -127,9 +130,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - Pedra Viva e Folhas Famintas"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "204DF7B033FAEB9A"
@@ -140,7 +144,6 @@
 				id: "mowziesmobs:captured_grottol"
 			}
 			dependencies: [
-				"052FA5D9043F1425"
 				"2E16075BC70285BC"
 			]
 			tasks: [
@@ -196,7 +199,6 @@
 				id: "mowziesmobs:foliaath_seed"
 			}
 			dependencies: [
-				"052FA5D9043F1425"
 				"2E16075BC70285BC"
 			]
 			tasks: [
@@ -277,14 +279,6 @@
 					id: "5D0E36DF9F254785"
 					type: "xp"
 					xp: 50
-				}
-				{
-					id: "042257F4D8937142"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
 				}
 			]
 			title: "O Colosso Ferroso"
@@ -391,7 +385,8 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"2E16075BC70285BC"
+				"2798A85C515C936A"
+				"40C95CF2F1B0E55A"
 			]
 			tasks: [
 				{
@@ -404,9 +399,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - As Lanças da Savana"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "5423B114FB677DE7"
@@ -418,7 +414,6 @@
 				id: "mowziesmobs:umvuthana_mask_fury"
 			}
 			dependencies: [
-				"052FA5D9043F1425"
 				"7AB254D209160064"
 			]
 			tasks: [
@@ -496,7 +491,7 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"7AB254D209160064"
+				"5423B114FB677DE7"
 			]
 			tasks: [
 				{
@@ -509,9 +504,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - O Colosso e o Mosteiro"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "35DD9F2EF17A0208"
@@ -522,7 +518,6 @@
 				id: "mowziesmobs:naga_fang"
 			}
 			dependencies: [
-				"6838CE95DB097F9A"
 				"5EAC5025A873BF53"
 			]
 			tasks: [
@@ -557,14 +552,6 @@
 					type: "xp"
 					xp: 330
 				}
-				{
-					id: "65293E68DDC9920A"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "Serpente dos Penhascos"
 			description: [
@@ -588,7 +575,6 @@
 				id: "mowziesmobs:bluff_rod"
 			}
 			dependencies: [
-				"052FA5D9043F1425"
 				"5EAC5025A873BF53"
 			]
 			tasks: [
@@ -658,7 +644,8 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"5EAC5025A873BF53"
+				"35DD9F2EF17A0208"
+				"7C3CBDA00C6EAD4B"
 			]
 			tasks: [
 				{
@@ -671,9 +658,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - O Gigante do Gelo"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "150C4D2DBCC906F4"
@@ -685,7 +673,6 @@
 				id: "comamigos_balance:frostmaw_heart"
 			}
 			dependencies: [
-				"7C3CBDA00C6EAD4B"
 				"545BDDC2E24C24F5"
 			]
 			tasks: [
@@ -741,7 +728,6 @@
 				id: "mowziesmobs:geomancer_robe"
 			}
 			dependencies: [
-				"7C3CBDA00C6EAD4B"
 				"545BDDC2E24C24F5"
 			]
 			tasks: [
@@ -812,7 +798,8 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"545BDDC2E24C24F5"
+				"150C4D2DBCC906F4"
+				"65D10F035C333F29"
 			]
 			tasks: [
 				{
@@ -825,9 +812,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - O Sol e a Montanha"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "62CCE1FFDAFC895E"
@@ -838,7 +826,6 @@
 				id: "minecraft:gold_block"
 			}
 			dependencies: [
-				"5423B114FB677DE7"
 				"5EA72B1C106DBC19"
 			]
 			tasks: [
@@ -895,8 +882,6 @@
 				id: "comamigos_balance:sculptor_heart"
 			}
 			dependencies: [
-				"7C3CBDA00C6EAD4B"
-				"65D10F035C333F29"
 				"5EA72B1C106DBC19"
 			]
 			tasks: [
@@ -1101,7 +1086,6 @@
 				id: "mowziesmobs:music_disc_petiole"
 			}
 			dependencies: [
-				"150C4D2DBCC906F4"
 				"37C94A7F2D6E817C"
 			]
 			tasks: [

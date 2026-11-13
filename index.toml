@@ -529,6 +529,10 @@ file = "config/asterion-emissive.json"
 hash = "c6926c57e592f8d2abd0f5d75dc32473071faa1c62042d56d27209a90858387f"
 
 [[files]]
+file = "config/asterion-updates.properties"
+hash = "900b3f99b70ac9ca2b29c5d371839ce55f5d88b400b514b480c6d680fc411fd2"
+
+[[files]]
 file = "config/asterion.json"
 hash = "cd70d76cbce85ecce92153435442382fa707d0aedbe42ffea3cf7c91a81a8fb7"
 
@@ -538,7 +542,7 @@ hash = "0724139777a7a499a111d11ae1cc0cdd2928da7324083e49cea8ee11ca62fb3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "e98a2ad7f5e22e95733894b1aac6b9f5dcfbd02a47e6bbbd674904275704c6c2"
+hash = "84af7caf5599540be815b5332f884f8d6167c1918bb328ecdc18b614b62aad21"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1170,7 +1174,7 @@ hash = "e25ac8cbb2e98c3753b51b40bc58c67bd1df572547572da08ce729e16f81ed56"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "4b1236387d73cd217dc9356bf354d6d19de7195e81960886a061e0565e8d298a"
+hash = "cf716f9708c580cc3af9ef3e764508ea3336ed562766dd8575a62d4f62b7d07f"
 
 [[files]]
 file = "config/biomeparticleweather/config.txt"
@@ -1190,7 +1194,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "4e644f8324221022aed71d39b3d56a6cd189d5bd3f67c4aa72b889fb208421da"
+hash = "6fb6ff3e2cb4d1c47431b2e9fb48090fd985e0b43777949ec0c346cda85e532d"
 
 [[files]]
 file = "config/block_factorys_bosses-client.toml"
@@ -1270,7 +1274,7 @@ hash = "a1772af826a1a6f16cc7a54fdfbfe7a944b155eabb12e7fb569e63179068eea0"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "8d217c649d380f5866b2528d37cd28c5342f557a6259430e15b08315b7412408"
+hash = "74a82cbcee7be1841d37341d3589b6db91657ae84dc852361f1de2f955bb63fb"
 
 [[files]]
 file = "config/cistj.json"
@@ -1634,7 +1638,7 @@ hash = "1d7075ca7221200f93e75e525781d1605537ce655d96a5e7313187614319d7ef"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "8579e2f74c59b1c165120bc521046964a74558027a0582f7316a50632812de51"
+hash = "4301127ef03f0f8188d2016a7bb73466cb49586701490ae84ea9750b87043418"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1834,7 +1838,7 @@ hash = "be1cd10b099d1856013300a6902a99f05f23d47785915f63ba19cc94f827b612"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_aquamirae_missoes.snbt"
-hash = "d792bb2833ab23cb92de5e2f508651f6541e8f8f4f459909fe97caa68179d760"
+hash = "5ddeb04bff6f1369ee492ca58e7ab85be25adf4a20ba51f204ccb7520b7df09d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bic.snbt"
@@ -1842,7 +1846,7 @@ hash = "1a1df1c1c7e9d8577c0a78b58af81f41b8dabfc07b0d8c1dec4654fb33ed54d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bic_missoes.snbt"
-hash = "68b061bdf24216074dc449163388708aea8c487c3cbe9c278eff792711852239"
+hash = "d41770aead226c82d5c734d7ce519088c6353225aef8c3cf8fe51498fd670597"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses.snbt"
@@ -1850,7 +1854,7 @@ hash = "5abb74b6704c8a01a56064d460cb6d940ec5b7ebdf94f71ea3f6488b616bc527"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_bosses_missoes.snbt"
-hash = "1425a8dd406aaa3a999fb7f3c7b80a0135432e555f8e45a64198cf942f5fb92a"
+hash = "326ead75c171d70fb21cfada73cce01b7f16dd4d1090a7b7344c30e1c4a3d2bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania.snbt"
@@ -1858,7 +1862,7 @@ hash = "91fe8981066f6c6af1549e4e617411570ee81f733fe56642fb560ed31447a204"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_botania_missoes.snbt"
-hash = "2a2d4048220597777554a5704a29c5c55ac4274e9493a7a422c03de9617b4562"
+hash = "6021e52fb999d9a12be4ab7bd8e5f5a0f2e6005bff4a7f614d01d7a77693340b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm.snbt"
@@ -1866,7 +1870,7 @@ hash = "e1892815ac5bc195422bb15828b12524f3389eb34b8f46f1e75af17d0f489689"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cataclysm_missoes.snbt"
-hash = "3ba9ed6b4613619c5193a95d4632a9f539159fcfba5985a3ebcad18a5a099645"
+hash = "e80d4942fee63351222960607abd47099c0dad00d8f5653c8ee8beb696d85b51"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cozinha.snbt"
@@ -1874,7 +1878,7 @@ hash = "2fe76a1a481cf8e5fc391348385054c0165260a0ecd61d3a2aed57ad760023ba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_cozinha_missoes.snbt"
-hash = "8d045ebf20f3b7facf96e9e399c7e7b872f1ab13f30b30138b3e66e3de58bdc4"
+hash = "fa1ab9560c52909a0293c8fdd4fd1b04242ef7c0a8407f915c2cd6a4f3115603"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create.snbt"
@@ -1886,11 +1890,11 @@ hash = "fea66abccc22081bfb00afac421dda1cb797db47663a04c4bb9cc0743d608eed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_addons_missoes.snbt"
-hash = "54b6ceb6eb10724f68e3f199378e5e03199b43f1616c92c7b6344d474c6aea53"
+hash = "21dbf90fef4611d7c1ccd54019602c374496c17268c3d00ad33464f54bfc9637"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_create_missoes.snbt"
-hash = "65f427bca35f8011ea598427b59c9ee19ee653c9ece5a4540b81eb084048b841"
+hash = "c355996f8f857144410c470b2ea822c64de33b20f749bc42b0d270f783aff02b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_dwarfs.snbt"
@@ -1898,7 +1902,7 @@ hash = "f11ad944410e5a295119fa850b4ea94ad39f070faa6735eaf0a5e926da6d8c62"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_dwarfs_missoes.snbt"
-hash = "ac383583dc0b340c88d00b3b60f4290ba291c8645cd73c2300f4ee7cb636ca7f"
+hash = "3a9ed733b639183e6c2c5cd31cfa8a242ed45e5aab2f45f935edd6c5f4a22b53"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip.snbt"
@@ -1906,7 +1910,7 @@ hash = "27e9f38ad380ad9751b7db6541e4c540d9aa277a29c517fd21d237e8505f1a00"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_equip_missoes.snbt"
-hash = "59f54cf1334b0fdf5440fd0de44a54a1a18faa83db83ca00e2e92f3f024f4f04"
+hash = "7c13ff443d09d6ef5530c3f018741383e270d76faa3cc87f5132b5d7889fbfb5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_exploracao.snbt"
@@ -1914,7 +1918,7 @@ hash = "6d123d284679dfd78127ec1b243175adfa50ac26cc602c84ecfd3b83f3838a10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_exploracao_missoes.snbt"
-hash = "44a8ad3a612c4c1f94e526f416e10745f01164306bf293f206863aef5c3e4240"
+hash = "61f867e6c7e2ef452db5f51af183b471c614305b9e377febe008ab6cf8851cf2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_iceandfire.snbt"
@@ -1922,7 +1926,7 @@ hash = "7c459bc3dbc8a7960425ed5239dc4240087c72c9ad2fafbdbe664780df9f6b15"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_iceandfire_missoes.snbt"
-hash = "ad70a2c1574de334ddd287131b49141825d98b3f0fbd67f098ccc8f94e5b6249"
+hash = "a0c098a02dc5951e1d2f3eb8a534e7ffc93e59f5248666a0b30cb75b9165202b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons.snbt"
@@ -1930,7 +1934,7 @@ hash = "610696ee77e0242d626621b10984c92946d3a3187ed37733c916054623c9dbcf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_irons_missoes.snbt"
-hash = "aaae95ff2fee680978eefa0457f4ee924dfb6b933275ab4c72fe87f975235a97"
+hash = "1f36a0f35e300d78d48c2e67a6859de0c61c348fc57da7880cb0c6ee18a08f85"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_mowzies.snbt"
@@ -1938,7 +1942,7 @@ hash = "fea3bedd83aae8326deba7fc6eb80ae50f807a995005aced67c35ad9f24da42e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_mowzies_missoes.snbt"
-hash = "ff4dc5b71873dfea60ca0ab8b464d91652e0766fcdb59cf699bad37f57a5e17f"
+hash = "85722a5d8e6a0b70f3ecda8dd5af721040277871c6761e61f15b19e7903643b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_myths.snbt"
@@ -1946,7 +1950,7 @@ hash = "672862e7ab2aa5cbcd2f82f7f934d6a68aac032f3a243d86b7fa43b303b9c02d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_myths_missoes.snbt"
-hash = "0fcad74061c6e43f311f844936b6ac9c7b07959ac9e4b36e22905d767d972eb4"
+hash = "0a15460f428e2d98d4f811a927829167bb31baecba521c27989f3451f526f9ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_occultism.snbt"
@@ -1954,7 +1958,7 @@ hash = "6bb8c27f2363c125ac2ecda16430495aca2046a5f7f5560dd331fb3542c52950"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_occultism_missoes.snbt"
-hash = "51cc2ecab2df1263fc3d830f093f3d7b440962a0fecb07617ee38f5b0fe78425"
+hash = "da67b0e3c45f4e0725112cf37f7eb071e80ddf2f3d0fbe5515a8f44a1efe6c1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_stellarity.snbt"
@@ -1962,7 +1966,7 @@ hash = "28e1251d3b5d9694c94586dac3ae4336e3efb8a2668e881e8ef3821c714991f8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_stellarity_missoes.snbt"
-hash = "bd78fdc564b6af951c494f16e79e1dee98593e5db0a4692b443d42536ee73796"
+hash = "88daf13007484aaee0c82e0603c06c7000cc50408671092aa72b95980ec91260"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_vampirism.snbt"
@@ -1970,7 +1974,7 @@ hash = "4f8c58248446fae37eece2ca6c86425c519398c8f830d1a045c312c0daa723c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_vampirism_missoes.snbt"
-hash = "c21061a4eef1bc2ac1b2994c9350d8abce2f1fa8aab0a43a15645ce40b85b9eb"
+hash = "6f650b09f59b8a562beb12413f21ff1cf428a6264b5a9ab78d6690cd0f8eaa42"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_werewolves.snbt"
@@ -1978,7 +1982,7 @@ hash = "a7bbcda55db13fe17fffa9d463b1fab994a731d3c52affebf278bd5ae8860c86"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_werewolves_missoes.snbt"
-hash = "d59630394260e03001513905b84bbe262314a13d22d86b174613d34c3071a0a7"
+hash = "96d123c72caab53d415f5ef058e3b62b6ec9da0d09b7529938e612e13c5fac86"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/prologo.snbt"
@@ -2022,11 +2026,11 @@ hash = "235afdde7384dde68cdbe66b0e2f97c5bb679ded13e762b6c5a65c11a275acb9"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1d0c5e43e6902f6f3f650a14986deda6a1529971087a6480b9f58c81e0c13379"
+hash = "2151f32f590c1f2a8f91ca8ee703bc74e7b57f8ad2bcb841818d543d1277b412"
 
 [[files]]
 file = "config/ftbquests/quests/lang/pt_br.snbt"
-hash = "1d0c5e43e6902f6f3f650a14986deda6a1529971087a6480b9f58c81e0c13379"
+hash = "2151f32f590c1f2a8f91ca8ee703bc74e7b57f8ad2bcb841818d543d1277b412"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -2050,7 +2054,7 @@ hash = "05361b072f6474dee8cd25b49ff59b630953966ceb4de4993e30f16c6a9907f9"
 
 [[files]]
 file = "config/handson_delight.properties"
-hash = "ce3420032fefc3616fea56dc4689192b27c55f3de2300a87b5178a0bdd254b2c"
+hash = "a68631642a690a182a081631094a98b630e3b3c41738b64067aaf976753c6592"
 
 [[files]]
 file = "config/heartforge/teclas.txt"
@@ -2122,7 +2126,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "179b7cc024d985bdca658016efbfa2760959eaeb2087acd13a6cff237e3746cd"
+hash = "fec2219b623d6ff6408ef712fc37e233469d4efbc6260ddbd515a29331790668"
 preserve = true
 
 [[files]]
@@ -2331,7 +2335,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "3f61d316b7cb1be57b95016a01e3a45e729d03b16ab19a1537f5454583455d39"
+hash = "4a3cc66b854e804625ab8001c4d415b904c60661271c7cd392b3d8b790831c59"
 
 [[files]]
 file = "config/lithium.properties"
@@ -2524,6 +2528,10 @@ hash = "9c778ddd77611b3e60de62e3dca792ae9605e845e0a2e5bbfaccccccc7371eff"
 [[files]]
 file = "config/occultism-startup.toml"
 hash = "698caa85370cc13d2a6d636ec9ce9b5ed2dc8d813c8b89162ceda4136f66931e"
+
+[[files]]
+file = "config/ok_zoomer/config.json5"
+hash = "32b13b2ce8cab76c065b5da73e392a0ab4117987e1e1af95899421af25c15d0d"
 
 [[files]]
 file = "config/optiboxes.json"
@@ -2915,7 +2923,7 @@ hash = "9f2e3cc1cd587fd9de6fd4a068e4c247fde401d3fc6fd9a0da36627ddc5611a3"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "6d3523371e1eda72a328801bd2abc3d925db5cc30a3705e74e85842cb1d9c970"
+hash = "2f6e515c2bf0d530363cf1a293111cc65ac41cafb4b266c9263a253935e2df65"
 
 [[files]]
 file = "config/scalablelux.properties"
@@ -3559,7 +3567,7 @@ hash = "bf179c73f8a353cce83f54a59696643e4d678b0ccb07d84dfd457e6e8b9190b8"
 
 [[files]]
 file = "emi.json"
-hash = "ec96732c968d1377ab9c186becf288a269fca99337964ad7d897e38042cc9760"
+hash = "f6374df78da20b4a721af5b1ea3ccf761795c18e870e98d7239bd0642873b6d0"
 
 [[files]]
 file = "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.pw.toml"
@@ -4336,7 +4344,7 @@ hash = "18d586d964bd4b7bb7e37f9b0bbfae1dff34eca8cd4ae10980d57b5e51adaba2"
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "149c325bcead3e4bbab9f749d8acf29b18921159d53e93837f3bc58a97828ef9"
+hash = "6de7cb380cdd30ef9aadc1e76b7fe035c1bc29e2618ea947e52e762f1a3c1008"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
@@ -4829,7 +4837,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "ea58acaac302b6c46e0f0fcdea8ec843b68335d15c4751a2d1d01205ece3c380"
+hash = "5b5e73d3027db608fe6ae845bc7e7652ef6ab520884ced71842771337d02ffef"
 preserve = true
 
 [[files]]
@@ -10106,7 +10114,7 @@ hash = "da0929b38f5fd99befaaa8cd141cbf60e1fad05b92d916d0eeeee7c79f86c0fd"
 
 [[files]]
 file = "shaderpacks/photon_v1.4.zip.txt"
-hash = "80faf663f897b04335554d270871b5d93f5801bf8a6ed68f1eb49e20fdada8fd"
+hash = "c4e9004ebeee4e8dabd7d12d017d4d30bee13045b561d6f32c5ff18adaebebd8"
 
 [[files]]
 file = "shaderpacks/rethinking-voxels_r0.1-beta9.zip"

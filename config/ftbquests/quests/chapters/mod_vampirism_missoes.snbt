@@ -200,6 +200,14 @@
 					type: "xp"
 					xp: 200
 				}
+				{
+					id: "147FA333100715DB"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "&9[Caçador]&r O Juramento do Alho"
 			description: [
@@ -353,6 +361,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"0AE3AA51BD3FC0D0"
+			]
 			tasks: [
 				{
 					id: "6536F488FCB4B71D"
@@ -364,9 +375,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - Presas e Estacas"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "34A1260A5FB16403"
@@ -378,7 +390,6 @@
 				id: "comamigos_balance:vampire_baron_heart"
 			}
 			dependencies: [
-				"28BEF2E097218D1C"
 				"40FF1F3A6D96E950"
 			]
 			tasks: [
@@ -421,7 +432,6 @@
 			y: -2.72d
 			size: 1.25d
 			dependencies: [
-				"0AE3AA51BD3FC0D0"
 				"40FF1F3A6D96E950"
 			]
 			tasks: [
@@ -515,7 +525,6 @@
 			y: -1.12d
 			size: 1.25d
 			dependencies: [
-				"52B0F0BE75D0CF07"
 				"40FF1F3A6D96E950"
 			]
 			tasks: [
@@ -576,7 +585,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_incomum"
 					}
 				}
 			]
@@ -599,7 +608,6 @@
 			y: 0.48d
 			size: 1.25d
 			dependencies: [
-				"28BEF2E097218D1C"
 				"40FF1F3A6D96E950"
 			]
 			tasks: [
@@ -683,7 +691,6 @@
 			y: 2.08d
 			size: 1.25d
 			dependencies: [
-				"0AE3AA51BD3FC0D0"
 				"40FF1F3A6D96E950"
 			]
 			tasks: [
@@ -751,7 +758,6 @@
 			x: 11.0d
 			y: 3.68d
 			dependencies: [
-				"52B0F0BE75D0CF07"
 				"40FF1F3A6D96E950"
 			]
 			tasks: [
@@ -809,7 +815,6 @@
 			y: 5.28d
 			size: 1.25d
 			dependencies: [
-				"52B0F0BE75D0CF07"
 				"40FF1F3A6D96E950"
 			]
 			tasks: [
@@ -1162,14 +1167,6 @@
 					type: "xp"
 					xp: 150
 				}
-				{
-					id: "6D9DCCA02EEA75EC"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "&4[Vampiro]&r Dons da Noite"
 			description: [
@@ -1235,14 +1232,6 @@
 					type: "xp"
 					xp: 200
 				}
-				{
-					id: "5518992387D3750B"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "&9[Caçador]&r O Boticário da Caçada"
 			description: [
@@ -1266,7 +1255,11 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"40FF1F3A6D96E950"
+				"39B72B4ED34A33C2"
+				"1BAF8B15C237D1FB"
+				"0C9FC4628508248A"
+				"696304569808AD8E"
+				"4014C6FE05AD8547"
 			]
 			tasks: [
 				{
@@ -1279,9 +1272,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Sangue Puro"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "34972E67FF805C4B"
@@ -1292,7 +1286,6 @@
 				id: "vampirism:mother_core"
 			}
 			dependencies: [
-				"28BEF2E097218D1C"
 				"0DF4B038AE96B2EA"
 			]
 			tasks: [
@@ -1332,7 +1325,6 @@
 			y: 1.6d
 			size: 1.25d
 			dependencies: [
-				"7A68794BF7EACA21"
 				"0DF4B038AE96B2EA"
 			]
 			tasks: [
@@ -1411,7 +1403,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -1434,7 +1426,6 @@
 			x: 20.0d
 			y: -1.6d
 			dependencies: [
-				"39B72B4ED34A33C2"
 				"34972E67FF805C4B"
 			]
 			tasks: [
@@ -1477,7 +1468,6 @@
 			x: 20.0d
 			y: -0.0d
 			dependencies: [
-				"572B7C04F1CBC19C"
 				"34972E67FF805C4B"
 			]
 			tasks: [
@@ -1533,7 +1523,6 @@
 			size: 1.25d
 			dependencies: [
 				"34972E67FF805C4B"
-				"7A68794BF7EACA21"
 			]
 			tasks: [
 				{
@@ -1630,7 +1619,9 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"0DF4B038AE96B2EA"
+				"415E82F904596686"
+				"18F422D54E37240F"
+				"43D4D6A9663D8BEC"
 			]
 			tasks: [
 				{
@@ -1643,9 +1634,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Linhagens e Lordes"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "2B6370FEC1A8426B"
@@ -1653,8 +1645,6 @@
 			y: -2.4d
 			size: 1.25d
 			dependencies: [
-				"415E82F904596686"
-				"1BAF8B15C237D1FB"
 				"37DFC3745A6DB22E"
 			]
 			tasks: [
@@ -1728,7 +1718,6 @@
 			y: -0.8d
 			size: 1.25d
 			dependencies: [
-				"1031BB556ECCBEE1"
 				"37DFC3745A6DB22E"
 			]
 			tasks: [
@@ -1805,8 +1794,6 @@
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
-				"1031BB556ECCBEE1"
-				"0DAB96358A574DC2"
 				"37DFC3745A6DB22E"
 			]
 			tasks: [
@@ -1862,6 +1849,14 @@
 					type: "xp"
 					xp: 550
 				}
+				{
+					id: "26976849283FA2A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "&9[Caçador]&r Diamante e Sal"
 			description: [
@@ -1876,7 +1871,6 @@
 			x: 25.0d
 			y: 2.4d
 			dependencies: [
-				"18F422D54E37240F"
 				"37DFC3745A6DB22E"
 			]
 			tasks: [
@@ -2056,7 +2050,8 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"37DFC3745A6DB22E"
+				"5D9615D12D75EA10"
+				"00989E0EBBF7BC05"
 			]
 			tasks: [
 				{
@@ -2069,16 +2064,16 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Os Senhores da Noite"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "34E06C5191F110B7"
 			x: 32.0d
 			y: -0.8d
 			dependencies: [
-				"5D9615D12D75EA10"
 				"56B355942F67E66D"
 			]
 			tasks: [
@@ -2137,8 +2132,6 @@
 			y: 0.8d
 			size: 1.25d
 			dependencies: [
-				"00989E0EBBF7BC05"
-				"40AFA827B348878A"
 				"56B355942F67E66D"
 			]
 			tasks: [

@@ -332,6 +332,12 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"06D9934D97FC106C"
+				"56D724E4311BA3DC"
+				"4E3FC9ED73CF4D0E"
+				"43082E61A648EBB9"
+			]
 			tasks: [
 				{
 					id: "1C3B18D0CCB9D55F"
@@ -343,9 +349,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - A Cozinha da Fazenda"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "390870D06CA37562"
@@ -357,7 +364,6 @@
 				id: "farmersdelight:cabbage"
 			}
 			dependencies: [
-				"56D724E4311BA3DC"
 				"2A8E1FC13A4173A9"
 			]
 			tasks: [
@@ -436,7 +442,6 @@
 				id: "farmersdelight:cooking_pot"
 			}
 			dependencies: [
-				"56D724E4311BA3DC"
 				"2A8E1FC13A4173A9"
 			]
 			tasks: [
@@ -544,7 +549,6 @@
 				id: "aquaculture:lockbox"
 			}
 			dependencies: [
-				"4E3FC9ED73CF4D0E"
 				"2A8E1FC13A4173A9"
 			]
 			tasks: [
@@ -600,6 +604,14 @@
 					type: "xp"
 					xp: 250
 				}
+				{
+					id: "63349F438D0E162D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "O que o Rio Devolve"
 			description: [
@@ -625,7 +637,6 @@
 				id: "aquaculture:double_hook"
 			}
 			dependencies: [
-				"4E3FC9ED73CF4D0E"
 				"2A8E1FC13A4173A9"
 			]
 			tasks: [
@@ -733,7 +744,6 @@
 				id: "aquaculture:brown_trout"
 			}
 			dependencies: [
-				"4E3FC9ED73CF4D0E"
 				"2A8E1FC13A4173A9"
 			]
 			tasks: [
@@ -851,7 +861,6 @@
 				id: "choccos_mobs:crocodile_tooth"
 			}
 			dependencies: [
-				"43082E61A648EBB9"
 				"2A8E1FC13A4173A9"
 			]
 			tasks: [
@@ -968,7 +977,6 @@
 				id: "wildernature:cooked_venison"
 			}
 			dependencies: [
-				"43082E61A648EBB9"
 				"2A8E1FC13A4173A9"
 			]
 			tasks: [
@@ -1249,7 +1257,6 @@
 				id: "aquaculture:fish_fillet_cooked"
 			}
 			dependencies: [
-				"4E3FC9ED73CF4D0E"
 				"664CAD5152DCF2FD"
 			]
 			tasks: [
@@ -1319,7 +1326,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_incomum"
 					}
 				}
 			]
@@ -1483,7 +1490,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_incomum"
 					}
 				}
 			]
@@ -1555,14 +1562,6 @@
 					id: "4EA40EE701360B91"
 					type: "xp"
 					xp: 250
-				}
-				{
-					id: "18E3C82D1630D3A8"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
 				}
 			]
 			title: "Terra Viva"
@@ -1734,7 +1733,9 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"2A8E1FC13A4173A9"
+				"3C084D723C46CB13"
+				"6296715B711500BB"
+				"2429DF129092B8FC"
 			]
 			tasks: [
 				{
@@ -1747,9 +1748,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Mesa Farta e Mar Aberto"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "6ECF615D2FCCF3E3"
@@ -1761,9 +1763,6 @@
 				id: "farmersdelight:diamond_knife"
 			}
 			dependencies: [
-				"664CAD5152DCF2FD"
-				"2858750B97CCC3E7"
-				"555E326A08EACA1D"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -1824,7 +1823,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -1851,8 +1850,6 @@
 				id: "thirst:sand_filter"
 			}
 			dependencies: [
-				"06D9934D97FC106C"
-				"6296715B711500BB"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -1932,7 +1929,6 @@
 				id: "farmersdelight:roast_chicken_block"
 			}
 			dependencies: [
-				"6296715B711500BB"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -2028,7 +2024,6 @@
 				id: "farmersdelight:beef_stew"
 			}
 			dependencies: [
-				"6296715B711500BB"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -2126,7 +2121,6 @@
 				id: "farmersdelight:hamburger"
 			}
 			dependencies: [
-				"6296715B711500BB"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -2222,7 +2216,6 @@
 				id: "farmersdelight:dog_food"
 			}
 			dependencies: [
-				"6296715B711500BB"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -2288,7 +2281,6 @@
 				id: "aquaculturedelight:fish_chorba"
 			}
 			dependencies: [
-				"2858750B97CCC3E7"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -2396,7 +2388,6 @@
 				id: "aquaculture:tuna"
 			}
 			dependencies: [
-				"18A39F44350325AF"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -2494,7 +2485,6 @@
 				id: "aquaculture:box_turtle"
 			}
 			dependencies: [
-				"18A39F44350325AF"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -2590,7 +2580,6 @@
 				id: "aquaculture:neptunes_bounty"
 			}
 			dependencies: [
-				"3D50B9D3E64F47C6"
 				"19592851A00465AF"
 			]
 			tasks: [
@@ -2627,6 +2616,14 @@
 					id: "687CE04C4310A37C"
 					type: "xp"
 					xp: 240
+				}
+				{
+					id: "7B16410F8ED85C4E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "O Tesouro de Netuno"
@@ -2730,7 +2727,7 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"19592851A00465AF"
+				"6CEF29A9720B09B5"
 			]
 			tasks: [
 				{
@@ -2743,9 +2740,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - As Marés de Netúnio"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "0B84EF4A85C6B7E9"
@@ -2757,8 +2755,6 @@
 				id: "aquaculture:neptunium_fishing_rod"
 			}
 			dependencies: [
-				"6757E81C55EB8F60"
-				"6ECF615D2FCCF3E3"
 				"4DD0871E883FDC72"
 			]
 			tasks: [
@@ -2828,7 +2824,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_rara"
+						id: "comamigos_balance:loot_bag_comum"
 					}
 				}
 			]
@@ -2856,7 +2852,6 @@
 				id: "aquaculture:neptunium_chestplate"
 			}
 			dependencies: [
-				"6757E81C55EB8F60"
 				"4DD0871E883FDC72"
 			]
 			tasks: [
@@ -2903,14 +2898,6 @@
 					type: "xp"
 					xp: 440
 				}
-				{
-					id: "53A8801B61DD3C04"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "Armadura das Marés"
 			description: [
@@ -2935,7 +2922,8 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"4DD0871E883FDC72"
+				"0B84EF4A85C6B7E9"
+				"37DFF49D505D9C41"
 			]
 			tasks: [
 				{
@@ -2948,9 +2936,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Se Não Aguenta o Calor"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "7A5EFCFF8F1FCAC5"
@@ -2961,7 +2950,6 @@
 				id: "farmersdelight:netherite_knife"
 			}
 			dependencies: [
-				"6ECF615D2FCCF3E3"
 				"05E09178F676FF4B"
 			]
 			tasks: [

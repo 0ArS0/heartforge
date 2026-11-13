@@ -409,6 +409,11 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"157DC6ED2175901C"
+				"3991D0AA35DF9E5B"
+				"4C4AF3920E558299"
+			]
 			tasks: [
 				{
 					id: "5D4D6823F012997D"
@@ -420,9 +425,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - A Primeira Rede"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "022D41477429570E"
@@ -434,7 +440,6 @@
 				id: "botania:mana_pool"
 			}
 			dependencies: [
-				"157DC6ED2175901C"
 				"0BBDC0D3400841B5"
 			]
 			tasks: [
@@ -716,6 +721,14 @@
 					type: "xp"
 					xp: 200
 				}
+				{
+					id: "25872B9D5777677C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Mana no bolso"
 			description: [
@@ -850,6 +863,14 @@
 					id: "78EB4846B0D3A708"
 					type: "xp"
 					xp: 150
+				}
+				{
+					id: "1B20645707B25FA4"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "Flores que trabalham"
@@ -1324,7 +1345,7 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"0BBDC0D3400841B5"
+				"2710A3C1956EFBE4"
 			]
 			tasks: [
 				{
@@ -1337,9 +1358,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - O Altar das Runas"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4EE19D5B37E0ABE8"
@@ -1351,7 +1373,6 @@
 				id: "botania:manasteel_chestplate"
 			}
 			dependencies: [
-				"7CB650DFEA659CFD"
 				"0B1683E462E3E0EB"
 			]
 			tasks: [
@@ -1430,7 +1451,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -1458,7 +1479,6 @@
 				id: "botania:runic_altar"
 			}
 			dependencies: [
-				"4B84CE167F4C4FA7"
 				"0B1683E462E3E0EB"
 			]
 			tasks: [
@@ -1556,7 +1576,6 @@
 				id: "botania:manaweave_chestplate"
 			}
 			dependencies: [
-				"4B84CE167F4C4FA7"
 				"0B1683E462E3E0EB"
 			]
 			tasks: [
@@ -1700,6 +1719,14 @@
 					type: "xp"
 					xp: 400
 				}
+				{
+					id: "44DE82E937774728"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "As Varas dos Elementos"
 			description: [
@@ -1800,7 +1827,6 @@
 			}
 			dependencies: [
 				"50C3CC2949A54B80"
-				"263E934345438682"
 			]
 			tasks: [
 				{
@@ -1971,7 +1997,6 @@
 			}
 			dependencies: [
 				"436A719A31B1AFAE"
-				"66CEDBF42A77821C"
 			]
 			tasks: [
 				{
@@ -2071,7 +2096,6 @@
 			}
 			dependencies: [
 				"436A719A31B1AFAE"
-				"66CEDBF42A77821C"
 			]
 			tasks: [
 				{
@@ -2188,8 +2212,6 @@
 			}
 			dependencies: [
 				"436A719A31B1AFAE"
-				"7CB650DFEA659CFD"
-				"263E934345438682"
 			]
 			tasks: [
 				{
@@ -2346,7 +2368,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -2447,7 +2469,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_rara"
+						id: "comamigos_balance:loot_bag_comum"
 					}
 				}
 			]
@@ -2478,7 +2500,6 @@
 			}
 			dependencies: [
 				"58527FFA9C8C1FFE"
-				"66CEDBF42A77821C"
 			]
 			tasks: [
 				{
@@ -2799,7 +2820,10 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"0B1683E462E3E0EB"
+				"11205E7A800EEB47"
+				"0EFB0FDC5F747A8D"
+				"6E2F10552D615226"
+				"27ACF008C393D23B"
 			]
 			tasks: [
 				{
@@ -2812,9 +2836,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - O Portal de Alfheim"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "656A84FB5A0BA618"
@@ -2825,7 +2850,6 @@
 				id: "botania:dodge_ring"
 			}
 			dependencies: [
-				"76694CA9DD54D6B2"
 				"2230F8F937062FDB"
 			]
 			tasks: [
@@ -2892,7 +2916,6 @@
 				id: "botania:cloud_pendant"
 			}
 			dependencies: [
-				"76694CA9DD54D6B2"
 				"2230F8F937062FDB"
 			]
 			tasks: [
@@ -2962,7 +2985,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -2986,8 +3009,6 @@
 				id: "botania:terrasteel_ingot"
 			}
 			dependencies: [
-				"436A719A31B1AFAE"
-				"263E934345438682"
 				"2230F8F937062FDB"
 			]
 			tasks: [
@@ -3049,7 +3070,6 @@
 			}
 			dependencies: [
 				"3BD4675C7A79FF3E"
-				"6336C4A565DD85DE"
 			]
 			tasks: [
 				{
@@ -3463,7 +3483,6 @@
 			}
 			dependencies: [
 				"2E78C088BCCC2A2E"
-				"58527FFA9C8C1FFE"
 			]
 			tasks: [
 				{
@@ -3521,7 +3540,6 @@
 			}
 			dependencies: [
 				"2E78C088BCCC2A2E"
-				"4F782ADB8B50FB06"
 			]
 			tasks: [
 				{
@@ -3621,7 +3639,6 @@
 			}
 			dependencies: [
 				"2E78C088BCCC2A2E"
-				"263E934345438682"
 			]
 			tasks: [
 				{
@@ -3709,7 +3726,6 @@
 			}
 			dependencies: [
 				"2E78C088BCCC2A2E"
-				"58527FFA9C8C1FFE"
 			]
 			tasks: [
 				{
@@ -3803,7 +3819,6 @@
 			}
 			dependencies: [
 				"2E78C088BCCC2A2E"
-				"58527FFA9C8C1FFE"
 			]
 			tasks: [
 				{
@@ -4060,7 +4075,16 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"2230F8F937062FDB"
+				"46FBEE71E1556C26"
+				"1BA49C53223F4120"
+				"1789A2BE97012336"
+				"6E1F5ABA6D0AB5CB"
+				"123E01522827FBF5"
+				"76AED3FF62E1FB26"
+				"38063C5694A57B92"
+				"79F984D1D5F4F74F"
+				"00B595112ADF065A"
+				"5D27A46599F26286"
 			]
 			tasks: [
 				{
@@ -4073,9 +4097,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Fogo e Tempestade"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "27B3EB82892E1D44"
@@ -4086,8 +4111,6 @@
 				id: "botania:orechid_ignem"
 			}
 			dependencies: [
-				"6E1F5ABA6D0AB5CB"
-				"6336C4A565DD85DE"
 				"28A1A3E61790FC35"
 			]
 			tasks: [
@@ -4156,8 +4179,6 @@
 				id: "botania:mana_gun"
 			}
 			dependencies: [
-				"2E78C088BCCC2A2E"
-				"4EE19D5B37E0ABE8"
 				"28A1A3E61790FC35"
 			]
 			tasks: [
@@ -4232,8 +4253,6 @@
 				id: "botania:mana_ring_greater"
 			}
 			dependencies: [
-				"76694CA9DD54D6B2"
-				"3BD4675C7A79FF3E"
 				"28A1A3E61790FC35"
 			]
 			tasks: [
@@ -4370,7 +4389,7 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"28A1A3E61790FC35"
+				"331167492B8ADFA9"
 			]
 			tasks: [
 				{
@@ -4383,9 +4402,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - O Desafio de Gaia"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4A8700B3FC575B2C"
@@ -4397,8 +4417,6 @@
 				id: "botania:terrasteel_chestplate"
 			}
 			dependencies: [
-				"4EE19D5B37E0ABE8"
-				"3BD4675C7A79FF3E"
 				"1F757BFAE7020D98"
 			]
 			tasks: [
@@ -4469,8 +4487,6 @@
 			}
 			dependencies: [
 				"4A8700B3FC575B2C"
-				"2E78C088BCCC2A2E"
-				"6336C4A565DD85DE"
 			]
 			tasks: [
 				{
@@ -4537,7 +4553,6 @@
 			}
 			dependencies: [
 				"4D322CEA04C69A3E"
-				"1789A2BE97012336"
 			]
 			tasks: [
 				{
@@ -4598,8 +4613,6 @@
 			}
 			dependencies: [
 				"6983BDB8094AEFAC"
-				"0BDF62E4C0A3230D"
-				"46FBEE71E1556C26"
 			]
 			tasks: [
 				{
@@ -4706,7 +4719,6 @@
 			}
 			dependencies: [
 				"6983BDB8094AEFAC"
-				"58527FFA9C8C1FFE"
 			]
 			tasks: [
 				{
@@ -4802,7 +4814,8 @@
 				id: "comamigos_balance:tier_heart_6"
 			}
 			dependencies: [
-				"1F757BFAE7020D98"
+				"15373B75C0248ABB"
+				"1F14E1D02FFD5C33"
 			]
 			tasks: [
 				{
@@ -4815,9 +4828,10 @@
 			rewards: [ ]
 			title: "&5Tier VI&7 - O Aço da Terra"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "58F7B86FFA38F404"
@@ -4829,8 +4843,6 @@
 				id: "botania:terra_sword"
 			}
 			dependencies: [
-				"3BD4675C7A79FF3E"
-				"7CB650DFEA659CFD"
 				"7A5BCAC396C612CA"
 			]
 			tasks: [
@@ -4898,7 +4910,6 @@
 				id: "botania:gaia_ingot"
 			}
 			dependencies: [
-				"6983BDB8094AEFAC"
 				"7A5BCAC396C612CA"
 			]
 			tasks: [
@@ -4940,7 +4951,6 @@
 			}
 			dependencies: [
 				"58F7B86FFA38F404"
-				"1F14E1D02FFD5C33"
 			]
 			tasks: [
 				{
@@ -5012,7 +5022,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"7A5BCAC396C612CA"
+				"01E5AA41EFB44014"
 			]
 			tasks: [
 				{
@@ -5025,9 +5035,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - O Ar do Fim"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "3B6B12E014D9A67E"
@@ -5039,8 +5050,6 @@
 				id: "botania:corporea_index"
 			}
 			dependencies: [
-				"263E934345438682"
-				"2E78C088BCCC2A2E"
 				"16470F5BAEC32446"
 			]
 			tasks: [
@@ -5134,8 +5143,6 @@
 				id: "botania:ancient_will_ahrim"
 			}
 			dependencies: [
-				"3FC82BD8620C48BC"
-				"4D322CEA04C69A3E"
 				"16470F5BAEC32446"
 			]
 			tasks: [
@@ -5178,8 +5185,6 @@
 			}
 			dependencies: [
 				"3B6B12E014D9A67E"
-				"58F7B86FFA38F404"
-				"6983BDB8094AEFAC"
 			]
 			tasks: [
 				{
@@ -5221,14 +5226,6 @@
 					id: "032C828FBC117E4E"
 					type: "xp"
 					xp: 920
-				}
-				{
-					id: "1905491CC6851A85"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_epica"
-					}
 				}
 			]
 			title: "Asas e raios"
@@ -5407,7 +5404,6 @@
 			}
 			dependencies: [
 				"3B6B12E014D9A67E"
-				"6983BDB8094AEFAC"
 			]
 			tasks: [
 				{
@@ -5472,7 +5468,6 @@
 			}
 			dependencies: [
 				"255D4948A81559F8"
-				"1BA49C53223F4120"
 			]
 			tasks: [
 				{
@@ -5529,7 +5524,11 @@
 				id: "comamigos_balance:tier_heart_8"
 			}
 			dependencies: [
-				"16470F5BAEC32446"
+				"3DA86C9D72D11555"
+				"0E5B2A770DDDEC7A"
+				"6DD6D8B35BB18E9A"
+				"60D606AC93E577EB"
+				"5A50EE4FE6974A8F"
 			]
 			tasks: [
 				{
@@ -5542,9 +5541,10 @@
 			rewards: [ ]
 			title: "&eTier VIII&7 - As Relíquias dos Aesir"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "7AEBBE6809694763"
@@ -5556,7 +5556,6 @@
 				id: "botania:dice"
 			}
 			dependencies: [
-				"255D4948A81559F8"
 				"3D42429C586EAEDA"
 			]
 			tasks: [
@@ -5649,7 +5648,6 @@
 			}
 			dependencies: [
 				"7AEBBE6809694763"
-				"0E5B2A770DDDEC7A"
 			]
 			tasks: [
 				{

@@ -141,6 +141,9 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"0577BB6C64DC5268"
+			]
 			tasks: [
 				{
 					id: "2E7B9B43C5C391C1"
@@ -152,9 +155,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - O Caçador Aprendiz"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "1F45BACDE440EA49"
@@ -166,7 +170,6 @@
 				id: "iceandfire:armor_silver_metal_chestplate"
 			}
 			dependencies: [
-				"0577BB6C64DC5268"
 				"6A409DD8B610126E"
 			]
 			tasks: [
@@ -236,7 +239,6 @@
 				id: "iceandfire:dragonbone"
 			}
 			dependencies: [
-				"0577BB6C64DC5268"
 				"6A409DD8B610126E"
 			]
 			tasks: [
@@ -298,7 +300,6 @@
 				id: "iceandfire:pixie_jar_0"
 			}
 			dependencies: [
-				"0577BB6C64DC5268"
 				"6A409DD8B610126E"
 			]
 			tasks: [
@@ -375,7 +376,6 @@
 				id: "minecraft:rabbit_foot"
 			}
 			dependencies: [
-				"0577BB6C64DC5268"
 				"6A409DD8B610126E"
 			]
 			tasks: [
@@ -439,7 +439,6 @@
 				id: "iceandfire:siren_tear"
 			}
 			dependencies: [
-				"0577BB6C64DC5268"
 				"6A409DD8B610126E"
 			]
 			tasks: [
@@ -541,7 +540,6 @@
 				id: "iceandfire:cockatrice_eye"
 			}
 			dependencies: [
-				"0577BB6C64DC5268"
 				"6A409DD8B610126E"
 			]
 			tasks: [
@@ -596,7 +594,6 @@
 				id: "iceandfire:stymphalian_bird_feather"
 			}
 			dependencies: [
-				"0577BB6C64DC5268"
 				"6A409DD8B610126E"
 			]
 			tasks: [
@@ -652,7 +649,6 @@
 				id: "iceandfire:ectoplasm"
 			}
 			dependencies: [
-				"0577BB6C64DC5268"
 				"6A409DD8B610126E"
 			]
 			tasks: [
@@ -722,7 +718,14 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"6A409DD8B610126E"
+				"1F45BACDE440EA49"
+				"632AFD56EAEB8B62"
+				"3E9AC6EE4BAA322A"
+				"2AC610017C1D80F1"
+				"5DAF885DA7249F96"
+				"77103A7D590F8527"
+				"134FFEF694BEF335"
+				"48362BCF60A51A13"
 			]
 			tasks: [
 				{
@@ -735,9 +738,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Trolls, Vermes e Ninhos"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "71B01F4847B3C618"
@@ -749,7 +753,6 @@
 				id: "iceandfire:troll_tusk"
 			}
 			dependencies: [
-				"1F45BACDE440EA49"
 				"7DACB1BDF0567091"
 			]
 			tasks: [
@@ -827,7 +830,6 @@
 				id: "iceandfire:deathworm_tounge"
 			}
 			dependencies: [
-				"1F45BACDE440EA49"
 				"7DACB1BDF0567091"
 			]
 			tasks: [
@@ -920,11 +922,6 @@
 				id: "iceandfire:pixie_wand"
 			}
 			dependencies: [
-				"2AC610017C1D80F1"
-				"77103A7D590F8527"
-				"134FFEF694BEF335"
-				"3E9AC6EE4BAA322A"
-				"632AFD56EAEB8B62"
 				"7DACB1BDF0567091"
 			]
 			tasks: [
@@ -991,7 +988,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_rara"
 					}
 				}
 			]
@@ -1019,7 +1016,6 @@
 				id: "iceandfire:gold_pile"
 			}
 			dependencies: [
-				"1F45BACDE440EA49"
 				"7DACB1BDF0567091"
 			]
 			tasks: [
@@ -1066,6 +1062,14 @@
 					type: "xp"
 					xp: 320
 				}
+				{
+					id: "599763DB9C507B17"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Os Três Ninhos"
 			description: [
@@ -1091,7 +1095,6 @@
 				id: "minecraft:white_wool"
 			}
 			dependencies: [
-				"0577BB6C64DC5268"
 				"7DACB1BDF0567091"
 			]
 			tasks: [
@@ -1167,14 +1170,6 @@
 					type: "xp"
 					xp: 80
 				}
-				{
-					id: "7306C63E7FB23238"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "Meu Nome é Ninguém"
 			description: [
@@ -1199,7 +1194,7 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"7DACB1BDF0567091"
+				"22EB0B172252252D"
 			]
 			tasks: [
 				{
@@ -1212,9 +1207,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Escamas e Marés"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "40E1326D51A244F7"
@@ -1225,7 +1221,6 @@
 				id: "iceandfire:dragon_skull_fire"
 			}
 			dependencies: [
-				"2B379ECF5503BAA9"
 				"00EDDD16E5FE37C2"
 			]
 			tasks: [
@@ -1284,7 +1279,6 @@
 				id: "iceandfire:hydra_heart"
 			}
 			dependencies: [
-				"632AFD56EAEB8B62"
 				"00EDDD16E5FE37C2"
 			]
 			tasks: [
@@ -1351,7 +1345,6 @@
 				id: "iceandfire:sea_serpent_fang"
 			}
 			dependencies: [
-				"5DAF885DA7249F96"
 				"00EDDD16E5FE37C2"
 			]
 			tasks: [
@@ -1408,8 +1401,6 @@
 			}
 			dependencies: [
 				"40E1326D51A244F7"
-				"2AC610017C1D80F1"
-				"5DAF885DA7249F96"
 			]
 			tasks: [
 				{
@@ -1446,14 +1437,6 @@
 					type: "xp"
 					xp: 330
 				}
-				{
-					id: "0658F4C89ABE5C69"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
-				}
 			]
 			title: "Armas da Selva e do Mar"
 			description: [
@@ -1477,7 +1460,6 @@
 			}
 			dependencies: [
 				"62555C2FFC04AF17"
-				"632AFD56EAEB8B62"
 			]
 			tasks: [
 				{
@@ -1543,7 +1525,8 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"00EDDD16E5FE37C2"
+				"3E60A0EE98363F1F"
+				"2475FE915A4EA730"
 			]
 			tasks: [
 				{
@@ -1556,9 +1539,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Pedra e Pavor"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "215C3030C11A7FD7"
@@ -1570,7 +1554,6 @@
 				id: "iceandfire:gorgon_head"
 			}
 			dependencies: [
-				"48362BCF60A51A13"
 				"55C3AD489A0A30F0"
 			]
 			tasks: [
@@ -1626,7 +1609,6 @@
 				id: "iceandfire:dread_shard"
 			}
 			dependencies: [
-				"48362BCF60A51A13"
 				"55C3AD489A0A30F0"
 			]
 			tasks: [
@@ -1697,8 +1679,6 @@
 				id: "iceandfire:dragon_seeker"
 			}
 			dependencies: [
-				"40E1326D51A244F7"
-				"369E9A2859B87BD1"
 				"55C3AD489A0A30F0"
 			]
 			tasks: [
@@ -1759,7 +1739,9 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"55C3AD489A0A30F0"
+				"215C3030C11A7FD7"
+				"3836D08B94670D55"
+				"0C56988A1EE3853A"
 			]
 			tasks: [
 				{
@@ -1772,9 +1754,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - O Matador de Dragões"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "56ADB5730C8B92FF"
@@ -1786,7 +1769,6 @@
 				id: "iceandfire:fire_dragon_heart"
 			}
 			dependencies: [
-				"0C56988A1EE3853A"
 				"4018BE9B89E55AA3"
 			]
 			tasks: [
@@ -1845,7 +1827,6 @@
 				id: "comamigos_balance:dread_lich_heart"
 			}
 			dependencies: [
-				"3836D08B94670D55"
 				"4018BE9B89E55AA3"
 			]
 			tasks: [
@@ -2117,7 +2098,6 @@
 			}
 			dependencies: [
 				"6EF2E68FC22C360A"
-				"215C3030C11A7FD7"
 			]
 			tasks: [
 				{
@@ -2217,7 +2197,6 @@
 			}
 			dependencies: [
 				"14B8DBF40C1C5A0E"
-				"48362BCF60A51A13"
 			]
 			tasks: [
 				{
@@ -2626,14 +2605,6 @@
 					type: "xp"
 					xp: 680
 				}
-				{
-					id: "30DD9592EA65E742"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "Cavaleiro de Dragão"
 			description: [
@@ -2659,7 +2630,8 @@
 				id: "comamigos_balance:tier_heart_6"
 			}
 			dependencies: [
-				"4018BE9B89E55AA3"
+				"65D9CEE07F6BE60D"
+				"5535AD39631B59A8"
 			]
 			tasks: [
 				{
@@ -2672,9 +2644,10 @@
 			rewards: [ ]
 			title: "&5Tier VI&7 - A Serpente Anciã"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "0D46783634B4009D"
@@ -2686,7 +2659,6 @@
 				id: "comamigos_balance:sea_serpent_heart"
 			}
 			dependencies: [
-				"2475FE915A4EA730"
 				"31D6BBFFF11CEFF0"
 			]
 			tasks: [

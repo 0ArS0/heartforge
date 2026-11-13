@@ -301,7 +301,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
+						id: "comamigos_balance:loot_bag_comum"
 					}
 				}
 			]
@@ -388,7 +388,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
+						id: "comamigos_balance:loot_bag_comum"
 					}
 				}
 			]
@@ -416,6 +416,10 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"70E447707F82D656"
+				"30194407060A452E"
+			]
 			tasks: [
 				{
 					id: "28B27C0F2E168DC1"
@@ -427,9 +431,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - A Era da Andesita"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "201C239CABC01D98"
@@ -437,7 +442,6 @@
 			y: -1.93d
 			size: 1.25d
 			dependencies: [
-				"342274A810C316AE"
 				"2B5B464D8744E063"
 			]
 			tasks: [
@@ -525,7 +529,6 @@
 			y: -0.33d
 			size: 1.25d
 			dependencies: [
-				"342274A810C316AE"
 				"2B5B464D8744E063"
 			]
 			tasks: [
@@ -601,7 +604,6 @@
 			y: 1.27d
 			size: 1.25d
 			dependencies: [
-				"400761B7AB052EE6"
 				"2B5B464D8744E063"
 			]
 			tasks: [
@@ -691,7 +693,6 @@
 			y: 2.87d
 			size: 1.25d
 			dependencies: [
-				"342274A810C316AE"
 				"2B5B464D8744E063"
 			]
 			tasks: [
@@ -1243,7 +1244,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "comamigos_balance:loot_bag_comum"
+						id: "comamigos_balance:loot_bag_incomum"
 					}
 				}
 			]
@@ -1763,7 +1764,10 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"2B5B464D8744E063"
+				"407A208536807B64"
+				"03BFED4BBE443A76"
+				"741F498CCE5910B6"
+				"5E0D2100814177FF"
 			]
 			tasks: [
 				{
@@ -1776,9 +1780,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Latão e Precisão"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "0B414B11CE8CC236"
@@ -1786,7 +1791,6 @@
 			y: 2.16d
 			size: 1.25d
 			dependencies: [
-				"57C1EFA069E1F74C"
 				"6971BB18C1083D76"
 			]
 			tasks: [
@@ -1859,7 +1863,6 @@
 			size: 1.25d
 			dependencies: [
 				"0B414B11CE8CC236"
-				"503F9F338325017D"
 			]
 			tasks: [
 				{
@@ -1944,7 +1947,6 @@
 			size: 1.25d
 			dependencies: [
 				"0B414B11CE8CC236"
-				"1F9F3F227C811DC4"
 			]
 			tasks: [
 				{
@@ -2242,7 +2244,6 @@
 			size: 1.25d
 			dependencies: [
 				"5B830FDABDC58062"
-				"6462DFBBF09514D1"
 			]
 			tasks: [
 				{
@@ -2523,6 +2524,14 @@
 					id: "37C0368608DA22AA"
 					type: "xp"
 					xp: 400
+				}
+				{
+					id: "20442AF64DF22218"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
 				}
 			]
 			title: "As Máquinas Falam"
@@ -2964,7 +2973,8 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"6971BB18C1083D76"
+				"0F1F1A175014AAA3"
+				"6B9F943A76804BB0"
 			]
 			tasks: [
 				{
@@ -2977,9 +2987,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Trilhos e Linhas de Montagem"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "585B3ABED1A90C51"
@@ -2987,7 +2998,6 @@
 			y: 0.4d
 			size: 1.25d
 			dependencies: [
-				"481FD9295FCF4889"
 				"6CD1FD530B55FB55"
 			]
 			tasks: [
@@ -3061,7 +3071,6 @@
 			size: 1.25d
 			dependencies: [
 				"585B3ABED1A90C51"
-				"5EF661194713BA19"
 			]
 			tasks: [
 				{
@@ -3179,7 +3188,6 @@
 			y: 1.2d
 			size: 1.25d
 			dependencies: [
-				"2BE05997E81E3C85"
 				"585B3ABED1A90C51"
 			]
 			tasks: [
@@ -3429,7 +3437,6 @@
 			y: -2.8d
 			dependencies: [
 				"2EC615293732D9D9"
-				"3D7A934BD49BBD8D"
 			]
 			tasks: [
 				{
@@ -3462,14 +3469,6 @@
 					id: "570EC74707097941"
 					type: "xp"
 					xp: 330
-				}
-				{
-					id: "2979A4B64B206ED0"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_incomum"
-					}
 				}
 			]
 			title: "A Estação Viva"
@@ -3569,7 +3568,8 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"6CD1FD530B55FB55"
+				"6752E00A71621D14"
+				"3C87C8688B083C7E"
 			]
 			tasks: [
 				{
@@ -3582,9 +3582,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - O Fogo Azul"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "24FFBA4172A65BE4"
@@ -3592,8 +3593,6 @@
 			y: 0.0d
 			size: 1.25d
 			dependencies: [
-				"5B830FDABDC58062"
-				"741F498CCE5910B6"
 				"7FB0190C8BA08C08"
 			]
 			tasks: [
@@ -3663,7 +3662,6 @@
 			y: -1.6d
 			dependencies: [
 				"24FFBA4172A65BE4"
-				"2355C79206470ECD"
 			]
 			tasks: [
 				{
@@ -3693,7 +3691,6 @@
 			size: 1.25d
 			dependencies: [
 				"24FFBA4172A65BE4"
-				"03BFED4BBE443A76"
 			]
 			tasks: [
 				{
@@ -3736,14 +3733,6 @@
 					type: "xp"
 					xp: 560
 				}
-				{
-					id: "4CD61A2A2F176AF5"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "Nadando com os Striders"
 			description: [
@@ -3760,7 +3749,6 @@
 			y: 1.6d
 			dependencies: [
 				"24FFBA4172A65BE4"
-				"2EC615293732D9D9"
 			]
 			tasks: [
 				{
@@ -3788,14 +3776,6 @@
 					type: "xp"
 					xp: 420
 				}
-				{
-					id: "27699CDCF0AF9EEF"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_rara"
-					}
-				}
 			]
 			title: "A Indústria do Inferno"
 			description: [
@@ -3819,7 +3799,9 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"7FB0190C8BA08C08"
+				"33D862B3DD53F654"
+				"082F668C9D7A5E23"
+				"3EFB4AC2F5B61C1C"
 			]
 			tasks: [
 				{
@@ -3832,16 +3814,16 @@
 			rewards: [ ]
 			title: "&cTier V&7 - O Coração do Dragão"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "50B7449EFC8BC341"
 			x: 51.0d
 			y: 0.0d
 			dependencies: [
-				"33D862B3DD53F654"
 				"7931CA7FB816D052"
 			]
 			tasks: [
@@ -3875,7 +3857,7 @@
 				id: "comamigos_balance:tier_heart_6"
 			}
 			dependencies: [
-				"7931CA7FB816D052"
+				"50B7449EFC8BC341"
 			]
 			tasks: [
 				{
@@ -3888,16 +3870,16 @@
 			rewards: [ ]
 			title: "&5Tier VI&7 - O Coração do Mar"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "0E72B9BB4689BC1F"
 			x: 56.0d
 			y: 0.0d
 			dependencies: [
-				"50B7449EFC8BC341"
 				"06B617500E34F7F9"
 			]
 			tasks: [
@@ -3932,7 +3914,7 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"06B617500E34F7F9"
+				"0E72B9BB4689BC1F"
 			]
 			tasks: [
 				{
@@ -3945,16 +3927,16 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - O Último Coração"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "0B35C7886EFEF86B"
 			x: 61.0d
 			y: 0.0d
 			dependencies: [
-				"0E72B9BB4689BC1F"
 				"6D7AEBE1028004A9"
 			]
 			tasks: [

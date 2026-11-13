@@ -1231,7 +1231,7 @@
 	]
 	"quest.2B5B464D8744E063.title": "&7Tier I&7 - A Era da Andesita"
 	"quest.2B5B464D8744E063.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.201C239CABC01D98.title": "Martelo sem Braço"
 	"quest.201C239CABC01D98.quest_desc": [
@@ -1429,7 +1429,7 @@
 	]
 	"quest.6971BB18C1083D76.title": "&aTier II&7 - Latão e Precisão"
 	"quest.6971BB18C1083D76.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.0B414B11CE8CC236.title": "Expedição ao Inferno"
 	"quest.0B414B11CE8CC236.quest_desc": [
@@ -1601,7 +1601,7 @@
 	]
 	"quest.6CD1FD530B55FB55.title": "&9Tier III&7 - Trilhos e Linhas de Montagem"
 	"quest.6CD1FD530B55FB55.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.585B3ABED1A90C51.title": "A Linha que Nunca Para"
 	"quest.585B3ABED1A90C51.quest_desc": [
@@ -1695,7 +1695,7 @@
 	]
 	"quest.7FB0190C8BA08C08.title": "&6Tier IV&7 - O Fogo Azul"
 	"quest.7FB0190C8BA08C08.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.24FFBA4172A65BE4.title": "Netherita, só no Fogo Azul"
 	"quest.24FFBA4172A65BE4.quest_desc": [
@@ -1740,7 +1740,7 @@
 	]
 	"quest.7931CA7FB816D052.title": "&cTier V&7 - O Coração do Dragão"
 	"quest.7931CA7FB816D052.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.50B7449EFC8BC341.title": "O Coração do Dragão"
 	"quest.50B7449EFC8BC341.quest_desc": [
@@ -1751,7 +1751,7 @@
 	]
 	"quest.06B617500E34F7F9.title": "&5Tier VI&7 - O Coração do Mar"
 	"quest.06B617500E34F7F9.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.0E72B9BB4689BC1F.title": "O Coração de Scylla"
 	"quest.0E72B9BB4689BC1F.quest_desc": [
@@ -1763,7 +1763,7 @@
 	]
 	"quest.6D7AEBE1028004A9.title": "&dTier VII&7 - O Último Coração"
 	"quest.6D7AEBE1028004A9.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.0B35C7886EFEF86B.title": "O Último Coração"
 	"quest.0B35C7886EFEF86B.quest_desc": [
@@ -1804,7 +1804,7 @@
 	]
 	"quest.6D6F3B40635F0050.title": "&7Tier I&7 - Cobre e Fios"
 	"quest.6D6F3B40635F0050.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.75284A0849724344.title": "A Escotilha de Fluidos"
 	"quest.75284A0849724344.quest_desc": [
@@ -1889,7 +1889,7 @@
 	]
 	"quest.2A579AB36109DE81.title": "&aTier II&7 - Raio e Latão"
 	"quest.2A579AB36109DE81.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.5F470AB9A2C43D25.title": "Força Guardada"
 	"quest.5F470AB9A2C43D25.quest_desc": [
@@ -1985,7 +1985,7 @@
 	]
 	"quest.1371B4615590AF18.title": "&9Tier III&7 - Blazes que Encantam"
 	"quest.1371B4615590AF18.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.6CB21E7021FF3C19.title": "Experiência para o Coração"
 	"quest.6CB21E7021FF3C19.quest_desc": [
@@ -2024,7 +2024,7 @@
 	]
 	"quest.2189BE44D0FB271B.title": "&6Tier IV&7 - Além do Limite"
 	"quest.2189BE44D0FB271B.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.3B34B49BD597D1FA.title": "O Bolo e o Raio"
 	"quest.3B34B49BD597D1FA.quest_desc": [
@@ -2052,7 +2052,7 @@
 	]
 	"quest.4DCBC234F750BC18.title": "&dTier VII&7 - O Sopro do Fim"
 	"quest.4DCBC234F750BC18.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.6510986A8F83BF8D.title": "O Sopro Engarrafado"
 	"quest.6510986A8F83BF8D.quest_subtitle": "&8Opcional"
@@ -2126,7 +2126,7 @@
 	]
 	"quest.0BBDC0D3400841B5.title": "&7Tier I&7 - A Primeira Rede"
 	"quest.0BBDC0D3400841B5.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.022D41477429570E.title": "A Primeira Rede de Mana"
 	"quest.022D41477429570E.quest_desc": [
@@ -2273,7 +2273,7 @@
 	]
 	"quest.0B1683E462E3E0EB.title": "&aTier II&7 - O Altar das Runas"
 	"quest.0B1683E462E3E0EB.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4EE19D5B37E0ABE8.title": "O Arsenal de Aço-Mana"
 	"quest.4EE19D5B37E0ABE8.quest_desc": [
@@ -2466,7 +2466,7 @@
 	]
 	"quest.2230F8F937062FDB.title": "&9Tier III&7 - O Portal de Alfheim"
 	"quest.2230F8F937062FDB.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.656A84FB5A0BA618.title": "Os Anéis do Aventureiro"
 	"quest.656A84FB5A0BA618.quest_desc": [
@@ -2647,7 +2647,7 @@
 	]
 	"quest.28A1A3E61790FC35.title": "&6Tier IV&7 - Fogo e Tempestade"
 	"quest.28A1A3E61790FC35.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.27B3EB82892E1D44.title": "O Nether florido"
 	"quest.27B3EB82892E1D44.quest_desc": [
@@ -2694,7 +2694,7 @@
 	]
 	"quest.1F757BFAE7020D98.title": "&cTier V&7 - O Desafio de Gaia"
 	"quest.1F757BFAE7020D98.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4A8700B3FC575B2C.title": "A Armadura de Aço-Terra"
 	"quest.4A8700B3FC575B2C.quest_desc": [
@@ -2762,7 +2762,7 @@
 	]
 	"quest.7A5BCAC396C612CA.title": "&5Tier VI&7 - O Aço da Terra"
 	"quest.7A5BCAC396C612CA.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.58F7B86FFA38F404.title": "As Armas da Terra"
 	"quest.58F7B86FFA38F404.quest_desc": [
@@ -2801,7 +2801,7 @@
 	]
 	"quest.16470F5BAEC32446.title": "&dTier VII&7 - O Ar do Fim"
 	"quest.16470F5BAEC32446.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.3B6B12E014D9A67E.title": "A Rede Corporea"
 	"quest.3B6B12E014D9A67E.quest_desc": [
@@ -2887,7 +2887,7 @@
 	]
 	"quest.3D42429C586EAEDA.title": "&eTier VIII&7 - As Relíquias dos Aesir"
 	"quest.3D42429C586EAEDA.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.7AEBBE6809694763.title": "O Dado do Destino"
 	"quest.7AEBBE6809694763.quest_desc": [
@@ -2964,7 +2964,7 @@
 	]
 	"quest.50FA7F526C0D8B8C.title": "&7Tier I&7 - Magia Comum"
 	"quest.50FA7F526C0D8B8C.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.504D2C256F3096CB.title": "Fogo, Gelo, Raio e Fim"
 	"quest.504D2C256F3096CB.quest_desc": [
@@ -3043,7 +3043,7 @@
 	]
 	"quest.6E688E5DFABDBDAB.title": "&aTier II&7 - Magia Incomum"
 	"quest.6E688E5DFABDBDAB.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.1D3354AB770F3BBC.title": "O Alfaiate Arcano"
 	"quest.1D3354AB770F3BBC.quest_desc": [
@@ -3139,7 +3139,7 @@
 	]
 	"quest.70C8597C2E46D05D.title": "&9Tier III&7 - Magia Rara"
 	"quest.70C8597C2E46D05D.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.6329E6C02C4E3000.title": "A Bigorna Arcana"
 	"quest.6329E6C02C4E3000.quest_desc": [
@@ -3300,7 +3300,7 @@
 	]
 	"quest.7A0969FB2C695035.title": "&6Tier IV&7 - Mithril e Cinzas"
 	"quest.7A0969FB2C695035.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.67A5105EEF8FEF76.title": "O Metal dos Magos"
 	"quest.67A5105EEF8FEF76.quest_desc": [
@@ -3461,7 +3461,7 @@
 	]
 	"quest.2A47D8A9991BA850.title": "&cTier V&7 - Magia Épica"
 	"quest.2A47D8A9991BA850.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.6752CA2CC8AB08E0.title": "Ouro na Tinta, Sangue no Couro"
 	"quest.6752CA2CC8AB08E0.quest_desc": [
@@ -3516,7 +3516,7 @@
 	]
 	"quest.422D477AF8A2CBB1.title": "&5Tier VI&7 - Magia Lendária"
 	"quest.422D477AF8A2CBB1.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4BFBBBB75822254A.title": "O Último Degrau"
 	"quest.4BFBBBB75822254A.quest_desc": [
@@ -3532,7 +3532,7 @@
 	]
 	"quest.09B04B61D7CF1469.title": "&dTier VII&7 - Pele de Dragão"
 	"quest.09B04B61D7CF1469.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.0A6C427E035930D7.title": "Pele de Dragão"
 	"quest.0A6C427E035930D7.quest_desc": [
@@ -3627,7 +3627,7 @@
 	]
 	"quest.7523BE01501CFBB2.title": "&7Tier I&7 - O Círculo dos Foliots"
 	"quest.7523BE01501CFBB2.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.05330088B679682E.title": "O Nome de um Foliot"
 	"quest.05330088B679682E.quest_desc": [
@@ -3762,7 +3762,7 @@
 	]
 	"quest.1F10F12BDE5ECC39.title": "&aTier II&7 - A Fumaça dos Djinn"
 	"quest.1F10F12BDE5ECC39.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.25A14528DEC54509.title": "A Gema que Escuta"
 	"quest.25A14528DEC54509.quest_desc": [
@@ -3912,7 +3912,7 @@
 	]
 	"quest.1AF63B76627C9477.title": "&9Tier III&7 - Iésnio e as Minas do Além"
 	"quest.1AF63B76627C9477.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.61B372EAFAF2F1E0.title": "Iésnio, o Minério Escondido"
 	"quest.61B372EAFAF2F1E0.quest_desc": [
@@ -3971,7 +3971,7 @@
 	]
 	"quest.4C1FD836349BC7C1.title": "&6Tier IV&7 - O Fogo dos Afrits"
 	"quest.4C1FD836349BC7C1.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.7B0226D09B54908B.title": "O Afrit Desvinculado"
 	"quest.7B0226D09B54908B.quest_desc": [
@@ -4094,7 +4094,7 @@
 	]
 	"quest.4993243FDB1F6D1D.title": "&cTier V&7 - A Maré dos Marids"
 	"quest.4993243FDB1F6D1D.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.32CD1144D29DEE34.title": "O Marid Desvinculado"
 	"quest.32CD1144D29DEE34.quest_desc": [
@@ -4153,7 +4153,7 @@
 	]
 	"quest.6D5F0811B45051BE.title": "&dTier VII&7 - O Contato Ancestral"
 	"quest.6D5F0811B45051BE.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.0F400D32C6FAAAB3.title": "O Sopro Preso"
 	"quest.0F400D32C6FAAAB3.quest_desc": [
@@ -4298,7 +4298,7 @@
 	]
 	"quest.40FF1F3A6D96E950.title": "&7Tier I&7 - Presas e Estacas"
 	"quest.40FF1F3A6D96E950.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.34A1260A5FB16403.title": "Barão Vampiro"
 	"quest.34A1260A5FB16403.quest_desc": [
@@ -4452,7 +4452,7 @@
 	]
 	"quest.0DF4B038AE96B2EA.title": "&aTier II&7 - Sangue Puro"
 	"quest.0DF4B038AE96B2EA.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.34972E67FF805C4B.title": "Os Restos Ancestrais"
 	"quest.34972E67FF805C4B.quest_desc": [
@@ -4517,7 +4517,7 @@
 	]
 	"quest.37DFC3745A6DB22E.title": "&9Tier III&7 - Linhagens e Lordes"
 	"quest.37DFC3745A6DB22E.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.2B6370FEC1A8426B.title": "&4[Vampiro]&r Sangue de Linhagem"
 	"quest.2B6370FEC1A8426B.quest_desc": [
@@ -4585,7 +4585,7 @@
 	]
 	"quest.56B355942F67E66D.title": "&6Tier IV&7 - Os Senhores da Noite"
 	"quest.56B355942F67E66D.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.34E06C5191F110B7.title": "&4[Vampiro]&r Renascimento Sombrio"
 	"quest.34E06C5191F110B7.quest_desc": [
@@ -4658,7 +4658,7 @@
 	]
 	"quest.339E9151BDF1EA17.title": "&7Tier I&7 - Garras e Prata"
 	"quest.339E9151BDF1EA17.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.7675B165BA7A63C1.title": "O Metal da Lua"
 	"quest.7675B165BA7A63C1.quest_desc": [
@@ -4731,7 +4731,7 @@
 	]
 	"quest.281AE13ADA47F090.title": "&aTier II&7 - Pele Escura"
 	"quest.281AE13ADA47F090.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.7647C604E6B9AA2C.title": "Pele Escura"
 	"quest.7647C604E6B9AA2C.quest_desc": [
@@ -4753,7 +4753,7 @@
 	]
 	"quest.50D80AE3052FEB48.title": "&9Tier III&7 - O Lobo Branco"
 	"quest.50D80AE3052FEB48.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.44C5801DF2F29140.title": "O Lobo Branco"
 	"quest.44C5801DF2F29140.quest_desc": [
@@ -4777,7 +4777,7 @@
 	]
 	"quest.665F98EF60190E9D.title": "&6Tier IV&7 - Senhor da Caçada"
 	"quest.665F98EF60190E9D.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.68B770D996B98032.title": "&8[Lobisomem]&r Senhor da Caçada"
 	"quest.68B770D996B98032.quest_desc": [
@@ -4819,7 +4819,7 @@
 	]
 	"quest.6A409DD8B610126E.title": "&7Tier I&7 - O Caçador Aprendiz"
 	"quest.6A409DD8B610126E.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.1F45BACDE440EA49.title": "A Couraça do Caçador"
 	"quest.1F45BACDE440EA49.quest_desc": [
@@ -4925,7 +4925,7 @@
 	]
 	"quest.7DACB1BDF0567091.title": "&aTier II&7 - Trolls, Vermes e Ninhos"
 	"quest.7DACB1BDF0567091.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.71B01F4847B3C618.title": "Temos um Troll!"
 	"quest.71B01F4847B3C618.quest_desc": [
@@ -5004,7 +5004,7 @@
 	]
 	"quest.00EDDD16E5FE37C2.title": "&9Tier III&7 - Escamas e Marés"
 	"quest.00EDDD16E5FE37C2.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.40E1326D51A244F7.title": "Escamas Roubadas"
 	"quest.40E1326D51A244F7.quest_desc": [
@@ -5063,7 +5063,7 @@
 	]
 	"quest.55C3AD489A0A30F0.title": "&6Tier IV&7 - Pedra e Pavor"
 	"quest.55C3AD489A0A30F0.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.215C3030C11A7FD7.title": "Fúria de Titãs"
 	"quest.215C3030C11A7FD7.quest_desc": [
@@ -5102,7 +5102,7 @@
 	]
 	"quest.4018BE9B89E55AA3.title": "&cTier V&7 - O Matador de Dragões"
 	"quest.4018BE9B89E55AA3.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.56ADB5730C8B92FF.title": "&cO Matador de Dragões"
 	"quest.56ADB5730C8B92FF.quest_desc": [
@@ -5242,7 +5242,7 @@
 	]
 	"quest.31D6BBFFF11CEFF0.title": "&5Tier VI&7 - A Serpente Anciã"
 	"quest.31D6BBFFF11CEFF0.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.0D46783634B4009D.title": "A Serpente Anciã"
 	"quest.0D46783634B4009D.quest_desc": [
@@ -5281,7 +5281,7 @@
 	]
 	"quest.2E16075BC70285BC.title": "&7Tier I&7 - Pedra Viva e Folhas Famintas"
 	"quest.2E16075BC70285BC.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.204DF7B033FAEB9A.title": "A Pedra que Anda"
 	"quest.204DF7B033FAEB9A.quest_desc": [
@@ -5335,7 +5335,7 @@
 	]
 	"quest.7AB254D209160064.title": "&aTier II&7 - As Lanças da Savana"
 	"quest.7AB254D209160064.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.5423B114FB677DE7.title": "O Bosque Umvuthana"
 	"quest.5423B114FB677DE7.quest_desc": [
@@ -5352,7 +5352,7 @@
 	]
 	"quest.5EAC5025A873BF53.title": "&9Tier III&7 - O Colosso e o Mosteiro"
 	"quest.5EAC5025A873BF53.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.35DD9F2EF17A0208.title": "Serpente dos Penhascos"
 	"quest.35DD9F2EF17A0208.quest_desc": [
@@ -5380,7 +5380,7 @@
 	]
 	"quest.545BDDC2E24C24F5.title": "&6Tier IV&7 - O Gigante do Gelo"
 	"quest.545BDDC2E24C24F5.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.150C4D2DBCC906F4.title": "O Frostmaw"
 	"quest.150C4D2DBCC906F4.quest_desc": [
@@ -5407,7 +5407,7 @@
 	]
 	"quest.5EA72B1C106DBC19.title": "&cTier V&7 - O Sol e a Montanha"
 	"quest.5EA72B1C106DBC19.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.62CCE1FFDAFC895E.title": "Pássaros da Mesma Pena"
 	"quest.62CCE1FFDAFC895E.quest_desc": [
@@ -5490,7 +5490,7 @@
 	]
 	"quest.73CA4D8DB6AB5132.title": "&7Tier I&7 - O Labirinto de Gelo"
 	"quest.73CA4D8DB6AB5132.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.6A771620FC437DDE.title": "A Luz no Fundo"
 	"quest.6A771620FC437DDE.quest_desc": [
@@ -5553,7 +5553,7 @@
 	]
 	"quest.77B6539DC8430A3B.title": "&aTier II&7 - A Capitã Afogada"
 	"quest.77B6539DC8430A3B.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.760368A8A586216B.title": "&cCapitã Cornelia"
 	"quest.760368A8A586216B.quest_desc": [
@@ -5627,7 +5627,7 @@
 	]
 	"quest.5440D4534FFAE557.title": "&9Tier III&7 - Luz do Abismo"
 	"quest.5440D4534FFAE557.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.50F422C84B80372F.title": "O Legado de Cornelia"
 	"quest.50F422C84B80372F.quest_desc": [
@@ -5716,7 +5716,7 @@
 	]
 	"quest.16AC9D558253563F.title": "&7Tier I&7 - Areia e Ossos"
 	"quest.16AC9D558253563F.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.53E88B19CDC71AAA.title": "Ruínas sob a areia"
 	"quest.53E88B19CDC71AAA.quest_desc": [
@@ -5749,7 +5749,7 @@
 	]
 	"quest.3A5632CF088470B6.title": "&aTier II&7 - Pirâmide e Prisão"
 	"quest.3A5632CF088470B6.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4FBEFC5DEB2882BE.title": "A Pirâmide Amaldiçoada"
 	"quest.4FBEFC5DEB2882BE.quest_desc": [
@@ -5790,7 +5790,7 @@
 	]
 	"quest.3C3290B84658D5E6.title": "&9Tier III&7 - O Remanescente e o Abismo"
 	"quest.3C3290B84658D5E6.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.12C86E79E2414320.title": "O Remanescente Antigo"
 	"quest.12C86E79E2414320.quest_desc": [
@@ -5871,7 +5871,7 @@
 	]
 	"quest.07623111D15E32A5.title": "&6Tier IV&7 - A Arena Ardente"
 	"quest.07623111D15E32A5.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.0800E9D0B5EB9C2C.title": "A Arena Ardente"
 	"quest.0800E9D0B5EB9C2C.quest_desc": [
@@ -5957,7 +5957,7 @@
 	]
 	"quest.569E756589BB3305.title": "&cTier V&7 - Maldição e Tempestade"
 	"quest.569E756589BB3305.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4CDC09724947BA6E.title": "Maledictus"
 	"quest.4CDC09724947BA6E.quest_desc": [
@@ -6007,7 +6007,7 @@
 	]
 	"quest.5FD5BD0C525EA09C.title": "&5Tier VI&7 - Fusão e Maré"
 	"quest.5FD5BD0C525EA09C.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.79575B5C3CEABB9B.title": "O Arauto"
 	"quest.79575B5C3CEABB9B.quest_desc": [
@@ -6108,7 +6108,7 @@
 	]
 	"quest.58FAB256B8E49AFB.title": "&dTier VII&7 - A Cidadela do Vazio"
 	"quest.58FAB256B8E49AFB.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.7B859BEBD1A1B850.title": "A Cidadela Arruinada"
 	"quest.7B859BEBD1A1B850.quest_desc": [
@@ -6196,7 +6196,7 @@
 	]
 	"quest.1C80A4436F3FA0F8.title": "&7Tier I&7 - A Noite Apodrecida"
 	"quest.1C80A4436F3FA0F8.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.5481D386D057C81F.title": "Ofícios que não morreram"
 	"quest.5481D386D057C81F.quest_desc": [
@@ -6372,7 +6372,7 @@
 	]
 	"quest.441FDD21C07FF34D.title": "&aTier II&7 - Lâminas Sombrias"
 	"quest.441FDD21C07FF34D.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.7E5A5340EC686B0E.title": "Ferreiro sombrio"
 	"quest.7E5A5340EC686B0E.quest_desc": [
@@ -6451,7 +6451,7 @@
 	]
 	"quest.79591E9BC4AFA6FE.title": "&9Tier III&7 - União com a Escuridão"
 	"quest.79591E9BC4AFA6FE.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.571CA0612AD19ECC.title": "União com a escuridão"
 	"quest.571CA0612AD19ECC.quest_desc": [
@@ -6504,7 +6504,7 @@
 	]
 	"quest.7549FAD10778F2AD.title": "&6Tier IV&7 - O Cavaleiro do Caos"
 	"quest.7549FAD10778F2AD.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.260D9C335AC3B79F.title": "Cavaleiro do Caos"
 	"quest.260D9C335AC3B79F.quest_desc": [
@@ -6544,7 +6544,7 @@
 	]
 	"quest.7FDF4C823FC17BF6.title": "&dTier VII&7 - Transmutalogia"
 	"quest.7FDF4C823FC17BF6.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.2BB3C5FEA0061EDE.title": "Transmutalogia"
 	"quest.2BB3C5FEA0061EDE.quest_desc": [
@@ -6600,7 +6600,7 @@
 	]
 	"quest.19ADDF76C4D3C4F2.title": "&7Tier I&7 - Velhas Histórias"
 	"quest.19ADDF76C4D3C4F2.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.5B9D5CC7503888BB.title": "A pedra que respira"
 	"quest.5B9D5CC7503888BB.quest_desc": [
@@ -6695,7 +6695,7 @@
 	]
 	"quest.2AB87FAF87121B27.title": "&aTier II&7 - Aço de Sombra"
 	"quest.2AB87FAF87121B27.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.005D8A08CF4353C6.title": "Aço de sombra e pele de inverno"
 	"quest.005D8A08CF4353C6.quest_desc": [
@@ -6722,7 +6722,7 @@
 	]
 	"quest.579F3B618F3D1812.title": "&9Tier III&7 - O Charro Negro"
 	"quest.579F3B618F3D1812.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.569C6B9043457A9D.title": "&cO Charro Negro"
 	"quest.569C6B9043457A9D.quest_desc": [
@@ -6763,7 +6763,7 @@
 	]
 	"quest.7AFBAAF6DE81864C.title": "&6Tier IV&7 - Brasas do Nether"
 	"quest.7AFBAAF6DE81864C.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.5A79EBB09EF2D768.title": "O Vale das Almas"
 	"quest.5A79EBB09EF2D768.quest_desc": [
@@ -6820,7 +6820,7 @@
 	]
 	"quest.683F80F8E0DCB1A3.title": "&cTier V&7 - A Máquina Esquecida"
 	"quest.683F80F8E0DCB1A3.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.66AE20A30FC3AC57.title": "&cO Construto de Engrenagens"
 	"quest.66AE20A30FC3AC57.quest_subtitle": "&8Opcional"
@@ -6836,7 +6836,7 @@
 	]
 	"quest.19EA3BE559D4507C.title": "&5Tier VI&7 - O Lobo e o Destruidor"
 	"quest.19EA3BE559D4507C.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.16EBD1E21262CDD5.title": "&cO Uivo do Fim Solitário"
 	"quest.16EBD1E21262CDD5.quest_desc": [
@@ -6886,7 +6886,7 @@
 	]
 	"quest.6A5696C386D1D04F.title": "&aTier II&7 - Gelo e Marés"
 	"quest.6A5696C386D1D04F.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.2AFDA2BD935F2B76.title": "Skor, o Yeti"
 	"quest.2AFDA2BD935F2B76.quest_desc": [
@@ -6913,7 +6913,7 @@
 	]
 	"quest.605CA2DA263E9324.title": "&9Tier III&7 - Lich, Verme e Cavaleiro"
 	"quest.605CA2DA263E9324.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.1C986091557ADA57.title": "O Lich Noturno"
 	"quest.1C986091557ADA57.quest_desc": [
@@ -6976,7 +6976,7 @@
 	]
 	"quest.75778A68E6287ABF.title": "&6Tier IV&7 - Wither e Cinzas"
 	"quest.75778A68E6287ABF.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.07E8765FDF4A9B9F.title": "&4O Wither"
 	"quest.07E8765FDF4A9B9F.quest_desc": [
@@ -7031,7 +7031,7 @@
 	]
 	"quest.2DB8CE005B675E80.title": "&cTier V&7 - Vazio e Osso"
 	"quest.2DB8CE005B675E80.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4F28843ED2495D88.title": "A Flor do Vazio"
 	"quest.4F28843ED2495D88.quest_desc": [
@@ -7060,7 +7060,7 @@
 	]
 	"quest.5C7C27E4D441A08A.title": "&5Tier VI&7 - O Navio dos Afogados"
 	"quest.5C7C27E4D441A08A.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.284065F2FB386D03.title": "Nerakyss, o Kraken"
 	"quest.284065F2FB386D03.quest_desc": [
@@ -7090,7 +7090,7 @@
 	]
 	"quest.70DD3CF99F0C23F1.title": "&dTier VII&7 - O Fim do Mundo"
 	"quest.70DD3CF99F0C23F1.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4964A081949D5932.title": "&5O Dragão do Fim"
 	"quest.4964A081949D5932.quest_desc": [
@@ -7147,7 +7147,7 @@
 	]
 	"quest.1EECA136084C89D2.title": "&eTier VIII&7 - O Fim da Crônica"
 	"quest.1EECA136084C89D2.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.6628349A4933332C.title": "&5&lO Obsidilith"
 	"quest.6628349A4933332C.quest_desc": [
@@ -7233,7 +7233,7 @@
 	]
 	"quest.79998FE50ADD6003.title": "&7Tier I&7 - O Metal que Canta"
 	"quest.79998FE50ADD6003.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.56B87FA85FC88CF2.title": "Mãos de Aluguel"
 	"quest.56B87FA85FC88CF2.quest_desc": [
@@ -7427,7 +7427,7 @@
 	]
 	"quest.51660FEE081F6EC2.title": "&aTier II&7 - Aço e Confiança"
 	"quest.51660FEE081F6EC2.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.3AFA1F709923C4DE.title": "Vestido de Mythril"
 	"quest.3AFA1F709923C4DE.quest_desc": [
@@ -7495,7 +7495,7 @@
 	]
 	"quest.05806E9E53D84C49.title": "&9Tier III&7 - Contratos Lendários"
 	"quest.05806E9E53D84C49.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.22C321C84BE4F5E0.title": "O Resgate de um Rei"
 	"quest.22C321C84BE4F5E0.quest_desc": [
@@ -7520,7 +7520,7 @@
 	]
 	"quest.369D83D33F226C7B.title": "&6Tier IV&7 - Além da Montanha"
 	"quest.369D83D33F226C7B.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4D6A87518601EF58.title": "Forjado Além da Montanha"
 	"quest.4D6A87518601EF58.quest_desc": [
@@ -7536,7 +7536,7 @@
 	]
 	"quest.336E43652D3E5258.title": "&dTier VII&7 - Senhor das Profundezas"
 	"quest.336E43652D3E5258.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.00C4464B4824377E.title": "Senhor das Profundezas"
 	"quest.00C4464B4824377E.quest_desc": [
@@ -7589,7 +7589,7 @@
 	]
 	"quest.6C30FC58C32E544F.title": "&7Tier I&7 - O Andarilho"
 	"quest.6C30FC58C32E544F.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.5DAD70DC22E50855.title": "Rumores de Vila"
 	"quest.5DAD70DC22E50855.quest_desc": [
@@ -7711,7 +7711,7 @@
 	]
 	"quest.1431CBD833E3345D.title": "&aTier II&7 - Ruínas Distantes"
 	"quest.1431CBD833E3345D.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.286F5F454A3AA690.title": "&cTerra de Bandidos"
 	"quest.286F5F454A3AA690.quest_desc": [
@@ -7759,7 +7759,7 @@
 	]
 	"quest.5F6132A097733C71.title": "&9Tier III&7 - O Abismo e o Mar"
 	"quest.5F6132A097733C71.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.7F3D2E313FF91689.title": "Pise com Cuidado"
 	"quest.7F3D2E313FF91689.quest_desc": [
@@ -7808,7 +7808,7 @@
 	]
 	"quest.6413C74F54BBDBFD.title": "&6Tier IV&7 - As Portas do Inferno"
 	"quest.6413C74F54BBDBFD.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4F3255A0C18554FA.title": "Pelas Portas do Inferno"
 	"quest.4F3255A0C18554FA.quest_desc": [
@@ -7890,7 +7890,7 @@
 	]
 	"quest.40F66464546243FA.title": "&cTier V&7 - Mais que Exagero"
 	"quest.40F66464546243FA.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.1CAC403B9E3BCF8D.title": "Mais que Exagero"
 	"quest.1CAC403B9E3BCF8D.quest_subtitle": "&8Opcional"
@@ -7904,7 +7904,7 @@
 	]
 	"quest.2BA624636CEF25C4.title": "&dTier VII&7 - A Frota Celeste"
 	"quest.2BA624636CEF25C4.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.6130C188A723C3D7.title": "&5A Frota Celeste"
 	"quest.6130C188A723C3D7.quest_desc": [
@@ -7967,7 +7967,7 @@
 	]
 	"quest.208DF476A9356889.title": "&6Tier IV&7 - Olhos que Procuram"
 	"quest.208DF476A9356889.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.38685298A1A0CBB6.title": "Fortalecido pelo Fogo"
 	"quest.38685298A1A0CBB6.quest_desc": [
@@ -7984,7 +7984,7 @@
 	]
 	"quest.7D2E0954A2C89E3F.title": "&dTier VII&7 - O Mar da Eternidade"
 	"quest.7D2E0954A2C89E3F.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.371301DF0E0A32D3.title": "O Fim da Jornada"
 	"quest.371301DF0E0A32D3.quest_desc": [
@@ -8168,7 +8168,7 @@
 	]
 	"quest.0CDFAB0EB15BDD95.title": "&eTier VIII&7 - O Divino"
 	"quest.0CDFAB0EB15BDD95.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.54D17D9495DB86DC.title": "Aleluia!"
 	"quest.54D17D9495DB86DC.quest_desc": [
@@ -8275,7 +8275,7 @@
 	]
 	"quest.2A8E1FC13A4173A9.title": "&7Tier I&7 - A Cozinha da Fazenda"
 	"quest.2A8E1FC13A4173A9.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.390870D06CA37562.title": "A Horta"
 	"quest.390870D06CA37562.quest_desc": [
@@ -8480,7 +8480,7 @@
 	]
 	"quest.19592851A00465AF.title": "&aTier II&7 - Mesa Farta e Mar Aberto"
 	"quest.19592851A00465AF.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.6ECF615D2FCCF3E3.title": "Gume de Diamante"
 	"quest.6ECF615D2FCCF3E3.quest_desc": [
@@ -8617,7 +8617,7 @@
 	]
 	"quest.4DD0871E883FDC72.title": "&9Tier III&7 - As Marés de Netúnio"
 	"quest.4DD0871E883FDC72.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.0B84EF4A85C6B7E9.title": "Ferramentas das Marés"
 	"quest.0B84EF4A85C6B7E9.quest_desc": [
@@ -8645,7 +8645,7 @@
 	]
 	"quest.05E09178F676FF4B.title": "&6Tier IV&7 - Se Não Aguenta o Calor"
 	"quest.05E09178F676FF4B.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.7A5EFCFF8F1FCAC5.title": "Se Não Aguenta o Calor..."
 	"quest.7A5EFCFF8F1FCAC5.quest_desc": [
@@ -8731,7 +8731,7 @@
 	]
 	"quest.42B5F49DA8C98AE8.title": "&7Tier I&7 - Couro, Corda e Ferro"
 	"quest.42B5F49DA8C98AE8.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.35B92A081AC21CDB.title": "Costuras de Metal"
 	"quest.35B92A081AC21CDB.quest_desc": [
@@ -8929,7 +8929,7 @@
 	]
 	"quest.4DC88D7680E8FD32.title": "&aTier II&7 - Achados das Cavernas"
 	"quest.4DC88D7680E8FD32.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.1BDB4D8B64DD1618.title": "O Brilho do Diamante"
 	"quest.1BDB4D8B64DD1618.quest_desc": [
@@ -9005,7 +9005,7 @@
 	]
 	"quest.0A085DDDBD3158BE.title": "&9Tier III&7 - Talismãs e Amuletos"
 	"quest.0A085DDDBD3158BE.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.4C1B850B5F43DD2D.title": "Amuletos do Pescoço"
 	"quest.4C1B850B5F43DD2D.quest_subtitle": "&8Opcional"
@@ -9068,7 +9068,7 @@
 	]
 	"quest.00DD63009B07231A.title": "&6Tier IV&7 - Relíquias que Despertam"
 	"quest.00DD63009B07231A.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.032A29D953157D12.title": "Netherite das Máquinas"
 	"quest.032A29D953157D12.quest_desc": [
@@ -9125,7 +9125,7 @@
 	]
 	"quest.09594472B04DC004.title": "&cTier V&7 - Lâminas com Nome"
 	"quest.09594472B04DC004.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.47DF1E33E23DC3D7.title": "A Alma das Lâminas"
 	"quest.47DF1E33E23DC3D7.quest_desc": [
@@ -9225,7 +9225,7 @@
 	]
 	"quest.38D1F1F8A1597EB3.title": "&5Tier VI&7 - Lendas Forjadas"
 	"quest.38D1F1F8A1597EB3.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.673E3FD7AF190BB3.title": "Runas no Aço"
 	"quest.673E3FD7AF190BB3.quest_desc": [
@@ -9306,7 +9306,7 @@
 	]
 	"quest.79EAF877BEBE5A57.title": "&dTier VII&7 - O Remanescente Adulterado"
 	"quest.79EAF877BEBE5A57.quest_desc": [
-		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+		"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 	]
 	"quest.2C09B0160765FBA6.title": "O Remanescente Adulterado"
 	"quest.2C09B0160765FBA6.quest_subtitle": "&8Opcional"

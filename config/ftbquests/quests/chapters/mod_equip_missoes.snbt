@@ -347,6 +347,12 @@
 				count: 1
 				id: "minecraft:compass"
 			}
+			dependencies: [
+				"63C9F7FE8A4493C3"
+				"364D1CEA41B8A77E"
+				"5F9D9957C0912EEF"
+				"7C458D634C348048"
+			]
 			tasks: [
 				{
 					id: "3DD9FB8E97D58823"
@@ -358,9 +364,10 @@
 			rewards: [ ]
 			title: "&7Tier I&7 - Couro, Corda e Ferro"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "35B92A081AC21CDB"
@@ -372,7 +379,6 @@
 				id: "sophisticatedbackpacks:gold_backpack"
 			}
 			dependencies: [
-				"364D1CEA41B8A77E"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -419,6 +425,14 @@
 					type: "xp"
 					xp: 200
 				}
+				{
+					id: "0183D320872046A2"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "Costuras de Metal"
 			description: [
@@ -442,7 +456,6 @@
 				id: "sophisticatedbackpacks:crafting_upgrade"
 			}
 			dependencies: [
-				"364D1CEA41B8A77E"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -534,7 +547,6 @@
 				id: "sophisticatedbackpacks:everlasting_upgrade"
 			}
 			dependencies: [
-				"364D1CEA41B8A77E"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -723,7 +735,6 @@
 				id: "supplementaries:cannon"
 			}
 			dependencies: [
-				"7C458D634C348048"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -793,7 +804,6 @@
 				id: "supplementaries:globe"
 			}
 			dependencies: [
-				"7C458D634C348048"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -1081,7 +1091,6 @@
 				id: "simplyswords:iron_katana"
 			}
 			dependencies: [
-				"5F9D9957C0912EEF"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -1189,7 +1198,6 @@
 				id: "simplyswords:iron_greathammer"
 			}
 			dependencies: [
-				"5F9D9957C0912EEF"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -1275,7 +1283,6 @@
 				id: "simplyswords:runic_forge"
 			}
 			dependencies: [
-				"5F9D9957C0912EEF"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -1313,6 +1320,14 @@
 					type: "xp"
 					xp: 150
 				}
+				{
+					id: "4E06D287D10C4146"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
 			]
 			title: "A Forja Rúnica"
 			description: [
@@ -1335,7 +1350,6 @@
 				id: "simplybows:upgrades/enchanted_bow_string"
 			}
 			dependencies: [
-				"7C458D634C348048"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -1408,7 +1422,6 @@
 				id: "artifacts:eternal_steak"
 			}
 			dependencies: [
-				"63C9F7FE8A4493C3"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -1495,7 +1508,6 @@
 				id: "artifacts:snorkel"
 			}
 			dependencies: [
-				"63C9F7FE8A4493C3"
 				"42B5F49DA8C98AE8"
 			]
 			tasks: [
@@ -1657,7 +1669,7 @@
 				id: "comamigos_balance:tier_heart_2"
 			}
 			dependencies: [
-				"42B5F49DA8C98AE8"
+				"0F37E7B9A973D0F1"
 			]
 			tasks: [
 				{
@@ -1670,9 +1682,10 @@
 			rewards: [ ]
 			title: "&aTier II&7 - Achados das Cavernas"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "1BDB4D8B64DD1618"
@@ -1683,8 +1696,6 @@
 				id: "simplyswords:diamond_longsword"
 			}
 			dependencies: [
-				"5F9D9957C0912EEF"
-				"35B92A081AC21CDB"
 				"4DC88D7680E8FD32"
 			]
 			tasks: [
@@ -1744,7 +1755,6 @@
 				id: "artifacts:aqua_dashers"
 			}
 			dependencies: [
-				"63C9F7FE8A4493C3"
 				"4DC88D7680E8FD32"
 			]
 			tasks: [
@@ -1866,7 +1876,6 @@
 				id: "artifacts:digging_claws"
 			}
 			dependencies: [
-				"63C9F7FE8A4493C3"
 				"4DC88D7680E8FD32"
 			]
 			tasks: [
@@ -1958,7 +1967,6 @@
 				id: "artifacts:antidote_vessel"
 			}
 			dependencies: [
-				"63C9F7FE8A4493C3"
 				"4DC88D7680E8FD32"
 			]
 			tasks: [
@@ -2050,7 +2058,6 @@
 				id: "artifacts:charm_of_shrinking"
 			}
 			dependencies: [
-				"63C9F7FE8A4493C3"
 				"4DC88D7680E8FD32"
 			]
 			tasks: [
@@ -2133,7 +2140,11 @@
 				id: "comamigos_balance:tier_heart_3"
 			}
 			dependencies: [
-				"4DC88D7680E8FD32"
+				"1BDB4D8B64DD1618"
+				"50551A3C63EFE003"
+				"1B827454B2445C22"
+				"21648039ED2797F1"
+				"0DA297ED3244D66D"
 			]
 			tasks: [
 				{
@@ -2146,9 +2157,10 @@
 			rewards: [ ]
 			title: "&9Tier III&7 - Talismãs e Amuletos"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "4C1B850B5F43DD2D"
@@ -2160,7 +2172,6 @@
 				id: "artifacts:cross_necklace"
 			}
 			dependencies: [
-				"21648039ED2797F1"
 				"0A085DDDBD3158BE"
 			]
 			tasks: [
@@ -2252,7 +2263,6 @@
 				id: "artifacts:power_glove"
 			}
 			dependencies: [
-				"1B827454B2445C22"
 				"0A085DDDBD3158BE"
 			]
 			tasks: [
@@ -2334,7 +2344,6 @@
 				id: "artifacts:superstitious_hat"
 			}
 			dependencies: [
-				"21648039ED2797F1"
 				"0A085DDDBD3158BE"
 			]
 			tasks: [
@@ -2436,7 +2445,6 @@
 				id: "simplybows:vine_bow/vine_bow"
 			}
 			dependencies: [
-				"6218E95B0266DF3F"
 				"0A085DDDBD3158BE"
 			]
 			tasks: [
@@ -2519,7 +2527,10 @@
 				id: "comamigos_balance:tier_heart_4"
 			}
 			dependencies: [
-				"0A085DDDBD3158BE"
+				"4C1B850B5F43DD2D"
+				"726964B8B998309E"
+				"777BF2A11EEA285C"
+				"4FCAA957A3DC4AE1"
 			]
 			tasks: [
 				{
@@ -2532,9 +2543,10 @@
 			rewards: [ ]
 			title: "&6Tier IV&7 - Relíquias que Despertam"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "032A29D953157D12"
@@ -2545,7 +2557,6 @@
 				id: "simplyswords:netherite_longsword"
 			}
 			dependencies: [
-				"1BDB4D8B64DD1618"
 				"00DD63009B07231A"
 			]
 			tasks: [
@@ -2606,7 +2617,6 @@
 				id: "artifacts:vampiric_glove"
 			}
 			dependencies: [
-				"777BF2A11EEA285C"
 				"00DD63009B07231A"
 			]
 			tasks: [
@@ -2679,7 +2689,6 @@
 				id: "simplyswords:decaying_relic"
 			}
 			dependencies: [
-				"179B2B5E994ACC7B"
 				"00DD63009B07231A"
 			]
 			tasks: [
@@ -2760,7 +2769,6 @@
 				id: "simplyswords:dormant_relic"
 			}
 			dependencies: [
-				"179B2B5E994ACC7B"
 				"00DD63009B07231A"
 			]
 			tasks: [
@@ -2833,7 +2841,10 @@
 				id: "comamigos_balance:tier_heart_5"
 			}
 			dependencies: [
-				"00DD63009B07231A"
+				"032A29D953157D12"
+				"11181940DD2C74CF"
+				"6AE7FAD50FA4E1C3"
+				"03F6464A8E9D7C2B"
 			]
 			tasks: [
 				{
@@ -2846,9 +2857,10 @@
 			rewards: [ ]
 			title: "&cTier V&7 - Lâminas com Nome"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "47DF1E33E23DC3D7"
@@ -2859,8 +2871,6 @@
 				id: "simplyswords:runefused_gem"
 			}
 			dependencies: [
-				"179B2B5E994ACC7B"
-				"032A29D953157D12"
 				"09594472B04DC004"
 			]
 			tasks: [
@@ -2921,7 +2931,6 @@
 				id: "simplyswords:brimstone_claymore"
 			}
 			dependencies: [
-				"179B2B5E994ACC7B"
 				"09594472B04DC004"
 			]
 			tasks: [
@@ -3044,7 +3053,6 @@
 				id: "simplyswords:frostfall"
 			}
 			dependencies: [
-				"179B2B5E994ACC7B"
 				"09594472B04DC004"
 			]
 			tasks: [
@@ -3147,7 +3155,6 @@
 				id: "simplyswords:dreadwhisper"
 			}
 			dependencies: [
-				"179B2B5E994ACC7B"
 				"09594472B04DC004"
 			]
 			tasks: [
@@ -3269,7 +3276,6 @@
 				id: "simplyswords:bramblethorn"
 			}
 			dependencies: [
-				"179B2B5E994ACC7B"
 				"09594472B04DC004"
 			]
 			tasks: [
@@ -3381,7 +3387,6 @@
 				id: "simplybows:ice_bow/ice_bow"
 			}
 			dependencies: [
-				"4FCAA957A3DC4AE1"
 				"09594472B04DC004"
 			]
 			tasks: [
@@ -3454,7 +3459,12 @@
 				id: "comamigos_balance:tier_heart_6"
 			}
 			dependencies: [
-				"09594472B04DC004"
+				"47DF1E33E23DC3D7"
+				"0C65A658C0D76FB3"
+				"064B52FD6BC1CAAA"
+				"063F3B90121A120A"
+				"6FA10C5113EC205D"
+				"4C69E6B6B3B0DEFB"
 			]
 			tasks: [
 				{
@@ -3467,9 +3477,10 @@
 			rewards: [ ]
 			title: "&5Tier VI&7 - Lendas Forjadas"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "673E3FD7AF190BB3"
@@ -3480,7 +3491,6 @@
 				id: "simplyswords:runic_longsword"
 			}
 			dependencies: [
-				"47DF1E33E23DC3D7"
 				"38D1F1F8A1597EB3"
 			]
 			tasks: [
@@ -3530,8 +3540,6 @@
 				id: "simplyswords:awakened_lichblade"
 			}
 			dependencies: [
-				"063F3B90121A120A"
-				"03F6464A8E9D7C2B"
 				"38D1F1F8A1597EB3"
 			]
 			tasks: [
@@ -3614,7 +3622,6 @@
 				id: "simplyswords:soulkeeper"
 			}
 			dependencies: [
-				"063F3B90121A120A"
 				"38D1F1F8A1597EB3"
 			]
 			tasks: [
@@ -3707,7 +3714,6 @@
 				id: "simplyswords:mjolnir"
 			}
 			dependencies: [
-				"064B52FD6BC1CAAA"
 				"38D1F1F8A1597EB3"
 			]
 			tasks: [
@@ -3810,7 +3816,6 @@
 				id: "simplyswords:caelestis"
 			}
 			dependencies: [
-				"064B52FD6BC1CAAA"
 				"38D1F1F8A1597EB3"
 			]
 			tasks: [
@@ -3914,7 +3919,11 @@
 				id: "comamigos_balance:tier_heart_7"
 			}
 			dependencies: [
-				"38D1F1F8A1597EB3"
+				"673E3FD7AF190BB3"
+				"100DA18237FF13B5"
+				"750D931BA047AFA8"
+				"4E29D5DE1DC18C2C"
+				"3B44B100B6A00389"
 			]
 			tasks: [
 				{
@@ -3927,9 +3936,10 @@
 			rewards: [ ]
 			title: "&dTier VII&7 - O Remanescente Adulterado"
 			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7."
+				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
 			]
 			disable_toast: true
+			dependency_requirement: "one_completed"
 		}
 		{
 			id: "2C09B0160765FBA6"
@@ -3940,7 +3950,6 @@
 				id: "simplyswords:tampered_remnant"
 			}
 			dependencies: [
-				"673E3FD7AF190BB3"
 				"79EAF877BEBE5A57"
 			]
 			tasks: [
