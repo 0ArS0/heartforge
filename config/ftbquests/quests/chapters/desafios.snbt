@@ -40,6 +40,7 @@
 				"&7de verdade e que pagam como trabalho de verdade. Bolsas raras e acima, brasas de talento, às vezes um Tomo do Esquecimento."
 				""
 				"&7Acima da linha, os &adesafios simples&7: rápidos, com recompensas comuns. Abaixo, os &6grandes desafios&7."
+				"&7Cada desafio concluído abre o próximo da sua coluna, cada vez mais longe da linha."
 				"&7Cada fileira se abre quando o grupo alcança o tier dela. Nenhum desafio é exigido para avançar."
 			]
 		}
@@ -134,6 +135,158 @@
 			optional: true
 		}
 		{
+			id: "43CE5435498FE904"
+			x: -1.7d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:mythril_ingot"
+			}
+			dependencies: [
+				"7F9B2C1122FE35D8"
+			]
+			tasks: [
+				{
+					id: "7C08852920EF8168"
+					type: "structure"
+					structure: "dwarfs_tyranny:village"
+				}
+				{
+					id: "7F63E5F0BFCE86A8"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_ingot"
+					}
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "0A5DBD1A024DD300"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "06C4F77AC307B1DD"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "41D2E01A3CFFAB0B"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			title: "O Reino Anão Vivo"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Nem toda cidade anã morreu. Algumas ainda forjam, e o metal delas é o melhor que existe abaixo do céu."
+				""
+				"&6Desafio:&r Visite uma &6cidade anã viva&r e junte &632 lingotes de mithril&r."
+			]
+			optional: true
+		}
+		{
+			id: "407D8A6B308AD354"
+			x: -1.7d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "dwarfs_tyranny:mythril_armor_chestplate"
+			}
+			dependencies: [
+				"43CE5435498FE904"
+			]
+			tasks: [
+				{
+					id: "6130E01643AB13A8"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_armor_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "798DDEB97978E63B"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_armor_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "1F21ABE2261736B2"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_armor_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "22C3C71CFED05E5B"
+					type: "item"
+					item: {
+						count: 1
+						id: "dwarfs_tyranny:mythril_armor_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "10B8052AE5EC8E47"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "58DC91993A1194D2"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "50E2DB2FB4D3C039"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			title: "A Armadura do Rei"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Um rei anão nunca entra em batalha sem a armadura de mithril. A companhia também não deveria."
+				""
+				"&6Desafio:&r Vista a &6armadura completa de mithril&r."
+			]
+			optional: true
+		}
+		{
 			id: "0E04B7BC6CDD3089"
 			x: 0.0d
 			y: 2.3d
@@ -218,6 +371,147 @@
 			optional: true
 		}
 		{
+			id: "3850B03B22B161E3"
+			x: 0.0d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:cake"
+			}
+			dependencies: [
+				"0E04B7BC6CDD3089"
+			]
+			tasks: [
+				{
+					id: "29543363FA27E68C"
+					type: "stat"
+					stat: "minecraft:eat_cake_slice"
+					value: 20
+				}
+				{
+					id: "529C25A9A20E5D6D"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "4F4B3C51AB773083"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "1357FFB91E65BFA0"
+					type: "xp"
+					xp: 800
+				}
+			]
+			title: "O Cozinheiro de Corte"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Bolo de sobremesa e ensopado para a viagem: a cozinha também é um campo de batalha."
+				""
+				"&6Desafio:&r Coma &620 fatias de bolo&r e prepare &68 ensopados de carne&r."
+			]
+			optional: true
+		}
+		{
+			id: "3B82BA7B6B0C5CA2"
+			x: 0.0d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "farmersdelight:cooking_pot"
+			}
+			dependencies: [
+				"3850B03B22B161E3"
+			]
+			tasks: [
+				{
+					id: "2EA35C81C15337B8"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
+					count: 16L
+				}
+				{
+					id: "620DD78401C5087B"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					count: 16L
+				}
+				{
+					id: "02C877139162D8C4"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
+					count: 32L
+				}
+				{
+					id: "52EA400BA59CE163"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:cocoa_beans"
+					}
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "36366EF928D0E762"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "23C9F5E3B5900884"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "7F62E46E3C9B2F90"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			title: "A Mesa do Mundo Inteiro"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Frutas de cavernas, de florestas, de selvas e do fim do mundo. Um cozinheiro de verdade usa tudo."
+				""
+				"&6Desafio:&r Junte &616 bagas brilhantes&r, &616 frutas do coro&r, &632 bagas doces&r e &632 sementes de cacau&r."
+			]
+			optional: true
+		}
+		{
 			id: "06839FC071528E5C"
 			x: 1.7d
 			y: 2.3d
@@ -292,6 +586,141 @@
 			optional: true
 		}
 		{
+			id: "2A16A7C60E2551E7"
+			x: 1.7d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "create:track"
+			}
+			dependencies: [
+				"06839FC071528E5C"
+			]
+			tasks: [
+				{
+					id: "08A9CB901AF7ACC3"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					count: 128L
+				}
+				{
+					id: "4F1DF68523F78FE1"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "60EEF2774EF73E80"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "6732470073C4B1BB"
+					type: "xp"
+					xp: 900
+				}
+			]
+			title: "O Trem"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Os anões cavavam túneis. A companhia vai encher esses túneis de trilhos."
+				""
+				"&6Desafio:&r Junte &6128 trilhos&r e &616 revestimentos ferroviários&r."
+			]
+			optional: true
+		}
+		{
+			id: "65CAE04B47FFFFA7"
+			x: 1.7d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "create:mechanical_crafter"
+			}
+			dependencies: [
+				"2A16A7C60E2551E7"
+			]
+			tasks: [
+				{
+					id: "59D354AD5A1F3E82"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
+					count: 16L
+				}
+				{
+					id: "3D5FFEE938FC881C"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					count: 8L
+				}
+				{
+					id: "1D7C72D54C8DF08E"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_arm"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "53AC9BAE40ECD792"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "429D39654278549F"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "3891E74516178D18"
+					type: "xp"
+					xp: 1800
+				}
+			]
+			title: "A Fábrica Que Se Move Sozinha"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Mãos de ferro que montam, braços que colocam, mesas que fabricam sozinhas. A oficina virou fábrica."
+				""
+				"&6Desafio:&r Junte &616 fabricadores mecânicos&r, &68 aplicadores&r e &64 braços mecânicos&r."
+			]
+			optional: true
+		}
+		{
 			id: "4E8CBC62AAA240A0"
 			x: -0.85d
 			y: -2.3d
@@ -349,6 +778,118 @@
 			optional: true
 		}
 		{
+			id: "1C179B8CBC929B71"
+			x: -0.85d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:fishing_rod"
+			}
+			dependencies: [
+				"4E8CBC62AAA240A0"
+			]
+			tasks: [
+				{
+					id: "7A505B4D5B1914AA"
+					type: "stat"
+					stat: "minecraft:fish_caught"
+					value: 50
+				}
+				{
+					id: "162FFC7A7D220CBA"
+					type: "biome"
+					biome: "minecraft:deep_ocean"
+				}
+			]
+			rewards: [
+				{
+					id: "579C28A0B5950682"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_comum"
+					}
+				}
+				{
+					id: "060CECB312A7E5C6"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+				{
+					id: "11F683D42BF41BEB"
+					type: "xp"
+					xp: 250
+				}
+			]
+			title: "Mar Aberto"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Pescar no rio é passatempo. Pescar em alto-mar, sem ver terra, é coragem."
+				""
+				"&aDesafio simples:&r Pesque &650 vezes&r e navegue até o &boceano profundo&r."
+			]
+			optional: true
+		}
+		{
+			id: "4632B3B4FEA6ED18"
+			x: -0.85d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:nautilus_shell"
+			}
+			dependencies: [
+				"1C179B8CBC929B71"
+			]
+			tasks: [
+				{
+					id: "06B78E59A57793EB"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:nautilus_shell"
+					}
+					count: 3L
+				}
+				{
+					id: "366C821E26FE008A"
+					type: "structure"
+					structure: "stellarity:fishing_hut"
+				}
+			]
+			rewards: [
+				{
+					id: "77EF558500472891"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "450741C566699E9B"
+					type: "xp"
+					xp: 600
+				}
+			]
+			title: "O Que Vem do Fundo"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Os velhos pescadores juram que o fundo devolve conchas a quem tem paciência."
+				"&7Eles moram numa cabana à beira de um mar que não é deste mundo."
+				""
+				"&aDesafio simples:&r Junte &63 conchas de náutilo&r e encontre a &6cabana de pesca&r do outro lado do mundo."
+			]
+			optional: true
+		}
+		{
 			id: "03C3F53221CFF59D"
 			x: 0.85d
 			y: -2.3d
@@ -396,6 +937,113 @@
 				"&7Toda noite eles voltam. Toda noite alguém precisa ficar acordado."
 				""
 				"&aDesafio simples:&r Derrote &630 zumbis&r e &620 esqueletos&r."
+			]
+			optional: true
+		}
+		{
+			id: "3C1EC9CEED3A7743"
+			x: 0.85d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:husk_spawn_egg"
+			}
+			dependencies: [
+				"03C3F53221CFF59D"
+			]
+			tasks: [
+				{
+					id: "5EE40955BCF6B337"
+					type: "kill"
+					entity: "minecraft:husk"
+					value: 15L
+				}
+				{
+					id: "15A9B7B06389EEA4"
+					type: "kill"
+					entity: "minecraft:stray"
+					value: 15L
+				}
+				{
+					id: "3809192E033C5D00"
+					type: "kill"
+					entity: "minecraft:drowned"
+					value: 15L
+				}
+			]
+			rewards: [
+				{
+					id: "511004C8E7C36477"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+				{
+					id: "1239EFFB3F2012F0"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "Mortos de Outras Terras"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7O deserto seca os mortos, o gelo os conserva e o mar os incha. Continuam mortos, e continuam vindo."
+				""
+				"&aDesafio simples:&r Derrote &615 zumbis do deserto&r, &615 esqueletos errantes&r e &615 afogados&r."
+			]
+			optional: true
+		}
+		{
+			id: "4E407FB655D05E47"
+			x: 0.85d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:zombie_head"
+			}
+			dependencies: [
+				"3C1EC9CEED3A7743"
+			]
+			tasks: [
+				{
+					id: "60BD0887FA13A267"
+					type: "structure"
+					structure: "iceandfire:graveyard"
+				}
+				{
+					id: "0046E9DED9876C47"
+					type: "kill"
+					entity: "minecraft:zombie_villager"
+					value: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "564E6D92B7E340C8"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "593CA110A26F8A6A"
+					type: "xp"
+					xp: 500
+				}
+			]
+			title: "O Cemitério"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Há cemitérios antigos onde a terra nunca assentou. Alguns aldeões que caíram lá ainda podem ser salvos."
+				""
+				"&aDesafio simples:&r Visite um &6cemitério antigo&r e derrote &65 aldeões zumbis&r."
 			]
 			optional: true
 		}
@@ -627,6 +1275,137 @@
 			optional: true
 		}
 		{
+			id: "78C96831D2F83262"
+			x: 3.8999999999999995d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "botania:livingwood_log"
+			}
+			dependencies: [
+				"3AD46185F85041F2"
+			]
+			tasks: [
+				{
+					id: "41DB1E9FCE3D753F"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:livingwood_log"
+					}
+					count: 64L
+				}
+				{
+					id: "179A4E22FC3DEC64"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:livingrock"
+					}
+					count: 64L
+				}
+				{
+					id: "52009C582AE62577"
+					type: "biome"
+					biome: "minecraft:flower_forest"
+				}
+			]
+			rewards: [
+				{
+					id: "2F10A5926EE19040"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "7CD84D531F29AED1"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			title: "O Bosque das Flores"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7A madeira e a pedra vivas nascem das pétalas. O bosque das flores é onde tudo isso começa."
+				""
+				"&6Desafio:&r Junte &664 madeiras vivas&r e &664 rochas vivas&r, e passeie pelo &dbosque das flores&r."
+			]
+			optional: true
+		}
+		{
+			id: "3CEA1FF050EB7E3E"
+			x: 3.8999999999999995d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "botania:manasteel_block"
+			}
+			dependencies: [
+				"78C96831D2F83262"
+			]
+			tasks: [
+				{
+					id: "2409CD22E1B4AF90"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:manasteel_block"
+					}
+					count: 4L
+				}
+				{
+					id: "599AC8D6967ADBDA"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:mana_pool"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "272FE4CE591D5E3C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "0B53B2ACF5121DBE"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "42EA6E5CB6F82522"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			title: "Mestre da Mana"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Um poço de mana é bom. Quatro poços e blocos de manaço é uma usina."
+				""
+				"&6Desafio:&r Junte &64 blocos de manaço&r e &64 poços de mana&r."
+			]
+			optional: true
+		}
+		{
 			id: "1AA4CAD7FA267222"
 			x: 5.6d
 			y: 2.3d
@@ -690,6 +1469,130 @@
 			optional: true
 		}
 		{
+			id: "2A07CC1CEF211973"
+			x: 5.6d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "vampirism:vampire_book"
+			}
+			dependencies: [
+				"1AA4CAD7FA267222"
+			]
+			tasks: [
+				{
+					id: "61DA88069D2ADD24"
+					type: "structure"
+					structure: "vampirism:crypt"
+				}
+				{
+					id: "2CCD2C4C3D8BFE88"
+					type: "kill"
+					entity: "vampirism:vampire_baron"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7BE2DD828B9EE2FB"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "23BE12C1C8F7BB8F"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "3186C8EFC044BC51"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			title: "A Cripta dos Nobres"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Os nobres da noite dormem em criptas. Os barões não dormem tanto assim."
+				""
+				"&6Desafio:&r Encontre uma &6cripta de vampiros&r e derrote um &cbarão vampiro&r."
+			]
+			optional: true
+		}
+		{
+			id: "0FCA05B32F3DD1D2"
+			x: 5.6d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "vampirism:hunter_intel_0"
+			}
+			dependencies: [
+				"2A07CC1CEF211973"
+			]
+			tasks: [
+				{
+					id: "0E3D5CE5EC933616"
+					type: "structure"
+					structure: "vampirism:hunter_camp"
+				}
+				{
+					id: "7A59F7148975A766"
+					type: "kill"
+					entity: "vampirism:hunter"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "351670CEE89C35D8"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "56A0A11460D0D01F"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "00888EEF7D5A6956"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			title: "O Acampamento dos Caçadores"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Os caçadores de vampiros não gostam de ninguém que ande à noite, nem de quem atrapalha a caçada."
+				""
+				"&6Desafio:&r Encontre um &6acampamento de caçadores&r e derrote &610 caçadores&r."
+			]
+			optional: true
+		}
+		{
 			id: "75A6D8A077CE5013"
 			x: 7.3d
 			y: 2.3d
@@ -743,6 +1646,132 @@
 				"&7Um mecanismo de precisão já é difícil. Trinta e dois é uma linha de montagem que funciona sem você."
 				""
 				"&6Desafio:&r Junte &632 Mecanismos de Precisão&r e &68 Blocos de Latão&r. Dica: monte a esteira de sequência."
+			]
+			optional: true
+		}
+		{
+			id: "1166C83585A935A7"
+			x: 7.3d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "create:clockwork_bearing"
+			}
+			dependencies: [
+				"75A6D8A077CE5013"
+			]
+			tasks: [
+				{
+					id: "57D48792C8B6BA7F"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:clockwork_bearing"
+					}
+					count: 4L
+				}
+				{
+					id: "7D04A0DBA2C02AE5"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					count: 128L
+				}
+			]
+			rewards: [
+				{
+					id: "45055C3136ED68AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "1CDB9D37E2483443"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			title: "O Rolamento do Relógio"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Um relógio de verdade, com ponteiros de latão girando nas horas certas."
+				""
+				"&6Desafio:&r Junte &64 rolamentos de relógio&r e &6128 lingotes de latão&r."
+			]
+			optional: true
+		}
+		{
+			id: "48CFE9ECEB1DDC86"
+			x: 7.3d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "create:steam_engine"
+			}
+			dependencies: [
+				"1166C83585A935A7"
+			]
+			tasks: [
+				{
+					id: "46846C12A640EE69"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:steam_engine"
+					}
+					count: 4L
+				}
+				{
+					id: "56C88EDE51483A13"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:blaze_burner"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "7BEAEB5BB716F011"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "3F6288F653095553"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "46DEFF19BBA207FF"
+					type: "xp"
+					xp: 1800
+				}
+			]
+			title: "Vapor"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Água fervendo sobre fogo de blaze: o vapor move mais que qualquer moinho."
+				""
+				"&6Desafio:&r Junte &64 motores a vapor&r e &64 queimadores de blaze&r."
 			]
 			optional: true
 		}
@@ -822,6 +1851,101 @@
 			optional: true
 		}
 		{
+			id: "5FB5AFB0D4D14B08"
+			x: 4.75d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:wheat"
+			}
+			dependencies: [
+				"6840C699A91EBE5C"
+			]
+			tasks: [
+				{
+					id: "0F763A632D926B5F"
+					type: "stat"
+					stat: "minecraft:animals_bred"
+					value: 30
+				}
+			]
+			rewards: [
+				{
+					id: "743A146C01631CD6"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+				{
+					id: "5DEEBE84302EBE1F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "O Criador"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Uma companhia que caça pouco precisa de um curral cheio."
+				""
+				"&aDesafio simples:&r Procrie animais &630 vezes&r."
+			]
+			optional: true
+		}
+		{
+			id: "0872E610D941182B"
+			x: 4.75d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			dependencies: [
+				"5FB5AFB0D4D14B08"
+			]
+			tasks: [
+				{
+					id: "084AC3CC8374D82C"
+					type: "stat"
+					stat: "minecraft:traded_with_villager"
+					value: 25
+				}
+				{
+					id: "0B6186125684FEAC"
+					type: "structure"
+					structure: "minecraft:village_plains"
+				}
+			]
+			rewards: [
+				{
+					id: "1808D16D02E75762"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "710BEA79EEBC0704"
+					type: "xp"
+					xp: 500
+				}
+			]
+			title: "Feira de Aldeia"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Esmeralda na mão, conversa fiada e uma boa barganha: a guerra também se ganha na feira."
+				""
+				"&aDesafio simples:&r Faça &625 trocas&r com aldeões e visite uma &6vila das planícies&r."
+			]
+			optional: true
+		}
+		{
 			id: "5DA263BD16D99356"
 			x: 6.449999999999999d
 			y: -2.3d
@@ -880,6 +2004,110 @@
 				"&7Nas cavernas de ametista as aranhas fazem ninho. Os cristais brilham bonito mesmo assim."
 				""
 				"&aDesafio simples:&r Derrote &625 aranhas&r e junte &616 fragmentos de ametista&r."
+			]
+			optional: true
+		}
+		{
+			id: "3C70AE666FC5D636"
+			x: 6.449999999999999d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:rail"
+			}
+			dependencies: [
+				"5DA263BD16D99356"
+			]
+			tasks: [
+				{
+					id: "6D115B585660EA9C"
+					type: "structure"
+					structure: "minecraft:mineshaft"
+				}
+				{
+					id: "0FCBE6202AD96E40"
+					type: "kill"
+					entity: "minecraft:cave_spider"
+					value: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "087370EDDA3A4F75"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+				{
+					id: "34A3012D389182BD"
+					type: "xp"
+					xp: 300
+				}
+			]
+			title: "Minas Esquecidas"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7As velhas minas foram abandonadas por um motivo. Ele tem oito pernas e veneno."
+				""
+				"&aDesafio simples:&r Entre numa &6mina abandonada&r e derrote &620 aranhas das cavernas&r."
+			]
+			optional: true
+		}
+		{
+			id: "43BDB30A9D95335A"
+			x: 6.449999999999999d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+			dependencies: [
+				"3C70AE666FC5D636"
+			]
+			tasks: [
+				{
+					id: "751CDA088CBE9503"
+					type: "biome"
+					biome: "minecraft:lush_caves"
+				}
+				{
+					id: "525D77665C3AE1F1"
+					type: "biome"
+					biome: "minecraft:dripstone_caves"
+				}
+				{
+					id: "121F726862BFEC0B"
+					type: "biome"
+					biome: "minecraft:deep_dark"
+				}
+			]
+			rewards: [
+				{
+					id: "56721D1EFCA34FB5"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "16BA75E96A2EA69D"
+					type: "xp"
+					xp: 600
+				}
+			]
+			title: "Cavernas Vivas"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Debaixo da terra há jardins, florestas de pedra pingando e um silêncio que escuta de volta."
+				""
+				"&aDesafio simples:&r Pise nas &acavernas exuberantes&r, nas &6cavernas de espeleotemas&r e na &8escuridão profunda&r."
 			]
 			optional: true
 		}
@@ -1021,6 +2249,180 @@
 			optional: true
 		}
 		{
+			id: "355250BF303D45B7"
+			x: 10.35d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "comamigos_balance:maze_mother_heart"
+			}
+			dependencies: [
+				"22E1DB6167A4FC57"
+			]
+			tasks: [
+				{
+					id: "261C83D159E6E90C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:maze_mother_heart"
+					}
+					count: 1L
+				}
+				{
+					id: "294CF5E7BDD3D412"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:lord_pumpkinhead_heart"
+					}
+					count: 1L
+				}
+				{
+					id: "1AD19A9E5F1F635E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:cyclops_heart"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3A6F9CE41B5402DF"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "33C16DDAB32D87E8"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "3B9A8398526E0F4C"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			title: "Corações Raros"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Há corações que poucos veem: o da mãe do labirinto de gelo, o do lorde abóbora e o do gigante de um olho só."
+				""
+				"&6Desafio:&r Tenha os corações da &6Mãe do Labirinto&r, do &6Lorde Cabeça de Abóbora&r e do &6Ciclope&r."
+			]
+			optional: true
+		}
+		{
+			id: "5372965D86F7DE9B"
+			x: 10.35d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:creeper_head"
+			}
+			dependencies: [
+				"355250BF303D45B7"
+			]
+			tasks: [
+				{
+					id: "51885B47B161F6E2"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					count: 1L
+				}
+				{
+					id: "4D6E11E214375F21"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:zombie_head"
+					}
+					count: 1L
+				}
+				{
+					id: "723F922CCCB565D6"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:creeper_head"
+					}
+					count: 1L
+				}
+				{
+					id: "431972052D9EAA36"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					count: 1L
+				}
+				{
+					id: "067BB53879EFC39D"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:piglin_head"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "714141602BC804C1"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "19A215114FB19680"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "312C35A98B91DB3A"
+					type: "xp"
+					xp: 1800
+				}
+			]
+			title: "Cabeças na Parede"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Um salão de caçadores não está completo sem as cabeças na parede."
+				""
+				"&6Desafio:&r Junte as cabeças de &6esqueleto, zumbi, creeper, esqueleto wither&r e &6piglin&r."
+			]
+			optional: true
+		}
+		{
 			id: "3040031B8FB3CD1B"
 			x: 12.049999999999999d
 			y: 2.3d
@@ -1084,6 +2486,131 @@
 			optional: true
 		}
 		{
+			id: "2681C3FBF83B4669"
+			x: 12.049999999999999d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "iceandfire:cyclops_eye"
+			}
+			dependencies: [
+				"3040031B8FB3CD1B"
+			]
+			tasks: [
+				{
+					id: "5216B2572F034C02"
+					type: "structure"
+					structure: "iceandfire:cyclops_cave"
+				}
+				{
+					id: "2E21E98F21123A43"
+					type: "kill"
+					entity: "iceandfire:cyclops"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6B06813EB56F5070"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "4E09912FBC206172"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "13ACC3D6D2227A0A"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			title: "O Gigante de Um Olho"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7O ciclope guarda ovelhas numa caverna e homens num caldeirão. Ele não diferencia muito os dois."
+				""
+				"&6Desafio:&r Encontre a &6caverna do ciclope&r e derrote o dono."
+			]
+			optional: true
+		}
+		{
+			id: "347EB347B20B4A8A"
+			x: 12.049999999999999d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "mowziesmobs:ice_crystal"
+			}
+			dependencies: [
+				"2681C3FBF83B4669"
+			]
+			tasks: [
+				{
+					id: "62E4D41EBDA3A72C"
+					type: "kill"
+					entity: "mowziesmobs:frostmaw"
+					value: 1L
+				}
+				{
+					id: "607E7058651347A0"
+					type: "kill"
+					entity: "mowziesmobs:umvuthi"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "652D51F34333FB23"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "3455A552241EFB80"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "18AC904C99D2B7BF"
+					type: "xp"
+					xp: 2500
+				}
+			]
+			title: "Fera do Gelo e Rei do Sol"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Um dorme no gelo, o outro dança no calor da savana. Os dois odeiam visitas."
+				""
+				"&6Desafio:&r Derrote o &bFrostmaw&r e &6Umvuthi&r."
+			]
+			optional: true
+		}
+		{
 			id: "22503954DF3E4104"
 			x: 10.35d
 			y: -2.3d
@@ -1132,6 +2659,112 @@
 			optional: true
 		}
 		{
+			id: "7A97FE601AFE8DA0"
+			x: 10.35d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:ender_eye"
+			}
+			dependencies: [
+				"22503954DF3E4104"
+			]
+			tasks: [
+				{
+					id: "475B8D001E07DBDE"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					count: 12L
+				}
+				{
+					id: "017A11D213685002"
+					type: "structure"
+					structure: "minecraft:stronghold"
+				}
+			]
+			rewards: [
+				{
+					id: "21461CAA45CDE188"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "0BD3AB5A345F555B"
+					type: "xp"
+					xp: 600
+				}
+			]
+			title: "O Olho Que Aponta"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Jogue o olho para o alto e siga para onde ele voa. No fim do caminho há uma fortaleza esperando."
+				""
+				"&aDesafio simples:&r Faça &612 olhos de Ender&r e encontre a &6fortaleza&r."
+			]
+			optional: true
+		}
+		{
+			id: "3E3DC0B5005E8128"
+			x: 10.35d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+			dependencies: [
+				"7A97FE601AFE8DA0"
+			]
+			tasks: [
+				{
+					id: "368664E1B6274332"
+					type: "structure"
+					structure: "minecraft:ancient_city"
+				}
+				{
+					id: "69D9079ABDEBC4BD"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "08FD4D4BB7E1D344"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "28076B4084164865"
+					type: "xp"
+					xp: 900
+				}
+			]
+			title: "A Cidade Antiga"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Lá embaixo há uma cidade que não foi construída para gente. Ande devagar. Não acorde nada."
+				""
+				"&aDesafio simples:&r Entre numa &8cidade antiga&r e traga &64 fragmentos de eco&r."
+			]
+			optional: true
+		}
+		{
 			id: "27592BC1E9997FF5"
 			x: 12.049999999999999d
 			y: -2.3d
@@ -1173,6 +2806,120 @@
 				"&7O som é sempre o mesmo, e sempre tarde demais. Aprenda a ouvir antes."
 				""
 				"&aDesafio simples:&r Derrote &625 creepers&r."
+			]
+			optional: true
+		}
+		{
+			id: "4203A662EF624852"
+			x: 12.049999999999999d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:tnt"
+			}
+			dependencies: [
+				"27592BC1E9997FF5"
+			]
+			tasks: [
+				{
+					id: "1097E84A61A58961"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
+					count: 16L
+				}
+				{
+					id: "54C5483447164A55"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "34132D470837359F"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+				{
+					id: "0B18E47BE8D4B454"
+					type: "xp"
+					xp: 400
+				}
+			]
+			title: "Pólvora de Sobra"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Quem coleciona pólvora acaba descobrindo o que fazer com ela."
+				""
+				"&aDesafio simples:&r Junte &616 TNTs&r e &632 fogos de artifício&r."
+			]
+			optional: true
+		}
+		{
+			id: "47B482625AA7D200"
+			x: 12.049999999999999d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:music_disc_cat"
+			}
+			dependencies: [
+				"4203A662EF624852"
+			]
+			tasks: [
+				{
+					id: "67960900F4AA9715"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_cat"
+					}
+					count: 1L
+				}
+				{
+					id: "7E457FEEF97912B9"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_13"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "178F6931E99DE2C9"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "58602E6DE2C3AB15"
+					type: "xp"
+					xp: 700
+				}
+			]
+			title: "Música de Creeper"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Dizem que, se um esqueleto acerta um creeper, ele deixa cair uma canção. Ninguém sabe quem a gravou."
+				""
+				"&aDesafio simples:&r Consiga os discos &6cat&r e &613&r, que só caem quando um esqueleto derruba um creeper."
 			]
 			optional: true
 		}
@@ -1266,6 +3013,137 @@
 			optional: true
 		}
 		{
+			id: "1C7301B5083CAADE"
+			x: 15.099999999999998d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			dependencies: [
+				"01A848E6D90CE60A"
+			]
+			tasks: [
+				{
+					id: "608BD0A0AB9927C8"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					count: 3L
+				}
+				{
+					id: "15F817629AD22DCA"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:beacon"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6DA5A118D28B5A85"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "71D9B9D870F50742"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "3D50CB69BC612A6D"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			title: "Estrelas no Bolso"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Três estrelas do Nether: uma para o farol, duas para guardar de lembrança."
+				""
+				"&6Desafio:&r Junte &63 estrelas do Nether&r e um &6farol&r."
+			]
+			optional: true
+		}
+		{
+			id: "32E7D360709669BD"
+			x: 15.099999999999998d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "cataclysm:ignitium_ingot"
+			}
+			dependencies: [
+				"1C7301B5083CAADE"
+			]
+			tasks: [
+				{
+					id: "62F29CAE081E3674"
+					type: "structure"
+					structure: "cataclysm:burning_arena"
+				}
+				{
+					id: "511D613866B8874C"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6E52BC932A4F2C25"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "44E51485926ACCF7"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "14BF09D1D7EB8CAB"
+					type: "xp"
+					xp: 3500
+				}
+			]
+			title: "Na Arena de Fogo"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7O cavaleiro em chamas espera numa arena no fundo do Nether. A espada dele ainda queima."
+				""
+				"&6Desafio:&r Encontre a &carena em chamas&r e derrote &cIgnis&r."
+			]
+			optional: true
+		}
+		{
 			id: "5E922CD1D49D1ACB"
 			x: 16.799999999999997d
 			y: 2.3d
@@ -1323,6 +3201,156 @@
 			optional: true
 		}
 		{
+			id: "246F3661189B3CF9"
+			x: 16.799999999999997d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "asterion:celestial_steel_chestplate"
+			}
+			dependencies: [
+				"5E922CD1D49D1ACB"
+			]
+			tasks: [
+				{
+					id: "14CEC25423C0C417"
+					type: "item"
+					item: {
+						count: 1
+						id: "asterion:celestial_steel_helmet"
+					}
+					count: 1L
+				}
+				{
+					id: "623C9F1641ABC4B1"
+					type: "item"
+					item: {
+						count: 1
+						id: "asterion:celestial_steel_chestplate"
+					}
+					count: 1L
+				}
+				{
+					id: "40954448AEB1452C"
+					type: "item"
+					item: {
+						count: 1
+						id: "asterion:celestial_steel_leggings"
+					}
+					count: 1L
+				}
+				{
+					id: "50F479A7068C07F2"
+					type: "item"
+					item: {
+						count: 1
+						id: "asterion:celestial_steel_boots"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1751F5A83D0A00DE"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "34DF46250B883412"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "34B1692D0F1D900A"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			title: "Aço Celeste"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7O metal que caiu do céu foi forjado no labirinto. A companhia pode vestir o que o Minotauro guardava."
+				""
+				"&6Desafio:&r Vista a &barmadura completa de aço celeste&r."
+			]
+			optional: true
+		}
+		{
+			id: "1B4FDCD1FD247E6D"
+			x: 16.799999999999997d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "asterion:cursed_brazier_key"
+			}
+			dependencies: [
+				"246F3661189B3CF9"
+			]
+			tasks: [
+				{
+					id: "5DC4C53B60598C56"
+					type: "kill"
+					entity: "asterion:cursed_brazier"
+					value: 1L
+				}
+				{
+					id: "6935942D9995E22E"
+					type: "kill"
+					entity: "asterion:queen_beetle"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "108A164C01C6CA3B"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "6791181CA1EE9B5D"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "22F43B7C3B1C316C"
+					type: "xp"
+					xp: 3500
+				}
+			]
+			title: "As Catacumbas"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Abaixo do labirinto há catacumbas, um braseiro amaldiçoado e uma rainha de carapaça brilhante."
+				""
+				"&6Desafio:&r Derrote o &6Braseiro Amaldiçoado&r e a &6Rainha Besouro&r."
+			]
+			optional: true
+		}
+		{
 			id: "2DFE7167F993CE53"
 			x: 18.499999999999996d
 			y: 2.3d
@@ -1376,6 +3404,162 @@
 				"&7Netherita só sai do misturador superaquecido, e sai devagar. Dois blocos é um ano de trabalho para um ferreiro comum."
 				""
 				"&6Desafio:&r Junte &62 Blocos de Netherita&r e um &6Tanque de Netherita&r."
+			]
+			optional: true
+		}
+		{
+			id: "0BC0969B65A9EA3D"
+			x: 18.499999999999996d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:netherite_pickaxe"
+			}
+			dependencies: [
+				"2DFE7167F993CE53"
+			]
+			tasks: [
+				{
+					id: "4C84C1CAC5CAC74C"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:netherite_pickaxe"
+					}
+					count: 1L
+				}
+				{
+					id: "1844514B1AFDF7CA"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:netherite_axe"
+					}
+					count: 1L
+				}
+				{
+					id: "74783E2510356AA6"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:netherite_shovel"
+					}
+					count: 1L
+				}
+				{
+					id: "399B98E607D55D2C"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
+					count: 1L
+				}
+				{
+					id: "52EFDCED1DD19847"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:netherite_hoe"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "28BAD64FE761F73C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "700970B1AB6A2B00"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "68C69B50AECA9F13"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			title: "Ferramentas Eternas"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Ferramentas que não queimam, não quebram fácil e duram uma vida inteira. A enxada é pura vaidade."
+				""
+				"&6Desafio:&r Junte &6picareta, machado, pá, espada&r e &6enxada&r de netherita."
+			]
+			optional: true
+		}
+		{
+			id: "204FAD694CD43350"
+			x: 18.499999999999996d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:ancient_debris"
+			}
+			dependencies: [
+				"0BC0969B65A9EA3D"
+			]
+			tasks: [
+				{
+					id: "0A32C6BF8B99F0C6"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:ancient_debris"
+					}
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "68C2EF5CB7B94F3A"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "00028A36B9DC24E9"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "2A724C10D405145F"
+					type: "xp"
+					xp: 3500
+				}
+			]
+			title: "Detritos Antigos"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Os detritos antigos não queimam nem na lava. Encontrar trinta e dois é cavar metade do Nether."
+				""
+				"&6Desafio:&r Junte &632 detritos antigos&r."
 			]
 			optional: true
 		}
@@ -1445,6 +3629,122 @@
 			optional: true
 		}
 		{
+			id: "5039BF517A8DEAC7"
+			x: 15.949999999999998d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:nether_bricks"
+			}
+			dependencies: [
+				"091D9617B113AF38"
+			]
+			tasks: [
+				{
+					id: "3B34615202C5B999"
+					type: "structure"
+					structure: "minecraft:fortress"
+				}
+				{
+					id: "6D53363EE6639837"
+					type: "structure"
+					structure: "minecraft:bastion_remnant"
+				}
+			]
+			rewards: [
+				{
+					id: "5377CECDA1A1FB3F"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "15E037EA19F316F8"
+					type: "xp"
+					xp: 800
+				}
+			]
+			title: "Fortaleza e Bastião"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7No Nether há duas cidades: a dos esqueletos negros e a dos porcos de ouro. Visite as duas."
+				""
+				"&aDesafio simples:&r Entre numa &6fortaleza do Nether&r e num &6bastião&r."
+			]
+			optional: true
+		}
+		{
+			id: "5735C2C7421AF174"
+			x: 15.949999999999998d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:crimson_nylium"
+			}
+			dependencies: [
+				"5039BF517A8DEAC7"
+			]
+			tasks: [
+				{
+					id: "5419F4D829959CCB"
+					type: "biome"
+					biome: "minecraft:crimson_forest"
+				}
+				{
+					id: "571F3B3C4DFD97C3"
+					type: "biome"
+					biome: "minecraft:warped_forest"
+				}
+				{
+					id: "20EF88FF83C96B8A"
+					type: "biome"
+					biome: "minecraft:soul_sand_valley"
+				}
+				{
+					id: "010D597897989995"
+					type: "biome"
+					biome: "minecraft:basalt_deltas"
+				}
+			]
+			rewards: [
+				{
+					id: "22B00151C86A3CF9"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "18EE9ECFA6AFA637"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_incomum"
+					}
+				}
+				{
+					id: "430BFD0DA314F55A"
+					type: "xp"
+					xp: 900
+				}
+			]
+			title: "Paisagens do Inferno"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7O Nether não é um lugar só. Tem florestas vermelhas, florestas azuis, vales de almas e deltas de basalto."
+				""
+				"&aDesafio simples:&r Pise na &cfloresta carmesim&r, na &3floresta distorcida&r, no &7vale das almas&r e nos &8deltas de basalto&r."
+			]
+			optional: true
+		}
+		{
 			id: "5A022CF1315F5F72"
 			x: 17.65d
 			y: -2.3d
@@ -1486,6 +3786,111 @@
 				"&7Os esqueletos negros guardam as fortalezas e, às vezes, a própria cabeça."
 				""
 				"&aDesafio simples:&r Derrote &630 esqueletos wither&r."
+			]
+			optional: true
+		}
+		{
+			id: "5808FFDAFFC78940"
+			x: 17.65d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:golden_axe"
+			}
+			dependencies: [
+				"5A022CF1315F5F72"
+			]
+			tasks: [
+				{
+					id: "1482DA7E7E379F81"
+					type: "kill"
+					entity: "minecraft:piglin_brute"
+					value: 3L
+				}
+				{
+					id: "4E4F704EC33556E0"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "3554DC00BDC1A6B5"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "103D4AC05A4EB548"
+					type: "xp"
+					xp: 900
+				}
+			]
+			title: "Os Brutos"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Os piglins brutos guardam os bastiões e não aceitam ouro. Nem conversa."
+				""
+				"&aDesafio simples:&r Derrote &63 piglins brutos&r e junte &64 fragmentos de netherita&r."
+			]
+			optional: true
+		}
+		{
+			id: "258E04EAF32345FF"
+			x: 17.65d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:cooked_porkchop"
+			}
+			dependencies: [
+				"5808FFDAFFC78940"
+			]
+			tasks: [
+				{
+					id: "6B0BFCBA20EF5F15"
+					type: "kill"
+					entity: "minecraft:hoglin"
+					value: 15L
+				}
+				{
+					id: "7CAE8B9CE1C59D9A"
+					type: "stat"
+					stat: "minecraft:strider_one_cm"
+					value: 10000
+				}
+			]
+			rewards: [
+				{
+					id: "15ACB66360D6A8A5"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "398F97E900E81DC9"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			title: "Caça ao Hoglin"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7As florestas carmesins são terra de hoglins. Para atravessar os mares de lava, só montado num strider."
+				""
+				"&aDesafio simples:&r Derrote &615 hoglins&r e cavalgue um &6strider&r por &6100 blocos&r."
 			]
 			optional: true
 		}
@@ -1599,6 +4004,150 @@
 			optional: true
 		}
 		{
+			id: "690CEB78358779C2"
+			x: 21.549999999999997d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "iceandfire:dragonbone"
+			}
+			dependencies: [
+				"7243D347E9C829AC"
+			]
+			tasks: [
+				{
+					id: "4C224CB59D53F9C4"
+					type: "structure"
+					structure: "iceandfire:fire_dragon_roost"
+				}
+				{
+					id: "1BC44A6FA4F4C8CA"
+					type: "structure"
+					structure: "iceandfire:ice_dragon_roost"
+				}
+				{
+					id: "22A6357E3C894EF3"
+					type: "structure"
+					structure: "iceandfire:lightning_dragon_roost"
+				}
+			]
+			rewards: [
+				{
+					id: "4125EE5B617D1259"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "72A55013149A0FB8"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "52F985C582E31529"
+					type: "xp"
+					xp: 4000
+				}
+			]
+			title: "Os Três Ninhos"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Cada dragão tem o seu ninho: um de cinzas, um de gelo, um que crepita."
+				""
+				"&6Desafio:&r Visite um &cninho de dragão de fogo&r, um &bde gelo&r e um &ede raio&r."
+			]
+			optional: true
+		}
+		{
+			id: "2A1F42570592A9ED"
+			x: 21.549999999999997d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "iceandfire:dragonsteel_fire_block"
+			}
+			dependencies: [
+				"690CEB78358779C2"
+			]
+			tasks: [
+				{
+					id: "6C8D0C5AEFE8BCB1"
+					type: "item"
+					item: {
+						count: 1
+						id: "iceandfire:dragonsteel_fire_block"
+					}
+					count: 1L
+				}
+				{
+					id: "3E9681ED8C2265ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "iceandfire:dragonsteel_ice_block"
+					}
+					count: 1L
+				}
+				{
+					id: "22A692AF0ECADCF6"
+					type: "item"
+					item: {
+						count: 1
+						id: "iceandfire:dragonsteel_lightning_block"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "21C6A2AD985C4115"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "483B9BD7E765414F"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "77B743181979CFBC"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			title: "Aço de Dragão"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Sangue de dragão e ferro, forjados juntos. Um bloco de cada é uma fortuna que poucas companhias viram."
+				""
+				"&6Desafio:&r Junte um &6bloco de aço de dragão&r de cada elemento."
+			]
+			optional: true
+		}
+		{
 			id: "4E5F979E6658CC3C"
 			x: 23.25d
 			y: 2.3d
@@ -1668,6 +4217,132 @@
 			optional: true
 		}
 		{
+			id: "1AE516D99DE6A9AE"
+			x: 23.25d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "botania:elementium_block"
+			}
+			dependencies: [
+				"4E5F979E6658CC3C"
+			]
+			tasks: [
+				{
+					id: "0D5217CF29174AA1"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:elementium_block"
+					}
+					count: 8L
+				}
+				{
+					id: "6C9D3BEDFC34C55C"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:pixie_dust"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "6308DF19CCC9ECA7"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "3097765ECBEC2132"
+					type: "command"
+					title: "1 brasa de talento (+1 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+				}
+				{
+					id: "210DE643B15F8359"
+					type: "xp"
+					xp: 4000
+				}
+			]
+			title: "Elementium"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7O metal das fadas é leve como a pena e firme como a promessa de um elfo."
+				""
+				"&6Desafio:&r Junte &68 blocos de elementium&r e &616 pós de fada&r."
+			]
+			optional: true
+		}
+		{
+			id: "1607925D545F88E3"
+			x: 23.25d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "botania:gaia_ingot"
+			}
+			dependencies: [
+				"1AE516D99DE6A9AE"
+			]
+			tasks: [
+				{
+					id: "2072B7F112200655"
+					type: "kill"
+					entity: "botania:doppleganger"
+					value: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "3C5BAB10EB023368"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "5B0ECD77A4CEEBF8"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "5B944A3EFB1D225D"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			title: "O Guardião de Gaia"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7O guardião de Gaia se divide, se multiplica e se cura. Duas vezes não é exagero: é treino."
+				""
+				"&6Desafio:&r Derrote o &dGuardião de Gaia&r duas vezes."
+			]
+			optional: true
+		}
+		{
 			id: "18D1D67BF9A6A819"
 			x: 21.549999999999997d
 			y: -2.3d
@@ -1712,6 +4387,113 @@
 				"&7Os ghasts choram quando morrem. Quem os derruba aprende a pegar as lágrimas antes que caiam na lava."
 				""
 				"&aDesafio simples:&r Junte &68 lágrimas de ghast&r."
+			]
+			optional: true
+		}
+		{
+			id: "7AD53C0F180F9833"
+			x: 21.549999999999997d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:respawn_anchor"
+			}
+			dependencies: [
+				"18D1D67BF9A6A819"
+			]
+			tasks: [
+				{
+					id: "3D28212347744DA7"
+					type: "kill"
+					entity: "minecraft:magma_cube"
+					value: 20L
+				}
+				{
+					id: "1DF3A78DEE781686"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:respawn_anchor"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "59CB8650CFACDB24"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "14620CBDC33693C2"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			title: "Âncora de Volta"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Morrer no Nether e voltar no Nether: a âncora é para quem não pretende ir embora."
+				""
+				"&aDesafio simples:&r Derrote &620 cubos de magma&r e faça uma &6âncora de renascimento&r."
+			]
+			optional: true
+		}
+		{
+			id: "49835390E76A7062"
+			x: 21.549999999999997d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:gilded_blackstone"
+			}
+			dependencies: [
+				"7AD53C0F180F9833"
+			]
+			tasks: [
+				{
+					id: "615CCCC983797B7C"
+					type: "structure"
+					structure: "minecraft:ruined_portal_nether"
+				}
+				{
+					id: "47E1F28109F5F993"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:gilded_blackstone"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "2FDA89FE503D70FD"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "5B77B8EC984507E8"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			title: "Ruínas Douradas"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Portais quebrados, pedra negra com veias de ouro: alguém já passou por aqui antes, e não voltou."
+				""
+				"&aDesafio simples:&r Encontre um &6portal em ruínas&r no Nether e junte &68 pedras-negras douradas&r."
 			]
 			optional: true
 		}
@@ -1763,6 +4545,115 @@
 				"&7As patrulhas dos saqueadores andam armadas e em bando. Quebre a patrulha e o bando se desfaz."
 				""
 				"&aDesafio simples:&r Derrote &620 saqueadores&r e &62 evocadores&r."
+			]
+			optional: true
+		}
+		{
+			id: "0AA249946F1FB691"
+			x: 23.25d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:crossbow"
+			}
+			dependencies: [
+				"2755B75A7EF67A1F"
+			]
+			tasks: [
+				{
+					id: "7A5D47A6FA351D88"
+					type: "structure"
+					structure: "minecraft:pillager_outpost"
+				}
+				{
+					id: "1D03C0EDBAC05696"
+					type: "kill"
+					entity: "minecraft:vindicator"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "3ABA80C58ED388F5"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "65F0846A9C9BC692"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			title: "O Posto Avançado"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Os saqueadores têm torres de vigia. De lá saem as patrulhas, e para lá voltam os prisioneiros."
+				""
+				"&aDesafio simples:&r Invada um &6posto avançado&r e derrote &610 vindicadores&r."
+			]
+			optional: true
+		}
+		{
+			id: "4D4CE17A9F8AF154"
+			x: 23.25d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:ominous_bottle"
+			}
+			dependencies: [
+				"0AA249946F1FB691"
+			]
+			tasks: [
+				{
+					id: "6ECA91E1784D7C4B"
+					type: "stat"
+					stat: "minecraft:raid_win"
+					value: 1
+				}
+				{
+					id: "5C54A90FB4DDEC14"
+					type: "kill"
+					entity: "minecraft:ravager"
+					value: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "73A943887875B763"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "63CD015F3452A84D"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "4EB2E2FEB34558E3"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			title: "A Grande Invasão"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Beba o mau presságio, entre numa vila e espere. Eles vêm em ondas, com feras de chifre na frente."
+				""
+				"&aDesafio simples:&r Vença uma &cinvasão&r numa vila e derrote &62 devastadores&r."
 			]
 			optional: true
 		}
@@ -1900,6 +4791,173 @@
 			optional: true
 		}
 		{
+			id: "03FD3825A2876DB2"
+			x: 27.15d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "cataclysm:ancient_metal_ingot"
+			}
+			dependencies: [
+				"4EEAF75C97664641"
+			]
+			tasks: [
+				{
+					id: "419403BB3152ED73"
+					type: "structure"
+					structure: "cataclysm:acropolis"
+				}
+				{
+					id: "39C18037618EBEC6"
+					type: "structure"
+					structure: "cataclysm:ancient_factory"
+				}
+				{
+					id: "4D4B2A0375E88E9C"
+					type: "structure"
+					structure: "cataclysm:frosted_prison"
+				}
+				{
+					id: "72772CA39051FA9B"
+					type: "structure"
+					structure: "cataclysm:cursed_pyramid"
+				}
+				{
+					id: "02CED45AF98093CC"
+					type: "structure"
+					structure: "cataclysm:sunken_city"
+				}
+				{
+					id: "31D765928915B50D"
+					type: "structure"
+					structure: "cataclysm:ruined_citadel"
+				}
+			]
+			rewards: [
+				{
+					id: "1F7FC5792BDA7780"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "2B01C9F65FB07444"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "61AB83F507A6316F"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "0F386D8C11AD0C96"
+					type: "xp"
+					xp: 6000
+				}
+			]
+			title: "Peregrino das Ruínas"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Antes dos titãs acordarem, eles dormiam em lugares: uma acrópole, uma fábrica, uma prisão de gelo, uma pirâmide, uma cidade afundada, uma cidadela."
+				""
+				"&6Desafio:&r Visite as seis ruínas: &6acrópole, fábrica antiga, prisão congelada, pirâmide amaldiçoada, cidade afundada&r e &6cidadela em ruínas&r."
+			]
+			optional: true
+		}
+		{
+			id: "696E7FBBC1D89CBB"
+			x: 27.15d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "cataclysm:cursium_ingot"
+			}
+			dependencies: [
+				"03FD3825A2876DB2"
+			]
+			tasks: [
+				{
+					id: "055B8E3BEBBDEB17"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_block"
+					}
+					count: 2L
+				}
+				{
+					id: "49962CE2165966C5"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_block"
+					}
+					count: 2L
+				}
+				{
+					id: "3A1413DD3AE0191F"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_block"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "5BE7ED081CF1EC13"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "290A44C076556BBC"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "48BF23C650191101"
+					type: "xp"
+					xp: 7000
+				}
+			]
+			title: "Fundidor de Titãs"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Os metais dos titãs não se deixam fundir por qualquer forja."
+				""
+				"&6Desafio:&r Junte &62 blocos de ignitium&r, &62 de cursium&r e &64 de metal antigo&r."
+			]
+			optional: true
+		}
+		{
 			id: "749E5E83CB145084"
 			x: 28.85d
 			y: 2.3d
@@ -1974,6 +5032,120 @@
 			optional: true
 		}
 		{
+			id: "263A3AEDFD23AE81"
+			x: 28.85d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:arcane_essence"
+			}
+			dependencies: [
+				"749E5E83CB145084"
+			]
+			tasks: [
+				{
+					id: "220BB6B87EFC1D99"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					count: 64L
+				}
+				{
+					id: "1BB441C5B82C5B9F"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cinder_essence"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "32B84C7EFEA72A50"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "3250A0C0BEDA03D7"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			title: "Essências Raras"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7A essência arcana é o pó do qual a magia é feita. A essência de brasa é o que sobra quando ela queima."
+				""
+				"&6Desafio:&r Junte &664 essências arcanas&r e &616 essências de brasa&r."
+			]
+			optional: true
+		}
+		{
+			id: "3709AEBCA428BD95"
+			x: 28.85d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "irons_spellbooks:dead_king_phylactery"
+			}
+			dependencies: [
+				"263A3AEDFD23AE81"
+			]
+			tasks: [
+				{
+					id: "01F8B76794BBCC2E"
+					type: "kill"
+					entity: "irons_spellbooks:dead_king"
+					value: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4C7314FA8156D515"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "334B196CAC95D82E"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "678B3E64D249FD16"
+					type: "xp"
+					xp: 6000
+				}
+			]
+			title: "O Rei Morto, Outra Vez"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7O Rei Morto dorme nas catacumbas, mas não dorme muito bem."
+				""
+				"&6Desafio:&r Derrote o &5Rei Morto&r duas vezes."
+			]
+			optional: true
+		}
+		{
 			id: "1F172D480EE206A9"
 			x: 28.0d
 			y: -2.3d
@@ -2032,6 +5204,113 @@
 				"&7Os templos do mar são feitos de uma pedra que só os guardiões sabem cortar. Ou sabiam."
 				""
 				"&aDesafio simples:&r Junte &664 fragmentos de prismarinho&r e derrote &620 afogados&r."
+			]
+			optional: true
+		}
+		{
+			id: "1BF69FA1E53CD0D4"
+			x: 28.0d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:prismarine_bricks"
+			}
+			dependencies: [
+				"1F172D480EE206A9"
+			]
+			tasks: [
+				{
+					id: "118AEA0578497BB8"
+					type: "structure"
+					structure: "minecraft:monument"
+				}
+				{
+					id: "7806EC9BEF581E91"
+					type: "kill"
+					entity: "minecraft:elder_guardian"
+					value: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "17F2583F58F6CEA8"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "2E62275BA57B8B9A"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			title: "O Templo Submerso"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7O templo do mar tem três anciões. Enquanto viverem, ninguém respira lá dentro por muito tempo."
+				""
+				"&aDesafio simples:&r Entre num &3monumento oceânico&r e derrote os &63 guardiões anciões&r."
+			]
+			optional: true
+		}
+		{
+			id: "16769666BE3642D9"
+			x: 28.0d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:heart_of_the_sea"
+			}
+			dependencies: [
+				"1BF69FA1E53CD0D4"
+			]
+			tasks: [
+				{
+					id: "221D1521E4C1F898"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
+					count: 1L
+				}
+				{
+					id: "4C7358F819B6084A"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:conduit"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "51F482C5460C03AC"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "023F3C53E8023013"
+					type: "xp"
+					xp: 1800
+				}
+			]
+			title: "O Coração do Mar"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Mapas de tesouro levam a baús enterrados. Num deles, há um coração que pulsa como maré."
+				""
+				"&aDesafio simples:&r Desenterre um &bcoração do mar&r e faça um &6conduíte&r."
 			]
 			optional: true
 		}
@@ -2134,6 +5413,125 @@
 			optional: true
 		}
 		{
+			id: "6AC7164D7A6875C6"
+			x: 33.6d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:purpur_block"
+			}
+			dependencies: [
+				"15E093067C5033D8"
+			]
+			tasks: [
+				{
+					id: "12ACD3913D83AA92"
+					type: "structure"
+					structure: "minecraft:end_city"
+				}
+				{
+					id: "729374E549DC180F"
+					type: "structure"
+					structure: "stellarity:return_gateway"
+				}
+			]
+			rewards: [
+				{
+					id: "3F75BAF8D331057C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "426191E51614A5D2"
+					type: "xp"
+					xp: 8000
+				}
+			]
+			title: "Cidades no Céu Vazio"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Além das ilhas há torres roxas flutuando no vazio, e portais que levam de volta para casa."
+				""
+				"&6Desafio:&r Entre numa &5cidade do End&r e encontre um &5portal de retorno&r."
+			]
+			optional: true
+		}
+		{
+			id: "45C08F5D0BADEEC5"
+			x: 33.6d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:dragon_head"
+			}
+			dependencies: [
+				"6AC7164D7A6875C6"
+			]
+			tasks: [
+				{
+					id: "22A6987208AFA819"
+					type: "biome"
+					biome: "stellarity:the_nest"
+				}
+				{
+					id: "1CD4F1F55B4B0ED1"
+					type: "biome"
+					biome: "stellarity:dragons_den"
+				}
+				{
+					id: "1F3E80780D33523F"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:dragon_head"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "45B44EA37A46F5A5"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "1F2FC8E8AFF336E5"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "0573BBEA5833BC80"
+					type: "xp"
+					xp: 9000
+				}
+			]
+			title: "O Ninho do Dragão"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7O dragão do End não nasceu do nada. Em algum lugar há um ninho, e um covil de onde ele saiu."
+				""
+				"&6Desafio:&r Pise no &5Ninho&r e no &5Covil dos Dragões&r, e traga uma &5cabeça de dragão&r."
+			]
+			optional: true
+		}
+		{
 			id: "60977B8FA7C19E33"
 			x: 33.6d
 			y: -2.3d
@@ -2187,6 +5585,127 @@
 				"&7As cidades do End flutuam em silêncio. Os shulkers não são silenciosos com quem chega perto."
 				""
 				"&aDesafio simples:&r Junte &68 cascas de shulker&r e &632 frutas do coro&r."
+			]
+			optional: true
+		}
+		{
+			id: "60A08940105577D6"
+			x: 33.6d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			dependencies: [
+				"60977B8FA7C19E33"
+			]
+			tasks: [
+				{
+					id: "756DF47F34711CD3"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					count: 1L
+				}
+				{
+					id: "56790466E8A202ED"
+					type: "stat"
+					stat: "minecraft:aviate_one_cm"
+					value: 100000
+				}
+			]
+			rewards: [
+				{
+					id: "52795AC93616BA2A"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "53AD88CB897D5B02"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "185D2A29476B765C"
+					type: "xp"
+					xp: 2500
+				}
+			]
+			title: "Asas Emprestadas"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Nos navios das cidades do End há asas guardadas. Quem as veste aprende a cair com estilo."
+				""
+				"&aDesafio simples:&r Consiga um &5élitro&r e plane por &61 quilômetro&r."
+			]
+			optional: true
+		}
+		{
+			id: "2C0C28BCA464B0E7"
+			x: 33.6d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:chorus_flower"
+			}
+			dependencies: [
+				"60A08940105577D6"
+			]
+			tasks: [
+				{
+					id: "4B2FBB9C59C7A1CE"
+					type: "biome"
+					biome: "stellarity:amethyst_forest"
+				}
+				{
+					id: "1383F1F695A7D5FB"
+					type: "biome"
+					biome: "stellarity:crystal_crags"
+				}
+				{
+					id: "1C6ACC7659FEB028"
+					type: "biome"
+					biome: "stellarity:end_wilds"
+				}
+				{
+					id: "40E8FC9F7BF51F04"
+					type: "biome"
+					biome: "stellarity:prismatic_dunes"
+				}
+			]
+			rewards: [
+				{
+					id: "06488F0229F43D86"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "7787715C0D090EB8"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			title: "Os Desertos do Fim"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7O End não é só pedra e vazio. Depois das ilhas há florestas de ametista, penhascos de cristal e dunas que mudam de cor."
+				""
+				"&aDesafio simples:&r Pise na &dfloresta de ametista&r, nos &bpenhascos de cristal&r, nas &aterras selvagens&r e nas &edunas prismáticas&r."
 			]
 			optional: true
 		}
@@ -2306,6 +5825,134 @@
 			optional: true
 		}
 		{
+			id: "5282774F7923BD89"
+			x: 38.35d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:crying_obsidian"
+			}
+			dependencies: [
+				"5E92EB04A0C74709"
+			]
+			tasks: [
+				{
+					id: "485F3CD606CB2981"
+					type: "structure"
+					structure: "bosses_of_mass_destruction:lich_tower"
+				}
+				{
+					id: "43427B57100CC5FC"
+					type: "structure"
+					structure: "bosses_of_mass_destruction:gauntlet_arena"
+				}
+				{
+					id: "1D103B9651B12176"
+					type: "structure"
+					structure: "bosses_of_mass_destruction:void_blossom"
+				}
+				{
+					id: "547A84705DAC90FE"
+					type: "structure"
+					structure: "bosses_of_mass_destruction:obsidilith_arena"
+				}
+			]
+			rewards: [
+				{
+					id: "59CADF195F12CB3E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "4BD59D48621911CD"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "13B5D6ABE2AF3286"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			title: "As Arenas dos Guardiões"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Cada guardião tinha a sua casa: uma torre gelada, uma arena de fogo, uma caverna no fundo do mundo e um altar no fim de tudo."
+				""
+				"&6Desafio:&r Visite a &btorre do Lich&r, a &carena da Manopla&r, a &5caverna da Flor do Vazio&r e o &8altar do Obsidilith&r."
+			]
+			optional: true
+		}
+		{
+			id: "30BD8FD2E605DA9B"
+			x: 38.35d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			dependencies: [
+				"5282774F7923BD89"
+			]
+			tasks: [
+				{
+					id: "02F647E9B1DB3491"
+					type: "stat"
+					stat: "minecraft:mob_kills"
+					value: 5000
+				}
+			]
+			rewards: [
+				{
+					id: "420DF4F71C49543B"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "66200A20CF4A8597"
+					type: "command"
+					title: "5 brasas de talento (+5 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 5"
+				}
+				{
+					id: "2358CD96ABDE52FA"
+					type: "xp"
+					xp: 15000
+				}
+			]
+			title: "Lenda Viva"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Cinco mil criaturas derrubadas. A companhia já não precisa contar histórias: as histórias contam a companhia."
+				""
+				"&6Desafio:&r Derrote &65000 criaturas&r ao longo da jornada."
+			]
+			optional: true
+		}
+		{
 			id: "59F5E8E27EB7F1D6"
 			x: 40.050000000000004d
 			y: 2.3d
@@ -2393,6 +6040,132 @@
 			optional: true
 		}
 		{
+			id: "1FCAE056274063A8"
+			x: 40.050000000000004d
+			y: 4.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:mace"
+			}
+			dependencies: [
+				"59F5E8E27EB7F1D6"
+			]
+			tasks: [
+				{
+					id: "2534A3A7F5EE0B0A"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:mace"
+					}
+					count: 1L
+				}
+				{
+					id: "7119E149AAFD5275"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:trident"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "781E819DBA05EF5C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "15968EE014FAA12A"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "4F4887409382EBE9"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			title: "Armas dos Antigos"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Um martelo que pesa mais a cada queda e um tridente que volta para a mão. Armas que o mundo não fabrica mais."
+				""
+				"&6Desafio:&r Consiga uma &6maça&r e um &btridente&r."
+			]
+			optional: true
+		}
+		{
+			id: "017B8CED8A5C4A49"
+			x: 40.050000000000004d
+			y: 6.3d
+			shape: "octagon"
+			size: 1.1d
+			icon: {
+				count: 1
+				id: "minecraft:clock"
+			}
+			dependencies: [
+				"1FCAE056274063A8"
+			]
+			tasks: [
+				{
+					id: "7CC4B1C51EBB1621"
+					type: "stat"
+					stat: "minecraft:play_time"
+					value: 7200000
+				}
+			]
+			rewards: [
+				{
+					id: "5BB73F3CA0130A5C"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "2FA157EEE90624B3"
+					type: "command"
+					title: "3 brasas de talento (+3 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 3"
+				}
+				{
+					id: "3CFA84325C3B6C30"
+					type: "xp"
+					xp: 15000
+				}
+			]
+			title: "Cem Horas Juntos"
+			subtitle: "&6Desafio &8(continuação)"
+			description: [
+				"&7Cem horas de caminhada, de brigas, de risadas e de mortes bobas. A companhia virou família."
+				""
+				"&6Desafio:&r Jogue &6100 horas&r neste mundo."
+			]
+			optional: true
+		}
+		{
 			id: "76E5B2074450681B"
 			x: 39.2d
 			y: -2.3d
@@ -2437,6 +6210,225 @@
 				"&7Quem já invocou um dragão sabe: sempre bom ter quatro cristais guardados, só por precaução."
 				""
 				"&aDesafio simples:&r Faça &64 cristais do End&r."
+			]
+			optional: true
+		}
+		{
+			id: "622EB1BB1785CC4D"
+			x: 39.2d
+			y: -4.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:dragon_breath"
+			}
+			dependencies: [
+				"76E5B2074450681B"
+			]
+			tasks: [
+				{
+					id: "6C8D672D516B5A70"
+					type: "structure"
+					structure: "stellarity:obsidian_spike"
+				}
+				{
+					id: "3EDC8A0AF047D0B7"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "38994083A6B2AC0E"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "5B4B78AF09382507"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			title: "Espinhos de Obsidiana"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Os espinhos que sustentam os cristais ainda estão de pé. O hálito do dragão ainda flutua no ar."
+				""
+				"&aDesafio simples:&r Suba num &5espinho de obsidiana&r e engarrafe &616 hálitos de dragão&r."
+			]
+			optional: true
+		}
+		{
+			id: "5A562E3EACA45A3A"
+			x: 39.2d
+			y: -6.3d
+			shape: "circle"
+			size: 0.9d
+			icon: {
+				count: 1
+				id: "minecraft:jukebox"
+			}
+			dependencies: [
+				"622EB1BB1785CC4D"
+			]
+			tasks: [
+				{
+					id: "1A863E42D46D6DB7"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_13"
+					}
+					count: 1L
+				}
+				{
+					id: "6EB5152D26EA41D8"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_cat"
+					}
+					count: 1L
+				}
+				{
+					id: "7FFC6924B9471175"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_blocks"
+					}
+					count: 1L
+				}
+				{
+					id: "54E04FC29D510703"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_chirp"
+					}
+					count: 1L
+				}
+				{
+					id: "61E3A7AC9DAB0491"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_far"
+					}
+					count: 1L
+				}
+				{
+					id: "32E75D8E5220DC3F"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_mall"
+					}
+					count: 1L
+				}
+				{
+					id: "0D2E90E3EE7D9FFC"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_mellohi"
+					}
+					count: 1L
+				}
+				{
+					id: "2AE4CA342E03652C"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_stal"
+					}
+					count: 1L
+				}
+				{
+					id: "3BEADA7E6B61111A"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_strad"
+					}
+					count: 1L
+				}
+				{
+					id: "30AEC458708D5F40"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_ward"
+					}
+					count: 1L
+				}
+				{
+					id: "359A0CB8F2BD97DA"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_wait"
+					}
+					count: 1L
+				}
+				{
+					id: "75B455AE4AF349CD"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_pigstep"
+					}
+					count: 1L
+				}
+				{
+					id: "409818755C63CFAC"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_otherside"
+					}
+					count: 1L
+				}
+				{
+					id: "0FCF2253D98FF598"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_relic"
+					}
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1EADB7F2F15287FC"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "27A39376D7690924"
+					type: "xp"
+					xp: 4000
+				}
+			]
+			title: "A Discoteca"
+			subtitle: "&aDesafio simples &8(continuação)"
+			description: [
+				"&7Catorze canções espalhadas pelo mundo: em baús, em ruínas, nas mãos de creepers azarados."
+				"&7Uma companhia que chegou até aqui merece música."
+				""
+				"&aDesafio simples:&r Junte &614 discos de música&r diferentes."
 			]
 			optional: true
 		}

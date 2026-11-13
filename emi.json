@@ -280,6 +280,7 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "minecraft:bone_meal",
     "create:crafting/kinetics/mechanical_mixer",
     "create:crafting/kinetics/whisk",
     "born_in_chaos_v1:evilometer_craft",
@@ -291,7 +292,6 @@
     "born_in_chaos_v1:pileof_dark_metal_d",
     "born_in_chaos_v1:spiritual_gingerbread_craft",
     "born_in_chaos_v1:spiritual_dust_k",
-    "minecraft:bone_meal",
     "biomeswevegone:zelkova_planks",
     "iceandfire:silver_axe",
     "subwild:gravel",
