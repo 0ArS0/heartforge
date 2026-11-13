@@ -4790,10 +4790,6 @@ hash = "1e5baa875af59f38eb7c495cf32f5234fba6d2a9c2a6d6cd01b9551a9714a7a8"
 metafile = true
 
 [[files]]
-file = "mods/map-3d-usseewa-neoforge-1.21.1-1.0.0.jar"
-hash = "30fa493f8e1b6c0d2ec245f13d37b5d2bc8a2a952bd427865c9a3d1e3f814cc3"
-
-[[files]]
 file = "mods/mcw-bridges-3.1.2-mc1.21.1neoforge.pw.toml"
 hash = "e4dd41fdd5a519e07afe552cc9339bc098c91a335f3e8d30b4678447c7556c81"
 metafile = true
@@ -5168,7 +5164,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "7ecb41e66ed61f3bb387cefdef5a4bbc28a8c6131f7b8601cde32be4f06cd0d1"
+hash = "40f31cdfe0a10b28bb82728db8ee2393e3d7ab778163c412599389df6fa9c4e9"
 preserve = true
 
 [[files]]
