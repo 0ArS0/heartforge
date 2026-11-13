@@ -2382,6 +2382,14 @@ file = "config/lss-server-config.yaml"
 hash = "7964b5c7f25c58194f3452d4674de06224e59f79fc11d3554ee72bfbe6bca8be"
 
 [[files]]
+file = "config/map_atlases-client.toml"
+hash = "17db939fa098124e1d9e061d5f3307c8f4a4dd3058e2cdfc89d687bd42e1ca74"
+
+[[files]]
+file = "config/map_atlases-common.toml"
+hash = "f45180916d68ca3e8e8220f78c02d2cd598b8be88794f9ffd9e1a6fd1be32ad7"
+
+[[files]]
 file = "config/mas_config.json5"
 hash = "57884ff77a61332e35d20b60297e092b0a469d1d75464fdd8beb632f8b746b2f"
 
@@ -4455,6 +4463,11 @@ hash = "8675671b0fbb04b69446f0fd8a28c1a7f891cff78390d352dc722965a2fe1cb2"
 [[files]]
 file = "mods/lootr-neoforge-1.21.1-1.11.38.127.pw.toml"
 hash = "1e5baa875af59f38eb7c495cf32f5234fba6d2a9c2a6d6cd01b9551a9714a7a8"
+metafile = true
+
+[[files]]
+file = "mods/map_atlases-1.21-7.0.1-neoforge.pw.toml"
+hash = "7d233625f20e2ad22caf3f934ef43284013f10646660f63384911a1b6f88df20"
 metafile = true
 
 [[files]]

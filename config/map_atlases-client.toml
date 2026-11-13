@@ -1,0 +1,6 @@
+[minimap]
+	#Heartforge: no HUD minimap and no coordinates/biome readout; the atlas is only what you mapped yourself
+	enabled = false
+	coordinate_text = false
+	chunk_coordinate_text = false
+	biome_text = false
