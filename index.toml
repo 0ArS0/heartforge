@@ -4586,7 +4586,7 @@ metafile = true
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "8920eae53076e3cfffdbf1a9e9fded10850c0859e39e66c3c4ce4626170a6a0b"
+hash = "eb9685511088a94672e1b28183125f8be07a37cc1a89649e831fb9f838ba365a"
 
 [[files]]
 file = "mods/iceandfirexbettercombat-1.21.1.jar"
@@ -5233,7 +5233,7 @@ hash = "6277293f1600341729ae134aada8f0b0656837b348fad092ba2c7c1f0d675e20"
 
 [[files]]
 file = "resourcepacks/Heartforge Racas.zip"
-hash = "f8bdfa58b1bf6737cc50cb59cbdf7459ed202379aa02982df72609ed20359227"
+hash = "c1fe19ed9ce9fefa3112ce9d3108ebed8d7bba0854c59a55d27d9acbf40d5c8d"
 
 [[files]]
 file = "resourcepacks/HyperPunchy-v2.5+.zip.rpo"
