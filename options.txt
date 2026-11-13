@@ -138,7 +138,7 @@ key_keybind.name.EMOTE_SLOT_5:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
-key_keybind.name.ZOOM:key.keyboard.c
+key_keybind.name.ZOOM:key.keyboard.unknown
 key_key.puffish_skills.open:key.keyboard.k
 key_key.custom_glow_enchantment_outline.open_config:key.keyboard.f7
 key_key.toggle_flight:key.keyboard.y
@@ -493,3 +493,4 @@ modelPart_right_sleeve:false
 modelPart_left_pants_leg:false
 modelPart_right_pants_leg:false
 modelPart_hat:false
+key_key.ok_zoomer.zoom:key.keyboard.c

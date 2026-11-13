@@ -2054,7 +2054,7 @@ hash = "ce3420032fefc3616fea56dc4689192b27c55f3de2300a87b5178a0bdd254b2c"
 
 [[files]]
 file = "config/heartforge/teclas.txt"
-hash = "b4a0cbe813639ee8ceaf285adc0381eb93bcdd0a549cf82702f07896ecc62b9e"
+hash = "3389407256029f0d15d8c8b151c7a81416a1a853ce09e1c4936ba636ef53ea7d"
 
 [[files]]
 file = "config/heartforge_racas.enabled"
@@ -4523,6 +4523,11 @@ file = "mods/oddities-1.0.0-neoforge-1.21.1.jar"
 hash = "9cce89c5c516c4058cedd82be60fb183cab5f71ea13f8874fc55ea7dd24daee1"
 
 [[files]]
+file = "mods/ok_zoomer-neo-10.0.0-beta.13.pw.toml"
+hash = "bc4111f4f89947bbf9bf4c0948b687133c8f12dff6e22b492b919ed2f0b48bbd"
+metafile = true
+
+[[files]]
 file = "mods/optiboxes-neoforge-1.21.1-1.4.jar"
 hash = "4136b7ac87a89819f3185140d40898f478ced20fa9c536f5903ff472c6e5e18f"
 
@@ -4824,7 +4829,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "6e6cbc731c564e54f406fcfa43910cd17dd140b215a75e0964c2af0f6f15de48"
+hash = "ea58acaac302b6c46e0f0fcdea8ec843b68335d15c4751a2d1d01205ece3c380"
 preserve = true
 
 [[files]]
