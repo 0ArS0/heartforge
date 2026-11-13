@@ -15,5 +15,10 @@
   "toggleSortSpecialItem": true,
   "toggleAlignEnchantments": true,
   "toggleUniformColor": false,
-  "uniformColorType": "AQUA"
+  "uniformColorType": "AQUA",
+  "toggleDurabilityNotifications": false,
+  "toggleDurabilityToastNotification": false,
+  "toggleDurabilitySoundNotification": false,
+  "toggleRepeatedDurabilityNotifications": false,
+  "toggleDurabilityOverlay": false
 }
