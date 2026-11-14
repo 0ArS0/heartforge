@@ -1,0 +1,18 @@
+# Bornal na mao em primeira pessoa (braco animado). Pode editar com o jogo aberto: vale em 1 segundo.
+# x, y, z: deslocamento a partir da mao (x = para o lado de fora, y = para cima, z = para perto de voce)
+x=-0.02
+y=0
+z=0
+# giro: quanto a frente vira para o centro da tela; inclina: quanto o topo tomba para voce (graus)
+giro=20
+inclina=8
+tamanho=0.85
+# ponto da bolsa que apoia na mao (em cubinhos: x 4..28, y 1..18, z 11..20)
+apoio_x=16
+apoio_y=5
+apoio_z=19.5
+# alca: quanto a alca cai para tras (graus)
+alca=32
+# ao abrir: inclinacao extra e subida
+abrir_inclina=22
+abrir_y=0.03

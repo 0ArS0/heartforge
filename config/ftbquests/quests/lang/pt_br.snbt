@@ -2803,6 +2803,7 @@
 		""
 		"&7Comece pelas flores místicas que brotam na grama, e escreva tudo no Lexica Botania."
 	]
+	"task.5932C15498A1FF35.title": "8 pétalas místicas de uma mesma cor"
 	"quest.6AE71DBF49D3C441.title": "Pétalas que brilham"
 	"quest.6AE71DBF49D3C441.quest_desc": [
 		"&7Nas campinas e florestas crescem flores que não deveriam existir: brilham de leve à noite, como se"
@@ -2812,7 +2813,7 @@
 		"&6Objetivo:&r 1. Encontre e colha uma &6Flor Mística&r (Mystical Flower) na grama de quase qualquer bioma."
 		"&f2. Crie o &6Lexica Botania&r: um livro e uma muda de qualquer árvore, sem forma."
 		"&f3. Abra o Lexicon e leia as primeiras páginas."
-		"&f4. Desfaça flores na bancada: cada uma rende 2 &6pétalas místicas&r. Junte 8 brancas."
+		"&f4. Desfaça flores na bancada: cada uma rende 2 &6pétalas místicas&r. Junte 8 de uma mesma cor, qualquer que seja."
 		""
 		"&8Farinha de osso numa flor mística a faz crescer alta: a flor alta rende 4 pétalas."
 		"&8Pétalas também viram corante, e qualquer cor serve onde a receita pede só \"pétala\"."

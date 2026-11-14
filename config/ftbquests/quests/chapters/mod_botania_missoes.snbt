@@ -88,12 +88,14 @@
 				}
 				{
 					id: "5932C15498A1FF35"
-					type: "item"
-					item: {
+					type: "advancement"
+					advancement: "comamigos_balance:quests/petalas"
+					criterion: ""
+					title: "8 pétalas místicas de uma mesma cor"
+					icon: {
 						count: 1
-						id: "botania:white_petal"
+						id: "botania:pink_petal"
 					}
-					count: 8L
 				}
 			]
 			rewards: [
@@ -112,7 +114,7 @@
 				"&6Objetivo:&r 1. Encontre e colha uma &6Flor Mística&r (Mystical Flower) na grama de quase qualquer bioma."
 				"&f2. Crie o &6Lexica Botania&r: um livro e uma muda de qualquer árvore, sem forma."
 				"&f3. Abra o Lexicon e leia as primeiras páginas."
-				"&f4. Desfaça flores na bancada: cada uma rende 2 &6pétalas místicas&r. Junte 8 brancas."
+				"&f4. Desfaça flores na bancada: cada uma rende 2 &6pétalas místicas&r. Junte 8 de uma mesma cor, qualquer que seja."
 				""
 				"&8Farinha de osso numa flor mística a faz crescer alta: a flor alta rende 4 pétalas."
 				"&8Pétalas também viram corante, e qualquer cor serve onde a receita pede só \"pétala\"."
