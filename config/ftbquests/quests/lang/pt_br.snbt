@@ -9440,19 +9440,15 @@
 		""
 		"&8A Melhoria de Incepção permite mochilas dentro de mochilas, com as melhorias somadas."
 	]
-	"quest.3F8A96B6736FEC99.title": "O Armazém do Mercador"
+	"quest.3F8A96B6736FEC99.title": "O Armazém do Intendente"
 	"quest.3F8A96B6736FEC99.quest_desc": [
-		"&7O armazém de um mercador honesto: tudo etiquetado, tudo no lugar, e uma só porta para cem baús."
-		"&7Os baús sofisticados crescem sem precisar ser esvaziados, aceitam melhorias como as mochilas,"
-		"&7e o cofre do canto só reconhece a mão de quem o fechou."
+		"&7Baús espalhados pela casa são o começo de toda bagunça."
+		"&7Um bom intendente liga todos a um só balcão, e de lá enxerga cada prego guardado."
 		""
-		"&6Objetivo:&r 1. Faça um &6Baú&r e um &6Barril&r sofisticados."
-		"&f2. Faça uma &6Melhoria de Nível Básico para Ferro&r e use-a sobre o baú posto: ele cresce sem perder nada."
-		"&f3. Faça um &6Controlador de Armazém&r e encoste-o nos baús: todos viram um só inventário."
-		"&f4. Faça um &6Elo de Armazém&r: liga baús distantes ao controlador."
-		"&f5. Faça um &6Cofre&r: só o dono abre, e ele mantém o conteúdo ao ser quebrado."
-		""
-		"&8A escada de níveis segue: cobre, ferro, ouro, diamante e netherite."
+		"&6Objetivo:&r 1. Faça um &6Conector de Inventário&r e encoste nele seus baús e barris."
+		"&f2. Faça um &6Terminal de Armazém&r e ponha-o junto: dele você vê e tira tudo de uma vez."
+		"&f3. Faça &6Cabos de Inventário&r para alcançar baús mais distantes."
+		"&f4. Faça um &6Cofre&r: só o dono abre, e ele mantém o conteúdo ao ser quebrado."
 	]
 	"quest.115AB8DEF203209D.title": "Pólvora e Estrondo"
 	"quest.115AB8DEF203209D.quest_subtitle": "&8Opcional"
@@ -9581,17 +9577,15 @@
 		""
 		"&8Artefatos saem de mímicos, acampamentos nas cavernas, baús de estruturas e areia suspeita."
 	]
-	"quest.0F37E7B9A973D0F1.title": "Trancas e Mudanças"
+	"quest.0F37E7B9A973D0F1.title": "Trancas e Balcão"
 	"quest.0F37E7B9A973D0F1.quest_subtitle": "&8Opcional"
 	"quest.0F37E7B9A973D0F1.quest_desc": [
 		"&7Uma porta trancada diz: confio em você, mas nem tanto."
-		"&7E mudar de casa sem esvaziar os baús é o luxo dos mercadores: basta fita e paciência."
+		"&7E por que buscar no baú o que a bancada já enxerga?"
 		""
 		"&6Objetivo:&r 1. Faça uma &6Chave&r e um &6Bloco de Fechadura&r: portas e sinais trancados só abrem com a chave certa."
-		"&f2. Faça um &6Barril Limitado&r: até quatro divisões, cada uma com um tipo de item em enorme quantidade."
-		"&f3. Faça &6Fita de Embalagem&r e use-a num baú sofisticado para levá-lo sem perder o conteúdo."
-		""
-		"&8O Pincel e a Mesa de Decoração tingem e reformam baús, barris e caixas shulker."
+		"&f2. Faça um &6Terminal de Fabricação&r: uma bancada que usa direto os itens do armazém."
+		"&f3. Faça um &6Terminal sem Fio&r: abre o armazém à distância, perto de casa."
 	]
 	"quest.4DC88D7680E8FD32.title": "&aTier II&7 - Achados das Cavernas"
 	"quest.4DC88D7680E8FD32.quest_desc": [

@@ -651,7 +651,7 @@
 			size: 1.25d
 			icon: {
 				count: 1
-				id: "sophisticatedstorage:controller"
+				id: "toms_storage:storage_terminal"
 			}
 			dependencies: [
 				"42B5F49DA8C98AE8"
@@ -662,7 +662,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "sophisticatedstorage:chest"
+						id: "toms_storage:inventory_connector"
 					}
 					count: 1L
 				}
@@ -671,7 +671,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "sophisticatedstorage:barrel"
+						id: "toms_storage:storage_terminal"
 					}
 					count: 1L
 				}
@@ -680,30 +680,12 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+						id: "toms_storage:inventory_cable"
 					}
 					count: 1L
 				}
 				{
 					id: "4BA222F438F179C4"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:controller"
-					}
-					count: 1L
-				}
-				{
-					id: "0C38C73BD6124CAC"
-					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:storage_link"
-					}
-					count: 1L
-				}
-				{
-					id: "1244CD9B2E7F3C9D"
 					type: "item"
 					item: {
 						count: 1
@@ -716,30 +698,18 @@
 				{
 					id: "6BD7D08CBFF172A3"
 					type: "xp"
-					xp: 300
-				}
-				{
-					id: "211B22E5D875E121"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:loot_bag_comum"
-					}
+					xp: 200
 				}
 			]
-			title: "O Armazém do Mercador"
+			title: "O Armazém do Intendente"
 			description: [
-				"&7O armazém de um mercador honesto: tudo etiquetado, tudo no lugar, e uma só porta para cem baús."
-				"&7Os baús sofisticados crescem sem precisar ser esvaziados, aceitam melhorias como as mochilas,"
-				"&7e o cofre do canto só reconhece a mão de quem o fechou."
+				"&7Baús espalhados pela casa são o começo de toda bagunça."
+				"&7Um bom intendente liga todos a um só balcão, e de lá enxerga cada prego guardado."
 				""
-				"&6Objetivo:&r 1. Faça um &6Baú&r e um &6Barril&r sofisticados."
-				"&f2. Faça uma &6Melhoria de Nível Básico para Ferro&r e use-a sobre o baú posto: ele cresce sem perder nada."
-				"&f3. Faça um &6Controlador de Armazém&r e encoste-o nos baús: todos viram um só inventário."
-				"&f4. Faça um &6Elo de Armazém&r: liga baús distantes ao controlador."
-				"&f5. Faça um &6Cofre&r: só o dono abre, e ele mantém o conteúdo ao ser quebrado."
-				""
-				"&8A escada de níveis segue: cobre, ferro, ouro, diamante e netherite."
+				"&6Objetivo:&r 1. Faça um &6Conector de Inventário&r e encoste nele seus baús e barris."
+				"&f2. Faça um &6Terminal de Armazém&r e ponha-o junto: dele você vê e tira tudo de uma vez."
+				"&f3. Faça &6Cabos de Inventário&r para alcançar baús mais distantes."
+				"&f4. Faça um &6Cofre&r: só o dono abre, e ele mantém o conteúdo ao ser quebrado."
 			]
 		}
 		{
@@ -1635,7 +1605,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "sophisticatedstorage:limited_barrel_1"
+						id: "toms_storage:crafting_terminal"
 					}
 					count: 1L
 				}
@@ -1644,7 +1614,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "sophisticatedstorage:packing_tape"
+						id: "toms_storage:wireless_terminal"
 					}
 					count: 1L
 				}
@@ -1664,17 +1634,15 @@
 					}
 				}
 			]
-			title: "Trancas e Mudanças"
+			title: "Trancas e Balcão"
 			subtitle: "&8Opcional"
 			description: [
 				"&7Uma porta trancada diz: confio em você, mas nem tanto."
-				"&7E mudar de casa sem esvaziar os baús é o luxo dos mercadores: basta fita e paciência."
+				"&7E por que buscar no baú o que a bancada já enxerga?"
 				""
 				"&6Objetivo:&r 1. Faça uma &6Chave&r e um &6Bloco de Fechadura&r: portas e sinais trancados só abrem com a chave certa."
-				"&f2. Faça um &6Barril Limitado&r: até quatro divisões, cada uma com um tipo de item em enorme quantidade."
-				"&f3. Faça &6Fita de Embalagem&r e use-a num baú sofisticado para levá-lo sem perder o conteúdo."
-				""
-				"&8O Pincel e a Mesa de Decoração tingem e reformam baús, barris e caixas shulker."
+				"&f2. Faça um &6Terminal de Fabricação&r: uma bancada que usa direto os itens do armazém."
+				"&f3. Faça um &6Terminal sem Fio&r: abre o armazém à distância, perto de casa."
 			]
 			optional: true
 		}
