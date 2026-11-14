@@ -3,6 +3,7 @@
   "name": "The right order (1)",
   "overrides": {},
   "packIds": [
+    "file/hf_bornal_teste",
     "file/Heartforge Racas.zip",
     "file/Heartforge - Ajustes.zip",
     "black_icons",
