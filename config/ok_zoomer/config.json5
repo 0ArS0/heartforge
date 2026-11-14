@@ -38,7 +38,7 @@
 	appearance: {
 		// Retains the interface when zooming.
 		// default: false
-		persistent_interface: false,
+		persistent_interface: true,
 		// Hides the crosshair while zooming.
 		// default: true
 		hide_crosshair: true,
