@@ -4,194 +4,108 @@
 	filename: "mod_bic_missoes"
 	group: "429D481FF148D2D9"
 	icon: {
-		count: 1
 		id: "born_in_chaos_v1:dark_metal_ingot"
 	}
 	id: "60E021B38A174078"
-	order_index: 21
+	images: [ ]
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
 			id: "6A37A99F90E7449F"
-			x: -3.0d
-			y: 0.0d
+			rewards: [{
+				id: "143F6376C2AC7F07"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "square"
 			size: 2.0d
-			icon: {
-				count: 1
-				id: "born_in_chaos_v1:dark_metal_ingot"
-			}
-			tasks: [
-				{
-					id: "1EA8228D108FA004"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "143F6376C2AC7F07"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "Crônica do Caos"
-			description: [
-				"&7Houve um tempo em que a noite trazia apenas zumbis lentos e esqueletos tortos."
-				"&7Depois veio o Caos: espíritos que possuem os vivos, cães do pavor, palhaços mortos,"
-				"&7abóboras que andam e cavaleiros caídos que ainda carregam metal sombrio nos ossos."
-				""
-				"&7Esta crônica cataloga cada horror e o que se pode arrancar dele."
-				"&7Comece sobrevivendo a uma noite, e depois guarde o primeiro pedaço de metal sombrio."
-			]
+			tasks: [{
+				id: "1EA8228D108FA004"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			id: "415F9CC6559614A4"
-			x: 1.0d
-			y: 0.0d
-			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"6A37A99F90E7449F"
-			]
+			dependencies: ["6A37A99F90E7449F"]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:dark_metal_ingot"
 			}
+			id: "415F9CC6559614A4"
+			rewards: [{
+				id: "657488B9A616AE39"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
+					entity: "born_in_chaos_v1:decaying_zombie"
 					id: "172D6DE15DA7EE60"
 					type: "kill"
-					entity: "born_in_chaos_v1:decaying_zombie"
 					value: 1L
 				}
 				{
+					entity: "born_in_chaos_v1:barrel_zombie"
 					id: "721D16B354F2A0B0"
 					type: "kill"
-					entity: "born_in_chaos_v1:barrel_zombie"
 					value: 1L
 				}
 				{
+					entity: "born_in_chaos_v1:zombie_bruiser"
 					id: "5B380C0574157F2A"
 					type: "kill"
-					entity: "born_in_chaos_v1:zombie_bruiser"
 					value: 1L
 				}
 				{
+					entity: "born_in_chaos_v1:decrepit_skeleton"
 					id: "11F419C262D1504B"
 					type: "kill"
-					entity: "born_in_chaos_v1:decrepit_skeleton"
 					value: 1L
 				}
 				{
+					entity: "born_in_chaos_v1:skeleton_thrasher"
 					id: "298F487115B98BD1"
 					type: "kill"
-					entity: "born_in_chaos_v1:skeleton_thrasher"
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "657488B9A616AE39"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "A primeira noite do Caos"
-			description: [
-				"&7A primeira noite depois do Caos não se parece com nenhuma outra."
-				"&7Uns mortos apodrecem andando, outros se escondem em barris, outros ganharam músculos que nenhum vivo teria."
-				"&7Os esqueletos também mudaram: o Decrépito mal se segura de pé, o Esmagador carrega escudo e martelo."
-				"&7Quase todas as criaturas desta crônica nascem em qualquer bioma, à noite ou no escuro."
-				""
-				"&6Objetivo:&r 1. Abata um &6Zumbi Decadente&r, um &6Zumbi do Barril&r e um &6Zumbi Brutamontes&r."
-				"&f2. Abata um &6Esqueleto Decrépito&r e um &6Esqueleto Esmagador&r."
-				""
-				"&8O Zumbi do Barril surge perto da água e larga tesouros do mar, às vezes até diamantes."
-				"&8O Esmagador pode deixar cair o Martelo Quebra-Crânios e pedaços de metal sombrio."
-			]
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			id: "1C80A4436F3FA0F8"
-			x: 4.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["415F9CC6559614A4"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			dependencies: [
-				"415F9CC6559614A4"
-			]
-			tasks: [
-				{
-					id: "786BA640FD961BC1"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
+			id: "1C80A4436F3FA0F8"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				icon: {
+					id: "minecraft:compass"
 				}
-			]
-			rewards: [ ]
-			title: "&7Tier I&7 - A Noite Apodrecida"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "786BA640FD961BC1"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			id: "5481D386D057C81F"
-			x: 6.0d
-			y: -3.21d
-			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"1C80A4436F3FA0F8"
-			]
+			dependencies: ["1C80A4436F3FA0F8"]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:dark_metal_ingot"
 			}
-			tasks: [
-				{
-					id: "134632730D8046AA"
-					type: "kill"
-					entity: "born_in_chaos_v1:zombie_fisherman"
-					value: 1L
-				}
-				{
-					id: "667746B5623EE384"
-					type: "kill"
-					entity: "born_in_chaos_v1:zombie_lumberjack"
-					value: 1L
-				}
-				{
-					id: "0223A2E1A90E4CEB"
-					type: "kill"
-					entity: "born_in_chaos_v1:door_knight"
-					value: 1L
-				}
-				{
-					id: "23EB6699E6351FC9"
-					type: "kill"
-					entity: "born_in_chaos_v1:siamese_skeletons"
-					value: 1L
-				}
-				{
-					id: "2DE80425AB99BE4A"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:good_demoman"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-			]
+			id: "5481D386D057C81F"
 			rewards: [
 				{
 					id: "06C843D9DD32CEA0"
@@ -200,87 +114,59 @@
 				}
 				{
 					id: "50519766A4E19316"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Ofícios que não morreram"
-			description: [
-				"&7O pescador ainda segura a vara e o lenhador ainda arrasta o machado. A morte não lhes tirou o costume."
-				"&7Um camponês fez de uma porta de tela o seu escudo e guarda as Torres de Vigia de argila negra."
-				"&7Dois esqueletos costurados pela coluna marcham juntos, e o artilheiro morto ri antes de explodir."
-				""
-				"&6Objetivo:&r 1. Abata um &6Zumbi Pescador&r e um &6Zumbi Lenhador&r."
-				"&f2. Abata um &6Cavaleiro da Porta&r nas &6Torres de Vigia&r."
-				"&f3. Abata os &6Esqueletos Siameses&r: quando um cai, o outro segue mais furioso."
-				"&f4. Derrote o &6Esqueleto Demolidor&r, que atira bombas e explode ao cair. Lute de longe."
-				""
-				"&8O lenhador deixa o Rachador de Lenha; o Cavaleiro da Porta, o Forcado; o Demolidor, um chapéu amaldiçoado."
-			]
-		}
-		{
-			id: "266D4A32D75F321E"
-			x: 6.0d
-			y: -1.61d
 			shape: "diamond"
 			size: 1.25d
-			dependencies: [
-				"1C80A4436F3FA0F8"
-			]
-			icon: {
-				count: 1
-				id: "born_in_chaos_v1:spiny_shell"
-			}
 			tasks: [
 				{
-					id: "3C7DF21C5C574DD9"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:horrorofthe_depths"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:spiny_shell"
-					}
-				}
-				{
-					id: "374D435A2CEB20FA"
+					entity: "born_in_chaos_v1:zombie_fisherman"
+					id: "134632730D8046AA"
 					type: "kill"
-					entity: "born_in_chaos_v1:corpse_fish"
 					value: 1L
 				}
 				{
-					id: "40896BD2DAB3BC98"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:disgusting_lootbox"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:spiny_shell"
-					}
+					entity: "born_in_chaos_v1:zombie_lumberjack"
+					id: "667746B5623EE384"
+					type: "kill"
+					value: 1L
 				}
 				{
-					id: "0F5966F16BDCFC67"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:waste_recycler"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:spiny_shell"
-					}
+					entity: "born_in_chaos_v1:door_knight"
+					id: "0223A2E1A90E4CEB"
+					type: "kill"
+					value: 1L
 				}
 				{
-					id: "282C1551D80E3AB8"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:spiny_shell"
+					entity: "born_in_chaos_v1:siamese_skeletons"
+					id: "23EB6699E6351FC9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "born_in_chaos_v1:good_demoman"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
 					}
-					count: 8L
+					id: "2DE80425AB99BE4A"
+					type: "advancement"
 				}
 			]
+			x: 6.0d
+			y: -3.21d
+		}
+		{
+			dependencies: ["1C80A4436F3FA0F8"]
+			icon: {
+				id: "born_in_chaos_v1:spiny_shell"
+			}
+			id: "266D4A32D75F321E"
 			rewards: [
 				{
 					id: "2954DB3D018EF7BD"
@@ -289,252 +175,171 @@
 				}
 				{
 					id: "68AB077584941332"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Horror das profundezas"
-			description: [
-				"&7O Peixe Glutão engole o que cai na água, e às vezes engole coisas que não deveria:"
-				"&7dentro do estômago dele há anéis, ossos e tesouros de afogados."
-				"&7Nas margens, o Caranguejo-Espinhoso come o que os outros jogam fora e devolve uma carapaça que fere quem a golpeia."
-				""
-				"&6Objetivo:&r 1. Abata um &6Peixe Glutão&r e um &6Peixe-Cadáver&r em rios ou no mar."
-				"&f2. Rasgue um &6Estômago de Peixe Glutão&r (use-o na mão)."
-				"&f3. Alimente um &6Caranguejo-Espinhoso&r com carne ou peixe podre (praias, rios e pântanos)."
-				"&f4. Junte &68 Carapaças Espinhosas&r abatendo Caranguejos-Espinhosos."
-				""
-				"&8O olho do glutão, comido, enche o fôlego; no suporte de poções vira respiração aquática longa. Duas carapaças fazem uma armadilha espinhosa."
-			]
-		}
-		{
-			id: "50BAEAD6786FA6BA"
-			x: 6.0d
-			y: -0.01d
 			shape: "diamond"
 			size: 1.25d
-			dependencies: [
-				"1C80A4436F3FA0F8"
-			]
-			icon: {
-				count: 1
-				id: "born_in_chaos_v1:pileof_dark_metal"
-			}
 			tasks: [
 				{
-					id: "7211DE8FF9C7BD2B"
+					advancement: "born_in_chaos_v1:horrorofthe_depths"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:spiny_shell"
+					}
+					id: "3C7DF21C5C574DD9"
 					type: "advancement"
+				}
+				{
+					entity: "born_in_chaos_v1:corpse_fish"
+					id: "374D435A2CEB20FA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "born_in_chaos_v1:disgusting_lootbox"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:spiny_shell"
+					}
+					id: "40896BD2DAB3BC98"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:waste_recycler"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:spiny_shell"
+					}
+					id: "0F5966F16BDCFC67"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "282C1551D80E3AB8"
+					item: { count: 1, id: "born_in_chaos_v1:spiny_shell" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.61d
+		}
+		{
+			dependencies: ["1C80A4436F3FA0F8"]
+			icon: {
+				id: "born_in_chaos_v1:pileof_dark_metal"
+			}
+			id: "50BAEAD6786FA6BA"
+			rewards: [{
+				id: "63202D6206E68B05"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
 					advancement: "born_in_chaos_v1:dark_metallurgy"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:pileof_dark_metal"
 					}
+					id: "7211DE8FF9C7BD2B"
+					type: "advancement"
 				}
 				{
+					entity: "born_in_chaos_v1:fallen_chaos_knight"
 					id: "7CFF1A8A6864CAFE"
 					type: "kill"
-					entity: "born_in_chaos_v1:fallen_chaos_knight"
 					value: 1L
 				}
 				{
 					id: "56D2A1FBD0F01094"
+					item: { count: 1, id: "born_in_chaos_v1:pileof_dark_metal" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:pileof_dark_metal"
-					}
-					count: 1L
 				}
 				{
-					id: "21D2D5965256F09B"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
 					count: 4L
-				}
-				{
-					id: "24B7D93F477E07DF"
+					id: "21D2D5965256F09B"
+					item: { count: 1, id: "born_in_chaos_v1:dark_metal_ingot" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:fired_black_argillite"
-					}
-					count: 8L
 				}
-			]
-			rewards: [
 				{
-					id: "63202D6206E68B05"
-					type: "xp"
-					xp: 250
+					count: 8L
+					id: "24B7D93F477E07DF"
+					item: { count: 1, id: "born_in_chaos_v1:fired_black_argillite" }
+					type: "item"
 				}
 			]
-			title: "Metalurgia sombria"
-			description: [
-				"&7O metal sombrio não nasce na rocha comum: acumula-se nos corpos de quem serviu ao Caos"
-				"&7e nos veios das Torres Sombrias e dos Poços de Fogo."
-				"&7Nove lascas fazem um monte; o monte, no fogo forte, vira um lingote escuro como piche e frio ao toque."
-				"&7Os construtores do Caos erguem suas torres com uma argila negra que endurece no fogo como ferro."
-				""
-				"&6Objetivo:&r 1. Obtenha um &6Pedaço de Metal Sombrio&r de cavaleiros caídos, esmagadores, invocadores, baús ou &6Depósitos de Metal Sombrio&r."
-				"&f2. Abata um &6Cavaleiro do Caos Caído&r: a melhor fonte de pilhas de metal e do Molde de Melhoria Sombria."
-				"&f3. Junte 9 pedaços numa &6Pilha de Metal Sombrio&r."
-				"&f4. Funda a pilha num &6Alto-Forno&r até ter &64 lingotes&r (pedaços soltos viram pepitas; 9 pepitas = 1 lingote)."
-				"&f5. Queime &68 Argilas Negras&r (quartzo, argila e 2 pedregulhos de ardósia) na fornalha."
-				""
-				"&8A argila rende tijolos, colunas, lampiões e vitrais. A variante amaldiçoada das torres não pode ser recolhida."
-			]
+			x: 6.0d
+			y: -0.01d
 		}
 		{
-			id: "42EE829680649A76"
-			x: 6.0d
-			y: 1.59d
-			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"1C80A4436F3FA0F8"
-			]
+			dependencies: ["1C80A4436F3FA0F8"]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:hound_trap"
 			}
+			id: "42EE829680649A76"
+			rewards: [{
+				id: "16437757CB630E5D"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
+					entity: "born_in_chaos_v1:dread_hound"
 					id: "23CBF2C6BAA2AA21"
 					type: "kill"
-					entity: "born_in_chaos_v1:dread_hound"
 					value: 3L
 				}
 				{
-					id: "44AE8F4CA28E3326"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:big_boy"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:hound_trap"
 					}
+					id: "44AE8F4CA28E3326"
+					type: "advancement"
 				}
 				{
 					id: "4CB5D6F7AC508C6E"
+					item: { count: 1, id: "born_in_chaos_v1:hound_trap" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:hound_trap"
-					}
-					count: 1L
 				}
 				{
-					id: "6E47DEE281CB8F0A"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:arachnophobes_nightmare"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:hound_trap"
 					}
+					id: "6E47DEE281CB8F0A"
+					type: "advancement"
 				}
 				{
-					id: "798438485253E276"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:horror_underthe_mantle"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:hound_trap"
 					}
+					id: "798438485253E276"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "16437757CB630E5D"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "Os caçadores da noite"
-			description: [
-				"&7Nos montes de ossos dormem cães que nunca ficam saciados, e o líder da matilha tem o dobro do tamanho e o triplo da fome."
-				"&7A Mãe das Aranhas carrega a ninhada nas costas e a solta inteira quando ameaçada."
-				"&7E o viajante encapuzado, quando o manto se abre, bebe a vida de quem estiver perto."
-				""
-				"&6Objetivo:&r 1. Abata &63 Cães do Pavor&r nos &6Montes dos Cães&r, cobertos de ossos roídos."
-				"&f2. Derrote o &6Líder da Matilha Terrível&r e arranque sua presa."
-				"&f3. Faça uma &6Armadilha de Cão&r: presas do líder, placa de pressão pesada e ferro."
-				"&f4. Derrote a &6Mãe das Aranhas&r e recolha suas Mandíbulas."
-				"&f5. Derrote o &6Ladrão de Vida&r em sua forma verdadeira: deixa o Osso do Ladrão de Vida."
-				""
-				"&8Os cães deixam Carne de Monstro e Pele de Monstro, que vira couro ou armadura."
-			]
+			x: 6.0d
+			y: 1.59d
 		}
 		{
-			id: "482800EE29693E75"
-			x: 6.0d
-			y: 3.19d
-			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"1C80A4436F3FA0F8"
-			]
+			dependencies: ["1C80A4436F3FA0F8"]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:fried_maggot"
 			}
-			tasks: [
-				{
-					id: "746CB6BA009806D3"
-					type: "kill"
-					entity: "born_in_chaos_v1:corpse_fly"
-					value: 1L
-				}
-				{
-					id: "4CF22A5CB3D7E489"
-					type: "kill"
-					entity: "born_in_chaos_v1:bloody_gadfly"
-					value: 1L
-				}
-				{
-					id: "7D533A14F92903F5"
-					type: "kill"
-					entity: "born_in_chaos_v1:swarmer"
-					value: 1L
-				}
-				{
-					id: "139257FC371CBF25"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:fried_maggot"
-					}
-					count: 4L
-				}
-				{
-					id: "72EA430D2B8C72D3"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:bypassingthe_expiration_date"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:fried_maggot"
-					}
-				}
-				{
-					id: "34B308A53E23F9A0"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:freshen_your_breath"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:fried_maggot"
-					}
-				}
-			]
+			id: "482800EE29693E75"
 			rewards: [
 				{
 					id: "76659EC69FB48122"
@@ -543,93 +348,65 @@
 				}
 				{
 					id: "6794FD681D7CC167"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "A despensa do sobrevivente"
-			description: [
-				"&7Onde há carne podre, há moscas; onde há moscas do Caos, há larvas famintas por mais carne."
-				"&7O faminto não escolhe banquete: larva frita estala bem, e um bom defumador faz carne podre virar ração de viagem."
-				"&7O fedor gruda na pele de quem come carne velha, e a hortelã-do-rio resolve."
-				""
-				"&6Objetivo:&r 1. Abata uma &6Mosca-de-Cadáver&r, uma &6Mutuca Sangrenta&r e um &6Enxame&r."
-				"&f2. Frite &64 Larvas de Cadáver&r na fornalha, defumador ou fogueira."
-				"&f3. Defume carne podre, &6Carne de Monstro&r ou &6Peixe Podre&r num defumador e coma o resultado."
-				"&f4. Colha &6Hortelã-do-Rio&r nas margens, faça uma &6Bala de Hortelã&r com açúcar e coma-a enquanto fede."
-				""
-				"&8A Mutuca Sangrenta deixa o Olho de Mutuca, base do Elixir de Proteção contra Insetos."
-			]
-		}
-		{
-			id: "6CF570EABC5D894B"
-			x: 8.0d
-			y: -0.81d
+			shape: "diamond"
 			size: 1.25d
-			dependencies: [
-				"50BAEAD6786FA6BA"
-			]
 			tasks: [
 				{
-					id: "517DA7A17BB7AEC7"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:ethereal_spirit"
-					}
+					entity: "born_in_chaos_v1:corpse_fly"
+					id: "746CB6BA009806D3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:bloody_gadfly"
+					id: "4CF22A5CB3D7E489"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:swarmer"
+					id: "7D533A14F92903F5"
+					type: "kill"
+					value: 1L
+				}
+				{
 					count: 4L
+					id: "139257FC371CBF25"
+					item: { count: 1, id: "born_in_chaos_v1:fried_maggot" }
+					type: "item"
 				}
 				{
-					id: "074B6EE302223561"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:the_wind_darkening"
+					advancement: "born_in_chaos_v1:bypassingthe_expiration_date"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "born_in_chaos_v1:ethereal_spirit"
+						id: "born_in_chaos_v1:fried_maggot"
 					}
-				}
-				{
-					id: "335D7E51A129FB69"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:bone_handle"
-					}
-					count: 2L
-				}
-				{
-					id: "41AFD566BB07D89F"
+					id: "72EA430D2B8C72D3"
 					type: "advancement"
-					advancement: "born_in_chaos_v1:exorcism"
+				}
+				{
+					advancement: "born_in_chaos_v1:freshen_your_breath"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "born_in_chaos_v1:ethereal_spirit"
+						id: "born_in_chaos_v1:fried_maggot"
 					}
-				}
-				{
-					id: "3BEAFC269CD6E39C"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:seedof_chaos"
-					}
-					count: 2L
-				}
-				{
-					id: "2C3248E0270A9071"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:chaos_component"
-					}
-					count: 3L
+					id: "34B308A53E23F9A0"
+					type: "advancement"
 				}
 			]
+			x: 6.0d
+			y: 3.19d
+		}
+		{
+			dependencies: ["50BAEAD6786FA6BA"]
+			id: "6CF570EABC5D894B"
 			rewards: [
 				{
 					id: "5D9A7F8801D77FFA"
@@ -638,144 +415,110 @@
 				}
 				{
 					id: "1E84D5A982BE4E0E"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Espíritos e sementes"
-			description: [
-				"&7Almas inquietas arrastam correntes pelo escuro; quando se dissolvem, deixam um vapor que se pode guardar."
-				"&7No centro de cada Vórtice Sombrio há uma vara de pura escuridão, e quase toda arma do Caos começa por ela."
-				"&7O Espírito do Caos entra num corpo e o torna mais forte. Matar o hospedeiro liberta a semente que pulsa como um coração pequeno."
-				""
-				"&6Objetivo:&r 1. Junte &64 Espíritos Etéreos&r de Espíritos Inquietos, Vórtices Sombrios e Espíritos do Caos."
-				"&f2. Destrua um &6Vórtice Sombrio&r e recolha a &6Vara Sombria&r."
-				"&f3. Faça &62 Cabos de Osso&r: osso, pepita de metal sombrio e Vara Sombria em diagonal."
-				"&f4. Mate uma criatura possuída pelo &6Espírito do Caos&r."
-				"&f5. Junte &62 Sementes do Caos&r (espíritos do caos, invocadores, cavaleiros caídos e baús)."
-				"&f6. No suporte de poções, ponha uma semente sobre garrafas de água: &63 Componentes do Caos&r, a base de todo elixir sombrio."
-				""
-				"&8Pó Espiritual sobre garrafa de água rende a Garrafa de Energia Mágica, que cura a Exaustão Mágica."
-			]
-		}
-		{
-			id: "49F0CDBA1137730D"
-			x: 8.0d
-			y: 0.79d
-			dependencies: [
-				"50BAEAD6786FA6BA"
-			]
-			icon: {
-				count: 1
-				id: "born_in_chaos_v1:dark_metal_ingot"
-			}
+			size: 1.25d
 			tasks: [
 				{
-					id: "439AFDEB7933A2F5"
+					count: 4L
+					id: "517DA7A17BB7AEC7"
+					item: { count: 1, id: "born_in_chaos_v1:ethereal_spirit" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:the_wind_darkening"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:ethereal_spirit"
+					}
+					id: "074B6EE302223561"
 					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "335D7E51A129FB69"
+					item: { count: 1, id: "born_in_chaos_v1:bone_handle" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:exorcism"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:ethereal_spirit"
+					}
+					id: "41AFD566BB07D89F"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "3BEAFC269CD6E39C"
+					item: { count: 1, id: "born_in_chaos_v1:seedof_chaos" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2C3248E0270A9071"
+					item: { count: 1, id: "born_in_chaos_v1:chaos_component" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.81d
+		}
+		{
+			dependencies: ["50BAEAD6786FA6BA"]
+			icon: {
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
+			id: "49F0CDBA1137730D"
+			rewards: [{
+				id: "5C3AACD09C2972A2"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
 					advancement: "born_in_chaos_v1:junior_summoner"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:dark_metal_ingot"
 					}
+					id: "439AFDEB7933A2F5"
+					type: "advancement"
 				}
 				{
-					id: "01347B293E0DE781"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:dark_creator"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:dark_metal_ingot"
 					}
+					id: "01347B293E0DE781"
+					type: "advancement"
 				}
 				{
-					id: "240562DB6F8A6208"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:guidetothenextworld"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:dark_metal_ingot"
 					}
+					id: "240562DB6F8A6208"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "5C3AACD09C2972A2"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "A Torre Sombria"
-			description: [
-				"&7Na Torre Sombria de argila negra, um necromante chama crânios pequenos para morder seus calcanhares."
-				"&7O Missionário prega para os mortos e é ouvido; quando luta, seus seguidores se levantam do chão."
-				"&7E o Guia Espiritual caminha entre calêndulas, acompanhado de esqueletos dançantes."
-				""
-				"&6Objetivo:&r 1. Derrote um &6Invocador de Ossos&r: vagueia à noite e guarda as Torres Sombrias (florestas, planícies e taigas)."
-				"&f2. Derrote o &6Missionário&r: carrega os Amuletos do Caos, o Orbe do Invocador e o seu chapéu."
-				"&f3. Derrote o &6Guia Espiritual&r: deixa calêndulas e, com sorte, o Sombreiro."
-				""
-				"&8A Torre Sombria guarda veios de Depósito de Metal Sombrio. O Invocador deixa Orbe, crânios partidos e às vezes o Cajado de Flechas Mágicas."
-			]
+			x: 8.0d
+			y: 0.79d
 		}
 		{
-			id: "2EB10FE247F4131F"
-			x: 10.0d
-			y: -3.19d
-			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"6CF570EABC5D894B"
-			]
+			dependencies: ["6CF570EABC5D894B"]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:holiday_candy"
 			}
-			tasks: [
-				{
-					id: "4E3791A6EA536627"
-					type: "kill"
-					entity: "born_in_chaos_v1:mr_pumpkin"
-					value: 1L
-				}
-				{
-					id: "4AB557A1EC2FE566"
-					type: "kill"
-					entity: "born_in_chaos_v1:pumpkin_dunce"
-					value: 1L
-				}
-				{
-					id: "5CC3D37E5349CD48"
-					type: "kill"
-					entity: "born_in_chaos_v1:pumpkin_bruiser"
-					value: 1L
-				}
-				{
-					id: "578C8036787C852C"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:holiday_candy"
-					}
-					count: 4L
-				}
-				{
-					id: "20D27D438D261363"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:scarecrow"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:holiday_candy"
-					}
-				}
-			]
+			id: "2EB10FE247F4131F"
 			rewards: [
 				{
 					id: "6AA3684CDD52BE53"
@@ -784,169 +527,97 @@
 				}
 				{
 					id: "00AA53FCB56E576E"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A horta que levantou"
-			description: [
-				"&7O Senhor e a Senhora Abóbora, o Bobo e o Brutamontes: a horta inteira levantou e saiu andando."
-				"&7Eles soltam doces com efeitos estranhos: caramelo de pimenta, coração de chocolate, dentes de vampiro de goma."
-				"&7Nas Fazendas abandonadas, alguém ensinou o feno e a abóbora a vigiarem sozinhos."
-				""
-				"&6Objetivo:&r 1. Abata um &6Senhor Abóbora&r, um &6Bobo Abóbora&r e um &6Brutamontes Abóbora&r."
-				"&f2. Junte &64 Doces Festivos&r das abóboras vivas."
-				"&f3. Crie o seu próprio &6Espírito de Abóbora&r, como mostram as &6Fazendas&r abandonadas."
-				""
-				"&8Pimenta caramelada: resistência ao fogo. Café: velocidade. Chocolate: cura. Dentes de goma: toque vampírico."
-			]
-		}
-		{
-			id: "06805654D5066478"
-			x: 10.0d
-			y: -1.59d
-			dependencies: [
-				"6CF570EABC5D894B"
-			]
-			icon: {
-				count: 1
-				id: "born_in_chaos_v1:evilometer"
-			}
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
-					id: "2485C1E4BDF30C40"
+					entity: "born_in_chaos_v1:mr_pumpkin"
+					id: "4E3791A6EA536627"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:pumpkin_dunce"
+					id: "4AB557A1EC2FE566"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:pumpkin_bruiser"
+					id: "5CC3D37E5349CD48"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "578C8036787C852C"
+					item: { count: 1, id: "born_in_chaos_v1:holiday_candy" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:scarecrow"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:holiday_candy"
+					}
+					id: "20D27D438D261363"
 					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -3.19d
+		}
+		{
+			dependencies: ["6CF570EABC5D894B"]
+			icon: {
+				id: "born_in_chaos_v1:evilometer"
+			}
+			id: "06805654D5066478"
+			rewards: [{
+				id: "706ADD063ADBBEFB"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
 					advancement: "born_in_chaos_v1:grave_ravager"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:evilometer"
 					}
+					id: "2485C1E4BDF30C40"
+					type: "advancement"
 				}
 				{
 					id: "27BB09AB2ACFB631"
+					item: { count: 1, id: "born_in_chaos_v1:evilometer" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:evilometer"
-					}
-					count: 1L
 				}
 				{
 					id: "2647137CF6DD4467"
+					item: { count: 1, id: "born_in_chaos_v1:fel_lamp" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:fel_lamp"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "706ADD063ADBBEFB"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "Profanador de túmulos"
-			description: [
-				"&7Pelo mundo há túmulos de nomes imortalizados, cada um com um epitáfio e um pequeno tesouro enterrado."
-				"&7Toda travessura fica anotada; um dia, alguém de chifres vem cobrar a conta."
-				"&7E um lampião guarda o espírito de um corcel infernal, pronto para sair."
-				""
-				"&6Objetivo:&r 1. Encontre um &6túmulo com lápide&r e quebre a lápide."
-				"&f2. Faça o &6Evilômetro&r (pó espiritual cercado de pepitas de metal sombrio) e veja seus pontos de &cmaldade&r."
-				"&f3. Obtenha um &6Lampião de Fel&r cheio e use-o num bloco para chamar seu &6Corcel de Fel&r."
-				""
-				"&8Biscoitos com leite reduzem a maldade; gengibre espiritual aumenta. Lampiões vazios se enchem com Espírito Etéreo e Orbe do Invocador."
-			]
+			x: 10.0d
+			y: -1.59d
 		}
 		{
-			id: "346039B6F17ED8DD"
-			x: 10.0d
-			y: 0.01d
-			size: 1.25d
 			dependencies: [
 				"50BAEAD6786FA6BA"
 				"6CF570EABC5D894B"
 			]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:intoxicating_decoction"
 			}
-			tasks: [
-				{
-					id: "7D33B6CD1CDE1D93"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:lifeturnedouttobeacomedy"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:intoxicating_decoction"
-					}
-				}
-				{
-					id: "6107D42E70DBD9F1"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:intoxicating_decoction"
-					}
-					count: 1L
-				}
-				{
-					id: "4E8F9E10462493C5"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:stimulating_decoction"
-					}
-					count: 1L
-				}
-				{
-					id: "4C94A22524A2927E"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:fire_dust"
-					}
-					count: 4L
-				}
-				{
-					id: "56C3E7F89AFA647E"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:mr_decoction"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:intoxicating_decoction"
-					}
-				}
-				{
-					id: "3D91E6952082156E"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:double_trouble"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:intoxicating_decoction"
-					}
-				}
-				{
-					id: "787BE3CE691C0190"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:one_explosion_is_good_two_is_better"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:intoxicating_decoction"
-					}
-				}
-			]
+			id: "346039B6F17ED8DD"
 			rewards: [
 				{
 					id: "3BE6C62C90BF9E05"
@@ -955,49 +626,77 @@
 				}
 				{
 					id: "59192517822058CA"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O circo e as bombas"
-			description: [
-				"&7A caravana de palhaços para em planícies, savanas e taigas. Ninguém que entrou no circo voltou rindo."
-				"&7Um frasco tonteia, o outro acelera o coração; um pouco de pó de fogo e um pavio, e o frasco vira granada."
-				"&7Até o Creeper Fantasma ensina algo: o pó das suas cópias, preso em metal, explode duas vezes."
-				""
-				"&6Objetivo:&r 1. Ache uma &6Caravana de Palhaços&r e derrote o &6Palhaço Zumbi&r."
-				"&f2. Obtenha uma &6Decocção Intoxicante&r e uma &6Decocção Estimulante&r (palhaço e caravana)."
-				"&f3. Junte &64 Pós de Luz de Fogo&r abatendo &6Espíritos Chamuscados&r nas planícies à noite."
-				"&f4. Faça uma &6Bomba Intoxicante&r (pólvora, barbante, pó de fogo, decocção) ou &6Estimulante&r (açúcar no lugar da pólvora)."
-				"&f5. Ataque um &6Creeper Fantasma&r até ele se dividir: só uma cópia é real."
-				"&f6. Faça uma &6Bomba Fantasma&r: Pó Fantasma, barbante e pepitas de metal sombrio."
-				""
-				"&8O pó de fogo acende tochas e fogueiras sem carvão. No suporte, decocção sobre poção estranha vira poção de verdade."
-			]
-		}
-		{
-			id: "10C2C59F0570B1B2"
-			x: 10.0d
-			y: 1.61d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:bonescaller_heart"
-			}
-			dependencies: [
-				"49F0CDBA1137730D"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "313B050F9861B6B1"
-					type: "kill"
-					entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
-					value: 1L
+					advancement: "born_in_chaos_v1:lifeturnedouttobeacomedy"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:intoxicating_decoction"
+					}
+					id: "7D33B6CD1CDE1D93"
+					type: "advancement"
+				}
+				{
+					id: "6107D42E70DBD9F1"
+					item: { count: 1, id: "born_in_chaos_v1:intoxicating_decoction" }
+					type: "item"
+				}
+				{
+					id: "4E8F9E10462493C5"
+					item: { count: 1, id: "born_in_chaos_v1:stimulating_decoction" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C94A22524A2927E"
+					item: { count: 1, id: "born_in_chaos_v1:fire_dust" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:mr_decoction"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:intoxicating_decoction"
+					}
+					id: "56C3E7F89AFA647E"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:double_trouble"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:intoxicating_decoction"
+					}
+					id: "3D91E6952082156E"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:one_explosion_is_good_two_is_better"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:intoxicating_decoction"
+					}
+					id: "787BE3CE691C0190"
+					type: "advancement"
 				}
 			]
+			x: 10.0d
+			y: 0.01d
+		}
+		{
+			dependencies: ["49F0CDBA1137730D"]
+			icon: {
+				id: "comamigos_balance:bonescaller_heart"
+			}
+			id: "10C2C59F0570B1B2"
 			rewards: [
 				{
 					id: "204655CF42722E11"
@@ -1006,81 +705,33 @@
 				}
 				{
 					id: "527EBD1CAD3C6C85"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Invocador de Ossos Supremo"
-			description: [
-				"&7Quando o céu avisa que \"algo poderoso invade este mundo\", é ele quem chega."
-				"&7Um invocador que se tornou mestre, rodeado de crânios e de servos que voltam a se levantar."
-				"&7Derrubado, ele se ergue numa segunda forma, mais alta e mais faminta."
-				""
-				"&6Objetivo:&r 1. Derrote o &cInvocador de Ossos Supremo&r: primeiro a forma comum, depois a segunda forma que desperta."
-				"&fAtaque o invocador, não os servos: eles voltam enquanto ele vive."
-				"&fReclame o seu &ccoração de troféu&r: comestível, com bênçãos e maldições."
-				""
-				"&8Deixa o Totem da Morte, orbes e sementes do caos."
-			]
+			shape: "diamond"
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
+				id: "313B050F9861B6B1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 1.61d
 		}
 		{
-			id: "5830B3BDAC64D5A7"
-			x: 10.0d
-			y: 3.21d
-			size: 1.25d
 			dependencies: [
 				"6CF570EABC5D894B"
 				"42EE829680649A76"
 				"482800EE29693E75"
 			]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:potion_of_rampage"
 			}
-			tasks: [
-				{
-					id: "13572BE398E97726"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:insect_repellent"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:potion_of_rampage"
-					}
-				}
-				{
-					id: "456C55977C10280B"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:potion_of_rampage"
-					}
-					count: 1L
-				}
-				{
-					id: "3C95A0417989039A"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:heart_thief"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:potion_of_rampage"
-					}
-				}
-				{
-					id: "794C7E8FF2849618"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:protectedby_darkness"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:potion_of_rampage"
-					}
-				}
-			]
+			id: "5830B3BDAC64D5A7"
 			rewards: [
 				{
 					id: "24EE5A5C9E80364F"
@@ -1089,103 +740,62 @@
 				}
 				{
 					id: "05B578BD63CB17B9"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Alquimia do Caos"
-			description: [
-				"&7Dissolvida no Componente do Caos, cada parte de monstro ensina ao corpo um truque novo."
-				"&7O olho da mutuca espanta insetos, a presa do líder guarda a raiva de cem caçadas,"
-				"&7e o osso do ladrão de vida ensina a roubar sangue, ou a enganar a morte uma vez."
-				""
-				"&6Objetivo:&r No suporte de poções, Componente do Caos +:"
-				"&f1. &6Olho de Mutuca Sangrenta&r = Elixir de Proteção contra Insetos."
-				"&f2. &6Presa do Líder da Matilha&r = &6Elixir de Fúria&r (cada abate aumenta a fúria)."
-				"&f3. &6Osso do Ladrão de Vida&r = Elixir de Vampirismo."
-				"&f4. Na bancada, faça o &6Átrio Sombrio&r: 2 Ossos do Ladrão de Vida e um &6Coração de Osso&r (ossos + osso fundido)."
-				"&fUsado, concede &6Proteção Sombria&r por uma hora, capaz de salvar da morte."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:insect_repellent"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:potion_of_rampage"
+					}
+					id: "13572BE398E97726"
+					type: "advancement"
+				}
+				{
+					id: "456C55977C10280B"
+					item: { count: 1, id: "born_in_chaos_v1:potion_of_rampage" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:heart_thief"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:potion_of_rampage"
+					}
+					id: "3C95A0417989039A"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:protectedby_darkness"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:potion_of_rampage"
+					}
+					id: "794C7E8FF2849618"
+					type: "advancement"
+				}
 			]
+			x: 10.0d
+			y: 3.21d
 		}
 		{
-			id: "2ACD4352A23D80A6"
-			x: 12.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"06805654D5066478"
 				"346039B6F17ED8DD"
 				"42EE829680649A76"
 			]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:dark_metal_ingot"
 			}
-			tasks: [
-				{
-					id: "69E3EAF404D12697"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:symphonyof_chaos"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "697F98A10FE8513E"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:bury_them_all"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "177F357FA38066B0"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:soul_eater"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "299F136BA7331803"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:food_fight"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "16CC49BBAF80D58B"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:shakeand_mix"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "2E9FD8BE7545A1D3"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:unlucky_hunter"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-			]
+			id: "2ACD4352A23D80A6"
+			optional: true
 			rewards: [
 				{
 					id: "68CDF4C36DF717D9"
@@ -1194,128 +804,98 @@
 				}
 				{
 					id: "337615FE7B43FBE2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Feitos mórbidos"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Os cronistas do Caos anotam tudo, até o que ninguém deveria se orgulhar de ter feito."
-				"&7Discos negros em baús de torres, lápides de todos os imortalizados, sessenta e quatro almas num só alforje."
-				""
-				"&6Objetivo:&r 1. Reúna todos os &6discos de música&r do Caos."
-				"&f2. Recolha todas as &6lápides&r dos imortalizados."
-				"&f3. Tenha &664 Espíritos Etéreos&r no inventário."
-				"&f4. Acerte alguém com &6Carne de Monstro&r."
-				"&f5. Fique sob &6Intoxicação&r e &6Estimulação&r ao mesmo tempo."
-				"&f6. Pise numa &6Armadilha de Cão&r."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:symphonyof_chaos"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "69E3EAF404D12697"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:bury_them_all"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "697F98A10FE8513E"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:soul_eater"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "177F357FA38066B0"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:food_fight"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "299F136BA7331803"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:shakeand_mix"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "16CC49BBAF80D58B"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:unlucky_hunter"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "2E9FD8BE7545A1D3"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 12.0d
+			y: 0.0d
 		}
 		{
-			id: "441FDD21C07FF34D"
-			x: 15.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["2ACD4352A23D80A6"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_2"
 			}
-			dependencies: [
-				"2ACD4352A23D80A6"
-			]
-			tasks: [
-				{
-					id: "6BCD3850B7C24F88"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_2"
-					}
+			id: "441FDD21C07FF34D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_2"
 				}
-			]
-			rewards: [ ]
-			title: "&aTier II&7 - Lâminas Sombrias"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "6BCD3850B7C24F88"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["441FDD21C07FF34D"]
 			id: "7E5A5340EC686B0E"
-			x: 17.0d
-			y: -3.2d
-			size: 1.25d
-			dependencies: [
-				"441FDD21C07FF34D"
-			]
-			tasks: [
-				{
-					id: "53DC93725D9906D3"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
-					}
-					count: 1L
-				}
-				{
-					id: "0983DFCCC8E9EF1F"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:bonk"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
-					}
-				}
-				{
-					id: "640BD5F3A1995901"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:my_size"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
-					}
-				}
-				{
-					id: "77AD36130949CA2C"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:spider_warlord"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
-					}
-				}
-				{
-					id: "398A3909F1561A53"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:frostbitten_blade"
-					}
-					count: 1L
-				}
-				{
-					id: "1F17647D31AADC75"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:intoxicating_dagger"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "30030A91C5206BFE"
@@ -1324,86 +904,64 @@
 				}
 				{
 					id: "36218FDC7353BA83"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Ferreiro sombrio"
-			description: [
-				"&7A primeira lâmina de metal sombrio corta mortos-vivos como se fossem palha."
-				"&7Depois vêm o martelo que faz o crânio vibrar como sino, a lâmina de guerra pesada demais para quem não está tomado de força,"
-				"&7a picada que faz o inimigo parir aranhas, o gelo eterno dos servos de Krampus e a adaga embebida em decocção."
-				""
-				"&6Objetivo:&r Todas levam Cabo de Osso:"
-				"&f1. &6Espada Afiada de Metal Sombrio&r: 2 lingotes sobre o cabo. Dano extra contra mortos-vivos."
-				"&f2. &6Martelo Quebra-Crânios&r (bloco de metal sombrio sobre 2 cabos): atordoe um inimigo com um golpe saltando."
-				"&f3. &6Lâmina de Guerra Sombria&r: 2 blocos de metal sombrio sobre o cabo."
-				"&f4. &6Picada de Aranha&r: 4 Mandíbulas de Aranha e 2 lingotes."
-				"&f5. &6Lâmina Enregelada&r: Lascas de Permafrost e lingote. Congela aos poucos; botão direito solta uma explosão de gelo."
-				"&f6. &6Adaga Intoxicante&r: 3 Decocções Intoxicantes e lingote."
-				""
-				"&8Sem efeito de Força a Lâmina de Guerra fica lenta. Lascas de Permafrost caem dos Capangas de Krampus nas épocas frias."
-			]
-		}
-		{
-			id: "661CED9B5C9FE638"
-			x: 17.0d
-			y: -1.6d
 			size: 1.25d
-			dependencies: [
-				"441FDD21C07FF34D"
-			]
 			tasks: [
 				{
-					id: "2A992EB8FD4FC5BC"
+					id: "53DC93725D9906D3"
+					item: { count: 1, id: "born_in_chaos_v1:sharpened_dark_metal_sword" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:trident_hayfork"
-					}
-					count: 1L
 				}
 				{
-					id: "6113C4EE62147F8C"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:wood_splitter_axe"
-					}
-					count: 1L
-				}
-				{
-					id: "5D88DD81210BAF1F"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:nut_hammer"
-					}
-					count: 1L
-				}
-				{
-					id: "476AD02AB520CB76"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:shell_mace"
-					}
-					count: 1L
-				}
-				{
-					id: "31E00D045C685E52"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:shell_warrior"
+					advancement: "born_in_chaos_v1:bonk"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "born_in_chaos_v1:trident_hayfork"
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
 					}
+					id: "0983DFCCC8E9EF1F"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:my_size"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					}
+					id: "640BD5F3A1995901"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:spider_warlord"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					}
+					id: "77AD36130949CA2C"
+					type: "advancement"
+				}
+				{
+					id: "398A3909F1561A53"
+					item: { count: 1, id: "born_in_chaos_v1:frostbitten_blade" }
+					type: "item"
+				}
+				{
+					id: "1F17647D31AADC75"
+					item: { count: 1, id: "born_in_chaos_v1:intoxicating_dagger" }
+					type: "item"
 				}
 			]
+			x: 17.0d
+			y: -3.2d
+		}
+		{
+			dependencies: ["441FDD21C07FF34D"]
+			id: "661CED9B5C9FE638"
 			rewards: [
 				{
 					id: "01D8E26D369C8B64"
@@ -1412,83 +970,51 @@
 				}
 				{
 					id: "4E020D40450C44A4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Armas do povo e do mar"
-			description: [
-				"&7O forcado, o rachador de lenha e o martelo de nozes: ferramentas da aldeia viradas armas."
-				"&7Na chuva e na água, os espinhos da maça de concha ferem ainda mais fundo,"
-				"&7e quem bate em quem veste a carapaça leva espinhos de volta."
-				""
-				"&6Objetivo:&r 1. Tome o &6Forcado&r do Cavaleiro da Porta e o &6Rachador de Lenha&r do Zumbi Lenhador."
-				"&f2. Faça o &6Martelo de Nozes&r: tora, pepita de metal sombrio e graveto. Pode derrubar o chapéu de quem acerta."
-				"&f3. Faça a &6Maça de Concha&r: 3 Carapaças Espinhosas e 2 Cabos de Osso."
-				"&f4. Vista o &6Elmo&r e o &6Peitoral de Carapaça Espinhosa&r."
-			]
-		}
-		{
-			id: "78BAE8D457B5E7FA"
-			x: 17.0d
-			y: 0.0d
 			size: 1.25d
-			dependencies: [
-				"441FDD21C07FF34D"
-			]
 			tasks: [
 				{
-					id: "384492E7F5345BE2"
+					id: "2A992EB8FD4FC5BC"
+					item: { count: 1, id: "born_in_chaos_v1:trident_hayfork" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:staff_of_magic_arrows"
-					}
-					count: 1L
 				}
 				{
-					id: "1D6878F68603CF09"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:compact_necromancy"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:staff_of_magic_arrows"
-					}
-				}
-				{
-					id: "0FAECBF8B6AF727E"
+					id: "6113C4EE62147F8C"
+					item: { count: 1, id: "born_in_chaos_v1:wood_splitter_axe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:charmof_power"
-					}
-					count: 1L
 				}
 				{
-					id: "4BC4C7BAAEE88EA1"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:hat_for_dark_deeds"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:staff_of_magic_arrows"
-					}
+					id: "5D88DD81210BAF1F"
+					item: { count: 1, id: "born_in_chaos_v1:nut_hammer" }
+					type: "item"
 				}
 				{
-					id: "5EF4796EC88550CC"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:cultural_attribute"
+					id: "476AD02AB520CB76"
+					item: { count: 1, id: "born_in_chaos_v1:shell_mace" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:shell_warrior"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "born_in_chaos_v1:staff_of_magic_arrows"
+						id: "born_in_chaos_v1:trident_hayfork"
 					}
+					id: "31E00D045C685E52"
+					type: "advancement"
 				}
 			]
+			x: 17.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["441FDD21C07FF34D"]
+			id: "78BAE8D457B5E7FA"
 			rewards: [
 				{
 					id: "53296184A50F57F2"
@@ -1497,70 +1023,62 @@
 				}
 				{
 					id: "7885E38C4EA29ABF"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Os tesouros do Missionário"
-			description: [
-				"&7O cajado do invocador chama pequenos esqueletos que lutam por você, e o de flechas cospe luz espiritual."
-				"&7Cada amuleto do Caos queima um espírito etéreo para conceder um minuto e meio de poder."
-				"&7E os chapéus... os chapéus cobram seu preço."
-				""
-				"&6Objetivo:&r 1. Faça o &6Cajado de Flechas Mágicas&r: crânio partido, Semente do Caos e Cabo de Osso."
-				"&f2. Faça o &6Cajado do Invocador de Ossos&r: pepitas, Orbe do Invocador, ossos, crânio partido e Cabo de Osso."
-				"&f3. Obtenha um &6Amuleto&r do Missionário (tenha Espíritos Etéreos no inventário para usar)."
-				"&f4. Obtenha o &6Chapéu de Missionário&r: um esqueleto defende você quando um monstro ataca."
-				"&f5. Obtenha o &6Sombreiro do Guia Espiritual&r: fortalece os esqueletos do cajado."
-				""
-				"&8Amuletos: Força III, Resistência II, Velocidade III, Fúria ou Invisibilidade. Pó Espiritual no inventário fortalece as flechas do cajado."
-			]
-		}
-		{
-			id: "0D21253777446098"
-			x: 17.0d
-			y: 1.6d
-			dependencies: [
-				"441FDD21C07FF34D"
-			]
-			icon: {
-				count: 1
-				id: "born_in_chaos_v1:diamond_termite_shard"
-			}
+			size: 1.25d
 			tasks: [
 				{
-					id: "77023C4A9D1A1750"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:fighting_nightmares"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:diamond_termite_shard"
-					}
-				}
-				{
-					id: "18C4BA39DF66645C"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:deceived_hopes"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:diamond_termite_shard"
-					}
-				}
-				{
-					id: "0CE33E4C10B1FE6D"
+					id: "384492E7F5345BE2"
+					item: { count: 1, id: "born_in_chaos_v1:staff_of_magic_arrows" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:diamond_termite_shard"
+				}
+				{
+					advancement: "born_in_chaos_v1:compact_necromancy"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:staff_of_magic_arrows"
 					}
-					count: 9L
+					id: "1D6878F68603CF09"
+					type: "advancement"
+				}
+				{
+					id: "0FAECBF8B6AF727E"
+					item: { count: 1, id: "born_in_chaos_v1:charmof_power" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:hat_for_dark_deeds"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:staff_of_magic_arrows"
+					}
+					id: "4BC4C7BAAEE88EA1"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:cultural_attribute"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:staff_of_magic_arrows"
+					}
+					id: "5EF4796EC88550CC"
+					type: "advancement"
 				}
 			]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["441FDD21C07FF34D"]
+			icon: {
+				id: "born_in_chaos_v1:diamond_termite_shard"
+			}
+			id: "0D21253777446098"
 			rewards: [
 				{
 					id: "5FBB31BF38F9071C"
@@ -1569,49 +1087,48 @@
 				}
 				{
 					id: "56979FAE69176938"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
-			]
-			title: "O que espreita no escuro"
-			description: [
-				"&7\"Você sente que algo o persegue...\" Quando essa sensação vem, o Perseguidor de Pesadelos já está atrás de você."
-				"&7Embaixo da terra, outro engano: aquele brilho azul na rocha não é diamante, é um ninho de cupins que comem diamante."
-				""
-				"&6Objetivo:&r 1. Derrote o &6Perseguidor de Pesadelos&r: caça quem anda sozinho à noite e foge para voltar depois."
-				"&f2. Minere &6Minério de Diamante Infectado&r e enfrente os &6Cupins de Diamante&r."
-				"&f3. Junte &69 Lascas de Cupim&r: refazem um diamante."
-				""
-				"&8O Perseguidor deixa Garras de Pesadelo e seu crânio, base da armadura e das armas de pesadelo (Tier III)."
-			]
-		}
-		{
-			id: "031C680A02A119B4"
-			x: 17.0d
-			y: 3.2d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:lord_pumpkinhead_heart"
-			}
-			dependencies: [
-				"441FDD21C07FF34D"
 			]
 			tasks: [
 				{
-					id: "619D4B109EA2F9B5"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:pumpkin_lord"
+					advancement: "born_in_chaos_v1:fighting_nightmares"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "comamigos_balance:lord_pumpkinhead_heart"
+						id: "born_in_chaos_v1:diamond_termite_shard"
 					}
+					id: "77023C4A9D1A1750"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:deceived_hopes"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:diamond_termite_shard"
+					}
+					id: "18C4BA39DF66645C"
+					type: "advancement"
+				}
+				{
+					count: 9L
+					id: "0CE33E4C10B1FE6D"
+					item: { count: 1, id: "born_in_chaos_v1:diamond_termite_shard" }
+					type: "item"
 				}
 			]
+			x: 17.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["441FDD21C07FF34D"]
+			icon: {
+				id: "comamigos_balance:lord_pumpkinhead_heart"
+			}
+			id: "031C680A02A119B4"
 			rewards: [
 				{
 					id: "178CD3EE81561465"
@@ -1620,403 +1137,209 @@
 				}
 				{
 					id: "2153CECE74F1F2C1"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Lorde Cabeça de Abóbora"
-			description: [
-				"&7Ele cavalga um corcel de fogo verde e ri de dentro de uma abóbora em chamas."
-				"&7Quando o corcel cai, o lorde luta a pé; quando o corpo cai, a cabeça ainda flutua e cospe fogo."
-				""
-				"&6Objetivo:&r 1. Derrote o &cLorde Cabeça de Abóbora&r em todas as formas: montado, a pé e a cabeça flutuante."
-				"&fEle surge à noite com o aviso de \"algo poderoso\"."
-				"&fReclame o seu &ccoração de troféu&r: comestível, com bênçãos e maldições."
-				""
-				"&8Água e resistência ao fogo ajudam muito."
-				"&8Deixa Pistola de Abóbora, seu chapéu, seu lampião e a lendária Ruína das Almas."
-			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:lord_pumpkinhead_heart"
+				}
+				id: "619D4B109EA2F9B5"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 3.2d
 		}
 		{
-			id: "139B342312205FED"
-			x: 19.0d
-			y: -3.2d
-			size: 1.25d
-			dependencies: [
-				"7E5A5340EC686B0E"
-			]
+			dependencies: ["7E5A5340EC686B0E"]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:carrot_sword"
 			}
+			id: "139B342312205FED"
+			rewards: [{
+				id: "44D094326A5E8ABF"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "565810760E7CBD7E"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:sweet_battle"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:carrot_sword"
 					}
+					id: "565810760E7CBD7E"
+					type: "advancement"
 				}
 				{
 					id: "3C0C1802C0DCAB25"
+					item: { count: 1, id: "born_in_chaos_v1:carrot_sword" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:carrot_sword"
-					}
-					count: 1L
 				}
 				{
 					id: "2B1F51494A2CD52D"
+					item: { count: 1, id: "born_in_chaos_v1:icy_sweetness" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:icy_sweetness"
-					}
-					count: 1L
 				}
 				{
 					id: "3D2E04EB0636B35C"
+					item: { count: 1, id: "born_in_chaos_v1:killer_rabbit_ears_helmet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:killer_rabbit_ears_helmet"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "44D094326A5E8ABF"
-					type: "xp"
-					xp: 320
-				}
-			]
-			title: "Batalha doce"
-			description: [
-				"&7Uma espada de doce que se pode morder no meio da luta. Ninguém disse que o Caos não tinha humor."
-				"&7Uma flor de metal sombrio reescreve armas como se fossem receitas de cozinha,"
-				"&7e os baús das festas sombrias de primavera guardam orelhas de um coelho que ninguém quer encontrar."
-				""
-				"&6Objetivo:&r 1. Faça a &6Espada Doce&r ou o &6Machado Doce&r: Doces Festivos, Abóbora Cultivada (abóbora + farinha de osso) e graveto."
-				"&f2. Faça a &6Flor Transformadora&r (pepitas de metal sombrio e Semente do Caos) e, na mesa de ferraria:"
-				"&fEspada Doce + cenoura = &6Espada de Cenoura&r; Lâmina Enregelada + açúcar = &6Doçura Gelada&r."
-				"&f3. Encontre as &6Orelhas de Coelho Assassino&r em baús do Caos."
-			]
+			x: 19.0d
+			y: -3.2d
 		}
 		{
-			id: "79591E9BC4AFA6FE"
-			x: 22.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["139B342312205FED"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_3"
 			}
-			dependencies: [
-				"139B342312205FED"
-			]
-			tasks: [
-				{
-					id: "0A1DFD062A815752"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_3"
-					}
+			id: "79591E9BC4AFA6FE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_3"
 				}
-			]
-			rewards: [ ]
-			title: "&9Tier III&7 - União com a Escuridão"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "0A1DFD062A815752"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["79591E9BC4AFA6FE"]
 			id: "571CA0612AD19ECC"
-			x: 24.0d
-			y: -0.8d
+			rewards: [{
+				id: "7CE25A3507806FA3"
+				type: "xp"
+				xp: 440
+			}]
 			size: 1.25d
-			dependencies: [
-				"79591E9BC4AFA6FE"
-			]
 			tasks: [
 				{
-					id: "0625025F76636012"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:nightmare_claw"
-					}
 					count: 4L
+					id: "0625025F76636012"
+					item: { count: 1, id: "born_in_chaos_v1:nightmare_claw" }
+					type: "item"
 				}
 				{
-					id: "616ED31AE72525B2"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:unitywith_darknessachievement"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:nightmare_claw"
 					}
+					id: "616ED31AE72525B2"
+					type: "advancement"
 				}
 				{
 					id: "7C220FAC03E11F67"
+					item: { count: 1, id: "born_in_chaos_v1:elixirof_wither_resistance" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:elixirof_wither_resistance"
-					}
-					count: 1L
 				}
 				{
 					id: "2BA2F20212BB1C54"
+					item: { count: 1, id: "born_in_chaos_v1:death_totem" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:death_totem"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "7CE25A3507806FA3"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "União com a escuridão"
-			description: [
-				"&7A garra do perseguidor continua afiada mesmo arrancada: ela ainda quer caçar."
-				"&7Máscara de crânio e manto de pele de monstro: no escuro, quem os veste corre como sombra."
-				"&7Com a armadura de pesadelo, até o Totem da Morte cobra menos para recusar a morte."
-				""
-				"&6Objetivo:&r 1. Junte &64 Garras de Pesadelo&r do Perseguidor ou de baús das torres e túmulos."
-				"&f2. Monte a &6Armadura de Pesadelo&r no &6Mechanical Crafter&r: Máscara (crânio do perseguidor, pele de monstro, pepitas),"
-				"&fManto, Calças e Botas (pele de monstro e metal sombrio). Vista o conjunto."
-				"&f3. Prepare o &6Elixir de Resistência ao Wither&r: Componente do Caos + Garra de Pesadelo."
-				"&f4. Monte o &6Totem da Morte&r no Mechanical Crafter (crânio partido, Espírito Etéreo, Semente do Caos) ou tome-o do Invocador Supremo."
-				""
-				"&8A armadura completa fortalece toda arma e item de magia sombria. Guarde elixires para o Nether e o Wither."
-			]
+			x: 24.0d
+			y: -0.8d
 		}
 		{
+			dependencies: ["79591E9BC4AFA6FE"]
 			id: "502479F134CE6795"
-			x: 24.0d
-			y: 0.8d
-			dependencies: [
-				"79591E9BC4AFA6FE"
-			]
+			rewards: [{
+				id: "4A760C254A2B8009"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "555DBDD5632A641D"
+					item: { count: 1, id: "born_in_chaos_v1:pumpkinhandgun" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:pumpkinhandgun"
-					}
-					count: 1L
 				}
 				{
-					id: "0EFED79867B33F78"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:pumpkin_bullet"
-					}
 					count: 8L
+					id: "0EFED79867B33F78"
+					item: { count: 1, id: "born_in_chaos_v1:pumpkin_bullet" }
+					type: "item"
 				}
 				{
-					id: "528ABF1046F814BA"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:infernal_hatman"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:pumpkinhandgun"
 					}
+					id: "528ABF1046F814BA"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "4A760C254A2B8009"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "Arsenal de abóbora"
-			description: [
-				"&7O lorde atirava abóboras explosivas; agora a pistola é sua."
-				"&7Quem usa o chapéu dele não queima, e quem o fere queima no lugar."
-				""
-				"&6Objetivo:&r 1. Obtenha a &6Pistola de Abóbora&r (e o Cajado de Abóbora) dos Cabeças de Abóbora."
-				"&f2. Faça &68 Balas de Abóbora&r: Abóbora Cultivada + pólvora."
-				"&f3. Obtenha o &6Chapéu do Lorde Cabeça de Abóbora&r: fortalece armas de abóbora e dá imunidade ao fogo."
-			]
+			x: 24.0d
+			y: 0.8d
 		}
 		{
+			dependencies: ["571CA0612AD19ECC"]
 			id: "568FA9D347D70A7D"
-			x: 26.0d
-			y: -0.8d
+			rewards: [{
+				id: "68CEA75087128E92"
+				type: "xp"
+				xp: 440
+			}]
 			size: 1.25d
-			dependencies: [
-				"571CA0612AD19ECC"
-			]
 			tasks: [
 				{
 					id: "4CE927BF483808DB"
+					item: { count: 1, id: "born_in_chaos_v1:nightmare_scythe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:nightmare_scythe"
-					}
-					count: 1L
 				}
 				{
 					id: "0BC30BE7F4579ACC"
+					item: { count: 1, id: "born_in_chaos_v1:soul_cutlass" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:soul_cutlass"
-					}
-					count: 1L
 				}
 				{
 					id: "7778F54DFC8475CC"
+					item: { count: 1, id: "born_in_chaos_v1:dark_ritual_dagger" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:dark_ritual_dagger"
-					}
-					count: 1L
 				}
 				{
-					id: "3AE1FCBEC337EEF5"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:rampage"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:nightmare_scythe"
 					}
+					id: "3AE1FCBEC337EEF5"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "68CEA75087128E92"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "As armas do pesadelo"
-			description: [
-				"&7A foice rouba vida, apodrece o alvo e cala a magia dele. O sabre separa a alma do corpo."
-				"&7A adaga ritual cura quem a segura quando um servo é sacrificado,"
-				"&7e o Machado do Grande Ceifador alimenta-se de abates em sequência: a quinta morte o deixa insaciável."
-				""
-				"&6Objetivo:&r 1. Monte a &6Foice de Pesadelo&r no Mechanical Crafter: 2 Garras, lingote e 2 Cabos de Osso."
-				"&f2. Forje o &6Sabre das Almas&r: Garras, pepita, lingote e Cabo de Osso. Aplica Estratificação da Alma."
-				"&f3. Forje a &6Adaga Ritual Sombria&r: Garra, pepitas, Semente do Caos e Cabo de Osso."
-				"&f4. Monte o &6Machado do Grande Ceifador&r (4 lingotes e 2 Cabos de Osso) e consiga cinco abates seguidos."
-			]
+			x: 26.0d
+			y: -0.8d
 		}
 		{
-			id: "0585F78949068645"
-			x: 28.0d
-			y: 0.0d
-			size: 1.25d
 			dependencies: [
 				"568FA9D347D70A7D"
 				"502479F134CE6795"
 			]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:dark_metal_ingot"
 			}
-			tasks: [
-				{
-					id: "13A119976437A706"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:charm_collector"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "50C6990FCB11906B"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:hatman"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "0FB1FD05F7BAFC42"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:explosive_temper"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "35199C9735B6D161"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:spruce_cowboyinthe_moonlight"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "6702CE1C71807474"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:pumpkin_sir"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "5D9FB56969E6F03D"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:excessive_fly_swatter"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-				{
-					id: "4DC587CB80DED3EE"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:squireofthe_dark_lord"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_ingot"
-					}
-				}
-			]
+			id: "0585F78949068645"
+			optional: true
 			rewards: [
 				{
 					id: "0561D778352166BF"
@@ -2025,356 +1348,256 @@
 				}
 				{
 					id: "7F2B15674336F303"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O colecionador do Caos"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Cinco amuletos, todos os chapéus, um arsenal inteiro no cinto."
-				"&7E algumas proezas tão específicas que só um cronista muito entediado registraria."
-				""
-				"&6Objetivo:&r 1. Tenha os &6cinco Amuletos&r no inventário ao mesmo tempo."
-				"&f2. Reúna &6todos os chapéus&r do Caos e vista o &6Chapéu Maldito do Demolidor&r (&cnão sai mais da cabeça&r)."
-				"&f3. De pé sobre um tronco de abeto, montado e com o chapéu do demolidor, mate um monstro sob a lua."
-				"&f4. Derrote o &6Sir Cabeça de Abóbora&r (só de 25 de outubro a 5 de novembro)."
-				"&f5. Mate uma Mosca-de-Cadáver com a Lâmina de Guerra sob Fúria 5."
-				"&f6. Tenha &6todas as armas de metal sombrio&r no inventário ao mesmo tempo."
-				""
-				"&8O chapéu do demolidor explode quando a vida está por um fio."
-			]
-			optional: true
-		}
-		{
-			id: "7549FAD10778F2AD"
-			x: 31.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_4"
-			}
-			dependencies: [
-				"0585F78949068645"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "2F6E3D8C8750F088"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
+					advancement: "born_in_chaos_v1:charm_collector"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_4"
+						id: "born_in_chaos_v1:dark_metal_ingot"
 					}
+					id: "13A119976437A706"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:hatman"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "50C6990FCB11906B"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:explosive_temper"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "0FB1FD05F7BAFC42"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:spruce_cowboyinthe_moonlight"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "35199C9735B6D161"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:pumpkin_sir"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "6702CE1C71807474"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:excessive_fly_swatter"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "5D9FB56969E6F03D"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:squireofthe_dark_lord"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					id: "4DC587CB80DED3EE"
+					type: "advancement"
 				}
 			]
-			rewards: [ ]
-			title: "&6Tier IV&7 - O Cavaleiro do Caos"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+			x: 28.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["0585F78949068645"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "7549FAD10778F2AD"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_4"
+				}
+				id: "2F6E3D8C8750F088"
+				type: "advancement"
+			}]
+			x: 31.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7549FAD10778F2AD"]
 			id: "260D9C335AC3B79F"
-			x: 33.0d
-			y: -1.6d
+			rewards: [{
+				id: "302F44EAE2128E1E"
+				type: "xp"
+				xp: 560
+			}]
 			size: 1.25d
-			dependencies: [
-				"7549FAD10778F2AD"
-			]
 			tasks: [
 				{
-					id: "05232C07D92AAFA6"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:dark_upgrade"
-					}
 					count: 2L
+					id: "05232C07D92AAFA6"
+					item: { count: 1, id: "born_in_chaos_v1:dark_upgrade" }
+					type: "item"
 				}
 				{
-					id: "21142D5DE4264255"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:armor_plate_from_dark_metal"
-					}
 					count: 4L
+					id: "21142D5DE4264255"
+					item: { count: 1, id: "born_in_chaos_v1:armor_plate_from_dark_metal" }
+					type: "item"
 				}
 				{
 					id: "1424B22A7AB78CDC"
+					item: { count: 1, id: "born_in_chaos_v1:dark_metal_armor_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
-					}
-					count: 1L
 				}
 				{
-					id: "695C4503AE131D9F"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:chaos_knight"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "born_in_chaos_v1:dark_upgrade"
 					}
+					id: "695C4503AE131D9F"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "302F44EAE2128E1E"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "Cavaleiro do Caos"
-			description: [
-				"&7O molde dos cavaleiros caídos copia a si mesmo se alimentado com sementes do caos e metal sombrio."
-				"&7Pele de monstro prensada entre lâminas de metal sombrio vira placa, e a placa reveste a netherite."
-				"&7Quando a vida baixa, o portador entra em fúria e o wither não o toca."
-				""
-				"&6Objetivo:&r 1. Obtenha &62 Moldes de Melhoria Sombria&r (Cavaleiros do Caos Caídos e baús)."
-				"&fPara copiar: molde no centro, lingote embaixo, cercados por 7 Sementes do Caos."
-				"&f2. Faça &64 Placas de Armadura de Metal Sombrio&r: 4 Peles de Monstro e 5 lingotes cada."
-				"&f3. Na mesa de ferraria, aplique Molde + Placa sobre cada peça de &6armadura de netherite&r."
-				"&f4. Vista a &6Armadura de Metal Sombrio&r completa."
-			]
+			x: 33.0d
+			y: -1.6d
 		}
 		{
-			id: "513B0BFE29339ADC"
-			x: 33.0d
-			y: 0.0d
-			shape: "diamond"
-			dependencies: [
-				"7549FAD10778F2AD"
-			]
+			dependencies: ["7549FAD10778F2AD"]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:soulbane"
 			}
+			id: "513B0BFE29339ADC"
+			rewards: [{
+				id: "105888510F867E17"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "born_in_chaos_v1:bone_imp"
 					id: "4EE468B2C657AD63"
 					type: "kill"
-					entity: "born_in_chaos_v1:bone_imp"
 					value: 1L
 				}
 				{
+					entity: "born_in_chaos_v1:firelight"
 					id: "442F810BECF13ECE"
 					type: "kill"
-					entity: "born_in_chaos_v1:firelight"
 					value: 1L
 				}
 				{
 					id: "12B8BA1860EBD630"
+					item: { count: 1, id: "born_in_chaos_v1:soulbane" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:soulbane"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "105888510F867E17"
-					type: "xp"
-					xp: 420
-				}
-			]
-			title: "Fogo do Caos"
-			description: [
-				"&7Até o Nether foi tocado pelo Caos: imps de osso nos deltas e luzes de fogo nas florestas carmesins."
-				"&7A lâmina do lorde abóbora separa a alma e a envolve nesse mesmo fogo infernal."
-				""
-				"&6Objetivo:&r 1. No Nether, abata um &6Imp de Osso&r e uma &6Luz de Fogo&r."
-				"&f2. Obtenha a &6Ruína das Almas&r do Lorde Cabeça de Abóbora. Com o chapéu dele na cabeça, o efeito fica mais forte."
-				""
-				"&8Os Poços de Fogo do Caos, no Mundo Superior, também abrigam Luzes de Fogo e metal sombrio."
-			]
+			x: 33.0d
+			y: 0.0d
 		}
 		{
-			id: "4247BE113531A88E"
-			x: 33.0d
-			y: 1.6d
-			shape: "diamond"
-			size: 1.25d
+			dependencies: ["7549FAD10778F2AD"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:krampus_heart"
 			}
-			dependencies: [
-				"7549FAD10778F2AD"
-			]
+			id: "4247BE113531A88E"
+			rewards: [{
+				id: "17290A43008FDD78"
+				type: "xp"
+				xp: 560
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
-					id: "6AA084741E6866D8"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:naughty_child"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "comamigos_balance:krampus_heart"
 					}
+					id: "6AA084741E6866D8"
+					type: "advancement"
 				}
 				{
-					id: "128F4A5FFE9BC515"
-					type: "advancement"
 					advancement: "born_in_chaos_v1:wrong_santa"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "comamigos_balance:krampus_heart"
 					}
+					id: "128F4A5FFE9BC515"
+					type: "advancement"
 				}
 				{
 					id: "4542F2F58B506B37"
+					item: { count: 1, id: "born_in_chaos_v1:stormcallers_horn" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:stormcallers_horn"
-					}
-					count: 1L
 				}
 				{
 					id: "55CDFD8B8CAED18A"
+					item: { count: 1, id: "born_in_chaos_v1:elixirof_ice_barrier" }
 					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:elixirof_ice_barrier"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "17290A43008FDD78"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "Krampus"
-			description: [
-				"&7Chifres, correntes e um saco onde cabem crianças."
-				"&7Quem acumula travessuras demais ouve sinos ao longe. Não são de trenó: ele vem buscar quem passou do limite."
-				"&7O chifre dele, soprado, chama nevascas; o permafrost do saco, dissolvido no caos, vira barreira de gelo."
-				""
-				"&6Objetivo:&r 1. Acumule &cmaldade&r suficiente (o Evilômetro mostra) até que Krampus venha atrás de você."
-				"&f2. Derrote &cKrampus&r e seus capangas. Reclame o seu &ccoração de troféu&r."
-				"&f3. Faça a &6Trompa do Chamador de Tempestades&r: Chifre de Krampus, permafrost e pepitas de metal sombrio."
-				"&f4. Prepare o &6Elixir de Barreira de Gelo&r: Componente do Caos + Lasca de Permafrost."
-				""
-				"&8Galhos de bétula ferem mais quem tem muita maldade: baixe seus pontos antes da luta."
-				"&8Deixa o Chifre de Krampus, o Saco de Krampus e lascas de permafrost."
-			]
+			x: 33.0d
+			y: 1.6d
 		}
 		{
-			id: "7FDF4C823FC17BF6"
-			x: 36.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_7"
-			}
 			dependencies: [
 				"260D9C335AC3B79F"
 				"513B0BFE29339ADC"
 				"4247BE113531A88E"
 			]
-			tasks: [
-				{
-					id: "2629ADFBE6FB0D26"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_7"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_7"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&dTier VII&7 - Transmutalogia"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "7FDF4C823FC17BF6"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_7"
+				}
+				id: "2629ADFBE6FB0D26"
+				type: "advancement"
+			}]
+			x: 36.0d
+			y: 0.0d
 		}
 		{
-			id: "2BB3C5FEA0061EDE"
-			x: 38.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"7FDF4C823FC17BF6"
-			]
+			dependencies: ["7FDF4C823FC17BF6"]
 			icon: {
-				count: 1
 				id: "born_in_chaos_v1:transforming_easter_cake"
 			}
-			tasks: [
-				{
-					id: "7A944AA7097E0CBC"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:transmutalogy"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:transforming_easter_cake"
-					}
-				}
-				{
-					id: "52D4F464DEB9064F"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:infernal_medicine"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:transforming_easter_cake"
-					}
-				}
-				{
-					id: "00D344A1811A769D"
-					type: "item"
-					item: {
-						count: 1
-						id: "born_in_chaos_v1:transforming_easter_cake"
-					}
-					count: 1L
-				}
-				{
-					id: "1A0BF79B39A1C29E"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:trickor_treat"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:transforming_easter_cake"
-					}
-				}
-				{
-					id: "5570F661C2594B2B"
-					type: "advancement"
-					advancement: "born_in_chaos_v1:yoursatietywillbe_eternal"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "born_in_chaos_v1:transforming_easter_cake"
-					}
-				}
-			]
+			id: "2BB3C5FEA0061EDE"
 			rewards: [
 				{
 					id: "29F4C58E2A2C7A52"
@@ -2383,32 +1606,59 @@
 				}
 				{
 					id: "01C74A5439AA953A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Transmutalogia"
-			description: [
-				"&7O elixir que transforma uma coisa em outra exige ingredientes de todos os cantos do mundo, até do Fim."
-				"&7Um espírito chamuscado tocado por ele vira espírito infernal; um bolo feito com ele transforma quem o come."
-				"&7E um doce que nunca acaba traz um efeito diferente a cada mordida."
-				""
-				"&6Objetivo:&r 1. Faça o &6Elixir Transmutador&r: catalisador de sculk, Componente do Caos, fruta do coro, pó de blaze,"
-				"&fdiamante, escama de tartaruga, Doce Festivo, Decocção Intoxicante e flor-tocha."
-				"&f2. Use-o num &6Espírito Chamuscado&r para torná-lo um &6Espírito Infernal&r."
-				"&f3. Faça o &6Bolo de Páscoa Transmutador&r: açúcar, trigo e Elixir Transmutador."
-				"&f4. Junte &6todos os tipos de doce&r do Caos."
-				"&f5. Faça a &6Bala Eterna&r: pimenta caramelada, coração de chocolate, dentes de vampiro, bala de hortelã, bala de café, Elixir Transmutador e graveto."
-				""
-				"&8O elixir funciona com o botão direito sobre certas criaturas e blocos. O bolo transforma em coelho ágil, pedra teimosa ou predador."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:transmutalogy"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:transforming_easter_cake"
+					}
+					id: "7A944AA7097E0CBC"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:infernal_medicine"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:transforming_easter_cake"
+					}
+					id: "52D4F464DEB9064F"
+					type: "advancement"
+				}
+				{
+					id: "00D344A1811A769D"
+					item: { count: 1, id: "born_in_chaos_v1:transforming_easter_cake" }
+					type: "item"
+				}
+				{
+					advancement: "born_in_chaos_v1:trickor_treat"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:transforming_easter_cake"
+					}
+					id: "1A0BF79B39A1C29E"
+					type: "advancement"
+				}
+				{
+					advancement: "born_in_chaos_v1:yoursatietywillbe_eternal"
+					criterion: ""
+					icon: {
+						id: "born_in_chaos_v1:transforming_easter_cake"
+					}
+					id: "5570F661C2594B2B"
+					type: "advancement"
+				}
 			]
+			x: 38.0d
+			y: 0.0d
 		}
-	]
-	title: "&6A Noite Podre"
-	subtitle: [
-		"O que nasce quando a noite apodrece"
 	]
 }

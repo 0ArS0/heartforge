@@ -32,6 +32,7 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:map",
     "item:minecraft:comparator",
     "item:toms_storage:inventory_connector",
     {
@@ -52,9 +53,7 @@
     "#item:c:chests",
     "item:sophisticatedbackpacks:backpack",
     "item:sophisticatedbackpacks:iron_backpack",
-    "item:minecraft:map",
     "item:minecraft:filled_map",
-    "item:map_atlases:atlas",
     "item:minecraft:paper",
     "item:botania:white_petal",
     "item:botania:white_mushroom",
@@ -389,7 +388,6 @@
     "biomeswevegone:zelkova_fence_gate",
     "biomeswevegone:zelkova_stairs",
     "biomeswevegone:zelkova_crafting_table",
-    "map_atlases:craft_atlas",
     "minecraft:map",
     "minecraft:compass",
     "botania:apothecary_default",

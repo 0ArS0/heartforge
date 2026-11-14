@@ -4,112 +4,35 @@
 	filename: "mod_create_addons_missoes"
 	group: "429D481FF148D2D9"
 	icon: {
-		count: 1
 		id: "create_enchantment_industry:blaze_enchanter"
 	}
 	id: "7C524790D349E5F9"
-	order_index: 11
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "66907F98F427F762"
-			x: -3.0d
-			y: 0.0d
-			shape: "square"
-			size: 2.0d
 			icon: {
-				count: 1
 				id: "create_enchantment_industry:blaze_enchanter"
 			}
-			tasks: [
-				{
-					id: "2E4B94EC837FC25D"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "39A65DF647ACB2C4"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "Os Apêndices do Engenheiro"
-			description: [
-				"&7Todo grande livro de engenharia ganha apêndices escritos por mãos diferentes."
-				"&7Aqui estão as notas dos que ensinaram blazes a encantar, cobre a carregar raios"
-				"&7e engrenagens a guardar força para depois."
-				""
-				"&7A experiência líquida destas páginas é ingrediente do Coração do Tier IV."
-				"&7Comece pelo moedor: ele transforma pepitas de saber em rio verde."
-			]
+			id: "66907F98F427F762"
+			rewards: [{
+				id: "39A65DF647ACB2C4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2E4B94EC837FC25D"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["66907F98F427F762"]
 			id: "6D0973D7E090DE24"
-			x: 1.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"66907F98F427F762"
-			]
-			tasks: [
-				{
-					id: "6FACD5D87B081563"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:mechanical_grindstone"
-					}
-					count: 1L
-				}
-				{
-					id: "3D6E20BD1070386E"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:grindstone_drain"
-					}
-					count: 1L
-				}
-				{
-					id: "7498F84E2B85BFB4"
-					type: "advancement"
-					advancement: "create_enchantment_industry:experienced_engineer"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_enchantment_industry:mechanical_grindstone"
-					}
-				}
-				{
-					id: "79C87F604D665034"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_bucket"
-					}
-					count: 1L
-				}
-				{
-					id: "610C58254D8732FC"
-					type: "item"
-					item: {
-						count: 1
-						id: "create:experience_block"
-					}
-					count: 4L
-				}
-				{
-					id: "151094ACC4025BD2"
-					type: "advancement"
-					advancement: "create_enchantment_industry:grind_to_polish"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_enchantment_industry:mechanical_grindstone"
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "7EF4C93530FAAE68"
@@ -118,201 +41,111 @@
 				}
 				{
 					id: "3F6417CE24656B80"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Rio Verde"
-			description: [
-				"&7Uma mó de andesita que não mói trigo: mói memórias."
-				"&7Sob ela, um ralo bebe o que escorre das pepitas de saber esmagadas, e o que sai é um líquido que brilha"
-				"&7como esmeralda. Os encantadores de Heartforge chamam isso de experiência líquida;"
-				"&7os forjadores de Corações chamam de ingrediente."
-				""
-				"&6Objetivo:&r 1. Faça um &6Mechanical Grindstone&r (8 Andesite Alloy em volta de um Shaft). Ele também lixa itens como Sand Paper."
-				"&f2. Clique com ele num &6Item Drain&r para criar o &6Grindstone Drain&r; ponha outro moedor em cima e gire-o."
-				"&f3. Jogue &6Nuggets of Experience&r no dreno: viram &bexperiência líquida&r no tanque ligado."
-				"&f4. Encha um balde de experiência (Bucket o' Enchanting) e junte 9 pepitas num &6Block of Experience&r."
-				"&f5. Use o moedor para polir um item, à mão ou sobre esteira."
-				""
-				"&8Rodas Esmagadoras e Deployers que matam criaturas também soltam pepitas de experiência."
-				"&8Canos que vazam experiência derramam orbes de XP no chão."
-			]
-		}
-		{
-			id: "6D6F3B40635F0050"
-			x: 4.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "minecraft:compass"
-			}
-			dependencies: [
-				"6D0973D7E090DE24"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "3D965563BB12B1BA"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
+					id: "6FACD5D87B081563"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+				{
+					id: "3D6E20BD1070386E"
+					item: { count: 1, id: "create_enchantment_industry:grindstone_drain" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:experienced_engineer"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:compass"
+						id: "create_enchantment_industry:mechanical_grindstone"
 					}
+					id: "7498F84E2B85BFB4"
+					type: "advancement"
+				}
+				{
+					id: "79C87F604D665034"
+					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "610C58254D8732FC"
+					item: { count: 1, id: "create:experience_block" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:grind_to_polish"
+					criterion: ""
+					icon: {
+						id: "create_enchantment_industry:mechanical_grindstone"
+					}
+					id: "151094ACC4025BD2"
+					type: "advancement"
 				}
 			]
-			rewards: [ ]
-			title: "&7Tier I&7 - Cobre e Fios"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+			x: 1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["6D0973D7E090DE24"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "6D6F3B40635F0050"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				icon: {
+					id: "minecraft:compass"
+				}
+				id: "3D965563BB12B1BA"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D6F3B40635F0050"]
 			id: "75284A0849724344"
-			x: 6.0d
-			y: -2.4d
-			dependencies: [
-				"6D6F3B40635F0050"
-			]
+			rewards: [{
+				id: "55D4A010CAC12A28"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
 					id: "60AE07CCFA157934"
+					item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_dragons_plus:fluid_hatch"
-					}
-					count: 1L
 				}
 				{
 					id: "37C8B41639A1C66F"
+					item: { count: 1, id: "create_dragons_plus:blue_dye_bucket" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_dragons_plus:blue_dye_bucket"
-					}
-					count: 1L
 				}
 				{
 					id: "68FD379097B0E9C9"
+					item: { count: 1, id: "minecraft:powder_snow_bucket" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:powder_snow_bucket"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "55D4A010CAC12A28"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "A Escotilha de Fluidos"
-			description: [
-				"&7Nem todo tanque precisa de cano para ser servido: uma escotilha de cobre aceita baldes direto."
-				"&7Os tintureiros de Heartforge enchem tanques de tinta e sopram cor sobre carroças inteiras;"
-				"&7os do norte enchem de neve fina e sopram inverno sobre o que querem congelar."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Fluid Hatch&r (Item Drain + lingote de cobre) sobre um tanque. Clique com balde para esvaziar; agachado, enche."
-				"&f2. Misture um corante com água no Mixer: &6tinta líquida&r. Um ventilador através dela &6tinge em massa&r."
-				"&f3. Ponha &bneve em pó&r (Powder Snow) na frente de um ventilador: o fluxo &6congela em massa&r os itens."
-				""
-				"&8Tinta encontrando lava vira concreto da mesma cor. Mixer aquecido recupera o corante."
-			]
+			x: 6.0d
+			y: -2.4d
 		}
 		{
+			dependencies: ["6D6F3B40635F0050"]
 			id: "0E2C1DA15F9A14C0"
-			x: 6.0d
-			y: -0.8d
-			size: 1.25d
-			dependencies: [
-				"6D6F3B40635F0050"
-			]
-			tasks: [
-				{
-					id: "74FB2D71D719C477"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:rolling_mill"
-					}
-					count: 1L
-				}
-				{
-					id: "47A75D9AA72C8FAD"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:iron_rod"
-					}
-					count: 4L
-				}
-				{
-					id: "3DB0FDB4B937BEDC"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:copper_wire"
-					}
-					count: 8L
-				}
-				{
-					id: "66AA2C0BB2EF018B"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:spool"
-					}
-					count: 1L
-				}
-				{
-					id: "61AE166891698744"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:copper_spool"
-					}
-					count: 1L
-				}
-				{
-					id: "0C91C2320F947D85"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:connector"
-					}
-					count: 4L
-				}
-				{
-					id: "5DDD4E26203BE280"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:zinc_sheet"
-					}
-					count: 2L
-				}
-				{
-					id: "249B8D9258192563"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:capacitor"
-					}
-					count: 2L
-				}
-			]
 			rewards: [
 				{
 					id: "3C01CDD7B532D10B"
@@ -321,74 +154,67 @@
 				}
 				{
 					id: "2986C8440B25B0BB"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Varas, Fios e Carretéis"
-			description: [
-				"&7Dois rolos apertados transformam lingotes em varas e chapas em fios."
-				"&7Fio solto embaraça; fio no carretel conecta. Pequenos postes de cobre recebem esse fio,"
-				"&7e o capacitor, com cobre, zinco e uma tocha de redstone, é a primeira garrafa de raio."
-				"&7Assim começa a rede elétrica de Heartforge."
-				""
-				"&6Objetivo:&r 1. Faça um &6Rolling Mill&r e gire-o: lingotes viram &6varas&r; chapas viram &6fios&r."
-				"&f2. Faça um &6Empty Spool&r e enrole fio de cobre nele: &6Copper Spool&r."
-				"&f3. Faça &6Connectors&r; com o carretel na mão, clique num conector e depois em outro."
-				"&f4. Prense zinco em &6Zinc Sheets&r e faça &6Capacitors&r (chapa de zinco + chapa de cobre + tocha de redstone)."
-				""
-				"&8Com a chave, alterne o conector entre Puxar e Empurrar energia."
-			]
-		}
-		{
-			id: "192A2231D3BE9445"
-			x: 6.0d
-			y: 0.8d
 			size: 1.25d
-			dependencies: [
-				"6D6F3B40635F0050"
-			]
 			tasks: [
 				{
-					id: "0993B5FC62FACB81"
+					id: "74FB2D71D719C477"
+					item: { count: 1, id: "createaddition:rolling_mill" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sliceanddice:slicer"
-					}
-					count: 1L
 				}
 				{
-					id: "3DECF61F209E9AAE"
+					count: 4L
+					id: "47A75D9AA72C8FAD"
+					item: { count: 1, id: "createaddition:iron_rod" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sliceanddice:sprinkler"
-					}
+				}
+				{
+					count: 8L
+					id: "3DB0FDB4B937BEDC"
+					item: { count: 1, id: "createaddition:copper_wire" }
+					type: "item"
+				}
+				{
+					id: "66AA2C0BB2EF018B"
+					item: { count: 1, id: "createaddition:spool" }
+					type: "item"
+				}
+				{
+					id: "61AE166891698744"
+					item: { count: 1, id: "createaddition:copper_spool" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0C91C2320F947D85"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+				{
 					count: 2L
+					id: "5DDD4E26203BE280"
+					item: { count: 1, id: "createaddition:zinc_sheet" }
+					type: "item"
 				}
 				{
-					id: "7B054049C60E5B60"
+					count: 2L
+					id: "249B8D9258192563"
+					item: { count: 1, id: "createaddition:capacitor" }
 					type: "item"
-					item: {
-						count: 1
-						id: "sliceanddice:fertilizer_bucket"
-					}
-					count: 1L
-				}
-				{
-					id: "4E487E7A6FCD3225"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:seed_oil_bucket"
-					}
-					count: 1L
 				}
 			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["6D6F3B40635F0050"]
+			id: "192A2231D3BE9445"
 			rewards: [
 				{
 					id: "348539346DEF42CF"
@@ -397,91 +223,43 @@
 				}
 				{
 					id: "0C33ADFE71A17182"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Horta Automática"
-			description: [
-				"&7O cozinheiro cansou de picar cebola e inventou uma faca que gira."
-				"&7A horta não espera a chuva quando há canos: aspersores espalham água, e o adubo dissolvido apressa qualquer colheita."
-				"&7Sementes prensadas, por fim, choram um óleo amarelo que queima limpo."
-				""
-				"&6Objetivo:&r 1. Faça um &6Slicer&r (Cogwheel + Andesite Casing + Turntable) e dê-lhe uma faca: faz as receitas da tábua de corte."
-				"&f2. Faça &6Sprinklers&r abaixo de um cano com fluido: água hidrata o solo."
-				"&f3. Misture Tree Fertilizer com 500 mB de água no Mixer: &6Liquid Fertilizer&r, para os aspersores."
-				"&f4. Prense sementes numa Basin e encha um balde de &6Seed Oil&r."
-				""
-				"&8O Slicer trabalha sobre Depot, esteira ou Basin. A faca é a de cozinha."
-			]
-		}
-		{
-			id: "7A0858D97CC90AFF"
-			x: 6.0d
-			y: 2.4d
 			size: 1.25d
-			dependencies: [
-				"6D6F3B40635F0050"
-			]
 			tasks: [
 				{
-					id: "279FA44B53F1FED9"
+					id: "0993B5FC62FACB81"
+					item: { count: 1, id: "sliceanddice:slicer" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:cross_connector"
-					}
-					count: 1L
 				}
 				{
-					id: "2983ED67CA6D34A3"
+					count: 2L
+					id: "3DECF61F209E9AAE"
+					item: { count: 1, id: "sliceanddice:sprinkler" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:parallel_gearbox"
-					}
-					count: 1L
 				}
 				{
-					id: "6EC4635DA29467D6"
+					id: "7B054049C60E5B60"
+					item: { count: 1, id: "sliceanddice:fertilizer_bucket" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:six_way_gearbox"
-					}
-					count: 1L
 				}
 				{
-					id: "027D459FCA7F68F4"
+					id: "4E487E7A6FCD3225"
+					item: { count: 1, id: "createaddition:seed_oil_bucket" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:crank_wheel"
-					}
-					count: 1L
-				}
-				{
-					id: "6C3D0EB45C5BD929"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:large_crank_wheel"
-					}
-					count: 1L
-				}
-				{
-					id: "4A96F438009B7400"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:encased_chain_cogwheel"
-					}
-					count: 1L
 				}
 			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["6D6F3B40635F0050"]
+			id: "7A0858D97CC90AFF"
 			rewards: [
 				{
 					id: "5B0763A0977D5AA7"
@@ -490,126 +268,89 @@
 				}
 				{
 					id: "3C68A4749DFDD706"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Engrenagens Conectadas"
-			description: [
-				"&7Dois caminhos que se cruzam sem se tocar; uma caixa que manda força para os seis lados;"
-				"&7manivelas com dentes que conversam direto com as engrenagens; meio corrente, meio engrenagem."
-				"&7Os engenheiros que vieram depois encheram as lacunas da rede."
-				""
-				"&6Objetivo:&r 1. Faça um &6Cross Connector&r e uma &6Parallel Gearbox&r (Gearbox + Large Cogwheel)."
-				"&f2. Faça uma &6Six-way Gearbox&r: cima e baixo giram na metade da velocidade."
-				"&f3. Faça uma &6Crank Wheel&r e uma &6Large Crank Wheel&r (manivelas que engrenam)."
-				"&f4. Faça uma &6Encased Chain Cogwheel&r (Encased Chain Drive + Cogwheel)."
+			size: 1.25d
+			tasks: [
+				{
+					id: "279FA44B53F1FED9"
+					item: { count: 1, id: "create_connected:cross_connector" }
+					type: "item"
+				}
+				{
+					id: "2983ED67CA6D34A3"
+					item: { count: 1, id: "create_connected:parallel_gearbox" }
+					type: "item"
+				}
+				{
+					id: "6EC4635DA29467D6"
+					item: { count: 1, id: "create_connected:six_way_gearbox" }
+					type: "item"
+				}
+				{
+					id: "027D459FCA7F68F4"
+					item: { count: 1, id: "create_connected:crank_wheel" }
+					type: "item"
+				}
+				{
+					id: "6C3D0EB45C5BD929"
+					item: { count: 1, id: "create_connected:large_crank_wheel" }
+					type: "item"
+				}
+				{
+					id: "4A96F438009B7400"
+					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
+					type: "item"
+				}
 			]
+			x: 6.0d
+			y: 2.4d
 		}
 		{
+			dependencies: ["75284A0849724344"]
 			id: "701B4F1CDC65512D"
-			x: 8.0d
-			y: -2.4d
-			dependencies: [
-				"75284A0849724344"
-			]
+			rewards: [{
+				id: "0C008905FDAEA917"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
 					id: "2A798069CE2C99E2"
+					item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_hatch"
-					}
-					count: 1L
 				}
 				{
-					id: "34139BC8840F80A3"
-					type: "advancement"
 					advancement: "create_enchantment_industry:spirit_taking"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_enchantment_industry:experience_hatch"
 					}
+					id: "34139BC8840F80A3"
+					type: "advancement"
 				}
 				{
-					id: "54CE8B35E2B4C8E3"
-					type: "advancement"
 					advancement: "create_enchantment_industry:spiritual_return"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_enchantment_industry:experience_hatch"
 					}
+					id: "54CE8B35E2B4C8E3"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "0C008905FDAEA917"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "Guardar o Espírito"
-			description: [
-				"&7Antes de uma batalha arriscada, o sábio deposita o que aprendeu num cofre de cobre."
-				"&7Se cair, perde pouco; se voltar, resgata tudo. O que foi guardado volta inteiro."
-				""
-				"&6Objetivo:&r 1. Aplique um Block of Experience numa Fluid Hatch para criar a &6Experience Hatch&r."
-				"&f2. Clique nela para depositar sua experiência no tanque."
-				"&f3. Agachado, resgate a experiência de volta."
-			]
+			x: 8.0d
+			y: -2.4d
 		}
 		{
+			dependencies: ["0E2C1DA15F9A14C0"]
 			id: "52F43DD67DA62725"
-			x: 8.0d
-			y: -0.8d
-			size: 1.25d
-			dependencies: [
-				"0E2C1DA15F9A14C0"
-			]
-			tasks: [
-				{
-					id: "4D264B256E0E57EE"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:copycat_slab"
-					}
-					count: 4L
-				}
-				{
-					id: "1E87C4CFD91E3EA4"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:copycat_beam"
-					}
-					count: 4L
-				}
-				{
-					id: "263E97CE8AF82B21"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:barbed_wire"
-					}
-					count: 4L
-				}
-				{
-					id: "5E32BFB03E221B3F"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:honey_cake"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "18A2374A5A9CAC27"
@@ -618,212 +359,114 @@
 				}
 				{
 					id: "6B28AA5F51CBEA1B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Miudezas da Oficina"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Vigas, tábuas e lajes que vestem qualquer pedra; arame que nenhum lobo atravessa sem pensar duas vezes;"
-				"&7e um bolo de mel coberto pelo bico, o banquete dos engenheiros."
-				""
-				"&6Objetivo:&r 1. Faça peças &6Copycat&r (Slab, Beam...) e clique nelas com um bloco para copiar a aparência."
-				"&f2. Faça &6Barbed Wire&r com fios de ferro: fere quem tenta passar."
-				"&f3. Prense ovo, açúcar e massa em Cake Base, asse e cubra com mel no Spout: &6Honey Cake&r."
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "4D264B256E0E57EE"
+					item: { count: 1, id: "create_connected:copycat_slab" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1E87C4CFD91E3EA4"
+					item: { count: 1, id: "create_connected:copycat_beam" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "263E97CE8AF82B21"
+					item: { count: 1, id: "createaddition:barbed_wire" }
+					type: "item"
+				}
+				{
+					id: "5E32BFB03E221B3F"
+					item: { count: 1, id: "createaddition:honey_cake" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 8.0d
+			y: -0.8d
 		}
 		{
+			dependencies: ["7A0858D97CC90AFF"]
 			id: "1714524AD173AA7D"
-			x: 8.0d
-			y: 2.4d
+			rewards: [{
+				id: "3B2EBF7BDEA80614"
+				type: "xp"
+				xp: 250
+			}]
 			size: 1.25d
-			dependencies: [
-				"7A0858D97CC90AFF"
-			]
 			tasks: [
 				{
 					id: "386B00B1790681AE"
+					item: { count: 1, id: "create_connected:freewheel_clutch" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:freewheel_clutch"
-					}
-					count: 1L
 				}
 				{
 					id: "15B2D96FD9171059"
+					item: { count: 1, id: "create_connected:centrifugal_clutch" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:centrifugal_clutch"
-					}
-					count: 1L
 				}
 				{
 					id: "2E99C0A60A1C24BF"
+					item: { count: 1, id: "create_connected:brake" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:brake"
-					}
-					count: 1L
 				}
 				{
 					id: "4A5D41954DA93262"
+					item: { count: 1, id: "create_connected:shear_pin" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:shear_pin"
-					}
-					count: 1L
 				}
 				{
-					id: "60E98BF18C83EE9B"
-					type: "advancement"
 					advancement: "create_connected:shear_pin"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_connected:freewheel_clutch"
 					}
+					id: "60E98BF18C83EE9B"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "3B2EBF7BDEA80614"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "Freios e Pinos"
-			description: [
-				"&7Algumas embreagens obedecem à redstone; estas obedecem à própria rotação."
-				"&7Um bloco de obsidiana aperta o eixo até a rede inteira parar,"
-				"&7e um pino barato se parte antes que a máquina inteira quebre."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Freewheel Clutch&r (só um sentido) e uma &6Centrifugal Clutch&r (acopla acima da RPM escolhida)."
-				"&f2. Faça um &6Brake&r: com redstone, cria um estresse enorme e trava a rede."
-				"&f3. Faça um &6Shear Pin&r (corte um Shaft na serra) e deixe a rede sobrecarregar até ele se partir."
-				""
-				"&8Com a chave, Clutch e Gearshift comuns viram versões Inverted."
-			]
+			x: 8.0d
+			y: 2.4d
 		}
 		{
-			id: "2A579AB36109DE81"
-			x: 11.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_2"
-			}
 			dependencies: [
 				"701B4F1CDC65512D"
 				"52F43DD67DA62725"
 				"1714524AD173AA7D"
 			]
-			tasks: [
-				{
-					id: "629620DBC735C650"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_2"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II&7 - Raio e Latão"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "2A579AB36109DE81"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_2"
+				}
+				id: "629620DBC735C650"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["2A579AB36109DE81"]
 			id: "5F470AB9A2C43D25"
-			x: 13.0d
-			y: -4.0d
-			size: 1.25d
-			dependencies: [
-				"2A579AB36109DE81"
-			]
-			tasks: [
-				{
-					id: "19B2863F0D161B7A"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:overstress_clutch"
-					}
-					count: 1L
-				}
-				{
-					id: "5375F2ABAB05C186"
-					type: "advancement"
-					advancement: "create_connected:overstress_clutch"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_connected:overstress_clutch"
-					}
-				}
-				{
-					id: "519CED6E53CDF46F"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:brass_gearbox"
-					}
-					count: 1L
-				}
-				{
-					id: "437BE43AB5397541"
-					type: "advancement"
-					advancement: "create_connected:brass_gearbox"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_connected:overstress_clutch"
-					}
-				}
-				{
-					id: "57A33D9A91397CC8"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:kinetic_battery"
-					}
-					count: 1L
-				}
-				{
-					id: "524F875F5F05FF91"
-					type: "advancement"
-					advancement: "create_connected:kinetic_battery"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_connected:overstress_clutch"
-					}
-				}
-				{
-					id: "1B6BD5E7F81555FB"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:kinetic_bridge"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "783FB25C1A7977AA"
@@ -832,82 +475,69 @@
 				}
 				{
 					id: "09AA8CDA59B052D4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Força Guardada"
-			description: [
-				"&7Uma caixa de latão em que cada lado obedece a uma ordem diferente."
-				"&7Uma mola que guarda força para os dias sem vento, uma ponte que empresta força de uma rede à outra,"
-				"&7e um disjuntor que solta antes que tudo pare. A engenharia de latão aprendeu a poupar."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Overstress Clutch&r: desacopla quando a rede sobrecarrega. Rearme com a chave."
-				"&f2. Faça uma &6Brass Gearbox&r (Rotation Speed Controller cercado de Cogwheels) e escolha o sentido de cada lado."
-				"&f3. Faça uma &6Kinetic Battery&r (com Precision Mechanism) e carregue-a até o máximo."
-				"&f4. Faça uma &6Kinetic Bridge&r: transfere capacidade de estresse entre duas redes."
-				""
-				"&8Mesmo quebrada, a bateria guarda a carga no item."
-			]
-		}
-		{
-			id: "61C88F31C3210015"
-			x: 13.0d
-			y: -2.4d
 			size: 1.25d
-			dependencies: [
-				"2A579AB36109DE81"
-			]
 			tasks: [
 				{
-					id: "5B2AFA1773FFF73A"
+					id: "19B2863F0D161B7A"
+					item: { count: 1, id: "create_connected:overstress_clutch" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:item_silo"
-					}
-					count: 1L
 				}
 				{
-					id: "16954D394A1C7D0F"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:fluid_vessel"
+					advancement: "create_connected:overstress_clutch"
+					criterion: ""
+					icon: {
+						id: "create_connected:overstress_clutch"
 					}
-					count: 1L
+					id: "5375F2ABAB05C186"
+					type: "advancement"
 				}
 				{
-					id: "46887EF3D71B3791"
+					id: "519CED6E53CDF46F"
+					item: { count: 1, id: "create_connected:brass_gearbox" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:inventory_access_port"
-					}
-					count: 1L
 				}
 				{
-					id: "0C0E4C54CCADBBF4"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:inventory_bridge"
+					advancement: "create_connected:brass_gearbox"
+					criterion: ""
+					icon: {
+						id: "create_connected:overstress_clutch"
 					}
-					count: 1L
+					id: "437BE43AB5397541"
+					type: "advancement"
 				}
 				{
-					id: "00B75C0BAC86FEED"
+					id: "57A33D9A91397CC8"
+					item: { count: 1, id: "create_connected:kinetic_battery" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:brass_chute"
+				}
+				{
+					advancement: "create_connected:kinetic_battery"
+					criterion: ""
+					icon: {
+						id: "create_connected:overstress_clutch"
 					}
-					count: 4L
+					id: "524F875F5F05FF91"
+					type: "advancement"
+				}
+				{
+					id: "1B6BD5E7F81555FB"
+					item: { count: 1, id: "create_connected:kinetic_bridge" }
+					type: "item"
 				}
 			]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A579AB36109DE81"]
+			id: "61C88F31C3210015"
 			rewards: [
 				{
 					id: "70363F07345ACDA5"
@@ -916,60 +546,48 @@
 				}
 				{
 					id: "11F0FCADE8509AA2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Silos e Portas"
-			description: [
-				"&7O cofre deitado e o tanque deitado: nem tudo precisa crescer para cima."
-				"&7Onde o funil não cabe, a porta de inventário alcança; e a calha de latão leva sessenta e quatro itens de uma vez."
-				""
-				"&6Objetivo:&r 1. Faça um &6Item Silo&r (cofre vertical) e um &6Fluid Vessel&r (tanque horizontal)."
-				"&f2. Faça uma &6Inventory Access Port&r (acessa um inventário através de um bloco)."
-				"&f3. Faça uma &6Inventory Bridge&r (dois inventários ao mesmo tempo, com filtros)."
-				"&f4. Faça &6Brass Chutes&r: até 64 itens por vez."
-			]
-		}
-		{
-			id: "53F2BAA9619E37E3"
-			x: 13.0d
-			y: -0.8d
-			dependencies: [
-				"2A579AB36109DE81"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "5BE7ED0BC068DE14"
+					id: "5B2AFA1773FFF73A"
+					item: { count: 1, id: "create_connected:item_silo" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:encased_fan"
-					}
-					count: 1L
 				}
 				{
-					id: "2F6AEBA056085656"
+					id: "16954D394A1C7D0F"
+					item: { count: 1, id: "create_connected:fluid_vessel" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:empty_fan_catalyst"
-					}
-					count: 1L
 				}
 				{
-					id: "43D6448F6B1DB969"
+					id: "46887EF3D71B3791"
+					item: { count: 1, id: "create_connected:inventory_access_port" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:fan_blasting_catalyst"
-					}
-					count: 1L
+				}
+				{
+					id: "0C0E4C54CCADBBF4"
+					item: { count: 1, id: "create_connected:inventory_bridge" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00B75C0BAC86FEED"
+					item: { count: 1, id: "create_connected:brass_chute" }
+					type: "item"
 				}
 			]
+			x: 13.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["2A579AB36109DE81"]
+			id: "53F2BAA9619E37E3"
 			rewards: [
 				{
 					id: "1E81C21FA43B35E1"
@@ -978,59 +596,37 @@
 				}
 				{
 					id: "7210B62F62064D4D"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
-			]
-			title: "Gaiolas de Vento"
-			description: [
-				"&7Uma gaiola de latão que prende o fogo, a água ou as almas, e deixa o vento passar."
-				"&7Assim o ventilador processa em massa sem que nada se espalhe pela oficina."
-				""
-				"&6Objetivo:&r 1. Faça um &6Encased Fan&r."
-				"&f2. Faça um &6Empty Fan Catalyst&r (latão + grades de ferro)."
-				"&f3. Encha-o de lava (ou fogo, água, fogo de alma) e ponha-o na frente do ventilador."
-			]
-		}
-		{
-			id: "581AA114CC28855D"
-			x: 13.0d
-			y: 0.8d
-			dependencies: [
-				"2A579AB36109DE81"
 			]
 			tasks: [
 				{
-					id: "5CFA640753E8B60F"
+					id: "5BE7ED0BC068DE14"
+					item: { count: 1, id: "create:encased_fan" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:straw"
-					}
-					count: 1L
 				}
 				{
-					id: "2A78CAA301ED3F31"
+					id: "2F6AEBA056085656"
+					item: { count: 1, id: "create_connected:empty_fan_catalyst" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:seed_oil_bucket"
-					}
-					count: 1L
 				}
 				{
-					id: "6A9A45C6B850CCE6"
+					id: "43D6448F6B1DB969"
+					item: { count: 1, id: "create_connected:fan_blasting_catalyst" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:biomass_pellet"
-					}
-					count: 8L
 				}
 			]
+			x: 13.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["2A579AB36109DE81"]
+			id: "581AA114CC28855D"
+			optional: true
 			rewards: [
 				{
 					id: "6F374E85AFD12F87"
@@ -1039,92 +635,37 @@
 				}
 				{
 					id: "5C10FC7D8BEED0E0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
-			]
-			title: "O Blaze Beberrão"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Dê um canudo a um blaze e ele passa a beber óleo em vez de comer carvão."
-				"&7Folhas e restos de colheita cozidos no óleo viram pelotas densas que queimam por horas."
-				""
-				"&6Objetivo:&r 1. Faça um &6Straw&r e coloque-o num Blaze Burner: aceita combustível líquido por cano."
-				"&f2. Alimente-o com &6Seed Oil&r."
-				"&f3. Misture plantas com Seed Oil numa Basin aquecida (Biomass) e prense em &6Biomass Pellets&r."
-			]
-			optional: true
-		}
-		{
-			id: "227ABDE581CE8DCB"
-			x: 13.0d
-			y: 2.4d
-			size: 1.25d
-			dependencies: [
-				"2A579AB36109DE81"
 			]
 			tasks: [
 				{
-					id: "484AA6AFA486FC36"
+					id: "5CFA640753E8B60F"
+					item: { count: 1, id: "createaddition:straw" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:printer"
-					}
-					count: 1L
 				}
 				{
-					id: "381D684D29A154C0"
-					type: "advancement"
-					advancement: "create_enchantment_industry:brand_registry"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_enchantment_industry:printer"
-					}
-				}
-				{
-					id: "372CB2BC526B9B49"
-					type: "advancement"
-					advancement: "create_enchantment_industry:copiable_mystery"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_enchantment_industry:printer"
-					}
-				}
-				{
-					id: "5F6A6D6B68C00024"
+					id: "2A78CAA301ED3F31"
+					item: { count: 1, id: "createaddition:seed_oil_bucket" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:enchanting_template"
-					}
-					count: 2L
 				}
 				{
-					id: "00743A722C1908DB"
+					count: 8L
+					id: "6A9A45C6B850CCE6"
+					item: { count: 1, id: "createaddition:biomass_pellet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_lantern"
-					}
-					count: 1L
-				}
-				{
-					id: "1A461673C2FF3996"
-					type: "advancement"
-					advancement: "create_enchantment_industry:lumen_nexus"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_enchantment_industry:printer"
-					}
 				}
 			]
+			x: 13.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["2A579AB36109DE81"]
+			id: "227ABDE581CE8DCB"
 			rewards: [
 				{
 					id: "66E4326F570BEEFE"
@@ -1133,109 +674,65 @@
 				}
 				{
 					id: "0C58DD559B95B555"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Tinta e Saber"
-			description: [
-				"&7Tinta, papel e uma prensa paciente: livros copiados aos montes. Um tomo encantado vira dois,"
-				"&7e o bibliotecário do vilarejo chora."
-				"&7O bloco de saber prensado vira uma placa onde se gravam runas, e uma lanterna bebe a experiência espalhada no ar."
-				""
-				"&6Objetivo:&r 1. Faça um &6Printer&r (chapa de latão + Spout + bloco de ferro). Defina o modelo no filtro e forneça o fluido."
-				"&f2. Copie um livro encantado com ela (usa experiência líquida)."
-				"&f3. Prense um Block of Experience: &6Enchanting Template&r."
-				"&f4. Faça uma &6Experience Lantern&r (Block of Experience + esponja + Copper Casing): absorve orbes por perto."
-				""
-				"&8A Printer também renomeia itens, copia cronogramas de trem e muda o endereço de pacotes."
-			]
-		}
-		{
-			id: "7577EF8743550BC9"
-			x: 13.0d
-			y: 4.0d
 			size: 1.25d
-			dependencies: [
-				"2A579AB36109DE81"
-			]
 			tasks: [
 				{
-					id: "001D53F7568762E8"
+					id: "484AA6AFA486FC36"
+					item: { count: 1, id: "create_enchantment_industry:printer" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electrum_ingot"
-					}
-					count: 4L
 				}
 				{
-					id: "4EA135E0DBC6C672"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electrum_wire"
+					advancement: "create_enchantment_industry:brand_registry"
+					criterion: ""
+					icon: {
+						id: "create_enchantment_industry:printer"
 					}
-					count: 4L
+					id: "381D684D29A154C0"
+					type: "advancement"
 				}
 				{
-					id: "089A31B5FBAB5978"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:alternator"
+					advancement: "create_enchantment_industry:copiable_mystery"
+					criterion: ""
+					icon: {
+						id: "create_enchantment_industry:printer"
 					}
-					count: 1L
+					id: "372CB2BC526B9B49"
+					type: "advancement"
 				}
 				{
-					id: "4675D1B0BB2087DC"
+					count: 2L
+					id: "5F6A6D6B68C00024"
+					item: { count: 1, id: "create_enchantment_industry:enchanting_template" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electric_motor"
-					}
-					count: 1L
 				}
 				{
-					id: "31611EE5FDCC14F4"
+					id: "00743A722C1908DB"
+					item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:modular_accumulator"
-					}
-					count: 1L
 				}
 				{
-					id: "622E46432279E1BD"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:large_connector"
+					advancement: "create_enchantment_industry:lumen_nexus"
+					criterion: ""
+					icon: {
+						id: "create_enchantment_industry:printer"
 					}
-					count: 1L
-				}
-				{
-					id: "4FF12CF718C47BDC"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electrum_spool"
-					}
-					count: 1L
-				}
-				{
-					id: "3F921C0C70D1DC3E"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:tesla_coil"
-					}
-					count: 1L
+					id: "1A461673C2FF3996"
+					type: "advancement"
 				}
 			]
+			x: 13.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["2A579AB36109DE81"]
+			id: "7577EF8743550BC9"
 			rewards: [
 				{
 					id: "5D549E8B4A16EF33"
@@ -1244,95 +741,64 @@
 				}
 				{
 					id: "35A0527BD32CED5B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Rotação em Raio"
-			description: [
-				"&7Ouro e prata fundidos juntos dão o metal pálido que melhor carrega o raio."
-				"&7O ímã gira, o cobre canta, e nasce a eletricidade; o motor faz o caminho inverso, compacto e ajustável."
-				"&7Um armário de capacitores guarda o raio, fios grossos o levam longe, e no fim da linha a bobina de Tesla"
-				"&7faz raios dançarem sobre quem chegar perto."
-				""
-				"&6Objetivo:&r 1. Misture ouro + prata numa Basin &caquecida&r: &6Electrum&r. Prense e lamine em &6Electrum Wire&r."
-				"&f2. No Mechanical Crafter, faça um &6Alternator&r (32+ RPM vira energia) e um &6Electric Motor&r."
-				"&f3. Faça um &6Accumulator&r (multibloco que guarda energia)."
-				"&f4. Faça um &6Large Connector&r e um &6Electrum Spool&r para alta corrente."
-				"&f5. Faça uma &6Tesla Coil&r: carrega itens abaixo dela e fere criaturas por perto."
-				""
-				"&8No acumulador, o conector de seta para cima entrega e o de seta para baixo recebe."
-			]
-		}
-		{
-			id: "635B96652F3EE323"
-			x: 15.0d
-			y: -4.0d
 			size: 1.25d
-			dependencies: [
-				"5F470AB9A2C43D25"
-			]
 			tasks: [
 				{
-					id: "194CE0FF670DAFDD"
+					count: 4L
+					id: "001D53F7568762E8"
+					item: { count: 1, id: "createaddition:electrum_ingot" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:control_chip"
-					}
-					count: 1L
 				}
 				{
-					id: "1EDBDFC064937F11"
-					type: "advancement"
-					advancement: "create_connected:control_chip"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_connected:control_chip"
-					}
-				}
-				{
-					id: "07B44E5075580EFA"
+					count: 4L
+					id: "4EA135E0DBC6C672"
+					item: { count: 1, id: "createaddition:electrum_wire" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:sequenced_pulse_generator"
-					}
-					count: 1L
 				}
 				{
-					id: "54B03073B1FF5E43"
-					type: "advancement"
-					advancement: "create_connected:sequenced_pulse_generator"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "create_connected:control_chip"
-					}
-				}
-				{
-					id: "4E6829CE9A17F09C"
+					id: "089A31B5FBAB5978"
+					item: { count: 1, id: "createaddition:alternator" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:linked_transmitter"
-					}
-					count: 1L
 				}
 				{
-					id: "162A14C62DCA07B3"
+					id: "4675D1B0BB2087DC"
+					item: { count: 1, id: "createaddition:electric_motor" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_connected:dashboard"
-					}
-					count: 1L
+				}
+				{
+					id: "31611EE5FDCC14F4"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
+					type: "item"
+				}
+				{
+					id: "622E46432279E1BD"
+					item: { count: 1, id: "createaddition:large_connector" }
+					type: "item"
+				}
+				{
+					id: "4FF12CF718C47BDC"
+					item: { count: 1, id: "createaddition:electrum_spool" }
+					type: "item"
+				}
+				{
+					id: "3F921C0C70D1DC3E"
+					item: { count: 1, id: "createaddition:tesla_coil" }
+					type: "item"
 				}
 			]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F470AB9A2C43D25"]
+			id: "635B96652F3EE323"
 			rewards: [
 				{
 					id: "6FBB9B8719732EAD"
@@ -1341,89 +807,61 @@
 				}
 				{
 					id: "6DBD74BBCF16236B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Pensamento em Metal"
-			description: [
-				"&7Um tubo de elétron, redstone e ouro, montados em fila: o primeiro pensamento escrito em metal."
-				"&7Com ele, a redstone segue listas de instruções sem errar, botões falam a distância"
-				"&7e painéis do tamanho de uma cabine mostram quatro linhas do que a máquina sabe."
-				""
-				"&6Objetivo:&r 1. &6Control Chip&r por montagem sequencial: Golden Sheet → Deployer com Electron Tube → Deployer com redstone → Press (3 voltas)."
-				"&f2. Faça um &6Sequenced Pulse Generator&r e programe sinais temporizados."
-				"&f3. Faça um &6Linked Transmitter&r (converta um Redstone Link) e acople-o a um botão ou alavanca."
-				"&f4. Faça um &6Dashboard&r: mini-quadro de 4 linhas para Display Links."
-			]
-		}
-		{
-			id: "7AE94C21FDDE112C"
-			x: 15.0d
-			y: 4.0d
 			size: 1.25d
-			dependencies: [
-				"7577EF8743550BC9"
-			]
 			tasks: [
 				{
-					id: "15B2385D8BDAEA54"
+					id: "194CE0FF670DAFDD"
+					item: { count: 1, id: "create_connected:control_chip" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:portable_energy_interface"
-					}
-					count: 2L
 				}
 				{
-					id: "4C680CFB9565F7D5"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electric_pump"
+					advancement: "create_connected:control_chip"
+					criterion: ""
+					icon: {
+						id: "create_connected:control_chip"
 					}
-					count: 1L
+					id: "1EDBDFC064937F11"
+					type: "advancement"
 				}
 				{
-					id: "4882283E1CC7AE13"
+					id: "07B44E5075580EFA"
+					item: { count: 1, id: "create_connected:sequenced_pulse_generator" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:servo_motor"
-					}
-					count: 1L
 				}
 				{
-					id: "79022F2F9C8E73D1"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:redstone_relay"
+					advancement: "create_connected:sequenced_pulse_generator"
+					criterion: ""
+					icon: {
+						id: "create_connected:control_chip"
 					}
-					count: 1L
+					id: "54B03073B1FF5E43"
+					type: "advancement"
 				}
 				{
-					id: "5C4F526A3F97D1BC"
+					id: "4E6829CE9A17F09C"
+					item: { count: 1, id: "create_connected:linked_transmitter" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electrum_amulet"
-					}
-					count: 1L
 				}
 				{
-					id: "64296BF0C62D1D7C"
+					id: "162A14C62DCA07B3"
+					item: { count: 1, id: "create_connected:dashboard" }
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:diamond_grit_sandpaper"
-					}
-					count: 1L
 				}
 			]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7577EF8743550BC9"]
+			id: "7AE94C21FDDE112C"
+			optional: true
 			rewards: [
 				{
 					id: "07EEB47619A4813C"
@@ -1432,428 +870,286 @@
 				}
 				{
 					id: "5D8492C0760F8E91"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Bugigangas Elétricas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Com o raio domado, os engenheiros inventaram de tudo: bombas sem eixo, motores que param no ângulo exato,"
-				"&7portões de raio abertos pela redstone, colares que estalam e lixas de diamante que não gastam."
-				""
-				"&6Objetivo:&r 1. Faça &6Portable Energy Interfaces&r (energia entre contraption e ponto fixo) e uma &6Electric Pump&r."
-				"&f2. Faça um &6Servo Motor&r (gira a um ângulo preciso) e um &6Redstone Relay&r (deixa a energia passar com sinal)."
-				"&f3. Faça o &6Pale Gold Amulet&r: recarrega aos poucos o item da outra mão."
-				"&f4. Triture diamante em Diamond Grit e faça &6Diamond Grit Sand Paper&r."
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "15B2385D8BDAEA54"
+					item: { count: 1, id: "createaddition:portable_energy_interface" }
+					type: "item"
+				}
+				{
+					id: "4C680CFB9565F7D5"
+					item: { count: 1, id: "createaddition:electric_pump" }
+					type: "item"
+				}
+				{
+					id: "4882283E1CC7AE13"
+					item: { count: 1, id: "createaddition:servo_motor" }
+					type: "item"
+				}
+				{
+					id: "79022F2F9C8E73D1"
+					item: { count: 1, id: "createaddition:redstone_relay" }
+					type: "item"
+				}
+				{
+					id: "5C4F526A3F97D1BC"
+					item: { count: 1, id: "createaddition:electrum_amulet" }
+					type: "item"
+				}
+				{
+					id: "64296BF0C62D1D7C"
+					item: { count: 1, id: "createaddition:diamond_grit_sandpaper" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 15.0d
+			y: 4.0d
 		}
 		{
-			id: "1371B4615590AF18"
-			x: 18.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_3"
-			}
 			dependencies: [
 				"635B96652F3EE323"
 				"7AE94C21FDDE112C"
 			]
-			tasks: [
-				{
-					id: "4A0A4BF517C24AC4"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_3"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III&7 - Blazes que Encantam"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "1371B4615590AF18"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_3"
+				}
+				id: "4A0A4BF517C24AC4"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1371B4615590AF18"]
 			id: "6CB21E7021FF3C19"
-			x: 20.0d
-			y: -0.8d
-			dependencies: [
-				"1371B4615590AF18"
-			]
+			rewards: [{
+				id: "4E96869BB3458ECD"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "43FB16234413D1E5"
+					item: { count: 1, id: "create:fluid_tank" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:fluid_tank"
-					}
-					count: 1L
 				}
 				{
 					id: "190E193D3F956B57"
+					item: { count: 1, id: "create:spout" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create:spout"
-					}
-					count: 1L
 				}
 				{
-					id: "129EFC769727A923"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_bucket"
-					}
 					count: 4L
+					id: "129EFC769727A923"
+					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "4E96869BB3458ECD"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "Experiência para o Coração"
-			description: [
-				"&7O terceiro Coração pede um banho de saber: cem goles de experiência líquida, despejados pelo bico."
-				"&7Os forjadores mantêm um tanque verde sempre cheio ao lado da linha de montagem."
-				""
-				"&6Objetivo:&r 1. Monte um &6Fluid Tank&r ligado aos drenos de experiência."
-				"&f2. Ligue-o a um &6Spout&r na linha do Coração do Tier IV (100 mB por coração)."
-				"&f3. Guarde baldes de experiência de reserva."
-			]
+			x: 20.0d
+			y: -0.8d
 		}
 		{
+			dependencies: ["1371B4615590AF18"]
 			id: "124477AC068434F6"
-			x: 20.0d
-			y: 0.8d
+			rewards: [{
+				id: "088C2EE4B089B363"
+				type: "xp"
+				xp: 550
+			}]
 			size: 1.25d
-			dependencies: [
-				"1371B4615590AF18"
-			]
 			tasks: [
 				{
-					id: "14D73E72C1845ED2"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_dragons_plus:blaze_upgrade_smithing_template"
-					}
 					count: 2L
+					id: "14D73E72C1845ED2"
+					item: { count: 1, id: "create_dragons_plus:blaze_upgrade_smithing_template" }
+					type: "item"
 				}
 				{
 					id: "49D8432915F74A23"
+					item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:blaze_enchanter"
-					}
-					count: 1L
 				}
 				{
-					id: "342C3A454F4CF5C9"
-					type: "advancement"
 					advancement: "create_enchantment_industry:blazing_enchantment"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_dragons_plus:blaze_upgrade_smithing_template"
 					}
+					id: "342C3A454F4CF5C9"
+					type: "advancement"
 				}
 				{
 					id: "0AAE66F46750E5F1"
+					item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:blaze_forger"
-					}
-					count: 1L
 				}
 				{
-					id: "20F95385369D35D0"
-					type: "advancement"
 					advancement: "create_enchantment_industry:blazing_fusion"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_dragons_plus:blaze_upgrade_smithing_template"
 					}
+					id: "20F95385369D35D0"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "088C2EE4B089B363"
-					type: "xp"
-					xp: 550
-				}
-			]
-			title: "Blazes que Leem Runas"
-			description: [
-				"&7Nos baús das fortalezas e bastiões do Nether há placas que ensinam blazes a trabalhar."
-				"&7O blaze que aprendeu a ler runas encanta melhor que qualquer mesa; o blaze-ferreiro funde encantos"
-				"&7sem o custo crescente da bigorna. Os dois juntos são a encantaria de Heartforge."
-				""
-				"&6Objetivo:&r 1. Encontre um &6Smithing Template&r de blaze em fortalezas ou bastiões e duplique-o (molde + 7 varas de blaze + netherrack)."
-				"&f2. Mesa de ferraria: molde + Blaze Burner + Enchanting Table = &6Blaze Enchanter&r. Abasteça com experiência líquida."
-				"&f3. Mesa de ferraria: molde + Blaze Burner + Anvil = &6Blaze Forger&r: junta itens como uma bigorna, sem custo acumulado."
-				""
-				"&8Antes do Tier IV o Ar Escaldante castiga quem demora no Nether: vá direto ao baú e volte."
-			]
+			x: 20.0d
+			y: 0.8d
 		}
 		{
-			id: "7E96AD240AF63CEF"
-			x: 22.0d
-			y: 0.8d
-			size: 1.25d
-			dependencies: [
-				"124477AC068434F6"
-			]
+			dependencies: ["124477AC068434F6"]
 			icon: {
-				count: 1
 				id: "create_enchantment_industry:classic_blaze_enchanter"
 			}
+			id: "7E96AD240AF63CEF"
+			rewards: [{
+				id: "4EED3B76D2EB34F2"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "065C4DE216A1DA00"
-					type: "advancement"
 					advancement: "create_enchantment_industry:sigil_forging"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_enchantment_industry:classic_blaze_enchanter"
 					}
+					id: "065C4DE216A1DA00"
+					type: "advancement"
 				}
 				{
-					id: "5956366659C45341"
-					type: "advancement"
 					advancement: "create_enchantment_industry:sigil_casting"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_enchantment_industry:classic_blaze_enchanter"
 					}
+					id: "5956366659C45341"
+					type: "advancement"
 				}
 				{
-					id: "6DB1FA4DEC4D98BD"
-					type: "advancement"
 					advancement: "create_enchantment_industry:magic_unbinding"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_enchantment_industry:classic_blaze_enchanter"
 					}
+					id: "6DB1FA4DEC4D98BD"
+					type: "advancement"
 				}
 				{
-					id: "531ADFA449BFD3AA"
-					type: "advancement"
 					advancement: "create_enchantment_industry:gone_with_the_foil"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_enchantment_industry:classic_blaze_enchanter"
 					}
+					id: "531ADFA449BFD3AA"
+					type: "advancement"
 				}
 				{
 					id: "4823F252A0A02046"
+					item: { count: 1, id: "create_enchantment_industry:classic_blaze_enchanter" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:classic_blaze_enchanter"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "4EED3B76D2EB34F2"
-					type: "xp"
-					xp: 550
-				}
-			]
-			title: "Forja de Sigilos"
-			description: [
-				"&7O encanto não vai para a espada: vai para a placa, e da placa para quantas espadas se quiser."
-				"&7O blaze também arranca o encanto de uma bota velha e o guarda, e o moedor devolve ao rio o que sobra."
-				"&7O encantador à moda antiga repete o mesmo encanto sem nunca gastar o molde."
-				""
-				"&6Objetivo:&r 1. No Blaze Enchanter (modo molde), grave encantos num Enchanting Template em branco."
-				"&f2. No Blaze Forger em &6Modo Aplicação&r, aplique o molde a um item; em &6Modo Extração&r, retire um encanto para um molde."
-				"&f3. Veja um item encantado ser desencantado por um Mechanical Grindstone."
-				"&f4. Faça o &6Blaze's Enchanting Handbook&r (molde de blaze, 2 Sturdy Sheets, 2 garrafas de experiência, magma)"
-				"&fe use-o na mesa de ferraria sobre um Blaze Burner: &6Classic Blaze Enchanter&r."
-				""
-				"&8O Classic Blaze Enchanter aplica sem parar o encanto do molde aos itens que passam, inclusive por esteira."
-			]
+			x: 22.0d
+			y: 0.8d
 		}
 		{
-			id: "2189BE44D0FB271B"
-			x: 25.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["7E96AD240AF63CEF"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_4"
 			}
-			dependencies: [
-				"7E96AD240AF63CEF"
-			]
-			tasks: [
-				{
-					id: "315C0BC3186F87A8"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_4"
-					}
+			id: "2189BE44D0FB271B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_4"
 				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV&7 - Além do Limite"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "315C0BC3186F87A8"
+				type: "advancement"
+			}]
+			x: 25.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["2189BE44D0FB271B"]
 			id: "3B34B49BD597D1FA"
-			x: 27.0d
-			y: 0.0d
+			rewards: [{
+				id: "4504816A32D78277"
+				type: "xp"
+				xp: 700
+			}]
 			size: 1.25d
-			dependencies: [
-				"2189BE44D0FB271B"
-			]
 			tasks: [
 				{
 					id: "42FB6654EB0820F9"
+					item: { count: 1, id: "create_enchantment_industry:experience_cake" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_cake"
-					}
-					count: 1L
 				}
 				{
 					id: "5627BB2778E29975"
+					item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:super_experience_block"
-					}
-					count: 1L
 				}
 				{
-					id: "051465321715AE59"
-					type: "advancement"
 					advancement: "create_enchantment_industry:lightning_catalysis"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_enchantment_industry:experience_cake"
 					}
+					id: "051465321715AE59"
+					type: "advancement"
 				}
 				{
 					id: "1AEFB9C607CDEF4C"
+					item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
 					type: "item"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:super_enchanting_template"
-					}
-					count: 1L
 				}
 				{
-					id: "05095A77F0571101"
-					type: "advancement"
 					advancement: "create_enchantment_industry:transcendent_overclock"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "create_enchantment_industry:experience_cake"
 					}
+					id: "05095A77F0571101"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "4504816A32D78277"
-					type: "xp"
-					xp: 700
-				}
-			]
-			title: "O Bolo e o Raio"
-			description: [
-				"&7Lápis, açúcar e ovo, banhados num balde inteiro de saber: o blaze que come esse bolo começa a ferver."
-				"&7O raio que cai num bloco de saber o transforma em algo que nenhuma mesa conhece, e prensado vira"
-				"&7uma placa capaz de guardar encantos proibidos. Nesse estado, o blaze ignora os limites que os antigos juravam eternos."
-				""
-				"&6Objetivo:&r 1. Prense ovo + açúcar + lápis na Basin (Cake Base o' Enchanting) e encha com 1000 mB de experiência: &6Cake o' Enchanting&r."
-				"&f2. Deixe Blocks of Experience perto de um para-raios em tempestades: &6Block of Super Experience&r."
-				"&f3. Prense-o: &6Super Enchanting Template&r."
-				"&f4. Dê o bolo a um Blaze Enchanter ou Forger: ele entra em &cSuper Encantamento&r e só aceita Super Templates."
-				""
-				"&8O processo atrai raios. Cobrir a máquina evita os raios, mas pode trazer maldições ou custo de reparo."
-			]
+			x: 27.0d
+			y: 0.0d
 		}
 		{
-			id: "7E08B6CA3C912367"
-			x: 29.0d
-			y: 0.0d
-			dependencies: [
-				"3B34B49BD597D1FA"
-			]
+			dependencies: ["3B34B49BD597D1FA"]
 			icon: {
-				count: 1
 				id: "createaddition:bioethanol_bucket"
 			}
-			tasks: [
-				{
-					id: "0DAEF8749807FF3C"
-					type: "advancement"
-					advancement: "create_enchantment_industry:paradox_fusion"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "createaddition:bioethanol_bucket"
-					}
-				}
-				{
-					id: "2ABDE7D32F15A665"
-					type: "advancement"
-					advancement: "create_enchantment_industry:probability_spike"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "createaddition:bioethanol_bucket"
-					}
-				}
-				{
-					id: "6BB61473386A387F"
-					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:bioethanol_bucket"
-					}
-					count: 1L
-				}
-			]
+			id: "7E08B6CA3C912367"
+			optional: true
 			rewards: [
 				{
 					id: "1ED882F319A92C2D"
@@ -1862,86 +1158,67 @@
 				}
 				{
 					id: "5B7A1BF37BCA8401"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
-			]
-			title: "Feitos Proibidos"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Dois encantos que se odeiam, no mesmo item: o blaze não pergunta."
-				"&7Encantos que só se achavam em baús antigos saem da forja, e os mais ousados alimentam os queimadores"
-				"&7com bioetanol, o combustível que queima feroz."
-				""
-				"&6Objetivo:&r 1. Junte encantamentos conflitantes num item com o Blaze Forger em Super Encantamento."
-				"&f2. Obtenha um encantamento de tesouro com o Blaze Enchanter em Super Encantamento."
-				"&f3. Misture açúcar + Cinder Flour + 2 Biomass no Mixer: &6Bioethanol&r (combustível para Blaze Burners com canudo)."
-			]
-			optional: true
-		}
-		{
-			id: "4DCBC234F750BC18"
-			x: 32.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_7"
-			}
-			dependencies: [
-				"7E08B6CA3C912367"
 			]
 			tasks: [
 				{
-					id: "5BF9F2EA331C768B"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_7"
+					advancement: "create_enchantment_industry:paradox_fusion"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_7"
+						id: "createaddition:bioethanol_bucket"
 					}
+					id: "0DAEF8749807FF3C"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:probability_spike"
+					criterion: ""
+					icon: {
+						id: "createaddition:bioethanol_bucket"
+					}
+					id: "2ABDE7D32F15A665"
+					type: "advancement"
+				}
+				{
+					id: "6BB61473386A387F"
+					item: { count: 1, id: "createaddition:bioethanol_bucket" }
+					type: "item"
 				}
 			]
-			rewards: [ ]
-			title: "&dTier VII&7 - O Sopro do Fim"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+			x: 29.0d
+			y: 0.0d
 		}
 		{
-			id: "6510986A8F83BF8D"
-			x: 34.0d
+			dependencies: ["7E08B6CA3C912367"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "4DCBC234F750BC18"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_7"
+				}
+				id: "5BF9F2EA331C768B"
+				type: "advancement"
+			}]
+			x: 32.0d
 			y: 0.0d
-			dependencies: [
-				"4DCBC234F750BC18"
-			]
-			tasks: [
-				{
-					id: "71034FC66FFF6BCC"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:dragon_breath"
-					}
-					count: 4L
-				}
-				{
-					id: "0E86325D69ABA9F6"
-					type: "item"
-					item: {
-						count: 1
-						id: "create_dragons_plus:dragon_breath_bucket"
-					}
-					count: 1L
-				}
-			]
+		}
+		{
+			dependencies: ["4DCBC234F750BC18"]
+			id: "6510986A8F83BF8D"
+			optional: true
 			rewards: [
 				{
 					id: "300057B4E215C1B2"
@@ -1950,28 +1227,28 @@
 				}
 				{
 					id: "787E3CBE1E0BD4C2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "O Sopro Engarrafado"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O hálito do dragão do Fim, em balde, escorre roxo e frio. Encontrando lava, vira pedra do Fim."
-				"&7Soprado por um ventilador, transforma o que toca como só o Fim sabe transformar."
-				""
-				"&6Objetivo:&r 1. Colete garrafas de &6Dragon's Breath&r na nuvem de sopro do Dragão do Fim."
-				"&f2. Esvazie-as num Item Drain e encha um balde com o fluido."
-				"&f3. Um ventilador através do sopro (ou de uma cabeça de dragão, num Fan Catalyst) faz o &5processamento do Fim&r."
+			tasks: [
+				{
+					count: 4L
+					id: "71034FC66FFF6BCC"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+				{
+					id: "0E86325D69ABA9F6"
+					item: { count: 1, id: "create_dragons_plus:dragon_breath_bucket" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 34.0d
+			y: 0.0d
 		}
-	]
-	title: "&6Engenhocas Avançadas"
-	subtitle: [
-		"Experiência líquida, eletricidade e engenhocas"
 	]
 }

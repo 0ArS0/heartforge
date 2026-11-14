@@ -1,0 +1,13 @@
+name = "surveyor-1.2.4+1.21"
+filename = "surveyor-1.2.4+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4KjqhPc9/versions/egJBsDTn/surveyor-1.2.4%2B1.21.jar"
+hash-format = "sha1"
+hash = "77e9d3996c11eed104fe224c3ba706be1c759303"
+
+[update]
+[update.modrinth]
+mod-id = "4KjqhPc9"
+version = "egJBsDTn"

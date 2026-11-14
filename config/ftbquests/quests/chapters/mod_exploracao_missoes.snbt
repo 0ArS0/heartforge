@@ -4,114 +4,38 @@
 	filename: "mod_exploracao_missoes"
 	group: "429D481FF148D2D9"
 	icon: {
-		count: 1
 		id: "minecraft:filled_map"
 	}
 	id: "09AB6A7F0A40907B"
-	order_index: 25
+	images: [ ]
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
 			id: "025D09AAB40168DF"
-			x: -3.0d
-			y: 0.0d
+			rewards: [{
+				id: "394BADDF887185EB"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "square"
 			size: 2.0d
-			icon: {
-				count: 1
-				id: "minecraft:filled_map"
-			}
-			tasks: [
-				{
-					id: "7B441FE9C447F660"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "394BADDF887185EB"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "O Livro das Estradas"
-			description: [
-				"&7Este mundo não se entrega a quem fica perto de casa. As montanhas sobem até rasgar as nuvens, os vales se abrem em cores que nenhum mapa antigo conhecia,"
-				"&7e as ruínas dos povos esquecidos jazem longe umas das outras, separadas por dias de caminhada."
-				"&7Cada torre, cada templo, cada acampamento é uma recompensa para os pés cansados. Nenhum deles fica na porta de casa."
-				""
-				"&7Comece com um &6mapa&7, uma luneta e a disposição de andar até o horizonte. As &6Waystones&7 cuidarão da volta."
-			]
+			tasks: [{
+				id: "7B441FE9C447F660"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			id: "5698C3AA6FE9D790"
-			x: 1.0d
-			y: 0.0d
-			size: 1.25d
+			dependencies: ["025D09AAB40168DF"]
 			icon: {
-				count: 1
 				id: "minecraft:filled_map"
 			}
-			dependencies: [
-				"025D09AAB40168DF"
-			]
-			tasks: [
-				{
-					id: "17D993E30C984A6F"
-					type: "advancement"
-					advancement: "minecraft:adventure/root"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:filled_map"
-					}
-				}
-				{
-					id: "0FE295116DDE993B"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:filled_map"
-					}
-					count: 1L
-				}
-				{
-					id: "03CB2CC7DCB0936E"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:spyglass"
-					}
-					count: 1L
-				}
-				{
-					id: "02F2144D055C9323"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:rope"
-					}
-					count: 16L
-				}
-				{
-					id: "45B6F848D2BFB210"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:altimeter"
-					}
-					count: 1L
-				}
-				{
-					id: "49FA600FDFC415D4"
-					type: "item"
-					item: {
-						count: 1
-						id: "supplementaries:globe"
-					}
-					count: 1L
-				}
-			]
+			id: "5698C3AA6FE9D790"
 			rewards: [
 				{
 					id: "5F16340EAF63A756"
@@ -120,104 +44,60 @@
 				}
 				{
 					id: "38A41E06F50C0E4F"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Pé na Estrada"
-			description: [
-				"&7Toda crônica de viagem começa com o mesmo passo: o primeiro para longe da fogueira."
-				"&7Um mapa preenchido é a memória do viajante; sem ele, cada floresta parece a mesma floresta. As montanhas daqui são tão altas que do cume se veem as torres de reinos inteiros."
-				"&7Corda para os abismos, um altímetro para saber o quanto se desceu e um globo para lembrar o tamanho do mundo: a bagagem de quem pretende voltar."
-				""
-				"&6Objetivo:&r 1. Vença sua primeira briga (ou perca uma): a aventura começa aí."
-				"&f2. Fabrique um &6Mapa&r (papel + bússola) e preencha-o caminhando com ele na mão."
-				"&f3. Fabrique uma &6Luneta&r (2 cobre + 1 fragmento de ametista)."
-				"&f4. Junte a bagagem: 16 &6Cordas&r, um &6Altímetro&r e um &6Globo&r."
-				""
-				"&8Mapas em molduras na parede viram um painel da região. O &6Mapa de Fatia&r mostra uma camada fixa de altura: ótimo para cavernas."
-			]
-		}
-		{
-			id: "446388A57CCC6F36"
-			x: 3.0d
-			y: 0.0d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "waystones:waystone"
-			}
-			dependencies: [
-				"5698C3AA6FE9D790"
-			]
 			tasks: [
 				{
-					id: "07E7C17611839F82"
-					type: "item"
-					item: {
-						count: 1
-						id: "waystones:warp_dust"
+					advancement: "minecraft:adventure/root"
+					criterion: ""
+					icon: {
+						id: "minecraft:filled_map"
 					}
-					count: 4L
+					id: "17D993E30C984A6F"
+					type: "advancement"
 				}
 				{
-					id: "4FEABD8034806F09"
+					id: "0FE295116DDE993B"
+					item: { count: 1, id: "minecraft:filled_map" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:return_scroll"
-					}
-					count: 3L
 				}
 				{
-					id: "19F0DD96ECA117EE"
+					id: "03CB2CC7DCB0936E"
+					item: { count: 1, id: "minecraft:spyglass" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:warp_scroll"
-					}
-					count: 3L
 				}
 				{
-					id: "50149364E1EFF10D"
+					count: 16L
+					id: "02F2144D055C9323"
+					item: { count: 1, id: "supplementaries:rope" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:warp_stone"
-					}
-					count: 1L
 				}
 				{
-					id: "30CBE4D503BA7BA6"
+					id: "45B6F848D2BFB210"
+					item: { count: 1, id: "supplementaries:altimeter" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:waystone"
-					}
-					count: 1L
 				}
 				{
-					id: "14632B416AF4FAF3"
+					id: "49FA600FDFC415D4"
+					item: { count: 1, id: "supplementaries:globe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "waystones:purple_sharestone"
-					}
-					count: 1L
-				}
-				{
-					id: "4E0B8733E2A493EA"
-					type: "item"
-					item: {
-						count: 1
-						id: "waystones:warp_plate"
-					}
-					count: 1L
 				}
 			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5698C3AA6FE9D790"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "446388A57CCC6F36"
 			rewards: [
 				{
 					id: "099037AB2119723C"
@@ -226,196 +106,128 @@
 				}
 				{
 					id: "5D128F7DEEE68FEB"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "As Pedras do Caminho"
-			description: [
-				"&7Monólitos antigos, gravados com runas violetas, pontilham as vilas e as estradas. Quem toca um deles nunca mais se perde."
-				"&7Pergaminhos selados com ouro dobram o caminho como quem dobra uma carta; a pedra de dobra faz o mesmo sem se gastar."
-				"&7E um lar só é lar quando se pode voltar a ele num piscar de olhos: por isso a companhia ergue a própria pedra, e liga suas bases em rede."
-				""
-				"&6Objetivo:&r 1. Ative uma &6Waystone&r de vila e fabrique 4 &6Pó de Dobra&r (pérola do Ender + fragmento de ametista)."
-				"&f2. Faça 3 &6Pergaminhos de Retorno&r (2 pepitas de ouro, tinta, 3 papéis: levam à waystone ativada mais próxima)."
-				"&f3. Faça 3 &6Pergaminhos de Dobra&r (ouro, tinta, pérola do Ender, papel: levam a qualquer waystone ativada, uma vez)."
-				"&f4. Fabrique uma &6Pedra de Dobra&r (esmeralda, 4 ametistas, 4 pérolas do Ender), reutilizável com recarga."
-				"&f5. Fabrique uma &6Waystone&r própria (tijolos de pedra, pedra de dobra, 3 obsidianas) para a base do grupo."
-				"&f6. Fabrique uma &6Pedra de Partilha&r (rede própria entre pedras da mesma cor) e uma &6Placa de Dobra&r (liga duas placas como gêmeas)."
-				""
-				"&8Viajar por uma waystone custa experiência, mais caro quanto mais longe. A tarefa pede a pedra de partilha roxa; as outras cores funcionam igual, cada uma com sua rede."
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "07E7C17611839F82"
+					item: { count: 1, id: "waystones:warp_dust" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4FEABD8034806F09"
+					item: { count: 1, id: "waystones:return_scroll" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "19F0DD96ECA117EE"
+					item: { count: 1, id: "waystones:warp_scroll" }
+					type: "item"
+				}
+				{
+					id: "50149364E1EFF10D"
+					item: { count: 1, id: "waystones:warp_stone" }
+					type: "item"
+				}
+				{
+					id: "30CBE4D503BA7BA6"
+					item: { count: 1, id: "waystones:waystone" }
+					type: "item"
+				}
+				{
+					id: "14632B416AF4FAF3"
+					item: { count: 1, id: "waystones:purple_sharestone" }
+					type: "item"
+				}
+				{
+					id: "4E0B8733E2A493EA"
+					item: { count: 1, id: "waystones:warp_plate" }
+					type: "item"
+				}
 			]
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			id: "6C30FC58C32E544F"
-			x: 6.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["446388A57CCC6F36"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			dependencies: [
-				"446388A57CCC6F36"
-			]
-			tasks: [
-				{
-					id: "514689ECA3973279"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
+			id: "6C30FC58C32E544F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				icon: {
+					id: "minecraft:compass"
 				}
-			]
-			rewards: [ ]
-			title: "&7Tier I&7 - O Andarilho"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "514689ECA3973279"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			id: "5DAD70DC22E50855"
-			x: 8.0d
-			y: -4.0d
+			dependencies: ["6C30FC58C32E544F"]
 			icon: {
-				count: 1
 				id: "minecraft:emerald"
 			}
-			dependencies: [
-				"6C30FC58C32E544F"
-			]
+			id: "5DAD70DC22E50855"
+			rewards: [{
+				id: "4EE5089BD6E7C677"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
-					id: "39DDE2194FA597E8"
-					type: "advancement"
 					advancement: "minecraft:adventure/trade"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:emerald"
 					}
+					id: "39DDE2194FA597E8"
+					type: "advancement"
 				}
 				{
-					id: "55CC3C402920CF36"
-					type: "advancement"
 					advancement: "minecraft:adventure/voluntary_exile"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:emerald"
 					}
+					id: "55CC3C402920CF36"
+					type: "advancement"
 				}
 				{
-					id: "3F9D736A507309E6"
-					type: "advancement"
 					advancement: "quark:content/pathfinder_map_center"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:emerald"
 					}
+					id: "3F9D736A507309E6"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "4EE5089BD6E7C677"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "Rumores de Vila"
-			description: [
-				"&7As vilas deste mundo cresceram fortes e espalhadas; entre uma e outra, só estrada e silêncio."
-				"&7Nas estradas, torres de madeira escura com bandeiras de rosto cinzento: os saqueadores vigiam quem passa."
-				"&7Os cartógrafos da vila, por sua vez, guardam penas encantadas que desenham o caminho até terras específicas."
-				""
-				"&6Objetivo:&r 1. Encontre uma vila e faça uma troca com um aldeão."
-				"&f2. Encontre um &cPosto de Saqueadores&r e derrote o capitão (o que carrega a bandeira)."
-				"&f3. Compre uma &6Pena do Desbravador&r de um cartógrafo (Quark) e siga o mapa até o &6X&r."
-				""
-				"&8O capitão deixa uma &6Garrafa Sinistra&r: bebê-la provoca uma invasão na próxima vila. Guarde-a para quando estiverem prontos."
-			]
+			x: 8.0d
+			y: -4.0d
 		}
 		{
-			id: "55B2E9D8A18C4E0C"
-			x: 8.0d
-			y: -2.4d
-			size: 1.25d
+			dependencies: ["6C30FC58C32E544F"]
 			icon: {
-				count: 1
 				id: "minecraft:rail"
 			}
-			dependencies: [
-				"6C30FC58C32E544F"
-			]
-			tasks: [
-				{
-					id: "4F605AA708D2BC7D"
-					type: "advancement"
-					advancement: "mmr:root"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:rail"
-					}
-				}
-				{
-					id: "7DD26DCA33B78FFD"
-					type: "advancement"
-					advancement: "hopo:minecraft/adventure/locate_mineshaft"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:rail"
-					}
-				}
-				{
-					id: "3ED9820D6E534DAB"
-					type: "advancement"
-					advancement: "mmr:dark_oak_mineshaft"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:rail"
-					}
-				}
-				{
-					id: "0D6BC4759086B0F4"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:glow_berries"
-					}
-					count: 1L
-				}
-				{
-					id: "1F54026DB29E879E"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:pointed_dripstone"
-					}
-					count: 1L
-				}
-				{
-					id: "1195934454E6EC46"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:amethyst_shard"
-					}
-					count: 1L
-				}
-			]
+			id: "55B2E9D8A18C4E0C"
 			rewards: [
 				{
 					id: "5262A8F168231BE9"
@@ -424,72 +236,67 @@
 				}
 				{
 					id: "21AD4BF37490078A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Mundo de Baixo"
-			description: [
-				"&7As minas abandonadas foram reconstruídas por mãos desconhecidas. Quem as cavou? Ninguém lembra."
-				"&7Na floresta escura, os illagers tomaram uma mina inteira: o minério agora tem dono, e o dono tem besta."
-				"&7Mais fundo há florestas que brilham, catedrais de estalactites e geodos que cantam."
-				""
-				"&6Objetivo:&r 1. Descubra uma &6Mina Abandonada&r renovada (Moog)."
-				"&f2. Descubra uma mina renovada do Hopo."
-				"&f3. Descubra a &cMina de Carvalho Escuro&r, controlada por illagers."
-				"&f4. Colha &6Bagas Brilhantes&r numa caverna luxuriante."
-				"&f5. Quebre um &6Espeleotema&r numa caverna de gotejamento."
-				"&f6. Colete &6Ametista&r num geodo."
-				""
-				"&8Os baús de mina guardam mapas de vilas anãs e runas quebradas."
-			]
-		}
-		{
-			id: "2F9B060B7979BED5"
-			x: 8.0d
-			y: -0.8d
-			icon: {
-				count: 1
-				id: "minecraft:brush"
-			}
-			dependencies: [
-				"6C30FC58C32E544F"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "30607B1E95195EE1"
-					type: "advancement"
-					advancement: "hopo:minecraft/adventure/locate_portal_ruined"
+					advancement: "mmr:root"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:brush"
+						id: "minecraft:rail"
 					}
+					id: "4F605AA708D2BC7D"
+					type: "advancement"
 				}
 				{
-					id: "2C617D7B265A6343"
-					type: "advancement"
-					advancement: "minecraft:adventure/salvage_sherd"
+					advancement: "hopo:minecraft/adventure/locate_mineshaft"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:brush"
+						id: "minecraft:rail"
 					}
+					id: "7DD26DCA33B78FFD"
+					type: "advancement"
 				}
 				{
-					id: "20361F697AB096F0"
-					type: "advancement"
-					advancement: "minecraft:adventure/trim_with_any_armor_pattern"
+					advancement: "mmr:dark_oak_mineshaft"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:brush"
+						id: "minecraft:rail"
 					}
+					id: "3ED9820D6E534DAB"
+					type: "advancement"
+				}
+				{
+					id: "0D6BC4759086B0F4"
+					item: { count: 1, id: "minecraft:glow_berries" }
+					type: "item"
+				}
+				{
+					id: "1F54026DB29E879E"
+					item: { count: 1, id: "minecraft:pointed_dripstone" }
+					type: "item"
+				}
+				{
+					id: "1195934454E6EC46"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
 				}
 			]
+			x: 8.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "minecraft:brush"
+			}
+			id: "2F9B060B7979BED5"
 			rewards: [
 				{
 					id: "6B40F097B5023FE3"
@@ -498,79 +305,51 @@
 				}
 				{
 					id: "6A5928BAB086E60C"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
-			]
-			title: "Cacos e Ornamentos"
-			description: [
-				"&7Portais quebrados de obsidiana, cercados de pedra corrompida: algo tentou atravessar, e o mundo resistiu."
-				"&7Na areia suspeita dos templos e no cascalho das ruínas, cada pincelada revela um caco de outra era."
-				"&7E cada ruína guarda um molde de ornamento diferente. Quem os coleciona veste a geografia do mundo."
-				""
-				"&6Objetivo:&r 1. Investigue um &6Portal Arruinado&r de perto."
-				"&f2. Fabrique um &6Pincel&r e escove um bloco suspeito até tirar um &6caco de cerâmica&r."
-				"&f3. Aplique um &6Molde de Acabamento&r numa peça de armadura na mesa de ferraria (moldes saem de baús de estruturas)."
-				""
-				"&8&cNão tente reacender o portal antes do Tier IV&r: o Ar Escaldante espera do outro lado."
-				"&8Templos do deserto e da selva foram reimaginados (Moog): procure salas novas e armadilhas."
-			]
-		}
-		{
-			id: "42A063E686C44432"
-			x: 8.0d
-			y: 0.8d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:goat_horn"
-			}
-			dependencies: [
-				"6C30FC58C32E544F"
 			]
 			tasks: [
 				{
-					id: "39EAEB36A9D88AEE"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:goat_horn"
-					}
-					count: 1L
-				}
-				{
-					id: "5FF42AA4A678E0C0"
-					type: "advancement"
-					advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
+					advancement: "hopo:minecraft/adventure/locate_portal_ruined"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:goat_horn"
+						id: "minecraft:brush"
 					}
-				}
-				{
-					id: "671DED7BBAE97290"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:cherry_sapling"
-					}
-					count: 1L
-				}
-				{
-					id: "784435AE0A18A2DE"
+					id: "30607B1E95195EE1"
 					type: "advancement"
-					advancement: "minecraft:adventure/play_jukebox_in_meadows"
+				}
+				{
+					advancement: "minecraft:adventure/salvage_sherd"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:goat_horn"
+						id: "minecraft:brush"
 					}
+					id: "2C617D7B265A6343"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/trim_with_any_armor_pattern"
+					criterion: ""
+					icon: {
+						id: "minecraft:brush"
+					}
+					id: "20361F697AB096F0"
+					type: "advancement"
 				}
 			]
+			x: 8.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "minecraft:goat_horn"
+			}
+			id: "42A063E686C44432"
 			rewards: [
 				{
 					id: "1409AB57A3A58C64"
@@ -579,75 +358,54 @@
 				}
 				{
 					id: "0996D7EA64E33D35"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Onde as Montanhas Tocam o Céu"
-			description: [
-				"&7As cordilheiras deste mundo são tão altas que a neve nunca derrete e o ar fica fino."
-				"&7As cabras de lá batem a cabeça nas pedras e perdem os chifres; quem anda na neve fofa sem botas de couro afunda e congela."
-				"&7Mais abaixo, cerejeiras soltam pétalas no vento, e nos prados entre as montanhas a música soa melhor."
-				""
-				"&6Objetivo:&r 1. Consiga um &6Chifre de Cabra&r (as cabras o perdem ao bater em pedra, minério ou madeira)."
-				"&f2. Ande sobre a &6neve fofa&r usando botas de couro."
-				"&f3. Pegue uma muda de &6cerejeira&r."
-				"&f4. Toque um disco numa &6Jukebox&r num bioma de prado."
-			]
-		}
-		{
-			id: "26172E0D7B0E0067"
-			x: 8.0d
-			y: 2.4d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:bamboo"
-			}
-			dependencies: [
-				"6C30FC58C32E544F"
-			]
 			tasks: [
 				{
-					id: "2C82A1864EF036E8"
+					id: "39EAEB36A9D88AEE"
+					item: { count: 1, id: "minecraft:goat_horn" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:cocoa_beans"
-					}
-					count: 4L
 				}
 				{
-					id: "577536C71E602881"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:bamboo"
+					advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
+					criterion: ""
+					icon: {
+						id: "minecraft:goat_horn"
 					}
-					count: 8L
+					id: "5FF42AA4A678E0C0"
+					type: "advancement"
 				}
 				{
-					id: "40AB18AEF8542256"
+					id: "671DED7BBAE97290"
+					item: { count: 1, id: "minecraft:cherry_sapling" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:mangrove_propagule"
-					}
-					count: 1L
 				}
 				{
-					id: "7449A3346BA46775"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:mycelium"
+					advancement: "minecraft:adventure/play_jukebox_in_meadows"
+					criterion: ""
+					icon: {
+						id: "minecraft:goat_horn"
 					}
-					count: 1L
+					id: "784435AE0A18A2DE"
+					type: "advancement"
 				}
 			]
+			x: 8.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "minecraft:bamboo"
+			}
+			id: "26172E0D7B0E0067"
+			optional: true
 			rewards: [
 				{
 					id: "2F30B68805E777AB"
@@ -656,76 +414,47 @@
 				}
 				{
 					id: "73F5DB396019B227"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Selvas, Mangues e Ilhas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Calor, papagaios e cipós grossos como braços; mais adiante, árvores que andam sobre a água e um chão que suga as botas."
-				"&7E no meio do oceano, uma ilha onde nenhum monstro nasce e as vacas crescem cogumelos nas costas. Poucos marinheiros a encontram."
-				""
-				"&6Objetivo:&r 1. Na selva, colha 4 &6Sementes de Cacau&r e 8 &6Bambus&r."
-				"&f2. Num &6Manguezal&r, colete um propágulo de mangue."
-				"&f3. Encontre os &6Campos de Cogumelos&r e colete &6Micélio&r (picareta com Toque de Seda)."
-			]
-			optional: true
-		}
-		{
-			id: "167F45E1A1AD7172"
-			x: 8.0d
-			y: 4.0d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "biomeswevegone:baobab_fruit"
-			}
-			dependencies: [
-				"6C30FC58C32E544F"
-			]
 			tasks: [
 				{
-					id: "02C871CECC2055BC"
+					count: 4L
+					id: "2C82A1864EF036E8"
+					item: { count: 1, id: "minecraft:cocoa_beans" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:red_sand"
-					}
-					count: 16L
 				}
 				{
-					id: "40B28E17637F67FB"
-					type: "item"
-					item: {
-						count: 1
-						id: "biomeswevegone:red_rock"
-					}
 					count: 8L
-				}
-				{
-					id: "0CC7D8AB735BA0C7"
+					id: "577536C71E602881"
+					item: { count: 1, id: "minecraft:bamboo" }
 					type: "item"
-					item: {
-						count: 1
-						id: "biomeswevegone:baobab_fruit"
-					}
-					count: 1L
 				}
 				{
-					id: "7A1BFCC845F504AC"
-					type: "advancement"
-					advancement: "biomeswevegone:biomeswevegone/adventure/pale_in_comparison"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "biomeswevegone:baobab_fruit"
-					}
+					id: "40AB18AEF8542256"
+					item: { count: 1, id: "minecraft:mangrove_propagule" }
+					type: "item"
+				}
+				{
+					id: "7449A3346BA46775"
+					item: { count: 1, id: "minecraft:mycelium" }
+					type: "item"
 				}
 			]
+			x: 8.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["6C30FC58C32E544F"]
+			icon: {
+				id: "biomeswevegone:baobab_fruit"
+			}
+			id: "167F45E1A1AD7172"
 			rewards: [
 				{
 					id: "1E355D0E40AE54F0"
@@ -734,164 +463,113 @@
 				}
 				{
 					id: "0BE8FCB7F8907F03"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Terras que Ninguém Nomeou"
-			description: [
-				"&7Canyons de rocha vermelha, savanas de baobás, florestas de bordo, terras áridas listradas de terracota: o mundo ficou maior do que os mapas."
-				"&7Mais estranho de todos é o pântano pálido: árvores sem cor, abóboras brancas e uma névoa que sussurra. Até as bruxas evitam passar ali à noite."
-				""
-				"&6Objetivo:&r 1. Visite as &6Terras Áridas&r (badlands) e junte 16 &6Areia Vermelha&r."
-				"&f2. Junte 8 &6Rocha Vermelha&r num canyon de rocha vermelha."
-				"&f3. Colha um &6Fruto de Baobá&r numa savana de baobás."
-				"&f4. Encontre um &6Pântano Pálido&r."
-			]
-		}
-		{
-			id: "568816798DEF8461"
-			x: 10.0d
-			y: -4.0d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:campfire"
-			}
-			dependencies: [
-				"5DAD70DC22E50855"
-			]
 			tasks: [
 				{
-					id: "2736293B6E37B86C"
+					count: 16L
+					id: "02C871CECC2055BC"
+					item: { count: 1, id: "minecraft:red_sand" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "40B28E17637F67FB"
+					item: { count: 1, id: "biomeswevegone:red_rock" }
+					type: "item"
+				}
+				{
+					id: "0CC7D8AB735BA0C7"
+					item: { count: 1, id: "biomeswevegone:baobab_fruit" }
+					type: "item"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/pale_in_comparison"
+					criterion: ""
+					icon: {
+						id: "biomeswevegone:baobab_fruit"
+					}
+					id: "7A1BFCC845F504AC"
 					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DAD70DC22E50855"]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "568816798DEF8461"
+			rewards: [{
+				id: "5BFF703566FD7033"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
+			tasks: [
+				{
 					advancement: "dungeons_arise:find_wishing_well"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:campfire"
 					}
+					id: "2736293B6E37B86C"
+					type: "advancement"
 				}
 				{
-					id: "237147F553B7D92F"
-					type: "advancement"
 					advancement: "dungeons_arise:find_merchant_campsite"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:campfire"
 					}
+					id: "237147F553B7D92F"
+					type: "advancement"
 				}
 				{
-					id: "000566C643E55A1C"
-					type: "advancement"
 					advancement: "dungeons_arise:find_illager_campsite"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:campfire"
 					}
+					id: "000566C643E55A1C"
+					type: "advancement"
 				}
 				{
-					id: "2FF5B5F5EC02EC0B"
-					type: "advancement"
 					advancement: "dungeons_arise:find_greenwood_pub"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:campfire"
 					}
+					id: "2FF5B5F5EC02EC0B"
+					type: "advancement"
 				}
 				{
-					id: "42A0A458BBA3AD3F"
-					type: "advancement"
 					advancement: "dungeons_arise:find_bathhouse"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:campfire"
 					}
+					id: "42A0A458BBA3AD3F"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "5BFF703566FD7033"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "Estradas do Oeste"
-			description: [
-				"&7Um poço de pedra no meio dos campos, fogueiras na planície, uma taverna de madeira verde e uma casa de banhos que ainda fumega."
-				"&7Alguns acampamentos vendem, outros saqueiam: de longe, a fumaça é idêntica."
-				"&7São as paradas da estrada, onde os viajantes de antes descansavam. A cerveja acabou; os perigos, não."
-				""
-				"&6Objetivo:&r 1. Encontre um &6Poço dos Desejos&r."
-				"&f2. Encontre um &6Acampamento de Mercadores&r."
-				"&f3. Encontre um &cAcampamento de Illagers&r."
-				"&f4. Encontre o &6Greenwood Pub&r."
-				"&f5. Encontre a &6Casa de Banhos&r."
-				""
-				"&8Todos ficam em planícies, prados, florestas e taigas. Do alto de um morro, a luneta encontra as fogueiras de longe."
-			]
+			x: 10.0d
+			y: -4.0d
 		}
 		{
-			id: "26018DA8809EDC3E"
-			x: 10.0d
-			y: -2.4d
-			size: 1.25d
+			dependencies: ["55B2E9D8A18C4E0C"]
 			icon: {
-				count: 1
 				id: "minecraft:trial_key"
 			}
-			dependencies: [
-				"55B2E9D8A18C4E0C"
-			]
-			tasks: [
-				{
-					id: "41750197C1D3647B"
-					type: "advancement"
-					advancement: "minecraft:adventure/minecraft_trials_edition"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:trial_key"
-					}
-				}
-				{
-					id: "7690981569D10CB1"
-					type: "advancement"
-					advancement: "minecraft:adventure/under_lock_and_key"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:trial_key"
-					}
-				}
-				{
-					id: "1AC2B688AAC4A2AB"
-					type: "advancement"
-					advancement: "minecraft:adventure/blowback"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:trial_key"
-					}
-				}
-				{
-					id: "7B1009E588C02274"
-					type: "advancement"
-					advancement: "minecraft:adventure/who_needs_rockets"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:trial_key"
-					}
-				}
-			]
+			id: "26018DA8809EDC3E"
 			rewards: [
 				{
 					id: "5E1806579D25DAB9"
@@ -900,79 +578,62 @@
 				}
 				{
 					id: "2C6F6724C6C83511"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Câmaras de Provação"
-			description: [
-				"&7Corredores de cobre e tufo, cheios de geradores que testam quem entra. Os antigos chamavam aquilo de escola."
-				"&7Cada gerador vencido entrega uma chave, e cada chave abre um cofre, uma única vez por pessoa."
-				"&7O Breeze luta com o vento; devolver-lhe uma rajada é a maior humilhação que ele conhece."
-				""
-				"&6Objetivo:&r 1. Encontre e entre numa &6Câmara de Provação&r subterrânea."
-				"&f2. Vença as ondas de um &6Gerador de Provação&r, pegue a &6Chave&r e abra um &6Cofre&r."
-				"&f3. Derrote um &6Breeze&r com uma carga de vento rebatida."
-				"&f4. Use uma &6Carga de Vento&r para se lançar 7 blocos para o alto."
-			]
-		}
-		{
-			id: "31E147B35E5DA844"
-			x: 10.0d
-			y: 4.0d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:apple"
-			}
-			dependencies: [
-				"167F45E1A1AD7172"
-			]
 			tasks: [
 				{
-					id: "2A526895360E9A28"
-					type: "advancement"
-					advancement: "biomeswevegone:biomeswevegone/husbandry/berrily_alive"
+					advancement: "minecraft:adventure/minecraft_trials_edition"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:apple"
+						id: "minecraft:trial_key"
 					}
+					id: "41750197C1D3647B"
+					type: "advancement"
 				}
 				{
-					id: "40C5B609166D0D50"
-					type: "advancement"
-					advancement: "biomeswevegone:biomeswevegone/husbandry/forager"
+					advancement: "minecraft:adventure/under_lock_and_key"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:apple"
+						id: "minecraft:trial_key"
 					}
+					id: "7690981569D10CB1"
+					type: "advancement"
 				}
 				{
-					id: "70A8E9B89423B2B0"
-					type: "advancement"
-					advancement: "biomeswevegone:biomeswevegone/husbandry/johnny_appleseed"
+					advancement: "minecraft:adventure/blowback"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:apple"
+						id: "minecraft:trial_key"
 					}
+					id: "1AC2B688AAC4A2AB"
+					type: "advancement"
 				}
 				{
-					id: "7591C3D221E64E04"
-					type: "advancement"
-					advancement: "biomeswevegone:biomeswevegone/adventure/little_house_on_the_prairie"
+					advancement: "minecraft:adventure/who_needs_rockets"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:apple"
+						id: "minecraft:trial_key"
 					}
+					id: "7B1009E588C02274"
+					type: "advancement"
 				}
 			]
+			x: 10.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["167F45E1A1AD7172"]
+			icon: {
+				id: "minecraft:apple"
+			}
+			id: "31E147B35E5DA844"
+			optional: true
 			rewards: [
 				{
 					id: "01E5D3B5EBFC920A"
@@ -981,691 +642,477 @@
 				}
 				{
 					id: "4EA85B0A44A08841"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Colheita Selvagem"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Mirtilos nas encostas, cogumelos-bola nas florestas úmidas e três maçãs: a vermelha, a dourada de sol e a verde do Vale de Skyris."
-				"&7Na pradaria, casas solitárias guardam os segredos de colonos que não voltaram."
-				""
-				"&6Objetivo:&r 1. Colete &6Mirtilos&r."
-				"&f2. Colete &6Chapéus de Cogumelo-Bola Branco&r."
-				"&f3. Encontre as três maçãs dos biomas novos (a &6Maçã Verde&r cresce no &6Vale de Skyris&r)."
-				"&f4. Encontre &6todas as casas da pradaria&r."
-			]
-			optional: true
-		}
-		{
-			id: "341BA500DB0E1E44"
-			x: 12.0d
-			y: -4.0d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:lantern"
-			}
-			dependencies: [
-				"568816798DEF8461"
-			]
 			tasks: [
 				{
-					id: "377CB2E060912C5A"
+					advancement: "biomeswevegone:biomeswevegone/husbandry/berrily_alive"
+					criterion: ""
+					icon: {
+						id: "minecraft:apple"
+					}
+					id: "2A526895360E9A28"
 					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/husbandry/forager"
+					criterion: ""
+					icon: {
+						id: "minecraft:apple"
+					}
+					id: "40C5B609166D0D50"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/husbandry/johnny_appleseed"
+					criterion: ""
+					icon: {
+						id: "minecraft:apple"
+					}
+					id: "70A8E9B89423B2B0"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/little_house_on_the_prairie"
+					criterion: ""
+					icon: {
+						id: "minecraft:apple"
+					}
+					id: "7591C3D221E64E04"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["568816798DEF8461"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "341BA500DB0E1E44"
+			rewards: [{
+				id: "5CDF1E9C77591A43"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
+			tasks: [
+				{
 					advancement: "dungeons_arise:find_lighthouse"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:lantern"
 					}
+					id: "377CB2E060912C5A"
+					type: "advancement"
 				}
 				{
-					id: "558591A5675126B0"
-					type: "advancement"
 					advancement: "dungeons_arise:find_small_blimp"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:lantern"
 					}
+					id: "558591A5675126B0"
+					type: "advancement"
 				}
 				{
-					id: "568C81E0A073F16A"
-					type: "advancement"
 					advancement: "dungeons_arise:find_aviary"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:lantern"
 					}
+					id: "568C81E0A073F16A"
+					type: "advancement"
 				}
 				{
-					id: "1C4265304D4573ED"
-					type: "advancement"
 					advancement: "dungeons_arise:find_abandoned_temple"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:lantern"
 					}
+					id: "1C4265304D4573ED"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "5CDF1E9C77591A43"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "Torres, Faróis e Balões"
-			description: [
-				"&7Um farol abandonado ainda aponta o caminho para navios que não existem mais."
-				"&7Um balão de lona e madeira, preso ao céu por cordas podres: os engenheiros de vapor dariam tudo para estudá-lo."
-				"&7Uma torre de gaiolas vazias onde aves estranhas cantaram, e um templo de colunas tombadas cujos deuses já se foram."
-				""
-				"&6Objetivo:&r 1. Encontre um &6Farol&r numa praia."
-				"&f2. Encontre um &6Pequeno Dirigível&r flutuando sobre florestas, planícies ou savanas."
-				"&f3. Encontre o &6Aviário&r em planícies, prados ou savanas."
-				"&f4. Encontre o &6Templo Abandonado&r em florestas, planícies ou taigas."
-			]
+			x: 12.0d
+			y: -4.0d
 		}
 		{
-			id: "1431CBD833E3345D"
-			x: 15.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["341BA500DB0E1E44"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_2"
 			}
-			dependencies: [
-				"341BA500DB0E1E44"
-			]
-			tasks: [
-				{
-					id: "5A4AE9C6C7BF0C1F"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_2"
-					}
+			id: "1431CBD833E3345D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_2"
 				}
-			]
-			rewards: [ ]
-			title: "&aTier II&7 - Ruínas Distantes"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "5A4AE9C6C7BF0C1F"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 0.0d
 		}
 		{
-			id: "286F5F454A3AA690"
-			x: 17.0d
-			y: -2.4d
-			size: 1.25d
+			dependencies: ["1431CBD833E3345D"]
 			icon: {
-				count: 1
 				id: "minecraft:red_sand"
 			}
-			dependencies: [
-				"1431CBD833E3345D"
-			]
+			id: "286F5F454A3AA690"
+			rewards: [{
+				id: "56CA557BD5709149"
+				type: "xp"
+				xp: 320
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "6CD141162E6F4ACE"
-					type: "advancement"
 					advancement: "dungeons_arise:find_bandit_towers"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:red_sand"
 					}
+					id: "6CD141162E6F4ACE"
+					type: "advancement"
 				}
 				{
-					id: "55DC8440E86285A9"
-					type: "advancement"
 					advancement: "dungeons_arise:find_bandit_village"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:red_sand"
 					}
+					id: "55DC8440E86285A9"
+					type: "advancement"
 				}
 				{
-					id: "0AD74B6A4338B6BE"
-					type: "advancement"
 					advancement: "dungeons_arise:find_desert_hall"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:red_sand"
 					}
+					id: "0AD74B6A4338B6BE"
+					type: "advancement"
 				}
 				{
-					id: "53F1B77ECFA124AA"
-					type: "advancement"
 					advancement: "dungeons_arise:find_ceryneian_hind"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:red_sand"
 					}
+					id: "53F1B77ECFA124AA"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "56CA557BD5709149"
-					type: "xp"
-					xp: 320
-				}
-			]
-			title: "&cTerra de Bandidos"
-			description: [
-				"&7Nas terras vermelhas, os bandidos ergueram torres e uma vila inteira. Vigiam a estrada, e cobram pedágio em sangue."
-				"&7Mais adiante, no deserto, um palácio enterrado até a cintura na areia e o esqueleto colossal de um cervo."
-				"&7O que matou aquela coisa? Os bandidos não perguntam. Eles só saqueiam o que sobrou."
-				""
-				"&6Objetivo:&r 1. Encontre as &cTorres dos Bandidos&r nas badlands."
-				"&f2. Encontre a &cVila dos Bandidos&r."
-				"&f3. Encontre o &6Salão do Deserto&r."
-				"&f4. Encontre a &6Corça de Cerineia&r."
-			]
+			x: 17.0d
+			y: -2.4d
 		}
 		{
-			id: "6905AE658E6B7C19"
-			x: 17.0d
-			y: -0.8d
-			size: 1.25d
+			dependencies: ["1431CBD833E3345D"]
 			icon: {
-				count: 1
 				id: "minecraft:mossy_stone_bricks"
 			}
-			dependencies: [
-				"1431CBD833E3345D"
-			]
+			id: "6905AE658E6B7C19"
+			rewards: [{
+				id: "63E7A5397618EF40"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "228583A2690C57F3"
-					type: "advancement"
 					advancement: "dungeons_arise:find_kisegi_sanctuary"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:mossy_stone_bricks"
 					}
+					id: "228583A2690C57F3"
+					type: "advancement"
 				}
 				{
-					id: "788B35EA31155B99"
-					type: "advancement"
 					advancement: "dungeons_arise:find_infested_temple"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:mossy_stone_bricks"
 					}
+					id: "788B35EA31155B99"
+					type: "advancement"
 				}
 				{
-					id: "4CECEC43711782D8"
-					type: "advancement"
 					advancement: "dungeons_arise:find_mining_complex"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:mossy_stone_bricks"
 					}
+					id: "4CECEC43711782D8"
+					type: "advancement"
 				}
 				{
-					id: "36CA443F0D8B3C1E"
-					type: "advancement"
 					advancement: "dungeons_arise:find_keep_kayra"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:mossy_stone_bricks"
 					}
+					id: "36CA443F0D8B3C1E"
+					type: "advancement"
 				}
 				{
-					id: "57791EAD2903F416"
-					type: "advancement"
 					advancement: "biomeswevegone:biomeswevegone/adventure/witches_road"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:mossy_stone_bricks"
 					}
+					id: "57791EAD2903F416"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "63E7A5397618EF40"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "Santuários e Fortalezas Perdidas"
-			description: [
-				"&7Um santuário nas colinas floridas, onde alguém faz pactos que não deveria. Um templo nas taigas nevadas, tomado por aranhas e coisas piores."
-				"&7Engrenagens enferrujadas e esteiras paradas num complexo mineiro: a máquina comia minério, até começar a comer os mineiros."
-				"&7E no pântano, muralhas que afundam na lama, guardadas por quem jurou nunca abandoná-las, enquanto a estrada das bruxas cruza o pântano pálido."
-				""
-				"&6Objetivo:&r 1. Encontre o &6Santuário de Kisegi&r (planícies, colinas ou florestas floridas)."
-				"&f2. Encontre o &cTemplo Infestado&r (taigas e planícies nevadas)."
-				"&f3. Encontre o &6Complexo Mineiro&r (planícies ou florestas)."
-				"&f4. Encontre a &6Fortaleza de Kayra&r nos pântanos."
-				"&f5. Enfrente o desafio escondido no &6Pântano Pálido&r (a Estrada das Bruxas)."
-			]
+			x: 17.0d
+			y: -0.8d
 		}
 		{
-			id: "3A5C10D6F970926B"
-			x: 17.0d
-			y: 0.8d
+			dependencies: ["1431CBD833E3345D"]
 			icon: {
-				count: 1
 				id: "minecraft:totem_of_undying"
 			}
-			dependencies: [
-				"1431CBD833E3345D"
-			]
+			id: "3A5C10D6F970926B"
+			rewards: [{
+				id: "50950078B172BF1F"
+				type: "xp"
+				xp: 240
+			}]
 			tasks: [
 				{
 					id: "5477563FA9C892D2"
+					item: { count: 1, id: "minecraft:totem_of_undying" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:totem_of_undying"
-					}
-					count: 1L
 				}
 				{
-					id: "2AAEC68C0078D807"
-					type: "advancement"
 					advancement: "minecraft:adventure/totem_of_undying"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:totem_of_undying"
 					}
+					id: "2AAEC68C0078D807"
+					type: "advancement"
 				}
 				{
-					id: "0E5A2A6C978DDFA4"
-					type: "advancement"
 					advancement: "minecraft:adventure/hero_of_the_village"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:totem_of_undying"
 					}
+					id: "0E5A2A6C978DDFA4"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "50950078B172BF1F"
-					type: "xp"
-					xp: 240
-				}
-			]
-			title: "Herói da Vila"
-			description: [
-				"&7No fundo da floresta escura, uma mansão de três andares abriga evocadores e ilusões. A morte veio buscar quem entrou, e saiu de mãos vazias."
-				"&7De volta à estrada, a garrafa sinistra foi bebida. Os tambores dos saqueadores rufam, e a vila espera um herói."
-				""
-				"&6Objetivo:&r 1. Encontre uma &6Mansão da Floresta&r (o cartógrafo vende o mapa) e consiga um &6Totem da Imortalidade&r dos evocadores."
-				"&f2. Sobreviva a um golpe fatal segurando o totem."
-				"&f3. Beba a Garrafa Sinistra, entre numa vila e vença a &cInvasão&r inteira."
-			]
+			x: 17.0d
+			y: 0.8d
 		}
 		{
-			id: "285290788BC1442F"
-			x: 17.0d
-			y: 2.4d
+			dependencies: ["1431CBD833E3345D"]
 			icon: {
-				count: 1
 				id: "minecraft:heart_of_the_sea"
 			}
-			dependencies: [
-				"1431CBD833E3345D"
-			]
+			id: "285290788BC1442F"
+			rewards: [{
+				id: "727B0A7E6B93BC27"
+				type: "xp"
+				xp: 240
+			}]
 			tasks: [
 				{
 					id: "73D7360CE7F9FA78"
+					item: { count: 1, id: "minecraft:heart_of_the_sea" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:heart_of_the_sea"
-					}
-					count: 1L
 				}
 				{
-					id: "19C3706D64F4FCCB"
-					type: "advancement"
 					advancement: "hopo:minecraft/adventure/locate_underwater_city"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:heart_of_the_sea"
 					}
+					id: "19C3706D64F4FCCB"
+					type: "advancement"
 				}
 				{
 					id: "7DE39E5228DABFA0"
+					item: { count: 1, id: "minecraft:wet_sponge" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:wet_sponge"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "727B0A7E6B93BC27"
-					type: "xp"
-					xp: 240
-				}
-			]
-			title: "Segredos do Mar"
-			description: [
-				"&7Os naufrágios guardam mapas de tesouro, e os tesouros guardam o coração do mar."
-				"&7Sob as ondas há ruínas inteiras, não só casas: cidades que afundaram com seus sinos."
-				"&7E uma fortaleza de prismarinho, guardada por peixes de um olho só e por anciões que deixam os braços pesados como chumbo."
-				""
-				"&6Objetivo:&r 1. Siga um mapa de tesouro (baús de naufrágio) e desenterre um &6Coração do Mar&r."
-				"&f2. Encontre uma &6cidade submersa&r."
-				"&f3. Invada um &6Monumento Oceânico&r e pegue &6Esponjas&r da sala do tesouro ou dos Guardiões Anciões."
-				""
-				"&8Leve poções de respiração aquática e leite: a Fadiga de Mineração dos anciões dura muito."
-			]
+			x: 17.0d
+			y: 2.4d
 		}
 		{
-			id: "5F6132A097733C71"
-			x: 20.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_3"
-			}
 			dependencies: [
 				"286F5F454A3AA690"
 				"6905AE658E6B7C19"
 				"3A5C10D6F970926B"
 				"285290788BC1442F"
 			]
-			tasks: [
-				{
-					id: "6019CCD06A57D159"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_3"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III&7 - O Abismo e o Mar"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "5F6132A097733C71"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_3"
+				}
+				id: "6019CCD06A57D159"
+				type: "advancement"
+			}]
+			x: 20.0d
+			y: 0.0d
 		}
 		{
-			id: "7F3D2E313FF91689"
-			x: 22.0d
-			y: -2.4d
-			size: 1.25d
+			dependencies: ["5F6132A097733C71"]
 			icon: {
-				count: 1
 				id: "minecraft:sculk_sensor"
 			}
-			dependencies: [
-				"5F6132A097733C71"
-			]
+			id: "7F3D2E313FF91689"
+			rewards: [{
+				id: "0E999DAE824054F3"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "61061D5D7206BFCA"
-					type: "advancement"
 					advancement: "minecraft:adventure/avoid_vibration"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:sculk_sensor"
 					}
+					id: "61061D5D7206BFCA"
+					type: "advancement"
 				}
 				{
-					id: "3B5DB58F6665DE9C"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:echo_shard"
-					}
 					count: 3L
+					id: "3B5DB58F6665DE9C"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
 				}
 				{
 					id: "67B2BAFB7E383646"
+					item: { count: 1, id: "minecraft:recovery_compass" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:recovery_compass"
-					}
-					count: 1L
 				}
 				{
-					id: "256634B4047E6024"
-					type: "advancement"
 					advancement: "dungeons_arise:find_plague_asylum"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:sculk_sensor"
 					}
+					id: "256634B4047E6024"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "0E999DAE824054F3"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "Pise com Cuidado"
-			description: [
-				"&7No escuro profundo, uma cidade de pedra cinzenta dorme sob um manto de sculk. Algo enorme ouve cada passo."
-				"&7Dos seus baús saem fragmentos de eco, e com eles uma bússola que aponta para o lugar da última morte. Útil, e um pouco mórbido."
-				"&7Ali perto, um hospital de pedra afundado no escuro. O silêncio ali não é paz, é quarentena."
-				""
-				"&6Objetivo:&r 1. Encontre uma &6Cidade Antiga&r e passe agachado perto de um sensor de sculk sem ativá-lo."
-				"&f2. Traga 3 &6Fragmentos de Eco&r dos baús."
-				"&f3. Fabrique uma &6Bússola de Recuperação&r (8 fragmentos de eco + bússola)."
-				"&f4. Encontre o &cAsilo da Peste&r no Escuro Profundo."
-				""
-				"&8&cNão acorde o Warden&r: ele é um dos guardiões do Tier VII."
-			]
+			x: 22.0d
+			y: -2.4d
 		}
 		{
-			id: "6381000109BACD57"
-			x: 22.0d
-			y: -0.8d
+			dependencies: ["5F6132A097733C71"]
 			icon: {
-				count: 1
 				id: "minecraft:iron_bars"
 			}
-			dependencies: [
-				"5F6132A097733C71"
-			]
+			id: "6381000109BACD57"
+			rewards: [{
+				id: "3588DD8C0AF7727C"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
-					id: "2738C0A82A381851"
-					type: "advancement"
 					advancement: "dungeons_arise:find_thornborn_towers"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:iron_bars"
 					}
+					id: "2738C0A82A381851"
+					type: "advancement"
 				}
 				{
-					id: "3BFA81CAE0349B79"
-					type: "advancement"
 					advancement: "dungeons_arise:find_mechanical_nest"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:iron_bars"
 					}
+					id: "3BFA81CAE0349B79"
+					type: "advancement"
 				}
 				{
-					id: "191BC64814872FBB"
-					type: "advancement"
 					advancement: "dungeons_arise:find_typhon"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:iron_bars"
 					}
+					id: "191BC64814872FBB"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "3588DD8C0AF7727C"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "&cEspinhos, Engrenagens e Ondas"
-			description: [
-				"&7Na floresta escura, torres cobertas de espinhos guardam algo que prefere não ser encontrado."
-				"&7No pântano, engrenagens que respiram e ferro que se move sozinho: bem-vindos ao ninho da máquina."
-				"&7E em mar aberto, um navio de guerra colossal navega sem tripulação viva. O mar tem dentes."
-				""
-				"&6Objetivo:&r 1. Encontre as &cTorres Thornborn&r na floresta escura."
-				"&f2. Encontre o &cNinho Mecânico&r nos pântanos."
-				"&f3. Encontre o &cTifão&r em mar aberto."
-			]
+			x: 22.0d
+			y: -0.8d
 		}
 		{
-			id: "53DF0506AF4BB28E"
-			x: 22.0d
-			y: 0.8d
+			dependencies: ["5F6132A097733C71"]
 			icon: {
-				count: 1
 				id: "minecraft:heavy_core"
 			}
-			dependencies: [
-				"5F6132A097733C71"
-			]
+			id: "53DF0506AF4BB28E"
+			rewards: [{
+				id: "48609BBD6462C908"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "0A6757734531D802"
+					item: { count: 1, id: "minecraft:ominous_bottle" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:ominous_bottle"
-					}
-					count: 1L
 				}
 				{
-					id: "3A60C249EF34464A"
-					type: "advancement"
 					advancement: "minecraft:adventure/revaulting"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:heavy_core"
 					}
+					id: "3A60C249EF34464A"
+					type: "advancement"
 				}
 				{
 					id: "36AA86ED2AD48F60"
+					item: { count: 1, id: "minecraft:heavy_core" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:heavy_core"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "48609BBD6462C908"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "Recofrado"
-			description: [
-				"&7Sob a influência da Garrafa Sinistra, a câmara de provação mostra seus dentes, e seus melhores cofres."
-				"&7Num deles dorme um núcleo de metal que dobra o ar: dele, um dia, sairá a marreta."
-				""
-				"&6Objetivo:&r 1. Consiga uma &6Garrafa Sinistra&r (capitães de saqueadores ou cofres sinistros)."
-				"&f2. Beba-a, ative um gerador sinistro, ganhe uma &6Chave de Provação Sinistra&r e abra um &6Cofre Sinistro&r."
-				"&f3. Consiga um &6Núcleo Pesado&r."
-			]
+			x: 22.0d
+			y: 0.8d
 		}
 		{
-			id: "0770BC4A276D2870"
-			x: 22.0d
-			y: 2.4d
-			size: 1.25d
+			dependencies: ["5F6132A097733C71"]
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			dependencies: [
-				"5F6132A097733C71"
-			]
-			tasks: [
-				{
-					id: "1F0AB3A3A2B99C1A"
-					type: "advancement"
-					advancement: "minecraft:adventure/adventuring_time"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
-				}
-				{
-					id: "1AC3AC1C13E21DB2"
-					type: "advancement"
-					advancement: "biomeswevegone:biomeswevegone/adventure/true_traveler"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
-				}
-				{
-					id: "3FDBC6AC2C2F9265"
-					type: "advancement"
-					advancement: "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
-				}
-				{
-					id: "33CAC8675BBD0361"
-					type: "advancement"
-					advancement: "hopo:minecraft/adventure/locate_all_underwater_structures"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
-				}
-			]
+			id: "0770BC4A276D2870"
+			optional: true
 			rewards: [
 				{
 					id: "04F088FE551D6E43"
@@ -1674,187 +1121,124 @@
 				}
 				{
 					id: "0E4C91305AE0C999"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Cronista do Mundo"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Quem caminhou por todas as terras conhece o mundo melhor que qualquer rei."
-				"&7Das florestas de bordo aos desertos de dacito, das tavernas de cada povo aos museus afundados do fundo do mar: o cronista viu tudo, e anotou."
-				""
-				"&6Objetivo:&r 1. Descubra todos os biomas da superfície exigidos pela crônica de aventuras."
-				"&f2. Encontre &6todas as vilas habitadas&r dos biomas novos."
-				"&f3. Explore &6todos os biomas novos&r (Oh The Biomes We've Gone)."
-				"&f4. Encontre &6todas as estruturas subaquáticas&r, inclusive as novas."
-				""
-				"&8Use a Pena do Desbravador para localizar os biomas que faltam."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/adventuring_time"
+					criterion: ""
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "1F0AB3A3A2B99C1A"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/true_traveler"
+					criterion: ""
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "1AC3AC1C13E21DB2"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone"
+					criterion: ""
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "3FDBC6AC2C2F9265"
+					type: "advancement"
+				}
+				{
+					advancement: "hopo:minecraft/adventure/locate_all_underwater_structures"
+					criterion: ""
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "33CAC8675BBD0361"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 22.0d
+			y: 2.4d
 		}
 		{
-			id: "6413C74F54BBDBFD"
-			x: 25.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_4"
-			}
 			dependencies: [
 				"7F3D2E313FF91689"
 				"6381000109BACD57"
 				"53DF0506AF4BB28E"
 				"0770BC4A276D2870"
 			]
-			tasks: [
-				{
-					id: "73DC135A1D884B0F"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_4"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV&7 - As Portas do Inferno"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "6413C74F54BBDBFD"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_4"
+				}
+				id: "73DC135A1D884B0F"
+				type: "advancement"
+			}]
+			x: 25.0d
+			y: 0.0d
 		}
 		{
-			id: "4F3255A0C18554FA"
-			x: 27.0d
-			y: 0.0d
+			dependencies: ["6413C74F54BBDBFD"]
 			icon: {
-				count: 1
 				id: "minecraft:obsidian"
 			}
-			dependencies: [
-				"6413C74F54BBDBFD"
-			]
+			id: "4F3255A0C18554FA"
+			rewards: [{
+				id: "62BED6C8A1A0321E"
+				type: "xp"
+				xp: 420
+			}]
 			tasks: [
 				{
-					id: "58D41256D774B5C2"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:obsidian"
-					}
 					count: 10L
+					id: "58D41256D774B5C2"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
 				}
 				{
 					id: "0323066B57C50596"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:flint_and_steel"
-					}
-					count: 1L
 				}
 				{
-					id: "3746915019EA8E24"
-					type: "advancement"
 					advancement: "minecraft:story/enter_the_nether"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:obsidian"
 					}
+					id: "3746915019EA8E24"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "62BED6C8A1A0321E"
-					type: "xp"
-					xp: 420
-				}
-			]
-			title: "Pelas Portas do Inferno"
-			description: [
-				"&7Enquanto a companhia não carregava quatro selos no peito, o &6Ar Escaldante&7 cozinhava qualquer um que cruzasse o portal."
-				"&7Agora o ar arde, mas não mata. Dez blocos de obsidiana, uma faísca, e o Nether espera."
-				""
-				"&6Objetivo:&r 1. Junte 10 &6Obsidianas&r (balde de água sobre lava, picareta de diamante)."
-				"&f2. Fabrique um &6Isqueiro&r (ferro + pederneira)."
-				"&f3. Construa o portal, acenda-o e entre no &cNether&r."
-				""
-				"&8Antes do Tier IV, o Ar Escaldante mata aos poucos. Raças imunes ao fogo resistem mais, mas não para sempre."
-			]
+			x: 27.0d
+			y: 0.0d
 		}
 		{
-			id: "7681B1672044DCE5"
-			x: 29.0d
-			y: -3.2d
-			size: 1.25d
+			dependencies: ["4F3255A0C18554FA"]
 			icon: {
-				count: 1
 				id: "minecraft:blaze_rod"
 			}
-			dependencies: [
-				"4F3255A0C18554FA"
-			]
-			tasks: [
-				{
-					id: "00889391E5040B5D"
-					type: "advancement"
-					advancement: "minecraft:nether/find_fortress"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
-				}
-				{
-					id: "343CAA077E801827"
-					type: "advancement"
-					advancement: "minecraft:nether/obtain_blaze_rod"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
-				}
-				{
-					id: "0F3283B669ADA05B"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
-					count: 6L
-				}
-				{
-					id: "1B2BDE6FB4C1A2A7"
-					type: "advancement"
-					advancement: "minecraft:nether/get_wither_skull"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
-				}
-				{
-					id: "3F7847C3CFD0297F"
-					type: "advancement"
-					advancement: "minecraft:story/follow_ender_eye"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
-				}
-			]
+			id: "7681B1672044DCE5"
 			rewards: [
 				{
 					id: "64CC98FB42634B54"
@@ -1863,91 +1247,67 @@
 				}
 				{
 					id: "17AEAC3D2F33F1B6"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Uma Fortaleza Terrível"
-			description: [
-				"&7Pontes de tijolo negro sobre mares de lava, vigiadas por blazes e esqueletos murchos."
-				"&7Os bastões de blaze são combustível de alquimistas e a alma de cada poção; três crânios murchos e areia de almas, os sábios dizem para nunca juntar."
-				"&7E o pó de blaze, misturado a uma pérola do Ender, cria um olho que voa para onde a fortaleza esquecida do mundo de cima dorme."
-				""
-				"&6Objetivo:&r 1. Encontre uma &cFortaleza do Nether&r."
-				"&f2. Derrote blazes nos geradores e junte 6 &6Bastões de Blaze&r."
-				"&f3. Consiga um &6Crânio de Esqueleto Murcho&r."
-				"&f4. Jogue um &6Olho do Ender&r no mundo normal e siga-o até uma &6Fortaleza&r subterrânea."
-				""
-				"&8Três crânios invocam o &cWither&r, o boss-chave do Tier IV. O End só se abre no Tier VII, mas a fortaleza e sua biblioteca já podem ser exploradas."
-			]
-		}
-		{
-			id: "4DDC48EAA66C61AA"
-			x: 29.0d
-			y: -1.6d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:gold_block"
-			}
-			dependencies: [
-				"4F3255A0C18554FA"
-			]
 			tasks: [
 				{
-					id: "1D8D99ACDBBF5C05"
-					type: "advancement"
-					advancement: "minecraft:nether/find_bastion"
+					advancement: "minecraft:nether/find_fortress"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:gold_block"
+						id: "minecraft:blaze_rod"
 					}
+					id: "00889391E5040B5D"
+					type: "advancement"
 				}
 				{
-					id: "6149E6E0C6EF9D20"
-					type: "advancement"
-					advancement: "minecraft:nether/loot_bastion"
+					advancement: "minecraft:nether/obtain_blaze_rod"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:gold_block"
+						id: "minecraft:blaze_rod"
 					}
+					id: "343CAA077E801827"
+					type: "advancement"
 				}
 				{
-					id: "76D09335ADE24C07"
-					type: "advancement"
-					advancement: "minecraft:nether/distract_piglin"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:gold_block"
-					}
+					count: 6L
+					id: "0F3283B669ADA05B"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
 				}
 				{
-					id: "79C66E63E4410DC6"
-					type: "advancement"
-					advancement: "minecraft:nether/obtain_crying_obsidian"
+					advancement: "minecraft:nether/get_wither_skull"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:gold_block"
+						id: "minecraft:blaze_rod"
 					}
+					id: "1B2BDE6FB4C1A2A7"
+					type: "advancement"
 				}
 				{
-					id: "62D5451A7835C557"
-					type: "advancement"
-					advancement: "minecraft:nether/charge_respawn_anchor"
+					advancement: "minecraft:story/follow_ender_eye"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:gold_block"
+						id: "minecraft:blaze_rod"
 					}
+					id: "3F7847C3CFD0297F"
+					type: "advancement"
 				}
 			]
+			x: 29.0d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4F3255A0C18554FA"]
+			icon: {
+				id: "minecraft:gold_block"
+			}
+			id: "4DDC48EAA66C61AA"
 			rewards: [
 				{
 					id: "128BCD4512152403"
@@ -1956,69 +1316,70 @@
 				}
 				{
 					id: "5B2B7292AD6CF250"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O Ouro dos Piglins"
-			description: [
-				"&7Os piglins guardam fortalezas de pedra-negra cheias de ouro. Um piglin distraído por ouro é um piglin que não morde."
-				"&7Eles também trocam obsidiana que chora lágrimas roxas, e com ela se faz uma âncora que prende a alma ao Nether."
-				""
-				"&6Objetivo:&r 1. Encontre um &6Bastião&r."
-				"&f2. Saqueie um de seus baús."
-				"&f3. Distraia um piglin jogando ouro para ele."
-				"&f4. Consiga &6Obsidiana Chorona&r."
-				"&f5. Carregue uma &6Âncora de Renascimento&r com pedra luminosa."
-				""
-				"&8Vista pelo menos uma peça de armadura de ouro: os piglins não atacam quem veste ouro."
-			]
-		}
-		{
-			id: "6717CCCEED121052"
-			x: 29.0d
-			y: 0.0d
-			icon: {
-				count: 1
-				id: "minecraft:ancient_debris"
-			}
-			dependencies: [
-				"4F3255A0C18554FA"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "1F38D2CB52A3D5CC"
-					type: "advancement"
-					advancement: "minecraft:nether/obtain_ancient_debris"
+					advancement: "minecraft:nether/find_bastion"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:ancient_debris"
+						id: "minecraft:gold_block"
 					}
-				}
-				{
-					id: "296F88529C4B6747"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:netherite_scrap"
-					}
-					count: 1L
-				}
-				{
-					id: "25C1D5B7B85E40C4"
+					id: "1D8D99ACDBBF5C05"
 					type: "advancement"
-					advancement: "minecraft:nether/use_lodestone"
+				}
+				{
+					advancement: "minecraft:nether/loot_bastion"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:ancient_debris"
+						id: "minecraft:gold_block"
 					}
+					id: "6149E6E0C6EF9D20"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:nether/distract_piglin"
+					criterion: ""
+					icon: {
+						id: "minecraft:gold_block"
+					}
+					id: "76D09335ADE24C07"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:nether/obtain_crying_obsidian"
+					criterion: ""
+					icon: {
+						id: "minecraft:gold_block"
+					}
+					id: "79C66E63E4410DC6"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:nether/charge_respawn_anchor"
+					criterion: ""
+					icon: {
+						id: "minecraft:gold_block"
+					}
+					id: "62D5451A7835C557"
+					type: "advancement"
 				}
 			]
+			x: 29.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4F3255A0C18554FA"]
+			icon: {
+				id: "minecraft:ancient_debris"
+			}
+			id: "6717CCCEED121052"
 			rewards: [
 				{
 					id: "3C199ABA3280FB64"
@@ -2027,139 +1388,91 @@
 				}
 				{
 					id: "5DF8FE1F2A3AE6B6"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
-			]
-			title: "Escondido nas Profundezas"
-			description: [
-				"&7O detrito ancestral não cede a qualquer picareta, e nem o maior forno do mundo o funde em netherite sozinho."
-				"&7Com um lingote dele, porém, nasce a magnetita: uma pedra-ímã que aponta para casa até no Nether, onde as bússolas giram enlouquecidas."
-				""
-				"&6Objetivo:&r 1. Minere &6Detrito Ancestral&r nas camadas baixas do Nether (em torno do nível 15)."
-				"&f2. Funda-o em &6Sucata de Netherite&r. A &6netherite&r só sai no &6Mixer superaquecido&r: 4 sucatas + 4 ouro."
-				"&f3. Fabrique uma &6Magnetita&r (1 lingote de netherite + 8 tijolos de pedra talhados) e use uma bússola nela."
-				""
-				"&8Camas explodem no Nether: os mineiros usam isso para abrir túneis rápido. Com muito cuidado."
-			]
-		}
-		{
-			id: "7B2D0318E48A6CCD"
-			x: 29.0d
-			y: 1.6d
-			icon: {
-				count: 1
-				id: "minecraft:blast_furnace"
-			}
-			dependencies: [
-				"4F3255A0C18554FA"
 			]
 			tasks: [
 				{
-					id: "0148713D2431E0E1"
+					advancement: "minecraft:nether/obtain_ancient_debris"
+					criterion: ""
+					icon: {
+						id: "minecraft:ancient_debris"
+					}
+					id: "1F38D2CB52A3D5CC"
 					type: "advancement"
+				}
+				{
+					id: "296F88529C4B6747"
+					item: { count: 1, id: "minecraft:netherite_scrap" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:nether/use_lodestone"
+					criterion: ""
+					icon: {
+						id: "minecraft:ancient_debris"
+					}
+					id: "25C1D5B7B85E40C4"
+					type: "advancement"
+				}
+			]
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F3255A0C18554FA"]
+			icon: {
+				id: "minecraft:blast_furnace"
+			}
+			id: "7B2D0318E48A6CCD"
+			rewards: [{
+				id: "11F106835539CBFF"
+				type: "xp"
+				xp: 420
+			}]
+			tasks: [
+				{
 					advancement: "dungeons_arise:find_foundry"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:blast_furnace"
 					}
+					id: "0148713D2431E0E1"
+					type: "advancement"
 				}
 				{
-					id: "3EC378E3D8AA0B55"
-					type: "advancement"
 					advancement: "dungeons_arise:find_scorched_mines"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:blast_furnace"
 					}
+					id: "3EC378E3D8AA0B55"
+					type: "advancement"
 				}
 				{
-					id: "77386C48AAE49A3C"
-					type: "advancement"
 					advancement: "mmr:nether_mineshaft"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:blast_furnace"
 					}
+					id: "77386C48AAE49A3C"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "11F106835539CBFF"
-					type: "xp"
-					xp: 420
-				}
-			]
-			title: "&cA Fundição e as Minas Queimadas"
-			description: [
-				"&7Uma forja infernal construída por alguém que conhecia o Nether muito antes de nós. As fornalhas ainda queimam."
-				"&7Perto dela, túneis escavados na rocha infernal, onde a descida não tem fim."
-				""
-				"&6Objetivo:&r 1. Encontre a &cFundição&r no Nether."
-				"&f2. Encontre as &cMinas Queimadas&r."
-				"&f3. Encontre a &6Mina do Nether&r (Moog)."
-			]
+			x: 29.0d
+			y: 1.6d
 		}
 		{
-			id: "5567766284791918"
-			x: 29.0d
-			y: 3.2d
-			size: 1.25d
+			dependencies: ["4F3255A0C18554FA"]
 			icon: {
-				count: 1
 				id: "minecraft:warped_fungus_on_a_stick"
 			}
-			dependencies: [
-				"4F3255A0C18554FA"
-			]
-			tasks: [
-				{
-					id: "3182654CD485B0E0"
-					type: "advancement"
-					advancement: "minecraft:nether/fast_travel"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:warped_fungus_on_a_stick"
-					}
-				}
-				{
-					id: "4DF39B3B8C2D3E9C"
-					type: "advancement"
-					advancement: "minecraft:nether/explore_nether"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:warped_fungus_on_a_stick"
-					}
-				}
-				{
-					id: "252136A9148830B1"
-					type: "advancement"
-					advancement: "minecraft:nether/ride_strider"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:warped_fungus_on_a_stick"
-					}
-				}
-				{
-					id: "1819A6EB9CD96026"
-					type: "advancement"
-					advancement: "minecraft:nether/return_to_sender"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:warped_fungus_on_a_stick"
-					}
-				}
-			]
+			id: "5567766284791918"
+			optional: true
 			rewards: [
 				{
 					id: "431526898453EC73"
@@ -2168,110 +1481,62 @@
 				}
 				{
 					id: "0B87B14F7F8E2F01"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O Andarilho do Inferno"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Cada passo no Nether vale oito no mundo de cima. O andarilho de verdade conhece desertos de almas, florestas carmesins, deltas de basalto e o velho deserto de netherrack."
-				"&7O strider atravessa a lava como um barco preguiçoso. O ghast cospe fogo, o espadachim rebate, o ghast se arrepende."
-				""
-				"&6Objetivo:&r 1. Use o Nether para viajar &67 km&r no mundo normal (ligue dois portais distantes)."
-				"&f2. Visite &6todos os biomas&r do Nether."
-				"&f3. Monte um &6Strider&r (sela + &6Vara com Fungo Distorcido&r)."
-				"&f4. Mate um &6Ghast&r rebatendo a bola de fogo dele."
-			]
-			optional: true
-		}
-		{
-			id: "21606AEA2D513D3F"
-			x: 31.0d
-			y: 1.6d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "minecraft:chest_minecart"
-			}
-			dependencies: [
-				"7B2D0318E48A6CCD"
-			]
 			tasks: [
 				{
-					id: "1870DBF8661D7AAC"
-					type: "advancement"
-					advancement: "mmr:desert_mineshaft"
+					advancement: "minecraft:nether/fast_travel"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:chest_minecart"
+						id: "minecraft:warped_fungus_on_a_stick"
 					}
+					id: "3182654CD485B0E0"
+					type: "advancement"
 				}
 				{
-					id: "0E0039321A52F1E7"
-					type: "advancement"
-					advancement: "mmr:mesa_mineshaft"
+					advancement: "minecraft:nether/explore_nether"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:chest_minecart"
+						id: "minecraft:warped_fungus_on_a_stick"
 					}
+					id: "4DF39B3B8C2D3E9C"
+					type: "advancement"
 				}
 				{
-					id: "093DC6C1520B3255"
-					type: "advancement"
-					advancement: "mmr:jungle_mineshaft"
+					advancement: "minecraft:nether/ride_strider"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:chest_minecart"
+						id: "minecraft:warped_fungus_on_a_stick"
 					}
+					id: "252136A9148830B1"
+					type: "advancement"
 				}
 				{
-					id: "0AA0146AE2F9A1D0"
-					type: "advancement"
-					advancement: "mmr:snowy_mineshaft"
+					advancement: "minecraft:nether/return_to_sender"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:chest_minecart"
+						id: "minecraft:warped_fungus_on_a_stick"
 					}
-				}
-				{
-					id: "005088A8B8B1A452"
+					id: "1819A6EB9CD96026"
 					type: "advancement"
-					advancement: "mmr:mushroom_mineshaft"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:chest_minecart"
-					}
-				}
-				{
-					id: "4E6B89E3D308EFC5"
-					type: "advancement"
-					advancement: "mmr:all_mineshafts"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:chest_minecart"
-					}
-				}
-				{
-					id: "4F619FD19C59BF2D"
-					type: "advancement"
-					advancement: "hopo:minecraft/adventure/all_mineshaft"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:chest_minecart"
-					}
 				}
 			]
+			x: 29.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7B2D0318E48A6CCD"]
+			icon: {
+				id: "minecraft:chest_minecart"
+			}
+			id: "21606AEA2D513D3F"
+			optional: true
 			rewards: [
 				{
 					id: "13433776D92CB39D"
@@ -2280,99 +1545,111 @@
 				}
 				{
 					id: "447B2E2D4B6C72B3"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Viu Uma, Viu Todas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7No deserto, as vigas são de arenito; na selva, de bambu; na neve, parecem iglus. Cada povo cavou do seu jeito."
-				"&7De todos os tipos, em todas as terras, até no Nether e no Escuro Profundo: só então o cronista das minas descansa."
-				""
-				"&6Objetivo:&r 1. Descubra minas das variantes de &6deserto&r, &6mesa&r, &6selva&r, &6neve&r e &6cogumelos&r."
-				"&f2. Descubra &6todos os tipos de mina&r do Moog (inclusive a do Nether)."
-				"&f3. Descubra todos os tipos de mina do Hopo (inclusive a do &6Escuro Profundo&r)."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "mmr:desert_mineshaft"
+					criterion: ""
+					icon: {
+						id: "minecraft:chest_minecart"
+					}
+					id: "1870DBF8661D7AAC"
+					type: "advancement"
+				}
+				{
+					advancement: "mmr:mesa_mineshaft"
+					criterion: ""
+					icon: {
+						id: "minecraft:chest_minecart"
+					}
+					id: "0E0039321A52F1E7"
+					type: "advancement"
+				}
+				{
+					advancement: "mmr:jungle_mineshaft"
+					criterion: ""
+					icon: {
+						id: "minecraft:chest_minecart"
+					}
+					id: "093DC6C1520B3255"
+					type: "advancement"
+				}
+				{
+					advancement: "mmr:snowy_mineshaft"
+					criterion: ""
+					icon: {
+						id: "minecraft:chest_minecart"
+					}
+					id: "0AA0146AE2F9A1D0"
+					type: "advancement"
+				}
+				{
+					advancement: "mmr:mushroom_mineshaft"
+					criterion: ""
+					icon: {
+						id: "minecraft:chest_minecart"
+					}
+					id: "005088A8B8B1A452"
+					type: "advancement"
+				}
+				{
+					advancement: "mmr:all_mineshafts"
+					criterion: ""
+					icon: {
+						id: "minecraft:chest_minecart"
+					}
+					id: "4E6B89E3D308EFC5"
+					type: "advancement"
+				}
+				{
+					advancement: "hopo:minecraft/adventure/all_mineshaft"
+					criterion: ""
+					icon: {
+						id: "minecraft:chest_minecart"
+					}
+					id: "4F619FD19C59BF2D"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 31.0d
+			y: 1.6d
 		}
 		{
-			id: "40F66464546243FA"
-			x: 34.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["21606AEA2D513D3F"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_5"
 			}
-			dependencies: [
-				"21606AEA2D513D3F"
-			]
-			tasks: [
-				{
-					id: "1138C85DDA8E7E03"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_5"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_5"
-					}
+			id: "40F66464546243FA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_5"
 				}
-			]
-			rewards: [ ]
-			title: "&cTier V&7 - Mais que Exagero"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "1138C85DDA8E7E03"
+				type: "advancement"
+			}]
+			x: 34.0d
+			y: 0.0d
 		}
 		{
-			id: "1CAC403B9E3BCF8D"
-			x: 36.0d
-			y: 0.0d
+			dependencies: ["40F66464546243FA"]
 			icon: {
-				count: 1
 				id: "minecraft:mace"
 			}
-			dependencies: [
-				"40F66464546243FA"
-			]
-			tasks: [
-				{
-					id: "36B88D67BF1E8390"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:breeze_rod"
-					}
-					count: 1L
-				}
-				{
-					id: "284AD2040FA78E13"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:mace"
-					}
-					count: 1L
-				}
-				{
-					id: "67295AFCC7DAE679"
-					type: "advancement"
-					advancement: "minecraft:adventure/overoverkill"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:mace"
-					}
-				}
-			]
+			id: "1CAC403B9E3BCF8D"
+			optional: true
 			rewards: [
 				{
 					id: "21687251ED82B334"
@@ -2381,180 +1658,109 @@
 				}
 				{
 					id: "4B68CD64B1A7A0A6"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
-			]
-			title: "Mais que Exagero"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O núcleo pesado e um bastão de breeze viram uma marreta que pesa mais quanto maior a queda."
-				"&7Os ferreiros de Heartforge só a liberaram para campeões: nas mãos erradas, ela derruba muralhas, e quem a carrega junto."
-				""
-				"&6Objetivo:&r 1. Junte um &6Bastão de Breeze&r (Breezes das câmaras de provação)."
-				"&f2. Fabrique uma &6Marreta&r (núcleo pesado + bastão de breeze)."
-				"&f3. Cause 50 corações de dano num único golpe: caia de bem alto antes de bater."
-			]
-			optional: true
-		}
-		{
-			id: "2BA624636CEF25C4"
-			x: 39.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_7"
-			}
-			dependencies: [
-				"1CAC403B9E3BCF8D"
 			]
 			tasks: [
 				{
-					id: "07221BE65E3D66C5"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_7"
+					id: "36B88D67BF1E8390"
+					item: { count: 1, id: "minecraft:breeze_rod" }
+					type: "item"
+				}
+				{
+					id: "284AD2040FA78E13"
+					item: { count: 1, id: "minecraft:mace" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/overoverkill"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_7"
+						id: "minecraft:mace"
 					}
+					id: "67295AFCC7DAE679"
+					type: "advancement"
 				}
 			]
-			rewards: [ ]
-			title: "&dTier VII&7 - A Frota Celeste"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+			x: 36.0d
+			y: 0.0d
 		}
 		{
-			id: "6130C188A723C3D7"
-			x: 41.0d
-			y: 0.0d
+			dependencies: ["1CAC403B9E3BCF8D"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
+				id: "comamigos_balance:tier_heart_7"
+			}
+			id: "2BA624636CEF25C4"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_7"
+				}
+				id: "07221BE65E3D66C5"
+				type: "advancement"
+			}]
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BA624636CEF25C4"]
+			icon: {
 				id: "minecraft:end_stone_bricks"
 			}
-			dependencies: [
-				"2BA624636CEF25C4"
-			]
+			id: "6130C188A723C3D7"
+			rewards: [{
+				id: "6A0ECC72D537905A"
+				type: "xp"
+				xp: 690
+			}]
 			tasks: [
 				{
-					id: "39D76849C5DF2CF5"
-					type: "advancement"
 					advancement: "dungeons_arise:find_heavenly_rider"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:end_stone_bricks"
 					}
+					id: "39D76849C5DF2CF5"
+					type: "advancement"
 				}
 				{
-					id: "650DB79DFC25DDFA"
-					type: "advancement"
 					advancement: "dungeons_arise:find_heavenly_challenger"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:end_stone_bricks"
 					}
+					id: "650DB79DFC25DDFA"
+					type: "advancement"
 				}
 				{
-					id: "46DC214459A39838"
-					type: "advancement"
 					advancement: "dungeons_arise:find_heavenly_conqueror"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:end_stone_bricks"
 					}
+					id: "46DC214459A39838"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "6A0ECC72D537905A"
-					type: "xp"
-					xp: 690
-				}
-			]
-			title: "&5A Frota Celeste"
-			description: [
-				"&7Sobre as ilhas do End navegam três naves de guerra colossais: o Cavaleiro, o Desafiante e o Conquistador."
-				"&7Ninguém sabe que reino as construiu. Talvez nenhum deste mundo. Quem as aborda volta com histórias, e às vezes sem metade da companhia."
-				""
-				"&6Objetivo:&r 1. Encontre o &6Heavenly Rider&r."
-				"&f2. Encontre o &6Heavenly Challenger&r."
-				"&f3. Encontre o &6Heavenly Conqueror&r."
-				""
-				"&8As naves ficam nas ilhas exteriores do End: atravesse um portal de passagem depois de derrotar o dragão."
-			]
+			x: 41.0d
+			y: 0.0d
 		}
 		{
-			id: "26031DA43E786E1C"
-			x: 43.0d
-			y: 0.0d
-			size: 1.25d
+			dependencies: ["6130C188A723C3D7"]
 			icon: {
-				count: 1
 				id: "minecraft:spire_armor_trim_smithing_template"
 			}
-			dependencies: [
-				"6130C188A723C3D7"
-			]
-			tasks: [
-				{
-					id: "25FDC89D6851FA79"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:spire_armor_trim_smithing_template"
-					}
-					count: 1L
-				}
-				{
-					id: "4A8C57F07B3EEE14"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:silence_armor_trim_smithing_template"
-					}
-					count: 1L
-				}
-				{
-					id: "3AB8806777DBB953"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:vex_armor_trim_smithing_template"
-					}
-					count: 1L
-				}
-				{
-					id: "0B4C8B65F562DF82"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:snout_armor_trim_smithing_template"
-					}
-					count: 1L
-				}
-				{
-					id: "306F8EFDC9008B5F"
-					type: "advancement"
-					advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:spire_armor_trim_smithing_template"
-					}
-				}
-			]
+			id: "26031DA43E786E1C"
+			optional: true
 			rewards: [
 				{
 					id: "3031C9E9C6FE57D3"
@@ -2563,29 +1769,47 @@
 				}
 				{
 					id: "546B990D549743FA"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Estilo de Colecionador"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Os ornamentos mais raros só existem onde quase ninguém chega: fortalezas, cidades antigas, mansões, monumentos, bastiões e cidades do End."
-				"&7Quem veste todos eles carrega no corpo o mapa de cada lugar perigoso do mundo."
-				""
-				"&6Objetivo:&r 1. Junte os moldes &6Pináculo&r (cidades do End), &6Silêncio&r (cidades antigas), &6Vexador&r (mansões) e &6Focinho&r (bastiões)."
-				"&f2. Aplique, na mesa de ferraria, todos os moldes de acabamento &6exclusivos&r."
-				""
-				"&8Um molde pode ser duplicado na mesa de trabalho com 7 diamantes e o bloco-base dele."
+			size: 1.25d
+			tasks: [
+				{
+					id: "25FDC89D6851FA79"
+					item: { count: 1, id: "minecraft:spire_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "4A8C57F07B3EEE14"
+					item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "3AB8806777DBB953"
+					item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "0B4C8B65F562DF82"
+					item: { count: 1, id: "minecraft:snout_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
+					criterion: ""
+					icon: {
+						id: "minecraft:spire_armor_trim_smithing_template"
+					}
+					id: "306F8EFDC9008B5F"
+					type: "advancement"
+				}
 			]
-			optional: true
+			x: 43.0d
+			y: 0.0d
 		}
-	]
-	title: "&2Exploração"
-	subtitle: [
-		"O mundo é largo, e as ruínas, raras"
 	]
 }

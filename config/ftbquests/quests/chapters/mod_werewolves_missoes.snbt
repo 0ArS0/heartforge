@@ -4,119 +4,38 @@
 	filename: "mod_werewolves_missoes"
 	group: "429D481FF148D2D9"
 	icon: {
-		count: 1
 		id: "werewolves:werewolf_tooth"
 	}
 	id: "163852F97443D6A4"
-	order_index: 16
+	images: [ ]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7E8062C09AFC0ED7"
-			x: -3.0d
-			y: 0.0d
-			shape: "square"
-			size: 2.0d
 			icon: {
-				count: 1
 				id: "werewolves:werewolf_tooth"
 			}
-			tasks: [
-				{
-					id: "76B6555201DC3797"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "10F6F44CD921788C"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "Uivos na Mata Roxa"
-			description: [
-				"&7Entre os jacarandás roxos e as árvores que brilham à noite vive uma terceira raça, que não bebe sangue: devora."
-				"&7De dia são lenhadores e andarilhos; quando a lua enche, a pele rasga e o lobo sai."
-				""
-				"&7Lobisomem é uma &8facção própria&7, rival tanto dos vampiros quanto dos caçadores: quem a abraça não pode ser vampiro"
-				"&7nem caçador ao mesmo tempo. Páginas marcadas &8[Lobisomem]&7 são do caminho da fera; &9[Caçador]&7, de quem a persegue com prata;"
-				"&7as sem marcador servem a todos."
-				""
-				"&7A forja do Coração paga pelos troféus da matilha: &6Dente de Lobisomem&7 no Tier I, &6Pele Escura&7 no Tier II e &6Pele Branca&7 no Tier III."
-				""
-				"&7Comece procurando uma &8Floresta de Lobisomens&7 e &6prata&7 nas montanhas."
-			]
+			id: "7E8062C09AFC0ED7"
+			rewards: [{
+				id: "10F6F44CD921788C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "76B6555201DC3797"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			id: "64512900CE999EEB"
-			x: 1.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"7E8062C09AFC0ED7"
-			]
+			dependencies: ["7E8062C09AFC0ED7"]
 			icon: {
-				count: 1
 				id: "werewolves:jacaranda_log"
 			}
-			tasks: [
-				{
-					id: "1D89E70F44AF0D88"
-					type: "advancement"
-					advancement: "werewolves:dog_soldiers"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:jacaranda_log"
-					}
-				}
-				{
-					id: "1760A00BA656AED6"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:jacaranda_log"
-					}
-					count: 8L
-				}
-				{
-					id: "394B176C7013A82B"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:magic_log"
-					}
-					count: 8L
-				}
-				{
-					id: "5C11FFB6429AC76A"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:daffodil"
-					}
-					count: 1L
-				}
-				{
-					id: "0B928F6F9A2E7A97"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:wolf_berries"
-					}
-					count: 4L
-				}
-				{
-					id: "39B535EFDB51A1A7"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:wolfsbane"
-					}
-					count: 4L
-				}
-			]
+			id: "64512900CE999EEB"
 			rewards: [
 				{
 					id: "1CF741B3D06E42ED"
@@ -125,99 +44,63 @@
 				}
 				{
 					id: "5FE706A7E82DA55F"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Mata Roxa"
-			description: [
-				"&7Jacarandás de flor roxa, árvores mágicas que cintilam no escuro e, entre elas, olhos amarelos que não piscam."
-				"&7Narcisos e bagas silvestres crescem onde a matilha passa; os lobos os respeitam, os humanos os colhem."
-				"&7E à beira da mata cresce uma flor roxa e humilde, o &5acônito&7, que os lobos evitam como o vampiro evita o alho."
-				""
-				"&6Objetivo:&r 1. Encontre uma &8Floresta de Lobisomens&r. Lobisomens e licantropos humanos vivem nela e nos arredores."
-				"&f2. Corte 8 &6Troncos de Jacarandá&r e 8 &6Troncos Mágicos&r."
-				"&f3. Colete um &6Narciso&r e 4 &6Bagas de Lobo&r."
-				"&f4. Colha 4 &5Acônitos&r (florestas e campos). Lobisomens perto dele ficam fracos."
-			]
-		}
-		{
-			id: "70178554A92A0F61"
-			x: 3.0d
-			y: 0.0d
 			size: 1.25d
-			dependencies: [
-				"64512900CE999EEB"
-			]
-			icon: {
-				count: 1
-				id: "werewolves:werewolf_tooth"
-			}
 			tasks: [
 				{
-					id: "3745B6CCCB277129"
-					type: "advancement"
-					advancement: "werewolves:teen_wolf"
+					advancement: "werewolves:dog_soldiers"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "werewolves:werewolf_tooth"
+						id: "werewolves:jacaranda_log"
 					}
+					id: "1D89E70F44AF0D88"
+					type: "advancement"
 				}
 				{
-					id: "652C45BE24058E68"
-					type: "advancement"
-					advancement: "werewolves:bad_moon_rising"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:werewolf_tooth"
-					}
+					count: 8L
+					id: "1760A00BA656AED6"
+					item: { count: 1, id: "werewolves:jacaranda_log" }
+					type: "item"
 				}
 				{
-					id: "5E9B4703F9BF34EF"
-					type: "advancement"
-					advancement: "werewolves:howling_moon"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:werewolf_tooth"
-					}
+					count: 8L
+					id: "394B176C7013A82B"
+					item: { count: 1, id: "werewolves:magic_log" }
+					type: "item"
 				}
 				{
-					id: "1DABBA0C354F32C4"
-					type: "advancement"
-					advancement: "werewolves:another_one_bites_the_dust"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:werewolf_tooth"
-					}
+					id: "5C11FFB6429AC76A"
+					item: { count: 1, id: "werewolves:daffodil" }
+					type: "item"
 				}
 				{
-					id: "090BDA24E78E0EB1"
-					type: "advancement"
-					advancement: "werewolves:insatiable_beast"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:werewolf_tooth"
-					}
+					count: 4L
+					id: "0B928F6F9A2E7A97"
+					item: { count: 1, id: "werewolves:wolf_berries" }
+					type: "item"
 				}
 				{
-					id: "77DFD1CCC004448E"
-					type: "advancement"
-					advancement: "werewolves:standing_here_i_realize"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:werewolf_tooth"
-					}
+					count: 4L
+					id: "39B535EFDB51A1A7"
+					item: { count: 1, id: "werewolves:wolfsbane" }
+					type: "item"
 				}
 			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64512900CE999EEB"]
+			icon: {
+				id: "werewolves:werewolf_tooth"
+			}
+			id: "70178554A92A0F61"
 			rewards: [
 				{
 					id: "1539074A19193F4D"
@@ -226,48 +109,77 @@
 				}
 				{
 					id: "0399C1919F790EDE"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "&8[Lobisomem]&r A Maldição da Lua"
-			description: [
-				"&7Um arranhão de nada no braço. À noite, o sono vem pesado, e os sonhos são de corrida e de carne."
-				"&7Na primeira lua cheia não há escolha: o corpo se rasga sozinho e a fera assume. Depois disso, o uivo sai como se você já o tivesse dado em outra vida."
-				"&7O vampiro bebe com cuidado. O lobisomem não tem paciência para isso, e nenhuma carne escapa do cardápio."
-				""
-				"&6Objetivo:&r 1. Deixe um lobisomem arranhar você até contrair &8Lupus Sanguinem&r e durma: ao acordar, você será &8Lobisomem&r. Leite cancela a infecção antes do sono."
-				"&f2. Passe pela primeira transformação forçada numa noite de &6lua cheia&r. Fora dela, transforme-se pela roda de ações."
-				"&f3. Use a ação &6Uivo&r em forma de lobo: acelera os ataques seus e da matilha próxima."
-				"&f4. Em forma de lobo, &6devore&r uma criatura (mordida finalizadora)."
-				"&f5. Coma &6todos os tipos de carne&r: porco, vaca, carneiro, frango, coelho, peixe..."
-				"&f6. Vista armadura durante uma transformação parcial e descubra por que a fera prefere pele a metal."
-				""
-				"&8Na árvore de habilidades escolha o rumo: &cBesta&8 (força bruta), &aSobrevivente&8 (velocidade, escala blocos) ou &7Humano&8 (utilidade)."
-				"&8Caçadores vacinados e vampiros não podem virar lobisomens. Lobisomens só se satisfazem com carne até aprenderem a habilidade que libera outros alimentos."
-			]
-		}
-		{
-			id: "59AFB505BB321B1E"
-			x: 5.0d
-			y: 0.0d
-			dependencies: [
-				"70178554A92A0F61"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "28EB2A6B2F039670"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:injection_un_werewolf"
+					advancement: "werewolves:teen_wolf"
+					criterion: ""
+					icon: {
+						id: "werewolves:werewolf_tooth"
 					}
-					count: 1L
+					id: "3745B6CCCB277129"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:bad_moon_rising"
+					criterion: ""
+					icon: {
+						id: "werewolves:werewolf_tooth"
+					}
+					id: "652C45BE24058E68"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:howling_moon"
+					criterion: ""
+					icon: {
+						id: "werewolves:werewolf_tooth"
+					}
+					id: "5E9B4703F9BF34EF"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:another_one_bites_the_dust"
+					criterion: ""
+					icon: {
+						id: "werewolves:werewolf_tooth"
+					}
+					id: "1DABBA0C354F32C4"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:insatiable_beast"
+					criterion: ""
+					icon: {
+						id: "werewolves:werewolf_tooth"
+					}
+					id: "090BDA24E78E0EB1"
+					type: "advancement"
+				}
+				{
+					advancement: "werewolves:standing_here_i_realize"
+					criterion: ""
+					icon: {
+						id: "werewolves:werewolf_tooth"
+					}
+					id: "77DFD1CCC004448E"
+					type: "advancement"
 				}
 			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70178554A92A0F61"]
+			id: "59AFB505BB321B1E"
+			optional: true
 			rewards: [
 				{
 					id: "5A65965CFE9D43C6"
@@ -276,139 +188,46 @@
 				}
 				{
 					id: "70BD2CBE914F4D76"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&8[Lobisomem]&r Arrancar a Maldição"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Há um líquido estranho nas veias de todo lobisomem. Injetado de volta, ele apaga a lua do sangue, e o homem volta a dormir em paz."
-				""
-				"&6Objetivo:&r 1. Use uma &6Seringa vazia&r num lobisomem para obter a &6Injeção Estranha&r."
-				"&f2. Aplique-a numa &6Cadeira de Injeção&r para deixar de ser lobisomem (todos os níveis se perdem)."
-			]
-			optional: true
+			tasks: [{
+				id: "28EB2A6B2F039670"
+				item: { count: 1, id: "werewolves:injection_un_werewolf" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			id: "339E9151BDF1EA17"
-			x: 8.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["59AFB505BB321B1E"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			dependencies: [
-				"59AFB505BB321B1E"
-			]
-			tasks: [
-				{
-					id: "1091BCE75617245F"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
+			id: "339E9151BDF1EA17"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				icon: {
+					id: "minecraft:compass"
 				}
-			]
-			rewards: [ ]
-			title: "&7Tier I&7 - Garras e Prata"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "1091BCE75617245F"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["339E9151BDF1EA17"]
 			id: "7675B165BA7A63C1"
-			x: 10.0d
-			y: -2.0d
-			size: 1.25d
-			dependencies: [
-				"339E9151BDF1EA17"
-			]
-			tasks: [
-				{
-					id: "199D4DA7B0EDF11B"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:silver_ingot"
-					}
-					count: 8L
-				}
-				{
-					id: "011DBE8955B99A05"
-					type: "advancement"
-					advancement: "werewolves:dont_touch_that"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:silver_ingot"
-					}
-				}
-				{
-					id: "5D344BBDD161EDF7"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:silver_pickaxe"
-					}
-					count: 1L
-				}
-				{
-					id: "2EF566AF848DE12D"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:silver_axe"
-					}
-					count: 1L
-				}
-				{
-					id: "211A0BCA98E53256"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:silver_helmet"
-					}
-					count: 1L
-				}
-				{
-					id: "33415CB2B956814B"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:silver_chestplate"
-					}
-					count: 1L
-				}
-				{
-					id: "2648337E2986A200"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:silver_leggings"
-					}
-					count: 1L
-				}
-				{
-					id: "3955DF1A5ACF3921"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:silver_boots"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "440D6CEA2F28B743"
@@ -417,65 +236,70 @@
 				}
 				{
 					id: "60DF6819B9681341"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Metal da Lua"
-			description: [
-				"&7A prata brilha como a lua e queima a carne de quem ela amaldiçoou. O lobisomem que segura um lingote sente a mão arder até o osso."
-				"&7Lenhadores das matas roxas aprenderam a trabalhar armados: picareta e machado de prata, e uma cota que reluz à luz da lua e faz a fera hesitar antes de morder."
-				""
-				"&6Objetivo:&r 1. Minere &6Minério de Prata&r e funda 8 &6Lingotes de Prata&r (fornalha ou alto-forno)."
-				"&f2. Toque em qualquer item de prata (lobisomens sentem na pele)."
-				"&f3. Faça uma &6Picareta&r e um &6Machado de Prata&r (também há pá e enxada; derretidas, voltam a pepitas)."
-				"&f4. Forje a &6Armadura de Prata&r completa."
-				""
-				"&8Lingotes de prata de qualquer origem também servem nas receitas."
-			]
-		}
-		{
-			id: "64D94840DBDC6F34"
-			x: 10.0d
-			y: -0.4d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:alpha_werewolf_heart"
-			}
-			dependencies: [
-				"339E9151BDF1EA17"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "6A5F7D2282F1CC6B"
-					type: "kill"
-					entity: "werewolves:alpha_werewolf"
-					value: 1L
+					count: 8L
+					id: "199D4DA7B0EDF11B"
+					item: { count: 1, id: "werewolves:silver_ingot" }
+					type: "item"
 				}
 				{
-					id: "72C200A60374FB3F"
-					type: "advancement"
-					advancement: "werewolves:natural_succession"
+					advancement: "werewolves:dont_touch_that"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "comamigos_balance:alpha_werewolf_heart"
+						id: "werewolves:silver_ingot"
 					}
+					id: "011DBE8955B99A05"
+					type: "advancement"
 				}
 				{
-					id: "6E9DA6E587764699"
+					id: "5D344BBDD161EDF7"
+					item: { count: 1, id: "werewolves:silver_pickaxe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:werewolf_tooth"
-					}
-					count: 3L
+				}
+				{
+					id: "2EF566AF848DE12D"
+					item: { count: 1, id: "werewolves:silver_axe" }
+					type: "item"
+				}
+				{
+					id: "211A0BCA98E53256"
+					item: { count: 1, id: "werewolves:silver_helmet" }
+					type: "item"
+				}
+				{
+					id: "33415CB2B956814B"
+					item: { count: 1, id: "werewolves:silver_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2648337E2986A200"
+					item: { count: 1, id: "werewolves:silver_leggings" }
+					type: "item"
+				}
+				{
+					id: "3955DF1A5ACF3921"
+					item: { count: 1, id: "werewolves:silver_boots" }
+					type: "item"
 				}
 			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["339E9151BDF1EA17"]
+			icon: {
+				id: "comamigos_balance:alpha_werewolf_heart"
+			}
+			id: "64D94840DBDC6F34"
 			rewards: [
 				{
 					id: "3EBDC706552AFF5D"
@@ -484,71 +308,43 @@
 				}
 				{
 					id: "1D52F93A5CE49ACF"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Lobisomem Alfa"
-			description: [
-				"&7Toda matilha tem um líder, maior, mais velho e mais cruel. Ele não deixa o trono: alguém precisa tomá-lo."
-				"&7Seus dentes, do tamanho de um dedo e afiados como adagas, são o que os ferreiros do Coração mais pagam na Mata Roxa."
-				""
-				"&6Objetivo:&r 1. Encontre o &cLobisomem Alfa&r, que lidera matilhas na Floresta de Lobisomens (siga os uivos à noite)."
-				"&f2. Derrote-o: prata e acônito o enfraquecem; ele chama a matilha quando ferido."
-				"&f3. Recolha 3 &6Dentes de Lobisomem&r, as peles escuras e brancas e o seu &ccoração de troféu&r, comestível, com bênçãos e maldições."
-				""
-				"&8O &6Dente de Lobisomem&8 é o item de facção dos lobisomens no &6Coração do Tier I&8 e paga os níveis de lorde."
-			]
-		}
-		{
-			id: "56EC85E63EB14296"
-			x: 10.0d
-			y: 1.2d
-			size: 1.25d
-			dependencies: [
-				"339E9151BDF1EA17"
-			]
+			shape: "diamond"
 			tasks: [
 				{
-					id: "7F4574112C5823B8"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:liver"
-					}
-					count: 4L
+					entity: "werewolves:alpha_werewolf"
+					id: "6A5F7D2282F1CC6B"
+					type: "kill"
+					value: 1L
 				}
 				{
-					id: "7227DB55B845EA1D"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:cracked_bone"
+					advancement: "werewolves:natural_succession"
+					criterion: ""
+					icon: {
+						id: "comamigos_balance:alpha_werewolf_heart"
 					}
-					count: 4L
+					id: "72C200A60374FB3F"
+					type: "advancement"
 				}
 				{
-					id: "1A8DDF2861F8974A"
+					count: 3L
+					id: "6E9DA6E587764699"
+					item: { count: 1, id: "werewolves:werewolf_tooth" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:stone_altar"
-					}
-					count: 1L
-				}
-				{
-					id: "769C1A2BB1F4EE7A"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:stone_altar_fire_bowl"
-					}
-					count: 4L
 				}
 			]
+			x: 10.0d
+			y: -0.4d
+		}
+		{
+			dependencies: ["339E9151BDF1EA17"]
+			id: "56EC85E63EB14296"
 			rewards: [
 				{
 					id: "0A45A4DC0A1081A8"
@@ -557,72 +353,45 @@
 				}
 				{
 					id: "0BF8F1AAF953E4E4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&8[Lobisomem]&r O Altar de Pedra"
-			description: [
-				"&7A lua não basta para fazer um lobo velho. O ritual pede o que os homens jogam fora: fígados e ossos rachados."
-				"&7Quatro braseiros acesos em volta de uma pedra antiga, a lua por testemunha, e a fera cresce mais um palmo."
-				""
-				"&6Objetivo:&r 1. Junte 4 &6Fígados&r (de aldeões e lobisomens) e 4 &6Ossos Rachados&r (de esqueletos e lobisomens)."
-				"&f2. Coloque o &6Altar de Pedra&r e 4 &6Braseiros do Altar&r num raio de 3 blocos; acenda os braseiros."
-				"&f3. À noite, ponha fígado e ossos no altar e acenda-o para subir aos &8níveis 2 a 14&r. Também é preciso ter caçado presas suficientes."
-				""
-				"&8O progresso de presas abatidas (soma da vida máxima das vítimas) aparece no menu de facção."
-			]
-		}
-		{
-			id: "1A420B499C137101"
-			x: 10.0d
-			y: 2.8d
 			size: 1.25d
-			dependencies: [
-				"339E9151BDF1EA17"
-			]
 			tasks: [
 				{
-					id: "72422AEB41EA5298"
+					count: 4L
+					id: "7F4574112C5823B8"
+					item: { count: 1, id: "werewolves:liver" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:pelt"
-					}
-					count: 1L
 				}
 				{
-					id: "719779F1186A78F5"
-					type: "advancement"
-					advancement: "werewolves:hairy_situation"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:pelt"
-					}
+					count: 4L
+					id: "7227DB55B845EA1D"
+					item: { count: 1, id: "werewolves:cracked_bone" }
+					type: "item"
 				}
 				{
-					id: "715C9B0C05D98075"
+					id: "1A8DDF2861F8974A"
+					item: { count: 1, id: "werewolves:stone_altar" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:pelt_chestplate"
-					}
-					count: 1L
 				}
 				{
-					id: "0BC41602580B00C2"
+					count: 4L
+					id: "769C1A2BB1F4EE7A"
+					item: { count: 1, id: "werewolves:stone_altar_fire_bowl" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:bone_necklace"
-					}
-					count: 1L
 				}
 			]
+			x: 10.0d
+			y: 1.2d
+		}
+		{
+			dependencies: ["339E9151BDF1EA17"]
+			id: "1A420B499C137101"
 			rewards: [
 				{
 					id: "32AC657819ED2E62"
@@ -631,90 +400,46 @@
 				}
 				{
 					id: "25C61EF5ADC680DD"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&8[Lobisomem]&r Pele e Osso"
-			description: [
-				"&7A fera abatida deixa a pele, e o lobisomem esperto a veste: pele de lobo não pesa sobre o lobo, ao contrário do metal."
-				"&7Das matilhas vêm também colares de ossos, pulseiras de amuletos e apanhadores de sonhos. As feras guardam lembranças, e elas mudam quem as usa."
-				""
-				"&6Objetivo:&r 1. Obtenha uma &6Pele&r de lobisomens (formas Besta e Sobrevivente)."
-				"&f2. Costure o peitoral da &6Armadura de Pele&r: não atrapalha as formas como o metal."
-				"&f3. Encontre um &6Colar de Ossos&r (saque de lobisomens e baús; também há pulseira e apanhador de sonhos) e equipe no menu de facção."
-				""
-				"&8Acessórios não saem mais depois de equipados: só quebram."
-			]
-		}
-		{
-			id: "0FDBB3E4C38789B3"
-			x: 12.0d
-			y: -2.8d
 			size: 1.25d
-			dependencies: [
-				"7675B165BA7A63C1"
-			]
 			tasks: [
 				{
-					id: "5A6B2B5CAE407DCA"
+					id: "72422AEB41EA5298"
+					item: { count: 1, id: "werewolves:pelt" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:silver_sword"
-					}
-					count: 1L
 				}
 				{
-					id: "37AC51A60A4E95C3"
-					type: "advancement"
-					advancement: "werewolves:silver_hand"
+					advancement: "werewolves:hairy_situation"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "werewolves:silver_sword"
+						id: "werewolves:pelt"
 					}
+					id: "719779F1186A78F5"
+					type: "advancement"
 				}
 				{
-					id: "25DDB02A7243F941"
+					id: "715C9B0C05D98075"
+					item: { count: 1, id: "werewolves:pelt_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:crossbow_arrow_silver_bolt"
-					}
-					count: 6L
 				}
 				{
-					id: "30001B723E2C3043"
+					id: "0BC41602580B00C2"
+					item: { count: 1, id: "werewolves:bone_necklace" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:oil_bottle"
-					}
-					count: 1L
-				}
-				{
-					id: "21837B07357D27EA"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:wolfsbane_diffuser_core"
-					}
-					count: 1L
-				}
-				{
-					id: "6EC722B348F24241"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:wolfsbane_diffuser_long"
-					}
-					count: 1L
 				}
 			]
+			x: 10.0d
+			y: 2.8d
+		}
+		{
+			dependencies: ["7675B165BA7A63C1"]
+			id: "0FDBB3E4C38789B3"
 			rewards: [
 				{
 					id: "7F8B529BA3D118A2"
@@ -723,319 +448,197 @@
 				}
 				{
 					id: "26BC6907435A08E0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r Prata contra a Fera"
-			description: [
-				"&7Aço corta. Prata cura o mundo de uma maldição a cada golpe, deixando a fera lenta e arrancando a defesa da pelagem."
-				"&7O caçador prevenido leva uma espada de prata, uma besta carregada de virotes de ponta prateada e um frasco de óleo de prata para untar qualquer lâmina."
-				"&7E onde a matilha ronda, ergue o mesmo engenho que espalha alho contra vampiros, agora carregado da flor que os lobos odeiam."
-				""
-				"&6Objetivo:&r 1. Forje uma &6Espada de Prata&r e mate um lobisomem com ela (ou com virotes de prata)."
-				"&f2. Na &6Mesa de Armas&r dos caçadores, faça 6 &6Virotes de Prata&r (pepitas de prata, ferro, vareta, pena)."
-				"&f3. Na &6Mesa de Alquimia&r, misture óleo de sangue de vampiro com um lingote de prata: &6Óleo de Prata&r. Aplique na espada pela grade de criação."
-				"&f4. No &6Caldeirão Alquímico&r, faça um &6Núcleo de Difusor de Acônito&r (lã + acônito) e monte o &6Difusor de Acônito&r (tábuas, diamantes, obsidiana)."
-				""
-				"&8Mesas de Armas, de Alquimia e o Caldeirão são do caminho do caçador no capítulo Vampiros e Caçadores."
-				"&8Repita o óleo para o nível II. O núcleo melhorado (mais acônito) gera um difusor mais forte."
+			size: 1.25d
+			tasks: [
+				{
+					id: "5A6B2B5CAE407DCA"
+					item: { count: 1, id: "werewolves:silver_sword" }
+					type: "item"
+				}
+				{
+					advancement: "werewolves:silver_hand"
+					criterion: ""
+					icon: {
+						id: "werewolves:silver_sword"
+					}
+					id: "37AC51A60A4E95C3"
+					type: "advancement"
+				}
+				{
+					count: 6L
+					id: "25DDB02A7243F941"
+					item: { count: 1, id: "werewolves:crossbow_arrow_silver_bolt" }
+					type: "item"
+				}
+				{
+					id: "30001B723E2C3043"
+					item: { count: 1, id: "vampirism:oil_bottle" }
+					type: "item"
+				}
+				{
+					id: "21837B07357D27EA"
+					item: { count: 1, id: "werewolves:wolfsbane_diffuser_core" }
+					type: "item"
+				}
+				{
+					id: "6EC722B348F24241"
+					item: { count: 1, id: "werewolves:wolfsbane_diffuser_long" }
+					type: "item"
+				}
 			]
+			x: 12.0d
+			y: -2.8d
 		}
 		{
+			dependencies: ["7675B165BA7A63C1"]
 			id: "2B70BCF7FB110B84"
-			x: 12.0d
-			y: -1.2d
-			dependencies: [
-				"7675B165BA7A63C1"
-			]
+			rewards: [{
+				id: "39465AFE238A793E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4828BF4070288443"
+					item: { count: 1, id: "werewolves:wolfsbane_finder" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:wolfsbane_finder"
-					}
-					count: 1L
 				}
 				{
-					id: "130DA2E20E60713C"
-					type: "advancement"
 					advancement: "werewolves:beast_of_gevauden"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "werewolves:wolfsbane_finder"
 					}
+					id: "130DA2E20E60713C"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "39465AFE238A793E"
-					type: "xp"
-					xp: 100
-				}
-			]
-			title: "&8[Lobisomem]&r A Besta de Gévaudan"
-			description: [
-				"&7Uma aldeia inteira de portas trancadas e cachorros mudos: é assim que se reconhece território de lobisomem."
-				"&7Os caçadores escondem difusores de acônito nas paredes das aldeias que protegem. O lobo esperto aprende a farejá-los antes de cair na armadilha."
-				""
-				"&6Objetivo:&r 1. Faça um &6Detector de Acônito&r (prata, acônito, redstone e tábuas) e use-o perto de difusores para achá-los."
-				"&f2. Como lobisomem, aterrorize e conquiste uma aldeia: capture o totem dela e derrote os defensores."
-				""
-				"&8O Representante lobisomem passa a oferecer tarefas e recompensas na aldeia conquistada."
-			]
+			x: 12.0d
+			y: -1.2d
 		}
 		{
-			id: "281AE13ADA47F090"
-			x: 15.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_2"
-			}
 			dependencies: [
 				"0FDBB3E4C38789B3"
 				"2B70BCF7FB110B84"
 			]
-			tasks: [
-				{
-					id: "0374F9ABE735B24F"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_2"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II&7 - Pele Escura"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "281AE13ADA47F090"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_2"
+				}
+				id: "0374F9ABE735B24F"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["281AE13ADA47F090"]
 			id: "7647C604E6B9AA2C"
-			x: 17.0d
-			y: -0.8d
+			rewards: [{
+				id: "5FE55FEEAB589173"
+				type: "xp"
+				xp: 400
+			}]
 			size: 1.25d
-			dependencies: [
-				"281AE13ADA47F090"
-			]
 			tasks: [
 				{
-					id: "61481C0FD60C16B8"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:dark_pelt"
-					}
 					count: 8L
+					id: "61481C0FD60C16B8"
+					item: { count: 1, id: "werewolves:dark_pelt" }
+					type: "item"
 				}
 				{
 					id: "10E07D35FE9B4329"
+					item: { count: 1, id: "werewolves:dark_pelt_helmet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:dark_pelt_helmet"
-					}
-					count: 1L
 				}
 				{
 					id: "5713B1FCE51FE607"
+					item: { count: 1, id: "werewolves:dark_pelt_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:dark_pelt_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "0D82FA42848496B5"
+					item: { count: 1, id: "werewolves:dark_pelt_leggings" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:dark_pelt_leggings"
-					}
-					count: 1L
 				}
 				{
 					id: "4D763BE979D258C2"
+					item: { count: 1, id: "werewolves:dark_pelt_boots" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:dark_pelt_boots"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "5FE55FEEAB589173"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "Pele Escura"
-			description: [
-				"&7Lobisomens mais velhos têm pelo da cor da noite sem lua, grosso como feltro. A forja do Coração o aceita como tributo da matilha."
-				"&7Costurada em volta da armadura de pele, faz uma veste leve, quente e quase tão firme quanto ferro."
-				""
-				"&6Objetivo:&r 1. Obtenha 8 &6Peles Escuras&r de lobisomens fortes e do Alfa."
-				"&f2. Envolva cada peça de &6Armadura de Pele&r com 8 Peles Escuras na bancada: elmo, peitoral, calças e botas."
-				""
-				"&8A &6Pele Escura&8 é o item de facção dos lobisomens no &6Coração do Tier II&8."
-			]
+			x: 17.0d
+			y: -0.8d
 		}
 		{
-			id: "683FD9592D2D9304"
-			x: 17.0d
-			y: 0.8d
-			dependencies: [
-				"281AE13ADA47F090"
-			]
+			dependencies: ["281AE13ADA47F090"]
 			icon: {
-				count: 1
 				id: "werewolves:werewolf_tooth"
 			}
-			tasks: [
-				{
-					id: "26BC26C399C3B120"
-					type: "advancement"
-					advancement: "werewolves:bite_the_evil_in_the_bud"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:werewolf_tooth"
-					}
+			id: "683FD9592D2D9304"
+			rewards: [{
+				id: "7B480672EC7C51E4"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				advancement: "werewolves:bite_the_evil_in_the_bud"
+				criterion: ""
+				icon: {
+					id: "werewolves:werewolf_tooth"
 				}
-			]
-			rewards: [
-				{
-					id: "7B480672EC7C51E4"
-					type: "xp"
-					xp: 80
-				}
-			]
-			title: "&8[Lobisomem]&r Cortar o Mal pela Raiz"
-			description: [
-				"&7Os lobos nunca gostaram dos sanguessugas. No fundo das florestas vampíricas pulsa a Mãe deles, raízes e cristais de uma fome sem rosto."
-				"&7Destruí-la é um presente para a matilha e uma ofensa que nenhum barão perdoa."
-				""
-				"&6Objetivo:&r 1. Encontre os &cRestos Ancestrais&r numa Floresta Vampírica (veja o capítulo Vampiros e Caçadores)."
-				"&f2. Como lobisomem, destrua os Cristais Antigos e os restos até o núcleo cair."
-			]
+				id: "26BC26C399C3B120"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 0.8d
 		}
 		{
-			id: "50D80AE3052FEB48"
-			x: 20.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_3"
-			}
 			dependencies: [
 				"7647C604E6B9AA2C"
 				"683FD9592D2D9304"
 			]
-			tasks: [
-				{
-					id: "4121FD32FB5D7BBD"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_3"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III&7 - O Lobo Branco"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "50D80AE3052FEB48"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_3"
+				}
+				id: "4121FD32FB5D7BBD"
+				type: "advancement"
+			}]
+			x: 20.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["50D80AE3052FEB48"]
 			id: "44C5801DF2F29140"
-			x: 22.0d
-			y: -0.8d
-			size: 1.25d
-			dependencies: [
-				"50D80AE3052FEB48"
-			]
-			tasks: [
-				{
-					id: "0597F8388392886A"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:white_pelt"
-					}
-					count: 4L
-				}
-				{
-					id: "7FF187CCF0AEF0AC"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:white_pelt_helmet"
-					}
-					count: 1L
-				}
-				{
-					id: "0459A60F4B814722"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:white_pelt_chestplate"
-					}
-					count: 1L
-				}
-				{
-					id: "7B5E748E9B53DA8C"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:white_pelt_leggings"
-					}
-					count: 1L
-				}
-				{
-					id: "674933A229F0AA7F"
-					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:white_pelt_boots"
-					}
-					count: 1L
-				}
-				{
-					id: "5EBCB408C56EDE4D"
-					type: "advancement"
-					advancement: "werewolves:thick_fur_coat"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:white_pelt"
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "4D663C6734D3B830"
@@ -1044,141 +647,124 @@
 				}
 				{
 					id: "672DC8D718669447"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Lobo Branco"
-			description: [
-				"&7Raro como lua azul: um lobo de pelo branco. Dizem que é o Alfa que viveu tempo demais."
-				"&7Pelo branco sobre pelo escuro: o frio, as garras e as lâminas escorregam. Os ferreiros do Coração pedem esse pelo para o terceiro tributo."
-				""
-				"&6Objetivo:&r 1. Obtenha 4 &6Peles Brancas&r do Lobisomem Alfa."
-				"&f2. Copie o &6Molde de Melhoria de Pele Branca&r com diamantes e um Dente de Lobisomem."
-				"&f3. Na &6Mesa de Ferraria&r, use molde + Pele Branca sobre cada peça de pele escura, até ter as 4 peças."
-				""
-				"&8A &6Pele Branca&8 é o item de facção dos lobisomens no &6Coração do Tier III&8."
-			]
-		}
-		{
-			id: "33D5F8A352D22BCE"
-			x: 22.0d
-			y: 0.8d
-			dependencies: [
-				"50D80AE3052FEB48"
-			]
-			icon: {
-				count: 1
-				id: "werewolves:werewolf_minion_charm"
-			}
+			size: 1.25d
 			tasks: [
 				{
-					id: "1C087F1D8D9ACB3F"
+					count: 4L
+					id: "0597F8388392886A"
+					item: { count: 1, id: "werewolves:white_pelt" }
+					type: "item"
+				}
+				{
+					id: "7FF187CCF0AEF0AC"
+					item: { count: 1, id: "werewolves:white_pelt_helmet" }
+					type: "item"
+				}
+				{
+					id: "0459A60F4B814722"
+					item: { count: 1, id: "werewolves:white_pelt_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7B5E748E9B53DA8C"
+					item: { count: 1, id: "werewolves:white_pelt_leggings" }
+					type: "item"
+				}
+				{
+					id: "674933A229F0AA7F"
+					item: { count: 1, id: "werewolves:white_pelt_boots" }
+					type: "item"
+				}
+				{
+					advancement: "werewolves:thick_fur_coat"
+					criterion: ""
+					icon: {
+						id: "werewolves:white_pelt"
+					}
+					id: "5EBCB408C56EDE4D"
 					type: "advancement"
+				}
+			]
+			x: 22.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["50D80AE3052FEB48"]
+			icon: {
+				id: "werewolves:werewolf_minion_charm"
+			}
+			id: "33D5F8A352D22BCE"
+			rewards: [{
+				id: "1D61736E796F45FD"
+				type: "xp"
+				xp: 330
+			}]
+			tasks: [
+				{
 					advancement: "werewolves:unrivaled_predator"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "werewolves:werewolf_minion_charm"
 					}
+					id: "1C087F1D8D9ACB3F"
+					type: "advancement"
 				}
 				{
-					id: "43A339DB529A866F"
-					type: "advancement"
 					advancement: "vampirism:minion/become_lord"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "werewolves:werewolf_minion_charm"
 					}
+					id: "43A339DB529A866F"
+					type: "advancement"
 				}
 				{
 					id: "0EAD8734A7779C5D"
+					item: { count: 1, id: "werewolves:werewolf_minion_charm" }
 					type: "item"
-					item: {
-						count: 1
-						id: "werewolves:werewolf_minion_charm"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "1D61736E796F45FD"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "&8[Lobisomem]&r Líder da Matilha"
-			description: [
-				"&7No décimo quarto nível, a lua já não manda em você: é você quem escolhe quando ela nasce no seu peito."
-				"&7Épsilon, Delta, Gama, Beta... Alfa. Cada título se arranca com dentes, e cada lorde precisa de uma matilha que o siga."
-				""
-				"&6Objetivo:&r 1. Alcance o &8nível máximo&r de lobisomem no Altar de Pedra."
-				"&f2. Aceite a tarefa especial do &6Representante lobisomem&r numa aldeia conquistada e conclua-a para virar &6Lorde&r."
-				"&f3. Use um &6Amuleto da Lua&r (recompensa de tarefas) num lobisomem fraco para torná-lo seu lacaio; &6Melhorias do Amuleto&r o fortalecem."
-			]
+			x: 22.0d
+			y: 0.8d
 		}
 		{
-			id: "665F98EF60190E9D"
-			x: 25.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_4"
-			}
 			dependencies: [
 				"44C5801DF2F29140"
 				"33D5F8A352D22BCE"
 			]
-			tasks: [
-				{
-					id: "1C4772C26408D9F9"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_4"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV&7 - Senhor da Caçada"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "665F98EF60190E9D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_4"
+				}
+				id: "1C4772C26408D9F9"
+				type: "advancement"
+			}]
+			x: 25.0d
+			y: 0.0d
 		}
 		{
-			id: "68B770D996B98032"
-			x: 27.0d
-			y: 0.0d
-			dependencies: [
-				"665F98EF60190E9D"
-			]
+			dependencies: ["665F98EF60190E9D"]
 			icon: {
-				count: 1
 				id: "werewolves:werewolf_tooth"
 			}
-			tasks: [
-				{
-					id: "28C32AA5FD7519B6"
-					type: "advancement"
-					advancement: "werewolves:lord_of_the_hunt"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "werewolves:werewolf_tooth"
-					}
-				}
-			]
+			id: "68B770D996B98032"
 			rewards: [
 				{
 					id: "1FBA995DF0B72402"
@@ -1187,25 +773,24 @@
 				}
 				{
 					id: "277B9EFFA753E3A7"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "&8[Lobisomem]&r Senhor da Caçada"
-			description: [
-				"&7Quando você uiva, todas as florestas respondem. Os barões fecham os castelos e os caçadores contam os virotes de prata."
-				"&7É o último título da matilha, pago em dentes arrancados de alfas, um por um."
-				""
-				"&6Objetivo:&r 1. Complete as tarefas de lorde do Representante lobisomem, pagas com &6Dentes de Lobisomem&r."
-				"&f2. Alcance o nível máximo de &8Lorde Lobisomem&r (título Alfa)."
-			]
+			tasks: [{
+				advancement: "werewolves:lord_of_the_hunt"
+				criterion: ""
+				icon: {
+					id: "werewolves:werewolf_tooth"
+				}
+				id: "28C32AA5FD7519B6"
+				type: "advancement"
+			}]
+			x: 27.0d
+			y: 0.0d
 		}
-	]
-	title: "&8Lobisomens"
-	subtitle: [
-		"A maldição da lua cheia"
 	]
 }

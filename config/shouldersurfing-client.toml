@@ -444,7 +444,7 @@
 
 	[gui.maps]
 		#Whether to render map previews in the hud when a map item is held.
-		map_item_overlay_enabled = true
+		map_item_overlay_enabled = false
 		#The directional anchor to use for map item overlay rendering.
 		#Allowed Values: TOP, BOTTOM
 		map_item_overlay_anchor = "BOTTOM"

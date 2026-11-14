@@ -4,234 +4,114 @@
 	filename: "mod_vampirism_missoes"
 	group: "429D481FF148D2D9"
 	icon: {
-		count: 1
 		id: "vampirism:vampire_fang"
 	}
 	id: "34925CE37F7AE381"
-	order_index: 15
+	images: [ ]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			id: "419E736DAFB87A6D"
-			x: -3.0d
-			y: 0.0d
-			shape: "square"
-			size: 2.0d
 			icon: {
-				count: 1
 				id: "vampirism:vampire_fang"
 			}
-			tasks: [
-				{
-					id: "2FDF01E3F5A399C4"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "1AC86CB7ED115F2F"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "A Guerra da Noite"
-			description: [
-				"&7Há séculos as aldeias de Heartforge trancam as portas ao pôr do sol. Nas florestas de névoa vivem os que bebem sangue,"
-				"&7e atrás deles marcham os caçadores, com estacas, alho e água benta. Entre os jacarandás roxos, uma terceira raça"
-				"&7não bebe: devora. São os lobisomens, que têm crônica própria."
-				""
-				"&7Cada alma jura a &4uma só facção&7: &4Vampiro&7, &9Caçador&7 ou &8Lobisomem&7. Quem jurou a uma não serve às outras"
-				"&7sem antes se curar. Os marcadores &4[Vampiro]&7 e &9[Caçador]&7 dizem a que caminho cada página pertence; as páginas sem marcador"
-				"&7servem a todos, e &5[Banquete]&7 é a cozinha da noite, opcional."
-				""
-				"&7Os ferreiros do Coração pagam pelo que cada facção arranca da outra: &6presas&7, &6corações humanos&7, &6sangue puro&7,"
-				"&7&6inteligência de caçador&7 e &6peles de lobisomem&7 entram nos Corações do Tier."
-				""
-				"&7Comece pela &6Encruzilhada da Noite&7. Depois, escolha o seu lado."
-			]
+			id: "419E736DAFB87A6D"
+			rewards: [{
+				id: "1AC86CB7ED115F2F"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2FDF01E3F5A399C4"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			id: "2185652AAB4F17D0"
-			x: 1.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"419E736DAFB87A6D"
-			]
+			dependencies: ["419E736DAFB87A6D"]
 			icon: {
-				count: 1
 				id: "vampirism:vampire_book"
 			}
+			id: "2185652AAB4F17D0"
+			rewards: [{
+				id: "2A64AD0F0354E6E4"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "71064EC5E68FA215"
-					type: "advancement"
 					advancement: "vampirism:main/root"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:vampire_book"
 					}
+					id: "71064EC5E68FA215"
+					type: "advancement"
 				}
 				{
 					id: "2C511D284F9EC6C9"
+					item: { count: 1, id: "vampirism:vampire_book" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_book"
-					}
-					count: 1L
 				}
 				{
-					id: "7CCFC3BF2B5745F4"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_fang"
-					}
 					count: 3L
-				}
-				{
-					id: "48C3037DA4DE8377"
+					id: "7CCFC3BF2B5745F4"
+					item: { count: 1, id: "vampirism:vampire_fang" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:garlic"
-					}
-					count: 8L
 				}
-			]
-			rewards: [
 				{
-					id: "2A64AD0F0354E6E4"
-					type: "xp"
-					xp: 200
+					count: 8L
+					id: "48C3037DA4DE8377"
+					item: { count: 1, id: "vampirism:garlic" }
+					type: "item"
 				}
 			]
-			title: "A Encruzilhada da Noite"
-			description: [
-				"&7Todo viajante, cedo ou tarde, ouve passos que não são de homem atrás de si na estrada escura."
-				"&7Os velhos das aldeias contam que é ali, na encruzilhada, que cada um escolhe: fugir, caçar ou ser caçado para sempre."
-				"&7Antes de escolher, porém, é preciso entender o inimigo. Um livro antigo, uma presa arrancada e uma trança de alho são o começo de qualquer conversa sobre a noite."
-				""
-				"&6Objetivo:&r 1. Aproxime-se de vampiros ou caçadores (andam à noite pelas estradas e florestas) para despertar esta crônica."
-				"&f2. Encontre um &6Livro de Vampiro&r em baús de masmorras, minas abandonadas e pirâmides; vampiros e caçadores avançados também o largam."
-				"&f3. Derrote &4Vampiros&r e recolha 3 &6Presas de Vampiro&r."
-				"&f4. Colha 8 &6Alhos&r: crescem atrás da casa do &9Treinador de Caçadores&r em algumas aldeias e, às vezes, selvagens. Replante como cenoura."
-				""
-				"&8A &6Presa de Vampiro&8 e o &6Coração Humano&8 são os itens de facção do &6Coração do Tier I&8. Junte presas mesmo que vá ser caçador."
-				"&8Usar uma presa em si mesmo transmite a Sanguinare. Não faça isso por engano se quiser caçar vampiros."
-			]
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			id: "28BEF2E097218D1C"
-			x: 3.0d
-			y: -1.6d
-			dependencies: [
-				"2185652AAB4F17D0"
-			]
+			dependencies: ["2185652AAB4F17D0"]
 			icon: {
-				count: 1
 				id: "vampirism:vampire_orchid"
 			}
+			id: "28BEF2E097218D1C"
+			rewards: [{
+				id: "2F5803FD9352E51A"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
-					id: "2E89BF9EB92BE703"
-					type: "advancement"
 					advancement: "vampirism:main/vampire_forest"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:vampire_orchid"
 					}
+					id: "2E89BF9EB92BE703"
+					type: "advancement"
 				}
 				{
 					id: "45941E5ABC9381E2"
+					item: { count: 1, id: "vampirism:vampire_orchid" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_orchid"
-					}
-					count: 1L
 				}
 				{
-					id: "2AA308EE05E5E4BF"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:cobbled_dark_stone"
-					}
 					count: 8L
+					id: "2AA308EE05E5E4BF"
+					item: { count: 1, id: "vampirism:cobbled_dark_stone" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "2F5803FD9352E51A"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "A Floresta sem Sol"
-			description: [
-				"&7Há bosques onde a névoa nunca levanta. Os pinheiros têm casca negra, as raízes sangram quando cortadas e o sol não alcança o chão."
-				"&7É ali que os vampiros dormem sem medo do dia e que os barões erguem castelos de pedra escura."
-				"&7Entre as árvores abre uma única flor, a &5orquídea vampírica&7, que só cresce onde a luz morre."
-				""
-				"&6Objetivo:&r 1. Encontre e explore uma &4Floresta Vampírica&r (bioma raro, coberto de névoa). Vampiros não sofrem dano solar dentro dela."
-				"&f2. Colha uma &5Orquídea Vampírica&r no chão da floresta (o Mercador Ambulante às vezes vende)."
-				"&f3. Recolha 8 &6Pedras Escuras de Pedregulho&r das ruínas e castelos da floresta."
-				""
-				"&8A Pedra Escura impede o surgimento de monstros que não sejam vampiros. Ótima para muros de covil."
-			]
+			x: 3.0d
+			y: -1.6d
 		}
 		{
+			dependencies: ["2185652AAB4F17D0"]
 			id: "52B0F0BE75D0CF07"
-			x: 3.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"2185652AAB4F17D0"
-			]
-			tasks: [
-				{
-					id: "3631573013CF79FF"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:injection_garlic"
-					}
-					count: 1L
-				}
-				{
-					id: "57ACC2E5C81A17EC"
-					type: "advancement"
-					advancement: "vampirism:hunter/become_hunter"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "vampirism:injection_garlic"
-					}
-				}
-				{
-					id: "3AA09BC719AA0736"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:stake"
-					}
-					count: 1L
-				}
-				{
-					id: "04C8922627E33BB7"
-					type: "advancement"
-					advancement: "vampirism:hunter/stake"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "vampirism:injection_garlic"
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "1B6E14D088B39960"
@@ -240,53 +120,51 @@
 				}
 				{
 					id: "147FA333100715DB"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r O Juramento do Alho"
-			description: [
-				"&7Em algumas aldeias mora um velho de chapéu largo, com uma horta de alho nos fundos e uma cadeira que ninguém gosta de olhar."
-				"&7Uma agulhada, um gosto de alho que dura uma semana, e nunca mais uma mordida vai envenenar o seu sangue."
-				"&7Depois disso, o caçador aprende a lição mais antiga contra os mortos, que é também a mais barata: madeira afiada e braço firme."
-				""
-				"&6Objetivo:&r 1. Encontre a casa do &9Treinador de Caçadores&r numa aldeia. Faça uma &6Seringa&r (vidro e painel de vidro) e uma &6Injeção de Alho&r (seringa + alho)."
-				"&f2. Sente-se na &6Cadeira de Injeção&r do treinador e use a injeção: você fica imune a Sanguinare e vira &9Caçador de Vampiros&r."
-				"&f3. Faça uma &6Estaca&r (madeira) e crave-a num vampiro enfraquecido (pouca vida) para matá-lo de vez."
-				""
-				"&8A Cadeira de Injeção também pode ser feita: ferro, lã e garrafa de vidro."
-			]
-		}
-		{
-			id: "40EE7C6EF318FCA9"
-			x: 3.0d
-			y: 1.6d
-			dependencies: [
-				"2185652AAB4F17D0"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "63343B60D5B826FA"
+					id: "3631573013CF79FF"
+					item: { count: 1, id: "vampirism:injection_garlic" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:altar_cleansing"
-					}
-					count: 1L
 				}
 				{
-					id: "0488A7DA0D3FBA25"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:injection_sanguinare"
+					advancement: "vampirism:hunter/become_hunter"
+					criterion: ""
+					icon: {
+						id: "vampirism:injection_garlic"
 					}
-					count: 1L
+					id: "57ACC2E5C81A17EC"
+					type: "advancement"
+				}
+				{
+					id: "3AA09BC719AA0736"
+					item: { count: 1, id: "vampirism:stake" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:hunter/stake"
+					criterion: ""
+					icon: {
+						id: "vampirism:injection_garlic"
+					}
+					id: "04C8922627E33BB7"
+					type: "advancement"
 				}
 			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2185652AAB4F17D0"]
+			id: "40EE7C6EF318FCA9"
+			optional: true
 			rewards: [
 				{
 					id: "31B1E50F09A3839E"
@@ -295,264 +173,142 @@
 				}
 				{
 					id: "320ED98438A380CA"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Caminho de Volta"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nem todo juramento dura para sempre. Há vampiros que sentem saudade do sol, e caçadores cansados de lutar contra a noite."
-				"&7As igrejas de aldeia guardam um altar de purificação para os primeiros; para os segundos, basta uma agulha cheia do que eles mais temiam."
-				""
-				"&6Objetivo:&r 1. Para deixar de ser vampiro: use um &6Altar de Purificação&r (achado em igrejas de aldeia, ou feito com presas, livro e tábuas). Todos os níveis de vampiro se perdem."
-				"&f2. Para deixar de ser caçador: faça uma &6Injeção de Sanguinare&r (seringa + 8 presas) e aplique-a na Cadeira de Injeção."
-				""
-				"&8Para virar lobisomem, um caçador vacinado ou um vampiro precisa antes se curar."
+			tasks: [
+				{
+					id: "63343B60D5B826FA"
+					item: { count: 1, id: "vampirism:altar_cleansing" }
+					type: "item"
+				}
+				{
+					id: "0488A7DA0D3FBA25"
+					item: { count: 1, id: "vampirism:injection_sanguinare" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 3.0d
+			y: 1.6d
 		}
 		{
-			id: "0AE3AA51BD3FC0D0"
-			x: 5.0d
-			y: -0.8d
-			size: 1.25d
 			dependencies: [
 				"2185652AAB4F17D0"
 				"28BEF2E097218D1C"
 			]
 			icon: {
-				count: 1
 				id: "vampirism:blood_bottle"
 			}
+			id: "0AE3AA51BD3FC0D0"
+			rewards: [{
+				id: "06FF6F106C5757F1"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "3ACC6D18F11F0336"
-					type: "advancement"
 					advancement: "vampirism:vampire/become_vampire"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:blood_bottle"
 					}
+					id: "3ACC6D18F11F0336"
+					type: "advancement"
 				}
 				{
-					id: "064B5B86A612975B"
-					type: "advancement"
 					advancement: "vampirism:vampire/first_blood"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:blood_bottle"
 					}
+					id: "064B5B86A612975B"
+					type: "advancement"
 				}
 				{
-					id: "48B63B8FC0811D37"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:blood_bottle"
-					}
 					count: 4L
+					id: "48B63B8FC0811D37"
+					item: { count: 1, id: "vampirism:blood_bottle" }
+					type: "item"
 				}
 				{
 					id: "0477A713481DD91D"
+					item: { count: 1, id: "vampirism:umbrella" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:umbrella"
-					}
-					count: 1L
 				}
 				{
 					id: "27616E3A1688851C"
+					item: { count: 1, id: "vampirism:coffin_red" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:coffin_red"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "06FF6F106C5757F1"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "&4[Vampiro]&r Sangue Novo"
-			description: [
-				"&7Primeiro vem a febre, depois a fome. Ao fim de um dia, o coração bate uma última vez e se cala."
-				"&7O pão vira cinza na boca e só uma coisa ainda tem gosto. O sol, antes amigo, passa a arder na pele como brasa."
-				"&7Os vampiros novos que sobrevivem à primeira semana são os que aprendem depressa: beber, guardar, se esconder e dormir de tampa fechada."
-				""
-				"&6Objetivo:&r 1. Deixe um vampiro morder você (de costas) ou use uma &6Presa&r em si mesmo para contrair &4Sanguinare Vampiris&r. Espere cerca de 20 minutos sem beber leite."
-				"&f2. Aproxime-se de uma criatura por trás e segure a tecla de &4morder&r (padrão V). Aldeões são a melhor fonte."
-				"&f3. Com &6garrafas de vidro&r na barra rápida, beba com a barra de sangue cheia: elas viram 4 &4Garrafas de Sangue&r."
-				"&f4. Faça um &6Guarda-chuva&r (lã, orquídea vampírica e varetas) para andar sob o sol sem queimar."
-				"&f5. Construa um &6Caixão&r (qualquer cor) e durma nele para pular o dia em vez da noite."
-				""
-				"&8Zumbis e esqueletos deixam de atacar vampiros; caçadores passam a caçar você."
-				"&8Florestas vampíricas, cavernas, chapéus e tempo nublado também protegem do sol. A água enfraquece vampiros."
-				"&8Quem tomou a vacina de alho é imune: precisa antes de uma Injeção de Sanguinare."
-			]
+			x: 5.0d
+			y: -0.8d
 		}
 		{
-			id: "40FF1F3A6D96E950"
-			x: 8.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["0AE3AA51BD3FC0D0"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			dependencies: [
-				"0AE3AA51BD3FC0D0"
-			]
-			tasks: [
-				{
-					id: "6536F488FCB4B71D"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
+			id: "40FF1F3A6D96E950"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				icon: {
+					id: "minecraft:compass"
 				}
-			]
-			rewards: [ ]
-			title: "&7Tier I&7 - Presas e Estacas"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "6536F488FCB4B71D"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			id: "34A1260A5FB16403"
-			x: 10.0d
-			y: -4.32d
-			shape: "diamond"
+			dependencies: ["40FF1F3A6D96E950"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:vampire_baron_heart"
 			}
-			dependencies: [
-				"40FF1F3A6D96E950"
-			]
+			id: "34A1260A5FB16403"
+			rewards: [{
+				id: "4B2FFF4222F60AAF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "vampirism:vampire_baron"
 					id: "6FEF69DCD8154E90"
 					type: "kill"
-					entity: "vampirism:vampire_baron"
 					value: 1L
 				}
 				{
-					id: "425A060DEA581F2E"
-					type: "advancement"
 					advancement: "vampirism:main/regicide"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "comamigos_balance:vampire_baron_heart"
 					}
+					id: "425A060DEA581F2E"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "4B2FFF4222F60AAF"
-					type: "xp"
-					xp: 100
-				}
-			]
-			title: "Barão Vampiro"
-			description: [
-				"&7Nos castelos de pedra escura das florestas de névoa, um senhor antigo comanda servos e morcegos."
-				"&7O barão cresce com quem o desafia: quanto mais forte o visitante, mais forte o anfitrião. Ninguém sabe a idade dele, só que o sangue nas veias já não coagula."
-				"&7É esse sangue, o &6Sangue Puro&7, que todos querem: vampiros para subir nos rituais, caçadores para estudar."
-				""
-				"&6Objetivo:&r 1. Procure o &cBarão Vampiro&r nas Florestas Vampíricas (surge raramente, quase sempre perto de construções de pedra escura)."
-				"&f2. Derrote-o: ele invoca lacaios e se teleporta. Lute de dia ou com alho por perto para enfraquecê-lo."
-				"&f3. Recolha o &6Sangue Puro&r (o nível acompanha o dele) e o seu &ccoração de troféu&r, comestível, com bênçãos e maldições."
-				""
-				"&8O Sangue Puro abre os níveis 5+ do vampiro, a capa vampírica, o ferro infundido e várias receitas de caçador."
-			]
+			x: 10.0d
+			y: -4.32d
 		}
 		{
-			id: "4777558829C011E6"
-			x: 10.0d
-			y: -2.72d
-			size: 1.25d
-			dependencies: [
-				"40FF1F3A6D96E950"
-			]
+			dependencies: ["40FF1F3A6D96E950"]
 			icon: {
-				count: 1
 				id: "vampirism:altar_inspiration"
 			}
-			tasks: [
-				{
-					id: "5533D53ACB5AFF39"
-					type: "advancement"
-					advancement: "vampirism:vampire/extra_storage"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "vampirism:altar_inspiration"
-					}
-				}
-				{
-					id: "5B97ACDD0883CE80"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:altar_inspiration"
-					}
-					count: 1L
-				}
-				{
-					id: "63362515E1C663BD"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:human_heart"
-					}
-					count: 4L
-				}
-				{
-					id: "76071E41B3FBC1B2"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:blood_grinder"
-					}
-					count: 1L
-				}
-				{
-					id: "6365AF70A2E95D3B"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:blood_sieve"
-					}
-					count: 1L
-				}
-				{
-					id: "42828133369F1411"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:blood_bottle"
-					}
-					count: 16L
-				}
-			]
+			id: "4777558829C011E6"
 			rewards: [
 				{
 					id: "540E75688EF12F02"
@@ -561,85 +317,58 @@
 				}
 				{
 					id: "0B647DE29180E31B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "&4[Vampiro]&r O Altar da Inspiração"
-			description: [
-				"&7O primeiro altar de um vampiro é modesto: um tonel de madeira que transforma sangue em poder."
-				"&7Mas sangue não cai do céu. O vampiro esperto guarda o excedente como o camponês guarda grão, e mói carne e corações para tirar até a última gota."
-				"&7No quarto nível, a mordida deixa de ser só fome e passa a ser semente: animais e aldeões infectados viram um rebanho que nunca seca."
-				""
-				"&6Objetivo:&r 1. Construa um &6Recipiente de Sangue&r (tábuas, vidro, ferro) e coloque-o na base. Agachado, clique com garrafas para guardar ou tirar sangue."
-				"&f2. Com ele, monte um &6Altar da Inspiração&r. À noite, encha-o de garrafas de sangue e clique de mão vazia para subir aos &4níveis 2 a 4&r."
-				"&f3. Derrote &9Caçadores&r e colete 4 &6Corações Humanos&r: enchem a barra de sangue e são ingrediente de roupas e rituais."
-				"&f4. Construa um &6Moedor de Sangue&r (funil, diamante, ferro, tábuas) sobre uma &6Peneira de Sangue&r, e esta sobre o Recipiente, para extrair sangue de carne."
-				"&f5. Desbloqueie a habilidade de infectar e espalhe &4Sanguinare&r pelo rebanho; encha 16 &4Garrafas de Sangue&r com ele."
-				""
-				"&8O &6Coração Humano&8 é item de facção do Coração do Tier I."
-				"&8O Moedor funciona como funil: puxa itens do inventário acima ou os jogados por cima. O Recipiente aceita tanques de outros sistemas de fluidos."
-				"&8Caçadores curam aldeões vampirizados. Mantenha o rebanho longe das aldeias deles."
-			]
-		}
-		{
-			id: "7A68794BF7EACA21"
-			x: 10.0d
-			y: -1.12d
 			size: 1.25d
-			dependencies: [
-				"40FF1F3A6D96E950"
-			]
 			tasks: [
 				{
-					id: "10F4D655522F4140"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:weapon_table"
+					advancement: "vampirism:vampire/extra_storage"
+					criterion: ""
+					icon: {
+						id: "vampirism:altar_inspiration"
 					}
-					count: 1L
+					id: "5533D53ACB5AFF39"
+					type: "advancement"
 				}
 				{
-					id: "354274BEFE31F40E"
+					id: "5B97ACDD0883CE80"
+					item: { count: 1, id: "vampirism:altar_inspiration" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:basic_crossbow"
-					}
-					count: 1L
 				}
 				{
-					id: "00DFBD6C0893D13A"
+					count: 4L
+					id: "63362515E1C663BD"
+					item: { count: 1, id: "vampirism:human_heart" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:crossbow_arrow_normal"
-					}
+				}
+				{
+					id: "76071E41B3FBC1B2"
+					item: { count: 1, id: "vampirism:blood_grinder" }
+					type: "item"
+				}
+				{
+					id: "6365AF70A2E95D3B"
+					item: { count: 1, id: "vampirism:blood_sieve" }
+					type: "item"
+				}
+				{
 					count: 16L
-				}
-				{
-					id: "360A14A4C4FF7E00"
+					id: "42828133369F1411"
+					item: { count: 1, id: "vampirism:blood_bottle" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:crossbow_arrow_vampire_killer"
-					}
-					count: 6L
-				}
-				{
-					id: "54671929F9B22291"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_hat_head_0"
-					}
-					count: 1L
 				}
 			]
+			x: 10.0d
+			y: -2.72d
+		}
+		{
+			dependencies: ["40FF1F3A6D96E950"]
+			id: "7A68794BF7EACA21"
 			rewards: [
 				{
 					id: "6C3BE34D32C9A08E"
@@ -648,81 +377,50 @@
 				}
 				{
 					id: "1A4C113F54A6B4EC"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r O Arsenal do Caçador"
-			description: [
-				"&7O arco é para elfos. O caçador quer algo que se carrega devagar e não erra."
-				"&7Numa bancada de ferro com um balde de lava preso ao lado nasce todo o arsenal da caçada: bestas, virotes com alho no coração e o chapéu de abas largas que os vampiros reconhecem a cem passos."
-				""
-				"&6Objetivo:&r 1. Construa a &6Mesa de Armas de Caçador&r (balde, ferro, bloco de ferro) e encha-a com um balde de lava. Exige a habilidade correspondente."
-				"&f2. Nela, faça uma &6Besta Básica&r e 16 &6Virotes&r (ferro + vareta, ou converta flechas comuns). Só caçadores usam estas bestas."
-				"&f3. Faça 6 &6Virotes Mata-Vampiro&r (alho, ouro, vareta e pena)."
-				"&f4. Costure um &6Chapéu de Caçador&r (lã preta e ferro)."
-				""
-				"&8Há também o virote Cuspidor de Fogo (fogo alquímico) e o Virote de Teleporte (óleo de teleporte)."
-			]
-		}
-		{
-			id: "197841025ABA682B"
-			x: 10.0d
-			y: 0.48d
 			size: 1.25d
-			dependencies: [
-				"40FF1F3A6D96E950"
-			]
 			tasks: [
 				{
-					id: "7C8A86514AC805AD"
+					id: "10F4D655522F4140"
+					item: { count: 1, id: "vampirism:weapon_table" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:dark_stone_stove"
-					}
-					count: 1L
 				}
 				{
-					id: "0E12C75AD9726BB3"
+					id: "354274BEFE31F40E"
+					item: { count: 1, id: "vampirism:basic_crossbow" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:orchid_petals"
-					}
-					count: 4L
 				}
 				{
-					id: "2DEBA3B785012C75"
+					count: 16L
+					id: "00DFBD6C0893D13A"
+					item: { count: 1, id: "vampirism:crossbow_arrow_normal" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:orchid_tea"
-					}
-					count: 1L
 				}
 				{
-					id: "4E672CE25A4E17BB"
+					count: 6L
+					id: "360A14A4C4FF7E00"
+					item: { count: 1, id: "vampirism:crossbow_arrow_vampire_killer" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:cursed_cupcake"
-					}
-					count: 1L
 				}
 				{
-					id: "312A7C01F9E7EF24"
+					id: "54671929F9B22291"
+					item: { count: 1, id: "vampirism:hunter_hat_head_0" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:weird_jelly"
-					}
-					count: 1L
 				}
 			]
+			x: 10.0d
+			y: -1.12d
+		}
+		{
+			dependencies: ["40FF1F3A6D96E950"]
+			id: "197841025ABA682B"
+			optional: true
 			rewards: [
 				{
 					id: "4CF7E8FD24487E4C"
@@ -731,74 +429,49 @@
 				}
 				{
 					id: "0458A02F69C38313"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&5[Banquete]&r A Cozinha do Castelo"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nas cozinhas dos castelos, até o fogo é escuro. Ali, a orquídea vampírica é cortada em pétalas e servida em chá a convidados humanos que, ao amanhecer, também não suportam mais o sol."
-				"&7Os cozinheiros da noite também fazem doces: um bolinho que tira da boca o gosto de alho e uma geleia que treme no prato e protege a pele do dia."
-				""
-				"&6Objetivo:&r 1. Construa um &6Fogão de Pedra Escura&r (ferro, tijolos de pedra escura e fogueira)."
-				"&f2. Corte uma &5Orquídea Vampírica&r com uma faca na &6Tábua de Corte&r: 4 &6Pétalas&r (e sementes)."
-				"&f3. Na &6Panela de Cozinhar&r, prepare &6Chá de Orquídea&r (leite + 2 pétalas). Humanos que o bebem contraem &4Sanguinare&r."
-				"&f4. Prepare um &6Bolinho Amaldiçoado&r (remove o efeito do alho) e um &6Prato de Geleia Estranha&r (proteção solar temporária)."
-			]
-			optional: true
-		}
-		{
-			id: "5C748E49951F2002"
-			x: 10.0d
-			y: 2.08d
 			size: 1.25d
-			dependencies: [
-				"40FF1F3A6D96E950"
-			]
 			tasks: [
 				{
-					id: "2EFB1BB6DDE2B67C"
+					id: "7C8A86514AC805AD"
+					item: { count: 1, id: "vampiresdelight:dark_stone_stove" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:blood_syrup"
-					}
-					count: 3L
 				}
 				{
-					id: "1D367869E37B604C"
+					count: 4L
+					id: "0E12C75AD9726BB3"
+					item: { count: 1, id: "vampiresdelight:orchid_petals" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:blood_wine_bottle"
-					}
-					count: 1L
 				}
 				{
-					id: "70E838F8CF058EE1"
-					type: "advancement"
-					advancement: "vampiresdelight:main/pour_blood_wine"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "vampiresdelight:blood_syrup"
-					}
+					id: "2DEBA3B785012C75"
+					item: { count: 1, id: "vampiresdelight:orchid_tea" }
+					type: "item"
 				}
 				{
-					id: "3DBFA6A063314D9B"
-					type: "advancement"
-					advancement: "vampiresdelight:main/place_blood_wine_bottle_on_shelf"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "vampiresdelight:blood_syrup"
-					}
+					id: "4E672CE25A4E17BB"
+					item: { count: 1, id: "vampiresdelight:cursed_cupcake" }
+					type: "item"
+				}
+				{
+					id: "312A7C01F9E7EF24"
+					item: { count: 1, id: "vampiresdelight:weird_jelly" }
+					type: "item"
 				}
 			]
+			x: 10.0d
+			y: 0.48d
+		}
+		{
+			dependencies: ["40FF1F3A6D96E950"]
+			id: "5C748E49951F2002"
+			optional: true
 			rewards: [
 				{
 					id: "5CF15EB171554DE9"
@@ -807,146 +480,80 @@
 				}
 				{
 					id: "70695FDF6693742C"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&5[Banquete]&r A Adega do Barão"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Os barões bebem safras mais velhas do que as aldeias que as forneceram."
-				"&7Tudo começa com o xarope: sangue engrossado com frutas, base de toda a confeitaria noturna. Depois de meses na panela, vira um vinho que se serve com as duas mãos e se guarda na prateleira como relíquia."
-				""
-				"&6Objetivo:&r 1. Combine uma garrafa de vidro, uma &6Garrafa de Sangue cheia&r e uma fruta (maçã, bagas, raízes amaldiçoadas): 3 &6Xaropes de Sangue&r."
-				"&f2. Na Panela de Cozinhar, prepare &6Vinho de Sangue&r (3 xaropes, bagas doces e açúcar)."
-				"&f3. Segure a garrafa numa mão e uma garrafa vazia na outra para servir uma taça."
-				"&f4. Coloque uma garrafa de vinho numa &6Prateleira de Vinho&r."
-			]
-			optional: true
-		}
-		{
-			id: "572B7C04F1CBC19C"
-			x: 10.0d
-			y: 3.68d
-			dependencies: [
-				"40FF1F3A6D96E950"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "6CD742D1A84FCC62"
+					count: 3L
+					id: "2EFB1BB6DDE2B67C"
+					item: { count: 1, id: "vampiresdelight:blood_syrup" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_blood_bottle"
+				}
+				{
+					id: "1D367869E37B604C"
+					item: { count: 1, id: "vampiresdelight:blood_wine_bottle" }
+					type: "item"
+				}
+				{
+					advancement: "vampiresdelight:main/pour_blood_wine"
+					criterion: ""
+					icon: {
+						id: "vampiresdelight:blood_syrup"
 					}
+					id: "70E838F8CF058EE1"
+					type: "advancement"
+				}
+				{
+					advancement: "vampiresdelight:main/place_blood_wine_bottle_on_shelf"
+					criterion: ""
+					icon: {
+						id: "vampiresdelight:blood_syrup"
+					}
+					id: "3DBFA6A063314D9B"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 2.08d
+		}
+		{
+			dependencies: ["40FF1F3A6D96E950"]
+			id: "572B7C04F1CBC19C"
+			rewards: [{
+				id: "57E30BCF1A3A9E26"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
 					count: 6L
+					id: "6CD742D1A84FCC62"
+					item: { count: 1, id: "vampirism:vampire_blood_bottle" }
+					type: "item"
 				}
 				{
 					id: "73FFF9520D0C03E3"
+					item: { count: 1, id: "vampirism:hunter_table" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_table"
-					}
-					count: 1L
 				}
 				{
 					id: "19D090409071B917"
+					item: { count: 1, id: "vampirism:hunter_intel_0" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_intel_0"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "57E30BCF1A3A9E26"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "&9[Caçador]&r Provas de Sangue"
-			description: [
-				"&7Os caçadores mais velhos não acreditam em palavras. Querem ver o sangue escuro na garrafa antes de ensinar qualquer coisa."
-				"&7Do segundo ao quarto nível, basta levar provas a um colega de ofício. Dali em diante, matar já não ensina: é preciso entender o que se matou, com tinta, lupa e noites sem sono."
-				"&7A Mesa de Pesquisa transforma presas, sangue e o velho livro em relatórios que o Treinador aceita como lição."
-				""
-				"&6Objetivo:&r 1. Mate vampiros com a estaca e colete 6 &6Garrafas de Sangue de Vampiro&r. Interaja com um &9caçador&r comum para subir aos &9níveis 2 a 4&r."
-				"&f2. Construa a &6Mesa de Pesquisa de Caçador&r (presa, livro, alho e tábuas)."
-				"&f3. Nela, transforme presas, sangue puro e o &6Livro de Vampiro&r em &6Inteligência de Caçador&r e leve ao &9Treinador&r para os níveis 5+."
-				""
-				"&8Os níveis altos exigem a mesa melhorada: ponha ao lado dela a Mesa de Armas, a Mesa de Poções e o Caldeirão Alquímico."
-			]
+			x: 10.0d
+			y: 3.68d
 		}
 		{
+			dependencies: ["40FF1F3A6D96E950"]
 			id: "0DAB96358A574DC2"
-			x: 10.0d
-			y: 5.28d
-			size: 1.25d
-			dependencies: [
-				"40FF1F3A6D96E950"
-			]
-			tasks: [
-				{
-					id: "75BB97C3E197DBF8"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:alchemical_cauldron"
-					}
-					count: 1L
-				}
-				{
-					id: "147042CFAB85D73B"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:pure_salt"
-					}
-					count: 4L
-				}
-				{
-					id: "1CE1E97668B57BEC"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:holy_water_bottle_normal"
-					}
-					count: 3L
-				}
-				{
-					id: "0E4DF3674DA4E4E4"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:purified_garlic"
-					}
-					count: 4L
-				}
-				{
-					id: "02909DDDC307F1D0"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:item_alchemical_fire"
-					}
-					count: 4L
-				}
-				{
-					id: "02A649FE92129B42"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:crucifix_normal"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "719D8F0CFE1077A8"
@@ -955,229 +562,146 @@
 				}
 				{
 					id: "43EDE33F5DA24D40"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r A Alquimia da Caçada"
-			description: [
-				"&7Os caçadores aprenderam com os alquimistas: tudo o que um vampiro teme pode ser destilado."
-				"&7O alho fervido por horas vira sal; o sal na água, abençoado, vira a água benta que faz o vampiro gritar como nenhum outro ferimento. Fervido de novo em água benta, o alho perde a casca e fica só com o que queima."
-				"&7E das mesmas panelas sai um fogo que nunca se apaga e um crucifixo que empurra os mortos para trás como vento contra fumaça."
-				""
-				"&6Objetivo:&r 1. Construa o &6Caldeirão Alquímico&r (ferro, alho, tijolos de pedra). Exige habilidade de alquimia."
-				"&f2. Ferva alho com água por muito tempo: 4 &6Sais Puros&r."
-				"&f3. Misture sal puro na água (&6Água Salgada Pura&r) e abençoe-a sobre um &6Altar de Purificação&r: 3 &6Águas Bentas&r. Com pólvora, vira a versão de arremesso."
-				"&f4. Purifique alho com água benta no caldeirão: 4 &6Alhos Purificados&r."
-				"&f5. Combine pólvora e água benta: 4 &6Fogos Alquímicos&r."
-				"&f6. Faça um &6Crucifixo de Madeira&r (água benta, tábuas, varetas) e segure o botão de usar para repelir mortos-vivos."
-				""
-				"&8Padres caçadores vendem água benta. A de arremesso fere vampiros e anula invisibilidade e disfarce."
+			size: 1.25d
+			tasks: [
+				{
+					id: "75BB97C3E197DBF8"
+					item: { count: 1, id: "vampirism:alchemical_cauldron" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "147042CFAB85D73B"
+					item: { count: 1, id: "vampirism:pure_salt" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1CE1E97668B57BEC"
+					item: { count: 1, id: "vampirism:holy_water_bottle_normal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E4DF3674DA4E4E4"
+					item: { count: 1, id: "vampirism:purified_garlic" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "02909DDDC307F1D0"
+					item: { count: 1, id: "vampirism:item_alchemical_fire" }
+					type: "item"
+				}
+				{
+					id: "02A649FE92129B42"
+					item: { count: 1, id: "vampirism:crucifix_normal" }
+					type: "item"
+				}
 			]
+			x: 10.0d
+			y: 5.28d
 		}
 		{
-			id: "39B72B4ED34A33C2"
-			x: 12.0d
-			y: -5.28d
-			size: 1.25d
 			dependencies: [
 				"4777558829C011E6"
 				"34A1260A5FB16403"
 			]
+			id: "39B72B4ED34A33C2"
+			rewards: [{
+				id: "1CF8BF03E20E0D7C"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "28300ADB77264A62"
+					item: { count: 1, id: "vampirism:altar_infusion" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:altar_infusion"
-					}
-					count: 1L
 				}
 				{
+					count: 4L
 					id: "3AF5D648165F9C76"
+					item: { count: 1, id: "vampirism:altar_pillar" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:altar_pillar"
-					}
-					count: 4L
 				}
 				{
+					count: 4L
 					id: "179C4B56426B997C"
+					item: { count: 1, id: "vampirism:altar_tip" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:altar_tip"
-					}
-					count: 4L
 				}
 				{
-					id: "7892950FDA14658E"
-					type: "advancement"
 					advancement: "vampirism:vampire/blood_cult"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:altar_infusion"
 					}
+					id: "7892950FDA14658E"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "1CF8BF03E20E0D7C"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "&4[Vampiro]&r O Ritual de Infusão"
-			description: [
-				"&7Para além do quarto nível, o sangue sozinho não basta. É preciso pedra, metal e uma noite inteira de ritual."
-				"&7O Altar de Infusão puxa a força de pilares cercados por pontas de metal e a derrama no corpo do vampiro, junto com o sangue dos barões e o saber de um livro antigo."
-				"&7Dez níveis separam o vampiro novo do senhor da noite, e cada um deles passa por este círculo."
-				""
-				"&6Objetivo:&r 1. Coloque o &6Altar de Infusão&r (ouro e obsidiana)."
-				"&f2. Cerque-o com 4 &6Pilares de Altar&r de 2 ou 3 blocos de altura, preenchidos com o mesmo material (tijolos, ferro ou ouro)."
-				"&f3. Ponha uma &6Ponta de Altar&r no topo de cada pilar."
-				"&f4. À noite, insira &6Sangue Puro&r, &6Corações Humanos&r e o &6Livro de Vampiro&r e inicie o ritual para os &4níveis 5 a 14&r."
-				""
-				"&8Os níveis altos exigem pilares de ouro e mais deles. O altar mostra o que falta quando o ritual não começa."
-			]
+			x: 12.0d
+			y: -5.28d
 		}
 		{
-			id: "1BAF8B15C237D1FB"
-			x: 12.0d
-			y: -3.68d
-			size: 1.25d
 			dependencies: [
 				"4777558829C011E6"
 				"34A1260A5FB16403"
 			]
+			id: "1BAF8B15C237D1FB"
+			rewards: [{
+				id: "01BC9E1BFD026429"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "58A432B881CACE41"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:blood_infused_iron_ingot"
-					}
 					count: 3L
+					id: "58A432B881CACE41"
+					item: { count: 1, id: "vampirism:blood_infused_iron_ingot" }
+					type: "item"
 				}
 				{
 					id: "020723351CFEB3AA"
+					item: { count: 1, id: "vampirism:blood_pedestal" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:blood_pedestal"
-					}
-					count: 1L
 				}
 				{
 					id: "3C9F50ECD1636796"
+					item: { count: 1, id: "vampirism:heart_seeker_normal" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:heart_seeker_normal"
-					}
-					count: 1L
 				}
 				{
 					id: "5993D2BC6951288E"
+					item: { count: 1, id: "vampirism:heart_striker_normal" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:heart_striker_normal"
-					}
-					count: 1L
 				}
 				{
 					id: "6C16A1EA5CF3E332"
+					item: { count: 1, id: "vampirism:garlic_finder" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:garlic_finder"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "01BC9E1BFD026429"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "&4[Vampiro]&r Lâminas Sedentas"
-			description: [
-				"&7O ferro comum desliza pela carne. O ferro que bebeu sangue puro a procura."
-				"&7Com ele, os ferreiros da noite forjam duas lâminas: o &6Buscador&7, leve, para quem dança ao redor da vítima, e o &6Golpeador&7, pesado, para quem a encara de frente."
-				"&7Ambas têm sede: sem sangue cortam como pau, e ficam mais rápidas a cada vida que tomam. O mesmo ferro serve para farejar os difusores de alho que os caçadores escondem nas paredes."
-				""
-				"&6Objetivo:&r 1. Combine 3 lingotes de ferro com um &6Sangue Puro&r (níveis 0 a 3) para obter 3 &6Ferros Infundidos em Sangue&r."
-				"&f2. Faça um &6Pedestal de Sangue&r e coloque-o sobre um Recipiente de Sangue: a arma posta nele se carrega de sangue."
-				"&f3. Forje o &6Buscador de Corações&r (ferro infundido, ferro, vareta) e o &6Golpeador de Corações&r (ferro infundido, bloco de ferro, vareta)."
-				"&f4. Faça um &6Detector de Alho&r (ferro infundido, alho, redstone, tábuas) e segure-o na área de um difusor para encontrá-lo."
-			]
+			x: 12.0d
+			y: -3.68d
 		}
 		{
-			id: "0C9FC4628508248A"
-			x: 12.0d
-			y: -2.08d
-			size: 1.25d
 			dependencies: [
 				"4777558829C011E6"
 				"34A1260A5FB16403"
 			]
-			tasks: [
-				{
-					id: "57C8A5667E195693"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_clothing_hat"
-					}
-					count: 1L
-				}
-				{
-					id: "7D84479FB337D3F3"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_cloak_red_black"
-					}
-					count: 1L
-				}
-				{
-					id: "2DD7E37071D0AE94"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:ring"
-					}
-					count: 1L
-				}
-				{
-					id: "4F63520BD5E29552"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:throne"
-					}
-					count: 1L
-				}
-				{
-					id: "05775AC95A95FDC3"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:chandelier"
-					}
-					count: 1L
-				}
-			]
+			id: "0C9FC4628508248A"
+			optional: true
 			rewards: [
 				{
 					id: "54DA5191E11CC989"
@@ -1186,164 +710,122 @@
 				}
 				{
 					id: "0039F1DA1567B1AA"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&4[Vampiro]&r Elegância Eterna"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Armadura pesada é coisa de mortal desesperado. O vampiro tem pele de pedra e gosto refinado."
-				"&7Vermelho por dentro, negro por fora: a capa avisa a todos quem manda depois do crepúsculo. E nenhum covil está completo sem um trono, um lustre e joias antigas que guardam ecos de quem as usou."
-				""
-				"&6Objetivo:&r 1. Costure uma peça de &6Roupa Vampírica&r (lã + coração humano): chapéu, coroa, calças ou botas."
-				"&f2. Faça uma &6Capa Vampírica&r: lã vermelha e preta, diamantes e um &6Sangue Puro&r (há cinco combinações de cores)."
-				"&f3. Encontre um &6Anel&r, &6Amuleto&r ou &6Faixa Obi&r (baús, saques e tarefas do Representante) e equipe-o no menu de facção."
-				"&f4. Decore o salão com um &6Trono&r e um &6Lustre&r (também há candelabros, estantes vampíricas, lápides e gaiolas de morcego)."
-				""
-				"&8Vampiros têm armadura natural (entre ferro e diamante); armadura pesada corta pela metade a velocidade vampírica."
-				"&8Acessórios se danificam quando você morre."
+			size: 1.25d
+			tasks: [
+				{
+					id: "57C8A5667E195693"
+					item: { count: 1, id: "vampirism:vampire_clothing_hat" }
+					type: "item"
+				}
+				{
+					id: "7D84479FB337D3F3"
+					item: { count: 1, id: "vampirism:vampire_cloak_red_black" }
+					type: "item"
+				}
+				{
+					id: "2DD7E37071D0AE94"
+					item: { count: 1, id: "vampirism:ring" }
+					type: "item"
+				}
+				{
+					id: "4F63520BD5E29552"
+					item: { count: 1, id: "vampirism:throne" }
+					type: "item"
+				}
+				{
+					id: "05775AC95A95FDC3"
+					item: { count: 1, id: "vampirism:chandelier" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 12.0d
+			y: -2.08d
 		}
 		{
+			dependencies: ["4777558829C011E6"]
 			id: "696304569808AD8E"
-			x: 12.0d
-			y: -0.48d
-			dependencies: [
-				"4777558829C011E6"
-			]
+			rewards: [{
+				id: "5EBD944812B4726D"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
 					id: "428873B7721D8C5A"
+					item: { count: 1, id: "vampirism:oblivion_potion" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:oblivion_potion"
-					}
-					count: 1L
 				}
 				{
-					id: "62850128F7F60E60"
-					type: "advancement"
 					advancement: "vampirism:vampire/bat"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:oblivion_potion"
 					}
+					id: "62850128F7F60E60"
+					type: "advancement"
 				}
 				{
-					id: "5965DAF49AABDDE6"
-					type: "advancement"
 					advancement: "vampirism:vampire/resurrect"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:oblivion_potion"
 					}
+					id: "5965DAF49AABDDE6"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "5EBD944812B4726D"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "&4[Vampiro]&r Dons da Noite"
-			description: [
-				"&7Cada nível traz um dom. Ninguém recebe todos, e escolher é a primeira lição de quem vive para sempre."
-				"&7Quando a lua sobe, o corpo se desfaz numa nuvem de couro e guinchos. E quando a vida acaba, o vampiro cai, fica imóvel... e levanta."
-				""
-				"&6Objetivo:&r 1. Abra o menu de facção (tecla em Controles), entre na árvore de habilidades e gaste seus pontos. As ações aparecem na roda de ações."
-				"&f2. Tenha uma &6Poção do Esquecimento&r para redistribuir os pontos quando quiser mudar de rumo."
-				"&f3. Desbloqueie a &4Forma de Morcego&r e voe com ela à noite."
-				"&f4. Ao perder toda a vida, você fica &6Caído mas não Vencido&r: espere e escolha ressuscitar. O sangue restante vira vida."
-				""
-				"&8A Poção do Esquecimento aparece em criptas, torres de caçadores e como recompensa do Representante da Facção."
-				"&8Logo depois de ressuscitar você fica fraco: uma estaca ou fogo ainda matam."
-			]
+			x: 12.0d
+			y: -0.48d
 		}
 		{
-			id: "4014C6FE05AD8547"
-			x: 12.0d
-			y: 2.72d
-			size: 1.25d
 			dependencies: [
 				"572B7C04F1CBC19C"
 				"0DAB96358A574DC2"
 			]
+			id: "4014C6FE05AD8547"
+			rewards: [{
+				id: "2227CB0BA7E52067"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "416E69CA4EF386ED"
+					item: { count: 1, id: "vampirism:alchemy_table" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:alchemy_table"
-					}
-					count: 1L
 				}
 				{
 					id: "0E6712990FFC2453"
+					item: { count: 1, id: "vampirism:oil_bottle" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:oil_bottle"
-					}
-					count: 1L
 				}
 				{
 					id: "24D77A1217820771"
+					item: { count: 1, id: "vampirism:potion_table" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:potion_table"
-					}
-					count: 1L
 				}
 				{
-					id: "529245BC0DE86A94"
-					type: "advancement"
 					advancement: "vampirism:hunter/cure_vampire_villager"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:alchemy_table"
 					}
+					id: "529245BC0DE86A94"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "2227CB0BA7E52067"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "&9[Caçador]&r O Boticário da Caçada"
-			description: [
-				"&7Uma lâmina untada leva veneno, lentidão ou força para dentro de cada corte. Um alambique bem cuidado faz poções que o suporte comum só sonha."
-				"&7E nem todo mordido está perdido: alguns aldeões ainda voltam, se o médico for rápido."
-				""
-				"&6Objetivo:&r 1. Construa a &6Mesa de Alquimia&r (basalto e tábuas). Sementes + garrafa dão óleo vegetal; com sangue de vampiro, a base de todos os &6Óleos&r."
-				"&f2. Aplique óleos (força, veneno, lentidão, prata...) nas armas pela grade de criação."
-				"&f3. Construa a &6Mesa de Poções&r (garrafas, tábuas, ferro): com habilidades, faz poções mais longas, mais fortes e exclusivas."
-				"&f4. Cure um &6aldeão vampirizado&r: aplique Fraqueza (água benta de arremesso ou poção) e dê a ele uma &6Maçã Dourada&r."
-			]
+			x: 12.0d
+			y: 2.72d
 		}
 		{
-			id: "0DF4B038AE96B2EA"
-			x: 15.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_2"
-			}
 			dependencies: [
 				"39B72B4ED34A33C2"
 				"1BAF8B15C237D1FB"
@@ -1351,141 +833,48 @@
 				"696304569808AD8E"
 				"4014C6FE05AD8547"
 			]
-			tasks: [
-				{
-					id: "22EDE5423BBD5F39"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_2"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II&7 - Sangue Puro"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "0DF4B038AE96B2EA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_2"
+				}
+				id: "22EDE5423BBD5F39"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 0.0d
 		}
 		{
-			id: "34972E67FF805C4B"
-			x: 17.0d
-			y: 0.0d
+			dependencies: ["0DF4B038AE96B2EA"]
 			icon: {
-				count: 1
 				id: "vampirism:mother_core"
 			}
-			dependencies: [
-				"0DF4B038AE96B2EA"
-			]
-			tasks: [
-				{
-					id: "223B51F6FF07A930"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:mother_core"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "587644D22523588D"
-					type: "xp"
-					xp: 80
-				}
-			]
-			title: "Os Restos Ancestrais"
-			description: [
-				"&7No coração de algumas florestas vampíricas pulsa algo mais velho que qualquer barão: raízes, cristais e uma fome sem rosto."
-				"&7Dizem que dela vem todo o poder vampírico daquela terra. Vampiros a chamam de Mãe; caçadores, de raiz do mal; os lobisomens, de presente."
-				"&7Quem a derruba carrega para casa o núcleo que ainda pulsa, e o mundo à volta muda de dono."
-				""
-				"&6Objetivo:&r 1. Encontre os &cRestos Ancestrais&r numa Floresta Vampírica (raízes enormes e cristais no chão)."
-				"&f2. Destrua os &6Cristais Antigos&r e ataque os restos vulneráveis até o núcleo cair. Ficar perto demais dos restos fere."
-				"&f3. Recolha o &6Núcleo da Mãe&r (e o Troféu Antigo)."
-				""
-				"&8Os restos também deixam Sangue Puro de nível alto e Almas de Vampiro."
-			]
+			id: "34972E67FF805C4B"
+			rewards: [{
+				id: "587644D22523588D"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "223B51F6FF07A930"
+				item: { count: 1, id: "vampirism:mother_core" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["0DF4B038AE96B2EA"]
 			id: "1031BB556ECCBEE1"
-			x: 17.0d
-			y: 1.6d
-			size: 1.25d
-			dependencies: [
-				"0DF4B038AE96B2EA"
-			]
-			tasks: [
-				{
-					id: "6E7242DE5FF4809C"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_head_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "7AD1E5EBFCD9E888"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_chest_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "2C23A6C3D5995189"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_legs_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "47BF8B56B75AA273"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_feet_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "04D60E9CD0CC0850"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:armor_of_swiftness_chest_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "1FB0A19D76DB0BF7"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_axe_normal"
-					}
-					count: 1L
-				}
-				{
-					id: "0FED37CA5FA57C7D"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:basic_double_crossbow"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "618C5EA859D19D29"
@@ -1494,207 +883,127 @@
 				}
 				{
 					id: "40B9BE567A5B9920"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r O Caçador Couraçado"
-			description: [
-				"&7Couro forrado de alho esconde o calor do corpo dos olhos que enxergam sangue. Couro leve costurado com poções de velocidade serve ao caçador que corre atrás, e não à frente."
-				"&7Nas mãos, dois arcos sobrepostos e um machado de lâmina larga com alho batido no aço, feito para pescoços que se recusam a morrer."
-				""
-				"&6Objetivo:&r Tudo na &6Mesa de Armas&r:"
-				"&f1. O &6Casaco de Caçador&r completo, 4 peças (ferro e alho). Completo, oculta você da visão de sangue e protege contra o Congelar."
-				"&f2. Um peitoral da &6Armadura da Rapidez&r (couro, ferro e poções de Velocidade)."
-				"&f3. O &6Machado de Caçador&r (bloco de ferro, ferro, alho, varetas)."
-				"&f4. A &6Besta Dupla&r (com a habilidade): dois virotes por disparo."
-				""
-				"&8As versões melhores da Armadura da Rapidez usam poções mais fortes e dão salto extra."
-			]
-		}
-		{
-			id: "415E82F904596686"
-			x: 19.0d
-			y: -1.6d
-			dependencies: [
-				"34972E67FF805C4B"
-			]
-			icon: {
-				count: 1
-				id: "vampirism:pure_blood_0"
-			}
+			size: 1.25d
 			tasks: [
 				{
-					id: "3E15B0B577D09A42"
-					type: "advancement"
+					id: "6E7242DE5FF4809C"
+					item: { count: 1, id: "vampirism:hunter_coat_head_normal" }
+					type: "item"
+				}
+				{
+					id: "7AD1E5EBFCD9E888"
+					item: { count: 1, id: "vampirism:hunter_coat_chest_normal" }
+					type: "item"
+				}
+				{
+					id: "2C23A6C3D5995189"
+					item: { count: 1, id: "vampirism:hunter_coat_legs_normal" }
+					type: "item"
+				}
+				{
+					id: "47BF8B56B75AA273"
+					item: { count: 1, id: "vampirism:hunter_coat_feet_normal" }
+					type: "item"
+				}
+				{
+					id: "04D60E9CD0CC0850"
+					item: { count: 1, id: "vampirism:armor_of_swiftness_chest_normal" }
+					type: "item"
+				}
+				{
+					id: "1FB0A19D76DB0BF7"
+					item: { count: 1, id: "vampirism:hunter_axe_normal" }
+					type: "item"
+				}
+				{
+					id: "0FED37CA5FA57C7D"
+					item: { count: 1, id: "vampirism:basic_double_crossbow" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["34972E67FF805C4B"]
+			icon: {
+				id: "vampirism:pure_blood_0"
+			}
+			id: "415E82F904596686"
+			rewards: [{
+				id: "4EA014CE07E4E039"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [
+				{
 					advancement: "vampirism:vampire/kill_mother"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:pure_blood_0"
 					}
+					id: "3E15B0B577D09A42"
+					type: "advancement"
 				}
 				{
-					id: "1137E2A596E7FD70"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:pure_blood_0"
-					}
 					count: 2L
+					id: "1137E2A596E7FD70"
+					item: { count: 1, id: "vampirism:pure_blood_0" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "4EA014CE07E4E039"
-					type: "xp"
-					xp: 160
-				}
-			]
-			title: "&4[Vampiro]&r O Sangue dos Antigos"
-			description: [
-				"&7O sangue dos barões é tão antigo que já não coagula. Em gotas, vale mais que ouro, e a forja do Coração aceita pagamento nele."
-				"&7Um vampiro que mata a mãe da própria linhagem ninguém sabe se cometeu traição ou ascensão, mas os frascos que ela deixa respondem por ele."
-				""
-				"&6Objetivo:&r 1. Derrote os &cRestos Ancestrais&r sendo vampiro."
-				"&f2. Junte 2 &6Sangues Puros&r de Barões Vampiros e da Mãe (o nível do sangue acompanha o do inimigo)."
-				""
-				"&8O &6Sangue Puro&8 é o item de facção vampírico do &6Coração do Tier II&8."
-			]
+			x: 19.0d
+			y: -1.6d
 		}
 		{
-			id: "18F422D54E37240F"
-			x: 19.0d
-			y: -0.0d
-			dependencies: [
-				"34972E67FF805C4B"
-			]
+			dependencies: ["34972E67FF805C4B"]
 			icon: {
-				count: 1
 				id: "vampirism:hunter_intel_1"
 			}
+			id: "18F422D54E37240F"
+			rewards: [{
+				id: "552B4B2D6D299348"
+				type: "xp"
+				xp: 240
+			}]
 			tasks: [
 				{
-					id: "452EB5F74D6BA720"
-					type: "advancement"
 					advancement: "vampirism:hunter/kill_mother"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:hunter_intel_1"
 					}
+					id: "452EB5F74D6BA720"
+					type: "advancement"
 				}
 				{
 					id: "69288956BDF06249"
+					item: { count: 1, id: "vampirism:hunter_intel_1" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_intel_1"
-					}
-					count: 1L
 				}
 				{
 					id: "5B13A8D20C34F5E3"
+					item: { count: 1, id: "vampirism:garlic_diffuser_normal" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:garlic_diffuser_normal"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "552B4B2D6D299348"
-					type: "xp"
-					xp: 240
-				}
-			]
-			title: "&9[Caçador]&r O Dossiê da Linhagem"
-			description: [
-				"&7Arrancar a raiz é mais eficaz do que podar galhos para sempre. Depois da Mãe, o segundo relatório já não fala de presas e garrafas, mas de hierarquias e linhagens."
-				"&7E com o que se aprende, protegem-se as aldeias: uma caixa de obsidiana que sopra alho no ar dia e noite, onde nenhum vampiro surge nem fica à vontade."
-				""
-				"&6Objetivo:&r 1. Derrote os &cRestos Ancestrais&r sendo caçador."
-				"&f2. Produza &6Inteligência de Caçador&r de nível 2 na Mesa de Pesquisa."
-				"&f3. No Caldeirão, faça um &6Núcleo de Difusor de Alho&r (lã + alho) e monte o &6Difusor de Alho&r (tábuas, diamantes, obsidiana)."
-				""
-				"&8A &6Inteligência de Caçador&8 nível 2 é o item de facção dos caçadores no &6Coração do Tier II&8."
-				"&8Clique no difusor com alho purificado para um reforço temporário."
-			]
+			x: 19.0d
+			y: 0.0d
 		}
 		{
-			id: "43D4D6A9663D8BEC"
-			x: 19.0d
-			y: 1.6d
-			size: 1.25d
-			dependencies: [
-				"34972E67FF805C4B"
-			]
+			dependencies: ["34972E67FF805C4B"]
 			icon: {
-				count: 1
 				id: "vampirism:soul_orb_vampire"
 			}
-			tasks: [
-				{
-					id: "5D338D485F436556"
-					type: "advancement"
-					advancement: "vampirism:hunter/kill_resurrected_vampire"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "vampirism:soul_orb_vampire"
-					}
-				}
-				{
-					id: "657365419A4839CC"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:soul_orb_vampire"
-					}
-					count: 1L
-				}
-				{
-					id: "3C1420D2BDD654D9"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampiricageing:blood_tester"
-					}
-					count: 1L
-				}
-				{
-					id: "54EB3351CB9CFA71"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:spirit_lantern"
-					}
-					count: 1L
-				}
-				{
-					id: "5B7D53E1284A0993"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampiresdelight:alchemical_cocktail"
-					}
-					count: 1L
-				}
-				{
-					id: "4687C581CFD3A72D"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_beacon"
-					}
-					count: 1L
-				}
-			]
+			id: "43D4D6A9663D8BEC"
+			optional: true
 			rewards: [
 				{
 					id: "0B378CF74CECDB12"
@@ -1703,197 +1012,126 @@
 				}
 				{
 					id: "008BD7CD8D264CA8"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r Colheita de Almas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Um vampiro caído ainda respira veneno. É ali, no chão, logo depois de ele se levantar, que o caçador termina o serviço, e a alma escura que escapa vale ouro."
-				"&7Presas em ouro, as almas brilham pela névoa como faróis frios; numa garrafa com fogo eterno, viram granada. Encerradas com o núcleo da Mãe em vidro e obsidiana, pagam o favor de um farol antigo."
-				"&7Os sábios da caça ainda medem a idade de cada vampiro: eles envelhecem como vinho, mais fortes a cada década."
-				""
-				"&6Objetivo:&r 1. Mate um vampiro que acabou de ressuscitar do estado &6Caído mas não Vencido&r e recolha uma &6Alma de Vampiro&r."
-				"&f2. Faça um &6Testador de Sangue&r (seringa, sangue de vampiro, redstone) e ataque um vampiro com ele para ver a &6Idade&r (0 a 5)."
-				"&f3. Na Mesa de Armas: &6Lanterna Espiritual&r (pepitas de ouro e almas) e &6Coquetel Alquímico&r (garrafa + 2 fogos alquímicos)."
-				"&f4. Construa o &6Farol Antigo&r (vidro, obsidiana e o Núcleo da Mãe): um sinalizador pago com Almas de Vampiro."
-				""
-				"&8A Lanterna Espiritual deixa ver mais longe na névoa. O Núcleo da Mãe também entra no Difusor de Névoa."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "vampirism:hunter/kill_resurrected_vampire"
+					criterion: ""
+					icon: {
+						id: "vampirism:soul_orb_vampire"
+					}
+					id: "5D338D485F436556"
+					type: "advancement"
+				}
+				{
+					id: "657365419A4839CC"
+					item: { count: 1, id: "vampirism:soul_orb_vampire" }
+					type: "item"
+				}
+				{
+					id: "3C1420D2BDD654D9"
+					item: { count: 1, id: "vampiricageing:blood_tester" }
+					type: "item"
+				}
+				{
+					id: "54EB3351CB9CFA71"
+					item: { count: 1, id: "vampiresdelight:spirit_lantern" }
+					type: "item"
+				}
+				{
+					id: "5B7D53E1284A0993"
+					item: { count: 1, id: "vampiresdelight:alchemical_cocktail" }
+					type: "item"
+				}
+				{
+					id: "4687C581CFD3A72D"
+					item: { count: 1, id: "vampirism:vampire_beacon" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 19.0d
+			y: 1.6d
 		}
 		{
-			id: "37DFC3745A6DB22E"
-			x: 22.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_3"
-			}
 			dependencies: [
 				"415E82F904596686"
 				"18F422D54E37240F"
 				"43D4D6A9663D8BEC"
 			]
-			tasks: [
-				{
-					id: "457C6C1D6AF9D107"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_3"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III&7 - Linhagens e Lordes"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "37DFC3745A6DB22E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_3"
+				}
+				id: "457C6C1D6AF9D107"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["37DFC3745A6DB22E"]
 			id: "2B6370FEC1A8426B"
-			x: 24.0d
-			y: -2.4d
+			rewards: [{
+				id: "74AF2D8963A16630"
+				type: "xp"
+				xp: 550
+			}]
 			size: 1.25d
-			dependencies: [
-				"37DFC3745A6DB22E"
-			]
 			tasks: [
 				{
 					id: "5ADA1885BEDD2DF0"
+					item: { count: 1, id: "vampirism:pure_blood_2" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:pure_blood_2"
-					}
-					count: 1L
 				}
 				{
-					id: "4528FF7E259745EF"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:blood_infused_enhanced_iron_ingot"
-					}
 					count: 3L
+					id: "4528FF7E259745EF"
+					item: { count: 1, id: "vampirism:blood_infused_enhanced_iron_ingot" }
+					type: "item"
 				}
 				{
 					id: "120206F2C463CE53"
+					item: { count: 1, id: "vampirism:heart_seeker_enhanced" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:heart_seeker_enhanced"
-					}
-					count: 1L
 				}
 				{
 					id: "4B628AB1BC415BE5"
+					item: { count: 1, id: "vampirism:heart_striker_enhanced" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:heart_striker_enhanced"
-					}
-					count: 1L
 				}
 				{
-					id: "7D84A093CF313C83"
-					type: "advancement"
 					advancement: "vampirism:vampire/max_level"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:pure_blood_2"
 					}
+					id: "7D84A093CF313C83"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "74AF2D8963A16630"
-					type: "xp"
-					xp: 550
-				}
-			]
-			title: "&4[Vampiro]&r Sangue de Linhagem"
-			description: [
-				"&7Barões mais velhos guardam sangue mais denso; o terceiro grau já queima a garganta de quem o prova."
-				"&7Com ele, o ferro lembra a veia de onde veio, e as lâminas encontram o coração antes de o braço decidir."
-				"&7No décimo quarto nível, o vampiro não teme quase nada. Só o sol, o alho... e o tédio."
-				""
-				"&6Objetivo:&r 1. Obtenha &6Sangue Puro de nível 3&r de barões fortes."
-				"&f2. Combine 3 lingotes de ferro com &6Sangue Puro de nível 5&r: 3 &6Ferros Infundidos Aprimorados&r."
-				"&f3. Forje o &6Buscador de Corações Aprimorado&r (ferro infundido comum e aprimorado) e o &6Golpeador Aprimorado&r (ferro aprimorado e seu bloco)."
-				"&f4. Alcance o &4nível máximo&r de vampiro com rituais no Altar de Infusão."
-				""
-				"&8O &6Sangue Puro nível 3&8 é o item de facção vampírico do &6Coração do Tier III&8."
-			]
+			x: 24.0d
+			y: -2.4d
 		}
 		{
+			dependencies: ["37DFC3745A6DB22E"]
 			id: "4A648D111EDAD462"
-			x: 24.0d
-			y: -0.8d
-			size: 1.25d
-			dependencies: [
-				"37DFC3745A6DB22E"
-			]
-			tasks: [
-				{
-					id: "42F12C17A2E701BD"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:basic_tech_crossbow"
-					}
-					count: 1L
-				}
-				{
-					id: "2EA2EE49205FD6AE"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:tech_crossbow_ammo_package"
-					}
-					count: 1L
-				}
-				{
-					id: "70373B1AF30D2D12"
-					type: "advancement"
-					advancement: "vampirism:hunter/technology"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "vampirism:basic_tech_crossbow"
-					}
-				}
-				{
-					id: "70C1412EF5082A82"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:enhanced_crossbow"
-					}
-					count: 1L
-				}
-				{
-					id: "05CA2110E9B2B399"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:enhanced_double_crossbow"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "0FD1308A9A9A16A3"
@@ -1902,77 +1140,51 @@
 				}
 				{
 					id: "0FCCEBAE774FAA95"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r Tecnologia Moderna"
-			description: [
-				"&7Engrenagens, molas e um pente de virotes. Os relojoeiros de vapor de Heartforge ensinaram aos caçadores a disparar sem parar."
-				"&7Mais ferro, mais tensão, mais alcance: as bestas aprimoradas atravessam o que as antigas só arranhavam."
-				""
-				"&6Objetivo:&r 1. Com a habilidade de armas técnicas, faça a &6Besta Semiautomática&r e &6Pentes de Virotes&r na Mesa de Armas."
-				"&f2. Com a habilidade de armas aprimoradas, faça a &6Besta Aprimorada&r e a &6Besta Dupla Aprimorada&r."
-			]
-		}
-		{
-			id: "40AFA827B348878A"
-			x: 24.0d
-			y: 0.8d
 			size: 1.25d
-			dependencies: [
-				"37DFC3745A6DB22E"
-			]
 			tasks: [
 				{
-					id: "55F255D27799973D"
+					id: "42F12C17A2E701BD"
+					item: { count: 1, id: "vampirism:basic_tech_crossbow" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_axe_enhanced"
-					}
-					count: 1L
 				}
 				{
-					id: "4F0DCF2EF1B88922"
+					id: "2EA2EE49205FD6AE"
+					item: { count: 1, id: "vampirism:tech_crossbow_ammo_package" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_head_enhanced"
-					}
-					count: 1L
 				}
 				{
-					id: "7A6548E8ABBB42D4"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_chest_enhanced"
+					advancement: "vampirism:hunter/technology"
+					criterion: ""
+					icon: {
+						id: "vampirism:basic_tech_crossbow"
 					}
-					count: 1L
+					id: "70373B1AF30D2D12"
+					type: "advancement"
 				}
 				{
-					id: "7D70FB6EA7E1A379"
+					id: "70C1412EF5082A82"
+					item: { count: 1, id: "vampirism:enhanced_crossbow" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_legs_enhanced"
-					}
-					count: 1L
 				}
 				{
-					id: "4DF742F30725E190"
+					id: "05CA2110E9B2B399"
+					item: { count: 1, id: "vampirism:enhanced_double_crossbow" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_feet_enhanced"
-					}
-					count: 1L
 				}
 			]
+			x: 24.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["37DFC3745A6DB22E"]
+			id: "40AFA827B348878A"
 			rewards: [
 				{
 					id: "71C8F51108C0B3A8"
@@ -1981,285 +1193,188 @@
 				}
 				{
 					id: "26976849283FA2A7"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r Diamante e Sal"
-			description: [
-				"&7Diamante e alho purificado no fio: nem pele de barão aguenta. Forro de sal puro e botões de ouro no casaco: o caçador fica quase invisível aos olhos da noite."
-				""
-				"&6Objetivo:&r 1. Forje o &6Machado de Caçador Aprimorado&r (bloco de diamante, diamantes, alho purificado)."
-				"&f2. Faça o &6Casaco de Caçador Aprimorado&r completo, 4 peças (ferro, ouro e sal puro). Completo, melhora o disfarce e dá saque extra."
+			size: 1.25d
+			tasks: [
+				{
+					id: "55F255D27799973D"
+					item: { count: 1, id: "vampirism:hunter_axe_enhanced" }
+					type: "item"
+				}
+				{
+					id: "4F0DCF2EF1B88922"
+					item: { count: 1, id: "vampirism:hunter_coat_head_enhanced" }
+					type: "item"
+				}
+				{
+					id: "7A6548E8ABBB42D4"
+					item: { count: 1, id: "vampirism:hunter_coat_chest_enhanced" }
+					type: "item"
+				}
+				{
+					id: "7D70FB6EA7E1A379"
+					item: { count: 1, id: "vampirism:hunter_coat_legs_enhanced" }
+					type: "item"
+				}
+				{
+					id: "4DF742F30725E190"
+					item: { count: 1, id: "vampirism:hunter_coat_feet_enhanced" }
+					type: "item"
+				}
 			]
+			x: 24.0d
+			y: 0.8d
 		}
 		{
+			dependencies: ["37DFC3745A6DB22E"]
 			id: "62B7D292576E0C2B"
-			x: 24.0d
-			y: 2.4d
-			dependencies: [
-				"37DFC3745A6DB22E"
-			]
+			rewards: [{
+				id: "50909946ED25D2F5"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "2E18C397CC7D71A1"
+					item: { count: 1, id: "vampirism:hunter_intel_4" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_intel_4"
-					}
-					count: 1L
 				}
 				{
-					id: "23926BFD372F4BF7"
-					type: "advancement"
 					advancement: "vampirism:hunter/max_level"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:hunter_intel_4"
 					}
+					id: "23926BFD372F4BF7"
+					type: "advancement"
 				}
 				{
 					id: "089E47489A66A53C"
+					item: { count: 1, id: "vampirism:garlic_diffuser_improved" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:garlic_diffuser_improved"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "50909946ED25D2F5"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "&9[Caçador]&r O Dossiê Completo"
-			description: [
-				"&7A essa altura, o caçador sabe mais da fisiologia vampírica do que os próprios vampiros. O Treinador já não tem o que ensinar: agora é o caçador quem dá aula."
-				"&7O núcleo do difusor, banhado em água benta forte, passa a cobrir uma aldeia inteira."
-				""
-				"&6Objetivo:&r 1. Produza &6Inteligência de Caçador&r de nível 5 (exige a mesa de pesquisa melhorada)."
-				"&f2. Alcance o &9nível máximo&r de caçador treinando com o Treinador."
-				"&f3. Banhe o núcleo do difusor em &6Água Benta Suprema&r no Caldeirão e monte o &6Difusor de Alho Aprimorado&r."
-				""
-				"&8A &6Inteligência de Caçador&8 nível 5 é o item de facção dos caçadores no &6Coração do Tier III&8."
-			]
+			x: 24.0d
+			y: 2.4d
 		}
 		{
+			dependencies: ["2B6370FEC1A8426B"]
 			id: "5D9615D12D75EA10"
-			x: 26.0d
-			y: -2.4d
+			rewards: [{
+				id: "7C1C290FBDFF1B2E"
+				type: "xp"
+				xp: 440
+			}]
 			size: 1.25d
-			dependencies: [
-				"2B6370FEC1A8426B"
-			]
 			tasks: [
 				{
 					id: "2AD15691687A2BCE"
+					item: { count: 1, id: "vampirism:totem_base" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:totem_base"
-					}
-					count: 1L
 				}
 				{
-					id: "21E585C56DDE9AE6"
-					type: "advancement"
 					advancement: "vampirism:minion/become_lord"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:totem_base"
 					}
+					id: "21E585C56DDE9AE6"
+					type: "advancement"
 				}
 				{
 					id: "3D6EA3F0F0D8BD9D"
+					item: { count: 1, id: "vampirism:vampire_minion_binding" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:vampire_minion_binding"
-					}
-					count: 1L
 				}
 				{
-					id: "04A22E44E2469931"
-					type: "advancement"
 					advancement: "vampirism:minion/collect_blood"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:totem_base"
 					}
+					id: "04A22E44E2469931"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "7C1C290FBDFF1B2E"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "&4[Vampiro]&r Lorde da Noite"
-			description: [
-				"&7No topo da hierarquia, já não basta lutar: é hora de ter quem lute por você. Algumas aldeias erguem um totem na praça, e a cor da chama diz a quem pagam tributo."
-				"&7Domine uma, cumpra a tarefa do Representante e receba o título. Depois, um vampiro jovem, de olhos baixos, aceita o vínculo: a partir de hoje, ele bebe por você."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Base de Totem&r (tábuas, obsidiana, ferro) ou ache um totem numa aldeia. Fique perto dele para iniciar a captura e derrote os defensores."
-				"&f2. Com nível máximo, aceite a tarefa especial do &6Representante da Facção&r da aldeia e conclua-a para virar &6Lorde&r."
-				"&f3. Use um &6Vínculo de Lacaio Vampiro&r (recompensa do Representante) num vampiro fraco para torná-lo seu lacaio."
-				"&f4. Mande o lacaio coletar sangue. Ele também guarda áreas ou protege você; &6Melhorias de Lacaio&r aumentam o nível dele."
-				""
-				"&8Matar NPCs de facção com estandarte nas costas dá Mau Presságio, que dispara invasões ao entrar numa aldeia."
-				"&8Aldeias dominadas dão trocas exclusivas; vale capturá-las bem antes de virar lorde."
-			]
+			x: 26.0d
+			y: -2.4d
 		}
 		{
+			dependencies: ["62B7D292576E0C2B"]
 			id: "00989E0EBBF7BC05"
-			x: 26.0d
-			y: 2.4d
+			rewards: [{
+				id: "1650E8C578CA7289"
+				type: "xp"
+				xp: 440
+			}]
 			size: 1.25d
-			dependencies: [
-				"62B7D292576E0C2B"
-			]
 			tasks: [
 				{
 					id: "504D863A92D257CE"
+					item: { count: 1, id: "vampirism:totem_base" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:totem_base"
-					}
-					count: 1L
 				}
 				{
-					id: "3C788D53076BEE2B"
-					type: "advancement"
 					advancement: "vampirism:minion/become_lord"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:totem_base"
 					}
+					id: "3C788D53076BEE2B"
+					type: "advancement"
 				}
 				{
 					id: "3330537EEFE90D6E"
+					item: { count: 1, id: "vampirism:hunter_minion_equipment" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_minion_equipment"
-					}
-					count: 1L
 				}
 				{
-					id: "47FCD62A44B54861"
-					type: "advancement"
 					advancement: "vampirism:minion/collect_hunter_items"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "vampirism:totem_base"
 					}
+					id: "47FCD62A44B54861"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "1650E8C578CA7289"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "&9[Caçador]&r Capitão da Caçada"
-			description: [
-				"&7Um caçador jovem, bem equipado, segue melhor do que dez voluntários com tochas. Mas só um capitão reconhecido pela aldeia pode recrutá-lo."
-				"&7Tome a praça, erga o totem com a chama dos caçadores e mostre ao Representante que a caçada tem dono."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Base de Totem&r (tábuas, obsidiana, ferro) ou ache um totem numa aldeia. Fique perto dele para iniciar a captura e derrote os defensores."
-				"&f2. Com nível máximo, aceite a tarefa especial do &6Representante da Facção&r e conclua-a para virar &6Lorde&r."
-				"&f3. Use o &6Equipamento de Lacaio Caçador&r (recompensa do Representante) num caçador comum para recrutá-lo."
-				"&f4. Mande-o coletar itens de caçador. Ele também guarda áreas ou protege você."
-				""
-				"&8Matar NPCs de facção com estandarte nas costas dá Mau Presságio, que dispara invasões ao entrar numa aldeia."
-			]
+			x: 26.0d
+			y: 2.4d
 		}
 		{
-			id: "56B355942F67E66D"
-			x: 29.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_4"
-			}
 			dependencies: [
 				"5D9615D12D75EA10"
 				"00989E0EBBF7BC05"
 			]
-			tasks: [
-				{
-					id: "7B3E302BA5C7E5B6"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_4"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV&7 - Os Senhores da Noite"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "56B355942F67E66D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_4"
+				}
+				id: "7B3E302BA5C7E5B6"
+				type: "advancement"
+			}]
+			x: 29.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["56B355942F67E66D"]
 			id: "34E06C5191F110B7"
-			x: 31.0d
-			y: -0.8d
-			dependencies: [
-				"56B355942F67E66D"
-			]
-			tasks: [
-				{
-					id: "372D250BBE3C68CF"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:heart_seeker_ultimate"
-					}
-					count: 1L
-				}
-				{
-					id: "095B9AD1DA016F3C"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:heart_striker_ultimate"
-					}
-					count: 1L
-				}
-				{
-					id: "6DEF64EC50DEC07A"
-					type: "advancement"
-					advancement: "vampirism:vampire/max_lord"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "vampirism:heart_seeker_ultimate"
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "51F59A764DB98A95"
@@ -2268,87 +1383,40 @@
 				}
 				{
 					id: "787DC3B9BBBCA2E3"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
-			]
-			title: "&4[Vampiro]&r Renascimento Sombrio"
-			description: [
-				"&7Conde, duque, príncipe... e enfim o título que nenhuma língua viva pronuncia sem tremer."
-				"&7Para ele, os ferreiros da noite reservam lâminas de diamante e sangue antigo, que dizem ter sido forjadas para matar outros vampiros."
-				""
-				"&6Objetivo:&r 1. Forje o &6Buscador de Corações Supremo&r (diamantes) e o &6Golpeador Supremo&r (bloco de diamante), ambos com ferro infundido aprimorado."
-				"&f2. Alcance o &4nível máximo de Lorde Vampiro&r completando as tarefas de lorde do Representante."
-			]
-		}
-		{
-			id: "66EC12370C4C7E9F"
-			x: 31.0d
-			y: 0.8d
-			size: 1.25d
-			dependencies: [
-				"56B355942F67E66D"
 			]
 			tasks: [
 				{
-					id: "685B92BD9FAA71E1"
+					id: "372D250BBE3C68CF"
+					item: { count: 1, id: "vampirism:heart_seeker_ultimate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_axe_ultimate"
-					}
-					count: 1L
 				}
 				{
-					id: "15F040CEB1101F48"
+					id: "095B9AD1DA016F3C"
+					item: { count: 1, id: "vampirism:heart_striker_ultimate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_head_ultimate"
-					}
-					count: 1L
 				}
 				{
-					id: "2C5F051EBF292322"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_chest_ultimate"
-					}
-					count: 1L
-				}
-				{
-					id: "6B3D5B34367A06A3"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_legs_ultimate"
-					}
-					count: 1L
-				}
-				{
-					id: "50A7CE0764920A2C"
-					type: "item"
-					item: {
-						count: 1
-						id: "vampirism:hunter_coat_feet_ultimate"
-					}
-					count: 1L
-				}
-				{
-					id: "0FCDF320F62928EE"
-					type: "advancement"
-					advancement: "vampirism:hunter/max_lord"
+					advancement: "vampirism:vampire/max_lord"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "vampirism:hunter_axe_ultimate"
+						id: "vampirism:heart_seeker_ultimate"
 					}
+					id: "6DEF64EC50DEC07A"
+					type: "advancement"
 				}
 			]
+			x: 31.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["56B355942F67E66D"]
+			id: "66EC12370C4C7E9F"
 			rewards: [
 				{
 					id: "1FD4034035EBE944"
@@ -2357,26 +1425,52 @@
 				}
 				{
 					id: "607D79845B9CD475"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "&9[Caçador]&r O Caçador dos Caçadores"
-			description: [
-				"&7Diamante puro no fio do machado e costurado no couro, alho purificado no forro. Nenhum vampiro pede misericórdia duas vezes."
-				"&7Os outros caçadores tiram o chapéu quando você passa. Os vampiros trancam as portas."
-				""
-				"&6Objetivo:&r 1. Forje o &6Machado de Caçador Supremo&r na Mesa de Armas."
-				"&f2. Faça o &6Casaco de Caçador Supremo&r completo, 4 peças (diamantes e alho purificado)."
-				"&f3. Alcance o &9nível máximo de Lorde Caçador&r completando as tarefas de lorde do Representante."
+			size: 1.25d
+			tasks: [
+				{
+					id: "685B92BD9FAA71E1"
+					item: { count: 1, id: "vampirism:hunter_axe_ultimate" }
+					type: "item"
+				}
+				{
+					id: "15F040CEB1101F48"
+					item: { count: 1, id: "vampirism:hunter_coat_head_ultimate" }
+					type: "item"
+				}
+				{
+					id: "2C5F051EBF292322"
+					item: { count: 1, id: "vampirism:hunter_coat_chest_ultimate" }
+					type: "item"
+				}
+				{
+					id: "6B3D5B34367A06A3"
+					item: { count: 1, id: "vampirism:hunter_coat_legs_ultimate" }
+					type: "item"
+				}
+				{
+					id: "50A7CE0764920A2C"
+					item: { count: 1, id: "vampirism:hunter_coat_feet_ultimate" }
+					type: "item"
+				}
+				{
+					advancement: "vampirism:hunter/max_lord"
+					criterion: ""
+					icon: {
+						id: "vampirism:hunter_axe_ultimate"
+					}
+					id: "0FCDF320F62928EE"
+					type: "advancement"
+				}
 			]
+			x: 31.0d
+			y: 0.8d
 		}
-	]
-	title: "&4Vampiros e Caçadores"
-	subtitle: [
-		"Sangue, alho e estacas"
 	]
 }
