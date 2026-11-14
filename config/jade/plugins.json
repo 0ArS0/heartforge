@@ -128,6 +128,11 @@
     "functional_flower": true,
     "mana_bar_color": "#0095FF"
   },
+  "toms_storage": {
+    "inventory_hopper": true,
+    "inventory_config": true,
+    "inventory_connector": true
+  },
   "quark": {
     "oretoise_eating_cooldown": true
   },

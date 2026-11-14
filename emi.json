@@ -1,16 +1,90 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:comamigos_balance:leather_satchel"
+    },
+    {
+      "stack": "item:toms_storage:inventory_connector"
+    },
+    {
+      "stack": "item:toms_storage:storage_terminal"
+    },
+    {
+      "stack": "item:toms_storage:crafting_terminal"
+    },
+    {
+      "stack": "item:toms_storage:open_crate"
+    },
+    {
+      "stack": "item:toms_storage:trim"
+    },
+    {
+      "stack": "item:toms_storage:inventory_cable"
+    },
+    {
+      "stack": "item:toms_storage:inventory_cable_framed"
+    },
+    {
+      "stack": "item:toms_storage:inventory_interface"
+    },
+    {
+      "stack": "item:toms_storage:inventory_cable_connector"
+    },
+    {
+      "stack": "item:toms_storage:inventory_cable_connector_framed"
+    }
+  ],
   "lookup_history": [
-    "item:comamigos_balance:purifying_elixir_1",
+    "item:artifacts:everlasting_beef",
+    "item:simplybows:upgrades/enchanted_bow_string",
+    "item:simplyswords:runic_forge",
+    "item:supplementaries:quiver",
     "item:sophisticatedbackpacks:backpack",
-    "item:botania:manasteel_chest{\"minecraft:fire_resistant\":{},\"sophisticatedcore:accent_color\":-15295332,\"sophisticatedcore:main_color\":-15295332,\"sophisticatedstorage:double_chest\":1b,\"sophisticatedstorage:wood_type\":\"acacia\"}",
+    {
+      "type": "item",
+      "id": "minecraft:bamboo",
+      "amount": 64
+    },
+    "item:minecraft:hay_block",
+    {
+      "type": "item",
+      "id": "minecraft:wheat",
+      "amount": 44
+    },
+    "item:quark:thatch",
+    "item:minecraft:ender_pearl",
+    "item:waystones:waystone",
+    "item:waystones:deepslate_waystone",
+    "item:waystones:warp_stone",
+    "item:simplyswords:iron_chakram",
+    "item:simplyswords:iron_longsword",
+    "item:simplyswords:sword_on_a_stick",
+    "item:simplyswords:iron_twinblade",
+    "item:simplyswords:iron_cutlass",
+    "item:simplyswords:iron_glaive",
+    "item:simplyswords:iron_sai",
+    "item:simplyswords:iron_warglaive",
+    "item:simplyswords:iron_katana",
+    "item:farmersdelight:apple_pie",
+    "item:toms_storage:inventory_connector",
+    "item:toms_storage:storage_terminal",
+    "item:toms_storage:inventory_cable_connector",
+    {
+      "type": "item",
+      "id": "minecraft:quartz",
+      "amount": 2
+    },
+    "item:minecraft:comparator",
+    "item:toms_storage:crafting_terminal",
+    "item:toms_storage:inventory_cable_framed",
+    "item:toms_storage:inventory_interface",
+    "item:toms_storage:open_crate",
+    "item:comamigos_balance:leather_satchel",
+    "item:comamigos_balance:purifying_elixir_1",
     "item:botania:manasteel_ingot",
     "item:quark:soul_bead",
     "item:everycomp:q/cataclysm/chorus_ladder",
-    "item:sophisticatedstorage:storage_io",
     "item:minecraft:repeater",
-    "item:sophisticatedstorage:controller",
-    "item:minecraft:comparator",
     "item:mythsandlegends:bound_soul_ingot",
     {
       "type": "item",
@@ -36,10 +110,7 @@
       "amount": 18
     },
     "item:wildernature:hazelnut",
-    "item:sophisticatedstorage:storage_input",
-    "item:minecraft:bamboo",
     "item:supplementaries:lunch_basket",
-    "item:supplementaries:quiver",
     "item:simplyswords:iron_rapier",
     "item:simplyswords:iron_claymore",
     "item:simplyswords:iron_spear",
@@ -132,7 +203,6 @@
     "item:create:mechanical_press",
     "item:create:depot",
     "item:comamigos_balance:tier_heart_2",
-    "item:sophisticatedstorage:storage_output",
     "item:born_in_chaos_v1:transformative_flower",
     {
       "type": "item",
@@ -145,15 +215,8 @@
       "id": "minecraft:wheat_seeds",
       "amount": 18
     },
-    "item:minecraft:quartz",
-    "item:sophisticatedstorage:storage_link",
     "item:minecraft:redstone_torch",
-    "item:sophisticatedstorage:barrel{\"sophisticatedstorage:wood_type\":\"oak\"}",
-    "item:sophisticatedstorage:storage_tool",
-    "item:sophisticatedstorage:decoration_table",
-    "item:sophisticatedstorage:upgrade_base",
     "item:irons_spellbooks:arcane_essence",
-    "item:artifacts:everlasting_beef",
     "item:artifacts:eternal_steak",
     "item:iceandfire:dragon_skull_fire{\"iceandfire:dragon_skull\":{dragonAge:104,stage:5}}",
     "item:minecraft:honeycomb",
@@ -232,7 +295,6 @@
     "item:sophisticatedbackpacks:backpack{\"sophisticatedcore:accent_color\":-425955,\"sophisticatedcore:main_color\":-425955}",
     "item:sophisticatedbackpacks:backpack{\"sophisticatedcore:accent_color\":-393218,\"sophisticatedcore:main_color\":-393218}",
     "item:minecraft:saddle",
-    "item:simplyswords:iron_longsword",
     "item:mythsandlegends:gargoyle_wing",
     "item:born_in_chaos_v1:nightmare_scythe{\"minecraft:damage\":82}",
     "item:irons_spellbooks:copper_spell_book{\"irons_spellbooks:spell_container\":{data:[],maxSpells:5,mustEquip:1b,spellWheel:1b}}",
@@ -299,17 +361,36 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
-    "everycomp:q/biomeswevegone/zelkova_ladder",
+    "minecraft:iron_helmet",
+    "biomeswevegone:zelkova_fence",
     "minecraft:stick",
-    "minecraft:barrel",
-    "biomeswevegone:maple_slab",
     "biomeswevegone:zelkova_crafting_table",
-    "sophisticatedstorage:storage_io",
+    "biomeswevegone:zelkova_planks",
+    "supplementaries:lunch_basket",
+    "minecraft:hay_block",
+    "quark:building/crafting/thatch",
+    "everycomp:q/biomeswevegone/zelkova_chest",
+    "waystones:waystone",
+    "minecraft:stone_bricks",
+    "waystones:warp_stone",
+    "simplyswords:iron_chakram",
+    "simplyswords:sword_on_a_stick",
+    "simplyswords:iron_longsword",
+    "simplyswords:iron_twinblade",
+    "simplyswords:iron_cutlass",
+    "simplyswords:iron_glaive",
+    "simplyswords:iron_sai",
+    "simplyswords:iron_warglaive",
+    "minecraft:iron_nugget",
+    "simplyswords:iron_katana",
+    "minecraft:raw_gold",
+    "minecraft:barrel",
+    "biomeswevegone:zelkova_slab",
+    "comamigos_balance:leather_satchel",
+    "everycomp:q/biomeswevegone/zelkova_ladder",
+    "biomeswevegone:maple_slab",
     "minecraft:repeater",
     "minecraft:redstone_torch",
-    "sophisticatedstorage:controller",
-    "sophisticatedstorage:generic_barrel",
-    "biomeswevegone:zelkova_slab",
     "terralith:lever_alt",
     "minecraft:comparator",
     "minecraft:flint_and_steel",
@@ -321,17 +402,14 @@
     "werewolves:silver_boots",
     "iceandfire:armor_silver_metal_helmet",
     "born_in_chaos_v1:gnawed_bones_k",
-    "biomeswevegone:zelkova_planks",
     "minecraft:diamond_pickaxe",
     "aquaculture:iron_fillet_knife",
     "simplyswords:iron_rapier",
     "simplyswords:iron_claymore",
-    "minecraft:iron_nugget",
     "simplyswords:iron_spear",
     "quark:tweaks/crafting/utility/better_stone_tools/axe",
     "minecraft:white_carpet",
     "biomeswevegone:zelkova_fence_gate",
-    "biomeswevegone:zelkova_fence",
     "minecraft:chain",
     "biomeswevegone:maple_planks",
     "minecraft:bone_meal",
@@ -360,13 +438,8 @@
     "create:crafting/materials/andesite_alloy_from_zinc",
     "create:crafting/materials/zinc_nugget_from_decompacting",
     "quark:tools/crafting/seed_pouch",
-    "sophisticatedstorage:storage_link",
-    "sophisticatedstorage:storage_tool",
-    "sophisticatedstorage:decoration_table",
-    "sophisticatedstorage:upgrade_base",
     "minecraft:iron_shovel",
     "minecraft:clay",
-    "simplyswords:iron_longsword",
     "minecraft:iron_axe",
     "minecraft:furnace",
     "werewolves:bone",
@@ -374,9 +447,6 @@
     "minecraft:iron_chestplate",
     "minecraft:iron_leggings",
     "minecraft:iron_boots",
-    "minecraft:iron_helmet",
-    "simplyswords:iron_warglaive",
-    "everycomp:q/biomeswevegone/zelkova_chest",
     "minecraft:lantern",
     "minecraft:shield",
     "quark:building/crafting/stonevariants/andesite_bricks",
