@@ -1,37 +1,29 @@
 {
-  "favorites": [
-    {
-      "stack": "item:toms_storage:inventory_connector"
-    },
-    {
-      "stack": "item:toms_storage:storage_terminal"
-    },
-    {
-      "stack": "item:toms_storage:crafting_terminal"
-    },
-    {
-      "stack": "item:toms_storage:open_crate"
-    },
-    {
-      "stack": "item:toms_storage:trim"
-    },
-    {
-      "stack": "item:toms_storage:inventory_cable"
-    },
-    {
-      "stack": "item:toms_storage:inventory_cable_framed"
-    },
-    {
-      "stack": "item:toms_storage:inventory_interface"
-    },
-    {
-      "stack": "item:toms_storage:inventory_cable_connector"
-    },
-    {
-      "stack": "item:toms_storage:inventory_cable_connector_framed"
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
+    "item:dwarfs_tyranny:raw_mythril",
+    "item:comamigos_balance:boss_compass",
+    "item:minecraft:barrel",
+    "item:toms_storage:crafting_terminal",
+    "item:supplementaries:key",
+    "item:toms_storage:paint_kit",
+    "item:toms_storage:inventory_cable_framed",
+    "item:toms_storage:inventory_cable_connector_framed",
+    "item:toms_storage:inventory_cable_connector",
+    "item:toms_storage:inventory_cable",
+    "item:toms_storage:trim",
+    "item:toms_storage:storage_terminal",
+    "item:toms_storage:inventory_connector",
+    {
+      "type": "item",
+      "id": "simplybows:upgrades/reinforced_bow_frame",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "simplybows:upgrades/enchanted_bow_string",
+      "amount": 5
+    },
     "item:botania:mana_spreader",
     "item:botania:bergamute",
     "item:botania:redstone_root",
@@ -61,7 +53,6 @@
       "amount": 3
     },
     "item:botania:endoflame",
-    "item:toms_storage:inventory_connector",
     "item:botania:hydroangeas",
     "item:botania:mana_pool{\"minecraft:custom_data\":{RenderFull:1b}}",
     "item:botania:manasteel_ingot",
@@ -127,13 +118,7 @@
       "id": "minecraft:quartz",
       "amount": 2
     },
-    "item:toms_storage:storage_terminal",
-    "item:toms_storage:crafting_terminal",
-    "item:toms_storage:inventory_cable_connector",
     "item:toms_storage:inventory_interface",
-    "item:toms_storage:inventory_cable_framed",
-    "item:toms_storage:inventory_cable",
-    "item:toms_storage:trim",
     "item:toms_storage:open_crate",
     "item:minecraft:ender_eye",
     "item:minecraft:ender_chest",
@@ -157,9 +142,7 @@
     "#item:botania:livingwood_logs",
     "item:botania:overgrowth_seed",
     "item:minecraft:ender_pearl",
-    "item:comamigos_balance:boss_compass",
     "item:artifacts:everlasting_beef",
-    "item:simplybows:upgrades/enchanted_bow_string",
     "item:simplyswords:runic_forge",
     "item:supplementaries:quiver",
     {
@@ -453,9 +436,29 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "minecraft:barrel",
+    "biomeswevegone:zelkova_slab",
+    "biomeswevegone:maple_planks",
+    "biomeswevegone:maple_slab",
+    "biomeswevegone:zelkova_planks",
+    "minecraft:stick",
+    "toms_storage:inventory_cable_framed",
+    "toms_storage:inventory_cable_connector_framed",
+    "toms_storage:inventory_cable_connector",
+    "everycomp:q/biomeswevegone/zelkova_chest",
+    "toms_storage:inventory_cable",
+    "biomeswevegone:zelkova_trapdoor",
+    "toms_storage:trim",
+    "toms_storage:crafting_terminal",
+    "biomeswevegone:zelkova_crafting_table",
+    "toms_storage:storage_terminal",
+    "minecraft:comparator",
+    "toms_storage:inventory_connector",
+    "minecraft:flint_and_steel",
+    "minecraft:yellow_dye_from_sunflower",
+    "minecraft:bone_meal",
     "botania:mana_spreader",
     "biomeswevegone:redwood_planks",
-    "biomeswevegone:maple_planks",
     "botania:petal_cyan",
     "botania:petal_magenta",
     "botania:petal_purple",
@@ -478,17 +481,14 @@
     "botania:dye_black",
     "minecraft:red_dye_from_bwg_dye_tag",
     "minecraft:white_dye_from_bwg_dye_tag",
-    "minecraft:yellow_dye_from_sunflower",
     "minecraft:purple_dye_from_bwg_dye_tag",
     "minecraft:pink_dye_from_bwg_dye_tag",
     "minecraft:blue_dye_from_bwg_dye_tag",
-    "minecraft:bone_meal",
     "botania:lexicon",
     "botania:petal_light_gray",
     "botania:mana_pool",
     "minecraft:crafting_table",
     "botania:petal_cyan_double",
-    "everycomp:q/biomeswevegone/zelkova_chest",
     "minecraft:oak_planks",
     "botania:twig_wand",
     "botania:livingwood_twig",
@@ -502,10 +502,7 @@
     "biomeswevegone:redwood_stairs",
     "minecraft:cobbled_deepslate_wall",
     "biomeswevegone:redwood_fence",
-    "minecraft:stick",
-    "biomeswevegone:zelkova_planks",
     "biomeswevegone:redwood_slab",
-    "biomeswevegone:maple_slab",
     "biomeswevegone:maple_stairs",
     "everycomp:hc/biomeswevegone/maple_corner_trim",
     "everycomp:hc/biomeswevegone/maple_pillar_trim",
@@ -526,7 +523,6 @@
     "minecraft:hopper",
     "biomeswevegone:zelkova_fence_gate",
     "biomeswevegone:zelkova_stairs",
-    "biomeswevegone:zelkova_crafting_table",
     "botania:apothecary_default",
     "minecraft:clay",
     "minecraft:iron_leggings",
@@ -548,15 +544,11 @@
     "simplyswords:iron_warglaive",
     "simplyswords:iron_katana",
     "minecraft:raw_gold",
-    "minecraft:barrel",
-    "biomeswevegone:zelkova_slab",
     "comamigos_balance:leather_satchel",
     "everycomp:q/biomeswevegone/zelkova_ladder",
     "minecraft:repeater",
     "minecraft:redstone_torch",
     "terralith:lever_alt",
-    "minecraft:comparator",
-    "minecraft:flint_and_steel",
     "werewolves:silver_chestplate",
     "iceandfire:armor_silver_metal_leggings",
     "werewolves:silver_boots",

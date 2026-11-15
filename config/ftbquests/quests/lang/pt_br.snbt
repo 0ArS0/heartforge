@@ -807,11 +807,11 @@
 		""
 		"&7Acima da linha, os &adesafios simples&7: rápidos, com recompensas comuns. Abaixo, os &6grandes desafios&7."
 		"&7Cada desafio concluído abre o próximo da sua coluna, cada vez mais longe da linha."
-		"&7Cada fileira se abre quando o grupo alcança o tier dela. Nenhum desafio é exigido para avançar."
+		"&7Todos estão abertos desde o primeiro dia: o marco de cada fileira só diz para que altura da jornada ela foi pensada. Nenhum desafio é exigido para avançar."
 	]
 	"quest.13547326D03BEA69.title": "&7Tier I"
 	"quest.13547326D03BEA69.quest_desc": [
-		"&7Os desafios desta fileira se abrem no &7Tier I&7."
+		"&7Os desafios desta fileira foram pensados para o &7Tier I&7, mas já podem ser começados: o que for juntado antes conta."
 	]
 	"reward.1CE40061EB6C1A02.title": "1 brasa de talento (+1 na Árvore de Talentos)"
 	"quest.7F9B2C1122FE35D8.title": "Cemitério de Coroas"
@@ -927,7 +927,7 @@
 	]
 	"quest.40D951380D90FD04.title": "&aTier II"
 	"quest.40D951380D90FD04.quest_desc": [
-		"&7Os desafios desta fileira se abrem no &aTier II&7."
+		"&7Os desafios desta fileira foram pensados para o &aTier II&7, mas já podem ser começados: o que for juntado antes conta."
 	]
 	"reward.2E539AD4B627926D.title": "1 brasa de talento (+1 na Árvore de Talentos)"
 	"quest.3AD46185F85041F2.title": "Herbário Místico"
@@ -1042,7 +1042,7 @@
 	]
 	"quest.1C9E1300FF933103.title": "&9Tier III"
 	"quest.1C9E1300FF933103.quest_desc": [
-		"&7Os desafios desta fileira se abrem no &9Tier III&7."
+		"&7Os desafios desta fileira foram pensados para o &9Tier III&7, mas já podem ser começados: o que for juntado antes conta."
 	]
 	"reward.47C49E4DF76ECA32.title": "2 brasas de talento (+2 na Árvore de Talentos)"
 	"quest.22E1DB6167A4FC57.title": "Galeria de Troféus"
@@ -1136,7 +1136,7 @@
 	]
 	"quest.7CD24398D7E23DD7.title": "&6Tier IV"
 	"quest.7CD24398D7E23DD7.quest_desc": [
-		"&7Os desafios desta fileira se abrem no &6Tier IV&7."
+		"&7Os desafios desta fileira foram pensados para o &6Tier IV&7, mas já podem ser começados: o que for juntado antes conta."
 	]
 	"reward.52331C174A083219.title": "2 brasas de talento (+2 na Árvore de Talentos)"
 	"quest.01A848E6D90CE60A.title": "A Tripla Coroa"
@@ -1253,7 +1253,7 @@
 	]
 	"quest.6E8B7E3D0EE4A833.title": "&cTier V"
 	"quest.6E8B7E3D0EE4A833.quest_desc": [
-		"&7Os desafios desta fileira se abrem no &cTier V&7."
+		"&7Os desafios desta fileira foram pensados para o &cTier V&7, mas já podem ser começados: o que for juntado antes conta."
 	]
 	"reward.7A911AEF1707757B.title": "3 brasas de talento (+3 na Árvore de Talentos)"
 	"quest.7243D347E9C829AC.title": "Matador de Dragões"
@@ -1347,7 +1347,7 @@
 	]
 	"quest.1C515189775191B2.title": "&5Tier VI"
 	"quest.1C515189775191B2.quest_desc": [
-		"&7Os desafios desta fileira se abrem no &5Tier VI&7."
+		"&7Os desafios desta fileira foram pensados para o &5Tier VI&7, mas já podem ser começados: o que for juntado antes conta."
 	]
 	"reward.6A5407D51AEC1CC4.title": "3 brasas de talento (+3 na Árvore de Talentos)"
 	"quest.4EEAF75C97664641.title": "Sobrevivente do Cataclismo"
@@ -1418,7 +1418,7 @@
 	]
 	"quest.6C47CA292E49F033.title": "&dTier VII"
 	"quest.6C47CA292E49F033.quest_desc": [
-		"&7Os desafios desta fileira se abrem no &dTier VII&7."
+		"&7Os desafios desta fileira foram pensados para o &dTier VII&7, mas já podem ser começados: o que for juntado antes conta."
 	]
 	"reward.344D86F7D9E1E054.title": "3 brasas de talento (+3 na Árvore de Talentos)"
 	"quest.15E093067C5033D8.title": "O Fim, Outra Vez"
@@ -1466,7 +1466,7 @@
 	]
 	"quest.72AFF2C75913BD2F.title": "&eTier VIII"
 	"quest.72AFF2C75913BD2F.quest_desc": [
-		"&7Os desafios desta fileira se abrem no &eTier VIII&7."
+		"&7Os desafios desta fileira foram pensados para o &eTier VIII&7, mas já podem ser começados: o que for juntado antes conta."
 	]
 	"reward.13596C941BC0B3CF.title": "5 brasas de talento (+5 na Árvore de Talentos)"
 	"quest.5E92EB04A0C74709.title": "Os Grandes Ausentes"
