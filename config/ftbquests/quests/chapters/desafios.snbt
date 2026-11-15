@@ -39,42 +39,90 @@
 				"&7A campanha leva a companhia até o Obsidilith. Os desafios são outra coisa: feitos que ninguém pede, que dão trabalho"
 				"&7de verdade e que pagam como trabalho de verdade. Bolsas raras e acima, brasas de talento, às vezes um Tomo do Esquecimento."
 				""
-				"&7Acima da linha, os &adesafios simples&7: rápidos, com recompensas comuns. Abaixo, os &6grandes desafios&7."
-				"&7Cada desafio concluído abre o próximo da sua coluna, cada vez mais longe da linha."
-				"&7Todos estão abertos desde o primeiro dia: o marco de cada fileira só diz para que altura da jornada ela foi pensada. Nenhum desafio é exigido para avançar."
+				"&7Na linha do meio, o &dgrande feito&7 de cada seção: o mais duro dela. Abaixo, os &6desafios&7. Acima, os &adesafios simples&7."
+				"&7Todos estão abertos desde o primeiro dia e nenhum espera por outro: comece por onde quiser, o que for feito antes conta."
+				"&7Cada seção foi pensada para uma altura da jornada, da esquerda para a direita. Nenhum desafio é exigido para avançar."
 			]
 		}
 		{
-			id: "13547326D03BEA69"
+			id: "398A90EBB8B1D73F"
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			icon: {
 				count: 1
-				id: "minecraft:compass"
+				id: "minecraft:iron_sword"
 			}
-			dependencies: [
-				"10814A7B91977A1A"
-			]
 			tasks: [
 				{
-					id: "667571EBCE2B49B2"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
+					id: "42517E4C3850BD35"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 150L
+				}
+				{
+					id: "06AE40EFBD5F1044"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 100L
+				}
+				{
+					id: "211F26DEFDB1A2B0"
+					type: "kill"
+					entity: "minecraft:spider"
+					value: 50L
+				}
+				{
+					id: "1309C246828A7529"
+					type: "kill"
+					entity: "minecraft:creeper"
+					value: 50L
+				}
+				{
+					id: "79D943604523EE44"
+					type: "kill"
+					entity: "dwarfs_tyranny:skeleton_dwarf_king"
+					value: 3L
 				}
 			]
-			rewards: [ ]
-			title: "&7Tier I"
-			description: [
-				"&7Os desafios desta fileira foram pensados para o &7Tier I&7, mas já podem ser começados: o que for juntado antes conta."
+			rewards: [
+				{
+					id: "7A91D6B8D74F8B50"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "05CE0039DB623B42"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "44DC7792F670EB11"
+					type: "xp"
+					xp: 1500
+				}
 			]
-			disable_toast: true
+			title: "A Primeira Lenda"
+			subtitle: "&dGrande feito &8· &7Tier I"
+			description: [
+				"&7Toda companhia começa igual: gente demais com medo do escuro. Lenda é quem atravessa o escuro tantas vezes que ele passa a ter medo."
+				""
+				"&dGrande feito:&r Derrote &6150 zumbis&r, &6100 esqueletos&r, &650 aranhas&r, &650 creepers&r e &63 Reis Anões Esqueletos&r."
+				""
+				"&8Seção pensada para o &7Tier I&8."
+			]
+			optional: true
 		}
 		{
 			id: "7F9B2C1122FE35D8"
@@ -86,9 +134,6 @@
 				count: 1
 				id: "comamigos_balance:dwarf_king_heart"
 			}
-			dependencies: [
-				"13547326D03BEA69"
-			]
 			tasks: [
 				{
 					id: "4B8C2FF5663C67E6"
@@ -144,9 +189,6 @@
 				count: 1
 				id: "dwarfs_tyranny:mythril_ingot"
 			}
-			dependencies: [
-				"7F9B2C1122FE35D8"
-			]
 			tasks: [
 				{
 					id: "7C08852920EF8168"
@@ -191,7 +233,7 @@
 				}
 			]
 			title: "O Reino Anão Vivo"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Nem toda cidade anã morreu. Algumas ainda forjam, e o metal delas é o melhor que existe abaixo do céu."
 				""
@@ -209,9 +251,6 @@
 				count: 1
 				id: "dwarfs_tyranny:mythril_armor_chestplate"
 			}
-			dependencies: [
-				"43CE5435498FE904"
-			]
 			tasks: [
 				{
 					id: "6130E01643AB13A8"
@@ -278,7 +317,7 @@
 				}
 			]
 			title: "A Armadura do Rei"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Um rei anão nunca entra em batalha sem a armadura de mithril. A companhia também não deveria."
 				""
@@ -296,9 +335,6 @@
 				count: 1
 				id: "farmersdelight:roast_chicken_block"
 			}
-			dependencies: [
-				"13547326D03BEA69"
-			]
 			tasks: [
 				{
 					id: "1CA4924CB626BB6A"
@@ -380,9 +416,6 @@
 				count: 1
 				id: "minecraft:cake"
 			}
-			dependencies: [
-				"0E04B7BC6CDD3089"
-			]
 			tasks: [
 				{
 					id: "29543363FA27E68C"
@@ -416,7 +449,7 @@
 				}
 			]
 			title: "O Cozinheiro de Corte"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Bolo de sobremesa e ensopado para a viagem: a cozinha também é um campo de batalha."
 				""
@@ -434,9 +467,6 @@
 				count: 1
 				id: "farmersdelight:cooking_pot"
 			}
-			dependencies: [
-				"3850B03B22B161E3"
-			]
 			tasks: [
 				{
 					id: "2EA35C81C15337B8"
@@ -503,7 +533,7 @@
 				}
 			]
 			title: "A Mesa do Mundo Inteiro"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Frutas de cavernas, de florestas, de selvas e do fim do mundo. Um cozinheiro de verdade usa tudo."
 				""
@@ -521,9 +551,6 @@
 				count: 1
 				id: "create:water_wheel"
 			}
-			dependencies: [
-				"13547326D03BEA69"
-			]
 			tasks: [
 				{
 					id: "2464C1DF1B2B94C3"
@@ -595,9 +622,6 @@
 				count: 1
 				id: "create:track"
 			}
-			dependencies: [
-				"06839FC071528E5C"
-			]
 			tasks: [
 				{
 					id: "08A9CB901AF7ACC3"
@@ -634,7 +658,7 @@
 				}
 			]
 			title: "O Trem"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Os anões cavavam túneis. A companhia vai encher esses túneis de trilhos."
 				""
@@ -652,9 +676,6 @@
 				count: 1
 				id: "create:mechanical_crafter"
 			}
-			dependencies: [
-				"2A16A7C60E2551E7"
-			]
 			tasks: [
 				{
 					id: "59D354AD5A1F3E82"
@@ -712,7 +733,7 @@
 				}
 			]
 			title: "A Fábrica Que Se Move Sozinha"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Mãos de ferro que montam, braços que colocam, mesas que fabricam sozinhas. A oficina virou fábrica."
 				""
@@ -730,9 +751,6 @@
 				count: 1
 				id: "minecraft:cod"
 			}
-			dependencies: [
-				"13547326D03BEA69"
-			]
 			tasks: [
 				{
 					id: "510D84A43BDC3A96"
@@ -787,9 +805,6 @@
 				count: 1
 				id: "minecraft:fishing_rod"
 			}
-			dependencies: [
-				"4E8CBC62AAA240A0"
-			]
 			tasks: [
 				{
 					id: "7A505B4D5B1914AA"
@@ -827,7 +842,7 @@
 				}
 			]
 			title: "Mar Aberto"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Pescar no rio é passatempo. Pescar em alto-mar, sem ver terra, é coragem."
 				""
@@ -845,9 +860,6 @@
 				count: 1
 				id: "minecraft:nautilus_shell"
 			}
-			dependencies: [
-				"1C179B8CBC929B71"
-			]
 			tasks: [
 				{
 					id: "06B78E59A57793EB"
@@ -880,7 +892,7 @@
 				}
 			]
 			title: "O Que Vem do Fundo"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Os velhos pescadores juram que o fundo devolve conchas a quem tem paciência."
 				"&7Eles moram numa cabana à beira de um mar que não é deste mundo."
@@ -899,9 +911,6 @@
 				count: 1
 				id: "minecraft:rotten_flesh"
 			}
-			dependencies: [
-				"13547326D03BEA69"
-			]
 			tasks: [
 				{
 					id: "77B0FDE44587B2C1"
@@ -950,9 +959,6 @@
 				count: 1
 				id: "minecraft:husk_spawn_egg"
 			}
-			dependencies: [
-				"03C3F53221CFF59D"
-			]
 			tasks: [
 				{
 					id: "5EE40955BCF6B337"
@@ -989,7 +995,7 @@
 				}
 			]
 			title: "Mortos de Outras Terras"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7O deserto seca os mortos, o gelo os conserva e o mar os incha. Continuam mortos, e continuam vindo."
 				""
@@ -1007,9 +1013,6 @@
 				count: 1
 				id: "minecraft:zombie_head"
 			}
-			dependencies: [
-				"3C1EC9CEED3A7743"
-			]
 			tasks: [
 				{
 					id: "60BD0887FA13A267"
@@ -1039,7 +1042,7 @@
 				}
 			]
 			title: "O Cemitério"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Há cemitérios antigos onde a terra nunca assentou. Alguns aldeões que caíram lá ainda podem ser salvos."
 				""
@@ -1048,36 +1051,83 @@
 			optional: true
 		}
 		{
-			id: "40D951380D90FD04"
+			id: "1E7FCFB2538C3AFA"
 			x: 5.6d
 			y: 0.0d
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			icon: {
 				count: 1
-				id: "comamigos_balance:tier_heart_2"
+				id: "create:precision_mechanism"
 			}
-			dependencies: [
-				"13547326D03BEA69"
-			]
 			tasks: [
 				{
-					id: "6DFBC9F08A35C0EB"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
+					id: "561350E6D49765D0"
+					type: "kill"
+					entity: "vampirism:vampire"
+					value: 80L
+				}
+				{
+					id: "1E24EA62B3C74E1B"
+					type: "kill"
+					entity: "vampirism:advanced_vampire"
+					value: 15L
+				}
+				{
+					id: "636839136193055E"
+					type: "item"
+					item: {
 						count: 1
-						id: "comamigos_balance:tier_heart_2"
+						id: "create:precision_mechanism"
 					}
+					count: 64L
 				}
 			]
-			rewards: [ ]
-			title: "&aTier II"
-			description: [
-				"&7Os desafios desta fileira foram pensados para o &aTier II&7, mas já podem ser começados: o que for juntado antes conta."
+			rewards: [
+				{
+					id: "1F80AB9185892A7A"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_epica"
+					}
+				}
+				{
+					id: "7F56AF4158AFE00B"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_rara"
+					}
+				}
+				{
+					id: "68F8EED31D635EF6"
+					type: "command"
+					title: "2 brasas de talento (+2 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 2"
+				}
+				{
+					id: "64DE220A90A023D6"
+					type: "xp"
+					xp: 2500
+				}
 			]
-			disable_toast: true
+			title: "Senhor da Noite e da Engrenagem"
+			subtitle: "&dGrande feito &8· &aTier II"
+			description: [
+				"&7De dia a oficina não para. De noite a caçada não para. Alguém nesta companhia esqueceu de dormir."
+				""
+				"&dGrande feito:&r Derrote &680 vampiros&r e &615 vampiros avançados&r, e junte &664 Mecanismos de Precisão&r."
+				""
+				"&8Seção pensada para o &aTier II&8."
+			]
+			optional: true
 		}
 		{
 			id: "3AD46185F85041F2"
@@ -1089,9 +1139,6 @@
 				count: 1
 				id: "botania:white_petal"
 			}
-			dependencies: [
-				"40D951380D90FD04"
-			]
 			tasks: [
 				{
 					id: "2248631597006B09"
@@ -1284,9 +1331,6 @@
 				count: 1
 				id: "botania:livingwood_log"
 			}
-			dependencies: [
-				"3AD46185F85041F2"
-			]
 			tasks: [
 				{
 					id: "41DB1E9FCE3D753F"
@@ -1328,7 +1372,7 @@
 				}
 			]
 			title: "O Bosque das Flores"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7A madeira e a pedra vivas nascem das pétalas. O bosque das flores é onde tudo isso começa."
 				""
@@ -1346,9 +1390,6 @@
 				count: 1
 				id: "botania:manasteel_block"
 			}
-			dependencies: [
-				"78C96831D2F83262"
-			]
 			tasks: [
 				{
 					id: "2409CD22E1B4AF90"
@@ -1397,7 +1438,7 @@
 				}
 			]
 			title: "Mestre da Mana"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Um poço de mana é bom. Quatro poços e blocos de manaço é uma usina."
 				""
@@ -1415,9 +1456,6 @@
 				count: 1
 				id: "vampirism:vampire_fang"
 			}
-			dependencies: [
-				"40D951380D90FD04"
-			]
 			tasks: [
 				{
 					id: "5F3EA6DF019B52C2"
@@ -1478,9 +1516,6 @@
 				count: 1
 				id: "vampirism:vampire_book"
 			}
-			dependencies: [
-				"1AA4CAD7FA267222"
-			]
 			tasks: [
 				{
 					id: "61DA88069D2ADD24"
@@ -1522,7 +1557,7 @@
 				}
 			]
 			title: "A Cripta dos Nobres"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Os nobres da noite dormem em criptas. Os barões não dormem tanto assim."
 				""
@@ -1540,9 +1575,6 @@
 				count: 1
 				id: "vampirism:hunter_intel_0"
 			}
-			dependencies: [
-				"2A07CC1CEF211973"
-			]
 			tasks: [
 				{
 					id: "0E3D5CE5EC933616"
@@ -1584,7 +1616,7 @@
 				}
 			]
 			title: "O Acampamento dos Caçadores"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Os caçadores de vampiros não gostam de ninguém que ande à noite, nem de quem atrapalha a caçada."
 				""
@@ -1602,9 +1634,6 @@
 				count: 1
 				id: "create:precision_mechanism"
 			}
-			dependencies: [
-				"40D951380D90FD04"
-			]
 			tasks: [
 				{
 					id: "41524A155189FEF1"
@@ -1659,9 +1688,6 @@
 				count: 1
 				id: "create:clockwork_bearing"
 			}
-			dependencies: [
-				"75A6D8A077CE5013"
-			]
 			tasks: [
 				{
 					id: "57D48792C8B6BA7F"
@@ -1698,7 +1724,7 @@
 				}
 			]
 			title: "O Rolamento do Relógio"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Um relógio de verdade, com ponteiros de latão girando nas horas certas."
 				""
@@ -1716,9 +1742,6 @@
 				count: 1
 				id: "create:steam_engine"
 			}
-			dependencies: [
-				"1166C83585A935A7"
-			]
 			tasks: [
 				{
 					id: "46846C12A640EE69"
@@ -1767,7 +1790,7 @@
 				}
 			]
 			title: "Vapor"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Água fervendo sobre fogo de blaze: o vapor move mais que qualquer moinho."
 				""
@@ -1785,9 +1808,6 @@
 				count: 1
 				id: "farmersdelight:cabbage"
 			}
-			dependencies: [
-				"40D951380D90FD04"
-			]
 			tasks: [
 				{
 					id: "373DE16C421FE7A9"
@@ -1860,9 +1880,6 @@
 				count: 1
 				id: "minecraft:wheat"
 			}
-			dependencies: [
-				"6840C699A91EBE5C"
-			]
 			tasks: [
 				{
 					id: "0F763A632D926B5F"
@@ -1887,7 +1904,7 @@
 				}
 			]
 			title: "O Criador"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Uma companhia que caça pouco precisa de um curral cheio."
 				""
@@ -1905,9 +1922,6 @@
 				count: 1
 				id: "minecraft:emerald"
 			}
-			dependencies: [
-				"5FB5AFB0D4D14B08"
-			]
 			tasks: [
 				{
 					id: "084AC3CC8374D82C"
@@ -1937,7 +1951,7 @@
 				}
 			]
 			title: "Feira de Aldeia"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Esmeralda na mão, conversa fiada e uma boa barganha: a guerra também se ganha na feira."
 				""
@@ -1955,9 +1969,6 @@
 				count: 1
 				id: "minecraft:spider_eye"
 			}
-			dependencies: [
-				"40D951380D90FD04"
-			]
 			tasks: [
 				{
 					id: "4EF070C55A2EE54A"
@@ -2017,9 +2028,6 @@
 				count: 1
 				id: "minecraft:rail"
 			}
-			dependencies: [
-				"5DA263BD16D99356"
-			]
 			tasks: [
 				{
 					id: "6D115B585660EA9C"
@@ -2049,7 +2057,7 @@
 				}
 			]
 			title: "Minas Esquecidas"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7As velhas minas foram abandonadas por um motivo. Ele tem oito pernas e veneno."
 				""
@@ -2067,9 +2075,6 @@
 				count: 1
 				id: "minecraft:glow_berries"
 			}
-			dependencies: [
-				"3C70AE666FC5D636"
-			]
 			tasks: [
 				{
 					id: "751CDA088CBE9503"
@@ -2103,7 +2108,7 @@
 				}
 			]
 			title: "Cavernas Vivas"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Debaixo da terra há jardins, florestas de pedra pingando e um silêncio que escuta de volta."
 				""
@@ -2112,36 +2117,84 @@
 			optional: true
 		}
 		{
-			id: "1C9E1300FF933103"
+			id: "3BD14F42B6490DED"
 			x: 11.2d
 			y: 0.0d
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			icon: {
 				count: 1
-				id: "comamigos_balance:tier_heart_3"
+				id: "iceandfire:troll_tusk"
 			}
-			dependencies: [
-				"40D951380D90FD04"
-			]
 			tasks: [
 				{
-					id: "01E03B474740A1A6"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
+					id: "4459C348FB6F077B"
+					type: "kill"
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					value: 5L
+				}
+				{
+					id: "40C10CBD81D16CCD"
+					type: "kill"
+					entity: "iceandfire:troll"
+					value: 30L
+				}
+				{
+					id: "0A0E2A9E4B5565CE"
+					type: "item"
+					item: {
 						count: 1
-						id: "comamigos_balance:tier_heart_3"
+						id: "comamigos_balance:yeti_heart"
 					}
+					count: 2L
+				}
+				{
+					id: "3E4DDA3186C1FFE3"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:orchid_queen_heart"
+					}
+					count: 2L
 				}
 			]
-			rewards: [ ]
-			title: "&9Tier III"
-			description: [
-				"&7Os desafios desta fileira foram pensados para o &9Tier III&7, mas já podem ser começados: o que for juntado antes conta."
+			rewards: [
+				{
+					id: "3733F1B2E698E37A"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "38C3EE2EC28EEFFF"
+					type: "command"
+					title: "3 brasas de talento (+3 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 3"
+				}
+				{
+					id: "37A63A87532EBA0F"
+					type: "xp"
+					xp: 3500
+				}
 			]
-			disable_toast: true
+			title: "Salão dos Colossos"
+			subtitle: "&dGrande feito &8· &9Tier III"
+			description: [
+				"&7Um colosso derrubado é uma história. Um salão cheio deles é um aviso para os próximos."
+				""
+				"&dGrande feito:&r Derrote o &6Colosso Ferroso&r cinco vezes e &630 trolls&r, e guarde &62 corações de Skor&r e &62 da Rainha das Orquídeas&r."
+				""
+				"&8Seção pensada para o &9Tier III&8."
+			]
+			optional: true
 		}
 		{
 			id: "22E1DB6167A4FC57"
@@ -2153,9 +2206,6 @@
 				count: 1
 				id: "comamigos_balance:cornelia_heart"
 			}
-			dependencies: [
-				"1C9E1300FF933103"
-			]
 			tasks: [
 				{
 					id: "589DA24660D5417F"
@@ -2258,9 +2308,6 @@
 				count: 1
 				id: "comamigos_balance:maze_mother_heart"
 			}
-			dependencies: [
-				"22E1DB6167A4FC57"
-			]
 			tasks: [
 				{
 					id: "261C83D159E6E90C"
@@ -2318,7 +2365,7 @@
 				}
 			]
 			title: "Corações Raros"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Há corações que poucos veem: o da mãe do labirinto de gelo, o do lorde abóbora e o do gigante de um olho só."
 				""
@@ -2336,9 +2383,6 @@
 				count: 1
 				id: "minecraft:creeper_head"
 			}
-			dependencies: [
-				"355250BF303D45B7"
-			]
 			tasks: [
 				{
 					id: "51885B47B161F6E2"
@@ -2414,7 +2458,7 @@
 				}
 			]
 			title: "Cabeças na Parede"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Um salão de caçadores não está completo sem as cabeças na parede."
 				""
@@ -2432,9 +2476,6 @@
 				count: 1
 				id: "iceandfire:troll_tusk"
 			}
-			dependencies: [
-				"1C9E1300FF933103"
-			]
 			tasks: [
 				{
 					id: "3EE344752A90B3C3"
@@ -2495,9 +2536,6 @@
 				count: 1
 				id: "iceandfire:cyclops_eye"
 			}
-			dependencies: [
-				"3040031B8FB3CD1B"
-			]
 			tasks: [
 				{
 					id: "5216B2572F034C02"
@@ -2539,7 +2577,7 @@
 				}
 			]
 			title: "O Gigante de Um Olho"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7O ciclope guarda ovelhas numa caverna e homens num caldeirão. Ele não diferencia muito os dois."
 				""
@@ -2557,9 +2595,6 @@
 				count: 1
 				id: "mowziesmobs:ice_crystal"
 			}
-			dependencies: [
-				"2681C3FBF83B4669"
-			]
 			tasks: [
 				{
 					id: "62E4D41EBDA3A72C"
@@ -2602,7 +2637,7 @@
 				}
 			]
 			title: "Fera do Gelo e Rei do Sol"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Um dorme no gelo, o outro dança no calor da savana. Os dois odeiam visitas."
 				""
@@ -2620,9 +2655,6 @@
 				count: 1
 				id: "minecraft:ender_pearl"
 			}
-			dependencies: [
-				"1C9E1300FF933103"
-			]
 			tasks: [
 				{
 					id: "190A98EB3573ABBC"
@@ -2668,9 +2700,6 @@
 				count: 1
 				id: "minecraft:ender_eye"
 			}
-			dependencies: [
-				"22503954DF3E4104"
-			]
 			tasks: [
 				{
 					id: "475B8D001E07DBDE"
@@ -2703,7 +2732,7 @@
 				}
 			]
 			title: "O Olho Que Aponta"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Jogue o olho para o alto e siga para onde ele voa. No fim do caminho há uma fortaleza esperando."
 				""
@@ -2721,9 +2750,6 @@
 				count: 1
 				id: "minecraft:echo_shard"
 			}
-			dependencies: [
-				"7A97FE601AFE8DA0"
-			]
 			tasks: [
 				{
 					id: "368664E1B6274332"
@@ -2756,7 +2782,7 @@
 				}
 			]
 			title: "A Cidade Antiga"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Lá embaixo há uma cidade que não foi construída para gente. Ande devagar. Não acorde nada."
 				""
@@ -2774,9 +2800,6 @@
 				count: 1
 				id: "minecraft:gunpowder"
 			}
-			dependencies: [
-				"1C9E1300FF933103"
-			]
 			tasks: [
 				{
 					id: "5B513671499CF8D6"
@@ -2819,9 +2842,6 @@
 				count: 1
 				id: "minecraft:tnt"
 			}
-			dependencies: [
-				"27592BC1E9997FF5"
-			]
 			tasks: [
 				{
 					id: "1097E84A61A58961"
@@ -2858,7 +2878,7 @@
 				}
 			]
 			title: "Pólvora de Sobra"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Quem coleciona pólvora acaba descobrindo o que fazer com ela."
 				""
@@ -2876,9 +2896,6 @@
 				count: 1
 				id: "minecraft:music_disc_cat"
 			}
-			dependencies: [
-				"4203A662EF624852"
-			]
 			tasks: [
 				{
 					id: "67960900F4AA9715"
@@ -2915,7 +2932,7 @@
 				}
 			]
 			title: "Música de Creeper"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Dizem que, se um esqueleto acerta um creeper, ele deixa cair uma canção. Ninguém sabe quem a gravou."
 				""
@@ -2924,36 +2941,89 @@
 			optional: true
 		}
 		{
-			id: "7CD24398D7E23DD7"
+			id: "2F5F041C337AF06A"
 			x: 16.799999999999997d
 			y: 0.0d
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			icon: {
 				count: 1
-				id: "comamigos_balance:tier_heart_4"
+				id: "minecraft:nether_star"
 			}
-			dependencies: [
-				"1C9E1300FF933103"
-			]
 			tasks: [
 				{
-					id: "78D5A66B0F9FBE01"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
+					id: "73D26567F0D346B9"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 5L
+				}
+				{
+					id: "5118EB781C7378C5"
+					type: "kill"
+					entity: "asterion:minotaur"
+					value: 3L
+				}
+				{
+					id: "6FDAA56C518B845C"
+					type: "kill"
+					entity: "minecraft:wither_skeleton"
+					value: 100L
+				}
+				{
+					id: "0D5AC074054C8223"
+					type: "item"
+					item: {
 						count: 1
-						id: "comamigos_balance:tier_heart_4"
+						id: "minecraft:netherite_block"
 					}
+					count: 4L
 				}
 			]
-			rewards: [ ]
-			title: "&6Tier IV"
-			description: [
-				"&7Os desafios desta fileira foram pensados para o &6Tier IV&7, mas já podem ser começados: o que for juntado antes conta."
+			rewards: [
+				{
+					id: "5C2D42040BE34888"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "050F20B2CCDA1F71"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "2F3631DD0D930984"
+					type: "command"
+					title: "3 brasas de talento (+3 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 3"
+				}
+				{
+					id: "6DBA89D89135FFC2"
+					type: "xp"
+					xp: 5000
+				}
 			]
-			disable_toast: true
+			title: "Senhor do Inferno"
+			subtitle: "&dGrande feito &8· &6Tier IV"
+			description: [
+				"&7O Nether não tem rei. Tem só quem ainda não foi derrubado, e essa lista ficou curta."
+				""
+				"&dGrande feito:&r Derrote o &8Wither&r cinco vezes, o &6Minotauro&r três vezes e &6100 esqueletos wither&r, e junte &64 Blocos de Netherita&r."
+				""
+				"&8Seção pensada para o &6Tier IV&8."
+			]
+			optional: true
 		}
 		{
 			id: "01A848E6D90CE60A"
@@ -2965,9 +3035,6 @@
 				count: 1
 				id: "minecraft:wither_skeleton_skull"
 			}
-			dependencies: [
-				"7CD24398D7E23DD7"
-			]
 			tasks: [
 				{
 					id: "3637370B5E8F0959"
@@ -3022,9 +3089,6 @@
 				count: 1
 				id: "minecraft:nether_star"
 			}
-			dependencies: [
-				"01A848E6D90CE60A"
-			]
 			tasks: [
 				{
 					id: "608BD0A0AB9927C8"
@@ -3073,7 +3137,7 @@
 				}
 			]
 			title: "Estrelas no Bolso"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Três estrelas do Nether: uma para o farol, duas para guardar de lembrança."
 				""
@@ -3091,9 +3155,6 @@
 				count: 1
 				id: "cataclysm:ignitium_ingot"
 			}
-			dependencies: [
-				"1C7301B5083CAADE"
-			]
 			tasks: [
 				{
 					id: "62F29CAE081E3674"
@@ -3135,7 +3196,7 @@
 				}
 			]
 			title: "Na Arena de Fogo"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7O cavaleiro em chamas espera numa arena no fundo do Nether. A espada dele ainda queima."
 				""
@@ -3153,9 +3214,6 @@
 				count: 1
 				id: "comamigos_balance:minotaur_heart"
 			}
-			dependencies: [
-				"7CD24398D7E23DD7"
-			]
 			tasks: [
 				{
 					id: "717B1B020466EFF3"
@@ -3210,9 +3268,6 @@
 				count: 1
 				id: "asterion:celestial_steel_chestplate"
 			}
-			dependencies: [
-				"5E922CD1D49D1ACB"
-			]
 			tasks: [
 				{
 					id: "14CEC25423C0C417"
@@ -3279,7 +3334,7 @@
 				}
 			]
 			title: "Aço Celeste"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7O metal que caiu do céu foi forjado no labirinto. A companhia pode vestir o que o Minotauro guardava."
 				""
@@ -3297,9 +3352,6 @@
 				count: 1
 				id: "asterion:cursed_brazier_key"
 			}
-			dependencies: [
-				"246F3661189B3CF9"
-			]
 			tasks: [
 				{
 					id: "5DC4C53B60598C56"
@@ -3342,7 +3394,7 @@
 				}
 			]
 			title: "As Catacumbas"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Abaixo do labirinto há catacumbas, um braseiro amaldiçoado e uma rainha de carapaça brilhante."
 				""
@@ -3360,9 +3412,6 @@
 				count: 1
 				id: "minecraft:netherite_block"
 			}
-			dependencies: [
-				"7CD24398D7E23DD7"
-			]
 			tasks: [
 				{
 					id: "59D66CE1409FF3B5"
@@ -3417,9 +3466,6 @@
 				count: 1
 				id: "minecraft:netherite_pickaxe"
 			}
-			dependencies: [
-				"2DFE7167F993CE53"
-			]
 			tasks: [
 				{
 					id: "4C84C1CAC5CAC74C"
@@ -3495,7 +3541,7 @@
 				}
 			]
 			title: "Ferramentas Eternas"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Ferramentas que não queimam, não quebram fácil e duram uma vida inteira. A enxada é pura vaidade."
 				""
@@ -3513,9 +3559,6 @@
 				count: 1
 				id: "minecraft:ancient_debris"
 			}
-			dependencies: [
-				"0BC0969B65A9EA3D"
-			]
 			tasks: [
 				{
 					id: "0A32C6BF8B99F0C6"
@@ -3555,7 +3598,7 @@
 				}
 			]
 			title: "Detritos Antigos"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Os detritos antigos não queimam nem na lava. Encontrar trinta e dois é cavar metade do Nether."
 				""
@@ -3573,9 +3616,6 @@
 				count: 1
 				id: "minecraft:blaze_rod"
 			}
-			dependencies: [
-				"7CD24398D7E23DD7"
-			]
 			tasks: [
 				{
 					id: "0881A15F8F73C9DD"
@@ -3638,9 +3678,6 @@
 				count: 1
 				id: "minecraft:nether_bricks"
 			}
-			dependencies: [
-				"091D9617B113AF38"
-			]
 			tasks: [
 				{
 					id: "3B34615202C5B999"
@@ -3669,7 +3706,7 @@
 				}
 			]
 			title: "Fortaleza e Bastião"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7No Nether há duas cidades: a dos esqueletos negros e a dos porcos de ouro. Visite as duas."
 				""
@@ -3687,9 +3724,6 @@
 				count: 1
 				id: "minecraft:crimson_nylium"
 			}
-			dependencies: [
-				"5039BF517A8DEAC7"
-			]
 			tasks: [
 				{
 					id: "5419F4D829959CCB"
@@ -3736,7 +3770,7 @@
 				}
 			]
 			title: "Paisagens do Inferno"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7O Nether não é um lugar só. Tem florestas vermelhas, florestas azuis, vales de almas e deltas de basalto."
 				""
@@ -3754,9 +3788,6 @@
 				count: 1
 				id: "minecraft:wither_skeleton_skull"
 			}
-			dependencies: [
-				"7CD24398D7E23DD7"
-			]
 			tasks: [
 				{
 					id: "10D5961D1CA0709A"
@@ -3799,9 +3830,6 @@
 				count: 1
 				id: "minecraft:golden_axe"
 			}
-			dependencies: [
-				"5A022CF1315F5F72"
-			]
 			tasks: [
 				{
 					id: "1482DA7E7E379F81"
@@ -3835,7 +3863,7 @@
 				}
 			]
 			title: "Os Brutos"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Os piglins brutos guardam os bastiões e não aceitam ouro. Nem conversa."
 				""
@@ -3853,9 +3881,6 @@
 				count: 1
 				id: "minecraft:cooked_porkchop"
 			}
-			dependencies: [
-				"5808FFDAFFC78940"
-			]
 			tasks: [
 				{
 					id: "6B0BFCBA20EF5F15"
@@ -3886,7 +3911,7 @@
 				}
 			]
 			title: "Caça ao Hoglin"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7As florestas carmesins são terra de hoglins. Para atravessar os mares de lava, só montado num strider."
 				""
@@ -3895,36 +3920,81 @@
 			optional: true
 		}
 		{
-			id: "6E8B7E3D0EE4A833"
+			id: "291CFF1ABED2A599"
 			x: 22.4d
 			y: 0.0d
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			icon: {
 				count: 1
-				id: "comamigos_balance:tier_heart_5"
+				id: "iceandfire:dragonsteel_fire_ingot"
 			}
-			dependencies: [
-				"7CD24398D7E23DD7"
-			]
 			tasks: [
 				{
-					id: "6F61EF4505793264"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
+					id: "17964A48271D2B58"
+					type: "kill"
+					entity: "iceandfire:fire_dragon"
+					value: 3L
+				}
+				{
+					id: "7472DF3566856C7C"
+					type: "kill"
+					entity: "iceandfire:ice_dragon"
+					value: 3L
+				}
+				{
+					id: "2DA9891E3768C156"
+					type: "kill"
+					entity: "iceandfire:lightning_dragon"
+					value: 3L
+				}
+				{
+					id: "59A822F4CC5BFBA0"
+					type: "item"
+					item: {
+						count: 1
+						id: "botania:terrasteel_block"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "36F518A252D81050"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "3166843D30E3728F"
+					type: "command"
+					title: "4 brasas de talento (+4 na Árvore de Talentos)"
 					icon: {
 						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 4"
+				}
+				{
+					id: "6C2F677CE136D19B"
+					type: "xp"
+					xp: 7000
 				}
 			]
-			rewards: [ ]
-			title: "&cTier V"
+			title: "Céu Sem Dragões"
+			subtitle: "&dGrande feito &8· &cTier V"
 			description: [
-				"&7Os desafios desta fileira foram pensados para o &cTier V&7, mas já podem ser começados: o que for juntado antes conta."
+				"&7Houve um tempo em que se olhava para cima com medo. A companhia resolveu isso do jeito mais trabalhoso."
+				""
+				"&dGrande feito:&r Derrote &63 dragões de cada sopro&r (&cfogo&r, &bgelo&r e &eraio&r) e junte &68 Blocos de Terrasteel&r."
+				""
+				"&8Seção pensada para o &cTier V&8."
 			]
-			disable_toast: true
+			optional: true
 		}
 		{
 			id: "7243D347E9C829AC"
@@ -3936,9 +4006,6 @@
 				count: 1
 				id: "iceandfire:dragonsteel_fire_ingot"
 			}
-			dependencies: [
-				"6E8B7E3D0EE4A833"
-			]
 			tasks: [
 				{
 					id: "132CDE5BFCA3C1EE"
@@ -4013,9 +4080,6 @@
 				count: 1
 				id: "iceandfire:dragonbone"
 			}
-			dependencies: [
-				"7243D347E9C829AC"
-			]
 			tasks: [
 				{
 					id: "4C224CB59D53F9C4"
@@ -4061,7 +4125,7 @@
 				}
 			]
 			title: "Os Três Ninhos"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Cada dragão tem o seu ninho: um de cinzas, um de gelo, um que crepita."
 				""
@@ -4079,9 +4143,6 @@
 				count: 1
 				id: "iceandfire:dragonsteel_fire_block"
 			}
-			dependencies: [
-				"690CEB78358779C2"
-			]
 			tasks: [
 				{
 					id: "6C8D0C5AEFE8BCB1"
@@ -4139,7 +4200,7 @@
 				}
 			]
 			title: "Aço de Dragão"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Sangue de dragão e ferro, forjados juntos. Um bloco de cada é uma fortuna que poucas companhias viram."
 				""
@@ -4157,9 +4218,6 @@
 				count: 1
 				id: "botania:terrasteel_block"
 			}
-			dependencies: [
-				"6E8B7E3D0EE4A833"
-			]
 			tasks: [
 				{
 					id: "7D5735A9FCEA67D2"
@@ -4226,9 +4284,6 @@
 				count: 1
 				id: "botania:elementium_block"
 			}
-			dependencies: [
-				"4E5F979E6658CC3C"
-			]
 			tasks: [
 				{
 					id: "0D5217CF29174AA1"
@@ -4277,7 +4332,7 @@
 				}
 			]
 			title: "Elementium"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7O metal das fadas é leve como a pena e firme como a promessa de um elfo."
 				""
@@ -4295,9 +4350,6 @@
 				count: 1
 				id: "botania:gaia_ingot"
 			}
-			dependencies: [
-				"1AE516D99DE6A9AE"
-			]
 			tasks: [
 				{
 					id: "2072B7F112200655"
@@ -4334,7 +4386,7 @@
 				}
 			]
 			title: "O Guardião de Gaia"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7O guardião de Gaia se divide, se multiplica e se cura. Duas vezes não é exagero: é treino."
 				""
@@ -4352,9 +4404,6 @@
 				count: 1
 				id: "minecraft:ghast_tear"
 			}
-			dependencies: [
-				"6E8B7E3D0EE4A833"
-			]
 			tasks: [
 				{
 					id: "2841FBE4388495D7"
@@ -4400,9 +4449,6 @@
 				count: 1
 				id: "minecraft:respawn_anchor"
 			}
-			dependencies: [
-				"18D1D67BF9A6A819"
-			]
 			tasks: [
 				{
 					id: "3D28212347744DA7"
@@ -4436,7 +4482,7 @@
 				}
 			]
 			title: "Âncora de Volta"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Morrer no Nether e voltar no Nether: a âncora é para quem não pretende ir embora."
 				""
@@ -4454,9 +4500,6 @@
 				count: 1
 				id: "minecraft:gilded_blackstone"
 			}
-			dependencies: [
-				"7AD53C0F180F9833"
-			]
 			tasks: [
 				{
 					id: "615CCCC983797B7C"
@@ -4489,7 +4532,7 @@
 				}
 			]
 			title: "Ruínas Douradas"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Portais quebrados, pedra negra com veias de ouro: alguém já passou por aqui antes, e não voltou."
 				""
@@ -4507,9 +4550,6 @@
 				count: 1
 				id: "minecraft:crossbow"
 			}
-			dependencies: [
-				"6E8B7E3D0EE4A833"
-			]
 			tasks: [
 				{
 					id: "43466DAA45D7851C"
@@ -4558,9 +4598,6 @@
 				count: 1
 				id: "minecraft:crossbow"
 			}
-			dependencies: [
-				"2755B75A7EF67A1F"
-			]
 			tasks: [
 				{
 					id: "7A5D47A6FA351D88"
@@ -4590,7 +4627,7 @@
 				}
 			]
 			title: "O Posto Avançado"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Os saqueadores têm torres de vigia. De lá saem as patrulhas, e para lá voltam os prisioneiros."
 				""
@@ -4608,9 +4645,6 @@
 				count: 1
 				id: "minecraft:ominous_bottle"
 			}
-			dependencies: [
-				"0AA249946F1FB691"
-			]
 			tasks: [
 				{
 					id: "6ECA91E1784D7C4B"
@@ -4649,7 +4683,7 @@
 				}
 			]
 			title: "A Grande Invasão"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Beba o mau presságio, entre numa vila e espere. Eles vêm em ondas, com feras de chifre na frente."
 				""
@@ -4658,36 +4692,104 @@
 			optional: true
 		}
 		{
-			id: "1C515189775191B2"
+			id: "762A96967D3352A7"
 			x: 28.0d
 			y: 0.0d
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			icon: {
 				count: 1
-				id: "comamigos_balance:tier_heart_6"
+				id: "cataclysm:ignitium_ingot"
 			}
-			dependencies: [
-				"6E8B7E3D0EE4A833"
-			]
 			tasks: [
 				{
-					id: "7B264A01231242D1"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_6"
-					}
+					id: "0D91A0830045BA19"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 2L
+				}
+				{
+					id: "16120EEB4EFE08DE"
+					type: "kill"
+					entity: "cataclysm:netherite_monstrosity"
+					value: 2L
+				}
+				{
+					id: "7A4A5B1B54B375C2"
+					type: "kill"
+					entity: "cataclysm:the_harbinger"
+					value: 2L
+				}
+				{
+					id: "3EB8BF19519A8084"
+					type: "kill"
+					entity: "cataclysm:the_leviathan"
+					value: 2L
+				}
+				{
+					id: "0A6729C30690F5BC"
+					type: "kill"
+					entity: "cataclysm:ancient_remnant"
+					value: 2L
+				}
+				{
+					id: "4C86DD37A0067174"
+					type: "kill"
+					entity: "cataclysm:maledictus"
+					value: 2L
+				}
+				{
+					id: "19EABD4B09B3AD72"
+					type: "kill"
+					entity: "cataclysm:scylla"
+					value: 2L
 				}
 			]
-			rewards: [ ]
-			title: "&5Tier VI"
-			description: [
-				"&7Os desafios desta fileira foram pensados para o &5Tier VI&7, mas já podem ser começados: o que for juntado antes conta."
+			rewards: [
+				{
+					id: "2289D076B9ADD1C8"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "5EF72F737FC18AD7"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_lendaria"
+					}
+				}
+				{
+					id: "6891CF9AA53BCD15"
+					type: "command"
+					title: "4 brasas de talento (+4 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 4"
+				}
+				{
+					id: "75E1D9BE1A29E7E0"
+					type: "xp"
+					xp: 10000
+				}
 			]
-			disable_toast: true
+			title: "O Segundo Cataclismo"
+			subtitle: "&dGrande feito &8· &5Tier VI"
+			description: [
+				"&7Da primeira vez podia ter sido sorte. Os titãs também pensaram assim, e voltaram para conferir."
+				""
+				"&dGrande feito:&r Derrote &6cada um dos sete titãs duas vezes&r: Ignis, Monstruosidade de Netherita, Arauto, Leviatã, Remanescente Antigo, Maledictus e Scylla."
+				""
+				"&8Seção pensada para o &5Tier VI&8."
+			]
+			optional: true
 		}
 		{
 			id: "4EEAF75C97664641"
@@ -4699,9 +4801,6 @@
 				count: 1
 				id: "cataclysm:ignitium_ingot"
 			}
-			dependencies: [
-				"1C515189775191B2"
-			]
 			tasks: [
 				{
 					id: "7A3F5317F48A71E0"
@@ -4800,9 +4899,6 @@
 				count: 1
 				id: "cataclysm:ancient_metal_ingot"
 			}
-			dependencies: [
-				"4EEAF75C97664641"
-			]
 			tasks: [
 				{
 					id: "419403BB3152ED73"
@@ -4871,7 +4967,7 @@
 				}
 			]
 			title: "Peregrino das Ruínas"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Antes dos titãs acordarem, eles dormiam em lugares: uma acrópole, uma fábrica, uma prisão de gelo, uma pirâmide, uma cidade afundada, uma cidadela."
 				""
@@ -4889,9 +4985,6 @@
 				count: 1
 				id: "cataclysm:cursium_ingot"
 			}
-			dependencies: [
-				"03FD3825A2876DB2"
-			]
 			tasks: [
 				{
 					id: "055B8E3BEBBDEB17"
@@ -4949,7 +5042,7 @@
 				}
 			]
 			title: "Fundidor de Titãs"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Os metais dos titãs não se deixam fundir por qualquer forja."
 				""
@@ -4967,9 +5060,6 @@
 				count: 1
 				id: "irons_spellbooks:legendary_ink"
 			}
-			dependencies: [
-				"1C515189775191B2"
-			]
 			tasks: [
 				{
 					id: "03E7F382CEAFB551"
@@ -5041,9 +5131,6 @@
 				count: 1
 				id: "irons_spellbooks:arcane_essence"
 			}
-			dependencies: [
-				"749E5E83CB145084"
-			]
 			tasks: [
 				{
 					id: "220BB6B87EFC1D99"
@@ -5080,7 +5167,7 @@
 				}
 			]
 			title: "Essências Raras"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7A essência arcana é o pó do qual a magia é feita. A essência de brasa é o que sobra quando ela queima."
 				""
@@ -5098,9 +5185,6 @@
 				count: 1
 				id: "irons_spellbooks:dead_king_phylactery"
 			}
-			dependencies: [
-				"263A3AEDFD23AE81"
-			]
 			tasks: [
 				{
 					id: "01F8B76794BBCC2E"
@@ -5137,7 +5221,7 @@
 				}
 			]
 			title: "O Rei Morto, Outra Vez"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7O Rei Morto dorme nas catacumbas, mas não dorme muito bem."
 				""
@@ -5155,9 +5239,6 @@
 				count: 1
 				id: "minecraft:prismarine_shard"
 			}
-			dependencies: [
-				"1C515189775191B2"
-			]
 			tasks: [
 				{
 					id: "21A730E6B566118F"
@@ -5217,9 +5298,6 @@
 				count: 1
 				id: "minecraft:prismarine_bricks"
 			}
-			dependencies: [
-				"1F172D480EE206A9"
-			]
 			tasks: [
 				{
 					id: "118AEA0578497BB8"
@@ -5249,7 +5327,7 @@
 				}
 			]
 			title: "O Templo Submerso"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7O templo do mar tem três anciões. Enquanto viverem, ninguém respira lá dentro por muito tempo."
 				""
@@ -5267,9 +5345,6 @@
 				count: 1
 				id: "minecraft:heart_of_the_sea"
 			}
-			dependencies: [
-				"1BF69FA1E53CD0D4"
-			]
 			tasks: [
 				{
 					id: "221D1521E4C1F898"
@@ -5306,7 +5381,7 @@
 				}
 			]
 			title: "O Coração do Mar"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Mapas de tesouro levam a baús enterrados. Num deles, há um coração que pulsa como maré."
 				""
@@ -5315,36 +5390,80 @@
 			optional: true
 		}
 		{
-			id: "6C47CA292E49F033"
+			id: "1A10EC2C909023CF"
 			x: 33.6d
 			y: 0.0d
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			icon: {
 				count: 1
-				id: "comamigos_balance:tier_heart_7"
+				id: "minecraft:dragon_head"
 			}
-			dependencies: [
-				"1C515189775191B2"
-			]
 			tasks: [
 				{
-					id: "1C6B9CB3F2AA043E"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_7"
-					}
+					id: "3A1546F751680B6A"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 6L
+				}
+				{
+					id: "0E625F45763DAC18"
+					type: "kill"
+					entity: "minecraft:shulker"
+					value: 50L
+				}
+				{
+					id: "20424D20BC836124"
+					type: "kill"
+					entity: "minecraft:enderman"
+					value: 200L
 				}
 			]
-			rewards: [ ]
-			title: "&dTier VII"
-			description: [
-				"&7Os desafios desta fileira foram pensados para o &dTier VII&7, mas já podem ser começados: o que for juntado antes conta."
+			rewards: [
+				{
+					id: "10815BFF09A115B3"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "655A2CF60033B6B1"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "2B10E17219FA8D7C"
+					type: "command"
+					title: "4 brasas de talento (+4 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 4"
+				}
+				{
+					id: "00A9C97F499DAA6D"
+					type: "xp"
+					xp: 12000
+				}
 			]
-			disable_toast: true
+			title: "Dono do Fim"
+			subtitle: "&dGrande feito &8· &dTier VII"
+			description: [
+				"&7O End era o lugar onde as coisas acabavam. Agora é só mais um quintal da companhia."
+				""
+				"&dGrande feito:&r Derrote o &5Dragão do End&r seis vezes, &650 shulkers&r e &6200 andarilhos do vazio&r."
+				""
+				"&8Seção pensada para o &dTier VII&8."
+			]
+			optional: true
 		}
 		{
 			id: "15E093067C5033D8"
@@ -5356,9 +5475,6 @@
 				count: 1
 				id: "minecraft:dragon_egg"
 			}
-			dependencies: [
-				"6C47CA292E49F033"
-			]
 			tasks: [
 				{
 					id: "4C89C0D4A4C5D97D"
@@ -5422,9 +5538,6 @@
 				count: 1
 				id: "minecraft:purpur_block"
 			}
-			dependencies: [
-				"15E093067C5033D8"
-			]
 			tasks: [
 				{
 					id: "12ACD3913D83AA92"
@@ -5453,7 +5566,7 @@
 				}
 			]
 			title: "Cidades no Céu Vazio"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Além das ilhas há torres roxas flutuando no vazio, e portais que levam de volta para casa."
 				""
@@ -5471,9 +5584,6 @@
 				count: 1
 				id: "minecraft:dragon_head"
 			}
-			dependencies: [
-				"6AC7164D7A6875C6"
-			]
 			tasks: [
 				{
 					id: "22A6987208AFA819"
@@ -5523,7 +5633,7 @@
 				}
 			]
 			title: "O Ninho do Dragão"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7O dragão do End não nasceu do nada. Em algum lugar há um ninho, e um covil de onde ele saiu."
 				""
@@ -5541,9 +5651,6 @@
 				count: 1
 				id: "minecraft:shulker_shell"
 			}
-			dependencies: [
-				"6C47CA292E49F033"
-			]
 			tasks: [
 				{
 					id: "11B76D72B37B2B4D"
@@ -5598,9 +5705,6 @@
 				count: 1
 				id: "minecraft:elytra"
 			}
-			dependencies: [
-				"60977B8FA7C19E33"
-			]
 			tasks: [
 				{
 					id: "756DF47F34711CD3"
@@ -5642,7 +5746,7 @@
 				}
 			]
 			title: "Asas Emprestadas"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Nos navios das cidades do End há asas guardadas. Quem as veste aprende a cair com estilo."
 				""
@@ -5660,9 +5764,6 @@
 				count: 1
 				id: "minecraft:chorus_flower"
 			}
-			dependencies: [
-				"60A08940105577D6"
-			]
 			tasks: [
 				{
 					id: "4B2FBB9C59C7A1CE"
@@ -5701,7 +5802,7 @@
 				}
 			]
 			title: "Os Desertos do Fim"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7O End não é só pedra e vazio. Depois das ilhas há florestas de ametista, penhascos de cristal e dunas que mudam de cor."
 				""
@@ -5710,36 +5811,111 @@
 			optional: true
 		}
 		{
-			id: "72AFF2C75913BD2F"
+			id: "2EE0300AA24BF158"
 			x: 39.2d
 			y: 0.0d
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			icon: {
 				count: 1
-				id: "comamigos_balance:tier_heart_8"
+				id: "minecraft:nether_star"
 			}
-			dependencies: [
-				"6C47CA292E49F033"
-			]
 			tasks: [
 				{
-					id: "74A0F252763D8171"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
+					id: "284D1D19A2FEAB1D"
+					type: "kill"
+					entity: "bosses_of_mass_destruction:lich"
+					value: 3L
+				}
+				{
+					id: "4147A4ABF541E6BC"
+					type: "kill"
+					entity: "bosses_of_mass_destruction:gauntlet"
+					value: 3L
+				}
+				{
+					id: "00A88E3F2A9846D9"
+					type: "kill"
+					entity: "bosses_of_mass_destruction:void_blossom"
+					value: 3L
+				}
+				{
+					id: "3306BE7033D58977"
+					type: "kill"
+					entity: "bosses_of_mass_destruction:obsidilith"
+					value: 3L
+				}
+				{
+					id: "5635E28022952AAD"
+					type: "item"
+					item: {
 						count: 1
-						id: "comamigos_balance:tier_heart_8"
+						id: "minecraft:beacon"
 					}
+					count: 4L
 				}
 			]
-			rewards: [ ]
-			title: "&eTier VIII"
-			description: [
-				"&7Os desafios desta fileira foram pensados para o &eTier VIII&7, mas já podem ser começados: o que for juntado antes conta."
+			rewards: [
+				{
+					id: "53A9FA9B6E63D849"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "28DA31AD9B311E95"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "6D64729C2C7BF3B4"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:loot_bag_mitica"
+					}
+				}
+				{
+					id: "261E6C27286321ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "comamigos_balance:respec_tome"
+					}
+				}
+				{
+					id: "14460105FED1173E"
+					type: "command"
+					title: "6 brasas de talento (+6 na Árvore de Talentos)"
+					icon: {
+						count: 1
+						id: "comamigos_balance:tier_heart_5"
+					}
+					elevate_perms: true
+					silent: true
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 6"
+				}
+				{
+					id: "20D377D0460EE514"
+					type: "xp"
+					xp: 20000
+				}
 			]
-			disable_toast: true
+			title: "Além da Vitória"
+			subtitle: "&dGrande feito &8· &eTier VIII"
+			description: [
+				"&7A jornada tinha um fim. A companhia chegou nele, olhou em volta e decidiu continuar."
+				""
+				"&dGrande feito:&r Derrote o &bLich Noturno&r, a &cManopla do Nether&r, a &5Flor do Vazio&r e o &8Obsidilith&r, &6três vezes cada&r, e junte &64 Faróis&r."
+				""
+				"&8Seção pensada para o &eTier VIII&8."
+			]
+			optional: true
 		}
 		{
 			id: "5E92EB04A0C74709"
@@ -5751,9 +5927,6 @@
 				count: 1
 				id: "minecraft:crying_obsidian"
 			}
-			dependencies: [
-				"72AFF2C75913BD2F"
-			]
 			tasks: [
 				{
 					id: "75559A98BFEBA714"
@@ -5834,9 +6007,6 @@
 				count: 1
 				id: "minecraft:crying_obsidian"
 			}
-			dependencies: [
-				"5E92EB04A0C74709"
-			]
 			tasks: [
 				{
 					id: "485F3CD606CB2981"
@@ -5887,7 +6057,7 @@
 				}
 			]
 			title: "As Arenas dos Guardiões"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Cada guardião tinha a sua casa: uma torre gelada, uma arena de fogo, uma caverna no fundo do mundo e um altar no fim de tudo."
 				""
@@ -5905,9 +6075,6 @@
 				count: 1
 				id: "minecraft:totem_of_undying"
 			}
-			dependencies: [
-				"5282774F7923BD89"
-			]
 			tasks: [
 				{
 					id: "02F647E9B1DB3491"
@@ -5944,7 +6111,7 @@
 				}
 			]
 			title: "Lenda Viva"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Cinco mil criaturas derrubadas. A companhia já não precisa contar histórias: as histórias contam a companhia."
 				""
@@ -5962,9 +6129,6 @@
 				count: 1
 				id: "minecraft:beacon"
 			}
-			dependencies: [
-				"72AFF2C75913BD2F"
-			]
 			tasks: [
 				{
 					id: "653E6E9BD43BE647"
@@ -6049,9 +6213,6 @@
 				count: 1
 				id: "minecraft:mace"
 			}
-			dependencies: [
-				"59F5E8E27EB7F1D6"
-			]
 			tasks: [
 				{
 					id: "2534A3A7F5EE0B0A"
@@ -6100,7 +6261,7 @@
 				}
 			]
 			title: "Armas dos Antigos"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Um martelo que pesa mais a cada queda e um tridente que volta para a mão. Armas que o mundo não fabrica mais."
 				""
@@ -6118,9 +6279,6 @@
 				count: 1
 				id: "minecraft:clock"
 			}
-			dependencies: [
-				"1FCAE056274063A8"
-			]
 			tasks: [
 				{
 					id: "7CC4B1C51EBB1621"
@@ -6157,7 +6315,7 @@
 				}
 			]
 			title: "Cem Horas Juntos"
-			subtitle: "&6Desafio &8(continuação)"
+			subtitle: "&6Desafio"
 			description: [
 				"&7Cem horas de caminhada, de brigas, de risadas e de mortes bobas. A companhia virou família."
 				""
@@ -6175,9 +6333,6 @@
 				count: 1
 				id: "minecraft:end_crystal"
 			}
-			dependencies: [
-				"72AFF2C75913BD2F"
-			]
 			tasks: [
 				{
 					id: "543AC10677DE512C"
@@ -6223,9 +6378,6 @@
 				count: 1
 				id: "minecraft:dragon_breath"
 			}
-			dependencies: [
-				"76E5B2074450681B"
-			]
 			tasks: [
 				{
 					id: "6C8D672D516B5A70"
@@ -6258,7 +6410,7 @@
 				}
 			]
 			title: "Espinhos de Obsidiana"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Os espinhos que sustentam os cristais ainda estão de pé. O hálito do dragão ainda flutua no ar."
 				""
@@ -6276,9 +6428,6 @@
 				count: 1
 				id: "minecraft:jukebox"
 			}
-			dependencies: [
-				"622EB1BB1785CC4D"
-			]
 			tasks: [
 				{
 					id: "1A863E42D46D6DB7"
@@ -6423,7 +6572,7 @@
 				}
 			]
 			title: "A Discoteca"
-			subtitle: "&aDesafio simples &8(continuação)"
+			subtitle: "&aDesafio simples"
 			description: [
 				"&7Catorze canções espalhadas pelo mundo: em baús, em ruínas, nas mãos de creepers azarados."
 				"&7Uma companhia que chegou até aqui merece música."
@@ -6436,5 +6585,903 @@
 	title: "&6Desafios"
 	subtitle: [
 		"Feitos difíceis para quem quer mais: nada aqui é obrigatório"
+	]
+	images: [
+		{
+			x: 18.099999999999998d
+			y: 0.0d
+			width: 42.199999999999996d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.7d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.7d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.85d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.85d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 1.15d
+			width: 3.4d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -1.15d
+			width: 1.7d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.8999999999999995d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.6d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.3d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.75d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.449999999999999d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.6d
+			y: 0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.6d
+			y: 1.15d
+			width: 3.4000000000000004d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.6d
+			y: -0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.6d
+			y: -1.15d
+			width: 1.6999999999999993d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.35d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.049999999999999d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.35d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.049999999999999d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.2d
+			y: 0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.2d
+			y: 1.15d
+			width: 1.6999999999999993d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.2d
+			y: -0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.2d
+			y: -1.15d
+			width: 1.6999999999999993d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.099999999999998d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.799999999999997d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 18.499999999999996d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.949999999999998d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 17.65d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.799999999999997d
+			y: 0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.799999999999997d
+			y: 1.15d
+			width: 3.3999999999999986d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.799999999999997d
+			y: -0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.799999999999997d
+			y: -1.15d
+			width: 1.700000000000001d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 21.549999999999997d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 23.25d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 21.549999999999997d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 23.25d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 22.4d
+			y: 0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 22.4d
+			y: 1.15d
+			width: 1.7000000000000028d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 22.4d
+			y: -0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 22.4d
+			y: -1.15d
+			width: 1.7000000000000028d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 27.15d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 28.85d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 28.0d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 28.0d
+			y: 0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 28.0d
+			y: 1.15d
+			width: 1.7000000000000028d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 28.0d
+			y: -0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 28.0d
+			y: -1.15d
+			width: 0.07d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 33.6d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 33.6d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 33.6d
+			y: 0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 33.6d
+			y: 1.15d
+			width: 0.07d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 33.6d
+			y: -0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 33.6d
+			y: -1.15d
+			width: 0.07d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 38.35d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 40.050000000000004d
+			y: 3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 39.2d
+			y: -3.7249999999999996d
+			width: 0.07d
+			height: 5.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 39.2d
+			y: 0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 39.2d
+			y: 1.15d
+			width: 1.7000000000000028d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 39.2d
+			y: -0.575d
+			width: 0.07d
+			height: 1.15d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 39.2d
+			y: -1.15d
+			width: 0.07d
+			height: 0.07d
+			rotation: 0.0d
+			image: "minecraft:textures/block/light_gray_concrete.png"
+			alpha: 90
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 }

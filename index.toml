@@ -542,7 +542,7 @@ hash = "0724139777a7a499a111d11ae1cc0cdd2928da7324083e49cea8ee11ca62fb3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "7db42fc17b91568a0ae630c5616def534996fd3dbf9ec3708e7d0b2bcd095d58"
+hash = "4e51489e5985ff1f2385cc9c81b6313a79bbf0889e1adb6aa9fc160f86096644"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1174,7 +1174,7 @@ hash = "e25ac8cbb2e98c3753b51b40bc58c67bd1df572547572da08ce729e16f81ed56"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "158a4117c91e7b27be91a281e5c7232c08a791cc6bb2f557ac115d4433852726"
+hash = "469dc688843410f4123643dc4ad08a07b114e4e31440c7d8b49918dbee2a0d4d"
 
 [[files]]
 file = "config/biomeparticleweather/config.txt"
@@ -1194,7 +1194,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "4e644f8324221022aed71d39b3d56a6cd189d5bd3f67c4aa72b889fb208421da"
+hash = "6fb6ff3e2cb4d1c47431b2e9fb48090fd985e0b43777949ec0c346cda85e532d"
 
 [[files]]
 file = "config/block_factorys_bosses-client.toml"
@@ -1274,7 +1274,7 @@ hash = "a1772af826a1a6f16cc7a54fdfbfe7a944b155eabb12e7fb569e63179068eea0"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "170696277696a76c113c63f7b1fddec8f2750d18f960c3edca750098adfce196"
+hash = "3174603dba395d15b840dfce3bfbe103f2f02b343a33412e6f14ccbce8f64b01"
 
 [[files]]
 file = "config/cistj.json"
@@ -1642,7 +1642,7 @@ hash = "1d7075ca7221200f93e75e525781d1605537ce655d96a5e7313187614319d7ef"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e5d3f3519ef69e197bd657595eeb1bb64ccbc75756f7323fcfbf699103701e50"
+hash = "799fdd6c964a907ecd51fbdd18a3441da26c5cf7d98468bbfbc0fa65de745e01"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1838,7 +1838,7 @@ hash = "d6b3d6ba923e14d1a120cdfb00bcc13c6e7459cc122944fd7c7427e34ebc18dd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/desafios.snbt"
-hash = "84c560729b5dfd81d9f7c5f06c4cc4896d883903d3858d7bc898bb9982e14584"
+hash = "fae29556687f337a895234e6ac02823b3e484f1eaaf90fc970491e05ed289716"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mod_aquamirae_missoes.snbt"
@@ -1958,11 +1958,11 @@ hash = "235afdde7384dde68cdbe66b0e2f97c5bb679ded13e762b6c5a65c11a275acb9"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "7da434493a29fee5892b7b193fca2186bb240eaada6058ebc5fe89d584d3a54c"
+hash = "1970aee0f08f6784ce24ddd12b359ffd3b156c2cfc58a69b7318a2bdbf4b5840"
 
 [[files]]
 file = "config/ftbquests/quests/lang/pt_br.snbt"
-hash = "7da434493a29fee5892b7b193fca2186bb240eaada6058ebc5fe89d584d3a54c"
+hash = "1970aee0f08f6784ce24ddd12b359ffd3b156c2cfc58a69b7318a2bdbf4b5840"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1986,7 +1986,7 @@ hash = "05361b072f6474dee8cd25b49ff59b630953966ceb4de4993e30f16c6a9907f9"
 
 [[files]]
 file = "config/handson_delight.properties"
-hash = "2e32a9bb70eb91e0122d54e4d0bb9f1c36d0703ced74786db2eb316448cac321"
+hash = "c4bcd250122a42677e51585ee237f4edcbc26818aa72dad2bdfb3b464bd8abd0"
 
 [[files]]
 file = "config/heartforge/bornal_mao.txt"
@@ -2070,7 +2070,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "843d071e3fa06154c3d33c07e9d0ee88f12c39edbd58406051125d48b7d9f403"
+hash = "a43c1cf8a808769736eef3c629b8fec45671f1f0f93c438c02d0e47ccfda7fc6"
 preserve = true
 
 [[files]]
@@ -2279,7 +2279,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "9c92157a2999d62e00e4742f8da7779bf2bf7f49fbcd6accbd28ec678994eb52"
+hash = "e7e1eb9ab2319dad395dc92b645c666e04ca0591172ee593625e371643ac2bef"
 
 [[files]]
 file = "config/lithium.properties"
@@ -2763,7 +2763,7 @@ hash = "8e8b58cdda9ca683eaf6923e901341bb1f44e0fbb4fccad4d7db760629072662"
 
 [[files]]
 file = "config/respackopts/_respackopts.conf"
-hash = "20ec40bd848de64dbb03f20e5868608f23b33d0232170c64246b9d688b493747"
+hash = "8e42c76481421e2b3f3c83481e3920319b78b69c6c987e02e4c52bc7ea4e1be4"
 
 [[files]]
 file = "config/respackopts/armoredLegacy.json"
@@ -2879,7 +2879,7 @@ hash = "9f2e3cc1cd587fd9de6fd4a068e4c247fde401d3fc6fd9a0da36627ddc5611a3"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "31c80358007f14998b3c2293bc4f7c0ace31a3b3a2f0fa0bac9ff891c5ddf2dc"
+hash = "8404bc7a43f729bfac04069d4a7f187db2e72e203a1164aac3742ac5d2caf500"
 
 [[files]]
 file = "config/scalablelux.properties"
@@ -3535,7 +3535,7 @@ hash = "bf179c73f8a353cce83f54a59696643e4d678b0ccb07d84dfd457e6e8b9190b8"
 
 [[files]]
 file = "emi.json"
-hash = "8683e317f11e8fd4baa978a37fe9fcbd595b80fd77f663ba4291615ae2b857ca"
+hash = "05f69862f736f2c96f8e9d01eba5751e9dadabe9b142f122414e2aa6e4e5747d"
 
 [[files]]
 file = "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.pw.toml"
@@ -4317,7 +4317,7 @@ hash = "18d586d964bd4b7bb7e37f9b0bbfae1dff34eca8cd4ae10980d57b5e51adaba2"
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "d37d61d5853ce323e57a7dbf249ec04d1f08339f4f055643b5db47f2e9e9369c"
+hash = "70fda32254a9e2c4dcfd164474cc111fe7094567bb8709b0201a86f8b6bf0de8"
 
 [[files]]
 file = "mods/hoofprint-1.3.0+1.21.pw.toml"
@@ -10104,7 +10104,7 @@ hash = "da0929b38f5fd99befaaa8cd141cbf60e1fad05b92d916d0eeeee7c79f86c0fd"
 
 [[files]]
 file = "shaderpacks/photon_v1.4.zip.txt"
-hash = "912b6a367d1db16ef92c5c59baa2ec3991238e5d747198fe8911f03219c3cc70"
+hash = "b8f8a899cd5b291c25887f58e23d35b06f440d202b7ba93a0ee15977e2776e21"
 
 [[files]]
 file = "shaderpacks/rethinking-voxels_r0.1-beta9.zip"
