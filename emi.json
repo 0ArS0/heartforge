@@ -42,6 +42,7 @@
     }
   ],
   "lookup_history": [
+    "item:irons_spellbooks:ancient_knowledge_fragment",
     "item:vampirism:oil_bottle{\"vampirism:oil_contents\":{oil:\"vampirism:vampire_blood\"}}",
     "item:vampirism:oil_bottle{\"minecraft:custom_data\":{oil:\"vampirism:plant\"}}",
     {
