@@ -1,5 +1,5 @@
 {
-  "isCrouchMiningAllowed": true,
+  "isCrouchMiningAllowed": false,
   "multiplyToolDamage": true,
   "multiplyFoodExhaustion": true,
   "leafParticleLifeTimeLength": 1.0,

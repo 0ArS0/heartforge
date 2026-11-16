@@ -1550,7 +1550,7 @@ hash = "e3d77311435b43fba8fc7688d3314b694edf06f46ef2f8e05cb42e0d07acb445"
 
 [[files]]
 file = "config/efallingtrees_common.json"
-hash = "e5fff87160dffdd50c16497f7dad901772bb67f464e19e510af77cc0ddcf6365"
+hash = "a0632bfe5536c4b8fcb937dc99e20d33fffdb8c701add56a98a0a115ca2e1a59"
 
 [[files]]
 file = "config/effective.json"
@@ -2775,7 +2775,7 @@ hash = "8e8b58cdda9ca683eaf6923e901341bb1f44e0fbb4fccad4d7db760629072662"
 
 [[files]]
 file = "config/respackopts/_respackopts.conf"
-hash = "20ec40bd848de64dbb03f20e5868608f23b33d0232170c64246b9d688b493747"
+hash = "8e42c76481421e2b3f3c83481e3920319b78b69c6c987e02e4c52bc7ea4e1be4"
 
 [[files]]
 file = "config/respackopts/armoredLegacy.json"
@@ -4354,7 +4354,7 @@ hash = "18d586d964bd4b7bb7e37f9b0bbfae1dff34eca8cd4ae10980d57b5e51adaba2"
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "1ffd5b804c7a42099015f70c6acf6552edef3272bb7cefcae3aea348874432c8"
+hash = "78f70fc871016b2cc23cf73b6e312a38eb14935b6ba3095eabf533af95dafdf5"
 
 [[files]]
 file = "mods/hoofprint-1.3.0+1.21.pw.toml"
