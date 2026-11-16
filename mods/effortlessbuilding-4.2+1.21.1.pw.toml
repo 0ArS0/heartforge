@@ -1,0 +1,13 @@
+name = "effortlessbuilding-4.2+1.21.1"
+filename = "effortlessbuilding-4.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DYtfQEYj/versions/YxnBXtLv/effortlessbuilding-4.2%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "34af0d5e57f771fa9a37e6b1b5e59c38a03afd01"
+
+[update]
+[update.modrinth]
+mod-id = "DYtfQEYj"
+version = "YxnBXtLv"

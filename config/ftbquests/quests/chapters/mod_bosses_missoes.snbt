@@ -4,141 +4,81 @@
 	filename: "mod_bosses_missoes"
 	group: "429D481FF148D2D9"
 	icon: {
-		count: 1
 		id: "comamigos_balance:obsidilith_heart"
 	}
 	id: "12E72912A7C47274"
-	order_index: 23
+	images: [ ]
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "comamigos_balance:obsidilith_heart"
+			}
 			id: "4C92F85B977167DD"
-			x: -3.0d
-			y: 0.0d
+			rewards: [{
+				id: "497C42C8362213C4"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "square"
 			size: 2.0d
-			icon: {
-				count: 1
-				id: "comamigos_balance:obsidilith_heart"
-			}
-			tasks: [
-				{
-					id: "12AB5740C442B9AF"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "497C42C8362213C4"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "O Bestiário dos Reis"
-			description: [
-				"&7Há criaturas que não pertencem a nenhuma ordem, nenhum culto, nenhuma cidade afundada."
-				"&7Dormem em torres geladas, ninhos de areia, arenas de basalto e ilhas no fim do mundo,"
-				"&7e cada uma guarda no peito um &ccoração&7 que ainda pulsa depois da queda."
-				""
-				"&7Estes corações são troféus: podem ser comidos, e dão força ao preço de alguma maldição."
-				"&7Os chefes deste bestiário ensinam a esquivar: há uma tecla de &6rolamento&7 (2 cargas) nos controles."
-				"&7O último nome desta lista é o Obsidilith. Quem o derrubar no Tier VIII encerra a crônica."
-				""
-				"&7Comece pelo norte gelado: Skor, o Yeti, espera nas planícies nevadas."
-			]
+			tasks: [{
+				id: "12AB5740C442B9AF"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			id: "6A5696C386D1D04F"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["4C92F85B977167DD"]
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_2"
 			}
-			dependencies: [
-				"4C92F85B977167DD"
-			]
-			tasks: [
-				{
-					id: "1AD9FE851D3021C0"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_2"
-					}
+			id: "6A5696C386D1D04F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_2"
 				}
-			]
-			rewards: [ ]
-			title: "&aTier II&7 - Gelo e Marés"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
+				id: "1AD9FE851D3021C0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "2AFDA2BD935F2B76"
-			x: 2.0d
-			y: -0.8d
-			shape: "diamond"
+			dependencies: ["6A5696C386D1D04F"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:yeti_heart"
 			}
-			dependencies: [
-				"6A5696C386D1D04F"
-			]
-			tasks: [
-				{
-					id: "0BE694D91EF39CD3"
-					type: "kill"
-					entity: "block_factorys_bosses:yeti"
-					value: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "271A145777FFF53A"
-					type: "xp"
-					xp: 80
-				}
-			]
-			title: "Skor, o Yeti"
-			description: [
-				"&7Os caçadores do norte deixam oferendas de carne na borda das planícies brancas."
-				"&7Os que esquecem não voltam: Skor guarda seu covil cercado de esqueletos congelados."
-				""
-				"&6Objetivo:&r 1. Encontre o &6Esconderijo do Yeti&r nas &bPlanícies Nevadas&r e derrote &cSkor&r."
-				"&fEle salta, esmaga o chão e lança espinhos de gelo; mantenha distância quando ele ergue os braços."
-				"&fLeve o &ccoração de Skor&r como troféu: dá resistência e vida extra, mas pesa nas pernas."
-				""
-				"&8Use a tecla de rolamento: os espinhos de gelo seguem em linha reta."
-				"&8A manopla dele (Manopla de Skor) só serve de verdade a partir do Tier IV."
-			]
+			id: "2AFDA2BD935F2B76"
+			rewards: [{
+				id: "271A145777FFF53A"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				id: "0BE694D91EF39CD3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -0.8d
 		}
 		{
-			id: "597767509D240159"
-			x: 2.0d
-			y: 0.8d
-			shape: "diamond"
-			dependencies: [
-				"6A5696C386D1D04F"
-			]
+			dependencies: ["6A5696C386D1D04F"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:obsidilith_heart"
 			}
-			tasks: [
-				{
-					id: "282BA8DFD25F501B"
-					type: "kill"
-					entity: "minecraft:elder_guardian"
-					value: 1L
-				}
-			]
+			id: "597767509D240159"
+			optional: true
 			rewards: [
 				{
 					id: "004A1BAB935C99C9"
@@ -147,98 +87,54 @@
 				}
 				{
 					id: "6C71608BA6A0FCFD"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Ancião das Marés"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nos templos de prismarinho, três anciões pálidos amaldiçoam quem rouba suas águas."
-				"&7A maldição deles pesa nos braços: nenhuma picareta parece cortar."
-				""
-				"&6Objetivo:&r 1. Encontre um &6Monumento Oceânico&r e derrote um &cGuardião Ancião&r."
-				"&fA maldição causa Fadiga de Mineração: leve leite e respiração aquática."
-				""
-				"&8Os anciões deixam esponjas molhadas; seque-as numa fornalha."
-			]
-			optional: true
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "282BA8DFD25F501B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.8d
 		}
 		{
-			id: "605CA2DA263E9324"
-			x: 5.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_3"
-			}
 			dependencies: [
 				"2AFDA2BD935F2B76"
 				"597767509D240159"
 			]
-			tasks: [
-				{
-					id: "78E8355C7FBE9AA5"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_3"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III&7 - Lich, Verme e Cavaleiro"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "605CA2DA263E9324"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_3"
+				}
+				id: "78E8355C7FBE9AA5"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			id: "1C986091557ADA57"
-			x: 7.0d
-			y: -2.0d
-			shape: "diamond"
+			dependencies: ["605CA2DA263E9324"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:night_lich_heart"
 			}
-			dependencies: [
-				"605CA2DA263E9324"
-			]
-			tasks: [
-				{
-					id: "6F92C7AF89CCD9EA"
-					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:soul_star"
-					}
-					count: 4L
-				}
-				{
-					id: "67003598678B715F"
-					type: "kill"
-					entity: "bosses_of_mass_destruction:lich"
-					value: 1L
-				}
-				{
-					id: "0948CDB98455C169"
-					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:ancient_anima"
-					}
-					count: 2L
-				}
-			]
+			id: "1C986091557ADA57"
 			rewards: [
 				{
 					id: "272C09E270B5BE88"
@@ -247,51 +143,43 @@
 				}
 				{
 					id: "2BF4BBAB073AB95B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Lich Noturno"
-			description: [
-				"&7Cada morto-vivo que cai solta um fio de alma; quando cinquenta fios se juntam, nasce uma estrela pálida"
-				"&7que só sabe apontar para o norte gelado, onde uma torre range sobre um rio congelado."
-				"&7No topo vive quem odeia o sol a ponto de apagá-lo: enquanto o Lich vive, a noite não termina."
-				"&7O que sobra dele não é pó, é vontade cristalizada."
-				""
-				"&6Objetivo:&r 1. Abata mortos-vivos até juntar &64 Estrelas das Almas&r (cerca de uma a cada 50 abates)."
-				"&f2. Lance uma estrela como um Olho do Ender: ela voa até a &6Torre do Lich&r, sobre &bRios Congelados&r."
-				"&fSuba os andares, destrua os geradores e saqueie os baús."
-				"&f3. No topo, ponha estrelas nos &64 Altares de Pedra Cinzelada&r e derrote o &cLich Noturno&r."
-				"&fEle dispara mísseis que causam lentidão, chama cometas e convoca lacaios. Ataque sem parar: ele se cura quando ninguém o fere."
-				"&f4. Recolha &62 Ânimas Ancestrais&r: base da Mesa de Elevação, da Pérola Carregada e do Cajado de Supressão."
-				"&fSeu &ccoração&r dá resistência e queda lenta, mas deixa o corpo pesado."
-				""
-				"&8Arco ou magia ajudam muito: ele flutua e foge do alcance de espadas."
-			]
-		}
-		{
-			id: "2B24EF1C195A5E7B"
-			x: 7.0d
-			y: -0.4d
 			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:sandworm_heart"
-			}
-			dependencies: [
-				"605CA2DA263E9324"
-			]
 			tasks: [
 				{
-					id: "760F2DBCCCF0F743"
+					count: 4L
+					id: "6F92C7AF89CCD9EA"
+					item: { count: 1, id: "bosses_of_mass_destruction:soul_star" }
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "67003598678B715F"
 					type: "kill"
-					entity: "block_factorys_bosses:sandworm"
 					value: 1L
 				}
+				{
+					count: 2L
+					id: "0948CDB98455C169"
+					item: { count: 1, id: "bosses_of_mass_destruction:ancient_anima" }
+					type: "item"
+				}
 			]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["605CA2DA263E9324"]
+			icon: {
+				id: "comamigos_balance:sandworm_heart"
+			}
+			id: "2B24EF1C195A5E7B"
 			rewards: [
 				{
 					id: "5BF90F5D7BB0431A"
@@ -300,203 +188,99 @@
 				}
 				{
 					id: "63BE7D55667471D6"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Sirok, o Verme da Areia"
-			description: [
-				"&7O deserto respira. Quando as dunas afundam em círculo, Sirok está subindo."
-				"&7O ninho dele é cercado de ossadas de caravanas que pararam para descansar."
-				""
-				"&6Objetivo:&r 1. Ache o &6Ninho do Verme&r no &eDeserto&r e derrote &cSirok&r."
-				"&fEle mergulha, emerge debaixo de quem está parado e cospe veneno: nunca fique parado."
-				"&fO &ccoração de Sirok&r dá pressa nas mãos e uma fome que não passa."
-				""
-				"&8A armadura dele é alta: armas de dano bruto rendem mais que golpes rápidos."
-			]
+			shape: "diamond"
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				id: "760F2DBCCCF0F743"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -0.4d
 		}
 		{
-			id: "4631D9B94D147A7A"
-			x: 7.0d
-			y: 1.2d
-			shape: "diamond"
+			dependencies: ["605CA2DA263E9324"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:helvar_heart"
 			}
-			dependencies: [
-				"605CA2DA263E9324"
-			]
+			id: "4631D9B94D147A7A"
+			rewards: [{
+				id: "04FB6FB410DDA78A"
+				type: "xp"
+				xp: 330
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "79ABB911A9424185"
+					item: { count: 1, id: "block_factorys_bosses:underworld_arena_key" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:underworld_arena_key"
-					}
-					count: 1L
 				}
 				{
+					entity: "block_factorys_bosses:underworld_knight"
 					id: "31A80D84D006DEC4"
 					type: "kill"
-					entity: "block_factorys_bosses:underworld_knight"
 					value: 1L
 				}
 				{
 					id: "31CB0E916C83F85B"
+					item: { count: 1, id: "block_factorys_bosses:knight_sword" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:knight_sword"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "04FB6FB410DDA78A"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "Helvar, Cavaleiro do Submundo"
-			description: [
-				"&7Uma fortaleza de pontes e torres pendura-se sobre o vazio do Nether."
-				"&7Esqueletos de alma ainda patrulham as passarelas, fiéis a um cavaleiro que jurou guardar a arena até o fim do mundo."
-				"&7O mundo ainda não acabou. A lâmina dele corta duas vezes: uma no aço, outra no ar."
-				""
-				"&6Objetivo:&r 1. Encontre a &6Arena do Submundo&r (&cDesertos do Nether&r ou &cVale das Almas&r) e consiga a &6Chave da Arena&r"
-				"&fnos baús e cofres da fortaleza (ou, raramente, dos esqueletos de alma)."
-				"&f2. Abra a &6Porta da Arena&r e derrote &cHelvar&r. Ele marca o chão antes de golpear e lança ondas de corte: role quando a marca brilhar."
-				"&f3. Recolha a &6Espada de Helvar&r: o botão de uso lança um corte à distância."
-				"&fO &ccoração de Helvar&r dá força, ao preço de uma escuridão que turva a vista."
-				""
-				"&8O &cAr Escaldante&r cozinha quem pisa no Nether antes do Tier IV: vá preparado, seja rápido e volte logo."
-			]
+			x: 7.0d
+			y: 1.2d
 		}
 		{
+			dependencies: ["4631D9B94D147A7A"]
 			id: "038E7BDAED11F60F"
-			x: 9.0d
-			y: 0.4d
+			rewards: [{
+				id: "0974104F2B443835"
+				type: "xp"
+				xp: 550
+			}]
 			size: 1.25d
-			dependencies: [
-				"4631D9B94D147A7A"
-			]
 			tasks: [
 				{
 					id: "326228AB0BB03C4D"
+					item: { count: 1, id: "block_factorys_bosses:ancient_trial_key" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:ancient_trial_key"
-					}
-					count: 1L
 				}
 				{
 					id: "08582FBE20BA4F6E"
+					item: { count: 1, id: "block_factorys_bosses:knight_helmet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:knight_helmet"
-					}
-					count: 1L
 				}
 				{
 					id: "1A849F90E8DC3D54"
+					item: { count: 1, id: "block_factorys_bosses:knight_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:knight_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "45216DA030756F38"
+					item: { count: 1, id: "block_factorys_bosses:knight_leggings" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:knight_leggings"
-					}
-					count: 1L
 				}
 				{
 					id: "70B990ACAE4DA522"
+					item: { count: 1, id: "block_factorys_bosses:knight_boots" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:knight_boots"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "0974104F2B443835"
-					type: "xp"
-					xp: 550
-				}
-			]
-			title: "A armadura dos cavaleiros caídos"
-			description: [
-				"&7Os cavaleiros que caíram na arena deixaram as armaduras para quem tivesse coragem de buscá-las."
-				"&7Os melhores cofres só respondem a chaves forjadas pelos antigos guardas."
-				""
-				"&6Objetivo:&r 1. Obtenha uma &6Chave Ancestral&r, queda rara dos guardas esqueléticos da arena e da Torre do Dragão."
-				"&f2. Nos baús raros e cofres da Arena do Submundo ou da Torre do Dragão, reúna a &6Armadura de Cavaleiro&r:"
-				"&felmo, peitoral, calças e botas."
-			]
+			x: 9.0d
+			y: 0.4d
 		}
 		{
+			dependencies: ["4631D9B94D147A7A"]
 			id: "32D68BFB758FAFCA"
-			x: 9.0d
-			y: 2.0d
-			size: 1.25d
-			dependencies: [
-				"4631D9B94D147A7A"
-			]
-			tasks: [
-				{
-					id: "2F675EE387C811F8"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:large_sword"
-					}
-					count: 1L
-				}
-				{
-					id: "20F30909C4A59451"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:warrior_sword"
-					}
-					count: 1L
-				}
-				{
-					id: "63767950D63B1001"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:dagger"
-					}
-					count: 1L
-				}
-				{
-					id: "235703067D9CC50C"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:enhanced_shield"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "5B6ED42B610042E3"
@@ -505,611 +289,376 @@
 				}
 				{
 					id: "3DF36B3806790844"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Arsenal dos Guardas"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nem toda arma de chefe vem de um chefe. Algumas só esperam num baú empoeirado."
-				""
-				"&6Objetivo:&r 1. Junte as armas dos baús e cofres da arena e da Torre do Dragão:"
-				"&f&6Espada Grande&r, &6Espada de Guerreiro&r, &6Adaga&r e &6Escudo Reforçado&r."
+			size: 1.25d
+			tasks: [
+				{
+					id: "2F675EE387C811F8"
+					item: { count: 1, id: "block_factorys_bosses:large_sword" }
+					type: "item"
+				}
+				{
+					id: "20F30909C4A59451"
+					item: { count: 1, id: "block_factorys_bosses:warrior_sword" }
+					type: "item"
+				}
+				{
+					id: "63767950D63B1001"
+					item: { count: 1, id: "block_factorys_bosses:dagger" }
+					type: "item"
+				}
+				{
+					id: "235703067D9CC50C"
+					item: { count: 1, id: "block_factorys_bosses:enhanced_shield" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 9.0d
+			y: 2.0d
 		}
 		{
-			id: "75778A68E6287ABF"
-			x: 12.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_4"
-			}
 			dependencies: [
 				"038E7BDAED11F60F"
 				"32D68BFB758FAFCA"
 			]
-			tasks: [
-				{
-					id: "0173B03478896892"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_4"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV&7 - Wither e Cinzas"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "75778A68E6287ABF"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_4"
+				}
+				id: "0173B03478896892"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
 		}
 		{
-			id: "07E8765FDF4A9B9F"
-			x: 14.0d
-			y: -2.4d
-			shape: "diamond"
-			size: 1.25d
+			dependencies: ["75778A68E6287ABF"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:wither_heart"
 			}
-			dependencies: [
-				"75778A68E6287ABF"
-			]
+			id: "07E8765FDF4A9B9F"
+			rewards: [{
+				id: "782A8AFE86F33E52"
+				type: "xp"
+				xp: 560
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
-					id: "0B958B4C94B385D2"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:wither_skeleton_skull"
-					}
 					count: 3L
+					id: "0B958B4C94B385D2"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
 				}
 				{
-					id: "37176B00931596DA"
-					type: "advancement"
 					advancement: "minecraft:nether/summon_wither"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "comamigos_balance:wither_heart"
 					}
+					id: "37176B00931596DA"
+					type: "advancement"
 				}
 				{
+					entity: "minecraft:wither"
 					id: "7928EF9C790B42B8"
 					type: "kill"
-					entity: "minecraft:wither"
 					value: 1L
 				}
 				{
-					id: "79F57A1021DCD163"
-					type: "advancement"
 					advancement: "minecraft:nether/create_beacon"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "comamigos_balance:wither_heart"
 					}
+					id: "79F57A1021DCD163"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "782A8AFE86F33E52"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "&4O Wither"
-			description: [
-				"&7Nas fortalezas do Nether, os esqueletos murchos carregam a cabeça do pior pesadelo do mundo."
-				"&7Quatro blocos de areia das almas em T e três crânios no topo: os antigos proibiram esse desenho."
-				"&7Três cabeças, uma fome. Seu coração é a pedra angular do Coração do Tier V: sem ele, o grupo não sobe."
-				"&7A estrela que ele deixa ainda brilha, e os sábios a prendem num farol."
-				""
-				"&6Objetivo:&r 1. Derrote &cEsqueletos Wither&r nas &6Fortalezas do Nether&r até juntar &63 crânios&r (Pilhagem ajuda)."
-				"&f2. Monte um &6T de Areia das Almas&r (ou Terra das Almas), ponha os crânios em cima e invoque o &cWither&r longe de casa."
-				"&f3. Derrote o &cWither&r. Com metade da vida, ele cria uma armadura que repele flechas: troque para a espada."
-				"&fGuarde o &ccoração do Wither&r: é o &6coração-chave do Tier IV&r. Comido, dá resistência e absorção, mas deixa o veneno wither no sangue."
-				"&f4. Use a &6Estrela do Nether&r num &6Sinalizador&r sobre uma pirâmide de blocos de minério."
-				""
-				"&8Leite cura o efeito wither. Lute no subsolo ou numa arena de obsidiana para limitar os voos dele."
-				"&8Uma Estrela do Nether também desperta o Arauto e entra no Orbe Sombrio: mate o Wither mais de uma vez."
-			]
+			x: 14.0d
+			y: -2.4d
 		}
 		{
-			id: "7F539B48DED44B0D"
-			x: 14.0d
-			y: -0.8d
-			shape: "diamond"
+			dependencies: ["75778A68E6287ABF"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:gauntlet_heart"
 			}
-			dependencies: [
-				"75778A68E6287ABF"
-			]
+			id: "7F539B48DED44B0D"
+			rewards: [{
+				id: "2881F3AB0A4E7593"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "bosses_of_mass_destruction:gauntlet"
 					id: "1E06DA0AE15A35CB"
 					type: "kill"
-					entity: "bosses_of_mass_destruction:gauntlet"
 					value: 1L
 				}
 				{
 					id: "1BD360CB97AB7660"
+					item: { count: 1, id: "bosses_of_mass_destruction:blazing_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:blazing_eye"
-					}
-					count: 1L
 				}
 				{
 					id: "536E0BF131239689"
+					item: { count: 1, id: "bosses_of_mass_destruction:levitation_block" }
 					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:levitation_block"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "2881F3AB0A4E7593"
-					type: "xp"
-					xp: 420
-				}
-			]
-			title: "A Manopla do Nether"
-			description: [
-				"&7Uma mão de pedra negra do tamanho de uma casa, enterrada nos deltas de basalto, abre o olho quando sente passos."
-				"&7O olho não se apaga nem depois da queda: espera num baú por quem saiba usá-lo."
-				"&7Somado à vontade do Lich, vira um altar que desafia o peso."
-				""
-				"&6Objetivo:&r 1. Procure a &6Arena da Manopla&r enterrada nos &cDeltas de Basalto&r (perto da camada 32) e derrote a &cManopla do Nether&r."
-				"&fSocos explosivos, laser do olho e escudo de energia: ataque o olho quando estiver aberto."
-				"&f2. Abra o baú que surge após a queda e pegue o &6Olho Flamejante&r."
-				"&f3. Construa a &6Mesa de Elevação&r: Ânima Ancestral em cima, ouro + Olho Flamejante + ouro no meio, três obsidianas embaixo."
-				"&fColocada, concede voo livre numa coluna de 7x7 acima dela."
-				"&fO &ccoração da Manopla&r dá força e pressa, mas embrulha o estômago."
-			]
+			x: 14.0d
+			y: -0.8d
 		}
 		{
-			id: "70D08B61B1B5ADC5"
-			x: 14.0d
-			y: 0.8d
-			shape: "diamond"
+			dependencies: ["75778A68E6287ABF"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:ashlord_heart"
 			}
-			dependencies: [
-				"75778A68E6287ABF"
-			]
+			id: "70D08B61B1B5ADC5"
+			rewards: [{
+				id: "2A5980CB724571C6"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "block_factorys_bosses:infernal_dragon"
 					id: "238B90D5D4C74B64"
 					type: "kill"
-					entity: "block_factorys_bosses:infernal_dragon"
 					value: 1L
 				}
 				{
 					id: "3D8E9EB0370B43E4"
+					item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:dragon_skull"
-					}
-					count: 1L
 				}
 				{
 					id: "323061C081E4C931"
+					item: { count: 1, id: "block_factorys_bosses:dragon_bone" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:dragon_bone"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "2A5980CB724571C6"
-					type: "xp"
-					xp: 420
-				}
-			]
-			title: "Ashlord, o Dragão Infernal"
-			description: [
-				"&7Estandartes de dragão tremulam sobre uma torre de prisioneiros e ossos, guardada por esqueletos em chamas."
-				"&7No topo dorme um dragão cujas escamas são cinza de cidades que ele mesmo queimou."
-				"&7O crânio vira troféu de salão; os ossos, matéria de armadura."
-				""
-				"&6Objetivo:&r 1. Encontre a &6Torre do Dragão&r (planícies, selvas, savanas, pântanos ou colinas) e suba vencendo os guardas."
-				"&f2. No topo, desperte e derrote &cAshlord&r. Bolas de fogo e chão em chamas: resistência ao fogo é obrigatória."
-				"&f3. Recolha o &6Crânio de Ashlord&r e o &6Osso de Dragão&r."
-				"&fO &ccoração de Ashlord&r dá força e imunidade ao fogo, com uma pitada de wither."
-				""
-				"&8Saqueie cada andar: há peças de Armadura de Cavaleiro, armas e o Escudo da Guarda do Dragão."
-			]
+			x: 14.0d
+			y: 0.8d
 		}
 		{
+			dependencies: ["75778A68E6287ABF"]
 			id: "638D8BCD4CD1FCF0"
-			x: 14.0d
-			y: 2.4d
-			dependencies: [
-				"75778A68E6287ABF"
-			]
+			rewards: [{
+				id: "552FBE815B669239"
+				type: "xp"
+				xp: 280
+			}]
 			tasks: [
 				{
 					id: "70798B823A20819E"
+					item: { count: 1, id: "block_factorys_bosses:ice_gauntlet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:ice_gauntlet"
-					}
-					count: 1L
 				}
 				{
 					id: "25FAD978FE4DAD27"
+					item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:sandworm_gauntlet"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "552FBE815B669239"
-					type: "xp"
-					xp: 280
-				}
-			]
-			title: "Os punhos dos monstros"
-			description: [
-				"&7O punho do yeti, arrancado e curtido, ainda congela o que toca."
-				"&7A glândula de veneno do verme, presa num punho de couro, ainda borbulha."
-				""
-				"&6Objetivo:&r 1. Obtenha a &6Manopla de Skor&r (cai do Yeti): golpes congelam; agachado, segure e solte para uma onda de espinhos de gelo;"
-				"&fpule segurando o uso para um salto esmagador. Também serve de escudo."
-				"&f2. Obtenha a &6Manopla de Sirok&r (cai do Verme da Areia): segure o uso para um jato de veneno."
-			]
+			x: 14.0d
+			y: 2.4d
 		}
 		{
-			id: "2DB8CE005B675E80"
-			x: 17.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_5"
-			}
 			dependencies: [
 				"07E8765FDF4A9B9F"
 				"7F539B48DED44B0D"
 				"70D08B61B1B5ADC5"
 				"638D8BCD4CD1FCF0"
 			]
-			tasks: [
-				{
-					id: "1EA4B8E7CDC564B5"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_5"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_5"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&cTier V&7 - Vazio e Osso"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "2DB8CE005B675E80"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_5"
+				}
+				id: "1EA4B8E7CDC564B5"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 0.0d
 		}
 		{
-			id: "4F28843ED2495D88"
-			x: 19.0d
-			y: -0.8d
-			shape: "diamond"
-			size: 1.25d
+			dependencies: ["2DB8CE005B675E80"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:void_blossom_heart"
 			}
-			dependencies: [
-				"2DB8CE005B675E80"
-			]
+			id: "4F28843ED2495D88"
+			rewards: [{
+				id: "192468A5E7890487"
+				type: "xp"
+				xp: 850
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
 					id: "2A0178E5AE8F0695"
+					item: { count: 1, id: "bosses_of_mass_destruction:void_lily" }
 					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:void_lily"
-					}
-					count: 1L
 				}
 				{
+					entity: "bosses_of_mass_destruction:void_blossom"
 					id: "1EEB76731AC565DB"
 					type: "kill"
-					entity: "bosses_of_mass_destruction:void_blossom"
 					value: 1L
 				}
 				{
-					id: "66FF10718F8AA7F3"
-					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:void_thorn"
-					}
 					count: 2L
+					id: "66FF10718F8AA7F3"
+					item: { count: 1, id: "bosses_of_mass_destruction:void_thorn" }
+					type: "item"
 				}
 				{
 					id: "20464646D22B9062"
+					item: { count: 1, id: "bosses_of_mass_destruction:crystal_fruit" }
 					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:crystal_fruit"
-					}
-					count: 1L
 				}
 				{
 					id: "27565106EF896556"
+					item: { count: 1, id: "bosses_of_mass_destruction:charged_ender_pearl" }
 					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:charged_ender_pearl"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "192468A5E7890487"
-					type: "xp"
-					xp: 850
-				}
-			]
-			title: "A Flor do Vazio"
-			description: [
-				"&7Uma flor branca tocada por ametista sente o pólen de algo que cresce longe da luz."
-				"&7No fundo das cavernas, uma flor do tamanho de uma torre bebe a escuridão, e seus espinhos atravessam pedra."
-				"&7Ela deixa duas lembranças: uma que fere e outra que cura."
-				""
-				"&6Objetivo:&r 1. Faça um &6Lírio do Vazio&r (lírio-do-vale + fragmento de ametista) e plante-o: o pólen aponta para a caverna."
-				"&f2. Desça até lá e derrote a &cFlor do Vazio&r: espinhos pelo chão, esporos venenosos, lâminas de pétalas e paredes de espinhos."
-				"&f3. Recolha &62 Espinhos do Vazio&r e um &6Fruto de Cristal&r (regeneração e resistência por alguns segundos)."
-				"&f4. Combine Espinho do Vazio, Pérola do Ender e Ânima Ancestral: &6Pérola do Ender Carregada&r, reutilizável, dá resistência após o teleporte."
-				"&fO &ccoração da Flor&r dá muita absorção, mas envenena quem o come."
-				""
-				"&8As cavernas ficam perto do fundo do mundo; leve tochas e um caminho de volta."
-			]
+			x: 19.0d
+			y: -0.8d
 		}
 		{
+			dependencies: ["2DB8CE005B675E80"]
 			id: "78989FE66E6D7109"
-			x: 19.0d
-			y: 0.8d
+			rewards: [{
+				id: "05C528044996DEA2"
+				type: "xp"
+				xp: 680
+			}]
 			size: 1.25d
-			dependencies: [
-				"2DB8CE005B675E80"
-			]
 			tasks: [
 				{
 					id: "4EBCA784BA97A41E"
+					item: { count: 1, id: "block_factorys_bosses:dragon_bones_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:dragon_bones_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "39FA4D9F5B5A579F"
+					item: { count: 1, id: "block_factorys_bosses:dragon_bones_leggings" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:dragon_bones_leggings"
-					}
-					count: 1L
 				}
 				{
 					id: "093A6B14D2DAC7CA"
+					item: { count: 1, id: "block_factorys_bosses:dragon_bones_boots" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:dragon_bones_boots"
-					}
-					count: 1L
 				}
 				{
 					id: "16332A3546A23BBA"
+					item: { count: 1, id: "block_factorys_bosses:dragon_guard_shield" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:dragon_guard_shield"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "05C528044996DEA2"
-					type: "xp"
-					xp: 680
-				}
-			]
-			title: "Armadura de Ossos de Dragão"
-			description: [
-				"&7Ossos de Ashlord, encaixados por engrenagens de precisão. Pesados, quentes e quase inquebráveis."
-				"&7Os guardas de elite da torre carregavam um escudo com o emblema do dragão."
-				""
-				"&6Objetivo:&r 1. Monte o &6Peitoral&r, as &6Calças&r e as &6Botas de Ossos de Dragão&r no &6Mechanical Crafter&r:"
-				"&fmolde comum da armadura com Ossos de Dragão e um &6Precision Mechanism&r embaixo."
-				"&f2. Encontre o &6Escudo da Guarda do Dragão&r nos baús da Torre do Dragão."
-				""
-				"&8Cada Ashlord dá um único osso: será preciso caçar o dragão de novo (o Néctar de Enxofre restaura a torre)."
-			]
+			x: 19.0d
+			y: 0.8d
 		}
 		{
-			id: "5C7C27E4D441A08A"
-			x: 22.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_6"
-			}
 			dependencies: [
 				"4F28843ED2495D88"
 				"78989FE66E6D7109"
 			]
-			tasks: [
-				{
-					id: "66F44A0675048D2F"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_6"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_6"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&5Tier VI&7 - O Navio dos Afogados"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_6"
+			}
+			id: "5C7C27E4D441A08A"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_6"
+				}
+				id: "66F44A0675048D2F"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 0.0d
 		}
 		{
-			id: "284065F2FB386D03"
-			x: 24.0d
-			y: 0.0d
-			shape: "diamond"
-			size: 1.25d
+			dependencies: ["5C7C27E4D441A08A"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:kraken_heart"
 			}
-			dependencies: [
-				"5C7C27E4D441A08A"
-			]
+			id: "284065F2FB386D03"
+			rewards: [{
+				id: "6680EB9334E89EDD"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
+					entity: "block_factorys_bosses:pirate_captain"
 					id: "73AE8EEC0DAFC541"
 					type: "kill"
-					entity: "block_factorys_bosses:pirate_captain"
 					value: 1L
 				}
 				{
+					entity: "block_factorys_bosses:kraken"
 					id: "6A67D5EFEE2D5D37"
 					type: "kill"
-					entity: "block_factorys_bosses:kraken"
 					value: 1L
 				}
 				{
 					id: "609E10F6A9CF8FAB"
+					item: { count: 1, id: "block_factorys_bosses:kraken_trident" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:kraken_trident"
-					}
-					count: 1L
 				}
 				{
 					id: "62929AE742456E94"
+					item: { count: 1, id: "block_factorys_bosses:undying_tentacle" }
 					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:undying_tentacle"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "6680EB9334E89EDD"
-					type: "xp"
-					xp: 800
-				}
-			]
-			title: "Nerakyss, o Kraken"
-			description: [
-				"&7Nos oceanos profundos, um galeão pirata flutua sem vento e sem rumo."
-				"&7Os marinheiros sabem: aquele navio é isca, e o pescador vive embaixo."
-				"&7Tentáculos do tamanho de mastros abraçam o casco; Nerakyss não afunda navios, guarda-os como uma aranha guarda a teia."
-				""
-				"&6Objetivo:&r 1. Encontre o &6Navio do Kraken&r nos &9Oceanos Profundos&r e derrote o &cCapitão Pirata&r quando a tripulação acordar."
-				"&f2. No convés, enfrente &cNerakyss&r: corte os tentáculos e acerte o corpo quando ele emergir."
-				"&fMonte nos &6canhões do navio&r e dispare balas de canhão para dano extra."
-				"&f3. Com &6Dentes do Kraken&r, monte o &6Tridente do Kraken&r no Mechanical Crafter (3 dentes, 2 varetas e Precision Mechanism): fere e puxa."
-				"&f4. Faça o &6Tentáculo Imortal&r (3 dentes em diagonal): puxa você ou uma criatura; agachado, invoca tentáculos aliados."
-				"&fO &ccoração do Kraken&r dá respiração aquática, graça de golfinho e força, mas causa enjoo."
-				""
-				"&8Balas de canhão: 5 lingotes de ferro em cruz."
-			]
+			x: 24.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["284065F2FB386D03"]
 			id: "2D143BAA98CD1E09"
-			x: 26.0d
-			y: 0.0d
-			dependencies: [
-				"284065F2FB386D03"
-			]
-			tasks: [
-				{
-					id: "7AB86DCB4E394A69"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:pirate_saber"
-					}
-					count: 1L
-				}
-				{
-					id: "3501C0C46780D745"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:kraken_cannon_item"
-					}
-					count: 1L
-				}
-				{
-					id: "76094DE02C732FA3"
-					type: "item"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:anchor"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "59DBBA09E372A6E3"
@@ -1118,128 +667,61 @@
 				}
 				{
 					id: "1BB640ACD5B4CFF1"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Espólios do navio"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O sabre do capitão é curto, curvo e rápido como uma mentira."
-				"&7O canhão é bronze velho com pólvora seca, e ainda acerta o que mira."
-				"&7Nenhuma âncora segurou aquele navio, mas fica bonita na parede."
-				""
-				"&6Objetivo:&r 1. Tome um &6Sabre Pirata&r dos piratas do navio."
-				"&f2. Golpeie um &6Canhão do Kraken&r no convés até ele se soltar: colocado, pode ser montado e disparado."
-				"&f3. Solte a &6Âncora&r golpeando-a e guarde-a como decoração."
+			tasks: [
+				{
+					id: "7AB86DCB4E394A69"
+					item: { count: 1, id: "block_factorys_bosses:pirate_saber" }
+					type: "item"
+				}
+				{
+					id: "3501C0C46780D745"
+					item: { count: 1, id: "block_factorys_bosses:kraken_cannon_item" }
+					type: "item"
+				}
+				{
+					id: "76094DE02C732FA3"
+					item: { count: 1, id: "block_factorys_bosses:anchor" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 26.0d
+			y: 0.0d
 		}
 		{
-			id: "70DD3CF99F0C23F1"
-			x: 29.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["2D143BAA98CD1E09"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_7"
 			}
-			dependencies: [
-				"2D143BAA98CD1E09"
-			]
-			tasks: [
-				{
-					id: "4F9C9088935CC230"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_7"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_7"
-					}
+			id: "70DD3CF99F0C23F1"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_7"
 				}
-			]
-			rewards: [ ]
-			title: "&dTier VII&7 - O Fim do Mundo"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "4F9C9088935CC230"
+				type: "advancement"
+			}]
+			x: 29.0d
+			y: 0.0d
 		}
 		{
-			id: "4964A081949D5932"
-			x: 31.0d
-			y: -0.8d
-			shape: "diamond"
-			size: 1.25d
+			dependencies: ["70DD3CF99F0C23F1"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:ender_dragon_heart"
 			}
-			dependencies: [
-				"70DD3CF99F0C23F1"
-			]
-			tasks: [
-				{
-					id: "4FE40D79B0A60892"
-					type: "advancement"
-					advancement: "minecraft:story/follow_ender_eye"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:ender_dragon_heart"
-					}
-				}
-				{
-					id: "055DA6CF01C7FF9A"
-					type: "kill"
-					entity: "minecraft:ender_dragon"
-					value: 1L
-				}
-				{
-					id: "363F3A3835D00423"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:dragon_breath"
-					}
-					count: 2L
-				}
-				{
-					id: "3917126910D220E4"
-					type: "advancement"
-					advancement: "minecraft:end/dragon_egg"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:ender_dragon_heart"
-					}
-				}
-				{
-					id: "24BB03F995ACC2B7"
-					type: "advancement"
-					advancement: "minecraft:end/respawn_dragon"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:ender_dragon_heart"
-					}
-				}
-				{
-					id: "5D2FB7ADD028B087"
-					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:brimstone_nectar"
-					}
-					count: 1L
-				}
-			]
+			id: "4964A081949D5932"
 			rewards: [
 				{
 					id: "1FBE889311F7D9E7"
@@ -1248,177 +730,132 @@
 				}
 				{
 					id: "7BE5AFB957A2E02C"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "&5O Dragão do Fim"
-			description: [
-				"&7O olho do Ender voa, cai e voa de novo; no fim do caminho há um portal adormecido."
-				"&7Do outro lado, ela circula as torres de obsidiana há mais tempo que qualquer reino existe,"
-				"&7e os cristais no alto das torres são o coração emprestado dela."
-				"&7O sopro dela é ácido, roxo e, para um alquimista, precioso."
-				""
-				"&6Objetivo:&r 1. Siga os &6Olhos do Ender&r até a Fortaleza e abra o portal (o End só se abre no &5Tier VII&r)."
-				"&f2. Destrua os &6Cristais do End&r e derrote o &cDragão do Fim&r: ataque a cabeça quando ela pousar no pilar central."
-				"&fO &ccoração do Dragão&r é o &6coração-chave do Tier VII&r: vida extra, regeneração e resistência, mas traz escuridão."
-				"&f3. Encha &62 frascos&r na nuvem roxa do sopro: &6Bafo de Dragão&r."
-				"&f4. Pegue o &6Ovo do Dragão&r (pistão, ou quebre o bloco abaixo e deixe-o cair numa tocha)."
-				"&f5. Ponha &64 Cristais do End&r nas bordas do portal de saída para reinvocar o dragão."
-				"&f6. Misture Sucata de Netherite, Bafo de Dragão e Lágrima de Ghast: &6Néctar de Enxofre&r, que restaura uma estrutura de chefe já vencida."
-				""
-				"&8Camas explodem no End. Leve arco, muitas flechas e blocos para subir nas torres dos cristais."
-			]
-		}
-		{
-			id: "20CB057C125A1308"
-			x: 31.0d
-			y: 0.8d
 			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:warden_heart"
-			}
-			dependencies: [
-				"70DD3CF99F0C23F1"
-			]
+			size: 1.25d
 			tasks: [
 				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					icon: {
+						id: "comamigos_balance:ender_dragon_heart"
+					}
+					id: "4FE40D79B0A60892"
+					type: "advancement"
+				}
+				{
+					entity: "minecraft:ender_dragon"
+					id: "055DA6CF01C7FF9A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "363F3A3835D00423"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/dragon_egg"
+					criterion: ""
+					icon: {
+						id: "comamigos_balance:ender_dragon_heart"
+					}
+					id: "3917126910D220E4"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:end/respawn_dragon"
+					criterion: ""
+					icon: {
+						id: "comamigos_balance:ender_dragon_heart"
+					}
+					id: "24BB03F995ACC2B7"
+					type: "advancement"
+				}
+				{
+					id: "5D2FB7ADD028B087"
+					item: { count: 1, id: "bosses_of_mass_destruction:brimstone_nectar" }
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["70DD3CF99F0C23F1"]
+			icon: {
+				id: "comamigos_balance:warden_heart"
+			}
+			id: "20CB057C125A1308"
+			rewards: [{
+				id: "4731C1B8628056A2"
+				type: "xp"
+				xp: 460
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:warden"
 					id: "6E20F4AD95CC42BF"
 					type: "kill"
-					entity: "minecraft:warden"
 					value: 1L
 				}
 				{
 					id: "287B737E8AF80A3D"
+					item: { count: 1, id: "minecraft:echo_shard" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:echo_shard"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "4731C1B8628056A2"
-					type: "xp"
-					xp: 460
-				}
-			]
-			title: "O Guardião das Profundezas"
-			description: [
-				"&7Nas cidades antigas, sob o escuro profundo, algo cego escuta cada passo."
-				"&7Nos baús dessas cidades dormem cacos de som solidificado."
-				""
-				"&6Objetivo:&r 1. Encontre uma &6Cidade Ancestral&r no Escuro Profundo. Os guinchadores de sculk chamam o &cWarden&r quando ouvem barulho."
-				"&f2. Derrote-o: mata em poucos golpes e dispara um grito sônico que atravessa paredes."
-				"&fO &ccoração do Warden&r dá muita força e resistência, mas cega e escurece a visão."
-				"&f3. Junte um &6Fragmento de Eco&r nos baús da cidade (o Orbe Sombrio pede um)."
-				""
-				"&8Lã abafa os passos e agachar não faz vibrações. Fuja quando o grito carregar."
-			]
+			x: 31.0d
+			y: 0.8d
 		}
 		{
-			id: "49BBC4EC2F05EC26"
-			x: 33.0d
-			y: 0.0d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:doppelganger_heart"
-			}
 			dependencies: [
 				"4964A081949D5932"
 				"20CB057C125A1308"
 			]
+			icon: {
+				id: "comamigos_balance:doppelganger_heart"
+			}
+			id: "49BBC4EC2F05EC26"
+			rewards: [{
+				id: "3728DD62590F5B39"
+				type: "xp"
+				xp: 690
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "600A2A3A0E2BD63D"
+					item: { count: 1, id: "darkdoppelganger:shadow_altar" }
 					type: "item"
-					item: {
-						count: 1
-						id: "darkdoppelganger:shadow_altar"
-					}
-					count: 1L
 				}
 				{
 					id: "6C53FB575FE2CCA3"
+					item: { count: 1, id: "darkdoppelganger:shadow_orb" }
 					type: "item"
-					item: {
-						count: 1
-						id: "darkdoppelganger:shadow_orb"
-					}
-					count: 1L
 				}
 				{
+					entity: "darkdoppelganger:dark_doppelganger"
 					id: "25D98372FDB183BE"
 					type: "kill"
-					entity: "darkdoppelganger:dark_doppelganger"
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "3728DD62590F5B39"
-					type: "xp"
-					xp: 690
-				}
-			]
-			title: "O Doppelganger Sombrio"
-			description: [
-				"&7Obsidiana chorosa, magnetita e olhos do Ender: um espelho que não reflete luz."
-				"&7Quem oferece o orbe é copiado. Ninguém sabe se a cópia sabe que é cópia."
-				"&7Ele veste a sua armadura, empunha a sua arma e conhece os seus truques: vencer a si mesmo nunca foi tão literal."
-				""
-				"&6Objetivo:&r 1. Construa o &6Altar Sombrio&r: obsidiana nos cantos, Olhos do Ender em cima e embaixo, Obsidiana Chorosa nas laterais, &6Magnetita&r no centro."
-				"&f2. Forje o &6Orbe Sombrio&r: Fragmento de Eco em cima; Estrela do Nether, Bafo de Dragão e Lágrima de Ghast no meio; Pedra Negra embaixo."
-				"&f3. &cNo End&r, coloque o altar, ofereça o orbe e derrote o &cDoppelganger Sombrio&r. Ele abre portais e invoca lacaios das sombras."
-				"&fO &ccoração do Doppelganger&r dá invisibilidade, velocidade e força, mas traz azar e escuridão."
-				""
-				"&8Ele copia o que você veste: lutar com equipamento mais fraco enfraquece o clone."
-				"&8Também deixa Estrela do Nether, 3 Fragmentos de Eco, 3 blocos de diamante e às vezes um pergaminho de magia."
-			]
+			x: 33.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["49BBC4EC2F05EC26"]
 			id: "6678912199199404"
-			x: 35.0d
-			y: 0.0d
-			dependencies: [
-				"49BBC4EC2F05EC26"
-			]
-			tasks: [
-				{
-					id: "1969E041F4B1F7C4"
-					type: "item"
-					item: {
-						count: 1
-						id: "darkdoppelganger:doppelganger_ring"
-					}
-					count: 1L
-				}
-				{
-					id: "04A4774EF0052D99"
-					type: "item"
-					item: {
-						count: 1
-						id: "darkdoppelganger:elder_necklace"
-					}
-					count: 1L
-				}
-				{
-					id: "34C499683990ABB4"
-					type: "item"
-					item: {
-						count: 1
-						id: "darkdoppelganger:summons_necklace"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "6EED0363CBFB3853"
@@ -1427,164 +864,102 @@
 				}
 				{
 					id: "7301B95E37EF5ED2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Relíquias do espelho"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O clone sempre deixa uma de três relíquias, cada uma com um pouco do poder de existir duas vezes."
-				""
-				"&6Objetivo:&r Derrote o Doppelganger até reunir as três relíquias:"
-				"&f1. &6Anel do Doppelganger&r."
-				"&f2. &6Colar do Ancião&r: mais vida e menos espera entre feitiços."
-				"&f3. &6Colar do Invocador&r: passos que não são os seus vêm das sombras para lutar por você."
+			tasks: [
+				{
+					id: "1969E041F4B1F7C4"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "darkdoppelganger:doppel_portal", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "darkdoppelganger:doppelganger_ring" }
+					type: "item"
+				}
+				{
+					id: "04A4774EF0052D99"
+					item: { count: 1, id: "darkdoppelganger:elder_necklace" }
+					type: "item"
+				}
+				{
+					id: "34C499683990ABB4"
+					item: { count: 1, id: "darkdoppelganger:summons_necklace" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 35.0d
+			y: 0.0d
 		}
 		{
-			id: "1EECA136084C89D2"
-			x: 38.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["6678912199199404"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_8"
 			}
-			dependencies: [
-				"6678912199199404"
-			]
-			tasks: [
-				{
-					id: "2C62CF42EDFC287F"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_8"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_8"
-					}
+			id: "1EECA136084C89D2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_8"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_8"
 				}
-			]
-			rewards: [ ]
-			title: "&eTier VIII&7 - O Fim da Crônica"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &eTier VIII&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "2C62CF42EDFC287F"
+				type: "advancement"
+			}]
+			x: 38.0d
+			y: 0.0d
 		}
 		{
-			id: "6628349A4933332C"
-			x: 40.0d
-			y: 0.0d
-			shape: "gear"
-			size: 1.25d
+			dependencies: ["1EECA136084C89D2"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:obsidilith_heart"
 			}
-			dependencies: [
-				"1EECA136084C89D2"
-			]
+			id: "6628349A4933332C"
+			rewards: [{
+				id: "5896C7B6966D25B4"
+				type: "xp"
+				xp: 1040
+			}]
+			shape: "gear"
+			size: 1.25d
 			tasks: [
 				{
-					id: "6F27D56687602797"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:ender_eye"
-					}
 					count: 4L
+					id: "6F27D56687602797"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
 				}
 				{
+					entity: "bosses_of_mass_destruction:obsidilith"
 					id: "0F9A47FA56A5C4FA"
 					type: "kill"
-					entity: "bosses_of_mass_destruction:obsidilith"
 					value: 1L
 				}
 				{
 					id: "2931BB82B76A59D4"
+					item: { count: 1, id: "bosses_of_mass_destruction:obsidian_heart" }
 					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:obsidian_heart"
-					}
-					count: 1L
 				}
 				{
-					id: "1A54781C3B8937E8"
-					type: "advancement"
 					advancement: "comamigos_balance:tier/victory"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "comamigos_balance:obsidilith_heart"
 					}
+					id: "1A54781C3B8937E8"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "5896C7B6966D25B4"
-					type: "xp"
-					xp: 1040
-				}
-			]
-			title: "&5&lO Obsidilith"
-			description: [
-				"&7Nas ilhas mais distantes do End, quatro altares de obsidiana cercam um vazio de pedra, cada um com uma órbita vazia."
-				"&7Ali dorme a pedra que pensa: o último guardião do mundo, e o mais antigo."
-				"&7Todos os reis caíram; quando ele cair, os corações estarão na mesa e a crônica de Heartforge terá seu fim."
-				""
-				"&6Objetivo:&r 1. Leve &64 Olhos do Ender&r pelas ilhas exteriores do End até a &6Arena do Obsidilith&r."
-				"&f2. Ponha um olho em cada &6Altar de Obsidiana&r e derrote o &cObsidilith&r."
-				"&fEle lança pilares do chão, explode em ondas, teleporta-se e ergue escudos de runas: só ataque quando as runas se apagarem."
-				"&f3. Abra o baú dele e pegue o &6Coração de Obsidiana&r."
-				"&f4. Com o grupo no &dTier VIII&r, esta queda é a &6vitória&r de Heartforge. Antes disso, ela não conta."
-				"&fO &ccoração do Obsidilith&r dá a maior resistência e vida do mundo, mas prende o corpo como pedra."
-			]
+			x: 40.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["6628349A4933332C"]
 			id: "51F372E0B115E3E1"
-			x: 42.0d
-			y: 0.0d
-			dependencies: [
-				"6628349A4933332C"
-			]
-			tasks: [
-				{
-					id: "6FAED2F9E7AAB112"
-					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:earthdive_spear"
-					}
-					count: 1L
-				}
-				{
-					id: "7CC527D8051E98DC"
-					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:mob_ward"
-					}
-					count: 1L
-				}
-				{
-					id: "20FAFC8414922F76"
-					type: "item"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:monolith_block"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "23CBCD4889F51BF0"
@@ -1593,30 +968,32 @@
 				}
 				{
 					id: "07BE0413535497FA"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Relíquias de obsidiana"
-			description: [
-				"&7Dentro do baú do Obsidilith pulsa um coração de pedra negra, e ele ensina a pedra a obedecer."
-				"&7Uma lança que atravessa rocha como água, um cajado que faz a noite esquecer de parir monstros,"
-				"&7um monólito que faz cada explosão gritar mais alto."
-				""
-				"&6Objetivo:&r 1. Monte a &6Lança do Mergulho Terrestre&r no &6Mechanical Crafter&r: Coração de Obsidiana, Espinho do Vazio, graveto e Precision Mechanism, em coluna."
-				"&fTeleporte curto através de blocos sólidos."
-				"&f2. Faça o &6Cajado de Supressão&r: Ânima Ancestral, Coração de Obsidiana e obsidiana, em coluna. Impede monstros num raio de 64 blocos."
-				"&f3. Faça o &6Amplificador de Explosões&r: obsidiana ao redor, Olho Flamejante no centro, Coração de Obsidiana embaixo. +30% de força nas explosões em 64 blocos."
-				""
-				"&8Cada Obsidilith dá um coração: o Néctar de Enxofre restaura a arena para outra luta."
+			tasks: [
+				{
+					id: "6FAED2F9E7AAB112"
+					item: { count: 1, id: "bosses_of_mass_destruction:earthdive_spear" }
+					type: "item"
+				}
+				{
+					id: "7CC527D8051E98DC"
+					item: { count: 1, id: "bosses_of_mass_destruction:mob_ward" }
+					type: "item"
+				}
+				{
+					id: "20FAFC8414922F76"
+					item: { count: 1, id: "bosses_of_mass_destruction:monolith_block" }
+					type: "item"
+				}
 			]
+			x: 42.0d
+			y: 0.0d
 		}
-	]
-	title: "&cOs Grandes Chefes"
-	subtitle: [
-		"Os senhores que o mundo não esqueceu"
 	]
 }

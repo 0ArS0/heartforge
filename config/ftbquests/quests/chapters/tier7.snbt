@@ -4,132 +4,74 @@
 	filename: "tier7"
 	group: ""
 	icon: {
-		count: 1
 		id: "comamigos_balance:tier_heart_8"
 	}
 	id: "23A05F9282CD412D"
+	images: [ ]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7AEEA153BEC22F61"]
+			icon: {
+				id: "comamigos_balance:tier_heart_8"
+			}
 			id: "22C27622F8FE5EB6"
-			x: 0.0d
-			y: 0.8d
+			rewards: [{
+				id: "27205600FC3C99D0"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			dependencies: [
-				"7AEEA153BEC22F61"
-			]
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_8"
-			}
-			tasks: [
-				{
-					id: "008F94D0D239107F"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "27205600FC3C99D0"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "Tier VII: Mito"
-			description: [
-				"&7O sétimo selo cai, e o vazio entre as estrelas finalmente responde. O &5End&7 está aberto."
-				"&7Mas o dragão que o guarda já não é o das histórias antigas: o vazio o tornou mais cruel."
-				""
-				"&6Objetivo:&r A companhia está no &dTier VII - Mito&r. Sigam as trilhas deste capítulo: cada uma termina num ingrediente do &eCoração do Tier VIII&r. Derrotem o boss-chave (losango de cima) e forjem o coração."
-				""
-				"&8Os losangos de baixo são caçadas opcionais: outros bosses do tier, cada um com seu coração-troféu."
-			]
+			tasks: [{
+				id: "008F94D0D239107F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.8d
 		}
 		{
+			dependencies: ["22C27622F8FE5EB6"]
+			icon: {
+				id: "comamigos_balance:tier_heart_8"
+			}
 			id: "271FE285CCC8B9C0"
+			rewards: [{
+				id: "388DCBBE489DC3D4"
+				type: "xp"
+				xp: 800
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "5F08170CE30B2A47"
+				type: "dimension"
+			}]
 			x: 2.0d
 			y: 0.0d
-			dependencies: [
-				"22C27622F8FE5EB6"
-			]
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_8"
-			}
-			tasks: [
-				{
-					id: "5F08170CE30B2A47"
-					type: "dimension"
-					dimension: "minecraft:the_end"
-				}
-			]
-			rewards: [
-				{
-					id: "388DCBBE489DC3D4"
-					type: "xp"
-					xp: 800
-				}
-			]
-			title: "O End"
-			description: [
-				"&7A porta que nunca respondeu finalmente se abre. Do outro lado, só o vazio, o silêncio e ilhas que flutuam sobre o nada."
-				""
-				"&6Objetivo:&r Entre no &5End&r."
-			]
 		}
 		{
+			dependencies: ["271FE285CCC8B9C0"]
 			id: "7EFDBEFEEB24B37E"
+			rewards: [{
+				id: "0C4120657DCD9C6B"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "1BA7753C15E196EE"
+				item: { count: 1, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
 			x: 3.6d
 			y: 0.0d
-			dependencies: [
-				"271FE285CCC8B9C0"
-			]
-			tasks: [
-				{
-					id: "1BA7753C15E196EE"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:dragon_breath"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "0C4120657DCD9C6B"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "Sopro do Dragão"
-			description: [
-				"&7O sopro do dragão é veneno e é tinta: tudo depende de quem segura a garrafa."
-				""
-				"&6Objetivo:&r Recolha &5Sopro do Dragão&r numa garrafa de vidro. Ingrediente do Coração VIII."
-			]
 		}
 		{
-			id: "71E216C4BBA2E3B2"
-			x: 5.2d
-			y: 0.0d
-			dependencies: [
-				"7EFDBEFEEB24B37E"
-			]
+			dependencies: ["7EFDBEFEEB24B37E"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_8"
 			}
-			tasks: [
-				{
-					id: "0E29070CCF31D369"
-					type: "kill"
-					entity: "cataclysm:ender_guardian"
-					value: 1L
-				}
-			]
+			id: "71E216C4BBA2E3B2"
 			rewards: [
 				{
 					id: "21D6D065F9EC38AE"
@@ -138,175 +80,100 @@
 				}
 				{
 					id: "30D7D4455F94A1F2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_lendaria"
 					}
+					type: "item"
 				}
 			]
-			title: "Guardião do Ender"
-			description: [
-				"&7Numa fortaleza das ilhas, o Guardião do Ender protege um núcleo que pulsa no ritmo do vazio."
-				""
-				"&6Objetivo:&r Derrote o &5Guardião do Ender&r. O &5Núcleo do Vazio&r está com ele."
-			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "0E29070CCF31D369"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.2d
+			y: 0.0d
 		}
 		{
+			dependencies: ["71E216C4BBA2E3B2"]
 			id: "56BB1B52ED6947B8"
+			rewards: [{
+				id: "64ABBDE49CDFB542"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "4B730FFB68CDB005"
+				item: { count: 1, id: "cataclysm:void_core" }
+				type: "item"
+			}]
 			x: 6.800000000000001d
 			y: 0.0d
-			dependencies: [
-				"71E216C4BBA2E3B2"
-			]
-			tasks: [
-				{
-					id: "4B730FFB68CDB005"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_core"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "64ABBDE49CDFB542"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "Núcleo do Vazio"
-			description: [
-				"&7Um pedaço do nada, preso numa casca. Segurá-lo dá frio nos ossos."
-				""
-				"&6Objetivo:&r Consiga um &5Núcleo do Vazio&r. Ingrediente do Coração VIII."
-			]
 		}
 		{
+			dependencies: ["22C27622F8FE5EB6"]
 			id: "16DD2A5A10AF6B13"
+			rewards: [{
+				id: "0C71D7D3DC98ED45"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "228C51B99CBF642B"
+				item: { count: 1, id: "irons_spellbooks:dragonskin" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.6d
-			dependencies: [
-				"22C27622F8FE5EB6"
-			]
-			tasks: [
-				{
-					id: "228C51B99CBF642B"
-					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:dragonskin"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "0C71D7D3DC98ED45"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "Pele de Dragão"
-			description: [
-				"&7Só a pele do Dragão do Fim aguenta o peso dos feitiços mais altos sem rasgar."
-				""
-				"&6Objetivo:&r Consiga &5Pele de Dragão&r; ela cai do Dragão do Fim. Ingrediente do Coração VIII."
-			]
 		}
 		{
+			dependencies: ["16DD2A5A10AF6B13"]
 			id: "507AF027C23F39B0"
+			rewards: [{
+				id: "2AA44BA46BAEA5FB"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "142EB04BA2DDEC92"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "darkdoppelganger:doppel_portal", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "darkdoppelganger:doppelganger_ring" }
+				type: "item"
+			}]
 			x: 3.6d
 			y: 1.6d
-			dependencies: [
-				"16DD2A5A10AF6B13"
-			]
-			tasks: [
-				{
-					id: "142EB04BA2DDEC92"
-					type: "item"
-					item: {
-						count: 1
-						id: "darkdoppelganger:doppelganger_ring"
-					}
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "2AA44BA46BAEA5FB"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			title: "Anel do Doppelganger"
-			description: [
-				"&7O Doppelganger Sombrio luta com o rosto e as armas de quem o encara. Vencê-lo é, literalmente, vencer a si mesmo."
-				""
-				"&6Objetivo:&r Derrote o &8Doppelganger Sombrio&r e pegue o &8Anel do Doppelganger&r. Ingrediente do Coração VIII."
-			]
 		}
 		{
+			dependencies: ["507AF027C23F39B0"]
+			icon: {
+				id: "comamigos_balance:tier_heart_8"
+			}
 			id: "687D2974A015567B"
+			rewards: [{
+				id: "467A483D03618D80"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				advancement: "botania:challenge/gaia_guardian_hardmode"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_8"
+				}
+				id: "61FFE51B8B539662"
+				type: "advancement"
+			}]
 			x: 5.2d
 			y: 1.6d
-			dependencies: [
-				"507AF027C23F39B0"
-			]
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_8"
-			}
-			tasks: [
-				{
-					id: "61FFE51B8B539662"
-					type: "advancement"
-					advancement: "botania:challenge/gaia_guardian_hardmode"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_8"
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "467A483D03618D80"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			title: "Vontade Ancestral"
-			description: [
-				"&7Na segunda vez, o Guardião de Gaia não perdoa. Quem o vence leva consigo a vontade de um dos seis antigos irmãos."
-				""
-				"&6Objetivo:&r Derrote o &aGuardião de Gaia II&r (ritual com Pedaço de Gaia). Ele sempre deixa uma &aVontade Ancestral&r"
-				"&f(Ahrim, Dharok, Guthan, Torag, Verac ou Karil): qualquer uma serve como ingrediente do Coração VIII."
-			]
 		}
 		{
-			id: "60684D5F6F027A94"
-			x: 8.4d
-			y: -1.8d
-			shape: "diamond"
-			size: 1.5d
-			dependencies: [
-				"22C27622F8FE5EB6"
-			]
+			dependencies: ["22C27622F8FE5EB6"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_8"
 			}
-			tasks: [
-				{
-					id: "5C0642C3EAA3BFC0"
-					type: "kill"
-					entity: "minecraft:ender_dragon"
-					value: 1L
-				}
-			]
+			id: "60684D5F6F027A94"
 			rewards: [
 				{
 					id: "6584D1C4C1CCDBB1"
@@ -314,53 +181,39 @@
 					xp: 2100
 				}
 				{
-					id: "786AFC7CDA6CD466"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "786AFC7CDA6CD466"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "656785C0546C7E49"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_lendaria"
 					}
+					type: "item"
 				}
 			]
-			title: "O Dragão do Fim"
-			description: [
-				"&7O Dragão do Fim das histórias antigas era só um aviso. Este, reforçado pelo vazio, é a lição."
-				""
-				"&6Objetivo:&r Derrote o &5Dragão do Fim&r e pegue o &cCoração do Dragão do Fim&r."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "5C0642C3EAA3BFC0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.4d
+			y: -1.8d
 		}
 		{
+			dependencies: ["22C27622F8FE5EB6"]
+			hide_dependency_lines: true
 			id: "36414FB4B13EE5AB"
-			x: 2.0d
-			y: 3.6d
-			shape: "rsquare"
-			dependencies: [
-				"22C27622F8FE5EB6"
-			]
-			tasks: [
-				{
-					id: "7608D0DD7E6FB9FB"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:purifying_elixir_6"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "22BF961AD03174DD"
@@ -369,48 +222,32 @@
 				}
 				{
 					id: "74974A00CF41DAB8"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Elixir Purificador VI"
-			description: [
-				"&7O Coração VII enche o peito de água salgada: os &cPulmões Afogados&7."
-				""
-				"&6Objetivo:&r No &6Suporte de Poções&r: &bElixir Purificador V&r + coração do mar."
-				"&fCura também os &cPulmões Afogados&f (Coração VII)."
-			]
-			hide_dependency_lines: true
+			shape: "rsquare"
+			tasks: [{
+				id: "7608D0DD7E6FB9FB"
+				item: { count: 1, id: "comamigos_balance:purifying_elixir_6" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.6d
 		}
 		{
-			id: "4BA670228063678E"
-			x: 10.4d
-			y: 0.8d
-			shape: "gear"
-			size: 1.75d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_8"
-			}
 			dependencies: [
 				"56BB1B52ED6947B8"
 				"687D2974A015567B"
 				"60684D5F6F027A94"
 			]
-			tasks: [
-				{
-					id: "7F9C5B7BF85896BB"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:tier_heart_8"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "comamigos_balance:tier_heart_8"
+			}
+			id: "4BA670228063678E"
 			rewards: [
 				{
 					id: "160657BF3C49DD5F"
@@ -419,85 +256,55 @@
 				}
 				{
 					id: "14897C701DA70169"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_lendaria"
 					}
+					type: "item"
 				}
 			]
-			title: "A Forja do Coração VIII"
-			description: [
-				"&7O último coração forjado. Depois dele não há mais selos, só o que espera nas ilhas."
-				""
-				"&6Objetivo:&r Em &6Sequenced Assembly&r, forje o &cCoração do Tier VIII&r com:"
-				"&fCoração do Dragão do Fim + sopro do dragão, pele de dragão, núcleo do vazio, anel do Doppelganger, uma Vontade Ancestral (qualquer) e prensa."
-				""
-				"&8A ordem exata das etapas está no livro de receitas."
-			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				id: "7F9C5B7BF85896BB"
+				item: { count: 1, id: "comamigos_balance:tier_heart_8" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 0.8d
 		}
 		{
-			id: "7DC7ED3CB1245DBE"
-			x: 12.4d
-			y: 0.8d
-			shape: "heart"
-			size: 1.5d
-			dependencies: [
-				"4BA670228063678E"
-			]
+			dependencies: ["4BA670228063678E"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_8"
 			}
-			tasks: [
-				{
-					id: "6E2868ED850816FB"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_8"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_8"
-					}
+			id: "7DC7ED3CB1245DBE"
+			rewards: [{
+				id: "0AA385369A68A46F"
+				type: "xp"
+				xp: 7000
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_8"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_8"
 				}
-			]
-			rewards: [
-				{
-					id: "0AA385369A68A46F"
-					type: "xp"
-					xp: 7000
-				}
-			]
-			title: "O Banquete do Coração VIII"
-			description: [
-				"&7O coração ainda bate quando chega à boca. Quem o come sente a força do reino subir pelas veias da companhia inteira."
-				"&7E sente, logo atrás, a maldição se acomodar no peito."
-				""
-				"&6Objetivo:&r Um membro do grupo come o &cCoração do Tier VIII&r, e todos sobem juntos para o &eTier VIII - Divino&r."
-				""
-				"&8Quem come carrega a maldição até beber o Elixir Purificador do próximo capítulo."
-			]
+				id: "6E2868ED850816FB"
+				type: "advancement"
+			}]
+			x: 12.4d
+			y: 0.8d
 		}
 		{
-			id: "7447CAF0F4954789"
-			x: 2.0d
-			y: 5.4d
-			shape: "diamond"
+			dependencies: ["22C27622F8FE5EB6"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:ender_guardian_heart"
 			}
-			dependencies: [
-				"22C27622F8FE5EB6"
-			]
-			tasks: [
-				{
-					id: "11036C8E01950CDF"
-					type: "kill"
-					entity: "cataclysm:ender_guardian"
-					value: 1L
-				}
-			]
+			id: "7447CAF0F4954789"
 			rewards: [
 				{
 					id: "33396EDBEDD96C7C"
@@ -505,57 +312,41 @@
 					xp: 1750
 				}
 				{
-					id: "2B9B15B65715433B"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "2B9B15B65715433B"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "1DA308590E213027"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Guardião do Ender"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eGuardião do Ender&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "11036C8E01950CDF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 5.4d
 		}
 		{
-			id: "1922EFBB35C085D2"
-			x: 3.6d
-			y: 5.4d
-			shape: "diamond"
+			dependencies: ["22C27622F8FE5EB6"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:warden_heart"
 			}
-			dependencies: [
-				"22C27622F8FE5EB6"
-			]
-			tasks: [
-				{
-					id: "1BF06A3A1B13EE48"
-					type: "kill"
-					entity: "minecraft:warden"
-					value: 1L
-				}
-			]
+			id: "1922EFBB35C085D2"
 			rewards: [
 				{
 					id: "336C97ED075AF4B5"
@@ -563,57 +354,41 @@
 					xp: 1750
 				}
 				{
-					id: "30FF429F39BD8087"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "30FF429F39BD8087"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "6848551537070CD8"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_lendaria"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Warden"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eWarden&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "1BF06A3A1B13EE48"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.6d
+			y: 5.4d
 		}
 		{
-			id: "2626B565DAD20AAD"
-			x: 5.2d
-			y: 5.4d
-			shape: "diamond"
+			dependencies: ["22C27622F8FE5EB6"]
+			hide_dependency_lines: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:doppelganger_heart"
 			}
-			dependencies: [
-				"22C27622F8FE5EB6"
-			]
-			tasks: [
-				{
-					id: "338B71F7CD53BF2E"
-					type: "kill"
-					entity: "darkdoppelganger:dark_doppelganger"
-					value: 1L
-				}
-			]
+			id: "2626B565DAD20AAD"
 			rewards: [
 				{
 					id: "215E53D6205296DE"
@@ -621,40 +396,33 @@
 					xp: 1750
 				}
 				{
-					id: "7051ACDBCAC1776E"
-					type: "command"
-					title: "Uma brasa de talento (+1 ponto na Árvore de Talentos)"
+					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
 					icon: {
-						count: 1
 						id: "comamigos_balance:tier_heart_5"
 					}
-					elevate_perms: true
+					id: "7051ACDBCAC1776E"
+					permission_level: 2
 					silent: true
-					command: "/puffish_skills points add {p} comamigos_balance:talentos 1"
+					type: "command"
 				}
 				{
 					id: "1CAF892635A3D3DB"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_lendaria"
 					}
+					type: "item"
 				}
 			]
-			title: "Caçada: Doppelganger Sombrio"
-			description: [
-				"&7Nem todo monstro do reino guarda um selo, mas todo monstro tem um coração."
-				"&7Os caçadores penduram esses corações como troféus. Os mais ousados os comem, e aprendem o que cada um dá e o que cada um tira."
-				""
-				"&6Objetivo:&r &7(Opcional)&r Derrote &eDoppelganger Sombrio&r e guarde o coração dele como troféu."
-				""
-				"&8Todo boss deixa o próprio coração, comestível, com bênçãos e pragas próprias."
-			]
-			hide_dependency_lines: true
+			shape: "diamond"
+			tasks: [{
+				entity: "darkdoppelganger:dark_doppelganger"
+				id: "338B71F7CD53BF2E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.2d
+			y: 5.4d
 		}
-	]
-	title: "&dTier VII - Mito"
-	subtitle: [
-		"Objetivo: forjar e comer o Coração do Tier VIII"
 	]
 }

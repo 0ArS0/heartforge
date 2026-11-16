@@ -1,6 +1,20 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:biomeswevegone:red_maple_sapling",
+    {
+      "type": "item",
+      "id": "block_factorys_bosses:ship_lantern",
+      "amount": 64
+    },
+    "item:effortlessbuilding:randomizer_tool",
+    "item:create:schematic_and_quill",
+    "item:create:empty_schematic",
+    "item:botania:fabulous_pool",
+    "item:botania:lexicon{\"minecraft:custom_data\":{\"botania:elven_unlock\":1b}}",
+    "item:botania:thermalily",
+    "item:quark:hollow_mangrove_log",
+    "item:quark:vertical_cherry_planks",
     "item:botania:manasteel_pick",
     "item:botania:mana_tablet",
     "item:botania:alchemy_catalyst",
@@ -65,7 +79,6 @@
     "item:botania:munchdew",
     "item:botania:rosa_arcana",
     "item:botania:rune_earth",
-    "item:botania:thermalily",
     "item:botania:grass_seeds",
     "item:botania:mana_glass",
     "item:botania:mana_pearl",

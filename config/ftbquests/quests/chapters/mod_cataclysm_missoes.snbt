@@ -4,451 +4,247 @@
 	filename: "mod_cataclysm_missoes"
 	group: "429D481FF148D2D9"
 	icon: {
-		count: 1
 		id: "cataclysm:mechanical_fusion_anvil"
 	}
 	id: "7AC4A58E66CBF5CF"
-	order_index: 20
+	images: [ ]
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
-			id: "054FFD1D44FD6E4F"
-			x: -3.0d
-			y: 0.0d
-			shape: "square"
-			size: 2.0d
 			icon: {
-				count: 1
 				id: "cataclysm:mechanical_fusion_anvil"
 			}
-			tasks: [
-				{
-					id: "23F3DB1DDDE71BD7"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "329D4F199ED55B1B"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "A Crônica do Cataclismo"
-			description: [
-				"&7Antes dos reinos, houve guerras que racharam o céu. Os vencidos não morreram:"
-				"&7foram selados em pirâmides, prisões de gelo, cidades afundadas e forjas de almas."
-				"&7Cada selo guarda um titã, e cada titã guarda um metal que nenhuma mina conhece."
-				""
-				"&7Os olhos encantados apontam o caminho; as armas forjadas dos restos dos titãs abrem o seguinte."
-				"&7Todo titã derrubado deixa também o próprio &ccoração&7, troféu que se come por bênção e maldição."
-				""
-				"&7Comece pelo deserto: os koboletons cavam ruínas sob a areia."
-			]
+			id: "054FFD1D44FD6E4F"
+			rewards: [{
+				id: "329D4F199ED55B1B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "23F3DB1DDDE71BD7"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			id: "4635BF63F94949B6"
-			x: 1.0d
-			y: 0.0d
-			dependencies: [
-				"054FFD1D44FD6E4F"
-			]
+			dependencies: ["054FFD1D44FD6E4F"]
 			icon: {
-				count: 1
 				id: "minecraft:ender_eye"
 			}
+			id: "4635BF63F94949B6"
+			rewards: [{
+				id: "1FD55A34A32F1DEF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
-					id: "44E040D3CB249788"
-					type: "advancement"
 					advancement: "cataclysm:root"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:ender_eye"
 					}
+					id: "44E040D3CB249788"
+					type: "advancement"
 				}
 				{
-					id: "63AF4270045E2337"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:ender_eye"
-					}
 					count: 4L
+					id: "63AF4270045E2337"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "1FD55A34A32F1DEF"
-					type: "xp"
-					xp: 100
-				}
-			]
-			title: "Os Oito Selos"
-			description: [
-				"&7Os velhos cronistas falam de oito titãs selados quando o mundo ainda era jovem."
-				"&7Hoje os selos rangem, e quem dorme perto deles acorda ouvindo tambores."
-				"&7Um olho do Ender sabe achar fortalezas; encantado com o material certo, aprende a achar coisa pior."
-				"&7Cada selo tem o seu olho, e cada olho só aponta para um titã."
-				""
-				"&6Objetivo:&r 1. Pise no mundo com os ouvidos atentos: a crônica do Cataclismo começa sozinha."
-				"&f2. Junte &64 Olhos do Ender&r. Todo olho do Cataclismo leva um deles no centro da bancada."
-				"&fSão oito: &6Deserto&r (Pirâmide), &6Maldição&r (Prisão Congelada), &6Mecânico&r (Fábrica Antiga), &6Abismo&r (Cidade Afundada),"
-				"&f&6Chama&r (Arena Ardente), &6Monstruoso&r (Ferraria das Almas), &6Tempestade&r (Acrópole) e &6Vazio&r (Cidadela Arruinada)."
-				""
-				"&8Lançado como um olho comum, o olho do Cataclismo voa na direção da estrutura. Às vezes se quebra: leve reservas."
-				"&8Cada capítulo de tier deste guia mostra o olho, a estrutura e o titã daquela etapa."
-			]
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			id: "16AC9D558253563F"
-			x: 4.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["4635BF63F94949B6"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
-			dependencies: [
-				"4635BF63F94949B6"
-			]
-			tasks: [
-				{
-					id: "04C6A1E685E4F8B2"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "minecraft:compass"
-					}
+			id: "16AC9D558253563F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				icon: {
+					id: "minecraft:compass"
 				}
-			]
-			rewards: [ ]
-			title: "&7Tier I&7 - Areia e Ossos"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "04C6A1E685E4F8B2"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			id: "53E88B19CDC71AAA"
-			x: 6.0d
-			y: -0.8d
-			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"16AC9D558253563F"
-			]
+			dependencies: ["16AC9D558253563F"]
 			icon: {
-				count: 1
 				id: "cataclysm:koboleton_bone"
 			}
+			id: "53E88B19CDC71AAA"
+			rewards: [{
+				id: "2B04276F48ACEF83"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
+					entity: "cataclysm:koboleton"
 					id: "1235F835244F79EC"
 					type: "kill"
-					entity: "cataclysm:koboleton"
 					value: 5L
 				}
 				{
-					id: "533A81766657E62D"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:koboleton_bone"
-					}
 					count: 8L
+					id: "533A81766657E62D"
+					item: { count: 1, id: "cataclysm:koboleton_bone" }
+					type: "item"
 				}
 				{
-					id: "3009C6992E2DBE07"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ancient_metal_ingot"
-					}
 					count: 2L
+					id: "3009C6992E2DBE07"
+					item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+					type: "item"
 				}
 				{
 					id: "585E82787242E946"
+					item: { count: 1, id: "cataclysm:desert_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:desert_eye"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "2B04276F48ACEF83"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "Ruínas sob a areia"
-			description: [
-				"&7O deserto engoliu templos, sítios de escavação e aldeias inteiras."
-				"&7Os que moravam ali ainda estão, presos em gaiolas, vigiados por lagartos de osso."
-				"&7Os koboletons servem ao Remanescente mesmo depois de mortos, roubam o que a mão segura"
-				"&7e carregam como relíquia um metal amarelado, frio até no sol do meio-dia."
-				""
-				"&6Objetivo:&r 1. Explore o &6Sítio Desértico&r (enterrado), o &6Templo do Deserto&r ou a &6Aldeia Ocupada&r e derrote &c5 Koboletons&r."
-				"&f2. Junte &68 Ossos de Koboleton&r: servem para a armadura de Réptil de Osso."
-				"&f3. Obtenha &62 Lingotes de Metal Antigo&r (koboletons, Kobolediador e Wadjet). 9 pepitas formam um lingote."
-				"&f4. Fabrique o &6Olho do Deserto&r: olho do Ender, ouro, esmeralda, arenito cinzelado, cacto, arbusto morto, osso e carne podre."
-				""
-				"&8Um golpe de koboleton pode arrancar o item da sua mão: recolha-o antes que ele fuja."
-				"&8Cuidado com o arenito das ruínas: há armadilhas de dardos venenosos, de fogo e de queda. Os presos nas gaiolas podem ser libertados."
-			]
+			x: 6.0d
+			y: -0.8d
 		}
 		{
-			id: "1823163690B0B5F7"
-			x: 6.0d
-			y: 0.8d
-			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"16AC9D558253563F"
-			]
+			dependencies: ["16AC9D558253563F"]
 			icon: {
-				count: 1
 				id: "cataclysm:black_steel_ingot"
 			}
+			id: "1823163690B0B5F7"
+			rewards: [{
+				id: "593F7FFFEED34FCC"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
+					entity: "cataclysm:draugr"
 					id: "1AF84D36DC112D3B"
 					type: "kill"
-					entity: "cataclysm:draugr"
 					value: 5L
 				}
 				{
+					entity: "cataclysm:elite_draugr"
 					id: "01395E9E302C1226"
 					type: "kill"
-					entity: "cataclysm:elite_draugr"
 					value: 1L
 				}
 				{
+					entity: "cataclysm:royal_draugr"
 					id: "70AE0CF3957538E1"
 					type: "kill"
-					entity: "cataclysm:royal_draugr"
 					value: 1L
 				}
 				{
-					id: "2315B44720F2F8F1"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:black_steel_ingot"
-					}
 					count: 4L
+					id: "2315B44720F2F8F1"
+					item: { count: 1, id: "cataclysm:black_steel_ingot" }
+					type: "item"
 				}
 				{
 					id: "1B81E54C2626F934"
+					item: { count: 1, id: "cataclysm:cursed_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:cursed_eye"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "593F7FFFEED34FCC"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "Os vilarejos dos mortos"
-			description: [
-				"&7Nas planícies nevadas, aldeias inteiras ainda acendem tochas que ninguém trocou."
-				"&7Os moradores morreram há séculos e continuam de guarda: são os draugr, com patentes e tudo."
-				"&7Os ferreiros do norte temperavam o ferro em sangue e neve, e o aço ficou preto para sempre."
-				""
-				"&6Objetivo:&r 1. Explore a &6Aldeia&r, o &6Templo&r ou a &6Torre Abandonada&r das &bplanícies nevadas&r e derrote &c5 Draugr&r."
-				"&f2. Derrote um &cDraugr de Elite&r (machado, aguenta muito) e um &cDraugr Real&r (arco, fica atrás)."
-				"&f3. Junte &64 Lingotes de Aço Negro&r dos draugr e dos baús abandonados (9 pepitas = 1 lingote)."
-				"&f4. Fabrique o &6Olho da Maldição&r: olho do Ender, ouro, osso, membranas de fantasma e carne podre."
-				""
-				"&8Ferramentas velhas de aço negro voltam a pepitas na fornalha."
-				"&8O Olho da Maldição aponta para a Prisão Congelada, a próxima etapa."
-			]
+			x: 6.0d
+			y: 0.8d
 		}
 		{
-			id: "3A5632CF088470B6"
-			x: 9.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_2"
-			}
 			dependencies: [
 				"53E88B19CDC71AAA"
 				"1823163690B0B5F7"
 			]
-			tasks: [
-				{
-					id: "153DE4798A59D4E0"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_2"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II&7 - Pirâmide e Prisão"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "3A5632CF088470B6"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_2"
+				}
+				id: "153DE4798A59D4E0"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["3A5632CF088470B6"]
 			id: "4FBEFC5DEB2882BE"
-			x: 11.0d
-			y: -1.6d
+			rewards: [{
+				id: "33315E8F543EED1A"
+				type: "xp"
+				xp: 400
+			}]
 			shape: "diamond"
 			size: 1.25d
-			dependencies: [
-				"3A5632CF088470B6"
-			]
 			tasks: [
 				{
 					id: "42EB93B8DB8E3B87"
+					item: { count: 1, id: "cataclysm:sticky_gloves" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:sticky_gloves"
-					}
-					count: 1L
 				}
 				{
-					id: "089A4F3C87648B8A"
-					type: "advancement"
 					advancement: "cataclysm:find_cursed_pyramid"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "cataclysm:sticky_gloves"
 					}
+					id: "089A4F3C87648B8A"
+					type: "advancement"
 				}
 				{
+					entity: "cataclysm:wadjet"
 					id: "7DEDBEB0F59F1B12"
 					type: "kill"
-					entity: "cataclysm:wadjet"
 					value: 1L
 				}
 				{
+					entity: "cataclysm:kobolediator"
 					id: "233ACDC403337748"
 					type: "kill"
-					entity: "cataclysm:kobolediator"
 					value: 1L
 				}
 				{
 					id: "4B7B0DE781EBAE0A"
+					item: { count: 1, id: "cataclysm:kobolediator_skull" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:kobolediator_skull"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "33315E8F543EED1A"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "A Pirâmide Amaldiçoada"
-			description: [
-				"&7Colunas enormes guardam a entrada, e o vento do deserto não ousa entrar."
-				"&7Lá dentro, um poço desce até onde o Remanescente Antigo dorme enrolado no próprio rabo."
-				"&7Antes dele, dois guardiões: a Wadjet, meio mulher, meio naja, e o Kobolediador, que foi gladiador em vida."
-				""
-				"&6Objetivo:&r 1. Fabrique &6Luvas Pegajosas&r (barbante, couro, bola de slime e pele de coelho): koboletons não roubam mais da sua mão."
-				"&f2. Siga o &6Olho do Deserto&r até a &6Pirâmide Amaldiçoada&r e entre nela."
-				"&f3. Derrote a &cWadjet&r: investe com a lança e cospe veneno à distância."
-				"&f4. Derrote o &cKobolediador&r: foge das investidas e do espadão cravado no chão."
-				"&f5. Recolha o &6Crânio de Kobolediador&r, peça central do elmo de Réptil de Osso."
-				""
-				"&8Os dois minibosses dormem até alguém chegar perto. Também guardam o Templo do Deserto e a Aldeia Ocupada."
-			]
+			x: 11.0d
+			y: -1.6d
 		}
 		{
+			dependencies: ["3A5632CF088470B6"]
 			id: "2DF47478AB1E9945"
-			x: 11.0d
-			y: 0.0d
-			size: 1.25d
-			dependencies: [
-				"3A5632CF088470B6"
-			]
-			tasks: [
-				{
-					id: "59DA44997361A4AD"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:black_steel_pickaxe"
-					}
-					count: 1L
-				}
-				{
-					id: "3C67C86523ED6FB1"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:black_steel_sword"
-					}
-					count: 1L
-				}
-				{
-					id: "67C8C803A0A804BA"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:black_steel_axe"
-					}
-					count: 1L
-				}
-				{
-					id: "692EECE2ABEA54CF"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:black_steel_targe"
-					}
-					count: 1L
-				}
-				{
-					id: "1980FF6D7D52722A"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:belt_of_beginner"
-					}
-					count: 1L
-				}
-				{
-					id: "64BE7049E680A518"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:sturdy_boots"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "0FC6D40B041764E8"
@@ -457,157 +253,118 @@
 				}
 				{
 					id: "33671DA0A6F5F8D3"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "A forja do norte"
-			description: [
-				"&7Espada, machado, picareta e broquel: o arsenal que os draugr carregam para o túmulo."
-				"&7Quem anda na neve fofa sem afundar não teme as planícies brancas,"
-				"&7e todo caçador de titãs começa com um cinto simples e muita coragem."
-				""
-				"&6Objetivo:&r 1. Forje a &6Picareta&r, a &6Espada&r e o &6Machado de Aço Negro&r (mesmas receitas das ferramentas de ferro)."
-				"&f2. Fabrique o &6Broquel de Aço Negro&r: lingote no centro, pepitas nos cantos e tábuas nos lados."
-				"&f3. Fabrique o &6Cinto do Iniciante&r (couro e ferro) e vista-o na cintura."
-				"&f4. Encontre &6Botas Firmes&r nos baús das estruturas abandonadas: andam sobre neve fofa."
-			]
-		}
-		{
-			id: "744D887EEAAF42FF"
-			x: 11.0d
-			y: 1.6d
-			shape: "diamond"
-			dependencies: [
-				"3A5632CF088470B6"
-			]
-			icon: {
-				count: 1
-				id: "cataclysm:strange_key"
-			}
+			size: 1.25d
 			tasks: [
 				{
-					id: "0530F79438ECEDB8"
-					type: "advancement"
+					id: "59DA44997361A4AD"
+					item: { count: 1, id: "cataclysm:black_steel_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "3C67C86523ED6FB1"
+					item: { count: 1, id: "cataclysm:black_steel_sword" }
+					type: "item"
+				}
+				{
+					id: "67C8C803A0A804BA"
+					item: { count: 1, id: "cataclysm:black_steel_axe" }
+					type: "item"
+				}
+				{
+					id: "692EECE2ABEA54CF"
+					item: { count: 1, id: "cataclysm:black_steel_targe" }
+					type: "item"
+				}
+				{
+					id: "1980FF6D7D52722A"
+					item: { count: 1, id: "cataclysm:belt_of_beginner" }
+					type: "item"
+				}
+				{
+					id: "64BE7049E680A518"
+					item: { count: 1, id: "cataclysm:sturdy_boots" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A5632CF088470B6"]
+			icon: {
+				id: "cataclysm:strange_key"
+			}
+			id: "744D887EEAAF42FF"
+			rewards: [{
+				id: "30D67160519A71FE"
+				type: "xp"
+				xp: 240
+			}]
+			shape: "diamond"
+			tasks: [
+				{
 					advancement: "cataclysm:find_frosted_prison"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "cataclysm:strange_key"
 					}
+					id: "0530F79438ECEDB8"
+					type: "advancement"
 				}
 				{
+					entity: "cataclysm:aptrgangr"
 					id: "4F81B26EF2A1E2AD"
 					type: "kill"
-					entity: "cataclysm:aptrgangr"
 					value: 1L
 				}
 				{
 					id: "4C2B5E23E0D406C9"
+					item: { count: 1, id: "cataclysm:strange_key" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:strange_key"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "30D67160519A71FE"
-					type: "xp"
-					xp: 240
-				}
-			]
-			title: "A Prisão Congelada"
-			description: [
-				"&7Um castelo inteiro de celas, construído para conter um único prisioneiro."
-				"&7O carcereiro gigante, o Aptrgangr, guarda a chave com o mesmo zelo com que guardava os presos."
-				"&7No salão mais fundo, uma lápide amaldiçoada espera atrás de uma porta selada."
-				""
-				"&6Objetivo:&r 1. Siga o &6Olho da Maldição&r até a &6Prisão Congelada&r, nas planícies nevadas."
-				"&f2. Atravesse celas e arsenais e derrote o &cAptrgangr&r: ele gira o machado gigante e o crava no chão, abrindo fendas."
-				"&f3. Recolha a &6Chave Estranha&r: ela abre a &6Porta do Selo&r que esconde a lápide do Maledictus (Tier V)."
-				""
-				"&8Afaste-se quando o carcereiro ergue a lâmina. Ele também guarda as torres abandonadas."
-			]
+			x: 11.0d
+			y: 1.6d
 		}
 		{
-			id: "3C3290B84658D5E6"
-			x: 14.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_3"
-			}
 			dependencies: [
 				"4FBEFC5DEB2882BE"
 				"2DF47478AB1E9945"
 				"744D887EEAAF42FF"
 			]
-			tasks: [
-				{
-					id: "5F6925CBEDAC2F1F"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_3"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&9Tier III&7 - O Remanescente e o Abismo"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_3"
+			}
+			id: "3C3290B84658D5E6"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_3"
+				}
+				id: "5F6925CBEDAC2F1F"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
 		}
 		{
-			id: "12C86E79E2414320"
-			x: 16.0d
-			y: -3.2d
-			shape: "diamond"
+			dependencies: ["3C3290B84658D5E6"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:ancient_remnant_heart"
 			}
-			dependencies: [
-				"3C3290B84658D5E6"
-			]
-			tasks: [
-				{
-					id: "5CAE0F9CC5AEA001"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:brush"
-					}
-					count: 1L
-				}
-				{
-					id: "4E2287FE5B11C93D"
-					type: "kill"
-					entity: "cataclysm:ancient_remnant"
-					value: 1L
-				}
-				{
-					id: "4172F960A81E65FD"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ancient_metal_block"
-					}
-					count: 1L
-				}
-			]
+			id: "12C86E79E2414320"
 			rewards: [
 				{
 					id: "43B7507E7E10AAFD"
@@ -616,64 +373,38 @@
 				}
 				{
 					id: "130CC81B6A9C08FF"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Remanescente Antigo"
-			description: [
-				"&7Um réptil do tamanho de uma casa, feito de ossos e areia, senhor da tempestade do deserto."
-				"&7Ele não acorda com gritos: acorda quando alguém devolve o colar que lhe tiraram."
-				"&7Quando ruge, o chão se abre em ondas de areia; quando cai, deixa no peito um bloco inteiro do metal antigo."
-				""
-				"&6Objetivo:&r 1. Leve um &6Pincel&r à Pirâmide e escove a &6areia suspeita&r das salas laterais do grande poço até achar o &6Colar do Deserto&r."
-				"&f2. Use o colar no salão do fundo e derrote o &cRemanescente Antigo&r. Ele morde, chicoteia, invoca tempestades de areia e pisa fazendo o chão tremer: fique nos flancos."
-				"&f3. Recolha o &6Bloco de Metal Antigo&r e separe 9 lingotes num &6Misturador&r sobre uma &6Bacia aquecida&r."
-				"&fSeu &ccoração&r de troféu dá absorção e pressa de mineração, ao custo de fadiga."
-				""
-				"&8A Caveira Inquebrável (curio dos tesouros do deserto) anula os atordoamentos dos pisões."
-				"&8Ele também deixa a Tempestade numa Garrafa, a Caveira do Remanescente e um disco."
-			]
-		}
-		{
-			id: "4A3BD37C2CB783D1"
-			x: 16.0d
-			y: -1.6d
-			dependencies: [
-				"3C3290B84658D5E6"
-			]
+			shape: "diamond"
 			tasks: [
 				{
-					id: "7288434394F73354"
+					id: "5CAE0F9CC5AEA001"
+					item: { count: 1, id: "minecraft:brush" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:bone_reptile_helmet"
-					}
-					count: 1L
 				}
 				{
-					id: "2B7A7CAF5281220F"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:bone_reptile_chestplate"
-					}
-					count: 1L
+					entity: "cataclysm:ancient_remnant"
+					id: "4E2287FE5B11C93D"
+					type: "kill"
+					value: 1L
 				}
 				{
-					id: "6EB75BC1D50D100A"
+					id: "4172F960A81E65FD"
+					item: { count: 1, id: "cataclysm:ancient_metal_block" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ancient_spear"
-					}
-					count: 1L
 				}
 			]
+			x: 16.0d
+			y: -3.2d
+		}
+		{
+			dependencies: ["3C3290B84658D5E6"]
+			id: "4A3BD37C2CB783D1"
 			rewards: [
 				{
 					id: "1B820C51808181AE"
@@ -682,62 +413,39 @@
 				}
 				{
 					id: "7FAA6F5306A58DC0"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A couraça de Réptil de Osso"
-			description: [
-				"&7O crânio do gladiador, reforçado com metal antigo, vira um elmo que assusta até os vivos."
-				"&7Barata de forjar e dura de quebrar, a couraça dos servos do deserto protege quem vai descer mais fundo."
-				"&7E a lança de metal antigo guarda um pedaço da tempestade da areia."
-				""
-				"&6Objetivo:&r 1. Monte o &6Elmo de Réptil de Osso&r num &6Mechanical Crafter&r: metal antigo, ossos de koboleton, Crânio de Kobolediador e Mecanismo de Precisão."
-				"&f2. Monte o &6Peitoral de Réptil de Osso&r (metal antigo, ossos de koboleton e Mecanismo de Precisão)."
-				"&f3. Monte a &6Lança Antiga&r (metal antigo e Mecanismo de Precisão): alcance enorme, e o golpe solta um redemoinho de areia."
-			]
-		}
-		{
-			id: "25509392190A304D"
-			x: 16.0d
-			y: 0.0d
-			shape: "diamond"
-			dependencies: [
-				"3C3290B84658D5E6"
-			]
-			icon: {
-				count: 1
-				id: "cataclysm:amethyst_crab_shell"
-			}
 			tasks: [
 				{
-					id: "4670BA4AAC4A6C08"
-					type: "kill"
-					entity: "cataclysm:amethyst_crab"
-					value: 1L
+					id: "7288434394F73354"
+					item: { count: 1, id: "cataclysm:bone_reptile_helmet" }
+					type: "item"
 				}
 				{
-					id: "3123A1B557665359"
+					id: "2B7A7CAF5281220F"
+					item: { count: 1, id: "cataclysm:bone_reptile_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:amethyst_crab_shell"
-					}
-					count: 6L
 				}
 				{
-					id: "0E0F5F4B11F9DA06"
+					id: "6EB75BC1D50D100A"
+					item: { count: 1, id: "cataclysm:ancient_spear" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:blessed_amethyst_crab_meat"
-					}
-					count: 1L
 				}
 			]
+			x: 16.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["3C3290B84658D5E6"]
+			icon: {
+				id: "cataclysm:amethyst_crab_shell"
+			}
+			id: "25509392190A304D"
 			rewards: [
 				{
 					id: "50EC2F713F6E9B51"
@@ -746,77 +454,39 @@
 				}
 				{
 					id: "11D2749F4111A292"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Ninho de Ametista"
-			description: [
-				"&7Nas cavernas verdejantes, um ninho de cristal pode ser a casca de algo vivo."
-				"&7O caranguejo de ametista não ataca primeiro, mas devolve cada golpe com juros."
-				"&7Sua carne, abençoada no altar de cristal, afasta o medo do abismo."
-				""
-				"&6Objetivo:&r 1. Ache um &6Ninho de Ametista&r nas &aCavernas Exuberantes&r e derrote um &cCaranguejo de Ametista&r (soterra quem está perto e dispara cristais)."
-				"&f2. Junte &66 Cascas de Caranguejo de Ametista&r do caranguejo e dos baús do ninho."
-				"&f3. Ponha &6Carne de Caranguejo&r num &6Altar de Ametista&r e espere a bênção. Comida, dá &bBênção&r: imunidade à cegueira, ao medo e à queimadura abissais."
-				""
-				"&8Guarde carnes abençoadas para a luta contra o Leviatã. As cascas viram as Ombreiras de Pedra-Flor no Tier IV."
-			]
-		}
-		{
-			id: "5366AA3B09908D02"
-			x: 16.0d
-			y: 1.6d
 			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"3C3290B84658D5E6"
-			]
 			tasks: [
 				{
-					id: "7B3AA2F48A9903B9"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:mech_eye"
-					}
-					count: 1L
-				}
-				{
-					id: "1D6EEF5C603D18E9"
-					type: "advancement"
-					advancement: "cataclysm:find_ancient_factory"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "cataclysm:mech_eye"
-					}
-				}
-				{
-					id: "1417691909E0D7D1"
+					entity: "cataclysm:amethyst_crab"
+					id: "4670BA4AAC4A6C08"
 					type: "kill"
-					entity: "cataclysm:the_watcher"
-					value: 3L
-				}
-				{
-					id: "326D0EA297E0A051"
-					type: "kill"
-					entity: "cataclysm:the_prowler"
 					value: 1L
 				}
 				{
-					id: "15F775B48FDD304C"
+					count: 6L
+					id: "3123A1B557665359"
+					item: { count: 1, id: "cataclysm:amethyst_crab_shell" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:emp"
-					}
-					count: 1L
+				}
+				{
+					id: "0E0F5F4B11F9DA06"
+					item: { count: 1, id: "cataclysm:blessed_amethyst_crab_meat" }
+					type: "item"
 				}
 			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C3290B84658D5E6"]
+			id: "5366AA3B09908D02"
 			rewards: [
 				{
 					id: "79A2C2C285EBAAD4"
@@ -825,82 +495,54 @@
 				}
 				{
 					id: "1CDD7B78CF910A12"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Fábrica Antiga"
-			description: [
-				"&7Muito abaixo da superfície, uma civilização esquecida construiu máquinas que ainda giram."
-				"&7Vigias voadores patrulham corredores vazios, e o Espreitador, de serra e lança-foguetes, foi ligado pela primeira vez em mil anos."
-				"&7No salão central, um colosso desligado espera uma estrela para acordar."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Olho Mecânico&r (olho do Ender, ferro e blocos de redstone)."
-				"&f2. Siga-o até a &6Fábrica Antiga&r, enterrada no subterrâneo do mundo comum."
-				"&f3. Derrote &c3 Vigias&r: voam e disparam lasers vermelhos de longe. Escudo e arco ajudam."
-				"&f4. Derrote o &cEspreitador&r: serra de perto, foguetes e mísseis de longe. Não fique parado."
-				"&f5. Recolha um &6EMP&r: ligado à redstone, solta um pulso que desorienta máquinas, inclusive o Arauto."
-				""
-				"&8Lembre onde ficam as alavancas e os EMPs: a luta contra o Arauto, no Tier VI, é aqui."
-			]
-		}
-		{
-			id: "7342671807860AE4"
-			x: 16.0d
-			y: 3.2d
 			shape: "diamond"
 			size: 1.25d
-			dependencies: [
-				"3C3290B84658D5E6"
-			]
 			tasks: [
 				{
-					id: "1FBF5C3854948939"
+					id: "7B3AA2F48A9903B9"
+					item: { count: 1, id: "cataclysm:mech_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:abyss_eye"
-					}
-					count: 1L
 				}
 				{
-					id: "31DC67CB33D3EABD"
-					type: "advancement"
-					advancement: "cataclysm:find_sunken_city"
+					advancement: "cataclysm:find_ancient_factory"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "cataclysm:abyss_eye"
+						id: "cataclysm:mech_eye"
 					}
+					id: "1D6EEF5C603D18E9"
+					type: "advancement"
 				}
 				{
-					id: "4853E4FF0E639B4B"
+					entity: "cataclysm:the_watcher"
+					id: "1417691909E0D7D1"
 					type: "kill"
-					entity: "cataclysm:deepling"
-					value: 5L
+					value: 3L
 				}
 				{
-					id: "712819B654E2AAAB"
+					entity: "cataclysm:the_prowler"
+					id: "326D0EA297E0A051"
 					type: "kill"
-					entity: "cataclysm:deepling_angler"
 					value: 1L
 				}
 				{
-					id: "50BB4590D3A38E72"
-					type: "kill"
-					entity: "cataclysm:deepling_brute"
-					value: 1L
-				}
-				{
-					id: "3733E5AD1C8D86CE"
-					type: "kill"
-					entity: "cataclysm:lionfish"
-					value: 1L
+					id: "15F775B48FDD304C"
+					item: { count: 1, id: "cataclysm:emp" }
+					type: "item"
 				}
 			]
+			x: 16.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["3C3290B84658D5E6"]
+			id: "7342671807860AE4"
 			rewards: [
 				{
 					id: "5B20E07223BA0D3B"
@@ -909,93 +551,64 @@
 				}
 				{
 					id: "3D4B806BAC39DC80"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Cidade Afundada"
-			description: [
-				"&7Torres de pedra furam a superfície do mar profundo. Abaixo, uma cúpula guarda um altar."
-				"&7Os que construíram a cidade não se afogaram: mudaram de forma e viraram os deeplings,"
-				"&7um povo de castas com soldados, pescadores de lanterna e brutamontes. Até os recifes ao redor envenenam."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Olho do Abismo&r (olho do Ender, obsidiana e obsidiana chorona)."
-				"&f2. Siga-o até a &6Cidade Afundada&r, nos &boceanos profundos&r, e mergulhe nela."
-				"&f3. Derrote &c5 Deeplings&r, um &cDeepling Pescador&r e um &cDeepling Brutamontes&r."
-				"&f4. Nos recifes quentes, derrote um &cPeixe-leão&r: envenena quem chega perto e cospe espinhos em quem foge."
-				""
-				"&8Leve poções de respiração aquática e visão noturna. Deeplings também surgem em oceanos profundos à noite e deixam conchas de náutilo."
-			]
-		}
-		{
-			id: "6990E8C44B6CA722"
-			x: 18.0d
-			y: 3.2d
 			shape: "diamond"
 			size: 1.25d
-			dependencies: [
-				"7342671807860AE4"
-			]
-			icon: {
-				count: 1
-				id: "cataclysm:athame"
-			}
 			tasks: [
 				{
-					id: "28E947318CC590C1"
-					type: "kill"
-					entity: "cataclysm:deepling_priest"
-					value: 1L
-				}
-				{
-					id: "0ECE9F1BC2BFF59A"
-					type: "kill"
-					entity: "cataclysm:deepling_warlock"
-					value: 1L
-				}
-				{
-					id: "1F9E64153C9FF5BB"
+					id: "1FBF5C3854948939"
+					item: { count: 1, id: "cataclysm:abyss_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:athame"
-					}
-					count: 1L
 				}
 				{
-					id: "4F525AF8BEE19C2E"
+					advancement: "cataclysm:find_sunken_city"
+					criterion: ""
+					icon: {
+						id: "cataclysm:abyss_eye"
+					}
+					id: "31DC67CB33D3EABD"
+					type: "advancement"
+				}
+				{
+					entity: "cataclysm:deepling"
+					id: "4853E4FF0E639B4B"
 					type: "kill"
-					entity: "cataclysm:coralssus"
+					value: 5L
+				}
+				{
+					entity: "cataclysm:deepling_angler"
+					id: "712819B654E2AAAB"
+					type: "kill"
 					value: 1L
 				}
 				{
-					id: "7A6EDA8C80E11107"
+					entity: "cataclysm:deepling_brute"
+					id: "50BB4590D3A38E72"
 					type: "kill"
-					entity: "cataclysm:coral_golem"
 					value: 1L
 				}
 				{
-					id: "6471F837C02EBA36"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:crystallized_coral"
-					}
-					count: 1L
-				}
-				{
-					id: "2D47462B03A0893E"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:coral_spear"
-					}
-					count: 1L
+					entity: "cataclysm:lionfish"
+					id: "3733E5AD1C8D86CE"
+					type: "kill"
+					value: 1L
 				}
 			]
+			x: 16.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7342671807860AE4"]
+			icon: {
+				id: "cataclysm:athame"
+			}
+			id: "6990E8C44B6CA722"
 			rewards: [
 				{
 					id: "19ED2788C155010B"
@@ -1004,188 +617,129 @@
 				}
 				{
 					id: "307549E8B5FDE632"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
-				}
-			]
-			title: "Os sacerdotes do abismo"
-			description: [
-				"&7Os sacerdotes e bruxos deeplings ainda rezam ao que dorme sob a cúpula."
-				"&7O athame cerimonial serviu para muitos sacrifícios, e servirá para mais um."
-				"&7Gigantes de coral fazem de guarda e de montaria, e carregam cristais que o mar levou séculos para formar."
-				""
-				"&6Objetivo:&r 1. Derrote um &cSacerdote Deepling&r e um &cBruxo Deepling&r (magia abissal: mate-os primeiro)."
-				"&f2. Recolha um &6Athame&r, que cai deles: é parte do Sacrifício Abissal."
-				"&f3. Derrote um &cCorálosso&r (às vezes montado por deeplings) e um &cGolem de Coral&r."
-				"&f4. Junte 4 fragmentos para formar &6Coral Cristalizado&r."
-				"&f5. Tome uma &6Lança de Coral&r dos deeplings (a Alabarda de Coral também pode cair)."
-				""
-				"&8Coral cristalizado ou pedaço de coral (do Corálosso) servem igualmente no Sacrifício Abissal."
-			]
-		}
-		{
-			id: "07623111D15E32A5"
-			x: 21.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_4"
-			}
-			dependencies: [
-				"6990E8C44B6CA722"
-			]
-			tasks: [
-				{
-					id: "7DCE0B31EABEC8D5"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_4"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV&7 - A Arena Ardente"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
-		}
-		{
-			id: "0800E9D0B5EB9C2C"
-			x: 23.0d
-			y: -1.2d
-			size: 1.25d
-			dependencies: [
-				"07623111D15E32A5"
-			]
-			tasks: [
-				{
-					id: "1CB8C26A8BAE13D7"
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:flame_eye"
-					}
-					count: 1L
-				}
-				{
-					id: "20A42D00D99AA545"
-					type: "advancement"
-					advancement: "cataclysm:find_burning_arena"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "cataclysm:flame_eye"
-					}
-				}
-				{
-					id: "6D55C5598425A716"
-					type: "advancement"
-					advancement: "cataclysm:kill_revenant"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "cataclysm:flame_eye"
-					}
-				}
-				{
-					id: "7BCE908EFD8C8E75"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:burning_ashes"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "00B066D6EC80BE25"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "A Arena Ardente"
-			description: [
-				"&7Um coliseu no meio das planícies do Nether. A plateia morreu; o campeão não."
-				"&7No segundo andar, os Revenants Inflamados giram escudos em volta do corpo como blazes que aprenderam a lutar."
-				"&7O que sobra deles ainda está quente o bastante para acender um deus."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Olho da Chama&r (olho do Ender, pó de blaze, sucata de netherite e areia das almas)."
-				"&f2. Siga-o até a &6Arena Ardente&r, nas Planícies do Nether."
-				"&f3. Derrote um &cRevenant Inflamado&r: os escudos o tornam invulnerável, espere ele abri-los."
-				"&f4. Obtenha &6Cinzas Ardentes&r: caem dos Revenants, ou junte 4 &6Brasas Moribundas&r numa bancada."
-				""
-				"&8Antes do Tier IV, o Ar Escaldante cozinha quem entra no Nether."
-			]
-		}
-		{
-			id: "6BC6C7D751EFC9D3"
-			x: 23.0d
-			y: 0.4d
 			shape: "diamond"
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "comamigos_balance:monstrosity_heart"
-			}
-			dependencies: [
-				"07623111D15E32A5"
-			]
 			tasks: [
 				{
-					id: "28ECFC569AF2F8D6"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:monstrous_eye"
-					}
-					count: 1L
-				}
-				{
-					id: "32D7E5E9920C3BF3"
-					type: "advancement"
-					advancement: "cataclysm:find_soul_black_smith"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:monstrosity_heart"
-					}
-				}
-				{
-					id: "4659C255BDBE3144"
+					entity: "cataclysm:deepling_priest"
+					id: "28E947318CC590C1"
 					type: "kill"
-					entity: "cataclysm:netherite_monstrosity"
 					value: 1L
 				}
 				{
-					id: "02EEB25B78CFD17D"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:infernal_forge"
-					}
-					count: 1L
+					entity: "cataclysm:deepling_warlock"
+					id: "0ECE9F1BC2BFF59A"
+					type: "kill"
+					value: 1L
 				}
 				{
-					id: "65AEAEC6BCCDFA72"
+					id: "1F9E64153C9FF5BB"
+					item: { count: 1, id: "cataclysm:athame" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:monstrous_helm"
-					}
-					count: 1L
+				}
+				{
+					entity: "cataclysm:coralssus"
+					id: "4F525AF8BEE19C2E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:coral_golem"
+					id: "7A6EDA8C80E11107"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6471F837C02EBA36"
+					item: { count: 1, id: "cataclysm:crystallized_coral" }
+					type: "item"
+				}
+				{
+					id: "2D47462B03A0893E"
+					item: { count: 1, id: "cataclysm:coral_spear" }
+					type: "item"
 				}
 			]
+			x: 18.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["6990E8C44B6CA722"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "07623111D15E32A5"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_4"
+				}
+				id: "7DCE0B31EABEC8D5"
+				type: "advancement"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07623111D15E32A5"]
+			id: "0800E9D0B5EB9C2C"
+			rewards: [{
+				id: "00B066D6EC80BE25"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "1CB8C26A8BAE13D7"
+					item: { count: 1, id: "cataclysm:flame_eye" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_burning_arena"
+					criterion: ""
+					icon: {
+						id: "cataclysm:flame_eye"
+					}
+					id: "20A42D00D99AA545"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_revenant"
+					criterion: ""
+					icon: {
+						id: "cataclysm:flame_eye"
+					}
+					id: "6D55C5598425A716"
+					type: "advancement"
+				}
+				{
+					id: "7BCE908EFD8C8E75"
+					item: { count: 1, id: "cataclysm:burning_ashes" }
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: -1.2d
+		}
+		{
+			dependencies: ["07623111D15E32A5"]
+			icon: {
+				id: "comamigos_balance:monstrosity_heart"
+			}
+			id: "6BC6C7D751EFC9D3"
 			rewards: [
 				{
 					id: "1C76D60965D8AFB7"
@@ -1194,111 +748,54 @@
 				}
 				{
 					id: "7844472BA0AAD96F"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "A Monstruosidade de Netherite"
-			description: [
-				"&7Parece um bastião, mas a bigorna no centro da Ferraria das Almas é do tamanho de uma casa."
-				"&7Ali foi forjada uma máquina de guerra de netherite e lava, construída para derrubar muralhas."
-				"&7Quando ninguém a enfrenta, ela volta a se forjar inteira."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Olho Monstruoso&r (olho do Ender, baldes de lava, sucata de netherite e pedra-negra)."
-				"&f2. Siga-o até a &6Ferraria das Almas&r, que surge em vários biomas do Nether."
-				"&f3. Derrote a &cMonstruosidade de Netherite&r: bombas de lava, pisões e cura se o combate parar. Não recue para descansar."
-				"&f4. Recolha a &6Forja Infernal&r: picareta de nível netherite que causa dano em área ao ser usada num bloco."
-				"&f5. Na Mesa de Ferraria, una molde de netherite, elmo de netherite e o &6Chifre Monstruoso&r: nasce o &6Elmo Monstruoso&r."
-				"&fSeu &ccoração&r dá resistência e resistência ao fogo, mas deixa o corpo lento."
-				""
-				"&8O Elmo Monstruoso, abaixo de metade da vida, empurra os inimigos e aumenta defesa e regeneração."
-			]
-		}
-		{
-			id: "0AD0BF84742AFD45"
-			x: 23.0d
-			y: 2.0d
+			shape: "diamond"
 			size: 1.25d
-			dependencies: [
-				"07623111D15E32A5"
-			]
 			tasks: [
 				{
-					id: "0B463B3108985FEC"
+					id: "28ECFC569AF2F8D6"
+					item: { count: 1, id: "cataclysm:monstrous_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:unbreakable_skull"
-					}
-					count: 1L
 				}
 				{
-					id: "730FAA4E485D68E3"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:vitality_ankh"
+					advancement: "cataclysm:find_soul_black_smith"
+					criterion: ""
+					icon: {
+						id: "comamigos_balance:monstrosity_heart"
 					}
-					count: 1L
+					id: "32D7E5E9920C3BF3"
+					type: "advancement"
 				}
 				{
-					id: "72219877C67DA4FF"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ring_of_grudged"
-					}
-					count: 1L
+					entity: "cataclysm:netherite_monstrosity"
+					id: "4659C255BDBE3144"
+					type: "kill"
+					value: 1L
 				}
 				{
-					id: "6CBA3FAAEDF4399C"
+					id: "02EEB25B78CFD17D"
+					item: { count: 1, id: "cataclysm:infernal_forge" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:berserker_soul_amulet"
-					}
-					count: 1L
 				}
 				{
-					id: "12D461FEB01856CC"
+					id: "65AEAEC6BCCDFA72"
+					item: { count: 1, id: "cataclysm:monstrous_helm" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:necklace_of_the_desert"
-					}
-					count: 1L
-				}
-				{
-					id: "356A857D717A5751"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:khopesh"
-					}
-					count: 1L
-				}
-				{
-					id: "25EBDF4980F9FB70"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:sandstorm_in_a_bottle"
-					}
-					count: 1L
-				}
-				{
-					id: "33795AF7AEBED8E0"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:bloom_stone_pauldrons"
-					}
-					count: 1L
 				}
 			]
+			x: 23.0d
+			y: 0.4d
+		}
+		{
+			dependencies: ["07623111D15E32A5"]
+			id: "0AD0BF84742AFD45"
+			optional: true
 			rewards: [
 				{
 					id: "01B9345D83205C93"
@@ -1307,361 +804,218 @@
 				}
 				{
 					id: "459B030AB50E1871"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Relíquias de areia e cristal"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Os tesouros das ruínas guardam joias que os sacerdotes do deserto e os berserkers do norte usavam em batalha."
-				"&7Um crânio que não racha, um ankh que cura, um anel que guarda mágoa, um amuleto que troca armadura por fúria."
-				"&7Os titãs menores também deixam lembranças: a tempestade presa num frasco e a carapaça que dispara cristais."
-				""
-				"&6Objetivo:&r 1. Nos baús de tesouro das ruínas do deserto: &6Caveira Inquebrável&r (anula um atordoamento por recarga) e &6Ankh da Vitalidade&r (cura contínua)."
-				"&f2. Nos tesouros das estruturas abandonadas da neve: &6Anel do Rancor&r (críticos mais fortes) e &6Amuleto da Alma Berserker&r (mais dano, menos armadura)."
-				"&f3. Escove a areia suspeita da Pirâmide por outro &6Colar do Deserto&r e tome um &6Khopesh&r dos koboletons."
-				"&f4. Recolha a &6Tempestade numa Garrafa&r do Remanescente: invoca duas tempestades que orbitam você. Entra em duas fusões."
-				"&f5. Monte as &6Ombreiras de Pedra-Flor&r no Mechanical Crafter (cascas de caranguejo e Mecanismo de Precisão): disparam ametista por tecla."
-				""
-				"&8O Khopesh não aceita reparo nem encanto; na fornalha vira pepita de metal antigo."
-			]
-			optional: true
-		}
-		{
-			id: "23229B6CC678D4DF"
-			x: 25.0d
-			y: -1.2d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:ignis_heart"
-			}
-			dependencies: [
-				"0800E9D0B5EB9C2C"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "3559949153F5B6DB"
-					type: "kill"
-					entity: "cataclysm:ignis"
-					value: 1L
-				}
-				{
-					id: "7C0B8E0ABC304F19"
+					id: "0B463B3108985FEC"
+					item: { count: 1, id: "cataclysm:unbreakable_skull" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_ingot"
-					}
-					count: 3L
 				}
 				{
-					id: "684D6C83E743B2B6"
-					type: "kill"
-					entity: "cataclysm:ignited_berserker"
-					value: 1L
+					id: "730FAA4E485D68E3"
+					item: { count: 1, id: "cataclysm:vitality_ankh" }
+					type: "item"
 				}
-			]
-			rewards: [
 				{
-					id: "4F1350055A291A37"
-					type: "xp"
-					xp: 420
+					id: "72219877C67DA4FF"
+					item: { count: 1, id: "cataclysm:ring_of_grudged" }
+					type: "item"
+				}
+				{
+					id: "6CBA3FAAEDF4399C"
+					item: { count: 1, id: "cataclysm:berserker_soul_amulet" }
+					type: "item"
+				}
+				{
+					id: "12D461FEB01856CC"
+					item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+					type: "item"
+				}
+				{
+					id: "356A857D717A5751"
+					item: { count: 1, id: "cataclysm:khopesh" }
+					type: "item"
+				}
+				{
+					id: "25EBDF4980F9FB70"
+					item: { count: 1, id: "cataclysm:sandstorm_in_a_bottle" }
+					type: "item"
+				}
+				{
+					id: "33795AF7AEBED8E0"
+					item: { count: 1, id: "cataclysm:bloom_stone_pauldrons" }
+					type: "item"
 				}
 			]
-			title: "Ignis, o Fogo Eterno"
-			description: [
-				"&7Um cavaleiro de chamas com espada e escudo, que aprendeu a lutar antes de o Nether esfriar."
-				"&7Cada vez que sangra, queima mais forte. O metal que corria nas veias dele não esfria nunca."
-				"&7Com Ignis caído, seus soldados vagam pelas fortalezas procurando um novo senhor."
-				""
-				"&6Objetivo:&r 1. Coloque as &6Cinzas Ardentes&r no &6Altar do Fogo&r, no centro da arena, e derrote &cIgnis&r."
-				"&fO escudo bloqueia golpes de frente; a cada fase ele fica mais rápido e passa a usar fogo das almas."
-				"&f2. Recolha &63 Lingotes de Ignitium&r. Um bloco só volta a lingotes num Misturador &csuperaquecido&r."
-				"&f3. Derrote um &cBerserker Inflamado&r, que passa a surgir nas Fortalezas do Nether depois da queda de Ignis."
-				"&fSeu &ccoração&r dá resistência ao fogo e força, ao custo de fome."
-				""
-				"&8Poções de resistência ao fogo são obrigatórias. Lute longe da lava da borda."
-				"&8Cada vitória rende poucos lingotes: escolha bem o que forjar primeiro."
-			]
+			x: 23.0d
+			y: 2.0d
 		}
 		{
-			id: "4E8D1EE016E1ACB2"
-			x: 27.0d
-			y: -2.0d
-			size: 1.25d
-			dependencies: [
-				"23229B6CC678D4DF"
+			dependencies: ["0800E9D0B5EB9C2C"]
+			icon: {
+				id: "comamigos_balance:ignis_heart"
+			}
+			id: "23229B6CC678D4DF"
+			rewards: [{
+				id: "4F1350055A291A37"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "3559949153F5B6DB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 3L
+					id: "7C0B8E0ABC304F19"
+					item: { count: 1, id: "cataclysm:ignitium_ingot" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ignited_berserker"
+					id: "684D6C83E743B2B6"
+					type: "kill"
+					value: 1L
+				}
 			]
+			x: 25.0d
+			y: -1.2d
+		}
+		{
+			dependencies: ["23229B6CC678D4DF"]
+			id: "4E8D1EE016E1ACB2"
+			rewards: [{
+				id: "09A7812CC9E68064"
+				type: "xp"
+				xp: 700
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "49D222128F9B4703"
+					item: { count: 1, id: "cataclysm:ignitium_upgrade_smithing_template" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_upgrade_smithing_template"
-					}
-					count: 1L
 				}
 				{
 					id: "46C76449F5D155FB"
+					item: { count: 1, id: "cataclysm:ignitium_helmet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_helmet"
-					}
-					count: 1L
 				}
 				{
 					id: "0F6FDE0056A62BF0"
+					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "6A0F50310A621903"
+					item: { count: 1, id: "cataclysm:ignitium_leggings" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_leggings"
-					}
-					count: 1L
 				}
 				{
 					id: "2A062F33FB51CD76"
+					item: { count: 1, id: "cataclysm:ignitium_boots" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_boots"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "09A7812CC9E68064"
-					type: "xp"
-					xp: 700
-				}
-			]
-			title: "A armadura de Ignitium"
-			description: [
-				"&7Para casar ignitium com netherite, o ferreiro precisa de um molde que aguente o calor."
-				"&7Banhada na chama de Ignis, a netherite muda: o elmo enxerga na lava e as botas caminham sobre ela."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Molde de Melhoria de Ignitium&r: molde de netherite, pó de blaze e tijolos do Nether."
-				"&f2. Na Mesa de Ferraria, aplique molde + lingote de ignitium em cada peça de &6armadura de netherite&r."
-				"&fElmo: Marca Ardente por tecla. Peitoral: aceita élitro depois. Calças: reflexo de chamas. Botas: andam na lava."
-				""
-				"&8A netherite do Heartforge só sai: planeje as quatro peças antes de gastar os lingotes."
-			]
+			x: 27.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["23229B6CC678D4DF"]
 			id: "14D4EB7F4C77EB6E"
-			x: 27.0d
-			y: -0.4d
-			dependencies: [
-				"23229B6CC678D4DF"
-			]
+			rewards: [{
+				id: "0A45EAD0C70321B0"
+				type: "xp"
+				xp: 420
+			}]
 			tasks: [
 				{
 					id: "47E5B21CD085266B"
+					item: { count: 1, id: "cataclysm:the_incinerator" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:the_incinerator"
-					}
-					count: 1L
 				}
 				{
 					id: "55877073D290E4B0"
+					item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:bulwark_of_the_flame"
-					}
-					count: 1L
 				}
 				{
 					id: "6ACE93D0AA616096"
+					item: { count: 1, id: "cataclysm:blazing_grips" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:blazing_grips"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "0A45EAD0C70321B0"
-					type: "xp"
-					xp: 420
-				}
-			]
-			title: "As armas de Ignis"
-			description: [
-				"&7A espada de Ignis, refeita para mãos menores, segura a respiração do fogo e a solta de uma vez."
-				"&7O escudo dele bloqueava exércitos; agora bloqueia e investe."
-				"&7E as manoplas de tijolo do Nether deixam uma marca em brasa a cada soco."
-				""
-				"&6Objetivo:&r Todas no &6Mechanical Crafter&r com um Mecanismo de Precisão:"
-				"&f1. &6O Incinerador&r: espada de netherite, ignitium e bastões de blaze. Segure o uso 3 s e solte para uma onda de chamas."
-				"&f2. &6Baluarte da Chama&r: escudo, ignitium, bastões de blaze e tijolos do Nether. Agachado, segure e solte para investir."
-				"&f3. &6Garras Ardentes&r: tijolos do Nether e ignitium. No slot de mãos, aplicam &cMarca Ardente&r (menos armadura no alvo)."
-				""
-				"&8A onda do Incinerador pode destruir itens caídos no chão. Quem bate na parede durante a investida do Baluarte fica atordoado."
-			]
+			x: 27.0d
+			y: -0.4d
 		}
 		{
-			id: "569E756589BB3305"
-			x: 30.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_5"
-			}
 			dependencies: [
 				"4E8D1EE016E1ACB2"
 				"14D4EB7F4C77EB6E"
 			]
-			tasks: [
-				{
-					id: "58AFE5660FFCC418"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_5"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_5"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&cTier V&7 - Maldição e Tempestade"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "569E756589BB3305"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_5"
+				}
+				id: "58AFE5660FFCC418"
+				type: "advancement"
+			}]
+			x: 30.0d
+			y: 0.0d
 		}
 		{
-			id: "4CDC09724947BA6E"
-			x: 32.0d
-			y: -0.4d
-			shape: "diamond"
+			dependencies: ["569E756589BB3305"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:maledictus_heart"
 			}
-			dependencies: [
-				"569E756589BB3305"
-			]
+			id: "4CDC09724947BA6E"
+			rewards: [{
+				id: "399315C3913A2DDF"
+				type: "xp"
+				xp: 340
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "cataclysm:maledictus"
 					id: "105893D72C39D034"
 					type: "kill"
-					entity: "cataclysm:maledictus"
 					value: 1L
 				}
 				{
-					id: "2730C6B82DE01628"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_ingot"
-					}
 					count: 3L
+					id: "2730C6B82DE01628"
+					item: { count: 1, id: "cataclysm:cursium_ingot" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "399315C3913A2DDF"
-					type: "xp"
-					xp: 340
-				}
-			]
-			title: "Maledictus"
-			description: [
-				"&7Um guerreiro alado que voltou do salão dos mortos sem permissão."
-				"&7Seus próprios irmãos o trancaram na prisão de gelo e jogaram a chave para o carcereiro."
-				"&7O que ele deixa é um metal azul-pálido que pesa como culpa e brilha como fantasma."
-				""
-				"&6Objetivo:&r 1. Abra a &6Porta do Selo&r da Prisão Congelada com a &6Chave Estranha&r e use a &6Lápide Amaldiçoada&r para invocar o &cMaledictus&r."
-				"&fEle voa, golpeia com alabarda e machado fantasmas e mergulha do alto. Olhe as sombras no chão."
-				"&f2. Recolha &63 Lingotes de Cursium&r. Um bloco de cursium só volta a lingotes num &6Misturador aquecido&r."
-				"&fSeu &ccoração&r dá força e velocidade, mas traz definhamento e escuridão."
-			]
+			x: 32.0d
+			y: -0.4d
 		}
 		{
+			dependencies: ["569E756589BB3305"]
 			id: "792374CCF6411BFF"
-			x: 32.0d
-			y: 1.2d
-			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"569E756589BB3305"
-			]
-			tasks: [
-				{
-					id: "64E9177686681771"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:storm_eye"
-					}
-					count: 1L
-				}
-				{
-					id: "653FDED6121E33EB"
-					type: "advancement"
-					advancement: "cataclysm:find_acropolis"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "cataclysm:storm_eye"
-					}
-				}
-				{
-					id: "36F0CC85C12EED7B"
-					type: "kill"
-					entity: "cataclysm:hippocamtus"
-					value: 1L
-				}
-				{
-					id: "56F05E3A565B5CD7"
-					type: "kill"
-					entity: "cataclysm:cindaria"
-					value: 1L
-				}
-				{
-					id: "679D23304A1CB465"
-					type: "kill"
-					entity: "cataclysm:urchinkin"
-					value: 3L
-				}
-				{
-					id: "5A8F34D1FD86C5EA"
-					type: "kill"
-					entity: "cataclysm:symbiocto"
-					value: 1L
-				}
-				{
-					id: "4F0BB333A04F4647"
-					type: "kill"
-					entity: "cataclysm:drowned_host"
-					value: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "3E6C4B34009A69F6"
@@ -1670,527 +1024,326 @@
 				}
 				{
 					id: "35378CCDFC4FA57D"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "A Acrópole"
-			description: [
-				"&7Sobre os mares quentes, uma cidade de pedra azul flutua entre as nuvens, cheia de água que não cai."
-				"&7Hipocamtos de lança e escudo, cindárias de sombrinha elétrica, ouriçinhos e polvos que vestem afogados como marionetes guardam as escadas."
-				"&7No topo, a Imperatriz da Tempestade espera quem tiver coragem de subir."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Olho da Tempestade&r (olho do Ender, para-raios, diamantes, prismarinho e balde de água)."
-				"&f2. Siga-o até a &6Acrópole&r, nas nuvens acima dos &boceanos quentes&r."
-				"&f3. Derrote um &cHipocamto&r (contorne o escudo) e uma &cCindária&r (sombrinha e descargas)."
-				"&f4. Derrote &c3 Ouriçinhos&r, que espetam de perto e atiram espinhos de longe."
-				"&f5. Derrote um &cSimbiocto&r e um &cHospedeiro Afogado&r: mate o boneco e o polvo procura outro."
-				""
-				"&8Leve blocos para subir e poções de queda lenta: a altura mata tanto quanto os guardas."
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "64E9177686681771"
+					item: { count: 1, id: "cataclysm:storm_eye" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_acropolis"
+					criterion: ""
+					icon: {
+						id: "cataclysm:storm_eye"
+					}
+					id: "653FDED6121E33EB"
+					type: "advancement"
+				}
+				{
+					entity: "cataclysm:hippocamtus"
+					id: "36F0CC85C12EED7B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:cindaria"
+					id: "56F05E3A565B5CD7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:urchinkin"
+					id: "679D23304A1CB465"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "cataclysm:symbiocto"
+					id: "5A8F34D1FD86C5EA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:drowned_host"
+					id: "4F0BB333A04F4647"
+					type: "kill"
+					value: 1L
+				}
 			]
+			x: 32.0d
+			y: 1.2d
 		}
 		{
+			dependencies: ["4CDC09724947BA6E"]
 			id: "568455103C4D81C8"
-			x: 34.0d
-			y: -1.2d
+			rewards: [{
+				id: "14E9BD0A93D44F23"
+				type: "xp"
+				xp: 850
+			}]
 			size: 1.25d
-			dependencies: [
-				"4CDC09724947BA6E"
-			]
 			tasks: [
 				{
 					id: "6C31DE8EB84ED7CC"
+					item: { count: 1, id: "cataclysm:cursium_upgrade_smithing_template" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_upgrade_smithing_template"
-					}
-					count: 1L
 				}
 				{
 					id: "64743A86A53A9095"
+					item: { count: 1, id: "cataclysm:cursium_helmet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_helmet"
-					}
-					count: 1L
 				}
 				{
 					id: "09DDD88213A6D6D1"
+					item: { count: 1, id: "cataclysm:cursium_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "5F27265A048D0F20"
+					item: { count: 1, id: "cataclysm:cursium_leggings" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_leggings"
-					}
-					count: 1L
 				}
 				{
 					id: "667889AA1DDBC6F9"
+					item: { count: 1, id: "cataclysm:cursium_boots" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_boots"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "14E9BD0A93D44F23"
-					type: "xp"
-					xp: 850
-				}
-			]
-			title: "A armadura dos que não ficam mortos"
-			description: [
-				"&7Aço negro e ouro em volta do molde de netherite: só assim o cursium aceita a forja."
-				"&7A armadura que nasce dali enxerga através das paredes, ignora golpes e, uma vez, recusa a própria morte."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Molde de Melhoria de Cursium&r: molde de netherite, aço negro e ouro."
-				"&f2. Na Mesa de Ferraria, aplique molde + lingote de cursium em cada peça de &6armadura de netherite&r."
-				"&fElmo: revela inimigos atrás das paredes. Peitoral: revive uma vez com invencibilidade breve. Calças: chance de ignorar golpes. Botas: menos dano de queda e passo para trás."
-				""
-				"&8Depois de reviver, o peitoral fica 6 minutos sem poder salvar de novo."
-			]
+			x: 34.0d
+			y: -1.2d
 		}
 		{
+			dependencies: ["4CDC09724947BA6E"]
 			id: "6DB2F6FAFCC6174B"
-			x: 34.0d
-			y: 0.4d
-			dependencies: [
-				"4CDC09724947BA6E"
-			]
+			rewards: [{
+				id: "2A31C10B339AB0C5"
+				type: "xp"
+				xp: 510
+			}]
 			tasks: [
 				{
 					id: "209A057A57B39BE0"
+					item: { count: 1, id: "cataclysm:the_annihilator" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:the_annihilator"
-					}
-					count: 1L
 				}
 				{
 					id: "5A654A44A72F2B6A"
+					item: { count: 1, id: "cataclysm:soul_render" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:soul_render"
-					}
-					count: 1L
 				}
 				{
 					id: "0155FD02B0FA6371"
+					item: { count: 1, id: "cataclysm:cursed_bow" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:cursed_bow"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "2A31C10B339AB0C5"
-					type: "xp"
-					xp: 510
-				}
-			]
-			title: "As armas do morto alado"
-			description: [
-				"&7O machado de Maledictus, a alabarda fantasma e um arco sem madeira, só cursium e aço negro tensionados pelo ódio."
-				"&7Com dois machados, o portador vira tempestade."
-				""
-				"&6Objetivo:&r Todas no &6Mechanical Crafter&r com cursium, aço negro e um Mecanismo de Precisão:"
-				"&f1. &6O Aniquilador&r: críticos mais fortes; com um em cada mão, carregue 2 s para um golpe em área."
-				"&f2. &6Rasga-Almas&r: uso para investida; agachado, invoca alabardas fantasmas em espiral."
-				"&f3. &6Arco Maldito&r (leva barbante): dispara 3 flechas fantasmas de uma vez (2 se a flecha for especial)."
-			]
+			x: 34.0d
+			y: 0.4d
 		}
 		{
-			id: "5FD5BD0C525EA09C"
-			x: 37.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_6"
-			}
 			dependencies: [
 				"568455103C4D81C8"
 				"6DB2F6FAFCC6174B"
 			]
-			tasks: [
-				{
-					id: "57C23C9319B3AFDE"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_6"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_6"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&5Tier VI&7 - Fusão e Maré"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_6"
+			}
+			id: "5FD5BD0C525EA09C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_6"
+				}
+				id: "57C23C9319B3AFDE"
+				type: "advancement"
+			}]
+			x: 37.0d
+			y: 0.0d
 		}
 		{
-			id: "79575B5C3CEABB9B"
-			x: 39.0d
-			y: -2.4d
-			shape: "diamond"
+			dependencies: ["5FD5BD0C525EA09C"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:harbinger_heart"
 			}
-			dependencies: [
-				"5FD5BD0C525EA09C"
-			]
+			id: "79575B5C3CEABB9B"
+			rewards: [{
+				id: "2456F5B26A93C4DF"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "2ADAECA237927F5D"
+					item: { count: 1, id: "minecraft:nether_star" }
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					count: 1L
 				}
 				{
+					entity: "cataclysm:the_harbinger"
 					id: "6816627235D7C030"
 					type: "kill"
-					entity: "cataclysm:the_harbinger"
 					value: 1L
 				}
 				{
-					id: "0148AA45657BE002"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:witherite_ingot"
-					}
 					count: 9L
+					id: "0148AA45657BE002"
+					item: { count: 1, id: "cataclysm:witherite_ingot" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "2456F5B26A93C4DF"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "O Arauto"
-			description: [
-				"&7O colosso da Fábrica Antiga foi construído para uma guerra que nunca chegou."
-				"&7Com uma estrela do Nether no peito, ele lembra para que serve."
-				"&7Wither e netherite fundidos no seu coração viram witherite, o metal que alimenta a bigorna de fusão."
-				""
-				"&6Objetivo:&r 1. Obtenha uma &6Estrela do Nether&r derrotando o &cWither&r (capítulo Bosses do Mundo)."
-				"&f2. No salão central da Fábrica Antiga, use a estrela no colosso adormecido e derrote o &cArauto&r."
-				"&fEle voa, dispara mísseis de wither e um raio da morte. Ligue os &6EMPs&r com redstone para derrubá-lo por instantes."
-				"&f3. Quebre o &6Bloco de Witherite&r que ele deixa em &69 lingotes&r numa bancada."
-				"&fSeu &ccoração&r dá força e pressa, ao custo de definhamento."
-				""
-				"&8A bigorna de fusão consome 6 lingotes de witherite; planeje as armas com o que sobrar."
-			]
+			x: 39.0d
+			y: -2.4d
 		}
 		{
-			id: "3008DBF1FD38D015"
-			x: 39.0d
-			y: -0.8d
-			shape: "diamond"
+			dependencies: ["5FD5BD0C525EA09C"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:leviathan_heart"
 			}
-			dependencies: [
-				"5FD5BD0C525EA09C"
-			]
+			id: "3008DBF1FD38D015"
+			rewards: [{
+				id: "505367B98107FA70"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "69C4D167C29BF422"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:abyssal_sacrifice"
-					}
-					count: 1L
 				}
 				{
+					entity: "cataclysm:the_leviathan"
 					id: "5990129D2E7829FC"
 					type: "kill"
-					entity: "cataclysm:the_leviathan"
 					value: 1L
 				}
 				{
 					id: "21A0F7B48914952B"
+					item: { count: 1, id: "cataclysm:tidal_claws" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:tidal_claws"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "505367B98107FA70"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "O Leviatã"
-			description: [
-				"&7O predador que atravessa dimensões para caçar. É por causa dele que os marinheiros temem o fundo."
-				"&7O que dorme sob a cúpula só aceita o melhor de cada metal, e uma lâmina que já matou em seu nome."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Sacrifício Abissal&r (sem forma): blocos de ferro, ouro, diamante, esmeralda e ametista,"
-				"&fconcha de náutilo, coração do mar, um &6Athame&r e coral cristalizado (ou pedaço de coral)."
-				"&f2. Coloque-o no &6Altar do Abismo&r, sob a grande cúpula da Cidade Afundada, e derrote o &cLeviatã&r."
-				"&fEle abre portais, dispara raios abissais e agarra com tentáculos. A luta é toda debaixo d'água."
-				"&f3. Recolha as &6Garras da Maré&r: uso puxa você como gancho; ataque dispara um tentáculo."
-				"&fSeu &ccoração&r dá respiração aquática, poder do conduíte e resistência, mas deixa lento."
-				""
-				"&8A Carne de Caranguejo Abençoada protege do medo e da queimadura abissais."
-			]
+			x: 39.0d
+			y: -0.8d
 		}
 		{
-			id: "2BDD35DD5B78DDA7"
-			x: 39.0d
-			y: 0.8d
-			dependencies: [
-				"5FD5BD0C525EA09C"
-			]
+			dependencies: ["5FD5BD0C525EA09C"]
 			icon: {
-				count: 1
 				id: "cataclysm:chitin_claw"
 			}
+			id: "2BDD35DD5B78DDA7"
+			rewards: [{
+				id: "2AD8B89552CC7BC0"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [
 				{
-					id: "036A06395714553C"
-					type: "advancement"
 					advancement: "cataclysm:kill_clawdian"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "cataclysm:chitin_claw"
 					}
+					id: "036A06395714553C"
+					type: "advancement"
 				}
 				{
 					id: "070522A97E606DC2"
+					item: { count: 1, id: "cataclysm:chitin_claw" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:chitin_claw"
-					}
-					count: 1L
 				}
 				{
-					id: "3F9487959C1F4A65"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:lacrima"
-					}
 					count: 8L
+					id: "3F9487959C1F4A65"
+					item: { count: 1, id: "cataclysm:lacrima" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "2AD8B89552CC7BC0"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "O Clawdiano e as lágrimas"
-			description: [
-				"&7Uma lagosta do tamanho de uma torre, com um machado ainda maior, guarda os terraços da Acrópole."
-				"&7Os guardas carregam lacrimas, lágrimas da deusa do mar cristalizadas, como amuletos."
-				""
-				"&6Objetivo:&r 1. Derrote o &cClawdiano&r, miniboss da Acrópole: gira o machado, pisa e investe. Armadura alta, traga sua melhor arma."
-				"&f2. Recolha a &6Garra de Quitina&r: equipada, aumenta o alcance de blocos e de ataque."
-				"&f3. Junte &68 Lacrimas&r dos guardas da Acrópole, do Clawdiano, de Scylla e dos tesouros."
-			]
+			x: 39.0d
+			y: 0.8d
 		}
 		{
-			id: "641238FABF883C37"
-			x: 39.0d
-			y: 2.4d
-			shape: "diamond"
+			dependencies: ["5FD5BD0C525EA09C"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:scylla_heart"
 			}
-			dependencies: [
-				"5FD5BD0C525EA09C"
-			]
+			id: "641238FABF883C37"
+			rewards: [{
+				id: "617C60765F6F167D"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "diamond"
 			tasks: [
 				{
+					entity: "cataclysm:scylla"
 					id: "054A023236EF8CEB"
 					type: "kill"
-					entity: "cataclysm:scylla"
 					value: 1L
 				}
 				{
-					id: "1BEC0B10879B613D"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:essence_of_the_storm"
-					}
 					count: 2L
+					id: "1BEC0B10879B613D"
+					item: { count: 1, id: "cataclysm:essence_of_the_storm" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "617C60765F6F167D"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "Scylla, Imperatriz da Tempestade"
-			description: [
-				"&7Pequena para um titã, mas comanda o raio e o mar. Gira uma âncora como se fosse um chicote."
-				"&7É ela quem guarda a passagem para as lendas, e o que sobra dela é um trovão que não terminou."
-				""
-				"&6Objetivo:&r 1. Suba até o topo da &6Acrópole&r: basta chegar perto para que &cScylla&r apareça."
-				"&fEla lança relâmpagos, atira a âncora e invoca ondas. Para-raios e blocos de cobertura ajudam."
-				"&f2. Recolha &62 Essências da Tempestade&r."
-				"&fSeu &ccoração&r é o &6boss-chave do Tier VI&r: dá respiração aquática, graça do golfinho e força, ao custo de fraqueza."
-			]
+			x: 39.0d
+			y: 2.4d
 		}
 		{
+			dependencies: ["79575B5C3CEABB9B"]
 			id: "6951DE5A0B03E8E7"
-			x: 41.0d
-			y: -2.4d
+			rewards: [{
+				id: "6FE515FFF8156CA5"
+				type: "xp"
+				xp: 800
+			}]
 			size: 1.25d
-			dependencies: [
-				"79575B5C3CEABB9B"
-			]
 			tasks: [
 				{
 					id: "23704A35CFE807E4"
+					item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:mechanical_fusion_anvil"
-					}
-					count: 1L
 				}
 				{
 					id: "120611EBAAF022C4"
+					item: { count: 1, id: "cataclysm:laser_gatling" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:laser_gatling"
-					}
-					count: 1L
 				}
 				{
 					id: "65B8E2FA3CE50E52"
+					item: { count: 1, id: "cataclysm:meat_shredder" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:meat_shredder"
-					}
-					count: 1L
 				}
 				{
 					id: "2F12309AD672C5BD"
+					item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:wither_assault_shoulder_weapon"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "6FE515FFF8156CA5"
-					type: "xp"
-					xp: 800
-				}
-			]
-			title: "A Bigorna de Fusão"
-			description: [
-				"&7Uma bigorna que não gasta, movida a redstone, capaz de casar o espólio de dois titãs numa arma só."
-				"&7Na mesma oficina, os antigos montavam armas de luz, serras que não param e lança-mísseis de ombro."
-				""
-				"&6Objetivo:&r 1. Fabrique a &6Bigorna de Fusão Mecânica&r: bigorna comum, blocos de redstone e 6 lingotes de witherite."
-				"&fColoque a arma base e a adição nela para fundi-las. Todas as fusões do Cataclismo passam por aqui."
-				"&fNo &6Mechanical Crafter&r, com witherite e um Mecanismo de Precisão:"
-				"&f2. &6Gatling de Laser&r (ferro, redstone, bloco de redstone): lasers incendiários sem parar, recarrega com redstone."
-				"&f3. &6Retalhador de Carne&r (bloco de ferro, redstone): serra contínua que ignora a invulnerabilidade."
-				"&f4. &6Arma de Ombro de Assalto Wither&r (pólvora, bloco de redstone): mísseis; agachado, obuses explosivos."
-			]
+			x: 41.0d
+			y: -2.4d
 		}
 		{
+			dependencies: ["3008DBF1FD38D015"]
 			id: "049C5E6393AD864F"
-			x: 41.0d
-			y: -0.8d
-			size: 1.25d
-			dependencies: [
-				"3008DBF1FD38D015"
-			]
-			tasks: [
-				{
-					id: "2591DC4074040F26"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:remnant_skull"
-					}
-					count: 1L
-				}
-				{
-					id: "0A3A55D8222ADFFF"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:netherite_effigy"
-					}
-					count: 1L
-				}
-				{
-					id: "594088B3B52F0DF6"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:lava_power_cell"
-					}
-					count: 4L
-				}
-				{
-					id: "27BD86744D137FB2"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:abyssal_egg"
-					}
-					count: 1L
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "406C8E4A36D349E1"
@@ -2199,250 +1352,134 @@
 				}
 				{
 					id: "3EA7DAEF4CC68FA8"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "As crias dos titãs"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Nem tudo o que os titãs deixam quer matar você."
-				"&7Do crânio do Remanescente nasce uma cria curiosa; de uma efígie com um totem no peito, uma cópia mansa da máquina de guerra;"
-				"&7e o Leviatã não estava sozinho: o ovo ainda pulsa."
-				""
-				"&6Objetivo:&r 1. Use a &6Caveira do Remanescente&r (drop do titã) para chamar um &6Remanescente Moderno&r e domestique-o com ovo de farejador."
-				"&f2. Fabrique a &6Efígie de Netherite&r (netherite, totem da imortalidade, ouro, redstone e tijolos do Nether) para chamar a &6Ministrosidade&r."
-				"&f3. Junte &64 Células de Energia de Lava&r (da Monstruosidade) para domesticá-la."
-				"&f4. Guarde o &6Ovo Abissal&r do Leviatã e choque-o na água para criar um &6Leviatã Filhote&r."
-				""
-				"&8As três crias cabem num balde (o filhote, num balde de água)."
+			size: 1.25d
+			tasks: [
+				{
+					id: "2591DC4074040F26"
+					item: { count: 1, id: "cataclysm:remnant_skull" }
+					type: "item"
+				}
+				{
+					id: "0A3A55D8222ADFFF"
+					item: { count: 1, id: "cataclysm:netherite_effigy" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "594088B3B52F0DF6"
+					item: { count: 1, id: "cataclysm:lava_power_cell" }
+					type: "item"
+				}
+				{
+					id: "27BD86744D137FB2"
+					item: { count: 1, id: "cataclysm:abyssal_egg" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 41.0d
+			y: -0.8d
 		}
 		{
-			id: "5F369ABC5270D5FB"
-			x: 41.0d
-			y: 1.6d
-			size: 1.25d
 			dependencies: [
 				"641238FABF883C37"
 				"2BDD35DD5B78DDA7"
 			]
+			id: "5F369ABC5270D5FB"
+			rewards: [{
+				id: "1DDE5B32EAF796E4"
+				type: "xp"
+				xp: 800
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "779B7486A95AE27A"
+					item: { count: 1, id: "cataclysm:astrape" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:astrape"
-					}
-					count: 1L
 				}
 				{
 					id: "45E23B69337BF79E"
+					item: { count: 1, id: "cataclysm:ceraunus" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ceraunus"
-					}
-					count: 1L
 				}
 				{
 					id: "5B3AC9B48FE0676E"
+					item: { count: 1, id: "cataclysm:azure_sea_shield" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:azure_sea_shield"
-					}
-					count: 1L
 				}
 				{
-					id: "1E169CF313813FB9"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:azure_seastone"
-					}
 					count: 8L
+					id: "1E169CF313813FB9"
+					item: { count: 1, id: "cataclysm:azure_seastone" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "1DDE5B32EAF796E4"
-					type: "xp"
-					xp: 800
-				}
-			]
-			title: "O arsenal da tempestade"
-			description: [
-				"&7A lança dos guardas e a âncora da própria imperatriz, refeitas com o trovão dela."
-				"&7Ouro e lágrimas da deusa fazem um escudo que nunca enferruja, e a mesma lágrima, misturada à pedra, a faz flutuar."
-				""
-				"&6Objetivo:&r No &6Mechanical Crafter&r, com Mecanismo de Precisão:"
-				"&f1. &6Astrape&r (2 essências da tempestade e 3 lacrimas): estoca como tridente; o uso dispara uma lança de relâmpago."
-				"&f2. &6Ceraunus&r (2 essências e 3 lacrimas em outra ordem): pode ser arremessada; agachado, invoca ondas em leque."
-				"&f3. &6Escudo do Mar Azul&r (ouro e lacrimas)."
-				"&f4. Na bancada, fabrique &68 Pedra-do-mar Azul&r (pedra ao redor de uma lacrima): rende tijolos, colunas, murais e arcos."
-			]
+			x: 41.0d
+			y: 1.6d
 		}
 		{
-			id: "66DA84226E59DB5A"
-			x: 43.0d
-			y: -0.4d
 			dependencies: [
 				"6951DE5A0B03E8E7"
 				"5F369ABC5270D5FB"
 			]
+			id: "66DA84226E59DB5A"
+			rewards: [{
+				id: "43115C524AB457B2"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [
 				{
 					id: "07789ADE5615B23E"
+					item: { count: 1, id: "cataclysm:brontes" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:brontes"
-					}
-					count: 1L
 				}
 				{
 					id: "3C4C47BFD73925EE"
+					item: { count: 1, id: "cataclysm:the_immolator" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:the_immolator"
-					}
-					count: 1L
 				}
 				{
 					id: "5244BDDF3413319E"
+					item: { count: 1, id: "cataclysm:wrath_of_the_desert" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:wrath_of_the_desert"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "43115C524AB457B2"
-					type: "xp"
-					xp: 600
-				}
-			]
-			title: "As primeiras fusões"
-			description: [
-				"&7Na bigorna de fusão, o espólio de um titã ensina truques ao espólio de outro."
-				"&7O martelo da Monstruosidade aprende a trovejar, o machado do morto alado acende com o fogo de Ignis,"
-				"&7e o arco maldito passa a soprar areia em vez de flechas."
-				""
-				"&6Objetivo:&r Na &6Bigorna de Fusão&r, coloque a arma base e a adição:"
-				"&f1. &6Brontes&r = Forja Infernal + Astrape. Continua picareta, mas pode ser arremessada."
-				"&f2. &6O Imolador&r = O Aniquilador + Lingote de Ignitium. Crítico contra alvos com Marca Ardente; dois na mão, golpe de chamas."
-				"&f3. &6A Ira do Deserto&r = Arco Maldito + Tempestade numa Garrafa. Dispara três tempestades de areia amaldiçoadas."
-				""
-				"&8O Imolador combina com as Garras Ardentes, que aplicam a Marca Ardente."
-			]
+			x: 43.0d
+			y: -0.4d
 		}
 		{
-			id: "58FAB256B8E49AFB"
-			x: 46.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["66DA84226E59DB5A"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_7"
 			}
-			dependencies: [
-				"66DA84226E59DB5A"
-			]
-			tasks: [
-				{
-					id: "04D9777C357B26AC"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_7"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_7"
-					}
+			id: "58FAB256B8E49AFB"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_7"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_7"
 				}
-			]
-			rewards: [ ]
-			title: "&dTier VII&7 - A Cidadela do Vazio"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &dTier VII&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "04D9777C357B26AC"
+				type: "advancement"
+			}]
+			x: 46.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["58FAB256B8E49AFB"]
 			id: "7B859BEBD1A1B850"
-			x: 48.0d
-			y: 0.0d
-			shape: "diamond"
-			size: 1.25d
-			dependencies: [
-				"58FAB256B8E49AFB"
-			]
-			tasks: [
-				{
-					id: "1AD7B8F5E4DBF39B"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_eye"
-					}
-					count: 1L
-				}
-				{
-					id: "05532442D6C908EB"
-					type: "advancement"
-					advancement: "cataclysm:find_ruined_citadel"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "cataclysm:void_eye"
-					}
-				}
-				{
-					id: "7B25C865119C8020"
-					type: "kill"
-					entity: "cataclysm:endermaptera"
-					value: 5L
-				}
-				{
-					id: "5D375E495EB4CD3D"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_scatter_arrow"
-					}
-					count: 4L
-				}
-				{
-					id: "7395901B97D34B82"
-					type: "advancement"
-					advancement: "cataclysm:kill_ender_golem"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "cataclysm:void_eye"
-					}
-				}
-				{
-					id: "2D4225387673C29E"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_core"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "0D8A1FFD42553722"
@@ -2451,131 +1488,91 @@
 				}
 				{
 					id: "0F6EC54B986FE6AE"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "A Cidadela Arruinada"
-			description: [
-				"&7Um palácio de obsidiana, pedra do End e purpur nas ilhas distantes."
-				"&7Insetos do vazio roem as paredes até perder os dentes, e golens de ender com núcleo do vazio patrulham os salões."
-				"&7No centro, o Altar do Vazio aguarda."
-				""
-				"&6Objetivo:&r 1. Fabrique o &6Olho do Vazio&r (olho do Ender, pilares e blocos de purpur, tijolos de pedra do End e cascas de shulker)."
-				"&f2. No End, siga-o até a &6Cidadela Arruinada&r, nas terras altas e médias."
-				"&f3. Derrote &c5 Endermápteros&r; os que ainda têm mandíbula deixam a &6Mandíbula do Vazio&r."
-				"&f4. Fabrique &64 Flechas de Dispersão do Vazio&r: mandíbula sobre flecha espectral. Estilhaçam no impacto."
-				"&f5. Derrote um &cGolem de Ender&r (saia da trilha das runas) e recolha o &6Núcleo do Vazio&r."
-				""
-				"&8Cuidado com os blocos-armadilha de purpur, pedra do End e obsidiana. O End só se abre no Tier VII."
-				"&8O Núcleo do Vazio usado sozinho invoca runas à frente; também é adição em duas fusões."
-			]
-		}
-		{
-			id: "74A0049EE9DCF250"
-			x: 50.0d
-			y: 0.0d
 			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:ender_guardian_heart"
-			}
-			dependencies: [
-				"7B859BEBD1A1B850"
-			]
+			size: 1.25d
 			tasks: [
 				{
+					id: "1AD7B8F5E4DBF39B"
+					item: { count: 1, id: "cataclysm:void_eye" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_ruined_citadel"
+					criterion: ""
+					icon: {
+						id: "cataclysm:void_eye"
+					}
+					id: "05532442D6C908EB"
+					type: "advancement"
+				}
+				{
+					entity: "cataclysm:endermaptera"
+					id: "7B25C865119C8020"
+					type: "kill"
+					value: 5L
+				}
+				{
+					count: 4L
+					id: "5D375E495EB4CD3D"
+					item: { count: 1, id: "cataclysm:void_scatter_arrow" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ender_golem"
+					criterion: ""
+					icon: {
+						id: "cataclysm:void_eye"
+					}
+					id: "7395901B97D34B82"
+					type: "advancement"
+				}
+				{
+					id: "2D4225387673C29E"
+					item: { count: 1, id: "cataclysm:void_core" }
+					type: "item"
+				}
+			]
+			x: 48.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B859BEBD1A1B850"]
+			icon: {
+				id: "comamigos_balance:ender_guardian_heart"
+			}
+			id: "74A0049EE9DCF250"
+			rewards: [{
+				id: "658D683F8B76F6B6"
+				type: "xp"
+				xp: 460
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
 					id: "393B790EEFAB16D6"
 					type: "kill"
-					entity: "cataclysm:ender_guardian"
 					value: 1L
 				}
 				{
 					id: "71461DE279708D8B"
+					item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:gauntlet_of_guard"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "658D683F8B76F6B6"
-					type: "xp"
-					xp: 460
-				}
-			]
-			title: "O Guardião do Ender"
-			description: [
-				"&7Um colosso de pedra do End, purpur e obsidiana, plantado diante do altar para que nada passe."
-				"&7Puxa os intrusos para perto, e então esmaga. O punho dele ainda puxa, mesmo arrancado."
-				""
-				"&6Objetivo:&r 1. Aproxime-se do &6Altar do Vazio&r, no coração da Cidadela, e derrote o &cGuardião do Ender&r."
-				"&fEle atrai quem está perto, dispara projéteis teleguiados e faz chover runas. Mantenha distância média."
-				"&f2. Recolha a &6Manopla da Guarda&r: na mão principal, segure o uso para puxar as criaturas ao redor."
-				"&fSeu &ccoração&r dá muita resistência e absorção, mas deixa lento."
-			]
+			x: 50.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["74A0049EE9DCF250"]
 			id: "6700F1D7C8BDE176"
-			x: 52.0d
-			y: -1.6d
-			size: 1.25d
-			dependencies: [
-				"74A0049EE9DCF250"
-			]
-			tasks: [
-				{
-					id: "2C660F8F791DBFD6"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_forge"
-					}
-					count: 1L
-				}
-				{
-					id: "1A97732A8FFBF962"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:void_assault_shoulder_weapon"
-					}
-					count: 1L
-				}
-				{
-					id: "7F765508CB5EA724"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:gauntlet_of_bulwark"
-					}
-					count: 1L
-				}
-				{
-					id: "2254E66D478EC986"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:gauntlet_of_maelstrom"
-					}
-					count: 1L
-				}
-				{
-					id: "5A94D774E892E0CA"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_elytra_chestplate"
-					}
-					count: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "3CC606D70157FF1F"
@@ -2584,111 +1581,48 @@
 				}
 				{
 					id: "07316AD207A6D0ED"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Fusões do vazio"
-			description: [
-				"&7Resfriado no vazio, o martelo infernal abre leques de runas; recarregada com ele, a arma do Arauto dispara obuses do fim do mundo."
-				"&7A manopla do Guardião aprende a empurrar com o escudo de Ignis ou a girar com a tempestade do deserto."
-				"&7E o peitoral de Ignis, casado com as asas do End, voa sem abrir mão da armadura."
-				""
-				"&6Objetivo:&r Na &6Bigorna de Fusão&r:"
-				"&f1. &6A Forja do Vazio&r = Forja Infernal + Núcleo do Vazio (picareta que invoca runas em leque)."
-				"&f2. &6Arma de Ombro de Assalto do Vazio&r = Arma de Ombro Wither + Núcleo do Vazio."
-				"&f3. &6Manopla do Baluarte&r = Manopla da Guarda + Baluarte da Chama (empurra e marca com Marca Ardente)."
-				"&f4. &6Manopla do Turbilhão&r = Manopla da Guarda + Tempestade numa Garrafa (vórtice que arrasta e fere)."
-				"&f5. &6Peitoral de Ignitium com Élitro&r = Peitoral de Ignitium + Élitro."
-				""
-				"&8São duas Forjas Infernais (Brontes e Forja do Vazio) e duas Manoplas da Guarda: cace os titãs de novo se precisar."
-			]
-		}
-		{
-			id: "3A16E73B5DAFD6C0"
-			x: 52.0d
-			y: 0.0d
 			size: 1.25d
-			dependencies: [
-				"74A0049EE9DCF250"
-			]
 			tasks: [
 				{
-					id: "49B910D17E31512D"
+					id: "2C660F8F791DBFD6"
+					item: { count: 1, id: "cataclysm:void_forge" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_ancient_remnant"
-					}
-					count: 1L
 				}
 				{
-					id: "4C20D4D83BE5C496"
+					id: "1A97732A8FFBF962"
+					item: { count: 1, id: "cataclysm:void_assault_shoulder_weapon" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_ignis"
-					}
-					count: 1L
 				}
 				{
-					id: "71DC5B1CF458DE24"
+					id: "7F765508CB5EA724"
+					item: { count: 1, id: "cataclysm:gauntlet_of_bulwark" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_netherite_monstrosity"
-					}
-					count: 1L
 				}
 				{
-					id: "788423C5A480D342"
+					id: "2254E66D478EC986"
+					item: { count: 1, id: "cataclysm:gauntlet_of_maelstrom" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_maledictus"
-					}
-					count: 1L
 				}
 				{
-					id: "560F4B84E7119C51"
+					id: "5A94D774E892E0CA"
+					item: { count: 1, id: "cataclysm:ignitium_elytra_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_the_harbinger"
-					}
-					count: 1L
-				}
-				{
-					id: "242EAA38015C7BD3"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_the_leviathan"
-					}
-					count: 1L
-				}
-				{
-					id: "7DD8C81F88221888"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_scylla"
-					}
-					count: 1L
-				}
-				{
-					id: "75466CC38D2110C4"
-					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:music_disc_ender_guardian"
-					}
-					count: 1L
 				}
 			]
+			x: 52.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["74A0049EE9DCF250"]
+			id: "3A16E73B5DAFD6C0"
+			optional: true
 			rewards: [
 				{
 					id: "78261D1EB8101DCF"
@@ -2697,49 +1631,65 @@
 				}
 				{
 					id: "21439950064ADF83"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_lendaria"
 					}
+					type: "item"
 				}
 			]
-			title: "Cantigas do Cataclismo"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Os bardos dizem que cada titã cai cantando. Alguém teve o cuidado de gravar."
-				"&7As canções dos últimos titãs são mais tristes. Talvez por saberem como terminariam."
-				""
-				"&6Objetivo:&r 1. Junte os discos do &6Remanescente&r, de &6Ignis&r e da &6Monstruosidade&r."
-				"&f2. Junte os discos de &6Maledictus&r, do &6Arauto&r, do &6Leviatã&r, de &6Scylla&r e do &6Guardião do Ender&r."
-				"&fCada titã deixa o seu ao morrer."
-			]
-			optional: true
-		}
-		{
-			id: "2EEF8CACD0BCA972"
-			x: 52.0d
-			y: 1.6d
-			shape: "gear"
-			dependencies: [
-				"74A0049EE9DCF250"
-			]
-			icon: {
-				count: 1
-				id: "cataclysm:mechanical_fusion_anvil"
-			}
+			size: 1.25d
 			tasks: [
 				{
-					id: "5D2CE243189D99E8"
-					type: "advancement"
-					advancement: "cataclysm:kill_all_bosses"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "cataclysm:mechanical_fusion_anvil"
-					}
+					id: "49B910D17E31512D"
+					item: { count: 1, id: "cataclysm:music_disc_ancient_remnant" }
+					type: "item"
+				}
+				{
+					id: "4C20D4D83BE5C496"
+					item: { count: 1, id: "cataclysm:music_disc_ignis" }
+					type: "item"
+				}
+				{
+					id: "71DC5B1CF458DE24"
+					item: { count: 1, id: "cataclysm:music_disc_netherite_monstrosity" }
+					type: "item"
+				}
+				{
+					id: "788423C5A480D342"
+					item: { count: 1, id: "cataclysm:music_disc_maledictus" }
+					type: "item"
+				}
+				{
+					id: "560F4B84E7119C51"
+					item: { count: 1, id: "cataclysm:music_disc_the_harbinger" }
+					type: "item"
+				}
+				{
+					id: "242EAA38015C7BD3"
+					item: { count: 1, id: "cataclysm:music_disc_the_leviathan" }
+					type: "item"
+				}
+				{
+					id: "7DD8C81F88221888"
+					item: { count: 1, id: "cataclysm:music_disc_scylla" }
+					type: "item"
+				}
+				{
+					id: "75466CC38D2110C4"
+					item: { count: 1, id: "cataclysm:music_disc_ender_guardian" }
+					type: "item"
 				}
 			]
+			x: 52.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74A0049EE9DCF250"]
+			icon: {
+				id: "cataclysm:mechanical_fusion_anvil"
+			}
+			id: "2EEF8CACD0BCA972"
 			rewards: [
 				{
 					id: "5A1168D2B1F7BC76"
@@ -2748,25 +1698,25 @@
 				}
 				{
 					id: "4B776467312731C7"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Aquele que atravessou o Cataclismo"
-			description: [
-				"&7Oito selos, oito titãs, oito corações."
-				"&7O Remanescente, Ignis, a Monstruosidade, Maledictus, o Arauto, o Leviatã, Scylla e o Guardião: todos caíram."
-				"&7Os cronistas terão de inventar um título novo."
-				""
-				"&6Objetivo:&r 1. Derrote todos os bosses do Cataclismo."
-			]
+			shape: "gear"
+			tasks: [{
+				advancement: "cataclysm:kill_all_bosses"
+				criterion: ""
+				icon: {
+					id: "cataclysm:mechanical_fusion_anvil"
+				}
+				id: "5D2CE243189D99E8"
+				type: "advancement"
+			}]
+			x: 52.0d
+			y: 1.6d
 		}
-	]
-	title: "&4Os Titãs Adormecidos"
-	subtitle: [
-		"Os titãs que dormem sob o mundo"
 	]
 }

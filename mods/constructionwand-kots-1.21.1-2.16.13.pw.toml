@@ -1,0 +1,13 @@
+name = "constructionwand-kots-1.21.1-2.16.13"
+filename = "constructionwand-kots-1.21.1-2.16.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/76H3XX6b/versions/eXcxXIMi/constructionwand-kots-1.21.1-2.16.13.jar"
+hash-format = "sha1"
+hash = "2f92561a985e1a81da2e4a7a685efb62739d0d4f"
+
+[update]
+[update.modrinth]
+mod-id = "76H3XX6b"
+version = "eXcxXIMi"
