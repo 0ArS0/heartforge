@@ -542,7 +542,7 @@ hash = "0724139777a7a499a111d11ae1cc0cdd2928da7324083e49cea8ee11ca62fb3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "9da36a9a22aa48633e523929c1532f1dddcb8eb75b898e19c4a3b7b0e6aa3097"
+hash = "dcf3fc6adc684a61fd658f2400e9ca632eef748d65480210669d2e6a0e59a24b"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1174,7 +1174,7 @@ hash = "e25ac8cbb2e98c3753b51b40bc58c67bd1df572547572da08ce729e16f81ed56"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "aee2ebc6653b43f0375844064aa181d2c58cea4d91d313c416e7f60e438afcf7"
+hash = "7850a54d78593e6bf91f26e4e6f862f1907c889b9791d30c1f8f26a9370122a6"
 
 [[files]]
 file = "config/biomeparticleweather/config.txt"
@@ -1274,7 +1274,7 @@ hash = "a1772af826a1a6f16cc7a54fdfbfe7a944b155eabb12e7fb569e63179068eea0"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "74f174be1817c1983471a0874fb1489eb1dd4f91ecfa0cc39a3257c333c4e2ee"
+hash = "8818eb187f418b21a9247e3d93119b1a5b4a0bf3ce9818df7a743f5d23920ed7"
 
 [[files]]
 file = "config/cistj.json"
@@ -1650,7 +1650,7 @@ hash = "1d7075ca7221200f93e75e525781d1605537ce655d96a5e7313187614319d7ef"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "02b0fb7f3eb04f640104e6c1f8fea0f0aa7fe6e5ade5a655fdfa935ec0fa8be1"
+hash = "74fdac183781fe155faae39ebfb12b949b4233e4fe87fc36b3c460817bcd1024"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1994,7 +1994,7 @@ hash = "05361b072f6474dee8cd25b49ff59b630953966ceb4de4993e30f16c6a9907f9"
 
 [[files]]
 file = "config/handson_delight.properties"
-hash = "3ce890a2d31eb67e0e2c7f5fcf01f5202085818aa28bc3ca09771bb934e6bab2"
+hash = "07e0e2612d01e4c3f593f5cbad2799f82c8d57d576fe91fdf5d1b9f78c134cfc"
 
 [[files]]
 file = "config/heartforge/bornal_mao.txt"
@@ -2078,7 +2078,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "dc59f0b66a7107aa5bc14ade104ea3ab1969d6831ed40b212f5c3da131be3bdf"
+hash = "18ea64f0362d2fb2a36a2c67a9a8b0afb8393235d07fb2ad713317ba8ebd5eaf"
 preserve = true
 
 [[files]]
@@ -2287,7 +2287,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "3132a7a40e228bfaf0f5b8cbc7435c2eb1a7e7ae59c4c498cd5c2cc57789b8dc"
+hash = "d7643ec2fe7ceb2209d15856f57e5de4077bfc89b2f9cac02a9a1a4fa1e2180b"
 
 [[files]]
 file = "config/lithium.properties"
@@ -2891,7 +2891,7 @@ hash = "9f2e3cc1cd587fd9de6fd4a068e4c247fde401d3fc6fd9a0da36627ddc5611a3"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "7fab58bc1b5891a98253983902cf9c9ce099a16f06090042a09cd772aa611fa8"
+hash = "2d16fae20f9c23237d81709f9d0914c345ebbdb24b0079fbeb6732778567ea9f"
 
 [[files]]
 file = "config/scalablelux.properties"
@@ -3458,7 +3458,7 @@ hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
 
 [[files]]
 file = "config/voxy-config.json"
-hash = "e570ebecd77effe647f7184755349a40175310eed5b7a8eaa99063a1bea5a7ce"
+hash = "077d9e7f69600f6fed1eeb78f115a146a3cfeee6c774e00a64fe8d49fab13852"
 preserve = true
 
 [[files]]
@@ -3547,7 +3547,7 @@ hash = "bf179c73f8a353cce83f54a59696643e4d678b0ccb07d84dfd457e6e8b9190b8"
 
 [[files]]
 file = "emi.json"
-hash = "a77dc2bc08b662f3810da3d30264ddd3fb24315668c9fc35351ee4ee405e1610"
+hash = "6a3ebccd768bb15bfb954662338333921392e40aab146c7fe5f0d6f43321b9a6"
 
 [[files]]
 file = "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.pw.toml"
@@ -4556,6 +4556,11 @@ file = "mods/oddities-1.0.0-neoforge-1.21.1.jar"
 hash = "9cce89c5c516c4058cedd82be60fb183cab5f71ea13f8874fc55ea7dd24daee1"
 
 [[files]]
+file = "mods/offgrid-neoforge-1.0.6+1.21.1.pw.toml"
+hash = "e9d09671207ee46a31ceefd743f02672493600fcd1ed37de8823984db297b22b"
+metafile = true
+
+[[files]]
 file = "mods/ok_zoomer-neo-10.0.0-beta.13.pw.toml"
 hash = "bc4111f4f89947bbf9bf4c0948b687133c8f12dff6e22b492b919ed2f0b48bbd"
 metafile = true
@@ -4864,7 +4869,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "7b322a9be21c8aa84a8e33ffd6e71e247599a39250093a279645841bdac388c2"
+hash = "8d77e03eaf5a85c6a221e15068292cd97623775bfec13490ccdb812bf76099b6"
 preserve = true
 
 [[files]]
