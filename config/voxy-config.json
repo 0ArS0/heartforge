@@ -1,6 +1,6 @@
 {
-  "enabled": false,
-  "enable_rendering": true,
+  "enabled": true,
+  "enable_rendering": false,
   "ingest_enabled": true,
   "section_render_distance": 64.0,
   "service_threads": 4,

@@ -542,7 +542,7 @@ hash = "0724139777a7a499a111d11ae1cc0cdd2928da7324083e49cea8ee11ca62fb3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "dcf3fc6adc684a61fd658f2400e9ca632eef748d65480210669d2e6a0e59a24b"
+hash = "ae4924afff1077117923cf256892629ce9fbbf0b01b1363a497192a236a78162"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1174,7 +1174,7 @@ hash = "e25ac8cbb2e98c3753b51b40bc58c67bd1df572547572da08ce729e16f81ed56"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "7850a54d78593e6bf91f26e4e6f862f1907c889b9791d30c1f8f26a9370122a6"
+hash = "2a6ea59f83d07f18f063f3b9c251bd7f3716788f405b87253bcdc9261885c628"
 
 [[files]]
 file = "config/biomeparticleweather/config.txt"
@@ -1194,7 +1194,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "4e644f8324221022aed71d39b3d56a6cd189d5bd3f67c4aa72b889fb208421da"
+hash = "6fb6ff3e2cb4d1c47431b2e9fb48090fd985e0b43777949ec0c346cda85e532d"
 
 [[files]]
 file = "config/block_factorys_bosses-client.toml"
@@ -1274,7 +1274,7 @@ hash = "a1772af826a1a6f16cc7a54fdfbfe7a944b155eabb12e7fb569e63179068eea0"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "8818eb187f418b21a9247e3d93119b1a5b4a0bf3ce9818df7a743f5d23920ed7"
+hash = "ba2c8fbdef6e8fb1422ed8e0a8a537da989caae29fe131ee8116bec3203aa517"
 
 [[files]]
 file = "config/cistj.json"
@@ -1650,7 +1650,7 @@ hash = "1d7075ca7221200f93e75e525781d1605537ce655d96a5e7313187614319d7ef"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "74fdac183781fe155faae39ebfb12b949b4233e4fe87fc36b3c460817bcd1024"
+hash = "c48592a3a5b7a52bd9e18171132839495a161eeeda9cdbaf129d49522350a837"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1994,7 +1994,7 @@ hash = "05361b072f6474dee8cd25b49ff59b630953966ceb4de4993e30f16c6a9907f9"
 
 [[files]]
 file = "config/handson_delight.properties"
-hash = "07e0e2612d01e4c3f593f5cbad2799f82c8d57d576fe91fdf5d1b9f78c134cfc"
+hash = "cbb9970be55c6df3609e36cb11564d361e34a3dd31b2fa07e6969b9387b92d86"
 
 [[files]]
 file = "config/heartforge/bornal_mao.txt"
@@ -2078,7 +2078,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "18ea64f0362d2fb2a36a2c67a9a8b0afb8393235d07fb2ad713317ba8ebd5eaf"
+hash = "21593e801c30452f2d0c34a38ccfe09ad736df36d297895ef91822754da5fca7"
 preserve = true
 
 [[files]]
@@ -2287,7 +2287,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "d7643ec2fe7ceb2209d15856f57e5de4077bfc89b2f9cac02a9a1a4fa1e2180b"
+hash = "3cbc3ab964cb84930807360b4734dc20e555ca38114ece83d5d5ad1356c3282c"
 
 [[files]]
 file = "config/lithium.properties"
@@ -2891,7 +2891,7 @@ hash = "9f2e3cc1cd587fd9de6fd4a068e4c247fde401d3fc6fd9a0da36627ddc5611a3"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "2d16fae20f9c23237d81709f9d0914c345ebbdb24b0079fbeb6732778567ea9f"
+hash = "ecf727cc73a22bd49e69ca5787d9acbf7938b8718e80250ebf1dddb2e12aa885"
 
 [[files]]
 file = "config/scalablelux.properties"
@@ -3458,7 +3458,7 @@ hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
 
 [[files]]
 file = "config/voxy-config.json"
-hash = "077d9e7f69600f6fed1eeb78f115a146a3cfeee6c774e00a64fe8d49fab13852"
+hash = "746995dd46bdd7496ac5222cb66742ba809522d7d529787aefbf6d1286f4e7c4"
 preserve = true
 
 [[files]]
@@ -3547,7 +3547,7 @@ hash = "bf179c73f8a353cce83f54a59696643e4d678b0ccb07d84dfd457e6e8b9190b8"
 
 [[files]]
 file = "emi.json"
-hash = "6a3ebccd768bb15bfb954662338333921392e40aab146c7fe5f0d6f43321b9a6"
+hash = "85aa15e936d1c3c4bf77a5a040da1cdf632780ca6b34e5394060f2c2807c68ef"
 
 [[files]]
 file = "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.pw.toml"
@@ -3936,9 +3936,8 @@ hash = "e10165e95a46f191ba77381f19d206650c4e41eda46a9fe488bbfa965a11e372"
 metafile = true
 
 [[files]]
-file = "mods/ThirstWasTaken-1.21.1-2.1.5.pw.toml"
-hash = "63ceda40891ff8898bca8d81d8d476e09747bdee543969940df65082e0f17499"
-metafile = true
+file = "mods/ThirstWasTaken-1.21.1-2.1.5.jar"
+hash = "dbada3640a13d536fedf268b1081076730a56cc1fed2264510284e2df2282f51"
 
 [[files]]
 file = "mods/VampiresDelight-1.21.1-0.1.12b.pw.toml"
@@ -4869,7 +4868,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "8d77e03eaf5a85c6a221e15068292cd97623775bfec13490ccdb812bf76099b6"
+hash = "f542a76a2ed3602f268b4a52326a1347cfc2571852973b90ad4abdaf5a518cc6"
 preserve = true
 
 [[files]]

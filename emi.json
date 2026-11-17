@@ -1,6 +1,32 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:beetroot",
+    {
+      "type": "item",
+      "id": "farmersdelight:cooked_mutton_chops",
+      "amount": 42
+    },
+    "item:farmersdelight:tomato_sauce",
+    {
+      "type": "item",
+      "id": "farmersdelight:mutton_chops",
+      "amount": 64
+    },
+    "item:farmersdelight:wheat_dough",
+    "#item:c:foods/dough",
+    "item:farmersdelight:raw_pasta",
+    "item:farmersdelight:iron_knife",
+    "item:farmersdelight:cutting_board",
+    "item:minecraft:porkchop",
+    "#item:minecraft:meat",
+    {
+      "type": "item",
+      "id": "minecraft:cooked_porkchop",
+      "amount": 64
+    },
+    "item:botania:mana_spreader",
+    "item:botania:hydroangeas{\"minecraft:block_entity_data\":{cooldown:0,id:\"botania:hydroangeas\",passiveDecayTicks:10422}}",
     "item:minecraft:mossy_cobblestone",
     "item:biomeswevegone:red_maple_sapling",
     {
@@ -69,7 +95,6 @@
       "id": "simplybows:upgrades/enchanted_bow_string",
       "amount": 5
     },
-    "item:botania:mana_spreader",
     "item:botania:bergamute",
     "item:botania:redstone_root",
     "item:botania:fallen_kanade",
@@ -96,7 +121,6 @@
       "amount": 3
     },
     "item:botania:endoflame",
-    "item:botania:hydroangeas",
     "item:botania:mana_pool{\"minecraft:custom_data\":{RenderFull:1b}}",
     "item:botania:manasteel_ingot",
     "item:botania:twig_wand{\"minecraft:custom_data\":{color1:0,color2:0}}",
@@ -474,6 +498,11 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "farmersdelight:tomato_seeds",
+    "iceandfire:silver_hoe",
+    "farmersdelight:iron_knife",
+    "farmersdelight:cutting_board",
+    "botania:mana_spreader",
     "botania:manasteel_hoe",
     "botania:livingwood_twig",
     "botania:manasteel_shovel",
@@ -518,7 +547,6 @@
     "toms_storage:inventory_connector",
     "minecraft:flint_and_steel",
     "minecraft:yellow_dye_from_sunflower",
-    "botania:mana_spreader",
     "biomeswevegone:redwood_planks",
     "botania:petal_cyan",
     "botania:petal_magenta",
