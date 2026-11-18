@@ -1,6 +1,20 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:irons_spellbooks:pyrium_ingot",
+    {
+      "type": "item",
+      "id": "irons_spellbooks:tyros_statue",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "rechiseled:red_nether_bricks_beams_stairs",
+      "amount": 64
+    },
+    "item:effortlessbuilding:randomizer_tool{\"minecraft:custom_data\":{RandomizerBlocks:[\"quark:cobblestone_bricks\",\"minecraft:stone_bricks\",\"minecraft:tuff\",\"\",\"\",\"\",\"\",\"\",\"\"],RandomizerRatios:[I;1,1,1,0,0,0,0,0,0]}}",
+    "item:minecraft:lantern",
+    "item:block_factorys_bosses:ship_lantern",
     "item:minecraft:beetroot",
     {
       "type": "item",
@@ -29,12 +43,6 @@
     "item:botania:hydroangeas{\"minecraft:block_entity_data\":{cooldown:0,id:\"botania:hydroangeas\",passiveDecayTicks:10422}}",
     "item:minecraft:mossy_cobblestone",
     "item:biomeswevegone:red_maple_sapling",
-    {
-      "type": "item",
-      "id": "block_factorys_bosses:ship_lantern",
-      "amount": 64
-    },
-    "item:effortlessbuilding:randomizer_tool",
     "item:create:schematic_and_quill",
     "item:create:empty_schematic",
     "item:botania:fabulous_pool",
