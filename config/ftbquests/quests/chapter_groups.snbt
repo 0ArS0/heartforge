@@ -1,3 +1,12 @@
 {
-	chapter_groups: [{ icon: { id: "minecraft:writable_book" }, id: "429D481FF148D2D9" }]
+	chapter_groups: [
+		{
+			id: "429D481FF148D2D9"
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			title: "Guias dos Mods"
+		}
+	]
 }

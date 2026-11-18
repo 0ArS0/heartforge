@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:comamigos_balance:boss_statue{\"minecraft:block_entity_data\":{entity:\"vampirism:vampire_baron\",id:\"comamigos_balance:boss_statue\"}}",
     "item:irons_spellbooks:pyrium_ingot",
     {
       "type": "item",
