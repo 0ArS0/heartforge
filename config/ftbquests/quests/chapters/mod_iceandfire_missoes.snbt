@@ -4,116 +4,38 @@
 	filename: "mod_iceandfire_missoes"
 	group: "429D481FF148D2D9"
 	icon: {
-		count: 1
 		id: "iceandfire:dragonsteel_fire_ingot"
 	}
 	id: "1708A201EB8602CC"
-	order_index: 17
+	images: [ ]
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4FE3675C7E458753"
-			x: -3.0d
-			y: 0.0d
-			shape: "square"
-			size: 2.0d
 			icon: {
-				count: 1
 				id: "iceandfire:dragonsteel_fire_ingot"
 			}
-			tasks: [
-				{
-					id: "4C42012508DC6BC8"
-					type: "checkmark"
-				}
-			]
-			rewards: [
-				{
-					id: "2F056E08E9EF5864"
-					type: "xp"
-					xp: 5
-				}
-			]
-			title: "O Bestiário"
-			description: [
-				"&7Antes das caldeiras e dos martelos a vapor, o mundo pertencia às feras dos mitos."
-				"&7Dragões de fogo, gelo e raio ainda dormem sobre montanhas de ouro, e criaturas que as avós"
-				"&7usavam para assustar crianças rondam pântanos, praias e desertos."
-				""
-				"&7Esta crônica segue o caminho do caçador: das fadas e dos grifos até a forja que só o sopro de um dragão acende."
-				"&7Comece reunindo &6manuscritos&7 e costurando o seu próprio &6Bestiário&7."
-			]
+			id: "4FE3675C7E458753"
+			rewards: [{
+				id: "2F056E08E9EF5864"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4C42012508DC6BC8"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			id: "0577BB6C64DC5268"
-			x: 1.0d
-			y: 0.0d
-			size: 1.25d
+			dependencies: ["4FE3675C7E458753"]
 			icon: {
-				count: 1
 				id: "iceandfire:bestiary"
 			}
-			dependencies: [
-				"4FE3675C7E458753"
-			]
-			tasks: [
-				{
-					id: "04080DF6D0957441"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:manuscript"
-					}
-					count: 3L
-				}
-				{
-					id: "7E8BCD1EAEB9796A"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/bestiary"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:bestiary"
-					}
-				}
-				{
-					id: "3BBD4719AABC72AF"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/lectern"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:bestiary"
-					}
-				}
-				{
-					id: "7B380354549F06B4"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:silver_ingot"
-					}
-					count: 8L
-				}
-				{
-					id: "77AD14D0725FFB59"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:silver_sword"
-					}
-					count: 1L
-				}
-				{
-					id: "483A85A9385E7787"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:podium_oak"
-					}
-					count: 1L
-				}
-			]
+			id: "0577BB6C64DC5268"
 			rewards: [
 				{
 					id: "2AA40327C6FC45A1"
@@ -122,428 +44,256 @@
 				}
 				{
 					id: "65BC8275857F46D2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Bestiário do Caçador"
-			description: [
-				"&7Os antigos caçadores anotavam tudo o que matavam, e suas folhas se espalharam pelo mundo como cinzas ao vento."
-				"&7Quem as reúne costura um Bestiário, o livro que separa o caçador do jantar da fera."
-				"&7Junto com o livro vem a primeira lâmina de prata, porque os mortos que andam temem esse metal,"
-				"&7e um pódio para mostrar à taverna que a caçada começou."
-				""
-				"&6Objetivo:&r 1. Encontre &63 manuscritos&r em baús de ninhos, cemitérios, cavernas de ciclope e de hidra, mausoléus e casas de escribas das vilas."
-				"&f2. Junte os 3 manuscritos com um livro na bancada para criar o &6Bestiário&r."
-				"&f3. Faça o &6Atril do Bestiário&r (manuscrito sobre tábuas) e coloque o livro e um manuscrito nele para escrever uma página nova."
-				"&f4. Minere &6minério de prata&r (aparece no mundo todo, como o ferro) e funda &68 lingotes&r."
-				"&f5. Forje a &6Espada de Prata&r: dano extra contra mortos-vivos."
-				"&f6. Construa um &6Pódio&r de madeira para exibir ovos, crânios e troféus."
-				""
-				"&8Cada manuscrito gasto no atril revela uma página ao acaso. Guarde os que achar pelo caminho."
-				"&8Com uma vara na mão você alterna entre seguir, sentar e vagar em quase todas as feras domadas."
-			]
-		}
-		{
-			id: "6A409DD8B610126E"
-			x: 4.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "minecraft:compass"
-			}
-			dependencies: [
-				"0577BB6C64DC5268"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "2E7B9B43C5C391C1"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_1"
+					count: 3L
+					id: "04080DF6D0957441"
+					item: { count: 1, id: "iceandfire:manuscript" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/bestiary"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "minecraft:compass"
+						id: "iceandfire:bestiary"
 					}
+					id: "7E8BCD1EAEB9796A"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/lectern"
+					criterion: ""
+					icon: {
+						id: "iceandfire:bestiary"
+					}
+					id: "3BBD4719AABC72AF"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "7B380354549F06B4"
+					item: { count: 1, id: "iceandfire:silver_ingot" }
+					type: "item"
+				}
+				{
+					id: "77AD14D0725FFB59"
+					item: { count: 1, id: "iceandfire:silver_sword" }
+					type: "item"
+				}
+				{
+					id: "483A85A9385E7787"
+					item: { count: 1, id: "iceandfire:podium_oak" }
+					type: "item"
 				}
 			]
-			rewards: [ ]
-			title: "&7Tier I&7 - O Caçador Aprendiz"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &7Tier I&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			id: "1F45BACDE440EA49"
-			x: 6.0d
-			y: -5.6d
-			size: 1.25d
+			dependencies: ["0577BB6C64DC5268"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
+				id: "minecraft:compass"
+			}
+			id: "6A409DD8B610126E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_1"
+				criterion: ""
+				icon: {
+					id: "minecraft:compass"
+				}
+				id: "2E7B9B43C5C391C1"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A409DD8B610126E"]
+			icon: {
 				id: "iceandfire:armor_silver_metal_chestplate"
 			}
-			dependencies: [
-				"6A409DD8B610126E"
-			]
+			id: "1F45BACDE440EA49"
+			rewards: [{
+				id: "25C8933C64955ED0"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "185966B9120D436E"
+					item: { count: 1, id: "iceandfire:armor_silver_metal_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:armor_silver_metal_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "2493B119D6A62E43"
+					item: { count: 1, id: "iceandfire:armor_copper_metal_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:armor_copper_metal_chestplate"
-					}
-					count: 1L
 				}
 				{
-					id: "2BBDCC5D3F719325"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:sapphire_gem"
-					}
 					count: 3L
+					id: "2BBDCC5D3F719325"
+					item: { count: 1, id: "iceandfire:sapphire_gem" }
+					type: "item"
 				}
 				{
 					id: "28F56DF9D24B4FAF"
+					item: { count: 1, id: "iceandfire:chain" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:chain"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "25C8933C64955ED0"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "A Couraça do Caçador"
-			description: [
-				"&7Os dragões de gelo forram os ninhos com prata e os de raio com cobre; os ferreiros preferem usá-los no peito."
-				"&7A safira, dizem, é gelo de dragão que esqueceu de derreter. E toda fera grande se segura com corrente, não com corda."
-				""
-				"&6Objetivo:&r 1. Forje um &6Peitoral de Prata&r com lingotes de prata."
-				"&f2. Forje um &6Peitoral de Cobre&r com lingotes de cobre comuns."
-				"&f3. Minere &63 safiras&r nos biomas nevados e montanhas geladas (trolls de gelo também as carregam)."
-				"&f4. Faça uma &6Linha de Corrente&r (três correntes em coluna): uma guia reforçada para criaturas grandes."
-				""
-				"&8Peças de prata e de cobre também aparecem prontas nos baús dos ninhos de dragão."
-			]
+			x: 6.0d
+			y: -5.6d
 		}
 		{
-			id: "632AFD56EAEB8B62"
-			x: 6.0d
-			y: -4.0d
+			dependencies: ["6A409DD8B610126E"]
 			icon: {
-				count: 1
 				id: "iceandfire:dragonbone"
 			}
-			dependencies: [
-				"6A409DD8B610126E"
-			]
+			id: "632AFD56EAEB8B62"
+			rewards: [{
+				id: "49B2767532F19910"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
-					id: "6059BDAED6F163E3"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone"
-					}
 					count: 4L
+					id: "6059BDAED6F163E3"
+					item: { count: 1, id: "iceandfire:dragonbone" }
+					type: "item"
 				}
 				{
-					id: "483A4CAD6DC873F9"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:witherbone"
-					}
 					count: 2L
+					id: "483A4CAD6DC873F9"
+					item: { count: 1, id: "iceandfire:witherbone" }
+					type: "item"
 				}
 				{
 					id: "222D7C4E8048E095"
+					item: { count: 1, id: "iceandfire:fire_lily" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:fire_lily"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "49B2767532F19910"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "Ossos ao Sol"
-			description: [
-				"&7Às vezes um dragão morre longe do ninho, e sobra um esqueleto do tamanho de uma casa."
-				"&7Onde ele caiu, a terra ainda lembra o elemento da fera e dá flores de fogo."
-				"&7Os cabos de toda arma de osso de dragão vêm de algo ainda mais amaldiçoado: o osso de murcho."
-				""
-				"&6Objetivo:&r 1. Encontre um &6esqueleto de dragão&r na superfície de desertos, selvas, savanas, pântanos ou neve e quebre-o para recolher &64 Ossos de Dragão&r."
-				"&f2. Consiga &62 Ossos de Murcho&r: caem das cocatrizes e dos esqueletos wither. Quebrados na bancada, viram lascas."
-				"&f3. Colha um &6Lírio de Fogo&r nos biomas quentes dos dragões de fogo (com tigela e vara de blaze vira uma mistura que aquece)."
-				""
-				"&8Ninhos e mausoléus também guardam ossos de dragão nos baús."
-			]
+			x: 6.0d
+			y: -4.0d
 		}
 		{
-			id: "3E9AC6EE4BAA322A"
-			x: 6.0d
-			y: -2.4d
-			size: 1.25d
+			dependencies: ["6A409DD8B610126E"]
 			icon: {
-				count: 1
 				id: "iceandfire:pixie_jar_0"
 			}
-			dependencies: [
-				"6A409DD8B610126E"
-			]
+			id: "3E9AC6EE4BAA322A"
+			rewards: [{
+				id: "114B3E230BE602B1"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "1D3D4515810A93CB"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:pixie_dust"
-					}
 					count: 2L
+					id: "1D3D4515810A93CB"
+					item: { count: 1, id: "iceandfire:pixie_dust" }
+					type: "item"
 				}
 				{
-					id: "4023301D45DCAD40"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/tame_pixie"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:pixie_jar_0"
 					}
+					id: "4023301D45DCAD40"
+					type: "advancement"
 				}
 				{
-					id: "4AC9B046CCC730FA"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/jar_pixie"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:pixie_jar_0"
 					}
+					id: "4AC9B046CCC730FA"
+					type: "advancement"
 				}
 				{
 					id: "29E0B363BAC88567"
+					item: { count: 1, id: "iceandfire:pixie_house_oak" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:pixie_house_oak"
-					}
-					count: 1L
 				}
 				{
 					id: "14E1C09AEBB30815"
+					item: { count: 1, id: "iceandfire:ambrosia" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:ambrosia"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "114B3E230BE602B1"
-					type: "xp"
-					xp: 250
-				}
-			]
-			title: "O Povo Pequeno"
-			description: [
-				"&7Nos bosques floridos, casas minúsculas brotam de troncos e cogumelos, e algo pequeno ri lá dentro."
-				"&7Fada nenhuma resiste a um bolo inteiro: é a única moeda que aceitam."
-				"&7Presa num pote, uma fada produz pó dourado sem parar. Os alquimistas fingem não ouvir o choro."
-				""
-				"&6Objetivo:&r 1. Encontre uma &6vila de fadas&r (Flower Forest, campos de cogumelo, bosques antigos, selvas de bambu) e junte &62 Pós de Fada&r."
-				"&f2. Jogue um &6bolo&r no chão perto de uma fada para fazer dela sua amiga."
-				"&f3. Faça um &6Pote&r (vidro e tábua) e use-o numa fada para capturá-la: o pote enche de pó com o tempo."
-				"&f4. Recolha um &6Casebre de Fada&r da vila."
-				"&f5. Misture pó de fada e tigela para fazer &6Ambrosia&r."
-				""
-				"&8Comer pó de fada dá levitação. Use com bom senso."
-				"&8Numa panela de cozinha, três pós e leite viram um chá de fada."
-			]
+			x: 6.0d
+			y: -2.4d
 		}
 		{
-			id: "2AC610017C1D80F1"
-			x: 6.0d
-			y: -0.8d
-			size: 1.25d
+			dependencies: ["6A409DD8B610126E"]
 			icon: {
-				count: 1
 				id: "minecraft:rabbit_foot"
 			}
-			dependencies: [
-				"6A409DD8B610126E"
-			]
+			id: "2AC610017C1D80F1"
+			rewards: [{
+				id: "4166F9A70B3BDA5B"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "2F50561B0CA2D5B5"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/tame_hippogryph"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:rabbit_foot"
 					}
-				}
-				{
-					id: "007165F64BD8686E"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:amphithere_feather"
-					}
-					count: 3L
-				}
-				{
-					id: "10327766FDBD426D"
+					id: "2F50561B0CA2D5B5"
 					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "007165F64BD8686E"
+					item: { count: 1, id: "iceandfire:amphithere_feather" }
+					type: "item"
+				}
+				{
 					advancement: "iceandfire:iceandfire/tame_amphithere"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "minecraft:rabbit_foot"
 					}
+					id: "10327766FDBD426D"
+					type: "advancement"
 				}
 				{
-					id: "406B47FB1C4FE2A9"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:amphithere_arrow"
-					}
 					count: 8L
+					id: "406B47FB1C4FE2A9"
+					item: { count: 1, id: "iceandfire:amphithere_arrow" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "4166F9A70B3BDA5B"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "Senhores do Céu"
-			description: [
-				"&7O hipogrifo é orgulhoso e não aceita sela de quem não lhe oferece algo primeiro."
-				"&7Nas selvas, serpentes emplumadas planam sobre as árvores; os antigos as chamavam de deuses."
-				"&7Para montar um deus emplumado, primeiro é preciso derrubá-lo do céu."
-				""
-				"&6Objetivo:&r 1. Encontre um hipogrifo (montanhas, picos, badlands, planaltos de savana, taigas) e jogue &6pés de coelho&r perto dele até domá-lo. Sele-o e voe."
-				"&f2. Abata &6anfiteres&r nas selvas e junte &63 penas&r."
-				"&f3. Acerte um anfitere em voo com um projétil, monte nele quando cair e aguente firme até ele aceitar o cavaleiro."
-				"&f4. Faça &68 Flechas de Anfitere&r (pederneira, graveto e pena): empurram o alvo como uma ventania."
-			]
+			x: 6.0d
+			y: -0.8d
 		}
 		{
-			id: "5DAF885DA7249F96"
-			x: 6.0d
-			y: 0.8d
-			size: 1.25d
+			dependencies: ["6A409DD8B610126E"]
 			icon: {
-				count: 1
 				id: "iceandfire:siren_tear"
 			}
-			dependencies: [
-				"6A409DD8B610126E"
-			]
-			tasks: [
-				{
-					id: "7D418FE0F170E824"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:earplugs"
-					}
-					count: 1L
-				}
-				{
-					id: "19C0C712CCCB28FD"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/kill_siren"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:siren_tear"
-					}
-				}
-				{
-					id: "207D291E0E17E544"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:shiny_scales"
-					}
-					count: 6L
-				}
-				{
-					id: "4D0945A62771CBBA"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:siren_tear"
-					}
-					count: 1L
-				}
-				{
-					id: "586EEB2086D577EE"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/tame_hippocampus"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:siren_tear"
-					}
-				}
-				{
-					id: "6BEEC93A19AD52C2"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:hippocampus_fin"
-					}
-					count: 1L
-				}
-				{
-					id: "6758CD0DC3288258"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:fishing_spear"
-					}
-					count: 1L
-				}
-			]
+			id: "5DAF885DA7249F96"
 			rewards: [
 				{
 					id: "255EAA2BEBB327E6"
@@ -552,235 +302,185 @@
 				}
 				{
 					id: "7C06716E9D78888D"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_comum"
 					}
+					type: "item"
 				}
 			]
-			title: "Cantos e Ondas"
-			description: [
-				"&7Os marinheiros mais velhos dizem que quem ouve a canção da sereia já está morto, só ainda não sabe."
-				"&7Nas ilhas de pedra do oceano, mulheres-peixe cantam para chamar os barcos para o fundo."
-				"&7Mais perto da praia galopa o hipocampo, um cavalo que trata o mar como campo aberto."
-				""
-				"&6Objetivo:&r 1. Faça &6Tampões de Ouvido&r (dois botões de madeira) e use-os no espaço do capacete."
-				"&f2. Encontre uma &6ilha das sereias&r e mate uma sereia sem ser arrastado pela canção."
-				"&f3. Junte &66 Escamas Brilhantes&r e uma &6Lágrima de Sereia&r (rara)."
-				"&f4. Alimente um &6hipocampo&r selvagem com &6algas&r até domá-lo, e sele-o."
-				"&f5. Consiga uma &6Barbatana de Hipocampo&r caçando hipocampos selvagens."
-				"&f6. Obtenha uma &6Lança de Pesca&r, o primeiro arpão de todo marinheiro."
-				""
-				"&8De noite, sereias também aparecem nas praias. Hipocampos soltam escamas brilhantes."
-			]
-		}
-		{
-			id: "77103A7D590F8527"
-			x: 6.0d
-			y: 2.4d
-			icon: {
-				count: 1
-				id: "iceandfire:cockatrice_eye"
-			}
-			dependencies: [
-				"6A409DD8B610126E"
-			]
+			size: 1.25d
 			tasks: [
 				{
-					id: "45B7558608F09AB9"
+					id: "7D418FE0F170E824"
+					item: { count: 1, id: "iceandfire:earplugs" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/kill_siren"
+					criterion: ""
+					icon: {
+						id: "iceandfire:siren_tear"
+					}
+					id: "19C0C712CCCB28FD"
 					type: "advancement"
+				}
+				{
+					count: 6L
+					id: "207D291E0E17E544"
+					item: { count: 1, id: "iceandfire:shiny_scales" }
+					type: "item"
+				}
+				{
+					id: "4D0945A62771CBBA"
+					item: { count: 1, id: "iceandfire:siren_tear" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/tame_hippocampus"
+					criterion: ""
+					icon: {
+						id: "iceandfire:siren_tear"
+					}
+					id: "586EEB2086D577EE"
+					type: "advancement"
+				}
+				{
+					id: "6BEEC93A19AD52C2"
+					item: { count: 1, id: "iceandfire:hippocampus_fin" }
+					type: "item"
+				}
+				{
+					id: "6758CD0DC3288258"
+					item: { count: 1, id: "iceandfire:fishing_spear" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["6A409DD8B610126E"]
+			icon: {
+				id: "iceandfire:cockatrice_eye"
+			}
+			id: "77103A7D590F8527"
+			rewards: [{
+				id: "69A916AE00FDFC66"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
 					advancement: "iceandfire:iceandfire/rotten_egg"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:cockatrice_eye"
 					}
+					id: "45B7558608F09AB9"
+					type: "advancement"
 				}
 				{
-					id: "4EF7004CE479BFD4"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/tame_cockatrice"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:cockatrice_eye"
 					}
+					id: "4EF7004CE479BFD4"
+					type: "advancement"
 				}
 				{
 					id: "496F66E9B489D397"
+					item: { count: 1, id: "iceandfire:cockatrice_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:cockatrice_eye"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "69A916AE00FDFC66"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "O Olhar que Mata"
-			description: [
-				"&7Às vezes uma galinha bota algo errado: o ovo pesa, chacoalha e cheira a morte."
-				"&7Dele nasce a cocatriz, e a carne apodrece sob o olhar dela."
-				"&7Arrancado do crânio, o olho ainda guarda um pouco do veneno."
-				""
-				"&6Objetivo:&r 1. Consiga um &6Ovo Podre&r: galinhas às vezes os botam em vez de ovos comuns."
-				"&f2. Dome uma &6cocatriz&r: arremesse o ovo podre para chocar um filhote já domado, ou encare uma adulta (savanas) várias vezes até ela ceder."
-				"&f3. Abata cocatrizes selvagens até conseguir um &6Olho de Cocatriz&r."
-				""
-				"&8Não encare uma cocatriz selvagem por muito tempo sem estar pronto: o olhar dela murcha."
-			]
+			x: 6.0d
+			y: 2.4d
 		}
 		{
-			id: "134FFEF694BEF335"
-			x: 6.0d
-			y: 4.0d
+			dependencies: ["6A409DD8B610126E"]
 			icon: {
-				count: 1
 				id: "iceandfire:stymphalian_bird_feather"
 			}
-			dependencies: [
-				"6A409DD8B610126E"
-			]
+			id: "134FFEF694BEF335"
+			rewards: [{
+				id: "2F3C668B3725C4D9"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
-					id: "11D064631D0FB2C8"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:stymphalian_bird_feather"
 					}
+					id: "11D064631D0FB2C8"
+					type: "advancement"
 				}
 				{
-					id: "62AF37BE11486C4D"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/stymphalian_arrow"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:stymphalian_bird_feather"
 					}
+					id: "62AF37BE11486C4D"
+					type: "advancement"
 				}
 				{
-					id: "02DB725057FE4822"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:stymphalian_feather_bundle"
-					}
 					count: 4L
+					id: "02DB725057FE4822"
+					item: { count: 1, id: "iceandfire:stymphalian_feather_bundle" }
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "2F3C668B3725C4D9"
-					type: "xp"
-					xp: 150
-				}
-			]
-			title: "Asas de Bronze"
-			description: [
-				"&7Nos pântanos voam bandos de aves de bico metálico que disparam penas como flechas."
-				"&7Uma flecha com pena de bronze não cai: segue reto até o alvo."
-				"&7Amarradas num feixe, as penas voam em leque, como fazem nas aves vivas."
-				""
-				"&6Objetivo:&r 1. Abata uma &6ave de Estínfalo&r nos pântanos e manguezais."
-				"&f2. Faça &6Flechas de Estínfalo&r (pederneira, graveto e pena): voam mais longe e mais retas."
-				"&f3. Amarre oito penas com uma linha para fazer &64 Feixes de Penas&r arremessáveis."
-				""
-				"&8Elas atacam em bando. Escudo ajuda muito."
-			]
+			x: 6.0d
+			y: 4.0d
 		}
 		{
-			id: "48362BCF60A51A13"
-			x: 6.0d
-			y: 5.6d
-			size: 1.25d
+			dependencies: ["6A409DD8B610126E"]
 			icon: {
-				count: 1
 				id: "iceandfire:ectoplasm"
 			}
-			dependencies: [
-				"6A409DD8B610126E"
-			]
+			id: "48362BCF60A51A13"
+			rewards: [{
+				id: "447128044B4ED392"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "02D58A524CCF73E2"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:ectoplasm"
-					}
 					count: 2L
+					id: "02D58A524CCF73E2"
+					item: { count: 1, id: "iceandfire:ectoplasm" }
+					type: "item"
 				}
 				{
-					id: "4612888447D53004"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_ghost"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:ectoplasm"
 					}
+					id: "4612888447D53004"
+					type: "advancement"
 				}
 				{
 					id: "746061E9FCEEB54E"
+					item: { count: 1, id: "iceandfire:ghost_ingot" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:ghost_ingot"
-					}
-					count: 1L
 				}
 				{
 					id: "69EC9F0066C30D91"
+					item: { count: 1, id: "iceandfire:graveyard_soil" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:graveyard_soil"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "447128044B4ED392"
-					type: "xp"
-					xp: 200
-				}
-			]
-			title: "Terra de Cemitério"
-			description: [
-				"&7Em certos campos, lápides antigas brotam do chão e a terra é fria mesmo ao meio-dia."
-				"&7À noite, essa terra chama fantasmas que atravessam paredes e ignoram flechas comuns."
-				"&7Mas a prata eles sentem, e às vezes deixam para trás um metal que não pesa nada."
-				""
-				"&6Objetivo:&r 1. Encontre um &6cemitério&r e recolha &62 Ectoplasmas&r (baús do cemitério ou fantasmas)."
-				"&f2. Mate um &6fantasma&r: surgem da terra de cemitério à noite e dos Baús Amaldiçoados."
-				"&f3. Consiga um &6Lingote Fantasmagórico&r caçando fantasmas."
-				"&f4. Recolha ou faça &6Terra de Cemitério&r (com ectoplasma) para criar sua própria assombração."
-				""
-				"&8Use a Espada de Prata. O lingote fantasmagórico vira a Lâmina Fantasmagórica no Tier V."
-			]
+			x: 6.0d
+			y: 5.6d
 		}
 		{
-			id: "7DACB1BDF0567091"
-			x: 9.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_2"
-			}
 			dependencies: [
 				"1F45BACDE440EA49"
 				"632AFD56EAEB8B62"
@@ -791,177 +491,80 @@
 				"134FFEF694BEF335"
 				"48362BCF60A51A13"
 			]
-			tasks: [
-				{
-					id: "3ED713E31C00FD93"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_2"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_2"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&aTier II&7 - Trolls, Vermes e Ninhos"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &aTier II&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_2"
+			}
+			id: "7DACB1BDF0567091"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_2"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_2"
+				}
+				id: "3ED713E31C00FD93"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 0.0d
 		}
 		{
-			id: "71B01F4847B3C618"
-			x: 11.0d
-			y: -3.2d
-			size: 1.25d
+			dependencies: ["7DACB1BDF0567091"]
 			icon: {
-				count: 1
 				id: "iceandfire:troll_tusk"
 			}
-			dependencies: [
-				"7DACB1BDF0567091"
-			]
+			id: "71B01F4847B3C618"
+			rewards: [{
+				id: "47B1BE794AD45A99"
+				type: "xp"
+				xp: 400
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "5BF356B3649F5AB3"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/kill_troll"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:troll_tusk"
 					}
+					id: "5BF356B3649F5AB3"
+					type: "advancement"
 				}
 				{
-					id: "0B1D9ED129ABA7D3"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:troll_leather_mountain"
-					}
 					count: 6L
+					id: "0B1D9ED129ABA7D3"
+					item: { count: 1, id: "iceandfire:troll_leather_mountain" }
+					type: "item"
 				}
 				{
-					id: "080C1FC7FF3903A3"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:troll_tusk"
-					}
 					count: 2L
+					id: "080C1FC7FF3903A3"
+					item: { count: 1, id: "iceandfire:troll_tusk" }
+					type: "item"
 				}
 				{
 					id: "07568D557560492D"
+					item: { count: 1, id: "iceandfire:mountain_troll_leather_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:mountain_troll_leather_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "2DF7743E072987F2"
+					item: { count: 1, id: "iceandfire:troll_weapon_axe" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:troll_weapon_axe"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "47B1BE794AD45A99"
-					type: "xp"
-					xp: 400
-				}
-			]
-			title: "Temos um Troll!"
-			description: [
-				"&7Nas cavernas escuras de florestas, montanhas e neve, os trolls esperam. O sol os transforma em pedra."
-				"&7O couro deles muda com a terra onde viveram, musgo, rocha ou gelo, e resiste a flechas como a pele original."
-				"&7Machado, martelo, coluna ou tronco: o troll luta com o que achar, e às vezes larga a arma."
-				""
-				"&6Objetivo:&r 1. Mate um &6troll&r no escuro de florestas, montanhas ou terras nevadas."
-				"&f2. Junte &66 couros de troll&r (de qualquer tipo) e &62 presas de troll&r."
-				"&f3. Costure um &6Peitoral de Couro de Troll&r (o elmo leva presas). Reduz o dano de projéteis."
-				"&f4. Consiga uma &6arma de troll&r que ele deixe cair."
-				""
-				"&8Atraia o troll para a luz do dia: ele vira estátua. Os três couros dão a mesma proteção, só muda a aparência."
-			]
+			x: 11.0d
+			y: -3.2d
 		}
 		{
-			id: "5D1D869D1E45378B"
-			x: 11.0d
-			y: -1.6d
-			size: 1.25d
+			dependencies: ["7DACB1BDF0567091"]
 			icon: {
-				count: 1
 				id: "iceandfire:deathworm_tounge"
 			}
-			dependencies: [
-				"7DACB1BDF0567091"
-			]
-			tasks: [
-				{
-					id: "3B404DCD99E1A67E"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/kill_deathworm"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:deathworm_tounge"
-					}
-				}
-				{
-					id: "090A8B06014D1F55"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:deathworm_chitin_yellow"
-					}
-					count: 8L
-				}
-				{
-					id: "5D8968B4F3CD36FB"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:deathworm_tounge"
-					}
-					count: 1L
-				}
-				{
-					id: "2F2CB639C16A067C"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:deathworm_yellow_chestplate"
-					}
-					count: 1L
-				}
-				{
-					id: "0DB0FCC9ABFAD51D"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:deathworm_gauntlet_yellow"
-					}
-					count: 1L
-				}
-				{
-					id: "3752A14FDC9EDB7F"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/deathworm_egg"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:deathworm_tounge"
-					}
-				}
-			]
+			id: "5D1D869D1E45378B"
 			rewards: [
 				{
 					id: "3777CE564F5FFB03"
@@ -970,97 +573,64 @@
 				}
 				{
 					id: "571D91DF90C22697"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Os Nadadores do Deserto"
-			description: [
-				"&7A areia do deserto ondula sem vento: algo nada embaixo dela."
-				"&7A carapaça do verme da morte é mais dura que couro e mais leve que ferro, e a língua fisga presas de longe."
-				"&7Quem choca um ovo de verme ganha um aliado embaixo da areia."
-				""
-				"&6Objetivo:&r 1. Mate um &6verme da morte&r nos desertos (brancos, castanhos ou vermelhos)."
-				"&f2. Junte &68 Quitinas de Verme&r e uma &6Língua de Verme&r."
-				"&f3. Faça um &6Peitoral de Quitina&r, com quitina da mesma cor em cada peça."
-				"&f4. Faça a &6Manopla de Verme da Morte&r (quitina, linha de corrente e língua) para fisgar inimigos à distância."
-				"&f5. Consiga um &6Ovo de Verme da Morte&r e arremesse-o para chocar um verme domado."
-				""
-				"&8Eles adoram TNT. Jogue uma acesa e veja o que acontece."
-			]
-		}
-		{
-			id: "369E9A2859B87BD1"
-			x: 11.0d
-			y: 0.0d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:pixie_wand"
-			}
-			dependencies: [
-				"7DACB1BDF0567091"
-			]
 			tasks: [
 				{
-					id: "2934C7B2A76377CB"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:hippogryph_sword"
-					}
-					count: 1L
-				}
-				{
-					id: "177741DC20FFFB7A"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:cockatrice_scepter"
-					}
-					count: 1L
-				}
-				{
-					id: "575959350E59C3CD"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:stymphalian_bird_dagger"
-					}
-					count: 1L
-				}
-				{
-					id: "2B54D1CEBE8F7B2D"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:pixie_wings"
-					}
-					count: 1L
-				}
-				{
-					id: "6C4F0F6FA6D2D452"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/pixie_wand"
+					advancement: "iceandfire:iceandfire/kill_deathworm"
 					criterion: ""
 					icon: {
-						count: 1
-						id: "iceandfire:pixie_wand"
+						id: "iceandfire:deathworm_tounge"
 					}
+					id: "3B404DCD99E1A67E"
+					type: "advancement"
 				}
 				{
-					id: "031EA3692CDBF2F3"
+					count: 8L
+					id: "090A8B06014D1F55"
+					item: { count: 1, id: "iceandfire:deathworm_chitin_yellow" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:iron_hippogryph_armor"
+				}
+				{
+					id: "5D8968B4F3CD36FB"
+					item: { count: 1, id: "iceandfire:deathworm_tounge" }
+					type: "item"
+				}
+				{
+					id: "2F2CB639C16A067C"
+					item: { count: 1, id: "iceandfire:deathworm_yellow_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0DB0FCC9ABFAD51D"
+					item: { count: 1, id: "iceandfire:deathworm_gauntlet_yellow" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/deathworm_egg"
+					criterion: ""
+					icon: {
+						id: "iceandfire:deathworm_tounge"
 					}
-					count: 1L
+					id: "3752A14FDC9EDB7F"
+					type: "advancement"
 				}
 			]
+			x: 11.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["7DACB1BDF0567091"]
+			icon: {
+				id: "iceandfire:pixie_wand"
+			}
+			id: "369E9A2859B87BD1"
 			rewards: [
 				{
 					id: "6FAE79B4DD4000B7"
@@ -1069,77 +639,59 @@
 				}
 				{
 					id: "58999C1DABD7A39B"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "O Arsenal do Bestiário"
-			description: [
-				"&7Cada fera do primeiro bestiário deixa algo que um bom artesão transforma em arma."
-				"&7A garra do hipogrifo corta em arco, o olho da cocatriz murcha num cetro e duas penas de bronze viram uma adaga ligeira."
-				"&7Quando uma fada morre, as asas às vezes continuam brilhando, e dão a varinha mais caprichosa que um mago já segurou."
-				""
-				"&6Objetivo:&r 1. Consiga uma &6Garra de Hipogrifo&r (rara) e forje a &6Espada de Garra&r: todo golpe é em arco."
-				"&f2. Faça o &6Cetro de Cocatriz&r (lasca de murcho, olho de cocatriz e osso de murcho). Segure o uso no alvo para murchá-lo."
-				"&f3. Faça a &6Adaga de Estínfalo&r: dano de espada de ferro com quase o dobro da velocidade."
-				"&f4. Consiga &6Asas de Fada&r (raras ao abater fadas)."
-				"&f5. Faça a &6Varinha de Fada&r (diamante, vara de blaze e asas): os disparos fazem o alvo flutuar."
-				"&f6. Faça a &6Armadura de Hipogrifo&r de ferro (armadura de cavalo de ferro entre duas penas)."
-			]
-		}
-		{
-			id: "2B379ECF5503BAA9"
-			x: 11.0d
-			y: 1.6d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:gold_pile"
-			}
-			dependencies: [
-				"7DACB1BDF0567091"
-			]
 			tasks: [
 				{
-					id: "568BD186F0E11B43"
+					id: "2934C7B2A76377CB"
+					item: { count: 1, id: "iceandfire:hippogryph_sword" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:gold_pile"
-					}
-					count: 8L
 				}
 				{
-					id: "0FF1B2A37EB117D8"
+					id: "177741DC20FFFB7A"
+					item: { count: 1, id: "iceandfire:cockatrice_scepter" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:silver_pile"
-					}
-					count: 8L
 				}
 				{
-					id: "58538B683182F8CC"
+					id: "575959350E59C3CD"
+					item: { count: 1, id: "iceandfire:stymphalian_bird_dagger" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:copper_pile"
-					}
-					count: 8L
 				}
 				{
-					id: "6F33F5011111E2BE"
+					id: "2B54D1CEBE8F7B2D"
+					item: { count: 1, id: "iceandfire:pixie_wings" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:cannoli"
+				}
+				{
+					advancement: "iceandfire:iceandfire/pixie_wand"
+					criterion: ""
+					icon: {
+						id: "iceandfire:pixie_wand"
 					}
-					count: 1L
+					id: "6C4F0F6FA6D2D452"
+					type: "advancement"
+				}
+				{
+					id: "031EA3692CDBF2F3"
+					item: { count: 1, id: "iceandfire:iron_hippogryph_armor" }
+					type: "item"
 				}
 			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DACB1BDF0567091"]
+			icon: {
+				id: "iceandfire:gold_pile"
+			}
+			id: "2B379ECF5503BAA9"
 			rewards: [
 				{
 					id: "7F0D17FD1CF8EFA2"
@@ -1148,257 +700,158 @@
 				}
 				{
 					id: "599763DB9C507B17"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Os Três Ninhos"
-			description: [
-				"&7Sobre a terra queimada, um ninho de cinzas e ouro; no norte, prata sob a geada; nos pântanos, cobre na terra rachada."
-				"&7Em cada um, um dragão jovem vigia o tesouro. Os adultos dormem mais fundo, em cavernas."
-				"&7E nos ninhos de raio há doces italianos. Há perguntas que a crônica não responde."
-				""
-				"&6Objetivo:&r 1. Encontre um &6Ninho de Dragão de Fogo&r (desertos, selvas, savanas, badlands, planícies) e recolha &68 Montes de Ouro&r."
-				"&f2. Encontre um &6Ninho de Dragão de Gelo&r nos biomas nevados e recolha &68 Montes de Prata&r."
-				"&f3. Encontre um &6Ninho de Dragão de Raio&r (pântanos, selvas, badlands, savanas) e recolha &68 Montes de Cobre&r."
-				"&f4. Ache um &6Cannoli&r nos baús do ninho de raio."
-				""
-				"&8Estruturas perigosas só aparecem a mais de 2500 blocos do spawn."
-				"&8Os dragões dos ninhos são jovens (estágios 1 a 3). Não acorde o que não pode vencer."
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "568BD186F0E11B43"
+					item: { count: 1, id: "iceandfire:gold_pile" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0FF1B2A37EB117D8"
+					item: { count: 1, id: "iceandfire:silver_pile" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "58538B683182F8CC"
+					item: { count: 1, id: "iceandfire:copper_pile" }
+					type: "item"
+				}
+				{
+					id: "6F33F5011111E2BE"
+					item: { count: 1, id: "iceandfire:cannoli" }
+					type: "item"
+				}
 			]
+			x: 11.0d
+			y: 1.6d
 		}
 		{
-			id: "7D18EEA0DC69B03B"
-			x: 11.0d
-			y: 3.2d
+			dependencies: ["7DACB1BDF0567091"]
 			icon: {
-				count: 1
 				id: "minecraft:white_wool"
 			}
-			dependencies: [
-				"7DACB1BDF0567091"
-			]
+			id: "7D18EEA0DC69B03B"
+			rewards: [{
+				id: "0E7740978A232078"
+				type: "xp"
+				xp: 240
+			}]
 			tasks: [
 				{
 					id: "011F1C669637C1EF"
+					item: { count: 1, id: "iceandfire:sheep_helmet" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:sheep_helmet"
-					}
-					count: 1L
 				}
 				{
 					id: "285D72580E4C15CB"
+					item: { count: 1, id: "iceandfire:sheep_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:sheep_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "3839EFF838FBF337"
+					item: { count: 1, id: "iceandfire:manuscript" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:manuscript"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "0E7740978A232078"
-					type: "xp"
-					xp: 240
-				}
-			]
-			title: "O Rebanho do Ciclope"
-			description: [
-				"&7No litoral, uma cúpula de pedra cercada de ovelhas. Lá dentro, algo enorme conta o rebanho."
-				"&7O ciclope só conta as ovelhas e nunca olha direito para elas: quem veste lã passa despercebido."
-				""
-				"&6Objetivo:&r 1. Faça o &6Disfarce de Ovelha&r: capacete e peitoral de couro cobertos de lã branca."
-				"&f2. Vestido, entre numa &6caverna de ciclope&r nas praias e saqueie um &6manuscrito&r dos baús."
-				""
-				"&8Ciclopes errantes também cruzam as planícies, e esses não se deixam enganar tão fácil."
-			]
+			x: 11.0d
+			y: 3.2d
 		}
 		{
-			id: "22EB0B172252252D"
-			x: 13.0d
-			y: 3.2d
-			shape: "diamond"
+			dependencies: ["7D18EEA0DC69B03B"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:cyclops_heart"
 			}
-			dependencies: [
-				"7D18EEA0DC69B03B"
-			]
-			tasks: [
-				{
-					id: "298DBFEA552DF42A"
-					type: "kill"
-					entity: "iceandfire:cyclops"
-					value: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "26F4B2E147738329"
-					type: "xp"
-					xp: 80
-				}
-			]
-			title: "Meu Nome é Ninguém"
-			description: [
-				"&7Dez blocos de altura e um único olho. O ciclope come ovelhas, e come quem se passa por elas."
-				"&7Os marinheiros antigos o venceram com astúcia; os caçadores de Heartforge preferem flechas."
-				""
-				"&6Objetivo:&r 1. Encontre o ciclope na caverna do litoral ou vagando pelas planícies."
-				"&f2. Acerte flechas no &colho&r para cegá-lo e fique longe da mão que agarra e da mordida."
-				"&f3. Derrote-o e reclame o seu &ccoração de troféu&r: comê-lo dá força, mas turva a vista."
-				""
-				"&8Escudo e distância. Se ele te agarrar, a mordida vem logo depois."
-			]
+			id: "22EB0B172252252D"
+			rewards: [{
+				id: "26F4B2E147738329"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "298DBFEA552DF42A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 3.2d
 		}
 		{
-			id: "00EDDD16E5FE37C2"
-			x: 16.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["22EB0B172252252D"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
-				count: 1
 				id: "comamigos_balance:tier_heart_3"
 			}
-			dependencies: [
-				"22EB0B172252252D"
-			]
-			tasks: [
-				{
-					id: "2AB6D5B7F4CB2E76"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_3"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_3"
-					}
+			id: "00EDDD16E5FE37C2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_3"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_3"
 				}
-			]
-			rewards: [ ]
-			title: "&9Tier III&7 - Escamas e Marés"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &9Tier III&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
-			dependency_requirement: "one_completed"
+				id: "2AB6D5B7F4CB2E76"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
 		}
 		{
-			id: "40E1326D51A244F7"
-			x: 18.0d
-			y: -1.6d
+			dependencies: ["00EDDD16E5FE37C2"]
 			icon: {
-				count: 1
 				id: "iceandfire:dragon_skull_fire"
 			}
-			dependencies: [
-				"00EDDD16E5FE37C2"
-			]
+			id: "40E1326D51A244F7"
+			rewards: [{
+				id: "41F1FB92E0F77E16"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
-					id: "272B67F9963306F0"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonscales_red"
-					}
 					count: 3L
+					id: "272B67F9963306F0"
+					item: { count: 1, id: "iceandfire:dragonscales_red" }
+					type: "item"
 				}
 				{
 					id: "222246EB36BD8FC1"
+					item: { count: 1, id: "iceandfire:dragon_skull_fire" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragon_skull_fire"
-					}
-					count: 1L
 				}
 				{
-					id: "26AEB261F80A7E9E"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_flute"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:dragon_skull_fire"
 					}
+					id: "26AEB261F80A7E9E"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "41F1FB92E0F77E16"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "Escamas Roubadas"
-			description: [
-				"&7Um dragão dormindo pode ser escovado como um cavalo, muito, muito devagar."
-				"&7O crânio de um dragão é o troféu que todo caçador sonha pendurar sobre a lareira."
-				"&7E do osso da fera se esculpe uma flauta que faz qualquer dragão em voo descer para ouvir."
-				""
-				"&6Objetivo:&r 1. Consiga &63 Escamas de Dragão&r: abata um dragão jovem de ninho, ou use um &6pincel&r num dragão adormecido."
-				"&f2. Obtenha um &6Crânio de Dragão&r do cadáver de um dragão."
-				"&f3. Faça a &6Flauta de Osso de Dragão&r (dois ossos de dragão e um lingote de ferro): chama de volta os dragões domados em voo."
-				""
-				"&8Escamas de gelo e de raio servem igualmente para os passos do respectivo elemento."
-			]
+			x: 18.0d
+			y: -1.6d
 		}
 		{
-			id: "66932D8987450FE1"
-			x: 18.0d
-			y: 0.0d
-			shape: "diamond"
+			dependencies: ["00EDDD16E5FE37C2"]
 			icon: {
-				count: 1
 				id: "iceandfire:hydra_heart"
 			}
-			dependencies: [
-				"00EDDD16E5FE37C2"
-			]
-			tasks: [
-				{
-					id: "2972D6B8977CE580"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:lily_pad"
-					}
-					count: 4L
-				}
-				{
-					id: "3E49DEC9DC5F91C3"
-					type: "kill"
-					entity: "iceandfire:hydra"
-					value: 1L
-				}
-				{
-					id: "231A1E2D8465491F"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:hydra_arrow"
-					}
-					count: 8L
-				}
-			]
+			id: "66932D8987450FE1"
 			rewards: [
 				{
 					id: "51794ED5444383AC"
@@ -1407,503 +860,312 @@
 				}
 				{
 					id: "179518E53726D950"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "O Trabalho de Hércules"
-			description: [
-				"&7Nos pântanos, colinas que parecem naturais escondem uma toca onde três cabeças respiram."
-				"&7Corte uma cabeça e nascem duas: os heróis antigos diziam que só o fogo cauteriza."
-				"&7Mesmo morta, a presa da hidra continua pingando veneno."
-				""
-				"&6Objetivo:&r 1. Encontre uma &6caverna de hidra&r nos pântanos e manguezais e colha &64 vitórias-régias&r no caminho."
-				"&f2. Derrote a &chidra&r atacando as cabeças com dano de fogo para impedir que voltem."
-				"&f3. Ela deixa o &cCoração de Hidra&r: na barra de itens, dá regeneração que cresce quanto mais ferido você estiver."
-				"&f4. Faça &68 Flechas de Hidra&r (presa de hidra, graveto e vitória-régia): envenenam o alvo e curam você."
-				""
-				"&8Leve antídotos ou leite: a hidra cospe veneno."
-			]
-		}
-		{
-			id: "62555C2FFC04AF17"
-			x: 18.0d
-			y: 1.6d
-			icon: {
-				count: 1
-				id: "iceandfire:sea_serpent_fang"
-			}
-			dependencies: [
-				"00EDDD16E5FE37C2"
-			]
+			shape: "diamond"
 			tasks: [
 				{
-					id: "44F7F6997358BDA2"
-					type: "advancement"
+					count: 4L
+					id: "2972D6B8977CE580"
+					item: { count: 1, id: "minecraft:lily_pad" }
+					type: "item"
+				}
+				{
+					entity: "iceandfire:hydra"
+					id: "3E49DEC9DC5F91C3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 8L
+					id: "231A1E2D8465491F"
+					item: { count: 1, id: "iceandfire:hydra_arrow" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00EDDD16E5FE37C2"]
+			icon: {
+				id: "iceandfire:sea_serpent_fang"
+			}
+			id: "62555C2FFC04AF17"
+			rewards: [{
+				id: "69332B06123CE994"
+				type: "xp"
+				xp: 330
+			}]
+			tasks: [
+				{
 					advancement: "iceandfire:iceandfire/kill_sea_serpent"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:sea_serpent_fang"
 					}
+					id: "44F7F6997358BDA2"
+					type: "advancement"
 				}
 				{
-					id: "292F1343A0AFCD3D"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:sea_serpent_scales_blue"
-					}
 					count: 12L
-				}
-				{
-					id: "5C9E4E07384BD320"
+					id: "292F1343A0AFCD3D"
+					item: { count: 1, id: "iceandfire:sea_serpent_scales_blue" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:sea_serpent_fang"
-					}
-					count: 3L
 				}
-			]
-			rewards: [
 				{
-					id: "69332B06123CE994"
-					type: "xp"
-					xp: 330
+					count: 3L
+					id: "5C9E4E07384BD320"
+					item: { count: 1, id: "iceandfire:sea_serpent_fang" }
+					type: "item"
 				}
 			]
-			title: "O Mar Não É Problema"
-			description: [
-				"&7Os marinheiros mentem sobre muitas coisas; sobre as serpentes marinhas, mentem para menos."
-				"&7Algumas passam de trinta blocos, e cada uma tem a cor do mar em que nasceu."
-				""
-				"&6Objetivo:&r 1. Mate uma &6serpente marinha&r nos oceanos."
-				"&f2. Junte &612 Escamas de Serpente Marinha&r (qualquer cor) e &63 Presas de Serpente&r."
-				""
-				"&8Elas destroem barcos. Lute de uma costa alta ou montado num hipocampo."
-			]
+			x: 18.0d
+			y: 1.6d
 		}
 		{
-			id: "3E60A0EE98363F1F"
-			x: 20.0d
-			y: -1.6d
+			dependencies: ["40E1326D51A244F7"]
 			icon: {
-				count: 1
 				id: "iceandfire:amphithere_macuahuitl"
 			}
-			dependencies: [
-				"40E1326D51A244F7"
-			]
+			id: "3E60A0EE98363F1F"
+			rewards: [{
+				id: "1ED00C047EF78F55"
+				type: "xp"
+				xp: 330
+			}]
 			tasks: [
 				{
 					id: "24B1D2A9894F1E35"
+					item: { count: 1, id: "iceandfire:amphithere_macuahuitl" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:amphithere_macuahuitl"
-					}
-					count: 1L
 				}
 				{
 					id: "5B199670082ABDE1"
+					item: { count: 1, id: "iceandfire:siren_flute" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:siren_flute"
-					}
-					count: 1L
 				}
 				{
 					id: "15DD2836704EFD9F"
+					item: { count: 1, id: "iceandfire:hippocampus_slapper" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:hippocampus_slapper"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "1ED00C047EF78F55"
-					type: "xp"
-					xp: 330
-				}
-			]
-			title: "Armas da Selva e do Mar"
-			description: [
-				"&7Com a Mechanical Crafter, os artesãos aprenderam a montar o que antes só os povos antigos sabiam."
-				"&7A clava da selva leva obsidiana e penas sagradas; a canção da sereia, presa numa flauta, agora trabalha para quem toca."
-				"&7E existe o tapa do hipocampo, que não é a arma mais mortal do mundo, só a mais humilhante."
-				""
-				"&6Objetivo:&r 1. Monte o &6Macuahuitl de Anfitere&r na Mechanical Crafter (obsidiana, tábuas, penas e graveto): arremessa o inimigo e atravessa escudos."
-				"&f2. Monte a &6Flauta de Sereia&r (flauta de dragão, escamas brilhantes e lágrima de sereia): enfeitiça os inimigos ao redor."
-				"&f3. Monte o &6Tapa de Hipocampo&r (barbatana e graveto): deixa o alvo lento e confuso."
-			]
+			x: 20.0d
+			y: -1.6d
 		}
 		{
-			id: "2475FE915A4EA730"
-			x: 20.0d
-			y: 1.6d
-			size: 1.25d
+			dependencies: ["62555C2FFC04AF17"]
 			icon: {
-				count: 1
 				id: "iceandfire:tide_trident"
 			}
-			dependencies: [
-				"62555C2FFC04AF17"
-			]
+			id: "2475FE915A4EA730"
+			rewards: [{
+				id: "07CD881328EC0B20"
+				type: "xp"
+				xp: 440
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "42823FF8D5012249"
+					item: { count: 1, id: "iceandfire:tide_blue_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:tide_blue_chestplate"
-					}
-					count: 1L
 				}
 				{
-					id: "24497D0EDEA13CE7"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:sea_serpent_arrow"
-					}
 					count: 8L
+					id: "24497D0EDEA13CE7"
+					item: { count: 1, id: "iceandfire:sea_serpent_arrow" }
+					type: "item"
 				}
 				{
 					id: "322D5180887809F8"
+					item: { count: 1, id: "iceandfire:tide_trident" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:tide_trident"
-					}
-					count: 1L
 				}
 				{
-					id: "3AFE2ED85A0FB1D4"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/use_tide_trident"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:tide_trident"
 					}
+					id: "3AFE2ED85A0FB1D4"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "07CD881328EC0B20"
-					type: "xp"
-					xp: 440
-				}
-			]
-			title: "Guardião da Maré"
-			description: [
-				"&7Escamas de serpente e de sereia, costuradas juntas: quem veste nada como peixe."
-				"&7Poseidon perdeu o tridente, e os ferreiros de Heartforge fizeram um melhor, que atravessa um inimigo e segue para o próximo."
-				""
-				"&6Objetivo:&r 1. Monte um &6Peitoral da Maré&r na &6Mechanical Crafter&r (escamas de serpente da mesma cor e escamas brilhantes). Dá agilidade e fôlego debaixo d'água."
-				"&f2. Faça &68 Flechas da Maré&r (presa, graveto e escamas de serpente): não perdem força na água."
-				"&f3. Monte o &6Tridente da Maré&r na Mechanical Crafter (presas, escamas, diamante e osso de dragão)."
-				"&f4. Arremesse o Tridente da Maré num inimigo."
-			]
+			x: 20.0d
+			y: 1.6d
 		}
 		{
-			id: "55C3AD489A0A30F0"
-			x: 23.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_4"
-			}
 			dependencies: [
 				"3E60A0EE98363F1F"
 				"2475FE915A4EA730"
 			]
-			tasks: [
-				{
-					id: "2CB5E3721AAC1E32"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_4"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_4"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&6Tier IV&7 - Pedra e Pavor"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &6Tier IV&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_4"
+			}
+			id: "55C3AD489A0A30F0"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_4"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_4"
+				}
+				id: "2CB5E3721AAC1E32"
+				type: "advancement"
+			}]
+			x: 23.0d
+			y: 0.0d
 		}
 		{
-			id: "215C3030C11A7FD7"
-			x: 25.0d
-			y: -1.6d
-			shape: "diamond"
+			dependencies: ["55C3AD489A0A30F0"]
 			icon: {
-				count: 1
 				id: "iceandfire:gorgon_head"
 			}
-			dependencies: [
-				"55C3AD489A0A30F0"
-			]
+			id: "215C3030C11A7FD7"
+			rewards: [{
+				id: "4AE2F9A8B74D7CA6"
+				type: "xp"
+				xp: 420
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "5D955AAA4F2B3E03"
+					item: { count: 1, id: "iceandfire:blindfold" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:blindfold"
-					}
-					count: 1L
 				}
 				{
+					entity: "iceandfire:gorgon"
 					id: "0B06261D2414E14C"
 					type: "kill"
-					entity: "iceandfire:gorgon"
 					value: 1L
 				}
 				{
-					id: "70DF02AA6DB5C25B"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/gorgon_head"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:gorgon_head"
 					}
+					id: "70DF02AA6DB5C25B"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "4AE2F9A8B74D7CA6"
-					type: "xp"
-					xp: 420
-				}
-			]
-			title: "Fúria de Titãs"
-			description: [
-				"&7À beira-mar, um templo de pedra cheio de estátuas tão perfeitas que parecem gente. Porque eram."
-				"&7Contra a górgona, a coragem não serve: só a cegueira salva."
-				"&7Mesmo cortada, a cabeça dela continua a petrificar quem a encara."
-				""
-				"&6Objetivo:&r 1. Faça uma &6Venda&r (couro e linha) e use-a na cabeça."
-				"&f2. Encontre um &6templo de górgona&r nas praias e mate a &cgórgona&r com a venda posta."
-				"&f3. Pegue a &6Cabeça da Górgona&r: segure o uso olhando para um alvo e solte, e ele vira pedra."
-				""
-				"&8Olhar para ela sem venda é morte instantânea. Com a venda você fica cego, mas vivo."
-			]
+			x: 25.0d
+			y: -1.6d
 		}
 		{
-			id: "3836D08B94670D55"
-			x: 25.0d
-			y: 0.0d
-			size: 1.25d
+			dependencies: ["55C3AD489A0A30F0"]
 			icon: {
-				count: 1
 				id: "iceandfire:dread_shard"
 			}
-			dependencies: [
-				"55C3AD489A0A30F0"
-			]
+			id: "3836D08B94670D55"
+			rewards: [{
+				id: "7B9ACF7BAA6C636C"
+				type: "xp"
+				xp: 560
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "7E5F1B121908E6F0"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dread_shard"
-					}
 					count: 8L
+					id: "7E5F1B121908E6F0"
+					item: { count: 1, id: "iceandfire:dread_shard" }
+					type: "item"
 				}
 				{
-					id: "2C155BDDA3D38DE3"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dread_torch"
-					}
 					count: 4L
+					id: "2C155BDDA3D38DE3"
+					item: { count: 1, id: "iceandfire:dread_torch" }
+					type: "item"
 				}
 				{
 					id: "66760F55C8A85773"
+					item: { count: 1, id: "iceandfire:dread_sword" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dread_sword"
-					}
-					count: 1L
 				}
 				{
 					id: "7A39839BC4E93793"
+					item: { count: 1, id: "iceandfire:dread_knight_sword" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dread_knight_sword"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "7B9ACF7BAA6C636C"
-					type: "xp"
-					xp: 560
-				}
-			]
-			title: "O Mausoléu do Pavor"
-			description: [
-				"&7Nas terras de neve, um túmulo de pedra negra onde os mortos não descansam: marcham."
-				"&7Servos, cavaleiros em cavalos esqueléticos, carniçais e feras do pavor lutam como se ainda tivessem um rei."
-				"&7Os fragmentos que deixam queimam com uma chama azul que não aquece ninguém."
-				""
-				"&6Objetivo:&r 1. Encontre um &6Mausoléu&r nos biomas frios e nevados e recolha &68 Fragmentos do Pavor&r dos mortos-vivos."
-				"&f2. Faça &64 Tochas do Pavor&r (fragmento e graveto)."
-				"&f3. Consiga uma &6Espada do Servo do Pavor&r dos servos."
-				"&f4. Consiga uma &6Espada do Cavaleiro do Pavor&r dos cavaleiros."
-				""
-				"&8Os baús podem ter ossos de dragão, armadura de dragão de ferro e até coração de dragão de gelo."
-			]
+			x: 25.0d
+			y: 0.0d
 		}
 		{
-			id: "0C56988A1EE3853A"
-			x: 25.0d
-			y: 1.6d
+			dependencies: ["55C3AD489A0A30F0"]
 			icon: {
-				count: 1
 				id: "iceandfire:dragon_seeker"
 			}
-			dependencies: [
-				"55C3AD489A0A30F0"
-			]
+			id: "0C56988A1EE3853A"
+			rewards: [{
+				id: "3F6915633B3CBC36"
+				type: "xp"
+				xp: 420
+			}]
 			tasks: [
 				{
-					id: "3349C6AB64CC293B"
-					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:netherite_ingot"
-					}
 					count: 2L
+					id: "3349C6AB64CC293B"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
 				}
 				{
 					id: "0E823DFACFF1AE0A"
+					item: { count: 1, id: "iceandfire:dragon_seeker" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragon_seeker"
-					}
-					count: 1L
 				}
 				{
 					id: "52F59FE496188A6D"
+					item: { count: 1, id: "iceandfire:netherite_hippogryph_armor" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:netherite_hippogryph_armor"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "3F6915633B3CBC36"
-					type: "xp"
-					xp: 420
-				}
-			]
-			title: "O Faro do Dragão"
-			description: [
-				"&7Com o Nether finalmente aberto, a netherite chega às mãos dos caçadores."
-				"&7Um crânio de dragão sobre netherite vira a mandíbula para o dragão mais próximo,"
-				"&7e o hipogrifo com netherite no peito voa sobre a lava sem medo."
-				""
-				"&6Objetivo:&r 1. Consiga &62 lingotes de netherite&r (só, no mixer superaquecido)."
-				"&f2. Faça o &6Rastreador de Dragões&r (crânio de dragão e dois lingotes de netherite)."
-				"&f3. Melhore a armadura de hipogrifo de diamante com o molde de netherite na mesa de ferraria."
-			]
+			x: 25.0d
+			y: 1.6d
 		}
 		{
-			id: "4018BE9B89E55AA3"
-			x: 28.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_5"
-			}
 			dependencies: [
 				"215C3030C11A7FD7"
 				"3836D08B94670D55"
 				"0C56988A1EE3853A"
 			]
-			tasks: [
-				{
-					id: "5F2CBA40E0E1E679"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_5"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_5"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&cTier V&7 - O Matador de Dragões"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &cTier V&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_5"
+			}
+			id: "4018BE9B89E55AA3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_5"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_5"
+				}
+				id: "5F2CBA40E0E1E679"
+				type: "advancement"
+			}]
+			x: 28.0d
+			y: 0.0d
 		}
 		{
-			id: "56ADB5730C8B92FF"
-			x: 30.0d
-			y: -0.27d
-			shape: "gear"
+			dependencies: ["4018BE9B89E55AA3"]
 			icon: {
-				count: 1
 				id: "iceandfire:fire_dragon_heart"
 			}
-			dependencies: [
-				"4018BE9B89E55AA3"
-			]
-			tasks: [
-				{
-					id: "77091F2F06385905"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:gold_pile"
-					}
-					count: 32L
-				}
-				{
-					id: "1EC4EE81C2D1ED7F"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/kill_if_dragon"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:fire_dragon_heart"
-					}
-				}
-			]
+			id: "56ADB5730C8B92FF"
 			rewards: [
 				{
 					id: "34709EA4FD0A69B6"
@@ -1912,215 +1174,112 @@
 				}
 				{
 					id: "650ABFD79B2979E6"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "&cO Matador de Dragões"
-			description: [
-				"&7Bem abaixo da terra, o calor sobe por túneis largos como catedrais e o ouro forma dunas."
-				"&7Ali dorme um dragão adulto, de estágio quatro ou cinco, a fera que guarda o Tier V."
-				"&7Nenhum coração de campeão bate sem o coração de um dragão."
-				""
-				"&6Objetivo:&r 1. Encontre uma &6caverna de dragão&r (fogo, gelo ou raio) no subsolo dos biomas do elemento e recolha &632 Montes de Ouro&r do tesouro."
-				"&f2. Derrote um &cdragão&r de fogo, gelo ou raio. O &ccoração do dragão&r é a peça-chave do &6Coração do Tier V&r."
-				"&f3. Depois da morte, use a mão vazia no cadáver para colher escamas, ossos, carne e o coração."
-				""
-				"&8Use o Rastreador de Dragões, ou siga a terra queimada, congelada ou rachada."
-				"&8Vista armadura contra o elemento dele: escamas de dragão e aço de dragão reduzem o dano do sopro."
-			]
-		}
-		{
-			id: "6EF2E68FC22C360A"
-			x: 30.0d
-			y: 1.33d
-			shape: "diamond"
-			icon: {
-				count: 1
-				id: "comamigos_balance:dread_lich_heart"
-			}
-			dependencies: [
-				"4018BE9B89E55AA3"
-			]
+			shape: "gear"
 			tasks: [
 				{
+					count: 32L
+					id: "77091F2F06385905"
+					item: { count: 1, id: "iceandfire:gold_pile" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/kill_if_dragon"
+					criterion: ""
+					icon: {
+						id: "iceandfire:fire_dragon_heart"
+					}
+					id: "1EC4EE81C2D1ED7F"
+					type: "advancement"
+				}
+			]
+			x: 30.0d
+			y: -0.27d
+		}
+		{
+			dependencies: ["4018BE9B89E55AA3"]
+			icon: {
+				id: "comamigos_balance:dread_lich_heart"
+			}
+			id: "6EF2E68FC22C360A"
+			rewards: [{
+				id: "374A2B085E38F924"
+				type: "xp"
+				xp: 340
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "iceandfire:dread_lich"
 					id: "3ADDE50A89E244BB"
 					type: "kill"
-					entity: "iceandfire:dread_lich"
 					value: 1L
 				}
 				{
 					id: "608BB03E0E2AF2A9"
+					item: { count: 1, id: "iceandfire:dread_key" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dread_key"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "374A2B085E38F924"
-					type: "xp"
-					xp: 340
-				}
-			]
-			title: "O Lich do Pavor"
-			description: [
-				"&7No coração do mausoléu, um feiticeiro morto ergue os seus servos de novo e de novo."
-				"&7Enquanto ele respira, se é que respira, o exército do pavor não acaba."
-				"&7Caído, deixa uma chave de osso que abre as fechaduras do túmulo."
-				""
-				"&6Objetivo:&r 1. Volte ao Mausoléu do Pavor e encontre o &cLich do Pavor&r entre os mortos-vivos."
-				"&f2. Ignore os servos e derrube o lich primeiro: sem ele, os servos param de surgir."
-				"&f3. Recolha a &6Chave do Coveiro&r e use-a nas fechaduras de madeira do pavor. Reclame o seu &ccoração de troféu&r."
-				""
-				"&8Leve a Espada de Prata ou a Lâmina Fantasmagórica: dano extra contra mortos-vivos."
-			]
+			x: 30.0d
+			y: 1.33d
 		}
 		{
-			id: "14B8DBF40C1C5A0E"
-			x: 32.0d
-			y: -2.27d
-			size: 1.25d
+			dependencies: ["56ADB5730C8B92FF"]
 			icon: {
-				count: 1
 				id: "iceandfire:fire_dragon_blood"
 			}
-			dependencies: [
-				"56ADB5730C8B92FF"
-			]
+			id: "14B8DBF40C1C5A0E"
+			rewards: [{
+				id: "673CE070E93A7EF3"
+				type: "xp"
+				xp: 850
+			}]
+			size: 1.25d
 			tasks: [
 				{
-					id: "65DFD0BE8F92C4EC"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:fire_dragon_flesh"
-					}
 					count: 4L
+					id: "65DFD0BE8F92C4EC"
+					item: { count: 1, id: "iceandfire:fire_dragon_flesh" }
+					type: "item"
 				}
 				{
-					id: "680596AAA4F7C29B"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:fire_dragon_blood"
-					}
 					count: 2L
+					id: "680596AAA4F7C29B"
+					item: { count: 1, id: "iceandfire:fire_dragon_blood" }
+					type: "item"
 				}
 				{
 					id: "02EFD8FACDBF9240"
+					item: { count: 1, id: "iceandfire:dragonscale_red" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonscale_red"
-					}
-					count: 1L
 				}
 				{
 					id: "262A170A068E393A"
+					item: { count: 1, id: "iceandfire:armor_red_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:armor_red_chestplate"
-					}
-					count: 1L
 				}
 				{
 					id: "0749193756C8BAC3"
+					item: { count: 1, id: "iceandfire:cooked_rice_with_fire_dragon_meat" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:cooked_rice_with_fire_dragon_meat"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "673CE070E93A7EF3"
-					type: "xp"
-					xp: 850
-				}
-			]
-			title: "Colheita do Cadáver"
-			description: [
-				"&7Um dragão morto é uma mina inteira: nada se desperdiça."
-				"&7A carne é dura, picante e cara; o sangue engarrafado é a matéria-prima do aço; as escamas viram a pele de quem as veste."
-				""
-				"&6Objetivo:&r 1. Colha &64 Carnes de Dragão&r do cadáver."
-				"&f2. Use um &6frasco de vidro&r no cadáver para engarrafar &62 Sangues de Dragão&r (a forja também destila sangue de escamas)."
-				"&f3. Compacte nove escamas num &6Bloco de Escamas de Dragão&r."
-				"&f4. Monte um &6Peitoral de Escamas de Dragão&r na Mechanical Crafter (escamas da mesma cor): reduz muito o dano dos sopros."
-				"&f5. Na panela, faça &6Arroz Frito com Carne de Dragão&r (arroz, carne, batata e cenoura)."
-			]
+			x: 32.0d
+			y: -2.27d
 		}
 		{
-			id: "080644218B32824C"
-			x: 32.0d
-			y: -0.67d
-			size: 1.25d
+			dependencies: ["56ADB5730C8B92FF"]
 			icon: {
-				count: 1
 				id: "iceandfire:dragonforge_fire_core"
 			}
-			dependencies: [
-				"56ADB5730C8B92FF"
-			]
-			tasks: [
-				{
-					id: "2CDB63A055BF4987"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragon_forge_brick"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:dragonforge_fire_core"
-					}
-				}
-				{
-					id: "03EAEDA5AAADC06A"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonforge_fire_brick"
-					}
-					count: 17L
-				}
-				{
-					id: "6064A333005418FA"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragon_forge_core"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:dragonforge_fire_core"
-					}
-				}
-				{
-					id: "73A9C1E732A62FC2"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonforge_fire_input"
-					}
-					count: 1L
-				}
-				{
-					id: "1EE8E0301F61959A"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragon_bone_block"
-					}
-					count: 8L
-				}
-			]
+			id: "080644218B32824C"
 			rewards: [
 				{
 					id: "0F8165D4F2EEAC74"
@@ -2129,172 +1288,114 @@
 				}
 				{
 					id: "29B4B4A4D530720F"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "A Forja de Dragão"
-			description: [
-				"&7Vinte e sete blocos, um coração e o fôlego de uma fera: nenhuma fornalha chega perto."
-				"&7A forja começa com escamas cozidas em pedra; no centro bate o coração do próprio dragão,"
-				"&7e por uma abertura entra o sopro que faz o aço nascer."
-				""
-				"&6Objetivo:&r 1. Faça &617 Tijolos de Forja de Dragão&r: tijolos de pedra cercados de blocos de escamas do elemento."
-				"&f2. Faça o &6Núcleo da Forja&r: um coração de dragão cercado de 8 tijolos do mesmo elemento."
-				"&f3. Faça uma &6Abertura da Forja&r (tijolos e lingotes de ferro) e &68 Blocos de Osso de Dragão&r."
-				"&f4. Monte o cubo 3x3x3: ossos nos 8 cantos, núcleo no centro, abertura no meio de uma face e tijolos no resto."
-				"&f5. Um dragão do mesmo elemento precisa soprar na abertura para acender a forja."
-				""
-				"&8Atraia um dragão selvagem para soprar na abertura, ou mande o seu dragão domado atacar perto dela."
-				"&8Há forjas de fogo, de gelo e de raio: cada uma só funciona com o sopro certo."
-			]
-		}
-		{
-			id: "69038147C161306C"
-			x: 32.0d
-			y: 0.93d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonegg_red"
-			}
-			dependencies: [
-				"56ADB5730C8B92FF"
-			]
 			tasks: [
 				{
-					id: "4289A49CF648745E"
+					advancement: "iceandfire:iceandfire/dragon_forge_brick"
+					criterion: ""
+					icon: {
+						id: "iceandfire:dragonforge_fire_core"
+					}
+					id: "2CDB63A055BF4987"
 					type: "advancement"
+				}
+				{
+					count: 17L
+					id: "03EAEDA5AAADC06A"
+					item: { count: 1, id: "iceandfire:dragonforge_fire_brick" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_forge_core"
+					criterion: ""
+					icon: {
+						id: "iceandfire:dragonforge_fire_core"
+					}
+					id: "6064A333005418FA"
+					type: "advancement"
+				}
+				{
+					id: "73A9C1E732A62FC2"
+					item: { count: 1, id: "iceandfire:dragonforge_fire_input" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1EE8E0301F61959A"
+					item: { count: 1, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+			]
+			x: 32.0d
+			y: -0.67d
+		}
+		{
+			dependencies: ["56ADB5730C8B92FF"]
+			icon: {
+				id: "iceandfire:dragonegg_red"
+			}
+			id: "69038147C161306C"
+			rewards: [{
+				id: "3CE9DDB347454239"
+				type: "xp"
+				xp: 680
+			}]
+			size: 1.25d
+			tasks: [
+				{
 					advancement: "iceandfire:iceandfire/dragon_egg"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:dragonegg_red"
 					}
+					id: "4289A49CF648745E"
+					type: "advancement"
 				}
 				{
-					id: "26167A87A3AB83A2"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_meal"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:dragonegg_red"
 					}
+					id: "26167A87A3AB83A2"
+					type: "advancement"
 				}
 				{
-					id: "63CFCF81C173F178"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_staff"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:dragonegg_red"
 					}
+					id: "63CFCF81C173F178"
+					type: "advancement"
 				}
 				{
-					id: "73AD2CCE734D2068"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragon_horn"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:dragonegg_red"
 					}
+					id: "73AD2CCE734D2068"
+					type: "advancement"
 				}
 			]
-			rewards: [
-				{
-					id: "3CE9DDB347454239"
-					type: "xp"
-					xp: 680
-				}
-			]
-			title: "Mãe de Dragões"
-			description: [
-				"&7Uma fêmea adulta morta às vezes deixa um ovo do tamanho de um barril, ainda quente."
-				"&7Um dragão leva anos para crescer, mas com ração certa leva semanas."
-				"&7Um crânio no alto de um cajado dá ordens, e dentro de um chifre cabe um dragão inteiro, como tempestade numa garrafa."
-				""
-				"&6Objetivo:&r 1. Consiga um &6Ovo de Dragão&r: fêmeas adultas podem deixá-lo ao morrer, e as cavernas os guardam."
-				"&f2. Faça &6Ração de Dragão&r (ossos e carnes) e dê ao filhote para envelhecê-lo mais rápido."
-				"&f3. Faça o &6Cajado de Comando&r (crânio de dragão e dois gravetos) e use-o para alternar seguir, sentar e vagar."
-				"&f4. Faça o &6Chifre de Dragão&r (ossos de dragão e graveto) para guardar o dragão domado e soltá-lo onde quiser."
-				""
-				"&8O filhote obedece a quem estiver mais perto quando choca. Fique ao lado do ovo."
-			]
+			x: 32.0d
+			y: 0.93d
 		}
 		{
-			id: "46C5C6B8B668359A"
-			x: 32.0d
-			y: 2.53d
-			size: 1.25d
+			dependencies: ["6EF2E68FC22C360A"]
 			icon: {
-				count: 1
 				id: "iceandfire:podium_oak"
 			}
-			dependencies: [
-				"6EF2E68FC22C360A"
-			]
-			tasks: [
-				{
-					id: "76D775B3E838C9E1"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:cyclops_eye"
-					}
-					count: 1L
-				}
-				{
-					id: "755A6978D84E8B30"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:deathworm_egg_giant"
-					}
-					count: 1L
-				}
-				{
-					id: "0A48D80DF002EA97"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:banner_pattern_fire"
-					}
-					count: 1L
-				}
-				{
-					id: "3FE1077B39E4ECFB"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:stone_statue"
-					}
-					count: 1L
-				}
-				{
-					id: "4D807F70D56661A0"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:lich_staff"
-					}
-					count: 1L
-				}
-				{
-					id: "1CBD4EF91936E8A7"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragon_skull_fire"
-					}
-					count: 1L
-				}
-			]
+			id: "46C5C6B8B668359A"
+			optional: true
 			rewards: [
 				{
 					id: "142CF32BD374F1D4"
@@ -2303,99 +1404,55 @@
 				}
 				{
 					id: "2EE11CDBEB6BE289"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "A Sala de Troféus"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Caçador que não exibe seus troféus não é levado a sério na taverna."
-				"&7Uma sala de verdade tem o olho do ciclope, um ovo de verme gigante, o brasão das feras,"
-				"&7uma vítima da górgona transformada em escultura e o cajado com que o lich comandava os mortos."
-				""
-				"&6Objetivo:&r 1. Consiga um &6Olho de Ciclope&r (drop raro): segurado, enfraquece os monstros próximos."
-				"&f2. Consiga um &6Ovo de Verme Gigante&r dos vermes maiores."
-				"&f3. Obtenha um &6Padrão de Estandarte&r de fogo (ou de outra fera) para pintar bandeiras no tear."
-				"&f4. Quebre uma vítima petrificada para guardar uma &6Estátua de Pedra&r."
-				"&f5. Consiga o &6Cajado do Lich do Pavor&r."
-				"&f6. Ponha um &6Crânio de Dragão&r no pódio, no centro de tudo."
-			]
-			optional: true
-		}
-		{
-			id: "0A8C77C62CAA52BB"
-			x: 34.0d
-			y: -2.53d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonbone_sword_fire"
-			}
-			dependencies: [
-				"14B8DBF40C1C5A0E"
-			]
 			tasks: [
 				{
-					id: "495B6199364DB615"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragonbone_tool"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:dragonbone_sword_fire"
-					}
-				}
-				{
-					id: "5D3658231DBB9823"
+					id: "76D775B3E838C9E1"
+					item: { count: 1, id: "iceandfire:cyclops_eye" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_sword"
-					}
-					count: 1L
 				}
 				{
-					id: "49EB15DC9ED067E3"
+					id: "755A6978D84E8B30"
+					item: { count: 1, id: "iceandfire:deathworm_egg_giant" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_bow"
-					}
-					count: 1L
 				}
 				{
-					id: "2D01ADE5032B339D"
+					id: "0A48D80DF002EA97"
+					item: { count: 1, id: "iceandfire:banner_pattern_fire" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_arrow"
-					}
-					count: 8L
 				}
 				{
-					id: "729C5A18B035911F"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:dragonbone_sword_fire"
-					}
-				}
-				{
-					id: "16229133E8EA6438"
+					id: "3FE1077B39E4ECFB"
+					item: { count: 1, id: "iceandfire:stone_statue" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:ghost_sword"
-					}
-					count: 1L
+				}
+				{
+					id: "4D807F70D56661A0"
+					item: { count: 1, id: "iceandfire:lich_staff" }
+					type: "item"
+				}
+				{
+					id: "1CBD4EF91936E8A7"
+					item: { count: 1, id: "iceandfire:dragon_skull_fire" }
+					type: "item"
 				}
 			]
+			x: 32.0d
+			y: 2.53d
+		}
+		{
+			dependencies: ["14B8DBF40C1C5A0E"]
+			icon: {
+				id: "iceandfire:dragonbone_sword_fire"
+			}
+			id: "0A8C77C62CAA52BB"
 			rewards: [
 				{
 					id: "7D0C90272516B687"
@@ -2404,97 +1461,67 @@
 				}
 				{
 					id: "36174357ADB675B4"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Lâminas de Osso de Dragão"
-			description: [
-				"&7O osso de dragão é mais duro que diamante e mais leve que madeira: a base de toda lâmina lendária deste bestiário."
-				"&7Banhe a espada no sangue de um dragão e ela lembrará para sempre o elemento dele."
-				"&7Junte-a ao metal dos fantasmas e ela cortará até o que não tem corpo."
-				""
-				"&6Objetivo:&r 1. Monte uma ferramenta de &6osso de dragão&r na &6Mechanical Crafter&r (ossos de dragão e ossos de murcho)."
-				"&f2. Monte a &6Espada de Osso de Dragão&r e o &6Arco de Osso de Dragão&r."
-				"&f3. Faça &68 Flechas de Osso de Dragão&r (osso e lasca de murcho)."
-				"&f4. Combine a espada com &6sangue de dragão&r para criar a espada de fogo, de gelo ou de raio."
-				"&f5. Monte a &6Lâmina Fantasmagórica&r (espada de osso de dragão e lingote fantasmagórico): dispara espadas espectrais."
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragonbone_tool"
+					criterion: ""
+					icon: {
+						id: "iceandfire:dragonbone_sword_fire"
+					}
+					id: "495B6199364DB615"
+					type: "advancement"
+				}
+				{
+					id: "5D3658231DBB9823"
+					item: { count: 1, id: "iceandfire:dragonbone_sword" }
+					type: "item"
+				}
+				{
+					id: "49EB15DC9ED067E3"
+					item: { count: 1, id: "iceandfire:dragonbone_bow" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2D01ADE5032B339D"
+					item: { count: 1, id: "iceandfire:dragonbone_arrow" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
+					criterion: ""
+					icon: {
+						id: "iceandfire:dragonbone_sword_fire"
+					}
+					id: "729C5A18B035911F"
+					type: "advancement"
+				}
+				{
+					id: "16229133E8EA6438"
+					item: { count: 1, id: "iceandfire:ghost_sword" }
+					type: "item"
+				}
 			]
+			x: 34.0d
+			y: -2.53d
 		}
 		{
-			id: "2758EDE522679D60"
-			x: 34.0d
-			y: -0.93d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonsteel_fire_ingot"
-			}
 			dependencies: [
 				"080644218B32824C"
 				"14B8DBF40C1C5A0E"
 			]
-			tasks: [
-				{
-					id: "72EA5BD62023E763"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragonsteel"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:dragonsteel_fire_ingot"
-					}
-				}
-				{
-					id: "6AF023160E49DF7E"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_fire_ingot"
-					}
-					count: 4L
-				}
-				{
-					id: "5A5AC0172AF3356C"
-					type: "advancement"
-					advancement: "iceandfire:iceandfire/dragonsteel_weapon"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "iceandfire:dragonsteel_fire_ingot"
-					}
-				}
-				{
-					id: "5E77B75177F7F2B7"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_fire_chestplate"
-					}
-					count: 1L
-				}
-				{
-					id: "4941B95FFEB260D8"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_fire_pickaxe"
-					}
-					count: 1L
-				}
-				{
-					id: "52A7231CDE9BB986"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonarmor_dragon_steel_fire_body"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+			id: "2758EDE522679D60"
 			rewards: [
 				{
 					id: "3D91DD54EF6DE812"
@@ -2503,77 +1530,65 @@
 				}
 				{
 					id: "10DCAFA181FD039A"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_incomum"
 					}
+					type: "item"
 				}
 			]
-			title: "Forjado na Chama"
-			description: [
-				"&7Ferro banhado em sangue de dragão e cozido no sopro da fera: o aço de dragão."
-				"&7Uma espada dele parte armaduras como galhos secos, e a armadura dos campeões é quente ao toque e quase indestrutível."
-				"&7O dragão que veste o aço do próprio sangue é um castelo voador."
-				""
-				"&6Objetivo:&r 1. Na forja acesa, coloque &6lingote de ferro&r e &6sangue de dragão&r para obter &64 Aços de Dragão&r."
-				"&f2. Monte uma arma de aço de dragão na &6Mechanical Crafter&r (aço e osso de murcho). As de fogo incendeiam, as de gelo congelam e as de raio chamam relâmpagos."
-				"&f3. Monte um &6Peitoral de Aço de Dragão&r e uma &6Picareta de Aço de Dragão&r na Mechanical Crafter."
-				"&f4. Forje uma peça de &6Armadura de Dragão de Aço&r com blocos de aço de dragão."
-				""
-				"&8O aço de dragão também entra na receita do Coração do Tier V."
-			]
-		}
-		{
-			id: "3880DEB4359EE0D5"
-			x: 34.0d
-			y: 0.67d
 			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonegg_blue"
-			}
-			dependencies: [
-				"69038147C161306C"
-			]
 			tasks: [
 				{
-					id: "70B30AAE0A377030"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonegg_red"
+					advancement: "iceandfire:iceandfire/dragonsteel"
+					criterion: ""
+					icon: {
+						id: "iceandfire:dragonsteel_fire_ingot"
 					}
-					count: 1L
+					id: "72EA5BD62023E763"
+					type: "advancement"
 				}
 				{
-					id: "36BB49A4C213D0AF"
+					count: 4L
+					id: "6AF023160E49DF7E"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonegg_blue"
-					}
-					count: 1L
 				}
 				{
-					id: "42F1C120FF0435A4"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonegg_electric"
+					advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+					criterion: ""
+					icon: {
+						id: "iceandfire:dragonsteel_fire_ingot"
 					}
-					count: 1L
+					id: "5A5AC0172AF3356C"
+					type: "advancement"
 				}
 				{
-					id: "422477B89A81A151"
+					id: "5E77B75177F7F2B7"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_chestplate" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:sickly_dragon_meal"
-					}
-					count: 1L
+				}
+				{
+					id: "4941B95FFEB260D8"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "52A7231CDE9BB986"
+					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_fire_body" }
+					type: "item"
 				}
 			]
+			x: 34.0d
+			y: -0.93d
+		}
+		{
+			dependencies: ["69038147C161306C"]
+			icon: {
+				id: "iceandfire:dragonegg_blue"
+			}
+			id: "3880DEB4359EE0D5"
+			optional: true
 			rewards: [
 				{
 					id: "41E0D4B32733C369"
@@ -2582,104 +1597,49 @@
 				}
 				{
 					id: "415D7C703C1C01EE"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "Os Três Berços"
-			subtitle: "&8Opcional"
-			description: [
-				"&7Cada ovo acorda num berço diferente: o de fogo nas chamas, o de gelo dentro da água congelada, o de raio sob a chuva."
-				"&7E às vezes um dragão pequeno é mais útil que um grande."
-				""
-				"&6Objetivo:&r 1. &6Ovo de fogo&r: sobre netherrack, com fogo aceso ao redor."
-				"&f2. &6Ovo de gelo&r: dentro de água parada, que congela em volta."
-				"&f3. &6Ovo de raio&r: a céu aberto durante uma chuva."
-				"&f4. Faça &6Ração Doentia&r (ração de dragão, batatas venenosas e olhos de aranha) para frear o crescimento."
+			size: 1.25d
+			tasks: [
+				{
+					id: "70B30AAE0A377030"
+					item: { count: 1, id: "iceandfire:dragonegg_red" }
+					type: "item"
+				}
+				{
+					id: "36BB49A4C213D0AF"
+					item: { count: 1, id: "iceandfire:dragonegg_blue" }
+					type: "item"
+				}
+				{
+					id: "42F1C120FF0435A4"
+					item: { count: 1, id: "iceandfire:dragonegg_electric" }
+					type: "item"
+				}
+				{
+					id: "422477B89A81A151"
+					item: { count: 1, id: "iceandfire:sickly_dragon_meal" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 34.0d
+			y: 0.67d
 		}
 		{
-			id: "65D9CEE07F6BE60D"
-			x: 36.0d
-			y: -1.73d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:ice_dragon_heart"
-			}
 			dependencies: [
 				"2758EDE522679D60"
 				"0A8C77C62CAA52BB"
 			]
-			tasks: [
-				{
-					id: "09C7BE3502490242"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:fire_dragon_heart"
-					}
-					count: 1L
-				}
-				{
-					id: "5C8F878AC8550FAD"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:ice_dragon_heart"
-					}
-					count: 1L
-				}
-				{
-					id: "38ABC30585664DAE"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:lightning_dragon_heart"
-					}
-					count: 1L
-				}
-				{
-					id: "787FAF6A7B7ABA27"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_ice_ingot"
-					}
-					count: 1L
-				}
-				{
-					id: "621601EE6496956A"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_lightning_ingot"
-					}
-					count: 1L
-				}
-				{
-					id: "0DBA8F4BC8FACA8E"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_sword_ice"
-					}
-					count: 1L
-				}
-				{
-					id: "4A485B4BA09C37DB"
-					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonbone_sword_lightning"
-					}
-					count: 1L
-				}
-			]
+			icon: {
+				id: "iceandfire:ice_dragon_heart"
+			}
+			id: "65D9CEE07F6BE60D"
+			optional: true
 			rewards: [
 				{
 					id: "7E2557CFBFC8750E"
@@ -2688,151 +1648,129 @@
 				}
 				{
 					id: "7539122D736071A2"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_epica"
 					}
+					type: "item"
 				}
 			]
-			title: "Fogo, Gelo e Raio"
-			subtitle: "&8Opcional"
-			description: [
-				"&7O caçador completo não se contenta com um elemento. Ele quer os três corações sobre a lareira,"
-				"&7o aço forjado em cada sopro e uma espada para cada céu: a de geada, a de chama e a de trovão."
-				""
-				"&6Objetivo:&r 1. Obtenha os corações de dragão de &6fogo&r, de &6gelo&r e de &6raio&r."
-				"&f2. Faça &6Aço de Dragão de Gelo&r numa forja de gelo e &6Aço de Dragão de Raio&r numa forja de raio."
-				"&f3. Faça a &6Espada de Osso Gelada&r e a &6Espada de Osso de Raio&r com o sangue do elemento."
+			size: 1.25d
+			tasks: [
+				{
+					id: "09C7BE3502490242"
+					item: { count: 1, id: "iceandfire:fire_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "5C8F878AC8550FAD"
+					item: { count: 1, id: "iceandfire:ice_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "38ABC30585664DAE"
+					item: { count: 1, id: "iceandfire:lightning_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "787FAF6A7B7ABA27"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_ingot" }
+					type: "item"
+				}
+				{
+					id: "621601EE6496956A"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_ingot" }
+					type: "item"
+				}
+				{
+					id: "0DBA8F4BC8FACA8E"
+					item: { count: 1, id: "iceandfire:dragonbone_sword_ice" }
+					type: "item"
+				}
+				{
+					id: "4A485B4BA09C37DB"
+					item: { count: 1, id: "iceandfire:dragonbone_sword_lightning" }
+					type: "item"
+				}
 			]
-			optional: true
+			x: 36.0d
+			y: -1.73d
 		}
 		{
-			id: "5535AD39631B59A8"
-			x: 36.0d
-			y: -0.0d
-			size: 1.25d
-			icon: {
-				count: 1
-				id: "iceandfire:dragonarmor_iron_body"
-			}
 			dependencies: [
 				"69038147C161306C"
 				"2758EDE522679D60"
 			]
+			icon: {
+				id: "iceandfire:dragonarmor_iron_body"
+			}
+			id: "5535AD39631B59A8"
+			rewards: [{
+				id: "008BC24741290E96"
+				type: "xp"
+				xp: 680
+			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "6093BC7197175056"
+					item: { count: 1, id: "iceandfire:dragonarmor_iron_head" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:dragonarmor_iron_head"
-					}
-					count: 1L
 				}
 				{
-					id: "17F38F5B39BE7D20"
-					type: "advancement"
 					advancement: "iceandfire:iceandfire/dragonarmor"
 					criterion: ""
 					icon: {
-						count: 1
 						id: "iceandfire:dragonarmor_iron_body"
 					}
+					id: "17F38F5B39BE7D20"
+					type: "advancement"
 				}
 				{
 					id: "455BB290B6F17CCE"
+					item: { count: 1, id: "iceandfire:summoning_crystal_fire" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:summoning_crystal_fire"
-					}
-					count: 1L
 				}
 				{
 					id: "753E0E44439C1B3F"
+					item: { count: 1, id: "iceandfire:legendary_dragon_seeker" }
 					type: "item"
-					item: {
-						count: 1
-						id: "iceandfire:legendary_dragon_seeker"
-					}
-					count: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "008BC24741290E96"
-					type: "xp"
-					xp: 680
-				}
-			]
-			title: "Cavaleiro de Dragão"
-			description: [
-				"&7Um dragão de guerra precisa de armadura como qualquer cavalo de guerra, da cabeça à cauda."
-				"&7Um cristal de sangue e diamante guarda o vínculo entre cavaleiro e fera,"
-				"&7e o rastreador com aço no cabo sente dragões muito mais longe."
-				""
-				"&6Objetivo:&r 1. Forje uma &6Armadura de Dragão&r de ferro (cabeça, pescoço, corpo ou cauda) e vista o seu dragão com ela."
-				"&f2. Monte um &6Cristal de Invocação&r na Mechanical Crafter (sangue de dragão, pérola do Fim, diamante e esmeralda), vincule-o ao dragão e use-o para chamá-lo."
-				"&f3. Faça o &6Rastreador Lendário&r (crânio de dragão e aço de dragão)."
-				""
-				"&8Armaduras de dragão de ferro também aparecem nos baús dos mausoléus."
-			]
+			x: 36.0d
+			y: 0.0d
 		}
 		{
-			id: "31D6BBFFF11CEFF0"
-			x: 39.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: {
-				count: 1
-				id: "comamigos_balance:tier_heart_6"
-			}
 			dependencies: [
 				"65D9CEE07F6BE60D"
 				"5535AD39631B59A8"
 			]
-			tasks: [
-				{
-					id: "2ADD69D11C616AC1"
-					type: "advancement"
-					advancement: "comamigos_balance:tier/tier_6"
-					criterion: ""
-					icon: {
-						count: 1
-						id: "comamigos_balance:tier_heart_6"
-					}
-				}
-			]
-			rewards: [ ]
-			title: "&5Tier VI&7 - A Serpente Anciã"
-			description: [
-				"&7Estas trilhas se abrem quando o grupo alcança o &5Tier VI&7 e qualquer uma das trilhas anteriores foi cumprida."
-			]
-			disable_toast: true
 			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "comamigos_balance:tier_heart_6"
+			}
+			id: "31D6BBFFF11CEFF0"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "comamigos_balance:tier/tier_6"
+				criterion: ""
+				icon: {
+					id: "comamigos_balance:tier_heart_6"
+				}
+				id: "2ADD69D11C616AC1"
+				type: "advancement"
+			}]
+			x: 39.0d
+			y: 0.0d
 		}
 		{
-			id: "0D46783634B4009D"
-			x: 41.0d
-			y: 0.0d
-			shape: "diamond"
+			dependencies: ["31D6BBFFF11CEFF0"]
 			icon: {
-				count: 1
 				id: "comamigos_balance:sea_serpent_heart"
 			}
-			dependencies: [
-				"31D6BBFFF11CEFF0"
-			]
-			tasks: [
-				{
-					id: "05BE9085433D5400"
-					type: "kill"
-					entity: "iceandfire:sea_serpent"
-					value: 1L
-				}
-			]
+			id: "0D46783634B4009D"
 			rewards: [
 				{
 					id: "64904C00FCC5BB3F"
@@ -2841,28 +1779,22 @@
 				}
 				{
 					id: "3B2776F3DD25FF82"
-					type: "item"
 					item: {
 						count: 1
 						id: "comamigos_balance:loot_bag_rara"
 					}
+					type: "item"
 				}
 			]
-			title: "A Serpente Anciã"
-			description: [
-				"&7As maiores serpentes do oceano são mais velhas que qualquer reino; algumas são chamadas de anciãs."
-				"&7Os marinheiros que as viram juram que o mar inteiro se levantou para morder."
-				""
-				"&6Objetivo:&r 1. Navegue para o mar aberto, longe da costa, onde as serpentes crescem sem limite."
-				"&f2. Cace uma &cserpente marinha&r gigantesca: fique fora d'água sempre que puder e ataque quando ela emergir."
-				"&f3. Reclame o seu &ccoração de troféu&r."
-				""
-				"&8Ela afunda barcos. Um hipocampo ou um dragão domado são a melhor montaria."
-			]
+			shape: "diamond"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "05BE9085433D5400"
+				type: "kill"
+				value: 1L
+			}]
+			x: 41.0d
+			y: 0.0d
 		}
-	]
-	title: "&cFeras de Gelo e Fogo"
-	subtitle: [
-		"Bestiário das feras antigas"
 	]
 }
