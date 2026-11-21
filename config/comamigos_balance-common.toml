@@ -66,3 +66,5 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
 	spawnCalmFactor = 0.5
+	#Same, for one creature: "namespace:creature=chance". Wins over the mod-wide rule above.
+	creatureSpawnChance = ["vampirism:vampire=0.015", "vampirism:vampire_imob=0.015", "vampirism:advanced_vampire=0.02", "vampirism:advanced_vampire_imob=0.02"]
