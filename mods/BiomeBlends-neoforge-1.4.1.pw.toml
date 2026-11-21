@@ -1,0 +1,13 @@
+name = "BiomeBlends-neoforge-1.4.1"
+filename = "BiomeBlends-neoforge-1.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/q95zxc4j/versions/IhnxbYRg/BiomeBlends-neoforge-1.4.1.jar"
+hash-format = "sha1"
+hash = "2835c23993d769c5a39ebf92bcc2f7dde84af38f"
+
+[update]
+[update.modrinth]
+mod-id = "q95zxc4j"
+version = "IhnxbYRg"
