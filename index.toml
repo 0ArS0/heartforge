@@ -542,7 +542,7 @@ hash = "0724139777a7a499a111d11ae1cc0cdd2928da7324083e49cea8ee11ca62fb3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "62c215fa396b0771c94bec36ba839886dbab0d352eb39173c4d48ffd764a9946"
+hash = "c430421fa337ac51a957f0d023c549ea65e9d3976ef3b64e28f5541525df71eb"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1174,7 +1174,7 @@ hash = "e25ac8cbb2e98c3753b51b40bc58c67bd1df572547572da08ce729e16f81ed56"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "9c27f37b81b0e322e6bc27210bffea3ed9fc1c8aafe68c326f4b124dcdcd0a42"
+hash = "9f86a51e84be77e1d6fa69c022ee53f1f3771d94e99c76b9225d8a2d7bab5e82"
 
 [[files]]
 file = "config/biomeparticleweather/config.txt"
@@ -1274,7 +1274,7 @@ hash = "a1772af826a1a6f16cc7a54fdfbfe7a944b155eabb12e7fb569e63179068eea0"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "83db22257f7ba522eebd24e42e043b3166f26ec31a4388b71d3c33f6dbfd329f"
+hash = "3611fa75b64e12bc9d7fd537a38818c2e7d520b547160dbebf03ea58b5d60335"
 
 [[files]]
 file = "config/cistj.json"
@@ -1354,7 +1354,7 @@ hash = "2e77b1d93b40ce3f381ad7eb2a9e6d7148de917518be5c2616939a4369c4b140"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
+hash = "31dff6c181c4a2d2b9c74e8b9c12234b39de02ea692c3f8f54e9becb7e847f15"
 
 [[files]]
 file = "config/create/client.json"
@@ -1650,7 +1650,7 @@ hash = "1d7075ca7221200f93e75e525781d1605537ce655d96a5e7313187614319d7ef"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ddf49131c6afeca441159281a4089c803bf181bd82f2b38ba7937844df84f391"
+hash = "46a9e29c91c0d2b4f04a3a2ffc495bab53bce43c502fcdbc7b82f760a4805510"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1998,7 +1998,7 @@ hash = "4f22c15b03f07b5d9774d3f7a6c245be401cf7dc6227e55defec76ccd49b5a89"
 
 [[files]]
 file = "config/handson_delight.properties"
-hash = "1dc371c2a316850e5c1a34c6ec7bd212d99e70081ee1bb8af2fd3c9b0f412b62"
+hash = "78d3e3f65224ad88a33d0d39ae9dccdf8f8803a3de0f5e7e8871f72afeb049d0"
 
 [[files]]
 file = "config/heartforge/bornal_mao.txt"
@@ -2082,7 +2082,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "79911374f5b6ac8e92ddc25848b068e6b3c5c4ee4b197f6922b678c26b411bea"
+hash = "29f1e128ac7565334e70f14d3ffe027f1a06929f6370211fa097a82aab765117"
 preserve = true
 
 [[files]]
@@ -2295,7 +2295,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "1fe0178ef37cf25323d43db7a7c62456093599df2b5f6b0e9d502791b0ffc3e7"
+hash = "4748a33cfccd613736581b0e7147b16b27d479f33163da4585120ff95b173b5d"
 
 [[files]]
 file = "config/lithium.properties"
@@ -2899,7 +2899,7 @@ hash = "9f2e3cc1cd587fd9de6fd4a068e4c247fde401d3fc6fd9a0da36627ddc5611a3"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "56f1f9215644602dd0e2906feb320d19233173f90da457d57c31c5ca8a795841"
+hash = "fd7506731c8ce8ec795501d73cee1a5b6353de7184e345e2783a2aca11be9978"
 
 [[files]]
 file = "config/scalablelux.properties"
@@ -3555,7 +3555,7 @@ hash = "bf179c73f8a353cce83f54a59696643e4d678b0ccb07d84dfd457e6e8b9190b8"
 
 [[files]]
 file = "emi.json"
-hash = "e54a54f2d834944923187ef9149e200a26e7d81c10486c3675579c190f1c9d41"
+hash = "960afffac5062542ee4ae8f0414ee9c4065fdce03484b0eef626ffcfdb2af836"
 
 [[files]]
 file = "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.pw.toml"
@@ -4366,7 +4366,7 @@ hash = "18d586d964bd4b7bb7e37f9b0bbfae1dff34eca8cd4ae10980d57b5e51adaba2"
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "52dfa47919690eb715d75b3d70bba2d440e540ee93510e8b095b494118e26637"
+hash = "020f93f7e107191ebc252fb050a927102307f4ba23347fd4ca1451bf9fc1443f"
 
 [[files]]
 file = "mods/hoofprint-1.3.0+1.21.pw.toml"
@@ -5322,4 +5322,4 @@ hash = "da0929b38f5fd99befaaa8cd141cbf60e1fad05b92d916d0eeeee7c79f86c0fd"
 
 [[files]]
 file = "shaderpacks/photon_v1.4.zip.txt"
-hash = "b8e7fb045646a03f22b4197d2c4cc858f482ade1ec6f19ba62b2fe91227b6d8a"
+hash = "1282baf7232c31a540f031caf6eb9f82350662cab12e648615cb55d21ab72f88"
