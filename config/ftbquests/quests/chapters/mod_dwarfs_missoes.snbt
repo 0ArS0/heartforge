@@ -2046,6 +2046,7 @@
 				{
 					id: "32FB81AB97BED4D4"
 					type: "item"
+					_kills: 3
 					item: {
 						count: 1
 						id: "comamigos_balance:boss_statue"

@@ -112,21 +112,6 @@
 					type: "xp"
 					xp: 1500
 				}
-				{
-					id: "3525CD228F5038D7"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:boss_statue"
-						components: {
-							"minecraft:block_entity_data": {
-								entity: "dwarfs_tyranny:skeleton_dwarf_king"
-								gold: 1b
-								id: "comamigos_balance:boss_statue"
-							}
-						}
-					}
-				}
 			]
 			title: "A Primeira Lenda"
 			subtitle: "&dGrande feito &8· &7Tier I"
@@ -2561,21 +2546,6 @@
 					type: "xp"
 					xp: 1500
 				}
-				{
-					id: "26F9BEC8FB1A2898"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:boss_statue"
-						components: {
-							"minecraft:block_entity_data": {
-								entity: "mowziesmobs:ferrous_wroughtnaut"
-								gold: 1b
-								id: "comamigos_balance:boss_statue"
-							}
-						}
-					}
-				}
 			]
 			title: "Presas de Pedra"
 			subtitle: "&6Desafio"
@@ -3159,21 +3129,6 @@
 					type: "xp"
 					xp: 2500
 				}
-				{
-					id: "1792E84C688E6739"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:boss_statue"
-						components: {
-							"minecraft:block_entity_data": {
-								entity: "minecraft:wither"
-								gold: 1b
-								id: "comamigos_balance:boss_statue"
-							}
-						}
-					}
-				}
 			]
 			title: "A Tripla Coroa"
 			subtitle: "&6Desafio"
@@ -3352,21 +3307,6 @@
 					id: "6EB53E5089FA464E"
 					type: "xp"
 					xp: 2500
-				}
-				{
-					id: "2576BB5FE9370108"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:boss_statue"
-						components: {
-							"minecraft:block_entity_data": {
-								entity: "asterion:minotaur"
-								gold: 1b
-								id: "comamigos_balance:boss_statue"
-							}
-						}
-					}
 				}
 			]
 			title: "O Campeão Caído, Duas Vezes"
@@ -5787,21 +5727,6 @@
 					id: "0DA568DA8C94D1A9"
 					type: "xp"
 					xp: 8000
-				}
-				{
-					id: "15F67FA306458E8D"
-					type: "item"
-					item: {
-						count: 1
-						id: "comamigos_balance:boss_statue"
-						components: {
-							"minecraft:block_entity_data": {
-								entity: "minecraft:ender_dragon"
-								gold: 1b
-								id: "comamigos_balance:boss_statue"
-							}
-						}
-					}
 				}
 			]
 			title: "O Fim, Outra Vez"
