@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:comamigos_balance:demolition_gauntlet",
     "item:minecraft:splash_potion{\"minecraft:potion_contents\":{potion:\"minecraft:weakness\"}}",
     "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:weakness\"}}",
     {
@@ -10,7 +11,6 @@
     },
     "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:strong_healing\"}}",
     "item:comamigos_balance:purifying_elixir_1",
-    "item:comamigos_balance:demolition_gauntlet",
     "item:farmersdelight:pie_crust",
     "item:farmersdelight:apple_pie",
     "item:comamigos_balance:tier_heart_2",
