@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"fantasticwings:dragon_wings\"}}",
+    "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"fantasticwings:angel_wings\"}}",
     "item:comamigos_balance:demolition_gauntlet",
     "item:minecraft:splash_potion{\"minecraft:potion_contents\":{potion:\"minecraft:weakness\"}}",
     "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:weakness\"}}",
@@ -253,8 +255,8 @@
     "item:botania:lens_fire",
     "item:minecraft:blaze_powder",
     [
-      "#item:c:glass_blocks/colorless",
-      "#item:c:glass_panes/colorless"
+      "#item:c:glass_panes/colorless",
+      "#item:c:glass_blocks/colorless"
     ],
     "item:irons_spellbooks:upgrade_orb",
     "item:botania:lens_mine",
