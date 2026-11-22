@@ -3,6 +3,23 @@
   "lookup_history": [
     {
       "type": "item",
+      "id": "minecraft:rooted_dirt",
+      "amount": 2
+    },
+    "item:iceandfire:silver_hoe{\"minecraft:damage\":34,\"minecraft:enchantments\":{levels:{\"minecraft:efficiency\":4}}}",
+    "item:irons_spellbooks:blank_rune",
+    "item:irons_spellbooks:lightning_bottle",
+    {
+      "type": "item",
+      "id": "irons_spellbooks:ruined_book",
+      "amount": 2
+    },
+    "item:quark:pathfinders_quill{\"quark:target_biome\":\"minecraft:jungle\",\"quark:target_biome_color\":-14502400,\"quark:target_biome_underground\":0b}",
+    "item:irons_spellbooks:ancient_knowledge_fragment",
+    "item:irons_spellbooks:eldritch_manuscript",
+    "item:mythsandlegends:tainted_bell",
+    {
+      "type": "item",
       "id": "minecraft:torch",
       "amount": 8
     },
@@ -10,7 +27,6 @@
     "item:quark:framed_glass",
     "item:minecraft:cracked_stone_bricks",
     "item:minecraft:campfire",
-    "item:iceandfire:silver_hoe{\"minecraft:enchantments\":{levels:{\"minecraft:efficiency\":4}}}",
     "item:waystones:deepslate_waystone{\"waystones:waystone\":[I;-34586857,-75283002,-1982782832,-497202187]}",
     "item:minecraft:sculk",
     "item:block_factorys_bosses:ship_lantern",
@@ -270,11 +286,6 @@
     "item:farmersdelight:wheat_dough",
     "item:create:dough",
     "item:farmersdelight:horse_feed",
-    {
-      "type": "item",
-      "id": "irons_spellbooks:ancient_knowledge_fragment",
-      "amount": 5
-    },
     "item:minecraft:emerald{\"minecraft:custom_name\":\u0027{\"color\":\"red\",\"italic\":false,\"text\":\"Rupee\"}\u0027}",
     "item:effortlessbuilding:randomizer_tool",
     "item:oddities:giant_purple_orchid",
@@ -798,6 +809,13 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
+    "biomeswevegone:zelkova_pressure_plate",
+    "biomeswevegone:zelkova_planks",
+    "minecraft:furnace",
+    "iceandfire:silver_pickaxe",
+    "iceandfire:silver_hoe",
+    "werewolves:silver_shovel",
+    "irons_spellbooks:eldritch_manuscript",
     "minecraft:torch",
     "quark:building/crafting/vertplanks/vertical_dark_oak_planks",
     "quark:building/crafting/vertslabs/dark_oak_vertical_slab",
@@ -806,7 +824,6 @@
     "quark:building/crafting/glass/framed_glass",
     "quark:building/crafting/cobblestone_bricks",
     "minecraft:campfire",
-    "iceandfire:silver_hoe",
     "block_factorys_bosses:lighting/ship_lantern",
     "minecraft:blaze_powder",
     "simplyswords:iron_sai",
@@ -836,7 +853,6 @@
     "quark:building/crafting/stairs/cobblestone_bricks_stairs",
     "botania:cacophonium",
     "minecraft:note_block",
-    "biomeswevegone:zelkova_planks",
     "toms_storage:trim",
     "minecraft:blackstone_stairs",
     "minecraft:barrel",
@@ -866,7 +882,6 @@
     "minecraft:fire_charge",
     "minecraft:glowstone",
     "botania:lens_fire",
-    "minecraft:furnace",
     "botania:lens_mine",
     "terralith:piston_alt",
     "minecraft:piston",
@@ -924,7 +939,6 @@
     "minecraft:bucket",
     "effortlessbuilding:randomizer_tool",
     "oddities:orchid_heart_recipe",
-    "iceandfire:silver_pickaxe",
     "simplyswords:iron_katana",
     "minecraft:grindstone",
     "minecraft:stone_slab",
@@ -946,7 +960,6 @@
     "simplyswords:gold_spear",
     "simplyswords:iron_spear",
     "simplyswords:iron_claymore",
-    "werewolves:silver_shovel",
     "minecraft:enchanting_table",
     "minecraft:bow",
     "create:crafting/schematics/schematic_table",
