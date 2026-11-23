@@ -1261,7 +1261,7 @@
 				"&8O Caixote Aberto combina com funis e flores que comem itens (Endochama, Gourmarílis...)."
 				""
 				"&6Feitos a cumprir:"
-				"[{\"translate\": \"advancement.botania:old_flower_pickup\", \"fallback\": \"Deja Vu\", \"color\": \"yellow\"}, {\"text\": \": Descubra a Nascer do Dia Motif ou Sombra-Noturna Motif\", \"color\": \"gray\"}]"
+				"[{\"translate\": \"advancement.botania:old_flower_pickup\", \"fallback\": \"Deja Vu\", \"color\": \"yellow\"}, {\"text\": \": Faça no Boticário de Pétalas uma flor antiga: a Daybloom Motif (2 pétalas amarelas, 1 laranja e 1 azul-clara) ou a Nightshade Motif (2 pétalas pretas, 1 roxa e 1 cinza). Com água no boticário, jogue as pétalas e depois uma semente, e pegue a flor.\", \"color\": \"gray\"}]"
 				"[{\"translate\": \"advancement.botania:cacophoniumCraft\", \"fallback\": \"Noisy Lover Soul\", \"color\": \"yellow\"}, {\"text\": \": Crie um Cacofônio para irritar seus inimigos\", \"color\": \"gray\"}]"
 			]
 			optional: true
