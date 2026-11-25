@@ -542,7 +542,7 @@ hash = "0724139777a7a499a111d11ae1cc0cdd2928da7324083e49cea8ee11ca62fb3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "e1e7ce46489cda5df2d3b9c909ae09a3f8396d235ec635d6bf51065c000802f8"
+hash = "40aef497533eb063fe9b525434902ebd1979b00afec598d4ae4db68eef61ddca"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1174,7 +1174,7 @@ hash = "e25ac8cbb2e98c3753b51b40bc58c67bd1df572547572da08ce729e16f81ed56"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "5aa53fb1a6b66ca9bced7242a458e72236de5c1286c3224f0aff97dd910dbedd"
+hash = "346f36a6ebe743274b0d4bec625a1dc2f8d31213e64c28ca2c79c438147bdbbd"
 
 [[files]]
 file = "config/biomeblends-common.toml"
@@ -1274,7 +1274,7 @@ hash = "0b07be339a15a820659401d2eee37b557fc64154d9e489c09c50a97bb4344cfb"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "9ba9503a482edf65a504c5721ea9488c341fcfee1965f984a7a9d65c5521c8de"
+hash = "111c1718e2dd0da28371ef05c260b6bfc6ad014af4e48da91e4cb698b462dfaa"
 
 [[files]]
 file = "config/cistj.json"
@@ -1649,8 +1649,20 @@ file = "config/explosiveenhancement.json"
 hash = "1d7075ca7221200f93e75e525781d1605537ce655d96a5e7313187614319d7ef"
 
 [[files]]
+file = "config/exposure-client.toml"
+hash = "d2f9b7dc9155c116f5aca00c8eabdef3a9da0eb84b321da7e7fdeefb94fe9905"
+
+[[files]]
+file = "config/exposure-common.toml"
+hash = "f437a2bff2337eecc996f8d0d17d348403eae070045dfbd37065c6fcb79ce6ce"
+
+[[files]]
+file = "config/exposure-server.toml"
+hash = "a4e7d2d6bac537024dda0a613d6edfbb114cb4971e692e010cf5a43cb743e675"
+
+[[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "c9779b45318be6880b7b4da4255975b38a86d8d2dc4d4b21efd74e69bd25947f"
+hash = "400fced0f17322b70eb98f537d326dd3a463c6722a6990bd4f591271b48cefa7"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1998,7 +2010,7 @@ hash = "4f22c15b03f07b5d9774d3f7a6c245be401cf7dc6227e55defec76ccd49b5a89"
 
 [[files]]
 file = "config/handson_delight.properties"
-hash = "ce8684cb4d9dc3bf960c96bccf9bb5fc7c989ce05250e158621e0170b2f05621"
+hash = "d5a99a7d769318dbbf510c99bdca8310da359ee8a0bb4789f1d685f36897ab1e"
 
 [[files]]
 file = "config/heartforge/bornal_mao.txt"
@@ -2082,7 +2094,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "ac44cefe904170d4b6f01200f6a76a6486039ff0746e563686387b59a6ecf4bc"
+hash = "075540b35243f596f8d5a316b2c1e1e846a87a331785ca8d92f766b003b44d26"
 preserve = true
 
 [[files]]
@@ -2131,7 +2143,7 @@ hash = "5754114a0a663b321793a61f741bafa70c2a6dd649657260cdc096600763ad94"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "c52018c0e737e74a3aac4bef718dca261ddfc1665f4446a979251a68a3b26ec2"
+hash = "c89cc8c39aa078786d64f582fe1bf9dac43f483eeb2c52f30d5742bef9269413"
 
 [[files]]
 file = "config/jade/profiles/1/jade.json"
@@ -2151,7 +2163,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "7f0aade518ef1d204b2fb6c45e5ab9f35db2fc699d0e53b38735b59d1df169b0"
+hash = "e27fff97c966806a8d15c080140463f42e4e47c5cd0f84a6293909bdf3f6d579"
 
 [[files]]
 file = "config/jei/blacklist.json"
@@ -2191,7 +2203,7 @@ hash = "2e5119684366f75bc8a6df871381c6094a812cadd0d5ed0547405b5f1353f9e1"
 
 [[files]]
 file = "config/jei/client/recipe-category-sort-order.ini"
-hash = "06f35c06383c6b2562a136eaf984b34e7239105e63888fdb14e45410e14a42c9"
+hash = "d3929981fd8197dc8b4716a7f37a25cc67592e3f75116c274cf5a0bc4ad63ecc"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
@@ -2295,7 +2307,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "a8ccd1d140fb2481587af59ab6ed1948af5aba315181275b4a24ab3c08f29884"
+hash = "42c01d4ddee275725caa89061d3e77572c834b33cdc29eb3f079c6b22bfa4f13"
 
 [[files]]
 file = "config/lithium.properties"
@@ -2459,7 +2471,7 @@ hash = "8a45aef57f24a743a2da180a1976167beef05bbeb5f840668a11dc20baacaa28"
 
 [[files]]
 file = "config/neoorigins/hud.json"
-hash = "a3524e8f9b21eabeb6e1a2f997de5cf6336594112e8c5b021f157fedacfd6dac"
+hash = "06c4beeaf43ac151783435351a15afe1b2503357173e7b3a8954222cdbec7406"
 
 [[files]]
 file = "config/neoorigins/power_overrides.toml"
@@ -2783,7 +2795,7 @@ hash = "8e8b58cdda9ca683eaf6923e901341bb1f44e0fbb4fccad4d7db760629072662"
 
 [[files]]
 file = "config/respackopts/_respackopts.conf"
-hash = "20ec40bd848de64dbb03f20e5868608f23b33d0232170c64246b9d688b493747"
+hash = "8e42c76481421e2b3f3c83481e3920319b78b69c6c987e02e4c52bc7ea4e1be4"
 
 [[files]]
 file = "config/respackopts/armoredLegacy.json"
@@ -2899,7 +2911,7 @@ hash = "9f2e3cc1cd587fd9de6fd4a068e4c247fde401d3fc6fd9a0da36627ddc5611a3"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "13811c81cad9b55ab753d7738619da2fea862a151b98a50fae292b6a517d5182"
+hash = "d2002893ec2f308cac0186013e15ba5ab4f19d44687198458c5f6343922a7a49"
 
 [[files]]
 file = "config/scalablelux.properties"
@@ -3050,6 +3062,10 @@ file = "config/smoothswapping.json"
 hash = "cf9e6da3fb5622c00d1483c183e5e7e5ca00942ab673bed82986d67d16bd166c"
 
 [[files]]
+file = "config/snappy_blocks.json"
+hash = "ec2ba09ca9cf6f7751cb309d5bbef15f778e4fafc83427a9469ae635267c8e07"
+
+[[files]]
 file = "config/sodium-extra-options.json"
 hash = "d2ac353daded94a74109bca888d610fe3c40f63f935fb8478697e2cd3043f2ae"
 preserve = true
@@ -3117,7 +3133,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "b25ff81f53b906453c0571935e5890bb726c80abd5ec276d5d0a2dd0374363a7"
+hash = "6cdd71c7aa6e394055180fdbea4227c2d18e9dc19798ced9e3bb9d4e02649ca5"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -3453,7 +3469,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "e99958e015dd04023aa13e3a7ad525314afba8d408677b44bf8ce6c64b433d0b"
+hash = "c78795cbcbd78c04dbda754ff02320fb043dd50260a2b171765bece653907763"
 preserve = true
 
 [[files]]
@@ -3466,7 +3482,7 @@ hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
 
 [[files]]
 file = "config/voxy-config.json"
-hash = "ed815d2c4870d7e9f04aadc1c6cacc1bd6e97c34f572f80005eb61778cd11599"
+hash = "97b239745bed262948357036bf6b593cf69f875c915118e1498b9eef4d2b4b03"
 preserve = true
 
 [[files]]
@@ -3492,6 +3508,10 @@ hash = "9ed4bbd1945e587c608811cbd475c4c967e362b51434e2aa7b4a1650ffa4e673"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "01acb3ed977c2e88e60ca391f53901edd46388ae0bb55fec82578ef294d6b7ed"
+
+[[files]]
+file = "config/weatherglass.properties"
+hash = "0c4f17c3f97061533919c9e40f2209a70f772930dd6c753f11975699ca8da94e"
 
 [[files]]
 file = "config/werewolves-balance.toml"
@@ -3555,7 +3575,7 @@ hash = "bf179c73f8a353cce83f54a59696643e4d678b0ccb07d84dfd457e6e8b9190b8"
 
 [[files]]
 file = "emi.json"
-hash = "bcbeaeb8a0e94f772a0e796520e388615b8e780f62b73c7cb31fc7913284d4f7"
+hash = "7c576a725ca96ab3aa2deede27bcf359d86706901abfc71b8828406e4e8aaf70"
 
 [[files]]
 file = "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.pw.toml"
@@ -4372,7 +4392,7 @@ hash = "18d586d964bd4b7bb7e37f9b0bbfae1dff34eca8cd4ae10980d57b5e51adaba2"
 
 [[files]]
 file = "mods/heartforge-neoforge-1.21.1-1.0.0.jar"
-hash = "2aeb8ac1c4c57af3b5aba02f22c7082d3eae40f96be234dafbc9986dafb480a0"
+hash = "66ba945040527f6968e5b460b2233f2984a9b8da8b515295c0f3784bd6ae2e19"
 
 [[files]]
 file = "mods/hoofprint-1.3.0+1.21.pw.toml"
@@ -4895,7 +4915,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "4af2494a778a25580aede6e42755aebb02087a6cf815e061797394e8d1301077"
+hash = "dcae2b0bd999d730c45b89d536583d0091a2014422c1c2f3da3682a1bab337c5"
 preserve = true
 
 [[files]]
@@ -5336,4 +5356,4 @@ hash = "da0929b38f5fd99befaaa8cd141cbf60e1fad05b92d916d0eeeee7c79f86c0fd"
 
 [[files]]
 file = "shaderpacks/photon_v1.4.zip.txt"
-hash = "59fb2e43f17a1cfdd3c8c78506dd35fc617843c537456cfcd13cf1cb4cbfe0b6"
+hash = "445444eed8469d4938bedc7582869ba1cfbbfb36db154f429e2a4f0392a9beeb"

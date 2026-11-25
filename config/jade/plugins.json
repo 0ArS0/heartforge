@@ -128,6 +128,10 @@
     "functional_flower": true,
     "mana_bar_color": "#0095FF"
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "toms_storage": {
     "inventory_hopper": true,
     "inventory_config": true,

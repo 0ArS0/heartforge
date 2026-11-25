@@ -1,10 +1,109 @@
 {
   "favorites": [
     {
-      "stack": "item:biomeblends:biome_blend{\"biomeblends:blend_type\":\"biomeswevegone:rose_fields\"}"
+      "stack": "item:biomeblends:biome_blend{\"biomeblends:blend_type\":\"biomeswevegone:crimson_tundra\"}"
     }
   ],
   "lookup_history": [
+    "item:comamigos_balance:tier_heart_2",
+    "item:irons_spellbooks:arcane_anvil",
+    "item:minecraft:damaged_anvil",
+    {
+      "type": "item",
+      "id": "irons_spellbooks:lightning_bottle",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "irons_spellbooks:fire_ale",
+      "amount": 4
+    },
+    "item:irons_spellbooks:scroll_forge",
+    {
+      "type": "item",
+      "id": "minecraft:red_nether_bricks",
+      "amount": 42
+    },
+    {
+      "type": "item",
+      "id": "minecraft:nether_wart",
+      "amount": 64
+    },
+    "item:dwarfs_tyranny:mythril_armor_helmet",
+    "item:biomeblends:biome_blend{\"biomeblends:blend_type\":\"biomeswevegone:crimson_tundra\"}",
+    {
+      "type": "item",
+      "id": "quark:dark_oak_ladder",
+      "amount": 3
+    },
+    "item:minecraft:dark_oak_planks",
+    "item:minecraft:barrel",
+    "item:comamigos_balance:demolition_gauntlet",
+    "item:minecraft:tnt",
+    "item:minecraft:gunpowder",
+    "item:minecraft:firework_rocket",
+    {
+      "type": "item",
+      "id": "minecraft:coarse_dirt",
+      "amount": 31
+    },
+    "item:subwild:mossy_stone",
+    {
+      "type": "item",
+      "id": "minecraft:redstone_lamp",
+      "amount": 2
+    },
+    "item:minecraft:glowstone",
+    "item:minecraft:daylight_detector",
+    "item:minecraft:repeater",
+    "item:biomeswevegone:rose",
+    {
+      "type": "item",
+      "id": "biomeswevegone:mossy_stone",
+      "amount": 45
+    },
+    "item:dwarfs_tyranny:separator",
+    {
+      "type": "item",
+      "id": "minecraft:cobblestone",
+      "amount": 48
+    },
+    "item:irons_spellbooks:evocation_rune",
+    {
+      "type": "item",
+      "id": "irons_spellbooks:blank_rune",
+      "amount": 19
+    },
+    "item:irons_spellbooks:arcane_rune",
+    {
+      "type": "item",
+      "id": "irons_spellbooks:upgrade_orb",
+      "amount": 3
+    },
+    "item:irons_spellbooks:fire_rune",
+    "item:irons_spellbooks:fire_upgrade_orb",
+    "item:minecraft:bell",
+    "item:furnish:rare_chinese_plate",
+    {
+      "type": "item",
+      "id": "minecraft:vine",
+      "amount": 4
+    },
+    "item:biomeswevegone:black_rose",
+    "item:biomeblends:biome_blend{\"biomeblends:blend_type\":\"biomeswevegone:rose_fields\"}",
+    "item:iceandfire:silver_hoe",
+    "item:farmersdelight:cooked_bacon",
+    {
+      "type": "item",
+      "id": "farmersdelight:bacon",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "minecraft:porkchop",
+      "amount": 64
+    },
+    "item:minecraft:cooked_porkchop",
     "item:rechiseled:red_nether_bricks_beams_connecting",
     {
       "type": "item",
@@ -21,18 +120,11 @@
     "item:occultism:book_of_binding_bound_djinni",
     "item:minecraft:blaze_rod",
     {
-      "type": "item",
-      "id": "minecraft:nether_wart",
-      "amount": 40
-    },
-    {
       "type": "fluid",
       "id": "irons_spellbooks:blood",
       "amount": 250
     },
     "item:irons_spellbooks:blood_vial",
-    "item:irons_spellbooks:lightning_bottle",
-    "item:irons_spellbooks:scroll_forge",
     "item:minecraft:crying_obsidian",
     "item:irons_spellbooks:copper_spell_book{\"irons_spellbooks:spell_container\":{data:[],maxSpells:5,mustEquip:1b,spellWheel:1b}}",
     "item:irons_spellbooks:wandering_magician_boots",
@@ -66,7 +158,6 @@
     "item:create:sticky_mechanical_piston",
     "item:create:mechanical_piston",
     "item:create:piston_extension_pole",
-    "item:minecraft:red_nether_bricks",
     "item:create:clutch",
     "item:minecraft:nether_brick",
     "item:create:andesite_alloy",
@@ -88,7 +179,6 @@
     "item:minecraft:chipped_anvil",
     "item:minecraft:deepslate_bricks",
     "item:minecraft:polished_deepslate",
-    "item:comamigos_balance:demolition_gauntlet",
     "item:create:mechanical_crafter",
     "item:create:precision_mechanism",
     "item:create:iron_sheet",
@@ -100,8 +190,6 @@
     "item:rechiseled:cobbled_deepslate_pillar",
     "item:minecraft:cobbled_deepslate",
     "item:biomeblends:biome_blend{\"biomeblends:blend_type\":\"biomeswevegone:zelkova_forest\"}",
-    "item:biomeswevegone:black_rose",
-    "item:biomeblends:biome_blend{\"biomeblends:blend_type\":\"biomeswevegone:rose_fields\"}",
     "item:supplementaries:blackstone_tile_stairs",
     "item:handcrafted:dark_oak_table",
     "item:handcrafted:dark_oak_side_table",
@@ -134,7 +222,6 @@
     "item:comamigos_balance:purifying_elixir_1",
     "item:farmersdelight:pie_crust",
     "item:farmersdelight:apple_pie",
-    "item:comamigos_balance:tier_heart_2",
     "item:comamigos_balance:boss_compass",
     "item:waystones:warp_plate",
     "item:waystones:dormant_shard",
@@ -225,17 +312,12 @@
       "id": "quark:mossy_cobblestone_bricks",
       "amount": 28
     },
-    "item:subwild:mossy_stone",
-    "item:minecraft:vine",
     "item:subwild:dirt_slab",
-    "item:minecraft:coarse_dirt",
     {
       "type": "item",
       "id": "minecraft:rooted_dirt",
       "amount": 2
     },
-    "item:iceandfire:silver_hoe{\"minecraft:damage\":34,\"minecraft:enchantments\":{levels:{\"minecraft:efficiency\":4}}}",
-    "item:irons_spellbooks:blank_rune",
     {
       "type": "item",
       "id": "irons_spellbooks:ruined_book",
@@ -279,7 +361,6 @@
       "id": "handcrafted:dark_oak_pillar_trim",
       "amount": 4
     },
-    "item:minecraft:dark_oak_planks",
     {
       "type": "item",
       "id": "minecraft:dark_oak_stairs",
@@ -287,7 +368,6 @@
     },
     "item:minecraft:grass_block",
     "item:dwarfs_tyranny:nitrolite",
-    "item:dwarfs_tyranny:separator",
     {
       "type": "item",
       "id": "minecraft:nether_wart_block",
@@ -331,7 +411,6 @@
     "item:minecraft:white_dye",
     "item:minecraft:comparator",
     "item:toms_storage:inventory_connector",
-    "item:minecraft:barrel",
     "item:irons_spellbooks:mithril_ingot",
     "item:quark:diamond_heart",
     "item:dwarfs_tyranny:guard_dwarf_egg",
@@ -347,14 +426,12 @@
     "item:botania:pattern_framed_livingwood",
     "item:botania:lens_light",
     "item:minecraft:fire_charge",
-    "item:minecraft:glowstone",
     "item:botania:lens_fire",
     "item:minecraft:blaze_powder",
     [
-      "#item:c:glass_blocks/colorless",
-      "#item:c:glass_panes/colorless"
+      "#item:c:glass_panes/colorless",
+      "#item:c:glass_blocks/colorless"
     ],
-    "item:irons_spellbooks:upgrade_orb",
     "item:botania:lens_mine",
     "item:minecraft:piston",
     "item:farmersdelight:pasta_with_mutton_chop",
@@ -469,11 +546,6 @@
       "amount": 16
     },
     "item:minecraft:milk_bucket",
-    {
-      "type": "item",
-      "id": "farmersdelight:bacon",
-      "amount": 29
-    },
     "item:vampiresdelight:rice_bread",
     {
       "type": "item",
@@ -545,11 +617,6 @@
       "amount": 32
     },
     "item:botania:blue_mystical_flower",
-    {
-      "type": "item",
-      "id": "minecraft:gunpowder",
-      "amount": 60
-    },
     "item:botania:alchemy_catalyst",
     "item:born_in_chaos_v1:phantom_powder",
     "item:occultism:soul_shattered{\"minecraft:entity_data\":{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Brain:{memories:{}},CanPickUpLoot:0b,CitadelData:{},DeathTime:0s,ExplosionRadius:3b,FallDistance:0.0f,FallFlying:0b,Fire:-1s,Fuse:30s,HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:1477,HurtTime:10s,Invulnerable:0b,LeftHanded:0b,Motion:[0.013341665918109966d,0.24880001664161683d,0.30337946317871134d],NeoForgeData:{},OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[853.5639735728472d,76.0d,1593.084769437881d],Rotation:[142.3549f,0.0f],UUID:[I;-696587813,1472024517,-1126488184,1652269797],attributes:[{base:0.0d,id:\"minecraft:generic.armor\"},{base:16.0d,id:\"minecraft:generic.follow_range\",modifiers:[{amount:-0.04938504061570969d,id:\"minecraft:random_spawn_bonus\",operation:\"add_multiplied_base\"}]},{base:0.0d,id:\"minecraft:generic.knockback_resistance\"},{base:0.25d,id:\"minecraft:generic.movement_speed\"},{base:0.0d,id:\"minecraft:generic.oxygen_bonus\"}],dd_evaluated_in:\"minecraft:overworld\",dd_scaled:0,id:\"minecraft:creeper\",ignited:0b,\"neoforge:attachments\":{\"apothic_attributes:aux_dmg_tracker\":{},\"botania:loonium_drop\":{},\"botania:tigerseye_pacified\":{},\"iceandfire:chain_data\":{chainedTo:[]},\"iceandfire:misc_data\":{loveTicks:0,lungeTicks:0,targetedByScepters:[]},\"mowziesmobs:ability_data\":{},\"mowziesmobs:frozen_data\":{freezeDecayDelay:0,freezeProgress:0.0f,frozen:0b,frozenPitch:0.0f,frozenRenderYawOffset:0.0f,frozenSwingProgress:0.0f,frozenWalkAnimPosition:0.0f,frozenWalkAnimSpeed:0.0f,frozenYaw:0.0f,frozenYawHead:0.0f,prevFrozen:0b,prevHasAI:1b},\"mowziesmobs:living_data\":{},\"neoorigins:minion_owner\":{},\"neoorigins:mob_origin_data\":{},\"vampiricageing:ageing_manager\":{},\"vampirism:extended_creature\":{bloodLevel:-1,max_blood:-1,poisonousBlood:0b},\"witherreincarnated:possessed\":{PossessedFor:0,PossessionCooldown:0,PossessionTime:0}},\"neoforge:spawn_type\":\"NATURAL\"}}",
@@ -578,13 +645,7 @@
     "item:minecraft:beetroot",
     "item:farmersdelight:iron_knife",
     "item:farmersdelight:cutting_board",
-    "item:minecraft:porkchop",
     "#item:minecraft:meat",
-    {
-      "type": "item",
-      "id": "minecraft:cooked_porkchop",
-      "amount": 64
-    },
     "item:biomeswevegone:red_maple_sapling",
     "item:botania:lexicon{\"minecraft:custom_data\":{\"botania:elven_unlock\":1b}}",
     "item:quark:hollow_mangrove_log",
@@ -742,7 +803,6 @@
     "item:comamigos_balance:leather_satchel",
     "item:quark:soul_bead",
     "item:everycomp:q/cataclysm/chorus_ladder",
-    "item:minecraft:repeater",
     "item:mythsandlegends:bound_soul_ingot",
     {
       "type": "item",
@@ -988,8 +1048,28 @@
     "item:iceandfire:dragonsteel_fire_sword"
   ],
   "craft_history": [
-    "minecraft:red_nether_brick_stairs",
+    "minecraft:spruce_planks",
+    "minecraft:crimson_pressure_plate",
     "minecraft:red_nether_bricks",
+    "biomeswevegone:blend_type/crimson_tundra",
+    "quark:building/crafting/ladders/dark_oak_ladder",
+    "minecraft:dark_oak_planks",
+    "minecraft:barrel",
+    "neoorigins:compat_inline/origins_fantasy_tnt",
+    "minecraft:tnt",
+    "minecraft:firework_rocket",
+    "minecraft:crafting_table",
+    "minecraft:dark_oak_fence",
+    "subwild:mossy_stone",
+    "minecraft:redstone_lamp",
+    "minecraft:glowstone",
+    "minecraft:daylight_detector",
+    "terralith:lever_alt",
+    "quark:tweaks/crafting/utility/misc/repeater",
+    "minecraft:iron_boots",
+    "minecraft:emerald",
+    "iceandfire:silver_hoe",
+    "minecraft:red_nether_brick_stairs",
     "vampirism:general/injection_1",
     "vampirism:general/injection_0",
     "vampirism:hunter/stake",
@@ -1036,7 +1116,6 @@
     "minecraft:polished_andesite",
     "handcrafted:dark_oak_table",
     "handcrafted:dark_oak_side_table",
-    "minecraft:dark_oak_planks",
     "furnish:furniture_workbench",
     "minecraft:shears",
     "quark:building/crafting/stairs/mossy_cobblestone_bricks_stairs",
@@ -1045,14 +1124,11 @@
     "minecraft:compass",
     "quark:building/crafting/bookshelves/lectern_with_variant_bookshelves",
     "minecraft:dark_oak_trapdoor",
-    "minecraft:iron_boots",
     "quark:building/crafting/chests/crimson_chest",
     "minecraft:crimson_planks",
     "waystones:dormant_shard",
     "toms_storage:inventory_cable",
     "create:crafting/kinetics/mechanical_crafter",
-    "minecraft:crafting_table",
-    "terralith:lever_alt",
     "create:crafting/materials/electron_tube",
     "create:crafting/materials/sand_paper",
     "create:crafting/materials/rose_quartz",
@@ -1097,7 +1173,6 @@
     "biomeswevegone:zelkova_pressure_plate",
     "biomeswevegone:zelkova_planks",
     "minecraft:furnace",
-    "iceandfire:silver_hoe",
     "werewolves:silver_shovel",
     "irons_spellbooks:eldritch_manuscript",
     "minecraft:torch",
@@ -1118,11 +1193,9 @@
     "quark:building/crafting/vertslabs/spruce_vertical_slab",
     "minecraft:spruce_slab",
     "minecraft:spruce_trapdoor",
-    "minecraft:spruce_planks",
     "quark:building/chests/spruce_chest_wood",
     "minecraft:spruce_fence",
     "handcrafted:dark_oak_corner_trim",
-    "minecraft:dark_oak_fence",
     "handcrafted:dark_oak_pillar_trim",
     "minecraft:dark_oak_stairs",
     "quark:building/crafting/chests/oak_chest",
@@ -1133,7 +1206,6 @@
     "minecraft:note_block",
     "toms_storage:trim",
     "minecraft:blackstone_stairs",
-    "minecraft:barrel",
     "biomeswevegone:redwood_slab",
     "minecraft:nether_bricks",
     "minecraft:iron_ingot_from_iron_block",
@@ -1158,7 +1230,6 @@
     "botania:pattern_framed_livingwood",
     "botania:lens_light",
     "minecraft:fire_charge",
-    "minecraft:glowstone",
     "botania:lens_fire",
     "botania:lens_mine",
     "terralith:piston_alt",
@@ -1167,7 +1238,6 @@
     "minecraft:bowl",
     "botania:mana_pool",
     "botania:open_crate",
-    "quark:building/crafting/ladders/dark_oak_ladder",
     "quark:tweaks/crafting/utility/misc/easy_sticks",
     "quark:tweaks/crafting/utility/misc/easy_hopper",
     "botania:conversions/black_petal_block_deconstruct",
